@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-05T17:47:25.508227+00:00",
+  "generated_at": "2026-08-05T19:44:17.628994+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 75,
-  "total_items_in_window": 363,
-  "total_clusters_raw": 145,
-  "total_clusters_in_packet": 66,
-  "dropped_low_score": 79,
+  "feeds_ok": 74,
+  "total_items_in_window": 355,
+  "total_clusters_raw": 138,
+  "total_clusters_in_packet": 67,
+  "dropped_low_score": 71,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -74,12 +81,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -95,33 +109,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -137,12 +137,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -151,11 +151,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 15,
       "in_window_count": 1
     },
     "Cisco Talos": {
@@ -165,12 +165,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -179,19 +179,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -200,25 +200,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 1
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -249,13 +249,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
@@ -269,6 +262,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -284,19 +284,19 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 2
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -305,12 +305,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 6
+      "in_window_count": 9
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -319,12 +319,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 9
+      "in_window_count": 6
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -332,6 +332,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -347,33 +354,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -382,13 +368,6 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -396,18 +375,25 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 5,
+      "item_count": 100,
       "in_window_count": 5
     },
     "OpenSSF Blog": {
@@ -416,6 +402,27 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,12 +438,26 @@
       "item_count": 20,
       "in_window_count": 19
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 1
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -457,35 +478,14 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 30
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 29
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 22
+      "in_window_count": 24
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -501,13 +501,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -521,6 +514,13 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -536,22 +536,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -563,13 +563,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -585,12 +578,19 @@
       "item_count": 100,
       "in_window_count": 25
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 17
+      "in_window_count": 16
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -733,6 +733,33 @@
           }
         },
         {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "CVE-2026-18556 and CVE-2026-18577 | N-able N-central Authentication Bypass Vulnerabilities",
+          "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
+          "published": "2026-08-05T18:54:10+00:00",
+          "summary": "CVE-2026-18556 and CVE-2026-18577 are authentication bypass vulnerabilities affecting N-able N-central. NodeZero® Rapid Response safely validates exposure and verifies remediation.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-18556",
+              "CVE-2026-18577"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
@@ -783,32 +810,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
-          "published": "2026-08-03T17:00:56+00:00",
-          "summary": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-18577"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -1347,8 +1348,101 @@
       ]
     },
     {
+      "cluster_id": "1bbada40f0",
+      "priority_score": 29,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
+        "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
+        "published": "2026-08-04T13:00:11+00:00",
+        "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain. The post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Insights Vulnerabilities Vulnerabilities The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software 11 min read Related Products Unit 42 AI Security Assessment Unit 42 Frontier AI Defense Unit 42 Incident Response By: Xu Zou Published: August 4, 2026 Categories: General Insights Vulnerabilities Tags: AI Frontier AI Vulnerability Exploitation Zero-day Share Executive Summary Frontier AI is fundamentally shifting the dynamics of cybersecurity — accelerating both how vulnerabilities are discovered and how quickly they can be exploited. Our vulnerability research team built an autonomous vulnerability discovery, validation and reporting system that we call Network and Open-Source Vulnerability Analyzer (NOVA), an agentic research system that leverages proprietary AI harnesses powered by multiple leading frontier AI models. Our goal with this research is twofold: (1) contribute to improving the security of the software supply chain; and (2) ensure our customers are protected from vulnerabilities in the AI era. In just two months, NOVA analyzed 3,915 open-source software (OSS) projects and uncovered 14,090 confirmed vulnerabilities, 99.4% of which were previously unreported and 40% of them designated as high or critical severity. Nearly every frontier and open-weight model evaluated could find real vulnerabilities, with the strongest results coming from an ensemble of models, specialized security tools, and automated harnesses working together. These initial results illustrate just how dramatic the impact of AI is on the vulnerability landscape. In response to these significant results, we are actively partnering with open-source maintainers and clearinghouses such as Lightwell and Akrites to responsibly disclose these vulnerabilities and ensure they are patched upstream quickly and securely. Securing the broader open-source supply chain ultimately protects the entire software ecosystem and benefits everyone. Our experience with NOVA highlights a clear structural change: the patch window has collapsed. When vulnerability discovery accelerates, the time between disclosure and potential exploitation shrinks dramatically. And attackers need not have access to the latest frontier AI model to reverse engineer patches and develop exploits automatically. This new reality also makes virtual patching an even more important defense strategy in the AI era, and is a key driving force behind our recently announced Advanced Virtual Patching , the next evolution in network vulnerability protection. Advanced Virtual Patching is designed to operate at the speed of AI to keep pace with the new normal of higher rates of vulnerability discovery and compressed attack windows. By harnessing frontier AI to discover unknown vulnerabilities, and deploying protections in hours, we are collapsing the exposure window from the industry-average 55 days it takes to deploy a traditional patch down into a near-zero window of exposure. Our new “vaulted protection” technology enables us to deliver protections ahead of patch availability in a safe and responsible manner. In addition to these protections available with our network security platform, we recommend that organizations deploy relevant best practices, including vulnerability management, zero-trust network architecture, software supply chain security, and other attack surface reduction best practices. NOVA: Fully Automated Novel Vulnerability Discovery and Validation Our vulnerability research team built a fully autonomous vulnerability discovery system requiring no human in the loop until final review. We call this the Network and Open-Source Vulnerability Analyzer (NOVA). For each project we analyzed, NOVA performed the following functions: Review of the project history Reading the source code Identification of vulnerability candidates Creation of a working proof of concept (PoC) Deterministic validation of whether the vulnerability is t",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
+          "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
+          "published": "2026-08-04T13:00:11+00:00",
+          "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain. The post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "e9b42737b7",
-      "priority_score": 30,
+      "priority_score": 29,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
@@ -1486,103 +1580,10 @@
       ]
     },
     {
-      "cluster_id": "1bbada40f0",
-      "priority_score": 29,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
-        "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
-        "published": "2026-08-04T13:00:11+00:00",
-        "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain. The post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software appeared first on Unit 42 .",
-        "full_body": "Threat Research Center Insights Vulnerabilities Vulnerabilities The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software 11 min read Related Products Unit 42 AI Security Assessment Unit 42 Frontier AI Defense Unit 42 Incident Response By: Xu Zou Published: August 4, 2026 Categories: General Insights Vulnerabilities Tags: AI Frontier AI Vulnerability Exploitation Zero-day Share Executive Summary Frontier AI is fundamentally shifting the dynamics of cybersecurity — accelerating both how vulnerabilities are discovered and how quickly they can be exploited. Our vulnerability research team built an autonomous vulnerability discovery, validation and reporting system that we call Network and Open-Source Vulnerability Analyzer (NOVA), an agentic research system that leverages proprietary AI harnesses powered by multiple leading frontier AI models. Our goal with this research is twofold: (1) contribute to improving the security of the software supply chain; and (2) ensure our customers are protected from vulnerabilities in the AI era. In just two months, NOVA analyzed 3,915 open-source software (OSS) projects and uncovered 14,090 confirmed vulnerabilities, 99.4% of which were previously unreported and 40% of them designated as high or critical severity. Nearly every frontier and open-weight model evaluated could find real vulnerabilities, with the strongest results coming from an ensemble of models, specialized security tools, and automated harnesses working together. These initial results illustrate just how dramatic the impact of AI is on the vulnerability landscape. In response to these significant results, we are actively partnering with open-source maintainers and clearinghouses such as Lightwell and Akrites to responsibly disclose these vulnerabilities and ensure they are patched upstream quickly and securely. Securing the broader open-source supply chain ultimately protects the entire software ecosystem and benefits everyone. Our experience with NOVA highlights a clear structural change: the patch window has collapsed. When vulnerability discovery accelerates, the time between disclosure and potential exploitation shrinks dramatically. And attackers need not have access to the latest frontier AI model to reverse engineer patches and develop exploits automatically. This new reality also makes virtual patching an even more important defense strategy in the AI era, and is a key driving force behind our recently announced Advanced Virtual Patching , the next evolution in network vulnerability protection. Advanced Virtual Patching is designed to operate at the speed of AI to keep pace with the new normal of higher rates of vulnerability discovery and compressed attack windows. By harnessing frontier AI to discover unknown vulnerabilities, and deploying protections in hours, we are collapsing the exposure window from the industry-average 55 days it takes to deploy a traditional patch down into a near-zero window of exposure. Our new “vaulted protection” technology enables us to deliver protections ahead of patch availability in a safe and responsible manner. In addition to these protections available with our network security platform, we recommend that organizations deploy relevant best practices, including vulnerability management, zero-trust network architecture, software supply chain security, and other attack surface reduction best practices. NOVA: Fully Automated Novel Vulnerability Discovery and Validation Our vulnerability research team built a fully autonomous vulnerability discovery system requiring no human in the loop until final review. We call this the Network and Open-Source Vulnerability Analyzer (NOVA). For each project we analyzed, NOVA performed the following functions: Review of the project history Reading the source code Identification of vulnerability candidates Creation of a working proof of concept (PoC) Deterministic validation of whether the vulnerability is t",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "poc_available"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software",
-          "link": "https://unit42.paloaltonetworks.com/frontier-ai-vulnerability-burst/",
-          "published": "2026-08-04T13:00:11+00:00",
-          "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain. The post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "61004037ea",
       "priority_score": 27,
-      "member_count": 19,
-      "corroborating_source_count": 13,
+      "member_count": 20,
+      "corroborating_source_count": 14,
       "strong_signals": [
         "GitHub",
         "TeamPCP",
@@ -1618,6 +1619,7 @@
           "news_report"
         ],
         "confidence_tier": [
+          "tier_1_government",
           "tier_1_primary_research",
           "tier_2_operator",
           "tier_3_analysis",
@@ -1784,6 +1786,38 @@
           }
         },
         {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Don't Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)",
+          "link": "https://isc.sans.edu/diary/rss/33218",
+          "published": "2026-08-05T17:56:15+00:00",
+          "summary": "When you learn that a compromised package executed on one of your build hosts, muscle memory takes over: revoke the npm token, rotate the GitHub PAT, cycle the cloud keys. That reflex has been correct in almost every supply-chain incident I have worked. In the keyv / cacheable compromise that has been unfolding since yesterday, it is the one thing you should not do first â€” because revoking the stolen token is exactly what arms the payload.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {
+              "npm": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "AWS Security Blog",
           "cohort": "cloud_identity_infrastructure",
           "title": "Amazon identifies North Korean hacker group behind open-source supply chain attacks",
@@ -1933,36 +1967,6 @@
           }
         },
         {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
-          "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-          "published": "2026-08-04T19:03:09+00:00",
-          "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS",
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
           "title": "Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack",
@@ -1987,6 +1991,36 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "npm": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New XCSSET variant targets macOS devs via compromised Xcode projects",
+          "link": "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
+          "published": "2026-08-04T19:03:09+00:00",
+          "summary": "A new version of the XCSSET malware is targeting thousands of macOS users through compromised Xcode projects and GitHub repositories. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target",
               "GitHub": "target"
             },
             "weak_tags": {
@@ -2078,136 +2112,6 @@
             "role_map": {
               "npm": "target",
               "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "38979f8c48",
-      "priority_score": 26,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-6516"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Cisco",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20316",
-          "CVE-2026-60167",
-          "CVE-2026-60168",
-          "CVE-2026-60169",
-          "CVE-2026-6516"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "CVE-2026-6516 | ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability",
-        "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
-        "published": "2026-07-29T18:05:45+00:00",
-        "summary": "CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. Learn how to validate exposure and verify remediation with NodeZero Rapid Response.",
-        "full_body": "ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. The vulnerability exists within the product’s Agent APIs and involves authentication bypass and path traversal weaknesses that could allow an unauthenticated attacker to write files outside their intended directory. Successful exploitation may ultimately lead to remote code execution. The vulnerability affects ADAudit Plus builds prior to 8606 and has been assigned a CVSS v3.1 score of 10.0 (Critical). At the time of publication, there are no confirmed reports of active exploitation in the wild. Technical Details ManageEngine ADAudit Plus is an Active Directory auditing and reporting solution used to monitor user activity, administrative actions, and security events across Windows Active Directory environments. CVE-2026-6516 affects the product’s Agent APIs. The vulnerability involves authentication bypass and path traversal weaknesses that can be exploited remotely without authentication or user interaction. An attacker can leverage these flaws to write files outside their intended directory, potentially resulting in remote code execution. The vulnerability has a CVSS v3.1 vector of CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L , reflecting network-based exploitation with low attack complexity and no required privileges. NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether CVE-2026-6516 can be exploited in your environment. The test executes real attack techniques without causing damage, giving security teams immediate clarity on exposure. Run the Rapid Response test: Launch the test from the NodeZero platform to determine whether your ADAudit Plus instance is vulnerable. Patch immediately: Upgrade ADAudit Plus to build 8606 and update affected Windows and macOS agents in accordance with ManageEngine guidance. Re-run the test: Verify that the vulnerability is no longer exploitable after remediation. Stop Guessing, Start Proving Schedule a demo Affected Versions & Patch Affected ManageEngine ADAudit Plus builds earlier than 8606 . Fixed ManageEngine ADAudit Plus Build 8606 . Mitigations ManageEngine recommends: Upgrade ADAudit Plus to Build 8606 using the latest service pack. Upgrade Windows agents running versions earlier than 7060 . Upgrade all installed macOS agents to the latest available version. Verify agent versions from Configuration → Agent Management → Manage → Installed Version within the ADAudit Plus console. Timeline April 17, 2026: ManageEngine released ADAudit Plus Build 8606, which addresses CVE-2026-6516. July 23, 2026: ManageEngine published its security advisory for CVE-2026-6516. July 23, 2026: CVE-2026-6516 was published in the CVE Program. July 24, 2026: NIST published the CVE in the National Vulnerability Database with CVSS scoring. July 28, 2026: Horizon3 released a NodeZero Rapid Response test for CVE-2026-6516. References ManageEngine Security Advisory ManageEngine ADAudit Plus Service Pack CVE.org Record – CVE-2026-6516 NIST NVD – CVE-2026-6516 Read about other CVEs CVE-2026-20316 CVE-2026-20316 is a high-severity static credential vulnerability affecting Cisco Secure Firewall Management Center that allows unauthenticated access through a built-in… Read more CVE-2026-60167, CVE-2026-60168, CVE-2026-60169 & CVE-2026-60170 Learn about four remotely exploitable Oracle Hospitality Simphony vulnerabilities and how NodeZero Rapid Response helps validate exposure and verify remediation. Read more CVE-2026-60137 / CVE-2026-63030 CVE-2026-60137 and CVE-2026-63030 can be chained to enable unauthenticated remote code execution against vulnerable WordPress Core installations. Learn how to… Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your security risk",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "WordPress",
-            "Cisco",
-            "Apple iOS/macOS"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-6516",
-            "CVE-2026-20316",
-            "CVE-2026-60167",
-            "CVE-2026-60168",
-            "CVE-2026-60169"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "WordPress": "target",
-            "Cisco": "target",
-            "Apple iOS/macOS": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "CVE-2026-6516 | ManageEngine ADAudit Plus Pre-Authentication Remote Code Execution Vulnerability",
-          "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
-          "published": "2026-07-29T18:05:45+00:00",
-          "summary": "CVE-2026-6516 is a critical pre-authentication vulnerability affecting ManageEngine ADAudit Plus. Learn how to validate exposure and verify remediation with NodeZero Rapid Response.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress",
-              "Cisco",
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-6516",
-              "CVE-2026-20316",
-              "CVE-2026-60167",
-              "CVE-2026-60168",
-              "CVE-2026-60169"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "WordPress": "target",
-              "Cisco": "target",
-              "Apple iOS/macOS": "target"
             },
             "weak_tags": {
               "products": []
@@ -2347,7 +2251,6 @@
       ],
       "taxonomy": {
         "threat_categories": [
-          "ai_security",
           "phishing_social_eng",
           "ransomware_extortion",
           "supply_chain"
@@ -2470,39 +2373,6 @@
           }
         },
         {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "AI agent deception moves from theory to reality in UK cyber tests",
-          "link": "https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/",
-          "published": "2026-08-05T12:05:22+00:00",
-          "summary": "“During a routine cyber evaluation, AI agents took sustained, unsanctioned action directed at real people and organisations,” UK’s AI Security Institute (AISI) disclosed on Tuesday. The agents’ actions included an attempted supply-chain attack that saw them create malicious pull requests and try to socially engineer an open-source maintainer into approving the malicious code (they refused). The agents, powered by Anthropic’s Mythos 5 and OpenAI’s GPT-5.6 Sol models, also engaged in prompt injection aimed at making … More → The post AI agent deception moves from theory to reality in UK cyber tests appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Schneier on Security",
           "cohort": "practitioner_analysis",
           "title": "More on the OpenAI Agent’s Attack on Hugging Face",
@@ -2583,6 +2453,34 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "Anthropic/Claude": "target",
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+          "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+          "published": "2026-08-05T18:33:47+00:00",
+          "summary": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
               "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
@@ -2999,7 +2897,7 @@
     {
       "cluster_id": "ff79c00af4",
       "priority_score": 18,
-      "member_count": 6,
+      "member_count": 7,
       "corroborating_source_count": 5,
       "strong_signals": [
         "Apple iOS/macOS"
@@ -3863,63 +3761,52 @@
       ]
     },
     {
-      "cluster_id": "ad2bf1153f",
+      "cluster_id": "b3d539d300",
       "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "Atlassian Jira"
-      ],
+      "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "Atlassian Jira"
+        "affected_industries": [
+          "government"
         ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
-        "source": "Sysdig",
-        "cohort": "detection_response_operations",
-        "title": "Agentic vulnerability management, end to end: 2,731 findings, one approved fix",
-        "link": "https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix",
-        "published": "2026-08-04T00:00:00+00:00",
-        "summary": "AI agents took a 119,443-finding backlog, traced 2,731 SLA breaches to one base-image fix, and opened a real Jira ticket. A human clicked Approve. That click is the whole autonomy debate, settled in one UI element.",
-        "full_body": "< back to blog Agentic vulnerability management, end to end: 2,731 findings, one approved fix Published by: Blair Howard @ linkedin GET A DEMO Published: August 4, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more How Sysdig agentic cloud security works TL;DR: In a live Sysdig Secure AI session, agents triaged a 119,443-finding backlog, traced 2,731 SLA-breaching findings to a single base-image fix, and a human approved the resulting Jira ticket, DEJI-342. The same agents run headless in Claude through Sysdig's MCP server . Anyone who has owned a vulnerability program knows the uncomfortable part: The findings were never the problem. Knowing is easy. A scanner will happily hand you six figures of findings by lunchtime. The problem is the distance between knowing and doing: mapping a CVE to the workloads it actually affects, hunting down an owner, opening the ticket, and tracking the SLA. That distance is measured in analyst hours, and analysts are the scarcest resource in the building. That gap was \"survivable\" when attackers moved at human speed. They don't anymore. The Sysdig Threat Research Team recently documented JADEPUFFER, the first agentic ransomware operation , an extortion campaign driven end to end by an LLM. And our 2026 Cloud-Native Security Report put a number on the shift: Attackers now weaponize disclosed vulnerabilities within hours. The old pain didn't change. The clock did. This is where the agentic model changes the math. Below is a walkthrough of Sysdig Secure AI working on one of the hardest jobs in security, captured from a live environment. If you'd rather watch than read, here's the video version: You set the operating orders Agents don't get free rein. They get goals. Setup starts the way any risk conversation should: Tag your high-value assets, then define SLA windows per severity. In this environment, criticals and highs must be remediated within 30 days. Sysdig Secure AI SLA policy editor Remediation windows per severity. These become the agents' operating orders. Goals become standing plans Secure AI turns those policies into standing plans; in this case, SLA Compliance and Reduce Exposure Time . This is the shift that's easy to miss: The agents aren't working a task list. They're working toward an outcome. That difference is everything. A task queue is something you fill, drain, and refill, and the moment it's empty, the work stops. A plan is a goal the agents pursue continuously, and the goal is yours . It comes from your team's SLAs, your risk tolerance, and your definition of acceptable exposure. You set the purpose, and the agents drive toward it day after day, without anyone reloading the queue. The agent works the metric, not the ticket queue Open the SLA Compliance plan and the agent reports like a colleague. It will tell you things like current value 28.3%, up 2.9 points versus the prior day, with the reasoning written out: what the plan tracks, which findings count toward the metric, and how the queue was ranked. It maintains a ranked list of the jobs that move the metric the most. No analyst had to notice anything for this queue to exist. The verdict: Runtime context, not CVSS guesswork The top-ranked job resolves to a verdict a human can act on: One Node.js image ( node:17.9.1-bullseye ) is carrying 2,731 SLA-breaching findings, 273 of them critical, and the oldest is 90 days past the deadline. A maintained Node 17 base image resolves them. This is runtime insights doing the prioritization rather than a spreadsheet of CVSS scores. This particular plan ranks by the severity of the worst SLA breach and limits itself to findings that already have a published fix, so the queue only contains work your team could ship today. Other plans lean on different runtime signals: Reduce Exposure Time ranks by risk score, findi",
+        "source": "PortSwigger Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Can AI do novel security research? Meet the HTTP Terminator",
+        "link": "https://portswigger.net/research/http-terminator",
+        "published": "2026-08-05T19:30:00+00:00",
+        "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
+        "full_body": "Can AI do novel security research? Meet the HTTP Terminator James Kettle Director of Research @albinowax Published: Wednesday, 5 August 2026 at 19:30 UTC Updated: Wednesday, 5 August 2026 at 19:33 UTC Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Building this sounded like a bad idea, so I did it. It worked - I'll share an arsenal of new HTTP desync triggers, gadgets, and exploits that compromised banks, security solutions, and government infrastructure. Then I'll trace each discovery chain back through the HTTP Terminator, showing how to turn your personal expertise into an autonomous weapon - and the dark arts required to make it lethal. I'll also share discoveries from beyond the autonomy horizon - some only reachable with a tight human/AI research loop, and others beyond AI's reach entirely. These include a powerful undisclosed recon technique, and anomalies that hint at new attack classes offering alternative paths to critical impact. I'll analyze the discovery process, sharing detailed experiments that probe the boundaries of what AI can and can't discover. You'll leave with new exploits from desync triggers to undisclosed attack classes, and a blueprint for turning your instincts into an autonomous research cascade. And yes, I'll open-source the HTTP Terminator. This whitepaper is also available as a printable PDF . If you've seen the size of the scrollbar and you're about to ask for an AI summary, you may prefer to read the executive summary instead. This research was presented at Black Hat USA 2026 and DEF CON 34 , and this page will be updated with the recording once it's available - follow PortSwigger Research on X , LinkedIn or RSS to get notified when it lands. Contents Introduction Defining novel HTTP desync research HTTP Terminator Design Ideation The technique rediscovery test Scaling ideation with micro-inspiration Evaluation The core evaluation primitive Evaluation case-study Novel desync triggers Weaponization Autonomous RQP Turning the environment into the weapon Making iteration viable The stacked-response problem The dangling-byte technique Cascade Anomaly detection cascade Chasing an autonomous cascade Status-line Injection Range Cache Poisoning Shared-Parser Confusion Scanning for inspiration Conclusion The blueprint Tool releases Defense Takeaways Introduction Automation is often focused on efficiency but I believe that when it's approached just right, automation can enable outcomes that were previously impossible. This research is about chasing that promise of something more. The primary objective of this project was to discover the new frontier of automation-driven security research. I've been practicing automation-driven research for a long time, and could see that generative AI had moved the frontier substantially. I also aimed to build a blueprint to help other researchers quickly adopt this new approach. My secondary objective was to push the \"fully autonomous research\" concept to complete failure by exceeding the capabilities of current SOTA models. By doing this, I aimed to show where a human in the loop can still add significant value (as opposed to just building the loop, then stepping back). Finally, I aimed to discover factors that make a research topic unsuitable for an AI-driven approach. This would be valuable to people who prefer to stick with a classic, fully-manual research approach and want to minimize the risk of collision with an AI-enhanced researcher. Defining novel HTTP desync research We've all seen experts claiming AI can't do original security research. One of the many risks of my project was that people might claim that the system's discoveries weren't actually original. To minimize this risk I choose the topic I was most qualified for - HTTP Desync Attacks. I repopularized this attack class back in 2019, and in total I've done f",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Atlassian Jira",
-            "Anthropic/Claude"
+          "affected_industries": [
+            "government"
           ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Atlassian Jira": "target",
-            "Anthropic/Claude": "target"
-          },
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -3927,32 +3814,26 @@
       },
       "corroborating_sources": [
         {
-          "source": "Sysdig",
-          "cohort": "detection_response_operations",
-          "title": "Agentic vulnerability management, end to end: 2,731 findings, one approved fix",
-          "link": "https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix",
-          "published": "2026-08-04T00:00:00+00:00",
-          "summary": "AI agents took a 119,443-finding backlog, traced 2,731 SLA breaches to one base-image fix, and opened a real Jira ticket. A human clicked Approve. That click is the whole autonomy debate, settled in one UI element.",
+          "source": "PortSwigger Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Can AI do novel security research? Meet the HTTP Terminator",
+          "link": "https://portswigger.net/research/http-terminator",
+          "published": "2026-08-05T19:30:00+00:00",
+          "summary": "Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Atlassian Jira",
-              "Anthropic/Claude"
+            "affected_industries": [
+              "government"
             ],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Atlassian Jira": "target",
-              "Anthropic/Claude": "target"
-            },
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4052,61 +3933,62 @@
       ]
     },
     {
-      "cluster_id": "b9f78fb1fa",
-      "priority_score": 11,
+      "cluster_id": "ad2bf1153f",
+      "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
-        "Microsoft Defender"
+        "Atlassian Jira"
       ],
       "taxonomy": {
         "threat_categories": [
-          "credential_theft",
           "ransomware_extortion"
         ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Microsoft Defender"
+          "Anthropic/Claude",
+          "Atlassian Jira"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_2_operator"
         ]
       },
       "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
-        "published": "2026-08-04T17:54:04+00:00",
-        "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–",
+        "source": "Sysdig",
+        "cohort": "detection_response_operations",
+        "title": "Agentic vulnerability management, end to end: 2,731 findings, one approved fix",
+        "link": "https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix",
+        "published": "2026-08-04T00:00:00+00:00",
+        "summary": "AI agents took a 119,443-finding backlog, traced 2,731 SLA breaches to one base-image fix, and opened a real Jira ticket. A human clicked Approve. That click is the whole autonomy debate, settled in one UI element.",
+        "full_body": "< back to blog Agentic vulnerability management, end to end: 2,731 findings, one approved fix Published by: Blair Howard @ linkedin GET A DEMO Published: August 4, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more How Sysdig agentic cloud security works TL;DR: In a live Sysdig Secure AI session, agents triaged a 119,443-finding backlog, traced 2,731 SLA-breaching findings to a single base-image fix, and a human approved the resulting Jira ticket, DEJI-342. The same agents run headless in Claude through Sysdig's MCP server . Anyone who has owned a vulnerability program knows the uncomfortable part: The findings were never the problem. Knowing is easy. A scanner will happily hand you six figures of findings by lunchtime. The problem is the distance between knowing and doing: mapping a CVE to the workloads it actually affects, hunting down an owner, opening the ticket, and tracking the SLA. That distance is measured in analyst hours, and analysts are the scarcest resource in the building. That gap was \"survivable\" when attackers moved at human speed. They don't anymore. The Sysdig Threat Research Team recently documented JADEPUFFER, the first agentic ransomware operation , an extortion campaign driven end to end by an LLM. And our 2026 Cloud-Native Security Report put a number on the shift: Attackers now weaponize disclosed vulnerabilities within hours. The old pain didn't change. The clock did. This is where the agentic model changes the math. Below is a walkthrough of Sysdig Secure AI working on one of the hardest jobs in security, captured from a live environment. If you'd rather watch than read, here's the video version: You set the operating orders Agents don't get free rein. They get goals. Setup starts the way any risk conversation should: Tag your high-value assets, then define SLA windows per severity. In this environment, criticals and highs must be remediated within 30 days. Sysdig Secure AI SLA policy editor Remediation windows per severity. These become the agents' operating orders. Goals become standing plans Secure AI turns those policies into standing plans; in this case, SLA Compliance and Reduce Exposure Time . This is the shift that's easy to miss: The agents aren't working a task list. They're working toward an outcome. That difference is everything. A task queue is something you fill, drain, and refill, and the moment it's empty, the work stops. A plan is a goal the agents pursue continuously, and the goal is yours . It comes from your team's SLAs, your risk tolerance, and your definition of acceptable exposure. You set the purpose, and the agents drive toward it day after day, without anyone reloading the queue. The agent works the metric, not the ticket queue Open the SLA Compliance plan and the agent reports like a colleague. It will tell you things like current value 28.3%, up 2.9 points versus the prior day, with the reasoning written out: what the plan tracks, which findings count toward the metric, and how the queue was ranked. It maintains a ranked list of the jobs that move the metric the most. No analyst had to notice anything for this queue to exist. The verdict: Runtime context, not CVSS guesswork The top-ranked job resolves to a verdict a human can act on: One Node.js image ( node:17.9.1-bullseye ) is carrying 2,731 SLA-breaching findings, 273 of them critical, and the oldest is 90 days past the deadline. A maintained Node 17 base image resolves them. This is runtime insights doing the prioritization rather than a spreadsheet of CVSS scores. This particular plan ranks by the severity of the worst SLA breach and limits itself to findings that already have a published fix, so the queue only contains work your team could ship today. Other plans lean on different runtime signals: Reduce Exposure Time ranks by risk score, findi",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion",
-            "credential_theft"
+            "ransomware_extortion"
           ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "Microsoft Defender"
+            "Atlassian Jira",
+            "Anthropic/Claude"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator",
           "role_map": {
-            "Microsoft Defender": "target"
+            "Atlassian Jira": "target",
+            "Anthropic/Claude": "target"
           },
           "weak_tags": {
             "products": []
@@ -4115,30 +3997,134 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
-          "published": "2026-08-04T17:54:04+00:00",
-          "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
+          "source": "Sysdig",
+          "cohort": "detection_response_operations",
+          "title": "Agentic vulnerability management, end to end: 2,731 findings, one approved fix",
+          "link": "https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix",
+          "published": "2026-08-04T00:00:00+00:00",
+          "summary": "AI agents took a 119,443-finding backlog, traced 2,731 SLA breaches to one base-image fix, and opened a real Jira ticket. A human clicked Approve. That click is the whole autonomy debate, settled in one UI element.",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion",
-              "credential_theft"
+              "ransomware_extortion"
             ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Microsoft Defender"
+              "Atlassian Jira",
+              "Anthropic/Claude"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Atlassian Jira": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "725e4c357a",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "supply_chain",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Hype vs. Reality: What the Hugging Face Incident Means for AI Safety",
+        "link": "https://www.recordedfuture.com/blog/hugging-face-ai-safety",
+        "published": "2026-08-05T00:00:00+00:00",
+        "summary": "Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.",
+        "full_body": "Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic defense will be essential to countering agentic offense. However, defenders must actively mitigate the risk of autonomous systems operating outside of their expected parameters. In July 2026, OpenAI disclosed that models undergoing an internal cybersecurity evaluation had escaped their testing environment and compromised part of Hugging Face’s production infrastructure. OpenAI characterized the event as an “unprecedented cyber incident.” The incident should put security leaders on alert, but not for the reasons OpenAI suggests. One concern is that OpenAI’s agents demonstrated the ability to autonomously carry out an end-to-end cyberattack, placing the models at the highest level of autonomy within Recorded Future’s AIM3 framework. However, the greater concern is that the model operators did not sufficiently monitor for or prepare to mitigate unauthorized agentic activity. Enterprises using agents for security and other purposes should see the Hugging Face incident as a warning about what happens when agents are set loose without safeguards against adverse outcomes. What Happened The incident began during an OpenAI evaluation designed to measure advanced cyber capabilities. The evaluation involved GPT-5.6 Sol and an even more capable internal research prototype that OpenAI says was not intended for public release. Because the objective was to test their maximum offensive potential, the models were operated with reduced security guardrails (normally used to prevent high-risk activity). According to OpenAI , the models spent substantial computing resources searching for a path to the internet. They exploited a zero-day vulnerability in Artifactory, the package-registry cache proxy available in the evaluation environment, and then performed privilege escalation and lateral movement within OpenAI’s research environment until they reached a node with internet access. Once online, the models inferred that Hugging Face might contain models, datasets, or solutions associated with ExploitGym, the benchmark they had been instructed to solve. OpenAI says the agents then chained stolen credentials, zero-day vulnerabilities, and remote code execution paths to obtain test solutions from a Hugging Face production database. Hugging Face’s technical reconstruction covers roughly 17,600 recovered agent actions, grouped into approximately 6,280 clusters, between July 9 and July 13, 2026. Although most attempts failed, the agent still gained administrative access to internal and production systems, accessed some source-code repositories, and used a stolen credential to connect external systems to the company network. Hugging Face found no evidence that its public models, datasets, services, packages, or published software supply chain were altered. It says the only customer content accessed comprised five datasets, apparently related to ExploitGym or CyberGym. A Capability Breakthrough and a Control Failure Most coverage of this incident has framed it as a breakthrough in model capabilities, since it is the first known instance of a model apparently independently conducting an end-to-end cyberattack. The underlying techniques were largely familiar to those used in human-led cyberattacks: vulnerability exploitation, credential theft, staging, remote code execution, lateral movement, and abuse of privileged or trusted access. What was notable was the agents’ ability to select and chain those steps autonomously across a long-running operation. This represents a significant shift in the speed and scale of future incidents. An autonomous agent can execute thousands of actions, test multiple paths, and continue working without the fatigue, coordination costs, or time constraints that limit human operators. In this case, most of the roughly 17,600 recovered actions were associated with failed paths. The operation was noisy and failure-prone, but it needed only a small number of ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "credential_theft",
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Hype vs. Reality: What the Hugging Face Incident Means for AI Safety",
+          "link": "https://www.recordedfuture.com/blog/hugging-face-ai-safety",
+          "published": "2026-08-05T00:00:00+00:00",
+          "summary": "Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "credential_theft",
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
-              "Microsoft Defender": "target"
+              "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
               "products": []
@@ -4807,39 +4793,27 @@
       ]
     },
     {
-      "cluster_id": "fe05850866",
+      "cluster_id": "b9f78fb1fa",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [],
+      "strong_signals": [
+        "Microsoft Defender"
+      ],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation"
+          "credential_theft",
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
+        "affected_industries": [],
         "affected_products": [
-          "Anthropic/Claude",
-          "VMware"
+          "Microsoft Defender"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20316",
-          "CVE-2026-59309",
-          "CVE-2026-59310",
-          "CVE-2026-59726",
-          "CVE-2026-63077"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
@@ -4848,47 +4822,32 @@
         ]
       },
       "primary": {
-        "source": "Check Point Research",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
-        "title": "3rd August – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-        "published": "2026-08-03T13:15:55+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
+        "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+        "published": "2026-08-04T17:54:04+00:00",
+        "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "active_exploitation"
+            "ransomware_extortion",
+            "credential_theft"
           ],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
+          "affected_industries": [],
           "affected_products": [
-            "Anthropic/Claude",
-            "VMware"
+            "Microsoft Defender"
           ],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-59726",
-            "CVE-2026-20316",
-            "CVE-2026-59309",
-            "CVE-2026-59310",
-            "CVE-2026-63077"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
           "role_map": {
-            "Anthropic/Claude": "target",
-            "VMware": "target"
+            "Microsoft Defender": "target"
           },
           "weak_tags": {
             "products": []
@@ -4897,45 +4856,30 @@
       },
       "corroborating_sources": [
         {
-          "source": "Check Point Research",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
-          "title": "3rd August – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-          "published": "2026-08-03T13:15:55+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+          "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+          "published": "2026-08-04T17:54:04+00:00",
+          "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
           "taxonomy": {
             "threat_categories": [
-              "active_exploitation"
+              "ransomware_extortion",
+              "credential_theft"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
+            "affected_industries": [],
             "affected_products": [
-              "Anthropic/Claude",
-              "VMware"
+              "Microsoft Defender"
             ],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-59726",
-              "CVE-2026-20316",
-              "CVE-2026-59309",
-              "CVE-2026-59310",
-              "CVE-2026-63077"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
-              "Anthropic/Claude": "target",
-              "VMware": "target"
+              "Microsoft Defender": "target"
             },
             "weak_tags": {
               "products": []
@@ -5303,6 +5247,144 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "fe05850866",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "VMware"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20316",
+          "CVE-2026-59309",
+          "CVE-2026-59310",
+          "CVE-2026-59726",
+          "CVE-2026-63077"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "3rd August – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+        "published": "2026-08-03T13:15:55+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Anthropic/Claude",
+            "VMware"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-59726",
+            "CVE-2026-20316",
+            "CVE-2026-59309",
+            "CVE-2026-59310",
+            "CVE-2026-63077"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "VMware": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "3rd August – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+          "published": "2026-08-03T13:15:55+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Anthropic/Claude",
+              "VMware"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-59726",
+              "CVE-2026-20316",
+              "CVE-2026-59309",
+              "CVE-2026-59310",
+              "CVE-2026-63077"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "VMware": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -5757,7 +5839,7 @@
         "link": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
         "published": "2026-08-05T11:35:23+00:00",
         "summary": "Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek .",
-        "full_body": "Lifespan Physician Group of Massachusetts, doing business as Brown Health Medical Group-MA, is notifying over 311,000 individuals that their personal, medical, and financial information was stolen in a data breach. The incident occurred in December 2025 at its Hawthorn location. It involved a historic file server, the healthcare organization says in a sample notification letter filed with the Massachusetts Office of Consumer Affairs and Business Regulation. While the practice’s electronic health record system was not affected, Brown Health Medical Group-MA determined on June 22, 2026, that the attackers accessed files containing personal information. The potentially compromised information, it says, includes names, contact information, dates of birth, Social Security numbers, driver’s license numbers, government ID numbers, medical and disability-related records, financial account information, and credit/debit card numbers. Personnel and human resources records, including payroll and compensation information, and licensure or credentialing information, were also compromised. “Not all categories of information were impacted for all individuals,” Brown Health Medical Group-MA says. Advertisement. Scroll to continue reading. The healthcare organization says it isolated the affected server immediately after identifying the incident, has implemented additional safeguards, and is re-training its employees. Brown Health Medical Group-MA notified the US Department of Health and Human Services (HHS) that 311,760 people were affected by the data breach. Of these, 290,357 are Massachusetts residents. The organization is providing the impacted individuals with two years of free fraud detection and identity protection and restoration services. Brown Health Medical Group-MA has not named the threat actor behind the attack, and SecurityWeek has not seen any known ransomware or extortion groups claiming responsibility for the incident. Related: 150,000 Impacted by Madera Community Hospital Data Breach Related: Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Oligo Raises $60 Million for Runtime Security Zenity Raises $125 Million in Series C Funding Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks 150,000 Impacted by Madera Community Hospital Data Breach River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Latest News Black Hat USA 2026 – Summary of Vendor Announcements (Part 3) The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data AI Agents Targeted Real People and Projects During Cybersecurity Tests CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack Water Sector Cyberattacks Reportedly Hit at Least 12 States Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default.",
+        "full_body": "Lifespan Physician Group of Massachusetts, doing business as Brown Health Medical Group-MA, is notifying over 311,000 individuals that their personal, medical, and financial information was stolen in a data breach. The incident occurred in December 2025 at its Hawthorn location. It involved a historic file server, the healthcare organization says in a sample notification letter filed with the Massachusetts Office of Consumer Affairs and Business Regulation. While the practice’s electronic health record system was not affected, Brown Health Medical Group-MA determined on June 22, 2026, that the attackers accessed files containing personal information. The potentially compromised information, it says, includes names, contact information, dates of birth, Social Security numbers, driver’s license numbers, government ID numbers, medical and disability-related records, financial account information, and credit/debit card numbers. Personnel and human resources records, including payroll and compensation information, and licensure or credentialing information, were also compromised. “Not all categories of information were impacted for all individuals,” Brown Health Medical Group-MA says. Advertisement. Scroll to continue reading. The healthcare organization says it isolated the affected server immediately after identifying the incident, has implemented additional safeguards, and is re-training its employees. Brown Health Medical Group-MA notified the US Department of Health and Human Services (HHS) that 311,760 people were affected by the data breach. Of these, 290,357 are Massachusetts residents. The organization is providing the impacted individuals with two years of free fraud detection and identity protection and restoration services. Brown Health Medical Group-MA has not named the threat actor behind the attack, and SecurityWeek has not seen any known ransomware or extortion groups claiming responsibility for the incident. Related: 150,000 Impacted by Madera Community Hospital Data Breach Related: Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Oligo Raises $60 Million for Runtime Security Zenity Raises $125 Million in Series C Funding Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks 150,000 Impacted by Madera Community Hospital Data Breach River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Latest News How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones Black Hat USA 2026 – Summary of Vendor Announcements (Part 3) The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data AI Agents Targeted Real People and Projects During Cybersecurity Tests CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest defa",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -5828,102 +5910,6 @@
               "npm": "target",
               "Google/Gemini": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "60f6cff21d",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Help Net Security",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Tuskira expands exposure management with Agentic Control Plane",
-        "link": "https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/",
-        "published": "2026-08-05T12:54:19+00:00",
-        "summary": "Tuskira has launched its Agentic Control Plane for Exposure Management, a new capability within the Tuskira platform that governs AI-discovered vulnerabilities from scan to verified closure. The capability extends Tuskira’s existing zero-day and exposure-response capabilities to frontier-model scanning. Tuskira applies enterprise policy to AI and legacy scanner workflows, maps findings to the deployed environment, determines which exposures are reachable and undefended, applies approved compensating controls, routes the durable code fix and re-tests the attack path … More → The post Tuskira expands exposure management with Agentic Control Plane appeared first on Help Net Security .",
-        "full_body": "Industry News August 5, 2026 Share Tuskira expands exposure management with Agentic Control Plane Tuskira has launched its Agentic Control Plane for Exposure Management, a new capability within the Tuskira platform that governs AI-discovered vulnerabilities from scan to verified closure. The capability extends Tuskira’s existing zero-day and exposure-response capabilities to frontier-model scanning. Tuskira applies enterprise policy to AI and legacy scanner workflows, maps findings to the deployed environment, determines which exposures are reachable and undefended, applies approved compensating controls, routes the durable code fix and re-tests the attack path to verify closure. The Agentic Control Plane connects those findings with production context from more than 150 integrations across vulnerability management, application security, cloud, endpoint, identity, network controls, SIEM and IT service management. Findings, verdicts and actions are governed through customer-authorized connectors and data-scoping policies, with every step recorded in a complete audit trail. Tuskira enforces enterprise-defined controls over model selection, repository access, data scope, retention and approvals, ensuring source code and vulnerability data remain within authorized workflows and are not used to train third-party models. Frontier models are changing how vulnerabilities are discovered. They can surface novel flaws that legacy scanners may not detect, and those findings can arrive without a CVE, CVSS score, vendor patch, exploit-maturity signal or established owner. Enterprise vulnerability-management policies, SLAs and ticket-routing processes were built around those artifacts. At the same time, AI-assisted exploitation is compressing the window available to validate and respond. In its May 22, 2026 snapshot, Tuskira Research found that AI-driven vulnerability discovery outpaced visible remediation by approximately 16.5×, with one AI-driven pipeline disclosing 1,596 verified vulnerabilities in 63 days. The full methodology is available at tuskira.ai/research. An AI scanner can identify a vulnerable path in source code. On its own, it cannot determine whether that code is deployed, reachable from the internet, protected by existing controls, or connected to a critical asset. That is the difference between a code finding and production risk. Once that risk is validated, Tuskira turns it into a governed security-operations workflow: the SOC receives the exposure verdict and recommended immediate mitigation, while the durable code fix is routed to the appropriate application or engineering owner. Tuskira closes that gap through an Exposure Response Loop: Orchestrate: Route customer-authorized frontier models to the appropriate repositories and risk tiers, and normalize AI-discovered findings alongside legacy VM, SAST, SCA and cloud findings. Govern: Enforce model selection, repository and data scope, spending limits, approval workflows and retention policies, with a complete audit trail of what was scanned, by which model and why. Contextualize: Determine whether vulnerable code is deployed, reachable, undefended and connected to a breach path. Respond and verify: Apply approved compensating controls through WAF, EDR, IAM or network policy, route the durable code fix and re-test the modeled path to prove closure. Many exposure-management workflows stop after discovery and prioritization. Tuskira turns validated exposure into a governed SOC response workflow that applies compensating controls, routes the durable fix, and proves closure. In a separate global financial-services deployment, Tuskira reduced 12.3 million raw findings to 0.46% requiring action and cut exposure triage from three weeks to 30 minutes. “AI has industrialized vulnerability discovery. The new bottleneck is determining which findings create real production risk and closing them before a patch ships,” said Piyush Sharma , CEO of Tuskira. “Tuskira’s Agentic Control Plan",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Tuskira expands exposure management with Agentic Control Plane",
-          "link": "https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/",
-          "published": "2026-08-05T12:54:19+00:00",
-          "summary": "Tuskira has launched its Agentic Control Plane for Exposure Management, a new capability within the Tuskira platform that governs AI-discovered vulnerabilities from scan to verified closure. The capability extends Tuskira’s existing zero-day and exposure-response capabilities to frontier-model scanning. Tuskira applies enterprise policy to AI and legacy scanner workflows, maps findings to the deployed environment, determines which exposures are reachable and undefended, applies approved compensating controls, routes the durable code fix and re-tests the attack path … More → The post Tuskira expands exposure management with Agentic Control Plane appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6595,32 +6581,29 @@
       ]
     },
     {
-      "cluster_id": "f0d6d20493",
+      "cluster_id": "1b8e0b0f32",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "Fortinet"
-      ],
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
-          "supply_chain",
-          "web_shell_backdoor"
+          "ai_security",
+          "supply_chain"
         ],
-        "actor_attribution": [
-          "Mustang Panda"
-        ],
+        "actor_attribution": [],
         "affected_industries": [
-          "financial_services"
+          "government"
         ],
         "affected_products": [
-          "Fortinet"
+          "GitHub"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -6629,37 +6612,36 @@
         ]
       },
       "primary": {
-        "source": "The Hacker News",
+        "source": "Dark Reading",
         "cohort": "cyber_news_breach_reporting",
-        "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-        "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-        "published": "2026-08-05T05:47:19+00:00",
-        "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users. According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a",
-        "full_body": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer  Ravie Lakshmanan  Aug 05, 2026 Supply Chain Attack / Endpoint Security Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users. According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP , a backdoor that has been put to use by a Chinese state-sponsored threat actor tracked as Mustang Panda. \"The attack is delivered via a modified Electron renderer HTML file used to download and execute a JavaScript-based loader,\" the FortiGuard Incident Response Team said . \"Upon execution, the JavaScript loader fingerprints the victim endpoint to determine if it's a valid target before downloading and installing an FDMTP implant.\" Following responsible disclosure, QuickFox has removed the malicious components from their Windows installer with the release of version 3.59.6. The changes are said to have been included sometime between July 25 and August 13, 2025, with 3.0.51.0 being the earliest affected version. Evidence indicates that the campaign solely targeted Windows users. The malicious code introduced to the installer executable involves two lines of JavaScript in a single HTML file, causing it to execute two JavaScript payloads -- \"firebase-app-compat.js\" and \"firebase-analytics-compat.js\" -- staged on \"cdns3.51quickfox[.]cn,\" which masquerades as the official QuickFox domain (\"51quickfox[.]com\") to evade detection. Of the two payloads, \"firebase-analytics-compat.js\" contains legitimate Google Firebase code, while \"firebase-app-compat.js\" is a heavily obfuscated payload that mimics the Firebase SDK, but harbors functionality to ascertain if the affected endpoint is running Windows, check with a command-and-control (C2) server to ensure the endpoint is not re-infected, and run the \" tasklist \" command to obtain a list of currently running processes. This list is then checked for specific process names, specifically Steam (\"steam.exe\"), and aborts execution if it is present. It also checks if there exists at least one process name that matches 26 domestic applications, cryptocurrency wallets, developer tools, and enterprise software. This includes Xshell, MobaXterm, Tabby Terminal, Navicat, DBeaver, Git, IntelliJ IDEA, Sublime Text, Notepad++, Microsoft Visual Studio Code, Exodus Wallet, Binance, Ledger Live, Trezor Suite, Telegram, SafeW, Ai Fanyi, Haiwang Chuhai, Yi Fanyi, Kuai Fanyi, and HaiYiTong. Once both these conditions are met, the script proceeds to download the next stage payload, a ZIP archive from the same aforementioned domain. Two different generations of the ZIP payload have been identified - Generation 1 (Available from at least September 2025), which uses DLL side-loading to launch a malicious DLL embedding FDMTP (\"Client.dll\") Generation 2 (Available from May 2026), which also uses DLL side-loading to launch a malicious DLL that acts as a loader for an encrypted file (\"update.bin\") that contains FDMTP FDMTP was first highlighted by Trend Micro in September 2024 as a secondary tool distributed via a downloader known as PUBLOAD. In the latest iteration, it first attempts to obtain a C2 connection, following which the server responds with a \"GetInfo\" request to gather basic information from the victim's device. The collected data contains the window title of the topmost active program, installed antivirus programs, .NET Framework runtime version, network and operating system information, current username, and details about the implant itself, such as file full path, version, process ID, and hosting process name. Once this information is packaged and exfiltrated, the C2 server sends a request to list running processes in a further attempt to filter out certain e",
+        "title": "Flaws in Google APK for Python Unlock Agent-to-Agent Attack",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack",
+        "published": "2026-08-05T18:03:31+00:00",
+        "summary": "Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain.",
+        "full_body": "Vulnerabilities & Threats Threat Intelligence Cyber Risk Cyberattacks & Data Breaches News Flaws in Google APK for Python Unlock Agent-to-Agent Attack Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain. Elizabeth Montalbano , Contributing Writer August 5, 2026 4 Min Read Source: Brain Light via Alamy Stock Photo AI agents can be weaponized against each other using prompt injections via a chain of flaws in Google's open source Agent Development Kit (ADK) for Python, potentially disrupting the software supply chain and demonstrating yet another new attack vector introduced by the emerging technology. Researchers from Pillar Security discovered the flaws, present in the ADK's adk-python repository, which allowed a low-privileged, public-facing agent in a workflow to trigger commands that could be executed by a high-privileged one, according a report published on Aug. 4. This means that potentially malicious, untrusted text — such as a pull request or issue — could be performed by a trusted AI agent with repository privileges. \"Pillar Security researchers have identified the first practical, real-world case of agent-to-agent exploitation in a multi-agent system in a real production environment, a class of attack not seen in real production systems until now,\" Dan Lisichkin, cybersecurity researcher for Pillar, wrote in the report this week. Related: Attackers Exploit N-able Patch Bypass Flaw on RMM Servers The attack was especially problematic because it relied on prompt injections embedded in GitHub pull requests to exploit a trust boundary between two AI agents with different privilege levels, according to Pillar. In their proof-of-concept (PoC) exploit, the researchers showed that a public-facing AI agent reviewing pull requests could be manipulated into triggering a maintainer-only AI agent capable of performing privileged actions. This created a pathway to approve or execute malicious code in continuous integration (CI)/continuous delivery (CD) workflows that affect the development process and thus the software supply chain, Lisichkin said. This scenario, in which one AI agent can be used to attack another, turned \"a benign automation into a path that ends in a potential software supply chain compromise,\" he wrote. Attack Flow and Remediation Google's ADK for Python has been downloaded more than 90 million times and is widely used by developers who work with Gemini, Google's large language model (LLM). Pillar credited Google for a prompt response to the flaws, which were reported in early June and remediated on July 9 and July 21, respectively. Google did not immediately respond to requests for comment by Dark Reading today. Specifically, the researchers showed that a malicious embedded prompt could persuade the agent to publish a specially formatted @gemini-cli command, according to the report. \"That comment was then recognized by a dispatcher workflow and routed to a more privileged Gemini-based automation,\" Lisichkin wrote. Related: 'Certighost' Flaw Haunts Microsoft Active Directory Certificates The finding demonstrates how interactions between AI agents are now emerging as a new privilege-escalation attack surface. Pillar's discovery comes hot on the heels of the emergence of autonomous LLM attacks , introducing yet another threat type against which defenders need to secure AI agents and systems. While the flaws were characterized as a prompt injection issue — a common attack vector for LLMs and AI agents — the real issue it created for how organizations are using AI agents \"is delegation,\" says Ryan McCurdy, vice president of marketing at database governance firm Liquibase. “Enterprises are starting to put multiple AI agents into software delivery with different tools, permissions, and levels of authority,\" he says. \"This research shows why governing each agent independently isn't enough. Organiz",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "supply_chain",
-            "apt_espionage",
-            "web_shell_backdoor"
+            "ai_security"
           ],
-          "actor_attribution": [
-            "Mustang Panda"
-          ],
+          "actor_attribution": [],
           "affected_industries": [
-            "financial_services"
+            "government"
           ],
           "affected_products": [
-            "Fortinet"
+            "GitHub"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "Fortinet": "target"
+            "GitHub": "target"
           },
           "weak_tags": {
             "products": []
@@ -6668,35 +6650,34 @@
       },
       "corroborating_sources": [
         {
-          "source": "The Hacker News",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-          "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-          "published": "2026-08-05T05:47:19+00:00",
-          "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users. According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a",
+          "title": "Flaws in Google APK for Python Unlock Agent-to-Agent Attack",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack",
+          "published": "2026-08-05T18:03:31+00:00",
+          "summary": "Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain.",
           "taxonomy": {
             "threat_categories": [
               "supply_chain",
-              "apt_espionage",
-              "web_shell_backdoor"
+              "ai_security"
             ],
-            "actor_attribution": [
-              "Mustang Panda"
-            ],
+            "actor_attribution": [],
             "affected_industries": [
-              "financial_services"
+              "government"
             ],
             "affected_products": [
-              "Fortinet"
+              "GitHub"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "Fortinet": "target"
+              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -8093,6 +8074,102 @@
       ]
     },
     {
+      "cluster_id": "f0d6d20493",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Fortinet"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Fortinet"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+        "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+        "published": "2026-08-05T05:47:19+00:00",
+        "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users. According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Fortinet"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Fortinet": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+          "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+          "published": "2026-08-05T05:47:19+00:00",
+          "summary": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users. According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Fortinet"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Fortinet": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "9a554b7f81",
       "priority_score": 8,
       "member_count": 1,
@@ -8562,9 +8639,9 @@
       ],
       "links": [
         "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
         "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
         "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
-        "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
         "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
         "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
         "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
@@ -8572,49 +8649,6 @@
         "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
         "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
         "https://orca.security/resources/blog/10-best-tenable-alternatives/"
-      ]
-    },
-    {
-      "label": "Apple iOS/macOS vulnerability activity",
-      "anchor_signal": "Apple iOS/macOS",
-      "theme_key": "apple-ios-macos",
-      "dominant_features": {
-        "affected_products": [
-          "Apple iOS/macOS",
-          "AWS"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 26,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "61004037ea",
-        "38979f8c48",
-        "ff79c00af4"
-      ],
-      "links": [
-        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
-        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-        "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
-        "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
-        "https://securelist.com/cloud-platforms-in-phishing/120832/",
-        "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
-        "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
-        "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
-        "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
-        "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
-        "https://risky.biz/RBNEWS595/",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
-        "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
-        "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
-        "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-        "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/"
       ]
     },
     {
@@ -8637,7 +8671,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 26,
+      "article_count": 27,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "npm"
@@ -8656,61 +8690,18 @@
         "https://www.infosecurity-magazine.com/news/captivecrunch-midnight-blizzard/",
         "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
         "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://securelist.com/cloud-platforms-in-phishing/120832/",
         "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
         "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
         "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
+        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
         "https://risky.biz/RBNEWS595/",
         "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/"
-      ]
-    },
-    {
-      "label": "Cisco exploitation (CVE-2026-20316)",
-      "anchor_signal": "Cisco",
-      "theme_key": "cisco",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [
-          "CVE-2026-20316",
-          "CVE-2026-60167",
-          "CVE-2026-6516"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 3,
-      "cohesion": 0.328,
-      "shared_strong_signals": [
-        "Cisco"
-      ],
-      "member_cves": [
-        "CVE-2026-20316"
-      ],
-      "also_targets": [],
-      "cluster_ids": [
-        "38979f8c48",
-        "7ef6c747eb",
-        "fe05850866",
-        "582de97f0f"
-      ],
-      "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-6516/",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/",
-        "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-        "https://www.sophos.com/en-us/blog/2608-volatility-interlock"
       ]
     },
     {
@@ -8724,7 +8715,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 27,
+      "article_count": 29,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "AWS"
@@ -8739,13 +8730,14 @@
       "links": [
         "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
         "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://securelist.com/cloud-platforms-in-phishing/120832/",
         "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
         "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
         "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
+        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
         "https://risky.biz/RBNEWS595/",
@@ -8878,7 +8870,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 20,
+      "article_count": 21,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Kubernetes"
@@ -8892,17 +8884,54 @@
       "links": [
         "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
         "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
         "https://aws.amazon.com/blogs/security/amazon-identifies-north-korean-hacker-group-behind-open-source-supply-chain-attacks/",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://securelist.com/cloud-platforms-in-phishing/120832/",
         "https://cyberscoop.com/supply-chain-attack-malware-mini-shai-hulud-teampcp/",
         "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
         "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
+        "https://www.bleepingcomputer.com/news/security/new-xcsset-variant-targets-macos-devs-via-compromised-xcode-projects/",
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
         "https://risky.biz/RBNEWS595/",
         "https://www.elastic.co/security-labs/ai-agent-attack-detection-hugging-face-breach"
+      ]
+    },
+    {
+      "label": "CVE-2026-20316 exploitation activity",
+      "anchor_signal": "CVE-2026-20316",
+      "theme_key": "cve-2026-20316",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-20316"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.269,
+      "shared_strong_signals": [
+        "CVE-2026-20316"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "7ef6c747eb",
+        "fe05850866"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/",
+        "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/"
       ]
     },
     {
@@ -8932,6 +8961,32 @@
       "links": [
         "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
         "https://securelist.com/genielocker-ransomware-for-windows-linux-and-esxi/120843/"
+      ]
+    },
+    {
+      "label": "Cisco vulnerability activity",
+      "anchor_signal": "Cisco",
+      "theme_key": "cisco",
+      "dominant_features": {
+        "affected_products": [
+          "Cisco"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Cisco"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "7ef6c747eb",
+        "582de97f0f"
+      ],
+      "links": [
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/",
+        "https://www.sophos.com/en-us/blog/2608-volatility-interlock"
       ]
     },
     {
@@ -8978,7 +9033,7 @@
       },
       "cluster_count": 2,
       "article_count": 2,
-      "cohesion": 0.2,
+      "cohesion": 0.333,
       "shared_strong_signals": [
         "Fortinet"
       ],
@@ -8996,31 +9051,17 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-18576",
-          "cluster_id": "213b4e62b3",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-08-05T15:51:33+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
     "velocity": [
       {
-        "cluster_id": "974cdece8d",
-        "title": "This month in security with Tony Anscombe – July 2026 edition",
-        "sources_in_window": 3,
-        "window_hours": 3.3,
-        "cohort_count": 5
-      },
-      {
         "cluster_id": "61004037ea",
         "title": "Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack",
         "sources_in_window": 3,
         "window_hours": 4.7,
-        "cohort_count": 4
+        "cohort_count": 5
       }
     ],
     "leading_edge": [
@@ -9237,14 +9278,14 @@
       },
       {
         "axis": "cve_ids",
-        "value": "CVE-2026-59726",
-        "cluster_id": "fe05850866",
+        "value": "CVE-2026-0770",
+        "cluster_id": "213b4e62b3",
         "weeks_observed": 3
       },
       {
-        "axis": "actor_attribution",
-        "value": "Mustang Panda",
-        "cluster_id": "f0d6d20493",
+        "axis": "cve_ids",
+        "value": "CVE-2026-59726",
+        "cluster_id": "fe05850866",
         "weeks_observed": 3
       },
       {
