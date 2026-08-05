@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-05T21:18:38.135187+00:00",
+  "generated_at": "2026-08-05T23:06:54.415339+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
-  "total_items_in_window": 374,
-  "total_clusters_raw": 146,
-  "total_clusters_in_packet": 68,
-  "dropped_low_score": 78,
+  "total_items_in_window": 365,
+  "total_clusters_raw": 143,
+  "total_clusters_in_packet": 66,
+  "dropped_low_score": 77,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -74,12 +81,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 7
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -94,13 +101,6 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -123,26 +123,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 5
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -151,12 +137,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
+      "in_window_count": 10
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -165,12 +158,40 @@
       "item_count": 15,
       "in_window_count": 4
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -186,19 +207,12 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -207,39 +221,11 @@
       "item_count": 40,
       "in_window_count": 1
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -249,12 +235,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -270,6 +263,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -284,6 +284,13 @@
       "item_count": 20,
       "in_window_count": 8
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -291,12 +298,12 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 9
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -311,13 +318,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 6
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -340,20 +340,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
@@ -368,12 +354,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -382,12 +382,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -396,18 +410,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 2
     },
     "The Record": {
@@ -424,6 +431,13 @@
       "item_count": 15,
       "in_window_count": 15
     },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -431,26 +445,12 @@
       "item_count": 20,
       "in_window_count": 19
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -466,12 +466,12 @@
       "item_count": 30,
       "in_window_count": 29
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 24
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -480,12 +480,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,6 +508,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
@@ -515,8 +522,8 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -524,13 +531,6 @@
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -557,13 +557,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -571,12 +564,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 25
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -585,19 +578,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 25
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "in_window_count": 16
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -605,6 +598,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -2123,18 +2123,16 @@
     },
     {
       "cluster_id": "7ef6c747eb",
-      "priority_score": 25,
-      "member_count": 2,
-      "corroborating_source_count": 2,
+      "priority_score": 23,
+      "member_count": 1,
+      "corroborating_source_count": 1,
       "strong_signals": [
         "CVE-2026-20316",
         "Cisco"
       ],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "phishing_social_eng"
+          "active_exploitation"
         ],
         "actor_attribution": [],
         "affected_industries": [
@@ -2155,12 +2153,10 @@
           "preauth_unauth"
         ],
         "content_type": [
-          "news_report",
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_5_chatter"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
@@ -2236,37 +2232,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Cybersecurity statistics of the week (July 27th - August 2nd)",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1vgi567/cybersecurity_statistics_of_the_week_july_27th/",
-          "published": "2026-08-05T19:57:07+00:00",
-          "summary": "Hi guys, I send out a weekly newsletter with the latest cybersecurity vendor reports and research, and thought you might find it useful, so sharing it here. All the reports and research below were published between July 27th - August 2nd. You can get the below into your inbox every week if you want: https://www.cybersecstats.com/cybersecstatsnewsletter/ Big Picture Reports 2026 Cost of a Data Breach Report (IBM) IBM's annual breach cost report, with interesting data points on how much AI is now involved in attacks, and how much more expensive that makes breaches. Key stats: 25% of malicious breaches were AI-enabled. AI-enabled breaches cost an average of $6 million, roughly $1 million more than the global average of $4.99 million. AI-enabled malicious breaches increased by 56% over the previous year. Read the full report here . IR Trends Q2 2026 (Cisco Talos) Cisco Talos on what showed up in their incident response engagements this quarter. Key stats: Phishing was the primary means of ",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Cisco": "target"
             },
@@ -2499,36 +2464,6 @@
           }
         },
         {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "AI Agents Targeted Real People and Projects During Cybersecurity Tests",
-          "link": "https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/",
-          "published": "2026-08-05T10:33:41+00:00",
-          "summary": "AI Security Institute reports Anthropic and OpenAI models going rogue against real people, organizations, and open source projects. The post AI Agents Targeted Real People and Projects During Cybersecurity Tests appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
@@ -2589,12 +2524,12 @@
           }
         },
         {
-          "source": "CyberScoop",
+          "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "AISI, OpenAI report more ‘unsanctioned’ model hacks",
-          "link": "https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/",
-          "published": "2026-08-04T22:46:25+00:00",
-          "summary": "Following similar reports by OpenAI and Anthropic, the UK’s top AI testing lab and a private cybersecurity tester say their models exploited parts of the open internet. The post AISI, OpenAI report more ‘unsanctioned’ model hacks appeared first on CyberScoop .",
+          "title": "AI Agents Targeted Real People and Projects During Cybersecurity Tests",
+          "link": "https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/",
+          "published": "2026-08-05T10:33:41+00:00",
+          "summary": "AI Security Institute reports Anthropic and OpenAI models going rogue against real people, organizations, and open source projects. The post AI Agents Targeted Real People and Projects During Cybersecurity Tests appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2625,6 +2560,36 @@
           "link": "https://www.infosecurity-magazine.com/news/frontier-models-unsanctioned/",
           "published": "2026-08-05T08:45:00+00:00",
           "summary": "Anthropic and OpenAI models attacked “real people and organizations” during AI Security Institute tests",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "CyberScoop",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "AISI, OpenAI report more ‘unsanctioned’ model hacks",
+          "link": "https://cyberscoop.com/aisi-openai-report-unsanctioned-ai-model-hacks/",
+          "published": "2026-08-04T22:46:25+00:00",
+          "summary": "Following similar reports by OpenAI and Anthropic, the UK’s top AI testing lab and a private cybersecurity tester say their models exploited parts of the open internet. The post AISI, OpenAI report more ‘unsanctioned’ model hacks appeared first on CyberScoop .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2937,8 +2902,8 @@
     {
       "cluster_id": "ff79c00af4",
       "priority_score": 18,
-      "member_count": 7,
-      "corroborating_source_count": 5,
+      "member_count": 6,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "Apple iOS/macOS"
       ],
@@ -3125,34 +3090,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "AWS": "target",
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-          "link": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-          "published": "2026-08-03T20:01:22+00:00",
-          "summary": "A new Russian loader-as-a-service named DOUBLECUP uses ClickFix attacks to hide malicious code in PNG images cached by victims' browsers, ultimately delivering CountLoader to Windows and macOS devices and a new remote access trojan named DeviceManager to Windows systems. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
               "Apple iOS/macOS": "target"
             },
             "weak_tags": {
@@ -3664,155 +3601,6 @@
       ]
     },
     {
-      "cluster_id": "1af5ed51b6",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [
-          "Google/Gemini",
-          "Palo Alto Networks",
-          "SonicWall"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-18556",
-          "CVE-2026-18577",
-          "CVE-2026-29146",
-          "CVE-2026-34486",
-          "CVE-2026-9198"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "preauth_unauth",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
-        "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
-        "published": "2026-08-05T09:44:50+00:00",
-        "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek .",
-        "full_body": "The US Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned that threat actors have been exploiting three vulnerabilities in IBM Langflow OSS, N-able N-central, and Apache Tomcat. Tracked as CVE-2026-9198 (CVSS score of 9.8), the Langflow OSS bug allows unauthenticated attackers to chain two API endpoints for remote code execution. It was disclosed on July 17, when IBM rolled out patches for it, in Langflow OSS version 1.10.1, warning that all default deployments are affected. “The vulnerability combined two distinct issues: an unauthenticated endpoint that issued superuser bearer tokens to any network caller, and a code validation endpoint that executed arbitrary Python code. An attacker could chain these vulnerabilities by first obtaining a superuser token from the auto-login endpoint, then using that token to submit malicious code to the validation endpoint,” IBM warned . Proof-of-concept (PoC) code targeting the security defect was published roughly a week after the public disclosure, and CISA added the CVE to its Known Exploited Vulnerabilities ( KEV ) catalog on August 4. The N-able N-central bug flagged as exploited is tracked as CVE-2026-18556 (CVSS score of 7.4) and described as an authentication bypass. Advertisement. Scroll to continue reading. According to N-able, threat actors exploited the issue as a zero-day to gain administrative access and connect to systems managed through the remote monitoring and management (RMM) platform. The initial fix for CVE-2026-18556 was incomplete, and threat actors bypassed it. As the exploitation activity intensified at the end of July, N-able rolled out a hotfix, issuing CVE-2026-18577 for the patch bypass. Both CVE-2026-18556 and CVE-2026-18577 are now in CISA’s KEV list. Tracked as CVE-2026-34486 (CVSS score of 7.5), the third vulnerability added to the KEV catalog on Tuesday is an EncryptInterceptor bypass in Apache Tomcat that was patched in April. The flaw was introduced in March, with the patch for CVE-2026-29146, a padding oracle issue in EncryptInterceptor, an optional channel interceptor that encrypts messages transmitted between nodes in Tomcat clusters. “The fix moved one line of code. That line turned the encryption layer from fail-closed to fail-open, and opened a direct path to unauthenticated remote code execution on every cluster member,” StrigaAI , which identified the bug, explains. On deployments with EncryptInterceptor configured, only messages encrypted using a shared key should be decrypted and passed to the deserialization layer. Due to the bypass, however, upon failed decryption, the attacker-controlled code was forwarded up the interceptor chain unmodified. Last week, SOCRadar warned that CVE-2026-34486 had been exploited by a Chinese threat actor in attacks involving the Snowlight malware family, while Palo Alto Networks observed the vulnerability being exploited by Chinese hackers in an AI-enabled autonomous hacking campaign. In line with BOD 26-04 requirements, CISA is urging federal agencies to patch all three vulnerabilities by August 7. Related: TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover Related: Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Related: Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks Related: Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Oligo Raises $60 Million for Runtime Security Zenity Raises $125 Million in Series C Funding Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks 150,000 Impacted by Madera Community Hospital Data Breach River Bank Says Hac",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [
-            "SonicWall",
-            "Google/Gemini",
-            "Palo Alto Networks"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-9198",
-            "CVE-2026-18556",
-            "CVE-2026-18577",
-            "CVE-2026-34486",
-            "CVE-2026-29146"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "preauth_unauth",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "SonicWall": "target",
-            "Google/Gemini": "target",
-            "Palo Alto Networks": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
-          "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
-          "published": "2026-08-05T09:44:50+00:00",
-          "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [
-              "SonicWall",
-              "Google/Gemini",
-              "Palo Alto Networks"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-9198",
-              "CVE-2026-18556",
-              "CVE-2026-18577",
-              "CVE-2026-34486",
-              "CVE-2026-29146"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "preauth_unauth",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "SonicWall": "target",
-              "Google/Gemini": "target",
-              "Palo Alto Networks": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "3e123aa6ec",
       "priority_score": 12,
       "member_count": 1,
@@ -4073,107 +3861,16 @@
       ]
     },
     {
-      "cluster_id": "24e0f0f990",
+      "cluster_id": "1af5ed51b6",
       "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Trail of Bits",
-        "cohort": "offensive_vulnerability_research",
-        "title": "A few notes on AWS Nitro Enclaves: KMS integration",
-        "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
-        "published": "2026-08-05T11:00:00+00:00",
-        "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n",
-        "full_body": "Page content Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs never leave KMS. You request KMS to perform cryptographic operations (like encryption or signing) for you. Data keys and key pairs are generated in KMS, are not stored in KMS, and are intended for programmatic uses. For symmetric keys, the KMS gives you a plaintext key and the same key encrypted to CMK. Your application performs encryptions, removes the plaintext key, and stores the key encrypted to a CMK along the ciphertexts; this pattern is called envelope encryption . For asymmetric keys, the KMS gives you a plaintext key pair and the private key encrypted to CMK. Your application creates signatures or encrypts data, deletes the private key, and keeps the public key and encrypted private key (along with signatures/ciphertexts). Both types of data keys can be used with Decrypt operation to get plaintext keys again. S t o r a g e s t { o E r _ e d ( k E , _ C d } k , C ) E n c l a v G e e { n d e k C D p r , = e l a E e c a t _ n r i e d c y n D k ( p t a = d t e t e k ( { x a n , c d t K c p m k = e ( l k } d y c a _ e ( m i i c c k n d ( m , t , d k d e E k _ k x _ , i ) t d C d } ) k ) ) ) K M S Figure 1: Basic KMS operations. cmk_id is an ID (ARN) of CMK key, cmk is the actual key used, enc / dec are any encryption/decryption algorithms, GenerateDataKey and Decrypt are KMS operations. Access to keys is subject to authorization policies , including key policies, IAM policies, and grants. Cross-account access for keys can be enabled. Keys can be identified in multiple ways : ARN, Id, Alias ARN, and Alias name. Keys are usually per-region (single-region), but multi-region keys can be created too. Enclave-KMS communication There are two mechanisms that are in play when integrating KMS with Nitro Enclaves: KMS policies restricting access to CMKs to specific enclaves (by PCR values) KMS encrypting responses to enclave’s public keys In the first mechanism, the key policy may authorize access to only requests that contain fresh and correctly signed attestation documents with the expected PCR values. Enclaves have to generate attestations and include them in requests to KMS. Note that the enclave still needs IAM credentials to access KMS in the first place. The second mechanism is about enclaves sending asymmetric public keys (inside the attestation documents) to KMS, and KMS encrypting part of the responses to the key. This mechanism is supposed to ensure that only the requesting enclave can see output from KMS. Only a few KMS operations support these two mechanisms. The operations are: GenerateDataKey , GenerateDataKeyPair Decrypt DeriveSharedSecret GenerateRandom Note the absence of the Encrypt operation: enclaves can request this operation, but without the attestation-based security mechanisms. CMKs cannot be used directly by enclaves for encryption without missing on the attestation checks. This means cryptography operations are supposed to be implemented via data keys, and not directly via CMKs. S t o r a g e s t { o E r _ e d ( k ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "AWS": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "AWS",
-                "mention",
-                0.26
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Trail of Bits",
-          "cohort": "offensive_vulnerability_research",
-          "title": "A few notes on AWS Nitro Enclaves: KMS integration",
-          "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
-          "published": "2026-08-05T11:00:00+00:00",
-          "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "AWS": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "AWS",
-                  "mention",
-                  0.26
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1b822e43c0",
-      "priority_score": 12,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [],
-      "taxonomy": {
         "threat_categories": [
           "data_breach",
           "ransomware_extortion",
-          "supply_chain"
+          "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [
@@ -4183,34 +3880,43 @@
         ],
         "affected_products": [
           "Google/Gemini",
-          "SonicWall",
-          "npm"
+          "Palo Alto Networks",
+          "SonicWall"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-18556",
+          "CVE-2026-18577",
+          "CVE-2026-29146",
+          "CVE-2026-34486",
+          "CVE-2026-9198"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth",
+          "zero_day"
+        ],
         "content_type": [
-          "incident_report"
+          "news_report"
         ],
         "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
         "source": "SecurityWeek",
         "cohort": "cyber_news_breach_reporting",
-        "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
-        "link": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
-        "published": "2026-08-05T11:35:23+00:00",
-        "summary": "Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek .",
-        "full_body": "Lifespan Physician Group of Massachusetts, doing business as Brown Health Medical Group-MA, is notifying over 311,000 individuals that their personal, medical, and financial information was stolen in a data breach. The incident occurred in December 2025 at its Hawthorn location. It involved a historic file server, the healthcare organization says in a sample notification letter filed with the Massachusetts Office of Consumer Affairs and Business Regulation. While the practice’s electronic health record system was not affected, Brown Health Medical Group-MA determined on June 22, 2026, that the attackers accessed files containing personal information. The potentially compromised information, it says, includes names, contact information, dates of birth, Social Security numbers, driver’s license numbers, government ID numbers, medical and disability-related records, financial account information, and credit/debit card numbers. Personnel and human resources records, including payroll and compensation information, and licensure or credentialing information, were also compromised. “Not all categories of information were impacted for all individuals,” Brown Health Medical Group-MA says. Advertisement. Scroll to continue reading. The healthcare organization says it isolated the affected server immediately after identifying the incident, has implemented additional safeguards, and is re-training its employees. Brown Health Medical Group-MA notified the US Department of Health and Human Services (HHS) that 311,760 people were affected by the data breach. Of these, 290,357 are Massachusetts residents. The organization is providing the impacted individuals with two years of free fraud detection and identity protection and restoration services. Brown Health Medical Group-MA has not named the threat actor behind the attack, and SecurityWeek has not seen any known ransomware or extortion groups claiming responsibility for the incident. Related: 150,000 Impacted by Madera Community Hospital Data Breach Related: Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Oligo Raises $60 Million for Runtime Security Zenity Raises $125 Million in Series C Funding Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks 150,000 Impacted by Madera Community Hospital Data Breach River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Latest News How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones Black Hat USA 2026 – Summary of Vendor Announcements (Part 3) The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data AI Agents Targeted Real People and Projects During Cybersecurity Tests CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest defa",
+        "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
+        "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
+        "published": "2026-08-05T09:44:50+00:00",
+        "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek .",
+        "full_body": "The US Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned that threat actors have been exploiting three vulnerabilities in IBM Langflow OSS, N-able N-central, and Apache Tomcat. Tracked as CVE-2026-9198 (CVSS score of 9.8), the Langflow OSS bug allows unauthenticated attackers to chain two API endpoints for remote code execution. It was disclosed on July 17, when IBM rolled out patches for it, in Langflow OSS version 1.10.1, warning that all default deployments are affected. “The vulnerability combined two distinct issues: an unauthenticated endpoint that issued superuser bearer tokens to any network caller, and a code validation endpoint that executed arbitrary Python code. An attacker could chain these vulnerabilities by first obtaining a superuser token from the auto-login endpoint, then using that token to submit malicious code to the validation endpoint,” IBM warned . Proof-of-concept (PoC) code targeting the security defect was published roughly a week after the public disclosure, and CISA added the CVE to its Known Exploited Vulnerabilities ( KEV ) catalog on August 4. The N-able N-central bug flagged as exploited is tracked as CVE-2026-18556 (CVSS score of 7.4) and described as an authentication bypass. Advertisement. Scroll to continue reading. According to N-able, threat actors exploited the issue as a zero-day to gain administrative access and connect to systems managed through the remote monitoring and management (RMM) platform. The initial fix for CVE-2026-18556 was incomplete, and threat actors bypassed it. As the exploitation activity intensified at the end of July, N-able rolled out a hotfix, issuing CVE-2026-18577 for the patch bypass. Both CVE-2026-18556 and CVE-2026-18577 are now in CISA’s KEV list. Tracked as CVE-2026-34486 (CVSS score of 7.5), the third vulnerability added to the KEV catalog on Tuesday is an EncryptInterceptor bypass in Apache Tomcat that was patched in April. The flaw was introduced in March, with the patch for CVE-2026-29146, a padding oracle issue in EncryptInterceptor, an optional channel interceptor that encrypts messages transmitted between nodes in Tomcat clusters. “The fix moved one line of code. That line turned the encryption layer from fail-closed to fail-open, and opened a direct path to unauthenticated remote code execution on every cluster member,” StrigaAI , which identified the bug, explains. On deployments with EncryptInterceptor configured, only messages encrypted using a shared key should be decrypted and passed to the deserialization layer. Due to the bypass, however, upon failed decryption, the attacker-controlled code was forwarded up the interceptor chain unmodified. Last week, SOCRadar warned that CVE-2026-34486 had been exploited by a Chinese threat actor in attacks involving the Snowlight malware family, while Palo Alto Networks observed the vulnerability being exploited by Chinese hackers in an AI-enabled autonomous hacking campaign. In line with BOD 26-04 requirements, CISA is urging federal agencies to patch all three vulnerabilities by August 7. Related: TP-Link Omada ZTP Vulnerabilities Chain Into Full Network Takeover Related: Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Related: Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks Related: Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Oligo Raises $60 Million for Runtime Security Zenity Raises $125 Million in Series C Funding Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks 150,000 Impacted by Madera Community Hospital Data Breach River Bank Says Hac",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "ransomware_extortion",
-            "supply_chain",
+            "zero_day",
             "data_breach"
           ],
           "actor_attribution": [],
@@ -4221,19 +3927,29 @@
           ],
           "affected_products": [
             "SonicWall",
-            "npm",
-            "Google/Gemini"
+            "Google/Gemini",
+            "Palo Alto Networks"
           ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-9198",
+            "CVE-2026-18556",
+            "CVE-2026-18577",
+            "CVE-2026-34486",
+            "CVE-2026-29146"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
+          "urgency_signals": [
+            "zero_day",
+            "preauth_unauth",
+            "poc_available"
+          ],
+          "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
             "SonicWall": "target",
-            "npm": "target",
-            "Google/Gemini": "target"
+            "Google/Gemini": "target",
+            "Palo Alto Networks": "target"
           },
           "weak_tags": {
             "products": []
@@ -4244,14 +3960,14 @@
         {
           "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
-          "link": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
-          "published": "2026-08-05T11:35:23+00:00",
-          "summary": "Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek .",
+          "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
+          "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
+          "published": "2026-08-05T09:44:50+00:00",
+          "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion",
-              "supply_chain",
+              "zero_day",
               "data_breach"
             ],
             "actor_attribution": [],
@@ -4262,49 +3978,30 @@
             ],
             "affected_products": [
               "SonicWall",
-              "npm",
-              "Google/Gemini"
+              "Google/Gemini",
+              "Palo Alto Networks"
             ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-9198",
+              "CVE-2026-18556",
+              "CVE-2026-18577",
+              "CVE-2026-34486",
+              "CVE-2026-29146"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
+            "urgency_signals": [
+              "zero_day",
+              "preauth_unauth",
+              "poc_available"
+            ],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
               "SonicWall": "target",
-              "npm": "target",
-              "Google/Gemini": "target"
+              "Google/Gemini": "target",
+              "Palo Alto Networks": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1vg513d/311000_impacted_by_brown_health_medical_groupma/",
-          "published": "2026-08-05T11:44:28+00:00",
-          "summary": "Hackers stole personal information, medical records, and financial information from the organization’s server. submitted by /u/sunychoudhary [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4491,6 +4188,97 @@
             "role_map": {},
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "24e0f0f990",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Trail of Bits",
+        "cohort": "offensive_vulnerability_research",
+        "title": "A few notes on AWS Nitro Enclaves: KMS integration",
+        "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
+        "published": "2026-08-05T11:00:00+00:00",
+        "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n",
+        "full_body": "Page content Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs never leave KMS. You request KMS to perform cryptographic operations (like encryption or signing) for you. Data keys and key pairs are generated in KMS, are not stored in KMS, and are intended for programmatic uses. For symmetric keys, the KMS gives you a plaintext key and the same key encrypted to CMK. Your application performs encryptions, removes the plaintext key, and stores the key encrypted to a CMK along the ciphertexts; this pattern is called envelope encryption . For asymmetric keys, the KMS gives you a plaintext key pair and the private key encrypted to CMK. Your application creates signatures or encrypts data, deletes the private key, and keeps the public key and encrypted private key (along with signatures/ciphertexts). Both types of data keys can be used with Decrypt operation to get plaintext keys again. S t o r a g e s t { o E r _ e d ( k E , _ C d } k , C ) E n c l a v G e e { n d e k C D p r , = e l a E e c a t _ n r i e d c y n D k ( p t a = d t e t e k ( { x a n , c d t K c p m k = e ( l k } d y c a _ e ( m i i c c k n d ( m , t , d k d e E k _ k x _ , i ) t d C d } ) k ) ) ) K M S Figure 1: Basic KMS operations. cmk_id is an ID (ARN) of CMK key, cmk is the actual key used, enc / dec are any encryption/decryption algorithms, GenerateDataKey and Decrypt are KMS operations. Access to keys is subject to authorization policies , including key policies, IAM policies, and grants. Cross-account access for keys can be enabled. Keys can be identified in multiple ways : ARN, Id, Alias ARN, and Alias name. Keys are usually per-region (single-region), but multi-region keys can be created too. Enclave-KMS communication There are two mechanisms that are in play when integrating KMS with Nitro Enclaves: KMS policies restricting access to CMKs to specific enclaves (by PCR values) KMS encrypting responses to enclave’s public keys In the first mechanism, the key policy may authorize access to only requests that contain fresh and correctly signed attestation documents with the expected PCR values. Enclaves have to generate attestations and include them in requests to KMS. Note that the enclave still needs IAM credentials to access KMS in the first place. The second mechanism is about enclaves sending asymmetric public keys (inside the attestation documents) to KMS, and KMS encrypting part of the responses to the key. This mechanism is supposed to ensure that only the requesting enclave can see output from KMS. Only a few KMS operations support these two mechanisms. The operations are: GenerateDataKey , GenerateDataKeyPair Decrypt DeriveSharedSecret GenerateRandom Note the absence of the Encrypt operation: enclaves can request this operation, but without the attestation-based security mechanisms. CMKs cannot be used directly by enclaves for encryption without missing on the attestation checks. This means cryptography operations are supposed to be implemented via data keys, and not directly via CMKs. S t o r a g e s t { o E r _ e d ( k ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "AWS": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "AWS",
+                "mention",
+                0.26
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Trail of Bits",
+          "cohort": "offensive_vulnerability_research",
+          "title": "A few notes on AWS Nitro Enclaves: KMS integration",
+          "link": "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/",
+          "published": "2026-08-05T11:00:00+00:00",
+          "summary": "Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "AWS": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "AWS",
+                  "mention",
+                  0.26
+                ]
+              ]
             }
           }
         }
@@ -5218,144 +5006,6 @@
       ]
     },
     {
-      "cluster_id": "fe05850866",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "VMware"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20316",
-          "CVE-2026-59309",
-          "CVE-2026-59310",
-          "CVE-2026-59726",
-          "CVE-2026-63077"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "3rd August – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-        "published": "2026-08-03T13:15:55+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Anthropic/Claude",
-            "VMware"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-59726",
-            "CVE-2026-20316",
-            "CVE-2026-59309",
-            "CVE-2026-59310",
-            "CVE-2026-63077"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Anthropic/Claude": "target",
-            "VMware": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "3rd August – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
-          "published": "2026-08-03T13:15:55+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Anthropic/Claude",
-              "VMware"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-59726",
-              "CVE-2026-20316",
-              "CVE-2026-59309",
-              "CVE-2026-59310",
-              "CVE-2026-63077"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "VMware": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b00983247a",
       "priority_score": 10,
       "member_count": 1,
@@ -5888,6 +5538,144 @@
       ]
     },
     {
+      "cluster_id": "fe05850866",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "VMware"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20316",
+          "CVE-2026-59309",
+          "CVE-2026-59310",
+          "CVE-2026-59726",
+          "CVE-2026-63077"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "3rd August – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+        "published": "2026-08-03T13:15:55+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Anthropic/Claude",
+            "VMware"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-59726",
+            "CVE-2026-20316",
+            "CVE-2026-59309",
+            "CVE-2026-59310",
+            "CVE-2026-63077"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "VMware": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "3rd August – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/",
+          "published": "2026-08-03T13:15:55+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Anthropic/Claude",
+              "VMware"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-59726",
+              "CVE-2026-20316",
+              "CVE-2026-59309",
+              "CVE-2026-59310",
+              "CVE-2026-63077"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "VMware": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "432a5ea542",
       "priority_score": 10,
       "member_count": 1,
@@ -6128,6 +5916,125 @@
       ]
     },
     {
+      "cluster_id": "1b822e43c0",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [
+          "Google/Gemini",
+          "SonicWall",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
+        "link": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
+        "published": "2026-08-05T11:35:23+00:00",
+        "summary": "Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek .",
+        "full_body": "Lifespan Physician Group of Massachusetts, doing business as Brown Health Medical Group-MA, is notifying over 311,000 individuals that their personal, medical, and financial information was stolen in a data breach. The incident occurred in December 2025 at its Hawthorn location. It involved a historic file server, the healthcare organization says in a sample notification letter filed with the Massachusetts Office of Consumer Affairs and Business Regulation. While the practice’s electronic health record system was not affected, Brown Health Medical Group-MA determined on June 22, 2026, that the attackers accessed files containing personal information. The potentially compromised information, it says, includes names, contact information, dates of birth, Social Security numbers, driver’s license numbers, government ID numbers, medical and disability-related records, financial account information, and credit/debit card numbers. Personnel and human resources records, including payroll and compensation information, and licensure or credentialing information, were also compromised. “Not all categories of information were impacted for all individuals,” Brown Health Medical Group-MA says. Advertisement. Scroll to continue reading. The healthcare organization says it isolated the affected server immediately after identifying the incident, has implemented additional safeguards, and is re-training its employees. Brown Health Medical Group-MA notified the US Department of Health and Human Services (HHS) that 311,760 people were affected by the data breach. Of these, 290,357 are Massachusetts residents. The organization is providing the impacted individuals with two years of free fraud detection and identity protection and restoration services. Brown Health Medical Group-MA has not named the threat actor behind the attack, and SecurityWeek has not seen any known ransomware or extortion groups claiming responsibility for the incident. Related: 150,000 Impacted by Madera Community Hospital Data Breach Related: Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Oligo Raises $60 Million for Runtime Security Zenity Raises $125 Million in Series C Funding Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks 150,000 Impacted by Madera Community Hospital Data Breach River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Brinks Home Discloses Data Breach as Hackers Leak Files Recent SonicWall Vulnerabilities Exploited in Ransomware Attacks Latest News How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones Black Hat USA 2026 – Summary of Vendor Announcements (Part 3) The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict New Attack Methods Enable Malware to Hijack Passkey-Protected Accounts Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data AI Agents Targeted Real People and Projects During Cybersecurity Tests CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest defa",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [
+            "SonicWall",
+            "npm",
+            "Google/Gemini"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "SonicWall": "target",
+            "npm": "target",
+            "Google/Gemini": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
+          "link": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
+          "published": "2026-08-05T11:35:23+00:00",
+          "summary": "Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [
+              "SonicWall",
+              "npm",
+              "Google/Gemini"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "SonicWall": "target",
+              "npm": "target",
+              "Google/Gemini": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "60f6cff21d",
       "priority_score": 10,
       "member_count": 1,
@@ -6216,129 +6123,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3569b34b72",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-59774",
-        "Gitea"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Docker",
-          "Gitea"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20896",
-          "CVE-2026-27771",
-          "CVE-2026-59774",
-          "CVE-2026-60004"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-        "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-        "published": "2026-08-05T11:04:23+00:00",
-        "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
-        "full_body": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup  Swati Khandelwal  Aug 05, 2026 Vulnerability / DevOps An unauthenticated attacker can read any file the service account can access on Gitea , the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774 , rated Critical with a CVSS score of 9.8, and received its formal advisory on August 2. Gitea 1.27.1 also patches CVE-2026-60004 , a separate remote code execution bug covered in a prior THN report . Gitea said Cloud instances would be upgraded automatically during the release maintenance window. Self-hosted administrators should move to 1.27.1 immediately. The file-read bug is not direct one-request remote code execution. Gitea says it can become command execution if an attacker reads app.ini , extracts INTERNAL_TOKEN , injects a Git hook through the internal logger, and triggers that hook during an anonymous clone. That chain is described in Gitea's advisory ; The Hacker News found no independently published exploit demonstrating it. Upgrading is necessary but may not be sufficient after suspected exposure. If logs show the markup endpoint was reached on an affected build, treat credentials readable by the Gitea service account as exposed and rotate the internal token, OAuth material, JWT signing material, and database credentials before considering the instance clean. No badge required The file-read path runs through Gitea's markup rendering endpoint, POST /{owner}/{repo}/markup . The route allows optional sign-in, resolves the repository, and checks reader access. An anonymous request clears that check against any public repository with its code unit enabled. That precondition limits the unauthenticated exposure: an instance with no public repositories has no anonymous attack path through this endpoint. The break is in Gitea's Org-mode renderer. Gitea 1.27.0 initialized go-org with org.New() and did not replace the library's default ReadFile callback. In go-org 1.9.1, that callback is ioutil.ReadFile . Org-mode's #+INCLUDE directive accepts absolute paths and passes them to the callback. An attacker submits Org-mode markup, selects Mode: file , and receives files the service account can read. The fix landed in PR #38642 and was backported in PR #38645. Gitea now overrides ReadFile so an Org-mode include path is returned as plain rendered content instead of being resolved from the server filesystem. The patch added a regression test for include-path rendering. CVE-2026-59774 was found by XBOW Security , an autonomous offensive security system, and triaged by Guido Leo . Shai Rod, known online as NightRang3r, independently reported the same issue. What administrators should check Gitea did not publish formal detection guidance in the advisory. Review anonymous POST requests to /{owner}/{repo}/markup , especially requests selecting Org-mode rendering or submitting absolute filesystem paths. If the advisory's escalation path was attempted, check repository hook directories for unexpected executable files. Gitea's advisory reports no exploitation in the wild, and as of August 5, 2026, CVE-2026-59774 had not appeared on CISA's Known Exploited Vulnerabilities catalog. The file-read primitive was publicly previewed before its formal advisory, according to a prior THN report. The token-to-hook command-execution chain remains single-sourced to Gitea's advisory. The flaw follows a dense stretch of Gitea security work. In June, Gitea patched a critical reverse-proxy authentication bypass in Docker images, CVE-2026-20896 , that threat actors were observed probing 13 days after disclosure. In May, a container-registry access-control flaw, CVE-2026-27771 , was estimated to affect more than 30,000 deployments across over 30 countries. Found this article interesting? F",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Gitea",
-            "Docker"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-59774",
-            "CVE-2026-60004",
-            "CVE-2026-20896",
-            "CVE-2026-27771"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gitea": "target",
-            "Docker": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-          "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-          "published": "2026-08-05T11:04:23+00:00",
-          "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Gitea",
-              "Docker"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-59774",
-              "CVE-2026-60004",
-              "CVE-2026-20896",
-              "CVE-2026-27771"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gitea": "target",
-              "Docker": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -6993,6 +6777,129 @@
       ]
     },
     {
+      "cluster_id": "3569b34b72",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-59774",
+        "Gitea"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Docker",
+          "Gitea"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20896",
+          "CVE-2026-27771",
+          "CVE-2026-59774",
+          "CVE-2026-60004"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+        "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+        "published": "2026-08-05T11:04:23+00:00",
+        "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+        "full_body": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup  Swati Khandelwal  Aug 05, 2026 Vulnerability / DevOps An unauthenticated attacker can read any file the service account can access on Gitea , the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774 , rated Critical with a CVSS score of 9.8, and received its formal advisory on August 2. Gitea 1.27.1 also patches CVE-2026-60004 , a separate remote code execution bug covered in a prior THN report . Gitea said Cloud instances would be upgraded automatically during the release maintenance window. Self-hosted administrators should move to 1.27.1 immediately. The file-read bug is not direct one-request remote code execution. Gitea says it can become command execution if an attacker reads app.ini , extracts INTERNAL_TOKEN , injects a Git hook through the internal logger, and triggers that hook during an anonymous clone. That chain is described in Gitea's advisory ; The Hacker News found no independently published exploit demonstrating it. Upgrading is necessary but may not be sufficient after suspected exposure. If logs show the markup endpoint was reached on an affected build, treat credentials readable by the Gitea service account as exposed and rotate the internal token, OAuth material, JWT signing material, and database credentials before considering the instance clean. No badge required The file-read path runs through Gitea's markup rendering endpoint, POST /{owner}/{repo}/markup . The route allows optional sign-in, resolves the repository, and checks reader access. An anonymous request clears that check against any public repository with its code unit enabled. That precondition limits the unauthenticated exposure: an instance with no public repositories has no anonymous attack path through this endpoint. The break is in Gitea's Org-mode renderer. Gitea 1.27.0 initialized go-org with org.New() and did not replace the library's default ReadFile callback. In go-org 1.9.1, that callback is ioutil.ReadFile . Org-mode's #+INCLUDE directive accepts absolute paths and passes them to the callback. An attacker submits Org-mode markup, selects Mode: file , and receives files the service account can read. The fix landed in PR #38642 and was backported in PR #38645. Gitea now overrides ReadFile so an Org-mode include path is returned as plain rendered content instead of being resolved from the server filesystem. The patch added a regression test for include-path rendering. CVE-2026-59774 was found by XBOW Security , an autonomous offensive security system, and triaged by Guido Leo . Shai Rod, known online as NightRang3r, independently reported the same issue. What administrators should check Gitea did not publish formal detection guidance in the advisory. Review anonymous POST requests to /{owner}/{repo}/markup , especially requests selecting Org-mode rendering or submitting absolute filesystem paths. If the advisory's escalation path was attempted, check repository hook directories for unexpected executable files. Gitea's advisory reports no exploitation in the wild, and as of August 5, 2026, CVE-2026-59774 had not appeared on CISA's Known Exploited Vulnerabilities catalog. The file-read primitive was publicly previewed before its formal advisory, according to a prior THN report. The token-to-hook command-execution chain remains single-sourced to Gitea's advisory. The flaw follows a dense stretch of Gitea security work. In June, Gitea patched a critical reverse-proxy authentication bypass in Docker images, CVE-2026-20896 , that threat actors were observed probing 13 days after disclosure. In May, a container-registry access-control flaw, CVE-2026-27771 , was estimated to affect more than 30,000 deployments across over 30 countries. Found this article interesting? F",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Gitea",
+            "Docker"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-59774",
+            "CVE-2026-60004",
+            "CVE-2026-20896",
+            "CVE-2026-27771"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gitea": "target",
+            "Docker": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+          "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+          "published": "2026-08-05T11:04:23+00:00",
+          "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Gitea",
+              "Docker"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-59774",
+              "CVE-2026-60004",
+              "CVE-2026-20896",
+              "CVE-2026-27771"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gitea": "target",
+              "Docker": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b138851666",
       "priority_score": 9,
       "member_count": 1,
@@ -7143,7 +7050,7 @@
       ]
     },
     {
-      "cluster_id": "041ac568b7",
+      "cluster_id": "cd780b1305",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7169,12 +7076,12 @@
         ]
       },
       "primary": {
-        "source": "Reddit r/cybersecurity",
+        "source": "Reddit r/netsec",
         "cohort": "reddit_practitioner_osint",
         "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1vg98d6/stored_xss_in_djangos_admin_via_an_unvalidated/",
-        "published": "2026-08-05T14:39:42+00:00",
-        "summary": "Django's admin auto-linked URLField values without validating the scheme — a stored javascript: value rendered as a live link. Fixed in 6.0.8 and 5.2.17. submitted by /u/Sandwich_1337 [link] [comments]",
+        "link": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
+        "published": "2026-08-05T14:38:12+00:00",
+        "summary": "submitted by /u/Sandwich_1337 [link] [comments]",
         "full_body": "",
         "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
@@ -7198,12 +7105,12 @@
       },
       "corroborating_sources": [
         {
-          "source": "Reddit r/cybersecurity",
+          "source": "Reddit r/netsec",
           "cohort": "reddit_practitioner_osint",
           "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1vg98d6/stored_xss_in_djangos_admin_via_an_unvalidated/",
-          "published": "2026-08-05T14:39:42+00:00",
-          "summary": "Django's admin auto-linked URLField values without validating the scheme — a stored javascript: value rendered as a live link. Fixed in 6.0.8 and 5.2.17. submitted by /u/Sandwich_1337 [link] [comments]",
+          "link": "https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/",
+          "published": "2026-08-05T14:38:12+00:00",
+          "summary": "submitted by /u/Sandwich_1337 [link] [comments]",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7898,105 +7805,6 @@
       ]
     },
     {
-      "cluster_id": "cf618761a2",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-15544",
-          "CVE-2025-7850",
-          "CVE-2025-7851",
-          "CVE-2025-9289",
-          "CVE-2025-9293"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-        "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
-        "published": "2026-08-04T22:18:20+00:00",
-        "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
-        "full_body": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks By Bill Toulas August 4, 2026 06:18 PM 0 TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). The flaws were uncovered by Forescout’s Vedere Labs researchers, who published the full details at the Black Hat USA security conference earlier today. Omada is TP-Link’s business networking product line that includes Wi-Fi access points, Ethernet and PoE switches, internet gateways, and VPN routers. They are typically used by small to medium-sized businesses, although TP-Link also markets pro-grade deployments for enterprises. ZTP is a way to deploy network devices without manually configuring each one on-site, allowing an IT team or managed service provider (MSP) to prepare everything remotely based on a predetermined configuration. Omada deployment diagram Source: Forescout Some of the 15 flaws Forescout discovered also impact various TP-Link products and services, such as IP cameras, smart home IoT devices, mobile applications, and cloud accounts. The issues include hard-coded cryptographic keys, information disclosure, remote code execution, device hijacking and spoofing, client-side code execution, and interception or compromise of encrypted communications. Forescout says attackers could combine the new flaws with two previously disclosed command-injection vulnerabilities to compromise Omada’s chain of trust and infiltrate networks. “The vulnerabilities fall into four impact categories: client-side code execution, information disclosure, device hijacking and spoofing, and compromise of encrypted communications,” Forescout explains . “Combined with two previously disclosed CVEs (CVE-2025-7850 and CVE-2025-7851), these flaws enable concrete attacks that let attackers infiltrate networks through controllers and client devices.” TP-Link’s advisory lists 15 newly disclosed flaws, of which 11 received the following identifiers: CVE-2025-9289 through CVE-2025-9293 CVE-2025-15544 CVE-2025-15627 through CVE-2025-15631 The remaining four findings did not receive a tracking number. They concern device adoption based only on knowing the serial number, default credentials used during initial adoption, predictable serial numbers, and files made available via unauthenticated temporary download links. In one attack scenario Forescout described, a remote attacker could enumerate predictable device serial numbers to obtain MAC addresses and identify devices awaiting adoption. The attacker could then impersonate one of those devices, exploit a race condition during cloud adoption, and authenticate using default credentials. This would cause the controller to disclose the device configuration, including a cleartext username, an unsalted MD5 password hash, and potentially VPN keys. The attacker could also inject JavaScript into the controller’s administrative interface to phish an administrator and steal their cloud-controller credentials. Having stolen the credentials, the attacker can then reconfigure managed devices, create VPN tunnels into the internal network, and exploit previously disclosed command-injection flaws to compromise network equipment. Overview of the race condition attack Source: Forescout The flaws affect Omada Controllers, Gateways, Switches, Access Points, OLT platforms, Cloud services, and TP-Link mobile applications. Forescout reports identifying over 1,800 internet-accessible Omada controllers, despite such deployments generally not being intended for direct internet exposure. As for the Android applications, Omada and Omada Guard have 1.1 downloads on Google Play, while TP-Link apps collectively have 3 to 7 million active accounts. Users are advised to visit TP-Link’s Omada download portal to source the latest firmware images for their device model. Additionally, it is recommended to use strong, unique a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-7850",
-            "CVE-2025-7851",
-            "CVE-2025-9289",
-            "CVE-2025-9293",
-            "CVE-2025-15544"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "TP-Link patches Omada ZTP flaws allowing hackers to breach networks",
-          "link": "https://www.bleepingcomputer.com/news/security/tp-link-patches-omada-ztp-flaws-allowing-hackers-to-breach-networks/",
-          "published": "2026-08-04T22:18:20+00:00",
-          "summary": "TP-Link has patched 15 vulnerabilities in the zero-touch provisioning (ZTP) mechanism of its Omada network devices that could be chained with previously disclosed flaws to achieve remote code execution (RCE). [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-7850",
-              "CVE-2025-7851",
-              "CVE-2025-9289",
-              "CVE-2025-9293",
-              "CVE-2025-15544"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "097b1c162f",
       "priority_score": 8,
       "member_count": 3,
@@ -8006,19 +7814,27 @@
       ],
       "taxonomy": {
         "threat_categories": [
+          "active_exploitation",
+          "apt_espionage",
           "data_breach",
           "ransomware_extortion",
           "zero_day"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government"
+        ],
         "affected_products": [
           "SonicWall"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-15409",
+          "CVE-2026-15410"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
+          "actively_exploited",
           "zero_day"
         ],
         "content_type": [
@@ -8035,22 +7851,31 @@
         "link": "https://cyberscoop.com/inc-ransomware-sonicwall-zero-day-attacks/",
         "published": "2026-08-04T15:20:06+00:00",
         "summary": "INC ransomware wasn’t the first group to exploit the zero-days, but it’s been the most assertive and effective in chaining both vulnerabilities to steal and encrypt data for extortion. The post Prolific ransomware group behind SonicWall zero-day attacks appeared first on CyberScoop .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Researchers said INC ransomware, one of the most active ransomware groups globally, has been the main attacker exploiting a pair of SonicWall zero-days soon after they were disclosed last month. The prolific ransomware-as-a-service operation wasn’t the first group to exploit the flaws, which were actively exploited for three weeks before the vendor disclosed and patched the defects July 14, but it has been the most assertive and concerning group to target and chain both vulnerabilities together for full access. “Since public disclosure, INC ransomware has emerged as the most commonly named threat actor actively weaponizing this vulnerability chain,” Brett Deroche, director of incident response at Rapid7, told CyberScoop. “While Inc is the name driving the post-disclosure wave, we can’t attribute the full body of exploitation to INC specifically.” SonicWall did not respond to a request for comment. Advertisement The SonicWall vulnerabilities — CVE-2026-15409 and CVE-2026-15410 — are the latest in a series of security issues confronting the vendor’s customers, including actively exploited zero-days, previously disclosed defects , and an attack last year that allowed a state-sponsored threat group to steal the firewall configurations of every SonicWall customer . Just last week, Huntress researchers spotted an attack spree that compromised 30 SonicWall customers in less than two days. Ransomware groups have taken a special interest in SonicWall. Ten of the 17 SonicWall defects added to the Cybersecurity and Infrastructure Security Agency’s known exploited vulnerabilities (KEV) catalog since late 2021 are known to be used in ransomware campaigns. INC ransomware, which has claimed nearly 900 victims across 71 countries since it was first discovered three years ago, is just the latest financially-motivated group to target SonicWall customers. Researchers haven’t determined how many organizations have been impacted by the latest SonicWall zero-days, including attacks linked to INC ransomware. Advertisement “Attribution here isn’t a single clean answer. The earliest exploitation we observed, beginning June 22, traced back to common hosted infrastructure, though those attacks were largely unsuccessful,” Deroche said. “INC’s confirmed activity that we’ve observed came after public disclosure, using different infrastructure and moving from initial access to ransomware deployment in short order. That’s a meaningfully different operational tempo and skill level than what we saw pre-disclosure,” he added. Deroche said Rapid7 has successfully prevented data theft and encryption in the majority of recent cases, yet noted ransomware was deployed in at least one case the security vendor observed. Yet, there could be other attacks outside the purview of Rapid7’s telemetry. INC ransomware has listed multiple new alleged victims on its data leak site, including organizations and government agencies in Australia, the United States, the United Arab Emirates, Colombia and Switzerland, Resecurity said in a blog post Saturday. The company said it has aided several victims with incident response, and learned multiple victims received emails and phone calls from alleged hackers who pressured them to engage in negotiations. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops SonicWall’s headquarters in Milpitas, California. (Getty Images) SonicWall’s headquarters in Milpitas, California. (Getty Images) Palo Alto Networks headquarters in Silicon Valley; Palo Alto Networks, Inc. is an American multinational cyber security company. (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race What the post-quantum executive order means for CISOs Government National cyber director ",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "ransomware_extortion",
-            "zero_day"
+            "zero_day",
+            "data_breach",
+            "apt_espionage",
+            "active_exploitation"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "government"
+          ],
           "affected_products": [
             "SonicWall"
           ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-15409",
+            "CVE-2026-15410"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
+            "actively_exploited",
             "zero_day"
           ],
           "content_type": "news_report",
@@ -8074,17 +7899,26 @@
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion",
-              "zero_day"
+              "zero_day",
+              "data_breach",
+              "apt_espionage",
+              "active_exploitation"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "government"
+            ],
             "affected_products": [
               "SonicWall"
             ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-15409",
+              "CVE-2026-15410"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
+              "actively_exploited",
               "zero_day"
             ],
             "content_type": "news_report",
@@ -8657,81 +8491,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "60c06c38ca",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/cybersecurity",
-        "cohort": "reddit_practitioner_osint",
-        "title": "How to know if you discover a site vs technology or stack level vulnerability?",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1vghcau/how_to_know_if_you_discover_a_site_vs_technology/",
-        "published": "2026-08-05T19:28:41+00:00",
-        "summary": "I was recently using a site that I really appreciate the info and vendors on and was hoping I could get some contract development work with when I stumble on a vulnerability. I was checking out the leaving a review which cleaned user input of basic escape characters well. Then I noticed the review Id and security token up top and decided to try changing it which worked. So this meant on this site It was possible to look at old orders \"Not with User info on display just what was ordered\". I told the site owner I would like to work with them pitched them some features. They rejected me features and told me that it wasn't possible on their site. I ended up leaving a positive review on someone else order with my user name and \"hi *site owner*\" then sent them the link to the review. They said they appreciated but then I was thinking when does someone doing security work identify if this is a site specific security issue or if it's broader like a plugin issue? submitted by /u/borosilicat3 [l",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "How to know if you discover a site vs technology or stack level vulnerability?",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1vghcau/how_to_know_if_you_discover_a_site_vs_technology/",
-          "published": "2026-08-05T19:28:41+00:00",
-          "summary": "I was recently using a site that I really appreciate the info and vendors on and was hoping I could get some contract development work with when I stumble on a vulnerability. I was checking out the leaving a review which cleaned user input of basic escape characters well. Then I noticed the review Id and security token up top and decided to try changing it which worked. So this meant on this site It was possible to look at old orders \"Not with User info on display just what was ordered\". I told the site owner I would like to work with them pitched them some features. They rejected me features and told me that it wasn't possible on their site. I ended up leaving a positive review on someone else order with my user name and \"hi *site owner*\" then sent them the link to the review. They said they appreciated but then I was thinking when does someone doing security work identify if this is a site specific security issue or if it's broader like a plugin issue? submitted by /u/borosilicat3 [l",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8815,7 +8574,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 28,
+      "article_count": 27,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "npm"
@@ -8845,8 +8604,7 @@
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
         "https://www.infosecurity-magazine.com/news/aws-north-korea-axios-npm-supply/",
         "https://risky.biz/RBNEWS595/",
-        "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
-        "https://www.reddit.com/r/cybersecurity/comments/1vg513d/311000_impacted_by_brown_health_medical_groupma/"
+        "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/"
       ]
     },
     {
@@ -8861,7 +8619,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 30,
+      "article_count": 29,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "AWS"
@@ -8890,7 +8648,6 @@
         "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
         "https://unit42.paloaltonetworks.com/xcsset-v40-malware-analysis/",
         "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-        "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
         "https://aws.amazon.com/blogs/security/aws-partners-with-anthropic-and-openai-to-bring-aws-continuum-into-developer-workflows/",
         "https://risky.biz/RBNEWSSI138/"
       ]
@@ -8936,50 +8693,6 @@
       ]
     },
     {
-      "label": "ransomware extortion targeting SonicWall",
-      "anchor_signal": "SonicWall",
-      "theme_key": "sonicwall",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "zero_day",
-          "data_breach"
-        ],
-        "affected_industries": [
-          "healthcare",
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "SonicWall",
-          "Google/Gemini"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 6,
-      "cohesion": 0.242,
-      "shared_strong_signals": [
-        "SonicWall"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "1af5ed51b6",
-        "1b822e43c0",
-        "097b1c162f"
-      ],
-      "links": [
-        "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
-        "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
-        "https://www.reddit.com/r/cybersecurity/comments/1vg513d/311000_impacted_by_brown_health_medical_groupma/",
-        "https://cyberscoop.com/inc-ransomware-sonicwall-zero-day-attacks/",
-        "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
-      ]
-    },
-    {
       "label": "Microsoft Defender vulnerability activity",
       "anchor_signal": "Microsoft Defender",
       "theme_key": "microsoft-defender",
@@ -9005,6 +8718,49 @@
         "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
         "https://orca.security/resources/blog/10-best-tenable-alternatives/",
         "https://orca.security/resources/blog/7-best-rapid7-alternatives/"
+      ]
+    },
+    {
+      "label": "ransomware extortion targeting SonicWall",
+      "anchor_signal": "SonicWall",
+      "theme_key": "sonicwall",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "data_breach",
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government",
+          "healthcare",
+          "financial_services"
+        ],
+        "affected_products": [
+          "SonicWall",
+          "Google/Gemini"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.237,
+      "shared_strong_signals": [
+        "SonicWall"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "1af5ed51b6",
+        "1b822e43c0",
+        "097b1c162f"
+      ],
+      "links": [
+        "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
+        "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
+        "https://cyberscoop.com/inc-ransomware-sonicwall-zero-day-attacks/",
+        "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
       ]
     },
     {
@@ -9065,7 +8821,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "cohesion": 0.269,
       "shared_strong_signals": [
         "CVE-2026-20316"
@@ -9078,7 +8834,6 @@
       ],
       "links": [
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/",
-        "https://www.reddit.com/r/cybersecurity/comments/1vgi567/cybersecurity_statistics_of_the_week_july_27th/",
         "https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/"
       ]
     },
@@ -9121,7 +8876,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 3,
+      "article_count": 2,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Cisco"
@@ -9134,7 +8889,6 @@
       ],
       "links": [
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/",
-        "https://www.reddit.com/r/cybersecurity/comments/1vgi567/cybersecurity_statistics_of_the_week_july_27th/",
         "https://www.sophos.com/en-us/blog/2608-volatility-interlock"
       ]
     },
@@ -9200,14 +8954,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-31986",
-          "cluster_id": "a7591d83ba",
-          "first_source": "Help Net Security",
-          "first_published": "2026-08-05T18:45:14+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -9451,13 +9198,19 @@
         "value": "CVE-2026-59726",
         "cluster_id": "fe05850866",
         "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-15409",
+        "cluster_id": "097b1c162f",
+        "weeks_observed": 3
       }
     ],
     "tier_inversion": [
       {
-        "cluster_id": "041ac568b7",
+        "cluster_id": "cd780b1305",
         "title": "Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)",
-        "primary_source": "Reddit r/cybersecurity",
+        "primary_source": "Reddit r/netsec",
         "strong_signals": [
           "CVE-2026-15920"
         ]
