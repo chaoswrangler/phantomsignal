@@ -6,9 +6,21 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 05 Aug 2026 23:06:54 +0000</lastBuildDate>
+<lastBuildDate>Thu, 06 Aug 2026 03:16:18 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>An AI model from Meta also hacked another company during testing</title>
+<link>https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything</link>
+<description><![CDATA[An AI model from Meta also hacked another company during testing Stop me if you&apos;ve heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spokesperson said. Meta’s Muse Spark model “exploited a security vulnerability” in another company “in a manner similar to previously-reported instances with other companies.” The Information had the scoop , I&apos;m linking to CNN&apos;s re-report of it since they don&apos;t have a paywall. So that&apos;s Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cyberattacking other com<br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude · Google/Gemini</em>]]></description>
+<pubDate>Thu, 06 Aug 2026 00:25:27 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
+<category>Google/Gemini</category>
+</item>
 <item>
 <title>Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages</title>
 <link>https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain</link>
@@ -21,6 +33,49 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
+<title>Third-party cyber evaluations involving OpenAI models</title>
+<link>https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything</link>
+<description><![CDATA[Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post ) and another attack enabled by Irregular : Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet. [...] In one test, the name of the fictional target for the CTF challenge unintentionally coincided with a real domain. Because the testing environment was mistakenly connected to the internet, the model exploited a real website, mistaking it to be part of the simulated environment. Irregular also feature in Anthropic&apos;s write-up - they were hosting the misconfigured evaluation environment which gave Claude live internet access during some of those tests. Tags: security , ai <br/><br/><em>Tags: OpenAI/ChatGPT · Anthropic/Claude</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 23:45:32 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>OpenAI/ChatGPT</category>
+<category>Anthropic/Claude</category>
+</item>
+<item>
+<title>Incident Report: unsanctioned agent behaviour during cyber testing</title>
+<link>https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything</link>
+<description><![CDATA[Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government&apos;s AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply<br/><br/><em>Tags: GitHub · Anthropic/Claude · OpenAI/ChatGPT · supply_chain · phishing_social_eng · ai_security</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 23:32:06 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>GitHub</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>CRLF-Powered Desync Attacks: Beheading HTTP Streams</title>
+<link>https://portswigger.net/research/crlf-powered-desync-attacks</link>
+<description><![CDATA[Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power<br/><br/><em>Tags: active_exploitation</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 23:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://portswigger.net/research/crlf-powered-desync-attacks</guid>
+<source url="https://portswigger.net/research/rss">PortSwigger Research</source>
+<category>offensive_vulnerability_research</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>AI Browsers Vulnerable to &apos;PleaseFix&apos; Zero-Click Agent Hijacking</title>
+<link>https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking</link>
+<description><![CDATA[Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there&apos;s no simple fix for the threat.]]></description>
+<pubDate>Wed, 05 Aug 2026 23:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Ransom Cartel ransomware creator sentenced to 16 years in prison</title>
 <link>https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/</link>
 <description><![CDATA[Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -29,6 +84,16 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>No Perfect Fix for AI Browser Prompt Injection Flaws</title>
+<link>https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws</link>
+<description><![CDATA[AI browsers from top vendors remain vulnerable to prompt injection attacks despite multiple security guardrails, according to new research.<br/><br/><em>Tags: ai_security</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 22:18:25 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/application-security/no-perfect-fix-ai-browser-prompt-injection-flaws</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>ai_security</category>
 </item>
 <item>
 <title>Canadian pleads guilty to Snowflake cloud data-theft attacks</title>
@@ -2184,6 +2249,15 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>SE Asian Cybercriminal Syndicates Become a Global Power</title>
+<link>https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power</link>
+<description><![CDATA[The organized crime groups have moved from goods to services and continue to traffic people from at least 80 countries, costing nations in the region at least $88 billion in 2025 alone.]]></description>
+<pubDate>Thu, 30 Jul 2026 01:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>&apos;Flying Eagle&apos; Full-Service Mobile RAT Builder Wings Across China</title>
 <link>https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</link>
 <description><![CDATA[A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims&apos; bank accounts.]]></description>
@@ -2191,6 +2265,15 @@
 <guid isPermaLink="true">https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Iran War’s Secondary Effects Shape 2026 US Violent Extremism</title>
+<link>https://www.recordedfuture.com/research/iran-violent-extremism-landscape</link>
+<description><![CDATA[Explore the 2026 US violent extremism threat landscape. This report analyzes rising risks from HVEs, DVEs, and Iran-nexus actors to public and private sector entities.]]></description>
+<pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/research/iran-violent-extremism-landscape</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Dealing with AI-Generated Extortion</title>
@@ -2203,6 +2286,15 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
+<title>Introducing the SysQL Skill: Ask your security graph anything.</title>
+<link>https://webflow.sysdig.com/blog/introducing-the-sysql-skill-ask-your-security-graph-anything</link>
+<description><![CDATA[The SysQL Skill brings Sysdig&apos;s security graph into Claude Code, so you can ask any question in plain language and get back a validated query, real blast-radius data, and a prioritized fix decision. No query language, no console, no waiting on a report. Just a fix, all in one conversation.]]></description>
+<pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/introducing-the-sysql-skill-ask-your-security-graph-anything</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Enhanced Detection Engineering at Scale in the Agentic Era</title>
 <link>https://www.greynoise.io/blog/enhanced-detection-engineering-at-scale-in-the-agentic-era</link>
 <description><![CDATA[Check out GreyNoise&apos;s new Head of Adversary Engagement, Mark Mager, on why traditional detection engineering can&apos;t keep pace with CVE growth — and the agentic pipeline replacing it.]]></description>
@@ -2212,6 +2304,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Cybersecurity, Then &amp; Now</title>
+<link>https://www.darkreading.com/cyber-risk/cybersecurity-then-now</link>
+<description><![CDATA[Since 2006, Dark Reading has been at the forefront of covering cybersecurity. The more things change, the more they stay the same.]]></description>
+<pubDate>Wed, 29 Jul 2026 23:26:46 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/cybersecurity-then-now</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Smashing Security podcast #478: This job interview could destroy your company</title>
 <link>https://grahamcluley.com/smashing-security-podcast-478/</link>
 <description><![CDATA[You&apos;ve been headhunted for a great job in cryptocurrency. All you have to do is complete a short online assessment - with your webcam on, of course, so they can verify who you really are. Which is ironic, because the person recruiting you doesn&apos;t exist. And North Korean hackers using this trick have already made off with $643 million in crypto this year alone. Meanwhile, researchers at UC San Diego have discovered that 2.2 million cars across the United States can be unlocked or immobilised by anyone with a bit of Bluetooth kit - thanks to one aftermarket car alarm that made a truly spectacular cryptographic blunder. The bug has been sitting there since 2017. Nobody noticed. All this and more in episode 478 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.]]></description>
@@ -2219,15 +2320,6 @@
 <guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-478/</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Quoting D. Richard Hipp</title>
-<link>https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything</link>
-<description><![CDATA[Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. With a very simple specification, you can generate all of that code that you had to pay the expensive COBOL programmer to do before. That didn’t mean programmers went away. It just meant the job changed a little bit. — D. Richard Hipp Tags: d-richard-hipp , sql , careers]]></description>
-<pubDate>Wed, 29 Jul 2026 21:15:21 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Amazon identifies North Korean hacker group behind open-source supply chain attacks</title>
@@ -2721,16 +2813,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ai-linux-kernel-zero-day-net-sched/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Simple Job Board ≤ 2.11.0 - Unauthenticated RCE (CVE-2024-1813)</title>
-<link>https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/</link>
-<description><![CDATA[submitted by /u/MobetaSec [link] [comments]<br/><br/><em>Tags: CVE-2024-1813</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 14:04:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1v8zh25/simple_job_board_2110_unauthenticated_rce/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2024-1813</category>
 </item>
 <item>
 <title>How We Hacked Thousands of Data Centers in Minutes Using a 20-Year-Old Vulnerability</title>
@@ -3519,15 +3601,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Agentic AI Challenges Progress in Confidential Computing</title>
-<link>https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing</link>
-<description><![CDATA[Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.]]></description>
-<pubDate>Thu, 23 Jul 2026 11:17:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>New Dolphin X Stealer Employs AI Profiling to Prioritize Targets</title>
 <link>https://www.infosecurity-magazine.com/news/new-dolphin-x-stealer-ai-targets/</link>
 <description><![CDATA[Dolphin X is a new infostealer that uses AI to sort and rank victims, giving cybercriminals a faster way to identify lucrative targets<br/><br/><em>Tags: credential_theft</em>]]></description>
@@ -3574,15 +3647,6 @@
 <guid isPermaLink="true">https://risky.biz/SRB176/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Brazilian Banking Trojan Actively Spreading in Portugal</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal</link>
-<description><![CDATA[Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.]]></description>
-<pubDate>Thu, 23 Jul 2026 07:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>CCPA Update: Who’s In Scope (Part 1)</title>
@@ -6907,15 +6971,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/ai-threat-readiness-pillar-4</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Hacker hijacks Brazil’s national alert system, sending “misanthropy” to millions of phones</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-hijacks-brazils-national-alert-system</link>
-<description><![CDATA[Emergency alert systems work because people believe them. Every time one of these systems issues a false alert - whether through negligence or a deliberate attack - trust erodes. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Tue, 23 Jun 2026 12:16:15 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-hijacks-brazils-national-alert-system</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Sponsored: Trail of Bits and OpenAI patch the planet</title>
@@ -19253,15 +19308,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>How to build custom scanners for web security research automation</title>
-<link>https://portswigger.net/research/how-to-build-custom-scanners-for-web-security-research-automation</link>
-<description><![CDATA[In this post, I&apos;ll share my approach to developing custom automation to aid research into under-appreciated attack classes and (hopefully) push the boundaries of web security. As a worked example, I&apos;l]]></description>
-<pubDate>Tue, 03 Oct 2023 13:34:47 +0000</pubDate>
-<guid isPermaLink="true">https://portswigger.net/research/how-to-build-custom-scanners-for-web-security-research-automation</guid>
-<source url="https://portswigger.net/research/rss">PortSwigger Research</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Microsoft Fixes Data Exfiltration Vulnerability in Azure AI Playground</title>
 <link>https://embracethered.com/blog/posts/2023/data-exfiltration-in-azure-openai-playground-fixed/</link>
 <description><![CDATA[Large Language Model (LLM) applications and chatbots are quite commonly vulnerable to data exfiltration. In particular data exfiltration via Image Markdown Injection is quite frequent. Microsoft fixed such a vulnerability in Bing Chat , Anthropic fixed it in Claude , and ChatGPT has a known vulnerability as Open AI “won’t fix” the issue. This post describes a variant in the Azure AI Playground and how Microsoft fixed it. From Untrusted Data to Data Exfiltration When untrusted data makes it into the LLM prompt context it can instruct the model to inject an image markdown element. Clients frequently render this using an HTML img tag and if untrusted data is involved the attacker can control the src attribute.<br/><br/><em>Tags: Azure · OpenAI/ChatGPT · Anthropic/Claude</em>]]></description>
@@ -19319,7 +19365,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19328,7 +19374,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19337,7 +19383,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19346,7 +19392,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19355,7 +19401,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19364,7 +19410,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19373,7 +19419,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19382,7 +19428,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19391,7 +19437,7 @@
 <title>CrowdStrike Falcon Platform Helps Meet U.S. Government Mandates for CISA BOD-26-04</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-falcon-platform-helps-meet-us-government-mandates-cisa-bod-26-04/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19400,7 +19446,7 @@
 <title>Denying the Worm: Detecting SANDWORM_MODE and the Emerging Class of AI Toolchain Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 05 Aug 2026 23:06:54 +0000</pubDate>
+<pubDate>Thu, 06 Aug 2026 03:16:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/denying-the-worm-sandworm-mode-and-ai-toolchain-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

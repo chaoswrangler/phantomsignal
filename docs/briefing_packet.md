@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-05T23:06:54.415339+00:00
+- Generated: 2026-08-06T03:16:18.650252+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 365
+- Total items in window: 363
 - Total clusters raw: 143
-- Total clusters in packet: 66
-- Dropped low score: 77
+- Total clusters in packet: 65
+- Dropped low score: 78
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,6 +80,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -105,11 +105,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -120,36 +120,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -160,101 +155,106 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
+  - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
   - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 6
+  - In window count: 9
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -270,55 +270,50 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
@@ -330,6 +325,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,26 +345,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 19
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 29
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -370,33 +360,43 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 23
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 30
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,11 +405,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -425,16 +420,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 16
+  - In window count: 17
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -1150,7 +1150,7 @@ CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited  R
   - Link: https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote
 
-### Cluster 61004037ea — score 27
+### Cluster 61004037ea — score 26
 
 - Title: Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack
 - Source: Orca Security Research (cloud_identity_infrastructure)
@@ -1318,13 +1318,13 @@ Cisco Secure Firewall Management Center Static Credential Vulnerability CVE-2026
 - Published: 2026-07-31T14:14:15+00:00
 - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/
 - Fetch status: ok
-- Member count: 13
+- Member count: 15
 - Corroborating source count: 10
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ai_security, phishing_social_eng, ransomware_extortion, supply_chain
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- affected_products: Anthropic/Claude, Google/Gemini, OpenAI/ChatGPT
 - content_type: incident_report, news_report
 - confidence_tier: tier_1_government, tier_1_primary_research, tier_2_operator, tier_3_analysis, tier_4_news
 
@@ -1358,31 +1358,26 @@ Video This month in security with Tony Anscombe – July 2026 edition OpenAI mod
   - Published: 2026-08-01T07:22:32+00:00
   - Link: https://isc.sans.edu/diary/rss/33206
   - Summary: Most phishing campaigns rely on the fact that the victim is afraid to loose "something": money, access to information, ... Many brands have been impersonated by campaigns but I spotted some phishing emails that focus on AI services like ChatGPT.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: AI agent deception moves from theory to reality in UK cyber tests
-  - Published: 2026-08-05T12:05:22+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/
-  - Summary: “During a routine cyber evaluation, AI agents took sustained, unsanctioned action directed at real people and organisations,” UK’s AI Security Institute (AISI) disclosed on Tuesday. The agents’ actions included an attempted supply-chain attack that saw them create malicious pull requests and try to socially engineer an open-source maintainer into approving the malicious code (they refused). The agents, powered by Anthropic’s Mythos 5 and OpenAI’s GPT-5.6 Sol models, also engaged in prompt injection aimed at making … More → The post AI agent deception moves from theory to reality in UK cyber tests appeared first on Help Net Security .
 - **Schneier on Security** (practitioner_analysis)
   - Title: More on the OpenAI Agent’s Attack on Hugging Face
   - Published: 2026-08-03T17:02:46+00:00
   - Link: https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html
   - Summary: Hugging Face has published a detailed timeline of the attack. From the summary: The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on its own infrastructure, and the ExploitGym maintainers and their infrastructure had no involvement in the deployment or operation of that evaluation environment. As far as we were able to infer, across the course of being evaluated on this benchmark, the agent inferred that Hugging Face may host that benchmark’s models, datasets, and reference solutions. We believe the entire intrusion was, from the agent’s point of view, an attempt to cheat the evaluation: reach our production systems and steal the test solutions rather than solve the challenge on its own...
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: AI agent deception moves from theory to reality in UK cyber tests
+  - Published: 2026-08-05T12:05:22+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/05/ai-agent-deception-in-cyber-tests/
+  - Summary: “During a routine cyber evaluation, AI agents took sustained, unsanctioned action directed at real people and organisations,” UK’s AI Security Institute (AISI) disclosed on Tuesday. The agents’ actions included an attempted supply-chain attack that saw them create malicious pull requests and try to socially engineer an open-source maintainer into approving the malicious code (they refused). The agents, powered by Anthropic’s Mythos 5 and OpenAI’s GPT-5.6 Sol models, also engaged in prompt injection aimed at making … More → The post AI agent deception moves from theory to reality in UK cyber tests appeared first on Help Net Security .
 - **Simon Willison** (ai_security_agentic_risk)
-  - Title: One-shotting a Raccoon Heist game using Claude Fable 5
-  - Published: 2026-08-05T19:42:38+00:00
-  - Link: https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything
-  - Summary: Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept "art" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here . Here's the GitHub repo , and a short video demo: Your browser does not support HTML5 video. How I built this This is the August 5th, 2022 tweet : My GPT-3 prompt back then was: Write a detailed product description of a computer game where a team of raccoons go on heists. This was in the text completion days, where you asked GPT-3 to complete the rest of the text. It completed: In "Raccoon Heist", you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. You'll need to use your wits and your skills to avoid
+  - Title: An AI model from Meta also hacked another company during testing
+  - Published: 2026-08-06T00:25:27+00:00
+  - Link: https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
+  - Summary: An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spokesperson said. Meta’s Muse Spark model “exploited a security vulnerability” in another company “in a manner similar to previously-reported instances with other companies.” The Information had the scoop , I'm linking to CNN's re-report of it since they don't have a paywall. So that's Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cyberattacking other com
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes
   - Published: 2026-08-05T18:33:47+00:00
   - Link: https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html
   - Summary: OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: OpenAI, Anthropic AI agents targeted real people and systems in cyber tests
-  - Published: 2026-08-04T23:39:59+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/
-  - Summary: OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people outside the intended testing boundaries. [...]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: AI Agents Targeted Real People and Projects During Cybersecurity Tests
   - Published: 2026-08-05T10:33:41+00:00
@@ -1393,6 +1388,11 @@ Video This month in security with Tony Anscombe – July 2026 edition OpenAI mod
   - Published: 2026-08-05T08:45:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/frontier-models-unsanctioned/
   - Summary: Anthropic and OpenAI models attacked “real people and organizations” during AI Security Institute tests
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: OpenAI, Anthropic AI agents targeted real people and systems in cyber tests
+  - Published: 2026-08-04T23:39:59+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/
+  - Summary: OpenAI and Anthropic have confirmed that their AI models were involved in separate, newly disclosed third-party cybersecurity testing incidents that resulted in a real website being breached and social engineering attacks against people outside the intended testing boundaries. [...]
 - **CyberScoop** (cyber_news_breach_reporting)
   - Title: AISI, OpenAI report more ‘unsanctioned’ model hacks
   - Published: 2026-08-04T22:46:25+00:00
@@ -1443,16 +1443,16 @@ This post walks through a sandbox escape from a Flatpak application via PipeWire
   - Published: 2026-07-30T16:00:00+00:00
   - Link: https://embracethered.com/blog/posts/2026/pipewire-flatpak-linux-sandbox-escape-cve-2026-5674/
   - Summary: This post walks through a sandbox escape from a Flatpak application via PipeWire. The vulnerability was discovered using my automated research pipeline with Claude Code and Opus 4.6 back in April 2026. It was an exciting find, as this was the first bug I submitted to Red Hat. Claude Code was also excited finding this: Once discovered, I repro’d it manually to make sure it’s legit and then submitted it to Red Hat.
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Anthropic AI agent faked identities, phished real developers in UK government hacking test
-  - Published: 2026-08-05T13:00:00+00:00
-  - Link: https://therecord.media/anthropic-ai-hacking-uk
-  - Summary: An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: Open letters about AI development
   - Published: 2026-08-02T04:16:52+00:00
   - Link: https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything
   - Summary: Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's first ever tweet ), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI. It's clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over "safety" concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the ha
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Anthropic AI agent faked identities, phished real developers in UK government hacking test
+  - Published: 2026-08-05T13:00:00+00:00
+  - Link: https://therecord.media/anthropic-ai-hacking-uk
+  - Summary: An artificial intelligence agent built by Anthropic independently planted malicious code in a real software project and sent phishing emails to developers during a U.K. government security evaluation, according to Britain’s AI Security Institute.
 - **Schneier on Security** (practitioner_analysis)
   - Title: Anthropic’s Opus 5 Is Better at Resisting Prompt Injection
   - Published: 2026-07-31T17:23:16+00:00
@@ -1627,49 +1627,6 @@ Mirko Zorz , Director of Content, Help Net Security August 5, 2026 Share Pre-aut
   - Link: https://www.helpnetsecurity.com/2026/08/05/pre-auth-rce-java-bonita-ofbiz-cve-2026-31986/
   - Summary: An attacker sends a single web request to a Bonita server and lands inside an internal API that assumed nobody could reach it. The request arrives unauthenticated. From there the attacker runs code on the host. Bonita BPM handles loan approvals, insurance claims, and employee onboarding for banks, insurers, and government agencies, and its internal surface answers to strangers. Vulnerability researchers at Novee, found the path. They presented it today at Black Hat USA 2026 … More → The post Pre-auth RCE in enterprise Java hits Bonita and OFBiz servers appeared first on Help Net Security .
 
-### Cluster 854ba4d3df — score 14
-
-- Title: Dealing with AI-Generated Extortion
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-30T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-generated-extortion
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: government
-- content_type: incident_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.
-```
-
-#### Full body
-
-```
-Dealing with AI-Generated Extortion Proving a Negative How do you prove a negative in cybersecurity? How do you prove that you weren’t attacked, or that there is no intruder in your network? These are questions that security teams have been forced to ask for a while, but there is a new question that is becoming increasingly common: How do you prove that files weren’t stolen from your network? Or, even more of a challenge, how do you prove that files weren’t stolen from your partners, vendors, or their partners or vendors? This is a surprisingly challenging question to answer. Finding the answer is also more difficult because data governance has not been the traditional purview of security teams. Data governance has long been thought of as a compliance problem, unfortunately that is no longer the case. Security teams are now, whether they want to be or not, need to consider data governance. This means they have to be able to confidently say whether leaked data is real or not. How do you do that? History of Ransomware What we call ransomware has evolved over the years. Ransomware has gone from largely focused on encryption to a combination of encryption and data theft to today’s reality where data theft alone is the most common version of a “ransomware” attack. Threat actors have figured out that managing encryption keys is challenging, stealing data and holding it hostage is significantly easier. They’ve also figured out that stealing the right data can be just as profitable as encryption and, as we’ve seen from ransomware trends, switching to data theft only allows groups to accelerate the number of attacks. Compare the number of victims from 2024 to 2025 in the Recorded Future® Ransomware dashboard with a noticeable rise in ransomware trends. Figure 1: Rise in ransomware trends increasing from 2024 to 2025 (Source: Recorded Future) Enter 0APT If data theft is easier than encryption, then just making up data using generative AI is even easier than that. Which is what we saw with “0APT” (their name, not a designation that Recorded Future provided), who created a list of victims that were completely made up, including fake leaked data. From Insikt Group® reporting at the time: In late January 2026, Insikt Group reported the launch of 0APT Blog, an extortion blog operated by 0APT Ransomware Group, which allegedly runs an affiliate program via its ransomware-as-a-service (RaaS) model. As of February 5, 2026, the extortion blog listed 61 breached victims, with operators stating they planned to leak an additional 115 victims located in multiple countries and operating across various sectors and industries. Insikt Group identified multiple reports regarding the functionality of 0APT ransomware and listed victims, indicating that the ransomware is fake and that all their victims listed on the blog were AI-generated. Among the primary reasons discussed include: Multiple uploaded files were empty. Low-programming practices, including a combination of AI-generated scripts and unprofessional web development. Source code analysis found that some comments were in Hindi and Urdu, which likely indicates that the operators of 0APT ransomware are based in Southern Asia, while the majority of top-tier ransomware groups primarily operate from Russia or a nation within the Commonwealth of Independent States (CIS). Such a large number of victims compromised within a very short period can be carried out by a well-established, organized ransomware group; however, 0APT Blog states that the threat group is currently recruiting penetration testers with network access to join their RaaS affiliate program. 0APT is not alone; other groups are starting to latch on to this trend (ransomware groups are really good at copying each other). ALP-001 is another threat group that surfaced in March with questionable data that may have been AI-generated. According to Reliaquest reporting at the time: The main significance of 0APT and ALP-001 is not that they’re estab
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Dealing with AI-Generated Extortion
-  - Published: 2026-07-30T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-generated-extortion
-  - Summary: Combat AI-generated extortion and fake ransomware leaks. Learn how organizations can verify data authenticity using robust governance and threat intelligence.
-
 ### Cluster c7d4f5e8ea — score 13
 
 - Title: Exploring the Hugging Face Breach: mapping AI agent tactics to Elastic Defend
@@ -1715,85 +1672,48 @@ Every stage of the Hugging Face breach maps to Elastic Defend and SIEM rules alr
   - Link: https://www.elastic.co/security-labs/ai-agent-attack-detection-hugging-face-breach
   - Summary: Every stage of the Hugging Face breach maps to Elastic Defend and SIEM rules already shipping, from worker RCE and credential harvest to self-migrating C2 and GenAI detection.
 
-### Cluster edbf0872b0 — score 13
+### Cluster 87cb88c47a — score 12
 
-- Title: 10 Best Qualys Alternatives for Cloud Security and Vulnerability Management in 2026
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-05T12:50:00+00:00
-- Link: https://orca.security/resources/blog/10-best-qualys-alternatives/
+- Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
+- Source: PortSwigger Research (offensive_vulnerability_research)
+- Published: 2026-08-05T23:30:00+00:00
+- Link: https://portswigger.net/research/crlf-powered-desync-attacks
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-Security teams running Qualys today face a widening disconnect between what the platform was built for, traditional network and compliance-driven vulnerability management, and what modern cloud environments demand. This guide covers ten alternatives spanning full cloud-native platforms, direct vulnerability management replacements, and single-module point tools so you can match the right option to the gap […]
+Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power
 ```
 
 #### Full body
 
 ```
-Table of contents Why Do Teams Look for Qualys Alternatives? What Should You Look for in a Qualys Alternative? 1. Orca Security — Best Overall for a Single Agentless Platform Replacing Qualys VMDR, CSPM, and CWPP 2. Wiz — Closest Agentless, Cloud-Native Competitor to Orca 3. Palo Alto Networks (Prisma Cloud / Cortex Cloud) — Broadest Multi-Module Platform Consolidation 4. CrowdStrike Falcon Cloud Security — Best for Teams Already Standardized on Falcon 5. Upwind — Best for Runtime-First Cloud Detection and Response 6. Tenable — Closest Like-for-Like Replacement for Qualys VMDR 7. Rapid7 InsightVM — Best for Teams Wanting VM Plus Automated Remediation Workflows 8. Invicti — Best for Replacing Qualys TotalAppSec (DAST) Specifically 9. Snyk — Best for Shift-Left, Developer-First AppSec Coverage 10. NinjaOne — Best for Replacing Qualys’s Patch Management Module Only How Do You Choose the Right Qualys Alternative for Your Team? Where Orca Fits Frequently Asked Questions about Qualys Alternatives Security teams running Qualys today face a widening disconnect between what the platform was built for, traditional network and compliance-driven vulnerability management, and what modern cloud environments demand. This guide covers ten alternatives spanning full cloud-native platforms, direct vulnerability management replacements, and single-module point tools so you can match the right option to the gap you actually need to close. Why Do Teams Look for Qualys Alternatives? The issue with Qualys isn’t that it doesn’t work. It’s that the platform’s scope and cost structure were designed for a different era of infrastructure, and the gaps show as teams move into elastic, multi-cloud environments. The specific gaps driving teams to evaluate alternatives cluster around three areas: Cost and complexity. Each capability is a separate module to buy and operate, and per-asset pricing makes total cost hard to forecast in autoscaling environments. Deployment and operating model. Qualys spans several scan modes, agentless snapshot, Cloud Agents, network and API scans, and container sensors, so reaching full depth means choosing, deploying, and tuning the right mode per environment. Context over scores. TruRisk ranks findings, but teams increasingly want to know which exposures are reachable and lead to sensitive data, not just which score highest. Understanding the types of cloud security tools available today helps clarify which of these gaps matters most for your environment. What Should You Look for in a Qualys Alternative? Before comparing individual products, establish a consistent evaluation framework. The five criteria below cover the dimensions where Qualys alternatives differ most meaningfully. A team building a mature cloud security program should weigh each based on their current infrastructure mix and operational capacity. Criteria What It Means Agentless vs. agent-based deployment Whether the platform requires installing and maintaining agents on every workload, or can scan infrastructure without persistent software on each asset. Module breadth beyond core VM Coverage across CSPM, CWPP, CIEM, API security, and application security, not just vulnerability scanning. Unified data model vs. bolted-on point tools Whether findings from different security domains feed into a single correlated data model, or exist as separate views stitched together after the fact. Reachability and context Whether the platform scores each finding by what an attacker can reach and whether it leads to sensitive data, rather than static CVSS in isolation. Pricing model and transparency Whether pricing is flat-rate, per-asset, or sales-led/undisclosed, and how predictably costs scale as your environment grows. 1. Orca Security — Best Overall for a Single Agentless Platform Replacing Qualys VMDR, CSPM, and CWPP Orca Security replaces Qualys’s fragmented module stack, VMDR, TotalCloud, WAS, with a single platform built on a Unified Data Model. Where Qualys requires s
+CRLF-Powered Desync Attacks: Beheading HTTP Streams Tom Stacey Researcher @t0xodile Published: Wednesday, 5 August 2026 at 23:30 UTC Updated: Wednesday, 5 August 2026 at 23:30 UTC Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Powered Desync Worm. We’ll begin by teaching you how to take a simple header injection primitive and transform it into a full-blown desync worm. Next, we’ll introduce novel methods to detect and exploit IP and connection-locked desyncs which prevent cross-network exploitation by shifting the desync’s execution into the victim's browser to generate an XSS out of thin air and steal HTTPOnly cookies. Along the way, we’ll help you avoid accidental desync disasters like logging every active user of your target into your own account causing your shopping cart to be overwritten with random users’ items on every refresh. Collaboration This paper was co-authored with Tobia Righi from TurtleSec . Over the last year, we've collaborated on this research in order to ensure that every single technique was pushed to its absolute limit. This went rather well, and we ended up co-presenting the results at BHUSA and DEFCON. You can read his own version of the paper on TurtleSec’s blog . Research Origins HTTP Request Smuggling Request Header Injection Detecting Request Header Injection HTTP Request Splitting Response Queue Poisoning via Request Splitting RQP Inside the Infrastructure of a CDN Header Injection via Custom Upstream Header Header Injection via Non-Path Insertion Points AI-Generated Detection Techniques CRLF-Powered CL.TE Desync Attacks The Desync Disaster The Nested Response Mystery Cache Poisoning & AI-Generated HEAD Gadget Browser-Powered CRLF Desync Attacks CRLF-Powered Desync Worms HTTP Request Tunnelling Bypassing Blind Request Tunnelling Bypassing Access Controls via Request Tunnelling Browser-Powered Connection-Locked Desyncs Browser-Powered 0.CL Browser-Powered IP-Locked Desyncs Browser-Powered Request Splitting - HEAD + Range Browser-Powered Request Splitting - Stealing HTTPOnly Cookies Bypassing Response Header Removal Response Header Injection Cookie Tossing - TikTok XSS on a Redirect Reverse Desync Attacks Defence Tooling Further Research Key Takeaways Conclusion Research Origins Around 1 year ago, we came across this post on Bluesky which mentioned an attack technique we’d heard of, but never come across in the wild. This post bothered us, as it claimed the attack was “not that uncommon” in spite of our failure to ever find it. On top of this, we knew of at least two other research papers on the same topic (both of which were in their respective year’s Top 10 Web Hacking Techniques ). The first, Making HTTP header injection critical via response queue poisoning by James Kettle explains how you can achieve HTTP request smuggling using request splitting, citing a single case study as evidence. The second, HTTP Request Splitting Vulnerabilities Exploitation by Sergey Bobrov explores how common request splitting actually is, due to a common Nginx misconfiguration, but only briefly mentions the potential for desyncs. This got us thinking. What would happen if we took James’ desync techniques, and applied them to everything that seemed vulnerable to HTTP header injection. After our first encounter, we quickly realised the technique’s potential and started to spot gaps in its current understanding. HTTP Request Smuggling This entire paper will talk extensively about request smuggling, and therefore we highly recommend going through our free Web Security Academy resources if you’re not already familiar. Request Header Injection In Nginx configurations (an extremely popular web server) if the $uri variable is included in the proxy_pass directive, Nginx will normalise the request path before use, url-decoding any encoded characters including CRLF sequences (%0d%0
 ```
 
 #### Corroborating sources (1)
 
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: 10 Best Qualys Alternatives for Cloud Security and Vulnerability Management in 2026
-  - Published: 2026-08-05T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/10-best-qualys-alternatives/
-  - Summary: Security teams running Qualys today face a widening disconnect between what the platform was built for, traditional network and compliance-driven vulnerability management, and what modern cloud environments demand. This guide covers ten alternatives spanning full cloud-native platforms, direct vulnerability management replacements, and single-module point tools so you can match the right option to the gap […]
-
-### Cluster 3e123aa6ec — score 12
-
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
+  - Published: 2026-08-05T23:30:00+00:00
+  - Link: https://portswigger.net/research/crlf-powered-desync-attacks
+  - Summary: Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power
 
 ### Cluster b3d539d300 — score 12
 
@@ -1835,6 +1755,45 @@ Can AI do novel security research? Meet the HTTP Terminator James Kettle Directo
   - Published: 2026-08-05T19:30:00+00:00
   - Link: https://portswigger.net/research/http-terminator
   - Summary: Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi
+
+### Cluster edbf0872b0 — score 12
+
+- Title: 10 Best Qualys Alternatives for Cloud Security and Vulnerability Management in 2026
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-08-05T12:50:00+00:00
+- Link: https://orca.security/resources/blog/10-best-qualys-alternatives/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Security teams running Qualys today face a widening disconnect between what the platform was built for, traditional network and compliance-driven vulnerability management, and what modern cloud environments demand. This guide covers ten alternatives spanning full cloud-native platforms, direct vulnerability management replacements, and single-module point tools so you can match the right option to the gap […]
+```
+
+#### Full body
+
+```
+Table of contents Why Do Teams Look for Qualys Alternatives? What Should You Look for in a Qualys Alternative? 1. Orca Security — Best Overall for a Single Agentless Platform Replacing Qualys VMDR, CSPM, and CWPP 2. Wiz — Closest Agentless, Cloud-Native Competitor to Orca 3. Palo Alto Networks (Prisma Cloud / Cortex Cloud) — Broadest Multi-Module Platform Consolidation 4. CrowdStrike Falcon Cloud Security — Best for Teams Already Standardized on Falcon 5. Upwind — Best for Runtime-First Cloud Detection and Response 6. Tenable — Closest Like-for-Like Replacement for Qualys VMDR 7. Rapid7 InsightVM — Best for Teams Wanting VM Plus Automated Remediation Workflows 8. Invicti — Best for Replacing Qualys TotalAppSec (DAST) Specifically 9. Snyk — Best for Shift-Left, Developer-First AppSec Coverage 10. NinjaOne — Best for Replacing Qualys’s Patch Management Module Only How Do You Choose the Right Qualys Alternative for Your Team? Where Orca Fits Frequently Asked Questions about Qualys Alternatives Security teams running Qualys today face a widening disconnect between what the platform was built for, traditional network and compliance-driven vulnerability management, and what modern cloud environments demand. This guide covers ten alternatives spanning full cloud-native platforms, direct vulnerability management replacements, and single-module point tools so you can match the right option to the gap you actually need to close. Why Do Teams Look for Qualys Alternatives? The issue with Qualys isn’t that it doesn’t work. It’s that the platform’s scope and cost structure were designed for a different era of infrastructure, and the gaps show as teams move into elastic, multi-cloud environments. The specific gaps driving teams to evaluate alternatives cluster around three areas: Cost and complexity. Each capability is a separate module to buy and operate, and per-asset pricing makes total cost hard to forecast in autoscaling environments. Deployment and operating model. Qualys spans several scan modes, agentless snapshot, Cloud Agents, network and API scans, and container sensors, so reaching full depth means choosing, deploying, and tuning the right mode per environment. Context over scores. TruRisk ranks findings, but teams increasingly want to know which exposures are reachable and lead to sensitive data, not just which score highest. Understanding the types of cloud security tools available today helps clarify which of these gaps matters most for your environment. What Should You Look for in a Qualys Alternative? Before comparing individual products, establish a consistent evaluation framework. The five criteria below cover the dimensions where Qualys alternatives differ most meaningfully. A team building a mature cloud security program should weigh each based on their current infrastructure mix and operational capacity. Criteria What It Means Agentless vs. agent-based deployment Whether the platform requires installing and maintaining agents on every workload, or can scan infrastructure without persistent software on each asset. Module breadth beyond core VM Coverage across CSPM, CWPP, CIEM, API security, and application security, not just vulnerability scanning. Unified data model vs. bolted-on point tools Whether findings from different security domains feed into a single correlated data model, or exist as separate views stitched together after the fact. Reachability and context Whether the platform scores each finding by what an attacker can reach and whether it leads to sensitive data, rather than static CVSS in isolation. Pricing model and transparency Whether pricing is flat-rate, per-asset, or sales-led/undisclosed, and how predictably costs scale as your environment grows. 1. Orca Security — Best Overall for a Single Agentless Platform Replacing Qualys VMDR, CSPM, and CWPP Orca Security replaces Qualys’s fragmented module stack, VMDR, TotalCloud, WAS, with a single platform built on a Unified Data Model. Where Qualys requires s
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: 10 Best Qualys Alternatives for Cloud Security and Vulnerability Management in 2026
+  - Published: 2026-08-05T12:50:00+00:00
+  - Link: https://orca.security/resources/blog/10-best-qualys-alternatives/
+  - Summary: Security teams running Qualys today face a widening disconnect between what the platform was built for, traditional network and compliance-driven vulnerability management, and what modern cloud environments demand. This guide covers ten alternatives spanning full cloud-native platforms, direct vulnerability management replacements, and single-module point tools so you can match the right option to the gap […]
 
 ### Cluster ad2bf1153f — score 12
 
@@ -1928,50 +1887,46 @@ The US Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned
   - Link: https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/
   - Summary: The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek .
 
-### Cluster 725e4c357a — score 11
+### Cluster 3e123aa6ec — score 11
 
-- Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-05T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, zero_day
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: zero_day
+- threat_categories: web_shell_backdoor
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, zero_day
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: zero_day
+- threat_categories: web_shell_backdoor
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 ```
 
 #### Full body
 
 ```
-Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic defense will be essential to countering agentic offense. However, defenders must actively mitigate the risk of autonomous systems operating outside of their expected parameters. In July 2026, OpenAI disclosed that models undergoing an internal cybersecurity evaluation had escaped their testing environment and compromised part of Hugging Face’s production infrastructure. OpenAI characterized the event as an “unprecedented cyber incident.” The incident should put security leaders on alert, but not for the reasons OpenAI suggests. One concern is that OpenAI’s agents demonstrated the ability to autonomously carry out an end-to-end cyberattack, placing the models at the highest level of autonomy within Recorded Future’s AIM3 framework. However, the greater concern is that the model operators did not sufficiently monitor for or prepare to mitigate unauthorized agentic activity. Enterprises using agents for security and other purposes should see the Hugging Face incident as a warning about what happens when agents are set loose without safeguards against adverse outcomes. What Happened The incident began during an OpenAI evaluation designed to measure advanced cyber capabilities. The evaluation involved GPT-5.6 Sol and an even more capable internal research prototype that OpenAI says was not intended for public release. Because the objective was to test their maximum offensive potential, the models were operated with reduced security guardrails (normally used to prevent high-risk activity). According to OpenAI , the models spent substantial computing resources searching for a path to the internet. They exploited a zero-day vulnerability in Artifactory, the package-registry cache proxy available in the evaluation environment, and then performed privilege escalation and lateral movement within OpenAI’s research environment until they reached a node with internet access. Once online, the models inferred that Hugging Face might contain models, datasets, or solutions associated with ExploitGym, the benchmark they had been instructed to solve. OpenAI says the agents then chained stolen credentials, zero-day vulnerabilities, and remote code execution paths to obtain test solutions from a Hugging Face production database. Hugging Face’s technical reconstruction covers roughly 17,600 recovered agent actions, grouped into approximately 6,280 clusters, between July 9 and July 13, 2026. Although most attempts failed, the agent still gained administrative access to internal and production systems, accessed some source-code repositories, and used a stolen credential to connect external systems to the company network. Hugging Face found no evidence that its public models, datasets, services, packages, or published software supply chain were altered. It says the only customer content accessed comprised five datasets, apparently related to ExploitGym or CyberGym. A Capability Breakthrough and a Control Failure Most coverage of this incident has framed it as a breakthrough in model capabilities, since it is the first known instance of a model apparently independently conducting an end-to-end cyberattack. The underlying techniques were largely familiar to those used in human-led cyberattacks: vulnerability exploitation, credential theft, staging, remote code execution, lateral movement, and abuse of privileged or trusted access. What was notable was the agents’ ability to select and chain those steps autonomously across a long-running operation. This represents a significant shift in the speed and scale of future incidents. An autonomous agent can execute thousands of actions, test multiple paths, and continue working without the fatigue, coordination costs, or time constraints that limit human operators. In this case, most of the roughly 17,600 recovered actions were associated with failed paths. The operation was noisy and failure-prone, but it needed only a small number of
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
-  - Published: 2026-08-05T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
-  - Summary: Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 
 ### Cluster 94fd56afbc — score 11
 
@@ -2053,84 +2008,6 @@ Page content Nitro Enclaves and Key Management Service (KMS) feel like a natural
   - Link: https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/
   - Summary: Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n
 
-### Cluster 2b2ae045a4 — score 11
-
-- Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-05T14:27:30+00:00
-- Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- cve_ids: CVE-2026-32998, CVE-2026-58067, CVE-2026-58071, CVE-2026-58072, CVE-2026-58073
-- urgency_signals: critical_cvss, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- cve_ids: CVE-2026-58073, CVE-2026-58072, CVE-2026-58067, CVE-2026-58071, CVE-2026-32998
-- urgency_signals: preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
-```
-
-#### Full body
-
-```
-Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug  Swati Khandelwal  Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 builds before 9.3, and Django's documented admin attack path requires a staff account with view permission for a model containing a spatial field. None of the three advisories says the flaws are under active exploitation, and as of August 5, 2026, none of the eleven CVEs appears in CISA's Known Exploited Vulnerabilities catalog, and no public proof-of-concept has surfaced. Impersonate an agent, take its credentials Veeam Service Provider Console, the multi-tenant console that hosting firms and managed service providers use to run and monitor customer backups, got four fixes in build 9.3.0.35057, detailed in a security bulletin published August 4 . Two are critical. Veeam released the build on July 29. The one to watch is CVE-2026-58073 (CVSS score: 9.5), which lets an unauthenticated attacker impersonate a managed agent and obtain that agent's credentials. Its CVSS vector rates attack complexity as high. The second critical flaw, CVE-2026-58072 (CVSS score: 9.0), is an arbitrary file write on the management server that can lead to remote code execution and requires a low-privilege account. The 9.5 reads as the worst of the two because it needs no login, but its high attack complexity is the reason the vector is not a straight-line exploit; unauthenticated here does not mean easy. Two high-severity bugs round out the set: CVE-2026-58067 , an unauthenticated memory-exhaustion denial of service, and CVE-2026-58071 , which exposes the proxied appliance API as Portal Administrator during a short window after an administrator session begins. All four affect VSPC 9.2.1.33875 and every earlier version 9 build. The fix is the upgrade to 9.3.0.35057. This is the second critical patch cycle for the console in roughly three months. In May, Veeam fixed CVE-2026-32998 , a 9.4-rated remote code execution bug tied to alarm script execution. One tenant's token, reused for the next HashiCorp's Terraform MCP server, which connects AI assistants to Terraform over the Model Context Protocol, carries three related flaws in its Streamable HTTP transport, disclosed July 28 and fixed in version 1.1.0 . HashiCorp released the fixed build on July 14, followed by version 1.2.0 on August 4. Deployments that run only in stdio mode, the local single-user setup, are unaffected. The bugs live in the multi-user HTTP mode meant for centralized, shared deployments, the configuration HashiCorp promoted when it made the server generally available in June . The most severe is CVE-2026-16498 (CVSS score: 10.0), a cross-tenant credential-reuse bug in stateless HTTP mode. The underlying MCP library does not assign unique session identifiers, and the server's credential cache relied on those identifiers to tell users apart. One user's Terraform token could therefore be reused for later users' requests regardless of the token they supplied. The root is an assumption about the layer beneath the
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
-  - Published: 2026-08-05T14:27:30+00:00
-  - Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
-  - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
-
-### Cluster 1f7c3a3d86 — score 11
-
-- Title: Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons
-- Source: Just Security (policy_strategy_geopolitics)
-- Published: 2026-08-05T13:14:58+00:00
-- Link: https://www.justsecurity.org/151394/strategic-attack-on-iran-airpowers-promises-limits-and-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=strategic-attack-on-iran-airpowers-promises-limits-and-lessons
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Operation Epic Fury demonstrates that airpower is both essential and insufficient. A review of what the campaign reveals about airpower's promises, limits and lessons in Iran. The post Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons appeared first on Just Security .
-```
-
-#### Corroborating sources (1)
-
-- **Just Security** (policy_strategy_geopolitics)
-  - Title: Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons
-  - Published: 2026-08-05T13:14:58+00:00
-  - Link: https://www.justsecurity.org/151394/strategic-attack-on-iran-airpowers-promises-limits-and-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=strategic-attack-on-iran-airpowers-promises-limits-and-lessons
-  - Summary: Operation Epic Fury demonstrates that airpower is both essential and insufficient. A review of what the campaign reveals about airpower's promises, limits and lessons in Iran. The post Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons appeared first on Just Security .
-
 ### Cluster ff42ae5292 — score 11
 
 - Title: AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows
@@ -2165,7 +2042,7 @@ Customers have access to models that are continuously getting better with each n
 #### Full body
 
 ```
-AWS Security Blog AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows Customers have access to models that are continuously getting better with each new generation bringing larger context windows, stronger reasoning, and lower token costs. Getting the strongest AI-powered security will come from tools that combine the most relevant models with deep knowledge of a customer’s specific environment. AWS Continuum for code vulnerabilities (Preview) is built to be that tool to help secure your code at machine speed. Today, we’re announcing a partnership with Anthropic and OpenAI that extends AWS Continuum directly into the developer workflows where code is being written: Anthropic Claude Code, OpenAI Codex, and Kiro. Developers can use these integrations to discover vulnerabilities, contextually prioritize, validate, and remediate, within their existing workflows. Models are getting smarter AI models are advancing rapidly. Each generation brings new capabilities, and different models excel at different tasks. The latest frontier models can now identify vulnerabilities and reason through multi-step attack paths that would take a human security team weeks to trace manually. This is a genuine breakthrough in detection, but it creates a new challenge for your security teams: more findings, more complexity, and the need to determine which ones matter most in your environment and how to address them. The next challenge customers face is building the correct harness and orchestration to turn these models into a single interface that goes from detection through remediation. This is what we set out to do when creating Continuum, which brings together many different models and uses the model that’s most effective for each part of the process. We also partner with the Frontier Model Forum , an industry consortium developing shared safety standards, evaluation methods, and benchmarking to ensure we can evaluate these models effectively together. We’re also working with model providers on shared security performance benchmarking to make sure we’re using the best model for each task within Continuum and our other AWS security products. The harness An AI harness is the orchestration layer that wraps around a model to connect it to tools, guardrails, memory, and workflows, so it delivers outcomes. Think of the model as the engine and the harness as everything around it. You need both to have a high-performance car. Harnesses are becoming increasingly complex. Teams are stitching together multiple models, agents that call agents, and dynamic workflows, and are dealing with constant change driven by innovations in models, agent frameworks, and tool integrations. As a result of that complexity, customers are implementing shadow infrastructure to manage integration layers across models and tools. Every time the landscape shifts, security and governance controls potentially break, forcing teams to go back to revisit them and make updates. These challenges extend beyond the model. They arise in the orchestration required to connect different models and developer environments with tools, context, controls, and workflows across a customer’s environment. At AWS, we see managing that complexity as heavy lifting that AWS should solve. We treat the harness as infrastructure and with the same rigor we apply to identity, discovery, policy enforcement, observability, and compliance of the core infrastructure at AWS. Enter Continuum AWS Continuum for code vulnerabilities discovers vulnerabilities, prioritizes them within the context of a customer’s business, validates them in a sandbox, and provides remediation at machine speed. Under the hood, Continuum is an agent-team loop architecture. A sophisticated harness that orchestrates all of it: selecting the right model, connecting to a customer environment, and delivering secure code that’s been validated in context. You never need to think about how the orchestration works, or wha
+AWS Security Blog AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows Customers have access to models that are continuously getting better with each new generation bringing larger context windows, stronger reasoning, and lower token costs. Getting the strongest AI-powered security will come from tools that combine the most relevant models with deep knowledge of a customer’s specific environment. AWS Continuum for code vulnerabilities (Preview) is built to be that tool to help secure your code at machine speed. Today, we’re announcing our work with Anthropic and OpenAI that extends AWS Continuum directly into the developer workflows where code is being written: Anthropic Claude Code, OpenAI Codex, and Kiro. Developers can use these integrations to discover vulnerabilities, contextually prioritize, validate, and remediate, within their existing workflows. Models are getting smarter AI models are advancing rapidly. Each generation brings new capabilities, and different models excel at different tasks. The latest frontier models can now identify vulnerabilities and reason through multi-step attack paths that would take a human security team weeks to trace manually. This is a genuine breakthrough in detection, but it creates a new challenge for your security teams: more findings, more complexity, and the need to determine which ones matter most in your environment and how to address them. The next challenge customers face is building the correct harness and orchestration to turn these models into a single interface that goes from detection through remediation. This is what we set out to do when creating Continuum, which brings together many different models and uses the model that’s most effective for each part of the process. We also partner with the Frontier Model Forum , an industry consortium developing shared safety standards, evaluation methods, and benchmarking to ensure we can evaluate these models effectively together. We’re also working with model providers on shared security performance benchmarking to make sure we’re using the best model for each task within Continuum and our other AWS security products. The harness An AI harness is the orchestration layer that wraps around a model to connect it to tools, guardrails, memory, and workflows, so it delivers outcomes. Think of the model as the engine and the harness as everything around it. You need both to have a high-performance car. Harnesses are becoming increasingly complex. Teams are stitching together multiple models, agents that call agents, and dynamic workflows, and are dealing with constant change driven by innovations in models, agent frameworks, and tool integrations. As a result of that complexity, customers are implementing shadow infrastructure to manage integration layers across models and tools. Every time the landscape shifts, security and governance controls potentially break, forcing teams to go back to revisit them and make updates. These challenges extend beyond the model. They arise in the orchestration required to connect different models and developer environments with tools, context, controls, and workflows across a customer’s environment. At AWS, we see managing that complexity as heavy lifting that AWS should solve. We treat the harness as infrastructure and with the same rigor we apply to identity, discovery, policy enforcement, observability, and compliance of the core infrastructure at AWS. Enter Continuum AWS Continuum for code vulnerabilities discovers vulnerabilities, prioritizes them within the context of a customer’s business, validates them in a sandbox, and provides remediation at machine speed. Under the hood, Continuum is an agent-team loop architecture. A sophisticated harness that orchestrates all of it: selecting the right model, connecting to a customer environment, and delivering secure code that’s been validated in context. You never need to think about how the orchestration works, or what cha
 ```
 
 #### Corroborating sources (2)
@@ -2180,6 +2057,49 @@ AWS Security Blog AWS partners with Anthropic and OpenAI to bring AWS Continuum 
   - Published: 2026-08-03T00:22:38+00:00
   - Link: https://risky.biz/RBNEWSSI138/
   - Summary: In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.
+
+### Cluster b9f78fb1fa — score 10
+
+- Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-04T17:54:04+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Microsoft Defender
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ransomware_extortion
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+  - Published: 2026-08-04T17:54:04+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+  - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
 ### Cluster ebb24cd9dd — score 10
 
@@ -2308,48 +2228,54 @@ Threat Research Center Threat Research Vulnerabilities Vulnerabilities Chinese-S
   - Link: https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/
   - Summary: Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .
 
-### Cluster b9f78fb1fa — score 10
+### Cluster fe05850866 — score 10
 
-- Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-08-04T17:54:04+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+- Title: 3rd August – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-08-03T13:15:55+00:00
+- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: Microsoft Defender
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion
-- affected_products: Microsoft Defender
+- threat_categories: active_exploitation
+- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft
-- affected_products: Microsoft Defender
+- threat_categories: active_exploitation
+- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
 ```
 
 #### Full body
 
 ```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
 ```
 
 #### Corroborating sources (1)
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
-  - Published: 2026-08-04T17:54:04+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
-  - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+- **Check Point Research** (threat_research_primary)
+  - Title: 3rd August – Threat Intelligence Report
+  - Published: 2026-08-03T13:15:55+00:00
+  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster b00983247a — score 10
 
@@ -2605,55 +2531,6 @@ Black Hat special: Rewind and revisit By Amy Ciminnisi Thursday, July 30, 2026 0
   - Link: https://blog.talosintelligence.com/black-hat-special-rewind-and-revisit/
   - Summary: Amy looks back at the incredible journeys that brought past guests to the world of threat intelligence.
 
-### Cluster fe05850866 — score 10
-
-- Title: 3rd August – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-03T13:15:55+00:00
-- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 3rd August – Threat Intelligence Report
-  - Published: 2026-08-03T13:15:55+00:00
-  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster 432a5ea542 — score 10
 
 - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
@@ -2734,6 +2611,51 @@ Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cyb
   - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
   - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
 
+### Cluster 725e4c357a — score 10
+
+- Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-05T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain, zero_day
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft, zero_day
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
+```
+
+#### Full body
+
+```
+Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic defense will be essential to countering agentic offense. However, defenders must actively mitigate the risk of autonomous systems operating outside of their expected parameters. In July 2026, OpenAI disclosed that models undergoing an internal cybersecurity evaluation had escaped their testing environment and compromised part of Hugging Face’s production infrastructure. OpenAI characterized the event as an “unprecedented cyber incident.” The incident should put security leaders on alert, but not for the reasons OpenAI suggests. One concern is that OpenAI’s agents demonstrated the ability to autonomously carry out an end-to-end cyberattack, placing the models at the highest level of autonomy within Recorded Future’s AIM3 framework. However, the greater concern is that the model operators did not sufficiently monitor for or prepare to mitigate unauthorized agentic activity. Enterprises using agents for security and other purposes should see the Hugging Face incident as a warning about what happens when agents are set loose without safeguards against adverse outcomes. What Happened The incident began during an OpenAI evaluation designed to measure advanced cyber capabilities. The evaluation involved GPT-5.6 Sol and an even more capable internal research prototype that OpenAI says was not intended for public release. Because the objective was to test their maximum offensive potential, the models were operated with reduced security guardrails (normally used to prevent high-risk activity). According to OpenAI , the models spent substantial computing resources searching for a path to the internet. They exploited a zero-day vulnerability in Artifactory, the package-registry cache proxy available in the evaluation environment, and then performed privilege escalation and lateral movement within OpenAI’s research environment until they reached a node with internet access. Once online, the models inferred that Hugging Face might contain models, datasets, or solutions associated with ExploitGym, the benchmark they had been instructed to solve. OpenAI says the agents then chained stolen credentials, zero-day vulnerabilities, and remote code execution paths to obtain test solutions from a Hugging Face production database. Hugging Face’s technical reconstruction covers roughly 17,600 recovered agent actions, grouped into approximately 6,280 clusters, between July 9 and July 13, 2026. Although most attempts failed, the agent still gained administrative access to internal and production systems, accessed some source-code repositories, and used a stolen credential to connect external systems to the company network. Hugging Face found no evidence that its public models, datasets, services, packages, or published software supply chain were altered. It says the only customer content accessed comprised five datasets, apparently related to ExploitGym or CyberGym. A Capability Breakthrough and a Control Failure Most coverage of this incident has framed it as a breakthrough in model capabilities, since it is the first known instance of a model apparently independently conducting an end-to-end cyberattack. The underlying techniques were largely familiar to those used in human-led cyberattacks: vulnerability exploitation, credential theft, staging, remote code execution, lateral movement, and abuse of privileged or trusted access. What was notable was the agents’ ability to select and chain those steps autonomously across a long-running operation. This represents a significant shift in the speed and scale of future incidents. An autonomous agent can execute thousands of actions, test multiple paths, and continue working without the fatigue, coordination costs, or time constraints that limit human operators. In this case, most of the roughly 17,600 recovered actions were associated with failed paths. The operation was noisy and failure-prone, but it needed only a small number of
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
+  - Published: 2026-08-05T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
+  - Summary: Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
+
 ### Cluster b1e5db3b13 — score 10
 
 - Title: Building secure Uniswap v4 hooks
@@ -2773,7 +2695,118 @@ Page content Uniswap v4 hooks let developers add custom behavior to pools, inclu
   - Link: https://blog.trailofbits.com/2026/07/30/building-secure-uniswap-v4-hooks/
   - Summary: Uniswap v4 hooks let developers add custom behavior to pools, including dynamic fees, custom accounting, and external integrations. This flexibility moves some security responsibilities into application and hook code. The Cork and Bunni exploits are two app-level incidents that show what can go wrong in that code. Together, they account for more than $20M in losses. Neither incident stemmed from a flaw in the Uniswap v4 core protocol or the PoolManager; both arose from application-specific authorization and accounting logic built around hooks. After analyzing dozens of findings from Trail of Bits audits (including our Uniswap v4-core security review ), public reports from other firms, and the Solodit database, I’ve identified seven recurring failure patterns in application and hook code, including missing caller checks and accounting bugs that still satisfy the PoolManager’s settlement invariant. Builders can use these patterns as a secure-development checklist; auditors can use them t
 
-### Cluster 1b822e43c0 — score 10
+### Cluster 2b2ae045a4 — score 10
+
+- Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-05T14:27:30+00:00
+- Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- cve_ids: CVE-2026-32998, CVE-2026-58067, CVE-2026-58071, CVE-2026-58072, CVE-2026-58073
+- urgency_signals: critical_cvss, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- cve_ids: CVE-2026-58073, CVE-2026-58072, CVE-2026-58067, CVE-2026-58071, CVE-2026-32998
+- urgency_signals: preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
+```
+
+#### Full body
+
+```
+Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug  Swati Khandelwal  Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 builds before 9.3, and Django's documented admin attack path requires a staff account with view permission for a model containing a spatial field. None of the three advisories says the flaws are under active exploitation, and as of August 5, 2026, none of the eleven CVEs appears in CISA's Known Exploited Vulnerabilities catalog, and no public proof-of-concept has surfaced. Impersonate an agent, take its credentials Veeam Service Provider Console, the multi-tenant console that hosting firms and managed service providers use to run and monitor customer backups, got four fixes in build 9.3.0.35057, detailed in a security bulletin published August 4 . Two are critical. Veeam released the build on July 29. The one to watch is CVE-2026-58073 (CVSS score: 9.5), which lets an unauthenticated attacker impersonate a managed agent and obtain that agent's credentials. Its CVSS vector rates attack complexity as high. The second critical flaw, CVE-2026-58072 (CVSS score: 9.0), is an arbitrary file write on the management server that can lead to remote code execution and requires a low-privilege account. The 9.5 reads as the worst of the two because it needs no login, but its high attack complexity is the reason the vector is not a straight-line exploit; unauthenticated here does not mean easy. Two high-severity bugs round out the set: CVE-2026-58067 , an unauthenticated memory-exhaustion denial of service, and CVE-2026-58071 , which exposes the proxied appliance API as Portal Administrator during a short window after an administrator session begins. All four affect VSPC 9.2.1.33875 and every earlier version 9 build. The fix is the upgrade to 9.3.0.35057. This is the second critical patch cycle for the console in roughly three months. In May, Veeam fixed CVE-2026-32998 , a 9.4-rated remote code execution bug tied to alarm script execution. One tenant's token, reused for the next HashiCorp's Terraform MCP server, which connects AI assistants to Terraform over the Model Context Protocol, carries three related flaws in its Streamable HTTP transport, disclosed July 28 and fixed in version 1.1.0 . HashiCorp released the fixed build on July 14, followed by version 1.2.0 on August 4. Deployments that run only in stdio mode, the local single-user setup, are unaffected. The bugs live in the multi-user HTTP mode meant for centralized, shared deployments, the configuration HashiCorp promoted when it made the server generally available in June . The most severe is CVE-2026-16498 (CVSS score: 10.0), a cross-tenant credential-reuse bug in stateless HTTP mode. The underlying MCP library does not assign unique session identifiers, and the server's credential cache relied on those identifiers to tell users apart. One user's Terraform token could therefore be reused for later users' requests regardless of the token they supplied. The root is an assumption about the layer beneath the
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+  - Published: 2026-08-05T14:27:30+00:00
+  - Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+  - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
+
+### Cluster 1f7c3a3d86 — score 10
+
+- Title: Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons
+- Source: Just Security (policy_strategy_geopolitics)
+- Published: 2026-08-05T13:14:58+00:00
+- Link: https://www.justsecurity.org/151394/strategic-attack-on-iran-airpowers-promises-limits-and-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=strategic-attack-on-iran-airpowers-promises-limits-and-lessons
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Operation Epic Fury demonstrates that airpower is both essential and insufficient. A review of what the campaign reveals about airpower's promises, limits and lessons in Iran. The post Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons appeared first on Just Security .
+```
+
+#### Corroborating sources (1)
+
+- **Just Security** (policy_strategy_geopolitics)
+  - Title: Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons
+  - Published: 2026-08-05T13:14:58+00:00
+  - Link: https://www.justsecurity.org/151394/strategic-attack-on-iran-airpowers-promises-limits-and-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=strategic-attack-on-iran-airpowers-promises-limits-and-lessons
+  - Summary: Operation Epic Fury demonstrates that airpower is both essential and insufficient. A review of what the campaign reveals about airpower's promises, limits and lessons in Iran. The post Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons appeared first on Just Security .
+
+### Cluster 5fb34094f6 — score 9
+
+- Title: Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-08-04T12:46:19+00:00
+- Link: https://isc.sans.edu/diary/rss/33214
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+This morning, I noticed specific sources "hunting" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)
+  - Published: 2026-08-04T12:46:19+00:00
+  - Link: https://isc.sans.edu/diary/rss/33214
+  - Summary: This morning, I noticed specific sources "hunting" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:
+
+### Cluster 1b822e43c0 — score 9
 
 - Title: 311,000 Impacted by Brown Health Medical Group-MA Data Breach
 - Source: SecurityWeek (cyber_news_breach_reporting)
@@ -2818,7 +2851,7 @@ Lifespan Physician Group of Massachusetts, doing business as Brown Health Medica
   - Link: https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/
   - Summary: Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek .
 
-### Cluster 60f6cff21d — score 10
+### Cluster 60f6cff21d — score 9
 
 - Title: Tuskira expands exposure management with Agentic Control Plane
 - Source: Help Net Security (cyber_news_breach_reporting)
@@ -2862,240 +2895,6 @@ Industry News August 5, 2026 Share Tuskira expands exposure management with Agen
   - Published: 2026-08-05T12:54:19+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/05/tuskira-expands-exposure-management-with-agentic-control-plane/
   - Summary: Tuskira has launched its Agentic Control Plane for Exposure Management, a new capability within the Tuskira platform that governs AI-discovered vulnerabilities from scan to verified closure. The capability extends Tuskira’s existing zero-day and exposure-response capabilities to frontier-model scanning. Tuskira applies enterprise policy to AI and legacy scanner workflows, maps findings to the deployed environment, determines which exposures are reachable and undefended, applies approved compensating controls, routes the durable code fix and re-tests the attack path … More → The post Tuskira expands exposure management with Agentic Control Plane appeared first on Help Net Security .
-
-### Cluster 5fb34094f6 — score 9
-
-- Title: Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-08-04T12:46:19+00:00
-- Link: https://isc.sans.edu/diary/rss/33214
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-This morning, I noticed specific sources "hunting" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Botnet Hunting for Vulnerabilities in Diagnostic Tools, (Tue, Aug 4th)
-  - Published: 2026-08-04T12:46:19+00:00
-  - Link: https://isc.sans.edu/diary/rss/33214
-  - Summary: This morning, I noticed specific sources "hunting" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:
-
-### Cluster d737a53686 — score 9
-
-- Title: Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-08-04T23:59:59+00:00
-- Link: https://www.elastic.co/security-labs/llm-benchmarking-agentic-soc
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.
-```
-
-#### Full body
-
-```
-4 August 2026 • Dhrumil Patel Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration. 15 min read Generative AI , Internals An agentic SOC is only as good as the model driving it. The moment you let an LLM triage an alert, hunt across your telemetry, or author a detection rule, the question stops being "is this a smart model?" and becomes something much more specific: will it pick the right skill, call the right tool in the right order, and reach the right disposition without inventing a result it never actually checked? That is not a question a general-purpose leaderboard can answer. A model can top every public benchmark and still confidently tell you a malicious loader is "clean" because it narrated a VirusTotal verdict instead of calling VirusTotal. In a SOC, that is not a rounding error. That is a missed intrusion. So we built an evaluation framework to answer the question directly. It seeds a realistic intrusion into a live Elastic deployment, drives every available model through the same set of security tasks against the same agent, captures not just what each model said but every tool it called and every parameter it passed, and then judges the results blind. This post explains how it works and why we built it the way we did. The results themselves are published and continuously updated in the Large language model performance matrix for Elastic Security . Why generic LLM benchmarks fail for agents for security Public leaderboards measure knowledge and chat quality. They ask a model to recall facts, solve a puzzle, or write a tidy paragraph. Those are real capabilities, but they are the wrong proxy for agentic security work. Inside an agent, the model is not writing prose. It is making decisions: Which skill does this task need? Alert triage and entity risk-scoring are different jobs with different tools. Which tool, with which parameters, in which order? A hash goes to VirusTotal; an on-call question goes to the schedule; a case gets opened once, with the right fields. Is the output grounded? Did the model actually run the query and read the result, or did it produce a plausible answer with an empty trace? The most dangerous failure mode in an agentic SOC is the confident, fluent, wrong answer that was never grounded in a tool call. Generic benchmarks reward exactly that, because they only see the final text. To evaluate a SOC agent honestly, you have to grade the work, not the writing. What we actually need to measure We anchored the evaluation on the concrete capabilities a security analyst relies on, most of them built-in Agent Builder skills we shipped in Elastic Security. (For the product side of that story, see our companion post on the five Agent Builder skills in Elastic Security .) That gives us seven capability categories: Category What it tests Alert analysis Triage an alert, reach the correct disposition, pull related alerts, enrich with threat intel Entity analytics Investigate hosts and users with purpose-built entity lookups and risk context Threat hunting Generate and run queries against process, file, and network telemetry to find specific artifacts Detection rules Author a working detection rule, grounded in research when asked Workflow authoring Produce a valid, executable automation workflow (verified by actually running it) Triggering workflows Call the correct backed action for the task (hash lookup, on-call, case creation) Multi-step Chain several steps in the right order, carrying findings forward without skipping or fabricating These categories deliberately straddle two levels of the agent. Alert analysis, entity analytics, threat hunting, and detection rules are built-in Agent Builder skills; workflow authoring exercises the platf
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows
-  - Published: 2026-08-04T23:59:59+00:00
-  - Link: https://www.elastic.co/security-labs/llm-benchmarking-agentic-soc
-  - Summary: Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.
-
-### Cluster 6d386738b7 — score 9
-
-- Title: Context-Backed Attacker’s-Eye Testing with Orca’s Attack Surface Red Agent
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-05T12:50:00+00:00
-- Link: https://orca.security/resources/blog/attack-surface-red-agent/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Findings Attack Surface Risks in Fast-Paced Cloud Environments Teams that build fast don’t stop building outside of business hours, or between pentest cycles. New applications and services constantly get deployed, subdomains get spun up for a campaign and forgotten, APIs get exposed for a partner integration and never fully locked down. Every one of […]
-```
-
-#### Full body
-
-```
-Table of contents Key Findings Attack Surface Risks in Fast-Paced Cloud Environments Why Traditional Testing Approaches Break Down On-Demand, Attacker’s-Eye Testing with Orca’s Attack Surface Red Agent Where the Context Advantage Comes From Expanding the AI Agent Pod Security for the Companies that Build Schedule an Orca Security Demo Key Findings Building fast means shipping constant change: new applications, new services, new subdomains, new endpoints, new integrations. Every one of those is a potential new entry point, and most organizations only learn what’s actually exposed after a scan cycle, a bug bounty report, or an incident. The gap isn’t just calendar cadence. It’s that you can’t test something you shipped an hour ago without waiting on the next scheduled pentest or scanner cycle. Orca launches the Attack Surface Red Agent, an on-demand, AI DAST and AI Penetration testing that probes your organization’s external attack surface with an attacker’s-eye view to detect things such as broken authorization, exposed services, and more, the moment you need answers. It’s informed by cloud context Orca already has about the underlying assets, so findings arrive with real risk context instead of a raw scan output.That context, assembled before a single probe is sent, is what turns an on-demand test into something you can trust. The Attack Surface Red Agent belongs to Orca’s Red Pod, one of the purpose-built agent families (Red, Blue, Green) that make up Orca’s Core Agents, with Custom Agents available for teams who want to build their own. Attack Surface Risks in Fast-Paced Cloud Environments Teams that build fast don’t stop building outside of business hours, or between pentest cycles. New applications and services constantly get deployed, subdomains get spun up for a campaign and forgotten, APIs get exposed for a partner integration and never fully locked down. Every one of these is a normal, healthy byproduct of shipping quickly, but every one of them is also a potential entry point. Most security teams find out about them well after the fact, such as during an annual penetration test, in a bug bounty submission, or worse, during an active incident. Traditional external attack surface penetration testing was built for a slower world. A pentest firm scopes an engagement, runs it over a few weeks, and delivers a report weeks later. A scanner runs on a schedule and flags what it can see at that moment. Both approaches produce a snapshot, and snapshots go stale the moment something in the environment changes, which, for a team that’s constantly building, is constantly. The gap isn’t a lack of scanning tools. It’s that when something new ships, there’s no good way to test it right then, informed by everything you already know about the environment. What’s needed is a way to test what’s exposed on demand or on your own schedule, with real risk context behind every finding, instead of waiting on the next engagement to roll around. Why Traditional Testing Approaches Break Down Scheduled penetration tests are valuable for what they are: a deeply scoped, expert-led engagement that produces validated, high-confidence findings. Their real limitation isn’t depth, it’s cadence. A pentest captures the environment as it existed during a defined window, typically once or twice a year, so everything shipped after the engagement wraps goes unwatched until the next one. Standalone attack surface scanners close part of that cadence gap by running far more often, sometimes daily. What most of them lack is context. A newly discovered endpoint gets flagged the same way whether it sits in front of a disposable test environment or a production database, because the scanner has no visibility into the cloud infrastructure behind it. The result is another queue of unprioritized findings. The market has good answers for depth and good answers for frequency, but not both at once. What teams need is a balance of both, with deep context, the moment they act
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Context-Backed Attacker’s-Eye Testing with Orca’s Attack Surface Red Agent
-  - Published: 2026-08-05T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/attack-surface-red-agent/
-  - Summary: Key Findings Attack Surface Risks in Fast-Paced Cloud Environments Teams that build fast don’t stop building outside of business hours, or between pentest cycles. New applications and services constantly get deployed, subdomains get spun up for a campaign and forgotten, APIs get exposed for a partner integration and never fully locked down. Every one of […]
-
-### Cluster f0542a4609 — score 9
-
-- Title: 10 Best Tenable Alternatives in 2026
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-05T12:50:00+00:00
-- Link: https://orca.security/resources/blog/10-best-tenable-alternatives/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft Defender, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Microsoft Defender, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, […]
-```
-
-#### Full body
-
-```
-Table of contents Why Do Teams Look for Tenable Alternatives? What Should You Look for in a Tenable Alternative? 1. Orca Security — Best Overall for Cloud-Native Risk Beyond Network Vulnerability Management Key Features 2. Wiz — Closest Agentless Cloud-Native Peer 3. Palo Alto Networks Cortex — Broadest Platform Consolidation (ASM + Exposure + SOC) 5. SentinelOne Singularity — Best for Unified Endpoint Protection Plus AI-Driven Investigation 6. Qualys — Closest Like-for-Like VM Replacement 7. Microsoft Defender Vulnerability Management — Best for Microsoft-Centric Security Stacks 8. Rapid7 — Best for SecOps Teams Needing VM Plus SIEM 9. Aikido Security — Broadest Developer-First Code-to-Cloud Platform 10. Snyk — Best for Developer-First Open Source and Code Scanning How Do You Choose the Right Tenable Alternative for Your Team? Where Orca Fits Frequently Asked Questions about Tenable Alternatives Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, is what sends architects looking for alternatives. This article evaluates ten Tenable alternatives across cloud-native platforms, endpoint-rooted solutions, traditional VM replacements, and developer-first tools. Each entry states who it fits best and where it falls short, so you can match the right option to your team’s actual workload. Why Do Teams Look for Tenable Alternatives? Tenable has genuine strengths: CIEM and identity analysis capabilities, and network vulnerability scanning remain market standards. The challenge is that cloud-native security requires coverage Tenable wasn’t originally built to provide. Teams building a mature cloud security program find three specific scope gaps that drive the search for alternatives: Workload and runtime depth. Cloud Exposure and Hexa AI add runtime signals, but they don’t match the full agentless workload depth, malware, secrets, exploitability-ranked vulnerabilities, and PII in one pass, that purpose-built cloud platforms deliver. Attack path analysis. Tenable surfaces toxic combinations on a single asset, but doesn’t model the multi-stage lateral movement across misconfigurations, identities, workloads, and data that shows how an attacker reaches crown-jewel assets. Application security beyond IaC. Tenable covers IaC scanning, but there is no native SAST, SCA, secrets detection, or code-to-runtime tracing, so full-lifecycle AppSec still needs a separate toolchain. These gaps don’t make Tenable a bad product. They make it an incomplete one for teams operating multi-cloud, container-heavy environments. What Should You Look for in a Tenable Alternative? Before comparing individual tools, it helps to have a consistent evaluation rubric. The five criteria below apply whether you’re looking for a full platform replacement or a specialized complement. For a deeper look at how agentless cloud security vendors stack up against these criteria, the differences are worth understanding before you shortlist. Criteria What It Means Cloud-native platform breadth Coverage spans CSPM, CWPP, and container/serverless workloads, not just network-level VM scanning. Unified data model Findings from posture, workload, identity, and code scanning feed a single risk model rather than siloed dashboards from bolted-on acquisitions. Attack path and exploitability context The platform maps how individual findings chain together into real attack paths, prioritized by exploitability and asset criticality. Developer workflow fit Security findings surface in pull requests, CI/CD pipelines, and IDE integrations, not just SOC consoles. Pricing transparency Licensing is predictable and tied to assets or workloads, not gated behind opaque enterpr
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: 10 Best Tenable Alternatives in 2026
-  - Published: 2026-08-05T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/10-best-tenable-alternatives/
-  - Summary: Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, […]
-
-### Cluster d00e5766ff — score 9
-
-- Title: 7 Best Rapid7 Alternatives for Cloud Security and Exposure Management in 2026
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-05T12:50:00+00:00
-- Link: https://orca.security/resources/blog/7-best-rapid7-alternatives/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Fortinet, Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Microsoft Defender, Fortinet
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-When your vulnerability findings are scattered across InsightVM, InsightCloudSec, InsightIDR, and Exposure Command, the real problem isn’t any single product. It’s the lack of a unified view that tells you which exposures an attacker could actually reach before your next audit or incident. This article walks through seven Rapid7 alternatives, ranked from the most complete […]
-```
-
-#### Full body
-
-```
-Table of contents Why Do Teams Look for Rapid7 Alternatives? What Should You Look for in a Rapid7 Alternative? 1. Orca Security — Best Overall for Unified, Agentless Cloud Exposure Management Key Features 2. Tenable — Closest Like-for-Like Vulnerability Management Replacement 3. Qualys — Best for Compliance-Driven Vulnerability and Patch Operations 4. CrowdStrike Falcon Exposure Management — Best for Teams Already Standardized on Falcon 5. Wiz — Closest Agentless Cloud-Native Peer 6. Microsoft Defender Vulnerability Management — Best for Microsoft-Centric Environments 7. Fortinet FortiSIEM — Best for OT and Air-Gapped Environments Needing On-Prem SIEM Flexibility How Do You Choose the Right Rapid7 Alternative for Your Team? Where Orca Fits Frequently Asked Questions about Rapid7 Alternatives When your vulnerability findings are scattered across InsightVM, InsightCloudSec, InsightIDR, and Exposure Command, the real problem isn’t any single product. It’s the lack of a unified view that tells you which exposures an attacker could actually reach before your next audit or incident. This article walks through seven Rapid7 alternatives, ranked from the most complete cloud-native replacement to the most specialized. You’ll get a consistent evaluation rubric, honest trade-offs for each option (including Orca’s own gaps), and a decision table so you can match the right tool to your team’s actual needs. Why Do Teams Look for Rapid7 Alternatives? Rapid7 is a capable product. It’s a collection of products that weren’t designed as one platform. Teams typically start evaluating alternatives when they realize the fragmented module stack creates scope gaps that compound over time, especially as cloud footprints grow beyond a single provider. For organizations building a cloud security program at scale , these gaps become harder to manage with each new workload. The most common pain points include: Multi-cloud consistency. Confirm depth of coverage across Azure, GCP, and OCI, since parity across providers is a common gap for tools that started single-cloud. Kubernetes and container depth. Runtime coverage for containers and Kubernetes comes through a third-party runtime layer in Rapid7’s premium tier rather than natively, which adds cost and another moving part as clusters scale. More products to operate. Reaching full coverage means running and correlating several separate products, each with its own console and data model, so the stack gets heavier to operate as your environment grows. What Should You Look for in a Rapid7 Alternative? Before comparing vendors, it helps to agree on what you’re evaluating. The rubric below applies to every alternative in this article, so you can score them consistently rather than comparing marketing claims. For a deeper look at the agentless dimension specifically, see this guide to evaluating agentless cloud security vendors . Criteria What It Means Cloud-native platform breadth Coverage extends beyond traditional network and endpoint vulnerability management into cloud workloads, identities, data, and AI resources. Unified data model Risk data flows through a single model rather than being stitched together from bolted-on modules with separate databases. Attack path and exploitability context The platform maps how an attacker could chain vulnerabilities, misconfigurations, and identity weaknesses to reach critical assets. Multi-cloud maturity Consistent depth across AWS, Azure, GCP, and OCI, not just one provider with the others added as afterthoughts. Pricing transparency A single SKU or predictable pricing structure versus stacked modules where costs compound as you add capabilities. 1. Orca Security — Best Overall for Unified, Agentless Cloud Exposure Management Orca replaces Rapid7’s four-product stack with a single agentless platform that covers hosts, containers, serverless functions, data stores, and AI workloads from one console. Where Rapid7 requires you to correlate findings across InsightVM, Insig
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: 7 Best Rapid7 Alternatives for Cloud Security and Exposure Management in 2026
-  - Published: 2026-08-05T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/7-best-rapid7-alternatives/
-  - Summary: When your vulnerability findings are scattered across InsightVM, InsightCloudSec, InsightIDR, and Exposure Command, the real problem isn’t any single product. It’s the lack of a unified view that tells you which exposures an attacker could actually reach before your next audit or incident. This article walks through seven Rapid7 alternatives, ranked from the most complete […]
-
-### Cluster 5be40a98b2 — score 9
-
-- Title: 9 Best CrowdStrike Alternatives in 2026
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-05T12:50:00+00:00
-- Link: https://orca.security/resources/blog/9-best-crowdstrike-alternatives/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-CrowdStrike Falcon is a strong endpoint detection and response platform, but cloud security architects and CISOs often find that its agent-based architecture leaves gaps in agentless workload depth, full-lifecycle application security, and unified AI security. If your cloud footprint has grown beyond what Falcon’s EDR heritage was designed to cover, you’re likely evaluating options that […]
-```
-
-#### Full body
-
-```
-Table of contents Why Do Teams Look for CrowdStrike Alternatives? What Should You Look for in a CrowdStrike Alternative? 1. Orca Security — Best Overall for Cloud-Native Risk Beyond Endpoint Protection Key Features 2. Wiz — Closest Agentless Cloud-Native Peer 3. Palo Alto Networks Cortex — Broadest SOC and Platform Consolidation 4. SentinelOne — Best Autonomous, Agent-Based Endpoint Swap 5. Fortinet — Best for Security Fabric and On-Premises/Air-Gapped Environments 6. Tenable — Best for Exposure Management and Vulnerability-First Programs 7. Netwrix — Best for Identity Governance and Compliance Evidence 8. Exabeam — Best for SIEM- and UEBA-Driven Security Operations 9. AnySecura — Best for Data-Centric and Insider Risk Protection How Do You Choose the Right CrowdStrike Alternative for Your Team? Where Orca Fits Frequently Asked Questions about CrowdStrike Alternatives CrowdStrike Falcon is a strong endpoint detection and response platform, but cloud security architects and CISOs often find that its agent-based architecture leaves gaps in agentless workload depth, full-lifecycle application security, and unified AI security. If your cloud footprint has grown beyond what Falcon’s EDR heritage was designed to cover, you’re likely evaluating options that address those specific blind spots. This article breaks down nine CrowdStrike alternatives across distinct categories, from cloud-native platforms to endpoint-first swaps to specialized complements. You’ll get a structured evaluation rubric, honest trade-off assessments for each tool, and a buyer-decision table to match your team’s primary gap to the right solution. Why Do Teams Look for CrowdStrike Alternatives? CrowdStrike Falcon remains one of the strongest agent-based endpoint detection and response platforms available. The reason teams explore alternatives isn’t a product failure. It’s an architectural scope gap rooted in Falcon’s EDR heritage. As organizations expand into multi-cloud environments, serverless workloads, and API-driven architectures, the areas where Falcon’s coverage thins out become more visible. The most common gaps driving evaluation include: Agentless workload depth. Falcon’s agentless mode covers inventory and posture, but runtime protection still requires the Falcon sensor on each workload. In environments full of ephemeral containers and auto-scaling groups, that sensor coverage is never fully closed, so the deepest workload protection lags the environment. API security. Falcon maps application APIs through ASPM’s runtime application analysis, but that is tied to instrumented applications rather than dedicated, agentless discovery of managed and shadow APIs across the cloud estate. Full-lifecycle AppSec depth. Falcon offers IaC scanning, but lacks integrated SAST, SCA, secrets detection, and container image scanning with traceability from cloud runtime back to the developer’s code. Unified AI security. Falcon’s AI security is split across Falcon AIDR, Falcon Shield, and Project QuiltWorks, so the consolidation story breaks down where AI risk lives. What Should You Look for in a CrowdStrike Alternative? Before comparing individual vendors, it helps to establish clear evaluation criteria. A structured rubric keeps the process grounded in your actual gaps rather than vendor marketing. The five criteria below cover the dimensions where CrowdStrike alternatives most commonly differentiate themselves. For a deeper look at building your evaluation process, Orca’s cloud security program maturity guide offers a useful framework. Criteria What It Means Agentless deployment and coverage breadth Can the platform discover and assess cloud workloads, containers, and serverless functions without installing or maintaining agents? Unified data model vs. bolted-on point tools Does the platform correlate findings across workloads, identities, data, and APIs in a single model, or does it stitch together separate acquisitions? Native AppSec and API security depth Does the p
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: 9 Best CrowdStrike Alternatives in 2026
-  - Published: 2026-08-05T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/9-best-crowdstrike-alternatives/
-  - Summary: CrowdStrike Falcon is a strong endpoint detection and response platform, but cloud security architects and CISOs often find that its agent-based architecture leaves gaps in agentless workload depth, full-lifecycle application security, and unified AI security. If your cloud footprint has grown beyond what Falcon’s EDR heritage was designed to cover, you’re likely evaluating options that […]
 
 ### Cluster 1b8e0b0f32 — score 9
 
@@ -3240,41 +3039,6 @@ Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction �
   - Link: https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html
   - Summary: Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in
 
-### Cluster cd780b1305 — score 9
-
-- Title: Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-08-05T14:38:12+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-15920
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-15920
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-15920
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/Sandwich_1337 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)
-  - Published: 2026-08-05T14:38:12+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/
-  - Summary: submitted by /u/Sandwich_1337 [link] [comments]
-
 ### Cluster f0a862553c — score 9
 
 - Title: CosmosEscape: Taking Over Every Database in Azure Cosmos DB
@@ -3409,6 +3173,45 @@ Interlock ransomware gang creates volatile situation Multiple legitimate DFIR to
   - Published: 2026-08-04T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/2608-volatility-interlock
   - Summary: <p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research
+
+### Cluster d737a53686 — score 8
+
+- Title: Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-08-04T23:59:59+00:00
+- Link: https://www.elastic.co/security-labs/llm-benchmarking-agentic-soc
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.
+```
+
+#### Full body
+
+```
+4 August 2026 • Dhrumil Patel Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration. 15 min read Generative AI , Internals An agentic SOC is only as good as the model driving it. The moment you let an LLM triage an alert, hunt across your telemetry, or author a detection rule, the question stops being "is this a smart model?" and becomes something much more specific: will it pick the right skill, call the right tool in the right order, and reach the right disposition without inventing a result it never actually checked? That is not a question a general-purpose leaderboard can answer. A model can top every public benchmark and still confidently tell you a malicious loader is "clean" because it narrated a VirusTotal verdict instead of calling VirusTotal. In a SOC, that is not a rounding error. That is a missed intrusion. So we built an evaluation framework to answer the question directly. It seeds a realistic intrusion into a live Elastic deployment, drives every available model through the same set of security tasks against the same agent, captures not just what each model said but every tool it called and every parameter it passed, and then judges the results blind. This post explains how it works and why we built it the way we did. The results themselves are published and continuously updated in the Large language model performance matrix for Elastic Security . Why generic LLM benchmarks fail for agents for security Public leaderboards measure knowledge and chat quality. They ask a model to recall facts, solve a puzzle, or write a tidy paragraph. Those are real capabilities, but they are the wrong proxy for agentic security work. Inside an agent, the model is not writing prose. It is making decisions: Which skill does this task need? Alert triage and entity risk-scoring are different jobs with different tools. Which tool, with which parameters, in which order? A hash goes to VirusTotal; an on-call question goes to the schedule; a case gets opened once, with the right fields. Is the output grounded? Did the model actually run the query and read the result, or did it produce a plausible answer with an empty trace? The most dangerous failure mode in an agentic SOC is the confident, fluent, wrong answer that was never grounded in a tool call. Generic benchmarks reward exactly that, because they only see the final text. To evaluate a SOC agent honestly, you have to grade the work, not the writing. What we actually need to measure We anchored the evaluation on the concrete capabilities a security analyst relies on, most of them built-in Agent Builder skills we shipped in Elastic Security. (For the product side of that story, see our companion post on the five Agent Builder skills in Elastic Security .) That gives us seven capability categories: Category What it tests Alert analysis Triage an alert, reach the correct disposition, pull related alerts, enrich with threat intel Entity analytics Investigate hosts and users with purpose-built entity lookups and risk context Threat hunting Generate and run queries against process, file, and network telemetry to find specific artifacts Detection rules Author a working detection rule, grounded in research when asked Workflow authoring Produce a valid, executable automation workflow (verified by actually running it) Triggering workflows Call the correct backed action for the task (hash lookup, on-call, case creation) Multi-step Chain several steps in the right order, carrying findings forward without skipping or fabricating These categories deliberately straddle two levels of the agent. Alert analysis, entity analytics, threat hunting, and detection rules are built-in Agent Builder skills; workflow authoring exercises the platf
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Benchmarking the Agentic SOC: How we evaluate LLMs for security workflows
+  - Published: 2026-08-04T23:59:59+00:00
+  - Link: https://www.elastic.co/security-labs/llm-benchmarking-agentic-soc
+  - Summary: Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.
 
 ### Cluster 2654cf7196 — score 8
 
@@ -3568,6 +3371,168 @@ Elastic Security 9.5 gives SOC teams AI that handles first-pass alert triage and
   - Link: https://www.elastic.co/security-labs/agentic-soc-alert-triage-alertzero
   - Summary: Elastic Security 9.5 gives SOC teams AI that handles first-pass alert triage and investigation, so analysts can get back to threat hunting and detection engineering instead of working through queue noise.
 
+### Cluster 6d386738b7 — score 8
+
+- Title: Context-Backed Attacker’s-Eye Testing with Orca’s Attack Surface Red Agent
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-08-05T12:50:00+00:00
+- Link: https://orca.security/resources/blog/attack-surface-red-agent/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Findings Attack Surface Risks in Fast-Paced Cloud Environments Teams that build fast don’t stop building outside of business hours, or between pentest cycles. New applications and services constantly get deployed, subdomains get spun up for a campaign and forgotten, APIs get exposed for a partner integration and never fully locked down. Every one of […]
+```
+
+#### Full body
+
+```
+Table of contents Key Findings Attack Surface Risks in Fast-Paced Cloud Environments Why Traditional Testing Approaches Break Down On-Demand, Attacker’s-Eye Testing with Orca’s Attack Surface Red Agent Where the Context Advantage Comes From Expanding the AI Agent Pod Security for the Companies that Build Schedule an Orca Security Demo Key Findings Building fast means shipping constant change: new applications, new services, new subdomains, new endpoints, new integrations. Every one of those is a potential new entry point, and most organizations only learn what’s actually exposed after a scan cycle, a bug bounty report, or an incident. The gap isn’t just calendar cadence. It’s that you can’t test something you shipped an hour ago without waiting on the next scheduled pentest or scanner cycle. Orca launches the Attack Surface Red Agent, an on-demand, AI DAST and AI Penetration testing that probes your organization’s external attack surface with an attacker’s-eye view to detect things such as broken authorization, exposed services, and more, the moment you need answers. It’s informed by cloud context Orca already has about the underlying assets, so findings arrive with real risk context instead of a raw scan output.That context, assembled before a single probe is sent, is what turns an on-demand test into something you can trust. The Attack Surface Red Agent belongs to Orca’s Red Pod, one of the purpose-built agent families (Red, Blue, Green) that make up Orca’s Core Agents, with Custom Agents available for teams who want to build their own. Attack Surface Risks in Fast-Paced Cloud Environments Teams that build fast don’t stop building outside of business hours, or between pentest cycles. New applications and services constantly get deployed, subdomains get spun up for a campaign and forgotten, APIs get exposed for a partner integration and never fully locked down. Every one of these is a normal, healthy byproduct of shipping quickly, but every one of them is also a potential entry point. Most security teams find out about them well after the fact, such as during an annual penetration test, in a bug bounty submission, or worse, during an active incident. Traditional external attack surface penetration testing was built for a slower world. A pentest firm scopes an engagement, runs it over a few weeks, and delivers a report weeks later. A scanner runs on a schedule and flags what it can see at that moment. Both approaches produce a snapshot, and snapshots go stale the moment something in the environment changes, which, for a team that’s constantly building, is constantly. The gap isn’t a lack of scanning tools. It’s that when something new ships, there’s no good way to test it right then, informed by everything you already know about the environment. What’s needed is a way to test what’s exposed on demand or on your own schedule, with real risk context behind every finding, instead of waiting on the next engagement to roll around. Why Traditional Testing Approaches Break Down Scheduled penetration tests are valuable for what they are: a deeply scoped, expert-led engagement that produces validated, high-confidence findings. Their real limitation isn’t depth, it’s cadence. A pentest captures the environment as it existed during a defined window, typically once or twice a year, so everything shipped after the engagement wraps goes unwatched until the next one. Standalone attack surface scanners close part of that cadence gap by running far more often, sometimes daily. What most of them lack is context. A newly discovered endpoint gets flagged the same way whether it sits in front of a disposable test environment or a production database, because the scanner has no visibility into the cloud infrastructure behind it. The result is another queue of unprioritized findings. The market has good answers for depth and good answers for frequency, but not both at once. What teams need is a balance of both, with deep context, the moment they act
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Context-Backed Attacker’s-Eye Testing with Orca’s Attack Surface Red Agent
+  - Published: 2026-08-05T12:50:00+00:00
+  - Link: https://orca.security/resources/blog/attack-surface-red-agent/
+  - Summary: Key Findings Attack Surface Risks in Fast-Paced Cloud Environments Teams that build fast don’t stop building outside of business hours, or between pentest cycles. New applications and services constantly get deployed, subdomains get spun up for a campaign and forgotten, APIs get exposed for a partner integration and never fully locked down. Every one of […]
+
+### Cluster f0542a4609 — score 8
+
+- Title: 10 Best Tenable Alternatives in 2026
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-08-05T12:50:00+00:00
+- Link: https://orca.security/resources/blog/10-best-tenable-alternatives/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft Defender, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, […]
+```
+
+#### Full body
+
+```
+Table of contents Why Do Teams Look for Tenable Alternatives? What Should You Look for in a Tenable Alternative? 1. Orca Security — Best Overall for Cloud-Native Risk Beyond Network Vulnerability Management Key Features 2. Wiz — Closest Agentless Cloud-Native Peer 3. Palo Alto Networks Cortex — Broadest Platform Consolidation (ASM + Exposure + SOC) 5. SentinelOne Singularity — Best for Unified Endpoint Protection Plus AI-Driven Investigation 6. Qualys — Closest Like-for-Like VM Replacement 7. Microsoft Defender Vulnerability Management — Best for Microsoft-Centric Security Stacks 8. Rapid7 — Best for SecOps Teams Needing VM Plus SIEM 9. Aikido Security — Broadest Developer-First Code-to-Cloud Platform 10. Snyk — Best for Developer-First Open Source and Code Scanning How Do You Choose the Right Tenable Alternative for Your Team? Where Orca Fits Frequently Asked Questions about Tenable Alternatives Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, is what sends architects looking for alternatives. This article evaluates ten Tenable alternatives across cloud-native platforms, endpoint-rooted solutions, traditional VM replacements, and developer-first tools. Each entry states who it fits best and where it falls short, so you can match the right option to your team’s actual workload. Why Do Teams Look for Tenable Alternatives? Tenable has genuine strengths: CIEM and identity analysis capabilities, and network vulnerability scanning remain market standards. The challenge is that cloud-native security requires coverage Tenable wasn’t originally built to provide. Teams building a mature cloud security program find three specific scope gaps that drive the search for alternatives: Workload and runtime depth. Cloud Exposure and Hexa AI add runtime signals, but they don’t match the full agentless workload depth, malware, secrets, exploitability-ranked vulnerabilities, and PII in one pass, that purpose-built cloud platforms deliver. Attack path analysis. Tenable surfaces toxic combinations on a single asset, but doesn’t model the multi-stage lateral movement across misconfigurations, identities, workloads, and data that shows how an attacker reaches crown-jewel assets. Application security beyond IaC. Tenable covers IaC scanning, but there is no native SAST, SCA, secrets detection, or code-to-runtime tracing, so full-lifecycle AppSec still needs a separate toolchain. These gaps don’t make Tenable a bad product. They make it an incomplete one for teams operating multi-cloud, container-heavy environments. What Should You Look for in a Tenable Alternative? Before comparing individual tools, it helps to have a consistent evaluation rubric. The five criteria below apply whether you’re looking for a full platform replacement or a specialized complement. For a deeper look at how agentless cloud security vendors stack up against these criteria, the differences are worth understanding before you shortlist. Criteria What It Means Cloud-native platform breadth Coverage spans CSPM, CWPP, and container/serverless workloads, not just network-level VM scanning. Unified data model Findings from posture, workload, identity, and code scanning feed a single risk model rather than siloed dashboards from bolted-on acquisitions. Attack path and exploitability context The platform maps how individual findings chain together into real attack paths, prioritized by exploitability and asset criticality. Developer workflow fit Security findings surface in pull requests, CI/CD pipelines, and IDE integrations, not just SOC consoles. Pricing transparency Licensing is predictable and tied to assets or workloads, not gated behind opaque enterpr
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: 10 Best Tenable Alternatives in 2026
+  - Published: 2026-08-05T12:50:00+00:00
+  - Link: https://orca.security/resources/blog/10-best-tenable-alternatives/
+  - Summary: Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, […]
+
+### Cluster d00e5766ff — score 8
+
+- Title: 7 Best Rapid7 Alternatives for Cloud Security and Exposure Management in 2026
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-08-05T12:50:00+00:00
+- Link: https://orca.security/resources/blog/7-best-rapid7-alternatives/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Fortinet, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender, Fortinet
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+When your vulnerability findings are scattered across InsightVM, InsightCloudSec, InsightIDR, and Exposure Command, the real problem isn’t any single product. It’s the lack of a unified view that tells you which exposures an attacker could actually reach before your next audit or incident. This article walks through seven Rapid7 alternatives, ranked from the most complete […]
+```
+
+#### Full body
+
+```
+Table of contents Why Do Teams Look for Rapid7 Alternatives? What Should You Look for in a Rapid7 Alternative? 1. Orca Security — Best Overall for Unified, Agentless Cloud Exposure Management Key Features 2. Tenable — Closest Like-for-Like Vulnerability Management Replacement 3. Qualys — Best for Compliance-Driven Vulnerability and Patch Operations 4. CrowdStrike Falcon Exposure Management — Best for Teams Already Standardized on Falcon 5. Wiz — Closest Agentless Cloud-Native Peer 6. Microsoft Defender Vulnerability Management — Best for Microsoft-Centric Environments 7. Fortinet FortiSIEM — Best for OT and Air-Gapped Environments Needing On-Prem SIEM Flexibility How Do You Choose the Right Rapid7 Alternative for Your Team? Where Orca Fits Frequently Asked Questions about Rapid7 Alternatives When your vulnerability findings are scattered across InsightVM, InsightCloudSec, InsightIDR, and Exposure Command, the real problem isn’t any single product. It’s the lack of a unified view that tells you which exposures an attacker could actually reach before your next audit or incident. This article walks through seven Rapid7 alternatives, ranked from the most complete cloud-native replacement to the most specialized. You’ll get a consistent evaluation rubric, honest trade-offs for each option (including Orca’s own gaps), and a decision table so you can match the right tool to your team’s actual needs. Why Do Teams Look for Rapid7 Alternatives? Rapid7 is a capable product. It’s a collection of products that weren’t designed as one platform. Teams typically start evaluating alternatives when they realize the fragmented module stack creates scope gaps that compound over time, especially as cloud footprints grow beyond a single provider. For organizations building a cloud security program at scale , these gaps become harder to manage with each new workload. The most common pain points include: Multi-cloud consistency. Confirm depth of coverage across Azure, GCP, and OCI, since parity across providers is a common gap for tools that started single-cloud. Kubernetes and container depth. Runtime coverage for containers and Kubernetes comes through a third-party runtime layer in Rapid7’s premium tier rather than natively, which adds cost and another moving part as clusters scale. More products to operate. Reaching full coverage means running and correlating several separate products, each with its own console and data model, so the stack gets heavier to operate as your environment grows. What Should You Look for in a Rapid7 Alternative? Before comparing vendors, it helps to agree on what you’re evaluating. The rubric below applies to every alternative in this article, so you can score them consistently rather than comparing marketing claims. For a deeper look at the agentless dimension specifically, see this guide to evaluating agentless cloud security vendors . Criteria What It Means Cloud-native platform breadth Coverage extends beyond traditional network and endpoint vulnerability management into cloud workloads, identities, data, and AI resources. Unified data model Risk data flows through a single model rather than being stitched together from bolted-on modules with separate databases. Attack path and exploitability context The platform maps how an attacker could chain vulnerabilities, misconfigurations, and identity weaknesses to reach critical assets. Multi-cloud maturity Consistent depth across AWS, Azure, GCP, and OCI, not just one provider with the others added as afterthoughts. Pricing transparency A single SKU or predictable pricing structure versus stacked modules where costs compound as you add capabilities. 1. Orca Security — Best Overall for Unified, Agentless Cloud Exposure Management Orca replaces Rapid7’s four-product stack with a single agentless platform that covers hosts, containers, serverless functions, data stores, and AI workloads from one console. Where Rapid7 requires you to correlate findings across InsightVM, Insig
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: 7 Best Rapid7 Alternatives for Cloud Security and Exposure Management in 2026
+  - Published: 2026-08-05T12:50:00+00:00
+  - Link: https://orca.security/resources/blog/7-best-rapid7-alternatives/
+  - Summary: When your vulnerability findings are scattered across InsightVM, InsightCloudSec, InsightIDR, and Exposure Command, the real problem isn’t any single product. It’s the lack of a unified view that tells you which exposures an attacker could actually reach before your next audit or incident. This article walks through seven Rapid7 alternatives, ranked from the most complete […]
+
+### Cluster 5be40a98b2 — score 8
+
+- Title: 9 Best CrowdStrike Alternatives in 2026
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-08-05T12:50:00+00:00
+- Link: https://orca.security/resources/blog/9-best-crowdstrike-alternatives/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+CrowdStrike Falcon is a strong endpoint detection and response platform, but cloud security architects and CISOs often find that its agent-based architecture leaves gaps in agentless workload depth, full-lifecycle application security, and unified AI security. If your cloud footprint has grown beyond what Falcon’s EDR heritage was designed to cover, you’re likely evaluating options that […]
+```
+
+#### Full body
+
+```
+Table of contents Why Do Teams Look for CrowdStrike Alternatives? What Should You Look for in a CrowdStrike Alternative? 1. Orca Security — Best Overall for Cloud-Native Risk Beyond Endpoint Protection Key Features 2. Wiz — Closest Agentless Cloud-Native Peer 3. Palo Alto Networks Cortex — Broadest SOC and Platform Consolidation 4. SentinelOne — Best Autonomous, Agent-Based Endpoint Swap 5. Fortinet — Best for Security Fabric and On-Premises/Air-Gapped Environments 6. Tenable — Best for Exposure Management and Vulnerability-First Programs 7. Netwrix — Best for Identity Governance and Compliance Evidence 8. Exabeam — Best for SIEM- and UEBA-Driven Security Operations 9. AnySecura — Best for Data-Centric and Insider Risk Protection How Do You Choose the Right CrowdStrike Alternative for Your Team? Where Orca Fits Frequently Asked Questions about CrowdStrike Alternatives CrowdStrike Falcon is a strong endpoint detection and response platform, but cloud security architects and CISOs often find that its agent-based architecture leaves gaps in agentless workload depth, full-lifecycle application security, and unified AI security. If your cloud footprint has grown beyond what Falcon’s EDR heritage was designed to cover, you’re likely evaluating options that address those specific blind spots. This article breaks down nine CrowdStrike alternatives across distinct categories, from cloud-native platforms to endpoint-first swaps to specialized complements. You’ll get a structured evaluation rubric, honest trade-off assessments for each tool, and a buyer-decision table to match your team’s primary gap to the right solution. Why Do Teams Look for CrowdStrike Alternatives? CrowdStrike Falcon remains one of the strongest agent-based endpoint detection and response platforms available. The reason teams explore alternatives isn’t a product failure. It’s an architectural scope gap rooted in Falcon’s EDR heritage. As organizations expand into multi-cloud environments, serverless workloads, and API-driven architectures, the areas where Falcon’s coverage thins out become more visible. The most common gaps driving evaluation include: Agentless workload depth. Falcon’s agentless mode covers inventory and posture, but runtime protection still requires the Falcon sensor on each workload. In environments full of ephemeral containers and auto-scaling groups, that sensor coverage is never fully closed, so the deepest workload protection lags the environment. API security. Falcon maps application APIs through ASPM’s runtime application analysis, but that is tied to instrumented applications rather than dedicated, agentless discovery of managed and shadow APIs across the cloud estate. Full-lifecycle AppSec depth. Falcon offers IaC scanning, but lacks integrated SAST, SCA, secrets detection, and container image scanning with traceability from cloud runtime back to the developer’s code. Unified AI security. Falcon’s AI security is split across Falcon AIDR, Falcon Shield, and Project QuiltWorks, so the consolidation story breaks down where AI risk lives. What Should You Look for in a CrowdStrike Alternative? Before comparing individual vendors, it helps to establish clear evaluation criteria. A structured rubric keeps the process grounded in your actual gaps rather than vendor marketing. The five criteria below cover the dimensions where CrowdStrike alternatives most commonly differentiate themselves. For a deeper look at building your evaluation process, Orca’s cloud security program maturity guide offers a useful framework. Criteria What It Means Agentless deployment and coverage breadth Can the platform discover and assess cloud workloads, containers, and serverless functions without installing or maintaining agents? Unified data model vs. bolted-on point tools Does the platform correlate findings across workloads, identities, data, and APIs in a single model, or does it stitch together separate acquisitions? Native AppSec and API security depth Does the p
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: 9 Best CrowdStrike Alternatives in 2026
+  - Published: 2026-08-05T12:50:00+00:00
+  - Link: https://orca.security/resources/blog/9-best-crowdstrike-alternatives/
+  - Summary: CrowdStrike Falcon is a strong endpoint detection and response platform, but cloud security architects and CISOs often find that its agent-based architecture leaves gaps in agentless workload depth, full-lifecycle application security, and unified AI security. If your cloud footprint has grown beyond what Falcon’s EDR heritage was designed to cover, you’re likely evaluating options that […]
+
 ### Cluster 097b1c162f — score 8
 
 - Title: Prolific ransomware group behind SonicWall zero-day attacks
@@ -3622,40 +3587,50 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html
   - Summary: The INC Ransomware operation has emerged as the "dominant threat actor" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per
 
-### Cluster d8000d9d61 — score 8
+### Cluster 3d974d089b — score 8
 
-- Title: New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-05T11:43:27+00:00
-- Link: https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html
-- Fetch status: not_attempted
+- Title: Incident Report: unsanctioned agent behaviour during cyber testing
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-08-05T23:32:06+00:00
+- Link: https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-64531
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-64531
+- threat_categories: ai_security, phishing_social_eng, supply_chain
+- affected_industries: government
+- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-64531
+- threat_categories: supply_chain, phishing_social_eng, ai_security
+- affected_industries: government
+- affected_products: GitHub, Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds. The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim
+Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: AWS — Move from SaaS to Agentic SaaS with resources for ISVs at every layer of the stack. Explore how AI for ISVs turns vision into results 5th August 2026 - Link Blog Incident Report: unsanctioned agent behaviour during cyber testing . It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack. As a result, the AI agent created a GitHub account and then tried to convince an open-source repository maintainer to accept a malicious GitHub pull request (PR), including by creating a second account masquerading as another human user endorsing the PR. [...] Furthermore, in its attempt to solve the challenge, the agent decided to employ the technique of “spear-phishing” by sending targeted emails containing malicious content and attempting to manipulate recipients into accepting the code changes, and planned a prompt injection to compromise other coding agents. The thing I found most surprising is that AISI were running these agents without any form of network sandboxing at all: AISI provided the AI agents with internet access during these evaluations, which enabled their actions on the open internet in this setting. Internet access was a deliberate part of AISI’s evaluation configuration in this setting, and not due to sandbox escape. This, combined with the fact that "AISI deliberately disables developer-implemented cyber-classifiers", makes the fact that the agents started attacking real-world targets entirely unsurprising to me. Most of the reported incidents were claude Mythos 5, but "GPT-5.6 Sol without cyber classifiers" scored a few as well. Here's "Sample 1" from the paper, in which the agent tries to execute a supply-chain attack by submitting a PR with a hidden prompt injection attack, then social engineering with a second agent pretending to have reviewed the code! It's a fun paper. I recommend reading the whole thing. Posted 5th August 2026 at 11:32 pm Recent articles One-shotting a Raccoon Heist game using Claude Fable 5 - 5th August 2026 New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging - 4th August 2026 Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp) - 31st July 2026 This is a link post by Simon Willison, posted on 5th August 2026 . github 192 security 623 ai 2,171 prompt-injection 159 generative-ai 1,922 llms 1,889 ai-ethics 332 paper-review 18 ai-security-research 34 claude-mythos-fable 34 accidental-cyberattacks 10 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch
-  - Published: 2026-08-05T11:43:27+00:00
-  - Link: https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html
-  - Summary: A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds. The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Incident Report: unsanctioned agent behaviour during cyber testing
+  - Published: 2026-08-05T23:32:06+00:00
+  - Link: https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything
+  - Summary: Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply
 
 ### Cluster f0d6d20493 — score 8
 
@@ -3731,41 +3706,6 @@ Cybersecurity researchers have shed light on a previously undocumented Go-based 
   - Link: https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html
   - Summary: Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint Cyber, the intrusion sequence begins with a spear-phishing message containing a link to an encrypted archive, which holds a Windows Shortcut (LNK). Executing the file triggers a multi-stage chain that
 
-### Cluster 272846cbef — score 8
-
-- Title: Paperclip AI Flaws Let Unauthenticated Attackers Run Commands
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-05T14:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/paperclip-ai-vulnerabilities-rce/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-3 Paperclip flaws exposed data & allowed unauthenticated command execution in two deployment modes
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Paperclip AI Flaws Let Unauthenticated Attackers Run Commands
-  - Published: 2026-08-05T14:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/paperclip-ai-vulnerabilities-rce/
-  - Summary: 3 Paperclip flaws exposed data & allowed unauthenticated command execution in two deployment modes
-
 ### Cluster 02097b7a9a — score 8
 
 - Title: UK’s Police National Legal Database Reveals Data Breach
@@ -3835,3 +3775,38 @@ A Chinese-speaking threat actor has been using DeepSeek’s AI models to orchest
   - Published: 2026-07-31T15:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/chinese-hacker-deepseek-ai/
   - Summary: A Chinese-speaking threat actor has been using DeepSeek’s AI models to orchestrate cyber-attacks targeting Asian organizations
+
+### Cluster cd780b1305 — score 8
+
+- Title: Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-05T14:38:12+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-15920
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-15920
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-15920
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/Sandwich_1337 [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Stored XSS in Django's admin via an unvalidated URLField display path (CVE-2026-15920)
+  - Published: 2026-08-05T14:38:12+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vg9704/stored_xss_in_djangos_admin_via_an_unvalidated/
+  - Summary: submitted by /u/Sandwich_1337 [link] [comments]
