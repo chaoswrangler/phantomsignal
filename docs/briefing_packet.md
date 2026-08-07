@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-07T19:56:35.338649+00:00
+- Generated: 2026-08-07T20:49:25.246294+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 74
-- Total items in window: 344
-- Total clusters raw: 138
-- Total clusters in packet: 58
-- Dropped low score: 80
+- Feeds OK: 75
+- Total items in window: 354
+- Total clusters raw: 141
+- Total clusters in packet: 60
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,25 +75,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 5
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
@@ -105,71 +105,66 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 10
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
+  - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 10
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 3
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -180,160 +175,165 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 20
-  - In window count: 5
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 8
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 8
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 100
+  - In window count: 5
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
@@ -345,16 +345,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -370,11 +370,11 @@
   - Status: ok
   - Item count: 30
   - In window count: 30
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 15
+  - In window count: 2
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -385,28 +385,18 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,21 +405,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -440,46 +435,51 @@
   - Status: ok
   - Item count: 100
   - In window count: 25
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 16
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
 
 ## Affinity groups (themes)
 
-### CVE-2026-18577 exploitation activity
-- Anchor signal: CVE-2026-18577
-- Theme key: cve-2026-18577
+### CVE-2026-18556 exploitation activity
+- Anchor signal: CVE-2026-18556
+- Theme key: cve-2026-18556
 - Cluster count: 3
 - Article count: 8
 - Cohesion: 0.424
-- Shared strong signals: CVE-2026-18577
+- Shared strong signals: CVE-2026-18556
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -498,13 +498,13 @@
   - https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html
   - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 
-### CVE-2026-18556 exploitation activity
-- Anchor signal: CVE-2026-18556
-- Theme key: cve-2026-18556
+### CVE-2026-18577 exploitation activity
+- Anchor signal: CVE-2026-18577
+- Theme key: cve-2026-18577
 - Cluster count: 3
 - Article count: 8
 - Cohesion: 0.424
-- Shared strong signals: CVE-2026-18556
+- Shared strong signals: CVE-2026-18577
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -556,9 +556,9 @@
   - https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html
   - https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything
   - https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
-  - https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
   - https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/
   - https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/
+  - https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
   - https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
   - https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/
   - https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/
@@ -753,10 +753,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 3
-  - CVE-2017-17215 (first seen via Recorded Future at 2026-08-07T00:00:00+00:00, cluster 1c833c15fa)
-  - CVE-2018-0802 (first seen via Recorded Future at 2026-08-07T00:00:00+00:00, cluster 1c833c15fa)
-  - CVE-2021-4034 (first seen via Recorded Future at 2026-08-07T00:00:00+00:00, cluster 1c833c15fa)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -828,8 +825,8 @@
 - actor_attribution: ShinyHunters (weeks observed: 10, cluster d8c893e316)
 - actor_attribution: TeamPCP (weeks observed: 8, cluster 61004037ea)
 - cve_ids: CVE-2026-33017 (weeks observed: 7, cluster e9b42737b7)
+- cve_ids: CVE-2025-3248 (weeks observed: 5, cluster 1c833c15fa)
 - actor_attribution: LockBit (weeks observed: 5, cluster b00983247a)
-- cve_ids: CVE-2025-3248 (weeks observed: 4, cluster 1c833c15fa)
 - actor_attribution: APT29 (weeks observed: 3, cluster b687bdfffc)
 - cve_ids: CVE-2026-59726 (weeks observed: 3, cluster fe05850866)
 
@@ -1541,11 +1538,6 @@ AI security company Zenity has disclosed the details of two AI browser hacking t
   - Published: 2026-08-07T08:18:35+00:00
   - Link: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
   - Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride
-  - Published: 2026-08-06T20:39:30+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
-  - Summary: In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: Claude Code RCE: How a Malicious PR Triggers Code Execution
   - Published: 2026-08-06T21:22:53+00:00
@@ -1556,6 +1548,11 @@ AI security company Zenity has disclosed the details of two AI browser hacking t
   - Published: 2026-08-06T16:11:39+00:00
   - Link: https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/
   - Summary: Meta has become the latest AI company to confirm that one of its models hacked a real organization during cybersecurity testing, as similar incidents continue to emerge following OpenAI'sOpenAI's initial disclosure that its agents breached Hugging Face. [...]
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride
+  - Published: 2026-08-06T20:39:30+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
+  - Summary: In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident
   - Published: 2026-08-06T13:40:00+00:00
@@ -1809,53 +1806,6 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Stephen Campbe
   - Link: https://risky.biz/RBNEWSSI138/
   - Summary: In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.
 
-### Cluster 1c833c15fa — score 11
-
-- Title: July 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-07T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Cisco, Fortinet, Palo Alto Networks
-- cve_ids: CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034, CVE-2025-3248
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Fortinet, Palo Alto Networks, Cisco
-- cve_ids: CVE-2025-3248, CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
-```
-
-#### Full body
-
-```
-July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: July 2026 CVE Landscape
-  - Published: 2026-08-07T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
-  - Summary: In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
-
 ### Cluster 2ba7372881 — score 11
 
 - Title: When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers
@@ -1902,6 +1852,53 @@ CATEGORIES AI Research 18 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-08-06T22:20:00+00:00
   - Link: https://research.checkpoint.com/2026/when-agentic-glue-melts/
   - Summary: By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .
+
+### Cluster 1c833c15fa — score 11
+
+- Title: July 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-07T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Cisco, Fortinet, Palo Alto Networks
+- cve_ids: CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034, CVE-2025-3248
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Fortinet, Palo Alto Networks, Cisco
+- cve_ids: CVE-2025-3248, CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
+```
+
+#### Full body
+
+```
+July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: July 2026 CVE Landscape
+  - Published: 2026-08-07T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
+  - Summary: In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
 
 ### Cluster 82a0348651 — score 11
 
@@ -2118,47 +2115,6 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
   - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
-### Cluster 3e123aa6ec — score 10
-
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-
 ### Cluster b00983247a — score 10
 
 - Title: An analysis of incidents at Brazilian educational institutions
@@ -2203,6 +2159,219 @@ Table of Contents Introduction Key findings and statistics Interesting cases Cas
   - Published: 2026-08-03T13:00:17+00:00
   - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
   - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+
+### Cluster 3e123aa6ec — score 10
+
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+
+### Cluster fe05850866 — score 10
+
+- Title: 3rd August – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-08-03T13:15:55+00:00
+- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 3rd August – Threat Intelligence Report
+  - Published: 2026-08-03T13:15:55+00:00
+  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster ef0ff97611 — score 10
+
+- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-04T10:00:11+00:00
+- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
+```
+
+#### Full body
+
+```
+“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+  - Published: 2026-08-04T10:00:11+00:00
+  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
+
+### Cluster 432a5ea542 — score 10
+
+- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T15:37:27+00:00
+- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
+```
+
+#### Full body
+
+```
+How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+  - Published: 2026-08-03T15:37:27+00:00
+  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
+  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
+
+### Cluster 35c2b2988b — score 10
+
+- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T13:04:33+00:00
+- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
+```
+
+#### Full body
+
+```
+Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+  - Published: 2026-08-03T13:04:33+00:00
+  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
 
 ### Cluster 6b94b6e7b2 — score 10
 
@@ -2332,178 +2501,6 @@ Explore eight key ways that AI is reshaping the threat intelligence landscape, f
   - Published: 2026-08-03T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
   - Summary: Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
-
-### Cluster fe05850866 — score 10
-
-- Title: 3rd August – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-03T13:15:55+00:00
-- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 3rd August – Threat Intelligence Report
-  - Published: 2026-08-03T13:15:55+00:00
-  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 432a5ea542 — score 10
-
-- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T15:37:27+00:00
-- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-```
-
-#### Full body
-
-```
-How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-  - Published: 2026-08-03T15:37:27+00:00
-  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-
-### Cluster 35c2b2988b — score 10
-
-- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T13:04:33+00:00
-- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
-```
-
-#### Full body
-
-```
-Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-  - Published: 2026-08-03T13:04:33+00:00
-  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
-
-### Cluster ef0ff97611 — score 10
-
-- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-04T10:00:11+00:00
-- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
-```
-
-#### Full body
-
-```
-“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-  - Published: 2026-08-04T10:00:11+00:00
-  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
 
 ### Cluster 87cb88c47a — score 10
 
@@ -2668,6 +2665,49 @@ Page content Nitro Enclaves and Key Management Service (KMS) feel like a natural
   - Published: 2026-08-05T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/
   - Summary: Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n
+
+### Cluster cf56c2f2ab — score 10
+
+- Title: Metabase SQLi zero-day exploited in customer data-theft attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-07T20:14:46+00:00
+- Link: https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]
+```
+
+#### Full body
+
+```
+Metabase SQLi zero-day exploited in customer data-theft attacks By Mayank Parmar August 7, 2026 04:14 PM 0 A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. Metabase disclosed the attacks on Thursday, warning that its Metabase Cloud SaaS platform was compromised through a previously unknown vulnerability affecting versions 1.58 and above. The company warns that self-hosted installations are also vulnerable. "We recently identified that Metabase Cloud was attacked by someone utilizing an unknown ("0-day") security vulnerability in versions 1.58 and above," Metabase CEO Sameer Al-Sakran warned in a blog post . Metabase confirmed it blocked the endpoints used for the attack and immediately rolled out a fix for the vulnerability. "The vulnerability is an unauthenticated SQL injection flaw in Metabase that can ultimately give a remote attacker administrator access to a customer's instance." While Metabase has not assigned the vulnerability a CVE identifier, its security advisory rates it as Critical with a CVSS score of 10.0 and confirms that it has been actively exploited. "This is a CRITICAL vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance," reads an associated security advisory . "From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data. Metabase has confirmed active exploitation of this vulnerability." Metabase is available both as software that organizations can host themselves and through Metabase Cloud, the company's managed SaaS offering. Metabase says its Cloud customers have already been upgraded and patched, while organizations running vulnerable self-hosted installations must update manually. The SQLi vulnerability has been fixed in patched versions for all affected branches from 0.58 through 0.63, with the minimum safe releases being 0.58.24, 0.59.21, 0.60.17, 0.61.11, 0.62.9, and 0.63.5. Organizations unable to upgrade immediately are advised to temporarily block access to the ' /api/session/reset_password ' endpoint until the update can be applied. Metabase recommends that self-hosted customers immediately upgrade, revoke all active user sessions, review API keys and administrator accounts for unauthorized changes, rotate credentials for connected databases, and inspect logs and query history for signs of compromise. The company says attacks can be identified by a POST request to /api/session/reset_password returning a 400 status code, followed by a successful GET request to /api/user/current . Metabase warns that system logs showing these entries have likely been compromised. Customers disclose Metabase data theft attacks Laptop maker Framework is one of the companies that has confirmed customer information was stolen after attackers compromised its Metabase instance. In a breach notification sent to customers and shared with BleepingComputer, Framework said the incident allowed the attackers to steal customer information. The stolen data includes full names, email addresses, login IP addresses, billing and shipping address information, phone number, and company name. For Framework for Business customers, the data may also include the company name, phone number, VAT, EIN, and billing email address. Framework said Metabase notified the company on August 6 that its instance had been vulnerable to the zero-day and accessed by the attacker on August 3. Tally , the popular online form builder, has also notified users that its Metabase analytics environment was compromised on August 3. "Through that they reached your email address, and your password as a cryptographic hash. A hash is one-way, so it can't be turned back into your password. Th
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Metabase SQLi zero-day exploited in customer data-theft attacks
+  - Published: 2026-08-07T20:14:46+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/
+  - Summary: A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]
 
 ### Cluster e794878462 — score 10
 
@@ -3112,6 +3152,39 @@ Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant
   - Published: 2026-08-05T14:27:30+00:00
   - Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
   - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
+
+### Cluster 1f7c3a3d86 — score 9
+
+- Title: Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons
+- Source: Just Security (policy_strategy_geopolitics)
+- Published: 2026-08-05T13:14:58+00:00
+- Link: https://www.justsecurity.org/151394/strategic-attack-on-iran-airpowers-promises-limits-and-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=strategic-attack-on-iran-airpowers-promises-limits-and-lessons
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Operation Epic Fury demonstrates that airpower is both essential and insufficient. A review of what the campaign reveals about airpower's promises, limits and lessons in Iran. The post Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons appeared first on Just Security .
+```
+
+#### Corroborating sources (1)
+
+- **Just Security** (policy_strategy_geopolitics)
+  - Title: Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons
+  - Published: 2026-08-05T13:14:58+00:00
+  - Link: https://www.justsecurity.org/151394/strategic-attack-on-iran-airpowers-promises-limits-and-lessons/?utm_source=rss&utm_medium=rss&utm_campaign=strategic-attack-on-iran-airpowers-promises-limits-and-lessons
+  - Summary: Operation Epic Fury demonstrates that airpower is both essential and insufficient. A review of what the campaign reveals about airpower's promises, limits and lessons in Iran. The post Strategic Attack on Iran: Airpower’s Promises, Limits, and Lessons appeared first on Just Security .
 
 ### Cluster 1e4f97d7fa — score 9
 
