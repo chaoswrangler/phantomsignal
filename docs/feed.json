@@ -1,28 +1,14 @@
 {
-  "generated_at": "2026-08-08T11:34:47.672501+00:00",
+  "generated_at": "2026-08-08T13:01:03.537251+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2168,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 6
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -32,12 +18,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 6
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -46,15 +32,36 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -74,13 +81,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -88,12 +88,26 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -109,18 +123,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -130,11 +137,18 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -151,18 +165,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -172,18 +179,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
+      "item_count": 15,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -200,6 +200,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -214,20 +221,6 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -235,12 +228,12 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -249,19 +242,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 8
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 8
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -270,19 +263,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 5
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -298,6 +284,13 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -305,33 +298,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -340,12 +312,26 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -353,6 +339,27 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -367,13 +374,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -396,6 +396,13 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 20
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -410,13 +417,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 20
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
@@ -424,19 +424,19 @@
       "item_count": 30,
       "in_window_count": 27
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -452,13 +452,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -466,12 +459,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -487,19 +480,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -508,12 +501,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 25
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -522,12 +515,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 25
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 18
+      "in_window_count": 19
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -687,9 +687,9 @@
       "dominant_features": {
         "threat_categories": [
           "active_exploitation",
+          "ransomware_extortion",
           "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
+          "phishing_social_eng"
         ],
         "affected_industries": [
           "financial_services",
@@ -709,8 +709,8 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 10,
-      "cohesion": 0.22,
+      "article_count": 9,
+      "cohesion": 0.221,
       "shared_strong_signals": [
         "Microsoft SharePoint"
       ],
@@ -721,7 +721,7 @@
         "c97f90a69b",
         "ad2bf1153f",
         "d8c893e316",
-        "4d804df984"
+        "64fc7bd463"
       ],
       "links": [
         "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
@@ -731,9 +731,8 @@
         "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
         "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
         "https://risky.biz/RBNEWSSI138/",
-        "https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/",
         "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-        "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/"
+        "https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/"
       ]
     },
     {
@@ -805,8 +804,8 @@
       ],
       "links": [
         "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
-        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
         "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
         "https://isc.sans.edu/diary/rss/33218",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://securelist.com/cloud-platforms-in-phishing/120832/",
@@ -1013,36 +1012,6 @@
       ]
     },
     {
-      "label": "Apple iOS/macOS vulnerability activity",
-      "anchor_signal": "Apple iOS/macOS",
-      "theme_key": "apple-ios-macos",
-      "dominant_features": {
-        "affected_products": [
-          "Apple iOS/macOS"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 7,
-      "cohesion": 0.255,
-      "shared_strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "ff79c00af4",
-        "e2f458ad1f",
-        "3c8844b86a"
-      ],
-      "links": [
-        "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
-        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-        "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-        "https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection",
-        "https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street/"
-      ]
-    },
-    {
       "label": "ransomware extortion targeting Snowflake",
       "anchor_signal": "Snowflake",
       "theme_key": "snowflake",
@@ -1079,6 +1048,36 @@
         "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
         "https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/",
         "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
+      ]
+    },
+    {
+      "label": "Apple iOS/macOS vulnerability activity",
+      "anchor_signal": "Apple iOS/macOS",
+      "theme_key": "apple-ios-macos",
+      "dominant_features": {
+        "affected_products": [
+          "Apple iOS/macOS"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.255,
+      "shared_strong_signals": [
+        "Apple iOS/macOS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "ff79c00af4",
+        "e2f458ad1f",
+        "3c8844b86a"
+      ],
+      "links": [
+        "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
+        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+        "https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection",
+        "https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street/"
       ]
     },
     {
@@ -1387,7 +1386,7 @@
       {
         "axis": "cve_ids",
         "value": "CVE-2026-56164",
-        "cluster_id": "4d804df984",
+        "cluster_id": "64fc7bd463",
         "weeks_observed": 3
       }
     ],
@@ -1698,7 +1697,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "7 August 2026 • Mika Ayenson, PhD • Jia Yu Chan Living off the coding agent: Two tales of tunnels and LaunchAgents A macOS case study on Claude Code ancestry, free tunnel brokers, and the challenge of validating GenAI-adjacent alerts. 10 min read Generative AI Coding agents such as Claude Code and Cursor are vendor-signed, used all day on developer laptops, and routinely open shells, call APIs, edit files, and install helpers. That makes GenAI-adjacent alerts challenging to investigate. The parent looks trusted, while the children can still look a lot like classic high-severity activity. This article walks through one of those windows. On a macOS endpoint, Elastic Security endpoint telemetry showed shells under Claude Code that scripted a login to an ephemeral tunnel hostname, pulled application metrics, stood up a Cloudflare quick tunnel, and installed LaunchAgent persistence. Immediate children were often shells ( zsh ) and helpers under that ancestry, not Claude executing every binary itself. The outcomes Endpoint cares about are still there. Credentials show up on the wire, along with reverse tunnels and LaunchAgents. The destinations and command shapes also line up with known free tunnel providers ( localhost[.]run / lhr[.]life , trycloudflare, ngrok, etc.), a local loopback app pattern, and ordinary SaaS APIs. Put together, the same telemetry can read like a remote admin of a local dashboard with agent help, which is exactly why these alerts are hard to triage. Below we walk the multi-day suspicious activity and the 23 Jul window stage by stage, name the known dual-use tools, show which production rules fired, and describe challenges detection engineers and analysts encounter when investigating these alerts. Key takeaways Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Treat that as high severity even when it looks like vibe-coded ops, not confirmed malware. Known free tunnel brokers ( localhost[.]run / lhr[.]life , Cloudflare Quick Tunnels, ngrok) show up next to credentialed HTTP and LaunchAgents in the same session. The hard part for detection engineers is validation. Trusted coding-agent parents, dual-use destinations, and high-severity outcomes can all arrive in one alert pile. Coding agent activity analysis Two hunt paths landed on the same host on July 23, 2026. One started from VirusTotal reputation on a domain contacted under the agent lineage. The other started from correlated endpoint behavior alerts, including the production rule Persistence via GenAI Tool . Together they rebuilt one sequence rather than a pile of unrelated noisy events. That was not the first Elastic Defend signal on the host. Telemetry already showed event.code: malicious_file and behavior activity from July 20, 2026 onward. Most of it was tunnel and VPN-class binaries, noisy GenAI-adjacent alerts, followed by credential posts and LaunchAgent persistence the hunts highlighted. macOS developer endpoint: Where this showed up The activity sits on a macOS developer endpoint where Claude Code (and in related cases Cursor) was already installed and in use. The practical class is a workstation that trusts signed coding agents to open shells, edit files, call APIs, and install helpers. How the Claude Code session staged the chain From telemetry, the session needed to run tooling with fewer approval prompts, reach a tunnel-published URL, expose a local service without inbound firewall changes, keep that path alive, and check related processes. Those steps show up as ordinary process, file, and network event types under a coding-agent parent. Known dual-use tools in this window include localhost[.]run (free SSH tunnels on *.lhr[.]life ), Cloudflare Quick Tunnels ( *.trycloudflare[.]com / api.trycloudflare[.]com ), and an ngrok binary. VirusTotal flags on broker apexes (root domain) remain useful hunt signals because those services get abused. In this session, the tunnels sit next to publish-localhost beha",
       "fetch_status": "ok"
     },
@@ -1732,7 +1731,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "Unit 42",
@@ -2382,7 +2381,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP  Swati Khandelwal  Aug 07, 2026 Web Security / Vulnerability WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page. Tracked as CVE-2026-64638 (CVSS score: 8.9), the high-severity vulnerability requires no attacker privileges. According to pwn.ai , which discovered the flaw and shared technical details with The Hacker News, the login-page XSS requires no authentication. Once a crafted username reaches the failed-login error page, the resulting JavaScript executes in the visitor's browser with no further interaction required on that page. The code-execution path requires a victim already logged in as an Administrator and explicit interaction with an attacker-controlled page. In pwn.ai's demonstration, that interaction is one ordinary click. The researchers told The Hacker News that the attack works against default WordPress installations and does not require unusual hosting or deployment settings. The researchers said they have multiple paths from the XSS to code execution, including variants that install a plugin or upload an arbitrary ZIP. WordPress's own advisory takes a more cautious view of exploitability, noting that escalation to RCE involves conditions outside the attacker's control and requires successful social engineering plus explicit victim interaction. The issue was patched on August 6 in WordPress 7.0.3 , with fixes backported through the 4.7 branch. WordPress recommends updating immediately, and sites that support automatic background updates should receive the security release automatically. Versions older than 4.7 remain affected but fall outside the project's current backport range. The researchers, who call the attack chain XSS2Shell , said its autonomous system discovered and reproduced the vulnerability chain after being given Paulos Yibelo 's 2022 Same Origin Method Execution (SOME) research as a starting point. The company said the work took nearly four days using open-source models and a multi-agent workflow. It said the chain was reproduced on July 26 and reported to WordPress the following day. The flaw starts in the way WordPress handles the username from a failed login. According to the researchers, the value passes through sanitize_user() and wp_strip_all_tags(), which relies on PHP's strip_tags(). A tag-like string containing whitespace after the opening < can survive that parser as text. Later, WordPress passes the value through wp_kses_post(), whose separate parser interprets the same input as permitted HTML. The result is attacker-controlled live DOM elements on the failed-login page. Those elements then interact with WordPress's own user-profile.js, a profile-management script that is also loaded on the login page because the page handles password resets. Some profile elements the script expects are absent there: two missing inputs both resolve to undefined, allowing an equality check to pass, while the otherwise undefined ajaxurl variable can be clobbered with an injected DOM element. That steers WordPress's own JavaScript toward an attacker-selected same-origin REST request. The researchers use WordPress's REST JSONP support to turn that request into JavaScript executing in the site's origin. For deployments where anonymous REST requests return HTTP 401, the _envelope=1 parameter can wrap the denial in an outer HTTP 200 response, allowing jQuery to continue processing the response as script. The researchers also found in their testing that a nonce-based Content Security Policy using strict-dynamic did not block the demonstrated path. The path from XSS to PHP execution builds on Yibelo's earlier SOME technique, which uses a permitted JSONP property chain ",
       "fetch_status": "ok"
     },
@@ -2416,7 +2415,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "Table of contents Key Takeaways What is the Vulnerability Management Lifecycle? Why Vulnerability Management Matters in Cybersecurity The 6 Key Phases of the Vulnerability Management Lifecycle Phase 1: Asset Discovery Phase 2: Vulnerability Assessment Phase 3: Risk-Based Prioritization Phase 4: Remediation Phase 5: Verification and Rescanning Phase 6: Reporting and Continuous Improvement Asset Discovery and Vulnerability Assessment What Asset Discovery Must Produce Turning a Scan Into an Assessment Risk-Based Prioritization and Remediation Strategies Ranking by Exploitability and Exposure Remediate, Mitigate, or Accept Common Challenges and Best Practices How Orca Closes the Loop on Vulnerability Management Frequently Asked Questions About the Vulnerability Management Lifecycle Key Takeaways The lifecycle runs in six phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, and reporting and continuous improvement. Each phase owes the next one a specific artifact. A phase that produces nothing auditable has not run, whatever the calendar says. No NIST publication defines this six-phase model. NIST publishes a patch management guide, a glossary definition, and an assessment-automation volume, and none of them is a lifecycle. Scanning and patching are two of six phases. The other four are where most programs cannot evidence their own work. Orca inventories cloud assets without agents and rescans continuously, so coverage and closure stop depending on what someone remembered to install. The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase consumes something the previous phase produced and owes something to the next one. Discovery owes an inventory. Assessment owes a validated finding set. Prioritization owes a ranked queue with an owner on every line. This guide walks the six phases in order, explains the artifact each one has to produce, and shows where the loop stalls when one goes missing. It also settles a question the search results often get wrong: whether NIST defines this model at all. What is the Vulnerability Management Lifecycle? The vulnerability management lifecycle is a repeating sequence of six phases, each defined by what it consumes and what it hands forward. It is the operational form of vulnerability management , the wider discipline of finding and reducing weaknesses across an estate. A security vulnerability is the unit the loop moves, and the lifecycle is how a team keeps finding new ones after the first scan. Most vulnerability management lifecycle definitions agree on the loop and disagree on the count. Some teams call it vulnerability lifecycle management and mean the same thing, tracking one finding from discovery to proven closure. The count matters less than the exit condition on each phase. A phase has run when it produces the artifact the next phase needs, and not before. Why Vulnerability Management Matters in Cybersecurity A known, unpatched flaw is the cheapest way into an environment. An attacker needs no novel technique when a published flaw still sits on an internet-facing host. Every day that finding stays open is another day the path works. Plenty of teams scan weekly and patch on a schedule, but that covers only two of the six phases. A program with no discovery phase scans only what it already knows about, and one with no verification phase closes tickets on faith. That gap is what separates vulnerability management from routine patching. The NIST Cybersecurity Framework reflects the same principle by requiring vulnerabilities to be identified, validated, and recorded (ID.RA-01) and vulnerability disclosures to",
       "fetch_status": "ok"
     },
@@ -2431,10 +2430,7 @@
       "author": "Sinisa Markovic",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "active_exploitation"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [
           "government",
@@ -2444,14 +2440,9 @@
           "Microsoft SharePoint"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-56164",
-          "CVE-2026-50522"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
+        "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
@@ -2461,9 +2452,7 @@
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Sinisa Markovic , Managing Editor, Help Net Security August 7, 2026 Share 200 accounts compromised in Swiss government’s Microsoft SharePoint breach Hackers exploited vulnerabilities in Microsoft SharePoint servers belonging to Switzerland’s Federal Office of Information Technology, Systems and Telecommunication (BIT), compromising the login credentials of around 200 accounts. On July 28, BIT’s security specialists noticed unusual activity on the SharePoint servers. Once the intrusion was confirmed, BIT blocked internet access to the platform and closed the vulnerabilities being exploited. Three days later, on July 31, security specialists discovered “that the login credentials for several accounts had been compromised,” noting that both user and technical accounts were affected. BIT says it immediately reset the passwords for all affected accounts. The agency believes the attackers exploited SharePoint vulnerabilities disclosed by Microsoft in mid-July and fixed in the July Patch Tuesday updates . “The cyberattack was carried out by previously unknown actors,” the agency said in its statement, adding that they most likely got in “by exploiting these vulnerabilities in the SharePoint software.” However, it has not disclosed which flaw was used. The attack potentially involved either CVE-2026-56164, an actively exploited SharePoint privilege escalation vulnerability, or CVE-2026-50522, a remote code execution flaw later exploited to steal SharePoint machine keys and maintain access after servers were patched. BIT is being supported in its analysis by the Federal Office for Cybersecurity (BACS) and Microsoft. The agency states that no confidential information or particularly sensitive personal data is permitted to be stored on the affected SharePoint platform, and so far there is no evidence that data was leaked beyond the compromised login credentials. Under Switzerland’s Information Security Act, BIT reported the incident to BACS and the State Secretariat for Security Policy within the required deadline. It also shared technical indicators from the attack with operators of essential infrastructure through the BACS platform. “Employees of the federal administration can continue to access their documents and share them with the affected individuals via alternative methods,” BIT added . At the time of writing, no group has claimed responsibility for the attack. More about data breach EU government Microsoft SharePoint vulnerability Share",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Just Security",
@@ -2493,7 +2482,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -3472,18 +3461,28 @@
       "author": "Lawrence Abrams",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ransomware_extortion",
+          "data_breach",
+          "active_exploitation"
+        ],
         "actor_attribution": [],
         "affected_industries": [
-          "government"
+          "government",
+          "telecommunications"
         ],
         "affected_products": [
           "Microsoft SharePoint"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-56164",
+          "CVE-2026-50522"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
@@ -3493,7 +3492,9 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "Swiss government SharePoint breach compromised 200 accounts By Lawrence Abrams August 6, 2026 02:14 PM 0 Switzerland’s federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. The Federal Office for Information Technology and Telecommunication (BIT) detected the cyberattack after security specialists noticed unusual activity on its SharePoint servers on July 28. After confirming the breach, BIT blocked external internet access to SharePoint, patched the suspected vulnerabilities, and reset the passwords for the affected accounts. \"During the analysis, security specialists discovered on Friday, July 31, that the login credentials for several accounts had been compromised,\" BIT said . The agency believes the attackers exploited SharePoint vulnerabilities disclosed by Microsoft in mid-July and fixed in the July Patch Tuesday updates. However, it has not disclosed which flaw was used. The attack potentially involved either CVE-2026-56164 , an actively exploited SharePoint privilege escalation vulnerability, or CVE-2026-50522 , a critical remote code execution flaw later exploited to steal SharePoint machine keys and maintain access after servers were patched. Both of these flaws were fixed as part of the July 2026 Patch Tuesday updates . It remains unclear whether either vulnerability was used in the Swiss government attack or whether the attackers exploited another flaw fixed in the same updates. BIT is investigating the incident with assistance from the Swiss Federal Office for Cyber Security and Microsoft. So far, it has found no evidence that data was stolen beyond the compromised login credentials. The agency said confidential information and particularly sensitive personal data are not permitted to be stored on the affected SharePoint platform. BIT is reinstalling the compromised servers as a precaution, and external access will remain blocked until that work is completed. Federal employees can continue accessing documents and sharing them with external personnel through alternative methods. At this time, no ransomware or data extortion group has claimed responsibility for the breach. BleepingComputer contacted BIT to ask which vulnerability was exploited and whether its investigation had uncovered evidence of data theft, but a response was not immediately available. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: South Korea discloses data breach impacting diplomats worldwide Critical SharePoint RCE flaw exploited to steal machine keys TP-Link patches Omada ZTP flaws allowing hackers to breach networks N-able warns of N-central auth bypass flaw exploited in attacks COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+      "fetch_status": "ok"
     },
     {
       "source": "BleepingComputer",
@@ -10546,33 +10547,6 @@
       }
     },
     {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Sixteen strangers and a shared obfuscator: mapping the wool scene",
-      "link": "https://www.reddit.com/r/netsec/comments/1va7x2g/sixteen_strangers_and_a_shared_obfuscator_mapping/",
-      "published": "2026-07-29T20:23:12+00:00",
-      "summary": "This is another post in my series on the Chinese Wool farmers underground. This time we are dissecting their public github repos, trying to figure out how it all fits together! submitted by /u/TheSilenceOfWinter [link] [comments]",
-      "author": "/u/TheSilenceOfWinter",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "OpenSSF Blog",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -12172,6 +12146,35 @@
       }
     },
     {
+      "source": "Intel 471",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "category": "ransomware_ecrime_financial_crime",
+      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+      "published": "2026-07-28T11:00:00+00:00",
+      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -12195,35 +12198,6 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Intel 471",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "category": "ransomware_ecrime_financial_crime",
-      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-      "published": "2026-07-28T11:00:00+00:00",
-      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
