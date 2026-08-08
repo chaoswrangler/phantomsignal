@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-08T09:44:31.115062+00:00
+- Generated: 2026-08-08T10:40:04.773217+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
 - Total items in window: 350
 - Total clusters raw: 142
-- Total clusters in packet: 61
-- Dropped low score: 81
+- Total clusters in packet: 60
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,25 +80,25 @@
   - Status: ok
   - Item count: 15
   - In window count: 6
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
@@ -110,16 +110,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -130,16 +120,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 4
+  - Item count: 15
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -160,11 +155,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 50
+  - In window count: 4
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -174,6 +169,11 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
@@ -185,28 +185,28 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -220,16 +220,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,38 +240,48 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 8
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
@@ -280,11 +290,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -295,46 +300,41 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -370,16 +370,16 @@
   - Status: ok
   - Item count: 30
   - In window count: 27
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -400,18 +400,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,40 +420,40 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 25
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 18
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -557,13 +557,13 @@
   - https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
   - https://www.recordedfuture.com/blog/july-2026-cve-landscape
 
-### CVE-2026-18577 exploitation activity
-- Anchor signal: CVE-2026-18577
-- Theme key: cve-2026-18577
+### CVE-2026-18556 exploitation activity
+- Anchor signal: CVE-2026-18556
+- Theme key: cve-2026-18556
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18577
+- Shared strong signals: CVE-2026-18556
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -578,13 +578,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
   - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 
-### CVE-2026-18556 exploitation activity
-- Anchor signal: CVE-2026-18556
-- Theme key: cve-2026-18556
+### CVE-2026-18577 exploitation activity
+- Anchor signal: CVE-2026-18577
+- Theme key: cve-2026-18577
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18556
+- Shared strong signals: CVE-2026-18577
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -739,8 +739,7 @@
 ### Novelty
 - Novel cves: 0
 - Novel actors: 0
-- Novel products: 1
-  - Atlassian Confluence (first seen via Sysdig at 2026-08-04T00:00:00+00:00, cluster ad2bf1153f)
+- Novel products: 0
 
 ### Velocity bursts (2)
 - **Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack**
@@ -1972,6 +1971,92 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
   - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
+### Cluster 3e123aa6ec — score 10
+
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+
+### Cluster b00983247a — score 10
+
+- Title: An analysis of incidents at Brazilian educational institutions
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-03T13:00:17+00:00
+- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: education, financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- actor_attribution: LockBit
+- affected_industries: financial_services, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: An analysis of incidents at Brazilian educational institutions
+  - Published: 2026-08-03T13:00:17+00:00
+  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+
 ### Cluster 2ba7372881 — score 10
 
 - Title: When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers
@@ -2068,91 +2153,128 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August
   - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 3e123aa6ec — score 10
+### Cluster ef0ff97611 — score 10
 
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-04T10:00:11+00:00
+- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: web_shell_backdoor
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
 ```
 
 #### Full body
 
 ```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
+“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
 ```
 
 #### Corroborating sources (1)
 
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+- **Cisco Talos** (threat_research_primary)
+  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+  - Published: 2026-08-04T10:00:11+00:00
+  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
 
-### Cluster b00983247a — score 10
+### Cluster 432a5ea542 — score 10
 
-- Title: An analysis of incidents at Brazilian educational institutions
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-03T13:00:17+00:00
-- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T15:37:27+00:00
+- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: education, financial_services
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: LockBit
-- affected_industries: financial_services, education
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
 ```
 
 #### Full body
 
 ```
-Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
+How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
 ```
 
 #### Corroborating sources (1)
 
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: An analysis of incidents at Brazilian educational institutions
-  - Published: 2026-08-03T13:00:17+00:00
-  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
-  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+  - Published: 2026-08-03T15:37:27+00:00
+  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
+  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
+
+### Cluster 35c2b2988b — score 10
+
+- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T13:04:33+00:00
+- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
+```
+
+#### Full body
+
+```
+Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+  - Published: 2026-08-03T13:04:33+00:00
+  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
 
 ### Cluster 1c833c15fa — score 10
 
@@ -2329,129 +2451,6 @@ Explore eight key ways that AI is reshaping the threat intelligence landscape, f
   - Published: 2026-08-03T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
   - Summary: Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
-
-### Cluster ef0ff97611 — score 10
-
-- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-04T10:00:11+00:00
-- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
-```
-
-#### Full body
-
-```
-“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-  - Published: 2026-08-04T10:00:11+00:00
-  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
-
-### Cluster 432a5ea542 — score 10
-
-- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T15:37:27+00:00
-- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-```
-
-#### Full body
-
-```
-How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-  - Published: 2026-08-03T15:37:27+00:00
-  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-
-### Cluster 35c2b2988b — score 10
-
-- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T13:04:33+00:00
-- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
-```
-
-#### Full body
-
-```
-Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-  - Published: 2026-08-03T13:04:33+00:00
-  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
 
 ### Cluster 87cb88c47a — score 10
 
@@ -2844,55 +2843,6 @@ New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP  Swa
   - Link: https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html
   - Summary: WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page. Tracked as CVE-2026-64638 (CVSS score: 8.9), the high-severity
 
-### Cluster b6d7475cc2 — score 9
-
-- Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-07T10:09:54+00:00
-- Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure, zero_day
-- affected_industries: financial_services, government
-- affected_products: Anthropic/Claude
-- cve_ids: CVE-2026-63078
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure
-- affected_industries: financial_services, government
-- affected_products: Anthropic/Claude
-- cve_ids: CVE-2026-63078
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
-```
-
-#### Full body
-
-```
-AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day  Swati Khandelwal  Aug 07, 2026 Web Security / Vulnerability PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle , generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning was authorized through bug bounty or vulnerability disclosure programs and found roughly 700 vulnerable targets before deeper validation and RQP research. Kettle said those findings involved banks, government infrastructure, security products, and an airport. The research produced new desync triggers, a dual-matching Content-Length pattern, and a "dangling-byte" technique designed to make response queue poisoning (RQP) more reliable. RQP can potentially make a front end lose track of which back-end response belongs to which user, potentially exposing another user's response, including session cookies or API keys. The researchers also disclosed Shared-Parser Confusion, a broader attack concept that the system proposed but Kettle validated. The defense has not changed: PortSwigger recommends avoiding HTTP/1.1 upstream . Where HTTP/1.1 cannot be removed, it recommends allow-listing methods at both layers and restricting which methods may carry request bodies. In the technical write-up , Kettle said he fed HTTP Terminator 138 HTTP and SMTP RFCs. Those RFCs were split into about 15,000 small fragments and used as inspiration to generate 30,000 unique candidate vectors. One Content-Type: multipart/byteranges technique worked across multiple server implementations and exposed more than 200 websites in the test set, including an unnamed U.S. bank. The autonomous research then tested 16 ideas for improving RQP. Only the dangling-byte technique survived evaluation. It leaves a smuggled request one byte short so the second back-end response is not produced until a victim request supplies the missing byte, eliminating a race condition that otherwise makes RQP unreliable on many sites. In the human-guided cascade, a malformed request eventually exposed the desynchronization zero-day in Apache Traffic Server. The researchers said the issue has since been patched and tracked as CVE-2026-63078. An August 7 check by The Hacker News did not find a public record for CVE-2026-63078 in CVE.org or NVD, and Apache's July advisory covering 34 flaws did not list it. That leaves a verification gap around the Apache case: the cited public records do not yet let defenders map CVE-2026-63078 to a specific fixed Traffic Server release. Kettle said Shared-Parser Confusion emerged when HTTP Terminator noticed that response-processing rules could be misapplied to requests when servers reuse parsing logic. The system proposed the concept, but Kettle, director of research at PortSwigger, validated and generalized it. "Neither of us would have discovered it alone," he said. That distinction defines the autonomy boundary in this research: the system generated and proved several techniques without direct human discovery input, while the Apache zero-day and Shared-Parser Confusion still required Kettle's intervention. PortSwigger has open-sourced HTTP Terminator . The paper does not identify which exact model or version generated each autonomous discovery. The released implementation uses Claude for document extraction and test-case generation, while its investigator stage requires Claude Code . Separately, researchers behind CRLF-powered desync attacks released public tools for studying that attack class, including crlf-desyncs and crlf-powered-desync-scanner . Kettle separately tested newer models on a rediscovery benchmark and reported a 30% success rate for GPT-5.6 Sol when given an inspiration technique. Found this article int
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
-  - Published: 2026-08-07T10:09:54+00:00
-  - Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
-  - Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
-
 ### Cluster 2b2ae045a4 — score 9
 
 - Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
@@ -3230,45 +3180,6 @@ Elastic Security now tracks every detection rule change with one-click rollback 
   - Link: https://www.elastic.co/security-labs/soc-case-management-detection-rule-history
   - Summary: Elastic Security now tracks every detection rule change with one-click rollback and makes case data queryable out of the box, so SOC teams get audit trails and reporting without configuring anything.
 
-### Cluster 35cc18f5fd — score 8
-
-- Title: New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-06T18:03:45+00:00
-- Link: https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]
-```
-
-#### Full body
-
-```
-New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes By Ionut Ilascu August 6, 2026 02:03 PM 0 Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. ​The method works against Spectre v2 defenses on AMD and Intel processors that rely on sanitizing or isolating branch predictors, which researchers generically refer to as neutralization-based mitigations. Spectre v2 is also known as Branch Target Injection (BTI) and is a variant of the Spectre class of vulnerabilities. It exploits a processor's indirect branch predictor and causes it to mispredict the target of an indirect branch, leading to speculative execution along an attacker-influenced code path. Modern processors use branch prediction to guess the most likely execution path and speculative execution to run instructions along that predicted path before the branch outcome is known. Spectre v2 allows an attacker to manipulate the CPU's indirect branch predictor so that the processor speculatively executes instructions at an attacker-chosen location, which could expose sensitive data. With neutralization-based mitigations (eIBRS on Intel and Safe RET on AMD), there is a gap between the time the branch predictor is isolated and when it is used by the victim branch. Active Spectre v2 mitigations assume that an attacker cannot use to their advantage the time between cleaning the branch predictor state and using it. However, the researchers introduced a primitive that enables re-poisoning the CPU’s state after the cleaning but before it is used. Daniël Trujillo, a PhD student, and associate professor Mengjia Yan of the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) discovered a technique for exploiting this Time-of-Neutralization to Time-of-Use (TONTOU) window to extract sensitive data. “An attacker without any special access to read arbitrary memory from the system, including sensitive data such as hashed passwords,” Trujillo told BleepingComputer. The researchers developed an Interrupt Injection attack, where “unprivileged user programs can schedule timer interrupts to occur during kernel execution.” “Therefore, we can force the kernel to be redirected to the interrupt handler and use this handler to poison microarchitectural states within the post-neutralization window,” the researchers explain . The researchers found that interrupts occurring during the post-neutralization window can be used to poison the processor's indirect branch predictor, enabling attacks against all types of indirect branches. Mengjia and Trujillo tested the attack starting from the assumption that an attacker can run arbitrary, unprivileged code on a Linux target machine to leak data from the kernel. On an AMD Zen 2 host with the latest Spectre v2 mitigations, the two researchers successfully ran through all the stages of a TONTOU attack: neutralization, redirection, poisoning, and the use of the poisoned branch predictors. Stages of a TONTOU attack Successfully exploiting the issue requires overcoming several obstacles, including redirecting kernel control flow, precisely aligning interrupts with the post-neutralization window, and using the interrupt handler to poison the branch predictor entry associated with the target indirect branch. The researchers address these challenges through installing ‘timers’ to trigger hardware interrupts, frequent injection of interrupts, and via active and passive poisoning methods. The attack was tested on both Intel and AMD processors. On an AMD Zen 2 system running Linux version 6.14.0-37-generic with 16GB of RAM, the researchers showed it could leak arbitrary kernel memory at a rate of 5.47 bytes/s and 91.97% accuracy, including the contents of /etc/shadow, which stores password hashes. ​Across 10 test runs, the attack successfully located and extracted the file in five cases, with each attempt taking an
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes
-  - Published: 2026-08-06T18:03:45+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/
-  - Summary: Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]
-
 ### Cluster 1fd7896516 — score 8
 
 - Title: Zero-code, low-cost data ingestion: New BigQuery DTS capabilities
@@ -3311,6 +3222,45 @@ Data Analytics Zero-code, low-cost data ingestion: New BigQuery DTS capabilities
   - Published: 2026-08-07T17:00:00+00:00
   - Link: https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/
   - Summary: In a fast-paced digital economy, data is your most critical engine. Yet, many enterprises find themselves trapped in a costly paradox, spending over 100 hours a week building and fixing fragile, in-house ETL pipelines or wrestling with unpredictable third-party tools. Trusted by thousands of customers every single day , BigQuery Data Transfer Service (DTS) eliminates this engineering burden. As a fully managed, zero-code data movement solution, BigQuery DTS automates data ingestion into BigQuery allowing your teams to transition from pipeline maintenance to strategic data science in minutes. Expanding the ecosystem: New connectors and capabilities We are rapidly expanding our integration landscape to eliminate data silos across databases, ads and marketing platforms. Here are the latest additions and enhancements Open Lakehouse ingestion Direct ingestion into Apache Iceberg managed tables (Preview) : You can now ingest data from common sources such as Google Cloud Storage, Amazon S3, a
+
+### Cluster 35cc18f5fd — score 8
+
+- Title: New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-06T18:03:45+00:00
+- Link: https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]
+```
+
+#### Full body
+
+```
+New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes By Ionut Ilascu August 6, 2026 02:03 PM 0 Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. ​The method works against Spectre v2 defenses on AMD and Intel processors that rely on sanitizing or isolating branch predictors, which researchers generically refer to as neutralization-based mitigations. Spectre v2 is also known as Branch Target Injection (BTI) and is a variant of the Spectre class of vulnerabilities. It exploits a processor's indirect branch predictor and causes it to mispredict the target of an indirect branch, leading to speculative execution along an attacker-influenced code path. Modern processors use branch prediction to guess the most likely execution path and speculative execution to run instructions along that predicted path before the branch outcome is known. Spectre v2 allows an attacker to manipulate the CPU's indirect branch predictor so that the processor speculatively executes instructions at an attacker-chosen location, which could expose sensitive data. With neutralization-based mitigations (eIBRS on Intel and Safe RET on AMD), there is a gap between the time the branch predictor is isolated and when it is used by the victim branch. Active Spectre v2 mitigations assume that an attacker cannot use to their advantage the time between cleaning the branch predictor state and using it. However, the researchers introduced a primitive that enables re-poisoning the CPU’s state after the cleaning but before it is used. Daniël Trujillo, a PhD student, and associate professor Mengjia Yan of the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) discovered a technique for exploiting this Time-of-Neutralization to Time-of-Use (TONTOU) window to extract sensitive data. “An attacker without any special access to read arbitrary memory from the system, including sensitive data such as hashed passwords,” Trujillo told BleepingComputer. The researchers developed an Interrupt Injection attack, where “unprivileged user programs can schedule timer interrupts to occur during kernel execution.” “Therefore, we can force the kernel to be redirected to the interrupt handler and use this handler to poison microarchitectural states within the post-neutralization window,” the researchers explain . The researchers found that interrupts occurring during the post-neutralization window can be used to poison the processor's indirect branch predictor, enabling attacks against all types of indirect branches. Mengjia and Trujillo tested the attack starting from the assumption that an attacker can run arbitrary, unprivileged code on a Linux target machine to leak data from the kernel. On an AMD Zen 2 host with the latest Spectre v2 mitigations, the two researchers successfully ran through all the stages of a TONTOU attack: neutralization, redirection, poisoning, and the use of the poisoned branch predictors. Stages of a TONTOU attack Successfully exploiting the issue requires overcoming several obstacles, including redirecting kernel control flow, precisely aligning interrupts with the post-neutralization window, and using the interrupt handler to poison the branch predictor entry associated with the target indirect branch. The researchers address these challenges through installing ‘timers’ to trigger hardware interrupts, frequent injection of interrupts, and via active and passive poisoning methods. The attack was tested on both Intel and AMD processors. On an AMD Zen 2 system running Linux version 6.14.0-37-generic with 16GB of RAM, the researchers showed it could leak arbitrary kernel memory at a rate of 5.47 bytes/s and 91.97% accuracy, including the contents of /etc/shadow, which stores password hashes. ​Across 10 test runs, the attack successfully located and extracted the file in five cases, with each attempt taking an
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes
+  - Published: 2026-08-06T18:03:45+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/
+  - Summary: Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]
 
 ### Cluster 3c8844b86a — score 8
 
@@ -3359,49 +3309,6 @@ SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of 
   - Link: https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street/
   - Summary: Noteworthy stories that might have slipped under the radar: ban on Chinese data center tech, QuickFox VPN supply chain attack, IEH Corporation mailbox breached via phishing. The post In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street appeared first on SecurityWeek .
 
-### Cluster 47f4e5f40a — score 8
-
-- Title: Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-07T10:00:00+00:00
-- Link: https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos, vulnerability_disclosure
-- affected_industries: government, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos, vulnerability_disclosure
-- affected_industries: government, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities. The post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Black Hat — The National Motor Freight Traffic Association (NMFTA) says a 2024 safety recall for Bendix’s EC80 heavy-truck brake controller quietly fixed a set of serious vulnerabilities, including a wirelessly reachable remote code execution flaw, alongside the memory corruption issue Bendix publicly disclosed. The findings were detailed by NMFTA senior cybersecurity research engineer Ben Gardiner on Thursday at the Black Hat USA 2026 conference. The EC80 electronic control unit (ECU) handles anti-lock braking, traction control and stability functions on heavy commercial vehicles. It communicates over J2497, also known as PLC4TRUCKS, a powerline databus that has served since 2001 as the only industry-standard way to meet federal trailer ABS warning-light requirements. SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity In late 2024, three OEMs that integrate the EC80 issued recalls — covering an estimated 450,000 units — after Bendix identified memory corruption issues that could take the ECU offline. Bendix attributed the issue to line noise on J2497 and shipped a fix. Gardiner said he reverse-engineered pre- and post-update firmware from three EC80 units, one from each affected OEM, and found that the update deleted dozens of functions. Advertisement. Scroll to continue reading. Inside that deleted code the researcher identified several vulnerabilities, including buffer-handling flaws that could crash the ECU and enable remote code execution, a hardcoded password that could disable traction control, and a flaw offering a theoretical path to both a crash and code execution. Security implications and potential real-world impact J2497 can be reached remotely — a technique tied to a vulnerability disclosed by NMFTA in 2022 — or through a compromised trailer telematics device. NMFTA researchers tested the potential impact of the new vulnerabilities in a bench environment and, for closed-track road tests, used a software-defined radio to inject signals through a truck’s diagnostic port, simulating a wireless attack. Driving below 5 mph and around 9 mph, they observed that CAN bus traffic stopped entirely once the crash was triggered, and that recovering the ECU always required disconnecting the battery. This denial-of-service (DoS) state consistently caused loss of speedometer, steering assist, and shifting, as well as ABS pulsing. Asked whether those real-world effects could put a driver at risk of a crash or be used to immobilize a truck, for example during a cargo theft operation , NMFTA told SecurityWeek the outcome depends heavily on context. Driver agreements would likely bar operating a truck in the affected state, with NMFTA noting that recovery needs a battery disconnect and, in one case, a dealer tool. However, causing a crash directly isn’t clear-cut because the attacks don’t take away the driver’s control of the vehicle. Nevertheless, NMFTA noted the impacts were serious enough for Bendix to issue a recall. On the other hand, Gardiner noted that none of the vulnerabilities received a CVE identifier despite being fixed, arguing that this may obscure the security significance of what was framed publicly as a safety-only update. NMFTA contacted Bendix and briefed two of the three affected OEMs, along with NHTSA and Transport Canada, before making its findings public. On whether the fix has actually reached affected trucks, NMFTA pointed to NHTSA’s public recall-completion tracker , which on July 16 showed recall completion rates ranging between 0 and 99% for identifiers associated with this recall. NMFTA believes that recall completion rates commonly plateau around 80% industry-wide due to factors like lost equipment and underreporting. After the Black Hat talk, NMFTA published a 179-page technical whitepaper detailing the findings. Bendix has not responded to SecurityWeek’s request for comment. Related : How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones Related
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix
-  - Published: 2026-08-07T10:00:00+00:00
-  - Link: https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/
-  - Summary: NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities. The post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek .
-
 ### Cluster 6bd3afe055 — score 8
 
 - Title: 3.8 Million Impacted by Unlimited Technology Systems Data Breach
@@ -3448,6 +3355,55 @@ Unlimited Technology Systems is notifying over 3.8 million individuals that thei
   - Published: 2026-08-07T07:22:05+00:00
   - Link: https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
   - Summary: Hackers stole personal, medical, and health insurance information from a company’s data center. The post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek .
+
+### Cluster b6d7475cc2 — score 8
+
+- Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-07T10:09:54+00:00
+- Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure, zero_day
+- affected_industries: financial_services, government
+- affected_products: Anthropic/Claude
+- cve_ids: CVE-2026-63078
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure
+- affected_industries: financial_services, government
+- affected_products: Anthropic/Claude
+- cve_ids: CVE-2026-63078
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
+```
+
+#### Full body
+
+```
+AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day  Swati Khandelwal  Aug 07, 2026 Web Security / Vulnerability PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle , generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning was authorized through bug bounty or vulnerability disclosure programs and found roughly 700 vulnerable targets before deeper validation and RQP research. Kettle said those findings involved banks, government infrastructure, security products, and an airport. The research produced new desync triggers, a dual-matching Content-Length pattern, and a "dangling-byte" technique designed to make response queue poisoning (RQP) more reliable. RQP can potentially make a front end lose track of which back-end response belongs to which user, potentially exposing another user's response, including session cookies or API keys. The researchers also disclosed Shared-Parser Confusion, a broader attack concept that the system proposed but Kettle validated. The defense has not changed: PortSwigger recommends avoiding HTTP/1.1 upstream . Where HTTP/1.1 cannot be removed, it recommends allow-listing methods at both layers and restricting which methods may carry request bodies. In the technical write-up , Kettle said he fed HTTP Terminator 138 HTTP and SMTP RFCs. Those RFCs were split into about 15,000 small fragments and used as inspiration to generate 30,000 unique candidate vectors. One Content-Type: multipart/byteranges technique worked across multiple server implementations and exposed more than 200 websites in the test set, including an unnamed U.S. bank. The autonomous research then tested 16 ideas for improving RQP. Only the dangling-byte technique survived evaluation. It leaves a smuggled request one byte short so the second back-end response is not produced until a victim request supplies the missing byte, eliminating a race condition that otherwise makes RQP unreliable on many sites. In the human-guided cascade, a malformed request eventually exposed the desynchronization zero-day in Apache Traffic Server. The researchers said the issue has since been patched and tracked as CVE-2026-63078. An August 7 check by The Hacker News did not find a public record for CVE-2026-63078 in CVE.org or NVD, and Apache's July advisory covering 34 flaws did not list it. That leaves a verification gap around the Apache case: the cited public records do not yet let defenders map CVE-2026-63078 to a specific fixed Traffic Server release. Kettle said Shared-Parser Confusion emerged when HTTP Terminator noticed that response-processing rules could be misapplied to requests when servers reuse parsing logic. The system proposed the concept, but Kettle, director of research at PortSwigger, validated and generalized it. "Neither of us would have discovered it alone," he said. That distinction defines the autonomy boundary in this research: the system generated and proved several techniques without direct human discovery input, while the Apache zero-day and Shared-Parser Confusion still required Kettle's intervention. PortSwigger has open-sourced HTTP Terminator . The paper does not identify which exact model or version generated each autonomous discovery. The released implementation uses Claude for document extraction and test-case generation, while its investigator stage requires Claude Code . Separately, researchers behind CRLF-powered desync attacks released public tools for studying that attack class, including crlf-desyncs and crlf-powered-desync-scanner . Kettle separately tested newer models on a rediscovery benchmark and reported a 30% success rate for GPT-5.6 Sol when given an inspiration technique. Found this article int
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
+  - Published: 2026-08-07T10:09:54+00:00
+  - Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+  - Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
 
 ### Cluster 3569b34b72 — score 8
 
@@ -3650,20 +3606,24 @@ Infosecurity Magazine Home » News » UK’s Police National Legal Database Reve
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-08-06T17:58:30+00:00
 - Link: https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: CVE-2026-64561, Linux kernel
 
 #### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
 - affected_products: Linux kernel
 - cve_ids: CVE-2026-64561
+- urgency_signals: actively_exploited
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
+- threat_categories: active_exploitation
 - affected_products: Linux kernel
 - cve_ids: CVE-2026-64561
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3671,6 +3631,12 @@ Infosecurity Magazine Home » News » UK’s Police National Legal Database Reve
 
 ```
 Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86's shadow memory management unit (MMU), which manages shadow page
+```
+
+#### Full body
+
+```
+New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts  Swati Khandelwal  Aug 06, 2026 Virtualization Security / Linux Zapscape , a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86's shadow memory management unit (MMU), which manages shadow page tables used for nested guest memory translation. Security researcher Hyunwoo Kim, who disclosed the bug, said the demonstrated exploit path can run commands on the host with kernel, or root, privileges. The upstream fix has been merged, and administrators running KVM hosts that expose nested virtualization to untrusted guests should update to a fixed stable kernel or a vendor package that backports the patch. The required L1 kernel privilege usually means guest root. Intel systems also require both EPT page-walk length 4 and 5 to be exposed to the L1 guest. AMD has no equivalent condition. Zapscape is a stale-root check ordering flaw in KVM's shadow-MMU bookkeeping that can lead to a use-after-free. During guest-triggered page fault handling, KVM can reclaim MMU pages and invalidate the shadow MMU root page still being used by the fault-handling path. Because the path does not check the root again, KVM can continue under the invalidated root. In a technical write-up , Kim described the issue as a use-after-free in the recursive zap path used when KVM reclaims shadow pages. KVM checked whether the current root was stale before making more MMU pages available. Reclaim could then invalidate that same root, but KVM continued the fault path and created child shadow pages under it. Those child pages inherited the invalid state from the parent and were still placed on KVM's active MMU page list. Later cleanup could attach the same list link to two lists at once, then free the page while stale list references remain, creating a dangling link and post-free write. Kim's public proof-of-concept uses that primitive to build a full chain that creates a root-owned file named /Zapscape on the host running the vulnerable KVM. The proof-of-concept targets AMD nested SVM/NPT on Linux 7.1.3. Kim recommends running it under QEMU TCG for safe testing. QEMU is not the vulnerable component. Kim said the bug lives in in-kernel KVM and is triggered independently of QEMU's emulation. Kim's August 6 write-up includes a public proof-of-concept, but it does not claim the flaw has been exploited in the wild. Kim also described it as "not a weaponized exploit that runs immediately" in cloud environments, saying real-world use would require moving the L1 actions into a guest kernel module and adapting the exploit to the host kernel configuration and memory backend. The National Vulnerability Database lists Linux 5.9 and later as affected until fixed stable releases, including 6.6.148, 6.12.101, 6.18.42, 7.1.6, and 7.2-rc5. Red Hat assigned a preliminary CVSS score of 7.0 in its advisory and classified the issue as CWE-825, or expired pointer dereference. Package status depends on each Linux vendor's tracker, not only upstream version strings. Red Hat cautions that its packages often carry backported fixes without rebasing to a new upstream version. As of August 6, 2026, Debian's tracker listed bullseye, bookworm, and trixie kernel packages, including their security repositories, as vulnerable. It also listed forky as vulnerable and sid as fixed at 7.1.6-1. According to the disclosure timeline, Kim reported the issue to security@kernel.org on July 11, 2026. A patch was posted and merged on July 21, the issue was submitted to the linux-distros list on August 1 under a five-day embargo, and CVE-2026-64561 was assigned on August 4. Public disclosure followed on August 6. The fix, merged as commit 2abd5287f083, moves the stale-root check after
 ```
 
 #### Corroborating sources (2)
