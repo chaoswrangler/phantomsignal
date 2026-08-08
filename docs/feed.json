@@ -1,28 +1,14 @@
 {
-  "generated_at": "2026-08-08T14:38:13.543205+00:00",
+  "generated_at": "2026-08-08T15:36:13.792677+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2168,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 6
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -31,6 +17,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
+    },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 6
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -46,15 +46,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -67,19 +74,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -88,19 +88,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -109,11 +102,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Horizon3 Attack Research": {
@@ -123,12 +116,19 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -137,6 +137,13 @@
       "item_count": 40,
       "in_window_count": 3
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
@@ -144,25 +151,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -185,13 +185,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -221,6 +214,13 @@
       "item_count": 20,
       "in_window_count": 6
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -228,11 +228,11 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Orca Security Research": {
@@ -242,6 +242,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -249,12 +256,12 @@
       "item_count": 20,
       "in_window_count": 8
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 5
+      "in_window_count": 1
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -270,6 +277,13 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -284,26 +298,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -312,13 +312,6 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -326,12 +319,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -354,26 +361,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -396,19 +396,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -417,26 +417,12 @@
       "item_count": 50,
       "in_window_count": 20
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 28
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -451,6 +437,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 8
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -480,15 +480,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -508,19 +508,19 @@
       "item_count": 50,
       "in_window_count": 50
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 25
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 25
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -529,18 +529,18 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -681,62 +681,6 @@
   },
   "affinity_groups": [
     {
-      "label": "Microsoft SharePoint active exploitation",
-      "anchor_signal": "Microsoft SharePoint",
-      "theme_key": "microsoft-sharepoint",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation",
-          "ransomware_extortion",
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Microsoft SharePoint",
-          "AWS"
-        ],
-        "cve_ids": [
-          "CVE-2026-50522"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth",
-          "poc_available"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 10,
-      "cohesion": 0.221,
-      "shared_strong_signals": [
-        "Microsoft SharePoint"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "9a320ea4d0",
-        "c97f90a69b",
-        "ad2bf1153f",
-        "d8c893e316",
-        "64fc7bd463"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-        "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-        "https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix",
-        "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/",
-        "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1vitsal/atlassian_rovo_can_be_tricked_into_sending_jira/",
-        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
-        "https://risky.biz/RBNEWSSI138/",
-        "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-        "https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/"
-      ]
-    },
-    {
       "label": "Palo Alto Networks active exploitation",
       "anchor_signal": "Palo Alto Networks",
       "theme_key": "palo-alto-networks",
@@ -805,8 +749,8 @@
       ],
       "links": [
         "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
-        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
         "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
         "https://isc.sans.edu/diary/rss/33218",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://securelist.com/cloud-platforms-in-phishing/120832/",
@@ -826,6 +770,56 @@
         "https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/",
         "https://unit42.paloaltonetworks.com/ai-token-jacking/",
         "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/"
+      ]
+    },
+    {
+      "label": "Microsoft SharePoint active exploitation",
+      "anchor_signal": "Microsoft SharePoint",
+      "theme_key": "microsoft-sharepoint",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Microsoft SharePoint"
+        ],
+        "cve_ids": [
+          "CVE-2026-50522"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 9,
+      "cohesion": 0.212,
+      "shared_strong_signals": [
+        "Microsoft SharePoint"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "c97f90a69b",
+        "ad2bf1153f",
+        "d8c893e316",
+        "64fc7bd463"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+        "https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix",
+        "https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/",
+        "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+        "https://www.reddit.com/r/cybersecurity/comments/1vitsal/atlassian_rovo_can_be_tricked_into_sending_jira/",
+        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
+        "https://risky.biz/RBNEWSSI138/",
+        "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+        "https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/"
       ]
     },
     {
@@ -944,41 +938,6 @@
       ]
     },
     {
-      "label": "AWS vulnerability activity",
-      "anchor_signal": "AWS",
-      "theme_key": "aws",
-      "dominant_features": {
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "AWS",
-          "Microsoft SharePoint"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 7,
-      "cohesion": 0.204,
-      "shared_strong_signals": [
-        "AWS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "9a320ea4d0",
-        "d8c893e316",
-        "1e4f97d7fa"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
-        "https://risky.biz/RBNEWSSI138/",
-        "https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/",
-        "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1vi4407/handson_cloud_security_experience/"
-      ]
-    },
-    {
       "label": "CVE-2026-63077 exploitation activity",
       "anchor_signal": "CVE-2026-63077",
       "theme_key": "cve-2026-63077",
@@ -1080,6 +1039,38 @@
       ]
     },
     {
+      "label": "AWS vulnerability activity",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
+      "dominant_features": {
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "AWS"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 6,
+      "cohesion": 0.211,
+      "shared_strong_signals": [
+        "AWS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "d8c893e316",
+        "1e4f97d7fa"
+      ],
+      "links": [
+        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
+        "https://risky.biz/RBNEWSSI138/",
+        "https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/",
+        "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+        "https://www.reddit.com/r/cybersecurity/comments/1vi4407/handson_cloud_security_experience/"
+      ]
+    },
+    {
       "label": "Salesforce vulnerability activity",
       "anchor_signal": "Salesforce",
       "theme_key": "salesforce",
@@ -1138,14 +1129,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2026-3502",
-          "cluster_id": "229f6cf243",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-08-08T14:16:23+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -1240,21 +1224,6 @@
         "first_observation": true
       },
       {
-        "cluster_id": "9a320ea4d0",
-        "pair": "CVE-2023-38646 + AWS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "9a320ea4d0",
-        "pair": "CVE-2023-38646 + Microsoft SharePoint",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "9a320ea4d0",
-        "pair": "CVE-2023-38646 + OpenAI/ChatGPT",
-        "first_observation": true
-      },
-      {
         "cluster_id": "c97f90a69b",
         "pair": "CVE-2026-50522 + GitLab",
         "first_observation": true
@@ -1262,6 +1231,21 @@
       {
         "cluster_id": "c97f90a69b",
         "pair": "CVE-2026-8037 + GitHub",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c97f90a69b",
+        "pair": "CVE-2026-8037 + GitLab",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c97f90a69b",
+        "pair": "CVE-2026-8037 + Microsoft SharePoint",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "d8c893e316",
+        "pair": "UNC6240 + AWS",
         "first_observation": true
       }
     ],
@@ -1381,7 +1365,7 @@
       {
         "axis": "cve_ids",
         "value": "CVE-2026-50522",
-        "cluster_id": "9a320ea4d0",
+        "cluster_id": "c97f90a69b",
         "weeks_observed": 4
       },
       {
@@ -1685,42 +1669,28 @@
       "taxonomy": {
         "threat_categories": [
           "zero_day",
-          "data_breach",
           "active_exploitation"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Microsoft SharePoint",
-          "OpenAI/ChatGPT",
-          "AWS"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2023-38646",
-          "CVE-2026-50522"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
           "actively_exploited",
           "zero_day",
-          "preauth_unauth",
-          "poc_available"
+          "preauth_unauth"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Microsoft SharePoint": "target",
-          "OpenAI/ChatGPT": "target",
-          "AWS": "target",
-          "Azure": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
       "score": 21,
-      "full_body": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication  Ravie Lakshmanan  Aug 08, 2026 Zero-Day / Vulnerability Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain administrator access to the instance. Armed with the elevated access, the attacker can change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data. \"We recently identified that Metabase Cloud was attacked by someone utilizing an unknown ('0-day') security vulnerability in versions 1.58 and above,\" Metabase said in an advisory. Metabase Cloud instances have already been updated to the latest version. Users running self-hosted versions are advised to apply security patches released by Metabase with immediate effect. The following versions are affected - >= x.58.0, < x.58.23 (Fixed in x.58.24) >= x.59.0, < x.59.20 (Fixed in x.59.21) >= x.60.0, < x.60.16 (Fixed in x.60.17) >= x.61.0, < x.61.10 (Fixed in x.61.11) >= x.62.0, < x.62.8 (Fixed in x.62.9) >= x.63.0, < x.63.3 (Fixed in x.63.5) As a temporary workaround until the fixes can be applied, it's advised to block the \"/api/session/reset_password\" endpoint. Once the update is complete, customers who have their \"/api/session/reset_password\" endpoint publicly accessible are advised to perform the following steps - Revoke all active user sessions by accessing the Metabase Application Database and deleting all rows in the core_session table Review API keys and delete any unrecognized keys Review administrator accounts for any unexpected changes Rotate credentials for any of the connected databases Review data warehouse logs for any sign of unauthorized access Review Metabase activity and query history for unexpected or unauthorized activity Metabase has not shared any specifics about the malicious activity, but shared the following indicators of compromise (IoCs) - A call to \"POST /api/session/reset_password\" with a 400 status code This is followed by a call to \"GET /api/user/current\" with a 200 status code \"If you find that pattern in your application logs or in your Metabase server ingress logs, it is likely that your instance has been compromised,\" Metabase CEO Sameer Al-Sakran said. One of the companies that has been affected is Framework. According to Engadget, the PC maker alerted all its customers that customer names, login IPs, addresses, phone numbers, and emails were accessed during the hack. It noted that no order or payment information was accessed. Exactly three years ago, Metabase moved to address another \"extremely severe\" flaw ( CVE-2023-38646 , CVSS score: 9.8) that could have resulted in pre-authenticated remote code execution on affected installations. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Cyber Attack , data breach , data security , database security , enterprise security , Software Security , Vulnerability , Web Security , Zero-Day ⚡ Top Stories This Week New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark Adob",
+      "full_body": "",
       "fetch_status": "ok"
     },
     {
@@ -1962,36 +1932,6 @@
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "State of CPS Security: Data Center Exposures",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vic3ka/state_of_cps_security_data_center_exposures/",
-      "published": "2026-08-07T20:38:19+00:00",
-      "summary": "Team82 analyzed 750,000+ data center CPS assets and core infrastructure and found a significant gap between perceived isolation and actual exposure. A few findings that stood out: • 18% (32,000+) of 174,000+ data center infrastructure assets are just one hop away from a system making risky outbound connections to the public internet. • Power distribution and HVAC/cooling are particularly exposed, with 41% and 32% of assets, respectively, one hop from risky internet connections. • 88% of BMS platforms communicate over insecure protocols, while 40% run outdated firmware. • More than 80% of OT control systems, power monitoring, and IoT systems rely on legacy protocols such as BACnet and Modbus. • 23% of IoT devices contain known exploited vulnerabilities (KEVs). The interesting part isn't simply that these systems have vulnerabilities. It's the attack path. An attacker doesn't necessarily need direct internet access to a PLC, UPS, BMS, or other CPS asset. A foothold in IT, a third-party r",
-      "author": "/u/clarotyofficial",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -2580,7 +2520,7 @@
           "products": []
         }
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "Rapid7",
@@ -12213,6 +12153,35 @@
       }
     },
     {
+      "source": "Intel 471",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "category": "ransomware_ecrime_financial_crime",
+      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+      "published": "2026-07-28T11:00:00+00:00",
+      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -12236,35 +12205,6 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Intel 471",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "category": "ransomware_ecrime_financial_crime",
-      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-      "published": "2026-07-28T11:00:00+00:00",
-      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -22094,6 +22034,33 @@
       }
     },
     {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
+      "published": "2026-06-29T14:00:00+00:00",
+      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -22119,33 +22086,6 @@
         "role_map": {
           "Microsoft 365": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
-      "published": "2026-06-29T14:00:00+00:00",
-      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -22662,35 +22602,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
-      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
-      "published": "2026-06-25T14:00:00+00:00",
-      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -22716,6 +22627,35 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
+      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
+      "published": "2026-06-25T14:00:00+00:00",
+      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -24919,37 +24859,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed",
-      "link": "https://www.huntress.com/blog/terminal-server-phishing-stager-exposed",
-      "published": "2026-06-15T14:00:00+00:00",
-      "summary": "A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -24974,6 +24883,37 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed",
+      "link": "https://www.huntress.com/blog/terminal-server-phishing-stager-exposed",
+      "published": "2026-06-15T14:00:00+00:00",
+      "summary": "A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -26814,33 +26754,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Why Huntress Doesn’t Need FedRAMP",
-      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
-      "published": "2026-06-05T14:00:00+00:00",
-      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -26871,6 +26784,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Why Huntress Doesn’t Need FedRAMP",
+      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
+      "published": "2026-06-05T14:00:00+00:00",
+      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
