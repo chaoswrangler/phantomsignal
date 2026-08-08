@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-08-08T07:03:01.673896+00:00",
+  "generated_at": "2026-08-08T07:54:19.739940+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2168,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -18,8 +11,8 @@
       "item_count": 15,
       "in_window_count": 6
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -39,12 +32,33 @@
       "item_count": 25,
       "in_window_count": 0
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -60,20 +74,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -88,11 +88,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 2
     },
     "Cisco Talos": {
@@ -109,6 +109,13 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -116,12 +123,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 4
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -137,6 +144,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 3
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -151,25 +165,11 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 3
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Black Hills Information Security": {
@@ -179,15 +179,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -200,12 +207,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 6
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -214,26 +221,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -242,12 +235,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -263,16 +270,16 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
@@ -284,13 +291,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -298,12 +298,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -312,12 +312,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 20
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -333,19 +347,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -354,26 +368,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -396,20 +396,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
@@ -424,12 +410,19 @@
       "item_count": 30,
       "in_window_count": 27
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 8
+      "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -438,12 +431,19 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 8
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -459,15 +459,36 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 25
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -480,26 +501,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -508,33 +522,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 25
-    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 17
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -556,6 +549,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -705,7 +705,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 43,
+      "article_count": 42,
       "cohesion": 0.249,
       "shared_strong_signals": [
         "npm"
@@ -784,8 +784,8 @@
       "cluster_ids": [
         "292d4f04d7",
         "17b64457e7",
-        "6bd3afe055",
-        "38f40f9f14"
+        "38f40f9f14",
+        "6bd3afe055"
       ],
       "links": [
         "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
@@ -796,8 +796,8 @@
         "https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/",
         "https://trustedsec.com/blog/the-art-of-hunting-azure-cloud-secrets",
         "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-        "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
-        "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/"
+        "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
+        "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/"
       ]
     },
     {
@@ -817,7 +817,7 @@
       },
       "cluster_count": 4,
       "article_count": 4,
-      "cohesion": 0.227,
+      "cohesion": 0.229,
       "shared_strong_signals": [
         "Palo Alto Networks"
       ],
@@ -834,44 +834,6 @@
         "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
         "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
         "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
-      ]
-    },
-    {
-      "label": "CVE-2026-18577 exploitation activity",
-      "anchor_signal": "CVE-2026-18577",
-      "theme_key": "cve-2026-18577",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-18556",
-          "CVE-2026-18577"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 6,
-      "cohesion": 0.348,
-      "shared_strong_signals": [
-        "CVE-2026-18577"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "65ab16fa91",
-        "e9b42737b7"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
-        "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-        "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
-        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
-        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
       ]
     },
     {
@@ -892,7 +854,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 6,
+      "article_count": 5,
       "cohesion": 0.348,
       "shared_strong_signals": [
         "CVE-2026-18556"
@@ -906,10 +868,125 @@
       "links": [
         "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
-        "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
         "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
         "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
         "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+      ]
+    },
+    {
+      "label": "CVE-2026-18577 exploitation activity",
+      "anchor_signal": "CVE-2026-18577",
+      "theme_key": "cve-2026-18577",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-18556",
+          "CVE-2026-18577"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 5,
+      "cohesion": 0.348,
+      "shared_strong_signals": [
+        "CVE-2026-18577"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "65ab16fa91",
+        "e9b42737b7"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
+        "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
+        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+      ]
+    },
+    {
+      "label": "Microsoft SharePoint active exploitation",
+      "anchor_signal": "Microsoft SharePoint",
+      "theme_key": "microsoft-sharepoint",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation",
+          "phishing_social_eng"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Microsoft SharePoint",
+          "AWS"
+        ],
+        "cve_ids": [
+          "CVE-2026-50522"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "poc_available"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.217,
+      "shared_strong_signals": [
+        "Microsoft SharePoint"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "9a320ea4d0",
+        "c97f90a69b",
+        "d8c893e316"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+        "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
+        "https://risky.biz/RBNEWSSI138/"
+      ]
+    },
+    {
+      "label": "AWS vulnerability activity",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
+      "dominant_features": {
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "AWS",
+          "Microsoft SharePoint"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 6,
+      "cohesion": 0.204,
+      "shared_strong_signals": [
+        "AWS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "9a320ea4d0",
+        "d8c893e316",
+        "1e4f97d7fa"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
+        "https://risky.biz/RBNEWSSI138/",
+        "https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/",
+        "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html"
       ]
     },
     {
@@ -1014,37 +1091,6 @@
       ]
     },
     {
-      "label": "AWS vulnerability activity",
-      "anchor_signal": "AWS",
-      "theme_key": "aws",
-      "dominant_features": {
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "AWS"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.211,
-      "shared_strong_signals": [
-        "AWS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "d8c893e316",
-        "1e4f97d7fa"
-      ],
-      "links": [
-        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
-        "https://risky.biz/RBNEWSSI138/",
-        "https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/",
-        "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html"
-      ]
-    },
-    {
       "label": "Salesforce vulnerability activity",
       "anchor_signal": "Salesforce",
       "theme_key": "salesforce",
@@ -1099,37 +1145,18 @@
         "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
         "https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/"
       ]
-    },
-    {
-      "label": "Cisco vulnerability activity",
-      "anchor_signal": "Cisco",
-      "theme_key": "cisco",
-      "dominant_features": {
-        "affected_products": [
-          "Cisco"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Cisco"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "1c833c15fa",
-        "582de97f0f"
-      ],
-      "links": [
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
-        "https://www.sophos.com/en-us/blog/2608-volatility-interlock"
-      ]
     }
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2023-38646",
+          "cluster_id": "9a320ea4d0",
+          "first_source": "The Hacker News",
+          "first_published": "2026-08-08T06:58:31+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -1173,22 +1200,12 @@
       },
       {
         "cluster_id": "e9b42737b7",
-        "pair": "CVE-2026-18556 + GitHub",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "e9b42737b7",
         "pair": "CVE-2026-18556 + Palo Alto Networks",
         "first_observation": true
       },
       {
         "cluster_id": "e9b42737b7",
         "pair": "CVE-2026-18577 + Citrix",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "e9b42737b7",
-        "pair": "CVE-2026-18577 + GitHub",
         "first_observation": true
       },
       {
@@ -1213,11 +1230,6 @@
       },
       {
         "cluster_id": "e9b42737b7",
-        "pair": "CVE-2026-34486 + GitHub",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "e9b42737b7",
         "pair": "CVE-2026-34486 + Palo Alto Networks",
         "first_observation": true
       },
@@ -1228,17 +1240,32 @@
       },
       {
         "cluster_id": "e9b42737b7",
-        "pair": "CVE-2026-9198 + GitHub",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "e9b42737b7",
         "pair": "CVE-2026-9198 + Palo Alto Networks",
         "first_observation": true
       },
       {
-        "cluster_id": "d8c893e316",
-        "pair": "UNC6240 + AWS",
+        "cluster_id": "9a320ea4d0",
+        "pair": "CVE-2023-38646 + AWS",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "9a320ea4d0",
+        "pair": "CVE-2023-38646 + Microsoft SharePoint",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "9a320ea4d0",
+        "pair": "CVE-2023-38646 + OpenAI/ChatGPT",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c97f90a69b",
+        "pair": "CVE-2026-50522 + GitLab",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c97f90a69b",
+        "pair": "CVE-2026-8037 + GitHub",
         "first_observation": true
       }
     ],
@@ -1357,6 +1384,12 @@
       },
       {
         "axis": "cve_ids",
+        "value": "CVE-2026-50522",
+        "cluster_id": "9a320ea4d0",
+        "weeks_observed": 4
+      },
+      {
+        "axis": "cve_ids",
         "value": "CVE-2026-59726",
         "cluster_id": "fe05850866",
         "weeks_observed": 3
@@ -1374,6 +1407,143 @@
     ]
   },
   "items": [
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "published": "2026-08-08T06:58:31+00:00",
+      "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day",
+          "data_breach",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft SharePoint",
+          "OpenAI/ChatGPT",
+          "AWS"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2023-38646",
+          "CVE-2026-50522"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day",
+          "preauth_unauth",
+          "poc_available"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Microsoft SharePoint": "target",
+          "OpenAI/ChatGPT": "target",
+          "AWS": "target",
+          "Azure": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 21,
+      "full_body": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication  Ravie Lakshmanan  Aug 08, 2026 Zero-Day / Vulnerability Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain administrator access to the instance. Armed with the elevated access, the attacker can change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data. \"We recently identified that Metabase Cloud was attacked by someone utilizing an unknown ('0-day') security vulnerability in versions 1.58 and above,\" Metabase said in an advisory. Metabase Cloud instances have already been updated to the latest version. Users running self-hosted versions are advised to apply security patches released by Metabase with immediate effect. The following versions are affected - >= x.58.0, < x.58.23 (Fixed in x.58.24) >= x.59.0, < x.59.20 (Fixed in x.59.21) >= x.60.0, < x.60.16 (Fixed in x.60.17) >= x.61.0, < x.61.10 (Fixed in x.61.11) >= x.62.0, < x.62.8 (Fixed in x.62.9) >= x.63.0, < x.63.3 (Fixed in x.63.5) As a temporary workaround until the fixes can be applied, it's advised to block the \"/api/session/reset_password\" endpoint. Once the update is complete, customers who have their \"/api/session/reset_password\" endpoint publicly accessible are advised to perform the following steps - Revoke all active user sessions by accessing the Metabase Application Database and deleting all rows in the core_session table Review API keys and delete any unrecognized keys Review administrator accounts for any unexpected changes Rotate credentials for any of the connected databases Review data warehouse logs for any sign of unauthorized access Review Metabase activity and query history for unexpected or unauthorized activity Metabase has not shared any specifics about the malicious activity, but shared the following indicators of compromise (IoCs) - A call to \"POST /api/session/reset_password\" with a 400 status code This is followed by a call to \"GET /api/user/current\" with a 200 status code \"If you find that pattern in your application logs or in your Metabase server ingress logs, it is likely that your instance has been compromised,\" Metabase CEO Sameer Al-Sakran said. One of the companies that has been affected is Framework. According to Engadget, the PC maker alerted all its customers that customer names, login IPs, addresses, phone numbers, and emails were accessed during the hack. It noted that no order or payment information was accessed. Exactly three years ago, Metabase moved to address another \"extremely severe\" flaw ( CVE-2023-38646 , CVSS score: 9.8) that could have resulted in pre-authenticated remote code execution on affected installations. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Cyber Attack , data breach , data security , database security , enterprise security , Software Security , Vulnerability , Web Security , Zero-Day ⚡ Top Stories This Week New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark Adob",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+      "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "published": "2026-08-08T06:57:43+00:00",
+      "summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. \"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said. \"This is not a duplicate of our",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+      "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "published": "2026-08-08T06:52:16+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "ai_security",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitLab",
+          "Microsoft SharePoint",
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-8037",
+          "CVE-2026-50522"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "poc_available"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "GitLab": "target",
+          "Microsoft SharePoint": "target",
+          "GitHub": "target",
+          "OpenAI/ChatGPT": "target",
+          "AWS": "target",
+          "Azure": "target",
+          "cPanel": "target",
+          "Anthropic/Claude": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 17,
+      "full_body": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts  Ravie Lakshmanan  Aug 08, 2026 Vulnerability / Network Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary code execution on susceptible devices. \"Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in multiple command endpoints,\" CISA said . In an analysis published in June 2026, watchTowr Labs described the issue as present in a function named \"escape_quotes()\" within the load balancer application and that it stemmed from improper handling of user-supplied input, ultimately enabling command injection. Successful exploitation of the flaw can allow an unauthenticated attacker to run arbitrary commands on the affected appliance without having to possess valid credentials. The addition comes a little over a month after eSentire said it's seeing active exploitation efforts targeting the flaw, although it noted those efforts were largely unsuccessful. The attacks originated from the following IP addresses, per the Canadian security vendor - 192.42.116[.]58 192.42.116[.]105 146.70.139[.]154 According to telemetry data captured by KEVIntel, a total of 792 exploitation attempts have been observed over the last 41 days from 65 unique IP addresses from 18 countries, including Australia, China, Indonesia, Japan, Poland, and the U.S. The last activity was recorded on August 4, 2026, when five exploitation attempts were detected. In light of active exploitation, Federal Civilian Executive Branch (FCEB) agencies are recommended to apply the necessary patches by August 10, 2026, to secure their networks in accordance with Binding Operational Directive (BOD) 26-04. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Cyber Attack , cybersecurity , enterprise security , Government security , Infrastructure Security , network security , Patch Management , Threat Intelligence , Vulnerability ⚡ Top Stories This Week New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git Fastjs",
+      "fetch_status": "ok"
+    },
     {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
@@ -1576,7 +1746,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2647,7 +2817,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Unlimited Technology Systems is notifying over 3.8 million individuals that their personal information was stolen in a data breach. Based in Montgomery, Ohio, Unlimited provides advanced financial and revenue cycle technology to healthcare providers and organizations. It claims to be working with more than 4,500 oncology offices and over 6,500 specialty providers. The incident, it says, was discovered in October 2025 and involved one of its commercial data centers. The company’s investigation determined that hackers stole certain data from its systems between October 5 and October 10, 2025. The stolen data, Unlimited notes in a notification letter to the affected individuals, a copy of which was submitted (PDF) to the Iowa Attorney General’s Office, includes personal, medical, and health insurance information. The hackers stole names, addresses, phone numbers, email addresses, Social Security numbers, medical record numbers, diagnoses, dates of service, insurance policy numbers, claims/benefits information, and scanned documents (such as driver’s licenses and government IDs). “The data involved in the incident does not include full patient medical records, medical imaging, or financial information, such as credit card or bank account information,” Unlimited said. Advertisement. Scroll to continue reading. The company also notes that it is not aware of any attempted or actual misuse of the information compromised in the data breach. In late July, the company notified the US Department of Health and Human Services (HHS) that 3,803,750 people were affected. The HHS added Unlimited to its breach portal on August 6. The company is providing the affected people with two years of free credit monitoring, fraud consultation, and identity theft restoration services. Unlimited has not named the threat actor responsible for the attack, and SecurityWeek has not seen any known extortion or ransomware groups claiming it. Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Related: 150,000 Impacted by Madera Community Hospital Data Breach Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Paperclip Flaw Allowed Admin Access, Code Execution Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability 311,000 Impacted by Brown Health Medical Group-MA Data Breach AI Agents Targeted Real People and Projects During Cybersecurity Tests CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack Latest News In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street Vishing Extortion Group UNC6671 Rebrands After Making Millions Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) Microsoft, Apple Release Fresh Security Updates Critical Vulnerabilities Patched With Chrome 151 Update Snowflake Hacker Pleads Guilty in US Court Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 Augu",
       "fetch_status": "ok"
     },
@@ -6136,7 +6306,6 @@
         ],
         "affected_products": [
           "Citrix",
-          "GitHub",
           "Palo Alto Networks"
         ],
         "tools_used": [],
@@ -6157,7 +6326,6 @@
         "confidence_tier": "tier_4_news",
         "role_map": {
           "Citrix": "target",
-          "GitHub": "target",
           "Palo Alto Networks": "target"
         },
         "weak_tags": {
@@ -6165,7 +6333,7 @@
         }
       },
       "score": 28,
-      "full_body": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited  Ravie Lakshmanan  Aug 05, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments. (Fixed in July 2026 with version 1.10.1) CVE-2026-34486 (CVS score: 7.5) - A missing encryption of sensitive data vulnerability in Apache Tomcat that allows a bypass of EncryptInterceptor, a cluster component that adds pre-shared key encryption to messages sent between cluster nodes. (Fixed in April 2026 with versions 11.0.21, 10.1.54, and 9.0.117) Also added to the KEV catalog is CVE-2026-18556 (CVSS score: 8.2), an authentication bypass vulnerability in N-able N-central. It's worth noting that an incomplete fix for this issue prompted N-able to issue a fresh patch, which is tracked as CVE-2026-18577 (CVSS score: 8.2). While CVE-2026-18577 was placed in the KEV catalog on Monday, the latest development signals that both vulnerabilities are being exploited by threat actors. There are currently no details on how the Langflow flaw is being exploited. However, security defects in the open-source artificial intelligence (AI) application development platform have been repeatedly weaponized by bad actors in recent months. The exploitation of CVE-2026-34486, on the other hand, has been attributed to an AI-enabled autonomous hacking campaign orchestrated by a Chinese-speaking threat actor operating under the aliases knaithe and KnYuan. The threat actor, based in Zhuhai, China, is said to have leveraged DeepSeek, via the Hermes Agent framework, as an offensive operator to target internet-exposed devices. When initial attempts to exploit a Langflow flaw (CVE-2026-33017, CVSS 9.8) breach failed due to the target environment's restrictive configurations, the AI agent is said to have conducted autonomous research to identify other higher-value vulnerabilities, including flaws in n8n, to find a way in. Separately, the Chinese-speaking adversary has been found conducting manual operations using known vulnerabilities in Citrix NetScaler (CVE-2026-3055), Marimo (CVE-2026-39987), Apache Tomcat (CVE-2026-34486), and IKE VPN (CVE-2026-33824) endpoints. \"This actor attempted to exploit over 460 targets, leveraging a mix of autonomous and manual techniques,\" Palo Alto Networks Unit 42 said . \"What's interesting is that the actor appeared to allow DeepSeek to narrow the targeting scope, likely to conserve AI compute.\" \"This autonomous process of target identification, sampling and narrowing of scope is notable because the system executed hundreds of hours of manual targeting analysis in mere minutes, while also managing its own compute resources.\" CVE-2026-34486 has also been weaponized in attacks mounted by a China-nexus threat actor targeting government and commercial infrastructure across more than 100 countries to deliver SNOWLIGHT , a lightweight, C-based Linux dropper and loader . The campaign is assessed to have taken place between late April and early June 2026. The activity was discovered by SOCRadar following an analysis of an exposed adversary-operated staging server containing reconnaissance lists, nine weaponized CVEs, a cracked Chinese version of Cobalt Strike dubbed GoCobaltStrike, tunneling tooling, and other payloads. \"The toolkit comprises a purpose-built reconnaissance pipeline, eleven distinct exploit chains, two tunneling tools, and four C2/RAT/malware families, including a verified SNOWLIGHT instance,\" the cybersecurity company said . \"These components were primarily assembled using public GitHub proof-of-concepts, alongside one pirated commercial C2 produ",
+      "full_body": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited  Ravie Lakshmanan  Aug 05, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments. (Fixed in July 2026 with version 1.10.1) CVE-2026-34486 (CVS score: 7.5) - A missing encryption of sensitive data vulnerability in Apache Tomcat that allows a bypass of EncryptInterceptor, a cluster component that adds pre-shared key encryption to messages sent between cluster nodes. (Fixed in April 2026 with versions 11.0.21, 10.1.54, and 9.0.117) Also added to the KEV catalog is CVE-2026-18556 (CVSS score: 8.2), an authentication bypass vulnerability in N-able N-central. It's worth noting that an incomplete fix for this issue prompted N-able to issue a fresh patch, which is tracked as CVE-2026-18577 (CVSS score: 8.2). While CVE-2026-18577 was placed in the KEV catalog on Monday, the latest development signals that both vulnerabilities are being exploited by threat actors. There are currently no details on how the Langflow flaw is being exploited. However, security defects in the open-source artificial intelligence (AI) application development platform have been repeatedly weaponized by bad actors in recent months. Telemetry data from KEVIntel shows that 650 exploitation attempts against CVE-2026-9198 have been recorded starting July 6, 2026, from 244 unique attacker IP addresses from 41 countries. The exploitation of CVE-2026-34486, on the other hand, has been attributed to an AI-enabled autonomous hacking campaign orchestrated by a Chinese-speaking threat actor operating under the aliases knaithe and KnYuan. The threat actor, based in Zhuhai, China, is said to have leveraged DeepSeek, via the Hermes Agent framework, as an offensive operator to target internet-exposed devices. When initial attempts to exploit a Langflow flaw (CVE-2026-33017, CVSS 9.8) breach failed due to the target environment's restrictive configurations, the AI agent is said to have conducted autonomous research to identify other higher-value vulnerabilities, including flaws in n8n, to find a way in. Separately, the Chinese-speaking adversary has been found conducting manual operations using known vulnerabilities in Citrix NetScaler (CVE-2026-3055), Marimo (CVE-2026-39987), Apache Tomcat (CVE-2026-34486), and IKE VPN (CVE-2026-33824) endpoints. \"This actor attempted to exploit over 460 targets, leveraging a mix of autonomous and manual techniques,\" Palo Alto Networks Unit 42 said . \"What's interesting is that the actor appeared to allow DeepSeek to narrow the targeting scope, likely to conserve AI compute.\" \"This autonomous process of target identification, sampling and narrowing of scope is notable because the system executed hundreds of hours of manual targeting analysis in mere minutes, while also managing its own compute resources.\" CVE-2026-34486 has also been weaponized in attacks mounted by a China-nexus threat actor targeting government and commercial infrastructure across more than 100 countries to deliver SNOWLIGHT , a lightweight, C-based Linux dropper and loader . The campaign is assessed to have taken place between late April and early June 2026. The activity was discovered by SOCRadar following an analysis of an exposed adversary-operated staging server containing reconnaissance lists, nine weaponized CVEs, a cracked Chinese version of Cobalt Strike dubbed GoCobaltStrike, tunneling tooling, and other payloads. \"The toolkit comprises a purpose-built reconnaissance pipeline, eleven distinct exploit chains, two tunneling tools, and four C2/RAT/malware families, including a",
       "fetch_status": "ok"
     },
     {
@@ -7070,41 +7238,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-      "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-      "published": "2026-08-04T07:00:13+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case of incomplete patching for CVE-2026-18556 (CVSS score: 8.2) that allows",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-18577",
-          "CVE-2026-18556"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 15
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -7133,6 +7266,36 @@
         }
       },
       "score": 4
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
+      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
+      "published": "2026-08-04T00:00:00+00:00",
+      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8,
+      "full_body": "4 August 2026 • Ioannis Kakavas Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports 15 min read Generative AI , Internals Large language models (LLMs) made it trivially cheap to generate vulnerability reports. In the first half of 2026 alone, our HackerOne bug bounty program received over 1,390 reports, more than the full-year totals for 2024 and 2025 combined. Every one of them still requires human attention, so we decided to put agents against agents. If AI can generate reports at near-zero cost, AI should triage them at near-zero cost, too. The system we built agrees with human security engineers 85% of the time, validated against 764 known-outcome reports, with triage rules calibrated iteratively against our full corpus of over 3,300. A typical report costs roughly $2 to triage. It runs an eight-stage analysis pipeline, and then a separate adversarial review independently challenges every conclusion. When reproduction is warranted, findings are reproduced in sandboxed Elastic Stack environments on ephemeral virtual machines (VMs) that self-destruct after 30 minutes. A human still makes the final call on every report. HackerOne runs its own AI-assisted triage at submission time, and we use it as a first gate: Only reports that HackerOne's AI marks as send_to_validation reach our pipeline, so we're not paying to re-triage what HackerOne already handles well. The problem: Triage doesn't scale linearly Bug bounty programs have a structural scaling problem. The cost of submitting a report is near zero, but the cost of triaging one is not. A senior security engineer spends 30 to 60 minutes on a typical report: reading the submission, assessing validity against product-specific context, scoring severity, determining if reproduction is feasible, and often spinning up an environment to verify the claim. Multiply that across hundreds of reports per year, and triage becomes a significant operational cost. At Elastic, our bug bounty program on HackerOne has historically received 600 to 850 reports per year. That number is rising sharply: In the first half of 2026, we saw a huge increase in the number of AI generated reports we receive. The majority of analyst time goes toward reports that will ultimately be closed as informative or not applicable. That was already a challenge before LLMs entered the picture. The 2026 spike is the thesis made concrete: AI lowering the cost of report generation to near zero directly shows up in submission volume, while the signal-to-noise ratio drops. We set out to build an AI agent that could handle the mechanical parts of triage, flag the reports that genuinely need human judgment, and reproduce the rest automatically. AI triage architecture: Two VMs, two skills, one orchestrator The system breaks triage into two compute-isolated phases, each running on a separate ephemeral Google Cloud Platform (GCP) VM. This separation was a deliberate architectural choice, for cost (analysis needs a small machine; reproduction needs a larger one) and for security: The analysis VM never runs untrusted code, and the reproduction VM never needs access to the full report corpus or triage history. Phase 1: Analysis runs on an e2-standard-2 VM (2 vCPU, 8GB RAM). Claude processes the report through an eight-stage assessment pipeline, and then a separate adversarial review skill independently challenges the analysis. There are no Docker containers involved, and the system doesn’t execute any code. The VM shuts down after 30 minutes, regardless of state. Phase 2: Reproduction runs on an e2-standard-4 VM (4 vCPU, 16GB RAM) only when the analysis recommends it. This VM provisions an Elastic Stack via Docker Compose, executes researcher-described steps insi",
+      "fetch_status": "ok"
     },
     {
       "source": "Sophos X-Ops",
@@ -7213,36 +7376,6 @@
         }
       },
       "score": 12
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
-      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
-      "published": "2026-08-04T00:00:00+00:00",
-      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "4 August 2026 • Ioannis Kakavas Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports 15 min read Generative AI , Internals Large language models (LLMs) made it trivially cheap to generate vulnerability reports. In the first half of 2026 alone, our HackerOne bug bounty program received over 1,390 reports, more than the full-year totals for 2024 and 2025 combined. Every one of them still requires human attention, so we decided to put agents against agents. If AI can generate reports at near-zero cost, AI should triage them at near-zero cost, too. The system we built agrees with human security engineers 85% of the time, validated against 764 known-outcome reports, with triage rules calibrated iteratively against our full corpus of over 3,300. A typical report costs roughly $2 to triage. It runs an eight-stage analysis pipeline, and then a separate adversarial review independently challenges every conclusion. When reproduction is warranted, findings are reproduced in sandboxed Elastic Stack environments on ephemeral virtual machines (VMs) that self-destruct after 30 minutes. A human still makes the final call on every report. HackerOne runs its own AI-assisted triage at submission time, and we use it as a first gate: Only reports that HackerOne's AI marks as send_to_validation reach our pipeline, so we're not paying to re-triage what HackerOne already handles well. The problem: Triage doesn't scale linearly Bug bounty programs have a structural scaling problem. The cost of submitting a report is near zero, but the cost of triaging one is not. A senior security engineer spends 30 to 60 minutes on a typical report: reading the submission, assessing validity against product-specific context, scoring severity, determining if reproduction is feasible, and often spinning up an environment to verify the claim. Multiply that across hundreds of reports per year, and triage becomes a significant operational cost. At Elastic, our bug bounty program on HackerOne has historically received 600 to 850 reports per year. That number is rising sharply: In the first half of 2026, we saw a huge increase in the number of AI generated reports we receive. The majority of analyst time goes toward reports that will ultimately be closed as informative or not applicable. That was already a challenge before LLMs entered the picture. The 2026 spike is the thesis made concrete: AI lowering the cost of report generation to near zero directly shows up in submission volume, while the signal-to-noise ratio drops. We set out to build an AI agent that could handle the mechanical parts of triage, flag the reports that genuinely need human judgment, and reproduce the rest automatically. AI triage architecture: Two VMs, two skills, one orchestrator The system breaks triage into two compute-isolated phases, each running on a separate ephemeral Google Cloud Platform (GCP) VM. This separation was a deliberate architectural choice, for cost (analysis needs a small machine; reproduction needs a larger one) and for security: The analysis VM never runs untrusted code, and the reproduction VM never needs access to the full report corpus or triage history. Phase 1: Analysis runs on an e2-standard-2 VM (2 vCPU, 8GB RAM). Claude processes the report through an eight-stage assessment pipeline, and then a separate adversarial review skill independently challenges the analysis. There are no Docker containers involved, and the system doesn’t execute any code. The VM shuts down after 30 minutes, regardless of state. Phase 2: Reproduction runs on an e2-standard-4 VM (4 vCPU, 16GB RAM) only when the analysis recommends it. This VM provisions an Elastic Stack via Docker Compose, executes researcher-described steps insi",
-      "fetch_status": "ok"
     },
     {
       "source": "Datadog Security Labs",
@@ -7433,40 +7566,6 @@
       "score": 5
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-      "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
-      "published": "2026-08-03T18:43:53+00:00",
-      "summary": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated, targeted software supply chain attack targeting Chinese-speaking environments. One of the packages in question is \"lib-mtop,\" an unscoped package with the same name as a private Alibaba package",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "npm": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
-    },
-    {
       "source": "Rapid7",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -7529,34 +7628,6 @@
         }
       },
       "score": 9
-    },
-    {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
-      "link": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
-      "published": "2026-08-03T16:24:47+00:00",
-      "summary": "Malware running as an ordinary user on a Windows machine can sign into a victim's passkey-protected accounts without a fingerprint, a PIN, or anything at all appearing on the victim's screen. Unit 42 detailed three attack paths against Chrome's Google Password Manager cloud authenticator, which it calls Pass-ta-key, Silver Pass-ta-key and Golden Pass-ta-key; the strongest targets the master key",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "Embrace the Red",
@@ -12141,35 +12212,6 @@
       }
     },
     {
-      "source": "Intel 471",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "category": "ransomware_ecrime_financial_crime",
-      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-      "published": "2026-07-28T11:00:00+00:00",
-      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -12193,6 +12235,35 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Intel 471",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "category": "ransomware_ecrime_financial_crime",
+      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+      "published": "2026-07-28T11:00:00+00:00",
+      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -12927,13 +12998,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "2607-secai",
-      "link": "https://www.sophos.com/en-us/blog/2607-secai",
+      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
+      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
+      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -12954,13 +13025,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
-      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
+      "title": "2607-secai",
+      "link": "https://www.sophos.com/en-us/blog/2607-secai",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
+      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -19604,6 +19675,33 @@
       }
     },
     {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Threat Isn’t the Frontier Model",
+      "link": "https://www.recordedfuture.com/blog/build-defensive-ai-agents",
+      "published": "2026-07-08T00:00:00+00:00",
+      "summary": "The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -19705,33 +19803,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Threat Isn’t the Frontier Model",
-      "link": "https://www.recordedfuture.com/blog/build-defensive-ai-agents",
-      "published": "2026-07-08T00:00:00+00:00",
-      "summary": "The real AI threat isn't frontier models. It's cheap local models getting easier to run. Here's why CISOs should build defensive agents now, before attackers scale.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -21044,33 +21115,6 @@
       }
     },
     {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build AI Security Agents with Wiz MCP",
-      "link": "https://www.wiz.io/blog/introducing-wiz-mcp",
-      "published": "2026-07-02T11:00:00+00:00",
-      "summary": "Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.",
-      "author": "Hen Perez",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Trail of Bits",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -21096,6 +21140,33 @@
         "role_map": {
           "OpenAI/ChatGPT": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build AI Security Agents with Wiz MCP",
+      "link": "https://www.wiz.io/blog/introducing-wiz-mcp",
+      "published": "2026-07-02T11:00:00+00:00",
+      "summary": "Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.",
+      "author": "Hen Perez",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -21187,6 +21258,33 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
+      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
+      "published": "2026-07-02T00:00:00+00:00",
+      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -21204,33 +21302,6 @@
         "actor_attribution": [
           "TeamPCP"
         ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
-      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
-      "published": "2026-07-02T00:00:00+00:00",
-      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
@@ -26717,33 +26788,6 @@
       }
     },
     {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] OpenEMR 7.0.2 - Arbitrary File Read",
-      "link": "https://www.exploit-db.com/exploits/52610",
-      "published": "2026-06-08T00:00:00+00:00",
-      "summary": "OpenEMR 7.0.2 - Arbitrary File Read",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Recorded Future",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -26764,6 +26808,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Exploit-DB",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "[webapps] OpenEMR 7.0.2 - Arbitrary File Read",
+      "link": "https://www.exploit-db.com/exploits/52610",
+      "published": "2026-06-08T00:00:00+00:00",
+      "summary": "OpenEMR 7.0.2 - Arbitrary File Read",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -26864,6 +26935,33 @@
       }
     },
     {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+      "published": "2026-06-05T00:00:00+00:00",
+      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -26891,33 +26989,6 @@
         "role_map": {
           "WordPress": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-      "published": "2026-06-05T00:00:00+00:00",
-      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
