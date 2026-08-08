@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-08-08T05:04:27.922868+00:00",
+  "generated_at": "2026-08-08T05:51:38.693561+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2193,
+  "total_items": 2168,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -18,18 +11,11 @@
       "item_count": 15,
       "in_window_count": 6
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -39,6 +25,13 @@
       "item_count": 25,
       "in_window_count": 0
     },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -46,11 +39,11 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
@@ -60,11 +53,25 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 2
     },
     "NCSC UK": {
@@ -74,20 +81,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -95,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -109,12 +102,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -123,32 +116,32 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 4
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
+      "in_window_count": 5
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -164,6 +157,13 @@
       "status": "ok",
       "item_count": 40,
       "in_window_count": 3
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -186,15 +186,15 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -221,19 +221,19 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -242,19 +242,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -270,12 +270,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -284,12 +284,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -326,19 +326,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -347,13 +354,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -361,12 +361,12 @@
       "item_count": 20,
       "in_window_count": 20
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 5,
+      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -382,12 +382,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 10
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -396,12 +396,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 20
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -410,12 +410,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 20
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -423,6 +423,13 @@
       "status": "ok",
       "item_count": 30,
       "in_window_count": 27
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -438,20 +445,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -459,29 +452,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -494,6 +480,27 @@
       "item_count": 20,
       "in_window_count": 4
     },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -501,12 +508,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -535,13 +542,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 11
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -837,44 +837,6 @@
       ]
     },
     {
-      "label": "CVE-2026-18556 exploitation activity",
-      "anchor_signal": "CVE-2026-18556",
-      "theme_key": "cve-2026-18556",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-18556",
-          "CVE-2026-18577"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 6,
-      "cohesion": 0.348,
-      "shared_strong_signals": [
-        "CVE-2026-18556"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "65ab16fa91",
-        "e9b42737b7"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
-        "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-        "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
-        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
-        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
-      ]
-    },
-    {
       "label": "CVE-2026-18577 exploitation activity",
       "anchor_signal": "CVE-2026-18577",
       "theme_key": "cve-2026-18577",
@@ -896,6 +858,44 @@
       "cohesion": 0.348,
       "shared_strong_signals": [
         "CVE-2026-18577"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "65ab16fa91",
+        "e9b42737b7"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
+        "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+        "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
+        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+      ]
+    },
+    {
+      "label": "CVE-2026-18556 exploitation activity",
+      "anchor_signal": "CVE-2026-18556",
+      "theme_key": "cve-2026-18556",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-18556",
+          "CVE-2026-18577"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 6,
+      "cohesion": 0.348,
+      "shared_strong_signals": [
+        "CVE-2026-18556"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1707,7 +1707,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Google Cloud Security",
@@ -2771,35 +2771,7 @@
           "products": []
         }
       },
-      "score": 5
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "How to Read Logs as a Beginner, what I did when I had No SOC Experience",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vhq1gc/how_to_read_logs_as_a_beginner_what_i_did_when_i/",
-      "published": "2026-08-07T04:00:12+00:00",
-      "summary": "I still remember the first time I opened a sysmon log file or a wireshark pcap file and it was scary, too many lines flying by, weird timestamps, error codes. And I thought that this isnt for me yet. And now when I look back, I know logs aren't magic, they're just a system talking about what it's doing. Once you stop trying to decode them and start listening to them, this gets a lot easier. And I don't want you to feel the same way, hence writing this long post, tried to make it as simple and non-technical as I could. What a log actually is Think of it as a system's diary. Every action, success or failure, gets written down in order, answering three things: what happened, when, and who or what was involved. The structure that makes logs readable Most log lines follow a predictable pattern once you know what to look for: Timestamp — when it happened Severity — INFO, WARN, ERROR, CRITICAL Source — which component is speaking Message — what actually happened INFO is normal chatter. WARN i",
-      "author": "/u/makeiteasy_24",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
+      "score": 4
     },
     {
       "source": "Help Net Security",
@@ -6500,34 +6472,6 @@
       "score": 4
     },
     {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Notes I wish someone had handed me when I started in security",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vfef9c/notes_i_wish_someone_had_handed_me_when_i_started/",
-      "published": "2026-08-04T15:58:29+00:00",
-      "summary": "When I started learning cybersecurity, my notes were everywhere. Random Google Docs. Half-finished PDFs. Screenshots with no context. Bookmarks I never revisited. Nothing connected. Nothing made sense when I came back to it. So I rebuilt everything as an Obsidian vault — structured as a proper learning path from absolute basics to advanced topics. What's inside right now: Networking fundamentals (OSI, TCP/IP, ports, protocols) Operating systems & Linux basics Security fundamentals (CIA triad, threats, risk) Web application security (OWASP Top 10, common vulns) Cryptography basics (symmetric/asymmetric, hashing, PKI) SOC / Blue Team / Red Team concepts Incident response fundamentals Malware analysis basics Cloud security intro Cheat sheets and command references I actually use The part I didn't expect: Everything is interlinked using Obsidian's graph view. So instead of flat notes, you get a proper knowledge map — click through related concepts as you're learning, and it actually connec",
-      "author": "/u/Efficient-Two-2794",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
-    },
-    {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -8102,34 +8046,6 @@
       "score": 5
     },
     {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Give me your advice",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vdzf3b/give_me_your_advice/",
-      "published": "2026-08-03T01:20:14+00:00",
-      "summary": "Hi everyone, I'm a Computer Science student from Egypt, and I'm working toward a career in cybersecurity. So far, I've completed Cisco's Introduction to Cybersecurity, finished the TryHackMe Pre-Security path, completed a large part of Cisco's Network Basics course, and I'm currently learning Linux (Red Hat Administration). I'm also planning to build home lab projects and share them on LinkedIn and GitHub. My goal is to become a skilled cybersecurity professional and eventually work in SOC, Cloud Security, or Security Engineering. I'd love to hear from people with industry experience: - Am I on the right path? - What would you focus on if you were starting today? - When should I start learning Penetration Testing, and where should I begin? - What projects or skills helped you land your first job? - Any free resources or advice you'd recommend? I'm open to any criticism or suggestions. I genuinely want to learn, improve, and avoid wasting time on the wrong things. Thank you for your tim",
-      "author": "/u/iam_1Batman",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
-    },
-    {
       "source": "Risky Business News",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -8359,33 +8275,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Cybersecurity undergrad feeling lost: Looking for thesis/final project ideas",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vc6lcr/cybersecurity_undergrad_feeling_lost_looking_for/",
-      "published": "2026-07-31T23:17:05+00:00",
-      "summary": "Hi everyone!! I'm a final-year cybersecurity student currently brainstorming for my bachelor's thesis (Final Degree Project), and I could really use some guidance. I know I want to focus on the intersection of Malware Analysis and AI, but I'm absolutely stuck. My professor gave me total freedom to choose a topic. The problem is, without real industry experience, I’m struggling to figure out what is actually useful, realistic, and viable for a 4 month project (especially since I only have a standard laptop and rely on open-source tools/free APIs). So far, I've been looking into a few concepts, such as using LLMs for automatic YARA rule generation, and testing their degradation over time (concept drift). However, I'm worried these might either be too basic, too overdone, or too complex for a junior. For the professionals in the field: What kind of AI integrations, PoCs, or research would you genuinely find interesting from a student? Are there any specific gaps, open-source tools, or dat",
-      "author": "/u/vicky_ppe",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -8712,35 +8601,6 @@
         "role_map": {
           "Anthropic/Claude": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "20-Min Security Interview: Bot Defense & CAPTCHA ($20)",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vbuiof/20min_security_interview_bot_defense_captcha_20/",
-      "published": "2026-07-31T15:42:03+00:00",
-      "summary": "Hello everyone, I'm conducting market research interviews as part of a university-sponsored study on bot defense and CAPTCHA security. Who I'm looking for: Security engineers, Trust & Safety professionals, CISOs, or anyone working on bot mitigation, fraud prevention, or application security, especially if your company has a public-facing login or account-creation surface. What the interview involves: A casual 20–30 minute video call ( Zoom/Gmeet) where I ask about your day-to-day experience with bot-related threats, what tools your team uses, and what pain points exist. No technical demos, no selling anything, purely research. Compensation: $20 Amazon gift card sent to your email after the call. Interested? Fill out this short form and schedule the interview according to your availability: 👉 https://forms.gle/hAP2mRWVuZGLxMfn6 👉 https://calendly.com/rkumar25-gmu/30min Thanks!! submitted by /u/Dangerous_Young6477 [link] [comments]",
-      "author": "/u/Dangerous_Young6477",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -9146,33 +9006,6 @@
       }
     },
     {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "GitHub - b3rito/oopso: An easy-to-use client-side OSINT query builder for discovering exposed file managers across search engines.",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vblg9v/github_b3ritooopso_an_easytouse_clientside_osint/",
-      "published": "2026-07-31T08:55:22+00:00",
-      "summary": "submitted by /u/b3rito [link] [comments]",
-      "author": "/u/b3rito",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -9363,35 +9196,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "[Academic] SOC analyst decision-making: review a series of network security alerts (18+, ~10-15 min, all backgrounds welcome)",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vb8z8k/academic_soc_analyst_decisionmaking_review_a/",
-      "published": "2026-07-30T22:52:12+00:00",
-      "summary": "Hi all, I'm an MSc Cyber Security student at the University of Gloucestershire running a short online study for my dissertation on how people make decisions when reviewing intrusion detection system (IDS) alerts. What you'll do: You'll be shown a series of realistic network security alerts one at a time and asked, for each one, whether you'd confirm, dismiss, or escalate it, plus how confident you are in that call. There's a brief practice round first, and a few short questions at the end. No prior security experience is required; the interface explains everything you need. Details: \\- ⏱️ Takes about 10–15 minutes \\- 💻 Works on desktop or phone (browser only, nothing to install) \\- 🔒 Anonymous - no names collected; you can withdraw at any time \\- ✅ 18+, ethics-approved by the University of Gloucestershire \\- 🎓 Students and working professionals both welcome Link: [ http://dissertation-explainids.uogs.co.uk\\](http://dissertation-explainids.uogs.co.uk) Every response genuinely helps me h",
-      "author": "/u/West_Lifeguard3209",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -10111,33 +9915,6 @@
       }
     },
     {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "GitHub - Jatinkapilaq1/intel-me-research: Talk to your Intel Management Engine directly — zero-dependency Python tool. Finds memory leaks, partition manifest, live MKHI probing. First public HECI Spy.",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1varjtu/github_jatinkapilaq1intelmeresearch_talk_to_your/",
-      "published": "2026-07-30T11:57:46+00:00",
-      "summary": "Every Intel laptop has a management engine—a hidden coprocessor that runs independently of the CPU. It has its own OS (ARC EM), network stack, and encrypted filesystem. Intel's official tools to talk to it are locked behind NDAs. I reverse-engineered the HECI/MKHI protocol from the Windows driver and built a zero-dependency Python script that connects to the ME directly. What I found: - MKHI v3.1 confirmed (first public documentation on CSME 16.x hardware) - 8 internal partitions with versions + encryption status decoded live - GEN.1B leaks a dynamic memory value that changes every run (memory leak) - SPI flash completely blocked on production firmware - The consumer SKU has 0 remote management exposure 22-slide presentation with evidence: https://jatinkapilaq1.github.io/intel-me-research/evidence/PRESENTATION.html submitted by /u/Frequent-Ad-9633 [link] [comments]",
-      "author": "/u/Frequent-Ad-9633",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Kaspersky Securelist",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -10418,37 +10195,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "An open-source Azure Security Posture Auditor",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1vam2ke/an_opensource_azure_security_posture_auditor/",
-      "published": "2026-07-30T06:56:27+00:00",
-      "summary": "Something lightweight that mirrors what Defender for Cloud checks, without needing to pay for it. It audits your Azure subscription from the CLI and surfaces misconfigurations across: - RBAC (Owner/Contributor assigned too broadly) - Network (RDP/SSH exposed, open NSG rules) - Storage (public blob access, HTTP allowed, weak TLS) - Identity (users without MFA, guest accounts) - Compute (VMs with public IPs, missing endpoint protection) - Encryption (Key Vault exposure, missing soft delete) - Monitoring (Defender for Cloud not enabled, no activity logs) Works with az login or a service principal. Outputs a Rich terminal table + JSON report. GitHub: https://github.com/neelkotnis/azure-security-auditor Happy to answer questions or take feedback. submitted by /u/Ok-Code4306 [link] [comments]",
-      "author": "/u/Ok-Code4306",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "Azure": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -11655,37 +11401,6 @@
       }
     },
     {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Hugging Face details how OpenAI agents breached its production systems",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1v9f5zl/hugging_face_details_how_openai_agents_breached/",
-      "published": "2026-07-28T23:39:37+00:00",
-      "summary": "submitted by /u/ryanmerket [link] [comments]",
-      "author": "/u/ryanmerket",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "OpenAI/ChatGPT": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -11740,33 +11455,6 @@
       }
     },
     {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Best free resources for Android & iOS VAPT?",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1v9azx4/best_free_resources_for_android_ios_vapt/",
-      "published": "2026-07-28T20:58:52+00:00",
-      "summary": "​ Hi everyone, I'm learning Mobile Application VAPT and want to focus on Android first, then iOS. I’m looking for the best free practical resources for: - Android/iOS pentesting - Hands-on labs & vulnerable apps - Frida, MobSF, Objection, JADX, Burp Suite, etc. - Static/dynamic analysis and bypass techniques - YouTube channels or structured courses I already know the basics of Web/API VAPT and Burp Suite. What resources or learning roadmap would you recommend for becoming job-ready in Mobile VAPT? Thanks! submitted by /u/Rohit__07__ [link] [comments]",
-      "author": "/u/Rohit__07__",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -11787,33 +11475,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Going into Networking/Systems - which Master’s is Al-proof? Should I pivot now?",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1v99pnp/going_into_networkingsystems_which_masters_is/",
-      "published": "2026-07-28T20:08:11+00:00",
-      "summary": "Hey everyone, I just finished high school and I'm heading into a Networking & Systems Administration track (associate's degree level), planning to continue into a Bachelor's and then a Master's - but I haven't picked a specialization yet. What's worrying me is Al. I keep seeing conflicting takes: some say infrastructure/networking is safe because it's hands-on physical work, others say even sysadmin work is getting automated fast. My questions: • Coming from a Networking/Systems background, which Master's specializations do you think hold up best against Al over the next 10 years? • Are there specific roles in this field you'd actively avoid right now? • Should I just pivot to a different field entirely now, rather than investing 3-5 years into a path that might get hollowed out? Would really appreciate input from people already working in the field who can see the shift happening firsthand. submitted by /u/kemtyou [link] [comments]",
-      "author": "/u/kemtyou",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -11868,33 +11529,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Hey so im new here and I wanted to see if someone could help me, so I'm trying to build a career as a cybersecurity... and well elan advice? I feel lost",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1v98fin/hey_so_im_new_here_and_i_wanted_to_see_if_someone/",
-      "published": "2026-07-28T19:23:12+00:00",
-      "summary": "submitted by /u/Quirky_Database253 [link] [comments]",
-      "author": "/u/Quirky_Database253",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -12133,35 +11767,6 @@
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Does a self-hosted home cyber lab actually help when applying for cybersecurity jobs?",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1v91rf7/does_a_selfhosted_home_cyber_lab_actually_help/",
-      "published": "2026-07-28T15:28:06+00:00",
-      "summary": "Hey everyone, I'm looking for some honest feedback from people already working in cybersecurity. I'm building a home lab on a dedicated tower that I plan to leave running most of the time. Right now I have OpenPLC running in VirtualBox, and my next step is setting up Ignition SCADA and connecting it over Modbus. After that, I want to start adding things like a firewall, network segmentation, logging, SIEM, IDS, vulnerability scanning, and other security tools so I can actually learn by building and securing the environment. My goal isn't just to have a bunch of tools running. I want to create a realistic environment where I can practice, break things, fix them, and document everything on GitHub. My question is: if you were interviewing someone for a junior cybersecurity, SOC, or OT/ICS security role, would a project like this actually stand out? Or would you recommend putting that time into something else? I'd really appreciate any honest opinions, especially from people who have been ",
-      "author": "/u/calecito88",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -13174,33 +12779,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Windows Delegation Attacks: Two Boxes, Three Types, One Pattern That Actually Works",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1v83893/windows_delegation_attacks_two_boxes_three_types/",
-      "published": "2026-07-27T15:13:15+00:00",
-      "summary": "Been grinding HackTheBox Active Directory labs for a while and one thing that always bugged me was delegation being taught like a binary you either have it or you don't. Unconstrained, constrained, RBCD. Nobody explains \"what you actually do when you land on a machine with delegation rights\". So I worked through Geiseric's \"Delegate\" and \"Redelegate\" boxes back-to-back and mapped out how the attack surface changes depending on which type you hit. Two completely different exploitation paths. Same endgame. Once you see the pattern, delegation stops being magic. Most tutorials show the command. They don't show you why the command works or why one box needs a completely different approach than the other. The Two Delegation Types I Exploited Type 1: Unconstrained Delegation (Delegate Box) The machine can request a ticket for *any service as any user*. When someone authenticates to it, their TGT lands in memory. You steal it. Game over. Here's what made it exploitable: User `N.Thompson` had ",
-      "author": "/u/Flipup556",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -33756,35 +33334,6 @@
         "urgency_signals": [],
         "content_type": "intel_roundup",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "I am John Strand and I am teach Pay What You Can classes and free labs... Ask Me Anything.",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1t5dyq3/i_am_john_strand_and_i_am_teach_pay_what_you_can/",
-      "published": "2026-05-06T14:06:21+00:00",
-      "summary": "Hey everyone, John Strand here. I’ve been in cybersecurity for a while now, and I’ve spent a lot of that time trying to help people get started without getting buried under bad advice, overpriced training, and job postings that somehow want 5 years of experience for an entry-level role. So let’s talk about it. Ask me about getting into the field, building real skills, home labs, SOC work, blue team, threat hunting, incident response, certs, college, AI, finding your first job, or anything else you’re trying to figure out. I’m happy to answer beginner questions, career questions, technical questions, or even the “I have no idea where to start” questions. If you’re trying to build a real foundation in security, this is the class I’d point you to. https://www.antisyphontraining.com/product/information-security-core-skills-tm/?utm_source=reddit&utm_medium=community_post We also have released a new game where you can learn about security in a fun Magic The Gathering kind of way. Sign up and",
-      "author": "/u/strandjs",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -60633,33 +60182,6 @@
           "OpenAI/ChatGPT": "target",
           "Anthropic/Claude": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Come join the official /r/netsecstudents discord!",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/o6puon/come_join_the_official_rnetsecstudents_discord/",
-      "published": "2021-06-24T00:38:45+00:00",
-      "summary": "Come join us in the official discord for this subreddit. You can network, ask questions, and communicate with people of various skill levels ranging from students to senior security staff. Link to discord: https://discord.gg/C7ZsqYX submitted by /u/rejuicekeve [link] [comments]",
-      "author": "/u/rejuicekeve",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }

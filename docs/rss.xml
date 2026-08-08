@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 08 Aug 2026 05:04:28 +0000</lastBuildDate>
+<lastBuildDate>Sat, 08 Aug 2026 05:51:38 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -433,15 +433,6 @@
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>How to Read Logs as a Beginner, what I did when I had No SOC Experience</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vhq1gc/how_to_read_logs_as_a_beginner_what_i_did_when_i/</link>
-<description><![CDATA[I still remember the first time I opened a sysmon log file or a wireshark pcap file and it was scary, too many lines flying by, weird timestamps, error codes. And I thought that this isnt for me yet. And now when I look back, I know logs aren&apos;t magic, they&apos;re just a system talking about what it&apos;s doing. Once you stop trying to decode them and start listening to them, this gets a lot easier. And I don&apos;t want you to feel the same way, hence writing this long post, tried to make it as simple and non-technical as I could. What a log actually is Think of it as a system&apos;s diary. Every action, success or failure, gets written down in order, answering three things: what happened, when, and who or what was involved. The structure that makes logs readable Most log lines follow a predictable pattern once you know what to look for: Timestamp — when it happened Severity — INFO, WARN, ERROR, CRITICAL Source — which component is speaking Message — what actually happened INFO is normal chatter. WARN i]]></description>
-<pubDate>Fri, 07 Aug 2026 04:00:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vhq1gc/how_to_read_logs_as_a_beginner_what_i_did_when_i/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Gut feeling does nothing against AI spear phishing texts</title>
@@ -1586,15 +1577,6 @@
 <category>mfa_bypass</category>
 </item>
 <item>
-<title>Notes I wish someone had handed me when I started in security</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vfef9c/notes_i_wish_someone_had_handed_me_when_i_started/</link>
-<description><![CDATA[When I started learning cybersecurity, my notes were everywhere. Random Google Docs. Half-finished PDFs. Screenshots with no context. Bookmarks I never revisited. Nothing connected. Nothing made sense when I came back to it. So I rebuilt everything as an Obsidian vault — structured as a proper learning path from absolute basics to advanced topics. What&apos;s inside right now: Networking fundamentals (OSI, TCP/IP, ports, protocols) Operating systems &amp; Linux basics Security fundamentals (CIA triad, threats, risk) Web application security (OWASP Top 10, common vulns) Cryptography basics (symmetric/asymmetric, hashing, PKI) SOC / Blue Team / Red Team concepts Incident response fundamentals Malware analysis basics Cloud security intro Cheat sheets and command references I actually use The part I didn&apos;t expect: Everything is interlinked using Obsidian&apos;s graph view. So instead of flat notes, you get a proper knowledge map — click through related concepts as you&apos;re learning, and it actually connec]]></description>
-<pubDate>Tue, 04 Aug 2026 15:58:29 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vfef9c/notes_i_wish_someone_had_handed_me_when_i_started/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Hardware Hacking: From zero to a Pre-Auth Stack Buffer Overflow on Amazon&apos;s best-selling router</title>
 <link>https://www.reddit.com/r/netsec/comments/1vfdep6/hardware_hacking_from_zero_to_a_preauth_stack/</link>
 <description><![CDATA[submitted by /u/Internal-Key64 [link] [comments]]]></description>
@@ -2084,15 +2066,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>Give me your advice</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vdzf3b/give_me_your_advice/</link>
-<description><![CDATA[Hi everyone, I&apos;m a Computer Science student from Egypt, and I&apos;m working toward a career in cybersecurity. So far, I&apos;ve completed Cisco&apos;s Introduction to Cybersecurity, finished the TryHackMe Pre-Security path, completed a large part of Cisco&apos;s Network Basics course, and I&apos;m currently learning Linux (Red Hat Administration). I&apos;m also planning to build home lab projects and share them on LinkedIn and GitHub. My goal is to become a skilled cybersecurity professional and eventually work in SOC, Cloud Security, or Security Engineering. I&apos;d love to hear from people with industry experience: - Am I on the right path? - What would you focus on if you were starting today? - When should I start learning Penetration Testing, and where should I begin? - What projects or skills helped you land your first job? - Any free resources or advice you&apos;d recommend? I&apos;m open to any criticism or suggestions. I genuinely want to learn, improve, and avoid wasting time on the wrong things. Thank you for your tim]]></description>
-<pubDate>Mon, 03 Aug 2026 01:20:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vdzf3b/give_me_your_advice/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Sponsored: The intrusion signals hiding in plain sight</title>
 <link>https://risky.biz/RBNEWSSI138/</link>
 <description><![CDATA[In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.<br/><br/><em>Tags: AWS · ShinyHunters · ransomware_extortion</em>]]></description>
@@ -2162,15 +2135,6 @@
 <guid isPermaLink="true">https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Cybersecurity undergrad feeling lost: Looking for thesis/final project ideas</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vc6lcr/cybersecurity_undergrad_feeling_lost_looking_for/</link>
-<description><![CDATA[Hi everyone!! I&apos;m a final-year cybersecurity student currently brainstorming for my bachelor&apos;s thesis (Final Degree Project), and I could really use some guidance. I know I want to focus on the intersection of Malware Analysis and AI, but I&apos;m absolutely stuck. My professor gave me total freedom to choose a topic. The problem is, without real industry experience, I’m struggling to figure out what is actually useful, realistic, and viable for a 4 month project (especially since I only have a standard laptop and rely on open-source tools/free APIs). So far, I&apos;ve been looking into a few concepts, such as using LLMs for automatic YARA rule generation, and testing their degradation over time (concept drift). However, I&apos;m worried these might either be too basic, too overdone, or too complex for a junior. For the professionals in the field: What kind of AI integrations, PoCs, or research would you genuinely find interesting from a student? Are there any specific gaps, open-source tools, or dat]]></description>
-<pubDate>Fri, 31 Jul 2026 23:17:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vc6lcr/cybersecurity_undergrad_feeling_lost_looking_for/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)</title>
@@ -2278,15 +2242,6 @@
 <category>practitioner_analysis</category>
 <category>Anthropic/Claude</category>
 <category>ai_security</category>
-</item>
-<item>
-<title>20-Min Security Interview: Bot Defense &amp; CAPTCHA ($20)</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vbuiof/20min_security_interview_bot_defense_captcha_20/</link>
-<description><![CDATA[Hello everyone, I&apos;m conducting market research interviews as part of a university-sponsored study on bot defense and CAPTCHA security. Who I&apos;m looking for: Security engineers, Trust &amp; Safety professionals, CISOs, or anyone working on bot mitigation, fraud prevention, or application security, especially if your company has a public-facing login or account-creation surface. What the interview involves: A casual 20–30 minute video call ( Zoom/Gmeet) where I ask about your day-to-day experience with bot-related threats, what tools your team uses, and what pain points exist. No technical demos, no selling anything, purely research. Compensation: $20 Amazon gift card sent to your email after the call. Interested? Fill out this short form and schedule the interview according to your availability: 👉 https://forms.gle/hAP2mRWVuZGLxMfn6 👉 https://calendly.com/rkumar25-gmu/30min Thanks!! submitted by /u/Dangerous_Young6477 [link] [comments]]]></description>
-<pubDate>Fri, 31 Jul 2026 15:42:03 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vbuiof/20min_security_interview_bot_defense_captcha_20/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Chinese Hacker Uses DeepSeek AI to Orchestrate Vulnerability Exploits</title>
@@ -2423,15 +2378,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>GitHub - b3rito/oopso: An easy-to-use client-side OSINT query builder for discovering exposed file managers across search engines.</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vblg9v/github_b3ritooopso_an_easytouse_clientside_osint/</link>
-<description><![CDATA[submitted by /u/b3rito [link] [comments]]]></description>
-<pubDate>Fri, 31 Jul 2026 08:55:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vblg9v/github_b3ritooopso_an_easytouse_clientside_osint/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Anthropic Reveals Claude Escaped Testing, Breaching Three Companies</title>
 <link>https://www.infosecurity-magazine.com/news/anthropic-claude-breached-three/</link>
 <description><![CDATA[Anthropic has revealed that Claude AI models compromised third-party organizations<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -2495,15 +2441,6 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/introducing-tactics-see-what-adversaries-do-after-they-are-inside</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>[Academic] SOC analyst decision-making: review a series of network security alerts (18+, ~10-15 min, all backgrounds welcome)</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vb8z8k/academic_soc_analyst_decisionmaking_review_a/</link>
-<description><![CDATA[Hi all, I&apos;m an MSc Cyber Security student at the University of Gloucestershire running a short online study for my dissertation on how people make decisions when reviewing intrusion detection system (IDS) alerts. What you&apos;ll do: You&apos;ll be shown a series of realistic network security alerts one at a time and asked, for each one, whether you&apos;d confirm, dismiss, or escalate it, plus how confident you are in that call. There&apos;s a brief practice round first, and a few short questions at the end. No prior security experience is required; the interface explains everything you need. Details: \- ⏱️ Takes about 10–15 minutes \- 💻 Works on desktop or phone (browser only, nothing to install) \- 🔒 Anonymous - no names collected; you can withdraw at any time \- ✅ 18+, ethics-approved by the University of Gloucestershire \- 🎓 Students and working professionals both welcome Link: [ http://dissertation-explainids.uogs.co.uk\](http://dissertation-explainids.uogs.co.uk) Every response genuinely helps me h]]></description>
-<pubDate>Thu, 30 Jul 2026 22:52:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vb8z8k/academic_soc_analyst_decisionmaking_review_a/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Balancing speed and safety: A control framework for AI coding agents</title>
@@ -2743,15 +2680,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>GitHub - Jatinkapilaq1/intel-me-research: Talk to your Intel Management Engine directly — zero-dependency Python tool. Finds memory leaks, partition manifest, live MKHI probing. First public HECI Spy.</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1varjtu/github_jatinkapilaq1intelmeresearch_talk_to_your/</link>
-<description><![CDATA[Every Intel laptop has a management engine—a hidden coprocessor that runs independently of the CPU. It has its own OS (ARC EM), network stack, and encrypted filesystem. Intel&apos;s official tools to talk to it are locked behind NDAs. I reverse-engineered the HECI/MKHI protocol from the Windows driver and built a zero-dependency Python script that connects to the ME directly. What I found: - MKHI v3.1 confirmed (first public documentation on CSME 16.x hardware) - 8 internal partitions with versions + encryption status decoded live - GEN.1B leaks a dynamic memory value that changes every run (memory leak) - SPI flash completely blocked on production firmware - The consumer SKU has 0 remote management exposure 22-slide presentation with evidence: https://jatinkapilaq1.github.io/intel-me-research/evidence/PRESENTATION.html submitted by /u/Frequent-Ad-9633 [link] [comments]]]></description>
-<pubDate>Thu, 30 Jul 2026 11:57:46 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1varjtu/github_jatinkapilaq1intelmeresearch_talk_to_your/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>OctLurk and SilkLurk: newly identified tailored backdoors in cyber-espionage campaign in Central Asia</title>
 <link>https://securelist.com/octlurk-silklurk-backdoors-central-asia/120840/</link>
 <description><![CDATA[Our experts discovered OctLurk and SilkLurk, backdoors operating primarily in memory, targeting Central Asia. They inject plugins to launch shells, scan networks, dump credentials, and keylogging.<br/><br/><em>Tags: apt_espionage</em>]]></description>
@@ -2845,16 +2773,6 @@
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>An open-source Azure Security Posture Auditor</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1vam2ke/an_opensource_azure_security_posture_auditor/</link>
-<description><![CDATA[Something lightweight that mirrors what Defender for Cloud checks, without needing to pay for it. It audits your Azure subscription from the CLI and surfaces misconfigurations across: - RBAC (Owner/Contributor assigned too broadly) - Network (RDP/SSH exposed, open NSG rules) - Storage (public blob access, HTTP allowed, weak TLS) - Identity (users without MFA, guest accounts) - Compute (VMs with public IPs, missing endpoint protection) - Encryption (Key Vault exposure, missing soft delete) - Monitoring (Defender for Cloud not enabled, no activity logs) Works with az login or a service principal. Outputs a Rich terminal table + JSON report. GitHub: https://github.com/neelkotnis/azure-security-auditor Happy to answer questions or take feedback. submitted by /u/Ok-Code4306 [link] [comments]<br/><br/><em>Tags: Azure</em>]]></description>
-<pubDate>Thu, 30 Jul 2026 06:56:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1vam2ke/an_opensource_azure_security_posture_auditor/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-<category>Azure</category>
 </item>
 <item>
 <title>Srsly Risky Biz: Chipping away at Chinese AI risks</title>
@@ -3253,16 +3171,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Hugging Face details how OpenAI agents breached its production systems</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1v9f5zl/hugging_face_details_how_openai_agents_breached/</link>
-<description><![CDATA[submitted by /u/ryanmerket [link] [comments]<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 23:39:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1v9f5zl/hugging_face_details_how_openai_agents_breached/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-<category>OpenAI/ChatGPT</category>
-</item>
-<item>
 <title>Ghost Credentials Expose Cloud Systems to Hidden Identity Risks</title>
 <link>https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path</link>
 <description><![CDATA[Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.]]></description>
@@ -3281,15 +3189,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Best free resources for Android &amp; iOS VAPT?</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1v9azx4/best_free_resources_for_android_ios_vapt/</link>
-<description><![CDATA[​ Hi everyone, I&apos;m learning Mobile Application VAPT and want to focus on Android first, then iOS. I’m looking for the best free practical resources for: - Android/iOS pentesting - Hands-on labs &amp; vulnerable apps - Frida, MobSF, Objection, JADX, Burp Suite, etc. - Static/dynamic analysis and bypass techniques - YouTube channels or structured courses I already know the basics of Web/API VAPT and Burp Suite. What resources or learning roadmap would you recommend for becoming job-ready in Mobile VAPT? Thanks! submitted by /u/Rohit__07__ [link] [comments]]]></description>
-<pubDate>Tue, 28 Jul 2026 20:58:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1v9azx4/best_free_resources_for_android_ios_vapt/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>When AI Agents Escape Sandboxes, Old Security Rules Apply</title>
 <link>https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply</link>
 <description><![CDATA[OpenAI&apos;s recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.]]></description>
@@ -3297,15 +3196,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Going into Networking/Systems - which Master’s is Al-proof? Should I pivot now?</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1v99pnp/going_into_networkingsystems_which_masters_is/</link>
-<description><![CDATA[Hey everyone, I just finished high school and I&apos;m heading into a Networking &amp; Systems Administration track (associate&apos;s degree level), planning to continue into a Bachelor&apos;s and then a Master&apos;s - but I haven&apos;t picked a specialization yet. What&apos;s worrying me is Al. I keep seeing conflicting takes: some say infrastructure/networking is safe because it&apos;s hands-on physical work, others say even sysadmin work is getting automated fast. My questions: • Coming from a Networking/Systems background, which Master&apos;s specializations do you think hold up best against Al over the next 10 years? • Are there specific roles in this field you&apos;d actively avoid right now? • Should I just pivot to a different field entirely now, rather than investing 3-5 years into a path that might get hollowed out? Would really appreciate input from people already working in the field who can see the shift happening firsthand. submitted by /u/kemtyou [link] [comments]]]></description>
-<pubDate>Tue, 28 Jul 2026 20:08:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1v99pnp/going_into_networkingsystems_which_masters_is/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Stronger AI Safety Requires Peeking Inside the &apos;Black Box&apos;</title>
@@ -3324,15 +3214,6 @@
 <guid isPermaLink="true">https://openssf.org/blog/2026/07/28/what-is-a-dependency-firewall/</guid>
 <source url="https://openssf.org/feed/">OpenSSF Blog</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Hey so im new here and I wanted to see if someone could help me, so I&apos;m trying to build a career as a cybersecurity... and well elan advice? I feel lost</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1v98fin/hey_so_im_new_here_and_i_wanted_to_see_if_someone/</link>
-<description><![CDATA[submitted by /u/Quirky_Database253 [link] [comments]]]></description>
-<pubDate>Tue, 28 Jul 2026 19:23:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1v98fin/hey_so_im_new_here_and_i_wanted_to_see_if_someone/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>AWS KMS or AWS CloudHSM: Choose the right key management solution</title>
@@ -3413,15 +3294,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/the-risk-hiding-behind-exposed-mcp-servers</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Does a self-hosted home cyber lab actually help when applying for cybersecurity jobs?</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1v91rf7/does_a_selfhosted_home_cyber_lab_actually_help/</link>
-<description><![CDATA[Hey everyone, I&apos;m looking for some honest feedback from people already working in cybersecurity. I&apos;m building a home lab on a dedicated tower that I plan to leave running most of the time. Right now I have OpenPLC running in VirtualBox, and my next step is setting up Ignition SCADA and connecting it over Modbus. After that, I want to start adding things like a firewall, network segmentation, logging, SIEM, IDS, vulnerability scanning, and other security tools so I can actually learn by building and securing the environment. My goal isn&apos;t just to have a bunch of tools running. I want to create a realistic environment where I can practice, break things, fix them, and document everything on GitHub. My question is: if you were interviewing someone for a junior cybersecurity, SOC, or OT/ICS security role, would a project like this actually stand out? Or would you recommend putting that time into something else? I&apos;d really appreciate any honest opinions, especially from people who have been ]]></description>
-<pubDate>Tue, 28 Jul 2026 15:28:06 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1v91rf7/does_a_selfhosted_home_cyber_lab_actually_help/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Bugs in Hugging Face Diffusers Bypass Custom Code Safeguard</title>
@@ -3761,15 +3633,6 @@
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Windows Delegation Attacks: Two Boxes, Three Types, One Pattern That Actually Works</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1v83893/windows_delegation_attacks_two_boxes_three_types/</link>
-<description><![CDATA[Been grinding HackTheBox Active Directory labs for a while and one thing that always bugged me was delegation being taught like a binary you either have it or you don&apos;t. Unconstrained, constrained, RBCD. Nobody explains &quot;what you actually do when you land on a machine with delegation rights&quot;. So I worked through Geiseric&apos;s &quot;Delegate&quot; and &quot;Redelegate&quot; boxes back-to-back and mapped out how the attack surface changes depending on which type you hit. Two completely different exploitation paths. Same endgame. Once you see the pattern, delegation stops being magic. Most tutorials show the command. They don&apos;t show you why the command works or why one box needs a completely different approach than the other. The Two Delegation Types I Exploited Type 1: Unconstrained Delegation (Delegate Box) The machine can request a ticket for *any service as any user*. When someone authenticates to it, their TGT lands in memory. You steal it. Game over. Here&apos;s what made it exploitable: User `N.Thompson` had ]]></description>
-<pubDate>Mon, 27 Jul 2026 15:13:15 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1v83893/windows_delegation_attacks_two_boxes_three_types/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Atlas: Wiz&apos;s autonomous AI Agent for vulnerability research, ranked #1 on CyberGym</title>
@@ -10581,15 +10444,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/jenkins-threat-risk-insights</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>I am John Strand and I am teach Pay What You Can classes and free labs... Ask Me Anything.</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1t5dyq3/i_am_john_strand_and_i_am_teach_pay_what_you_can/</link>
-<description><![CDATA[Hey everyone, John Strand here. I’ve been in cybersecurity for a while now, and I’ve spent a lot of that time trying to help people get started without getting buried under bad advice, overpriced training, and job postings that somehow want 5 years of experience for an entry-level role. So let’s talk about it. Ask me about getting into the field, building real skills, home labs, SOC work, blue team, threat hunting, incident response, certs, college, AI, finding your first job, or anything else you’re trying to figure out. I’m happy to answer beginner questions, career questions, technical questions, or even the “I have no idea where to start” questions. If you’re trying to build a real foundation in security, this is the class I’d point you to. https://www.antisyphontraining.com/product/information-security-core-skills-tm/?utm_source=reddit&amp;utm_medium=community_post We also have released a new game where you can learn about security in a fun Magic The Gathering kind of way. Sign up and]]></description>
-<pubDate>Wed, 06 May 2026 14:06:21 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1t5dyq3/i_am_john_strand_and_i_am_teach_pay_what_you_can/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>LABScon25 Replay | Please Connect to the Foreign Entity to Enhance Your User Experience</title>
@@ -19512,19 +19366,10 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>Come join the official /r/netsecstudents discord!</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/o6puon/come_join_the_official_rnetsecstudents_discord/</link>
-<description><![CDATA[Come join us in the official discord for this subreddit. You can network, ask questions, and communicate with people of various skill levels ranging from students to senior security staff. Link to discord: https://discord.gg/C7ZsqYX submitted by /u/rejuicekeve [link] [comments]]]></description>
-<pubDate>Thu, 24 Jun 2021 00:38:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/o6puon/come_join_the_official_rnetsecstudents_discord/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19533,7 +19378,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19542,7 +19387,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19551,7 +19396,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19560,7 +19405,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19569,7 +19414,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19578,7 +19423,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19587,7 +19432,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19596,7 +19441,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19605,7 +19450,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 08 Aug 2026 05:04:28 +0000</pubDate>
+<pubDate>Sat, 08 Aug 2026 05:51:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
