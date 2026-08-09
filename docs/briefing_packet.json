@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-09T18:50:38.270254+00:00",
+  "generated_at": "2026-08-09T19:38:42.878294+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
-  "total_items_in_window": 349,
+  "total_items_in_window": 348,
   "total_clusters_raw": 144,
   "total_clusters_in_packet": 59,
   "dropped_low_score": 85,
@@ -88,13 +88,6 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -109,6 +102,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -116,11 +116,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 2
     },
     "Sekoia": {
@@ -137,12 +137,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 2
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -165,19 +172,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 4
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,16 +186,16 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -206,6 +206,13 @@
       "status": "ok",
       "item_count": 40,
       "in_window_count": 3
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -221,20 +228,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
@@ -247,6 +240,13 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -277,6 +277,13 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -291,12 +298,12 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -305,19 +312,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 8
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -326,12 +326,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 8
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -345,13 +345,6 @@
       "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Sysdig": {
@@ -375,19 +368,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -396,19 +389,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -417,12 +417,19 @@
       "item_count": 20,
       "in_window_count": 20
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -431,12 +438,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
+    "The Record": {
+      "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 5,
+      "in_window_count": 5
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -452,26 +459,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 20
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -480,15 +480,29 @@
       "item_count": 30,
       "in_window_count": 24
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 20
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
@@ -501,12 +515,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 8
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -522,20 +536,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -550,13 +550,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
@@ -564,19 +557,12 @@
       "item_count": 50,
       "in_window_count": 50
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -585,25 +571,39 @@
       "item_count": 100,
       "in_window_count": 25
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 21
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 20
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -4011,6 +4011,186 @@
       ]
     },
     {
+      "cluster_id": "b00983247a",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "LockBit"
+        ],
+        "affected_industries": [
+          "education",
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "An analysis of incidents at Brazilian educational institutions",
+        "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
+        "published": "2026-08-03T13:00:17+00:00",
+        "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
+        "full_body": "Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [
+            "LockBit"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "An analysis of incidents at Brazilian educational institutions",
+          "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
+          "published": "2026-08-03T13:00:17+00:00",
+          "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [
+              "LockBit"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3e123aa6ec",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Immigration Policy: The Backdoor to Transnational Repression",
+        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+        "published": "2026-08-05T13:45:26+00:00",
+        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Immigration Policy: The Backdoor to Transnational Repression",
+          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+          "published": "2026-08-05T13:45:26+00:00",
+          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2ba7372881",
       "priority_score": 10,
       "member_count": 1,
@@ -4260,186 +4440,6 @@
       ]
     },
     {
-      "cluster_id": "3e123aa6ec",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Immigration Policy: The Backdoor to Transnational Repression",
-        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-        "published": "2026-08-05T13:45:26+00:00",
-        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Immigration Policy: The Backdoor to Transnational Repression",
-          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-          "published": "2026-08-05T13:45:26+00:00",
-          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b00983247a",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "LockBit"
-        ],
-        "affected_industries": [
-          "education",
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "An analysis of incidents at Brazilian educational institutions",
-        "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
-        "published": "2026-08-03T13:00:17+00:00",
-        "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
-        "full_body": "Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [
-            "LockBit"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "An analysis of incidents at Brazilian educational institutions",
-          "link": "https://securelist.com/incidents-at-brazilian-educational-institutions/120803/",
-          "published": "2026-08-03T13:00:17+00:00",
-          "summary": "Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [
-              "LockBit"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ef0ff97611",
       "priority_score": 10,
       "member_count": 1,
@@ -4523,171 +4523,6 @@
             "role_map": {
               "OpenAI/ChatGPT": "tool"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "432a5ea542",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation",
-        "link": "https://horizon3.ai/customer-story/ttec-security-validation-customer-story/",
-        "published": "2026-08-03T15:37:27+00:00",
-        "summary": "Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.",
-        "full_body": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation",
-          "link": "https://horizon3.ai/customer-story/ttec-security-validation-customer-story/",
-          "published": "2026-08-03T15:37:27+00:00",
-          "summary": "Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "35c2b2988b",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era",
-        "link": "https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/",
-        "published": "2026-08-03T13:04:33+00:00",
-        "summary": "Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.",
-        "full_body": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era",
-          "link": "https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/",
-          "published": "2026-08-03T13:04:33+00:00",
-          "summary": "Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5129,6 +4964,171 @@
                   0.28
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "432a5ea542",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation",
+        "link": "https://horizon3.ai/customer-story/ttec-security-validation-customer-story/",
+        "published": "2026-08-03T15:37:27+00:00",
+        "summary": "Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.",
+        "full_body": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation",
+          "link": "https://horizon3.ai/customer-story/ttec-security-validation-customer-story/",
+          "published": "2026-08-03T15:37:27+00:00",
+          "summary": "Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "35c2b2988b",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era",
+        "link": "https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/",
+        "published": "2026-08-03T13:04:33+00:00",
+        "summary": "Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.",
+        "full_body": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era",
+          "link": "https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/",
+          "published": "2026-08-03T13:04:33+00:00",
+          "summary": "Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government",
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
             }
           }
         }
