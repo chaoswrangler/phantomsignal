@@ -6,9 +6,19 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 09 Aug 2026 22:37:59 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 23:37:51 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Quoting Claude Opus 5 system prompt</title>
+<link>https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything</link>
+<description><![CDATA[Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic&apos;s statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude&apos;s training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn&apos;t deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic&apos;s site. — Claude Opus 5 system prompt , ensuring Claude doesn<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Sun, 09 Aug 2026 23:31:39 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+<category>Anthropic/Claude</category>
+</item>
 <item>
 <title>Beyond Prompt Injection: Hacking Apple&apos;s Private Cloud Compute</title>
 <link>https://www.reddit.com/r/netsec/comments/1vk1ybs/beyond_prompt_injection_hacking_apples_private/</link>
@@ -2218,33 +2228,6 @@
 <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33208</guid>
 <source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
 <category>government_authoritative</category>
-</item>
-<item>
-<title>Quoting Greg Brockman</title>
-<link>https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything</link>
-<description><![CDATA[at openai, many people hook their chatgpt up to slack. people really don&apos;t like when a coworker&apos;s chatgpt contacts them asking for help with a task, even when they&apos;d be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people. — Greg Brockman , President and Co-Founder, OpenAI Tags: ai-ethics , ai-misuse , generative-ai , openai , ai , llms]]></description>
-<pubDate>Sat, 01 Aug 2026 22:29:44 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>datasette-apps 0.2a0</title>
-<link>https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything</link>
-<description><![CDATA[Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app_debug() tool is pretty neat: it works by displaying the app in a opacity: 0 iframe with pointer-events: none (so it can&apos;t be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements. This uses the new context.browser_task() mechanism added in datasette-agent 0.4a0 . Tags: iframes , datasette , datasette-apps]]></description>
-<pubDate>Sat, 01 Aug 2026 21:23:56 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Ten advances in mathematics and theoretical computer science</title>
-<link>https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything</link>
-<description><![CDATA[Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that included &quot;again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.&quot; Now it&apos;s OpenAI&apos;s turn to flex. They set &quot;an internal version of Astra, our next major model&quot; on finding solutions to ten mathematical problems that &quot;have seen no progress on the main result for at least a decade&quot;. They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one. (No news on how many problems they spent $2,000 on without reaching a solution though.) The openai/ten-proofs repository has Lean 4 formalizations of their results, and there&apos;s also a paper describing the solutions and an additional LLM-generated PDF where the model &quot;reconstructs how the proof came together&quot; based on the unpublished reasoning traces. That&apos;s a decent leve]]></description>
-<pubDate>Sat, 01 Aug 2026 20:34:49 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>r/netsec monthly discussion &amp; tool thread</title>
@@ -19398,7 +19381,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19407,7 +19390,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19416,7 +19399,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19425,7 +19408,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19434,7 +19417,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19443,7 +19426,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19452,7 +19435,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19461,7 +19444,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19470,7 +19453,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19479,7 +19462,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 23:37:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
