@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-09T16:42:57.522207+00:00
+- Generated: 2026-08-09T17:36:50.141046+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
-- Total items in window: 348
-- Total clusters raw: 143
-- Total clusters in packet: 59
-- Dropped low score: 84
+- Feeds OK: 73
+- Total items in window: 333
+- Total clusters raw: 139
+- Total clusters in packet: 58
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,6 +85,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -95,13 +100,18 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -110,56 +120,41 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 20
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 3
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
   - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -170,16 +165,21 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 50
+  - Item count: 10
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 3
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -195,13 +195,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
@@ -210,11 +215,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,51 +225,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 8
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -280,11 +280,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -295,6 +290,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -315,26 +320,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,11 +345,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 30
+  - In window count: 24
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -365,16 +360,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 10
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -385,11 +390,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 24
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -400,11 +400,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -425,16 +435,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -473,6 +473,37 @@
 
 ## Affinity groups (themes)
 
+### Palo Alto Networks active exploitation
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 5
+- Article count: 18
+- Cohesion: 0.225
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, supply_chain
+  - affected_products: Palo Alto Networks
+  - urgency_signals: actively_exploited
+- Cluster IDs: e9b42737b7, 38f0f482a4, ebb24cd9dd, d1c29125d3, 1c833c15fa
+- Links:
+  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
+  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - https://isc.sans.edu/diary/rss/33218
+  - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
+  - https://securelist.com/cloud-platforms-in-phishing/120832/
+  - https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/
+  - https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
+  - https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html
+  - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
+  - https://risky.biz/RBNEWS595/
+  - https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
+  - https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/
+  - https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
+  - https://www.recordedfuture.com/blog/july-2026-cve-landscape
+
 ### Microsoft SharePoint active exploitation
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
@@ -500,32 +531,12 @@
   - https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/
   - https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/
 
-### Palo Alto Networks active exploitation
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.229
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Palo Alto Networks
-  - urgency_signals: actively_exploited
-- Cluster IDs: e9b42737b7, ebb24cd9dd, d1c29125d3, 1c833c15fa
-- Links:
-  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
-  - https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/
-  - https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
-  - https://www.recordedfuture.com/blog/july-2026-cve-landscape
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 4
-- Article count: 38
-- Cohesion: 0.24
+- Article count: 35
+- Cohesion: 0.264
 - Shared strong signals: npm
 - Member CVEs: (none)
 - Also targets: (none)
@@ -533,19 +544,17 @@
   - threat_categories: supply_chain, phishing_social_eng
   - affected_industries: financial_services
   - affected_products: npm, Anthropic/Claude
-- Cluster IDs: 61004037ea, bb0f596105, 772ab8c313, 6bd3afe055
+- Cluster IDs: 38f0f482a4, bb0f596105, 772ab8c313, 6bd3afe055
 - Links:
-  - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
   - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
   - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
   - https://isc.sans.edu/diary/rss/33218
   - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
   - https://securelist.com/cloud-platforms-in-phishing/120832/
   - https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/
-  - https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
   - https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
+  - https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html
   - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
-  - https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
   - https://risky.biz/RBNEWS595/
   - https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
   - https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/
@@ -559,13 +568,13 @@
   - https://unit42.paloaltonetworks.com/ai-token-jacking/
   - https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
 
-### CVE-2026-18556 exploitation activity
-- Anchor signal: CVE-2026-18556
-- Theme key: cve-2026-18556
+### CVE-2026-18577 exploitation activity
+- Anchor signal: CVE-2026-18577
+- Theme key: cve-2026-18577
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18556
+- Shared strong signals: CVE-2026-18577
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -580,13 +589,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
   - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 
-### CVE-2026-18577 exploitation activity
-- Anchor signal: CVE-2026-18577
-- Theme key: cve-2026-18577
+### CVE-2026-18556 exploitation activity
+- Anchor signal: CVE-2026-18556
+- Theme key: cve-2026-18556
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18577
+- Shared strong signals: CVE-2026-18556
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -622,40 +631,6 @@
   - https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
   - https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
   - https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
-
-### TeamPCP: ransomware extortion
-- Anchor signal: TeamPCP
-- Theme key: teampcp
-- Cluster count: 3
-- Article count: 22
-- Cohesion: 0.459
-- Shared strong signals: TeamPCP
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, cryptojacking
-  - actor_attribution: TeamPCP
-  - affected_industries: financial_services, government
-- Cluster IDs: 61004037ea, f3f661095c, 02097b7a9a
-- Links:
-  - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
-  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
-  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
-  - https://isc.sans.edu/diary/rss/33218
-  - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
-  - https://securelist.com/cloud-platforms-in-phishing/120832/
-  - https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/
-  - https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
-  - https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
-  - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
-  - https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
-  - https://risky.biz/RBNEWS595/
-  - https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
-  - https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
-  - https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
-  - https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
-  - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
-  - https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
 
 ### CVE-2026-63077 exploitation activity
 - Anchor signal: CVE-2026-63077
@@ -696,27 +671,28 @@
   - https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/
   - https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
 
-### ransomware extortion targeting Snowflake
-- Anchor signal: Snowflake
-- Theme key: snowflake
+### TeamPCP: ransomware extortion
+- Anchor signal: TeamPCP
+- Theme key: teampcp
 - Cluster count: 3
-- Article count: 6
-- Cohesion: 0.335
-- Shared strong signals: Snowflake
+- Article count: 7
+- Cohesion: 0.484
+- Shared strong signals: TeamPCP
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng
+  - threat_categories: ransomware_extortion, cryptojacking
+  - actor_attribution: TeamPCP
   - affected_industries: financial_services, government
-  - affected_products: Snowflake
-- Cluster IDs: e53f5ae0c1, 6bd3afe055, f3f661095c
+- Cluster IDs: c4d9e2c2f9, f3f661095c, 02097b7a9a
 - Links:
-  - https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
-  - https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
+  - https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+  - https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
   - https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
   - https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
   - https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
   - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+  - https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
@@ -735,6 +711,24 @@
   - https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/
   - https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
   - https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+
+### GitLab vulnerability activity
+- Anchor signal: GitLab
+- Theme key: gitlab
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: GitLab
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - affected_products: GitHub, GitLab
+- Cluster IDs: c97f90a69b, c4d9e2c2f9
+- Links:
+  - https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
+  - https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+  - https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
 
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
@@ -759,12 +753,7 @@
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (2)
-- **Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack**
-  - Cluster: 61004037ea
-  - Sources in window: 3
-  - Window hours: 4.2
-  - Cohort count: 7
+### Velocity bursts (1)
 - **Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts**
   - Cluster: bb0f596105
   - Sources in window: 3
@@ -772,12 +761,12 @@
   - Cohort count: 4
 
 ### Leading edge (1)
-- **Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack**
-  - Cluster: 61004037ea
+- **ChainDrop: Inside a Self-Propagating npm Worm**
+  - Cluster: 38f0f482a4
   - Lead hours: 32.1
   - First source: Risky Business News
   - Later Tier 1 source: Kaspersky Securelist
-  - Shared signals: Anthropic/Claude, GitHub, Kubernetes, TeamPCP, npm
+  - Shared signals: Anthropic/Claude, GitHub, Palo Alto Networks, npm
 
 ### Convergence (15)
 - Pair: CVE-2026-18556 + Citrix (cluster e9b42737b7, first observation: True)
@@ -797,24 +786,24 @@
 - Pair: CVE-2026-8037 + GitHub (cluster c97f90a69b, first observation: True)
 
 ### Drift (2)
-- **TeamPCP** (cluster 61004037ea)
-  - New industries: (none)
-  - New products: Anthropic/Claude, Kubernetes
-  - Prior top industries: financial_services, government, healthcare
-  - Prior top products: GitHub, PyPI, npm
 - **ShinyHunters** (cluster d8c893e316)
   - New industries: (none)
   - New products: AWS, Microsoft SharePoint
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
+- **TeamPCP** (cluster c4d9e2c2f9)
+  - New industries: (none)
+  - New products: GitLab, Kubernetes
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: GitHub, PyPI, npm
 
 ### Persistence (10)
 - actor_attribution: ShinyHunters (weeks observed: 10, cluster d8c893e316)
-- actor_attribution: TeamPCP (weeks observed: 8, cluster 61004037ea)
 - actor_attribution: Scattered Spider (weeks observed: 8, cluster fb2a69eb0a)
+- actor_attribution: TeamPCP (weeks observed: 8, cluster c4d9e2c2f9)
 - cve_ids: CVE-2026-33017 (weeks observed: 7, cluster e9b42737b7)
-- actor_attribution: LockBit (weeks observed: 5, cluster b00983247a)
 - cve_ids: CVE-2025-3248 (weeks observed: 5, cluster 1c833c15fa)
+- actor_attribution: LockBit (weeks observed: 5, cluster b00983247a)
 - cve_ids: CVE-2026-50522 (weeks observed: 4, cluster 9a320ea4d0)
 - cve_ids: CVE-2026-8037 (weeks observed: 3, cluster c97f90a69b)
 - cve_ids: CVE-2026-59726 (weeks observed: 3, cluster fe05850866)
@@ -1030,118 +1019,6 @@ CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited  R
   - Link: https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote
 
-### Cluster 61004037ea — score 25
-
-- Title: Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-05T14:13:47+00:00
-- Link: https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
-- Fetch status: ok
-- Member count: 17
-- Corroborating source count: 14
-- Strong signals: GitHub, TeamPCP, npm
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, mfa_bypass, phishing_social_eng, supply_chain, web_shell_backdoor
-- actor_attribution: TeamPCP
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, GitHub, Kubernetes, npm
-- content_type: incident_report, news_report
-- confidence_tier: tier_1_government, tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_industries: financial_services
-- affected_products: npm, GitHub, Kubernetes
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, […]
-```
-
-#### Full body
-
-```
-Table of contents Technical Overview Affected Systems Risk Impact How Orca Can Help A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, and CI/CD secrets from developer workstations and build environments. A worm-like self-propagation mechanism has extended the blast radius to over 868 additional packages totaling more than 2 billion monthly installs. Technical Overview On August 4, 2026, attackers gained control of the GitHub account behind keyv, one of the most depended-upon packages in the npm ecosystem. The attacker pushed malicious files (setup.mjs and Math_Symbol.js) directly to the main branch and immediately cut new releases. Because the releases were built through the compromised account’s GitHub Actions workflows, the poisoned versions were published to npm with valid provenance signatures, bypassing standard supply chain integrity checks . The malware operates as a two-stage dropper. A preinstall hook executes setup.mjs, which downloads the Bun JavaScript runtime to run the obfuscated Math_Symbol.js payload (728 KB). Once executed, the payload harvests sensitive credentials and configuration from the host system, including: npm registry authentication tokens from .npmrc GitHub CLI tokens (classic PATs, session tokens, OIDC tokens) AWS access keys and session tokens from ~/.aws/credentials HashiCorp Vault client tokens SSH keys Kubernetes and Terraform configurations AI configuration files (Claude Code, VS Code, Codex) Cryptocurrency wallets Cloud environment metadata and CI/CD secrets Stolen data is encrypted and exfiltrated to GitHub repositories created under compromised identities. Affected Systems The following primary packages are affected: keyv (6.0.0), cacheable, cache-manager (7.2.10), cacheable-request (13.0.20), flat-cache, file-entry-cache, @cacheable/node-cache, @cacheable/memory, @cacheable/utils (2.5.1), and ecto. These packages underpin caching infrastructure across the JavaScript ecosystem and are used by millions of applications, build pipelines, and CI/CD environments worldwide. The attack includes a worm-like self-propagation mechanism: any maintainer who installed a compromised package had their npm tokens stolen, which the attacker then used to publish poisoned versions of that maintainer’s own packages. This resulted in at least 868 additional packages (1,381 versions) being compromised, including packages from organizations such as Deliveroo, Picsart, Qlik, Ornikar, and HubSync. Risk Impact Any developer, build system, or CI/CD runner that installed or updated any of the affected packages after the malicious versions were published on August 4, 2026 should be treated as potentially compromised. Organizations should take the following steps immediately: Remove affected package versions from all development, build, and CI/CD environments Treat any system that installed a compromised package as potentially breached and rebuild from a clean state Rotate all exposed credentials: cloud provider keys (AWS, Azure, GCP), GitHub tokens, SSH keys, Kubernetes configs, Terraform credentials, npm tokens, and Vault tokens Review cloud and source code environments for unauthorized access Check for file artifacts indicating compromise: /tmp/bun-dl-*/, node_modules/keyv/Math_Symbol.js Block IOC domains: npm-cache[.]com, eth-mainnet.nodereal[.]io, go.getblock[.]io, eth.llamarpc[.]com Enable dependency allowlisting, package integrity verification, and provenance controls At the time of writing, active exploitation is confirmed and ongoing. The worm propagation mechanism means that the number of compromised packages continues to grow. The severity of this incident and the breadth of credential t
-```
-
-#### Corroborating sources (14)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack
-  - Published: 2026-08-05T14:13:47+00:00
-  - Link: https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
-  - Summary: A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, […]
-- **Unit 42** (threat_research_primary)
-  - Title: ChainDrop: Inside a Self-Propagating npm Worm
-  - Published: 2026-08-06T22:26:39+00:00
-  - Link: https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
-  - Summary: Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
-  - Published: 2026-08-04T23:46:41+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
-  - Summary: A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
-  - Published: 2026-08-04T23:46:41+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
-  - Summary: A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Don't Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)
-  - Published: 2026-08-05T17:56:15+00:00
-  - Link: https://isc.sans.edu/diary/rss/33218
-  - Summary: When you learn that a compromised package executed on one of your build hosts, muscle memory takes over: revoke the npm token, rotate the GitHub PAT, cycle the cloud keys. That reflex has been correct in almost every supply-chain incident I have worked. In the keyv / cacheable compromise that has been unfolding since yesterday, it is the one thing you should not do first â€” because revoking the stolen token is exactly what arms the payload.
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: keyv and cacheable npm Package Hijacked in Supply Chain Attack
-  - Published: 2026-08-04T11:25:22+00:00
-  - Link: https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
-  - Summary: Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple keyv/cacheable npm packages.
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: How legitimate cloud platforms enable phishers to bypass MFA
-  - Published: 2026-08-04T12:00:12+00:00
-  - Link: https://securelist.com/cloud-platforms-in-phishing/120832/
-  - Summary: We cover a cloud-based AitM attack scenario leveraging service workers and Ultraviolet, and provide detailed phishing hosting statistics across platforms like Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS.
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - Title: How we took malware advisories beyond npm
-  - Published: 2026-08-06T16:51:12+00:00
-  - Link: https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/
-  - Summary: GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malware advisories beyond npm appeared first on The GitHub Blog .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
-  - Published: 2026-08-07T06:50:05+00:00
-  - Link: https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
-  - Summary: A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. "The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages
-  - Published: 2026-08-06T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
-  - Summary: Elastic Security Labs identified the return of Shai-Hulud. Attackers compromised the keyv maintainer and deployed CHAINDROP, a worm that uses stolen npm credentials to backdoor co-owned packages totaling over 1.3 billion monthly downloads.
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Worm compromises hundreds of popular npm packages
-  - Published: 2026-08-04T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
-  - Summary: On August 4, 2026, several popular npm packages, including 'keyv', were compromised to deliver malware.
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Open-source software’s archenemy TeamPCP goes back further than anyone thought
-  - Published: 2026-08-05T13:00:00+00:00
-  - Link: https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
-  - Summary: Oligo Security uncovered evidence of a long operational history, including multiple previous attacks it traced to the same attacker infrastructure and tools. The post Open-source software’s archenemy TeamPCP goes back further than anyone thought appeared first on CyberScoop .
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Anthropic models also did the hacky-hacky
-  - Published: 2026-08-03T03:52:50+00:00
-  - Link: https://risky.biz/RBNEWS595/
-  - Summary: Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs
-  - Published: 2026-08-05T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
-  - Summary: A new npm worm has compromised packages with over two billion monthly installs
-
 ### Cluster 292d4f04d7 — score 24
 
 - Title: UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments
@@ -1206,6 +1083,104 @@ Threat Intelligence UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Fina
   - Published: 2026-08-07T18:16:13+00:00
   - Link: https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
   - Summary: A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. "UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via
+
+### Cluster 38f0f482a4 — score 23
+
+- Title: ChainDrop: Inside a Self-Propagating npm Worm
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-08-06T22:26:39+00:00
+- Link: https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+- Fetch status: ok
+- Member count: 14
+- Corroborating source count: 12
+- Strong signals: GitHub, npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, mfa_bypass, phishing_social_eng, supply_chain, web_shell_backdoor
+- affected_products: Anthropic/Claude, GitHub, Palo Alto Networks, npm
+- content_type: incident_report, news_report
+- confidence_tier: tier_1_government, tier_1_offensive_research, tier_1_primary_research, tier_2_operator, tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: Palo Alto Networks, npm, GitHub
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center High Profile Threats Malware Malware ChainDrop: Inside a Self-Propagating npm Worm 20 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Unit 42 Published: August 6, 2026 Categories: High Profile Threats Malware Tags: Blockchain ChainDrop Claude code Developer tooling GitHub Share Executive Summary A self-propagating npm worm nicknamed ChainDrop infected over 400 packages that are collectively downloaded hundreds of millions of times each week. This includes malicious versions of widely used packages such as keyv and cacheable-request . Unit 42 has unique observations of this attack. The attackers behind ChainDrop potentially exposed developer workstations, continuous integration (CI) pipelines, cloud environments and downstream software users across a large number of organizations. Once installed, ChainDrop steals: Cloud credentials npm and GitHub tokens SSH keys Other sensitive developer data It can also extract temporary credentials from GitHub Actions runner memory and use stolen npm publishing tokens to infect and republish additional packages while preserving their legitimate functionality. We have observed active attempted operations, which were detected out of the box by our existing products. During our investigation into this attack, we identified 453 public GitHub repositories across five accounts matching the worm’s exfiltration patterns. We also detected ChainDrop execution across 10 distinct environments. At the time of publication, these repos were removed. We have deobfuscated the malware and identified: Persistence through developer and AI coding tools Blockchain-based command-and-control (C2) resolution Its ability to execute additional attacker-supplied code Additionally, late on Aug. 4, 2026, we observed the adversary silently reconfiguring the worm's entire C2 infrastructure through a single Ethereum transaction, without requiring any update to the deployed malware. This attack is the latest in a series of threats to the security of the npm ecosystem . Unit 42 recommends: Identifying installations of affected npm package versions Removing affected package versions Investigating developer workstations and CI runners for signs of compromise Reviewing unexpected npm publishing and GitHub repository activity. Revoking and rotating potentially exposed npm, GitHub, cloud, SSH and automation credentials. Removing identified persistence mechanisms Blocking both the domain-based and GitHub-based exfiltration channels The Koi Agentic Endpoint Security risk engine flagged the malicious package activity as the attack unfolded. Cortex XDR detected and alerted on the worm’s execution using out-of-the-box behavioral detections. Palo Alto Networks customers can use Koi Agentic Endpoint Security to help identify and control malicious packages across developer endpoints. The Cortex AgentiX Threat Intel agent can help allow analysts to extract, enrich, and search IoCs using natural language to quickly determine organizational impact. Cortex Cloud Endpoint Protection leverages AI-enabled analytics to help detect and prevent threats targeting Linux endpoints, containers, and associated cloud IAM policies. Cortex XDR and XSIAM provide behavioral detection, investigation and response that can help organizations address ChainDrop activity executing in development environments. Idira Secrets Manager and Secrets Hub eliminate hard-coded credentials from configure files and sour ce code by automating zero-downtime rotation, and dynamically delivering just-in-time access to non-human identities across multi-cloud and DevOps environments. The Unit 42 Cloud Security Assessment is an evaluation service that reviews cloud infrastructure to identify misconfigurations and security gaps. The Unit 42 Incident Response team can also be engaged
+```
+
+#### Corroborating sources (12)
+
+- **Unit 42** (threat_research_primary)
+  - Title: ChainDrop: Inside a Self-Propagating npm Worm
+  - Published: 2026-08-06T22:26:39+00:00
+  - Link: https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  - Summary: Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
+  - Published: 2026-08-04T23:46:41+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - Summary: A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
+  - Published: 2026-08-04T23:46:41+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - Summary: A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Don't Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)
+  - Published: 2026-08-05T17:56:15+00:00
+  - Link: https://isc.sans.edu/diary/rss/33218
+  - Summary: When you learn that a compromised package executed on one of your build hosts, muscle memory takes over: revoke the npm token, rotate the GitHub PAT, cycle the cloud keys. That reflex has been correct in almost every supply-chain incident I have worked. In the keyv / cacheable compromise that has been unfolding since yesterday, it is the one thing you should not do first â€” because revoking the stolen token is exactly what arms the payload.
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: keyv and cacheable npm Package Hijacked in Supply Chain Attack
+  - Published: 2026-08-04T11:25:22+00:00
+  - Link: https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
+  - Summary: Wiz Research is actively investigating an ongoing software supply chain attack affecting multiple keyv/cacheable npm packages.
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: How legitimate cloud platforms enable phishers to bypass MFA
+  - Published: 2026-08-04T12:00:12+00:00
+  - Link: https://securelist.com/cloud-platforms-in-phishing/120832/
+  - Summary: We cover a cloud-based AitM attack scenario leveraging service workers and Ultraviolet, and provide detailed phishing hosting statistics across platforms like Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS.
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - Title: How we took malware advisories beyond npm
+  - Published: 2026-08-06T16:51:12+00:00
+  - Link: https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/
+  - Summary: GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid. The post How we took malware advisories beyond npm appeared first on The GitHub Blog .
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Shai-Hulud strikes again: CHAINDROP worm hits 400+ npm packages
+  - Published: 2026-08-06T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
+  - Summary: Elastic Security Labs identified the return of Shai-Hulud. Attackers compromised the keyv maintainer and deployed CHAINDROP, a worm that uses stolen npm credentials to backdoor co-owned packages totaling over 1.3 billion monthly downloads.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Leaked n8n API Tokens Exposed Live Instances to Credential Theft
+  - Published: 2026-08-05T10:35:29+00:00
+  - Link: https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html
+  - Summary: GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub commits for exposed n8n API tokens and identified 4,576 unique credentials associated with 1,255 hostnames. Of the 896
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Worm compromises hundreds of popular npm packages
+  - Published: 2026-08-04T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
+  - Summary: On August 4, 2026, several popular npm packages, including 'keyv', were compromised to deliver malware.
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Anthropic models also did the hacky-hacky
+  - Published: 2026-08-03T03:52:50+00:00
+  - Link: https://risky.biz/RBNEWS595/
+  - Summary: Anthropic models also did the hacky-hacks, Coldcard was hacked for $70 million in Bitcoin, npm adds publish-time malware scanning, and Russia is behind the recent hotel WiFi hacks.
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs
+  - Published: 2026-08-05T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
+  - Summary: A new npm worm has compromised packages with over two billion monthly installs
 
 ### Cluster 5b3734746a — score 19
 
@@ -1680,90 +1655,6 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Stephen Campbe
   - Link: https://risky.biz/RBNEWSSI138/
   - Summary: In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.
 
-### Cluster a7f7f22b06 — score 11
-
-- Title: Vulnerability Management Lifecycle: Core Phases
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-07T12:50:00+00:00
-- Link: https://orca.security/resources/blog/vulnerability-management-lifecycle/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure
-- urgency_signals: no_patch_yet
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure
-- urgency_signals: no_patch_yet
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What is the Vulnerability Management Lifecycle? Why Vulnerability Management Matters in Cybersecurity The 6 Key Phases of the Vulnerability Management Lifecycle Phase 1: Asset Discovery Phase 2: Vulnerability Assessment Phase 3: Risk-Based Prioritization Phase 4: Remediation Phase 5: Verification and Rescanning Phase 6: Reporting and Continuous Improvement Asset Discovery and Vulnerability Assessment What Asset Discovery Must Produce Turning a Scan Into an Assessment Risk-Based Prioritization and Remediation Strategies Ranking by Exploitability and Exposure Remediate, Mitigate, or Accept Common Challenges and Best Practices How Orca Closes the Loop on Vulnerability Management Frequently Asked Questions About the Vulnerability Management Lifecycle Key Takeaways The lifecycle runs in six phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, and reporting and continuous improvement. Each phase owes the next one a specific artifact. A phase that produces nothing auditable has not run, whatever the calendar says. No NIST publication defines this six-phase model. NIST publishes a patch management guide, a glossary definition, and an assessment-automation volume, and none of them is a lifecycle. Scanning and patching are two of six phases. The other four are where most programs cannot evidence their own work. Orca inventories cloud assets without agents and rescans continuously, so coverage and closure stop depending on what someone remembered to install. The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase consumes something the previous phase produced and owes something to the next one. Discovery owes an inventory. Assessment owes a validated finding set. Prioritization owes a ranked queue with an owner on every line. This guide walks the six phases in order, explains the artifact each one has to produce, and shows where the loop stalls when one goes missing. It also settles a question the search results often get wrong: whether NIST defines this model at all. What is the Vulnerability Management Lifecycle? The vulnerability management lifecycle is a repeating sequence of six phases, each defined by what it consumes and what it hands forward. It is the operational form of vulnerability management , the wider discipline of finding and reducing weaknesses across an estate. A security vulnerability is the unit the loop moves, and the lifecycle is how a team keeps finding new ones after the first scan. Most vulnerability management lifecycle definitions agree on the loop and disagree on the count. Some teams call it vulnerability lifecycle management and mean the same thing, tracking one finding from discovery to proven closure. The count matters less than the exit condition on each phase. A phase has run when it produces the artifact the next phase needs, and not before. Why Vulnerability Management Matters in Cybersecurity A known, unpatched flaw is the cheapest way into an environment. An attacker needs no novel technique when a published flaw still sits on an internet-facing host. Every day that finding stays open is another day the path works. Plenty of teams scan weekly and patch on a schedule, but that covers only two of the six phases. A program with no discovery phase scans only what it already knows about, and one with no verification phase closes tickets on faith. That gap is what separates vulnerability management from routine patching. The NIST Cybersecurity Framework reflects the same principle by requiring vulnerabilities to be identified, validated, and recorded (ID.RA-01) and vulnerability disclosures to
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Vulnerability Management Lifecycle: Core Phases
-  - Published: 2026-08-07T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/vulnerability-management-lifecycle/
-  - Summary: Key Takeaways The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase […]
-
-### Cluster 82a0348651 — score 11
-
-- Title: Vulnerability Scanning Tools: Top 10 Compared for 2026
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-08-06T12:50:00+00:00
-- Link: https://orca.security/resources/blog/vulnerability-scanning-tools/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Are Vulnerability Scanning Tools? Scanners Versus Vulnerability Management Platforms Key Features of Vulnerability Scanning Tools Types of Vulnerability Scanning Tools Network Vulnerability Scanners Web Application Scanners Source Code and Dependency Scanners Container and Image Scanners Cloud Configuration and Infrastructure Scanners Top 10 Vulnerability Scanning Tools Orca Security: Agentless Scanning Across the Cloud Estate Tenable Nessus Qualys OpenVAS Nuclei Trivy ZAP Burp Suite Grype Semgrep Benefits of Vulnerability Scanning Open Source Vulnerability Scanning Tools Choosing the Right Vulnerability Scanner Match the Scanner to the Asset Type Authenticated Versus Unauthenticated Scanning How Orca Scans Cloud Estates Without Agents Frequently Asked Questions about Vulnerability Scanning Tools Key Takeaways A vulnerability scanner is a detection engine, not a program. It finds flaws in a specific class of asset and hands the result to whatever system tracks the fix. Scanning coverage is decided per asset type, not per vendor. No tool in this comparison covers networks, web applications, source code, container images, and cloud configuration at equal depth. Access level changes the answer more than product choice does. An unauthenticated scan reads what a service advertises, while an authenticated scan reads what is actually installed. The top 10 focuses on products with dedicated vulnerability scanning capabilities, while broader management and exposure platforms are excluded from the comparison. Orca reads the workload’s runtime block storage out of band, which returns installed package data across a cloud estate without host credentials, agents, or network access to each machine. Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates to a Linux host and inventories installed packages cannot inspect a container image sitting in a registry, and neither one crawls a single-page web application. This guide compares ten scanners by what they actually inspect. It covers the features that separate detection engines, the five major scanner types, the open-source options worth considering, and how to match a scanner to the assets in your environment. What Are Vulnerability Scanning Tools? Vulnerability scanning tools automate the search for known weaknesses in a defined set of targets. They apply detection logic to hosts, applications, images, or code and report each match with an identifier, location, and supporting evidence. NIST groups vulnerability scanning under technical security testing in SP 800-115 , alongside network discovery and penetration testing as separate techniques with different costs and blind spots. The output is a list of candidate findings, not a verdict. Every scanner produces some results that do not apply to the environment, which is why validation remains part of a vulnerability assessment. What separates a strong scanner from a noisy one is the evidence it collects before asserting that a weakness is present. Scanners Versus Vulnerability Management Platforms A scanner answers one question: is this flaw present on this asset. A vulnerability management platform answers a different set of questions about ownership, sequencing, and proof of closure. It usually consumes scanner output instead of producing it, so if you are choosing the system that will run your program, the comparison you want is of vulnerability management tools . The practical consequence is coverage. No scanner covers every asset type equally well, and platforms differ widely in the depth of their support for hosts, containers, source code, web applications, and cloud configuration. Th
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Vulnerability Scanning Tools: Top 10 Compared for 2026
-  - Published: 2026-08-06T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/vulnerability-scanning-tools/
-  - Summary: Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]
-
 ### Cluster fb2a69eb0a — score 10
 
 - Title: Inside the Modern SOC: The Identity Front Door
@@ -1982,6 +1873,182 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Published: 2026-08-04T17:54:04+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
   - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+
+### Cluster 1c833c15fa — score 10
+
+- Title: July 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-07T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Cisco, Fortinet, Palo Alto Networks
+- cve_ids: CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034, CVE-2025-3248
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Fortinet, Palo Alto Networks, Cisco
+- cve_ids: CVE-2025-3248, CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
+```
+
+#### Full body
+
+```
+July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: July 2026 CVE Landscape
+  - Published: 2026-08-07T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
+  - Summary: In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
+
+### Cluster 6b94b6e7b2 — score 10
+
+- Title: Emerging Threats to Neurotechnology
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-06T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/emerging-threats-neurotechnology
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, ransomware_extortion
+- affected_industries: education, healthcare
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, apt_espionage
+- affected_industries: healthcare, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.
+```
+
+#### Full body
+
+```
+Emerging Threats to Neurotechnology Summary Neurotechnology is rapidly moving beyond clinical use cases, expanding the attack surface for sensitive neurological and biometric data: As adoption grows, larger volumes of brain activity, biometric, and behavioral data will be collected by commercial platforms, creating new opportunities for data theft, misuse, and exploitation. China and the United States (US) are engaged in strategic competition in neurotechnology development: The US leads in the number of neurotechnology firms, and brain-computer interface (BCI) research has been a long-term research priority for the US military. At the same time, China’s five-year guidance for BCI development, subsidies for major wearable technology firms, and military research into human-machine integration suggest that neurotechnology is a strategic priority. Leading neurotechnology companies are likely to face increased targeting for intellectual property (IP) theft: Because neurotechnology is costly to develop and strategically valuable, companies in this sector are likely to become attractive targets for state-sponsored espionage, insider threats, and cyber-enabled theft. Successful IP theft could erode the competitive advantage of companies that invest heavily in research and development (R&D). Military and higher education research laboratories are also likely to be targeted for access to R&D and related data. Neurological and biometric data will become an increasingly valuable target for cybercriminals and state-linked actors: Attackers may seek to exfiltrate these datasets for extortion, surveillance, strategic intelligence, or model development. The sensitivity of this data could make breaches particularly damaging for affected individuals and companies, making it an attractive target for extortion-focused cybercriminals. Regulatory and national security scrutiny of neurological data will likely intensify: Existing privacy frameworks in the European Union (EU) and several US states already provide heightened protections for neurological or biometric data, but rapid advances in neurotechnology may outpace consumer protection laws. Figure 1: Key threats in neurotechnology and how they will evolve (Source: Recorded Future) Analysis What is neurotechnology? Neurotechnology is the field focused on understanding and interacting with the brain through technology. Much of the progress so far has been in medicine, where scientists seek to use the technology to treat neurological disorders such as Parkinson’s disease or paralysis. Implantable BCIs have demonstrated the ability to translate brain activity into words, enabling individuals with neurological injuries to speak again. In June 2026, China approved the world’s first commercial brain implant, which allows individuals with spinal cord injuries to regain motor control of their hands via a robotic glove. Other BCI technologies remain in clinical trials. Less invasive examples of the technology include medical electroencephalography (EEG) equipment that externally measures brain activity to diagnose and monitor conditions such as epilepsy, sleep disorders, and ADHD. The global neurotechnology market is projected to reach $53 billion by 2034, driven by the rising prevalence of neurological disorders and the rapid evolution of artificial intelligence (AI) and machine learning that enable the interpretation of neurological data. Outside of medical use cases, the consumer neurotechnology market is rapidly expanding. According to a market study published by the Centre for Future Generations in mid-2025, 45 consumer neurotechnology brands focused on wellness and fitness emerged over the last decade, making it the largest consumer sector in neurotechnology devices. These include products that monitor brain activity to improve focus, such as glasses that use neurofeedback to darken when the user is distracted and lighten when they are focused, as well as products that use brain data for “ brain tra
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Emerging Threats to Neurotechnology
+  - Published: 2026-08-06T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/emerging-threats-neurotechnology
+  - Summary: Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.
+
+### Cluster 725e4c357a — score 10
+
+- Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-05T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain, zero_day
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft, zero_day
+- affected_products: OpenAI/ChatGPT
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
+```
+
+#### Full body
+
+```
+Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic defense will be essential to countering agentic offense. However, defenders must actively mitigate the risk of autonomous systems operating outside of their expected parameters. In July 2026, OpenAI disclosed that models undergoing an internal cybersecurity evaluation had escaped their testing environment and compromised part of Hugging Face’s production infrastructure. OpenAI characterized the event as an “unprecedented cyber incident.” The incident should put security leaders on alert, but not for the reasons OpenAI suggests. One concern is that OpenAI’s agents demonstrated the ability to autonomously carry out an end-to-end cyberattack, placing the models at the highest level of autonomy within Recorded Future’s AIM3 framework. However, the greater concern is that the model operators did not sufficiently monitor for or prepare to mitigate unauthorized agentic activity. Enterprises using agents for security and other purposes should see the Hugging Face incident as a warning about what happens when agents are set loose without safeguards against adverse outcomes. What Happened The incident began during an OpenAI evaluation designed to measure advanced cyber capabilities. The evaluation involved GPT-5.6 Sol and an even more capable internal research prototype that OpenAI says was not intended for public release. Because the objective was to test their maximum offensive potential, the models were operated with reduced security guardrails (normally used to prevent high-risk activity). According to OpenAI , the models spent substantial computing resources searching for a path to the internet. They exploited a zero-day vulnerability in Artifactory, the package-registry cache proxy available in the evaluation environment, and then performed privilege escalation and lateral movement within OpenAI’s research environment until they reached a node with internet access. Once online, the models inferred that Hugging Face might contain models, datasets, or solutions associated with ExploitGym, the benchmark they had been instructed to solve. OpenAI says the agents then chained stolen credentials, zero-day vulnerabilities, and remote code execution paths to obtain test solutions from a Hugging Face production database. Hugging Face’s technical reconstruction covers roughly 17,600 recovered agent actions, grouped into approximately 6,280 clusters, between July 9 and July 13, 2026. Although most attempts failed, the agent still gained administrative access to internal and production systems, accessed some source-code repositories, and used a stolen credential to connect external systems to the company network. Hugging Face found no evidence that its public models, datasets, services, packages, or published software supply chain were altered. It says the only customer content accessed comprised five datasets, apparently related to ExploitGym or CyberGym. A Capability Breakthrough and a Control Failure Most coverage of this incident has framed it as a breakthrough in model capabilities, since it is the first known instance of a model apparently independently conducting an end-to-end cyberattack. The underlying techniques were largely familiar to those used in human-led cyberattacks: vulnerability exploitation, credential theft, staging, remote code execution, lateral movement, and abuse of privileged or trusted access. What was notable was the agents’ ability to select and chain those steps autonomously across a long-running operation. This represents a significant shift in the speed and scale of future incidents. An autonomous agent can execute thousands of actions, test multiple paths, and continue working without the fatigue, coordination costs, or time constraints that limit human operators. In this case, most of the roughly 17,600 recovered actions were associated with failed paths. The operation was noisy and failure-prone, but it needed only a small number of
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
+  - Published: 2026-08-05T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
+  - Summary: Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
+
+### Cluster f1f9ac4c52 — score 10
+
+- Title: 8 Ways AI is Changing Threat Intelligence
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-03T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
+```
+
+#### Full body
+
+```
+8 Ways AI is Changing Threat Intelligence The fundamentals haven't changed — the clock speed has. Defending everything is still the job, but adversaries can now move at machine-speed, which means the intelligence behind every decision has to move just as fast. AI cuts both ways. The same automation that lets defenders orchestrate faster is available to attackers too, and whoever uses it more creatively will often hold the advantage at any given moment. Trust in automation is being built one decision at a time. Human-in-the-loop approval is today's norm, but most security leaders expect that to shift toward human oversight of largely autonomous systems within the next few years. AI is changing the threat landscape faster than most security organizations can keep up. Recorded Future co-founder Christopher Ahlberg, CTO and co-founder Staffan Truvé, and Head of Threat Intelligence Levi Gundert unpack what’s actually happening in a recent conversation — and what it means for your defenses. Read on for their 8 takeaways. 1. The threat landscape now moves at machine speed. AI has made exposure discovery instant. Your unknown exposures are now part of your attack surface, and threats are multiplying faster than most teams can triage. While most security organizations are responding by trying to move faster, speed without accuracy isn’t an advantage. Staying ahead means having intelligence that makes machine-speed defense more effective, not just fast. As Truvé put it, intelligence has always been the way to stay proactive instead of reactive, and as "clock speed" increases across the industry, staying even a little ahead requires acting on intelligence faster than ever. “External attack surface, security operations, vulnerability management, prioritizing — so many of these use cases and workflows take on a new level of urgency because of the speed component,” Gundert said. 2. "Defend the right things" is now a multi-bear problem. The team agreed that the old security adage — you don't have to outrun the bear, just the person next to you — no longer holds. AI removes that comfort almost entirely. Attackers only need one way in. Defenders have to cover just about everything. That asymmetry has always been the challenge and AI is making it structurally worse. It’s no longer one bear chasing the herd anymore — it's one bear chasing each member of the herd, since attackers can automate at scale even more efficiently. 3. Attacks are already becoming more clever, not just faster. The panel discussed a real-world software supply chain compromise where attackers used compromised credentials to push a malicious package update, then had an LLM already present on infected developer machines search out AWS keys, SSH keys, and other credentials locally. The stolen data was encrypted and exfiltrated through a public GitHub repository — activity that never tripped EDR because it looked like ordinary LLM usage. It was a preview of a much bigger wave of clever attacks that will likely quietly repurpose and weaponize the AI tools already installed on a target's machine. 4. Locking down devices isn't the only answer — context-aware access might be. Locking down every endpoint isn't realistic, and it probably is not the answer. Situational permissions, such as access that flexes by location, time, and context are zero trust logic applied to the AI era. 5. Whether AI favors attackers or defenders depends on execution. Everyone is talking about what AI can do. Fewer are asking who AI will ultimately benefit. Will the advantage belong to attackers or defenders? It’s a question of how well organizations manage the trade-off between innovation and guardrails. Teams that articulate boundaries tend to build stronger solutions. Truvé broadened the definition of "AI" beyond LLMs to include things like anomaly detection, and predicted an ongoing arms race. “At any given point in time, depending on who's more creative in using the new technology,” he said, “one side
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: 8 Ways AI is Changing Threat Intelligence
+  - Published: 2026-08-03T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
+  - Summary: Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
 
 ### Cluster b00983247a — score 10
 
@@ -2288,182 +2355,6 @@ Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cyb
   - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
   - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
 
-### Cluster 1c833c15fa — score 10
-
-- Title: July 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-07T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Cisco, Fortinet, Palo Alto Networks
-- cve_ids: CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034, CVE-2025-3248
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Fortinet, Palo Alto Networks, Cisco
-- cve_ids: CVE-2025-3248, CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
-```
-
-#### Full body
-
-```
-July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: July 2026 CVE Landscape
-  - Published: 2026-08-07T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
-  - Summary: In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
-
-### Cluster 6b94b6e7b2 — score 10
-
-- Title: Emerging Threats to Neurotechnology
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-06T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/emerging-threats-neurotechnology
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
-- affected_industries: education, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
-- affected_industries: healthcare, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.
-```
-
-#### Full body
-
-```
-Emerging Threats to Neurotechnology Summary Neurotechnology is rapidly moving beyond clinical use cases, expanding the attack surface for sensitive neurological and biometric data: As adoption grows, larger volumes of brain activity, biometric, and behavioral data will be collected by commercial platforms, creating new opportunities for data theft, misuse, and exploitation. China and the United States (US) are engaged in strategic competition in neurotechnology development: The US leads in the number of neurotechnology firms, and brain-computer interface (BCI) research has been a long-term research priority for the US military. At the same time, China’s five-year guidance for BCI development, subsidies for major wearable technology firms, and military research into human-machine integration suggest that neurotechnology is a strategic priority. Leading neurotechnology companies are likely to face increased targeting for intellectual property (IP) theft: Because neurotechnology is costly to develop and strategically valuable, companies in this sector are likely to become attractive targets for state-sponsored espionage, insider threats, and cyber-enabled theft. Successful IP theft could erode the competitive advantage of companies that invest heavily in research and development (R&D). Military and higher education research laboratories are also likely to be targeted for access to R&D and related data. Neurological and biometric data will become an increasingly valuable target for cybercriminals and state-linked actors: Attackers may seek to exfiltrate these datasets for extortion, surveillance, strategic intelligence, or model development. The sensitivity of this data could make breaches particularly damaging for affected individuals and companies, making it an attractive target for extortion-focused cybercriminals. Regulatory and national security scrutiny of neurological data will likely intensify: Existing privacy frameworks in the European Union (EU) and several US states already provide heightened protections for neurological or biometric data, but rapid advances in neurotechnology may outpace consumer protection laws. Figure 1: Key threats in neurotechnology and how they will evolve (Source: Recorded Future) Analysis What is neurotechnology? Neurotechnology is the field focused on understanding and interacting with the brain through technology. Much of the progress so far has been in medicine, where scientists seek to use the technology to treat neurological disorders such as Parkinson’s disease or paralysis. Implantable BCIs have demonstrated the ability to translate brain activity into words, enabling individuals with neurological injuries to speak again. In June 2026, China approved the world’s first commercial brain implant, which allows individuals with spinal cord injuries to regain motor control of their hands via a robotic glove. Other BCI technologies remain in clinical trials. Less invasive examples of the technology include medical electroencephalography (EEG) equipment that externally measures brain activity to diagnose and monitor conditions such as epilepsy, sleep disorders, and ADHD. The global neurotechnology market is projected to reach $53 billion by 2034, driven by the rising prevalence of neurological disorders and the rapid evolution of artificial intelligence (AI) and machine learning that enable the interpretation of neurological data. Outside of medical use cases, the consumer neurotechnology market is rapidly expanding. According to a market study published by the Centre for Future Generations in mid-2025, 45 consumer neurotechnology brands focused on wellness and fitness emerged over the last decade, making it the largest consumer sector in neurotechnology devices. These include products that monitor brain activity to improve focus, such as glasses that use neurofeedback to darken when the user is distracted and lighten when they are focused, as well as products that use brain data for “ brain tra
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Emerging Threats to Neurotechnology
-  - Published: 2026-08-06T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/emerging-threats-neurotechnology
-  - Summary: Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.
-
-### Cluster 725e4c357a — score 10
-
-- Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-05T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, zero_day
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, zero_day
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
-```
-
-#### Full body
-
-```
-Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic defense will be essential to countering agentic offense. However, defenders must actively mitigate the risk of autonomous systems operating outside of their expected parameters. In July 2026, OpenAI disclosed that models undergoing an internal cybersecurity evaluation had escaped their testing environment and compromised part of Hugging Face’s production infrastructure. OpenAI characterized the event as an “unprecedented cyber incident.” The incident should put security leaders on alert, but not for the reasons OpenAI suggests. One concern is that OpenAI’s agents demonstrated the ability to autonomously carry out an end-to-end cyberattack, placing the models at the highest level of autonomy within Recorded Future’s AIM3 framework. However, the greater concern is that the model operators did not sufficiently monitor for or prepare to mitigate unauthorized agentic activity. Enterprises using agents for security and other purposes should see the Hugging Face incident as a warning about what happens when agents are set loose without safeguards against adverse outcomes. What Happened The incident began during an OpenAI evaluation designed to measure advanced cyber capabilities. The evaluation involved GPT-5.6 Sol and an even more capable internal research prototype that OpenAI says was not intended for public release. Because the objective was to test their maximum offensive potential, the models were operated with reduced security guardrails (normally used to prevent high-risk activity). According to OpenAI , the models spent substantial computing resources searching for a path to the internet. They exploited a zero-day vulnerability in Artifactory, the package-registry cache proxy available in the evaluation environment, and then performed privilege escalation and lateral movement within OpenAI’s research environment until they reached a node with internet access. Once online, the models inferred that Hugging Face might contain models, datasets, or solutions associated with ExploitGym, the benchmark they had been instructed to solve. OpenAI says the agents then chained stolen credentials, zero-day vulnerabilities, and remote code execution paths to obtain test solutions from a Hugging Face production database. Hugging Face’s technical reconstruction covers roughly 17,600 recovered agent actions, grouped into approximately 6,280 clusters, between July 9 and July 13, 2026. Although most attempts failed, the agent still gained administrative access to internal and production systems, accessed some source-code repositories, and used a stolen credential to connect external systems to the company network. Hugging Face found no evidence that its public models, datasets, services, packages, or published software supply chain were altered. It says the only customer content accessed comprised five datasets, apparently related to ExploitGym or CyberGym. A Capability Breakthrough and a Control Failure Most coverage of this incident has framed it as a breakthrough in model capabilities, since it is the first known instance of a model apparently independently conducting an end-to-end cyberattack. The underlying techniques were largely familiar to those used in human-led cyberattacks: vulnerability exploitation, credential theft, staging, remote code execution, lateral movement, and abuse of privileged or trusted access. What was notable was the agents’ ability to select and chain those steps autonomously across a long-running operation. This represents a significant shift in the speed and scale of future incidents. An autonomous agent can execute thousands of actions, test multiple paths, and continue working without the fatigue, coordination costs, or time constraints that limit human operators. In this case, most of the roughly 17,600 recovered actions were associated with failed paths. The operation was noisy and failure-prone, but it needed only a small number of
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
-  - Published: 2026-08-05T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
-  - Summary: Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
-
-### Cluster f1f9ac4c52 — score 10
-
-- Title: 8 Ways AI is Changing Threat Intelligence
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-03T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
-```
-
-#### Full body
-
-```
-8 Ways AI is Changing Threat Intelligence The fundamentals haven't changed — the clock speed has. Defending everything is still the job, but adversaries can now move at machine-speed, which means the intelligence behind every decision has to move just as fast. AI cuts both ways. The same automation that lets defenders orchestrate faster is available to attackers too, and whoever uses it more creatively will often hold the advantage at any given moment. Trust in automation is being built one decision at a time. Human-in-the-loop approval is today's norm, but most security leaders expect that to shift toward human oversight of largely autonomous systems within the next few years. AI is changing the threat landscape faster than most security organizations can keep up. Recorded Future co-founder Christopher Ahlberg, CTO and co-founder Staffan Truvé, and Head of Threat Intelligence Levi Gundert unpack what’s actually happening in a recent conversation — and what it means for your defenses. Read on for their 8 takeaways. 1. The threat landscape now moves at machine speed. AI has made exposure discovery instant. Your unknown exposures are now part of your attack surface, and threats are multiplying faster than most teams can triage. While most security organizations are responding by trying to move faster, speed without accuracy isn’t an advantage. Staying ahead means having intelligence that makes machine-speed defense more effective, not just fast. As Truvé put it, intelligence has always been the way to stay proactive instead of reactive, and as "clock speed" increases across the industry, staying even a little ahead requires acting on intelligence faster than ever. “External attack surface, security operations, vulnerability management, prioritizing — so many of these use cases and workflows take on a new level of urgency because of the speed component,” Gundert said. 2. "Defend the right things" is now a multi-bear problem. The team agreed that the old security adage — you don't have to outrun the bear, just the person next to you — no longer holds. AI removes that comfort almost entirely. Attackers only need one way in. Defenders have to cover just about everything. That asymmetry has always been the challenge and AI is making it structurally worse. It’s no longer one bear chasing the herd anymore — it's one bear chasing each member of the herd, since attackers can automate at scale even more efficiently. 3. Attacks are already becoming more clever, not just faster. The panel discussed a real-world software supply chain compromise where attackers used compromised credentials to push a malicious package update, then had an LLM already present on infected developer machines search out AWS keys, SSH keys, and other credentials locally. The stolen data was encrypted and exfiltrated through a public GitHub repository — activity that never tripped EDR because it looked like ordinary LLM usage. It was a preview of a much bigger wave of clever attacks that will likely quietly repurpose and weaponize the AI tools already installed on a target's machine. 4. Locking down devices isn't the only answer — context-aware access might be. Locking down every endpoint isn't realistic, and it probably is not the answer. Situational permissions, such as access that flexes by location, time, and context are zero trust logic applied to the AI era. 5. Whether AI favors attackers or defenders depends on execution. Everyone is talking about what AI can do. Fewer are asking who AI will ultimately benefit. Will the advantage belong to attackers or defenders? It’s a question of how well organizations manage the trade-off between innovation and guardrails. Teams that articulate boundaries tend to build stronger solutions. Truvé broadened the definition of "AI" beyond LLMs to include things like anomaly detection, and predicted an ongoing arms race. “At any given point in time, depending on who's more creative in using the new technology,” he said, “one side
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: 8 Ways AI is Changing Threat Intelligence
-  - Published: 2026-08-03T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
-  - Summary: Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
-
 ### Cluster 87cb88c47a — score 10
 
 - Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
@@ -2719,22 +2610,16 @@ This morning, I noticed specific sources "hunting" for vulnerabilities in URLs t
 - Source: Krebs on Security (practitioner_analysis)
 - Published: 2026-08-06T17:00:56+00:00
 - Link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- affected_industries: financial_services, government
-- affected_products: Snowflake
 - content_type: incident_report
 - confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- affected_industries: financial_services, government
-- affected_products: Snowflake
 - content_type: incident_report
 - confidence_tier: tier_3_analysis
 
@@ -2744,12 +2629,6 @@ This morning, I noticed specific sources "hunting" for vulnerabilities in URLs t
 A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.
 ```
 
-#### Full body
-
-```
-A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud provider Snowflake . Connor Riley Moucka , of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers. A surveillance photo of Connor Riley Moucka, a.k.a. “Judische” and “Waifu,” dated Oct 21, 2024, 9 days before Moucka’s arrest. This image was included in an affidavit filed by an investigator with the Royal Canadian Mounted Police (RCMP). The U.S. Justice Department said between February and October 2024, Moucka and co-conspirators used stolen login credentials to steal cloud-hosted data belonging to at least 165 customers of a U.S.-based software-as-a-service company. The hackers targeted stolen credentials for Snowflake customer accounts that did not enforce multi-factor authentication, and extorted or attempted to extort a host of well-known companies, including TicketMaster, Lending Tree, Advance Auto Parts and Neiman Marcus. Snowflake responded to the data thefts by increasing password complexity requirements and enforcing multi-factor authentication. Moucka adopted new nicknames frequently — sometimes operating multiple identities concurrently — but two of his best-known monikers were “ Judische ” and “ Waifu .” Judische’s admitted role in the Snowflake data thefts was first documented by KrebsOnSecurity in a September 2024 story about the overlap between Western, English-speaking cybercriminals and extremist groups that harass and extort minors into harming themselves or others. That September 2024 story identified Judische as a software engineer from Ontario who has been involved in numerous data breaches and voice phishing attacks against U.S. companies since at least 2020. A little more than a month later, Canadian authorities arrested Moucka on a provisional warrant from the United States. The government says Moucka and others used their unauthorized access to steal billions of sensitive customer records and download terabytes of information, “including individuals’ non-content call and text history records, banking and other financial information, payroll records, Drug Enforcement Administration (DEA) registration numbers, driver’s license numbers, passport numbers, social security numbers and other personally identifiable information. They then extorted victims by threatening to publish data online.” Moucka also threatened and harassed government officials and security researchers who were helping to track him down. The Justice Department said the conspirators made over $2.5 million in ransom payments, and that in at least one instance, Moucka re-extorted a victim with threats of further disclosure of the victim’s stolen data. “Moucka used the stolen data of a government officer and members of a then-former government officer’s immediate family in this re-extortion attempt,” reads a statement from the Justice Department. One of Moucka’s admitted co-conspirators is Cameron “Kiberphant0m” Wagenius , a U.S. Army soldier who pleaded guilty in July 2025 to extorting AT&T and Verizon for their customer account data. Less than a month before Wagenius’s arrest, KrebsOnSecurity published a deep dive into Kiberphant0m’s various Telegram and Discord identities over the years, revealing how the owner of the accounts told others they were in the Army and stationed in South Korea. One of several selfies on the Facebook page of Cameron Wagenius. Kiberphant0m also re-extorted victims. Immediately following Moucka’s arrest, Kiberphant0m posted on hacker forums what he claimed were the AT&T call logs for then President-elect Donald Trump and for then Vice President Kamala Harris, as well schematics allegedly stolen from the U.S. National Security Agency (NSA). Wagenius is set to be sentenced on September 3, 2026. The government says he faces a maxim
-```
-
 #### Corroborating sources (1)
 
 - **Krebs on Security** (practitioner_analysis)
@@ -2757,6 +2636,58 @@ A 26-year-old Canadian man once described as one of the most consequential cyber
   - Published: 2026-08-06T17:00:56+00:00
   - Link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
   - Summary: A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.
+
+### Cluster c4d9e2c2f9 — score 9
+
+- Title: TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-07T06:50:05+00:00
+- Link: https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: TeamPCP
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ransomware_extortion, supply_chain, web_shell_backdoor
+- actor_attribution: TeamPCP
+- affected_industries: financial_services
+- affected_products: GitHub, GitLab, Kubernetes
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, credential_theft, web_shell_backdoor
+- actor_attribution: TeamPCP
+- affected_industries: financial_services
+- affected_products: Kubernetes, GitLab, GitHub
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. "The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,
+```
+
+#### Full body
+
+```
+TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign  Ravie Lakshmanan  Aug 07, 2026 Cybercrime / Vulnerability A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. "The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure, and operational tradecraft," Oligo Security researchers Avi Lumelsky and Gal Elbaz said . This includes two campaigns observed in the second half of 2025: ShadowRay 2.0 (aka IronErn), which involved hijacking artificial intelligence (AI) infrastructure into a self-propagating botnet, and TA-NATALSTATUS , which targeted exposed Redis servers to deliver cryptocurrency miners. TA-NATALSTATUS is assessed to be an evolution of a prior campaign that was detailed by Trend Micro in April 2020 that involved targeting Redis servers to deploy malware. This suggests that the threat actor has been actively targeting internet-accessible infrastructure across Ray, Docker, Redis, and React much before it branded itself as TeamPCP. Details of the attackers first emerged towards the end of last year when they were linked to the exploitation of security flaws in React Server Components (RSC) and Next.js to facilitate the extraction of credentials and sensitive data from compromised environments. The activity was codenamed Operation PCPcat . Then, earlier this year, Flare detailed a massive campaign undertaken by the threat actor to systematically target cloud native environments as part of efforts to set up malicious infrastructure for follow-on exploitation. "The operation's goals were to build a distributed proxy and scanning infrastructure at scale, then compromise servers to exfiltrate data, deploy ransomware, conduct extortion, and mine cryptocurrency," Flare security researcher Assaf Morag noted at the time. The group has since branched into high-profile supply chain compromises , weaponizing the interconnected nature of modern software to infect developer systems en masse by poisoning popular open-source libraries through a combination of GitHub Actions and token theft abuse. "One of the strongest operational links is the overlap between the IronErn GitHub and GitLab identities observed during ShadowRay 2.0 and TeamPCP's later infrastructure," Oligo said. "Correlating GitLab authentication logs, command-and-control infrastructure, reverse-shell activity, and malware staging establishes a direct operational bridge between the ShadowRay 2.0 campaign and the actor later operating publicly as TeamPCP." The latest findings show that not only are these efforts linked, but also that the threat actor repeatedly abused known security flaws impacting React, Docker, Redis, and Ray to gain access and rely on automated and wormable exploitation techniques for self-propagation. The expansion into cascading software supply chain attacks, therefore, represents a natural evolution of this trend, allowing the threat actors to take advantage of legitimate cloud infrastructure and repurpose tried and tested methods in their efforts. These shifts have been complemented by continuous updates to its malware arsenal, including a Python script ("kube.py") that's specifically used after breaching Kubernetes environments. While earlier versions of the script focused on propagation and setting up persistence, new variants observed as recently as March 2026 began to incorporate wiper-like functionality. This destructive code path checked whether the victim system was configured for the Iran timezone and, if that's the case, fired a DaemonSet that wiped every node in the cluster via a wiper not-so-subtly named Kamikaze. On Kubernetes nodes located outside of Iran, it deployed the CanisterWorm backdoor. For non-Kubernetes Iranian systems
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign
+  - Published: 2026-08-07T06:50:05+00:00
+  - Link: https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+  - Summary: A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. "The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Open-source software’s archenemy TeamPCP goes back further than anyone thought
+  - Published: 2026-08-05T13:00:00+00:00
+  - Link: https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
+  - Summary: Oligo Security uncovered evidence of a long operational history, including multiple previous attacks it traced to the same attacker infrastructure and tools. The post Open-source software’s archenemy TeamPCP goes back further than anyone thought appeared first on CyberScoop .
 
 ### Cluster 2b2ae045a4 — score 9
 
