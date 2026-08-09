@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 09 Aug 2026 21:39:21 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 22:37:59 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -2163,6 +2163,15 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>condense-json 1.0</title>
+<link>https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything</link>
+<description><![CDATA[Release: condense-json 1.0 I&apos;m trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I&apos;ve applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here&apos;s an example of what it can do, lifted from the README: { &quot;foo&quot; : { &quot;bar&quot; : { &quot;string&quot; : &quot; This is a string with foxes in it &quot; , &quot;nested&quot; : { &quot;more&quot; : [ &quot; Here is a string &quot; , &quot; another with foxes in it too &quot; ] } } } } Combine that with a replacements object: { &quot;1&quot; : &quot; with foxes in it &quot; } And condense_json(input_json, replacements) produces the following: { &quot;foo&quot; : { &quot;bar&quot; : { &quot;string&quot; : { &quot;$r&quot; : [ &quot; This is a string &quot; , { &quot;$&quot; : &quot; 1 &quot; }]}, &quot;nested&quot; : { &quot;more&quot; : [ &quot; Here is a string &quot; , { &quot;$r&quot; : [ &quot; another &quot; , { &quot;$&quot; : &quot; 1 &quot; }, &quot; too &quot; ]}] } } } } It scans for strings or substrings that are present in that replacements object and replaces those with a special {&quot;$r&quot;: ...} syntax in the output. You can reverse the effect with uncondense_json(condensed, replacements) . The ]]></description>
+<pubDate>Sun, 02 Aug 2026 22:19:59 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>The Risk of Fine-Tuned Open-Weight Models · MSec Operations Blog</title>
 <link>https://www.reddit.com/r/netsec/comments/1vdqe9d/the_risk_of_finetuned_openweight_models_msec/</link>
 <description><![CDATA[submitted by /u/S3cur3Th1sSh1t [link] [comments]]]></description>
@@ -2254,15 +2263,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>deepseek-ai/DeepSeek-V4-Flash-0731</title>
-<link>https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</link>
-<description><![CDATA[deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek&apos;s V4 family, &quot;with substantially enhanced agentic capabilities&quot;. It&apos;s 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above its weight. Artificial Analysis rank it ahead of MiniMax M3 - a 428B model. It&apos;s $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It&apos;s looking very good on the Intelligence Index vs. Cost per Intelligence Index Task chart: I got a disappointing pelican from it using the default reasoning level via OpenRouter: But when I bumped reasoning level up to high I got something much better : llm -m openrouter/deepseek/deepseek-v4-flash-0731 -t pelican -o reasoning_effort high Via Hacker News Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , deepseek , llm-release , openrouter , ai-in-china , artificial-analysis]]></description>
-<pubDate>Fri, 31 Jul 2026 23:59:44 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>CVE-2026-20316 | Cisco Secure Firewall Management Center Static Credential Vulnerability</title>
@@ -19398,7 +19398,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19407,7 +19407,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19416,7 +19416,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19425,7 +19425,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19434,7 +19434,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19443,7 +19443,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19452,7 +19452,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19461,7 +19461,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19470,7 +19470,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19479,7 +19479,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 21:39:21 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 22:37:59 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
