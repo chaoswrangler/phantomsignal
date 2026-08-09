@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 09 Aug 2026 07:05:44 +0000</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 07:58:25 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>3-char password, no rate-limiting policy, no CAPTCHA — 48k+ brute-force attempts, still unbroken. What would you try?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vjglw2/3char_password_no_ratelimiting_policy_no_captcha/</link>
+<description><![CDATA[Genuinely curious what this community would try here. I&apos;ve been running a live experiment: a login system where the password space is deliberately tiny (3 lowercase characters, ~17,576 combinations) and there&apos;s no CAPTCHA, no rate-limiting policy, no IP blocking — just an adaptive defense layer running underneath. I&apos;m not going to explain how it works, because that&apos;s kind of the point of the experiment — I know that&apos;s an unusual thing to say on a security subreddit, happy to discuss the reasoning once people have had a shot at it. If you want to poke at it: Register a throwaway account (random username, takes 5 seconds) You get assigned a 3-character password (lowercase a-z only) Try to brute-force your own account back open, no restrictions It&apos;s been public for a while now — 48,000+ login attempts so far, no successful brute-force observed yet. There&apos;s a public, read-only attack monitoring panel if you want to watch what the system is seeing while you try. Not selling anything, no sig]]></description>
+<pubDate>Sun, 09 Aug 2026 04:48:23 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vjglw2/3char_password_no_ratelimiting_policy_no_captcha/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
 <item>
 <title>DEFCON: New Red Team Tactic</title>
 <link>https://www.reddit.com/r/netsec/comments/1vjfos6/defcon_new_red_team_tactic/</link>
@@ -29,6 +38,24 @@
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
 <category>ai_security</category>
+</item>
+<item>
+<title>When does a security PoC turn into what can be called a ‘real-world deployment’?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vj2g2a/when_does_a_security_poc_turn_into_what_can_be/</link>
+<description><![CDATA[Let’s say there’s a security product which is tested within an environment closely resembling the production one. The application, network topology, integration, certificates/configurations and traffic are all the same .In this situation testing seems to be successful, and it shows that the controls can be installed in the application without disrupting it. But everything happens in a lab. There are no real customers or dealings. Would you treat this as a real-world deployment? To me, this proves more than just a PoC. The issues of compatibility, interoperability, and the level of efficiency can also be investigated. However, it doesn’t allow us to understand what will happen in the case of actual traffic, edge case, failures, or something like that. How should we define the term we are using for such trials? submitted by /u/omytolawschool [link] [comments]]]></description>
+<pubDate>Sat, 08 Aug 2026 17:53:29 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vj2g2a/when_does_a_security_poc_turn_into_what_can_be/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>How do you verify if something you read online is actually true?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vj28r0/how_do_you_verify_if_something_you_read_online_is/</link>
+<description><![CDATA[I feel like there is so much cybersecurity information shared online now that it’s becoming harder to separate reliable guidance from opinions or outdated advice. Especially with security topics, people often present recommendations, tools, and best practices with a lot of confidence, but the details don’t always match real-world enterprise environments. For those working in security teams or managing IT environments, what process do you use to verify information before applying it? Do you rely on specific sources, internal testing, vendor documentation, threat intelligence, or other methods before accepting security advice as accurate? Would be interested to hear how others avoid following bad information in an enterprise or SOHO environment. submitted by /u/NarwhalFew9651 [link] [comments]]]></description>
+<pubDate>Sat, 08 Aug 2026 17:45:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vj28r0/how_do_you_verify_if_something_you_read_online_is/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Hackers breach TrueConf to trojanize client installers with backdoors</title>
@@ -64,6 +91,16 @@
 <category>Atlassian Confluence</category>
 <category>Atlassian Jira</category>
 <category>Microsoft SharePoint</category>
+</item>
+<item>
+<title>Would you share your experience with vulnerability report review in bug bounty or disclosure programs?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vit4we/would_you_share_your_experience_with/</link>
+<description><![CDATA[This survey has been approved by the r/AskNetsec moderators. Hello, I am conducting an academic study on vulnerability report evaluation in bug bounty and vulnerability disclosure programs. The study aims to understand how security personnel evaluate vulnerability reports in practice, and what challenges they face during the review process. Topics include report validity, duplicates, scope, reproducibility, PoC quality, evidence, severity, impact, communication issues, and AI-generated or AI-assisted vulnerability reports. I am looking for participants who have experience with vulnerability report handling, bug bounty programs, or vulnerability disclosure workflows, including but not limited to: - Security triagers or reviewers - Application security engineers - Product security engineers - PSIRT or vulnerability disclosure team members - Bug bounty program managers - Open-source maintainers who have handled security reports - Experienced bug bounty researchers who have interacted with<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
+<pubDate>Sat, 08 Aug 2026 11:04:56 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vit4we/would_you_share_your_experience_with/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+<category>vulnerability_disclosure</category>
 </item>
 <item>
 <title>Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers</title>
@@ -375,6 +412,15 @@
 <category>policy_strategy_geopolitics</category>
 </item>
 <item>
+<title>Bank of Baroda reportedly had ~1TB of data leaked. What controls should have stopped this?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vhy6e0/bank_of_baroda_reportedly_had_1tb_of_data_leaked/</link>
+<description><![CDATA[Saw the recent reports about the Bank of Baroda breach where close to 1TB of data was allegedly leaked. Instead of discussing the breach itself, I&apos;m curious about the technical side. For people working in blue team/security engineering: 1 If an attacker compromises a single employee account, what controls should realistically prevent it from turning into large-scale data exfiltration? 2 Would proper network segmentation have made the biggest difference? 3 How effective is DLP when someone is slowly exfiltrating data over days/weeks? 4 Should a normal employee account ever have a path to systems containing this volume of customer data? 5 What detections would you expect to trigger before hundreds of GBs leave the environment? 6 At this scale, is this more likely an IAM problem, monitoring failure, architecture problem or a combination? 7 Also curious: what would be the first thing you&apos;d investigate if you were brought into the incident response team? Would love to hear from people who&apos;v]]></description>
+<pubDate>Fri, 07 Aug 2026 11:37:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vhy6e0/bank_of_baroda_reportedly_had_1tb_of_data_leaked/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Vishing Extortion Group UNC6671 Rebrands After Making Millions</title>
 <link>https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/</link>
 <description><![CDATA[Initially calling itself BlackFile, the group has expanded operations to the Redact, Pink, Helix, and Falcon brands. The post Vishing Extortion Group UNC6671 Rebrands After Making Millions appeared first on SecurityWeek .<br/><br/><em>Tags: UNC6671 · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -483,6 +529,17 @@
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
+</item>
+<item>
+<title>Should LLMs&apos; exploit capabilities be surprising?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vhu7yi/should_llms_exploit_capabilities_be_surprising/</link>
+<description><![CDATA[I&apos;ve been following the reports about OpenAI models reaching Hugging Face&apos;s infrastructure, along with related incidents involving Anthropic and now Meta. Maybe I&apos;m missing something, but exploitation seems very close to coding, debugging, research, and tool use. As LLMs improve at those tasks, some ability to find and exploit vulnerabilities seems predictable. What I&apos;m less sure about is what these incidents actually demonstrate. Are we seeing a meaningful jump in offensive capability, or evaluation environments (and companies behind them) that failed to enforce their own boundaries? Put differently: if a human pentester went out of scope because the test environment allowed it, would we call that a capability breakthrough or a containment failure? (Am I oversimplifying?) submitted by /u/ofogliata [link] [comments]<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT</em>]]></description>
+<pubDate>Fri, 07 Aug 2026 07:52:45 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vhu7yi/should_llms_exploit_capabilities_be_surprising/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>3.8 Million Impacted by Unlimited Technology Systems Data Breach</title>
@@ -655,6 +712,15 @@
 <guid isPermaLink="true">https://cyberscoop.com/exposed-rockwell-controllers-water-system-attacks/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Are hardened container images actually saving anyone time or just creating different problems?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vhdl03/are_hardened_container_images_actually_saving/</link>
+<description><![CDATA[Our AppSec team burns hours triaging unpatchable OS binaries that scanners keep finding in standard base layers. Now management wants hardened container images everywhere because they think the vulnerability count magically drops to zero. For anyone running hardened container images in prod, did your triaging actually go down or did the work just move into CI/CD with broken build pipelines missing shared libraries and a different set of headaches? submitted by /u/FriendNo6017 [link] [comments]]]></description>
+<pubDate>Thu, 06 Aug 2026 19:07:31 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vhdl03/are_hardened_container_images_actually_saving/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Route Amazon Bedrock Guardrails interventions to Amazon Security Lake</title>
@@ -909,6 +975,15 @@
 <guid isPermaLink="true">https://orca.security/resources/blog/vulnerability-scanning-tools/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Why does identity governance still miss local accounts and unmanaged apps?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vh315d/why_does_identity_governance_still_miss_local/</link>
+<description><![CDATA[trying to understand if this is a tooling problem or a process problem. cuz every IGA platform we&apos;ve evaluated reports clean access certifications... but every red team engagement finds local accounts, forgotten service credentials, or shadow apps that were never in scope for the review to begin with. so it kinda feels like governance tools are certifying &quot;the identities we told the tool about&quot; rather than &quot;the identities that exist.&quot; is anyone solving the discovery problem, or is this just accepted as a permanent blind spot? submitted by /u/Puzzleheaded-Fun5664 [link] [comments]]]></description>
+<pubDate>Thu, 06 Aug 2026 12:36:15 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vh315d/why_does_identity_governance_still_miss_local/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities</title>
@@ -1183,6 +1258,16 @@
 <category>ai_security</category>
 </item>
 <item>
+<title>How do you keep up with new threats without losing your mind to the noise?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vgl9mj/how_do_you_keep_up_with_new_threats_without/</link>
+<description><![CDATA[Six of us on the security team, somewhere around 4,000 assets between cloud and the stuff still sitting on-prem. Feels like every week there&apos;s another &quot;critical&quot; CVE or zero-day and a bunch of feeds all yelling at once. Most of it doesn&apos;t even touch what we run, but I still end up spending half my morning going ok do we actually have this, is it exposed, does it matter for us. By the time I&apos;ve checked the threat report details against our inventory and figured out if it&apos;s even reachable, half the day&apos;s gone and there&apos;s a new one waiting. So how do you handle it? I don&apos;t want to ignore something I shouldn&apos;t, but I also can&apos;t chase every headline. More interested in the triage side than &quot;just patch everything.&quot; How do you decide what&apos;s actually worth your time. submitted by /u/Strict-Pangolin-9673 [link] [comments]<br/><br/><em>Tags: zero_day</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 21:53:54 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vgl9mj/how_do_you_keep_up_with_new_threats_without/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+<category>zero_day</category>
+</item>
+<item>
 <title>Canadian pleads guilty to Snowflake cloud data-theft attacks</title>
 <link>https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/</link>
 <description><![CDATA[A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]<br/><br/><em>Tags: Snowflake</em>]]></description>
@@ -1290,7 +1375,7 @@
 <description><![CDATA[A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
 <pubDate>Wed, 05 Aug 2026 15:48:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Apple iOS/macOS</category>
 <category>credential_theft</category>
@@ -1301,7 +1386,7 @@
 <description><![CDATA[A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
 <pubDate>Wed, 05 Aug 2026 15:48:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Apple iOS/macOS</category>
 <category>credential_theft</category>
@@ -1418,6 +1503,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>What is the difference between exposure validation and exposure management?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vg52rk/what_is_the_difference_between_exposure/</link>
+<description><![CDATA[I&apos;m trying to wrap my head around the terminology shift. We have Vulnerability Management (finding CVEs), Exposure Management (finding assets plus CVEs), and now Exposure Validation (finding exploitable CVEs). A new platform I&apos;m looking at takes it further with what they call &quot;Agentic Cyber Defense Engineering&quot; and an AI engine. The claim is that the system acts autonomously to improve defenses, not just validate them. Is &quot;Validation&quot; just a fancy way of saying &quot;prioritization&quot;? Or is it actually dynamically testing the compensating controls? If Management says I have a vulnerability because Qualys says so, and Validation says the vulnerability is blocked by a network firewall, does that mean my risk is zero, or do I just have &quot;deferred&quot; risk? And what does &quot;Agentic&quot; add beyond automation? I&apos;m looking for a practical definition of how these layers work together. submitted by /u/Greedy-Sun8586 [link] [comments]]]></description>
+<pubDate>Wed, 05 Aug 2026 11:46:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vg52rk/what_is_the_difference_between_exposure/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch</title>
 <link>https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html</link>
 <description><![CDATA[A memory corruption flaw in the Linux kernel&apos;s Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds. The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim<br/><br/><em>Tags: CVE-2026-64531</em>]]></description>
@@ -1452,6 +1546,17 @@
 <category>CVE-2026-60004</category>
 </item>
 <item>
+<title>Is real-time protection now the most important antivirus feature?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vg47pt/is_realtime_protection_now_the_most_important/</link>
+<description><![CDATA[I was comparing a few antivirus products recently, and I noticed that real-time protection seems to be one of the biggest selling points nowadays. A lot of vendors emphasize phishing protection, malicious website blocking, behavior monitoring, and ransomware prevention rather than just malware detection. It got me thinking because years ago, antivirus products were mostly judged by how well they detected and removed malware. Now, it seems like the focus has shifted toward stopping users from ever reaching a malicious file or website in the first place. I&apos;m not saying malware detection isn&apos;t important anymore -it obviously is. I&apos;m just wondering whether real-time protection has become the feature that makes the biggest difference in day-to-day security, while malware detection is now more of an expected baseline. For those working in IT or cybersecurity, would you say real-time protection is the most important feature in modern antivirus today? submitted by /u/heartstonelegend [link] [c<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 11:03:33 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vg47pt/is_realtime_protection_now_the_most_important/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
 <title>A few notes on AWS Nitro Enclaves: KMS integration</title>
 <link>https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/</link>
 <description><![CDATA[Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n]]></description>
@@ -1480,6 +1585,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>GitHub</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>Does your IT department have an official policy on sanitizing data before using GenAI, or is it currently the wild west?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1vg33a8/does_your_it_department_have_an_official_policy/</link>
+<description><![CDATA[Pasting a broken switch config into ChatGPT is the fastest way to find a syntax error. It is also the fastest way to violate your company&apos;s data security policy and potentially lose your job! AI is now a routine part of the NetOps workflow. But public Large Language Models (LLMs) often use user inputs to train future models. If you upload an unfiltered show run or a firewall log, you are handing over your enterprise&apos;s internal IP schemas, SNMP community strings, VPN endpoints, and routing topologies to a public server. For US companies bound by compliance (HIPAA, SOC2, PCI), this is a critical data breach. The Solution (How to use AI safely): -Never paste real public IPs, internal domain names, or AAA/SNMP blocks. If you need help with an OSPF neighbor issue, swap your real subnets for generic dummy IPs (like 192.168.1.x) before feeding it to the prompt. -Instead of asking, &quot;Fix this exact access control list,&quot; ask, &quot;Write an extended ACL template that blocks Telnet but allows SSH from<br/><br/><em>Tags: data_breach</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 10:05:13 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1vg33a8/does_your_it_department_have_an_official_policy/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs</title>
@@ -1614,7 +1729,7 @@
 <description><![CDATA[A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 23:46:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -1625,7 +1740,7 @@
 <description><![CDATA[A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 23:46:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -1748,6 +1863,15 @@
 <category>mfa_bypass</category>
 </item>
 <item>
+<title>Cloud and SaaS Environments Now Top Targets for Attackers</title>
+<link>https://www.infosecurity-magazine.com/news/cloud-saas-targets-attackers/</link>
+<description><![CDATA[Cloud and SaaS are now the preferred operating environments for threat actors, amid a continued shift to identity attacks]]></description>
+<pubDate>Tue, 04 Aug 2026 11:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/cloud-saas-targets-attackers/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted</title>
 <link>https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html</link>
 <description><![CDATA[The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by ranking attacker sophistication. Nation-state actors sat at one end. Organized criminal groups followed. Inexperienced attackers, dismissed as &quot;script kiddies,&quot; sat at the other end, running public<br/><br/><em>Tags: apt_espionage</em>]]></description>
@@ -1756,15 +1880,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>Cloud and SaaS Environments Now Top Targets for Attackers</title>
-<link>https://www.infosecurity-magazine.com/news/cloud-saas-targets-attackers/</link>
-<description><![CDATA[Cloud and SaaS are now the preferred operating environments for threat actors, amid a continued shift to identity attacks]]></description>
-<pubDate>Tue, 04 Aug 2026 11:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/cloud-saas-targets-attackers/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>keyv and cacheable npm Package Hijacked in Supply Chain Attack</title>
@@ -2253,7 +2368,7 @@
 <description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>APT29</category>
 <category>credential_theft</category>
@@ -2264,7 +2379,7 @@
 <description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>APT29</category>
 <category>credential_theft</category>
@@ -3436,16 +3551,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -3455,6 +3560,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
+</item>
+<item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -6388,15 +6503,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Build AI Security Agents with Wiz MCP</title>
-<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
-<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
-<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>GPT-5.5-Cyber built a zlib fuzzing lab in a day</title>
 <link>https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/</link>
 <description><![CDATA[We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run. We’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag. The expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber build in a single day what would have taken weeks for a skilled security researcher : harnesses across a dozen entrypoints, sanitizer and variant builds, seeds, and multiple findings currently undergoing<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -6405,6 +6511,15 @@
 <source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
 <category>offensive_vulnerability_research</category>
 <category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Build AI Security Agents with Wiz MCP</title>
+<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
+<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
+<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>/r/netsec&apos;s Q3 2026 Information Security Hiring Thread</title>
@@ -19388,7 +19503,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19397,7 +19512,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19406,7 +19521,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19415,7 +19530,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19424,7 +19539,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19433,7 +19548,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19442,7 +19557,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19451,7 +19566,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19460,7 +19575,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19469,7 +19584,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 09 Aug 2026 07:05:44 +0000</pubDate>
+<pubDate>Sun, 09 Aug 2026 07:58:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
