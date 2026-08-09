@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-09T17:36:50.155482+00:00",
+  "generated_at": "2026-08-09T18:50:38.284412+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2153,
+  "total_items": 2168,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 6
+    },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -53,18 +53,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 2
     },
     "Sekoia": {
@@ -74,13 +67,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -88,12 +74,26 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 2
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 9
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -102,12 +102,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 9
+      "in_window_count": 0
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -123,23 +123,16 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -165,6 +158,20 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
@@ -186,11 +193,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -199,13 +206,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -221,13 +221,6 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -235,12 +228,19 @@
       "item_count": 30,
       "in_window_count": 2
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -256,18 +256,18 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
@@ -319,12 +319,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -333,12 +333,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -347,11 +347,25 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 2
     },
     "BleepingComputer": {
@@ -360,13 +374,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -382,12 +389,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -403,26 +424,12 @@
       "item_count": 50,
       "in_window_count": 20
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 1
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -430,20 +437,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -466,11 +459,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 1
     },
     "Reddit r/sysadmin": {
@@ -479,13 +479,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -501,6 +494,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -508,12 +508,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -527,20 +527,20 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 20
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 21
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -681,55 +681,6 @@
   },
   "affinity_groups": [
     {
-      "label": "Palo Alto Networks active exploitation",
-      "anchor_signal": "Palo Alto Networks",
-      "theme_key": "palo-alto-networks",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation",
-          "supply_chain"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 18,
-      "cohesion": 0.225,
-      "shared_strong_signals": [
-        "Palo Alto Networks"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "e9b42737b7",
-        "38f0f482a4",
-        "ebb24cd9dd",
-        "d1c29125d3",
-        "1c833c15fa"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-        "https://isc.sans.edu/diary/rss/33218",
-        "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
-        "https://securelist.com/cloud-platforms-in-phishing/120832/",
-        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
-        "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
-        "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
-        "https://risky.biz/RBNEWS595/",
-        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
-        "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
-        "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
-      ]
-    },
-    {
       "label": "Microsoft SharePoint active exploitation",
       "anchor_signal": "Microsoft SharePoint",
       "theme_key": "microsoft-sharepoint",
@@ -785,6 +736,42 @@
       ]
     },
     {
+      "label": "Palo Alto Networks active exploitation",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 4,
+      "cohesion": 0.229,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "e9b42737b7",
+        "ebb24cd9dd",
+        "d1c29125d3",
+        "1c833c15fa"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+        "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
+        "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
+        "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
+      ]
+    },
+    {
       "label": "supply chain targeting npm",
       "anchor_signal": "npm",
       "theme_key": "npm",
@@ -802,29 +789,31 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 35,
-      "cohesion": 0.264,
+      "article_count": 38,
+      "cohesion": 0.24,
       "shared_strong_signals": [
         "npm"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "38f0f482a4",
+        "61004037ea",
         "bb0f596105",
         "772ab8c313",
         "6bd3afe055"
       ],
       "links": [
+        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
         "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
         "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
         "https://isc.sans.edu/diary/rss/33218",
         "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
         "https://securelist.com/cloud-platforms-in-phishing/120832/",
         "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
         "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
-        "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
+        "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/",
         "https://risky.biz/RBNEWS595/",
         "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
         "https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/",
@@ -955,6 +944,57 @@
       ]
     },
     {
+      "label": "TeamPCP: ransomware extortion",
+      "anchor_signal": "TeamPCP",
+      "theme_key": "teampcp",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "cryptojacking"
+        ],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 22,
+      "cohesion": 0.459,
+      "shared_strong_signals": [
+        "TeamPCP"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "61004037ea",
+        "f3f661095c",
+        "02097b7a9a"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
+        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
+        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
+        "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
+        "https://securelist.com/cloud-platforms-in-phishing/120832/",
+        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
+        "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
+        "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/",
+        "https://risky.biz/RBNEWS595/",
+        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
+        "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
+        "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+        "https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/",
+        "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+        "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/"
+      ]
+    },
+    {
       "label": "CVE-2026-63077 exploitation activity",
       "anchor_signal": "CVE-2026-63077",
       "theme_key": "cve-2026-63077",
@@ -1023,43 +1063,42 @@
       ]
     },
     {
-      "label": "TeamPCP: ransomware extortion",
-      "anchor_signal": "TeamPCP",
-      "theme_key": "teampcp",
+      "label": "ransomware extortion targeting Snowflake",
+      "anchor_signal": "Snowflake",
+      "theme_key": "snowflake",
       "dominant_features": {
         "threat_categories": [
           "ransomware_extortion",
-          "cryptojacking"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
+          "phishing_social_eng"
         ],
         "affected_industries": [
           "financial_services",
           "government"
+        ],
+        "affected_products": [
+          "Snowflake"
         ]
       },
       "cluster_count": 3,
-      "article_count": 7,
-      "cohesion": 0.484,
+      "article_count": 6,
+      "cohesion": 0.335,
       "shared_strong_signals": [
-        "TeamPCP"
+        "Snowflake"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "c4d9e2c2f9",
-        "f3f661095c",
-        "02097b7a9a"
+        "e53f5ae0c1",
+        "6bd3afe055",
+        "f3f661095c"
       ],
       "links": [
-        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
-        "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/",
+        "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+        "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
         "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
         "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
         "https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/",
-        "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-        "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/"
+        "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
       ]
     },
     {
@@ -1088,37 +1127,6 @@
         "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
         "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection"
-      ]
-    },
-    {
-      "label": "GitLab vulnerability activity",
-      "anchor_signal": "GitLab",
-      "theme_key": "gitlab",
-      "dominant_features": {
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "GitHub",
-          "GitLab"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "GitLab"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "c97f90a69b",
-        "c4d9e2c2f9"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
-        "https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/"
       ]
     },
     {
@@ -1156,6 +1164,13 @@
     },
     "velocity": [
       {
+        "cluster_id": "61004037ea",
+        "title": "Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack",
+        "sources_in_window": 3,
+        "window_hours": 4.2,
+        "cohort_count": 7
+      },
+      {
         "cluster_id": "bb0f596105",
         "title": "Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts",
         "sources_in_window": 3,
@@ -1165,15 +1180,16 @@
     ],
     "leading_edge": [
       {
-        "cluster_id": "38f0f482a4",
-        "title": "ChainDrop: Inside a Self-Propagating npm Worm",
+        "cluster_id": "61004037ea",
+        "title": "Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack",
         "lead_hours": 32.1,
         "first_source": "Risky Business News",
         "later_tier1_source": "Kaspersky Securelist",
         "shared_signals": [
           "Anthropic/Claude",
           "GitHub",
-          "Palo Alto Networks",
+          "Kubernetes",
+          "TeamPCP",
           "npm"
         ]
       }
@@ -1257,6 +1273,25 @@
     ],
     "drift": [
       {
+        "actor": "TeamPCP",
+        "cluster_id": "61004037ea",
+        "new_industries": [],
+        "new_products": [
+          "Anthropic/Claude",
+          "Kubernetes"
+        ],
+        "prior_top_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "prior_top_products": [
+          "GitHub",
+          "PyPI",
+          "npm"
+        ]
+      },
+      {
         "actor": "ShinyHunters",
         "cluster_id": "d8c893e316",
         "new_industries": [],
@@ -1274,25 +1309,6 @@
           "Microsoft Entra",
           "Salesforce"
         ]
-      },
-      {
-        "actor": "TeamPCP",
-        "cluster_id": "c4d9e2c2f9",
-        "new_industries": [],
-        "new_products": [
-          "GitLab",
-          "Kubernetes"
-        ],
-        "prior_top_industries": [
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "prior_top_products": [
-          "GitHub",
-          "PyPI",
-          "npm"
-        ]
       }
     ],
     "persistence": [
@@ -1304,14 +1320,14 @@
       },
       {
         "axis": "actor_attribution",
-        "value": "Scattered Spider",
-        "cluster_id": "fb2a69eb0a",
+        "value": "TeamPCP",
+        "cluster_id": "61004037ea",
         "weeks_observed": 8
       },
       {
         "axis": "actor_attribution",
-        "value": "TeamPCP",
-        "cluster_id": "c4d9e2c2f9",
+        "value": "Scattered Spider",
+        "cluster_id": "fb2a69eb0a",
         "weeks_observed": 8
       },
       {
@@ -1321,15 +1337,15 @@
         "weeks_observed": 7
       },
       {
-        "axis": "cve_ids",
-        "value": "CVE-2025-3248",
-        "cluster_id": "1c833c15fa",
-        "weeks_observed": 5
-      },
-      {
         "axis": "actor_attribution",
         "value": "LockBit",
         "cluster_id": "b00983247a",
+        "weeks_observed": 5
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2025-3248",
+        "cluster_id": "1c833c15fa",
         "weeks_observed": 5
       },
       {
@@ -1369,6 +1385,34 @@
     ]
   },
   "items": [
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "When terrible disclosure from the vendor results in zero days plus a fun dive in to bypassing full disk encryption",
+      "link": "https://www.reddit.com/r/netsec/comments/1vjxr66/when_terrible_disclosure_from_the_vendor_results/",
+      "published": "2026-08-09T18:44:44+00:00",
+      "summary": "submitted by /u/kev-thehermit [link] [comments]",
+      "author": "/u/kev-thehermit",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
     {
       "source": "Help Net Security",
       "cohort": "cyber_news_breach_reporting",
@@ -2138,19 +2182,52 @@
       "score": 7
     },
     {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "published": "2026-08-07T16:00:00+00:00",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to bridge this gap. Our latest blog post explores how Google Distributed Cloud (GDC) helps organizations deploy connected or air-gapped models to run advanced AI entirely within secure environments—mitigating geopolitical risks without sacrificing innovation. Read more . SAP and Google Cloud Launc",
-      "author": "Google Cloud Content & Editorial",
+      "source": "The Record",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Military device manufacturer discloses cyber incident to SEC",
+      "link": "https://therecord.media/military-device-manufacturer-discloses-cyber-incident",
+      "published": "2026-08-07T16:52:00+00:00",
+      "summary": "IEH Corporation — which produces specialized products used in military satellites, missiles and fighter jets — said it discovered a cyberattack on Tuesday and immediately tried to contain it.",
+      "author": "",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "How Google Cloud detects, contains, and protects against emerging threats",
+      "link": "https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/",
+      "published": "2026-08-07T16:00:00+00:00",
+      "summary": "At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and maintain long-term trust. We approach security from a shared fate model , and we continuously work to proactively identify and mitigate potential threats before they can compromise your data and misuse your infrastructure. Understanding the risk: How bad actors attempt to exploit cloud workloads Hyperscale cloud platforms like Google Cloud offer massive compute capacity, high-speed networking, and cutting-edge AI engines, but these same core strengths also make us high-value targets for malicious actors seeking service disruption, financial gain, or exploit cloud resources. By tracking active adversary techniques, Google’s specialist security teams actively monitor and defend across several areas. AI workload exploitation : As organizations rapidly adopt AI tools and systems, including Ge",
+      "author": "Salmaan Rashid",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
         "affected_products": [
           "Google Cloud"
         ],
@@ -2173,19 +2250,16 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "How Google Cloud detects, contains, and protects against emerging threats",
-      "link": "https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
       "published": "2026-08-07T16:00:00+00:00",
-      "summary": "At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and maintain long-term trust. We approach security from a shared fate model , and we continuously work to proactively identify and mitigate potential threats before they can compromise your data and misuse your infrastructure. Understanding the risk: How bad actors attempt to exploit cloud workloads Hyperscale cloud platforms like Google Cloud offer massive compute capacity, high-speed networking, and cutting-edge AI engines, but these same core strengths also make us high-value targets for malicious actors seeking service disruption, financial gain, or exploit cloud resources. By tracking active adversary techniques, Google’s specialist security teams actively monitor and defend across several areas. AI workload exploitation : As organizations rapidly adopt AI tools and systems, including Ge",
-      "author": "Salmaan Rashid",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to bridge this gap. Our latest blog post explores how Google Distributed Cloud (GDC) helps organizations deploy connected or air-gapped models to run advanced AI entirely within secure environments—mitigating geopolitical risks without sacrificing innovation. Read more . SAP and Google Cloud Launc",
+      "author": "Google Cloud Content & Editorial",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
+        "affected_industries": [],
         "affected_products": [
           "Google Cloud"
         ],
@@ -2456,6 +2530,40 @@
       },
       "score": 8,
       "full_body": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP  Swati Khandelwal  Aug 07, 2026 Web Security / Vulnerability WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page. Tracked as CVE-2026-64638 (CVSS score: 8.9), the high-severity vulnerability requires no attacker privileges. According to pwn.ai , which discovered the flaw and shared technical details with The Hacker News, the login-page XSS requires no authentication. Once a crafted username reaches the failed-login error page, the resulting JavaScript executes in the visitor's browser with no further interaction required on that page. The code-execution path requires a victim already logged in as an Administrator and explicit interaction with an attacker-controlled page. In pwn.ai's demonstration, that interaction is one ordinary click. The researchers told The Hacker News that the attack works against default WordPress installations and does not require unusual hosting or deployment settings. The researchers said they have multiple paths from the XSS to code execution, including variants that install a plugin or upload an arbitrary ZIP. WordPress's own advisory takes a more cautious view of exploitability, noting that escalation to RCE involves conditions outside the attacker's control and requires successful social engineering plus explicit victim interaction. The issue was patched on August 6 in WordPress 7.0.3 , with fixes backported through the 4.7 branch. WordPress recommends updating immediately, and sites that support automatic background updates should receive the security release automatically. Versions older than 4.7 remain affected but fall outside the project's current backport range. The researchers, who call the attack chain XSS2Shell , said its autonomous system discovered and reproduced the vulnerability chain after being given Paulos Yibelo 's 2022 Same Origin Method Execution (SOME) research as a starting point. The company said the work took nearly four days using open-source models and a multi-agent workflow. It said the chain was reproduced on July 26 and reported to WordPress the following day. The flaw starts in the way WordPress handles the username from a failed login. According to the researchers, the value passes through sanitize_user() and wp_strip_all_tags(), which relies on PHP's strip_tags(). A tag-like string containing whitespace after the opening < can survive that parser as text. Later, WordPress passes the value through wp_kses_post(), whose separate parser interprets the same input as permitted HTML. The result is attacker-controlled live DOM elements on the failed-login page. Those elements then interact with WordPress's own user-profile.js, a profile-management script that is also loaded on the login page because the page handles password resets. Some profile elements the script expects are absent there: two missing inputs both resolve to undefined, allowing an equality check to pass, while the otherwise undefined ajaxurl variable can be clobbered with an injected DOM element. That steers WordPress's own JavaScript toward an attacker-selected same-origin REST request. The researchers use WordPress's REST JSONP support to turn that request into JavaScript executing in the site's origin. For deployments where anonymous REST requests return HTTP 401, the _envelope=1 parameter can wrap the denial in an outer HTTP 200 response, allowing jQuery to continue processing the response as script. The researchers also found in their testing that a nonce-based Content Security Policy using strict-dynamic did not block the demonstrated path. The path from XSS to PHP execution builds on Yibelo's earlier SOME technique, which uses a permitted JSONP property chain ",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Vulnerability Management Lifecycle: Core Phases",
+      "link": "https://orca.security/resources/blog/vulnerability-management-lifecycle/",
+      "published": "2026-08-07T12:50:00+00:00",
+      "summary": "Key Takeaways The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase […]",
+      "author": "The Orca Security Team",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11,
+      "full_body": "Table of contents Key Takeaways What is the Vulnerability Management Lifecycle? Why Vulnerability Management Matters in Cybersecurity The 6 Key Phases of the Vulnerability Management Lifecycle Phase 1: Asset Discovery Phase 2: Vulnerability Assessment Phase 3: Risk-Based Prioritization Phase 4: Remediation Phase 5: Verification and Rescanning Phase 6: Reporting and Continuous Improvement Asset Discovery and Vulnerability Assessment What Asset Discovery Must Produce Turning a Scan Into an Assessment Risk-Based Prioritization and Remediation Strategies Ranking by Exploitability and Exposure Remediate, Mitigate, or Accept Common Challenges and Best Practices How Orca Closes the Loop on Vulnerability Management Frequently Asked Questions About the Vulnerability Management Lifecycle Key Takeaways The lifecycle runs in six phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, and reporting and continuous improvement. Each phase owes the next one a specific artifact. A phase that produces nothing auditable has not run, whatever the calendar says. No NIST publication defines this six-phase model. NIST publishes a patch management guide, a glossary definition, and an assessment-automation volume, and none of them is a lifecycle. Scanning and patching are two of six phases. The other four are where most programs cannot evidence their own work. Orca inventories cloud assets without agents and rescans continuously, so coverage and closure stop depending on what someone remembered to install. The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase consumes something the previous phase produced and owes something to the next one. Discovery owes an inventory. Assessment owes a validated finding set. Prioritization owes a ranked queue with an owner on every line. This guide walks the six phases in order, explains the artifact each one has to produce, and shows where the loop stalls when one goes missing. It also settles a question the search results often get wrong: whether NIST defines this model at all. What is the Vulnerability Management Lifecycle? The vulnerability management lifecycle is a repeating sequence of six phases, each defined by what it consumes and what it hands forward. It is the operational form of vulnerability management , the wider discipline of finding and reducing weaknesses across an estate. A security vulnerability is the unit the loop moves, and the lifecycle is how a team keeps finding new ones after the first scan. Most vulnerability management lifecycle definitions agree on the loop and disagree on the count. Some teams call it vulnerability lifecycle management and mean the same thing, tracking one finding from discovery to proven closure. The count matters less than the exit condition on each phase. A phase has run when it produces the artifact the next phase needs, and not before. Why Vulnerability Management Matters in Cybersecurity A known, unpatched flaw is the cheapest way into an environment. An attacker needs no novel technique when a published flaw still sits on an internet-facing host. Every day that finding stays open is another day the path works. Plenty of teams scan weekly and patch on a schedule, but that covers only two of the six phases. A program with no discovery phase scans only what it already knows about, and one with no verification phase closes tickets on faith. That gap is what separates vulnerability management from routine patching. The NIST Cybersecurity Framework reflects the same principle by requiring vulnerabilities to be identified, validated, and recorded (ID.RA-01) and vulnerability disclosures to",
       "fetch_status": "ok"
     },
     {
@@ -2959,40 +3067,25 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "credential_theft",
-          "web_shell_backdoor"
+          "supply_chain"
         ],
         "actor_attribution": [
           "TeamPCP"
         ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Kubernetes",
-          "GitLab",
-          "GitHub"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Kubernetes": "target",
-          "GitLab": "target",
-          "GitHub": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign  Ravie Lakshmanan  Aug 07, 2026 Cybercrime / Vulnerability A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. \"The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure, and operational tradecraft,\" Oligo Security researchers Avi Lumelsky and Gal Elbaz said . This includes two campaigns observed in the second half of 2025: ShadowRay 2.0 (aka IronErn), which involved hijacking artificial intelligence (AI) infrastructure into a self-propagating botnet, and TA-NATALSTATUS , which targeted exposed Redis servers to deliver cryptocurrency miners. TA-NATALSTATUS is assessed to be an evolution of a prior campaign that was detailed by Trend Micro in April 2020 that involved targeting Redis servers to deploy malware. This suggests that the threat actor has been actively targeting internet-accessible infrastructure across Ray, Docker, Redis, and React much before it branded itself as TeamPCP. Details of the attackers first emerged towards the end of last year when they were linked to the exploitation of security flaws in React Server Components (RSC) and Next.js to facilitate the extraction of credentials and sensitive data from compromised environments. The activity was codenamed Operation PCPcat . Then, earlier this year, Flare detailed a massive campaign undertaken by the threat actor to systematically target cloud native environments as part of efforts to set up malicious infrastructure for follow-on exploitation. \"The operation's goals were to build a distributed proxy and scanning infrastructure at scale, then compromise servers to exfiltrate data, deploy ransomware, conduct extortion, and mine cryptocurrency,\" Flare security researcher Assaf Morag noted at the time. The group has since branched into high-profile supply chain compromises , weaponizing the interconnected nature of modern software to infect developer systems en masse by poisoning popular open-source libraries through a combination of GitHub Actions and token theft abuse. \"One of the strongest operational links is the overlap between the IronErn GitHub and GitLab identities observed during ShadowRay 2.0 and TeamPCP's later infrastructure,\" Oligo said. \"Correlating GitLab authentication logs, command-and-control infrastructure, reverse-shell activity, and malware staging establishes a direct operational bridge between the ShadowRay 2.0 campaign and the actor later operating publicly as TeamPCP.\" The latest findings show that not only are these efforts linked, but also that the threat actor repeatedly abused known security flaws impacting React, Docker, Redis, and Ray to gain access and rely on automated and wormable exploitation techniques for self-propagation. The expansion into cascading software supply chain attacks, therefore, represents a natural evolution of this trend, allowing the threat actors to take advantage of legitimate cloud infrastructure and repurpose tried and tested methods in their efforts. These shifts have been complemented by continuous updates to its malware arsenal, including a Python script (\"kube.py\") that's specifically used after breaching Kubernetes environments. While earlier versions of the script focused on propagation and setting up persistence, new variants observed as recently as March 2026 began to incorporate wiper-like functionality. This destructive code path checked whether the victim system was configured for the Iran timezone and, if that's the case, fired a DaemonSet that wiped every node in the cluster via a wiper not-so-subtly named Kamikaze. On Kubernetes nodes located outside of Iran, it deployed the CanisterWorm backdoor. For non-Kubernetes Iranian systems",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "Help Net Security",
@@ -3193,9 +3286,8 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Palo Alto Networks",
-          "npm",
-          "GitHub"
+          "GitHub",
+          "npm"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -3204,18 +3296,14 @@
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {
-          "Palo Alto Networks": "target",
-          "npm": "target",
           "GitHub": "target",
-          "Anthropic/Claude": "target"
+          "npm": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 17,
-      "full_body": "Threat Research Center High Profile Threats Malware Malware ChainDrop: Inside a Self-Propagating npm Worm 20 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Unit 42 Published: August 6, 2026 Categories: High Profile Threats Malware Tags: Blockchain ChainDrop Claude code Developer tooling GitHub Share Executive Summary A self-propagating npm worm nicknamed ChainDrop infected over 400 packages that are collectively downloaded hundreds of millions of times each week. This includes malicious versions of widely used packages such as keyv and cacheable-request . Unit 42 has unique observations of this attack. The attackers behind ChainDrop potentially exposed developer workstations, continuous integration (CI) pipelines, cloud environments and downstream software users across a large number of organizations. Once installed, ChainDrop steals: Cloud credentials npm and GitHub tokens SSH keys Other sensitive developer data It can also extract temporary credentials from GitHub Actions runner memory and use stolen npm publishing tokens to infect and republish additional packages while preserving their legitimate functionality. We have observed active attempted operations, which were detected out of the box by our existing products. During our investigation into this attack, we identified 453 public GitHub repositories across five accounts matching the worm’s exfiltration patterns. We also detected ChainDrop execution across 10 distinct environments. At the time of publication, these repos were removed. We have deobfuscated the malware and identified: Persistence through developer and AI coding tools Blockchain-based command-and-control (C2) resolution Its ability to execute additional attacker-supplied code Additionally, late on Aug. 4, 2026, we observed the adversary silently reconfiguring the worm's entire C2 infrastructure through a single Ethereum transaction, without requiring any update to the deployed malware. This attack is the latest in a series of threats to the security of the npm ecosystem . Unit 42 recommends: Identifying installations of affected npm package versions Removing affected package versions Investigating developer workstations and CI runners for signs of compromise Reviewing unexpected npm publishing and GitHub repository activity. Revoking and rotating potentially exposed npm, GitHub, cloud, SSH and automation credentials. Removing identified persistence mechanisms Blocking both the domain-based and GitHub-based exfiltration channels The Koi Agentic Endpoint Security risk engine flagged the malicious package activity as the attack unfolded. Cortex XDR detected and alerted on the worm’s execution using out-of-the-box behavioral detections. Palo Alto Networks customers can use Koi Agentic Endpoint Security to help identify and control malicious packages across developer endpoints. The Cortex AgentiX Threat Intel agent can help allow analysts to extract, enrich, and search IoCs using natural language to quickly determine organizational impact. Cortex Cloud Endpoint Protection leverages AI-enabled analytics to help detect and prevent threats targeting Linux endpoints, containers, and associated cloud IAM policies. Cortex XDR and XSIAM provide behavioral detection, investigation and response that can help organizations address ChainDrop activity executing in development environments. Idira Secrets Manager and Secrets Hub eliminate hard-coded credentials from configure files and sour ce code by automating zero-downtime rotation, and dynamically delivering just-in-time access to non-human identities across multi-cloud and DevOps environments. The Unit 42 Cloud Security Assessment is an evaluation service that reviews cloud infrastructure to identify misconfigurations and security gaps. The Unit 42 Incident Response team can also be engaged",
-      "fetch_status": "ok"
+      "score": 17
     },
     {
       "source": "Check Point Research",
@@ -3696,24 +3784,34 @@
       "author": "BrianKrebs",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Snowflake"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
+        "role_map": {
+          "Snowflake": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
       "score": 9,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
+      "full_body": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud provider Snowflake . Connor Riley Moucka , of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers. A surveillance photo of Connor Riley Moucka, a.k.a. “Judische” and “Waifu,” dated Oct 21, 2024, 9 days before Moucka’s arrest. This image was included in an affidavit filed by an investigator with the Royal Canadian Mounted Police (RCMP). The U.S. Justice Department said between February and October 2024, Moucka and co-conspirators used stolen login credentials to steal cloud-hosted data belonging to at least 165 customers of a U.S.-based software-as-a-service company. The hackers targeted stolen credentials for Snowflake customer accounts that did not enforce multi-factor authentication, and extorted or attempted to extort a host of well-known companies, including TicketMaster, Lending Tree, Advance Auto Parts and Neiman Marcus. Snowflake responded to the data thefts by increasing password complexity requirements and enforcing multi-factor authentication. Moucka adopted new nicknames frequently — sometimes operating multiple identities concurrently — but two of his best-known monikers were “ Judische ” and “ Waifu .” Judische’s admitted role in the Snowflake data thefts was first documented by KrebsOnSecurity in a September 2024 story about the overlap between Western, English-speaking cybercriminals and extremist groups that harass and extort minors into harming themselves or others. That September 2024 story identified Judische as a software engineer from Ontario who has been involved in numerous data breaches and voice phishing attacks against U.S. companies since at least 2020. A little more than a month later, Canadian authorities arrested Moucka on a provisional warrant from the United States. The government says Moucka and others used their unauthorized access to steal billions of sensitive customer records and download terabytes of information, “including individuals’ non-content call and text history records, banking and other financial information, payroll records, Drug Enforcement Administration (DEA) registration numbers, driver’s license numbers, passport numbers, social security numbers and other personally identifiable information. They then extorted victims by threatening to publish data online.” Moucka also threatened and harassed government officials and security researchers who were helping to track him down. The Justice Department said the conspirators made over $2.5 million in ransom payments, and that in at least one instance, Moucka re-extorted a victim with threats of further disclosure of the victim’s stolen data. “Moucka used the stolen data of a government officer and members of a then-former government officer’s immediate family in this re-extortion attempt,” reads a statement from the Justice Department. One of Moucka’s admitted co-conspirators is Cameron “Kiberphant0m” Wagenius , a U.S. Army soldier who pleaded guilty in July 2025 to extorting AT&T and Verizon for their customer account data. Less than a month before Wagenius’s arrest, KrebsOnSecurity published a deep dive into Kiberphant0m’s various Telegram and Discord identities over the years, revealing how the owner of the accounts told others they were in the Army and stationed in South Korea. One of several selfies on the Facebook page of Cameron Wagenius. Kiberphant0m also re-extorted victims. Immediately following Moucka’s arrest, Kiberphant0m posted on hacker forums what he claimed were the AT&T call logs for then President-elect Donald Trump and for then Vice President Kamala Harris, as well schematics allegedly stolen from the U.S. National Security Agency (NSA). Wagenius is set to be sentenced on September 3, 2026. The government says he faces a maxim",
+      "fetch_status": "ok"
     },
     {
       "source": "GitHub Security Lab",
@@ -4226,6 +4324,38 @@
       },
       "score": 10,
       "full_body": "AI security company Zenity has disclosed the details of two AI browser hacking techniques targeting Claude in Chrome and ChatGPT Atlas, demonstrating how they can be used for account takeovers, phishing, and making unauthorized Amazon purchases. Zenity described its research, dubbed PleaseFix, in two separate blog posts published on Wednesday, one covering the ChatGPT Atlas research and one covering the Claude in Chrome attack. ChatGPT Atlas hacking Zenity researchers discovered that OpenAI’s agentic browser, ChatGPT Atlas , is vulnerable to zero-click indirect prompt injection (IPI) due to fundamental architectural design issues rather than traditional software bugs. By exploiting ‘intent collision’ through a single planted comment on an X thread, researchers demonstrated how an attacker can hijack benign user requests to control the agent across authenticated web sessions. Agentic browsers such as Atlas break Same-Origin Policy ( SOP ) by design because they act as a single entity spanning multiple authenticated tabs simultaneously, effectively resurrecting cross-site request forgery (CSRF). This enables malicious instructions on an untrusted page to instruct the agent to execute actions across any other site where the user is currently logged in. Zenity researchers demonstrated two scenarios. In one, a user asks Atlas to perform a routine task, such as signing them up for a newsletter from an X post. A specially crafted X comment redirects Atlas to a malicious payload page. The agent then navigates to WhatsApp Web, reads the victim’s contact list, and sends phishing messages to every contact. Advertisement. Scroll to continue reading. In the second scenario, Atlas is steered to Amazon, adds items to a cart, and updates the shipping address to the attacker’s location. To bypass restrictions that prevent it from clicking the final purchase button, Atlas instructs Amazon’s built-in AI assistant Rufus to place the order instead. Zenity disclosed these findings to OpenAI in January 2026 and the AI giant acknowledged the report, but there is no easy patch because the exploit relies on the intentional core capability of an agentic browser: reading web content and acting upon it across authenticated domains. Claude in Chrome hacking Zenity also demonstrated a zero-click attack chain against the official Claude Chrome extension , escalating an indirect prompt injection into full account takeover across multiple web platforms. The exploit abuses the agentic browser’s elevated permissions operating within active user sessions. In one attack scenario described by the security firm, a victim receives a malicious email containing invisible prompt structures. Simply asking Claude to summarize the latest emails forces the agent to interpret the hidden instructions as direct commands. Standard safety mechanisms should block direct malicious script execution, but attackers can bypass this by hosting custom NPM packages on a rogue CDN. Claude is tricked into calling a benign-looking import, which silently executes payload code. The researchers demonstrated how, operating within active session cookies, the attacker’s script queries Gmail’s Atom feed, extracts message IDs, parses full email bodies, and silently exfiltrates inbox contents to the attacker server. The attacker can also silently share every file in the targeted user’s Google Drive account with an account they control. Zenity also demonstrated account takeover against Slack and X accounts. The attacker can trigger an account sign-in or password reset and have the agent monitor Gmail for incoming verification codes, which are then relayed to the attacker for completing the session hijacking. The findings were reported to Anthropic in December 2025 and January 2026, and were classified as ‘informative’. *updated to add PleaseFix reference Related : Critical Paperclip Flaw Allowed Admin Access, Code Execution Related : Meta AI Hacked External Systems During Cybersecurity Testing Relate",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Vulnerability Scanning Tools: Top 10 Compared for 2026",
+      "link": "https://orca.security/resources/blog/vulnerability-scanning-tools/",
+      "published": "2026-08-06T12:50:00+00:00",
+      "summary": "Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]",
+      "author": "The Orca Security Team",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11,
+      "full_body": "Table of contents Key Takeaways What Are Vulnerability Scanning Tools? Scanners Versus Vulnerability Management Platforms Key Features of Vulnerability Scanning Tools Types of Vulnerability Scanning Tools Network Vulnerability Scanners Web Application Scanners Source Code and Dependency Scanners Container and Image Scanners Cloud Configuration and Infrastructure Scanners Top 10 Vulnerability Scanning Tools Orca Security: Agentless Scanning Across the Cloud Estate Tenable Nessus Qualys OpenVAS Nuclei Trivy ZAP Burp Suite Grype Semgrep Benefits of Vulnerability Scanning Open Source Vulnerability Scanning Tools Choosing the Right Vulnerability Scanner Match the Scanner to the Asset Type Authenticated Versus Unauthenticated Scanning How Orca Scans Cloud Estates Without Agents Frequently Asked Questions about Vulnerability Scanning Tools Key Takeaways A vulnerability scanner is a detection engine, not a program. It finds flaws in a specific class of asset and hands the result to whatever system tracks the fix. Scanning coverage is decided per asset type, not per vendor. No tool in this comparison covers networks, web applications, source code, container images, and cloud configuration at equal depth. Access level changes the answer more than product choice does. An unauthenticated scan reads what a service advertises, while an authenticated scan reads what is actually installed. The top 10 focuses on products with dedicated vulnerability scanning capabilities, while broader management and exposure platforms are excluded from the comparison. Orca reads the workload’s runtime block storage out of band, which returns installed package data across a cloud estate without host credentials, agents, or network access to each machine. Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates to a Linux host and inventories installed packages cannot inspect a container image sitting in a registry, and neither one crawls a single-page web application. This guide compares ten scanners by what they actually inspect. It covers the features that separate detection engines, the five major scanner types, the open-source options worth considering, and how to match a scanner to the assets in your environment. What Are Vulnerability Scanning Tools? Vulnerability scanning tools automate the search for known weaknesses in a defined set of targets. They apply detection logic to hosts, applications, images, or code and report each match with an identifier, location, and supporting evidence. NIST groups vulnerability scanning under technical security testing in SP 800-115 , alongside network discovery and penetration testing as separate techniques with different costs and blind spots. The output is a list of candidate findings, not a verdict. Every scanner produces some results that do not apply to the environment, which is why validation remains part of a vulnerability assessment. What separates a strong scanner from a noisy one is the evidence it collects before asserting that a weakness is present. Scanners Versus Vulnerability Management Platforms A scanner answers one question: is this flaw present on this asset. A vulnerability management platform answers a different set of questions about ownership, sequencing, and proof of closure. It usually consumes scanner output instead of producing it, so if you are choosing the system that will run your program, the comparison you want is of vulnerability management tools . The practical consequence is coverage. No scanner covers every asset type equally well, and platforms differ widely in the depth of their support for hosts, containers, source code, web applications, and cloud configuration. Th",
       "fetch_status": "ok"
     },
     {
@@ -5641,6 +5771,60 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack",
+      "link": "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
+      "published": "2026-08-05T14:13:47+00:00",
+      "summary": "A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, […]",
+      "author": "The Orca Research Pod",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "npm",
+          "GitHub",
+          "Kubernetes"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "npm": "target",
+          "GitHub": "target",
+          "Kubernetes": "target",
+          "AWS": "target",
+          "Azure": "target",
+          "Google Cloud": "target",
+          "Anthropic/Claude": "mention"
+        },
+        "weak_tags": {
+          "products": [
+            [
+              "Anthropic/Claude",
+              "mention",
+              0.26
+            ]
+          ]
+        }
+      },
+      "score": 19,
+      "full_body": "Table of contents Technical Overview Affected Systems Risk Impact How Orca Can Help A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, and CI/CD secrets from developer workstations and build environments. A worm-like self-propagation mechanism has extended the blast radius to over 868 additional packages totaling more than 2 billion monthly installs. Technical Overview On August 4, 2026, attackers gained control of the GitHub account behind keyv, one of the most depended-upon packages in the npm ecosystem. The attacker pushed malicious files (setup.mjs and Math_Symbol.js) directly to the main branch and immediately cut new releases. Because the releases were built through the compromised account’s GitHub Actions workflows, the poisoned versions were published to npm with valid provenance signatures, bypassing standard supply chain integrity checks . The malware operates as a two-stage dropper. A preinstall hook executes setup.mjs, which downloads the Bun JavaScript runtime to run the obfuscated Math_Symbol.js payload (728 KB). Once executed, the payload harvests sensitive credentials and configuration from the host system, including: npm registry authentication tokens from .npmrc GitHub CLI tokens (classic PATs, session tokens, OIDC tokens) AWS access keys and session tokens from ~/.aws/credentials HashiCorp Vault client tokens SSH keys Kubernetes and Terraform configurations AI configuration files (Claude Code, VS Code, Codex) Cryptocurrency wallets Cloud environment metadata and CI/CD secrets Stolen data is encrypted and exfiltrated to GitHub repositories created under compromised identities. Affected Systems The following primary packages are affected: keyv (6.0.0), cacheable, cache-manager (7.2.10), cacheable-request (13.0.20), flat-cache, file-entry-cache, @cacheable/node-cache, @cacheable/memory, @cacheable/utils (2.5.1), and ecto. These packages underpin caching infrastructure across the JavaScript ecosystem and are used by millions of applications, build pipelines, and CI/CD environments worldwide. The attack includes a worm-like self-propagation mechanism: any maintainer who installed a compromised package had their npm tokens stolen, which the attacker then used to publish poisoned versions of that maintainer’s own packages. This resulted in at least 868 additional packages (1,381 versions) being compromised, including packages from organizations such as Deliveroo, Picsart, Qlik, Ornikar, and HubSync. Risk Impact Any developer, build system, or CI/CD runner that installed or updated any of the affected packages after the malicious versions were published on August 4, 2026 should be treated as potentially compromised. Organizations should take the following steps immediately: Remove affected package versions from all development, build, and CI/CD environments Treat any system that installed a compromised package as potentially breached and rebuild from a clean state Rotate all exposed credentials: cloud provider keys (AWS, Azure, GCP), GitHub tokens, SSH keys, Kubernetes configs, Terraform credentials, npm tokens, and Vault tokens Review cloud and source code environments for unauthorized access Check for file artifacts indicating compromise: /tmp/bun-dl-*/, node_modules/keyv/Math_Symbol.js Block IOC domains: npm-cache[.]com, eth-mainnet.nodereal[.]io, go.getblock[.]io, eth.llamarpc[.]com Enable dependency allowlisting, package integrity verification, and provenance controls At the time of writing, active exploitation is confirmed and ongoing. The worm propagation mechanism means that the number of compromised packages continues to grow. The severity of this incident and the breadth of credential t",
+      "fetch_status": "ok"
+    },
+    {
       "source": "Citizen Lab",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -5763,6 +5947,62 @@
         }
       },
       "score": 6
+    },
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "10 Best Tenable Alternatives in 2026",
+      "link": "https://orca.security/resources/blog/10-best-tenable-alternatives/",
+      "published": "2026-08-05T12:50:00+00:00",
+      "summary": "Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, […]",
+      "author": "The Orca Security Team",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
+    },
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "7 Best Rapid7 Alternatives for Cloud Security and Exposure Management in 2026",
+      "link": "https://orca.security/resources/blog/7-best-rapid7-alternatives/",
+      "published": "2026-08-05T12:50:00+00:00",
+      "summary": "When your vulnerability findings are scattered across InsightVM, InsightCloudSec, InsightIDR, and Exposure Command, the real problem isn’t any single product. It’s the lack of a unified view that tells you which exposures an attacker could actually reach before your next audit or incident. This article walks through seven Rapid7 alternatives, ranked from the most complete […]",
+      "author": "The Orca Security Team",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
     },
     {
       "source": "The Hacker News",
@@ -8669,33 +8909,6 @@
         "urgency_signals": [],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Predictable RNG Fallback and 32-Bit Reseed in COLDCARD Firmware",
-      "link": "https://www.reddit.com/r/netsec/comments/1vbs8hf/predictable_rng_fallback_and_32bit_reseed_in/",
-      "published": "2026-07-31T14:17:09+00:00",
-      "summary": "submitted by /u/_vavkamil_ [link] [comments]",
-      "author": "/u/_vavkamil_",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
