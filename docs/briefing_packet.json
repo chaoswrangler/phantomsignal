@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-09T11:35:38.723248+00:00",
+  "generated_at": "2026-08-09T13:04:10.788386+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 75,
-  "total_items_in_window": 348,
-  "total_clusters_raw": 143,
-  "total_clusters_in_packet": 59,
-  "dropped_low_score": 84,
+  "feeds_ok": 72,
+  "total_items_in_window": 333,
+  "total_clusters_raw": 136,
+  "total_clusters_in_packet": 53,
+  "dropped_low_score": 83,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,11 +67,11 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Unit 42": {
@@ -81,12 +81,12 @@
       "item_count": 15,
       "in_window_count": 6
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -94,6 +94,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -109,13 +116,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -123,12 +123,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 2
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -158,6 +165,13 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -172,39 +186,11 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 3
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -214,12 +200,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -228,11 +214,18 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 40,
+      "in_window_count": 3
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
       "in_window_count": 0
     },
     "Black Hills Information Security": {
@@ -249,19 +242,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -270,6 +256,27 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -277,11 +284,11 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 30,
       "in_window_count": 2
     },
     "SpecterOps": {
@@ -298,33 +305,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 8
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -333,12 +319,40 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
+      "in_window_count": 8
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -354,19 +368,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -375,13 +382,6 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -389,33 +389,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -424,6 +403,34 @@
       "item_count": 20,
       "in_window_count": 20
     },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -431,12 +438,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 0
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -452,33 +459,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 24
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -487,12 +473,12 @@
       "item_count": 50,
       "in_window_count": 20
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -501,6 +487,13 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 24
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -508,8 +501,43 @@
       "item_count": 10,
       "in_window_count": 8
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -521,41 +549,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -571,12 +564,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -632,8 +632,8 @@
     {
       "cluster_id": "65ab16fa91",
       "priority_score": 56,
-      "member_count": 4,
-      "corroborating_source_count": 4,
+      "member_count": 3,
+      "corroborating_source_count": 3,
       "strong_signals": [
         "CVE-2026-18556",
         "CVE-2026-18577"
@@ -724,33 +724,6 @@
               "actively_exploited",
               "preauth_unauth"
             ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "CVE-2026-18556 and CVE-2026-18577 | N-able N-central Authentication Bypass Vulnerabilities",
-          "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
-          "published": "2026-08-05T18:54:10+00:00",
-          "summary": "CVE-2026-18556 and CVE-2026-18577 are authentication bypass vulnerabilities affecting N-able N-central. NodeZero® Rapid Response safely validates exposure and verifies remediation.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-18556",
-              "CVE-2026-18577"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
@@ -1746,7 +1719,7 @@
         "link": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
         "published": "2026-08-06T14:00:00+00:00",
         "summary": "Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multiple extortion fronts including Redact, Pink, Helix, and Falcon. UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices. These calls lure victims to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from ente",
-        "full_body": "Threat Intelligence UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments August 7, 2026 Google Threat Intelligence Group Mandiant Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multiple extortion fronts including Redact, Pink, Helix, and Falcon. UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices. These calls lure victims to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. In this update to our May 2026 blog , we detail the infrastructure linkages connecting these extortion brands. We also examine the evolution of UNC6671's targeting including recent activity focused on financial services, private equity, and professional services, and provide hardening guidance to help organizations protect themselves from this threat. UNC6671 Associated Extortion Brands Across UNC6671 intrusions, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have remained remarkably consistent. These operations uniformly leverage tailored IT helpdesk voice phishing (vishing), AiTM credential harvesting panels, and data theft from SaaS applications. Despite this unified technical baseline, extortion messages have used different branding and victim data stolen during these intrusions has been published across distinct data leak sites (DLS) (Figure 1). While public group communications cited an affiliate breakaway as the rationale for the initial rebranding to Redact, subsequent overlaps in phishing templates, victimology, and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix, and Falcon extortion brands to monetize their operations. Figure 1: UNC6671 Associated DLS Listings by Site Figure 2: Helix and Pink DLS Figure 3: Falcon DLS Initial REDACT Rebranding On June 27, 2026, the Redact operators published a blog post on their newly established Data Leak Site (DLS) addressing their alleged rebrand away from BlackFile. In the publication, the group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. According to Redact, this former associate purportedly operated an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under their name using unlinked Tox identities. The operators asserted that this rogue affiliate intentionally orchestrated the \"shutdown\" of the BlackFile brand in May 2026 to sow confusion among threat intelligence analysts and cyber insurance negotiators, thereby damaging the brand's reputation. To distance themselves from BlackFile, the operators stated that they rebranded as Redact, introducing a single verified Tox ID and PGP key to authenticate all future correspondence. Additionally, the post explicitly denied that pressure from the rival groups influenced their rebranding decision. Figure 3: REDACT statement on alleged break from BlackFile Shared Infrastructure: Connecting the Phishing Ecosystem UNC6671 uses credential harvesting panels hosted on generic root domains masquerading as being related to passkeys, appending vic",
+        "full_body": "Threat Intelligence UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments August 6, 2026 Google Threat Intelligence Group Mandiant Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multiple extortion fronts including Redact, Pink, Helix, and Falcon. UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices. These calls lure victims to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. In this update to our May 2026 blog , we detail the infrastructure linkages connecting these extortion brands. We also examine the evolution of UNC6671's targeting including recent activity focused on financial services, private equity, and professional services, and provide hardening guidance to help organizations protect themselves from this threat. UNC6671 Associated Extortion Brands Across UNC6671 intrusions, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have remained remarkably consistent. These operations uniformly leverage tailored IT helpdesk voice phishing (vishing), AiTM credential harvesting panels, and data theft from SaaS applications. Despite this unified technical baseline, extortion messages have used different branding and victim data stolen during these intrusions has been published across distinct data leak sites (DLS) (Figure 1). While public group communications cited an affiliate breakaway as the rationale for the initial rebranding to Redact, subsequent overlaps in phishing templates, victimology, and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix, and Falcon extortion brands to monetize their operations. Figure 1: UNC6671 Associated DLS Listings by Site Figure 2: Helix and Pink DLS Figure 3: Falcon DLS Initial REDACT Rebranding On June 27, 2026, the Redact operators published a blog post on their newly established Data Leak Site (DLS) addressing their alleged rebrand away from BlackFile. In the publication, the group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. According to Redact, this former associate purportedly operated an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under their name using unlinked Tox identities. The operators asserted that this rogue affiliate intentionally orchestrated the \"shutdown\" of the BlackFile brand in May 2026 to sow confusion among threat intelligence analysts and cyber insurance negotiators, thereby damaging the brand's reputation. To distance themselves from BlackFile, the operators stated that they rebranded as Redact, introducing a single verified Tox ID and PGP key to authenticate all future correspondence. Additionally, the post explicitly denied that pressure from the rival groups influenced their rebranding decision. Figure 3: REDACT statement on alleged break from BlackFile Shared Infrastructure: Connecting the Phishing Ecosystem UNC6671 uses credential harvesting panels hosted on generic root domains masquerading as being related to passkeys, appending vic",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -3136,7 +3109,7 @@
         "link": "https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/",
         "published": "2026-08-06T16:00:00+00:00",
         "summary": "I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent",
-        "full_body": "Training and Certifications Your agentic summer: No-cost lessons from Google experts to build and scale agents August 7, 2026 Gary Eimerman Managing Director, Google Cloud Learning Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agents can redefine productivity. 2. Agent Fundamentals : Go under the hood of autonomous intelligence. Learn decision models and execution loops to deploy adaptive agents over rigid automation. 3. Enterprise Agents and Use Cases : Discover how AI agents drive real business impact. Map agents directly to corporate KPIs, solve operational bottlenecks, and utilize no-code to high-code frameworks. 4. Create Your First Gemini Enterprise Application skill badge : Earn a skill badge that proves you can create an app with Gemini Enterprise. You will master capabilities like deep research agents, multi-agent ideation, and Gemini Notebook for focused analysis. 5. Human-Centered AI : Keep humanity at the core of automation. Learn to strategically balance machine speed with human intuition for successful orchestration. 6. Agentic Strategy: Discover, Design, and Prototype : Prototype high-impact AI projects with zero code. Leverage Google’s transformation framework, map user journeys and build functional retail prototypes. 7. Orchestrate Multi-Agent Workflows with Gemini Enterprise skill badge : Demonstrate your ability to manage multiple agents powered by Gemini Enterprise with a skill badge. This skill badge shows that you can unify data across first- and third-party sources, develop multimedia marketing materials, and fully automate complex business actions across disjointed systems. 8. Engineer AI Agents with Agent Development Kit (ADK) skill badge: Build production-grade agents using expert developer tools. Earn a skill badge that proves you can perform live search grounding, build structured JSON schemas, and manage ADK pipelines. 9. Add Currency Tools to an Agent Using MCP : Connect your LLMs to external systems in just 20 minutes. Securely bridge agents with live external databases and deploy via CLI. 10. Manage Agent Memory and State : Give your agents a memory. Move beyond single-query replies and use session states with the ADK to build highly personalized, deeply contextual agents. 11. Create Agent Skills with Google : Infuse domain expertise into custom skills. Minimize AI unpredictability and build reusable workflows that optimize agent performance. 12. AgentOps: Operationalize AI Agents on Google Cloud : Harden your prototypes and scale safely to production. Implement observability, proactive monitoring dashboards, and robust CI/CD security. Test your skills at the summertime Hackathon Keep moving with agents! The All Things Agentic Hackathon is officially live. The next leap in AI won't build itself — it needs you. Step up to the challenge with Gemini 3.5 and Google Cloud and deploy autonomous agents that do the heavy lifting in the background. Build what’s next, show the world wh",
+        "full_body": "Training and Certifications Your agentic summer: No-cost lessons from Google experts to build and scale agents August 6, 2026 Gary Eimerman Managing Director, Google Cloud Learning Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agents can redefine productivity. 2. Agent Fundamentals : Go under the hood of autonomous intelligence. Learn decision models and execution loops to deploy adaptive agents over rigid automation. 3. Enterprise Agents and Use Cases : Discover how AI agents drive real business impact. Map agents directly to corporate KPIs, solve operational bottlenecks, and utilize no-code to high-code frameworks. 4. Create Your First Gemini Enterprise Application skill badge : Earn a skill badge that proves you can create an app with Gemini Enterprise. You will master capabilities like deep research agents, multi-agent ideation, and Gemini Notebook for focused analysis. 5. Human-Centered AI : Keep humanity at the core of automation. Learn to strategically balance machine speed with human intuition for successful orchestration. 6. Agentic Strategy: Discover, Design, and Prototype : Prototype high-impact AI projects with zero code. Leverage Google’s transformation framework, map user journeys and build functional retail prototypes. 7. Orchestrate Multi-Agent Workflows with Gemini Enterprise skill badge : Demonstrate your ability to manage multiple agents powered by Gemini Enterprise with a skill badge. This skill badge shows that you can unify data across first- and third-party sources, develop multimedia marketing materials, and fully automate complex business actions across disjointed systems. 8. Engineer AI Agents with Agent Development Kit (ADK) skill badge: Build production-grade agents using expert developer tools. Earn a skill badge that proves you can perform live search grounding, build structured JSON schemas, and manage ADK pipelines. 9. Add Currency Tools to an Agent Using MCP : Connect your LLMs to external systems in just 20 minutes. Securely bridge agents with live external databases and deploy via CLI. 10. Manage Agent Memory and State : Give your agents a memory. Move beyond single-query replies and use session states with the ADK to build highly personalized, deeply contextual agents. 11. Create Agent Skills with Google : Infuse domain expertise into custom skills. Minimize AI unpredictability and build reusable workflows that optimize agent performance. 12. AgentOps: Operationalize AI Agents on Google Cloud : Harden your prototypes and scale safely to production. Implement observability, proactive monitoring dashboards, and robust CI/CD security. Test your skills at the summertime Hackathon Keep moving with agents! The All Things Agentic Hackathon is officially live. The next leap in AI won't build itself — it needs you. Step up to the challenge with Gemini 3.5 and Google Cloud and deploy autonomous agents that do the heavy lifting in the background. Build what’s next, show the world wh",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -4122,6 +4095,87 @@
       ]
     },
     {
+      "cluster_id": "3e123aa6ec",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Immigration Policy: The Backdoor to Transnational Repression",
+        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+        "published": "2026-08-05T13:45:26+00:00",
+        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Immigration Policy: The Backdoor to Transnational Repression",
+          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+          "published": "2026-08-05T13:45:26+00:00",
+          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b00983247a",
       "priority_score": 10,
       "member_count": 1,
@@ -4205,87 +4259,6 @@
               "financial_services",
               "education"
             ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3e123aa6ec",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Immigration Policy: The Backdoor to Transnational Repression",
-        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-        "published": "2026-08-05T13:45:26+00:00",
-        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Immigration Policy: The Backdoor to Transnational Repression",
-          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-          "published": "2026-08-05T13:45:26+00:00",
-          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -4642,171 +4615,6 @@
       ]
     },
     {
-      "cluster_id": "432a5ea542",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation",
-        "link": "https://horizon3.ai/customer-story/ttec-security-validation-customer-story/",
-        "published": "2026-08-03T15:37:27+00:00",
-        "summary": "Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.",
-        "full_body": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation",
-          "link": "https://horizon3.ai/customer-story/ttec-security-validation-customer-story/",
-          "published": "2026-08-03T15:37:27+00:00",
-          "summary": "Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "35c2b2988b",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era",
-        "link": "https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/",
-        "published": "2026-08-03T13:04:33+00:00",
-        "summary": "Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.",
-        "full_body": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era",
-          "link": "https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/",
-          "published": "2026-08-03T13:04:33+00:00",
-          "summary": "Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "87cb88c47a",
       "priority_score": 10,
       "member_count": 1,
@@ -4969,445 +4777,6 @@
             "role_map": {},
             "weak_tags": {
               "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1c833c15fa",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco",
-          "Fortinet",
-          "Palo Alto Networks"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2008-4128",
-          "CVE-2017-17215",
-          "CVE-2018-0802",
-          "CVE-2021-4034",
-          "CVE-2025-3248"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "July 2026 CVE Landscape",
-        "link": "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
-        "published": "2026-08-07T00:00:00+00:00",
-        "summary": "In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.",
-        "full_body": "July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Fortinet",
-            "Palo Alto Networks",
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-3248",
-            "CVE-2008-4128",
-            "CVE-2017-17215",
-            "CVE-2018-0802",
-            "CVE-2021-4034"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Fortinet": "target",
-            "Palo Alto Networks": "target",
-            "Cisco": "target",
-            "SonicWall": "target",
-            "WordPress": "target",
-            "Microsoft SharePoint": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "July 2026 CVE Landscape",
-          "link": "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
-          "published": "2026-08-07T00:00:00+00:00",
-          "summary": "In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Fortinet",
-              "Palo Alto Networks",
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-3248",
-              "CVE-2008-4128",
-              "CVE-2017-17215",
-              "CVE-2018-0802",
-              "CVE-2021-4034"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Fortinet": "target",
-              "Palo Alto Networks": "target",
-              "Cisco": "target",
-              "SonicWall": "target",
-              "WordPress": "target",
-              "Microsoft SharePoint": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "6b94b6e7b2",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Emerging Threats to Neurotechnology",
-        "link": "https://www.recordedfuture.com/research/emerging-threats-neurotechnology",
-        "published": "2026-08-06T00:00:00+00:00",
-        "summary": "Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.",
-        "full_body": "Emerging Threats to Neurotechnology Summary Neurotechnology is rapidly moving beyond clinical use cases, expanding the attack surface for sensitive neurological and biometric data: As adoption grows, larger volumes of brain activity, biometric, and behavioral data will be collected by commercial platforms, creating new opportunities for data theft, misuse, and exploitation. China and the United States (US) are engaged in strategic competition in neurotechnology development: The US leads in the number of neurotechnology firms, and brain-computer interface (BCI) research has been a long-term research priority for the US military. At the same time, China’s five-year guidance for BCI development, subsidies for major wearable technology firms, and military research into human-machine integration suggest that neurotechnology is a strategic priority. Leading neurotechnology companies are likely to face increased targeting for intellectual property (IP) theft: Because neurotechnology is costly to develop and strategically valuable, companies in this sector are likely to become attractive targets for state-sponsored espionage, insider threats, and cyber-enabled theft. Successful IP theft could erode the competitive advantage of companies that invest heavily in research and development (R&D). Military and higher education research laboratories are also likely to be targeted for access to R&D and related data. Neurological and biometric data will become an increasingly valuable target for cybercriminals and state-linked actors: Attackers may seek to exfiltrate these datasets for extortion, surveillance, strategic intelligence, or model development. The sensitivity of this data could make breaches particularly damaging for affected individuals and companies, making it an attractive target for extortion-focused cybercriminals. Regulatory and national security scrutiny of neurological data will likely intensify: Existing privacy frameworks in the European Union (EU) and several US states already provide heightened protections for neurological or biometric data, but rapid advances in neurotechnology may outpace consumer protection laws. Figure 1: Key threats in neurotechnology and how they will evolve (Source: Recorded Future) Analysis What is neurotechnology? Neurotechnology is the field focused on understanding and interacting with the brain through technology. Much of the progress so far has been in medicine, where scientists seek to use the technology to treat neurological disorders such as Parkinson’s disease or paralysis. Implantable BCIs have demonstrated the ability to translate brain activity into words, enabling individuals with neurological injuries to speak again. In June 2026, China approved the world’s first commercial brain implant, which allows individuals with spinal cord injuries to regain motor control of their hands via a robotic glove. Other BCI technologies remain in clinical trials. Less invasive examples of the technology include medical electroencephalography (EEG) equipment that externally measures brain activity to diagnose and monitor conditions such as epilepsy, sleep disorders, and ADHD. The global neurotechnology market is projected to reach $53 billion by 2034, driven by the rising prevalence of neurological disorders and the rapid evolution of artificial intelligence (AI) and machine learning that enable the interpretation of neurological data. Outside of medical use cases, the consumer neurotechnology market is rapidly expanding. According to a market study published by the Centre for Future Generations in mid-2025, 45 consumer neurotechnology brands focused on wellness and fitness emerged over the last decade, making it the largest consumer sector in neurotechnology devices. These include products that monitor brain activity to improve focus, such as glasses that use neurofeedback to darken when the user is distracted and lighten when they are focused, as well as products that use brain data for “ brain tra",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Emerging Threats to Neurotechnology",
-          "link": "https://www.recordedfuture.com/research/emerging-threats-neurotechnology",
-          "published": "2026-08-06T00:00:00+00:00",
-          "summary": "Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "725e4c357a",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "supply_chain",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Hype vs. Reality: What the Hugging Face Incident Means for AI Safety",
-        "link": "https://www.recordedfuture.com/blog/hugging-face-ai-safety",
-        "published": "2026-08-05T00:00:00+00:00",
-        "summary": "Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.",
-        "full_body": "Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic defense will be essential to countering agentic offense. However, defenders must actively mitigate the risk of autonomous systems operating outside of their expected parameters. In July 2026, OpenAI disclosed that models undergoing an internal cybersecurity evaluation had escaped their testing environment and compromised part of Hugging Face’s production infrastructure. OpenAI characterized the event as an “unprecedented cyber incident.” The incident should put security leaders on alert, but not for the reasons OpenAI suggests. One concern is that OpenAI’s agents demonstrated the ability to autonomously carry out an end-to-end cyberattack, placing the models at the highest level of autonomy within Recorded Future’s AIM3 framework. However, the greater concern is that the model operators did not sufficiently monitor for or prepare to mitigate unauthorized agentic activity. Enterprises using agents for security and other purposes should see the Hugging Face incident as a warning about what happens when agents are set loose without safeguards against adverse outcomes. What Happened The incident began during an OpenAI evaluation designed to measure advanced cyber capabilities. The evaluation involved GPT-5.6 Sol and an even more capable internal research prototype that OpenAI says was not intended for public release. Because the objective was to test their maximum offensive potential, the models were operated with reduced security guardrails (normally used to prevent high-risk activity). According to OpenAI , the models spent substantial computing resources searching for a path to the internet. They exploited a zero-day vulnerability in Artifactory, the package-registry cache proxy available in the evaluation environment, and then performed privilege escalation and lateral movement within OpenAI’s research environment until they reached a node with internet access. Once online, the models inferred that Hugging Face might contain models, datasets, or solutions associated with ExploitGym, the benchmark they had been instructed to solve. OpenAI says the agents then chained stolen credentials, zero-day vulnerabilities, and remote code execution paths to obtain test solutions from a Hugging Face production database. Hugging Face’s technical reconstruction covers roughly 17,600 recovered agent actions, grouped into approximately 6,280 clusters, between July 9 and July 13, 2026. Although most attempts failed, the agent still gained administrative access to internal and production systems, accessed some source-code repositories, and used a stolen credential to connect external systems to the company network. Hugging Face found no evidence that its public models, datasets, services, packages, or published software supply chain were altered. It says the only customer content accessed comprised five datasets, apparently related to ExploitGym or CyberGym. A Capability Breakthrough and a Control Failure Most coverage of this incident has framed it as a breakthrough in model capabilities, since it is the first known instance of a model apparently independently conducting an end-to-end cyberattack. The underlying techniques were largely familiar to those used in human-led cyberattacks: vulnerability exploitation, credential theft, staging, remote code execution, lateral movement, and abuse of privileged or trusted access. What was notable was the agents’ ability to select and chain those steps autonomously across a long-running operation. This represents a significant shift in the speed and scale of future incidents. An autonomous agent can execute thousands of actions, test multiple paths, and continue working without the fatigue, coordination costs, or time constraints that limit human operators. In this case, most of the roughly 17,600 recovered actions were associated with failed paths. The operation was noisy and failure-prone, but it needed only a small number of ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "credential_theft",
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Hype vs. Reality: What the Hugging Face Incident Means for AI Safety",
-          "link": "https://www.recordedfuture.com/blog/hugging-face-ai-safety",
-          "published": "2026-08-05T00:00:00+00:00",
-          "summary": "Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "credential_theft",
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f1f9ac4c52",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "8 Ways AI is Changing Threat Intelligence",
-        "link": "https://www.recordedfuture.com/blog/ai-changing-threat-intelligence",
-        "published": "2026-08-03T00:00:00+00:00",
-        "summary": "Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.",
-        "full_body": "8 Ways AI is Changing Threat Intelligence The fundamentals haven't changed — the clock speed has. Defending everything is still the job, but adversaries can now move at machine-speed, which means the intelligence behind every decision has to move just as fast. AI cuts both ways. The same automation that lets defenders orchestrate faster is available to attackers too, and whoever uses it more creatively will often hold the advantage at any given moment. Trust in automation is being built one decision at a time. Human-in-the-loop approval is today's norm, but most security leaders expect that to shift toward human oversight of largely autonomous systems within the next few years. AI is changing the threat landscape faster than most security organizations can keep up. Recorded Future co-founder Christopher Ahlberg, CTO and co-founder Staffan Truvé, and Head of Threat Intelligence Levi Gundert unpack what’s actually happening in a recent conversation — and what it means for your defenses. Read on for their 8 takeaways. 1. The threat landscape now moves at machine speed. AI has made exposure discovery instant. Your unknown exposures are now part of your attack surface, and threats are multiplying faster than most teams can triage. While most security organizations are responding by trying to move faster, speed without accuracy isn’t an advantage. Staying ahead means having intelligence that makes machine-speed defense more effective, not just fast. As Truvé put it, intelligence has always been the way to stay proactive instead of reactive, and as \"clock speed\" increases across the industry, staying even a little ahead requires acting on intelligence faster than ever. “External attack surface, security operations, vulnerability management, prioritizing — so many of these use cases and workflows take on a new level of urgency because of the speed component,” Gundert said. 2. \"Defend the right things\" is now a multi-bear problem. The team agreed that the old security adage — you don't have to outrun the bear, just the person next to you — no longer holds. AI removes that comfort almost entirely. Attackers only need one way in. Defenders have to cover just about everything. That asymmetry has always been the challenge and AI is making it structurally worse. It’s no longer one bear chasing the herd anymore — it's one bear chasing each member of the herd, since attackers can automate at scale even more efficiently. 3. Attacks are already becoming more clever, not just faster. The panel discussed a real-world software supply chain compromise where attackers used compromised credentials to push a malicious package update, then had an LLM already present on infected developer machines search out AWS keys, SSH keys, and other credentials locally. The stolen data was encrypted and exfiltrated through a public GitHub repository — activity that never tripped EDR because it looked like ordinary LLM usage. It was a preview of a much bigger wave of clever attacks that will likely quietly repurpose and weaponize the AI tools already installed on a target's machine. 4. Locking down devices isn't the only answer — context-aware access might be. Locking down every endpoint isn't realistic, and it probably is not the answer. Situational permissions, such as access that flexes by location, time, and context are zero trust logic applied to the AI era. 5. Whether AI favors attackers or defenders depends on execution. Everyone is talking about what AI can do. Fewer are asking who AI will ultimately benefit. Will the advantage belong to attackers or defenders? It’s a question of how well organizations manage the trade-off between innovation and guardrails. Teams that articulate boundaries tend to build stronger solutions. Truvé broadened the definition of \"AI\" beyond LLMs to include things like anomaly detection, and predicted an ongoing arms race. “At any given point in time, depending on who's more creative in using the new technology,” he said, “one side",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "AWS": "mention",
-            "GitHub": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "AWS",
-                "mention",
-                0.3
-              ],
-              [
-                "GitHub",
-                "mention",
-                0.28
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "8 Ways AI is Changing Threat Intelligence",
-          "link": "https://www.recordedfuture.com/blog/ai-changing-threat-intelligence",
-          "published": "2026-08-03T00:00:00+00:00",
-          "summary": "Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "AWS": "mention",
-              "GitHub": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "AWS",
-                  "mention",
-                  0.3
-                ],
-                [
-                  "GitHub",
-                  "mention",
-                  0.28
-                ]
-              ]
             }
           }
         }
@@ -5713,6 +5082,109 @@
       ]
     },
     {
+      "cluster_id": "e53f5ae0c1",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Snowflake"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Krebs on Security",
+        "cohort": "practitioner_analysis",
+        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+        "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+        "published": "2026-08-06T17:00:56+00:00",
+        "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.",
+        "full_body": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud provider Snowflake . Connor Riley Moucka , of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers. A surveillance photo of Connor Riley Moucka, a.k.a. “Judische” and “Waifu,” dated Oct 21, 2024, 9 days before Moucka’s arrest. This image was included in an affidavit filed by an investigator with the Royal Canadian Mounted Police (RCMP). The U.S. Justice Department said between February and October 2024, Moucka and co-conspirators used stolen login credentials to steal cloud-hosted data belonging to at least 165 customers of a U.S.-based software-as-a-service company. The hackers targeted stolen credentials for Snowflake customer accounts that did not enforce multi-factor authentication, and extorted or attempted to extort a host of well-known companies, including TicketMaster, Lending Tree, Advance Auto Parts and Neiman Marcus. Snowflake responded to the data thefts by increasing password complexity requirements and enforcing multi-factor authentication. Moucka adopted new nicknames frequently — sometimes operating multiple identities concurrently — but two of his best-known monikers were “ Judische ” and “ Waifu .” Judische’s admitted role in the Snowflake data thefts was first documented by KrebsOnSecurity in a September 2024 story about the overlap between Western, English-speaking cybercriminals and extremist groups that harass and extort minors into harming themselves or others. That September 2024 story identified Judische as a software engineer from Ontario who has been involved in numerous data breaches and voice phishing attacks against U.S. companies since at least 2020. A little more than a month later, Canadian authorities arrested Moucka on a provisional warrant from the United States. The government says Moucka and others used their unauthorized access to steal billions of sensitive customer records and download terabytes of information, “including individuals’ non-content call and text history records, banking and other financial information, payroll records, Drug Enforcement Administration (DEA) registration numbers, driver’s license numbers, passport numbers, social security numbers and other personally identifiable information. They then extorted victims by threatening to publish data online.” Moucka also threatened and harassed government officials and security researchers who were helping to track him down. The Justice Department said the conspirators made over $2.5 million in ransom payments, and that in at least one instance, Moucka re-extorted a victim with threats of further disclosure of the victim’s stolen data. “Moucka used the stolen data of a government officer and members of a then-former government officer’s immediate family in this re-extortion attempt,” reads a statement from the Justice Department. One of Moucka’s admitted co-conspirators is Cameron “Kiberphant0m” Wagenius , a U.S. Army soldier who pleaded guilty in July 2025 to extorting AT&T and Verizon for their customer account data. Less than a month before Wagenius’s arrest, KrebsOnSecurity published a deep dive into Kiberphant0m’s various Telegram and Discord identities over the years, revealing how the owner of the accounts told others they were in the Army and stationed in South Korea. One of several selfies on the Facebook page of Cameron Wagenius. Kiberphant0m also re-extorted victims. Immediately following Moucka’s arrest, Kiberphant0m posted on hacker forums what he claimed were the AT&T call logs for then President-elect Donald Trump and for then Vice President Kamala Harris, as well schematics allegedly stolen from the U.S. National Security Agency (NSA). Wagenius is set to be sentenced on September 3, 2026. The government says he faces a maxim",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [
+            "Snowflake"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {
+            "Snowflake": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Krebs on Security",
+          "cohort": "practitioner_analysis",
+          "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+          "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+          "published": "2026-08-06T17:00:56+00:00",
+          "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [
+              "Snowflake"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "Snowflake": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2b2ae045a4",
       "priority_score": 9,
       "member_count": 1,
@@ -5813,109 +5285,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "e53f5ae0c1",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Snowflake"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Krebs on Security",
-        "cohort": "practitioner_analysis",
-        "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-        "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-        "published": "2026-08-06T17:00:56+00:00",
-        "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.",
-        "full_body": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud provider Snowflake . Connor Riley Moucka , of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers. A surveillance photo of Connor Riley Moucka, a.k.a. “Judische” and “Waifu,” dated Oct 21, 2024, 9 days before Moucka’s arrest. This image was included in an affidavit filed by an investigator with the Royal Canadian Mounted Police (RCMP). The U.S. Justice Department said between February and October 2024, Moucka and co-conspirators used stolen login credentials to steal cloud-hosted data belonging to at least 165 customers of a U.S.-based software-as-a-service company. The hackers targeted stolen credentials for Snowflake customer accounts that did not enforce multi-factor authentication, and extorted or attempted to extort a host of well-known companies, including TicketMaster, Lending Tree, Advance Auto Parts and Neiman Marcus. Snowflake responded to the data thefts by increasing password complexity requirements and enforcing multi-factor authentication. Moucka adopted new nicknames frequently — sometimes operating multiple identities concurrently — but two of his best-known monikers were “ Judische ” and “ Waifu .” Judische’s admitted role in the Snowflake data thefts was first documented by KrebsOnSecurity in a September 2024 story about the overlap between Western, English-speaking cybercriminals and extremist groups that harass and extort minors into harming themselves or others. That September 2024 story identified Judische as a software engineer from Ontario who has been involved in numerous data breaches and voice phishing attacks against U.S. companies since at least 2020. A little more than a month later, Canadian authorities arrested Moucka on a provisional warrant from the United States. The government says Moucka and others used their unauthorized access to steal billions of sensitive customer records and download terabytes of information, “including individuals’ non-content call and text history records, banking and other financial information, payroll records, Drug Enforcement Administration (DEA) registration numbers, driver’s license numbers, passport numbers, social security numbers and other personally identifiable information. They then extorted victims by threatening to publish data online.” Moucka also threatened and harassed government officials and security researchers who were helping to track him down. The Justice Department said the conspirators made over $2.5 million in ransom payments, and that in at least one instance, Moucka re-extorted a victim with threats of further disclosure of the victim’s stolen data. “Moucka used the stolen data of a government officer and members of a then-former government officer’s immediate family in this re-extortion attempt,” reads a statement from the Justice Department. One of Moucka’s admitted co-conspirators is Cameron “Kiberphant0m” Wagenius , a U.S. Army soldier who pleaded guilty in July 2025 to extorting AT&T and Verizon for their customer account data. Less than a month before Wagenius’s arrest, KrebsOnSecurity published a deep dive into Kiberphant0m’s various Telegram and Discord identities over the years, revealing how the owner of the accounts told others they were in the Army and stationed in South Korea. One of several selfies on the Facebook page of Cameron Wagenius. Kiberphant0m also re-extorted victims. Immediately following Moucka’s arrest, Kiberphant0m posted on hacker forums what he claimed were the AT&T call logs for then President-elect Donald Trump and for then Vice President Kamala Harris, as well schematics allegedly stolen from the U.S. National Security Agency (NSA). Wagenius is set to be sentenced on September 3, 2026. The government says he faces a maxim",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [
-            "Snowflake"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {
-            "Snowflake": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Krebs on Security",
-          "cohort": "practitioner_analysis",
-          "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-          "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-          "published": "2026-08-06T17:00:56+00:00",
-          "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [
-              "Snowflake"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {
-              "Snowflake": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -6112,6 +5481,138 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "582de97f0f",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "web_shell_backdoor",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "healthcare"
+        ],
+        "affected_products": [
+          "Cisco",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20131"
+        ],
+        "attack_techniques": [
+          "T1189"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Sophos X-Ops",
+        "cohort": "detection_response_operations",
+        "title": "2608-volatility-interlock",
+        "link": "https://www.sophos.com/en-us/blog/2608-volatility-interlock",
+        "published": "2026-08-04T00:00:00+00:00",
+        "summary": "<p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research",
+        "full_body": "Interlock ransomware gang creates volatile situation Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists Written by Sergio Bestulic , Andrew Bonwell , Karla Soler , Michael Warner Threat Research Share This Link Copied In March 2026, the Sophos Emergency Incident Response (EIR) team investigated an incident in which we observed the use of the legitimate IR memory analysis tool Volatility3 by the ransomware threat actor Interlock. Use of legitimate tools in attacks such as these continues an unfortunate trend we first noted last year. Interlock, which Sophos Counter Threat Unit (CTU) researchers track as GOLD EMBRACE , emerged in September 2024. It has been spotted worldwide but currently focuses on North American and European targets in the critical infrastructure, healthcare, and education sectors. It practices double extortion -- stealing sensitive data before encrypting systems, then threatening to leak information on its \"Worldwide Secrets Blog\" if its demands are not met. Rather than operating as Ransomware-as-a-Service, Interlock appears to be the handiwork of a small, dedicated team of operators that develops its own malware and conducts its own attacks. Noteworthy tactics, techniques, and procedures (TTPs) include the use of ClickFix-style social-engineering methods , a custom-built remote-access trojan (RAT) called \"NodeSnake\" or (alternately) \"Interlock RAT,\" and a PHP-based backdoor for cross-platform persistence (in addition to targeting of Windows and FreeBSD systems). More recently, Interlock has been actively exploiting CVE-2026-20131 , a critical-severity zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) Software. Activity overview The adversary’s Volatility3 activity occurred on the customer’s Patient Zero device (that is, the first system the threat actor was able to compromise to establish a foothold in the target’s environment) prior to the start of our engagement. The customer’s environment comprises both Sophos-managed servers and (at the time) Defender-managed endpoints, though it was discovered that not all endpoints were in fact running protection of any sort. Patient Zero was a Defender-managed endpoint running Windows 10. On that machine, we observed credential access-related activity to extract NTLM hashes, LM hashes (legacy hashes if enabled), and user account information via this command: vol.exe -f .\\mem.raw windows.hashdump.Hashdump In a legitimate use scenario, use of this command could be expected as part of a DFIR investigation, a security assessment, or malware analysis. However, adversarial use of Volatility3 would leave similar traces. In this situation, the customer knew of no legitimate Volatility3 use on their system. The team also observed the following command: vol.exe -f .\\mem.raw windows.cachedump.Cachedump This command attempts to extract cached domain credentials from memory -- username and hash pairs, as well as information on previously logged-in domain users. We also saw the threat actor use WinPmem, a legitimate physical memory acquisition tool made by Velocidex (the company originally behind Velociraptor, now owned by Rapid7), to collect the memory capture: winpmem_mini_x64_rc2.exe mem.raw Diary of an attack chain The interval between initial access and lateral movement to the domain controller in this case took slightly over 26 hours – longer than average , but not much time at all in human terms. Interestingly, as we see below, the attacker took a 24-hour break before redoubling the effort – basically, establishing persistence on the Patient Zero machine, putting a pin in it, and circling back with a fresh plan of attack the next day. Initial Access | T1189 - Drive-by Compromise On Day 1 of the attack, an end-user device was linked by a ChatGPT search for Dynamics 365 to a reputable web property that is believed to have been compromised at the time with a ClickFix lure. The end user was seeking a legitimate software appli",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "zero_day",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "critical_infrastructure",
+            "education"
+          ],
+          "affected_products": [
+            "Cisco",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-20131"
+          ],
+          "attack_techniques": [
+            "T1189"
+          ],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Cisco": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Sophos X-Ops",
+          "cohort": "detection_response_operations",
+          "title": "2608-volatility-interlock",
+          "link": "https://www.sophos.com/en-us/blog/2608-volatility-interlock",
+          "published": "2026-08-04T00:00:00+00:00",
+          "summary": "<p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "zero_day",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "critical_infrastructure",
+              "education"
+            ],
+            "affected_products": [
+              "Cisco",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-20131"
+            ],
+            "attack_techniques": [
+              "T1189"
+            ],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Cisco": "target",
+              "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
               "products": []
@@ -6434,138 +5935,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "582de97f0f",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "web_shell_backdoor",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "healthcare"
-        ],
-        "affected_products": [
-          "Cisco",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20131"
-        ],
-        "attack_techniques": [
-          "T1189"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Sophos X-Ops",
-        "cohort": "detection_response_operations",
-        "title": "2608-volatility-interlock",
-        "link": "https://www.sophos.com/en-us/blog/2608-volatility-interlock",
-        "published": "2026-08-04T00:00:00+00:00",
-        "summary": "<p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research",
-        "full_body": "Interlock ransomware gang creates volatile situation Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists Written by Sergio Bestulic , Andrew Bonwell , Karla Soler , Michael Warner Threat Research Share This Link Copied In March 2026, the Sophos Emergency Incident Response (EIR) team investigated an incident in which we observed the use of the legitimate IR memory analysis tool Volatility3 by the ransomware threat actor Interlock. Use of legitimate tools in attacks such as these continues an unfortunate trend we first noted last year. Interlock, which Sophos Counter Threat Unit (CTU) researchers track as GOLD EMBRACE , emerged in September 2024. It has been spotted worldwide but currently focuses on North American and European targets in the critical infrastructure, healthcare, and education sectors. It practices double extortion -- stealing sensitive data before encrypting systems, then threatening to leak information on its \"Worldwide Secrets Blog\" if its demands are not met. Rather than operating as Ransomware-as-a-Service, Interlock appears to be the handiwork of a small, dedicated team of operators that develops its own malware and conducts its own attacks. Noteworthy tactics, techniques, and procedures (TTPs) include the use of ClickFix-style social-engineering methods , a custom-built remote-access trojan (RAT) called \"NodeSnake\" or (alternately) \"Interlock RAT,\" and a PHP-based backdoor for cross-platform persistence (in addition to targeting of Windows and FreeBSD systems). More recently, Interlock has been actively exploiting CVE-2026-20131 , a critical-severity zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) Software. Activity overview The adversary’s Volatility3 activity occurred on the customer’s Patient Zero device (that is, the first system the threat actor was able to compromise to establish a foothold in the target’s environment) prior to the start of our engagement. The customer’s environment comprises both Sophos-managed servers and (at the time) Defender-managed endpoints, though it was discovered that not all endpoints were in fact running protection of any sort. Patient Zero was a Defender-managed endpoint running Windows 10. On that machine, we observed credential access-related activity to extract NTLM hashes, LM hashes (legacy hashes if enabled), and user account information via this command: vol.exe -f .\\mem.raw windows.hashdump.Hashdump In a legitimate use scenario, use of this command could be expected as part of a DFIR investigation, a security assessment, or malware analysis. However, adversarial use of Volatility3 would leave similar traces. In this situation, the customer knew of no legitimate Volatility3 use on their system. The team also observed the following command: vol.exe -f .\\mem.raw windows.cachedump.Cachedump This command attempts to extract cached domain credentials from memory -- username and hash pairs, as well as information on previously logged-in domain users. We also saw the threat actor use WinPmem, a legitimate physical memory acquisition tool made by Velocidex (the company originally behind Velociraptor, now owned by Rapid7), to collect the memory capture: winpmem_mini_x64_rc2.exe mem.raw Diary of an attack chain The interval between initial access and lateral movement to the domain controller in this case took slightly over 26 hours – longer than average , but not much time at all in human terms. Interestingly, as we see below, the attacker took a 24-hour break before redoubling the effort – basically, establishing persistence on the Patient Zero machine, putting a pin in it, and circling back with a fresh plan of attack the next day. Initial Access | T1189 - Drive-by Compromise On Day 1 of the attack, an end-user device was linked by a ChatGPT search for Dynamics 365 to a reputable web property that is believed to have been compromised at the time with a ClickFix lure. The end user was seeking a legitimate software appli",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "critical_infrastructure",
-            "education"
-          ],
-          "affected_products": [
-            "Cisco",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-20131"
-          ],
-          "attack_techniques": [
-            "T1189"
-          ],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Cisco": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Sophos X-Ops",
-          "cohort": "detection_response_operations",
-          "title": "2608-volatility-interlock",
-          "link": "https://www.sophos.com/en-us/blog/2608-volatility-interlock",
-          "published": "2026-08-04T00:00:00+00:00",
-          "summary": "<p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "critical_infrastructure",
-              "education"
-            ],
-            "affected_products": [
-              "Cisco",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20131"
-            ],
-            "attack_techniques": [
-              "T1189"
-            ],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Cisco": "target",
-              "OpenAI/ChatGPT": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -7984,42 +7353,6 @@
       ]
     },
     {
-      "label": "Palo Alto Networks active exploitation",
-      "anchor_signal": "Palo Alto Networks",
-      "theme_key": "palo-alto-networks",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 4,
-      "cohesion": 0.229,
-      "shared_strong_signals": [
-        "Palo Alto Networks"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "e9b42737b7",
-        "ebb24cd9dd",
-        "d1c29125d3",
-        "1c833c15fa"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-        "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
-        "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/",
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
-      ]
-    },
-    {
       "label": "supply chain targeting npm",
       "anchor_signal": "npm",
       "theme_key": "npm",
@@ -8077,43 +7410,6 @@
       ]
     },
     {
-      "label": "CVE-2026-18577 exploitation activity",
-      "anchor_signal": "CVE-2026-18577",
-      "theme_key": "cve-2026-18577",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-18556",
-          "CVE-2026-18577"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.348,
-      "shared_strong_signals": [
-        "CVE-2026-18577"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "65ab16fa91",
-        "e9b42737b7"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
-        "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
-        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
-        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
-      ]
-    },
-    {
       "label": "CVE-2026-18556 exploitation activity",
       "anchor_signal": "CVE-2026-18556",
       "theme_key": "cve-2026-18556",
@@ -8131,7 +7427,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
+      "article_count": 4,
       "cohesion": 0.348,
       "shared_strong_signals": [
         "CVE-2026-18556"
@@ -8144,7 +7440,42 @@
       ],
       "links": [
         "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/",
+        "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
+        "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+      ]
+    },
+    {
+      "label": "CVE-2026-18577 exploitation activity",
+      "anchor_signal": "CVE-2026-18577",
+      "theme_key": "cve-2026-18577",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-18556",
+          "CVE-2026-18577"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.348,
+      "shared_strong_signals": [
+        "CVE-2026-18577"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "65ab16fa91",
+        "e9b42737b7"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
         "https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment",
         "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
         "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
@@ -8240,6 +7571,34 @@
         "https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/",
         "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
         "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/"
+      ]
+    },
+    {
+      "label": "Palo Alto Networks vulnerability activity",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
+      "dominant_features": {
+        "affected_products": [
+          "Palo Alto Networks"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.257,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "e9b42737b7",
+        "ebb24cd9dd",
+        "d1c29125d3"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+        "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
+        "https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/"
       ]
     },
     {
@@ -8375,32 +7734,6 @@
         "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
         "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection"
-      ]
-    },
-    {
-      "label": "Cisco vulnerability activity",
-      "anchor_signal": "Cisco",
-      "theme_key": "cisco",
-      "dominant_features": {
-        "affected_products": [
-          "Cisco"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Cisco"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "1c833c15fa",
-        "582de97f0f"
-      ],
-      "links": [
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
-        "https://www.sophos.com/en-us/blog/2608-volatility-interlock"
       ]
     }
   ],
@@ -8606,12 +7939,6 @@
         "axis": "actor_attribution",
         "value": "LockBit",
         "cluster_id": "b00983247a",
-        "weeks_observed": 5
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2025-3248",
-        "cluster_id": "1c833c15fa",
         "weeks_observed": 5
       },
       {

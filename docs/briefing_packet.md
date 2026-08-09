@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-09T11:35:38.723248+00:00
+- Generated: 2026-08-09T13:04:10.788386+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
-- Total items in window: 348
-- Total clusters raw: 143
-- Total clusters in packet: 59
-- Dropped low score: 84
+- Feeds OK: 72
+- Total items in window: 333
+- Total clusters raw: 136
+- Total clusters in packet: 53
+- Dropped low score: 83
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,26 +70,31 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 6
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 5
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -100,31 +105,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -135,6 +140,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -145,50 +155,35 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 3
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 4
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 15
+  - Item count: 40
+  - In window count: 3
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
@@ -200,30 +195,40 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 30
   - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
@@ -235,36 +240,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 8
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 8
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -275,66 +285,61 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
+  - Item count: 100
   - In window count: 5
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -345,48 +350,63 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 24
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 20
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 20
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 24
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -395,31 +415,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -430,11 +425,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 50
+  - In window count: 50
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -500,26 +500,6 @@
   - https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/
   - https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/
 
-### Palo Alto Networks active exploitation
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.229
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Palo Alto Networks
-  - urgency_signals: actively_exploited
-- Cluster IDs: e9b42737b7, ebb24cd9dd, d1c29125d3, 1c833c15fa
-- Links:
-  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
-  - https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/
-  - https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
-  - https://www.recordedfuture.com/blog/july-2026-cve-landscape
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -559,32 +539,11 @@
   - https://unit42.paloaltonetworks.com/ai-token-jacking/
   - https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
 
-### CVE-2026-18577 exploitation activity
-- Anchor signal: CVE-2026-18577
-- Theme key: cve-2026-18577
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.348
-- Shared strong signals: CVE-2026-18577
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - cve_ids: CVE-2026-18556, CVE-2026-18577
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: 65ab16fa91, e9b42737b7
-- Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/
-  - https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
-  - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
-  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
-
 ### CVE-2026-18556 exploitation activity
 - Anchor signal: CVE-2026-18556
 - Theme key: cve-2026-18556
 - Cluster count: 2
-- Article count: 5
+- Article count: 4
 - Cohesion: 0.348
 - Shared strong signals: CVE-2026-18556
 - Member CVEs: (none)
@@ -596,7 +555,26 @@
 - Cluster IDs: 65ab16fa91, e9b42737b7
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/
+  - https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
+  - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
+  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
+
+### CVE-2026-18577 exploitation activity
+- Anchor signal: CVE-2026-18577
+- Theme key: cve-2026-18577
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.348
+- Shared strong signals: CVE-2026-18577
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - cve_ids: CVE-2026-18556, CVE-2026-18577
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: 65ab16fa91, e9b42737b7
+- Links:
+  - https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
   - https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
   - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
   - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
@@ -656,6 +634,23 @@
   - https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
   - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
   - https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
+
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.257
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Palo Alto Networks
+- Cluster IDs: e9b42737b7, ebb24cd9dd, d1c29125d3
+- Links:
+  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
+  - https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/
+  - https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
 
 ### CVE-2026-63077 exploitation activity
 - Anchor signal: CVE-2026-63077
@@ -736,22 +731,6 @@
   - https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
   - https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
 
-### Cisco vulnerability activity
-- Anchor signal: Cisco
-- Theme key: cisco
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Cisco
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Cisco
-- Cluster IDs: 1c833c15fa, 582de97f0f
-- Links:
-  - https://www.recordedfuture.com/blog/july-2026-cve-landscape
-  - https://www.sophos.com/en-us/blog/2608-volatility-interlock
-
 ## Forward signals
 
 ### Novelty
@@ -813,13 +792,12 @@
   - Prior top industries: education, financial_services, telecommunications
   - Prior top products: AWS, Azure, Salesforce
 
-### Persistence (10)
+### Persistence (9)
 - actor_attribution: ShinyHunters (weeks observed: 10, cluster d8c893e316)
 - actor_attribution: TeamPCP (weeks observed: 8, cluster 61004037ea)
 - actor_attribution: Scattered Spider (weeks observed: 8, cluster fb2a69eb0a)
 - cve_ids: CVE-2026-33017 (weeks observed: 7, cluster e9b42737b7)
 - actor_attribution: LockBit (weeks observed: 5, cluster b00983247a)
-- cve_ids: CVE-2025-3248 (weeks observed: 5, cluster 1c833c15fa)
 - cve_ids: CVE-2026-50522 (weeks observed: 4, cluster 9a320ea4d0)
 - cve_ids: CVE-2026-8037 (weeks observed: 3, cluster c97f90a69b)
 - cve_ids: CVE-2026-59726 (weeks observed: 3, cluster fe05850866)
@@ -840,8 +818,8 @@
 - Published: 2026-08-04T11:11:54+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: CVE-2026-18556, CVE-2026-18577
 
 #### Cluster taxonomy (union across members)
@@ -870,18 +848,13 @@ Overview On August 2, 2026, N-able published a security advisory for CVE-2026-18
 Back to Blog Vulnerabilities and Exploits CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild Rapid7 Aug 4, 2026 | Last updated on Aug 7, 2026 | 3 min read Overview On August 2, 2026, N-able published a security advisory for CVE-2026-18577 , an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after an incomplete fix for an earlier authentication bypass issue, CVE-2026-18556 was disclosed. CVE-2026-18577 allows a remote unauthenticated attacker to bypass authentication and obtain administrative control of vulnerable N-central servers in affected deployments. N-able N-central is a widely deployed Remote Monitoring and Management (RMM) platform used by managed service providers (MSPs) and enterprise IT teams to centrally administer servers, workstations, network devices, and other managed assets. Because the platform operates with extensive administrative privileges across customer environments, successful compromise of an N-central server can provide attackers with an efficient path to compromise downstream managed systems. According to N-able, exploitation of CVE-2026-18577 has been observed in the wild since August 1, 2026 . Following successful exploitation, attackers leveraged the platform's Take Control functionality to remotely access managed endpoints, and deployed Cloudflare Tunnel (cloudflared) to establish persistent remote access. On August 3, 2026, CVE-2026-18577 was added to CISA’s Known Exploited Vulnerability (KEV) catalog and on August 5, 2026, CVE-2026-18556 was also added to the catalog. Mitigation guidance Organizations operating vulnerable N-central deployments should prioritize remediation on an urgent basis, outside of normal patching schedules. Hosted N-central environments are upgraded automatically by the vendor, while on-premise deployments require manual remediation. Affected versions: All versions of N-able N-central up to and including version 2026.3.1, prior to Hotfix 1. Fixed version: N-able N-central 2026.3.1 Hotfix 1 (2026.3.1.7). The vendor also recommends: Upgrading N-central agents after applying the server hotfix. Reviewing systems for indicators of compromise. Contacting N-able Support immediately if evidence of compromise is discovered. Engaging internal incident response teams if malicious activity is identified. For further information, see the vendor advisory . IOCs N-able has published several artifacts that administrators should investigate during incident response. Endpoint Artifacts: Presence of a Cloudflared service. A suspicious svchost.exe located within the user's Documents folder. Network Indicators: Administrators should review historical network logs for inbound or outbound communication involving the malicious IP addresses identified by the vendor: 173[.]249[.]252[.]200 87[.]249[.]138[.]34 37[.]19[.]210[.]32 37[.]153[.]90[.]88 92[.]118[.]112[.]181 68[.]235[.]46[.]214 Organizations should also review: Authentication logs Administrative account creation or modification Take Control session activity Remote management logs Windows service installation events To assist affected organizations running N-central, the vendor has provided a detection template for CVE-2026-18577, which organizations can use to help identify potential compromise. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-18577 and CVE-2026-18556 with vulnerability checks available in the August 4 content release. Note that potential check type must be enabled in the scan template before scanning. Updates August 4, 2026: Initial publication. August 4, 2026: Updated Rapid7 customers section to reflect the availability of vulnerability checks. August 7, 2026: Updated the Overview and Rapid7 Customers sections to indicate addition of CVE-2026-18556 to CISA KEV and availability of vulnerability checks. Article Tags Emergent Threat Response Labs Vulne
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild
   - Published: 2026-08-04T11:11:54+00:00
   - Link: https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
   - Summary: Overview On August 2, 2026, N-able published a security advisory for CVE-2026-18577 , an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after an incomplete fix for an earlier authentication bypass issue, CVE-2026-18556 was disclosed. CVE-2026-18577 allows a remote unauthenticated attacker to bypass authentication and obtain administrative control of vulnerable N-central servers in affected deployments. N-able N-central is a widely deployed Remote Monitoring and Management (RMM) platform used by managed service providers (MSPs) and enterprise IT teams to centrally administer servers, workstations, network devices, and other managed assets. Because the platform operates with extensive administrative privileges across customer environments, successful compromise of an N-central server can provide attackers with an efficient path to compromise downstream managed systems. According to N-able, exploitation of CVE-2026-18577 has been ob
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CVE-2026-18556 and CVE-2026-18577 | N-able N-central Authentication Bypass Vulnerabilities
-  - Published: 2026-08-05T18:54:10+00:00
-  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/
-  - Summary: CVE-2026-18556 and CVE-2026-18577 are authentication bypass vulnerabilities affecting N-able N-central. NodeZero® Rapid Response safely validates exposure and verifies remediation.
 - **Sophos X-Ops** (detection_response_operations)
   - Title: N-able N-central exploitation results in RMM tool deployment
   - Published: 2026-08-04T00:00:00+00:00
@@ -1181,7 +1154,7 @@ Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligenc
 #### Full body
 
 ```
-Threat Intelligence UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments August 7, 2026 Google Threat Intelligence Group Mandiant Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multiple extortion fronts including Redact, Pink, Helix, and Falcon. UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices. These calls lure victims to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. In this update to our May 2026 blog , we detail the infrastructure linkages connecting these extortion brands. We also examine the evolution of UNC6671's targeting including recent activity focused on financial services, private equity, and professional services, and provide hardening guidance to help organizations protect themselves from this threat. UNC6671 Associated Extortion Brands Across UNC6671 intrusions, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have remained remarkably consistent. These operations uniformly leverage tailored IT helpdesk voice phishing (vishing), AiTM credential harvesting panels, and data theft from SaaS applications. Despite this unified technical baseline, extortion messages have used different branding and victim data stolen during these intrusions has been published across distinct data leak sites (DLS) (Figure 1). While public group communications cited an affiliate breakaway as the rationale for the initial rebranding to Redact, subsequent overlaps in phishing templates, victimology, and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix, and Falcon extortion brands to monetize their operations. Figure 1: UNC6671 Associated DLS Listings by Site Figure 2: Helix and Pink DLS Figure 3: Falcon DLS Initial REDACT Rebranding On June 27, 2026, the Redact operators published a blog post on their newly established Data Leak Site (DLS) addressing their alleged rebrand away from BlackFile. In the publication, the group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. According to Redact, this former associate purportedly operated an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under their name using unlinked Tox identities. The operators asserted that this rogue affiliate intentionally orchestrated the "shutdown" of the BlackFile brand in May 2026 to sow confusion among threat intelligence analysts and cyber insurance negotiators, thereby damaging the brand's reputation. To distance themselves from BlackFile, the operators stated that they rebranded as Redact, introducing a single verified Tox ID and PGP key to authenticate all future correspondence. Additionally, the post explicitly denied that pressure from the rival groups influenced their rebranding decision. Figure 3: REDACT statement on alleged break from BlackFile Shared Infrastructure: Connecting the Phishing Ecosystem UNC6671 uses credential harvesting panels hosted on generic root domains masquerading as being related to passkeys, appending vic
+Threat Intelligence UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments August 6, 2026 Google Threat Intelligence Group Mandiant Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multiple extortion fronts including Redact, Pink, Helix, and Falcon. UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices. These calls lure victims to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. In this update to our May 2026 blog , we detail the infrastructure linkages connecting these extortion brands. We also examine the evolution of UNC6671's targeting including recent activity focused on financial services, private equity, and professional services, and provide hardening guidance to help organizations protect themselves from this threat. UNC6671 Associated Extortion Brands Across UNC6671 intrusions, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have remained remarkably consistent. These operations uniformly leverage tailored IT helpdesk voice phishing (vishing), AiTM credential harvesting panels, and data theft from SaaS applications. Despite this unified technical baseline, extortion messages have used different branding and victim data stolen during these intrusions has been published across distinct data leak sites (DLS) (Figure 1). While public group communications cited an affiliate breakaway as the rationale for the initial rebranding to Redact, subsequent overlaps in phishing templates, victimology, and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix, and Falcon extortion brands to monetize their operations. Figure 1: UNC6671 Associated DLS Listings by Site Figure 2: Helix and Pink DLS Figure 3: Falcon DLS Initial REDACT Rebranding On June 27, 2026, the Redact operators published a blog post on their newly established Data Leak Site (DLS) addressing their alleged rebrand away from BlackFile. In the publication, the group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. According to Redact, this former associate purportedly operated an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under their name using unlinked Tox identities. The operators asserted that this rogue affiliate intentionally orchestrated the "shutdown" of the BlackFile brand in May 2026 to sow confusion among threat intelligence analysts and cyber insurance negotiators, thereby damaging the brand's reputation. To distance themselves from BlackFile, the operators stated that they rebranded as Redact, introducing a single verified Tox ID and PGP key to authenticate all future correspondence. Additionally, the post explicitly denied that pressure from the rival groups influenced their rebranding decision. Figure 3: REDACT statement on alleged break from BlackFile Shared Infrastructure: Connecting the Phishing Ecosystem UNC6671 uses credential harvesting panels hosted on generic root domains masquerading as being related to passkeys, appending vic
 ```
 
 #### Corroborating sources (5)
@@ -1622,7 +1595,7 @@ I’ve talked to developers, IT leaders, and builders who all ask the same quest
 #### Full body
 
 ```
-Training and Certifications Your agentic summer: No-cost lessons from Google experts to build and scale agents August 7, 2026 Gary Eimerman Managing Director, Google Cloud Learning Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agents can redefine productivity. 2. Agent Fundamentals : Go under the hood of autonomous intelligence. Learn decision models and execution loops to deploy adaptive agents over rigid automation. 3. Enterprise Agents and Use Cases : Discover how AI agents drive real business impact. Map agents directly to corporate KPIs, solve operational bottlenecks, and utilize no-code to high-code frameworks. 4. Create Your First Gemini Enterprise Application skill badge : Earn a skill badge that proves you can create an app with Gemini Enterprise. You will master capabilities like deep research agents, multi-agent ideation, and Gemini Notebook for focused analysis. 5. Human-Centered AI : Keep humanity at the core of automation. Learn to strategically balance machine speed with human intuition for successful orchestration. 6. Agentic Strategy: Discover, Design, and Prototype : Prototype high-impact AI projects with zero code. Leverage Google’s transformation framework, map user journeys and build functional retail prototypes. 7. Orchestrate Multi-Agent Workflows with Gemini Enterprise skill badge : Demonstrate your ability to manage multiple agents powered by Gemini Enterprise with a skill badge. This skill badge shows that you can unify data across first- and third-party sources, develop multimedia marketing materials, and fully automate complex business actions across disjointed systems. 8. Engineer AI Agents with Agent Development Kit (ADK) skill badge: Build production-grade agents using expert developer tools. Earn a skill badge that proves you can perform live search grounding, build structured JSON schemas, and manage ADK pipelines. 9. Add Currency Tools to an Agent Using MCP : Connect your LLMs to external systems in just 20 minutes. Securely bridge agents with live external databases and deploy via CLI. 10. Manage Agent Memory and State : Give your agents a memory. Move beyond single-query replies and use session states with the ADK to build highly personalized, deeply contextual agents. 11. Create Agent Skills with Google : Infuse domain expertise into custom skills. Minimize AI unpredictability and build reusable workflows that optimize agent performance. 12. AgentOps: Operationalize AI Agents on Google Cloud : Harden your prototypes and scale safely to production. Implement observability, proactive monitoring dashboards, and robust CI/CD security. Test your skills at the summertime Hackathon Keep moving with agents! The All Things Agentic Hackathon is officially live. The next leap in AI won't build itself — it needs you. Step up to the challenge with Gemini 3.5 and Google Cloud and deploy autonomous agents that do the heavy lifting in the background. Build what’s next, show the world wh
+Training and Certifications Your agentic summer: No-cost lessons from Google experts to build and scale agents August 6, 2026 Gary Eimerman Managing Director, Google Cloud Learning Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agents can redefine productivity. 2. Agent Fundamentals : Go under the hood of autonomous intelligence. Learn decision models and execution loops to deploy adaptive agents over rigid automation. 3. Enterprise Agents and Use Cases : Discover how AI agents drive real business impact. Map agents directly to corporate KPIs, solve operational bottlenecks, and utilize no-code to high-code frameworks. 4. Create Your First Gemini Enterprise Application skill badge : Earn a skill badge that proves you can create an app with Gemini Enterprise. You will master capabilities like deep research agents, multi-agent ideation, and Gemini Notebook for focused analysis. 5. Human-Centered AI : Keep humanity at the core of automation. Learn to strategically balance machine speed with human intuition for successful orchestration. 6. Agentic Strategy: Discover, Design, and Prototype : Prototype high-impact AI projects with zero code. Leverage Google’s transformation framework, map user journeys and build functional retail prototypes. 7. Orchestrate Multi-Agent Workflows with Gemini Enterprise skill badge : Demonstrate your ability to manage multiple agents powered by Gemini Enterprise with a skill badge. This skill badge shows that you can unify data across first- and third-party sources, develop multimedia marketing materials, and fully automate complex business actions across disjointed systems. 8. Engineer AI Agents with Agent Development Kit (ADK) skill badge: Build production-grade agents using expert developer tools. Earn a skill badge that proves you can perform live search grounding, build structured JSON schemas, and manage ADK pipelines. 9. Add Currency Tools to an Agent Using MCP : Connect your LLMs to external systems in just 20 minutes. Securely bridge agents with live external databases and deploy via CLI. 10. Manage Agent Memory and State : Give your agents a memory. Move beyond single-query replies and use session states with the ADK to build highly personalized, deeply contextual agents. 11. Create Agent Skills with Google : Infuse domain expertise into custom skills. Minimize AI unpredictability and build reusable workflows that optimize agent performance. 12. AgentOps: Operationalize AI Agents on Google Cloud : Harden your prototypes and scale safely to production. Implement observability, proactive monitoring dashboards, and robust CI/CD security. Test your skills at the summertime Hackathon Keep moving with agents! The All Things Agentic Hackathon is officially live. The next leap in AI won't build itself — it needs you. Step up to the challenge with Gemini 3.5 and Google Cloud and deploy autonomous agents that do the heavy lifting in the background. Build what’s next, show the world wh
 ```
 
 #### Corroborating sources (1)
@@ -2035,6 +2008,47 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
   - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
+### Cluster 3e123aa6ec — score 10
+
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+
 ### Cluster b00983247a — score 10
 
 - Title: An analysis of incidents at Brazilian educational institutions
@@ -2079,47 +2093,6 @@ Table of Contents Introduction Key findings and statistics Interesting cases Cas
   - Published: 2026-08-03T13:00:17+00:00
   - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
   - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
-
-### Cluster 3e123aa6ec — score 10
-
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 
 ### Cluster 2ba7372881 — score 10
 
@@ -2260,86 +2233,6 @@ Talos has collected prompt logs from threat actor endpoints running various appl
   - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
   - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
 
-### Cluster 432a5ea542 — score 10
-
-- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T15:37:27+00:00
-- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-```
-
-#### Full body
-
-```
-How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-  - Published: 2026-08-03T15:37:27+00:00
-  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-
-### Cluster 35c2b2988b — score 10
-
-- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T13:04:33+00:00
-- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
-```
-
-#### Full body
-
-```
-Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-  - Published: 2026-08-03T13:04:33+00:00
-  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
-
 ### Cluster 87cb88c47a — score 10
 
 - Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
@@ -2423,182 +2316,6 @@ Can AI do novel security research? Meet the HTTP Terminator James Kettle Directo
   - Published: 2026-08-05T19:30:00+00:00
   - Link: https://portswigger.net/research/can-ai-do-novel-security-research
   - Summary: Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi
-
-### Cluster 1c833c15fa — score 10
-
-- Title: July 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-07T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Cisco, Fortinet, Palo Alto Networks
-- cve_ids: CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034, CVE-2025-3248
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Fortinet, Palo Alto Networks, Cisco
-- cve_ids: CVE-2025-3248, CVE-2008-4128, CVE-2017-17215, CVE-2018-0802, CVE-2021-4034
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
-```
-
-#### Full body
-
-```
-July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: July 2026 CVE Landscape
-  - Published: 2026-08-07T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/july-2026-cve-landscape
-  - Summary: In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.
-
-### Cluster 6b94b6e7b2 — score 10
-
-- Title: Emerging Threats to Neurotechnology
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-06T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/emerging-threats-neurotechnology
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
-- affected_industries: education, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
-- affected_industries: healthcare, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.
-```
-
-#### Full body
-
-```
-Emerging Threats to Neurotechnology Summary Neurotechnology is rapidly moving beyond clinical use cases, expanding the attack surface for sensitive neurological and biometric data: As adoption grows, larger volumes of brain activity, biometric, and behavioral data will be collected by commercial platforms, creating new opportunities for data theft, misuse, and exploitation. China and the United States (US) are engaged in strategic competition in neurotechnology development: The US leads in the number of neurotechnology firms, and brain-computer interface (BCI) research has been a long-term research priority for the US military. At the same time, China’s five-year guidance for BCI development, subsidies for major wearable technology firms, and military research into human-machine integration suggest that neurotechnology is a strategic priority. Leading neurotechnology companies are likely to face increased targeting for intellectual property (IP) theft: Because neurotechnology is costly to develop and strategically valuable, companies in this sector are likely to become attractive targets for state-sponsored espionage, insider threats, and cyber-enabled theft. Successful IP theft could erode the competitive advantage of companies that invest heavily in research and development (R&D). Military and higher education research laboratories are also likely to be targeted for access to R&D and related data. Neurological and biometric data will become an increasingly valuable target for cybercriminals and state-linked actors: Attackers may seek to exfiltrate these datasets for extortion, surveillance, strategic intelligence, or model development. The sensitivity of this data could make breaches particularly damaging for affected individuals and companies, making it an attractive target for extortion-focused cybercriminals. Regulatory and national security scrutiny of neurological data will likely intensify: Existing privacy frameworks in the European Union (EU) and several US states already provide heightened protections for neurological or biometric data, but rapid advances in neurotechnology may outpace consumer protection laws. Figure 1: Key threats in neurotechnology and how they will evolve (Source: Recorded Future) Analysis What is neurotechnology? Neurotechnology is the field focused on understanding and interacting with the brain through technology. Much of the progress so far has been in medicine, where scientists seek to use the technology to treat neurological disorders such as Parkinson’s disease or paralysis. Implantable BCIs have demonstrated the ability to translate brain activity into words, enabling individuals with neurological injuries to speak again. In June 2026, China approved the world’s first commercial brain implant, which allows individuals with spinal cord injuries to regain motor control of their hands via a robotic glove. Other BCI technologies remain in clinical trials. Less invasive examples of the technology include medical electroencephalography (EEG) equipment that externally measures brain activity to diagnose and monitor conditions such as epilepsy, sleep disorders, and ADHD. The global neurotechnology market is projected to reach $53 billion by 2034, driven by the rising prevalence of neurological disorders and the rapid evolution of artificial intelligence (AI) and machine learning that enable the interpretation of neurological data. Outside of medical use cases, the consumer neurotechnology market is rapidly expanding. According to a market study published by the Centre for Future Generations in mid-2025, 45 consumer neurotechnology brands focused on wellness and fitness emerged over the last decade, making it the largest consumer sector in neurotechnology devices. These include products that monitor brain activity to improve focus, such as glasses that use neurofeedback to darken when the user is distracted and lighten when they are focused, as well as products that use brain data for “ brain tra
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Emerging Threats to Neurotechnology
-  - Published: 2026-08-06T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/emerging-threats-neurotechnology
-  - Summary: Explore the evolving security landscape of neurotechnology, including risks like IP theft, data extortion, and regulatory challenges in this emerging field.
-
-### Cluster 725e4c357a — score 10
-
-- Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-05T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain, zero_day
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, zero_day
-- affected_products: OpenAI/ChatGPT
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
-```
-
-#### Full body
-
-```
-Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic defense will be essential to countering agentic offense. However, defenders must actively mitigate the risk of autonomous systems operating outside of their expected parameters. In July 2026, OpenAI disclosed that models undergoing an internal cybersecurity evaluation had escaped their testing environment and compromised part of Hugging Face’s production infrastructure. OpenAI characterized the event as an “unprecedented cyber incident.” The incident should put security leaders on alert, but not for the reasons OpenAI suggests. One concern is that OpenAI’s agents demonstrated the ability to autonomously carry out an end-to-end cyberattack, placing the models at the highest level of autonomy within Recorded Future’s AIM3 framework. However, the greater concern is that the model operators did not sufficiently monitor for or prepare to mitigate unauthorized agentic activity. Enterprises using agents for security and other purposes should see the Hugging Face incident as a warning about what happens when agents are set loose without safeguards against adverse outcomes. What Happened The incident began during an OpenAI evaluation designed to measure advanced cyber capabilities. The evaluation involved GPT-5.6 Sol and an even more capable internal research prototype that OpenAI says was not intended for public release. Because the objective was to test their maximum offensive potential, the models were operated with reduced security guardrails (normally used to prevent high-risk activity). According to OpenAI , the models spent substantial computing resources searching for a path to the internet. They exploited a zero-day vulnerability in Artifactory, the package-registry cache proxy available in the evaluation environment, and then performed privilege escalation and lateral movement within OpenAI’s research environment until they reached a node with internet access. Once online, the models inferred that Hugging Face might contain models, datasets, or solutions associated with ExploitGym, the benchmark they had been instructed to solve. OpenAI says the agents then chained stolen credentials, zero-day vulnerabilities, and remote code execution paths to obtain test solutions from a Hugging Face production database. Hugging Face’s technical reconstruction covers roughly 17,600 recovered agent actions, grouped into approximately 6,280 clusters, between July 9 and July 13, 2026. Although most attempts failed, the agent still gained administrative access to internal and production systems, accessed some source-code repositories, and used a stolen credential to connect external systems to the company network. Hugging Face found no evidence that its public models, datasets, services, packages, or published software supply chain were altered. It says the only customer content accessed comprised five datasets, apparently related to ExploitGym or CyberGym. A Capability Breakthrough and a Control Failure Most coverage of this incident has framed it as a breakthrough in model capabilities, since it is the first known instance of a model apparently independently conducting an end-to-end cyberattack. The underlying techniques were largely familiar to those used in human-led cyberattacks: vulnerability exploitation, credential theft, staging, remote code execution, lateral movement, and abuse of privileged or trusted access. What was notable was the agents’ ability to select and chain those steps autonomously across a long-running operation. This represents a significant shift in the speed and scale of future incidents. An autonomous agent can execute thousands of actions, test multiple paths, and continue working without the fatigue, coordination costs, or time constraints that limit human operators. In this case, most of the roughly 17,600 recovered actions were associated with failed paths. The operation was noisy and failure-prone, but it needed only a small number of
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Hype vs. Reality: What the Hugging Face Incident Means for AI Safety
-  - Published: 2026-08-05T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
-  - Summary: Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
-
-### Cluster f1f9ac4c52 — score 10
-
-- Title: 8 Ways AI is Changing Threat Intelligence
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-03T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
-```
-
-#### Full body
-
-```
-8 Ways AI is Changing Threat Intelligence The fundamentals haven't changed — the clock speed has. Defending everything is still the job, but adversaries can now move at machine-speed, which means the intelligence behind every decision has to move just as fast. AI cuts both ways. The same automation that lets defenders orchestrate faster is available to attackers too, and whoever uses it more creatively will often hold the advantage at any given moment. Trust in automation is being built one decision at a time. Human-in-the-loop approval is today's norm, but most security leaders expect that to shift toward human oversight of largely autonomous systems within the next few years. AI is changing the threat landscape faster than most security organizations can keep up. Recorded Future co-founder Christopher Ahlberg, CTO and co-founder Staffan Truvé, and Head of Threat Intelligence Levi Gundert unpack what’s actually happening in a recent conversation — and what it means for your defenses. Read on for their 8 takeaways. 1. The threat landscape now moves at machine speed. AI has made exposure discovery instant. Your unknown exposures are now part of your attack surface, and threats are multiplying faster than most teams can triage. While most security organizations are responding by trying to move faster, speed without accuracy isn’t an advantage. Staying ahead means having intelligence that makes machine-speed defense more effective, not just fast. As Truvé put it, intelligence has always been the way to stay proactive instead of reactive, and as "clock speed" increases across the industry, staying even a little ahead requires acting on intelligence faster than ever. “External attack surface, security operations, vulnerability management, prioritizing — so many of these use cases and workflows take on a new level of urgency because of the speed component,” Gundert said. 2. "Defend the right things" is now a multi-bear problem. The team agreed that the old security adage — you don't have to outrun the bear, just the person next to you — no longer holds. AI removes that comfort almost entirely. Attackers only need one way in. Defenders have to cover just about everything. That asymmetry has always been the challenge and AI is making it structurally worse. It’s no longer one bear chasing the herd anymore — it's one bear chasing each member of the herd, since attackers can automate at scale even more efficiently. 3. Attacks are already becoming more clever, not just faster. The panel discussed a real-world software supply chain compromise where attackers used compromised credentials to push a malicious package update, then had an LLM already present on infected developer machines search out AWS keys, SSH keys, and other credentials locally. The stolen data was encrypted and exfiltrated through a public GitHub repository — activity that never tripped EDR because it looked like ordinary LLM usage. It was a preview of a much bigger wave of clever attacks that will likely quietly repurpose and weaponize the AI tools already installed on a target's machine. 4. Locking down devices isn't the only answer — context-aware access might be. Locking down every endpoint isn't realistic, and it probably is not the answer. Situational permissions, such as access that flexes by location, time, and context are zero trust logic applied to the AI era. 5. Whether AI favors attackers or defenders depends on execution. Everyone is talking about what AI can do. Fewer are asking who AI will ultimately benefit. Will the advantage belong to attackers or defenders? It’s a question of how well organizations manage the trade-off between innovation and guardrails. Teams that articulate boundaries tend to build stronger solutions. Truvé broadened the definition of "AI" beyond LLMs to include things like anomaly detection, and predicted an ongoing arms race. “At any given point in time, depending on who's more creative in using the new technology,” he said, “one side
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: 8 Ways AI is Changing Threat Intelligence
-  - Published: 2026-08-03T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
-  - Summary: Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
 
 ### Cluster 24e0f0f990 — score 10
 
@@ -2718,51 +2435,6 @@ This morning, I noticed specific sources "hunting" for vulnerabilities in URLs t
   - Link: https://isc.sans.edu/diary/rss/33214
   - Summary: This morning, I noticed specific sources "hunting" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:
 
-### Cluster 2b2ae045a4 — score 9
-
-- Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-05T14:27:30+00:00
-- Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- cve_ids: CVE-2026-32998, CVE-2026-58067, CVE-2026-58071, CVE-2026-58072, CVE-2026-58073
-- urgency_signals: critical_cvss, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- cve_ids: CVE-2026-58073, CVE-2026-58072, CVE-2026-58067, CVE-2026-58071, CVE-2026-32998
-- urgency_signals: preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
-```
-
-#### Full body
-
-```
-Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug  Swati Khandelwal  Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 builds before 9.3, and Django's documented admin attack path requires a staff account with view permission for a model containing a spatial field. None of the three advisories says the flaws are under active exploitation, and as of August 5, 2026, none of the eleven CVEs appears in CISA's Known Exploited Vulnerabilities catalog, and no public proof-of-concept has surfaced. Impersonate an agent, take its credentials Veeam Service Provider Console, the multi-tenant console that hosting firms and managed service providers use to run and monitor customer backups, got four fixes in build 9.3.0.35057, detailed in a security bulletin published August 4 . Two are critical. Veeam released the build on July 29. The one to watch is CVE-2026-58073 (CVSS score: 9.5), which lets an unauthenticated attacker impersonate a managed agent and obtain that agent's credentials. Its CVSS vector rates attack complexity as high. The second critical flaw, CVE-2026-58072 (CVSS score: 9.0), is an arbitrary file write on the management server that can lead to remote code execution and requires a low-privilege account. The 9.5 reads as the worst of the two because it needs no login, but its high attack complexity is the reason the vector is not a straight-line exploit; unauthenticated here does not mean easy. Two high-severity bugs round out the set: CVE-2026-58067 , an unauthenticated memory-exhaustion denial of service, and CVE-2026-58071 , which exposes the proxied appliance API as Portal Administrator during a short window after an administrator session begins. All four affect VSPC 9.2.1.33875 and every earlier version 9 build. The fix is the upgrade to 9.3.0.35057. This is the second critical patch cycle for the console in roughly three months. In May, Veeam fixed CVE-2026-32998 , a 9.4-rated remote code execution bug tied to alarm script execution. One tenant's token, reused for the next HashiCorp's Terraform MCP server, which connects AI assistants to Terraform over the Model Context Protocol, carries three related flaws in its Streamable HTTP transport, disclosed July 28 and fixed in version 1.1.0 . HashiCorp released the fixed build on July 14, followed by version 1.2.0 on August 4. Deployments that run only in stdio mode, the local single-user setup, are unaffected. The bugs live in the multi-user HTTP mode meant for centralized, shared deployments, the configuration HashiCorp promoted when it made the server generally available in June . The most severe is CVE-2026-16498 (CVSS score: 10.0), a cross-tenant credential-reuse bug in stateless HTTP mode. The underlying MCP library does not assign unique session identifiers, and the server's credential cache relied on those identifiers to tell users apart. One user's Terraform token could therefore be reused for later users' requests regardless of the token they supplied. The root is an assumption about the layer beneath the
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
-  - Published: 2026-08-05T14:27:30+00:00
-  - Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
-  - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
-
 ### Cluster e53f5ae0c1 — score 9
 
 - Title: Canadian Man Pleads Guilty in Snowflake Extortions
@@ -2807,6 +2479,51 @@ A 26-year-old Canadian man once described as one of the most consequential cyber
   - Published: 2026-08-06T17:00:56+00:00
   - Link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
   - Summary: A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.
+
+### Cluster 2b2ae045a4 — score 9
+
+- Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-05T14:27:30+00:00
+- Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- cve_ids: CVE-2026-32998, CVE-2026-58067, CVE-2026-58071, CVE-2026-58072, CVE-2026-58073
+- urgency_signals: critical_cvss, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- cve_ids: CVE-2026-58073, CVE-2026-58072, CVE-2026-58067, CVE-2026-58071, CVE-2026-32998
+- urgency_signals: preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
+```
+
+#### Full body
+
+```
+Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug  Swati Khandelwal  Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 builds before 9.3, and Django's documented admin attack path requires a staff account with view permission for a model containing a spatial field. None of the three advisories says the flaws are under active exploitation, and as of August 5, 2026, none of the eleven CVEs appears in CISA's Known Exploited Vulnerabilities catalog, and no public proof-of-concept has surfaced. Impersonate an agent, take its credentials Veeam Service Provider Console, the multi-tenant console that hosting firms and managed service providers use to run and monitor customer backups, got four fixes in build 9.3.0.35057, detailed in a security bulletin published August 4 . Two are critical. Veeam released the build on July 29. The one to watch is CVE-2026-58073 (CVSS score: 9.5), which lets an unauthenticated attacker impersonate a managed agent and obtain that agent's credentials. Its CVSS vector rates attack complexity as high. The second critical flaw, CVE-2026-58072 (CVSS score: 9.0), is an arbitrary file write on the management server that can lead to remote code execution and requires a low-privilege account. The 9.5 reads as the worst of the two because it needs no login, but its high attack complexity is the reason the vector is not a straight-line exploit; unauthenticated here does not mean easy. Two high-severity bugs round out the set: CVE-2026-58067 , an unauthenticated memory-exhaustion denial of service, and CVE-2026-58071 , which exposes the proxied appliance API as Portal Administrator during a short window after an administrator session begins. All four affect VSPC 9.2.1.33875 and every earlier version 9 build. The fix is the upgrade to 9.3.0.35057. This is the second critical patch cycle for the console in roughly three months. In May, Veeam fixed CVE-2026-32998 , a 9.4-rated remote code execution bug tied to alarm script execution. One tenant's token, reused for the next HashiCorp's Terraform MCP server, which connects AI assistants to Terraform over the Model Context Protocol, carries three related flaws in its Streamable HTTP transport, disclosed July 28 and fixed in version 1.1.0 . HashiCorp released the fixed build on July 14, followed by version 1.2.0 on August 4. Deployments that run only in stdio mode, the local single-user setup, are unaffected. The bugs live in the multi-user HTTP mode meant for centralized, shared deployments, the configuration HashiCorp promoted when it made the server generally available in June . The most severe is CVE-2026-16498 (CVSS score: 10.0), a cross-tenant credential-reuse bug in stateless HTTP mode. The underlying MCP library does not assign unique session identifiers, and the server's credential cache relied on those identifiers to tell users apart. One user's Terraform token could therefore be reused for later users' requests regardless of the token they supplied. The root is an assumption about the layer beneath the
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+  - Published: 2026-08-05T14:27:30+00:00
+  - Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+  - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
 
 ### Cluster 1f7c3a3d86 — score 9
 
@@ -2888,6 +2605,57 @@ AWS Security Blog Caching KMS data keys in multi-thread environments: Per-tenant
   - Published: 2026-08-06T08:57:30+00:00
   - Link: https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
   - Summary: Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon
+
+### Cluster 582de97f0f — score 8
+
+- Title: 2608-volatility-interlock
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-08-04T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/2608-volatility-interlock
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, web_shell_backdoor, zero_day
+- affected_industries: critical_infrastructure, education, healthcare
+- affected_products: Cisco, OpenAI/ChatGPT
+- cve_ids: CVE-2026-20131
+- attack_techniques: T1189
+- urgency_signals: zero_day
+- content_type: threat_research
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, web_shell_backdoor
+- affected_industries: healthcare, critical_infrastructure, education
+- affected_products: Cisco, OpenAI/ChatGPT
+- cve_ids: CVE-2026-20131
+- attack_techniques: T1189
+- urgency_signals: zero_day
+- content_type: threat_research
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research
+```
+
+#### Full body
+
+```
+Interlock ransomware gang creates volatile situation Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists Written by Sergio Bestulic , Andrew Bonwell , Karla Soler , Michael Warner Threat Research Share This Link Copied In March 2026, the Sophos Emergency Incident Response (EIR) team investigated an incident in which we observed the use of the legitimate IR memory analysis tool Volatility3 by the ransomware threat actor Interlock. Use of legitimate tools in attacks such as these continues an unfortunate trend we first noted last year. Interlock, which Sophos Counter Threat Unit (CTU) researchers track as GOLD EMBRACE , emerged in September 2024. It has been spotted worldwide but currently focuses on North American and European targets in the critical infrastructure, healthcare, and education sectors. It practices double extortion -- stealing sensitive data before encrypting systems, then threatening to leak information on its "Worldwide Secrets Blog" if its demands are not met. Rather than operating as Ransomware-as-a-Service, Interlock appears to be the handiwork of a small, dedicated team of operators that develops its own malware and conducts its own attacks. Noteworthy tactics, techniques, and procedures (TTPs) include the use of ClickFix-style social-engineering methods , a custom-built remote-access trojan (RAT) called "NodeSnake" or (alternately) "Interlock RAT," and a PHP-based backdoor for cross-platform persistence (in addition to targeting of Windows and FreeBSD systems). More recently, Interlock has been actively exploiting CVE-2026-20131 , a critical-severity zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) Software. Activity overview The adversary’s Volatility3 activity occurred on the customer’s Patient Zero device (that is, the first system the threat actor was able to compromise to establish a foothold in the target’s environment) prior to the start of our engagement. The customer’s environment comprises both Sophos-managed servers and (at the time) Defender-managed endpoints, though it was discovered that not all endpoints were in fact running protection of any sort. Patient Zero was a Defender-managed endpoint running Windows 10. On that machine, we observed credential access-related activity to extract NTLM hashes, LM hashes (legacy hashes if enabled), and user account information via this command: vol.exe -f .\mem.raw windows.hashdump.Hashdump In a legitimate use scenario, use of this command could be expected as part of a DFIR investigation, a security assessment, or malware analysis. However, adversarial use of Volatility3 would leave similar traces. In this situation, the customer knew of no legitimate Volatility3 use on their system. The team also observed the following command: vol.exe -f .\mem.raw windows.cachedump.Cachedump This command attempts to extract cached domain credentials from memory -- username and hash pairs, as well as information on previously logged-in domain users. We also saw the threat actor use WinPmem, a legitimate physical memory acquisition tool made by Velocidex (the company originally behind Velociraptor, now owned by Rapid7), to collect the memory capture: winpmem_mini_x64_rc2.exe mem.raw Diary of an attack chain The interval between initial access and lateral movement to the domain controller in this case took slightly over 26 hours – longer than average , but not much time at all in human terms. Interestingly, as we see below, the attacker took a 24-hour break before redoubling the effort – basically, establishing persistence on the Patient Zero machine, putting a pin in it, and circling back with a fresh plan of attack the next day. Initial Access | T1189 - Drive-by Compromise On Day 1 of the attack, an end-user device was linked by a ChatGPT search for Dynamics 365 to a reputable web property that is believed to have been compromised at the time with a ClickFix lure. The end user was seeking a legitimate software appli
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: 2608-volatility-interlock
+  - Published: 2026-08-04T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/2608-volatility-interlock
+  - Summary: <p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research
 
 ### Cluster e2f458ad1f — score 8
 
@@ -3048,57 +2816,6 @@ Elastic Security now tracks every detection rule change with one-click rollback 
   - Published: 2026-08-03T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/soc-case-management-detection-rule-history
   - Summary: Elastic Security now tracks every detection rule change with one-click rollback and makes case data queryable out of the box, so SOC teams get audit trails and reporting without configuring anything.
-
-### Cluster 582de97f0f — score 8
-
-- Title: 2608-volatility-interlock
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-08-04T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/2608-volatility-interlock
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, web_shell_backdoor, zero_day
-- affected_industries: critical_infrastructure, education, healthcare
-- affected_products: Cisco, OpenAI/ChatGPT
-- cve_ids: CVE-2026-20131
-- attack_techniques: T1189
-- urgency_signals: zero_day
-- content_type: threat_research
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, web_shell_backdoor
-- affected_industries: healthcare, critical_infrastructure, education
-- affected_products: Cisco, OpenAI/ChatGPT
-- cve_ids: CVE-2026-20131
-- attack_techniques: T1189
-- urgency_signals: zero_day
-- content_type: threat_research
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research
-```
-
-#### Full body
-
-```
-Interlock ransomware gang creates volatile situation Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists Written by Sergio Bestulic , Andrew Bonwell , Karla Soler , Michael Warner Threat Research Share This Link Copied In March 2026, the Sophos Emergency Incident Response (EIR) team investigated an incident in which we observed the use of the legitimate IR memory analysis tool Volatility3 by the ransomware threat actor Interlock. Use of legitimate tools in attacks such as these continues an unfortunate trend we first noted last year. Interlock, which Sophos Counter Threat Unit (CTU) researchers track as GOLD EMBRACE , emerged in September 2024. It has been spotted worldwide but currently focuses on North American and European targets in the critical infrastructure, healthcare, and education sectors. It practices double extortion -- stealing sensitive data before encrypting systems, then threatening to leak information on its "Worldwide Secrets Blog" if its demands are not met. Rather than operating as Ransomware-as-a-Service, Interlock appears to be the handiwork of a small, dedicated team of operators that develops its own malware and conducts its own attacks. Noteworthy tactics, techniques, and procedures (TTPs) include the use of ClickFix-style social-engineering methods , a custom-built remote-access trojan (RAT) called "NodeSnake" or (alternately) "Interlock RAT," and a PHP-based backdoor for cross-platform persistence (in addition to targeting of Windows and FreeBSD systems). More recently, Interlock has been actively exploiting CVE-2026-20131 , a critical-severity zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) Software. Activity overview The adversary’s Volatility3 activity occurred on the customer’s Patient Zero device (that is, the first system the threat actor was able to compromise to establish a foothold in the target’s environment) prior to the start of our engagement. The customer’s environment comprises both Sophos-managed servers and (at the time) Defender-managed endpoints, though it was discovered that not all endpoints were in fact running protection of any sort. Patient Zero was a Defender-managed endpoint running Windows 10. On that machine, we observed credential access-related activity to extract NTLM hashes, LM hashes (legacy hashes if enabled), and user account information via this command: vol.exe -f .\mem.raw windows.hashdump.Hashdump In a legitimate use scenario, use of this command could be expected as part of a DFIR investigation, a security assessment, or malware analysis. However, adversarial use of Volatility3 would leave similar traces. In this situation, the customer knew of no legitimate Volatility3 use on their system. The team also observed the following command: vol.exe -f .\mem.raw windows.cachedump.Cachedump This command attempts to extract cached domain credentials from memory -- username and hash pairs, as well as information on previously logged-in domain users. We also saw the threat actor use WinPmem, a legitimate physical memory acquisition tool made by Velocidex (the company originally behind Velociraptor, now owned by Rapid7), to collect the memory capture: winpmem_mini_x64_rc2.exe mem.raw Diary of an attack chain The interval between initial access and lateral movement to the domain controller in this case took slightly over 26 hours – longer than average , but not much time at all in human terms. Interestingly, as we see below, the attacker took a 24-hour break before redoubling the effort – basically, establishing persistence on the Patient Zero machine, putting a pin in it, and circling back with a fresh plan of attack the next day. Initial Access | T1189 - Drive-by Compromise On Day 1 of the attack, an end-user device was linked by a ChatGPT search for Dynamics 365 to a reputable web property that is believed to have been compromised at the time with a ClickFix lure. The end user was seeking a legitimate software appli
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: 2608-volatility-interlock
-  - Published: 2026-08-04T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/2608-volatility-interlock
-  - Summary: <p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research
 
 ### Cluster cf56c2f2ab — score 8
 
