@@ -1,10 +1,10 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-08T23:34:55.586896+00:00
+- Generated: 2026-08-09T02:09:50.128366+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
+- Feeds OK: 74
 - Total items in window: 350
 - Total clusters raw: 141
 - Total clusters in packet: 59
@@ -70,111 +70,116 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 6
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 6
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 10
+  - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 100
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 15
+  - In window count: 3
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 3
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -225,76 +230,71 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 5
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,36 +305,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,31 +350,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 26
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 20
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 10
-  - In window count: 8
+  - Item count: 30
+  - In window count: 26
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -385,23 +380,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - In window count: 8
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,6 +395,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 25
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -420,21 +420,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 100
-  - In window count: 25
+  - Item count: 50
+  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -469,6 +464,11 @@
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 
 ## Affinity groups (themes)
@@ -553,19 +553,19 @@
   - https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything
   - https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/
   - https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
-  - https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
   - https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
+  - https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
   - https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/
   - https://unit42.paloaltonetworks.com/ai-token-jacking/
   - https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
 
-### CVE-2026-18577 exploitation activity
-- Anchor signal: CVE-2026-18577
-- Theme key: cve-2026-18577
+### CVE-2026-18556 exploitation activity
+- Anchor signal: CVE-2026-18556
+- Theme key: cve-2026-18556
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18577
+- Shared strong signals: CVE-2026-18556
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -580,13 +580,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
   - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 
-### CVE-2026-18556 exploitation activity
-- Anchor signal: CVE-2026-18556
-- Theme key: cve-2026-18556
+### CVE-2026-18577 exploitation activity
+- Anchor signal: CVE-2026-18577
+- Theme key: cve-2026-18577
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18556
+- Shared strong signals: CVE-2026-18577
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -683,6 +683,34 @@
   - https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
   - https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
   - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+
+### TeamPCP campaign activity
+- Anchor signal: TeamPCP
+- Theme key: teampcp
+- Cluster count: 2
+- Article count: 18
+- Cohesion: 0.421
+- Shared strong signals: TeamPCP
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - actor_attribution: TeamPCP
+- Cluster IDs: 61004037ea, 02097b7a9a
+- Links:
+  - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
+  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - https://isc.sans.edu/diary/rss/33218
+  - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
+  - https://securelist.com/cloud-platforms-in-phishing/120832/
+  - https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/
+  - https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+  - https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
+  - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
+  - https://cyberscoop.com/teampcp-long-active-history-2020-oligo-security/
+  - https://risky.biz/RBNEWS595/
+  - https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
+  - https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
@@ -1544,66 +1572,21 @@ AI security company Zenity has disclosed the details of two AI browser hacking t
   - Published: 2026-08-06T20:39:30+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
   - Summary: In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
-  - Published: 2026-08-07T08:18:35+00:00
-  - Link: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
-  - Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident
   - Published: 2026-08-06T13:40:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
   - Summary: One of Meta’s AI models exploited a third-party security flaw during an evaluation, the latest in a series of similar incidents involving advanced AI systems
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
+  - Published: 2026-08-07T08:18:35+00:00
+  - Link: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
+  - Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: Claude Code RCE: How a Malicious PR Triggers Code Execution
   - Published: 2026-08-06T21:22:53+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/
   - Summary: Abusing the trust boundary in Claude Code for RCE. Trust is never broken and that opens up a few avenues for abuse. Simply opening claude code on a PR can be enough to silently trigger attacker payloads. submitted by /u/kev-thehermit [link] [comments]
-
-### Cluster 182d0345d6 — score 12
-
-- Title: Your agentic summer: No-cost lessons from Google experts to build and scale agents
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-08-06T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: retail_ecommerce
-- affected_products: Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: retail_ecommerce
-- affected_products: Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent
-```
-
-#### Full body
-
-```
-Training and Certifications Your agentic summer: No-cost lessons from Google experts to build and scale agents August 6, 2026 Gary Eimerman Managing Director, Google Cloud Learning Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agents can redefine productivity. 2. Agent Fundamentals : Go under the hood of autonomous intelligence. Learn decision models and execution loops to deploy adaptive agents over rigid automation. 3. Enterprise Agents and Use Cases : Discover how AI agents drive real business impact. Map agents directly to corporate KPIs, solve operational bottlenecks, and utilize no-code to high-code frameworks. 4. Create Your First Gemini Enterprise Application skill badge : Earn a skill badge that proves you can create an app with Gemini Enterprise. You will master capabilities like deep research agents, multi-agent ideation, and Gemini Notebook for focused analysis. 5. Human-Centered AI : Keep humanity at the core of automation. Learn to strategically balance machine speed with human intuition for successful orchestration. 6. Agentic Strategy: Discover, Design, and Prototype : Prototype high-impact AI projects with zero code. Leverage Google’s transformation framework, map user journeys and build functional retail prototypes. 7. Orchestrate Multi-Agent Workflows with Gemini Enterprise skill badge : Demonstrate your ability to manage multiple agents powered by Gemini Enterprise with a skill badge. This skill badge shows that you can unify data across first- and third-party sources, develop multimedia marketing materials, and fully automate complex business actions across disjointed systems. 8. Engineer AI Agents with Agent Development Kit (ADK) skill badge: Build production-grade agents using expert developer tools. Earn a skill badge that proves you can perform live search grounding, build structured JSON schemas, and manage ADK pipelines. 9. Add Currency Tools to an Agent Using MCP : Connect your LLMs to external systems in just 20 minutes. Securely bridge agents with live external databases and deploy via CLI. 10. Manage Agent Memory and State : Give your agents a memory. Move beyond single-query replies and use session states with the ADK to build highly personalized, deeply contextual agents. 11. Create Agent Skills with Google : Infuse domain expertise into custom skills. Minimize AI unpredictability and build reusable workflows that optimize agent performance. 12. AgentOps: Operationalize AI Agents on Google Cloud : Harden your prototypes and scale safely to production. Implement observability, proactive monitoring dashboards, and robust CI/CD security. Test your skills at the summertime Hackathon Keep moving with agents! The All Things Agentic Hackathon is officially live. The next leap in AI won't build itself — it needs you. Step up to the challenge with Gemini 3.5 and Google Cloud and deploy autonomous agents that do the heavy lifting in the background. Build what’s next, show the world wh
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Your agentic summer: No-cost lessons from Google experts to build and scale agents
-  - Published: 2026-08-06T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/
-  - Summary: I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent
 
 ### Cluster 229f6cf243 — score 12
 
@@ -1651,6 +1634,51 @@ Hackers breach TrueConf to trojanize client installers with backdoors By Bill To
   - Published: 2026-08-08T14:16:23+00:00
   - Link: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
   - Summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
+
+### Cluster 182d0345d6 — score 12
+
+- Title: Your agentic summer: No-cost lessons from Google experts to build and scale agents
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-08-06T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: retail_ecommerce
+- affected_products: Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: retail_ecommerce
+- affected_products: Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent
+```
+
+#### Full body
+
+```
+Training and Certifications Your agentic summer: No-cost lessons from Google experts to build and scale agents August 6, 2026 Gary Eimerman Managing Director, Google Cloud Learning Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agents can redefine productivity. 2. Agent Fundamentals : Go under the hood of autonomous intelligence. Learn decision models and execution loops to deploy adaptive agents over rigid automation. 3. Enterprise Agents and Use Cases : Discover how AI agents drive real business impact. Map agents directly to corporate KPIs, solve operational bottlenecks, and utilize no-code to high-code frameworks. 4. Create Your First Gemini Enterprise Application skill badge : Earn a skill badge that proves you can create an app with Gemini Enterprise. You will master capabilities like deep research agents, multi-agent ideation, and Gemini Notebook for focused analysis. 5. Human-Centered AI : Keep humanity at the core of automation. Learn to strategically balance machine speed with human intuition for successful orchestration. 6. Agentic Strategy: Discover, Design, and Prototype : Prototype high-impact AI projects with zero code. Leverage Google’s transformation framework, map user journeys and build functional retail prototypes. 7. Orchestrate Multi-Agent Workflows with Gemini Enterprise skill badge : Demonstrate your ability to manage multiple agents powered by Gemini Enterprise with a skill badge. This skill badge shows that you can unify data across first- and third-party sources, develop multimedia marketing materials, and fully automate complex business actions across disjointed systems. 8. Engineer AI Agents with Agent Development Kit (ADK) skill badge: Build production-grade agents using expert developer tools. Earn a skill badge that proves you can perform live search grounding, build structured JSON schemas, and manage ADK pipelines. 9. Add Currency Tools to an Agent Using MCP : Connect your LLMs to external systems in just 20 minutes. Securely bridge agents with live external databases and deploy via CLI. 10. Manage Agent Memory and State : Give your agents a memory. Move beyond single-query replies and use session states with the ADK to build highly personalized, deeply contextual agents. 11. Create Agent Skills with Google : Infuse domain expertise into custom skills. Minimize AI unpredictability and build reusable workflows that optimize agent performance. 12. AgentOps: Operationalize AI Agents on Google Cloud : Harden your prototypes and scale safely to production. Implement observability, proactive monitoring dashboards, and robust CI/CD security. Test your skills at the summertime Hackathon Keep moving with agents! The All Things Agentic Hackathon is officially live. The next leap in AI won't build itself — it needs you. Step up to the challenge with Gemini 3.5 and Google Cloud and deploy autonomous agents that do the heavy lifting in the background. Build what’s next, show the world wh
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Your agentic summer: No-cost lessons from Google experts to build and scale agents
+  - Published: 2026-08-06T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/
+  - Summary: I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent
 
 ### Cluster d8c893e316 — score 12
 
@@ -2007,47 +2035,6 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
   - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
-### Cluster 3e123aa6ec — score 10
-
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-
 ### Cluster b00983247a — score 10
 
 - Title: An analysis of incidents at Brazilian educational institutions
@@ -2093,224 +2080,46 @@ Table of Contents Introduction Key findings and statistics Interesting cases Cas
   - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
   - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
 
-### Cluster 2ba7372881 — score 10
+### Cluster 3e123aa6ec — score 10
 
-- Title: When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-06T22:20:00+00:00
-- Link: https://research.checkpoint.com/2026/when-agentic-glue-melts/
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT
-- urgency_signals: poc_available
+- threat_categories: web_shell_backdoor
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, ai_security
-- affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT
-- urgency_signals: poc_available
+- threat_categories: web_shell_backdoor
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 ```
 
 #### Full body
 
 ```
-CATEGORIES AI Research 18 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 464 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 419 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers August 7, 2026 https://research.checkpoint.com/2026/when-agentic-glue-melts/ By Yarden Porat, Check Point Research Key Points Check Point Research analyzed Cloudflare Code Mode, a technique that changes how AI agents use MCP by turning tools into a TypeScript API the model can write code against. The research uncovered five vulnerabilities in workerd, the open-source runtime behind Code Mode and Cloudflare Workers. Two were rated Critical by Cloudflare. The blast radius is broad: by Cloudflare’s own numbers, Workers is built by millions of developers ,[1] serves millions of requests per second ,[2] and carries more than 10% of all traffic on Cloudflare’s network .[3] Because workerd underpins both Code Mode sandboxes and Workers tenant isolation, the findings create sandbox-escape and cross-tenant exposure risk. Cloudflare’s managed Workers environment has been fixed in production. Self-hosted workerd / Code Mode deployments should update to v1.20260619.1. Check Point Research released proof-of-concept code as part of its Black Hat USA 2026 presentation. The short version We set out to break Cloudflare Code Mode , and ended up breaking Cloudflare Workers too. We did both by targeting workerd , the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” between JavaScript and the runtime), and turned them into two end-to-end attacks: Cross-tenant heap swipe. An out-of-bounds read in URLPattern lets one Worker reach across the shared process heap and swipe another tenant’s secrets . Code Mode sandbox escape. Starting from a prompt injection, a use-after-free in node:zlib breaks out of the sandbox and runs native code on the host . Part I – Understanding the target 1. Where this started: Code Mode Code Mode is Cloudflare’s take on LLM tool use. Instead of a model emitting structured tool calls one at a time, Code Mode exposes the available tools as a typed TypeScript API and lets the model write code that calls them: loops, conditionals, data shuffling and all. In the traditional MCP / tool-calling loop, the model emits one {tool, args} call, the agent runs it, feeds the result back. The model then emits the next call. Every step is a fresh model invocation, and usually a network round-trip. Code Mode collapses that: the model writes one program that orchestrates many tool calls itself (looping, branching, and combining intermediate results locally) and only the final output returns to the model. Cloudflare’s argument is that LLMs, trained on enormous amounts of real-world code, are simply better at writing a program against a typed API than at emitting long chains of synthetic tool calls. [4] Figure 1 – Tool calling vs. Code Mode That code has to run somewhere, and that “somewhere” is workerd , the runtime behind Cloudflare Workers. 2. The workerd origin story To understand workerd, start with the product it was built for: Cloudflare Workers . Workers is Cloudflare’s serverless platform: you upload a piece of code and Cloudflare runs it at the edge , in data centers close to the user, on demand for every request. There’s no server to manage and, ideally, no cold machine to wait for. That model creates a hard isolation problem. Cloudflare runs code from a huge number of different customers, and to keep latency and cost down it packs many of them onto the same machines, and, as we’ll see, into the same process. The classic answer (a container or VM per tenant) is far to
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers
-  - Published: 2026-08-06T22:20:00+00:00
-  - Link: https://research.checkpoint.com/2026/when-agentic-glue-melts/
-  - Summary: By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .
-
-### Cluster fe05850866 — score 10
-
-- Title: 3rd August – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-03T13:15:55+00:00
-- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- affected_products: Anthropic/Claude, VMware
-- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 3rd August – Threat Intelligence Report
-  - Published: 2026-08-03T13:15:55+00:00
-  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster ef0ff97611 — score 10
-
-- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-04T10:00:11+00:00
-- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
-```
-
-#### Full body
-
-```
-“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-  - Published: 2026-08-04T10:00:11+00:00
-  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
-
-### Cluster 432a5ea542 — score 10
-
-- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T15:37:27+00:00
-- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-```
-
-#### Full body
-
-```
-How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-  - Published: 2026-08-03T15:37:27+00:00
-  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-
-### Cluster 35c2b2988b — score 10
-
-- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T13:04:33+00:00
-- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
-```
-
-#### Full body
-
-```
-Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-  - Published: 2026-08-03T13:04:33+00:00
-  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 
 ### Cluster 1c833c15fa — score 10
 
@@ -2487,6 +2296,225 @@ Explore eight key ways that AI is reshaping the threat intelligence landscape, f
   - Published: 2026-08-03T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
   - Summary: Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
+
+### Cluster 2ba7372881 — score 10
+
+- Title: When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-08-06T22:20:00+00:00
+- Link: https://research.checkpoint.com/2026/when-agentic-glue-melts/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, ai_security
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+CATEGORIES AI Research 18 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 464 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 419 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers August 7, 2026 https://research.checkpoint.com/2026/when-agentic-glue-melts/ By Yarden Porat, Check Point Research Key Points Check Point Research analyzed Cloudflare Code Mode, a technique that changes how AI agents use MCP by turning tools into a TypeScript API the model can write code against. The research uncovered five vulnerabilities in workerd, the open-source runtime behind Code Mode and Cloudflare Workers. Two were rated Critical by Cloudflare. The blast radius is broad: by Cloudflare’s own numbers, Workers is built by millions of developers ,[1] serves millions of requests per second ,[2] and carries more than 10% of all traffic on Cloudflare’s network .[3] Because workerd underpins both Code Mode sandboxes and Workers tenant isolation, the findings create sandbox-escape and cross-tenant exposure risk. Cloudflare’s managed Workers environment has been fixed in production. Self-hosted workerd / Code Mode deployments should update to v1.20260619.1. Check Point Research released proof-of-concept code as part of its Black Hat USA 2026 presentation. The short version We set out to break Cloudflare Code Mode , and ended up breaking Cloudflare Workers too. We did both by targeting workerd , the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” between JavaScript and the runtime), and turned them into two end-to-end attacks: Cross-tenant heap swipe. An out-of-bounds read in URLPattern lets one Worker reach across the shared process heap and swipe another tenant’s secrets . Code Mode sandbox escape. Starting from a prompt injection, a use-after-free in node:zlib breaks out of the sandbox and runs native code on the host . Part I – Understanding the target 1. Where this started: Code Mode Code Mode is Cloudflare’s take on LLM tool use. Instead of a model emitting structured tool calls one at a time, Code Mode exposes the available tools as a typed TypeScript API and lets the model write code that calls them: loops, conditionals, data shuffling and all. In the traditional MCP / tool-calling loop, the model emits one {tool, args} call, the agent runs it, feeds the result back. The model then emits the next call. Every step is a fresh model invocation, and usually a network round-trip. Code Mode collapses that: the model writes one program that orchestrates many tool calls itself (looping, branching, and combining intermediate results locally) and only the final output returns to the model. Cloudflare’s argument is that LLMs, trained on enormous amounts of real-world code, are simply better at writing a program against a typed API than at emitting long chains of synthetic tool calls. [4] Figure 1 – Tool calling vs. Code Mode That code has to run somewhere, and that “somewhere” is workerd , the runtime behind Cloudflare Workers. 2. The workerd origin story To understand workerd, start with the product it was built for: Cloudflare Workers . Workers is Cloudflare’s serverless platform: you upload a piece of code and Cloudflare runs it at the edge , in data centers close to the user, on demand for every request. There’s no server to manage and, ideally, no cold machine to wait for. That model creates a hard isolation problem. Cloudflare runs code from a huge number of different customers, and to keep latency and cost down it packs many of them onto the same machines, and, as we’ll see, into the same process. The classic answer (a container or VM per tenant) is far to
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers
+  - Published: 2026-08-06T22:20:00+00:00
+  - Link: https://research.checkpoint.com/2026/when-agentic-glue-melts/
+  - Summary: By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .
+
+### Cluster fe05850866 — score 10
+
+- Title: 3rd August – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-08-03T13:15:55+00:00
+- Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-59726, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
+- affected_products: Anthropic/Claude, VMware
+- cve_ids: CVE-2026-59726, CVE-2026-20316, CVE-2026-59309, CVE-2026-59310, CVE-2026-63077
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August – Threat Intelligence Report August 3, 2026 https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported that drinking water safety was not affected. While the attack was not officially attributed, federal officials previously posted warning regarding targeting of critical infrastructure by Iranian-affiliated threat actors. Bank of Baroda, a major Indian bank, has disclosed an email account compromise that exposed internal communications and attachments. Reports claim more than 700GB of customer files, loan documents, and audit records were leaked, although the bank has not confirmed the reported volume. Core banking systems were unaffected. Amgen, a US biotechnology company that develops medicines for serious illnesses, has confirmed a breach involving cloud environments operated by third-party providers. Attackers exfiltrated proprietary corporate information and patient health data. The company reported no disruption to manufacturing, financial reporting, products, or its ability to supply medicines. Angola’s largest telecommunications provider, Unitel, has suffered a cyberattack that disrupted voice, mobile data, and internet services for millions of customers. The outage also affected electronic payments shortly before the company’s stock market debut. Network data indicated that internal systems were disabled while external routers remained online. AI THREATS Anthropic has disclosed that Claude-based cybersecurity models gained unauthorized access to systems belonging to three outside organizations during controlled evaluations. The models moved beyond intended test environments and reached sensitive production assets. Anthropic identified the incidents while reviewing testing practices following separate autonomous AI security failures. Researchers have published details of CVE-2026-59726, a critical vulnerability in the Ruflo AI agent platform. An unauthenticated attacker could abuse its exposed Model Context Protocol bridge to execute commands, steal API keys, access conversations, and alter stored AI memory. Ruflo addressed the issue in version 3.16.3. Researchers surfaced a privacy issue in Anthropic’s Claude sharing feature that allowed publicly shared conversations and artifacts to be indexed by search engines. Indexed content reportedly included personal information, resumes, financial records, access codes, API keys, and clinical trial material that users may not have expected to become searchable. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20316, an actively exploited vulnerability in Secure Firewall Management Center. The flaw allows unauthenticated attackers to access a built-in low-privileged account and retrieve sensitive information from affected systems. Cisco released hotfixes after exploitation was identified, and the vulnerability was added to CISA’s catalog. Broadcom has released patches for five vulnerabilities affecting VMware vCenter, ESX, Workstation, and Fusion. Three critical flaws could allow authentication bypass, arbitrary code execution, or escape from a virtual machine to its host. The issues include CVE-2026-59309 and CVE-2026-59310, both carrying CVSS scores of 9.8. JetBrains has released fixes for CVE-2026-63077, a critical authentication bypass affecting all TeamCity On-Premises versions. A remote unauthenticated attacker could execute code with TeamCity server privileges and compromise connected build environments. The flaw is fixed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud was not
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 3rd August – Threat Intelligence Report
+  - Published: 2026-08-03T13:15:55+00:00
+  - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 432a5ea542 — score 10
+
+- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T15:37:27+00:00
+- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
+```
+
+#### Full body
+
+```
+How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+  - Published: 2026-08-03T15:37:27+00:00
+  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
+  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
+
+### Cluster 35c2b2988b — score 10
+
+- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T13:04:33+00:00
+- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
+```
+
+#### Full body
+
+```
+Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+  - Published: 2026-08-03T13:04:33+00:00
+  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
+
+### Cluster ef0ff97611 — score 10
+
+- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-04T10:00:11+00:00
+- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
+```
+
+#### Full body
+
+```
+“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+  - Published: 2026-08-04T10:00:11+00:00
+  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
 
 ### Cluster 87cb88c47a — score 10
 
@@ -2689,47 +2717,6 @@ This morning, I noticed specific sources "hunting" for vulnerabilities in URLs t
   - Published: 2026-08-04T12:46:19+00:00
   - Link: https://isc.sans.edu/diary/rss/33214
   - Summary: This morning, I noticed specific sources "hunting" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:
-
-### Cluster e2f458ad1f — score 9
-
-- Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-08-07T23:59:59+00:00
-- Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude, Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Anthropic/Claude, Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
-```
-
-#### Full body
-
-```
-7 August 2026 • Mika Ayenson, PhD • Jia Yu Chan Living off the coding agent: Two tales of tunnels and LaunchAgents A macOS case study on Claude Code ancestry, free tunnel brokers, and the challenge of validating GenAI-adjacent alerts. 10 min read Generative AI Coding agents such as Claude Code and Cursor are vendor-signed, used all day on developer laptops, and routinely open shells, call APIs, edit files, and install helpers. That makes GenAI-adjacent alerts challenging to investigate. The parent looks trusted, while the children can still look a lot like classic high-severity activity. This article walks through one of those windows. On a macOS endpoint, Elastic Security endpoint telemetry showed shells under Claude Code that scripted a login to an ephemeral tunnel hostname, pulled application metrics, stood up a Cloudflare quick tunnel, and installed LaunchAgent persistence. Immediate children were often shells ( zsh ) and helpers under that ancestry, not Claude executing every binary itself. The outcomes Endpoint cares about are still there. Credentials show up on the wire, along with reverse tunnels and LaunchAgents. The destinations and command shapes also line up with known free tunnel providers ( localhost[.]run / lhr[.]life , trycloudflare, ngrok, etc.), a local loopback app pattern, and ordinary SaaS APIs. Put together, the same telemetry can read like a remote admin of a local dashboard with agent help, which is exactly why these alerts are hard to triage. Below we walk the multi-day suspicious activity and the 23 Jul window stage by stage, name the known dual-use tools, show which production rules fired, and describe challenges detection engineers and analysts encounter when investigating these alerts. Key takeaways Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Treat that as high severity even when it looks like vibe-coded ops, not confirmed malware. Known free tunnel brokers ( localhost[.]run / lhr[.]life , Cloudflare Quick Tunnels, ngrok) show up next to credentialed HTTP and LaunchAgents in the same session. The hard part for detection engineers is validation. Trusted coding-agent parents, dual-use destinations, and high-severity outcomes can all arrive in one alert pile. Coding agent activity analysis Two hunt paths landed on the same host on July 23, 2026. One started from VirusTotal reputation on a domain contacted under the agent lineage. The other started from correlated endpoint behavior alerts, including the production rule Persistence via GenAI Tool . Together they rebuilt one sequence rather than a pile of unrelated noisy events. That was not the first Elastic Defend signal on the host. Telemetry already showed event.code: malicious_file and behavior activity from July 20, 2026 onward. Most of it was tunnel and VPN-class binaries, noisy GenAI-adjacent alerts, followed by credential posts and LaunchAgent persistence the hunts highlighted. macOS developer endpoint: Where this showed up The activity sits on a macOS developer endpoint where Claude Code (and in related cases Cursor) was already installed and in use. The practical class is a workstation that trusts signed coding agents to open shells, edit files, call APIs, and install helpers. How the Claude Code session staged the chain From telemetry, the session needed to run tooling with fewer approval prompts, reach a tunnel-published URL, expose a local service without inbound firewall changes, keep that path alive, and check related processes. Those steps show up as ordinary process, file, and network event types under a coding-agent parent. Known dual-use tools in this window include localhost[.]run (free SSH tunnels on *.lhr[.]life ), Cloudflare Quick Tunnels ( *.trycloudflare[.]com / api.trycloudflare[.]com ), and an ngrok binary. VirusTotal flags on broker apexes (root domain) remain useful hunt signals because those services get abused. In this session, the tunnels sit next to publish-localhost beha
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
-  - Published: 2026-08-07T23:59:59+00:00
-  - Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
-  - Summary: Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
 
 ### Cluster e53f5ae0c1 — score 9
 
@@ -2952,6 +2939,47 @@ Interlock ransomware gang creates volatile situation Multiple legitimate DFIR to
   - Published: 2026-08-04T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/2608-volatility-interlock
   - Summary: <p>Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists</p> Categories: Threat Research
+
+### Cluster e2f458ad1f — score 8
+
+- Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-08-07T23:59:59+00:00
+- Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Anthropic/Claude, Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
+```
+
+#### Full body
+
+```
+7 August 2026 • Mika Ayenson, PhD • Jia Yu Chan Living off the coding agent: Two tales of tunnels and LaunchAgents A macOS case study on Claude Code ancestry, free tunnel brokers, and the challenge of validating GenAI-adjacent alerts. 10 min read Generative AI Coding agents such as Claude Code and Cursor are vendor-signed, used all day on developer laptops, and routinely open shells, call APIs, edit files, and install helpers. That makes GenAI-adjacent alerts challenging to investigate. The parent looks trusted, while the children can still look a lot like classic high-severity activity. This article walks through one of those windows. On a macOS endpoint, Elastic Security endpoint telemetry showed shells under Claude Code that scripted a login to an ephemeral tunnel hostname, pulled application metrics, stood up a Cloudflare quick tunnel, and installed LaunchAgent persistence. Immediate children were often shells ( zsh ) and helpers under that ancestry, not Claude executing every binary itself. The outcomes Endpoint cares about are still there. Credentials show up on the wire, along with reverse tunnels and LaunchAgents. The destinations and command shapes also line up with known free tunnel providers ( localhost[.]run / lhr[.]life , trycloudflare, ngrok, etc.), a local loopback app pattern, and ordinary SaaS APIs. Put together, the same telemetry can read like a remote admin of a local dashboard with agent help, which is exactly why these alerts are hard to triage. Below we walk the multi-day suspicious activity and the 23 Jul window stage by stage, name the known dual-use tools, show which production rules fired, and describe challenges detection engineers and analysts encounter when investigating these alerts. Key takeaways Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Treat that as high severity even when it looks like vibe-coded ops, not confirmed malware. Known free tunnel brokers ( localhost[.]run / lhr[.]life , Cloudflare Quick Tunnels, ngrok) show up next to credentialed HTTP and LaunchAgents in the same session. The hard part for detection engineers is validation. Trusted coding-agent parents, dual-use destinations, and high-severity outcomes can all arrive in one alert pile. Coding agent activity analysis Two hunt paths landed on the same host on July 23, 2026. One started from VirusTotal reputation on a domain contacted under the agent lineage. The other started from correlated endpoint behavior alerts, including the production rule Persistence via GenAI Tool . Together they rebuilt one sequence rather than a pile of unrelated noisy events. That was not the first Elastic Defend signal on the host. Telemetry already showed event.code: malicious_file and behavior activity from July 20, 2026 onward. Most of it was tunnel and VPN-class binaries, noisy GenAI-adjacent alerts, followed by credential posts and LaunchAgent persistence the hunts highlighted. macOS developer endpoint: Where this showed up The activity sits on a macOS developer endpoint where Claude Code (and in related cases Cursor) was already installed and in use. The practical class is a workstation that trusts signed coding agents to open shells, edit files, call APIs, and install helpers. How the Claude Code session staged the chain From telemetry, the session needed to run tooling with fewer approval prompts, reach a tunnel-published URL, expose a local service without inbound firewall changes, keep that path alive, and check related processes. Those steps show up as ordinary process, file, and network event types under a coding-agent parent. Known dual-use tools in this window include localhost[.]run (free SSH tunnels on *.lhr[.]life ), Cloudflare Quick Tunnels ( *.trycloudflare[.]com / api.trycloudflare[.]com ), and an ngrok binary. VirusTotal flags on broker apexes (root domain) remain useful hunt signals because those services get abused. In this session, the tunnels sit next to publish-localhost beha
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
+  - Published: 2026-08-07T23:59:59+00:00
+  - Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+  - Summary: Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
 
 ### Cluster d737a53686 — score 8
 
@@ -3255,6 +3283,156 @@ Unlimited Technology Systems is notifying over 3.8 million individuals that thei
   - Link: https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
   - Summary: Hackers stole personal, medical, and health insurance information from a company’s data center. The post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek .
 
+### Cluster 38f40f9f14 — score 8
+
+- Title: Google Links Redact Extortion Group to BlackFile Rebrand
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-07T09:40:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: mfa_bypass, phishing_social_eng, ransomware_extortion
+- actor_attribution: UNC6671
+- affected_industries: healthcare, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
+- actor_attribution: UNC6671
+- affected_industries: healthcare, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Google Links Redact Extortion Group to BlackFile Rebrand Google Links Redact Extortion Group to BlackFile Rebrand News 7 August 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn The BlackFile extortion group , which targets its victims through vishing scams, has rebranded. According to an analysis by Google Threat Intelligence Group (GTIG), despite BlackFile (UNC6671) having announced the retirement of its brand in 2026, it had now rebranded to Redact. Researchers said the group’s public communications cited an affiliate breakaway as the rationale for the initial rebrand. However, overlaps in phishing templates, victimology and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix and Falcon extortion brands to monetize their operations. Redact operators published a blog post about their new data lead site (DLS) and the rebrand from Black File on June 27. The group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. A rogue affiliate was apparently responsible for operating an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under BlackFile’s name using unlinked Tox identities. They were also accused of orchestrating the supposed shutdown of the BlackFile brand in May 2026. REDACT statement on alleged break from BlackFile: Source GTIG Vishing Scams Impersonate IT Help Desks Whatever name the group operates under now, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have largely remained the same, according to GTIG. GTIG said, “This most likely reflects a coordinated group of threat actors operating multiple public extortion brands possibly in an effort to compartmentalize operations, hide overall breach volumes and isolate any negotiation fallout.” The cybercriminal group uses voice phishing to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Victims are often targeted via their personal devices. The calls lure targets to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. GTIG was able to connect the BlackFile, Redact, Pink, Helix and Falcon extortion brands because rather than maintaining isolated infrastructure for each target, UNC6671 reuses generic root domains across multiple target organizations. Root domains like passkeyhelpdesk[.]com and passkeydeploy[.]com were used by more than one of the groups. Across all the domains identified by GTIG, the researchers noted that the same phishing templates were used. Some domains were simultaneously used to target two entirely separate victims, one of which was claimed by Falcon, and the other by Helix. “The widespread deployment of these matching templates to harvest credentials for multiple DLS brands suggests they rely on shared underlying infrastructure,” the researchers said. New Techniques and Victim Evolutions New techniques deployed by UNC6671 observed by GTIG include the use of a spoofed legitimate helpdesk phone number. The pretext of the calls is an urgent mandate to enable FIDO2 passkeys or update multi-factor authentication enrollment, the caller directs the employee to a lookalike credential-harvesting subdomain. UNC6671 has also been observed using compromised email accounts to reset passwords for enterprise applications and then delete security notifications and alert emails to evade detection and maintain persistent access. UNC6671's targeting evolved significantly between April and July 2026. From April to May, the group focused on large enterprises in the manufacturing, real estate, healthcare and insura
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Google Links Redact Extortion Group to BlackFile Rebrand
+  - Published: 2026-08-07T09:40:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
+  - Summary: BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns
+
+### Cluster f3f661095c — score 8
+
+- Title: Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-06T10:15:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 4
+- Strong signals: Snowflake
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- affected_industries: financial_services, government, legal_professional, telecommunications
+- affected_products: Snowflake
+- content_type: incident_report, news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- affected_industries: financial_services, government, telecommunications, legal_professional
+- affected_products: Snowflake
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign News 6 August 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker A Canadian cybercriminal has pleaded guilty in a US court to involvement in the widespread compromise of Snowflake customer accounts, which enabled a lucrative extortion campaign. On August 5 2026, Connor Riley Moucka, aged 26, from Ontario, pleaded guilty to a range of offenses related to the high-profile breaches from 2024. The offenses are computer fraud, aggravated identity theft and a related conspiracy. He faces a mandatory minimum penalty of two years in prison on the aggravated identity theft count, while the remaining counts could add up to a maximum of 30 years. Sentencing is scheduled to take place on October 27. Moucka was arrested in October 2024 following a collaborative law enforcement investigation involving Canadian, Australian, Spanish, Ukrainian and Turkish police forces. He was extradited from Canada to the US in July 2025. A Lucrative Extortion Campaign Moucka and his co-conspirators were found to have used stolen login credentials to compromise at least 165 customers of the data warehousing provider between February and October 2024. Court documents said this unauthorized access was used to steal billions of sensitive customer records, including individuals’ call and text records, financial details, and other personally identifiable information. Moucka and co-conspirators then extorted victims for payment by threatening to publish data online. In at least one case they re-extorted a victim with threats of further disclosure, which related to the stolen data of a government officer members of a then-former government officer’s immediate family. The court documents stated that the hackers received more than $2.5m in ransom payments from the campaign. In addition, Moucka and co-conspirators advertised victims’ data for sale on cybercrime forums such as BreachForums as well as Telegram. Moucka personally obtained at least $495,000 from sales on these platforms. Overall, US authorities estimate that victim companies suffered over $9.5m in actual losses from the campaign. It was noted that this figure does not include losses suffered by victim companies’ individual customers, which totals at least 100 million people. High-Profile Victims Included in the Breach Cybersecurity firm Mandiant first alerted the public of the Snowflake breach in June 2024 after analyzing database records that were subsequently determined to have originated from a victim’s Snowflake instance in April 2024. After obtaining additional intelligence identifying a broader campaign targeting customers’ Snowflake platform, Mandiant contacted Snowflake with its findings in May 2024. This reporting led to a Victim Notification Program to alert potential victims and help them secure their accounts and data. A number of high-profile companies were impacted by the campaign, including telecommunications giant AT&T and ticketing firm Ticketmaster . Following the incident, Snowflake announced it would make multi-factor authentication (MFA) mandatory for all customer accounts. You may also like Threat Actor Breaches Snowflake Customers, Victims Extorted News 11 June 2024 Snowflake Pledges to Make MFA Mandatory News 11 December 2024 Ransomware Payouts Surge to $3.6m Amid Evolving Tactics News 21 October 2025 FBI: Hackers Are Extorting Plastic Surgery Patients News 18 October 2023 The Value of a Compromised Cloud Account Blog 18 November 2020 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Fake Bank of America Phishing Scam Installs Remote Access Malware News 5 August 2026 1 Violent Physical Crypto Thefts Surge to $30m in Losses News 6 August 2026 2 ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs News 5 August 2026 3 UK’s Police National Legal
+```
+
+#### Corroborating sources (4)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign
+  - Published: 2026-08-06T10:15:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
+  - Summary: A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Canadian pleads guilty to Snowflake cloud data-theft attacks
+  - Published: 2026-08-05T21:53:26+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
+  - Summary: A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Snowflake hacker pleads guilty, faces up to 32 years in prison
+  - Published: 2026-08-05T21:29:58+00:00
+  - Link: https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
+  - Summary: Connor Moucka obtained almost $500,000 for playing a key role in one of the most widespread and damaging cyberattack sprees on record. The post Snowflake hacker pleads guilty, faces up to 32 years in prison appeared first on CyberScoop .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People
+  - Published: 2026-08-06T06:04:30+00:00
+  - Link: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+  - Summary: Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million people. Moucka, 26, of Kitchener, Ontario, personally took at least $495,000 from
+
+### Cluster 02097b7a9a — score 8
+
+- Title: UK’s Police National Legal Database Reveals Data Breach
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-04T08:40:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: cryptojacking, data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: TeamPCP
+- affected_industries: education, government, legal_professional
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach, cryptojacking
+- actor_attribution: TeamPCP
+- affected_industries: government, education, legal_professional
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The UK’s Police National Legal Database and Ask the Police service have been breached
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » UK’s Police National Legal Database Reveals Data Breach UK’s Police National Legal Database Reveals Data Breach News 4 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A major database containing the work details of British police officers and criminal justice professionals has been compromised, it has emerged. The Police National Legal Database (PNLD) is managed by the West Yorkshire Police and contains information on officers from all 43 police forces in England and Wales, as well as the British Transport Police, the Crown Prosecution Service, the Independent Office for Police Conduct, and His Majesty's Courts and Tribunals Service. An August 3 statement from the PNLD revealed the service had suffered a “data security incident,” which was identified on July 26. “Information including the names, organizations and work email addresses of police officers, staff and other criminal justice professionals, government partners and customers has been compromised and published on the dark web. There is no evidence to suggest that passwords or other security credentials have been compromised,” it explained. “Since the incident was identified, we have been working with specialist cybersecurity organizations and the National Crime Agency to investigate the circumstances and take appropriate action.” Read more on police data breaches: PSNI Faces £750,000 Data Breach Fine After Spreadsheet Leak Also impacted was the Ask the Police service operated by the PNLD. “As a result, some names and email addresses of people who have previously submitted a question to Ask the Police have been published on the dark web,” the notice read. “If you have been affected, you will have already received an email from Ask the Police with more information and guidance.” The PNLD explained that it doesn’t hold any confidential information relating to victims, witnesses, or offenders. ExfilSquad Claims Responsibility for PNLD Hack ExfilSquad, the extortion group responsible for a recent data breach at the UK's Department for Education, claimed it was also behind the PNLD incident. According to screenshots of its leak site posted to X , the group claimed to have 1.9GB of data in its possession, including 135,000 records, some of which it leaked to prove it means business. “Once your company’s data is posted here it’s never leaving the public eye and will be passed around the internet forever,” a note by the group read. “The payment we request of you is simply a rounding error compared to the litigation costs of your data leaking. Be smart and just pay.” For PNLD to pay is highly unlikely given the UK government’s intention to introduce a de facto ban on public sector organizations paying extortion demands made by cyber adversaries. Any individuals named in the breach ought to be on the lookout for follow-on attacks if their data is leaked. Dray Agha, senior manager, security operations center EMEA at Huntress, said: "While the absence of compromised passwords is a relief, exposing the names and work emails of UK police and justice staff on the dark web hands cybercriminals a readymade directory to launch highly targeted spear-phishing and social engineering attacks against the very people defending our justice system." You may also like Someone’s got to pay Magazine Feature 1 July 2008 Heartland takes US$12.6m hit for breach News 8 May 2009 Nine Million MCNA Dental Customers Hit by Breach News 30 May 2023 Lancaster University Confirms Data Breach, Applicants Targeted News 23 July 2019 Over 500K School Staff and Students Hit by Breach News 24 December 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice China-Linked Threat Actors Weaponize New Vulnerabilities in Under a Day News 3 August 2026 1 Google Links Redact Extortion Group to BlackFile Rebrand News 7 August 2026 2 TeamPCP Traced Back to 2020 Cryptojacking Operation News 6 August
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: UK’s Police National Legal Database Reveals Data Breach
+  - Published: 2026-08-04T08:40:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
+  - Summary: The UK’s Police National Legal Database and Ask the Police service have been breached
+
 ### Cluster e794878462 — score 8
 
 - Title: New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
@@ -3397,154 +3575,6 @@ Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode
   - Published: 2026-08-05T11:04:23+00:00
   - Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
   - Summary: An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
-
-### Cluster 38f40f9f14 — score 8
-
-- Title: Google Links Redact Extortion Group to BlackFile Rebrand
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-07T09:40:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass, phishing_social_eng, ransomware_extortion
-- actor_attribution: UNC6671
-- affected_industries: healthcare, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
-- actor_attribution: UNC6671
-- affected_industries: healthcare, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Google Links Redact Extortion Group to BlackFile Rebrand Google Links Redact Extortion Group to BlackFile Rebrand News 7 August 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn The BlackFile extortion group , which targets its victims through vishing scams, has rebranded. According to an analysis by Google Threat Intelligence Group (GTIG), despite BlackFile (UNC6671) having announced the retirement of its brand in 2026, it had now rebranded to Redact. Researchers said the group’s public communications cited an affiliate breakaway as the rationale for the initial rebrand. However, overlaps in phishing templates, victimology and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix and Falcon extortion brands to monetize their operations. Redact operators published a blog post about their new data lead site (DLS) and the rebrand from Black File on June 27. The group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. A rogue affiliate was apparently responsible for operating an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under BlackFile’s name using unlinked Tox identities. They were also accused of orchestrating the supposed shutdown of the BlackFile brand in May 2026. REDACT statement on alleged break from BlackFile: Source GTIG Vishing Scams Impersonate IT Help Desks Whatever name the group operates under now, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have largely remained the same, according to GTIG. GTIG said, “This most likely reflects a coordinated group of threat actors operating multiple public extortion brands possibly in an effort to compartmentalize operations, hide overall breach volumes and isolate any negotiation fallout.” The cybercriminal group uses voice phishing to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Victims are often targeted via their personal devices. The calls lure targets to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. GTIG was able to connect the BlackFile, Redact, Pink, Helix and Falcon extortion brands because rather than maintaining isolated infrastructure for each target, UNC6671 reuses generic root domains across multiple target organizations. Root domains like passkeyhelpdesk[.]com and passkeydeploy[.]com were used by more than one of the groups. Across all the domains identified by GTIG, the researchers noted that the same phishing templates were used. Some domains were simultaneously used to target two entirely separate victims, one of which was claimed by Falcon, and the other by Helix. “The widespread deployment of these matching templates to harvest credentials for multiple DLS brands suggests they rely on shared underlying infrastructure,” the researchers said. New Techniques and Victim Evolutions New techniques deployed by UNC6671 observed by GTIG include the use of a spoofed legitimate helpdesk phone number. The pretext of the calls is an urgent mandate to enable FIDO2 passkeys or update multi-factor authentication enrollment, the caller directs the employee to a lookalike credential-harvesting subdomain. UNC6671 has also been observed using compromised email accounts to reset passwords for enterprise applications and then delete security notifications and alert emails to evade detection and maintain persistent access. UNC6671's targeting evolved significantly between April and July 2026. From April to May, the group focused on large enterprises in the manufacturing, real estate, healthcare and insura
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Google Links Redact Extortion Group to BlackFile Rebrand
-  - Published: 2026-08-07T09:40:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
-  - Summary: BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns
-
-### Cluster f3f661095c — score 8
-
-- Title: Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-06T10:15:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
-- Strong signals: Snowflake
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- affected_industries: financial_services, government, legal_professional, telecommunications
-- affected_products: Snowflake
-- content_type: incident_report, news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- affected_industries: financial_services, government, telecommunications, legal_professional
-- affected_products: Snowflake
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign News 6 August 2026 Written by James Coker Deputy Editor , Infosecurity Magazine Follow @ReporterCoker A Canadian cybercriminal has pleaded guilty in a US court to involvement in the widespread compromise of Snowflake customer accounts, which enabled a lucrative extortion campaign. On August 5 2026, Connor Riley Moucka, aged 26, from Ontario, pleaded guilty to a range of offenses related to the high-profile breaches from 2024. The offenses are computer fraud, aggravated identity theft and a related conspiracy. He faces a mandatory minimum penalty of two years in prison on the aggravated identity theft count, while the remaining counts could add up to a maximum of 30 years. Sentencing is scheduled to take place on October 27. Moucka was arrested in October 2024 following a collaborative law enforcement investigation involving Canadian, Australian, Spanish, Ukrainian and Turkish police forces. He was extradited from Canada to the US in July 2025. A Lucrative Extortion Campaign Moucka and his co-conspirators were found to have used stolen login credentials to compromise at least 165 customers of the data warehousing provider between February and October 2024. Court documents said this unauthorized access was used to steal billions of sensitive customer records, including individuals’ call and text records, financial details, and other personally identifiable information. Moucka and co-conspirators then extorted victims for payment by threatening to publish data online. In at least one case they re-extorted a victim with threats of further disclosure, which related to the stolen data of a government officer members of a then-former government officer’s immediate family. The court documents stated that the hackers received more than $2.5m in ransom payments from the campaign. In addition, Moucka and co-conspirators advertised victims’ data for sale on cybercrime forums such as BreachForums as well as Telegram. Moucka personally obtained at least $495,000 from sales on these platforms. Overall, US authorities estimate that victim companies suffered over $9.5m in actual losses from the campaign. It was noted that this figure does not include losses suffered by victim companies’ individual customers, which totals at least 100 million people. High-Profile Victims Included in the Breach Cybersecurity firm Mandiant first alerted the public of the Snowflake breach in June 2024 after analyzing database records that were subsequently determined to have originated from a victim’s Snowflake instance in April 2024. After obtaining additional intelligence identifying a broader campaign targeting customers’ Snowflake platform, Mandiant contacted Snowflake with its findings in May 2024. This reporting led to a Victim Notification Program to alert potential victims and help them secure their accounts and data. A number of high-profile companies were impacted by the campaign, including telecommunications giant AT&T and ticketing firm Ticketmaster . Following the incident, Snowflake announced it would make multi-factor authentication (MFA) mandatory for all customer accounts. You may also like Threat Actor Breaches Snowflake Customers, Victims Extorted News 11 June 2024 Snowflake Pledges to Make MFA Mandatory News 11 December 2024 Ransomware Payouts Surge to $3.6m Amid Evolving Tactics News 21 October 2025 FBI: Hackers Are Extorting Plastic Surgery Patients News 18 October 2023 The Value of a Compromised Cloud Account Blog 18 November 2020 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Fake Bank of America Phishing Scam Installs Remote Access Malware News 5 August 2026 1 Violent Physical Crypto Thefts Surge to $30m in Losses News 6 August 2026 2 ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs News 5 August 2026 3 UK’s Police National Legal
-```
-
-#### Corroborating sources (4)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign
-  - Published: 2026-08-06T10:15:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
-  - Summary: A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Canadian pleads guilty to Snowflake cloud data-theft attacks
-  - Published: 2026-08-05T21:53:26+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/
-  - Summary: A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Snowflake hacker pleads guilty, faces up to 32 years in prison
-  - Published: 2026-08-05T21:29:58+00:00
-  - Link: https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
-  - Summary: Connor Moucka obtained almost $500,000 for playing a key role in one of the most widespread and damaging cyberattack sprees on record. The post Snowflake hacker pleads guilty, faces up to 32 years in prison appeared first on CyberScoop .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People
-  - Published: 2026-08-06T06:04:30+00:00
-  - Link: https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
-  - Summary: Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million people. Moucka, 26, of Kitchener, Ontario, personally took at least $495,000 from
-
-### Cluster 02097b7a9a — score 8
-
-- Title: UK’s Police National Legal Database Reveals Data Breach
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-04T08:40:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- affected_industries: education, financial_services, government, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- affected_industries: financial_services, government, education, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The UK’s Police National Legal Database and Ask the Police service have been breached
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » UK’s Police National Legal Database Reveals Data Breach UK’s Police National Legal Database Reveals Data Breach News 4 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A major database containing the work details of British police officers and criminal justice professionals has been compromised, it has emerged. The Police National Legal Database (PNLD) is managed by the West Yorkshire Police and contains information on officers from all 43 police forces in England and Wales, as well as the British Transport Police, the Crown Prosecution Service, the Independent Office for Police Conduct, and His Majesty's Courts and Tribunals Service. An August 3 statement from the PNLD revealed the service had suffered a “data security incident,” which was identified on July 26. “Information including the names, organizations and work email addresses of police officers, staff and other criminal justice professionals, government partners and customers has been compromised and published on the dark web. There is no evidence to suggest that passwords or other security credentials have been compromised,” it explained. “Since the incident was identified, we have been working with specialist cybersecurity organizations and the National Crime Agency to investigate the circumstances and take appropriate action.” Read more on police data breaches: PSNI Faces £750,000 Data Breach Fine After Spreadsheet Leak Also impacted was the Ask the Police service operated by the PNLD. “As a result, some names and email addresses of people who have previously submitted a question to Ask the Police have been published on the dark web,” the notice read. “If you have been affected, you will have already received an email from Ask the Police with more information and guidance.” The PNLD explained that it doesn’t hold any confidential information relating to victims, witnesses, or offenders. ExfilSquad Claims Responsibility for PNLD Hack ExfilSquad, the extortion group responsible for a recent data breach at the UK's Department for Education, claimed it was also behind the PNLD incident. According to screenshots of its leak site posted to X , the group claimed to have 1.9GB of data in its possession, including 135,000 records, some of which it leaked to prove it means business. “Once your company’s data is posted here it’s never leaving the public eye and will be passed around the internet forever,” a note by the group read. “The payment we request of you is simply a rounding error compared to the litigation costs of your data leaking. Be smart and just pay.” For PNLD to pay is highly unlikely given the UK government’s intention to introduce a de facto ban on public sector organizations paying extortion demands made by cyber adversaries. Any individuals named in the breach ought to be on the lookout for follow-on attacks if their data is leaked. Dray Agha, senior manager, security operations center EMEA at Huntress, said: "While the absence of compromised passwords is a relief, exposing the names and work emails of UK police and justice staff on the dark web hands cybercriminals a readymade directory to launch highly targeted spear-phishing and social engineering attacks against the very people defending our justice system." You may also like Someone’s got to pay Magazine Feature 1 July 2008 Heartland takes US$12.6m hit for breach News 8 May 2009 Nine Million MCNA Dental Customers Hit by Breach News 30 May 2023 Lancaster University Confirms Data Breach, Applicants Targeted News 23 July 2019 Over 500K School Staff and Students Hit by Breach News 24 December 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Fake Bank of America Phishing Scam Installs Remote Access Malware News 5 August 2026 1 Violent Physical Crypto Thefts Surge to $30m in Losses News 6 August 2026 2 ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs Ne
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: UK’s Police National Legal Database Reveals Data Breach
-  - Published: 2026-08-04T08:40:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
-  - Summary: The UK’s Police National Legal Database and Ask the Police service have been breached
 
 ### Cluster 444876da64 — score 8
 
