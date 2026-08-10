@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-09T23:37:51.235482+00:00
+- Generated: 2026-08-10T02:15:55.301430+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 354
-- Total clusters raw: 145
-- Total clusters in packet: 59
+- Total items in window: 350
+- Total clusters raw: 143
+- Total clusters in packet: 57
 - Dropped low score: 86
 - Dropped overflow: 0
 
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 6
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,6 +80,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 6
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -95,25 +95,20 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 15
+  - Item count: 25
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
@@ -125,11 +120,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -155,146 +155,136 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 3
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 6
+  - In window count: 5
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 8
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 8
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -305,36 +295,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -345,11 +345,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -365,26 +360,31 @@
   - Status: ok
   - Item count: 50
   - In window count: 20
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 27
+  - In window count: 28
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 2
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,43 +395,28 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -440,6 +425,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 25
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -459,7 +459,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 7
+  - In window count: 6
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
 - Cluster count: 5
-- Article count: 9
+- Article count: 8
 - Cohesion: 0.221
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
@@ -485,7 +485,7 @@
 - Dominant features:
   - threat_categories: active_exploitation, ransomware_extortion, data_breach, phishing_social_eng
   - affected_industries: financial_services, government
-  - affected_products: Microsoft SharePoint, AWS
+  - affected_products: Microsoft SharePoint
   - cve_ids: CVE-2026-50522
   - urgency_signals: actively_exploited, preauth_unauth, poc_available
 - Cluster IDs: 9a320ea4d0, c97f90a69b, ad2bf1153f, d8c893e316, 64fc7bd463
@@ -496,7 +496,6 @@
   - https://www.securityweek.com/critical-one-click-vulnerability-in-atlassians-rovo-ai-exposed-enterprise-data/
   - https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html
   - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - https://risky.biz/RBNEWSSI138/
   - https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/
   - https://www.helpnetsecurity.com/2026/08/07/swiss-government-microsoft-sharepoint-vulnerabilities/
 
@@ -536,8 +535,8 @@
 - Cluster IDs: 61004037ea, bb0f596105, 772ab8c313, 6bd3afe055
 - Links:
   - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
-  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
   - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
   - https://isc.sans.edu/diary/rss/33218
   - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
   - https://securelist.com/cloud-platforms-in-phishing/120832/
@@ -559,13 +558,13 @@
   - https://unit42.paloaltonetworks.com/ai-token-jacking/
   - https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/
 
-### CVE-2026-18556 exploitation activity
-- Anchor signal: CVE-2026-18556
-- Theme key: cve-2026-18556
+### CVE-2026-18577 exploitation activity
+- Anchor signal: CVE-2026-18577
+- Theme key: cve-2026-18577
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18556
+- Shared strong signals: CVE-2026-18577
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -580,13 +579,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
   - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 
-### CVE-2026-18577 exploitation activity
-- Anchor signal: CVE-2026-18577
-- Theme key: cve-2026-18577
+### CVE-2026-18556 exploitation activity
+- Anchor signal: CVE-2026-18556
+- Theme key: cve-2026-18556
 - Cluster count: 2
 - Article count: 5
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-18577
+- Shared strong signals: CVE-2026-18556
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -639,8 +638,8 @@
 - Cluster IDs: 61004037ea, f3f661095c, 02097b7a9a
 - Links:
   - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
-  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
   - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
   - https://isc.sans.edu/diary/rss/33218
   - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
   - https://securelist.com/cloud-platforms-in-phishing/120832/
@@ -675,26 +674,6 @@
   - https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077
   - https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html
   - https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
-
-### AWS vulnerability activity
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.204
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_industries: financial_services
-  - affected_products: AWS, Microsoft SharePoint
-- Cluster IDs: 9a320ea4d0, d8c893e316, 1e4f97d7fa
-- Links:
-  - https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
-  - https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - https://risky.biz/RBNEWSSI138/
-  - https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/
-  - https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
 
 ### ransomware extortion targeting Snowflake
 - Anchor signal: Snowflake
@@ -735,6 +714,23 @@
   - https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/
   - https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
   - https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: AWS
+- Cluster IDs: 9a320ea4d0, 1e4f97d7fa
+- Links:
+  - https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html
+  - https://aws.amazon.com/blogs/security/caching-kms-data-keys-in-multi-thread-environments-per-tenant-encryption-for-event-driven-systems-at-scale/
+  - https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
 
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
@@ -804,7 +800,7 @@
   - Prior top products: GitHub, PyPI, npm
 - **ShinyHunters** (cluster d8c893e316)
   - New industries: (none)
-  - New products: AWS, Microsoft SharePoint
+  - New products: Microsoft SharePoint
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 
@@ -1076,16 +1072,16 @@ Table of contents Technical Overview Affected Systems Risk Impact How Orca Can H
   - Published: 2026-08-05T14:13:47+00:00
   - Link: https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
   - Summary: A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, […]
-- **Unit 42** (threat_research_primary)
-  - Title: ChainDrop: Inside a Self-Propagating npm Worm
-  - Published: 2026-08-06T22:26:39+00:00
-  - Link: https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
-  - Summary: Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
   - Published: 2026-08-04T23:46:41+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
   - Summary: A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .
+- **Unit 42** (threat_research_primary)
+  - Title: ChainDrop: Inside a Self-Propagating npm Worm
+  - Published: 2026-08-06T22:26:39+00:00
+  - Link: https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  - Summary: Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
   - Published: 2026-08-04T23:46:41+00:00
@@ -1628,58 +1624,6 @@ Training and Certifications Your agentic summer: No-cost lessons from Google exp
   - Link: https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/
   - Summary: I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent
 
-### Cluster d8c893e316 — score 12
-
-- Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
-- Source: Team Cymru (ransomware_ecrime_financial_crime)
-- Published: 2026-08-06T15:50:17+00:00
-- Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: ShinyHunters
-
-#### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass, phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters, UNC6240, UNC6661
-- affected_industries: financial_services
-- affected_products: AWS, Microsoft SharePoint, Salesforce
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
-- actor_attribution: ShinyHunters, UNC6661, UNC6240
-- affected_industries: financial_services
-- affected_products: Salesforce, Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
-```
-
-#### Full body
-
-```
-All Blog Internet Weather Threat Research Threat Intelligence 101 Stephen Campbell 5 min read August 5, 2026 Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry Phishing panels are not just credential collection tools. They are infrastructure ecosystems. Behind every convincing login page is a set of domains, hosting providers, certificates, exposed services, operator tooling, and recurring deployment patterns. Those signals matter. They give defenders a way to move beyond a single phishing domain and start understanding how the activity is built, hosted, rotated, and reused. Push Security recently published an inside look at phishing panels used in campaigns linked to ShinyHunters and BlackFile . Their team gained direct access to active operator panels, observed real victim targeting, analyzed multiple variants of the tooling, and identified four primary infrastructure clusters. They also made an important point: while these panels share common heritage, the operators deploying them appear to be separate groups with different infrastructure preferences and operational patterns. That operator-side view is valuable because it shows how the attack works from inside the panel. Team Cymru’s view is different. Using Pure Signal Scout, we looked at the infrastructure layer to validate and expand part of the picture Push identified. Our analysis focused on Cluster A, the Doko’s Panel infrastructure hosted on Mevspace AS201814. Push noted that Cluster A overlaps with Mandiant reporting on UNC6661 , and that Mandiant attributes related extortion activity following UNC6661 intrusions to UNC6240, also known as ShinyHunters. Using passive DNS, certificate data, open service observations, and hosting patterns, we identified two active Mevspace IPs consistent with Push’s Cluster A criteria. Those IPs were associated with more than 40 victim-themed domains, recurring naming conventions, and one Doko-branded hosting-layer artifact that provides additional pivot context. This is not a reattribution of the activity. Push established the panel and cluster framework. Team Cymru’s contribution is infrastructure validation: confirming that infrastructure consistent with Push’s Cluster A reporting was active on Mevspace and surfacing additional indicators defenders can hunt against. Why Cluster A matters Cluster A matters because the targeting pattern is not random. Push described campaigns that combine voice phishing with adversary-in-the-middle credential capture against enterprise identity providers and cryptocurrency platforms. The victim is typically directed to a domain that looks like an internal identity, support, passkey, or SSO page. Once credentials and MFA are captured, the operator can attempt to access identity providers and pivot into connected SaaS environments such as Salesforce, SharePoint, Slack, DocuSign, or other high-value applications. That makes the infrastructure behind these panels important. The domain is the visible piece, but it is rarely the whole picture. Hosting providers, ASN usage, TLS behavior, passive DNS history, certificates, and exposed services can show how the operation is being staged. In this case, Push identified Mevspace AS201814 as the hosting provider for Cluster A. They also documented the Cluster A naming patterns, including: <target>internal.com <target>sso.com my<target>.com my<target>internal.com my<target>manager.com my<target>sso.com Using those patterns as a starting point, Scout surfaced active infrastructure consistent with the same cluster. Confirming Cluster A on Mevspace Push identified Mevspace AS201814 as the Cluster A hosting provider but did not publish IP-level indicators. Starting from the hosting provider and domain naming criteria, a single Scout query returned three results: asn="201814" pdns.domain="*internal.com,*sso.com" Scout query result for Mevspace AS201814 with the Cluster A domain pattern Figure 1: Scout returns three IPs for the
-```
-
-#### Corroborating sources (2)
-
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
-  - Published: 2026-08-06T15:50:17+00:00
-  - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
-  - Summary: Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
-- **Risky Business News** (practitioner_analysis)
-  - Title: Sponsored: The intrusion signals hiding in plain sight
-  - Published: 2026-08-03T00:22:38+00:00
-  - Link: https://risky.biz/RBNEWSSI138/
-  - Summary: In this sponsored interview James Wilson chats with Permiso CTO Ian Ahl about detecting ShinyHunters-style attackers as they move through cloud and SaaS environments. Ian explains how ordinary-looking events such as a password reset, a new MFA device, unusual searches and a first-time AWS role assumption can combine to reveal an intrusion. Permiso’s platform connects these signals across identity providers, cloud platforms and SaaS applications. They also discuss how AI is helping attackers move from initial access to extortion in just four hours.
-
 ### Cluster a7f7f22b06 — score 11
 
 - Title: Vulnerability Management Lifecycle: Core Phases
@@ -1763,6 +1707,49 @@ Table of contents Key Takeaways What Are Vulnerability Scanning Tools? Scanners 
   - Published: 2026-08-06T12:50:00+00:00
   - Link: https://orca.security/resources/blog/vulnerability-scanning-tools/
   - Summary: Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]
+
+### Cluster b9f78fb1fa — score 10
+
+- Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-04T17:54:04+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Microsoft Defender
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ransomware_extortion
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+  - Published: 2026-08-04T17:54:04+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+  - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
 ### Cluster fb2a69eb0a — score 10
 
@@ -1940,48 +1927,91 @@ Threat Research Center Threat Research Malware Malware Pass the Passkey: A Novel
   - Link: https://unit42.paloaltonetworks.com/passwordless-authentication-security-risks/
   - Summary: Explore how passkey implementation gaps undermine security when relying parties fail to validate the User Verified flag, reducing MFA to a single factor. The post Pass the Passkey: A Novel Attack Surface in Passwordless Authentication appeared first on Unit 42 .
 
-### Cluster b9f78fb1fa — score 10
+### Cluster b00983247a — score 10
 
-- Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-08-04T17:54:04+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+- Title: An analysis of incidents at Brazilian educational institutions
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-03T13:00:17+00:00
+- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: Microsoft Defender
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion
-- affected_products: Microsoft Defender
+- threat_categories: phishing_social_eng, ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: education, financial_services
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft
-- affected_products: Microsoft Defender
+- threat_categories: ransomware_extortion, phishing_social_eng
+- actor_attribution: LockBit
+- affected_industries: financial_services, education
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
 ```
 
 #### Full body
 
 ```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–
+Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
 ```
 
 #### Corroborating sources (1)
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
-  - Published: 2026-08-04T17:54:04+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
-  - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: An analysis of incidents at Brazilian educational institutions
+  - Published: 2026-08-03T13:00:17+00:00
+  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+
+### Cluster 3e123aa6ec — score 10
+
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 
 ### Cluster 2ba7372881 — score 10
 
@@ -2078,215 +2108,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August
   - Published: 2026-08-03T13:15:55+00:00
   - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 3e123aa6ec — score 10
-
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-
-### Cluster b00983247a — score 10
-
-- Title: An analysis of incidents at Brazilian educational institutions
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-03T13:00:17+00:00
-- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: education, financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: LockBit
-- affected_industries: financial_services, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: An analysis of incidents at Brazilian educational institutions
-  - Published: 2026-08-03T13:00:17+00:00
-  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
-  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
-
-### Cluster ef0ff97611 — score 10
-
-- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-04T10:00:11+00:00
-- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- tools_used: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
-```
-
-#### Full body
-
-```
-“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
-  - Published: 2026-08-04T10:00:11+00:00
-  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
-  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
-
-### Cluster 432a5ea542 — score 10
-
-- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T15:37:27+00:00
-- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-```
-
-#### Full body
-
-```
-How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
-  - Published: 2026-08-03T15:37:27+00:00
-  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
-  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
-
-### Cluster 35c2b2988b — score 10
-
-- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-03T13:04:33+00:00
-- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
-```
-
-#### Full body
-
-```
-Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
-  - Published: 2026-08-03T13:04:33+00:00
-  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
-  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
 
 ### Cluster 1c833c15fa — score 10
 
@@ -2423,46 +2244,128 @@ Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic def
   - Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
   - Summary: Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
 
-### Cluster f1f9ac4c52 — score 10
+### Cluster ef0ff97611 — score 10
 
-- Title: 8 Ways AI is Changing Threat Intelligence
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-03T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
+- Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-04T10:00:11+00:00
+- Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
+- threat_categories: ddos
+- tools_used: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
+Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
 ```
 
 #### Full body
 
 ```
-8 Ways AI is Changing Threat Intelligence The fundamentals haven't changed — the clock speed has. Defending everything is still the job, but adversaries can now move at machine-speed, which means the intelligence behind every decision has to move just as fast. AI cuts both ways. The same automation that lets defenders orchestrate faster is available to attackers too, and whoever uses it more creatively will often hold the advantage at any given moment. Trust in automation is being built one decision at a time. Human-in-the-loop approval is today's norm, but most security leaders expect that to shift toward human oversight of largely autonomous systems within the next few years. AI is changing the threat landscape faster than most security organizations can keep up. Recorded Future co-founder Christopher Ahlberg, CTO and co-founder Staffan Truvé, and Head of Threat Intelligence Levi Gundert unpack what’s actually happening in a recent conversation — and what it means for your defenses. Read on for their 8 takeaways. 1. The threat landscape now moves at machine speed. AI has made exposure discovery instant. Your unknown exposures are now part of your attack surface, and threats are multiplying faster than most teams can triage. While most security organizations are responding by trying to move faster, speed without accuracy isn’t an advantage. Staying ahead means having intelligence that makes machine-speed defense more effective, not just fast. As Truvé put it, intelligence has always been the way to stay proactive instead of reactive, and as "clock speed" increases across the industry, staying even a little ahead requires acting on intelligence faster than ever. “External attack surface, security operations, vulnerability management, prioritizing — so many of these use cases and workflows take on a new level of urgency because of the speed component,” Gundert said. 2. "Defend the right things" is now a multi-bear problem. The team agreed that the old security adage — you don't have to outrun the bear, just the person next to you — no longer holds. AI removes that comfort almost entirely. Attackers only need one way in. Defenders have to cover just about everything. That asymmetry has always been the challenge and AI is making it structurally worse. It’s no longer one bear chasing the herd anymore — it's one bear chasing each member of the herd, since attackers can automate at scale even more efficiently. 3. Attacks are already becoming more clever, not just faster. The panel discussed a real-world software supply chain compromise where attackers used compromised credentials to push a malicious package update, then had an LLM already present on infected developer machines search out AWS keys, SSH keys, and other credentials locally. The stolen data was encrypted and exfiltrated through a public GitHub repository — activity that never tripped EDR because it looked like ordinary LLM usage. It was a preview of a much bigger wave of clever attacks that will likely quietly repurpose and weaponize the AI tools already installed on a target's machine. 4. Locking down devices isn't the only answer — context-aware access might be. Locking down every endpoint isn't realistic, and it probably is not the answer. Situational permissions, such as access that flexes by location, time, and context are zero trust logic applied to the AI era. 5. Whether AI favors attackers or defenders depends on execution. Everyone is talking about what AI can do. Fewer are asking who AI will ultimately benefit. Will the advantage belong to attackers or defenders? It’s a question of how well organizations manage the trade-off between innovation and guardrails. Teams that articulate boundaries tend to build stronger solutions. Truvé broadened the definition of "AI" beyond LLMs to include things like anomaly detection, and predicted an ongoing arms race. “At any given point in time, depending on who's more creative in using the new technology,” he said, “one side
+“Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI By Nick Biasini , Dmytro Korzhevin , Jaeson Schultz , Vanja Svajcer , Vitor Ventura , Arnaud Zobec Tuesday, August 4, 2026 06:00 AI Threat Spotlight Threats Actor usage of AI is exploding. By analyzing artifacts left behind, Talos has created a detailed analysis of how we are seeing adversaries leverage the technology to include development, force multiplication, and vulnerability research. Based on the evidence Talos gathered, guardrails did not provide much protection, with most actors able to convince the models to comply despite the lack of sophisticated techniques or encoding. The pre-existing skill of the actor has a large impact on what they can accomplish with AI. Talos observed novice users able to create malicious capabilities, albeit with limited capabilities and success. Advanced users were able to build astonishing capabilities, pushing the models to create sophisticated and complex outputs. Artificial intelligence (AI) and associated language models are now ubiquitous and heavily used in both personal and professional contexts to streamline tasks and expand capabilities. With AI being used everywhere and by almost everyone, one of the biggest questions is how malicious actors are taking advantage. Fortunately, actors make mistakes and chatbots leave artifacts. Leveraging cloud-based AI models leaves behind a variety of artifacts, most notably a prompt log. These logs can take on a variety of shapes and sizes, but they are left on endpoints that are running various applications, such as Claude Code, CodeX, Cursor, or Gemini. Over the course of our research, we’ve collected a significant corpus of these files and can start discussing the ways we see bad actors leveraging these technologies. In conducting the research, three categories of activity emerged. One was using AI as a malicious software engineer, leveraging AI to write (in some cases) very sophisticated code with clear malicious intentions. Another was actors leveraging AI to scale criminal operations and campaigns. Finally, there were a lot of actors leveraging it for bug bounty or vulnerability research, rapidly accelerating their capabilities of discovery and disclosure. Each category demonstrates how threat actors are currently leveraging AI. Within each category is a wide disparity in sophistication based on the knowledge level of the actors involved. We tried to include use cases to cover the breadth of what we found. Takeaways and high-level findings With the recent disclosures from Hugging Face and OpenAI , it's clear the era of agentic attackers has effectively arrived. In that incident, the models were operating inside a sanctioned evaluation with safeguards deliberately relaxed — but they autonomously escaped their sandbox, found and chained real vulnerabilities, and compromised production infrastructure to reach their objective. The capabilities exist; the only missing ingredient is malicious intent, and it's a matter of time before threat actors supply it. For defenders, this is a wake-up call: Vulnerabilities will surface faster, exploitation will happen sooner, and the actors behind it won't need rest or downtime. As the case studies below show, the central challenge for guardrails right now is supporting legitimate dual-use work — red teaming and vulnerability research — without empowering malicious actors. One of the immediate takeaways is that guardrails are not functioning as expected. We did not encounter any sophisticated encoding or techniques designed to trick the models — most of the time it was a simple “I'm allowed to do this,” and the model complied. When guardrails did engage, they accomplished little. In one instance, we watched an actor abandon a censored model and pivot to an uncensored version, which completed the task without question. In another, a model pushed back on a distributed denial-of-service (DDoS) operator, but by that po
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: 8 Ways AI is Changing Threat Intelligence
-  - Published: 2026-08-03T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/ai-changing-threat-intelligence
-  - Summary: Explore eight key ways that AI is reshaping the threat intelligence landscape, from creating speed and stealth advantages for adversaries to helping defenders better prioritize threats and allocate resources.
+- **Cisco Talos** (threat_research_primary)
+  - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
+  - Published: 2026-08-04T10:00:11+00:00
+  - Link: https://blog.talosintelligence.com/keep-going-bro-youve-got-this-a-data-driven-look-at-how-adversaries-are-weaponizing-ai/
+  - Summary: Talos has collected prompt logs from threat actor endpoints running various applications, such as Claude Code, CodeX, Cursor, or Gemini. This blog is an analysis of the ways we've seen bad actors leveraging cloud-based AI.
+
+### Cluster 432a5ea542 — score 10
+
+- Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T15:37:27+00:00
+- Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
+```
+
+#### Full body
+
+```
+How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation Horizon3 Customer Stories Security teams don’t struggle because they lack vulnerability data. They struggle because hidden attack paths, exposed credentials, and forgotten assets often remain invisible until an attacker finds them. TTEC, a global leader in customer experience (CX), needed a way to validate what attackers could actually exploit across a rapidly changing enterprise environment while producing evidence that could withstand increasing audit and customer scrutiny. This customer story explores how TTEC used autonomous pentesting to uncover overlooked attack paths, strengthen security operations, and simplify audit readiness. Key Insight Traditional penetration testing identified vulnerabilities. NodeZero uncovered how seemingly unrelated weaknesses could be chained together into real attack paths while automatically generating the evidence needed to validate remediation. By adopting autonomous pentesting, TTEC gained: Visibility into hidden attack paths traditional testing missed Faster discovery of exposed credentials and forgotten assets Continuous validation of real-world exploitability Stronger audit evidence with time-stamped remediation history Significant time savings compared to previous penetration testing workflows What You’ll Learn Why hidden credentials and legacy assets create exploitable attack paths How autonomous pentesting uncovers chained attacks that manual testing may overlook Ways to validate real exploitability instead of relying solely on vulnerability findings How credential discovery strengthens offensive security programs Why continuous testing produces more meaningful security validation How built-in remediation history simplifies audit preparation How to prioritize security work based on attacker impact rather than vulnerability volume Why It Matters Enterprise environments evolve constantly. New applications are deployed, infrastructure changes, credentials accumulate, and forgotten systems remain online longer than expected. Attackers only need one overlooked weakness to begin chaining their way toward critical assets. Organizations that improve resilience don’t just identify vulnerabilities—they continuously validate whether those vulnerabilities can actually be exploited and maintain evidence that demonstrates risk reduction over time. TTEC transformed autonomous pentesting into an operational security capability that strengthens both defensive readiness and audit confidence. Download the customer story to see how TTEC uncovered hidden attack paths, strengthened security validation, and simplified audit readiness with autonomous pentesting. ce. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How TTEC Turned Hidden Attack Paths Into Audit-Ready Security Validation
+  - Published: 2026-08-03T15:37:27+00:00
+  - Link: https://horizon3.ai/customer-story/ttec-security-validation-customer-story/
+  - Summary: Discover how TTEC used NodeZero autonomous pentesting to uncover hidden attack paths, expose risky credentials, strengthen audit readiness, and validate real-world security risk across a complex global enterprise.
+
+### Cluster 35c2b2988b — score 10
+
+- Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-03T13:04:33+00:00
+- Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
+```
+
+#### Full body
+
+```
+Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era Business Wire August 3, 2026 Press Releases NightDragon and NEA Co-Lead Oversubscribed Round; Company triples valuation and surpasses 7,000 customers amid 120% ARR growth SAN FRANCISCO — August 3, 2026 — Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion, tripling its valuation from $650 million at Series D in just over a year. The oversubscribed round was co-led by existing investors NightDragon and NEA, with participation from seven new investors and five returning backers. The capital underscores accelerating global demand for safe, autonomous security validation as AI-driven cyberattacks escalate. “We invented the concept of AI Hackers and spent six years earning the right to autonomously pentest the most critical and sensitive networks in the world — with no humans in the loop,” said Snehal Antani, Co-Founder and CEO of Horizon3. “Our massive data moat – built on 310,000 tests safely executed in production – combined with thousands of radical champions who love our product, has allowed us to achieve consistent top-tier financial and operational metrics. This round gives us the fuel to scale aggressively as the definitive leader of the AI vs. AI era.” A Defining Moment for Autonomous Security Cyberattacks now move at the speed of AI, and traditional defenses cannot keep pace. Horizon3’s NodeZero platform closes that gap by autonomously and safely attacking an organization’s own production environment. It reveals exactly how adversaries chain together misconfigurations, weak credentials, and identity gaps to compromise critical systems, provides fix guidance, and instantly verifies remediation. Additionally, as NodeZero tests an environment, it can optimally deploy honeypots that are the cheapest, fastest, and most effective way of detecting AI attackers and prove they are inside. This unique approach has powered 120% year-over-year ARR growth as Horizon3 now protects over 7,000 organizations globally including multinational banks, major healthcare networks, and four Fortune 10 enterprises. Vetted, tested, and operational across large, classified government agencies and enterprises in the most highly regulated industries in the world, Horizon3 is FedRAMP® High authorized and helps organizations meet DORA, NIS 2, NIST CSF 2.0, HIPAA, SOC 2, and GDPR regulatory requirements. The company was also recently named the Fastest Growing Cybersecurity Company in North America by the Deloitte Technology Fast 500 and named one of the Most Innovative companies by Fast Company in 2026. Premier Global Investor Syndicate and Board Additions The Series E round was co-led by existing investors NightDragon and NEA, with participation from a syndicate of new and returning strategic and institutional investors: New investors: Acrew Capital, Blue Cloud Ventures, Demeter Group, EDBI (Singapore), PSG, SAIC, and Sapphire Ventures Existing investors: Craft Ventures, Prosperity7 Ventures, Qualcomm Ventures, Ridge Ventures, and SignalFire As part of the investment, Dave DeWalt, Founder and CEO of NightDragon and former CEO of FireEye and McAfee, and Morgan Kyauk, Managing Director at NightDragon, will join Horizon3’s Board of Directors. “Horizon3 coined the concept of cyber warfare being AI vs. AI, and that future has arrived,” said Dave DeWalt. “Snehal and his team have built an unparalleled proactive security platform that is fundamentally reshaping how the world defends its data. I am thrilled to join the board to help Horizon3 secure the world’s most critical infrastructure and enterprises at scale.” “Horizon3 has demonstrated textbook operational excellence,” said Morgan Kyauk. “They have built an incredibly efficient, highly scalable go-to-market motion that will be further amplified by NightDragon’s ecosystem of partners, advisors,
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era
+  - Published: 2026-08-03T13:04:33+00:00
+  - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
+  - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
 
 ### Cluster 87cb88c47a — score 10
 
@@ -2634,6 +2537,53 @@ Hackers breach TrueConf to trojanize client installers with backdoors By Bill To
   - Link: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
   - Summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
 
+### Cluster d8c893e316 — score 10
+
+- Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
+- Source: Team Cymru (ransomware_ecrime_financial_crime)
+- Published: 2026-08-06T15:50:17+00:00
+- Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: mfa_bypass, phishing_social_eng, ransomware_extortion
+- actor_attribution: ShinyHunters, UNC6240, UNC6661
+- affected_industries: financial_services
+- affected_products: Microsoft SharePoint, Salesforce
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
+- actor_attribution: ShinyHunters, UNC6661, UNC6240
+- affected_industries: financial_services
+- affected_products: Salesforce, Microsoft SharePoint
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
+```
+
+#### Full body
+
+```
+All Blog Internet Weather Threat Research Threat Intelligence 101 Stephen Campbell 5 min read August 5, 2026 Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry Phishing panels are not just credential collection tools. They are infrastructure ecosystems. Behind every convincing login page is a set of domains, hosting providers, certificates, exposed services, operator tooling, and recurring deployment patterns. Those signals matter. They give defenders a way to move beyond a single phishing domain and start understanding how the activity is built, hosted, rotated, and reused. Push Security recently published an inside look at phishing panels used in campaigns linked to ShinyHunters and BlackFile . Their team gained direct access to active operator panels, observed real victim targeting, analyzed multiple variants of the tooling, and identified four primary infrastructure clusters. They also made an important point: while these panels share common heritage, the operators deploying them appear to be separate groups with different infrastructure preferences and operational patterns. That operator-side view is valuable because it shows how the attack works from inside the panel. Team Cymru’s view is different. Using Pure Signal Scout, we looked at the infrastructure layer to validate and expand part of the picture Push identified. Our analysis focused on Cluster A, the Doko’s Panel infrastructure hosted on Mevspace AS201814. Push noted that Cluster A overlaps with Mandiant reporting on UNC6661 , and that Mandiant attributes related extortion activity following UNC6661 intrusions to UNC6240, also known as ShinyHunters. Using passive DNS, certificate data, open service observations, and hosting patterns, we identified two active Mevspace IPs consistent with Push’s Cluster A criteria. Those IPs were associated with more than 40 victim-themed domains, recurring naming conventions, and one Doko-branded hosting-layer artifact that provides additional pivot context. This is not a reattribution of the activity. Push established the panel and cluster framework. Team Cymru’s contribution is infrastructure validation: confirming that infrastructure consistent with Push’s Cluster A reporting was active on Mevspace and surfacing additional indicators defenders can hunt against. Why Cluster A matters Cluster A matters because the targeting pattern is not random. Push described campaigns that combine voice phishing with adversary-in-the-middle credential capture against enterprise identity providers and cryptocurrency platforms. The victim is typically directed to a domain that looks like an internal identity, support, passkey, or SSO page. Once credentials and MFA are captured, the operator can attempt to access identity providers and pivot into connected SaaS environments such as Salesforce, SharePoint, Slack, DocuSign, or other high-value applications. That makes the infrastructure behind these panels important. The domain is the visible piece, but it is rarely the whole picture. Hosting providers, ASN usage, TLS behavior, passive DNS history, certificates, and exposed services can show how the operation is being staged. In this case, Push identified Mevspace AS201814 as the hosting provider for Cluster A. They also documented the Cluster A naming patterns, including: <target>internal.com <target>sso.com my<target>.com my<target>internal.com my<target>manager.com my<target>sso.com Using those patterns as a starting point, Scout surfaced active infrastructure consistent with the same cluster. Confirming Cluster A on Mevspace Push identified Mevspace AS201814 as the Cluster A hosting provider but did not publish IP-level indicators. Starting from the hosting provider and domain naming criteria, a single Scout query returned three results: asn="201814" pdns.domain="*internal.com,*sso.com" Scout query result for Mevspace AS201814 with the Cluster A domain pattern Figure 1: Scout returns three IPs for the
+```
+
+#### Corroborating sources (1)
+
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
+  - Published: 2026-08-06T15:50:17+00:00
+  - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
+  - Summary: Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
+
 ### Cluster 60293792bd — score 10
 
 - Title: The Art of Hunting Azure Cloud Secrets
@@ -2713,51 +2663,6 @@ This morning, I noticed specific sources "hunting" for vulnerabilities in URLs t
   - Link: https://isc.sans.edu/diary/rss/33214
   - Summary: This morning, I noticed specific sources "hunting" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:
 
-### Cluster 2b2ae045a4 — score 9
-
-- Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-05T14:27:30+00:00
-- Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- cve_ids: CVE-2026-32998, CVE-2026-58067, CVE-2026-58071, CVE-2026-58072, CVE-2026-58073
-- urgency_signals: critical_cvss, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- cve_ids: CVE-2026-58073, CVE-2026-58072, CVE-2026-58067, CVE-2026-58071, CVE-2026-32998
-- urgency_signals: preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
-```
-
-#### Full body
-
-```
-Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug  Swati Khandelwal  Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 builds before 9.3, and Django's documented admin attack path requires a staff account with view permission for a model containing a spatial field. None of the three advisories says the flaws are under active exploitation, and as of August 5, 2026, none of the eleven CVEs appears in CISA's Known Exploited Vulnerabilities catalog, and no public proof-of-concept has surfaced. Impersonate an agent, take its credentials Veeam Service Provider Console, the multi-tenant console that hosting firms and managed service providers use to run and monitor customer backups, got four fixes in build 9.3.0.35057, detailed in a security bulletin published August 4 . Two are critical. Veeam released the build on July 29. The one to watch is CVE-2026-58073 (CVSS score: 9.5), which lets an unauthenticated attacker impersonate a managed agent and obtain that agent's credentials. Its CVSS vector rates attack complexity as high. The second critical flaw, CVE-2026-58072 (CVSS score: 9.0), is an arbitrary file write on the management server that can lead to remote code execution and requires a low-privilege account. The 9.5 reads as the worst of the two because it needs no login, but its high attack complexity is the reason the vector is not a straight-line exploit; unauthenticated here does not mean easy. Two high-severity bugs round out the set: CVE-2026-58067 , an unauthenticated memory-exhaustion denial of service, and CVE-2026-58071 , which exposes the proxied appliance API as Portal Administrator during a short window after an administrator session begins. All four affect VSPC 9.2.1.33875 and every earlier version 9 build. The fix is the upgrade to 9.3.0.35057. This is the second critical patch cycle for the console in roughly three months. In May, Veeam fixed CVE-2026-32998 , a 9.4-rated remote code execution bug tied to alarm script execution. One tenant's token, reused for the next HashiCorp's Terraform MCP server, which connects AI assistants to Terraform over the Model Context Protocol, carries three related flaws in its Streamable HTTP transport, disclosed July 28 and fixed in version 1.1.0 . HashiCorp released the fixed build on July 14, followed by version 1.2.0 on August 4. Deployments that run only in stdio mode, the local single-user setup, are unaffected. The bugs live in the multi-user HTTP mode meant for centralized, shared deployments, the configuration HashiCorp promoted when it made the server generally available in June . The most severe is CVE-2026-16498 (CVSS score: 10.0), a cross-tenant credential-reuse bug in stateless HTTP mode. The underlying MCP library does not assign unique session identifiers, and the server's credential cache relied on those identifiers to tell users apart. One user's Terraform token could therefore be reused for later users' requests regardless of the token they supplied. The root is an assumption about the layer beneath the
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
-  - Published: 2026-08-05T14:27:30+00:00
-  - Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
-  - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
-
 ### Cluster e53f5ae0c1 — score 9
 
 - Title: Canadian Man Pleads Guilty in Snowflake Extortions
@@ -2802,6 +2707,51 @@ A 26-year-old Canadian man once described as one of the most consequential cyber
   - Published: 2026-08-06T17:00:56+00:00
   - Link: https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
   - Summary: A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.
+
+### Cluster 2b2ae045a4 — score 9
+
+- Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-05T14:27:30+00:00
+- Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- cve_ids: CVE-2026-32998, CVE-2026-58067, CVE-2026-58071, CVE-2026-58072, CVE-2026-58073
+- urgency_signals: critical_cvss, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- cve_ids: CVE-2026-58073, CVE-2026-58072, CVE-2026-58067, CVE-2026-58071, CVE-2026-32998
+- urgency_signals: preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
+```
+
+#### Full body
+
+```
+Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug  Swati Khandelwal  Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 builds before 9.3, and Django's documented admin attack path requires a staff account with view permission for a model containing a spatial field. None of the three advisories says the flaws are under active exploitation, and as of August 5, 2026, none of the eleven CVEs appears in CISA's Known Exploited Vulnerabilities catalog, and no public proof-of-concept has surfaced. Impersonate an agent, take its credentials Veeam Service Provider Console, the multi-tenant console that hosting firms and managed service providers use to run and monitor customer backups, got four fixes in build 9.3.0.35057, detailed in a security bulletin published August 4 . Two are critical. Veeam released the build on July 29. The one to watch is CVE-2026-58073 (CVSS score: 9.5), which lets an unauthenticated attacker impersonate a managed agent and obtain that agent's credentials. Its CVSS vector rates attack complexity as high. The second critical flaw, CVE-2026-58072 (CVSS score: 9.0), is an arbitrary file write on the management server that can lead to remote code execution and requires a low-privilege account. The 9.5 reads as the worst of the two because it needs no login, but its high attack complexity is the reason the vector is not a straight-line exploit; unauthenticated here does not mean easy. Two high-severity bugs round out the set: CVE-2026-58067 , an unauthenticated memory-exhaustion denial of service, and CVE-2026-58071 , which exposes the proxied appliance API as Portal Administrator during a short window after an administrator session begins. All four affect VSPC 9.2.1.33875 and every earlier version 9 build. The fix is the upgrade to 9.3.0.35057. This is the second critical patch cycle for the console in roughly three months. In May, Veeam fixed CVE-2026-32998 , a 9.4-rated remote code execution bug tied to alarm script execution. One tenant's token, reused for the next HashiCorp's Terraform MCP server, which connects AI assistants to Terraform over the Model Context Protocol, carries three related flaws in its Streamable HTTP transport, disclosed July 28 and fixed in version 1.1.0 . HashiCorp released the fixed build on July 14, followed by version 1.2.0 on August 4. Deployments that run only in stdio mode, the local single-user setup, are unaffected. The bugs live in the multi-user HTTP mode meant for centralized, shared deployments, the configuration HashiCorp promoted when it made the server generally available in June . The most severe is CVE-2026-16498 (CVSS score: 10.0), a cross-tenant credential-reuse bug in stateless HTTP mode. The underlying MCP library does not assign unique session identifiers, and the server's credential cache relied on those identifiers to tell users apart. One user's Terraform token could therefore be reused for later users' requests regardless of the token they supplied. The root is an assumption about the layer beneath the
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug
+  - Published: 2026-08-05T14:27:30+00:00
+  - Link: https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html
+  - Summary: HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'
 
 ### Cluster 1f7c3a3d86 — score 9
 
@@ -3053,47 +3003,6 @@ LLMs made it cheap to flood bug bounty programs with submissions. Here's how Ela
   - Published: 2026-08-04T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone
   - Summary: LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports
-
-### Cluster 032b6e7e8b — score 8
-
-- Title: SOC case management and detection rule history in Elastic Security
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-08-03T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/soc-case-management-detection-rule-history
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Elastic Security now tracks every detection rule change with one-click rollback and makes case data queryable out of the box, so SOC teams get audit trails and reporting without configuring anything.
-```
-
-#### Full body
-
-```
-3 August 2026 • Kseniia Ignatovych • Melissa Burpo SOC case management and detection rule history in Elastic Security Elastic Security now tracks every detection rule change with one-click rollback and makes case data queryable out of the box, so SOC teams get audit trails and reporting without configuring anything. 3 min read Product Updates Elastic Security now tracks every change to a detection rule and lets you roll back to any previous version with one click. The same history log gives compliance teams a timestamped audit trail that's immutable and append-only. Case data is queryable across 3 global indices (down from 12 per space), so SOC managers can build dashboards on closure rates, assignment load, and case volume without configuring anything. A rebuilt template system gives analysts structured, investigation-specific fields at case creation, so the data feeding those dashboards is consistent from the start. Detection rule change history with one-click rollback Detection rules change constantly. Analysts add exceptions, engineers tune them, detection logic shifts to adapt to new threats. Until now, that history was gone the moment it happened. If a reliable rule stopped firing, there was no built-in way to see what changed, who changed it, or when, which is a debugging problem and a compliance problem in one. In 9.5, Detection Rules History Management ships as GA. A History section on the rule details page shows a complete, chronological log of every saved rule state: who made the change, when, and the revision number. From there, you can preview any historical revision, compare it to the previous version, and restore it with a single click. The log is immutable and append-only, and it captures changes made through the UI or the API. Compliance teams get a defensible, timestamped audit trail for ISO 27001, SOC 2, and DORA standards without any manual export or configuration. Detection engineers get a real undo button: no custom scripts, no digging through audit logs. SOC case management: templates and case analytics Cases are where investigations land, but the data inside them has rarely been reliable enough to learn from. Custom fields were limited in type and count. The same fields appeared on every case regardless of what the analyst was investigating. Building dashboards required manual index configuration that most teams never completed, so case data stayed useful in the moment and hard to aggregate at scale. In 9.5, we rebuilt the template system to fix how data goes in and made cases queryable out of the box for everything downstream. Investigation-specific case templates with custom fields Admins can now define templates for specific investigation types. A "Compromised Account" case collects different information than a "Service Outage" case. Admins build templates using a YAML editor with an Actions menu helper and a live preview panel. Analysts pick the right template for their investigation, see only the fields that apply, and fill in what's actually relevant. The previous cap of 10 templates was a ceiling for enterprise SOCs managing phishing, malware, insider threat, compliance audits, and more. That limit is gone, along with the cap on custom fields. Seven new field types are also now available, including: Checkboxes Radio buttons A user picker A date/time picker Any field can be marked required before case closure, so regulated teams can enforce that fields like "Root Cause" or "Closing Reason" get filled in before a case closes. A Field Library lets admins define reusable fields once and apply them across templates. Queryable case analytics on every deployment Cases as Data, Elastic Security's case analytics feature, exposes case activity in dedicated analytics indices so teams can build dashboards tracking case volume, closure rates, time to close, and assignment load, rather than relying on the case UI alone. We shipped Cases as Data as a tech preview in 9.2, but it required manual configuration, wa
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: SOC case management and detection rule history in Elastic Security
-  - Published: 2026-08-03T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/soc-case-management-detection-rule-history
-  - Summary: Elastic Security now tracks every detection rule change with one-click rollback and makes case data queryable out of the box, so SOC teams get audit trails and reporting without configuring anything.
 
 ### Cluster cf56c2f2ab — score 8
 
