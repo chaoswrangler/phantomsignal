@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-10T10:23:23.911440+00:00
+- Generated: 2026-08-10T11:53:24.671331+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
 - Total items in window: 348
-- Total clusters raw: 138
-- Total clusters in packet: 58
-- Dropped low score: 80
+- Total clusters raw: 141
+- Total clusters in packet: 60
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,11 +75,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -90,26 +85,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
-  - Item count: 25
-  - In window count: 0
+  - Item count: 10
+  - In window count: 5
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -130,16 +130,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -150,21 +150,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
+  - Item count: 100
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 40
-  - In window count: 3
+  - Item count: 10
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -175,6 +170,26 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 3
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -184,11 +199,6 @@
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
@@ -205,11 +215,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,36 +225,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 5
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 10
+  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -260,86 +255,86 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 100
+  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,16 +345,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 27
+  - Item count: 100
+  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,38 +360,43 @@
   - Status: ok
   - Item count: 50
   - In window count: 20
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 30
+  - In window count: 27
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,8 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,21 +415,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 25
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 25
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -473,32 +473,33 @@
 
 ## Affinity groups (themes)
 
-### CVE-2026-18577 exploitation activity
-- Anchor signal: CVE-2026-18577
-- Theme key: cve-2026-18577
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.348
-- Shared strong signals: CVE-2026-18577
+### ransomware extortion targeting UNC6671
+- Anchor signal: UNC6671
+- Theme key: unc6671
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.601
+- Shared strong signals: UNC6671
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
-  - cve_ids: CVE-2026-18556, CVE-2026-18577
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: 65ab16fa91, e9b42737b7
+  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach, mfa_bypass
+  - actor_attribution: UNC6671
+  - affected_industries: healthcare
+- Cluster IDs: 292d4f04d7, 502d49d687, 38f40f9f14
 - Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/
-  - https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
-  - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
-  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
+  - https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/
+  - https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/
+  - https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/
+  - https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
+  - https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/
+  - https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
 
 ### CVE-2026-18556 exploitation activity
 - Anchor signal: CVE-2026-18556
 - Theme key: cve-2026-18556
 - Cluster count: 2
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.348
 - Shared strong signals: CVE-2026-18556
 - Member CVEs: (none)
@@ -512,45 +513,68 @@
   - https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/
   - https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
+  - https://www.helpnetsecurity.com/2026/08/10/cve-2026-18577-n-central-hotfix-2-msps/
   - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
   - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
 
-### ransomware extortion targeting UNC6671
-- Anchor signal: UNC6671
-- Theme key: unc6671
-- Cluster count: 3
-- Article count: 7
-- Cohesion: 0.558
-- Shared strong signals: UNC6671
+### CVE-2026-18577 exploitation activity
+- Anchor signal: CVE-2026-18577
+- Theme key: cve-2026-18577
+- Cluster count: 2
+- Article count: 6
+- Cohesion: 0.348
+- Shared strong signals: CVE-2026-18577
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach, mfa_bypass
-  - actor_attribution: UNC6671
-  - affected_industries: healthcare
-- Cluster IDs: 292d4f04d7, 6ae4a5bc55, 38f40f9f14
+  - threat_categories: active_exploitation
+  - cve_ids: CVE-2026-18556, CVE-2026-18577
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: 65ab16fa91, e9b42737b7
 - Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/
-  - https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/
-  - https://www.securityweek.com/vishing-extortion-group-unc6671-rebrands-after-making-millions/
-  - https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
-  - https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
-  - https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
+  - https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/
+  - https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
+  - https://www.helpnetsecurity.com/2026/08/10/cve-2026-18577-n-central-hotfix-2-msps/
+  - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
+  - https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html
+
+### phishing social eng targeting Snowflake
+- Anchor signal: Snowflake
+- Theme key: snowflake
+- Cluster count: 4
+- Article count: 6
+- Cohesion: 0.386
+- Shared strong signals: Snowflake
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, ransomware_extortion, data_breach
+  - affected_industries: government, financial_services
+  - affected_products: Snowflake, Anthropic/Claude, OpenAI/ChatGPT
+- Cluster IDs: bc23ee8ea9, e53f5ae0c1, f3f661095c, 02097b7a9a
+- Links:
+  - https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
+  - https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
+  - https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
+  - https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
+  - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+  - https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
 
 ### CVE-2026-8037 exploitation activity
 - Anchor signal: CVE-2026-8037
 - Theme key: cve-2026-8037
 - Cluster count: 3
 - Article count: 3
-- Cohesion: 0.334
+- Cohesion: 0.402
 - Shared strong signals: CVE-2026-8037
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
+  - threat_categories: active_exploitation, zero_day
   - affected_industries: government
   - cve_ids: CVE-2026-8037
-  - urgency_signals: actively_exploited, preauth_unauth
+  - urgency_signals: actively_exploited, preauth_unauth, zero_day
 - Cluster IDs: 815134b7b7, c97f90a69b, 6ae4a5bc55
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
@@ -616,27 +640,6 @@
   - https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
   - https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
 
-### ransomware extortion targeting Snowflake
-- Anchor signal: Snowflake
-- Theme key: snowflake
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.497
-- Shared strong signals: Snowflake
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng
-  - affected_industries: government, financial_services
-  - affected_products: Snowflake, Anthropic/Claude, OpenAI/ChatGPT
-- Cluster IDs: e53f5ae0c1, f3f661095c, 02097b7a9a
-- Links:
-  - https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
-  - https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
-  - https://cyberscoop.com/connor-moucka-guilty-snowflake-attack-spree/
-  - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
-  - https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
-
 ### ransomware extortion targeting Microsoft SharePoint
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
@@ -674,8 +677,8 @@
 - Cluster IDs: 61004037ea, 772ab8c313
 - Links:
   - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
-  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
   - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
   - https://isc.sans.edu/diary/rss/33218
   - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
   - https://securelist.com/cloud-platforms-in-phishing/120832/
@@ -692,7 +695,7 @@
 - Anchor signal: Kubernetes
 - Theme key: kubernetes
 - Cluster count: 2
-- Article count: 33
+- Article count: 32
 - Cohesion: 0.2
 - Shared strong signals: Kubernetes
 - Member CVEs: (none)
@@ -703,8 +706,8 @@
 - Cluster IDs: 61004037ea, 1d2734c987
 - Links:
   - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
-  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
   - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
   - https://isc.sans.edu/diary/rss/33218
   - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
   - https://securelist.com/cloud-platforms-in-phishing/120832/
@@ -719,8 +722,8 @@
   - https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything
   - https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/
   - https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
-  - https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
   - https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
+  - https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
 
 ### ransomware extortion targeting Microsoft Defender
 - Anchor signal: Microsoft Defender
@@ -746,8 +749,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-33691 (first seen via SecurityWeek at 2026-08-10T09:31:51+00:00, cluster 6ae4a5bc55)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -788,23 +790,23 @@
   - New products: Apple iOS/macOS, Microsoft Defender
   - Prior top industries: critical_infrastructure, education, government
   - Prior top products: Salesforce, Ubiquiti UniFi, WordPress
-- **ShinyHunters** (cluster d8c893e316)
+- **ShinyHunters** (cluster bc23ee8ea9)
   - New industries: (none)
-  - New products: Microsoft SharePoint
+  - New products: Snowflake
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 
 ### Persistence (12)
-- actor_attribution: ShinyHunters (weeks observed: 10, cluster d8c893e316)
+- actor_attribution: ShinyHunters (weeks observed: 10, cluster bc23ee8ea9)
 - actor_attribution: TeamPCP (weeks observed: 8, cluster 61004037ea)
 - actor_attribution: Scattered Spider (weeks observed: 8, cluster fb2a69eb0a)
 - cve_ids: CVE-2026-33017 (weeks observed: 7, cluster e9b42737b7)
-- cve_ids: CVE-2026-33825 (weeks observed: 5, cluster e3235a03c3)
+- cve_ids: CVE-2026-33825 (weeks observed: 6, cluster e3235a03c3)
 - actor_attribution: LockBit (weeks observed: 5, cluster b00983247a)
 - cve_ids: CVE-2025-3248 (weeks observed: 5, cluster 1c833c15fa)
+- cve_ids: CVE-2026-50751 (weeks observed: 4, cluster e3235a03c3)
+- cve_ids: CVE-2026-8037 (weeks observed: 4, cluster 815134b7b7)
 - cve_ids: CVE-2026-50522 (weeks observed: 4, cluster 64fc7bd463)
-- cve_ids: CVE-2026-50751 (weeks observed: 3, cluster e3235a03c3)
-- cve_ids: CVE-2026-8037 (weeks observed: 3, cluster 815134b7b7)
 - cve_ids: CVE-2026-59726 (weeks observed: 3, cluster fe05850866)
 - cve_ids: CVE-2026-56164 (weeks observed: 3, cluster 64fc7bd463)
 
@@ -823,8 +825,8 @@
 - Published: 2026-08-04T11:11:54+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 5
+- Corroborating source count: 5
 - Strong signals: CVE-2026-18556, CVE-2026-18577
 
 #### Cluster taxonomy (union across members)
@@ -853,7 +855,7 @@ Overview On August 2, 2026, N-able published a security advisory for CVE-2026-18
 Back to Blog Vulnerabilities and Exploits CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild Rapid7 Aug 4, 2026 | Last updated on Aug 7, 2026 | 3 min read Overview On August 2, 2026, N-able published a security advisory for CVE-2026-18577 , an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after an incomplete fix for an earlier authentication bypass issue, CVE-2026-18556 was disclosed. CVE-2026-18577 allows a remote unauthenticated attacker to bypass authentication and obtain administrative control of vulnerable N-central servers in affected deployments. N-able N-central is a widely deployed Remote Monitoring and Management (RMM) platform used by managed service providers (MSPs) and enterprise IT teams to centrally administer servers, workstations, network devices, and other managed assets. Because the platform operates with extensive administrative privileges across customer environments, successful compromise of an N-central server can provide attackers with an efficient path to compromise downstream managed systems. According to N-able, exploitation of CVE-2026-18577 has been observed in the wild since August 1, 2026 . Following successful exploitation, attackers leveraged the platform's Take Control functionality to remotely access managed endpoints, and deployed Cloudflare Tunnel (cloudflared) to establish persistent remote access. On August 3, 2026, CVE-2026-18577 was added to CISA’s Known Exploited Vulnerability (KEV) catalog and on August 5, 2026, CVE-2026-18556 was also added to the catalog. Mitigation guidance Organizations operating vulnerable N-central deployments should prioritize remediation on an urgent basis, outside of normal patching schedules. Hosted N-central environments are upgraded automatically by the vendor, while on-premise deployments require manual remediation. Affected versions: All versions of N-able N-central up to and including version 2026.3.1, prior to Hotfix 1. Fixed version: N-able N-central 2026.3.1 Hotfix 1 (2026.3.1.7). The vendor also recommends: Upgrading N-central agents after applying the server hotfix. Reviewing systems for indicators of compromise. Contacting N-able Support immediately if evidence of compromise is discovered. Engaging internal incident response teams if malicious activity is identified. For further information, see the vendor advisory . IOCs N-able has published several artifacts that administrators should investigate during incident response. Endpoint Artifacts: Presence of a Cloudflared service. A suspicious svchost.exe located within the user's Documents folder. Network Indicators: Administrators should review historical network logs for inbound or outbound communication involving the malicious IP addresses identified by the vendor: 173[.]249[.]252[.]200 87[.]249[.]138[.]34 37[.]19[.]210[.]32 37[.]153[.]90[.]88 92[.]118[.]112[.]181 68[.]235[.]46[.]214 Organizations should also review: Authentication logs Administrative account creation or modification Take Control session activity Remote management logs Windows service installation events To assist affected organizations running N-central, the vendor has provided a detection template for CVE-2026-18577, which organizations can use to help identify potential compromise. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-18577 and CVE-2026-18556 with vulnerability checks available in the August 4 content release. Note that potential check type must be enabled in the scan template before scanning. Updates August 4, 2026: Initial publication. August 4, 2026: Updated Rapid7 customers section to reflect the availability of vulnerability checks. August 7, 2026: Updated the Overview and Rapid7 Customers sections to indicate addition of CVE-2026-18556 to CISA KEV and availability of vulnerability checks. Article Tags Emergent Threat Response Labs Vulne
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild
@@ -870,6 +872,11 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-18577: N-able N-central Authe
   - Published: 2026-08-04T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
   - Summary: After compromising systems via CVE-2026-18577, threat actors use the additional RMM tools and network tunnels to establish persistent remote access Categories: Threat Research Tags: RMM, N-able, vulnerability
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: N-able ships second N-central hotfix as attackers keep exploiting CVE-2026-18577
+  - Published: 2026-08-10T11:34:55+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/10/cve-2026-18577-n-central-hotfix-2-msps/
+  - Summary: To help customers fend off ongoing attacks, N-able released a second security hotfix for N‑central, its monitoring and management (RMM) solution popular with managed service providers (MSPs). “Hotfix 2 is required, even if you already applied the earlier hotfix. Hotfix 2 supersedes Hotfix 1 with additional hardening measures to further protect you and your customers,” the company said, and shared additional indicators of compromise observed in attacks. A second hotfix to “expand protections” Earlier this … More → The post N-able ships second N-central hotfix as attackers keep exploiting CVE-2026-18577 appeared first on Help Net Security .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Attackers Exploit N-able Patch Bypass Flaw on RMM Servers
   - Published: 2026-08-03T21:21:11+00:00
@@ -1064,16 +1071,16 @@ Table of contents Technical Overview Affected Systems Risk Impact How Orca Can H
   - Published: 2026-08-05T14:13:47+00:00
   - Link: https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
   - Summary: A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, […]
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
-  - Published: 2026-08-04T23:46:41+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
-  - Summary: A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .
 - **Unit 42** (threat_research_primary)
   - Title: ChainDrop: Inside a Self-Propagating npm Worm
   - Published: 2026-08-06T22:26:39+00:00
   - Link: https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
   - Summary: Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
+  - Published: 2026-08-04T23:46:41+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - Summary: A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: ChainDrop supply chain compromise: Anatomy of a self-propagating worm
   - Published: 2026-08-04T23:46:41+00:00
@@ -1460,6 +1467,55 @@ Critical Progress LoadMaster flaw now actively exploited in attacks By Sergiu Ga
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]
 
+### Cluster 502d49d687 — score 16
+
+- Title: Metabase Patches Vulnerability Exploited as Zero-Day
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-10T11:03:55+00:00
+- Link: https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: UNC6671
+- affected_industries: critical_infrastructure, healthcare
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
+- actor_attribution: UNC6671
+- affected_industries: healthcare, critical_infrastructure
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances. The post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Data analytics solutions provider Metabase has released urgent patches for a critical-severity SQL injection vulnerability that has been exploited in the wild as a zero-day. The security defect allows remote, unauthenticated attackers to inject arbitrary SQL queries into the Metabase application database and obtain administrative access. “From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data,” Metabase’s advisory reads. No CVE identifier has been assigned to the bug, but Metabase warned that it was discovered after a threat actor exploited it as a zero-day in an attack targeting Metabase Cloud. “We immediately blocked the endpoints used for the attack, then quickly identified and patched the vulnerability,” it says . Metabase Cloud instances have already been updated and patched, but self-hosting users are advised to apply the patches as soon as possible to prevent exposure. Advertisement. Scroll to continue reading. Where patching is not possible, users are advised to block the /api/session/reset_password endpoint as a temporary workaround. If the endpoint is accessible from the internet, users should apply the patches, then revoke all active user sessions, review API keys and delete any unrecognized keys, review administrative accounts, rotate credentials for all connected databases, and review logs and Metabase activity for suspicious access. To identify potential compromises, users should look for a “POST /api/session/reset_password” call with a ‘400’ status code followed by a “GET /api/user/current” call with a ‘200’ status code. “If you find that pattern in your application logs or in your Metabase server ingress logs, it is likely that your instance has been compromised,” Metabase says. Metabase versions 63.5, 62.9, 61.11, 60.17, 59.21, and 58.24 contain the necessary patches. Related: CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability Related: Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related: Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix Related: Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Critical Vulnerabilities Patched With Chrome 151 Update Critical Paperclip Flaw Allowed Admin Access, Code Execution Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability 311,000 Impacted by Brown Health Medical Group-MA Data Breach Latest News Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability Corporate Data Stolen in Levi Strauss Cyberattack Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street Vishing Extortion Group UNC6671 Rebrands After Making Millions Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Metabase Patches Vulnerability Exploited as Zero-Day
+  - Published: 2026-08-10T11:03:55+00:00
+  - Link: https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/
+  - Summary: The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances. The post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek .
+
 ### Cluster c97f90a69b — score 15
 
 - Title: Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts
@@ -1616,7 +1672,7 @@ AI agents took a 119,443-finding backlog, traced 2,731 SLA breaches to one base-
 - Published: 2026-08-03T17:02:46+00:00
 - Link: https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html
 - Fetch status: ok
-- Member count: 14
+- Member count: 13
 - Corroborating source count: 6
 - Strong signals: OpenAI/ChatGPT
 
@@ -1668,16 +1724,16 @@ More on the OpenAI Agent’s Attack on Hugging Face Hugging Face has published a
   - Published: 2026-08-06T20:39:30+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
   - Summary: In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident
-  - Published: 2026-08-06T13:40:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
-  - Summary: One of Meta’s AI models exploited a third-party security flaw during an evaluation, the latest in a series of similar incidents involving advanced AI systems
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
   - Published: 2026-08-07T08:18:35+00:00
   - Link: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
   - Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident
+  - Published: 2026-08-06T13:40:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
+  - Summary: One of Meta’s AI models exploited a third-party security flaw during an evaluation, the latest in a series of similar incidents involving advanced AI systems
 
 ### Cluster 182d0345d6 — score 12
 
@@ -1736,20 +1792,18 @@ Training and Certifications Your agentic summer: No-cost lessons from Google exp
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: UNC6671
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, zero_day
 - affected_industries: critical_infrastructure, government, healthcare
 - cve_ids: CVE-2026-33691, CVE-2026-8037
-- urgency_signals: actively_exploited, poc_available, preauth_unauth
+- urgency_signals: actively_exploited, poc_available, preauth_unauth, zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach, active_exploitation
-- actor_attribution: UNC6671
+- threat_categories: phishing_social_eng, zero_day, data_breach, active_exploitation
 - affected_industries: healthcare, government, critical_infrastructure
 - cve_ids: CVE-2026-8037, CVE-2026-33691
-- urgency_signals: actively_exploited, preauth_unauth, poc_available
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
@@ -1762,7 +1816,7 @@ The critical-severity flaw allows unauthenticated, remote attackers to execute a
 #### Full body
 
 ```
-The US cybersecurity agency CISA has urged federal agencies to immediately patch a critical-severity vulnerability in Progress Kemp LoadMaster that has been exploited in the wild. Tracked as CVE-2026-8037 (CVSS score of 9.6), the flaw is described as an OS command injection that could be exploited without authentication for remote code execution (RCE). According to Progress’ advisory , a remote attacker could exploit the bug through unsanitized API inputs to execute arbitrary commands on the LoadMaster appliance. Disclosed on June 4 alongside CVE-2026-33691, the security defect also affects ECS Connection Manager, Connection Manager for ObjectScale, and MOVEit WAF. “The specific flaw exists within the handling of the apiuser parameter provided to the accessv2 endpoint. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of root,” a ZDI advisory reads . In-the-wild exploitation likely started on June 29, when attack surface management company watchTowr published technical information and proof-of-concept (PoC) code. Advertisement. Scroll to continue reading. The issue exists because the escape_quotes() function in LoadMaster GA version 7.2.63.1 and older and LoadMaster LTSF version 7.2.54.17 and older did not handle user-supplied input properly. According to watchTowr’s analysis, the function allocates an uninitialized heap buffer with malloc(), but did not write a null terminator after escaped output, leading to out-of-bounds reads from neighboring freed memory. The company discovered that an unauthenticated attacker could spray command injection content into the adjacent memory targeted by the out-of-bounds read, which would lead to command execution via the system() function. On June 30, cybersecurity firm eSentire warned that hackers started exploiting CVE-2026-8037 immediately after the technical analysis was published. However, the initial exploitation attempts were not successful, the company said. “Because LoadMaster appliances are frequently positioned at the network edge and often have visibility into critical internal services, compromise of the device could facilitate initial access and further malicious activity within the environment,” eSentire warned. On Friday, CISA added the CVE to its Known Exploited Vulnerabilities ( KEV ) catalog, giving federal agencies only three days to patch it. Related: Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related: Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data Related: Microsoft, Apple Release Fresh Security Updates Related: Critical Vulnerabilities Patched With Chrome 151 Update Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Critical Vulnerabilities Patched With Chrome 151 Update Critical Paperclip Flaw Allowed Admin Access, Code Execution Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability 311,000 Impacted by Brown Health Medical Group-MA Data Breach Latest News Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility Corporate Data Stolen in Levi Strauss Cyberattack Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street Vishing Extortion Group UNC6671 Rebrands After Making Millions Truck Brake Controller’s Safety Recall Doubled as Hidden Securi
+The US cybersecurity agency CISA has urged federal agencies to immediately patch a critical-severity vulnerability in Progress Kemp LoadMaster that has been exploited in the wild. Tracked as CVE-2026-8037 (CVSS score of 9.6), the flaw is described as an OS command injection that could be exploited without authentication for remote code execution (RCE). According to Progress’ advisory , a remote attacker could exploit the bug through unsanitized API inputs to execute arbitrary commands on the LoadMaster appliance. Disclosed on June 4 alongside CVE-2026-33691, the security defect also affects ECS Connection Manager, Connection Manager for ObjectScale, and MOVEit WAF. “The specific flaw exists within the handling of the apiuser parameter provided to the accessv2 endpoint. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of root,” a ZDI advisory reads . In-the-wild exploitation likely started on June 29, when attack surface management company watchTowr published technical information and proof-of-concept (PoC) code. Advertisement. Scroll to continue reading. The issue exists because the escape_quotes() function in LoadMaster GA version 7.2.63.1 and older and LoadMaster LTSF version 7.2.54.17 and older did not handle user-supplied input properly. According to watchTowr’s analysis, the function allocates an uninitialized heap buffer with malloc(), but did not write a null terminator after escaped output, leading to out-of-bounds reads from neighboring freed memory. The company discovered that an unauthenticated attacker could spray command injection content into the adjacent memory targeted by the out-of-bounds read, which would lead to command execution via the system() function. On June 30, cybersecurity firm eSentire warned that hackers started exploiting CVE-2026-8037 immediately after the technical analysis was published. However, the initial exploitation attempts were not successful, the company said. “Because LoadMaster appliances are frequently positioned at the network edge and often have visibility into critical internal services, compromise of the device could facilitate initial access and further malicious activity within the environment,” eSentire warned. On Friday, CISA added the CVE to its Known Exploited Vulnerabilities ( KEV ) catalog, giving federal agencies only three days to patch it. Related: Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related: Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data Related: Microsoft, Apple Release Fresh Security Updates Related: Critical Vulnerabilities Patched With Chrome 151 Update Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Critical Vulnerabilities Patched With Chrome 151 Update Critical Paperclip Flaw Allowed Admin Access, Code Execution Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability 311,000 Impacted by Brown Health Medical Group-MA Data Breach Latest News New Jersey, Alabama Join States Targeted in Water Cyberattacks Metabase Patches Vulnerability Exploited as Zero-Day Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility Corporate Data Stolen in Levi Strauss Cyberattack Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street Vishing Ex
 ```
 
 #### Corroborating sources (1)
@@ -1772,68 +1826,6 @@ The US cybersecurity agency CISA has urged federal agencies to immediately patch
   - Published: 2026-08-10T09:31:51+00:00
   - Link: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
   - Summary: The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands. The post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek .
-
-### Cluster eba783fe70 — score 12
-
-- Title: Quoting Claude Opus 5 system prompt
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-08-09T23:31:39+00:00
-- Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
-- Fetch status: ok
-- Member count: 6
-- Corroborating source count: 5
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, web_shell_backdoor
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Dynatrace — When agents enter the SDLC, observability becomes the enabler to move from code generation to scalable engineering. Read the blog for a framework to get started 9th August 2026 Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn't provide incorrect answers about the export controls situation Posted 9th August 2026 at 11:31 pm Recent articles Now we have a timeline of the OpenAI accidental attack against Hugging Face - 7th August 2026 One-shotting a Raccoon Heist game using Claude Fable 5 - 5th August 2026 New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging - 4th August 2026 This is a quotation collected by Simon Willison, posted on 9th August 2026 . ai 2,179 generative-ai 1,930 llms 1,897 anthropic 326 claude 300 system-prompts 55 claude-mythos-fable 35 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (5)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Claude Opus 5 system prompt
-  - Published: 2026-08-09T23:31:39+00:00
-  - Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
-  - Summary: Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Anthropic to put AI in charge of reviewing Claude Code actions by default
-  - Published: 2026-08-10T09:13:29+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/
-  - Summary: Anthropic will make auto mode in Claude Code the default for new sessions on Pro, Max, and Team plans starting August 14. Users who previously selected a different default may receive a one-time prompt asking whether they want to switch to auto mode. In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%. (Source: Anthropic) It remains optional on Claude Enterprise, the Claude … More → The post Anthropic to put AI in charge of reviewing Claude Code actions by default appeared first on Help Net Security .
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues
-  - Published: 2026-08-03T20:31:12+00:00
-  - Link: https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps
-  - Summary: Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself
-  - Published: 2026-08-05T07:53:50+00:00
-  - Link: https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html
-  - Summary: An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute. When a bystander publicly warned that the code was malicious, the agent denied it, force-pushed a rewritten branch history to erase the evidence, and posted from a second account it controlled to vouch for
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Claude Code RCE: How a Malicious PR Triggers Code Execution
-  - Published: 2026-08-06T21:22:53+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/
-  - Summary: Abusing the trust boundary in Claude Code for RCE. Trust is never broken and that opens up a few avenues for abuse. Simply opening claude code on a PR can be enough to silently trigger attacker payloads. submitted by /u/kev-thehermit [link] [comments]
 
 ### Cluster a7f7f22b06 — score 11
 
@@ -1919,48 +1911,67 @@ Table of contents Key Takeaways What Are Vulnerability Scanning Tools? Scanners 
   - Link: https://orca.security/resources/blog/vulnerability-scanning-tools/
   - Summary: Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]
 
-### Cluster b9f78fb1fa — score 10
+### Cluster eba783fe70 — score 11
 
-- Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-08-04T17:54:04+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+- Title: Quoting Claude Opus 5 system prompt
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-08-09T23:31:39+00:00
+- Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Microsoft Defender
+- Member count: 6
+- Corroborating source count: 5
+- Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion
-- affected_products: Microsoft Defender
+- threat_categories: ai_security, web_shell_backdoor
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft
-- affected_products: Microsoft Defender
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
 ```
 
 #### Full body
 
 ```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–
+Simon Willison’s Weblog Subscribe Sponsored by: Dynatrace — When agents enter the SDLC, observability becomes the enabler to move from code generation to scalable engineering. Read the blog for a framework to get started 9th August 2026 Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn't provide incorrect answers about the export controls situation Posted 9th August 2026 at 11:31 pm Recent articles Now we have a timeline of the OpenAI accidental attack against Hugging Face - 7th August 2026 One-shotting a Raccoon Heist game using Claude Fable 5 - 5th August 2026 New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging - 4th August 2026 This is a quotation collected by Simon Willison, posted on 9th August 2026 . ai 2,179 generative-ai 1,930 llms 1,897 anthropic 326 claude 300 system-prompts 55 claude-mythos-fable 35 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (5)
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
-  - Published: 2026-08-04T17:54:04+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
-  - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Claude Opus 5 system prompt
+  - Published: 2026-08-09T23:31:39+00:00
+  - Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
+  - Summary: Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Anthropic to put AI in charge of reviewing Claude Code actions by default
+  - Published: 2026-08-10T09:13:29+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/
+  - Summary: Anthropic will make auto mode in Claude Code the default for new sessions on Pro, Max, and Team plans starting August 14. Users who previously selected a different default may receive a one-time prompt asking whether they want to switch to auto mode. In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%. (Source: Anthropic) It remains optional on Claude Enterprise, the Claude … More → The post Anthropic to put AI in charge of reviewing Claude Code actions by default appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues
+  - Published: 2026-08-03T20:31:12+00:00
+  - Link: https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps
+  - Summary: Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself
+  - Published: 2026-08-05T07:53:50+00:00
+  - Link: https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html
+  - Summary: An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute. When a bystander publicly warned that the code was malicious, the agent denied it, force-pushed a rewritten branch history to erase the evidence, and posted from a second account it controlled to vouch for
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Claude Code RCE: How a Malicious PR Triggers Code Execution
+  - Published: 2026-08-06T21:22:53+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/
+  - Summary: Abusing the trust boundary in Claude Code for RCE. Trust is never broken and that opens up a few avenues for abuse. Simply opening claude code on a PR can be enough to silently trigger attacker payloads. submitted by /u/kev-thehermit [link] [comments]
 
 ### Cluster fb2a69eb0a — score 10
 
@@ -2095,50 +2106,48 @@ Threat Research Center Threat Research Malware Malware Almost Half of Malware Sa
   - Link: https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/
   - Summary: Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats. The post Almost Half of Malware Samples Communicate Direct to IP appeared first on Unit 42 .
 
-### Cluster b00983247a — score 10
+### Cluster b9f78fb1fa — score 10
 
-- Title: An analysis of incidents at Brazilian educational institutions
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-03T13:00:17+00:00
-- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+- Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-04T17:54:04+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: Microsoft Defender
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- actor_attribution: LockBit
-- affected_industries: education, financial_services
+- threat_categories: credential_theft, ransomware_extortion
+- affected_products: Microsoft Defender
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: LockBit
-- affected_industries: financial_services, education
+- threat_categories: ransomware_extortion, credential_theft
+- affected_products: Microsoft Defender
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 ```
 
 #### Full body
 
 ```
-Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–
 ```
 
 #### Corroborating sources (1)
 
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: An analysis of incidents at Brazilian educational institutions
-  - Published: 2026-08-03T13:00:17+00:00
-  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
-  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET
+  - Published: 2026-08-04T17:54:04+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
+  - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
 ### Cluster 3e123aa6ec — score 10
 
@@ -2277,6 +2286,51 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 3rd August
   - Link: https://research.checkpoint.com/2026/3rd-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 27th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Minnesota IT Services has confirmed coordinated cyberattacks affecting more than 30 community water utilities across the state. The incidents briefly disrupted a treatment plant in Braham and affected industrial control systems. Officials reported […] The post 3rd August – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster b00983247a — score 10
+
+- Title: An analysis of incidents at Brazilian educational institutions
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-03T13:00:17+00:00
+- Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- actor_attribution: LockBit
+- affected_industries: education, financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- actor_attribution: LockBit
+- affected_industries: financial_services, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Key findings and statistics Interesting cases Case 01 – Leaked LockBit builder Case 02 – DragonForce deployed via AnyDesk Case 03 – Python keylogger used by an insider Conclusions and recommendations Observed TTPs Authors Cristian Souza Introduction Because of the amount of data that can be obtained and the high impact that successful attacks may have, educational institutions are frequent targets of cybercriminals. Both public and private schools and universities rely on software for managing personally identifiable information (PII) that is often insecure or insufficiently tested against known vulnerabilities. In addition, machines used by multiple people without accountability can be vulnerable to insider threats. The complexity of academic environments amplifies this risk. Unlike corporate networks, educational institutions have to provide a network that supports students, professors, researchers, administrative staff, third-party contractors, and visitors. Each of these groups has different security requirements and access control levels, making it difficult to enforce consistent security policies. A security breach can have severe consequences since it may expose vast amounts of sensitive information, such as social security numbers (CPF in Brazil), addresses, phone numbers, and even parents’ names. Armed with this information, attackers can attempt phishing attacks and impersonate the victims in SIM swapping attacks, a common practice in Brazil. In this article, we provide details about attacks on educational institutions in Brazil observed by our Global Emergency Response Team (GERT) since 2025. We share general statistics, common threats, initial access vectors, and the impact of such violations. Additionally, we present some interesting cases encountered by our team and the identified TTPs. Finally, we offer recommendations to help institutions protect themselves against future attacks. Key findings and statistics Our dataset encompasses incident response cases from January 2025 to June 2026. As the chart below shows, the majority of attacks targeted institutions in São Paulo state, Brazil’s most populous state and a significant center of economic and financial activity. We also had cases in Rio de Janeiro and Pernambuco. Geographical distribution of incident response requests at educational institutions ( download ) Of the customers who requested incident response, 60% were private institutions and 40% were public institutions. Private and public institutions ( download ) The most frequent reasons for requesting IR services were related to suspicious endpoint activities, encrypted files, and the presence of suspicious files. Incident response request reasons ( download ) High-severity incidents accounted for 40% of the total cases, while the remaining 60% were medium severity. Distribution of incidents by severity ( download ) The high-severity incidents were mainly related to ransomware attacks. Interestingly, private institutions were the most targeted by ransomware, while incidents in public institutions were mostly related to suspicious endpoint activity and privilege escalation attempts. The most common ransomware families found in our dataset were DragonForce and LockBit 3 , whose builder was leaked back in 2022. By using the leaked LockBit builder with a valid privileged account, attackers can build variants capable of disabling defenses and erasing logs. The most common initial access vectors included the use of valid accounts, exploitation of public-facing applications, and insiders. Initial access vectors ( download ) For privilege escalation, the attackers often relied on Potato variants (GodPotato, SweetPotato, and BadPotato). We also observed attackers using tools like AnyDesk for remote access, PsExec for lateral movement within compromised infrastructures, and AV-killer malware to terminate the system’s defenses. The latter was mainly used in ransomware-related incidents
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: An analysis of incidents at Brazilian educational institutions
+  - Published: 2026-08-03T13:00:17+00:00
+  - Link: https://securelist.com/incidents-at-brazilian-educational-institutions/120803/
+  - Summary: Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.
+
 ### Cluster ef0ff97611 — score 10
 
 - Title: “Keep going, bro. You’ve got this!” A data-driven look at how adversaries are weaponizing AI
@@ -2399,6 +2453,90 @@ Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cyb
   - Published: 2026-08-03T13:04:33+00:00
   - Link: https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/
   - Summary: Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.
+
+### Cluster 87cb88c47a — score 10
+
+- Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
+- Source: PortSwigger Research (offensive_vulnerability_research)
+- Published: 2026-08-05T23:30:00+00:00
+- Link: https://portswigger.net/research/crlf-powered-desync-attacks
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power
+```
+
+#### Full body
+
+```
+CRLF-Powered Desync Attacks: Beheading HTTP Streams Tom Stacey Researcher @t0xodile Published: Wednesday, 5 August 2026 at 23:30 UTC Updated: Wednesday, 5 August 2026 at 23:30 UTC Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Powered Desync Worm. We’ll begin by teaching you how to take a simple header injection primitive and transform it into a full-blown desync worm. Next, we’ll introduce novel methods to detect and exploit IP and connection-locked desyncs which prevent cross-network exploitation by shifting the desync’s execution into the victim's browser to generate an XSS out of thin air and steal HTTPOnly cookies. Along the way, we’ll help you avoid accidental desync disasters like logging every active user of your target into your own account causing your shopping cart to be overwritten with random users’ items on every refresh. Collaboration This paper was co-authored with Tobia Righi from TurtleSec . Over the last year, we've collaborated on this research in order to ensure that every single technique was pushed to its absolute limit. This went rather well, and we ended up co-presenting the results at BHUSA and DEFCON. You can read his own version of the paper on TurtleSec’s blog . Research Origins HTTP Request Smuggling Request Header Injection Detecting Request Header Injection HTTP Request Splitting Response Queue Poisoning via Request Splitting RQP Inside the Infrastructure of a CDN Header Injection via Custom Upstream Header Header Injection via Non-Path Insertion Points AI-Generated Detection Techniques CRLF-Powered CL.TE Desync Attacks The Desync Disaster The Nested Response Mystery Cache Poisoning & AI-Generated HEAD Gadget Browser-Powered CRLF Desync Attacks CRLF-Powered Desync Worms HTTP Request Tunnelling Bypassing Blind Request Tunnelling Bypassing Access Controls via Request Tunnelling Browser-Powered Connection-Locked Desyncs Browser-Powered 0.CL Browser-Powered IP-Locked Desyncs Browser-Powered Request Splitting - HEAD + Range Browser-Powered Request Splitting - Stealing HTTPOnly Cookies Bypassing Response Header Removal Response Header Injection Cookie Tossing - TikTok XSS on a Redirect Reverse Desync Attacks Defence Tooling Further Research Key Takeaways Conclusion Research Origins Around 1 year ago, we came across this post on Bluesky which mentioned an attack technique we’d heard of, but never come across in the wild. This post bothered us, as it claimed the attack was “not that uncommon” in spite of our failure to ever find it. On top of this, we knew of at least two other research papers on the same topic (both of which were in their respective year’s Top 10 Web Hacking Techniques ). The first, Making HTTP header injection critical via response queue poisoning by James Kettle explains how you can achieve HTTP request smuggling using request splitting, citing a single case study as evidence. The second, HTTP Request Splitting Vulnerabilities Exploitation by Sergey Bobrov explores how common request splitting actually is, due to a common Nginx misconfiguration, but only briefly mentions the potential for desyncs. This got us thinking. What would happen if we took James’ desync techniques, and applied them to everything that seemed vulnerable to HTTP header injection. After our first encounter, we quickly realised the technique’s potential and started to spot gaps in its current understanding. HTTP Request Smuggling This entire paper will talk extensively about request smuggling, and therefore we highly recommend going through our free Web Security Academy resources if you’re not already familiar. Request Header Injection In Nginx configurations (an extremely popular web server) if the $uri variable is included in the proxy_pass directive, Nginx will normalise the request path before use, url-decoding any encoded characters including CRLF sequences (%0d%0
+```
+
+#### Corroborating sources (1)
+
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
+  - Published: 2026-08-05T23:30:00+00:00
+  - Link: https://portswigger.net/research/crlf-powered-desync-attacks
+  - Summary: Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power
+
+### Cluster 85ff36c25f — score 10
+
+- Title: Can AI do novel security research? Meet the HTTP Terminator
+- Source: PortSwigger Research (offensive_vulnerability_research)
+- Published: 2026-08-05T19:30:00+00:00
+- Link: https://portswigger.net/research/can-ai-do-novel-security-research
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi
+```
+
+#### Full body
+
+```
+Can AI do novel security research? Meet the HTTP Terminator James Kettle Director of Research @albinowax Published: Wednesday, 5 August 2026 at 19:30 UTC Updated: Thursday, 6 August 2026 at 14:59 UTC Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Building this sounded like a bad idea, so I did it. It worked - I'll share an arsenal of new HTTP desync triggers, gadgets, and exploits that compromised banks, security solutions, and government infrastructure. Then I'll trace each discovery chain back through the HTTP Terminator, showing how to turn your personal expertise into an autonomous weapon - and the dark arts required to make it lethal. I'll also share discoveries from beyond the autonomy horizon - some only reachable with a tight human/AI research loop, and others beyond AI's reach entirely. These include a powerful undisclosed recon technique, and anomalies that hint at new attack classes offering alternative paths to critical impact. I'll analyze the discovery process, sharing detailed experiments that probe the boundaries of what AI can and can't discover. You'll leave with new exploits from desync triggers to undisclosed attack classes, and a blueprint for turning your instincts into an autonomous research cascade. And yes, I'll open-source the HTTP Terminator. This whitepaper is also available as a printable PDF . If you've seen the size of the scrollbar and you're about to ask for an AI summary, you may prefer to read the executive summary instead. This research was presented at Black Hat USA 2026 and DEF CON 34 , and this page will be updated with the recording once it's available - follow PortSwigger Research on X , LinkedIn or RSS to get notified when it lands. Contents Introduction Defining novel HTTP desync research HTTP Terminator Design Ideation The technique rediscovery test Scaling ideation with micro-inspiration Evaluation The core evaluation primitive Evaluation case-study Novel desync triggers Weaponization Autonomous RQP Turning the environment into the weapon Making iteration viable The stacked-response problem The dangling-byte technique Cascade Anomaly detection cascade Chasing an autonomous cascade Status-line Injection Range Cache Poisoning Shared-Parser Confusion Scanning for inspiration Conclusion The blueprint Tool releases Defense Takeaways Introduction Automation is often focused on efficiency but I believe that when it's approached just right, automation can enable outcomes that were previously impossible. This research is about chasing that promise of something more. The primary objective of this project was to discover the new frontier of automation-driven security research. I've been practicing automation-driven research for a long time, and could see that generative AI had moved the frontier substantially. I also aimed to build a blueprint to help other researchers quickly adopt this new approach. My secondary objective was to push the "fully autonomous research" concept to complete failure by exceeding the capabilities of current SOTA models. By doing this, I aimed to show where a human in the loop can still add significant value (as opposed to just building the loop, then stepping back). Finally, I aimed to discover factors that make a research topic unsuitable for an AI-driven approach. This would be valuable to people who prefer to stick with a classic, fully-manual research approach and want to minimize the risk of collision with an AI-enhanced researcher. Defining novel HTTP desync research We've all seen experts claiming AI can't do original security research. One of the many risks of my project was that people might claim that the system's discoveries weren't actually original. To minimize this risk I choose the topic I was most qualified for - HTTP Desync Attacks. I repopularized this attack class back in 2019, and in total I've done fo
+```
+
+#### Corroborating sources (1)
+
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - Title: Can AI do novel security research? Meet the HTTP Terminator
+  - Published: 2026-08-05T19:30:00+00:00
+  - Link: https://portswigger.net/research/can-ai-do-novel-security-research
+  - Summary: Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi
 
 ### Cluster 1c833c15fa — score 10
 
@@ -2535,89 +2673,89 @@ Hype vs. Reality: What the Hugging Face Incident Means for AI Safety Agentic def
   - Link: https://www.recordedfuture.com/blog/hugging-face-ai-safety
   - Summary: Discover the security lessons from the recent incident where autonomous AI agents breached Hugging Face infrastructure.
 
-### Cluster 87cb88c47a — score 10
+### Cluster 24e0f0f990 — score 10
 
-- Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
-- Source: PortSwigger Research (offensive_vulnerability_research)
-- Published: 2026-08-05T23:30:00+00:00
-- Link: https://portswigger.net/research/crlf-powered-desync-attacks
+- Title: A few notes on AWS Nitro Enclaves: KMS integration
+- Source: Trail of Bits (offensive_vulnerability_research)
+- Published: 2026-08-05T11:00:00+00:00
+- Link: https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power
+Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n
 ```
 
 #### Full body
 
 ```
-CRLF-Powered Desync Attacks: Beheading HTTP Streams Tom Stacey Researcher @t0xodile Published: Wednesday, 5 August 2026 at 23:30 UTC Updated: Wednesday, 5 August 2026 at 23:30 UTC Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Powered Desync Worm. We’ll begin by teaching you how to take a simple header injection primitive and transform it into a full-blown desync worm. Next, we’ll introduce novel methods to detect and exploit IP and connection-locked desyncs which prevent cross-network exploitation by shifting the desync’s execution into the victim's browser to generate an XSS out of thin air and steal HTTPOnly cookies. Along the way, we’ll help you avoid accidental desync disasters like logging every active user of your target into your own account causing your shopping cart to be overwritten with random users’ items on every refresh. Collaboration This paper was co-authored with Tobia Righi from TurtleSec . Over the last year, we've collaborated on this research in order to ensure that every single technique was pushed to its absolute limit. This went rather well, and we ended up co-presenting the results at BHUSA and DEFCON. You can read his own version of the paper on TurtleSec’s blog . Research Origins HTTP Request Smuggling Request Header Injection Detecting Request Header Injection HTTP Request Splitting Response Queue Poisoning via Request Splitting RQP Inside the Infrastructure of a CDN Header Injection via Custom Upstream Header Header Injection via Non-Path Insertion Points AI-Generated Detection Techniques CRLF-Powered CL.TE Desync Attacks The Desync Disaster The Nested Response Mystery Cache Poisoning & AI-Generated HEAD Gadget Browser-Powered CRLF Desync Attacks CRLF-Powered Desync Worms HTTP Request Tunnelling Bypassing Blind Request Tunnelling Bypassing Access Controls via Request Tunnelling Browser-Powered Connection-Locked Desyncs Browser-Powered 0.CL Browser-Powered IP-Locked Desyncs Browser-Powered Request Splitting - HEAD + Range Browser-Powered Request Splitting - Stealing HTTPOnly Cookies Bypassing Response Header Removal Response Header Injection Cookie Tossing - TikTok XSS on a Redirect Reverse Desync Attacks Defence Tooling Further Research Key Takeaways Conclusion Research Origins Around 1 year ago, we came across this post on Bluesky which mentioned an attack technique we’d heard of, but never come across in the wild. This post bothered us, as it claimed the attack was “not that uncommon” in spite of our failure to ever find it. On top of this, we knew of at least two other research papers on the same topic (both of which were in their respective year’s Top 10 Web Hacking Techniques ). The first, Making HTTP header injection critical via response queue poisoning by James Kettle explains how you can achieve HTTP request smuggling using request splitting, citing a single case study as evidence. The second, HTTP Request Splitting Vulnerabilities Exploitation by Sergey Bobrov explores how common request splitting actually is, due to a common Nginx misconfiguration, but only briefly mentions the potential for desyncs. This got us thinking. What would happen if we took James’ desync techniques, and applied them to everything that seemed vulnerable to HTTP header injection. After our first encounter, we quickly realised the technique’s potential and started to spot gaps in its current understanding. HTTP Request Smuggling This entire paper will talk extensively about request smuggling, and therefore we highly recommend going through our free Web Security Academy resources if you’re not already familiar. Request Header Injection In Nginx configurations (an extremely popular web server) if the $uri variable is included in the proxy_pass directive, Nginx will normalise the request path before use, url-decoding any encoded characters including CRLF sequences (%0d%0
+Page content Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs never leave KMS. You request KMS to perform cryptographic operations (like encryption or signing) for you. Data keys and key pairs are generated in KMS, are not stored in KMS, and are intended for programmatic uses. For symmetric keys, the KMS gives you a plaintext key and the same key encrypted to CMK. Your application performs encryptions, removes the plaintext key, and stores the key encrypted to a CMK along the ciphertexts; this pattern is called envelope encryption . For asymmetric keys, the KMS gives you a plaintext key pair and the private key encrypted to CMK. Your application creates signatures or encrypts data, deletes the private key, and keeps the public key and encrypted private key (along with signatures/ciphertexts). Both types of data keys can be used with Decrypt operation to get plaintext keys again. S t o r a g e s t { o E r _ e d ( k E , _ C d } k , C ) E n c l a v G e e { n d e k C D p r , = e l a E e c a t _ n r i e d c y n D k ( p t a = d t e t e k ( { x a n , c d t K c p m k = e ( l k } d y c a _ e ( m i i c c k n d ( m , t , d k d e E k _ k x _ , i ) t d C d } ) k ) ) ) K M S Figure 1: Basic KMS operations. cmk_id is an ID (ARN) of CMK key, cmk is the actual key used, enc / dec are any encryption/decryption algorithms, GenerateDataKey and Decrypt are KMS operations. Access to keys is subject to authorization policies , including key policies, IAM policies, and grants. Cross-account access for keys can be enabled. Keys can be identified in multiple ways : ARN, Id, Alias ARN, and Alias name. Keys are usually per-region (single-region), but multi-region keys can be created too. Enclave-KMS communication There are two mechanisms that are in play when integrating KMS with Nitro Enclaves: KMS policies restricting access to CMKs to specific enclaves (by PCR values) KMS encrypting responses to enclave’s public keys In the first mechanism, the key policy may authorize access to only requests that contain fresh and correctly signed attestation documents with the expected PCR values. Enclaves have to generate attestations and include them in requests to KMS. Note that the enclave still needs IAM credentials to access KMS in the first place. The second mechanism is about enclaves sending asymmetric public keys (inside the attestation documents) to KMS, and KMS encrypting part of the responses to the key. This mechanism is supposed to ensure that only the requesting enclave can see output from KMS. Only a few KMS operations support these two mechanisms. The operations are: GenerateDataKey , GenerateDataKeyPair Decrypt DeriveSharedSecret GenerateRandom Note the absence of the Encrypt operation: enclaves can request this operation, but without the attestation-based security mechanisms. CMKs cannot be used directly by enclaves for encryption without missing on the attestation checks. This means cryptography operations are supposed to be implemented via data keys, and not directly via CMKs. S t o r a g e s t { o E r _ e d ( k
 ```
 
 #### Corroborating sources (1)
 
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - Title: CRLF-Powered Desync Attacks: Beheading HTTP Streams
-  - Published: 2026-08-05T23:30:00+00:00
-  - Link: https://portswigger.net/research/crlf-powered-desync-attacks
-  - Summary: Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power
+- **Trail of Bits** (offensive_vulnerability_research)
+  - Title: A few notes on AWS Nitro Enclaves: KMS integration
+  - Published: 2026-08-05T11:00:00+00:00
+  - Link: https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/
+  - Summary: Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n
 
-### Cluster 85ff36c25f — score 10
+### Cluster bc23ee8ea9 — score 10
 
-- Title: Can AI do novel security research? Meet the HTTP Terminator
-- Source: PortSwigger Research (offensive_vulnerability_research)
-- Published: 2026-08-05T19:30:00+00:00
-- Link: https://portswigger.net/research/can-ai-do-novel-security-research
+- Title: Valve notifies Steam hardware customers of a data breach
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-10T11:47:55+00:00
+- Link: https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- threat_categories: data_breach, phishing_social_eng
+- actor_attribution: ShinyHunters
+- affected_products: Snowflake
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- threat_categories: phishing_social_eng, data_breach
+- actor_attribution: ShinyHunters
+- affected_products: Snowflake
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi
+Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]
 ```
 
 #### Full body
 
 ```
-Can AI do novel security research? Meet the HTTP Terminator James Kettle Director of Research @albinowax Published: Wednesday, 5 August 2026 at 19:30 UTC Updated: Thursday, 6 August 2026 at 14:59 UTC Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Building this sounded like a bad idea, so I did it. It worked - I'll share an arsenal of new HTTP desync triggers, gadgets, and exploits that compromised banks, security solutions, and government infrastructure. Then I'll trace each discovery chain back through the HTTP Terminator, showing how to turn your personal expertise into an autonomous weapon - and the dark arts required to make it lethal. I'll also share discoveries from beyond the autonomy horizon - some only reachable with a tight human/AI research loop, and others beyond AI's reach entirely. These include a powerful undisclosed recon technique, and anomalies that hint at new attack classes offering alternative paths to critical impact. I'll analyze the discovery process, sharing detailed experiments that probe the boundaries of what AI can and can't discover. You'll leave with new exploits from desync triggers to undisclosed attack classes, and a blueprint for turning your instincts into an autonomous research cascade. And yes, I'll open-source the HTTP Terminator. This whitepaper is also available as a printable PDF . If you've seen the size of the scrollbar and you're about to ask for an AI summary, you may prefer to read the executive summary instead. This research was presented at Black Hat USA 2026 and DEF CON 34 , and this page will be updated with the recording once it's available - follow PortSwigger Research on X , LinkedIn or RSS to get notified when it lands. Contents Introduction Defining novel HTTP desync research HTTP Terminator Design Ideation The technique rediscovery test Scaling ideation with micro-inspiration Evaluation The core evaluation primitive Evaluation case-study Novel desync triggers Weaponization Autonomous RQP Turning the environment into the weapon Making iteration viable The stacked-response problem The dangling-byte technique Cascade Anomaly detection cascade Chasing an autonomous cascade Status-line Injection Range Cache Poisoning Shared-Parser Confusion Scanning for inspiration Conclusion The blueprint Tool releases Defense Takeaways Introduction Automation is often focused on efficiency but I believe that when it's approached just right, automation can enable outcomes that were previously impossible. This research is about chasing that promise of something more. The primary objective of this project was to discover the new frontier of automation-driven security research. I've been practicing automation-driven research for a long time, and could see that generative AI had moved the frontier substantially. I also aimed to build a blueprint to help other researchers quickly adopt this new approach. My secondary objective was to push the "fully autonomous research" concept to complete failure by exceeding the capabilities of current SOTA models. By doing this, I aimed to show where a human in the loop can still add significant value (as opposed to just building the loop, then stepping back). Finally, I aimed to discover factors that make a research topic unsuitable for an AI-driven approach. This would be valuable to people who prefer to stick with a classic, fully-manual research approach and want to minimize the risk of collision with an AI-enhanced researcher. Defining novel HTTP desync research We've all seen experts claiming AI can't do original security research. One of the many risks of my project was that people might claim that the system's discoveries weren't actually original. To minimize this risk I choose the topic I was most qualified for - HTTP Desync Attacks. I repopularized this attack class back in 2019, and in total I've done fo
+Valve notifies Steam hardware customers of a data breach By Sergiu Gatlan August 10, 2026 07:47 AM 0 Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. CEVA Logistics (a fully-owned subsidiary of the CMA CGM Group, the world's third-largest shipping company) operates 1,000 warehouses, handled 15 million shipments last year, and reported $18.3 billion in revenues in 2025. According to many reports on social media, affected Valve customers began receiving data breach notification emails earlier today. In these emails, Valve said the attackers had access to CEVA Logistics' servers between July 29 and August 1, which allowed them to gain access to information needed to ship hardware orders to Steam customers. "Between July 29 2026 and August 1, 2026, a cyberattack hit CEVA Logistics, the company that ships Steam hardware to customers in Europe. CEVA is still investigating this attack, but as Valve learned on August 7, certain information about Steam customers, including you, was likely compromised," Valve said. "CEVA receives specific delivery-related information from Steam to be able to ship physical hardware to customers in Europe, and told us these are the details the attacker likely took. Because CEVA retains this information for up to 90 days after that order, we are sending this message to all customers we can assume were impacted." The stolen data includes the affected individuals' names, addresses, phone numbers, email addresses, and the type and price of ordered products. However, Valve added that no additional information related to the Steam account or other purchases was impacted, as CEVA does not have access to payment information, passwords, Steam Guard codes, or other sensitive data. Valve data breach notification email ( fodilicious ) The company also warned affected Steam customers that they may be targeted by email, SMS, or voice phishing messages using the stolen information and impersonating Steam, Valve, or delivery companies. "They may quote your address back to you to prove they're genuine. They may ask you to confirm a delivery, pay a small customs or redelivery fee, or sign in somewhere to "verify" your order. Treat all of them as fake. You do not need to change your Steam password, and you don't need to do anything to your account settings," it added. "We're pressing CEVA for the full scope of what was taken and how, and we are in the process of notifying the data protection authorities in the countries affected, including yours. CEVA has isolated the affected systems, taken all offline and brought in outside investigators." Valve's disclosure comes after CEVA Logistics informed multiple European retailers on August 1 that a cyberattack disrupted operations at eight of its European warehouses. A Valve spokesperson was not immediately available for comment when contacted by BleepingComputer earlier today. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Canadian pleads guilty to Snowflake cloud data-theft attacks Lidl discloses online shop breach after service provider hack Insurance giant Aflac discloses data breach after subsidiary hack Council of Europe investigates ShinyHunters data breach claims Infinite Campus data breach affects 137,000 school staff accounts
 ```
 
 #### Corroborating sources (1)
 
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - Title: Can AI do novel security research? Meet the HTTP Terminator
-  - Published: 2026-08-05T19:30:00+00:00
-  - Link: https://portswigger.net/research/can-ai-do-novel-security-research
-  - Summary: Abstract We all know AI can find bugs. After a decade of research, I asked a harder question: can an autonomous system invent new attack techniques, and use them to hack live websites at scale? Buildi
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Valve notifies Steam hardware customers of a data breach
+  - Published: 2026-08-10T11:47:55+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
+  - Summary: Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]
 
 ### Cluster 229f6cf243 — score 10
 
@@ -2666,45 +2804,6 @@ Hackers breach TrueConf to trojanize client installers with backdoors By Bill To
   - Link: https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/
   - Summary: The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]
 
-### Cluster 24e0f0f990 — score 10
-
-- Title: A few notes on AWS Nitro Enclaves: KMS integration
-- Source: Trail of Bits (offensive_vulnerability_research)
-- Published: 2026-08-05T11:00:00+00:00
-- Link: https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n
-```
-
-#### Full body
-
-```
-Page content Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs never leave KMS. You request KMS to perform cryptographic operations (like encryption or signing) for you. Data keys and key pairs are generated in KMS, are not stored in KMS, and are intended for programmatic uses. For symmetric keys, the KMS gives you a plaintext key and the same key encrypted to CMK. Your application performs encryptions, removes the plaintext key, and stores the key encrypted to a CMK along the ciphertexts; this pattern is called envelope encryption . For asymmetric keys, the KMS gives you a plaintext key pair and the private key encrypted to CMK. Your application creates signatures or encrypts data, deletes the private key, and keeps the public key and encrypted private key (along with signatures/ciphertexts). Both types of data keys can be used with Decrypt operation to get plaintext keys again. S t o r a g e s t { o E r _ e d ( k E , _ C d } k , C ) E n c l a v G e e { n d e k C D p r , = e l a E e c a t _ n r i e d c y n D k ( p t a = d t e t e k ( { x a n , c d t K c p m k = e ( l k } d y c a _ e ( m i i c c k n d ( m , t , d k d e E k _ k x _ , i ) t d C d } ) k ) ) ) K M S Figure 1: Basic KMS operations. cmk_id is an ID (ARN) of CMK key, cmk is the actual key used, enc / dec are any encryption/decryption algorithms, GenerateDataKey and Decrypt are KMS operations. Access to keys is subject to authorization policies , including key policies, IAM policies, and grants. Cross-account access for keys can be enabled. Keys can be identified in multiple ways : ARN, Id, Alias ARN, and Alias name. Keys are usually per-region (single-region), but multi-region keys can be created too. Enclave-KMS communication There are two mechanisms that are in play when integrating KMS with Nitro Enclaves: KMS policies restricting access to CMKs to specific enclaves (by PCR values) KMS encrypting responses to enclave’s public keys In the first mechanism, the key policy may authorize access to only requests that contain fresh and correctly signed attestation documents with the expected PCR values. Enclaves have to generate attestations and include them in requests to KMS. Note that the enclave still needs IAM credentials to access KMS in the first place. The second mechanism is about enclaves sending asymmetric public keys (inside the attestation documents) to KMS, and KMS encrypting part of the responses to the key. This mechanism is supposed to ensure that only the requesting enclave can see output from KMS. Only a few KMS operations support these two mechanisms. The operations are: GenerateDataKey , GenerateDataKeyPair Decrypt DeriveSharedSecret GenerateRandom Note the absence of the Encrypt operation: enclaves can request this operation, but without the attestation-based security mechanisms. CMKs cannot be used directly by enclaves for encryption without missing on the attestation checks. This means cryptography operations are supposed to be implemented via data keys, and not directly via CMKs. S t o r a g e s t { o E r _ e d ( k
-```
-
-#### Corroborating sources (1)
-
-- **Trail of Bits** (offensive_vulnerability_research)
-  - Title: A few notes on AWS Nitro Enclaves: KMS integration
-  - Published: 2026-08-05T11:00:00+00:00
-  - Link: https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/
-  - Summary: Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n
-
 ### Cluster d8c893e316 — score 10
 
 - Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
@@ -2751,52 +2850,6 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Stephen Campbe
   - Published: 2026-08-06T15:50:17+00:00
   - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
   - Summary: Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
-
-### Cluster 60293792bd — score 10
-
-- Title: The Art of Hunting Azure Cloud Secrets
-- Source: TrustedSec (detection_response_operations)
-- Published: 2026-08-06T04:00:00+00:00
-- Link: https://trustedsec.com/blog/the-art-of-hunting-azure-cloud-secrets
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Azure
-
-#### Cluster taxonomy (union across members)
-- affected_products: Azure, Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Azure
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>The difference between a standard cloud test and a subscription takeover? Finding the right secrets. In this blog, we introduce two open-source tools for hunting Azure secrets that probably shouldn't be there.</p>
-```
-
-#### Full body
-
-```
-Blog The Art of Hunting Azure Cloud Secrets August 06, 2026 The Art of Hunting Azure Cloud Secrets Written by Edwin David Cloud Penetration Testing Demo Finding secrets in the cloud is what can turn a normal cloud test into a privilege escalation game changer. The approach to finding secrets is what may separate your next cloud penetration test from a finding expedition into a subscription or global administrative takeover. In this blog, I am going to introduce two tools that I am making public. The purpose of each tool is to minimize your time looking for secrets in Azure that probably should not be there. Microburst, a public tool made by NetSPI, allows you to enumerate Azure Assets using an authenticated account in Azure. To get the maximum benefit out of tools such as Microburst, subscription reader access is normally recommended prior to running. Microburst can be found at the following GitHub URL: https://github.com/Netspi/Microburst Once collection is finished, penetration testers will typically pivot to the data and pull secrets that may be stored in logic applications, VM extensions, automation accounts, and Azure resource deployment logs. The downside is that these actions require time and, in larger environments, you could inadvertently miss some secrets that could gain you privilege escalation in the cloud. I had AI assist me into building a fully functional toolset that would search for secrets collected by Microburst. You don’t need something powerful like Claude Mythos to come up with these actions. You just need to plan how you want to build it, ask the right questions, do code review, and ensure you are not introducing a tool that may produce several false positives. Microburst Secrets Hunter is meant to be a companion post exploitation tool to Microburst collection. It is done entirely offline using the data that was collected during Microburst enumeration. I have also included actional reporting with redactions that you can easily import into reporting tools with very little effort. Microburst Secrets Hunter can be downloaded at the following GitHub URL: https://github.com/rootsecdev/MicroburstSecretsHunter This blog would not be complete without a demonstration. To protect any guilty cloud environments, I have made a sample pack of tests that are comparable to output produced by Microburst. This will give basic command use syntax and how the sample output looks. I have added two separate options for usage depending on the environment you are operating in and how paranoid you are when importing modules versus running PowerShell directly. Sample usage: # Clone / copy this folder, then from a PowerShell prompt: .\Scan-MicroBurst.ps1 -Path .\MicroBurst-2026 -Verbose #Import Module and use cmdlet directly Import-Module .\MicroBurstSecretsHunter.psd1 -Force Invoke-MBSecretScan -Path .\MicroBurst-2026 By default, all scans are redacted for reporting purposes. There is a switch you can use that will export full unredacted secrets data if you choose to do so. Sample Syntax to export redacted secrets: .\Scan-MicroBurst.ps1 -Path .\MicroBurst-2026 -ShowSecrets When running a scan, there will be an overview of findings by category. Figure 1 - Sample Scan Two output formats are on by default. A CSV file will automatically generate. The CSV will help alleviate reporting when it comes to documenting where secrets are living and what they are providing access to. An .html file will also be in the output directory. Figure 2 - Output Directory The .html file is beneficial to use as a dashboard as you validate your secrets found in plaintext. You can filter by rule and severity. Severity should not be taken as gospel. I simply use it to prioritize secrets hunting based upon strategic value. Figure 3 - HTML Report To expand upon initial secrets hunting discovery, this blog will go into more depth around client secrets and how to determine if third-party applications living in Azure have some expanded cloud access. You've found
-```
-
-#### Corroborating sources (2)
-
-- **TrustedSec** (detection_response_operations)
-  - Title: The Art of Hunting Azure Cloud Secrets
-  - Published: 2026-08-06T04:00:00+00:00
-  - Link: https://trustedsec.com/blog/the-art-of-hunting-azure-cloud-secrets
-  - Summary: <p>The difference between a standard cloud test and a subscription takeover? Finding the right secrets. In this blog, we introduce two open-source tools for hunting Azure secrets that probably shouldn't be there.</p>
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Microsoft, Apple Release Fresh Security Updates
-  - Published: 2026-08-07T09:09:54+00:00
-  - Link: https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/
-  - Summary: Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass. The post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek .
 
 ### Cluster 5fb34094f6 — score 9
 
@@ -3001,6 +3054,47 @@ AWS Security Blog Caching KMS data keys in multi-thread environments: Per-tenant
   - Published: 2026-08-06T08:57:30+00:00
   - Link: https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html
   - Summary: Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon
+
+### Cluster 60293792bd — score 8
+
+- Title: The Art of Hunting Azure Cloud Secrets
+- Source: TrustedSec (detection_response_operations)
+- Published: 2026-08-06T04:00:00+00:00
+- Link: https://trustedsec.com/blog/the-art-of-hunting-azure-cloud-secrets
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Azure
+
+#### Cluster taxonomy (union across members)
+- affected_products: Azure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Azure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>The difference between a standard cloud test and a subscription takeover? Finding the right secrets. In this blog, we introduce two open-source tools for hunting Azure secrets that probably shouldn't be there.</p>
+```
+
+#### Full body
+
+```
+Blog The Art of Hunting Azure Cloud Secrets August 06, 2026 The Art of Hunting Azure Cloud Secrets Written by Edwin David Cloud Penetration Testing Demo Finding secrets in the cloud is what can turn a normal cloud test into a privilege escalation game changer. The approach to finding secrets is what may separate your next cloud penetration test from a finding expedition into a subscription or global administrative takeover. In this blog, I am going to introduce two tools that I am making public. The purpose of each tool is to minimize your time looking for secrets in Azure that probably should not be there. Microburst, a public tool made by NetSPI, allows you to enumerate Azure Assets using an authenticated account in Azure. To get the maximum benefit out of tools such as Microburst, subscription reader access is normally recommended prior to running. Microburst can be found at the following GitHub URL: https://github.com/Netspi/Microburst Once collection is finished, penetration testers will typically pivot to the data and pull secrets that may be stored in logic applications, VM extensions, automation accounts, and Azure resource deployment logs. The downside is that these actions require time and, in larger environments, you could inadvertently miss some secrets that could gain you privilege escalation in the cloud. I had AI assist me into building a fully functional toolset that would search for secrets collected by Microburst. You don’t need something powerful like Claude Mythos to come up with these actions. You just need to plan how you want to build it, ask the right questions, do code review, and ensure you are not introducing a tool that may produce several false positives. Microburst Secrets Hunter is meant to be a companion post exploitation tool to Microburst collection. It is done entirely offline using the data that was collected during Microburst enumeration. I have also included actional reporting with redactions that you can easily import into reporting tools with very little effort. Microburst Secrets Hunter can be downloaded at the following GitHub URL: https://github.com/rootsecdev/MicroburstSecretsHunter This blog would not be complete without a demonstration. To protect any guilty cloud environments, I have made a sample pack of tests that are comparable to output produced by Microburst. This will give basic command use syntax and how the sample output looks. I have added two separate options for usage depending on the environment you are operating in and how paranoid you are when importing modules versus running PowerShell directly. Sample usage: # Clone / copy this folder, then from a PowerShell prompt: .\Scan-MicroBurst.ps1 -Path .\MicroBurst-2026 -Verbose #Import Module and use cmdlet directly Import-Module .\MicroBurstSecretsHunter.psd1 -Force Invoke-MBSecretScan -Path .\MicroBurst-2026 By default, all scans are redacted for reporting purposes. There is a switch you can use that will export full unredacted secrets data if you choose to do so. Sample Syntax to export redacted secrets: .\Scan-MicroBurst.ps1 -Path .\MicroBurst-2026 -ShowSecrets When running a scan, there will be an overview of findings by category. Figure 1 - Sample Scan Two output formats are on by default. A CSV file will automatically generate. The CSV will help alleviate reporting when it comes to documenting where secrets are living and what they are providing access to. An .html file will also be in the output directory. Figure 2 - Output Directory The .html file is beneficial to use as a dashboard as you validate your secrets found in plaintext. You can filter by rule and severity. Severity should not be taken as gospel. I simply use it to prioritize secrets hunting based upon strategic value. Figure 3 - HTML Report To expand upon initial secrets hunting discovery, this blog will go into more depth around client secrets and how to determine if third-party applications living in Azure have some expanded cloud access. You've found
+```
+
+#### Corroborating sources (1)
+
+- **TrustedSec** (detection_response_operations)
+  - Title: The Art of Hunting Azure Cloud Secrets
+  - Published: 2026-08-06T04:00:00+00:00
+  - Link: https://trustedsec.com/blog/the-art-of-hunting-azure-cloud-secrets
+  - Summary: <p>The difference between a standard cloud test and a subscription takeover? Finding the right secrets. In this blog, we introduce two open-source tools for hunting Azure secrets that probably shouldn't be there.</p>
 
 ### Cluster 582de97f0f — score 8
 
@@ -3308,6 +3402,102 @@ New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes By 
   - Link: https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/
   - Summary: Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]
 
+### Cluster b6d7475cc2 — score 8
+
+- Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-07T10:09:54+00:00
+- Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure, zero_day
+- affected_industries: financial_services, government
+- affected_products: Anthropic/Claude
+- cve_ids: CVE-2026-63078
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure
+- affected_industries: financial_services, government
+- affected_products: Anthropic/Claude
+- cve_ids: CVE-2026-63078
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
+```
+
+#### Full body
+
+```
+AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day  Swati Khandelwal  Aug 07, 2026 Web Security / Vulnerability PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle , generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning was authorized through bug bounty or vulnerability disclosure programs and found roughly 700 vulnerable targets before deeper validation and RQP research. Kettle said those findings involved banks, government infrastructure, security products, and an airport. The research produced new desync triggers, a dual-matching Content-Length pattern, and a "dangling-byte" technique designed to make response queue poisoning (RQP) more reliable. RQP can potentially make a front end lose track of which back-end response belongs to which user, potentially exposing another user's response, including session cookies or API keys. The researchers also disclosed Shared-Parser Confusion, a broader attack concept that the system proposed but Kettle validated. The defense has not changed: PortSwigger recommends avoiding HTTP/1.1 upstream . Where HTTP/1.1 cannot be removed, it recommends allow-listing methods at both layers and restricting which methods may carry request bodies. In the technical write-up , Kettle said he fed HTTP Terminator 138 HTTP and SMTP RFCs. Those RFCs were split into about 15,000 small fragments and used as inspiration to generate 30,000 unique candidate vectors. One Content-Type: multipart/byteranges technique worked across multiple server implementations and exposed more than 200 websites in the test set, including an unnamed U.S. bank. The autonomous research then tested 16 ideas for improving RQP. Only the dangling-byte technique survived evaluation. It leaves a smuggled request one byte short so the second back-end response is not produced until a victim request supplies the missing byte, eliminating a race condition that otherwise makes RQP unreliable on many sites. In the human-guided cascade, a malformed request eventually exposed the desynchronization zero-day in Apache Traffic Server. The researchers said the issue has since been patched and tracked as CVE-2026-63078. An August 7 check by The Hacker News did not find a public record for CVE-2026-63078 in CVE.org or NVD, and Apache's July advisory covering 34 flaws did not list it. That leaves a verification gap around the Apache case: the cited public records do not yet let defenders map CVE-2026-63078 to a specific fixed Traffic Server release. Kettle said Shared-Parser Confusion emerged when HTTP Terminator noticed that response-processing rules could be misapplied to requests when servers reuse parsing logic. The system proposed the concept, but Kettle, director of research at PortSwigger, validated and generalized it. "Neither of us would have discovered it alone," he said. That distinction defines the autonomy boundary in this research: the system generated and proved several techniques without direct human discovery input, while the Apache zero-day and Shared-Parser Confusion still required Kettle's intervention. PortSwigger has open-sourced HTTP Terminator . The paper does not identify which exact model or version generated each autonomous discovery. The released implementation uses Claude for document extraction and test-case generation, while its investigator stage requires Claude Code . Separately, researchers behind CRLF-powered desync attacks released public tools for studying that attack class, including crlf-desyncs and crlf-powered-desync-scanner . Kettle separately tested newer models on a rediscovery benchmark and reported a 30% success rate for GPT-5.6 Sol when given an inspiration technique. Found this article int
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
+  - Published: 2026-08-07T10:09:54+00:00
+  - Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+  - Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
+
+### Cluster 3569b34b72 — score 8
+
+- Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-05T11:04:23+00:00
+- Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-59774, Gitea
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Docker, Gitea
+- cve_ids: CVE-2026-20896, CVE-2026-27771, CVE-2026-59774, CVE-2026-60004
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Gitea, Docker
+- cve_ids: CVE-2026-59774, CVE-2026-60004, CVE-2026-20896, CVE-2026-27771
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
+```
+
+#### Full body
+
+```
+Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup  Swati Khandelwal  Aug 05, 2026 Vulnerability / DevOps An unauthenticated attacker can read any file the service account can access on Gitea , the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774 , rated Critical with a CVSS score of 9.8, and received its formal advisory on August 2. Gitea 1.27.1 also patches CVE-2026-60004 , a separate remote code execution bug covered in a prior THN report . Gitea said Cloud instances would be upgraded automatically during the release maintenance window. Self-hosted administrators should move to 1.27.1 immediately. The file-read bug is not direct one-request remote code execution. Gitea says it can become command execution if an attacker reads app.ini , extracts INTERNAL_TOKEN , injects a Git hook through the internal logger, and triggers that hook during an anonymous clone. That chain is described in Gitea's advisory ; The Hacker News found no independently published exploit demonstrating it. Upgrading is necessary but may not be sufficient after suspected exposure. If logs show the markup endpoint was reached on an affected build, treat credentials readable by the Gitea service account as exposed and rotate the internal token, OAuth material, JWT signing material, and database credentials before considering the instance clean. No badge required The file-read path runs through Gitea's markup rendering endpoint, POST /{owner}/{repo}/markup . The route allows optional sign-in, resolves the repository, and checks reader access. An anonymous request clears that check against any public repository with its code unit enabled. That precondition limits the unauthenticated exposure: an instance with no public repositories has no anonymous attack path through this endpoint. The break is in Gitea's Org-mode renderer. Gitea 1.27.0 initialized go-org with org.New() and did not replace the library's default ReadFile callback. In go-org 1.9.1, that callback is ioutil.ReadFile . Org-mode's #+INCLUDE directive accepts absolute paths and passes them to the callback. An attacker submits Org-mode markup, selects Mode: file , and receives files the service account can read. The fix landed in PR #38642 and was backported in PR #38645. Gitea now overrides ReadFile so an Org-mode include path is returned as plain rendered content instead of being resolved from the server filesystem. The patch added a regression test for include-path rendering. CVE-2026-59774 was found by XBOW Security , an autonomous offensive security system, and triaged by Guido Leo . Shai Rod, known online as NightRang3r, independently reported the same issue. What administrators should check Gitea did not publish formal detection guidance in the advisory. Review anonymous POST requests to /{owner}/{repo}/markup , especially requests selecting Org-mode rendering or submitting absolute filesystem paths. If the advisory's escalation path was attempted, check repository hook directories for unexpected executable files. Gitea's advisory reports no exploitation in the wild, and as of August 5, 2026, CVE-2026-59774 had not appeared on CISA's Known Exploited Vulnerabilities catalog. The file-read primitive was publicly previewed before its formal advisory, according to a prior THN report. The token-to-hook command-execution chain remains single-sourced to Gitea's advisory. The flaw follows a dense stretch of Gitea security work. In June, Gitea patched a critical reverse-proxy authentication bypass in Docker images, CVE-2026-20896 , that threat actors were observed probing 13 days after disclosure. In May, a container-registry access-control flaw, CVE-2026-27771 , was estimated to affect more than 30,000 deployments across over 30 countries. Found this article interesting? F
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
+  - Published: 2026-08-05T11:04:23+00:00
+  - Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
+  - Summary: An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
+
 ### Cluster 38f40f9f14 — score 8
 
 - Title: Google Links Redact Extortion Group to BlackFile Rebrand
@@ -3452,102 +3642,6 @@ Infosecurity Magazine Home » News » UK’s Police National Legal Database Reve
   - Published: 2026-08-04T08:40:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
   - Summary: The UK’s Police National Legal Database and Ask the Police service have been breached
-
-### Cluster b6d7475cc2 — score 8
-
-- Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-07T10:09:54+00:00
-- Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure, zero_day
-- affected_industries: financial_services, government
-- affected_products: Anthropic/Claude
-- cve_ids: CVE-2026-63078
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure
-- affected_industries: financial_services, government
-- affected_products: Anthropic/Claude
-- cve_ids: CVE-2026-63078
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
-```
-
-#### Full body
-
-```
-AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day  Swati Khandelwal  Aug 07, 2026 Web Security / Vulnerability PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle , generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning was authorized through bug bounty or vulnerability disclosure programs and found roughly 700 vulnerable targets before deeper validation and RQP research. Kettle said those findings involved banks, government infrastructure, security products, and an airport. The research produced new desync triggers, a dual-matching Content-Length pattern, and a "dangling-byte" technique designed to make response queue poisoning (RQP) more reliable. RQP can potentially make a front end lose track of which back-end response belongs to which user, potentially exposing another user's response, including session cookies or API keys. The researchers also disclosed Shared-Parser Confusion, a broader attack concept that the system proposed but Kettle validated. The defense has not changed: PortSwigger recommends avoiding HTTP/1.1 upstream . Where HTTP/1.1 cannot be removed, it recommends allow-listing methods at both layers and restricting which methods may carry request bodies. In the technical write-up , Kettle said he fed HTTP Terminator 138 HTTP and SMTP RFCs. Those RFCs were split into about 15,000 small fragments and used as inspiration to generate 30,000 unique candidate vectors. One Content-Type: multipart/byteranges technique worked across multiple server implementations and exposed more than 200 websites in the test set, including an unnamed U.S. bank. The autonomous research then tested 16 ideas for improving RQP. Only the dangling-byte technique survived evaluation. It leaves a smuggled request one byte short so the second back-end response is not produced until a victim request supplies the missing byte, eliminating a race condition that otherwise makes RQP unreliable on many sites. In the human-guided cascade, a malformed request eventually exposed the desynchronization zero-day in Apache Traffic Server. The researchers said the issue has since been patched and tracked as CVE-2026-63078. An August 7 check by The Hacker News did not find a public record for CVE-2026-63078 in CVE.org or NVD, and Apache's July advisory covering 34 flaws did not list it. That leaves a verification gap around the Apache case: the cited public records do not yet let defenders map CVE-2026-63078 to a specific fixed Traffic Server release. Kettle said Shared-Parser Confusion emerged when HTTP Terminator noticed that response-processing rules could be misapplied to requests when servers reuse parsing logic. The system proposed the concept, but Kettle, director of research at PortSwigger, validated and generalized it. "Neither of us would have discovered it alone," he said. That distinction defines the autonomy boundary in this research: the system generated and proved several techniques without direct human discovery input, while the Apache zero-day and Shared-Parser Confusion still required Kettle's intervention. PortSwigger has open-sourced HTTP Terminator . The paper does not identify which exact model or version generated each autonomous discovery. The released implementation uses Claude for document extraction and test-case generation, while its investigator stage requires Claude Code . Separately, researchers behind CRLF-powered desync attacks released public tools for studying that attack class, including crlf-desyncs and crlf-powered-desync-scanner . Kettle separately tested newer models on a rediscovery benchmark and reported a 30% success rate for GPT-5.6 Sol when given an inspiration technique. Found this article int
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
-  - Published: 2026-08-07T10:09:54+00:00
-  - Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
-  - Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
-
-### Cluster 3569b34b72 — score 8
-
-- Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-05T11:04:23+00:00
-- Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-59774, Gitea
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Docker, Gitea
-- cve_ids: CVE-2026-20896, CVE-2026-27771, CVE-2026-59774, CVE-2026-60004
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Gitea, Docker
-- cve_ids: CVE-2026-59774, CVE-2026-60004, CVE-2026-20896, CVE-2026-27771
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
-```
-
-#### Full body
-
-```
-Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup  Swati Khandelwal  Aug 05, 2026 Vulnerability / DevOps An unauthenticated attacker can read any file the service account can access on Gitea , the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774 , rated Critical with a CVSS score of 9.8, and received its formal advisory on August 2. Gitea 1.27.1 also patches CVE-2026-60004 , a separate remote code execution bug covered in a prior THN report . Gitea said Cloud instances would be upgraded automatically during the release maintenance window. Self-hosted administrators should move to 1.27.1 immediately. The file-read bug is not direct one-request remote code execution. Gitea says it can become command execution if an attacker reads app.ini , extracts INTERNAL_TOKEN , injects a Git hook through the internal logger, and triggers that hook during an anonymous clone. That chain is described in Gitea's advisory ; The Hacker News found no independently published exploit demonstrating it. Upgrading is necessary but may not be sufficient after suspected exposure. If logs show the markup endpoint was reached on an affected build, treat credentials readable by the Gitea service account as exposed and rotate the internal token, OAuth material, JWT signing material, and database credentials before considering the instance clean. No badge required The file-read path runs through Gitea's markup rendering endpoint, POST /{owner}/{repo}/markup . The route allows optional sign-in, resolves the repository, and checks reader access. An anonymous request clears that check against any public repository with its code unit enabled. That precondition limits the unauthenticated exposure: an instance with no public repositories has no anonymous attack path through this endpoint. The break is in Gitea's Org-mode renderer. Gitea 1.27.0 initialized go-org with org.New() and did not replace the library's default ReadFile callback. In go-org 1.9.1, that callback is ioutil.ReadFile . Org-mode's #+INCLUDE directive accepts absolute paths and passes them to the callback. An attacker submits Org-mode markup, selects Mode: file , and receives files the service account can read. The fix landed in PR #38642 and was backported in PR #38645. Gitea now overrides ReadFile so an Org-mode include path is returned as plain rendered content instead of being resolved from the server filesystem. The patch added a regression test for include-path rendering. CVE-2026-59774 was found by XBOW Security , an autonomous offensive security system, and triaged by Guido Leo . Shai Rod, known online as NightRang3r, independently reported the same issue. What administrators should check Gitea did not publish formal detection guidance in the advisory. Review anonymous POST requests to /{owner}/{repo}/markup , especially requests selecting Org-mode rendering or submitting absolute filesystem paths. If the advisory's escalation path was attempted, check repository hook directories for unexpected executable files. Gitea's advisory reports no exploitation in the wild, and as of August 5, 2026, CVE-2026-59774 had not appeared on CISA's Known Exploited Vulnerabilities catalog. The file-read primitive was publicly previewed before its formal advisory, according to a prior THN report. The token-to-hook command-execution chain remains single-sourced to Gitea's advisory. The flaw follows a dense stretch of Gitea security work. In June, Gitea patched a critical reverse-proxy authentication bypass in Docker images, CVE-2026-20896 , that threat actors were observed probing 13 days after disclosure. In May, a container-registry access-control flaw, CVE-2026-27771 , was estimated to affect more than 30,000 deployments across over 30 countries. Found this article interesting? F
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
-  - Published: 2026-08-05T11:04:23+00:00
-  - Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
-  - Summary: An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
 
 ### Cluster 444876da64 — score 8
 
