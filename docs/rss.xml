@@ -6,9 +6,33 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 10 Aug 2026 20:51:31 +0000</lastBuildDate>
+<lastBuildDate>Mon, 10 Aug 2026 21:49:32 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>BdThemes plugins supply-chain hack creates rogue WordPress admins</title>
+<link>https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/</link>
+<description><![CDATA[A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators&apos; browsers to create rogue admin accounts. [...]<br/><br/><em>Tags: WordPress · supply_chain</em>]]></description>
+<pubDate>Mon, 10 Aug 2026 21:12:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>WordPress</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius</link>
+<description><![CDATA[The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.<br/><br/><em>Tags: GitHub · Docker · zero_day · active_exploitation</em>]]></description>
+<pubDate>Mon, 10 Aug 2026 21:02:23 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>Docker</category>
+<category>zero_day</category>
+<category>active_exploitation</category>
+</item>
 <item>
 <title>NATO and an AI startup can now name and track software vulnerabilities</title>
 <link>https://cyberscoop.com/nato-aisle-enisa-cve-vulnerability-tracking/</link>
@@ -1151,16 +1175,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Route Amazon Bedrock Guardrails interventions to Amazon Security Lake</title>
-<link>https://aws.amazon.com/blogs/security/route-amazon-bedrock-guardrails-interventions-to-amazon-security-lake/</link>
-<description><![CDATA[Security teams investigating AI-related incidents need guardrail intervention data alongside their existing security telemetry. Routing Amazon Bedrock Guardrails violations to Amazon Security Lake makes this possible. With this integration, you can query guardrail events alongside identity, network, and application security data in a single layer. When a guardrail blocks a prompt injection attempt or redacts […]<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Thu, 06 Aug 2026 19:00:15 +0000</pubDate>
-<guid isPermaLink="true">https://aws.amazon.com/blogs/security/route-amazon-bedrock-guardrails-interventions-to-amazon-security-lake/</guid>
-<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
-<category>cloud_identity_infrastructure</category>
-<category>ai_security</category>
-</item>
-<item>
 <title>datasette 1.0a38</title>
 <link>https://simonwillison.net/2026/Aug/6/datasette/#atom-everything</link>
 <description><![CDATA[Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database. This fix is also available in Datasette 0.65.3 . Thankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I&apos;ve not encountered an instance like that myself. Tags: security , sql-injection , datasette]]></description>
@@ -1418,15 +1432,6 @@
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>The water sector just got it’s wake-up call. Again.</title>
-<link>https://cyberscoop.com/water-utility-cyberattacks-prevention-nozomi-networks-ceo-op-ed/</link>
-<description><![CDATA[The attack on water systems across seven states was preventable. Utilities had the playbook. They didn&apos;t use it. The post The water sector just got it’s wake-up call. Again. appeared first on CyberScoop .]]></description>
-<pubDate>Thu, 06 Aug 2026 10:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/water-utility-cyberattacks-prevention-nozomi-networks-ceo-op-ed/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access</title>
@@ -1820,15 +1825,13 @@
 <item>
 <title>Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup</title>
 <link>https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html</link>
-<description><![CDATA[An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its<br/><br/><em>Tags: Gitea · Docker · CVE-2026-59774 · CVE-2026-60004 · CVE-2026-20896 · CVE-2026-27771 · active_exploitation</em>]]></description>
+<description><![CDATA[An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its<br/><br/><em>Tags: Gitea · CVE-2026-59774</em>]]></description>
 <pubDate>Wed, 05 Aug 2026 11:04:23 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Gitea</category>
-<category>Docker</category>
 <category>CVE-2026-59774</category>
-<category>CVE-2026-60004</category>
 </item>
 <item>
 <title>A few notes on AWS Nitro Enclaves: KMS integration</title>
@@ -3800,16 +3803,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -3819,6 +3812,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
+</item>
+<item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -3916,17 +3919,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>&apos;Confused Deputy&apos; Flaws Persist in Google Cloud, Microsoft Azure</title>
-<link>https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure</link>
-<description><![CDATA[This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers&apos; access controls.<br/><br/><em>Tags: Azure · Google Cloud</em>]]></description>
-<pubDate>Mon, 27 Jul 2026 20:57:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Azure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>Between Two Nerds: Cyber is people</title>
@@ -4201,6 +4193,15 @@
 <guid isPermaLink="true">https://redcanary.com/blog/threat-intelligence/intelligence-insights-july-2026/</guid>
 <source url="https://redcanary.com/feed/">Red Canary</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Enterprise security at machine speed: AWS Black Hat 2026 preview</title>
+<link>https://aws.amazon.com/blogs/security/enterprise-security-at-machine-speed-aws-black-hat-2026-preview/</link>
+<description><![CDATA[Black Hat 2026 (Aug 1-6, 2026) brings together over 22,000 security practitioners, researchers, and CISOs who build, break, and defend enterprise infrastructure. They’re security professionals who push the limits of offensive and defensive security and demand proof over promises. As frontier security models like Mythos reshape the enterprise landscape, they need security that operates at […]]]></description>
+<pubDate>Thu, 23 Jul 2026 16:23:30 +0000</pubDate>
+<guid isPermaLink="true">https://aws.amazon.com/blogs/security/enterprise-security-at-machine-speed-aws-black-hat-2026-preview/</guid>
+<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes</title>
@@ -19477,7 +19478,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19486,7 +19487,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19495,7 +19496,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19504,7 +19505,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19513,7 +19514,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19522,7 +19523,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19531,7 +19532,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19540,7 +19541,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19549,7 +19550,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19558,7 +19559,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 20:51:31 +0000</pubDate>
+<pubDate>Mon, 10 Aug 2026 21:49:32 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

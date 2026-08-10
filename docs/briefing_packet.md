@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-10T20:51:30.814317+00:00
+- Generated: 2026-08-10T21:49:32.300367+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 348
-- Total clusters raw: 153
-- Total clusters in packet: 64
-- Dropped low score: 89
+- Total items in window: 347
+- Total clusters raw: 152
+- Total clusters in packet: 65
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,26 +70,26 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -100,16 +100,31 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -120,71 +135,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 100
+  - Item count: 78
   - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 3
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
+  - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 3
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -195,6 +195,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -205,11 +215,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,136 +230,131 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 30
   - In window count: 1
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 10
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 9
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 100
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - In window count: 2
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 25
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -365,56 +365,81 @@
   - Status: ok
   - Item count: 50
   - In window count: 20
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 30
-  - In window count: 25
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
+  - Item count: 20
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 25
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -435,31 +460,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -564,7 +564,7 @@
 - Anchor signal: CVE-2026-18577
 - Theme key: cve-2026-18577
 - Cluster count: 2
-- Article count: 7
+- Article count: 6
 - Cohesion: 0.2
 - Shared strong signals: CVE-2026-18577
 - Member CVEs: (none)
@@ -577,9 +577,26 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-18556-cve-2026-18577/
   - https://www.sophos.com/en-us/blog/nable-ncentral-exploitation-results-in-rmm-tool-deployment
   - https://www.helpnetsecurity.com/2026/08/10/cve-2026-18577-n-central-hotfix-2-msps/
-  - https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
   - https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/
   - https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
+
+### Docker active exploitation
+- Anchor signal: Docker
+- Theme key: docker
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.806
+- Shared strong signals: Docker
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_products: Docker, GitHub
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 5b2b2cce63, f92fe3a8b7
+- Links:
+  - https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild
+  - https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
 
 ### phishing social eng targeting Snowflake
 - Anchor signal: Snowflake
@@ -716,25 +733,6 @@
   - https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
   - https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/
 
-### WordPress exploitation (CVE-2026-64638)
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.242
-- Shared strong signals: WordPress
-- Member CVEs: CVE-2026-64638
-- Also targets: (none)
-- Dominant features:
-  - affected_products: WordPress
-  - cve_ids: CVE-2026-64638
-- Cluster IDs: 28ff3120b5, a36b6d83b6
-- Links:
-  - https://risky.biz/RBNEWS598/
-  - https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/
-  - https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html
-  - https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/
-
 ## Forward signals
 
 ### Novelty
@@ -800,8 +798,8 @@
 - Published: 2026-08-04T11:11:54+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: CVE-2026-18556, CVE-2026-18577
 
 #### Cluster taxonomy (union across members)
@@ -830,7 +828,7 @@ Overview On August 2, 2026, N-able published a security advisory for CVE-2026-18
 Back to Blog Vulnerabilities and Exploits CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild Rapid7 Aug 4, 2026 | Last updated on Aug 7, 2026 | 3 min read Overview On August 2, 2026, N-able published a security advisory for CVE-2026-18577 , an authentication bypass vulnerability affecting N-central that was discovered being exploited in-the-wild after an incomplete fix for an earlier authentication bypass issue, CVE-2026-18556 was disclosed. CVE-2026-18577 allows a remote unauthenticated attacker to bypass authentication and obtain administrative control of vulnerable N-central servers in affected deployments. N-able N-central is a widely deployed Remote Monitoring and Management (RMM) platform used by managed service providers (MSPs) and enterprise IT teams to centrally administer servers, workstations, network devices, and other managed assets. Because the platform operates with extensive administrative privileges across customer environments, successful compromise of an N-central server can provide attackers with an efficient path to compromise downstream managed systems. According to N-able, exploitation of CVE-2026-18577 has been observed in the wild since August 1, 2026 . Following successful exploitation, attackers leveraged the platform's Take Control functionality to remotely access managed endpoints, and deployed Cloudflare Tunnel (cloudflared) to establish persistent remote access. On August 3, 2026, CVE-2026-18577 was added to CISA’s Known Exploited Vulnerability (KEV) catalog and on August 5, 2026, CVE-2026-18556 was also added to the catalog. Mitigation guidance Organizations operating vulnerable N-central deployments should prioritize remediation on an urgent basis, outside of normal patching schedules. Hosted N-central environments are upgraded automatically by the vendor, while on-premise deployments require manual remediation. Affected versions: All versions of N-able N-central up to and including version 2026.3.1, prior to Hotfix 1. Fixed version: N-able N-central 2026.3.1 Hotfix 1 (2026.3.1.7). The vendor also recommends: Upgrading N-central agents after applying the server hotfix. Reviewing systems for indicators of compromise. Contacting N-able Support immediately if evidence of compromise is discovered. Engaging internal incident response teams if malicious activity is identified. For further information, see the vendor advisory . IOCs N-able has published several artifacts that administrators should investigate during incident response. Endpoint Artifacts: Presence of a Cloudflared service. A suspicious svchost.exe located within the user's Documents folder. Network Indicators: Administrators should review historical network logs for inbound or outbound communication involving the malicious IP addresses identified by the vendor: 173[.]249[.]252[.]200 87[.]249[.]138[.]34 37[.]19[.]210[.]32 37[.]153[.]90[.]88 92[.]118[.]112[.]181 68[.]235[.]46[.]214 Organizations should also review: Authentication logs Administrative account creation or modification Take Control session activity Remote management logs Windows service installation events To assist affected organizations running N-central, the vendor has provided a detection template for CVE-2026-18577, which organizations can use to help identify potential compromise. Rapid7 customers Exposure Command, InsightVM, and Nexpose Exposure Command, InsightVM, and Nexpose customers can assess exposure to CVE-2026-18577 and CVE-2026-18556 with vulnerability checks available in the August 4 content release. Note that potential check type must be enabled in the scan template before scanning. Updates August 4, 2026: Initial publication. August 4, 2026: Updated Rapid7 customers section to reflect the availability of vulnerability checks. August 7, 2026: Updated the Overview and Rapid7 Customers sections to indicate addition of CVE-2026-18556 to CISA KEV and availability of vulnerability checks. Article Tags Emergent Threat Response Labs Vulne
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild
@@ -852,11 +850,6 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-18577: N-able N-central Authe
   - Published: 2026-08-10T11:34:55+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/10/cve-2026-18577-n-central-hotfix-2-msps/
   - Summary: To help customers fend off ongoing attacks, N-able released a second security hotfix for N‑central, its monitoring and management (RMM) solution popular with managed service providers (MSPs). “Hotfix 2 is required, even if you already applied the earlier hotfix. Hotfix 2 supersedes Hotfix 1 with additional hardening measures to further protect you and your customers,” the company said, and shared additional indicators of compromise observed in attacks. A second hotfix to “expand protections” Earlier this … More → The post N-able ships second N-central hotfix as attackers keep exploiting CVE-2026-18577 appeared first on Help Net Security .
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Attackers Exploit N-able Patch Bypass Flaw on RMM Servers
-  - Published: 2026-08-03T21:21:11+00:00
-  - Link: https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw
-  - Summary: Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.
 
 ### Cluster 991317215e — score 46
 
@@ -1380,12 +1373,12 @@ Critical Progress LoadMaster flaw now actively exploited in attacks By Sergiu Ga
 - Published: 2026-08-10T02:17:51+00:00
 - Link: https://risky.biz/RBNEWS598/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: WordPress
 
 #### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor, zero_day
+- threat_categories: supply_chain, web_shell_backdoor, zero_day
 - affected_products: WordPress
 - cve_ids: CVE-2026-64638
 - urgency_signals: preauth_unauth, zero_day
@@ -1411,7 +1404,7 @@ Two American law firms pay multi-million dollar ransoms, a Metabase zero-day is 
 Risky Bulletin Podcast August 10, 2026 Risky Bulletin: Two law firms pay giant ransoms Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Two American law firms pay multi-million dollar ransoms, a Metabase zero-day is being used in data theft attacks, Russian hackers disrupted a second power plant in Poland, and thereâs a remote code execution bug in WordPressâ¦ again! Your browser does not support the audio element. Risky Bulletin: Two law firms pay giant ransoms â¶ 0:00 / 8:26 Subscribe Brought to you by Island The Enterprise Browser Show notes Risky Bulletin: Pwnie Awards 2026 winners
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Two law firms pay giant ransoms
@@ -1423,6 +1416,11 @@ Risky Bulletin Podcast August 10, 2026 Risky Bulletin: Two law firms pay giant r
   - Published: 2026-08-10T14:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/
   - Summary: Poisoned JSON feed let attackers backdoor WordPress sites without changing any plugin files
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: BdThemes plugins supply-chain hack creates rogue WordPress admins
+  - Published: 2026-08-10T21:12:10+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
+  - Summary: A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP
   - Published: 2026-08-07T12:56:23+00:00
@@ -1843,57 +1841,6 @@ Training and Certifications Your agentic summer: No-cost lessons from Google exp
   - Link: https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/
   - Summary: I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent
 
-### Cluster 6ae4a5bc55 — score 12
-
-- Title: CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-10T09:31:51+00:00
-- Link: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- actor_attribution: UNC6671
-- affected_industries: critical_infrastructure, government
-- affected_products: OpenAI/ChatGPT
-- cve_ids: CVE-2026-33691, CVE-2026-8037
-- urgency_signals: actively_exploited, poc_available, preauth_unauth, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
-- actor_attribution: UNC6671
-- affected_industries: government, critical_infrastructure
-- affected_products: OpenAI/ChatGPT
-- cve_ids: CVE-2026-8037, CVE-2026-33691
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands. The post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-The US cybersecurity agency CISA has urged federal agencies to immediately patch a critical-severity vulnerability in Progress Kemp LoadMaster that has been exploited in the wild. Tracked as CVE-2026-8037 (CVSS score of 9.6), the flaw is described as an OS command injection that could be exploited without authentication for remote code execution (RCE). According to Progress’ advisory , a remote attacker could exploit the bug through unsanitized API inputs to execute arbitrary commands on the LoadMaster appliance. Disclosed on June 4 alongside CVE-2026-33691, the security defect also affects ECS Connection Manager, Connection Manager for ObjectScale, and MOVEit WAF. “The specific flaw exists within the handling of the apiuser parameter provided to the accessv2 endpoint. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of root,” a ZDI advisory reads . In-the-wild exploitation likely started on June 29, when attack surface management company watchTowr published technical information and proof-of-concept (PoC) code. Advertisement. Scroll to continue reading. The issue exists because the escape_quotes() function in LoadMaster GA version 7.2.63.1 and older and LoadMaster LTSF version 7.2.54.17 and older did not handle user-supplied input properly. According to watchTowr’s analysis, the function allocates an uninitialized heap buffer with malloc(), but did not write a null terminator after escaped output, leading to out-of-bounds reads from neighboring freed memory. The company discovered that an unauthenticated attacker could spray command injection content into the adjacent memory targeted by the out-of-bounds read, which would lead to command execution via the system() function. On June 30, cybersecurity firm eSentire warned that hackers started exploiting CVE-2026-8037 immediately after the technical analysis was published. However, the initial exploitation attempts were not successful, the company said. “Because LoadMaster appliances are frequently positioned at the network edge and often have visibility into critical internal services, compromise of the device could facilitate initial access and further malicious activity within the environment,” eSentire warned. On Friday, CISA added the CVE to its Known Exploited Vulnerabilities ( KEV ) catalog, giving federal agencies only three days to patch it. Related: Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related: Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data Related: Microsoft, Apple Release Fresh Security Updates Related: Critical Vulnerabilities Patched With Chrome 151 Update Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Vishing Extortion Group UNC6671 Rebrands After Making Millions Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Critical Vulnerabilities Patched With Chrome 151 Update Critical Paperclip Flaw Allowed Admin Access, Code Execution Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability Latest News OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad New Jersey, Alabama Join States Targeted in Water Cyberattacks Metabase Patches Vulnerability Exploited as Zero-Day Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility Corporate Data Stolen in Levi Strauss Cybe
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability
-  - Published: 2026-08-10T09:31:51+00:00
-  - Link: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
-  - Summary: The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands. The post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek .
-
 ### Cluster 6fa62beb1d — score 12
 
 - Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
@@ -2024,6 +1971,57 @@ Table of contents Key Takeaways What Are Vulnerability Scanning Tools? Scanners 
   - Published: 2026-08-06T12:50:00+00:00
   - Link: https://orca.security/resources/blog/vulnerability-scanning-tools/
   - Summary: Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]
+
+### Cluster 6ae4a5bc55 — score 11
+
+- Title: CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-10T09:31:51+00:00
+- Link: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: UNC6671
+- affected_industries: critical_infrastructure, government
+- affected_products: OpenAI/ChatGPT
+- cve_ids: CVE-2026-33691, CVE-2026-8037
+- urgency_signals: actively_exploited, poc_available, preauth_unauth, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
+- actor_attribution: UNC6671
+- affected_industries: government, critical_infrastructure
+- affected_products: OpenAI/ChatGPT
+- cve_ids: CVE-2026-8037, CVE-2026-33691
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands. The post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+The US cybersecurity agency CISA has urged federal agencies to immediately patch a critical-severity vulnerability in Progress Kemp LoadMaster that has been exploited in the wild. Tracked as CVE-2026-8037 (CVSS score of 9.6), the flaw is described as an OS command injection that could be exploited without authentication for remote code execution (RCE). According to Progress’ advisory , a remote attacker could exploit the bug through unsanitized API inputs to execute arbitrary commands on the LoadMaster appliance. Disclosed on June 4 alongside CVE-2026-33691, the security defect also affects ECS Connection Manager, Connection Manager for ObjectScale, and MOVEit WAF. “The specific flaw exists within the handling of the apiuser parameter provided to the accessv2 endpoint. The issue results from the lack of proper initialization of memory prior to accessing it. An attacker can leverage this vulnerability to execute code in the context of root,” a ZDI advisory reads . In-the-wild exploitation likely started on June 29, when attack surface management company watchTowr published technical information and proof-of-concept (PoC) code. Advertisement. Scroll to continue reading. The issue exists because the escape_quotes() function in LoadMaster GA version 7.2.63.1 and older and LoadMaster LTSF version 7.2.54.17 and older did not handle user-supplied input properly. According to watchTowr’s analysis, the function allocates an uninitialized heap buffer with malloc(), but did not write a null terminator after escaped output, leading to out-of-bounds reads from neighboring freed memory. The company discovered that an unauthenticated attacker could spray command injection content into the adjacent memory targeted by the out-of-bounds read, which would lead to command execution via the system() function. On June 30, cybersecurity firm eSentire warned that hackers started exploiting CVE-2026-8037 immediately after the technical analysis was published. However, the initial exploitation attempts were not successful, the company said. “Because LoadMaster appliances are frequently positioned at the network edge and often have visibility into critical internal services, compromise of the device could facilitate initial access and further malicious activity within the environment,” eSentire warned. On Friday, CISA added the CVE to its Known Exploited Vulnerabilities ( KEV ) catalog, giving federal agencies only three days to patch it. Related: Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related: Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data Related: Microsoft, Apple Release Fresh Security Updates Related: Critical Vulnerabilities Patched With Chrome 151 Update Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Vishing Extortion Group UNC6671 Rebrands After Making Millions Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Critical Vulnerabilities Patched With Chrome 151 Update Critical Paperclip Flaw Allowed Admin Access, Code Execution Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability Latest News OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad New Jersey, Alabama Join States Targeted in Water Cyberattacks Metabase Patches Vulnerability Exploited as Zero-Day Novel Private APN Pivot Let Hackers Sabotage Second Polish Energy Facility Corporate Data Stolen in Levi Strauss Cybe
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability
+  - Published: 2026-08-10T09:31:51+00:00
+  - Link: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
+  - Summary: The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands. The post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek .
 
 ### Cluster eba783fe70 — score 11
 
@@ -2819,6 +2817,51 @@ Zeljka Zorz , Editor-in-Chief, Help Net Security August 10, 2026 Share Metabase 
   - Published: 2026-08-10T13:42:28+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/10/metabase-zero-day-framework-tally-kilo-code/
   - Summary: Framework, the San Francisco-based company that designs repairable and upgradeable laptops, has suffered a data breach after attackers managed to exploit a zero-day vulnerability in the Metabase business intelligence service. According to the notification sent to affected Framework customers, the attackers accessed names, email addresses, phone numbers, physical addresses, and login IP addresses, but not payment information or records related to orders. In the email it sent to affected customers, Framework said it was notified … More → The post Metabase zero-day exploited to access Framework customer data appeared first on Help Net Security .
+
+### Cluster f92fe3a8b7 — score 10
+
+- Title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-10T21:02:23+00:00
+- Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- affected_products: Docker, GitHub
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- affected_products: GitHub, Docker
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
+```
+
+#### Full body
+
+```
+Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users. Rob Wright , Senior News Director , Dark Reading August 10, 2026 4 Min Read Source: George Peters via Getty Images A zero-day SQL-injection vulnerability in Metabase Cloud is under exploitation in the wild, and it could spell trouble for many downstream organizations. Metabase, which provides AI-driven business analytics, disclosed last week that its Metabase Cloud platform had been compromised by an attacker wielding a zero-day vulnerability that impacts versions 1.58 of the platform and above. "We immediately blocked the endpoints used for the attack, then quickly identified and patched the vulnerability," Metabase CEO Sameer Al-Sakran wrote in a blog post last week. The vulnerability does not currently have a CVE identifier, but Metabase assigned it a maximum-severity CVSS score of 10. According to an accompanying advisory posted on GitHub, exploitation of the flaw allows a remote attacker to inject SQL statements into the Metabase application database, giving them administrator access to the instance. Related: Coruna, DarkSword iOS Exploits Proliferate Globally "From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data," the company said in the advisory . But the zero-day attacks could have a significant impact on organizations beyond Metabase customers. Who's Affected by the Metabase Cloud Zero-Day? No action is required by Metabase Cloud customers, whose instances have been automatically upgraded to fixed versions, according to Al-Sakran's post. But customers who self-host their Metabase instances and have exposed the /api/session/reset_password endpoint on the public Internet are still susceptible to attacks. It's unclear how many customers have been impacted, and whether the zero-day attacks were limited to Metabase Cloud or if self-hosted open source instances were also compromised. Dark Reading contacted Metabase for additional information but the company did not respond by press time. Johannes Ullrich of the SANS Internet Storm Center tells Dark Reading that the vulnerable API endpoint must be reachable for exploitation to work. "Metabase can be installed as a Docker container and as a standalone Java application. Either way, it exposes the API on port 3000 to the network," he says. "Who is able to access port 3000 would depend on if there is a network firewall configured." Ullrich says he expects most users have exposed their instances rather than restricting individual API endpoints, which he says would likely required a more granular proxy." There is no obvious reason not to expose the reset password API, as users may need it," he says. Related: Flaws in Google APK for Python Unlock Agent-to-Agent Attack SQL-injection vulnerabilities are some of the most common — and frustrating — software flaws in the world, routinely topping the OWASP Top 10 lists . "If anything stood out, it is the fact that even today we are still fighting SQL-injection flaws," Ullrich says of the zero-day. In this case, he explains, the flaw stems from a simple issue in the Metabase database application. "It apparently does not use prepared statements , which would fix this issue. But it can be difficult for software like Metabase to use prepared statements effectively," he says. "Using them would make it more difficult to support the wide range of databases they support, and implementing them is also difficult for tools like Metabase." Blast Radius for Metabase Attacks Ullrich notes that Metabase acts as a front end for processing data from a wide range of SQL databases. As a result, the compromise
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
+  - Published: 2026-08-10T21:02:23+00:00
+  - Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+  - Summary: The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
 
 ### Cluster d8c893e316 — score 10
 
@@ -3632,24 +3675,22 @@ AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-D
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-08-05T11:04:23+00:00
 - Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: CVE-2026-59774, Gitea
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Docker, Gitea
-- cve_ids: CVE-2026-20896, CVE-2026-27771, CVE-2026-59774, CVE-2026-60004
-- urgency_signals: actively_exploited, preauth_unauth
+- affected_products: Gitea
+- cve_ids: CVE-2026-59774
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Gitea, Docker
-- cve_ids: CVE-2026-59774, CVE-2026-60004, CVE-2026-20896, CVE-2026-27771
-- urgency_signals: actively_exploited, preauth_unauth
+- affected_products: Gitea
+- cve_ids: CVE-2026-59774
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3657,12 +3698,6 @@ AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-D
 
 ```
 An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
-```
-
-#### Full body
-
-```
-Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup  Swati Khandelwal  Aug 05, 2026 Vulnerability / DevOps An unauthenticated attacker can read any file the service account can access on Gitea , the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774 , rated Critical with a CVSS score of 9.8, and received its formal advisory on August 2. Gitea 1.27.1 also patches CVE-2026-60004 , a separate remote code execution bug covered in a prior THN report . Gitea said Cloud instances would be upgraded automatically during the release maintenance window. Self-hosted administrators should move to 1.27.1 immediately. The file-read bug is not direct one-request remote code execution. Gitea says it can become command execution if an attacker reads app.ini , extracts INTERNAL_TOKEN , injects a Git hook through the internal logger, and triggers that hook during an anonymous clone. That chain is described in Gitea's advisory ; The Hacker News found no independently published exploit demonstrating it. Upgrading is necessary but may not be sufficient after suspected exposure. If logs show the markup endpoint was reached on an affected build, treat credentials readable by the Gitea service account as exposed and rotate the internal token, OAuth material, JWT signing material, and database credentials before considering the instance clean. No badge required The file-read path runs through Gitea's markup rendering endpoint, POST /{owner}/{repo}/markup . The route allows optional sign-in, resolves the repository, and checks reader access. An anonymous request clears that check against any public repository with its code unit enabled. That precondition limits the unauthenticated exposure: an instance with no public repositories has no anonymous attack path through this endpoint. The break is in Gitea's Org-mode renderer. Gitea 1.27.0 initialized go-org with org.New() and did not replace the library's default ReadFile callback. In go-org 1.9.1, that callback is ioutil.ReadFile . Org-mode's #+INCLUDE directive accepts absolute paths and passes them to the callback. An attacker submits Org-mode markup, selects Mode: file , and receives files the service account can read. The fix landed in PR #38642 and was backported in PR #38645. Gitea now overrides ReadFile so an Org-mode include path is returned as plain rendered content instead of being resolved from the server filesystem. The patch added a regression test for include-path rendering. CVE-2026-59774 was found by XBOW Security , an autonomous offensive security system, and triaged by Guido Leo . Shai Rod, known online as NightRang3r, independently reported the same issue. What administrators should check Gitea did not publish formal detection guidance in the advisory. Review anonymous POST requests to /{owner}/{repo}/markup , especially requests selecting Org-mode rendering or submitting absolute filesystem paths. If the advisory's escalation path was attempted, check repository hook directories for unexpected executable files. Gitea's advisory reports no exploitation in the wild, and as of August 5, 2026, CVE-2026-59774 had not appeared on CISA's Known Exploited Vulnerabilities catalog. The file-read primitive was publicly previewed before its formal advisory, according to a prior THN report. The token-to-hook command-execution chain remains single-sourced to Gitea's advisory. The flaw follows a dense stretch of Gitea security work. In June, Gitea patched a critical reverse-proxy authentication bypass in Docker images, CVE-2026-20896 , that threat actors were observed probing 13 days after disclosure. In May, a container-registry access-control flaw, CVE-2026-27771 , was estimated to affect more than 30,000 deployments across over 30 countries. Found this article interesting? F
 ```
 
 #### Corroborating sources (1)
