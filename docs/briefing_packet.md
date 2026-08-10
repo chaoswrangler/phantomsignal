@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-10T22:44:46.077622+00:00
+- Generated: 2026-08-10T23:41:15.822613+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
-- Total items in window: 350
-- Total clusters raw: 155
+- Feeds OK: 74
+- Total items in window: 344
+- Total clusters raw: 152
 - Total clusters in packet: 66
-- Dropped low score: 89
+- Dropped low score: 86
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,43 +70,38 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 6
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
+  - In window count: 6
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 25
+  - Item count: 10
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
@@ -115,8 +110,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
@@ -130,16 +125,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -150,10 +145,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 3
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 3
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
@@ -165,35 +175,30 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 3
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
@@ -205,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,56 +225,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
   - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 20
+  - In window count: 2
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 9
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -290,78 +290,48 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 100
+  - In window count: 5
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 10
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 20
+  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 25
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 22
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -370,31 +340,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 22
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 25
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,33 +395,28 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -440,21 +425,36 @@
   - Status: ok
   - Item count: 100
   - In window count: 25
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 20
+  - In window count: 19
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -476,9 +476,9 @@
 ### UNC6671 active exploitation
 - Anchor signal: UNC6671
 - Theme key: unc6671
-- Cluster count: 4
-- Article count: 6
-- Cohesion: 0.42
+- Cluster count: 5
+- Article count: 7
+- Cohesion: 0.456
 - Shared strong signals: UNC6671
 - Member CVEs: (none)
 - Also targets: (none)
@@ -488,13 +488,14 @@
   - affected_industries: critical_infrastructure
   - affected_products: OpenAI/ChatGPT
   - urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available
-- Cluster IDs: 292d4f04d7, 502d49d687, 6ae4a5bc55, 4f50dc8ea5
+- Cluster IDs: 292d4f04d7, 502d49d687, 6ae4a5bc55, 4f50dc8ea5, 38f40f9f14
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/
   - https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
   - https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/
   - https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
   - https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/
+  - https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
 
 ### Apple iOS/macOS active exploitation
 - Anchor signal: Apple iOS/macOS
@@ -655,26 +656,6 @@
   - https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/
   - https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html
 
-### Fortinet active exploitation
-- Anchor signal: Fortinet
-- Theme key: fortinet
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.2
-- Shared strong signals: Fortinet
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_industries: government
-  - affected_products: Fortinet
-  - urgency_signals: actively_exploited
-- Cluster IDs: 815134b7b7, 1c833c15fa, 2d8e9f812d
-- Links:
-  - https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
-  - https://www.recordedfuture.com/blog/july-2026-cve-landscape
-  - https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -703,6 +684,33 @@
   - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
   - https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
   - https://unit42.paloaltonetworks.com/ai-token-jacking/
+
+### Kubernetes vulnerability activity
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
+- Cluster count: 2
+- Article count: 19
+- Cohesion: 0.2
+- Shared strong signals: Kubernetes
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Kubernetes
+- Cluster IDs: 61004037ea, 8429d526c4
+- Links:
+  - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
+  - https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/
+  - https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/
+  - https://isc.sans.edu/diary/rss/33218
+  - https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack
+  - https://securelist.com/cloud-platforms-in-phishing/120832/
+  - https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/
+  - https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html
+  - https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain
+  - https://www.helpnetsecurity.com/2026/08/10/chainloop-open-source-supply-chain-security/
+  - https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/
+  - https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/
+  - https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/
 
 ### CVE-2026-3502 exploitation activity
 - Anchor signal: CVE-2026-3502
@@ -1434,16 +1442,16 @@ The Hugging Face Hack Was Cheap Persistence at Work The OpenAI-Hugging Face inci
   - Published: 2026-08-06T20:39:30+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride
   - Summary: In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
-  - Published: 2026-08-07T08:18:35+00:00
-  - Link: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
-  - Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident
   - Published: 2026-08-06T13:40:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
   - Summary: One of Meta’s AI models exploited a third-party security flaw during an evaluation, the latest in a series of similar incidents involving advanced AI systems
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets
+  - Published: 2026-08-07T08:18:35+00:00
+  - Link: https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html
+  - Summary: A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.
 
 ### Cluster 815134b7b7 — score 16
 
@@ -1494,7 +1502,7 @@ Critical Progress LoadMaster flaw now actively exploited in attacks By Sergiu Ga
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]
 
-### Cluster 502d49d687 — score 16
+### Cluster 502d49d687 — score 15
 
 - Title: Metabase Patches Vulnerability Exploited as Zero-Day
 - Source: SecurityWeek (cyber_news_breach_reporting)
@@ -1874,53 +1882,6 @@ Training and Certifications Your agentic summer: No-cost lessons from Google exp
   - Link: https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/
   - Summary: I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’ve got you covered. That’s why we’ve designed a path to help you take your AI ideas from a rough sketch to fully autonomous agents running in production. This summer, you can harness the same frameworks and approaches used by Google experts to build and scale agents — entirely at no cost. Powered by Gemini Enterprise Agent Ready (GEAR) , these hands-on labs and courses give you the blueprints and tools you need to deploy agents that ship . Find your roadmap to future-proof your skills this summer, starting here. 1. Intro to AI Agents : Build a foundational understanding of how autonomous agent
 
-### Cluster 6fa62beb1d — score 12
-
-- Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-10T11:33:41+00:00
-- Link: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, web_shell_backdoor, zero_day
-- affected_industries: critical_infrastructure, government
-- cve_ids: CVE-2026-3502
-- urgency_signals: actively_exploited, no_patch_yet, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, apt_espionage, web_shell_backdoor, active_exploitation
-- affected_industries: government, critical_infrastructure
-- cve_ids: CVE-2026-3502
-- urgency_signals: actively_exploited, zero_day, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain
-```
-
-#### Full body
-
-```
-TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore  Ravie Lakshmanan  Aug 10, 2026 Malware / Vulnerability The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain in the TrueConf videoconferencing server to replace the original TrueConf client installers with poisoned versions that deliver the PhantomCore backdoor and remote access trojan (RAT) into susceptible systems. The vulnerabilities, tracked as KLCERT-26-057 and KLCERT-26-058, enable arbitrary code execution with elevated privileges. The attack impacts TrueConf server versions 5.3.x up to 5.3.9, 5.4.x up to 5.4.9, 5.5.x up to 5.5.5, and earlier. The attack chain is as follows - Attackers connect to the TrueConf server on TCP port 4307, which is open by default. Upon successful connection, the attackers exploit KLCERT-26-057 to run a malicious script on the server. The script launches within an isolated environment on the server, limiting its access to operating system functions. The attackers then exploit KLCERT-26-058 to break out of the isolated environment and run arbitrary commands on the underlying host. The attackers run arbitrary code on the server with NT AUTHORITY\SYSTEM privileges. The attackers replace the file "...\public\js\locale.php" with a web shell to facilitate persistent remote access to the compromised server. The web shell, per Kaspersky, has been leveraged to collect data on the IT infrastructure, gain privileged access to the TrueConf database, and ultimately substitute the original TrueConf Client distribution with an infected version containing PhantomCore. What's more, the web shell serves as a conduit for another backdoor codenamed PhantomGraph that shares some level of code overlap with PhantomCore and includes two DLL modules - "SysExcSvc.dll," for receiving commands and exfiltrating their results back to Microsoft OneDrive cloud storage that's used as command-and-control (C2) "SysReadSvc.dll," for parsing the commands received by the first module, executing it, and storing the results "To establish a persistent presence in the system, the attackers execute a Base64-encoded PowerShell command that installs SysExcSvc.dll and SysReadSvc.dll as Windows services," Kaspersky said. "We believe the attackers deliberately split this malware into two components to make it harder for EDR tools to detect." In addition, the threat actors have been found to launch an SSH reverse tunnel, take a memory dump of the "lsass.exe" process, and collect general system information using commands like hostname and whoami. The vulnerabilities have since been patched by the vendor in the latest TrueConf Server versions 5.3.9, 5.4.9, and 5.5.5 released on June 18, 2026. Organizations using TrueConf are advised to download the latest versions for optimal protection. This is not the first time Head Mare has targeted zero-day flaws in TrueConf to single out Russian entities. Earlier this April, Positive Technologies disclosed that three vulnerabilities in the software (BDU:2025-10114, BDU:2025-10115, and BDU-2025-10116) were abused by the group since September 2025 to deliver PHP web shells and malicious payloads for information theft and command execution. Around the same time, Check Point also reported that another high-severity security flaw in the TrueConf client (CVE-2026-3502) was exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia to deploy the Havoc C2 framework. ViPNet Update Mechanism Hijacked to Deploy HelloInjector and HelloProxy The development comes weeks after Kaspersky said it discovered a new advanced persistent threat (APT)-style attack tha
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
-  - Published: 2026-08-10T11:33:41+00:00
-  - Link: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
-  - Summary: The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain
-
 ### Cluster a7f7f22b06 — score 11
 
 - Title: Vulnerability Management Lifecycle: Core Phases
@@ -2056,57 +2017,52 @@ The US cybersecurity agency CISA has urged federal agencies to immediately patch
   - Link: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/
   - Summary: The critical-severity flaw allows unauthenticated, remote attackers to execute arbitrary commands. The post CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability appeared first on SecurityWeek .
 
-### Cluster eba783fe70 — score 11
+### Cluster 6fa62beb1d — score 11
 
-- Title: Quoting Claude Opus 5 system prompt
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-08-09T23:31:39+00:00
-- Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
+- Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-10T11:33:41+00:00
+- Link: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
-- Strong signals: Anthropic/Claude
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- threat_categories: active_exploitation, apt_espionage, web_shell_backdoor, zero_day
+- affected_industries: critical_infrastructure, government
+- cve_ids: CVE-2026-3502
+- urgency_signals: actively_exploited, no_patch_yet, zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude
+- threat_categories: zero_day, apt_espionage, web_shell_backdoor, active_exploitation
+- affected_industries: government, critical_infrastructure
+- cve_ids: CVE-2026-3502
+- urgency_signals: actively_exploited, zero_day, no_patch_yet
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
+The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain
 ```
 
 #### Full body
 
 ```
-Simon Willison’s Weblog Subscribe Sponsored by: Dynatrace — When agents enter the SDLC, observability becomes the enabler to move from code generation to scalable engineering. Read the blog for a framework to get started 9th August 2026 Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn't provide incorrect answers about the export controls situation Posted 9th August 2026 at 11:31 pm Recent articles Now we have a timeline of the OpenAI accidental attack against Hugging Face - 7th August 2026 One-shotting a Raccoon Heist game using Claude Fable 5 - 5th August 2026 New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging - 4th August 2026 This is a quotation collected by Simon Willison, posted on 9th August 2026 . ai 2,179 generative-ai 1,930 llms 1,897 anthropic 326 claude 300 system-prompts 55 claude-mythos-fable 35 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore  Ravie Lakshmanan  Aug 10, 2026 Malware / Vulnerability The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain in the TrueConf videoconferencing server to replace the original TrueConf client installers with poisoned versions that deliver the PhantomCore backdoor and remote access trojan (RAT) into susceptible systems. The vulnerabilities, tracked as KLCERT-26-057 and KLCERT-26-058, enable arbitrary code execution with elevated privileges. The attack impacts TrueConf server versions 5.3.x up to 5.3.9, 5.4.x up to 5.4.9, 5.5.x up to 5.5.5, and earlier. The attack chain is as follows - Attackers connect to the TrueConf server on TCP port 4307, which is open by default. Upon successful connection, the attackers exploit KLCERT-26-057 to run a malicious script on the server. The script launches within an isolated environment on the server, limiting its access to operating system functions. The attackers then exploit KLCERT-26-058 to break out of the isolated environment and run arbitrary commands on the underlying host. The attackers run arbitrary code on the server with NT AUTHORITY\SYSTEM privileges. The attackers replace the file "...\public\js\locale.php" with a web shell to facilitate persistent remote access to the compromised server. The web shell, per Kaspersky, has been leveraged to collect data on the IT infrastructure, gain privileged access to the TrueConf database, and ultimately substitute the original TrueConf Client distribution with an infected version containing PhantomCore. What's more, the web shell serves as a conduit for another backdoor codenamed PhantomGraph that shares some level of code overlap with PhantomCore and includes two DLL modules - "SysExcSvc.dll," for receiving commands and exfiltrating their results back to Microsoft OneDrive cloud storage that's used as command-and-control (C2) "SysReadSvc.dll," for parsing the commands received by the first module, executing it, and storing the results "To establish a persistent presence in the system, the attackers execute a Base64-encoded PowerShell command that installs SysExcSvc.dll and SysReadSvc.dll as Windows services," Kaspersky said. "We believe the attackers deliberately split this malware into two components to make it harder for EDR tools to detect." In addition, the threat actors have been found to launch an SSH reverse tunnel, take a memory dump of the "lsass.exe" process, and collect general system information using commands like hostname and whoami. The vulnerabilities have since been patched by the vendor in the latest TrueConf Server versions 5.3.9, 5.4.9, and 5.5.5 released on June 18, 2026. Organizations using TrueConf are advised to download the latest versions for optimal protection. This is not the first time Head Mare has targeted zero-day flaws in TrueConf to single out Russian entities. Earlier this April, Positive Technologies disclosed that three vulnerabilities in the software (BDU:2025-10114, BDU:2025-10115, and BDU-2025-10116) were abused by the group since September 2025 to deliver PHP web shells and malicious payloads for information theft and command execution. Around the same time, Check Point also reported that another high-severity security flaw in the TrueConf client (CVE-2026-3502) was exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia to deploy the Havoc C2 framework. ViPNet Update Mechanism Hijacked to Deploy HelloInjector and HelloProxy The development comes weeks after Kaspersky said it discovered a new advanced persistent threat (APT)-style attack tha
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (1)
 
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Claude Opus 5 system prompt
-  - Published: 2026-08-09T23:31:39+00:00
-  - Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
-  - Summary: Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Anthropic to put AI in charge of reviewing Claude Code actions by default
-  - Published: 2026-08-10T09:13:29+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/
-  - Summary: Anthropic will make auto mode in Claude Code the default for new sessions on Pro, Max, and Team plans starting August 14. Users who previously selected a different default may receive a one-time prompt asking whether they want to switch to auto mode. In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%. (Source: Anthropic) It remains optional on Claude Enterprise, the Claude … More → The post Anthropic to put AI in charge of reviewing Claude Code actions by default appeared first on Help Net Security .
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Claude Code RCE: How a Malicious PR Triggers Code Execution
-  - Published: 2026-08-06T21:22:53+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/
-  - Summary: Abusing the trust boundary in Claude Code for RCE. Trust is never broken and that opens up a few avenues for abuse. Simply opening claude code on a PR can be enough to silently trigger attacker payloads. submitted by /u/kev-thehermit [link] [comments]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore
+  - Published: 2026-08-10T11:33:41+00:00
+  - Link: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
+  - Summary: The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain
 
 ### Cluster fb2a69eb0a — score 10
 
@@ -2284,6 +2240,47 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/
   - Summary: Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .
 
+### Cluster 3e123aa6ec — score 10
+
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+
 ### Cluster 2ba7372881 — score 10
 
 - Title: When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers
@@ -2330,47 +2327,6 @@ CATEGORIES AI Research 18 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-08-06T22:20:00+00:00
   - Link: https://research.checkpoint.com/2026/when-agentic-glue-melts/
   - Summary: By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .
-
-### Cluster 3e123aa6ec — score 10
-
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 
 ### Cluster ef0ff97611 — score 10
 
@@ -2943,6 +2899,51 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Stephen Campbe
   - Link: https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure
   - Summary: Use network telemetry to validate cyber threat actors' phishing infrastructure. Track ShinyHunters clusters and defend against SaaS data exfiltration.
 
+### Cluster 3b8dca7ee7 — score 10
+
+- Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-10T15:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, ransomware_extortion
+- affected_industries: financial_services, legal_professional
+- affected_products: Anthropic/Claude, Microsoft 365, Salesforce
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, ai_security
+- affected_industries: financial_services, legal_professional
+- affected_products: Salesforce, Microsoft 365, Anthropic/Claude
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as "almost non-existent," and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Cloud and SaaS Environments Now Top Targets for Attackers News 4 August 2026 1 Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident News 6 August 2026 2 Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign News 6 August 2026 3 NVIDIA Group Proposes SAFE Ini
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
+  - Published: 2026-08-10T15:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+  - Summary: Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+
 ### Cluster 772794dddb — score 10
 
 - Title: ⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors
@@ -2988,50 +2989,57 @@ A lot of security problems still begin with someone doing a completely normal th
   - Link: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
   - Summary: A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s
 
-### Cluster 3b8dca7ee7 — score 10
+### Cluster eba783fe70 — score 10
 
-- Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-10T15:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+- Title: Quoting Claude Opus 5 system prompt
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-08-09T23:31:39+00:00
+- Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Member count: 4
+- Corroborating source count: 3
+- Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, ransomware_extortion
-- affected_industries: financial_services, legal_professional
-- affected_products: Anthropic/Claude, Microsoft 365, Salesforce
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
+- threat_categories: ai_security
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, ai_security
-- affected_industries: financial_services, legal_professional
-- affected_products: Salesforce, Microsoft 365, Anthropic/Claude
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
 ```
 
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as "almost non-existent," and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Cloud and SaaS Environments Now Top Targets for Attackers News 4 August 2026 1 Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident News 6 August 2026 2 Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign News 6 August 2026 3 NVIDIA Group Proposes SAFE Ini
+Simon Willison’s Weblog Subscribe Sponsored by: Dynatrace — When agents enter the SDLC, observability becomes the enabler to move from code generation to scalable engineering. Read the blog for a framework to get started 9th August 2026 Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn't provide incorrect answers about the export controls situation Posted 9th August 2026 at 11:31 pm Recent articles Now we have a timeline of the OpenAI accidental attack against Hugging Face - 7th August 2026 One-shotting a Raccoon Heist game using Claude Fable 5 - 5th August 2026 New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging - 4th August 2026 This is a quotation collected by Simon Willison, posted on 9th August 2026 . ai 2,179 generative-ai 1,930 llms 1,897 anthropic 326 claude 300 system-prompts 55 claude-mythos-fable 35 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (3)
 
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
-  - Published: 2026-08-10T15:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
-  - Summary: Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Claude Opus 5 system prompt
+  - Published: 2026-08-09T23:31:39+00:00
+  - Link: https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything
+  - Summary: Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Anthropic to put AI in charge of reviewing Claude Code actions by default
+  - Published: 2026-08-10T09:13:29+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/
+  - Summary: Anthropic will make auto mode in Claude Code the default for new sessions on Pro, Max, and Team plans starting August 14. Users who previously selected a different default may receive a one-time prompt asking whether they want to switch to auto mode. In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%. (Source: Anthropic) It remains optional on Claude Enterprise, the Claude … More → The post Anthropic to put AI in charge of reviewing Claude Code actions by default appeared first on Help Net Security .
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Claude Code RCE: How a Malicious PR Triggers Code Execution
+  - Published: 2026-08-06T21:22:53+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/
+  - Summary: Abusing the trust boundary in Claude Code for RCE. Trust is never broken and that opens up a few avenues for abuse. Simply opening claude code on a PR can be enough to silently trigger attacker payloads. submitted by /u/kev-thehermit [link] [comments]
 
 ### Cluster 5fb34094f6 — score 9
 
@@ -3606,147 +3614,28 @@ Cisco on Friday warned that its Secure Endpoint Connector products on Windows, m
   - Link: https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/
   - Summary: Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek .
 
-### Cluster 2d8e9f812d — score 8
-
-- Title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-10T13:19:58+00:00
-- Link: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Kimsuky
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng
-- actor_attribution: Kimsuky
-- affected_industries: government
-- affected_products: Fortinet, GitHub
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, apt_espionage
-- actor_attribution: Kimsuky
-- affected_industries: government
-- affected_products: GitHub, Fortinet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the
-```
-
-#### Full body
-
-```
-Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development  Swati Khandelwal  Aug 10, 2026 Cyber Espionage / Artificial Intelligence North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the setup after months of tracking and log analysis on infrastructure tied to Kimsuky, a hacking unit under North Korea's Reconnaissance General Bureau. Genians found no evidence that the group had trained an AI model of its own, and the firm does not offer that as reassurance. It describes an actor in a "research and knowledge acquisition" stage, assembling and testing existing tools rather than making new models, with the apparent aim of folding AI through the operation, from writing malware to analyzing data. For an intelligence unit that has spent years phishing government, research, and other strategic targets, that points to attacks that are quicker to prepare and harder to spot. With nothing here to patch, the weight lands on defenders. Once AI writes the bait, the tells they once relied on weaken: stilted translation, clumsy formatting, spelling mistakes. What an intrusion does on the machine becomes the thing to watch. Genians' report tells defenders to correlate LNK execution, PowerShell, hidden scheduled tasks, GitHub traffic, and later payload activity instead of judging a lure mainly by how polished it looks. The core evidence is tools for running language models offline: Ollama, GPT4All and Msty, all found on infrastructure Genians linked to the group. The report says they were run or configured, not merely downloaded: Ollama generated the keys created on first launch, while GPT4All carried a configured localdocs_v3.db, the database used by its LocalDocs retrieval-augmented generation (RAG) feature. RAG lets a model answer from a private collection of documents. The database is evidence that the actor tried to connect documents in its possession to an AI system; it does not establish that those documents were stolen. The researchers separately recovered an operator request to check a data set for wallet details, Gmail credentials and site-registration history, ending, "The more detailed the analysis, the better. Please do not do it haphazardly." The report could not confirm that this particular request was submitted to an AI service. The group did not stop at ready-made apps. On the same infrastructure, the firm found developer libraries including LLaMaSharp, Microsoft's Semantic Kernel and Microsoft.Agents.AI, components for building AI functions into custom C# and .NET software. It also found OpenAI's Whisper speech-to-text files with a guide on extracting text from audio, and active traces of Cursor, an AI-powered coding editor. None of these tools is exotic. What is new is a nation-state espionage group assembling them on purpose to push AI deeper into its own attack workflow. The activity extends a Kimsuky campaign Genians calls Operation GitPower, which abuses GitHub repositories as command channels in an LNK-to-PowerShell infection chain and has distributed encrypted AsyncRAT payloads disguised as image files Fortinet separately documented the broader GitHub-C2 pattern in April in attacks targeting South Korean users. That report corroborates the surrounding technique family, not Genians' new local-AI artifacts; Reuters said the new findings could not be independently verified. The newly observed offline stack (the local models, RAG database, and transcription tools) has not been shown running against a victim in the reporting to date, and no GitPower victim count has been disclosed. Set against the broader "AI attack tools" framing, that is a narrower near-term chan
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
-  - Published: 2026-08-10T13:19:58+00:00
-  - Link: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
-  - Summary: North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the
-
-### Cluster b6d7475cc2 — score 8
-
-- Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-07T10:09:54+00:00
-- Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
-  - Published: 2026-08-07T10:09:54+00:00
-  - Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
-  - Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
-
-### Cluster 3569b34b72 — score 8
-
-- Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-05T11:04:23+00:00
-- Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-59774, Gitea
-
-#### Cluster taxonomy (union across members)
-- affected_products: Gitea
-- cve_ids: CVE-2026-59774
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Gitea
-- cve_ids: CVE-2026-59774
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
-  - Published: 2026-08-05T11:04:23+00:00
-  - Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
-  - Summary: An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
-
 ### Cluster 38f40f9f14 — score 8
 
 - Title: Google Links Redact Extortion Group to BlackFile Rebrand
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-08-07T09:40:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
+- threat_categories: mfa_bypass, phishing_social_eng, ransomware_extortion
+- actor_attribution: UNC6671
+- affected_industries: healthcare, manufacturing_industrial
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
+- threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
+- actor_attribution: UNC6671
+- affected_industries: healthcare, manufacturing_industrial
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3754,6 +3643,12 @@ An unauthenticated attacker can read any file the service account can access on 
 
 ```
 BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Google Links Redact Extortion Group to BlackFile Rebrand Google Links Redact Extortion Group to BlackFile Rebrand News 7 August 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn The BlackFile extortion group , which targets its victims through vishing scams, has rebranded. According to an analysis by Google Threat Intelligence Group (GTIG), despite BlackFile (UNC6671) having announced the retirement of its brand in 2026, it had now rebranded to Redact. Researchers said the group’s public communications cited an affiliate breakaway as the rationale for the initial rebrand. However, overlaps in phishing templates, victimology and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix and Falcon extortion brands to monetize their operations. Redact operators published a blog post about their new data lead site (DLS) and the rebrand from Black File on June 27. The group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. A rogue affiliate was apparently responsible for operating an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under BlackFile’s name using unlinked Tox identities. They were also accused of orchestrating the supposed shutdown of the BlackFile brand in May 2026. REDACT statement on alleged break from BlackFile: Source GTIG Vishing Scams Impersonate IT Help Desks Whatever name the group operates under now, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have largely remained the same, according to GTIG. GTIG said, “This most likely reflects a coordinated group of threat actors operating multiple public extortion brands possibly in an effort to compartmentalize operations, hide overall breach volumes and isolate any negotiation fallout.” The cybercriminal group uses voice phishing to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Victims are often targeted via their personal devices. The calls lure targets to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. GTIG was able to connect the BlackFile, Redact, Pink, Helix and Falcon extortion brands because rather than maintaining isolated infrastructure for each target, UNC6671 reuses generic root domains across multiple target organizations. Root domains like passkeyhelpdesk[.]com and passkeydeploy[.]com were used by more than one of the groups. Across all the domains identified by GTIG, the researchers noted that the same phishing templates were used. Some domains were simultaneously used to target two entirely separate victims, one of which was claimed by Falcon, and the other by Helix. “The widespread deployment of these matching templates to harvest credentials for multiple DLS brands suggests they rely on shared underlying infrastructure,” the researchers said. New Techniques and Victim Evolutions New techniques deployed by UNC6671 observed by GTIG include the use of a spoofed legitimate helpdesk phone number. The pretext of the calls is an urgent mandate to enable FIDO2 passkeys or update multi-factor authentication enrollment, the caller directs the employee to a lookalike credential-harvesting subdomain. UNC6671 has also been observed using compromised email accounts to reset passwords for enterprise applications and then delete security notifications and alert emails to evade detection and maintain persistent access. UNC6671's targeting evolved significantly between April and July 2026. From April to May, the group focused on large enterprises in the manufacturing, real estate, healthcare and insura
 ```
 
 #### Corroborating sources (1)
@@ -3843,6 +3738,119 @@ The UK’s Police National Legal Database and Ask the Police service have been b
   - Published: 2026-08-04T08:40:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/
   - Summary: The UK’s Police National Legal Database and Ask the Police service have been breached
+
+### Cluster 2d8e9f812d — score 8
+
+- Title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-10T13:19:58+00:00
+- Link: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Kimsuky
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng
+- actor_attribution: Kimsuky
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, apt_espionage
+- actor_attribution: Kimsuky
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development
+  - Published: 2026-08-10T13:19:58+00:00
+  - Link: https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html
+  - Summary: North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the
+
+### Cluster b6d7475cc2 — score 8
+
+- Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-07T10:09:54+00:00
+- Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day
+  - Published: 2026-08-07T10:09:54+00:00
+  - Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
+  - Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
+
+### Cluster 3569b34b72 — score 8
+
+- Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-05T11:04:23+00:00
+- Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-59774, Gitea
+
+#### Cluster taxonomy (union across members)
+- affected_products: Gitea
+- cve_ids: CVE-2026-59774
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Gitea
+- cve_ids: CVE-2026-59774
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup
+  - Published: 2026-08-05T11:04:23+00:00
+  - Link: https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html
+  - Summary: An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its
 
 ### Cluster 444876da64 — score 8
 

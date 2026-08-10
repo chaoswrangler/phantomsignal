@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-10T22:44:46.077622+00:00",
+  "generated_at": "2026-08-10T23:41:15.822613+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 75,
-  "total_items_in_window": 350,
-  "total_clusters_raw": 155,
+  "feeds_ok": 74,
+  "total_items_in_window": 344,
+  "total_clusters_raw": 152,
   "total_clusters_in_packet": 66,
-  "dropped_low_score": 89,
+  "dropped_low_score": 86,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 6
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -81,11 +74,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
+      "in_window_count": 6
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -95,29 +102,15 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
+      "item_count": 10,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -130,8 +123,8 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -151,19 +144,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -179,11 +172,32 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 3
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 3
     },
     "Assetnote": {
@@ -200,12 +214,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -214,32 +228,25 @@
       "item_count": 50,
       "in_window_count": 4
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -255,13 +262,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -284,25 +284,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 1
     },
     "Orca Security Research": {
@@ -312,19 +305,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 2
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -333,19 +319,26 @@
       "item_count": 20,
       "in_window_count": 9
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -353,6 +346,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -375,12 +375,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 5
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -389,19 +389,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 5
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,12 +403,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 2
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -424,13 +417,6 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -438,43 +424,15 @@
       "item_count": 20,
       "in_window_count": 20
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 2
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 25
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 22
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -487,26 +445,47 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 10
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 22
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 25
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -515,12 +494,19 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -536,12 +522,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -550,29 +543,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -585,19 +564,33 @@
       "item_count": 100,
       "in_window_count": 25
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 20
+      "in_window_count": 19
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -605,6 +598,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -2747,36 +2747,6 @@
           }
         },
         {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-          "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-          "published": "2026-08-07T08:18:35+00:00",
-          "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
           "title": "Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident",
@@ -2800,6 +2770,36 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+          "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+          "published": "2026-08-07T08:18:35+00:00",
+          "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -2939,7 +2939,7 @@
     },
     {
       "cluster_id": "502d49d687",
-      "priority_score": 16,
+      "priority_score": 15,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
@@ -3898,123 +3898,6 @@
       ]
     },
     {
-      "cluster_id": "6fa62beb1d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "apt_espionage",
-          "web_shell_backdoor",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-3502"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-        "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-        "published": "2026-08-10T11:33:41+00:00",
-        "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain",
-        "full_body": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore  Ravie Lakshmanan  Aug 10, 2026 Malware / Vulnerability The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain in the TrueConf videoconferencing server to replace the original TrueConf client installers with poisoned versions that deliver the PhantomCore backdoor and remote access trojan (RAT) into susceptible systems. The vulnerabilities, tracked as KLCERT-26-057 and KLCERT-26-058, enable arbitrary code execution with elevated privileges. The attack impacts TrueConf server versions 5.3.x up to 5.3.9, 5.4.x up to 5.4.9, 5.5.x up to 5.5.5, and earlier. The attack chain is as follows - Attackers connect to the TrueConf server on TCP port 4307, which is open by default. Upon successful connection, the attackers exploit KLCERT-26-057 to run a malicious script on the server. The script launches within an isolated environment on the server, limiting its access to operating system functions. The attackers then exploit KLCERT-26-058 to break out of the isolated environment and run arbitrary commands on the underlying host. The attackers run arbitrary code on the server with NT AUTHORITY\\SYSTEM privileges. The attackers replace the file \"...\\public\\js\\locale.php\" with a web shell to facilitate persistent remote access to the compromised server. The web shell, per Kaspersky, has been leveraged to collect data on the IT infrastructure, gain privileged access to the TrueConf database, and ultimately substitute the original TrueConf Client distribution with an infected version containing PhantomCore. What's more, the web shell serves as a conduit for another backdoor codenamed PhantomGraph that shares some level of code overlap with PhantomCore and includes two DLL modules - \"SysExcSvc.dll,\" for receiving commands and exfiltrating their results back to Microsoft OneDrive cloud storage that's used as command-and-control (C2) \"SysReadSvc.dll,\" for parsing the commands received by the first module, executing it, and storing the results \"To establish a persistent presence in the system, the attackers execute a Base64-encoded PowerShell command that installs SysExcSvc.dll and SysReadSvc.dll as Windows services,\" Kaspersky said. \"We believe the attackers deliberately split this malware into two components to make it harder for EDR tools to detect.\" In addition, the threat actors have been found to launch an SSH reverse tunnel, take a memory dump of the \"lsass.exe\" process, and collect general system information using commands like hostname and whoami. The vulnerabilities have since been patched by the vendor in the latest TrueConf Server versions 5.3.9, 5.4.9, and 5.5.5 released on June 18, 2026. Organizations using TrueConf are advised to download the latest versions for optimal protection. This is not the first time Head Mare has targeted zero-day flaws in TrueConf to single out Russian entities. Earlier this April, Positive Technologies disclosed that three vulnerabilities in the software (BDU:2025-10114, BDU:2025-10115, and BDU-2025-10116) were abused by the group since September 2025 to deliver PHP web shells and malicious payloads for information theft and command execution. Around the same time, Check Point also reported that another high-severity security flaw in the TrueConf client (CVE-2026-3502) was exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia to deploy the Havoc C2 framework. ViPNet Update Mechanism Hijacked to Deploy HelloInjector and HelloProxy The development comes weeks after Kaspersky said it discovered a new advanced persistent threat (APT)-style attack tha",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "apt_espionage",
-            "web_shell_backdoor",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-3502"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-          "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-          "published": "2026-08-10T11:33:41+00:00",
-          "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "apt_espionage",
-              "web_shell_backdoor",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-3502"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a7f7f22b06",
       "priority_score": 11,
       "member_count": 1,
@@ -4325,63 +4208,76 @@
       ]
     },
     {
-      "cluster_id": "eba783fe70",
+      "cluster_id": "6fa62beb1d",
       "priority_score": 11,
-      "member_count": 4,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "Anthropic/Claude"
-      ],
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "ai_security"
+          "active_exploitation",
+          "apt_espionage",
+          "web_shell_backdoor",
+          "zero_day"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "OpenAI/ChatGPT"
+        "affected_industries": [
+          "critical_infrastructure",
+          "government"
         ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-3502"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "no_patch_yet",
+          "zero_day"
+        ],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Quoting Claude Opus 5 system prompt",
-        "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
-        "published": "2026-08-09T23:31:39+00:00",
-        "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Dynatrace — When agents enter the SDLC, observability becomes the enabler to move from code generation to scalable engineering. Read the blog for a framework to get started 9th August 2026 Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn't provide incorrect answers about the export controls situation Posted 9th August 2026 at 11:31 pm Recent articles Now we have a timeline of the OpenAI accidental attack against Hugging Face - 7th August 2026 One-shotting a Raccoon Heist game using Claude Fable 5 - 5th August 2026 New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging - 4th August 2026 This is a quotation collected by Simon Willison, posted on 9th August 2026 . ai 2,179 generative-ai 1,930 llms 1,897 anthropic 326 claude 300 system-prompts 55 claude-mythos-fable 35 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+        "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+        "published": "2026-08-10T11:33:41+00:00",
+        "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain",
+        "full_body": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore  Ravie Lakshmanan  Aug 10, 2026 Malware / Vulnerability The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain in the TrueConf videoconferencing server to replace the original TrueConf client installers with poisoned versions that deliver the PhantomCore backdoor and remote access trojan (RAT) into susceptible systems. The vulnerabilities, tracked as KLCERT-26-057 and KLCERT-26-058, enable arbitrary code execution with elevated privileges. The attack impacts TrueConf server versions 5.3.x up to 5.3.9, 5.4.x up to 5.4.9, 5.5.x up to 5.5.5, and earlier. The attack chain is as follows - Attackers connect to the TrueConf server on TCP port 4307, which is open by default. Upon successful connection, the attackers exploit KLCERT-26-057 to run a malicious script on the server. The script launches within an isolated environment on the server, limiting its access to operating system functions. The attackers then exploit KLCERT-26-058 to break out of the isolated environment and run arbitrary commands on the underlying host. The attackers run arbitrary code on the server with NT AUTHORITY\\SYSTEM privileges. The attackers replace the file \"...\\public\\js\\locale.php\" with a web shell to facilitate persistent remote access to the compromised server. The web shell, per Kaspersky, has been leveraged to collect data on the IT infrastructure, gain privileged access to the TrueConf database, and ultimately substitute the original TrueConf Client distribution with an infected version containing PhantomCore. What's more, the web shell serves as a conduit for another backdoor codenamed PhantomGraph that shares some level of code overlap with PhantomCore and includes two DLL modules - \"SysExcSvc.dll,\" for receiving commands and exfiltrating their results back to Microsoft OneDrive cloud storage that's used as command-and-control (C2) \"SysReadSvc.dll,\" for parsing the commands received by the first module, executing it, and storing the results \"To establish a persistent presence in the system, the attackers execute a Base64-encoded PowerShell command that installs SysExcSvc.dll and SysReadSvc.dll as Windows services,\" Kaspersky said. \"We believe the attackers deliberately split this malware into two components to make it harder for EDR tools to detect.\" In addition, the threat actors have been found to launch an SSH reverse tunnel, take a memory dump of the \"lsass.exe\" process, and collect general system information using commands like hostname and whoami. The vulnerabilities have since been patched by the vendor in the latest TrueConf Server versions 5.3.9, 5.4.9, and 5.5.5 released on June 18, 2026. Organizations using TrueConf are advised to download the latest versions for optimal protection. This is not the first time Head Mare has targeted zero-day flaws in TrueConf to single out Russian entities. Earlier this April, Positive Technologies disclosed that three vulnerabilities in the software (BDU:2025-10114, BDU:2025-10115, and BDU-2025-10116) were abused by the group since September 2025 to deliver PHP web shells and malicious payloads for information theft and command execution. Around the same time, Check Point also reported that another high-severity security flaw in the TrueConf client (CVE-2026-3502) was exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia to deploy the Havoc C2 framework. ViPNet Update Mechanism Hijacked to Deploy HelloInjector and HelloProxy The development comes weeks after Kaspersky said it discovered a new advanced persistent threat (APT)-style attack tha",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "Anthropic/Claude"
+          "threat_categories": [
+            "zero_day",
+            "apt_espionage",
+            "web_shell_backdoor",
+            "active_exploitation"
           ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-3502"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "no_patch_yet"
+          ],
           "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target"
-          },
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -4389,86 +4285,38 @@
       },
       "corroborating_sources": [
         {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Quoting Claude Opus 5 system prompt",
-          "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
-          "published": "2026-08-09T23:31:39+00:00",
-          "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Help Net Security",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic to put AI in charge of reviewing Claude Code actions by default",
-          "link": "https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/",
-          "published": "2026-08-10T09:13:29+00:00",
-          "summary": "Anthropic will make auto mode in Claude Code the default for new sessions on Pro, Max, and Team plans starting August 14. Users who previously selected a different default may receive a one-time prompt asking whether they want to switch to auto mode. In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%. (Source: Anthropic) It remains optional on Claude Enterprise, the Claude … More → The post Anthropic to put AI in charge of reviewing Claude Code actions by default appeared first on Help Net Security .",
+          "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+          "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+          "published": "2026-08-10T11:33:41+00:00",
+          "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain",
           "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
+            "threat_categories": [
+              "zero_day",
+              "apt_espionage",
+              "web_shell_backdoor",
+              "active_exploitation"
             ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-3502"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "no_patch_yet"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Claude Code RCE: How a Malicious PR Triggers Code Execution",
-          "link": "https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/",
-          "published": "2026-08-06T21:22:53+00:00",
-          "summary": "Abusing the trust boundary in Claude Code for RCE. Trust is never broken and that opens up a few avenues for abuse. Simply opening claude code on a PR can be enough to silently trigger attacker payloads. submitted by /u/kev-thehermit [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4869,6 +4717,87 @@
       ]
     },
     {
+      "cluster_id": "3e123aa6ec",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Immigration Policy: The Backdoor to Transnational Repression",
+        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+        "published": "2026-08-05T13:45:26+00:00",
+        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Immigration Policy: The Backdoor to Transnational Repression",
+          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+          "published": "2026-08-05T13:45:26+00:00",
+          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2ba7372881",
       "priority_score": 10,
       "member_count": 1,
@@ -4972,87 +4901,6 @@
               "Android": "target",
               "OpenAI/ChatGPT": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3e123aa6ec",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Immigration Policy: The Backdoor to Transnational Repression",
-        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-        "published": "2026-08-05T13:45:26+00:00",
-        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Immigration Policy: The Backdoor to Transnational Repression",
-          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-          "published": "2026-08-05T13:45:26+00:00",
-          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6369,6 +6217,123 @@
       ]
     },
     {
+      "cluster_id": "3b8dca7ee7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "legal_professional"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "Microsoft 365",
+          "Salesforce"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+        "published": "2026-08-10T15:30:00+00:00",
+        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+        "full_body": "Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as \"almost non-existent,\" and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Cloud and SaaS Environments Now Top Targets for Attackers News 4 August 2026 1 Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident News 6 August 2026 2 Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign News 6 August 2026 3 NVIDIA Group Proposes SAFE Ini",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "legal_professional"
+          ],
+          "affected_products": [
+            "Salesforce",
+            "Microsoft 365",
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Salesforce": "target",
+            "Microsoft 365": "target",
+            "Anthropic/Claude": "target",
+            "OpenAI/ChatGPT": "target",
+            "Snowflake": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+          "published": "2026-08-10T15:30:00+00:00",
+          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "legal_professional"
+            ],
+            "affected_products": [
+              "Salesforce",
+              "Microsoft 365",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Salesforce": "target",
+              "Microsoft 365": "target",
+              "Anthropic/Claude": "target",
+              "OpenAI/ChatGPT": "target",
+              "Snowflake": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "772794dddb",
       "priority_score": 10,
       "member_count": 1,
@@ -6498,73 +6463,62 @@
       ]
     },
     {
-      "cluster_id": "3b8dca7ee7",
+      "cluster_id": "eba783fe70",
       "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
+      "member_count": 4,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "Anthropic/Claude"
+      ],
       "taxonomy": {
         "threat_categories": [
-          "ai_security",
-          "ransomware_extortion"
+          "ai_security"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "legal_professional"
-        ],
+        "affected_industries": [],
         "affected_products": [
           "Anthropic/Claude",
-          "Microsoft 365",
-          "Salesforce"
+          "OpenAI/ChatGPT"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_2_operator",
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-        "published": "2026-08-10T15:30:00+00:00",
-        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
-        "full_body": "Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as \"almost non-existent,\" and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Cloud and SaaS Environments Now Top Targets for Attackers News 4 August 2026 1 Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident News 6 August 2026 2 Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign News 6 August 2026 3 NVIDIA Group Proposes SAFE Ini",
+        "source": "Simon Willison",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Quoting Claude Opus 5 system prompt",
+        "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+        "published": "2026-08-09T23:31:39+00:00",
+        "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn",
+        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Dynatrace — When agents enter the SDLC, observability becomes the enabler to move from code generation to scalable engineering. Read the blog for a framework to get started 9th August 2026 Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn't provide incorrect answers about the export controls situation Posted 9th August 2026 at 11:31 pm Recent articles Now we have a timeline of the OpenAI accidental attack against Hugging Face - 7th August 2026 One-shotting a Raccoon Heist game using Claude Fable 5 - 5th August 2026 New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging - 4th August 2026 This is a quotation collected by Simon Willison, posted on 9th August 2026 . ai 2,179 generative-ai 1,930 llms 1,897 anthropic 326 claude 300 system-prompts 55 claude-mythos-fable 35 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "ai_security"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "legal_professional"
-          ],
+          "affected_industries": [],
           "affected_products": [
-            "Salesforce",
-            "Microsoft 365",
+            "OpenAI/ChatGPT",
             "Anthropic/Claude"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
           "role_map": {
-            "Salesforce": "target",
-            "Microsoft 365": "target",
-            "Anthropic/Claude": "target",
             "OpenAI/ChatGPT": "target",
-            "Snowflake": "target"
+            "Anthropic/Claude": "target"
           },
           "weak_tags": {
             "products": []
@@ -6573,39 +6527,85 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-          "published": "2026-08-10T15:30:00+00:00",
-          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Quoting Claude Opus 5 system prompt",
+          "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+          "published": "2026-08-09T23:31:39+00:00",
+          "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those controls on June 30, 2026, and Anthropic restored access on July 1, 2026 (Anthropic's statement: https://www.anthropic.com/news/fable-mythos-access ). These events are after Claude's training-data cutoff, so Claude knows about them only from this notice. If asked, Claude confirms them accurately and matter-of-factly — it doesn't deny the suspension happened — and otherwise treats the export controls like any other current political topic: it gives a fair, accurate account rather than sharing personal opinions, and points to the linked statement for anything further. Things may have developed since this notice, so Claude checks for newer information when it can search, and otherwise suggests checking Anthropic's site. — Claude Opus 5 system prompt , ensuring Claude doesn",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "ai_security"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "legal_professional"
-            ],
+            "affected_industries": [],
             "affected_products": [
-              "Salesforce",
-              "Microsoft 365",
+              "OpenAI/ChatGPT",
               "Anthropic/Claude"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic to put AI in charge of reviewing Claude Code actions by default",
+          "link": "https://www.helpnetsecurity.com/2026/08/10/anthropic-claude-code-auto-mode/",
+          "published": "2026-08-10T09:13:29+00:00",
+          "summary": "Anthropic will make auto mode in Claude Code the default for new sessions on Pro, Max, and Team plans starting August 14. Users who previously selected a different default may receive a one-time prompt asking whether they want to switch to auto mode. In a controlled experiment with 1,053 paid professional testers, human review caught just 13.6% of dangerous commands, while auto mode caught 89%. (Source: Anthropic) It remains optional on Claude Enterprise, the Claude … More → The post Anthropic to put AI in charge of reviewing Claude Code actions by default appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "Salesforce": "target",
-              "Microsoft 365": "target",
-              "Anthropic/Claude": "target",
-              "OpenAI/ChatGPT": "target",
-              "Snowflake": "target"
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Claude Code RCE: How a Malicious PR Triggers Code Execution",
+          "link": "https://www.reddit.com/r/netsec/comments/1vhh5xw/claude_code_rce_how_a_malicious_pr_triggers_code/",
+          "published": "2026-08-06T21:22:53+00:00",
+          "summary": "Abusing the trust boundary in Claude Code for RCE. Trust is never broken and that opens up a few avenues for abuse. Simply opening claude code on a PR can be enough to silently trigger attacker payloads. submitted by /u/kev-thehermit [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -7991,306 +7991,6 @@
       ]
     },
     {
-      "cluster_id": "2d8e9f812d",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kimsuky"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "Kimsuky"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Fortinet",
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-        "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-        "published": "2026-08-10T13:19:58+00:00",
-        "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the",
-        "full_body": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development  Swati Khandelwal  Aug 10, 2026 Cyber Espionage / Artificial Intelligence North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the setup after months of tracking and log analysis on infrastructure tied to Kimsuky, a hacking unit under North Korea's Reconnaissance General Bureau. Genians found no evidence that the group had trained an AI model of its own, and the firm does not offer that as reassurance. It describes an actor in a \"research and knowledge acquisition\" stage, assembling and testing existing tools rather than making new models, with the apparent aim of folding AI through the operation, from writing malware to analyzing data. For an intelligence unit that has spent years phishing government, research, and other strategic targets, that points to attacks that are quicker to prepare and harder to spot. With nothing here to patch, the weight lands on defenders. Once AI writes the bait, the tells they once relied on weaken: stilted translation, clumsy formatting, spelling mistakes. What an intrusion does on the machine becomes the thing to watch. Genians' report tells defenders to correlate LNK execution, PowerShell, hidden scheduled tasks, GitHub traffic, and later payload activity instead of judging a lure mainly by how polished it looks. The core evidence is tools for running language models offline: Ollama, GPT4All and Msty, all found on infrastructure Genians linked to the group. The report says they were run or configured, not merely downloaded: Ollama generated the keys created on first launch, while GPT4All carried a configured localdocs_v3.db, the database used by its LocalDocs retrieval-augmented generation (RAG) feature. RAG lets a model answer from a private collection of documents. The database is evidence that the actor tried to connect documents in its possession to an AI system; it does not establish that those documents were stolen. The researchers separately recovered an operator request to check a data set for wallet details, Gmail credentials and site-registration history, ending, \"The more detailed the analysis, the better. Please do not do it haphazardly.\" The report could not confirm that this particular request was submitted to an AI service. The group did not stop at ready-made apps. On the same infrastructure, the firm found developer libraries including LLaMaSharp, Microsoft's Semantic Kernel and Microsoft.Agents.AI, components for building AI functions into custom C# and .NET software. It also found OpenAI's Whisper speech-to-text files with a guide on extracting text from audio, and active traces of Cursor, an AI-powered coding editor. None of these tools is exotic. What is new is a nation-state espionage group assembling them on purpose to push AI deeper into its own attack workflow. The activity extends a Kimsuky campaign Genians calls Operation GitPower, which abuses GitHub repositories as command channels in an LNK-to-PowerShell infection chain and has distributed encrypted AsyncRAT payloads disguised as image files Fortinet separately documented the broader GitHub-C2 pattern in April in attacks targeting South Korean users. That report corroborates the surrounding technique family, not Genians' new local-AI artifacts; Reuters said the new findings could not be independently verified. The newly observed offline stack (the local models, RAG database, and transcription tools) has not been shown running against a victim in the reporting to date, and no GitPower victim count has been disclosed. Set against the broader \"AI attack tools\" framing, that is a narrower near-term chan",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [
-            "Kimsuky"
-          ],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "GitHub",
-            "Fortinet"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitHub": "target",
-            "Fortinet": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-          "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-          "published": "2026-08-10T13:19:58+00:00",
-          "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [
-              "Kimsuky"
-            ],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "GitHub",
-              "Fortinet"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target",
-              "Fortinet": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b6d7475cc2",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-        "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-        "published": "2026-08-07T10:09:54+00:00",
-        "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-          "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-          "published": "2026-08-07T10:09:54+00:00",
-          "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3569b34b72",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-59774",
-        "Gitea"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Gitea"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-59774"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-        "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-        "published": "2026-08-05T11:04:23+00:00",
-        "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Gitea"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-59774"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gitea": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-          "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-          "published": "2026-08-05T11:04:23+00:00",
-          "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Gitea"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-59774"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gitea": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "38f40f9f14",
       "priority_score": 8,
       "member_count": 1,
@@ -8298,11 +7998,17 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
+          "mfa_bypass",
           "phishing_social_eng",
           "ransomware_extortion"
         ],
-        "actor_attribution": [],
-        "affected_industries": [],
+        "actor_attribution": [
+          "UNC6671"
+        ],
+        "affected_industries": [
+          "healthcare",
+          "manufacturing_industrial"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -8322,15 +8028,21 @@
         "link": "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
         "published": "2026-08-07T09:40:00+00:00",
         "summary": "BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Infosecurity Magazine Home » News » Google Links Redact Extortion Group to BlackFile Rebrand Google Links Redact Extortion Group to BlackFile Rebrand News 7 August 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn The BlackFile extortion group , which targets its victims through vishing scams, has rebranded. According to an analysis by Google Threat Intelligence Group (GTIG), despite BlackFile (UNC6671) having announced the retirement of its brand in 2026, it had now rebranded to Redact. Researchers said the group’s public communications cited an affiliate breakaway as the rationale for the initial rebrand. However, overlaps in phishing templates, victimology and shared infrastructure conduits suggests that associated actors have subsequently leveraged the Pink, Helix and Falcon extortion brands to monetize their operations. Redact operators published a blog post about their new data lead site (DLS) and the rebrand from Black File on June 27. The group claimed that the original BlackFile brand had been compromised and hijacked by an exiled affiliate. A rogue affiliate was apparently responsible for operating an unauthorized, lookalike DLS and conducted unsanctioned extortion campaigns under BlackFile’s name using unlinked Tox identities. They were also accused of orchestrating the supposed shutdown of the BlackFile brand in May 2026. REDACT statement on alleged break from BlackFile: Source GTIG Vishing Scams Impersonate IT Help Desks Whatever name the group operates under now, the initial access and post-compromise tactics, techniques, and procedures (TTPs) have largely remained the same, according to GTIG. GTIG said, “This most likely reflects a coordinated group of threat actors operating multiple public extortion brands possibly in an effort to compartmentalize operations, hide overall breach volumes and isolate any negotiation fallout.” The cybercriminal group uses voice phishing to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Victims are often targeted via their personal devices. The calls lure targets to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from enterprise cloud environments, including Microsoft 365 and Okta. GTIG was able to connect the BlackFile, Redact, Pink, Helix and Falcon extortion brands because rather than maintaining isolated infrastructure for each target, UNC6671 reuses generic root domains across multiple target organizations. Root domains like passkeyhelpdesk[.]com and passkeydeploy[.]com were used by more than one of the groups. Across all the domains identified by GTIG, the researchers noted that the same phishing templates were used. Some domains were simultaneously used to target two entirely separate victims, one of which was claimed by Falcon, and the other by Helix. “The widespread deployment of these matching templates to harvest credentials for multiple DLS brands suggests they rely on shared underlying infrastructure,” the researchers said. New Techniques and Victim Evolutions New techniques deployed by UNC6671 observed by GTIG include the use of a spoofed legitimate helpdesk phone number. The pretext of the calls is an urgent mandate to enable FIDO2 passkeys or update multi-factor authentication enrollment, the caller directs the employee to a lookalike credential-harvesting subdomain. UNC6671 has also been observed using compromised email accounts to reset passwords for enterprise applications and then delete security notifications and alert emails to evade detection and maintain persistent access. UNC6671's targeting evolved significantly between April and July 2026. From April to May, the group focused on large enterprises in the manufacturing, real estate, healthcare and insura",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "ransomware_extortion",
-            "phishing_social_eng"
+            "phishing_social_eng",
+            "mfa_bypass"
           ],
-          "actor_attribution": [],
-          "affected_industries": [],
+          "actor_attribution": [
+            "UNC6671"
+          ],
+          "affected_industries": [
+            "healthcare",
+            "manufacturing_industrial"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -8355,10 +8067,16 @@
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion",
-              "phishing_social_eng"
+              "phishing_social_eng",
+              "mfa_bypass"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
+            "actor_attribution": [
+              "UNC6671"
+            ],
+            "affected_industries": [
+              "healthcare",
+              "manufacturing_industrial"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8588,6 +8306,285 @@
       ]
     },
     {
+      "cluster_id": "2d8e9f812d",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Kimsuky"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "Kimsuky"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+        "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+        "published": "2026-08-10T13:19:58+00:00",
+        "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "Kimsuky"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+          "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+          "published": "2026-08-10T13:19:58+00:00",
+          "summary": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "Kimsuky"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b6d7475cc2",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+        "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+        "published": "2026-08-07T10:09:54+00:00",
+        "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+          "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+          "published": "2026-08-07T10:09:54+00:00",
+          "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3569b34b72",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-59774",
+        "Gitea"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Gitea"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-59774"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+        "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+        "published": "2026-08-05T11:04:23+00:00",
+        "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Gitea"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-59774"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gitea": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+          "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+          "published": "2026-08-05T11:04:23+00:00",
+          "summary": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Gitea"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-59774"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gitea": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "444876da64",
       "priority_score": 8,
       "member_count": 2,
@@ -8741,9 +8738,9 @@
           "poc_available"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 6,
-      "cohesion": 0.42,
+      "cluster_count": 5,
+      "article_count": 7,
+      "cohesion": 0.456,
       "shared_strong_signals": [
         "UNC6671"
       ],
@@ -8753,14 +8750,16 @@
         "292d4f04d7",
         "502d49d687",
         "6ae4a5bc55",
-        "4f50dc8ea5"
+        "4f50dc8ea5",
+        "38f40f9f14"
       ],
       "links": [
         "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
         "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
         "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
         "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/",
-        "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/"
+        "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/",
+        "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/"
       ]
     },
     {
@@ -9053,43 +9052,6 @@
       ]
     },
     {
-      "label": "Fortinet active exploitation",
-      "anchor_signal": "Fortinet",
-      "theme_key": "fortinet",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Fortinet"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Fortinet"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "815134b7b7",
-        "1c833c15fa",
-        "2d8e9f812d"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
-        "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html"
-      ]
-    },
-    {
       "label": "supply chain targeting npm",
       "anchor_signal": "npm",
       "theme_key": "npm",
@@ -9130,6 +9092,43 @@
         "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
         "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
         "https://unit42.paloaltonetworks.com/ai-token-jacking/"
+      ]
+    },
+    {
+      "label": "Kubernetes vulnerability activity",
+      "anchor_signal": "Kubernetes",
+      "theme_key": "kubernetes",
+      "dominant_features": {
+        "affected_products": [
+          "Kubernetes"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 19,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Kubernetes"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "61004037ea",
+        "8429d526c4"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
+        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
+        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
+        "https://www.wiz.io/blog/keyv-and-cacheable-npm-supply-chain-attack",
+        "https://securelist.com/cloud-platforms-in-phishing/120832/",
+        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
+        "https://www.helpnetsecurity.com/2026/08/10/chainloop-open-source-supply-chain-security/",
+        "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
+        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
+        "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/"
       ]
     },
     {
