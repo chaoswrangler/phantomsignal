@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-11T20:54:31.816459+00:00
+- Generated: 2026-08-11T21:56:13.009902+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
-- Total items in window: 348
-- Total clusters raw: 150
-- Total clusters in packet: 68
-- Dropped low score: 82
+- Total items in window: 351
+- Total clusters raw: 152
+- Total clusters in packet: 69
+- Dropped low score: 83
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,33 +70,28 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -105,71 +100,66 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 25
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 5
+  - Item count: 20
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 5
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -180,6 +170,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -205,16 +205,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -249,51 +249,56 @@
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 11
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 3
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 3
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
@@ -305,11 +310,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -320,31 +335,16 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -360,36 +360,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 19
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 22
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 20
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 2
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -415,6 +415,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -425,36 +430,31 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 21
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -473,25 +473,26 @@
 
 ## Affinity groups (themes)
 
-### Lazarus exploitation (CVE-2026-68820)
-- Anchor signal: Lazarus
-- Theme key: lazarus
-- Cluster count: 3
-- Article count: 8
-- Cohesion: 0.405
-- Shared strong signals: Lazarus
-- Member CVEs: CVE-2026-68820
+### CVE-2026-68820 exploitation (Microsoft Windows)
+- Anchor signal: CVE-2026-68820
+- Theme key: cve-2026-68820
+- Cluster count: 4
+- Article count: 9
+- Cohesion: 0.322
+- Shared strong signals: CVE-2026-68820
+- Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
+  - threat_categories: zero_day, active_exploitation, phishing_social_eng
   - actor_attribution: Lazarus
   - affected_products: Microsoft Windows
-  - cve_ids: CVE-2026-68820
+  - cve_ids: CVE-2026-68820, CVE-2026-62832
   - urgency_signals: zero_day, actively_exploited
-- Cluster IDs: c13f381a5a, 9adc048f2e, 7f18333ab6
+- Cluster IDs: c13f381a5a, 9adc048f2e, ef336b7141, 7f18333ab6
 - Links:
   - https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/
   - https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/
+  - https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
   - https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
   - https://www.securityweek.com/august-2026-patch-tuesday-microsoft-fixes-421-cves-one-exploited-zero-day/
   - https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5120249-cumulative-update-released-with-fixes/
@@ -559,9 +560,9 @@
 - Links:
   - https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/
   - https://risky.biz/RBNEWS598/
-  - https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
   - https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
   - https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/
+  - https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
   - https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/
 
 ### credential theft targeting Apple iOS/macOS
@@ -601,24 +602,6 @@
   - https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/
   - https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/
   - https://www.recordedfuture.com/blog/july-2026-cve-landscape
-
-### Docker active exploitation
-- Anchor signal: Docker
-- Theme key: docker
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.439
-- Shared strong signals: Docker
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - affected_products: Docker, GitHub
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 5b2b2cce63, f92fe3a8b7
-- Links:
-  - https://www.wiz.io/blog/inside-the-metabase-sqli-exploited-in-the-wild
-  - https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
 
 ### supply chain targeting npm
 - Anchor signal: npm
@@ -722,15 +705,29 @@
   - https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/
   - https://www.recordedfuture.com/blog/july-2026-cve-landscape
 
+### Scattered Spider: ransomware extortion
+- Anchor signal: Scattered Spider
+- Theme key: scattered-spider
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.402
+- Shared strong signals: Scattered Spider
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion
+  - actor_attribution: Scattered Spider
+  - affected_industries: financial_services
+- Cluster IDs: fb2a69eb0a, 560a47a6ad
+- Links:
+  - https://unit42.paloaltonetworks.com/soc-identity-front-door/
+  - https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 5
-  - CVE-2026-20349 (first seen via BleepingComputer at 2026-08-11T19:45:31+00:00, cluster 9202676389)
-  - CVE-2026-59124 (first seen via The Hacker News at 2026-08-11T20:10:55+00:00, cluster 7f18333ab6)
-  - CVE-2026-62815 (first seen via The Hacker News at 2026-08-11T20:10:55+00:00, cluster 7f18333ab6)
-  - CVE-2026-62878 (first seen via The Hacker News at 2026-08-11T20:10:55+00:00, cluster 7f18333ab6)
-  - CVE-2026-62893 (first seen via The Hacker News at 2026-08-11T20:10:55+00:00, cluster 7f18333ab6)
+- Novel cves: 1
+  - CVE-2026-72971 (first seen via Krebs on Security at 2026-08-11T21:28:35+00:00, cluster ef336b7141)
 - Novel actors: 0
 - Novel products: 0
 
@@ -781,7 +778,7 @@
 - actor_attribution: ShinyHunters (weeks observed: 11, cluster d8c893e316)
 - actor_attribution: Scattered Spider (weeks observed: 9, cluster fb2a69eb0a)
 - actor_attribution: TeamPCP (weeks observed: 8, cluster 61004037ea)
-- cve_ids: CVE-2026-20230 (weeks observed: 5, cluster 9202676389)
+- cve_ids: CVE-2026-20230 (weeks observed: 6, cluster 9202676389)
 - cve_ids: CVE-2025-3248 (weeks observed: 5, cluster 1c833c15fa)
 - cve_ids: CVE-2026-8037 (weeks observed: 4, cluster c97f90a69b)
 - cve_ids: CVE-2026-18577 (weeks observed: 3, cluster 9ba36c56b8)
@@ -1353,7 +1350,7 @@ Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updat
 #### Full body
 
 ```
-Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days By Lawrence Abrams August 11, 2026 02:08 PM 2 Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. Patch Tuesday addresses 42 "Critical" vulnerabilities, 37 of which are remote code execution and 5 are elevation of privilege. The approximate number of bugs in each vulnerability category is listed below: 176 Elevation of Privilege Vulnerabilities 11 Security Feature Bypass Vulnerabilities 110 Remote Code Execution Vulnerabilities 86 Information Disclosure Vulnerabilities 12 Denial of Service Vulnerabilities 21 Spoofing Vulnerabilities When BleepingComputer reports on Patch Tuesday security updates, we only count those released by Microsoft today. Therefore, the number of flaws does not include some flaws in Mariner, Microsoft Teams, Microsoft Azure, Microsoft Entra, Microsoft Office, and Power Apps that were fixed by Microsoft earlier this month. While this Patch Tuesday is not as large as last month's, which fixed 570 flaws , it is still very large compared to the previous month. Microsoft warned that there would be an increase in Patch Tuesday security updates as it has begun to use an AI-powered vulnerability discovery system to identify more security flaws across its software products. To learn more about the non-security updates released today, you can review our dedicated articles on the Windows 11 KB5121003 & KB5120240 cumulative updates and the Windows 10 KB5120249 extended security update . Microsoft patches 3 zero-days This month's Patch Tuesday fixes three zero-day vulnerabilities, with one exploited in attacks and two publicly disclosed. Microsoft classifies a zero-day flaw as publicly disclosed or actively exploited while no official fix is available. The actively exploited zero-day vulnerabilities addressed during this month's Patch Tuesday are: CVE-2026-68820 - Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability Microsoft has patched an actively exploited vulnerability in the Windows Ancillary Function Driver for WinSock that grants SYSTEM privileges. "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally," warns Microsoft. "A locally authenticated attacker could run a specially crafted application on an affected system to trigger a race condition. Successful exploitation could allow the attacker to gain SYSTEM privileges. User interaction is not required," continued Microsoft. The flaws were credited to Moshe Marelus and David Driker with Checkpoint. In a report released today, Check Point says the flaw was exploited in zero-day attacks by the North Korean threat actors known as Lazarus to deploy malware. "During the intrusion, the threat actor exploited CVE-2026-68820, a zero-day vulnerability in the Microsoft AFD.sys driver, to deploy a new version of FudModule, Lazarus’ kernel-mode rootkit," said Check Point . Microsoft has not shared any details on how the flaws were exploited. The two publicly disclosed zero-days that was fixed are: CVE-2026-62832 - Windows User Profile Service Elevation of Privilege Vulnerability Microsoft has patched a publicly disclosed elevation of privileges flaw in the Windows User Profile service that provides adminstrator privileges. "Improper link resolution before file access ('link following') in Windows User Profile Service allows an authorized attacker to elevate privileges locally," explains Microsoft. "An authenticated attacker who has credentials for another local account could run a specially crafted application to load another user's registry hive. Successful exploitation could allow the attacker to access or modify another user's data and gain administrator privileges. User interaction is not required," continued Microsoft. While Microsoft attributed the flaw to an anony
+Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days By Lawrence Abrams August 11, 2026 02:08 PM 3 Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. Patch Tuesday addresses 42 "Critical" vulnerabilities, 37 of which are remote code execution and 5 are elevation of privilege. The approximate number of bugs in each vulnerability category is listed below: 176 Elevation of Privilege Vulnerabilities 11 Security Feature Bypass Vulnerabilities 110 Remote Code Execution Vulnerabilities 86 Information Disclosure Vulnerabilities 12 Denial of Service Vulnerabilities 21 Spoofing Vulnerabilities When BleepingComputer reports on Patch Tuesday security updates, we only count those released by Microsoft today. Therefore, the number of flaws does not include some flaws in Mariner, Microsoft Teams, Microsoft Azure, Microsoft Entra, Microsoft Office, and Power Apps that were fixed by Microsoft earlier this month. While this Patch Tuesday is not as large as last month's, which fixed 570 flaws , it is still very large compared to the previous month. Microsoft warned that there would be an increase in Patch Tuesday security updates as it has begun to use an AI-powered vulnerability discovery system to identify more security flaws across its software products. To learn more about the non-security updates released today, you can review our dedicated articles on the Windows 11 KB5121003 & KB5120240 cumulative updates and the Windows 10 KB5120249 extended security update . Microsoft patches 3 zero-days This month's Patch Tuesday fixes three zero-day vulnerabilities, with one exploited in attacks and two publicly disclosed. Microsoft classifies a zero-day flaw as publicly disclosed or actively exploited while no official fix is available. The actively exploited zero-day vulnerabilities addressed during this month's Patch Tuesday are: CVE-2026-68820 - Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability Microsoft has patched an actively exploited vulnerability in the Windows Ancillary Function Driver for WinSock that grants SYSTEM privileges. "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally," warns Microsoft. "A locally authenticated attacker could run a specially crafted application on an affected system to trigger a race condition. Successful exploitation could allow the attacker to gain SYSTEM privileges. User interaction is not required," continued Microsoft. The flaws were credited to Moshe Marelus and David Driker with Checkpoint. In a report released today, Check Point says the flaw was exploited in zero-day attacks by the North Korean threat actors known as Lazarus to deploy malware. "During the intrusion, the threat actor exploited CVE-2026-68820, a zero-day vulnerability in the Microsoft AFD.sys driver, to deploy a new version of FudModule, Lazarus’ kernel-mode rootkit," said Check Point . Microsoft has not shared any details on how the flaws were exploited. The two publicly disclosed zero-days that was fixed are: CVE-2026-62832 - Windows User Profile Service Elevation of Privilege Vulnerability Microsoft has patched a publicly disclosed elevation of privileges flaw in the Windows User Profile service that provides adminstrator privileges. "Improper link resolution before file access ('link following') in Windows User Profile Service allows an authorized attacker to elevate privileges locally," explains Microsoft. "An authenticated attacker who has credentials for another local account could run a specially crafted application to load another user's registry hive. Successful exploitation could allow the attacker to access or modify another user's data and gain administrator privileges. User interaction is not required," continued Microsoft. While Microsoft attributed the flaw to an anony
 ```
 
 #### Corroborating sources (1)
@@ -1363,6 +1360,51 @@ Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days By Lawrence Abr
   - Published: 2026-08-11T18:08:50+00:00
   - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/
   - Summary: Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]
+
+### Cluster ef336b7141 — score 21
+
+- Title: Microsoft Plugs Nearly 400 Security Holes
+- Source: Krebs on Security (practitioner_analysis)
+- Published: 2026-08-11T21:28:35+00:00
+- Link: https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng, zero_day
+- cve_ids: CVE-2026-62832, CVE-2026-68820, CVE-2026-72971
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day, active_exploitation
+- cve_ids: CVE-2026-68820, CVE-2026-62832, CVE-2026-72971
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.
+```
+
+#### Full body
+
+```
+Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today. Image: Shutterstock, Mallika Home Studio. August’s overstuffed bundle of patch joy from Microsoft did not eclipse its recording breaking release of more than 570 security updates last month , but it is double June’s then-record batch of nearly 200 fixes . Microsoft has attributed the recent patch deluge to vulnerability discoveries aided by artificial intelligence, and experts roundly agree that Windows users should get used to the idea of Patch Tuesdays (the second Tuesday of each month) covering hundreds of newly discovered security flaws. Fully 42 of the 398 flaws that Microsoft patched today earned Redmond’s most-dire “critical” rating, meaning they are severe enough that malware or malcontents could exploit them to gain remote control over a Windows computer with little to no help from the user. The sole known “zero day” bug fixed by Microsoft this month is CVE-2026-68820 , a privilege escalation weakness in a core Windows component called afd.sys , which the security firm Automox describes as “the driver behind Windows socket connections on effectively every endpoint.” “This isn’t a front-door bug,” Automox’s Landon Miles wrote in a Patch Tuesday blog post. “It’s step two in a chain: an attacker phishes their way into a low-privilege foothold, then uses the driver flaw to take the box. The 7.0 score reflects the high attack complexity, because race conditions are fiddly. The exploit has to be thrown over and over until the timing lands. Someone is clearly landing it anyway.” CVE-2026-62832 is another privilege escalation flaw that Microsoft has labeled likely to be exploited; this flaw, in the Windows User Profile Service, may be related to the recent “LegacyHive” public disclosure from the prolific bug hunter known as Nightmare Eclipse . The other publicly disclosed flaw is CVE-2026-72971 , a low-impact local tampering vulnerability that Microsoft reckons is unlikely to be exploited. Other major software makers are likewise increasing their patch volumes and cadence thanks to AI, including Adobe which last month moved to twice-monthly security bulletins published on the 2nd and 4th Tuesday of each month. Cisco , Google , Mozilla and Oracle also are shipping updates far more frequently and abundantly. By all accounts, AI is quite good at finding security holes in software. But for now at least, patching the resulting bugpocalypse remains a heavily human-centric endeavor, and the jury is still out on whether AI technologies will turn out to be as good at fixing vulnerabilities as they are at finding and exploiting them. This is an important question when one considers that these same AI technologies also are suggesting fixes for the vulnerabilities they find. Researchers at 1Password recently examined what happens when different large language models (LLMs) generate vulnerability patches for newly disclosed, complex vulnerabilities. They found the LLMs produced patches that failed to fix the flaw or added a new weakness in the process (or both) more than half the time. Ed Skoudis , president of the SANS Technology Institute , said his team has seen excellent results using AI to generate patches, provided there are humans in the loop to test the suggested fixes and push for iterative improvements. “AI is rapidly becoming astonishingly good at finding vulnerabilities, but this research shows that fixing them is a very different problem,” Skoudis wrote in a SANS newsletter today. “Don’t expect one-shot AI patching to work reliably. Instead, iterate, test, challenge, improve, and verify. AI can be an extraordinary patching partner, but today it still needs a skilled human at the keyboard.” Tyler Reguly at Fortra says while reports of Microsoft patching hundreds of vulne
+```
+
+#### Corroborating sources (1)
+
+- **Krebs on Security** (practitioner_analysis)
+  - Title: Microsoft Plugs Nearly 400 Security Holes
+  - Published: 2026-08-11T21:28:35+00:00
+  - Link: https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
+  - Summary: Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.
 
 ### Cluster 9a320ea4d0 — score 19
 
@@ -1637,11 +1679,6 @@ Risky Bulletin Podcast August 10, 2026 Risky Bulletin: Two law firms pay giant r
   - Published: 2026-08-10T02:17:51+00:00
   - Link: https://risky.biz/RBNEWS598/
   - Summary: Two American law firms pay multi-million dollar ransoms, a Metabase zero-day is being used in data theft attacks, Russian hackers disrupted a second power plant in Poland, and there’s a remote code execution bug in WordPress… again!
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: BdThemes plugins supply-chain hack creates rogue WordPress admins
-  - Published: 2026-08-10T21:12:10+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
-  - Summary: A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins
   - Published: 2026-08-11T05:48:44+00:00
@@ -1652,6 +1689,11 @@ Risky Bulletin Podcast August 10, 2026 Risky Bulletin: Two law firms pay giant r
   - Published: 2026-08-10T14:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/
   - Summary: Poisoned JSON feed let attackers backdoor WordPress sites without changing any plugin files
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: BdThemes plugins supply-chain hack creates rogue WordPress admins
+  - Published: 2026-08-10T21:12:10+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/
+  - Summary: A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]
 
 ### Cluster ff79c00af4 — score 16
 
@@ -1724,8 +1766,8 @@ Share Link copied to clipboard! Tags ClickFix Content types Research Products an
 - Published: 2026-08-10T00:00:00+00:00
 - Link: https://www.recordedfuture.com/blog/hugging-face-cheap-persistence
 - Fetch status: ok
-- Member count: 15
-- Corroborating source count: 7
+- Member count: 14
+- Corroborating source count: 6
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -1756,7 +1798,7 @@ The Hugging Face and OpenAI security incident showed AI doesn't make attackers s
 The Hugging Face Hack Was Cheap Persistence at Work The OpenAI-Hugging Face incident is being discussed primarily as a zero-day story. That framing is too narrow. The agent discovered and exploited previously unknown vulnerabilities. The more consequential development came afterward. Over a four-and-a-half-day campaign, it carried out roughly 17,600 actions against Hugging Face’s infrastructure. Most of those actions failed. The operation advanced because each failure imposed little cost, and the next attempt could begin immediately. The system could keep exploring, reconstruct its tools, revisit abandoned paths, and test another hypothesis without fatigue or meaningful opportunity cost. That changes both the economics and the tempo of cyber offense. For most of cybersecurity history, sustained intrusion activity has been constrained by human attention. Skilled operators have limited time, and every unproductive hour spent on one target is unavailable for other work. AI erodes that constraint. The significance of 17,600 actions lies as much in their concentration as in their cost. They occurred within four and a half days. AI enables concentration of effort in time. A motivated attacker has always been able to spend more on a valuable target, but money alone could not make human operators sustain this tempo. The new advantage is the ability to concentrate thousands of attempts on a single environment before a defender’s traditional processes can assemble the evidence. The future threat is therefore unlikely to resemble a single, infallible artificial hacker. It is more likely to resemble a flood of low-confidence activity probing the accumulated technical debt of modern enterprises. Large organizations are especially fertile terrain. Their environments have developed over decades, layering legacy systems with cloud services and inherited trust relationships that no one designed as a whole. An autonomous system need not outperform the best human attacker. It only needs to search for that complexity cheaply and quickly enough to find the few combinations that work before defenders can assemble the pattern. The OpenAI incident occurred under highly unusual conditions . The models were being evaluated for advanced cyber capabilities with reduced refusals, substantial inference resources, and an objective that encouraged persistent exploration. OpenAI has also said that the most capable research prototype involved was never intended for public release. Its complete technical investigation remains unfinished. Those caveats should temper sensationalism. They do not invalidate the warning. Frontier capabilities diffuse . Models become smaller, cheaper , and easier to operate. Techniques developed in advanced laboratories eventually migrate into commercial tools, open-source projects, state programs, and criminal services. Recorded Future’s research had previously found that complex autonomous cyber operations remained beyond the practical capabilities of generally available models at the time, while the broader trajectory pointed toward more complex agentic operations. The Hugging Face incident suggests that this transition is occurring faster than many defenders expected. The question is no longer whether AI can execute a multistage intrusion under the right conditions. It is how quickly those conditions will become cheaper to reproduce . Layered defense for the agentic era. Prevention remains essential, yet this incident also exposes its limits. The first breakthrough did not occur within Hugging Face’s perimeter but stemmed from a previously unknown vulnerability in an Artifactory component (CVE-2026-65617, CVE-2026-65923, and CVE-2026-66018) in OpenAI’s evaluation environment. Before the campaign reached Hugging Face, neither Hugging Face nor an external intelligence provider had a factual basis to know that this specific path existed or that Hugging Face would become the target. If agentic systems increase the frequency with whic
 ```
 
-#### Corroborating sources (7)
+#### Corroborating sources (6)
 
 - **Recorded Future** (threat_research_primary)
   - Title: The Hugging Face Hack Was Cheap Persistence at Work
@@ -1773,11 +1815,6 @@ The Hugging Face Hack Was Cheap Persistence at Work The OpenAI-Hugging Face inci
   - Published: 2026-08-08T14:06:41+00:00
   - Link: https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything
   - Summary: My comment on Now we have a timeline of the OpenAI accidental attack against Hugging Face — Hacker News. I think one of the most interesting details here might be tucked away in that first bulletin point: May 7: OpenAI starts a new training run for an experimental, unreleased model. (Do they mean an evaluation run? They say training run in the video, and later mention a “reward signal to judge how well they’re doing”, so I guess this really was about training a model, not evaluating one that was already trained.) The more I think about this the more I suspect that the fact this happened while training a new model is key to understanding what went wrong. In RLVR - Reinforcement Learning with Verifiable Rewards - you set the model a goal and have it take any steps necessary to achieve that goal. Clearly one aspect of OpenAI's training here is to RLVR their models for cybersecurity tasks. Just like pre-training benefits from dumping in vast sources of knowledge, the more tasks you can fee
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users
-  - Published: 2026-08-10T19:24:40+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/
-  - Summary: OpenAI has developed a new model called "GPT 5.6 Cyber," designed for vulnerability research, penetration testing, incident response, and remediation. [...]
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride
   - Published: 2026-08-06T20:39:30+00:00
@@ -2464,47 +2501,6 @@ Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windo
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
   - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
 
-### Cluster 3e123aa6ec — score 10
-
-- Title: Immigration Policy: The Backdoor to Transnational Repression
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-05T13:45:26+00:00
-- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: Immigration Policy: The Backdoor to Transnational Repression
-  - Published: 2026-08-05T13:45:26+00:00
-  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
-  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
-
 ### Cluster a36b6d83b6 — score 10
 
 - Title: 10th August – Threat Intelligence Report
@@ -2600,6 +2596,47 @@ CATEGORIES AI Research 18 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-08-06T22:20:00+00:00
   - Link: https://research.checkpoint.com/2026/when-agentic-glue-melts/
   - Summary: By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .
+
+### Cluster 3e123aa6ec — score 10
+
+- Title: Immigration Policy: The Backdoor to Transnational Repression
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-05T13:45:26+00:00
+- Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: Immigration Policy: The Backdoor to Transnational Repression
+  - Published: 2026-08-05T13:45:26+00:00
+  - Link: https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/
+  - Summary: Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .
 
 ### Cluster 1c833c15fa — score 10
 
@@ -3217,45 +3254,6 @@ Welcome to the 25th edition of Cloudflare's DDoS Threat Report. This is the firs
   - Link: https://blog.cloudflare.com/ddos-threat-report-2026-h1/
   - Summary: In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.
 
-### Cluster 74facd82a0 — score 9
-
-- Title: PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-08-11T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards that can benefit everyone. As post-quantum cryptography (PQC) has matured, we’ve been rolling it out in our infrastructure for internal and customer-facing services. Today, we're sharing our updated Google Cloud roadmap to migrate to PQC by 2029 . Our strategy: Secure by design We’ve based our PQC migration strategy on the Google Quantum Threat Model , prioritizing protection across three key domains: Mitigating Store Now, Decrypt Later (SNDL) risks : Protecting today's encrypted data from being harvested and decrypted by a future quantum computer. Ensuring integrity against forgery : Strengthening digital signatures to prevent attackers from falsifying data and identity. Enhancing foundational capabilities for cryptographic agility : Building flexible systems that can easi
-```
-
-#### Full body
-
-```
-Security & Identity PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap August 11, 2026 Jai Haridas VP/GM, Regulated and Sovereign Cloud Michael Bachman VP/GM, Cloud Foundations Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards that can benefit everyone. As post-quantum cryptography (PQC) has matured, we’ve been rolling it out in our infrastructure for internal and customer-facing services. Today, we're sharing our updated Google Cloud roadmap to migrate to PQC by 2029 . Our strategy: Secure by design We’ve based our PQC migration strategy on the Google Quantum Threat Model , prioritizing protection across three key domains: Mitigating Store Now, Decrypt Later (SNDL) risks : Protecting today's encrypted data from being harvested and decrypted by a future quantum computer. Ensuring integrity against forgery : Strengthening digital signatures to prevent attackers from falsifying data and identity. Enhancing foundational capabilities for cryptographic agility : Building flexible systems that can easily adopt new cryptographic standards with minimal engineering effort as cryptographic standards evolve. We’re actively transitioning internal infrastructure and customer-facing services to PQC algorithms far ahead of regulatory deadlines. We are also deploying PQC solutions across our Sovereign Cloud initiatives , such as Google Cloud Dedicated (GCD) and Google Distributed Cloud (GDC), in collaboration with our partners. Similarly, our strategy allows us to progress on integrating post-quantum protections across our AI services to secure the next generation of cloud workloads. These efforts are fundamental pillars of our overarching strategy to achieve full post-quantum readiness across Google Cloud. As this landscape evolves, we will continue to refine and update our deployment schedules. Visualization of our Google Cloud PQC roadmap. Our efforts converge in 2029, and extend beyond it. We plan to achieve full PQC readiness by 2029, when our efforts converge. We anticipate continuing those efforts into the 2030s to support broader industry guidance and evolving global standards. These standards include CNSA 2.0 and the transition paths defined in NIST IR 8547 , which anticipate the final deprecation of legacy, quantum-vulnerable algorithms between 2030 and 2035. Immediate progress: 2026 milestones Leadership in the quantum era requires deployment at global scale. We have achieved foundational milestones that provide immediate protection for our customers: API endpoint readiness : Google Cloud API endpoints now offer quantum-safe key exchange, protecting incoming traffic from future decryption. These endpoints include google.com and *.googleapis.com, and both have implemented NIST-standardized ML-KEM (FIPS 203) in hybrid mode. Load balancers PQC support : Application and proxy load balancers now support quantum-safe hybrid key exchange ( X25519MLKEM768 ) for TLS 1.3. Initially available on an opt-in basis, this allows our customers to perform validation, while minimizing impacts to their existing applications. Quantum-safe certificate experimentation at scale : We’re collaborating with the IETF PLANTS Working Group to produce a public key infrastructure (PKI) standard that minimizes impact to your operations teams. Chrome and Cloudflare have started experimenting with Merkle Tree Certificates to address challenges using PQC signatures for WebPKI, and we have been sharing insights with the standards working group. Cloud KMS PQC algorithms : NIST standardized PQC algorithms (ML-KEM, ML-DSA, SLH-DSA) for your encryption and signing keys are now generally available. The roadmap to 2029 We’ve established specific customer-centered journeys for Google Cloud to achieve quantu
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap
-  - Published: 2026-08-11T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/
-  - Summary: Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards that can benefit everyone. As post-quantum cryptography (PQC) has matured, we’ve been rolling it out in our infrastructure for internal and customer-facing services. Today, we're sharing our updated Google Cloud roadmap to migrate to PQC by 2029 . Our strategy: Secure by design We’ve based our PQC migration strategy on the Google Quantum Threat Model , prioritizing protection across three key domains: Mitigating Store Now, Decrypt Later (SNDL) risks : Protecting today's encrypted data from being harvested and decrypted by a future quantum computer. Ensuring integrity against forgery : Strengthening digital signatures to prevent attackers from falsifying data and identity. Enhancing foundational capabilities for cryptographic agility : Building flexible systems that can easi
-
 ### Cluster 82b55ec4a5 — score 9
 
 - Title: Wesco confirms security incident after ExfilSquad claims data theft
@@ -3301,50 +3299,44 @@ Wesco confirms security incident after ExfilSquad claims data theft By Bill Toul
   - Link: https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/
   - Summary: Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]
 
-### Cluster f92fe3a8b7 — score 9
+### Cluster 74facd82a0 — score 9
 
-- Title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-10T21:02:23+00:00
-- Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+- Title: PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-08-11T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_products: Docker, GitHub
-- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_products: GitHub, Docker
-- urgency_signals: actively_exploited, zero_day
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
+Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards that can benefit everyone. As post-quantum cryptography (PQC) has matured, we’ve been rolling it out in our infrastructure for internal and customer-facing services. Today, we're sharing our updated Google Cloud roadmap to migrate to PQC by 2029 . Our strategy: Secure by design We’ve based our PQC migration strategy on the Google Quantum Threat Model , prioritizing protection across three key domains: Mitigating Store Now, Decrypt Later (SNDL) risks : Protecting today's encrypted data from being harvested and decrypted by a future quantum computer. Ensuring integrity against forgery : Strengthening digital signatures to prevent attackers from falsifying data and identity. Enhancing foundational capabilities for cryptographic agility : Building flexible systems that can easi
 ```
 
 #### Full body
 
 ```
-Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users. Rob Wright , Senior News Director , Dark Reading August 10, 2026 4 Min Read Source: George Peters via Getty Images A zero-day SQL-injection vulnerability in Metabase Cloud is under exploitation in the wild, and it could spell trouble for many downstream organizations. Metabase, which provides AI-driven business analytics, disclosed last week that its Metabase Cloud platform had been compromised by an attacker wielding a zero-day vulnerability that affects version 1.58 of the platform and above. "We immediately blocked the endpoints used for the attack, then quickly identified and patched the vulnerability," Metabase CEO Sameer Al-Sakran wrote in a blog post last week. The vulnerability does not currently have a CVE identifier, but Metabase assigned it a maximum-severity CVSS score of 10. According to an accompanying advisory posted on GitHub, exploitation of the flaw allows a remote attacker to inject SQL statements into the Metabase application database, giving them administrator access to the instance. Related: Coruna, DarkSword iOS Exploits Proliferate Globally "From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data," the company said in the advisory . But the zero-day attacks could have a significant impact on organizations beyond Metabase customers. Who's Affected by the Metabase Cloud Zero-Day? No action is required by Metabase Cloud customers, whose instances have been automatically upgraded to fixed versions, according to Al-Sakran's post. But customers who self-host their Metabase instances and have exposed the /api/session/reset_password endpoint on the public Internet are still susceptible to attacks. It's unclear how many customers have been impacted, and whether the zero-day attacks were limited to Metabase Cloud or if self-hosted open source instances were also compromised. Dark Reading contacted Metabase for additional information but the company did not respond by press time. Johannes Ullrich of the SANS Internet Storm Center tells Dark Reading that the vulnerable API endpoint must be reachable for exploitation to work. "Metabase can be installed as a Docker container and as a standalone Java application. Either way, it exposes the API on port 3000 to the network," he says. "Who is able to access port 3000 would depend on if there is a network firewall configured." Ullrich says he expects most users have exposed their instances rather than restricting individual API endpoints, which he says would likely required a more granular proxy." There is no obvious reason not to expose the reset password API, as users may need it," he says. Related: Flaws in Google APK for Python Unlock Agent-to-Agent Attack SQL-injection vulnerabilities are some of the most common — and frustrating — software flaws in the world, routinely topping the OWASP Top 10 lists . "If anything stood out, it is the fact that even today we are still fighting SQL-injection flaws," Ullrich says of the zero-day. In this case, he explains, the flaw stems from a simple issue in the Metabase database application. "It apparently does not use prepared statements , which would fix this issue. But it can be difficult for software like Metabase to use prepared statements effectively," he says. "Using them would make it more difficult to support the wide range of databases they support, and implementing them is also difficult for tools like Metabase." Blast Radius for Metabase Attacks Ullrich notes that Metabase acts as a front end for processing data from a wide range of SQL databases. As a result, the compromise
+Security & Identity PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap August 11, 2026 Jai Haridas VP/GM, Regulated and Sovereign Cloud Michael Bachman VP/GM, Cloud Foundations Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards that can benefit everyone. As post-quantum cryptography (PQC) has matured, we’ve been rolling it out in our infrastructure for internal and customer-facing services. Today, we're sharing our updated Google Cloud roadmap to migrate to PQC by 2029 . Our strategy: Secure by design We’ve based our PQC migration strategy on the Google Quantum Threat Model , prioritizing protection across three key domains: Mitigating Store Now, Decrypt Later (SNDL) risks : Protecting today's encrypted data from being harvested and decrypted by a future quantum computer. Ensuring integrity against forgery : Strengthening digital signatures to prevent attackers from falsifying data and identity. Enhancing foundational capabilities for cryptographic agility : Building flexible systems that can easily adopt new cryptographic standards with minimal engineering effort as cryptographic standards evolve. We’re actively transitioning internal infrastructure and customer-facing services to PQC algorithms far ahead of regulatory deadlines. We are also deploying PQC solutions across our Sovereign Cloud initiatives , such as Google Cloud Dedicated (GCD) and Google Distributed Cloud (GDC), in collaboration with our partners. Similarly, our strategy allows us to progress on integrating post-quantum protections across our AI services to secure the next generation of cloud workloads. These efforts are fundamental pillars of our overarching strategy to achieve full post-quantum readiness across Google Cloud. As this landscape evolves, we will continue to refine and update our deployment schedules. Visualization of our Google Cloud PQC roadmap. Our efforts converge in 2029, and extend beyond it. We plan to achieve full PQC readiness by 2029, when our efforts converge. We anticipate continuing those efforts into the 2030s to support broader industry guidance and evolving global standards. These standards include CNSA 2.0 and the transition paths defined in NIST IR 8547 , which anticipate the final deprecation of legacy, quantum-vulnerable algorithms between 2030 and 2035. Immediate progress: 2026 milestones Leadership in the quantum era requires deployment at global scale. We have achieved foundational milestones that provide immediate protection for our customers: API endpoint readiness : Google Cloud API endpoints now offer quantum-safe key exchange, protecting incoming traffic from future decryption. These endpoints include google.com and *.googleapis.com, and both have implemented NIST-standardized ML-KEM (FIPS 203) in hybrid mode. Load balancers PQC support : Application and proxy load balancers now support quantum-safe hybrid key exchange ( X25519MLKEM768 ) for TLS 1.3. Initially available on an opt-in basis, this allows our customers to perform validation, while minimizing impacts to their existing applications. Quantum-safe certificate experimentation at scale : We’re collaborating with the IETF PLANTS Working Group to produce a public key infrastructure (PKI) standard that minimizes impact to your operations teams. Chrome and Cloudflare have started experimenting with Merkle Tree Certificates to address challenges using PQC signatures for WebPKI, and we have been sharing insights with the standards working group. Cloud KMS PQC algorithms : NIST standardized PQC algorithms (ML-KEM, ML-DSA, SLH-DSA) for your encryption and signing keys are now generally available. The roadmap to 2029 We’ve established specific customer-centered journeys for Google Cloud to achieve quantu
 ```
 
 #### Corroborating sources (1)
 
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
-  - Published: 2026-08-10T21:02:23+00:00
-  - Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
-  - Summary: The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: PQC in Plaintext: Google Cloud’s post-quantum cryptography roadmap
+  - Published: 2026-08-11T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/pqc-in-plaintext-google-clouds-post-quantum-cryptography-roadmap/
+  - Summary: Securing infrastructure and services against a future cryptographically-relevant quantum computer has been a goal for Google for a decade, and we’ve dedicated ourselves to help developers by advancing open standards that can benefit everyone. As post-quantum cryptography (PQC) has matured, we’ve been rolling it out in our infrastructure for internal and customer-facing services. Today, we're sharing our updated Google Cloud roadmap to migrate to PQC by 2029 . Our strategy: Secure by design We’ve based our PQC migration strategy on the Google Quantum Threat Model , prioritizing protection across three key domains: Mitigating Store Now, Decrypt Later (SNDL) risks : Protecting today's encrypted data from being harvested and decrypted by a future quantum computer. Ensuring integrity against forgery : Strengthening digital signatures to prevent attackers from falsifying data and identity. Enhancing foundational capabilities for cryptographic agility : Building flexible systems that can easi
 
 ### Cluster e53f5ae0c1 — score 9
 
@@ -3637,6 +3629,43 @@ Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic bu
   - Published: 2026-08-04T23:59:59+00:00
   - Link: https://www.elastic.co/security-labs/llm-benchmarking-agentic-soc
   - Summary: Public leaderboards can't tell you which LLM to trust in your SOC, so Elastic built an evaluation framework that grades models on the work (tool calls, execution traces, blind judging) across Agent Builder, Attack Discovery, and automatic migration.
+
+### Cluster f92fe3a8b7 — score 8
+
+- Title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-10T21:02:23+00:00
+- Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius
+  - Published: 2026-08-10T21:02:23+00:00
+  - Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
+  - Summary: The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
 
 ### Cluster 772794dddb — score 8
 
