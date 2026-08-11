@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-11T11:49:48.685394+00:00",
+  "generated_at": "2026-08-11T13:19:06.401507+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2158,
+  "total_items": 2168,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -16,28 +16,7 @@
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 7
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "in_window_count": 5
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -53,65 +32,23 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 7
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
@@ -123,39 +60,74 @@
       "item_count": 50,
       "in_window_count": 4
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 9
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
       "in_window_count": 3
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -165,12 +137,33 @@
       "item_count": 50,
       "in_window_count": 4
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
       "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 3
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -186,12 +179,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -228,18 +228,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 0
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Permiso Security": {
@@ -248,13 +255,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -284,6 +284,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -305,33 +312,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 3
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -340,6 +326,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -347,12 +340,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -375,26 +368,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -403,8 +396,8 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -415,7 +408,14 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 21
+      "in_window_count": 20
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -424,12 +424,12 @@
       "item_count": 30,
       "in_window_count": 24
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -438,57 +438,15 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -501,6 +459,41 @@
       "item_count": 50,
       "in_window_count": 50
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -508,19 +501,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 26
+      "in_window_count": 27
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -681,48 +681,6 @@
   },
   "affinity_groups": [
     {
-      "label": "supply chain targeting Palo Alto Networks",
-      "anchor_signal": "Palo Alto Networks",
-      "theme_key": "palo-alto-networks",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 15,
-      "cohesion": 0.318,
-      "shared_strong_signals": [
-        "Palo Alto Networks"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "38f0f482a4",
-        "1e15301923",
-        "3507110393",
-        "ebb24cd9dd",
-        "1c833c15fa"
-      ],
-      "links": [
-        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-        "https://isc.sans.edu/diary/rss/33218",
-        "https://securelist.com/cloud-platforms-in-phishing/120832/",
-        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
-        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
-        "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
-        "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
-        "https://unit42.paloaltonetworks.com/malware-bypass-dns-direct-to-ip/",
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
-      ]
-    },
-    {
       "label": "credential theft targeting Apple iOS/macOS",
       "anchor_signal": "Apple iOS/macOS",
       "theme_key": "apple-ios-macos",
@@ -775,16 +733,15 @@
         "threat_categories": [
           "ransomware_extortion",
           "phishing_social_eng",
-          "data_breach",
           "mfa_bypass"
         ],
         "actor_attribution": [
           "UNC6671"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 5,
-      "cohesion": 0.594,
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.788,
       "shared_strong_signals": [
         "UNC6671"
       ],
@@ -792,38 +749,83 @@
       "also_targets": [],
       "cluster_ids": [
         "292d4f04d7",
-        "502d49d687",
         "38f40f9f14"
       ],
       "links": [
         "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
         "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-        "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
         "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/"
       ]
     },
     {
-      "label": "zero day targeting WordPress",
+      "label": "Palo Alto Networks vulnerability activity",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
+      "dominant_features": {
+        "affected_products": [
+          "Palo Alto Networks"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.3,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "1e15301923",
+        "3507110393",
+        "1c833c15fa"
+      ],
+      "links": [
+        "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
+        "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
+        "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
+      ]
+    },
+    {
+      "label": "Microsoft SharePoint vulnerability activity",
+      "anchor_signal": "Microsoft SharePoint",
+      "theme_key": "microsoft-sharepoint",
+      "dominant_features": {
+        "affected_products": [
+          "Microsoft SharePoint"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Microsoft SharePoint"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "772281457e",
+        "d8c893e316"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
+        "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure"
+      ]
+    },
+    {
+      "label": "WordPress vulnerability activity",
       "anchor_signal": "WordPress",
       "theme_key": "wordpress",
       "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "web_shell_backdoor"
-        ],
         "affected_industries": [
-          "financial_services",
-          "government"
+          "financial_services"
         ],
         "affected_products": [
           "WordPress"
-        ],
-        "urgency_signals": [
-          "zero_day"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 9,
+      "cluster_count": 3,
+      "article_count": 8,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "WordPress"
@@ -833,7 +835,6 @@
       "cluster_ids": [
         "28ff3120b5",
         "a36b6d83b6",
-        "229f6cf243",
         "f3f661095c"
       ],
       "links": [
@@ -842,7 +843,6 @@
         "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
         "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
         "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
-        "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
         "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
         "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
       ]
@@ -920,42 +920,6 @@
       ]
     },
     {
-      "label": "supply chain targeting npm",
-      "anchor_signal": "npm",
-      "theme_key": "npm",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "affected_products": [
-          "npm"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 12,
-      "cohesion": 0.455,
-      "shared_strong_signals": [
-        "npm"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "38f0f482a4",
-        "772ab8c313"
-      ],
-      "links": [
-        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-        "https://isc.sans.edu/diary/rss/33218",
-        "https://securelist.com/cloud-platforms-in-phishing/120832/",
-        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
-        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
-        "https://unit42.paloaltonetworks.com/ai-token-jacking/"
-      ]
-    },
-    {
       "label": "CVE-2026-8037 exploitation activity",
       "anchor_signal": "CVE-2026-8037",
       "theme_key": "cve-2026-8037",
@@ -992,13 +956,51 @@
       ]
     },
     {
+      "label": "supply chain targeting npm",
+      "anchor_signal": "npm",
+      "theme_key": "npm",
+      "dominant_features": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "npm"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 12,
+      "cohesion": 0.368,
+      "shared_strong_signals": [
+        "npm"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "61004037ea",
+        "772ab8c313"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
+        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
+        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
+        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
+        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
+        "https://unit42.paloaltonetworks.com/ai-token-jacking/"
+      ]
+    },
+    {
       "label": "ransomware extortion targeting Microsoft Defender",
       "anchor_signal": "Microsoft Defender",
       "theme_key": "microsoft-defender",
       "dominant_features": {
         "threat_categories": [
-          "ransomware_extortion",
-          "credential_theft"
+          "ransomware_extortion"
         ],
         "affected_products": [
           "Microsoft Defender"
@@ -1006,7 +1008,7 @@
       },
       "cluster_count": 2,
       "article_count": 3,
-      "cohesion": 0.727,
+      "cohesion": 0.636,
       "shared_strong_signals": [
         "Microsoft Defender"
       ],
@@ -1022,77 +1024,36 @@
       ]
     },
     {
-      "label": "CVE-2026-3502 exploitation activity",
-      "anchor_signal": "CVE-2026-3502",
-      "theme_key": "cve-2026-3502",
+      "label": "Kubernetes vulnerability activity",
+      "anchor_signal": "Kubernetes",
+      "theme_key": "kubernetes",
       "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "web_shell_backdoor"
-        ],
-        "affected_industries": [
-          "government",
-          "critical_infrastructure"
-        ],
-        "cve_ids": [
-          "CVE-2026-3502"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.621,
-      "shared_strong_signals": [
-        "CVE-2026-3502"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "229f6cf243",
-        "6fa62beb1d"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-        "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html"
-      ]
-    },
-    {
-      "label": "zero day targeting SonicWall",
-      "anchor_signal": "SonicWall",
-      "theme_key": "sonicwall",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "affected_industries": [
-          "government"
-        ],
         "affected_products": [
-          "SonicWall"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
+          "Kubernetes"
         ]
       },
       "cluster_count": 2,
-      "article_count": 2,
+      "article_count": 12,
       "cohesion": 0.2,
       "shared_strong_signals": [
-        "SonicWall"
+        "Kubernetes"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "815134b7b7",
-        "229f6cf243"
+        "61004037ea",
+        "8429d526c4"
       ],
       "links": [
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/"
+        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
+        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
+        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
+        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
+        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
+        "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/"
       ]
     },
     {
@@ -1130,13 +1091,25 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-63520",
+          "cluster_id": "772281457e",
+          "first_source": "Rapid7",
+          "first_published": "2026-08-11T13:00:00+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
     "velocity": [],
     "leading_edge": [],
     "convergence": [
+      {
+        "cluster_id": "772281457e",
+        "pair": "CVE-2026-63520 + Microsoft SharePoint",
+        "first_observation": true
+      },
       {
         "cluster_id": "5b2b2cce63",
         "pair": "CVE-2026-72898 + Docker",
@@ -1206,14 +1179,27 @@
         "cluster_id": "815134b7b7",
         "pair": "CVE-2026-8037 + Fortinet",
         "first_observation": true
-      },
-      {
-        "cluster_id": "815134b7b7",
-        "pair": "CVE-2026-8037 + SonicWall",
-        "first_observation": true
       }
     ],
     "drift": [
+      {
+        "actor": "TeamPCP",
+        "cluster_id": "61004037ea",
+        "new_industries": [],
+        "new_products": [
+          "Kubernetes"
+        ],
+        "prior_top_industries": [
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "prior_top_products": [
+          "GitHub",
+          "PyPI",
+          "npm"
+        ]
+      },
       {
         "actor": "ShinyHunters",
         "cluster_id": "d8c893e316",
@@ -1231,25 +1217,6 @@
           "Microsoft Entra",
           "Salesforce"
         ]
-      },
-      {
-        "actor": "TeamPCP",
-        "cluster_id": "c4d9e2c2f9",
-        "new_industries": [],
-        "new_products": [
-          "GitLab",
-          "Kubernetes"
-        ],
-        "prior_top_industries": [
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "prior_top_products": [
-          "GitHub",
-          "PyPI",
-          "npm"
-        ]
       }
     ],
     "persistence": [
@@ -1261,14 +1228,14 @@
       },
       {
         "axis": "actor_attribution",
-        "value": "Scattered Spider",
-        "cluster_id": "fb2a69eb0a",
+        "value": "TeamPCP",
+        "cluster_id": "61004037ea",
         "weeks_observed": 8
       },
       {
         "axis": "actor_attribution",
-        "value": "TeamPCP",
-        "cluster_id": "c4d9e2c2f9",
+        "value": "Scattered Spider",
+        "cluster_id": "fb2a69eb0a",
         "weeks_observed": 8
       },
       {
@@ -1302,6 +1269,314 @@
     ]
   },
   "items": [
+    {
+      "source": "Rapid7",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "Rapid7 Analysis: Microsoft SharePoint JWT Token Authentication Bypass (CVE-2026-55040)",
+      "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040",
+      "published": "2026-08-11T13:00:00+00:00",
+      "summary": "Overview On July 14, 2026, Rapid7 and Microsoft disclosed CVE-2026-55040, an authentication bypass vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of the vulnerability along with an accompanying proof-of-concept (PoC) script . Figure 1: The Rapid7 Labs PoC for CVE-2026-55040. ⠀ A remote unauthenticated attacker can leverage CVE-2026-55040 to bypass authentication on a vulnerable SharePoint server, and perform operations as a SharePoint site user or administrator. The vulnerability is due to several issues in the JWT token validation pipeline. Analysis The following technical analysis is based upon SharePoint Server Subscription Edition version 16.0.19725.20210 . A critical authentication bypass vulnerability exists in SharePoint Server Subscription Edition's JWT token validation pipeline. The root cause is a chain of four distinct weaknesses that, when combined, allow an unauthenticated remote attacker to forge a valid JWT and impersonate any ",
+      "author": "Stephen Fewer",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-55040"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth",
+          "poc_available"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {
+          "Microsoft SharePoint": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 33
+    },
+    {
+      "source": "Rapid7",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
+      "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
+      "published": "2026-08-11T13:00:00+00:00",
+      "summary": "Overview Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the second vulnerability in this chain, the RCE vulnerability CVE-2026-63520. The first vulnerability in the chain, CVE-2026-55040, was disclosed by Rapid7 and Microsoft last month. Our full disclosure timeline for the exploit chain can be seen below in Figure 1. Figure 1: The road to disclosure. ⠀ CVE-2026-63520 affects all supported versions of Microsoft SharePoint, and certain versions of Microsoft Project Server and Microsoft Office Web Apps Server. For the purpose of our research, we focused solely on SharePoint. An attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. Th",
+      "author": "Stephen Fewer",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-63520",
+          "CVE-2026-55040"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day",
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {
+          "Microsoft SharePoint": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 40,
+      "full_body": "Back to Blog Vulnerabilities and Exploits CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED) Stephen Fewer Aug 11, 2026 | Last updated on Aug 11, 2026 | 8 min read DISCOVER RAPID7 MDR Overview Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the second vulnerability in this chain, the RCE vulnerability CVE-2026-63520. The first vulnerability in the chain, CVE-2026-55040, was disclosed by Rapid7 and Microsoft last month. Our full disclosure timeline for the exploit chain can be seen below in Figure 1. Figure 1: The road to disclosure. ⠀ CVE-2026-63520 affects all supported versions of Microsoft SharePoint, and certain versions of Microsoft Project Server and Microsoft Office Web Apps Server. For the purpose of our research, we focused solely on SharePoint. An attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. The vulnerability is due to an unsafe .NET type instantiation issue within the Business Connectivity Services . CVE-2026-63520 has a CVSSv3.1 score of 8.1 (High) , and a Common Weakness Enumeration (CWE) of CWE-20: Improper Input Validation . While the severity of the RCE is described as high, chained together with CVE-2026-55040 it becomes part of a critical unauthenticated RCE exploit chain against SharePoint. The exploit chain was developed as an entry for this year's Pwn2Own Berlin hacking competition; while our entry was unsuccessful on the day of the competition, this research highlights Rapid7 Labs' continued effort to raise the bar in Vulnerability Intelligence and our commitment to the preemptive protection of our customers through original vulnerability research. Our research methodology focused on understanding how publicly available AI models can assist in the discovery of significant vulnerabilities against proprietary enterprise targets. Our results established that the rate of model advancement is significantly accelerating vulnerability research, model guidance from subject matter experts is a force multiplier, and complex proprietary targets are easily handled through agentic workflows. Rapid7 is hosting a webinar on Thursday August 13, 2026 to discuss the research and findings for CVE-2026-55040 and CVE-2026-63520. Please join Douglas McKee and Stephen Fewer to learn more about this body of work. Workflow For this research project we wanted to understand the capabilities and limits of publicly available LLMs circa January through to March of this year. We wanted to answer the question if an AI workflow could find and develop an unauthenticated RCE exploit against a hard target such as SharePoint. This research project concluded with the successful discovery and development of such a chain. To that end, the publicly available models at the beginning of this year were indeed capable. This is notable as the rate of model improvement from Q1 of 2026 through to today has been significant. Our team's later testing of the most recent frontier models confirms the significant increase in capabilities from that of the beginning of this year. Our primary conclusion from the SharePoint research project in Q1 is that an agent guided by a subject matter expert (SME) was crucial to keep moving the model and its work towards the end goal. Given our current experience of frontier model capabilities, the need for an SME to verify and guide a model is lessened, but the compounding impact an SME can bring remains. Our first sprint in January did not result in any significant findings, rather, this sprint helped us establish the workflow and tooling that proved most useful, scope out the extremely large attack surface, and integrate prior work into our pr",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Cloudflare Radar",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+      "link": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+      "published": "2026-08-11T13:00:00+00:00",
+      "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
+      "author": "Cloudforce One",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 9,
+      "full_body": "Welcome to the 25th edition of Cloudflare's DDoS Threat Report. This is the first half-year edition in the series: rather than publishing separate reports for the first and second quarters of 2026, we have combined our coverage of Q1 and Q2 into a single volume covering January through June 2026. The analysis is produced by Cloudforce One , Cloudflareâs Threat Intelligence organization, providing a comprehensive analysis of the evolving threat landscape of Distributed Denial of Service (DDoS) attacks based on data from the Cloudflare network . Key insights The 1 Tbps club grew. Cloudflare mitigated a combined 935 network-layer DDoS attacks exceeding 1 Tbps in the first half of 2026 and a +519% quarter-over-quarter surge between Q1 and Q2.Â The attack-vector center of gravity shifted from botnet floods to reflection and amplification. DNS-based attacks accounted for 34.3% of all network-layer activity in the first half of 2026, with DNS Floods alone climbing from 25.7% to 40.0% of network-layer attacks quarter-over-quarter. CLDAP Floods surged +580% quarter-over-quarter to become the #3 vector in Q2. Geopolitics and global events influence the landscape. Media, Production & Publishing held the #1 most-attacked industry crown in both quarters at 14.2% of all mitigated HTTP DDoS requests as coverage of Iran, Ukraine, and the World Cup drew sustained attention. In parallel, Turkey rose to the #3 most-attacked country amid the backdrop of the July NATO Summit in Ankara, and the Government sector jumped from #29 to #9 â the largest single sector movement of 2026 to date â during Operation Epic Fury. H1 by the numbers: 5,300 DDoS attacks every hour Midway through the year, Cloudflare has already mitigated 23.2 million network-layer and 29.64 trillion HTTP DDoS requests. That works out to approximately 5,343 network-layer DDoS attacks per hour, or about 128,000 per day. April peak, and law enforcement takedowns April 2026 was a peak month for DDoS activity and volume, hitting a high of 6.46 trillion requests and 165 petabytes (PB) respectively. For perspective, this is an enormous amount of traffic â equivalent to streaming 4K video continuously for years, or roughly the amount of data processed by major video platforms in a single day. Requests and volumes declined afterward, a possible reflection of Operation PowerOFF â a 21-country action that targeted over 75,000 DDoS-for-hire users, took down 53 domains, issued 25 search warrants, and resulted in four arrests. Hyper-volumetric attacks see a more than 6x surge Hyper-volumetric DDoS â attacks defined as exceeding 1 terabit per second (Tbps), 1 billion packets per second (Bpps), or 1 million requests per second (Mrps) â has been a growth category across Radar reporting. 2026 is proving to be no different. During the second quarter, Cloudflare mitigated 805 network-layer attacks exceeding 1 Tbps, representing a more than six-fold increase over the previous quarter. Attack characteristics: low and slow Despite the hyper-volumetric growth, the median DDoS attack Cloudflare mitigated in the first half of 2026 remained short and small with 96.62% of network-layer attacks remaining under 500 Mbps and 90.60% ending in under 10 minutes. Itâs important to note, however, that âsmallâ is a relative term and most Internet properties wouldnât be able to withstand even those small attacks. In practical terms: A 100 Mbps attack is enough to overwhelm a server or website A 100 Gbps attack can knock most unprotected data centers offline A 1+ Tbps attack is among the largest ever recorded and stresses even major Internet infrastructure Attackers sometimes mix layers â a high packet rate (Mpps/Gpps) with relatively low bandwidth (Gbps), or vice versa, to exploit different weaknesses in network gear versus bandwidth capacity. Furthermore, most DDoS attacks are surprisingly short-lived, as highlighted in the chart below. Even the largest hyper-volumetric attacks can be measured i",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
+      "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+      "published": "2026-08-11T13:00:00+00:00",
+      "summary": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/",
+      "published": "2026-08-11T12:12:16+00:00",
+      "summary": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
+      "author": "Sergiu Gatlan",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Microsoft SharePoint": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 24
+    },
+    {
+      "source": "Help Net Security",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Malicious SIMs can hijack smartphones, steal files, and lock them onto 2G",
+      "link": "https://www.helpnetsecurity.com/2026/08/11/malicious-sim-cards-hijack-phones-ev-chargers/",
+      "published": "2026-08-11T12:10:17+00:00",
+      "summary": "Researchers have found that compromised or malicious SIM cards can issue commands to some smartphones and cellular-connected devices, allowing attackers to steal information, disrupt communications, downgrade connections to 2G, and in some cases execute code. Tomasz Piotr Lisowski and Dr Marius Muench of the University of Birmingham, working with Kristian Covic from Fuzzware, traced this to a legitimate function already built into the cellular spec. That function is Proactive SIM. It lets a card send … More → The post Malicious SIMs can hijack smartphones, steal files, and lock them onto 2G appeared first on Help Net Security .",
+      "author": "Sinisa Markovic",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications",
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+      "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
+      "published": "2026-08-11T12:05:03+00:00",
+      "summary": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "telecommunications",
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "Kaspersky Securelist",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Head Mare APT is exploiting vulnerabilities in an unpatched TrueConf server to deliver PhantomCore and PhantomGraph to video conference participants",
+      "link": "https://securelist.com/tr/head-mare-targets-trueconf-server-with-phantomcore/120988/",
+      "published": "2026-08-11T12:00:55+00:00",
+      "summary": "Kaspersky experts have discovered malicious TrueConf software installers. The Head Mare APT group uses them to deliver the PhantomCore and PhantomGraph backdoors to target systems by exploiting vulnerabilities in an unpatched TrueConf server.",
+      "author": "Kaspersky",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 25,
+      "full_body": "Threat Response Table of Contents Overview of the attack Detection by Kaspersky solutions Indicators of compromise File hashes (MD5) IP Domains Windows service names File paths Registry keys Kaspersky detection names YARA rules Overview of the attack In July 2026, Kaspersky experts detected a new attack by the Head Mare group. Previously, we classified them as hacktivists, but now we define them as an APT group due to the sophistication of their TTPs and the absence of destructive activity (encryption, wiping) in the targeted infrastructures. In this latest campaign, the attackers exploited a chain of vulnerabilities in the TrueConf video conferencing server and replaced the original TrueConf client installers with infected versions that installed the PhantomCore malware on the system. An investigation of the compromised server revealed that the attackers used a combination of two new vulnerabilities (assigned internal identifiers KLCERT-26-057 and KLCERT-26-058), allowing them to execute arbitrary code with the highest privileges. The attack occurs in several stages: The attackers connect to the TrueConf server without prior authorization via port 4307/TCP, which, according to the product documentation, is open by default. The attack affects TrueConf servers running versions 5.3.X through 5.3.9 , 5.4.X through 5.4.9 , and 5.5.X through 5.5.5 . Once connected, attackers call a server function to transmit a malicious script and execute it on the server. The vulnerability that allows this stage of the attack to be carried out has been assigned the internal identifier KLCERT-26-057 . The received script runs on the TrueConf server in an isolated environment. By default, operating system functions are not accessible in this environment, which should limit the capabilities of the executed code. To escape the isolated environment, attackers exploit a second vulnerability, assigned the internal identifier KLCERT-26-058 . Exploiting this vulnerability allows them to bypass the restrictions of the isolated environment and proceed to execute commands in the context of the operating system. Once the environment’s restrictions are bypassed, attackers gain the ability to execute arbitrary code on the server with the privileges of the NT AUTHORITY\\SYSTEM account. Once they have gained elevated privileges, attackers replace the file …\\public\\js\\locale.php with a web shell, which can be used for subsequent remote control of the compromised server. This web shell was used for the following activities: collecting data about the IT infrastructure; gaining privileged access to the TrueConf database; replacing the original TrueConf Client distribution with an infected version containing the PhantomCore backdoor. The vulnerabilities exploited by the attackers were patched by the vendor in the latest TrueConf Server updates (versions 5.3.9, 5.4.9, and 5.5.5). These updates were released on June 18, 2026. The PhantomCore backdoor was successfully detected by Kaspersky solutions. To automatically launch the malware after the system boots, a registry key is created: HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\{0340F119-A598-4ed9-B0AC-6F6A12D3E755}\\InprocServer32, with the value set to the path to the malicious program’s file. Using a web shell, in addition to PhantomCore, the attackers load a backdoor that we have named PhantomGraph, consisting of two modules: SysExcSvc.dll is responsible for receiving commands from the attackers and transmitting the results of their execution. The attackers used an account on Microsoft OneDrive cloud storage as their command-and-control (C2) server. SysReadSvc.dll reads the command transmitted by the first module, executes it, and saves the execution result. To establish persistence on the system, the attackers execute a Base64-encoded PowerShell command that installs SysExcSvc.dll and SysReadSvc.dll as Windows services. We believe the attackers deliberately split this malicious command into two components to make it har",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Infosecurity Magazine",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Suisan City, California, Responds to Cyber Incident Amid Wave of US Local Government Attacks",
+      "link": "https://www.infosecurity-magazine.com/news/suisan-cyber-incident-government/",
+      "published": "2026-08-11T12:00:00+00:00",
+      "summary": "Police and fire response has been impacted by the attack on Suisan City, while two other local authorities have been hit by cyber incidents in the past week also",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "BleepingComputer",
       "cohort": "cyber_news_breach_reporting",
@@ -1858,34 +2133,6 @@
         "role_map": {
           "OpenAI/ChatGPT": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 6
-    },
-    {
-      "source": "Help Net Security",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Cybersecurity jobs available right now: August 11, 2026",
-      "link": "https://www.helpnetsecurity.com/2026/08/11/cybersecurity-jobs-available-right-now-august-11-2026/",
-      "published": "2026-08-11T04:00:31+00:00",
-      "summary": "CTI Detection Engineer Department of Parliamentary Services | Australia | Hybrid – View job details As a CTI Detection Engineer, you will lead the detection lifecycle by identifying detection gaps, developing and validating detection logic, deploying and tuning analytics, maintaining cyber threat intelligence workflows, and continuously improving detections to keep pace with evolving adversary tactics, techniques, and procedures (TTPs). Cloud Solution Architect Tata Consultancy Services | Canada | On-site – View job details As a … More → The post Cybersecurity jobs available right now: August 11, 2026 appeared first on Help Net Security .",
-      "author": "Anamarija Pogorelec",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -2594,34 +2841,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Russian military hackers pose as recruiters to target Ukrainian IT workers",
-      "link": "https://therecord.media/russian-military-hackers-pose-as-recruiters-ukraine-it-workers",
-      "published": "2026-08-10T15:21:00+00:00",
-      "summary": "Ukraine’s computer emergency response team, CERT-UA, said Saturday that the campaign has been running since at least May and is linked to Sandworm, the notorious hacking unit associated with Russia’s GRU military intelligence agency.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 5
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -2742,38 +2961,6 @@
         }
       },
       "score": 11
-    },
-    {
-      "source": "Help Net Security",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Cyberattack on Steam hardware shipper leaks names, addresses, and order data",
-      "link": "https://www.helpnetsecurity.com/2026/08/10/valve-data-breach-ceva-logistics-steam-hardware/",
-      "published": "2026-08-10T14:34:36+00:00",
-      "summary": "Video game publisher Valve is alerting customers in Europe to a data breach at CEVA Logistics, its Steam hardware shipping partner. Reports from affected customers began surfacing on social media earlier today, after Valve started sending out data breach notification emails. “Between July 29 2026 and August 1, 2026, a cyberattack hit CEVA Logistics, the company that ships Steam hardware to customers in Europe. CEVA is still investigating this attack, but as Valve learned on … More → The post Cyberattack on Steam hardware shipper leaks names, addresses, and order data appeared first on Help Net Security .",
-      "author": "Sinisa Markovic",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "Sinisa Markovic , Managing Editor, Help Net Security August 10, 2026 Share Cyberattack on Steam hardware shipper leaks names, addresses, and order data Video game publisher Valve is alerting customers in Europe to a data breach at CEVA Logistics, its Steam hardware shipping partner. Reports from affected customers began surfacing on social media earlier today, after Valve started sending out data breach notification emails. “Between July 29 2026 and August 1, 2026, a cyberattack hit CEVA Logistics, the company that ships Steam hardware to customers in Europe. CEVA is still investigating this attack, but as Valve learned on August 7, certain information about Steam customers, including you, was likely compromised,” the email reads. CEVA needs delivery information from Steam to ship physical hardware to customers in Europe, and Valve said the company told them this is the data the attacker likely took. CEVA holds onto this information for up to 90 days after an order, so Valve is contacting every customer who falls within that window. The exposed information includes names, street addresses, postal codes, cities, countries, phone numbers, and the email addresses tied to Steam accounts. The type and price of the ordered hardware was also exposed. “Additional information related to your Steam account or other purchases was not impacted. CEVA does not have access to your payment information, passwords, Steam Guard codes or other information,” Valve noted. Valve is warning customers to expect fake messages, over email , SMS, or phone, that reference their hardware order and pretend to come from Steam, Valve, or a delivery company. “They may quote your address back to you to prove they’re genuine. They may ask you to confirm a delivery, pay a small customs or redelivery fee, or sign in somewhere to ‘verify’ your order. Treat all of them as fake,” it stated. No password change or account setting adjustment is needed, according to the company. Valve said it is pushing CEVA for more detail on what was taken and how the breach happened, and is notifying data protection authorities in the countries affected. CEVA has isolated the systems involved, taken them offline, and brought in outside investigators. More about cyberattack data breach Steam Share",
-      "fetch_status": "ok"
     },
     {
       "source": "BleepingComputer",
@@ -3047,43 +3234,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Help Net Security",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Metabase zero-day exploited to access Framework customer data",
-      "link": "https://www.helpnetsecurity.com/2026/08/10/metabase-zero-day-framework-tally-kilo-code/",
-      "published": "2026-08-10T13:42:28+00:00",
-      "summary": "Framework, the San Francisco-based company that designs repairable and upgradeable laptops, has suffered a data breach after attackers managed to exploit a zero-day vulnerability in the Metabase business intelligence service. According to the notification sent to affected Framework customers, the attackers accessed names, email addresses, phone numbers, physical addresses, and login IP addresses, but not payment information or records related to orders. In the email it sent to affected customers, Framework said it was notified … More → The post Metabase zero-day exploited to access Framework customer data appeared first on Help Net Security .",
-      "author": "Zeljka Zorz",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "zero_day",
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day",
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "Zeljka Zorz , Editor-in-Chief, Help Net Security August 10, 2026 Share Metabase zero-day exploited to access Framework customer data Framework, the San Francisco-based company that designs repairable and upgradeable laptops, has suffered a data breach after attackers managed to exploit a zero-day vulnerability in the Metabase business intelligence service. According to the notification sent to affected Framework customers, the attackers accessed names, email addresses, phone numbers, physical addresses, and login IP addresses, but not payment information or records related to orders. In the email it sent to affected customers, Framework said it was notified of the breach by Metabase, who confirmed that the attackers gained access to Framework’s cloud instance. Framework has rotated credentials for the databases it connected to its Metabase instance and said that it’s yet to find evidence of a wider compromise. Affected customers should be on the lookout for phishing emails impersonating the company. Other affected companies Belgian company Tally, which provides online form-building platform Tally Forms, and Kilo Code, an AI coding platform now owned by Texas-based Anaconda, also notified users that attackers reached customer data through Metabase. In Tally’s case , the data includes email addresses and password hashes. In Kilo’s : names, emails and customers’ Slack access tokens (the latter were immediately invalidated). The vulnerability bug affects Metabase 58 and above Metabase is a business intelligence tool that small-to-mid-size companies connect to their databases in order to explore their business data. Organizations can self-host a free open-source version of the software or sign up for paid service plans, which come with cloud and self-hosted options. On August 6, 2026, the company behind the service revealed that someone attacked Metabase Cloud via a zero-day SQL injection vulnerability that’s currently without a CVE number. “This is a CRITICAL vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data,” the company stated in the advisory. The vulnerability affects Metabase versions 58 and above. The company has pushed out fixes for each affected version and advised customers who self-host a Metabase instance to upgrade to a fixed version; revoke active sessions; review API keys and admin accounts; rotate credentians; review data warehouse logs for signs of unauthorized access; and review Metabase activity and query history for unexpected or unauthorized activity. “The pattern of attack looks like the following: a call to POST /api/session/reset_password with a 400 status code followed by a call to GET /api/user/current with a 200 status code,” the company said. “If you find that pattern in your application logs or in your Metabase server ingress logs, it is likely that your instance has been compromised.” Customers who can’t upgrade immediately should temporarily block the /api/session/reset_password endpoint. Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about 0-day data analytics data breach Metabase Share",
-      "fetch_status": "ok"
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -3144,7 +3294,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -3172,7 +3322,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Wiz Research",
@@ -3217,7 +3367,7 @@
           "products": []
         }
       },
-      "score": 26,
+      "score": 25,
       "full_body": "Wiz Pricing Get a demo Get a demo On August 6th, 2026, Metabase disclosed a security incident . An attacker used a zero-day SQL Injection vulnerability ( GHSA-vwf4-m7j8-wcjf )/CVE-2026-72898) in the Metabase platform against Metabase Cloud. Since then, further announcements have been made by impacted companies, including: August 7th: Framework August 7th: Tally August 8th: n8n August 9th: Kilo Code (Anaconda) August 10th: ChecklyHQ Self-hosted Metabase instances must be patched as soon as possible . Wiz Research published a Threat Intel Center alert to customers upon Metabase’s disclosure. However, given the severity of this vulnerability and reported in-the-wild exploitation, we think it’s important to share more publicly. We also wanted to use this as an opportunity to highlight how AI can accelerate defensive security . As of noon UTC on August 10th, we have observed public proof-of-concept exploits open-sourced. By the numbers Wiz observed that roughly 13% of cloud environments have self-hosted Metabase instances deployed. Of those instances, approximately 25% are fully internet accessible. In terms of public data, we can see ~2,500 Metabase instances inventoried by Shodan. Reverse Engineering the Vulnerability The initial Metabase disclosure gives a few critical hints as to the underlying vulnerability: The class of vulnerability is SQL Injection The entrypoint is /api/session/reset_password The vulnerability is present in versions 1.58+ Docker images are available for fixed versions However, the details of the vulnerability were not released, and the patch was only made available via releases - it is not public in the current GitHub repository. In such cases it is necessary for Wiz Research to reverse engineer the vulnerability , in order to ensure prompt detection and validation can be offered to customers. To do so, we are able to leverage the expertise developed from building autonomous AI systems for vulnerability research . We are withholding our full PoC to avoid enabling exploitation, while ensuring defenders have the necessary information to respond. The process for reversing such vulnerabilities can be generically described through the following process: Download vulnerable and patched JARs - in this case we used v0.58.22 and v0.58.24 Compare contents and develop a diff Decompile compiled Clojure for the relevant class Clone open source code, and correlate bytecode diff to source Having reversed the patch, use it as a pointer to reconstruct the vulnerability We prompted an agent with this process, which revealed the SQL Injection vulnerability, with the following (pseudocode) patch as the smoking gun: (when-let [user-id (:user-id $)] - (t2/select-one [:model/User ...] :id user-id)) + (if (pos-int? user-id) + (t2/select-one [:model/User ...] :id user-id) + (log/warnf \"Provider %s returned a non-positive-int :user-id (type %s); refusing to resolve a user.\" + provider (type user-id)))) Technical Details The patch validates user-id as a positive integer before querying. However, user-id is not a documented parameter of /api/session/reset_password , which only expects a token and a password . So, we can infer that the vulnerability entails providing an extra user-id key in the JSON body that the API doesn't strip. Following this lead, we used an agent to reconstruct the vulnerability, which ties together a few interesting language and framework behaviors: Clojure's merge function combines two maps, with the second map's values overwriting the first's. Critically, it does not strip extra keys from the first map, but rather they simply pass through. In the vulnerable code, the incoming request is merged with the authentication result: (merge request (authenticate ...)) . When authentication fails, the result contains no user-id , so an attacker-supplied user-id from the request survives the merge untouched. JSON keywordization converts JSON keys into Clojure keywords during parsing. An attacker's payload {\"user-id\": {\"",
       "fetch_status": "ok"
     },
@@ -3249,7 +3399,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -3362,55 +3512,6 @@
       },
       "score": 10,
       "full_body": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore  Ravie Lakshmanan  Aug 10, 2026 Malware / Vulnerability The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain in the TrueConf videoconferencing server to replace the original TrueConf client installers with poisoned versions that deliver the PhantomCore backdoor and remote access trojan (RAT) into susceptible systems. The vulnerabilities, tracked as KLCERT-26-057 and KLCERT-26-058, enable arbitrary code execution with elevated privileges. The attack impacts TrueConf server versions 5.3.x up to 5.3.9, 5.4.x up to 5.4.9, 5.5.x up to 5.5.5, and earlier. The attack chain is as follows - Attackers connect to the TrueConf server on TCP port 4307, which is open by default. Upon successful connection, the attackers exploit KLCERT-26-057 to run a malicious script on the server. The script launches within an isolated environment on the server, limiting its access to operating system functions. The attackers then exploit KLCERT-26-058 to break out of the isolated environment and run arbitrary commands on the underlying host. The attackers run arbitrary code on the server with NT AUTHORITY\\SYSTEM privileges. The attackers replace the file \"...\\public\\js\\locale.php\" with a web shell to facilitate persistent remote access to the compromised server. The web shell, per Kaspersky, has been leveraged to collect data on the IT infrastructure, gain privileged access to the TrueConf database, and ultimately substitute the original TrueConf Client distribution with an infected version containing PhantomCore. What's more, the web shell serves as a conduit for another backdoor codenamed PhantomGraph that shares some level of code overlap with PhantomCore and includes two DLL modules - \"SysExcSvc.dll,\" for receiving commands and exfiltrating their results back to Microsoft OneDrive cloud storage that's used as command-and-control (C2) \"SysReadSvc.dll,\" for parsing the commands received by the first module, executing it, and storing the results \"To establish a persistent presence in the system, the attackers execute a Base64-encoded PowerShell command that installs SysExcSvc.dll and SysReadSvc.dll as Windows services,\" Kaspersky said. \"We believe the attackers deliberately split this malware into two components to make it harder for EDR tools to detect.\" In addition, the threat actors have been found to launch an SSH reverse tunnel, take a memory dump of the \"lsass.exe\" process, and collect general system information using commands like hostname and whoami. The vulnerabilities have since been patched by the vendor in the latest TrueConf Server versions 5.3.9, 5.4.9, and 5.5.5 released on June 18, 2026. Organizations using TrueConf are advised to download the latest versions for optimal protection. This is not the first time Head Mare has targeted zero-day flaws in TrueConf to single out Russian entities. Earlier this April, Positive Technologies disclosed that three vulnerabilities in the software (BDU:2025-10114, BDU:2025-10115, and BDU-2025-10116) were abused by the group since September 2025 to deliver PHP web shells and malicious payloads for information theft and command execution. Around the same time, Check Point also reported that another high-severity security flaw in the TrueConf client (CVE-2026-3502) was exploited in the wild as a zero-day as part of a campaign targeting government entities in Southeast Asia to deploy the Havoc C2 framework. ViPNet Update Mechanism Hijacked to Deploy HelloInjector and HelloProxy The development comes weeks after Kaspersky said it discovered a new advanced persistent threat (APT)-style attack tha",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "SecurityWeek",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Metabase Patches Vulnerability Exploited as Zero-Day",
-      "link": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
-      "published": "2026-08-10T11:03:55+00:00",
-      "summary": "The security defect allows unauthenticated, remote attackers to gain administrative access to Metabase instances. The post Metabase Patches Vulnerability Exploited as Zero-Day appeared first on SecurityWeek .",
-      "author": "Ionut Arghire",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
-          "zero_day",
-          "data_breach",
-          "active_exploitation"
-        ],
-        "actor_attribution": [
-          "UNC6671"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT",
-          "Anthropic/Claude"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth",
-          "poc_available"
-        ],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "OpenAI/ChatGPT": "target",
-          "Anthropic/Claude": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 14,
-      "full_body": "Data analytics solutions provider Metabase has released urgent patches for a critical-severity SQL injection vulnerability that has been exploited in the wild as a zero-day. The security defect allows remote, unauthenticated attackers to inject arbitrary SQL queries into the Metabase application database and obtain administrative access. “From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data,” Metabase’s advisory reads. No CVE identifier has been assigned to the bug, but Metabase warned that it was discovered after a threat actor exploited it as a zero-day in an attack targeting Metabase Cloud. “We immediately blocked the endpoints used for the attack, then quickly identified and patched the vulnerability,” it says . Metabase Cloud instances have already been updated and patched, but self-hosting users are advised to apply the patches as soon as possible to prevent exposure. Advertisement. Scroll to continue reading. Where patching is not possible, users are advised to block the /api/session/reset_password endpoint as a temporary workaround. If the endpoint is accessible from the internet, users should apply the patches, then revoke all active user sessions, review API keys and delete any unrecognized keys, review administrative accounts, rotate credentials for all connected databases, and review logs and Metabase activity for suspicious access. To identify potential compromises, users should look for a “POST /api/session/reset_password” call with a ‘400’ status code followed by a “GET /api/user/current” call with a ‘200’ status code. “If you find that pattern in your application logs or in your Metabase server ingress logs, it is likely that your instance has been compromised,” Metabase says. Metabase versions 63.5, 62.9, 61.11, 60.17, 59.21, and 58.24 contain the necessary patches. Related: CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability Related: Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related: Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix Related: Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire CISA Urges Immediate Patching of Exploited Progress LoadMaster Vulnerability Corporate Data Stolen in Levi Strauss Cyberattack Vishing Extortion Group UNC6671 Rebrands After Making Millions Microsoft, Apple Release Fresh Security Updates 3.8 Million Impacted by Unlimited Technology Systems Data Breach Critical Vulnerabilities Patched With Chrome 151 Update Critical Paperclip Flaw Allowed Admin Access, Code Execution Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison Latest News Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber Mozilla Issues New Firefox GPG Key Following Exposure OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink preve",
       "fetch_status": "ok"
     },
     {
@@ -3898,55 +3999,6 @@
       "score": 6
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
-      "published": "2026-08-08T14:16:23+00:00",
-      "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain",
-          "phishing_social_eng",
-          "zero_day",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "SonicWall",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-3502"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "SonicWall": "target",
-          "WordPress": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 10,
-      "full_body": "Hackers breach TrueConf to trojanize client installers with backdoors By Bill Toulas August 8, 2026 10:16 AM 0 The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. The exploited vulnerabilities allowed the attacker to execute arbitrary code with the highest level of privileges and deploy the PhantomCore and PhantomGraph backdoors. TrueConf is a video conferencing tool widely used in Russia, especially in the enterprise and government sectors, as a secure, on-premise alternative to Western tools such as Zoom and Microsoft Teams. Researchers at cybersecurity company Kaspersky discovered the attack in July. They found that Head Mare hackers used TCP port 4307, which is open by default, to connect to the target TrueConf server without authentication. They leveraged a vulnerability internally tracked by Kaspersky as KLCERT-26-057 to execute a malicious script within TrueConf's isolated environment, and KLCERT-26-058 to escape the sandbox and run commands on the underlying operating system. The attacker then increased their privileges to NT AUTHORITY\\SYSTEM, and replaced the ‘ \\public\\js\\locale.php ’ file with a web shell that gave them persistent remote access to the compromised server. Kaspersky reports that Head Mare uses a web shell to collect sensitive information from the victim’s environment, access the TrueConf database, and replace the legitimate TrueConf Client installer hosted on the server with a malicious version that contains the PhantomCore backdoor. When members of the organization connect to the local TrueConf server, they receive a trojanized, non-digitally signed client installer as an update. “Even if your organization does not use the TrueConf server, employees of the organization can connect to compromised counterparty TrueConf servers to participate in online meetings and download infected installation packages,” Kaspersky warns . Additionally, Head Mare deploys PhantomGraph, a separate backdoor consisting of two DLL files (SysExcSvc.dll and SysReadSvc.dll) that accept commands via a Microsoft OneDrive account, execute them, and return the results. Observed attacker activity through PhantomGraph included dumping the memory of the Local Security Authority Subsystem Service (LSASS) process to exfiltrate credentials. The malware also runs commands for reconnaissance activity, such as hostname and whoami , and starts a reverse SSH tunnel. Kaspersky says it is currently observing multiple active Head Mare campaigns targeting Russian organizations in various sectors: instrumentation, electronics, transportation, energy, IT, and software development. According to the researchers, the threat actor is using several initial access methods that include phishing, exploiting public-facing web servers, and access via contractors. TrueConf vulnerabilities The two flaws Kaspersky saw leveraged in attacks affect TrueConf Server 5.3.x before 5.3.9, 5.4.x before 5.4.9, 5.5.x before 5.5.5, and older versions. The vendor fixed them in versions 5.3.9, 5.4.9, and 5.5.5, released on June 18. In April 2026, CheckPoint Research reported that hackers were targeting a zero-day arbitrary file execution flaw in TrueConf, tracked as CVE-2026-3502, compromising users via trojanized client updates. CheckPoint named the campaign ‘Operation True Chaos,’ and tentatively attributed it to Chinese threat actors behind the Havoc implant, which was used in these attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: BdThemes plugins supply-chain hack creates rogue WordPress admins Sonicwall warns of new SMA1000 zero-day exploited in attacks Metab",
-      "fetch_status": "ok"
-    },
-    {
       "source": "Simon Willison",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -4296,75 +4348,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
-      "published": "2026-08-07T20:14:46+00:00",
-      "summary": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
-      "author": "Mayank Parmar",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8,
-      "full_body": "Metabase SQLi zero-day exploited in customer data-theft attacks By Mayank Parmar August 7, 2026 04:14 PM 0 A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. Metabase disclosed the attacks on Thursday, warning that its Metabase Cloud SaaS platform was compromised through a previously unknown vulnerability affecting versions 1.58 and above. The company warns that self-hosted installations are also vulnerable. \"We recently identified that Metabase Cloud was attacked by someone utilizing an unknown (\"0-day\") security vulnerability in versions 1.58 and above,\" Metabase CEO Sameer Al-Sakran warned in a blog post . Metabase confirmed it blocked the endpoints used for the attack and immediately rolled out a fix for the vulnerability. \"The vulnerability is an unauthenticated SQL injection flaw in Metabase that can ultimately give a remote attacker administrator access to a customer's instance.\" While Metabase has not assigned the vulnerability a CVE identifier, its security advisory rates it as Critical with a CVSS score of 10.0 and confirms that it has been actively exploited. \"This is a CRITICAL vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance,\" reads an associated security advisory . \"From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data. Metabase has confirmed active exploitation of this vulnerability.\" Metabase is available both as software that organizations can host themselves and through Metabase Cloud, the company's managed SaaS offering. Metabase says its Cloud customers have already been upgraded and patched, while organizations running vulnerable self-hosted installations must update manually. The SQLi vulnerability has been fixed in patched versions for all affected branches from 0.58 through 0.63, with the minimum safe releases being 0.58.24, 0.59.21, 0.60.17, 0.61.11, 0.62.9, and 0.63.5. Organizations unable to upgrade immediately are advised to temporarily block access to the ' /api/session/reset_password ' endpoint until the update can be applied. Metabase recommends that self-hosted customers immediately upgrade, revoke all active user sessions, review API keys and administrator accounts for unauthorized changes, rotate credentials for connected databases, and inspect logs and query history for signs of compromise. The company says attacks can be identified by a POST request to /api/session/reset_password returning a 400 status code, followed by a successful GET request to /api/user/current . Metabase warns that system logs showing these entries have likely been compromised. Customers disclose Metabase data theft attacks Laptop maker Framework is one of the companies that has confirmed customer information was stolen after attackers compromised its Metabase instance. In a breach notification sent to customers and shared with BleepingComputer, Framework said the incident allowed the attackers to steal customer information. The stolen data includes full names, email addresses, login IP addresses, billing and shipping address information, phone number, and company name. For Framework for Business customers, the data may also include the company name, phone number, VAT, EIN, and billing email address. Framework said Metabase notified the company on August 6 that its instance had been vulnerable to the zero-day and accessed by the attacker on August 3. Tally , the popular online form builder, has also notified users that its Metabase analytics environment was compromised on August 3. \"Through that they reached your email address, and your password as a cryptographic hash. A hash is one-way, so it can't be turned back into your password. Th",
-      "fetch_status": "ok"
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
-      "published": "2026-08-07T19:30:41+00:00",
-      "summary": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -4531,19 +4514,16 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "How Google Cloud detects, contains, and protects against emerging threats",
-      "link": "https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/",
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
       "published": "2026-08-07T16:00:00+00:00",
-      "summary": "At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and maintain long-term trust. We approach security from a shared fate model , and we continuously work to proactively identify and mitigate potential threats before they can compromise your data and misuse your infrastructure. Understanding the risk: How bad actors attempt to exploit cloud workloads Hyperscale cloud platforms like Google Cloud offer massive compute capacity, high-speed networking, and cutting-edge AI engines, but these same core strengths also make us high-value targets for malicious actors seeking service disruption, financial gain, or exploit cloud resources. By tracking active adversary techniques, Google’s specialist security teams actively monitor and defend across several areas. AI workload exploitation : As organizations rapidly adopt AI tools and systems, including Ge",
-      "author": "Salmaan Rashid",
+      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to bridge this gap. Our latest blog post explores how Google Distributed Cloud (GDC) helps organizations deploy connected or air-gapped models to run advanced AI entirely within secure environments—mitigating geopolitical risks without sacrificing innovation. Read more . SAP and Google Cloud Launc",
+      "author": "Google Cloud Content & Editorial",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
+        "affected_industries": [],
         "affected_products": [
           "Google Cloud"
         ],
@@ -4566,16 +4546,19 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "title": "How Google Cloud detects, contains, and protects against emerging threats",
+      "link": "https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/",
       "published": "2026-08-07T16:00:00+00:00",
-      "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to bridge this gap. Our latest blog post explores how Google Distributed Cloud (GDC) helps organizations deploy connected or air-gapped models to run advanced AI entirely within secure environments—mitigating geopolitical risks without sacrificing innovation. Read more . SAP and Google Cloud Launc",
-      "author": "Google Cloud Content & Editorial",
+      "summary": "At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and maintain long-term trust. We approach security from a shared fate model , and we continuously work to proactively identify and mitigate potential threats before they can compromise your data and misuse your infrastructure. Understanding the risk: How bad actors attempt to exploit cloud workloads Hyperscale cloud platforms like Google Cloud offer massive compute capacity, high-speed networking, and cutting-edge AI engines, but these same core strengths also make us high-value targets for malicious actors seeking service disruption, financial gain, or exploit cloud resources. By tracking active adversary techniques, Google’s specialist security teams actively monitor and defend across several areas. AI workload exploitation : As organizations rapidly adopt AI tools and systems, including Ge",
+      "author": "Salmaan Rashid",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
         "affected_products": [
           "Google Cloud"
         ],
@@ -4754,34 +4737,38 @@
       "score": 8
     },
     {
-      "source": "Just Security",
-      "cohort": "policy_strategy_geopolitics",
-      "category": "policy_strategy_geopolitics",
-      "title": "Early Edition: August 7, 2026",
-      "link": "https://www.justsecurity.org/152340/early-edition-august-7-2026/?utm_source=rss&utm_medium=rss&utm_campaign=early-edition-august-7-2026",
-      "published": "2026-08-07T11:53:51+00:00",
-      "summary": "Sign up to receive the Early Edition in your inbox here. A curated weekday guide to major news and developments over the last 24 hours. Here’s today’s news: YEMEN Yemen’s Iran-backed Houthi rebels yesterday attacked the Yemeni military, killing at least 30 military personnel, according to Yemen’s state news agency. The Yemeni defense ministry said the […] The post Early Edition: August 7, 2026 appeared first on Just Security .",
-      "author": "Elisabeth Jennings",
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Vulnerability Management Lifecycle: Core Phases",
+      "link": "https://orca.security/resources/blog/vulnerability-management-lifecycle/",
+      "published": "2026-08-07T12:50:00+00:00",
+      "summary": "Key Takeaways The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase […]",
+      "author": "The Orca Security Team",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "media_communications"
+        "threat_categories": [
+          "vulnerability_disclosure"
         ],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 5
+      "score": 11,
+      "full_body": "Table of contents Key Takeaways What is the Vulnerability Management Lifecycle? Why Vulnerability Management Matters in Cybersecurity The 6 Key Phases of the Vulnerability Management Lifecycle Phase 1: Asset Discovery Phase 2: Vulnerability Assessment Phase 3: Risk-Based Prioritization Phase 4: Remediation Phase 5: Verification and Rescanning Phase 6: Reporting and Continuous Improvement Asset Discovery and Vulnerability Assessment What Asset Discovery Must Produce Turning a Scan Into an Assessment Risk-Based Prioritization and Remediation Strategies Ranking by Exploitability and Exposure Remediate, Mitigate, or Accept Common Challenges and Best Practices How Orca Closes the Loop on Vulnerability Management Frequently Asked Questions About the Vulnerability Management Lifecycle Key Takeaways The lifecycle runs in six phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, and reporting and continuous improvement. Each phase owes the next one a specific artifact. A phase that produces nothing auditable has not run, whatever the calendar says. No NIST publication defines this six-phase model. NIST publishes a patch management guide, a glossary definition, and an assessment-automation volume, and none of them is a lifecycle. Scanning and patching are two of six phases. The other four are where most programs cannot evidence their own work. Orca inventories cloud assets without agents and rescans continuously, so coverage and closure stop depending on what someone remembered to install. The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase consumes something the previous phase produced and owes something to the next one. Discovery owes an inventory. Assessment owes a validated finding set. Prioritization owes a ranked queue with an owner on every line. This guide walks the six phases in order, explains the artifact each one has to produce, and shows where the loop stalls when one goes missing. It also settles a question the search results often get wrong: whether NIST defines this model at all. What is the Vulnerability Management Lifecycle? The vulnerability management lifecycle is a repeating sequence of six phases, each defined by what it consumes and what it hands forward. It is the operational form of vulnerability management , the wider discipline of finding and reducing weaknesses across an estate. A security vulnerability is the unit the loop moves, and the lifecycle is how a team keeps finding new ones after the first scan. Most vulnerability management lifecycle definitions agree on the loop and disagree on the count. Some teams call it vulnerability lifecycle management and mean the same thing, tracking one finding from discovery to proven closure. The count matters less than the exit condition on each phase. A phase has run when it produces the artifact the next phase needs, and not before. Why Vulnerability Management Matters in Cybersecurity A known, unpatched flaw is the cheapest way into an environment. An attacker needs no novel technique when a published flaw still sits on an internet-facing host. Every day that finding stays open is another day the path works. Plenty of teams scan weekly and patch on a schedule, but that covers only two of the six phases. A program with no discovery phase scans only what it already knows about, and one with no verification phase closes tickets on faith. That gap is what separates vulnerability management from routine patching. The NIST Cybersecurity Framework reflects the same principle by requiring vulnerabilities to be identified, validated, and recorded (ID.RA-01) and vulnerability disclosures to",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -5049,40 +5036,25 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "credential_theft",
-          "web_shell_backdoor"
+          "supply_chain"
         ],
         "actor_attribution": [
           "TeamPCP"
         ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Kubernetes",
-          "GitLab",
-          "GitHub"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Kubernetes": "target",
-          "GitLab": "target",
-          "GitHub": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign  Ravie Lakshmanan  Aug 07, 2026 Cybercrime / Vulnerability A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. \"The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure, and operational tradecraft,\" Oligo Security researchers Avi Lumelsky and Gal Elbaz said . This includes two campaigns observed in the second half of 2025: ShadowRay 2.0 (aka IronErn), which involved hijacking artificial intelligence (AI) infrastructure into a self-propagating botnet, and TA-NATALSTATUS , which targeted exposed Redis servers to deliver cryptocurrency miners. TA-NATALSTATUS is assessed to be an evolution of a prior campaign that was detailed by Trend Micro in April 2020 that involved targeting Redis servers to deploy malware. This suggests that the threat actor has been actively targeting internet-accessible infrastructure across Ray, Docker, Redis, and React much before it branded itself as TeamPCP. Details of the attackers first emerged towards the end of last year when they were linked to the exploitation of security flaws in React Server Components (RSC) and Next.js to facilitate the extraction of credentials and sensitive data from compromised environments. The activity was codenamed Operation PCPcat . Then, earlier this year, Flare detailed a massive campaign undertaken by the threat actor to systematically target cloud native environments as part of efforts to set up malicious infrastructure for follow-on exploitation. \"The operation's goals were to build a distributed proxy and scanning infrastructure at scale, then compromise servers to exfiltrate data, deploy ransomware, conduct extortion, and mine cryptocurrency,\" Flare security researcher Assaf Morag noted at the time. The group has since branched into high-profile supply chain compromises , weaponizing the interconnected nature of modern software to infect developer systems en masse by poisoning popular open-source libraries through a combination of GitHub Actions and token theft abuse. \"One of the strongest operational links is the overlap between the IronErn GitHub and GitLab identities observed during ShadowRay 2.0 and TeamPCP's later infrastructure,\" Oligo said. \"Correlating GitLab authentication logs, command-and-control infrastructure, reverse-shell activity, and malware staging establishes a direct operational bridge between the ShadowRay 2.0 campaign and the actor later operating publicly as TeamPCP.\" The latest findings show that not only are these efforts linked, but also that the threat actor repeatedly abused known security flaws impacting React, Docker, Redis, and Ray to gain access and rely on automated and wormable exploitation techniques for self-propagation. The expansion into cascading software supply chain attacks, therefore, represents a natural evolution of this trend, allowing the threat actors to take advantage of legitimate cloud infrastructure and repurpose tried and tested methods in their efforts. These shifts have been complemented by continuous updates to its malware arsenal, including a Python script (\"kube.py\") that's specifically used after breaching Kubernetes environments. While earlier versions of the script focused on propagation and setting up persistence, new variants observed as recently as March 2026 began to incorporate wiper-like functionality. This destructive code path checked whether the victim system was configured for the Iran timezone and, if that's the case, fired a DaemonSet that wiped every node in the cluster via a wiper not-so-subtly named Kamikaze. On Kubernetes nodes located outside of Iran, it deployed the CanisterWorm backdoor. For non-Kubernetes Iranian systems",
-      "fetch_status": "ok"
+      "score": 9
     },
     {
       "source": "Recorded Future",
@@ -5153,9 +5125,8 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Palo Alto Networks",
-          "npm",
-          "GitHub"
+          "GitHub",
+          "npm"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -5164,18 +5135,14 @@
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {
-          "Palo Alto Networks": "target",
-          "npm": "target",
           "GitHub": "target",
-          "Anthropic/Claude": "target"
+          "npm": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 17,
-      "full_body": "Threat Research Center High Profile Threats Malware Malware ChainDrop: Inside a Self-Propagating npm Worm 20 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Unit 42 Published: August 6, 2026 Categories: High Profile Threats Malware Tags: Blockchain ChainDrop Claude code Developer tooling GitHub Share Executive Summary A self-propagating npm worm nicknamed ChainDrop infected over 400 packages that are collectively downloaded hundreds of millions of times each week. This includes malicious versions of widely used packages such as keyv and cacheable-request . Unit 42 has unique observations of this attack. The attackers behind ChainDrop potentially exposed developer workstations, continuous integration (CI) pipelines, cloud environments and downstream software users across a large number of organizations. Once installed, ChainDrop steals: Cloud credentials npm and GitHub tokens SSH keys Other sensitive developer data It can also extract temporary credentials from GitHub Actions runner memory and use stolen npm publishing tokens to infect and republish additional packages while preserving their legitimate functionality. We have observed active attempted operations, which were detected out of the box by our existing products. During our investigation into this attack, we identified 453 public GitHub repositories across five accounts matching the worm’s exfiltration patterns. We also detected ChainDrop execution across 10 distinct environments. At the time of publication, these repos were removed. We have deobfuscated the malware and identified: Persistence through developer and AI coding tools Blockchain-based command-and-control (C2) resolution Its ability to execute additional attacker-supplied code Additionally, late on Aug. 4, 2026, we observed the adversary silently reconfiguring the worm's entire C2 infrastructure through a single Ethereum transaction, without requiring any update to the deployed malware. This attack is the latest in a series of threats to the security of the npm ecosystem . Unit 42 recommends: Identifying installations of affected npm package versions Removing affected package versions Investigating developer workstations and CI runners for signs of compromise Reviewing unexpected npm publishing and GitHub repository activity. Revoking and rotating potentially exposed npm, GitHub, cloud, SSH and automation credentials. Removing identified persistence mechanisms Blocking both the domain-based and GitHub-based exfiltration channels The Koi Agentic Endpoint Security risk engine flagged the malicious package activity as the attack unfolded. Cortex XDR detected and alerted on the worm’s execution using out-of-the-box behavioral detections. Palo Alto Networks customers can use Koi Agentic Endpoint Security to help identify and control malicious packages across developer endpoints. The Cortex AgentiX Threat Intel agent can help allow analysts to extract, enrich, and search IoCs using natural language to quickly determine organizational impact. Cortex Cloud Endpoint Protection leverages AI-enabled analytics to help detect and prevent threats targeting Linux endpoints, containers, and associated cloud IAM policies. Cortex XDR and XSIAM provide behavioral detection, investigation and response that can help organizations address ChainDrop activity executing in development environments. Idira Secrets Manager and Secrets Hub eliminate hard-coded credentials from configure files and sour ce code by automating zero-downtime rotation, and dynamically delivering just-in-time access to non-human identities across multi-cloud and DevOps environments. The Unit 42 Cloud Security Assessment is an evaluation service that reviews cloud infrastructure to identify misconfigurations and security gaps. The Unit 42 Incident Response team can also be engaged",
-      "fetch_status": "ok"
+      "score": 17
     },
     {
       "source": "Check Point Research",
@@ -5925,6 +5892,38 @@
         }
       },
       "score": 4
+    },
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Vulnerability Scanning Tools: Top 10 Compared for 2026",
+      "link": "https://orca.security/resources/blog/vulnerability-scanning-tools/",
+      "published": "2026-08-06T12:50:00+00:00",
+      "summary": "Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]",
+      "author": "The Orca Security Team",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 11,
+      "full_body": "Table of contents Key Takeaways What Are Vulnerability Scanning Tools? Scanners Versus Vulnerability Management Platforms Key Features of Vulnerability Scanning Tools Types of Vulnerability Scanning Tools Network Vulnerability Scanners Web Application Scanners Source Code and Dependency Scanners Container and Image Scanners Cloud Configuration and Infrastructure Scanners Top 10 Vulnerability Scanning Tools Orca Security: Agentless Scanning Across the Cloud Estate Tenable Nessus Qualys OpenVAS Nuclei Trivy ZAP Burp Suite Grype Semgrep Benefits of Vulnerability Scanning Open Source Vulnerability Scanning Tools Choosing the Right Vulnerability Scanner Match the Scanner to the Asset Type Authenticated Versus Unauthenticated Scanning How Orca Scans Cloud Estates Without Agents Frequently Asked Questions about Vulnerability Scanning Tools Key Takeaways A vulnerability scanner is a detection engine, not a program. It finds flaws in a specific class of asset and hands the result to whatever system tracks the fix. Scanning coverage is decided per asset type, not per vendor. No tool in this comparison covers networks, web applications, source code, container images, and cloud configuration at equal depth. Access level changes the answer more than product choice does. An unauthenticated scan reads what a service advertises, while an authenticated scan reads what is actually installed. The top 10 focuses on products with dedicated vulnerability scanning capabilities, while broader management and exposure platforms are excluded from the comparison. Orca reads the workload’s runtime block storage out of band, which returns installed package data across a cloud estate without host credentials, agents, or network access to each machine. Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates to a Linux host and inventories installed packages cannot inspect a container image sitting in a registry, and neither one crawls a single-page web application. This guide compares ten scanners by what they actually inspect. It covers the features that separate detection engines, the five major scanner types, the open-source options worth considering, and how to match a scanner to the assets in your environment. What Are Vulnerability Scanning Tools? Vulnerability scanning tools automate the search for known weaknesses in a defined set of targets. They apply detection logic to hosts, applications, images, or code and report each match with an identifier, location, and supporting evidence. NIST groups vulnerability scanning under technical security testing in SP 800-115 , alongside network discovery and penetration testing as separate techniques with different costs and blind spots. The output is a list of candidate findings, not a verdict. Every scanner produces some results that do not apply to the environment, which is why validation remains part of a vulnerability assessment. What separates a strong scanner from a noisy one is the evidence it collects before asserting that a weakness is present. Scanners Versus Vulnerability Management Platforms A scanner answers one question: is this flaw present on this asset. A vulnerability management platform answers a different set of questions about ownership, sequencing, and proof of closure. It usually consumes scanner output instead of producing it, so if you are choosing the system that will run your program, the comparison you want is of vulnerability management tools . The practical consequence is coverage. No scanner covers every asset type equally well, and platforms differ widely in the depth of their support for hosts, containers, source code, web applications, and cloud configuration. Th",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -7091,34 +7090,6 @@
       "score": 10
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
-      "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-      "published": "2026-08-05T15:14:05+00:00",
-      "summary": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data and control-plane details through application programming interface (API) routes",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -7179,44 +7150,57 @@
       "score": 6
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
-      "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
-      "published": "2026-08-05T14:27:30+00:00",
-      "summary": "HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users'",
-      "author": "info@thehackernews.com (The Hacker News)",
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack",
+      "link": "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
+      "published": "2026-08-05T14:13:47+00:00",
+      "summary": "A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, […]",
+      "author": "The Orca Research Pod",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ddos"
+          "supply_chain"
         ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "npm",
+          "GitHub",
+          "Kubernetes"
+        ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-58073",
-          "CVE-2026-58072",
-          "CVE-2026-58067",
-          "CVE-2026-58071",
-          "CVE-2026-32998"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth",
-          "critical_cvss"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "npm": "target",
+          "GitHub": "target",
+          "Kubernetes": "target",
+          "AWS": "target",
+          "Azure": "target",
+          "Google Cloud": "target",
+          "Anthropic/Claude": "mention"
+        },
         "weak_tags": {
-          "products": []
+          "products": [
+            [
+              "Anthropic/Claude",
+              "mention",
+              0.26
+            ]
+          ]
         }
       },
-      "score": 9,
-      "full_body": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug  Swati Khandelwal  Aug 05, 2026 Vulnerability / Software Security HashiCorp, Veeam, and the Django Software Foundation have patched 11 vulnerabilities across Terraform MCP Server, Veeam Service Provider Console, and Django. The three most serious: An unauthenticated flaw in Veeam's console that hands over a managed agent's credentials, rated 9.5 A cross-tenant flaw in HashiCorp's MCP server that lets one user's Terraform token be reused for later users' requests, scored a maximum 10.0 on its CVE record A flaw in GeoDjango's spatial lookups that can write a file to disk and, on some setups, run code, reachable by a staff user with view permission on a registered model containing a spatial field Each has a fix available now. Operators should update Terraform MCP Server to version 1.1.0 or later, Veeam Service Provider Console to 9.3.0.35057, and Django to 6.0.8 or 5.2.17. Exposure is configuration-dependent: HashiCorp's bugs affect Streamable HTTP rather than stdio, Veeam's flaws affect version 9 builds before 9.3, and Django's documented admin attack path requires a staff account with view permission for a model containing a spatial field. None of the three advisories says the flaws are under active exploitation, and as of August 5, 2026, none of the eleven CVEs appears in CISA's Known Exploited Vulnerabilities catalog, and no public proof-of-concept has surfaced. Impersonate an agent, take its credentials Veeam Service Provider Console, the multi-tenant console that hosting firms and managed service providers use to run and monitor customer backups, got four fixes in build 9.3.0.35057, detailed in a security bulletin published August 4 . Two are critical. Veeam released the build on July 29. The one to watch is CVE-2026-58073 (CVSS score: 9.5), which lets an unauthenticated attacker impersonate a managed agent and obtain that agent's credentials. Its CVSS vector rates attack complexity as high. The second critical flaw, CVE-2026-58072 (CVSS score: 9.0), is an arbitrary file write on the management server that can lead to remote code execution and requires a low-privilege account. The 9.5 reads as the worst of the two because it needs no login, but its high attack complexity is the reason the vector is not a straight-line exploit; unauthenticated here does not mean easy. Two high-severity bugs round out the set: CVE-2026-58067 , an unauthenticated memory-exhaustion denial of service, and CVE-2026-58071 , which exposes the proxied appliance API as Portal Administrator during a short window after an administrator session begins. All four affect VSPC 9.2.1.33875 and every earlier version 9 build. The fix is the upgrade to 9.3.0.35057. This is the second critical patch cycle for the console in roughly three months. In May, Veeam fixed CVE-2026-32998 , a 9.4-rated remote code execution bug tied to alarm script execution. One tenant's token, reused for the next HashiCorp's Terraform MCP server, which connects AI assistants to Terraform over the Model Context Protocol, carries three related flaws in its Streamable HTTP transport, disclosed July 28 and fixed in version 1.1.0 . HashiCorp released the fixed build on July 14, followed by version 1.2.0 on August 4. Deployments that run only in stdio mode, the local single-user setup, are unaffected. The bugs live in the multi-user HTTP mode meant for centralized, shared deployments, the configuration HashiCorp promoted when it made the server generally available in June . The most severe is CVE-2026-16498 (CVSS score: 10.0), a cross-tenant credential-reuse bug in stateless HTTP mode. The underlying MCP library does not assign unique session identifiers, and the server's credential cache relied on those identifiers to tell users apart. One user's Terraform token could therefore be reused for later users' requests regardless of the token they supplied. The root is an assumption about the layer beneath the ",
+      "score": 19,
+      "full_body": "Table of contents Technical Overview Affected Systems Risk Impact How Orca Can Help A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, and CI/CD secrets from developer workstations and build environments. A worm-like self-propagation mechanism has extended the blast radius to over 868 additional packages totaling more than 2 billion monthly installs. Technical Overview On August 4, 2026, attackers gained control of the GitHub account behind keyv, one of the most depended-upon packages in the npm ecosystem. The attacker pushed malicious files (setup.mjs and Math_Symbol.js) directly to the main branch and immediately cut new releases. Because the releases were built through the compromised account’s GitHub Actions workflows, the poisoned versions were published to npm with valid provenance signatures, bypassing standard supply chain integrity checks . The malware operates as a two-stage dropper. A preinstall hook executes setup.mjs, which downloads the Bun JavaScript runtime to run the obfuscated Math_Symbol.js payload (728 KB). Once executed, the payload harvests sensitive credentials and configuration from the host system, including: npm registry authentication tokens from .npmrc GitHub CLI tokens (classic PATs, session tokens, OIDC tokens) AWS access keys and session tokens from ~/.aws/credentials HashiCorp Vault client tokens SSH keys Kubernetes and Terraform configurations AI configuration files (Claude Code, VS Code, Codex) Cryptocurrency wallets Cloud environment metadata and CI/CD secrets Stolen data is encrypted and exfiltrated to GitHub repositories created under compromised identities. Affected Systems The following primary packages are affected: keyv (6.0.0), cacheable, cache-manager (7.2.10), cacheable-request (13.0.20), flat-cache, file-entry-cache, @cacheable/node-cache, @cacheable/memory, @cacheable/utils (2.5.1), and ecto. These packages underpin caching infrastructure across the JavaScript ecosystem and are used by millions of applications, build pipelines, and CI/CD environments worldwide. The attack includes a worm-like self-propagation mechanism: any maintainer who installed a compromised package had their npm tokens stolen, which the attacker then used to publish poisoned versions of that maintainer’s own packages. This resulted in at least 868 additional packages (1,381 versions) being compromised, including packages from organizations such as Deliveroo, Picsart, Qlik, Ornikar, and HubSync. Risk Impact Any developer, build system, or CI/CD runner that installed or updated any of the affected packages after the malicious versions were published on August 4, 2026 should be treated as potentially compromised. Organizations should take the following steps immediately: Remove affected package versions from all development, build, and CI/CD environments Treat any system that installed a compromised package as potentially breached and rebuild from a clean state Rotate all exposed credentials: cloud provider keys (AWS, Azure, GCP), GitHub tokens, SSH keys, Kubernetes configs, Terraform credentials, npm tokens, and Vault tokens Review cloud and source code environments for unauthorized access Check for file artifacts indicating compromise: /tmp/bun-dl-*/, node_modules/keyv/Math_Symbol.js Block IOC domains: npm-cache[.]com, eth-mainnet.nodereal[.]io, go.getblock[.]io, eth.llamarpc[.]com Enable dependency allowlisting, package integrity verification, and provenance controls At the time of writing, active exploitation is confirmed and ongoing. The worm propagation mechanism means that the number of compromised packages continues to grow. The severity of this incident and the breadth of credential t",
       "fetch_status": "ok"
     },
     {
@@ -7252,36 +7236,32 @@
       "fetch_status": "ok"
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
-      "link": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
-      "published": "2026-08-05T13:41:27+00:00",
-      "summary": "Cybersecurity researchers have flagged an evolution of the EtherHiding blockchain-based command-and-control (C2) technique that conceals the C2 server IP address inside a made-up destination address of a completely empty Ethereum transfer. The new dead drop resolver approach, observed in two trojanized npm packages \"bianira-ui\" and \"fluid-type-ui,\" has been codenamed NullReceiver by",
-      "author": "info@thehackernews.com (The Hacker News)",
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "10 Best Tenable Alternatives in 2026",
+      "link": "https://orca.security/resources/blog/10-best-tenable-alternatives/",
+      "published": "2026-08-05T12:50:00+00:00",
+      "summary": "Many security teams adopted Tenable for network and infrastructure vulnerability management, and it still does that job well. But as cloud estates grow to include containers, serverless functions, and infrastructure-as-code pipelines, the gap between what Tenable covers and what teams actually need to protect becomes harder to ignore. That gap, not any fundamental product failure, […]",
+      "author": "The Orca Security Team",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "npm"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "npm": "target"
-        },
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 4
+      "score": 7
     },
     {
       "source": "Trail of Bits",
@@ -7755,8 +7735,7 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "credential_theft"
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
         "affected_industries": [],
@@ -7777,8 +7756,8 @@
         }
       },
       "score": 10,
-      "full_body": "Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Reddit r/netsec",
@@ -7839,6 +7818,33 @@
       "score": 4
     },
     {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Wiz at Black Hat 2026: Driving AI Threat Readiness",
+      "link": "https://www.wiz.io/blog/wiz-at-black-hat-2026",
+      "published": "2026-08-04T13:06:10+00:00",
+      "summary": "Announcing new capabilities that help organizations prepare for the AI era by expanding visibility and accelerating response, so security teams can defend at machine speed.",
+      "author": "Salman Ladha",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Unit 42",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -7847,7 +7853,7 @@
       "published": "2026-08-04T13:00:11+00:00",
       "summary": "Frontier AI is reshaping vulnerability discovery. Learn how our NOVA system found 14,000+ unknown vulnerabilities across the open-source software supply chain. The post The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software appeared first on Unit 42 .",
       "author": "Xu Zou",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "supply_chain",
@@ -7860,8 +7866,7 @@
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "zero_day",
-          "poc_available"
+          "zero_day"
         ],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_1_primary_research",
@@ -7869,10 +7874,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 29,
-      "full_body": "Threat Research Center Insights Vulnerabilities Vulnerabilities The Frontier AI Vulnerability Burst: Industrializing Autonomous Zero-Day Discovery in Open-Source Software 11 min read Related Products Unit 42 AI Security Assessment Unit 42 Frontier AI Defense Unit 42 Incident Response By: Xu Zou Published: August 4, 2026 Categories: General Insights Vulnerabilities Tags: AI Frontier AI Vulnerability Exploitation Zero-day Share Executive Summary Frontier AI is fundamentally shifting the dynamics of cybersecurity — accelerating both how vulnerabilities are discovered and how quickly they can be exploited. Our vulnerability research team built an autonomous vulnerability discovery, validation and reporting system that we call Network and Open-Source Vulnerability Analyzer (NOVA), an agentic research system that leverages proprietary AI harnesses powered by multiple leading frontier AI models. Our goal with this research is twofold: (1) contribute to improving the security of the software supply chain; and (2) ensure our customers are protected from vulnerabilities in the AI era. In just two months, NOVA analyzed 3,915 open-source software (OSS) projects and uncovered 14,090 confirmed vulnerabilities, 99.4% of which were previously unreported and 40% of them designated as high or critical severity. Nearly every frontier and open-weight model evaluated could find real vulnerabilities, with the strongest results coming from an ensemble of models, specialized security tools, and automated harnesses working together. These initial results illustrate just how dramatic the impact of AI is on the vulnerability landscape. In response to these significant results, we are actively partnering with open-source maintainers and clearinghouses such as Lightwell and Akrites to responsibly disclose these vulnerabilities and ensure they are patched upstream quickly and securely. Securing the broader open-source supply chain ultimately protects the entire software ecosystem and benefits everyone. Our experience with NOVA highlights a clear structural change: the patch window has collapsed. When vulnerability discovery accelerates, the time between disclosure and potential exploitation shrinks dramatically. And attackers need not have access to the latest frontier AI model to reverse engineer patches and develop exploits automatically. This new reality also makes virtual patching an even more important defense strategy in the AI era, and is a key driving force behind our recently announced Frontier Virtual Patching , the next evolution in network vulnerability protection. Frontier Virtual Patching is designed to operate at the speed of AI to keep pace with the new normal of higher rates of vulnerability discovery and compressed attack windows. By harnessing frontier AI to discover unknown vulnerabilities, and deploying protections in hours, we are collapsing the exposure window from the industry-average 55 days it takes to deploy a traditional patch down into a near-zero window of exposure. Our new “vaulted protection” technology enables us to deliver protections ahead of patch availability in a safe and responsible manner. In addition to these protections available with our network security platform, we recommend that organizations deploy relevant best practices, including vulnerability management, zero-trust network architecture, software supply chain security, and other attack surface reduction best practices. NOVA: Fully Automated Novel Vulnerability Discovery and Validation Our vulnerability research team built a fully autonomous vulnerability discovery system requiring no human in the loop until final review. We call this the Network and Open-Source Vulnerability Analyzer (NOVA). For each project we analyzed, NOVA performed the following functions: Review of the project history Reading the source code Identification of vulnerability candidates Creation of a working proof of concept (PoC) Deterministic validation of whether the vulnerability is t",
-      "fetch_status": "ok"
+      }
     },
     {
       "source": "Dark Reading",
@@ -7883,7 +7885,7 @@
       "published": "2026-08-04T13:00:00+00:00",
       "summary": "A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool, query any other users' meeting information and potentially join calls.",
       "author": "Nate Nelson",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7901,8 +7903,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
     },
     {
       "source": "Unit 42",
@@ -7913,34 +7914,23 @@
       "published": "2026-08-04T12:50:53+00:00",
       "summary": "Nearly half of C2 malware bypasses DNS by connecting directly to IP addresses. Zero trust IP enforcement secures networks against these threats. The post Almost Half of Malware Samples Communicate Direct to IP appeared first on Unit 42 .",
       "author": "Shu Wang, Zhanhao Chen and Daiping Liu",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "web_shell_backdoor"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {
-          "Palo Alto Networks": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 10,
-      "full_body": "Threat Research Center Threat Research Malware Malware Almost Half of Malware Samples Communicate Direct to IP 9 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Shu Wang Zhanhao Chen Daiping Liu Published: August 4, 2026 Categories: Malware Threat Research Tags: Command and Control D2IP Exfiltration IoT botnets IP traffic Mozi Phorpiex Ransomware SectopRAT Zero trust IP ZT-IP Share Executive Summary Malware samples often bypass DNS entirely, communicating directly to IP addresses instead. Our analysis of 4 million dynamic analysis reports indicates that almost half (45.32%) of malware samples with any command-and-control (C2) activity made at least one direct-to-IP (D2IP) address connection. Measured as a fraction of all C2 connection attempts, D2IP traffic accounts for 23.17% of the total. A wide variety of threats — including ransomware droppers, peer-to-peer (P2P) botnets and supply chain risks — communicate directly with hard-coded IP addresses, bypassing DNS entirely and evading DNS-based defenses altogether. This article introduces zero trust IP (ZT-IP), which is a network-level enforcement approach that applies zero trust principles to IP-based traffic. The enforcement approach verifies whether outbound connection destinations were ever sanctioned by a DNS response. We validate this approach against real-world network traffic and samples, demonstrating how ZT-IP successfully surfaces threats including: Phorpiex ransomware droppers connecting directly to C2 IP addresses A persistent data exfiltration campaign using a custom obfuscated HTTP GET request Mozi P2P botnet payloads delivered to internet-of-things (IoT) devices without DNS Palo Alto Networks customers are better protected from the threats discussed here through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Malware , DNS , Ransomware The DNS Visibility Gap DNS security has become a cornerstone of enterprise threat defense. By monitoring and filtering DNS queries, security teams can block malware from reaching known-bad domains and use sinkholing to disrupt C2 communications before they establish a foothold. This approach is effective when malware plays by the rules of relying on DNS for domain resolution. However, many types of malware do not. For example, a backdoor malware sample made no DNS query at all before initiating a WebSocket connection directly to an IP address. Disassembly via Ghidra revealed why. The destination address wss://154.92.19[.]71:39989 was hard coded into the binary as a Unicode string. This is not an isolated edge case. Without the DNS resolution step in network communications, malware is invisible to DNS-based security controls, protective DNS sinkholing and DNS anomaly detection systems. The connection simply appears as raw IP traffic with no prior context. Prevalence of IP Traffic in Malware We analyzed over 4 million Advanced WildFire dynamic analysis reports for a 30-day period to quantify how prevalent this behavior truly is. We filtered out connections to common legitimate services, internal addresses and DNS resolvers. After doing that, we found that 20.11% of malware samples exhibited C2 activity. The contrast with benign samples is striking. Only 1% of benign samples establish connections to untrusted IP addresses after applying the same filtering criteria. Those that do average just 1.6 such connections per sample. This is a small fraction of the activity observed in malware. Among malware with C2 connections, TCP dominates (94.43% prevalence, averaging 4.17 unique C2 IP addresses per sample). UDP is present in 17.50% of cases but contacts far more IP addresses per sample (averag",
-      "fetch_status": "ok"
+      }
     },
     {
       "source": "SANS Internet Storm Center",
@@ -7951,7 +7941,7 @@
       "published": "2026-08-04T12:46:19+00:00",
       "summary": "This morning, I noticed specific sources \"hunting\" for vulnerabilities in URLs that I haven&#;x26;#;39;t noticed before. All of these URLs appear to be associated with diagnostic tools:",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7967,10 +7957,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 9,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
+      }
     },
     {
       "source": "Kaspersky Securelist",
@@ -7981,7 +7968,7 @@
       "published": "2026-08-04T12:00:12+00:00",
       "summary": "We cover a cloud-based AitM attack scenario leveraging service workers and Ultraviolet, and provide detailed phishing hosting statistics across platforms like Cloudflare Workers, Vercel, Netlify, GitHub Pages, and IPFS.",
       "author": "Olga Altukhova",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "phishing_social_eng",
@@ -8004,8 +7991,61 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 10
+      }
+    },
+    {
+      "source": "NCSC UK",
+      "cohort": "government_authoritative",
+      "category": "government_authoritative",
+      "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
+      "link": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
+      "published": "2026-08-04T12:00:00+00:00",
+      "summary": "A statement from Ollie Whitehouse, Chief Technology Officer at the NCSC, on AI security following recent incidents.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_government",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Intel 471",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "category": "ransomware_ecrime_financial_crime",
+      "title": "Introducing MCP471 and Agent471: Bringing Intelligence Into the AI Workflows Analysts Use",
+      "link": "https://www.intel471.com/blog/introducing-mcp471-and-agent471-bringing-intelligence-into-the-ai-workflows-analysts-use",
+      "published": "2026-08-04T12:00:00+00:00",
+      "summary": "MCP471 and Agent471 help customers bring Intel 471 intelligence closer to the point of action: inside the tools, workflows and analyst environments where security teams already operate.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Infosecurity Magazine",
@@ -15488,37 +15528,6 @@
       }
     },
     {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "What’s New in Rapid7 Products and Services: Q2 2026 in Review",
-      "link": "https://www.rapid7.com/blog/post/pt-new-products-services-q2-2026-mdr",
-      "published": "2026-07-22T13:28:02+00:00",
-      "summary": "If Q1 set the pace for Rapid7's tools, Q2 accelerated it. This quarter brought a steady stream of product enhancements, platform investments, and customer-driven innovation across Rapid7’s portfolio. Each release was designed with a clear goal in mind: helping security teams reduce complexity while increasing speed, context, and confidence in their day-to-day operations. Here’s a closer look at what launched in Q2. Detection and response Streamline investigations with bidirectional and enriched Microsoft Defender alerts Bidirectional synchronization and enriched alert context for Microsoft Defender is now generally available for SIEM and MDR customers, enabling security teams to automatically synchronize alert status between Rapid7's SIEM and the Microsoft Defender console. With added process tree and user identity context, analysts can investigate threats more efficiently while reducing manual effort. Confidently scale detection engineering with Detection as Code Detection as Code ena",
-      "author": "Ed Montgomery",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Defender"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Microsoft Defender": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "NCSC UK",
       "cohort": "government_authoritative",
       "category": "government_authoritative",
@@ -15878,39 +15887,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Kaspersky Securelist",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "A new extortion cocktail: office printers, small ransoms, and BitLocker",
-      "link": "https://securelist.com/new-extortion-scheme-printers-bitlocker/120718/",
-      "published": "2026-07-21T13:00:29+00:00",
-      "summary": "We cover two recent cases of BitLocker extortion using RDP, MSSQL, RMM tools, web shells, and printers. The story includes TTPs and recommendations.",
-      "author": "Eduardo Ovalle",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft BitLocker"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {
-          "Microsoft BitLocker": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -16457,35 +16433,6 @@
           "OpenAI/ChatGPT": "target",
           "WordPress": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
-      "link": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
-      "published": "2026-07-20T13:00:00+00:00",
-      "summary": "Executive summary An MDR alert recently led our team to an exposed server that was doing more than hosting payloads. It was functioning as a fully operational malware delivery lab. Containing over 1,000 artifacts, the infrastructure served as a QA hub where attackers systematically tested delivery paths, social engineering lures, and WebDAV execution methods. Our analysis reveals an interesting shift in adversary operations: attackers are adopting generative AI to move beyond individual exploits and operate like modern software product teams. By leveraging LLMs for rapid lure generation, detailed README documentation, and automated testing, they are significantly accelerating their development cycle. This incident underscores the imperative of preemptive security. By unifying exposure management with detection and response, we did not just catch a single campaign; we gained visibility into the attacker’s entire delivery pipeline. Although the server hosted many malware samples, the mor",
-      "author": "Anna Širokova",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "threat_research",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -18441,35 +18388,6 @@
       }
     },
     {
-      "source": "OpenSSF Blog",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "What’s in the SOSS? Podcast #65 – S3E17 Signing the Future: Securing AI and ML Artifacts with Mihai Maruseac",
-      "link": "https://openssf.org/podcast/2026/07/14/whats-in-the-soss-podcast-65-s3e17-signing-the-future-securing-ai-and-ml-artifacts-with-mihai-maruseac/",
-      "published": "2026-07-14T13:32:32+00:00",
-      "summary": "In this episode of What’s in the SOSS?, host Yesenia Yser sits down with Mihai Maruseac (OpenAI) to discuss the OpenSSF Model Signing (OMS) specification, securing the AI/ML supply chain, and establishing a cryptographic chain of custody for models and datasets.",
-      "author": "OpenSSF",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -18594,35 +18512,6 @@
         "role_map": {
           "PyPI": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Infosecurity Magazine",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Lidl Notifies Customers of Third-Party Data Breach",
-      "link": "https://www.infosecurity-magazine.com/news/lidl-notifies-customers-of/",
-      "published": "2026-07-14T09:43:00+00:00",
-      "summary": "Supermarket giant Lidl has revealed details of a supplier breach impacting customer data",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -20474,33 +20363,6 @@
       }
     },
     {
-      "source": "TrustedSec",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Welcoming ObfusGit",
-      "link": "https://trustedsec.com/blog/welcoming-obfusgit",
-      "published": "2026-07-07T04:00:00+00:00",
-      "summary": "<p>What if your public repo could stay out of AI training data without changing how you commit? In this blog, we introduce ObfusGit, a Python tool that obfuscates your public copy while your local repo stays untouched.</p>",
-      "author": "Kevin Haubris",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -21557,6 +21419,33 @@
       }
     },
     {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build AI Security Agents with Wiz MCP",
+      "link": "https://www.wiz.io/blog/introducing-wiz-mcp",
+      "published": "2026-07-02T11:00:00+00:00",
+      "summary": "Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.",
+      "author": "Hen Perez",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Trail of Bits",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -21582,33 +21471,6 @@
         "role_map": {
           "OpenAI/ChatGPT": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build AI Security Agents with Wiz MCP",
-      "link": "https://www.wiz.io/blog/introducing-wiz-mcp",
-      "published": "2026-07-02T11:00:00+00:00",
-      "summary": "Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.",
-      "author": "Hen Perez",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -33430,6 +33292,33 @@
       }
     },
     {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "published": "2026-05-07T13:00:00+00:00",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -33455,33 +33344,6 @@
         "role_map": {
           "Linux kernel": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-      "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -47303,35 +47165,6 @@
       }
     },
     {
-      "source": "ESET WeLiveSecurity",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The who, where, and how of APT attacks in Q2 2025–Q3 2025",
-      "link": "https://www.welivesecurity.com/en/videos/who-where-how-apt-attacks-q2-2025-q3-2025/",
-      "published": "2025-11-07T12:34:37+00:00",
-      "summary": "ESET Chief Security Evangelist Tony Anscombe highlights some of the key findings from the latest issue of the ESET APT Activity Report",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google DeepMind Blog",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -47737,33 +47570,6 @@
       "link": "https://blog.cloudflare.com/evolution-of-cloudflare-radar/",
       "published": "2025-10-27T12:00:00+00:00",
       "summary": "Cloudflare Radar has evolved significantly since its 2020 launch, offering deeper insights into Internet security, routing, and traffic with new tools and data that help anyone understand what's happening online.",
-      "author": "David Belson",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Cloudflare Radar",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "From .com to .anything: introducing Top-Level Domain (TLD) insights on Cloudflare Radar",
-      "link": "https://blog.cloudflare.com/introducing-tld-insights-on-cloudflare-radar/",
-      "published": "2025-10-27T12:00:00+00:00",
-      "summary": "Cloudflare Radar has launched a new Top-Level Domain (TLD) page, providing insights into TLD popularity, traffic, and security. The top-ranking TLD may come as a surprise.",
       "author": "David Belson",
       "in_window": false,
       "taxonomy": {
