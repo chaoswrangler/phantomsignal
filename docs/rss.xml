@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 10 Aug 2026 23:41:16 +0000</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 02:08:57 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -78,6 +78,16 @@
 <guid isPermaLink="true">https://cyberscoop.com/nato-aisle-enisa-cve-vulnerability-tracking/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>FBI, South Korea warn of Gunra ransomware gang targeting critical infrastructure</title>
+<link>https://therecord.media/ransomware-south-korea-fbi-gunra</link>
+<description><![CDATA[The Gunra ransomware gang is breaching critical infrastructure organizations through vulnerabilities in popular brands of firewalls, the FBI and South Korea’s government warned.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Mon, 10 Aug 2026 19:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/ransomware-south-korea-fbi-gunra</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>OpenAI releases ChatGPT 5.6 Cyber, but it&apos;s only for approved users</title>
@@ -201,17 +211,35 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>Poland uncovers second heat plant cyberattack that went hidden for months</title>
+<link>https://therecord.media/poland-uncovers-critical-infrastructure-attack-hidden</link>
+<description><![CDATA[The incident occurred on the same day as coordinated cyberattacks struck more than 30 other renewable energy installations and a larger heat plant, as Poland publicly disclosed in January.]]></description>
+<pubDate>Mon, 10 Aug 2026 15:52:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/poland-uncovers-critical-infrastructure-attack-hidden</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant</title>
 <link>https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/</link>
-<description><![CDATA[Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data<br/><br/><em>Tags: Salesforce · Microsoft 365 · Anthropic/Claude · ransomware_extortion · ai_security</em>]]></description>
+<description><![CDATA[Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data<br/><br/><em>Tags: Salesforce · Apple iOS/macOS · Microsoft 365 · ai_security</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 15:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>Salesforce</category>
+<category>Apple iOS/macOS</category>
 <category>Microsoft 365</category>
-<category>Anthropic/Claude</category>
-<category>ransomware_extortion</category>
+<category>ai_security</category>
+</item>
+<item>
+<title>Russian military hackers pose as recruiters to target Ukrainian IT workers</title>
+<link>https://therecord.media/russian-military-hackers-pose-as-recruiters-ukraine-it-workers</link>
+<description><![CDATA[Ukraine’s computer emergency response team, CERT-UA, said Saturday that the campaign has been running since at least May and is linked to Sandworm, the notorious hacking unit associated with Russia’s GRU military intelligence agency.]]></description>
+<pubDate>Mon, 10 Aug 2026 15:21:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/russian-military-hackers-pose-as-recruiters-ukraine-it-workers</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors</title>
@@ -314,15 +342,12 @@
 <item>
 <title>Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC</title>
 <link>https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/</link>
-<description><![CDATA[Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek .<br/><br/><em>Tags: OpenAI/ChatGPT · Apple iOS/macOS · UNC6671 · CVE-2026-20337 · CVE-2026-20339 · CVE-2026-20345 · CVE-2026-20348 · CVE-2026-20338</em>]]></description>
+<description><![CDATA[Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek .<br/><br/><em>Tags: ddos</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 14:07:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>Apple iOS/macOS</category>
-<category>UNC6671</category>
-<category>CVE-2026-20337</category>
+<category>ddos</category>
 </item>
 <item>
 <title>When Credentials Are No Longer Enough: Device Trust in the AI Era</title>
@@ -902,21 +927,21 @@
 <category>Google Cloud</category>
 </item>
 <item>
-<title>How Google Cloud detects, contains, and protects against emerging threats</title>
-<link>https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/</link>
-<description><![CDATA[At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and maintain long-term trust. We approach security from a shared fate model , and we continuously work to proactively identify and mitigate potential threats before they can compromise your data and misuse your infrastructure. Understanding the risk: How bad actors attempt to exploit cloud workloads Hyperscale cloud platforms like Google Cloud offer massive compute capacity, high-speed networking, and cutting-edge AI engines, but these same core strengths also make us high-value targets for malicious actors seeking service disruption, financial gain, or exploit cloud resources. By tracking active adversary techniques, Google’s specialist security teams actively monitor and defend across several areas. AI workload exploitation : As organizations rapidly adopt AI tools and systems, including Ge<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Fri, 07 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
-</item>
-<item>
 <title>What’s new with Google Cloud</title>
 <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</link>
 <description><![CDATA[Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block &lt;ListValue: []&gt; Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to bridge this gap. Our latest blog post explores how Google Distributed Cloud (GDC) helps organizations deploy connected or air-gapped models to run advanced AI entirely within secure environments—mitigating geopolitical risks without sacrificing innovation. Read more . SAP and Google Cloud Launc<br/><br/><em>Tags: Google Cloud</em>]]></description>
 <pubDate>Fri, 07 Aug 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+</item>
+<item>
+<title>How Google Cloud detects, contains, and protects against emerging threats</title>
+<link>https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/</link>
+<description><![CDATA[At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and maintain long-term trust. We approach security from a shared fate model , and we continuously work to proactively identify and mitigate potential threats before they can compromise your data and misuse your infrastructure. Understanding the risk: How bad actors attempt to exploit cloud workloads Hyperscale cloud platforms like Google Cloud offer massive compute capacity, high-speed networking, and cutting-edge AI engines, but these same core strengths also make us high-value targets for malicious actors seeking service disruption, financial gain, or exploit cloud resources. By tracking active adversary techniques, Google’s specialist security teams actively monitor and defend across several areas. AI workload exploitation : As organizations rapidly adopt AI tools and systems, including Ge<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Fri, 07 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Google Cloud</category>
@@ -1032,12 +1057,15 @@
 <item>
 <title>AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day</title>
 <link>https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</link>
-<description><![CDATA[PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where<br/><br/><em>Tags: Anthropic/Claude · CVE-2026-63078 · zero_day · vulnerability_disclosure</em>]]></description>
 <pubDate>Fri, 07 Aug 2026 10:09:54 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>CVE-2026-63078</category>
 <category>zero_day</category>
+<category>vulnerability_disclosure</category>
 </item>
 <item>
 <title>Google Links Redact Extortion Group to BlackFile Rebrand</title>
@@ -1421,12 +1449,14 @@
 <item>
 <title>Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign</title>
 <link>https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/</link>
-<description><![CDATA[A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims<br/><br/><em>Tags: Snowflake · ransomware_extortion</em>]]></description>
+<description><![CDATA[A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims<br/><br/><em>Tags: Snowflake · Anthropic/Claude · OpenAI/ChatGPT · ransomware_extortion</em>]]></description>
 <pubDate>Thu, 06 Aug 2026 10:15:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>Snowflake</category>
+<category>Anthropic/Claude</category>
+<category>OpenAI/ChatGPT</category>
 <category>ransomware_extortion</category>
 </item>
 <item>
@@ -1832,13 +1862,15 @@
 <item>
 <title>Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup</title>
 <link>https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html</link>
-<description><![CDATA[An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its<br/><br/><em>Tags: Gitea · CVE-2026-59774</em>]]></description>
+<description><![CDATA[An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its<br/><br/><em>Tags: Gitea · Docker · CVE-2026-59774 · CVE-2026-60004 · CVE-2026-20896 · CVE-2026-27771 · active_exploitation</em>]]></description>
 <pubDate>Wed, 05 Aug 2026 11:04:23 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Gitea</category>
+<category>Docker</category>
 <category>CVE-2026-59774</category>
+<category>CVE-2026-60004</category>
 </item>
 <item>
 <title>A few notes on AWS Nitro Enclaves: KMS integration</title>
@@ -2142,12 +2174,15 @@
 <item>
 <title>UK’s Police National Legal Database Reveals Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/</link>
-<description><![CDATA[The UK’s Police National Legal Database and Ask the Police service have been breached<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[The UK’s Police National Legal Database and Ask the Police service have been breached<br/><br/><em>Tags: Apple iOS/macOS · WordPress · ransomware_extortion · phishing_social_eng · data_breach</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 08:40:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
+<category>Apple iOS/macOS</category>
+<category>WordPress</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Device Code Phishing Up 1,500% in 2026; Vishing Doubles</title>
@@ -2160,16 +2195,22 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>Quoting Steve Yegge</title>
+<link>https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything</link>
+<description><![CDATA[Gas Town was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the &quot;just two more things&quot; tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw. — Steve Yegge , The Shape of Things to Come Tags: steve-yegge , coding-agents , generative-ai , ai , llms]]></description>
+<pubDate>Tue, 04 Aug 2026 00:42:45 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>2608-volatility-interlock</title>
 <link>https://www.sophos.com/en-us/blog/2608-volatility-interlock</link>
-<description><![CDATA[&lt;p&gt;Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists&lt;/p&gt; Categories: Threat Research<br/><br/><em>Tags: Cisco · OpenAI/ChatGPT · CVE-2026-20131 · ransomware_extortion · zero_day · web_shell_backdoor</em>]]></description>
+<description><![CDATA[&lt;p&gt;Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists&lt;/p&gt; Categories: Threat Research<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/2608-volatility-interlock</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
-<category>Cisco</category>
-<category>OpenAI/ChatGPT</category>
-<category>CVE-2026-20131</category>
 <category>ransomware_extortion</category>
 </item>
 <item>
@@ -2202,16 +2243,41 @@
 <category>npm</category>
 </item>
 <item>
+<title>Security briefing: July 2026</title>
+<link>https://webflow.sysdig.com/blog/security-briefing-july-2026</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/security-briefing-july-2026</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Agentic vulnerability management, end to end: 2,731 findings, one approved fix</title>
 <link>https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix</link>
-<description><![CDATA[AI agents took a 119,443-finding backlog, traced 2,731 SLA breaches to one base-image fix, and opened a real Jira ticket. A human clicked Approve. That click is the whole autonomy debate, settled in one UI element.<br/><br/><em>Tags: Atlassian Jira · Anthropic/Claude · ransomware_extortion</em>]]></description>
+<description><![CDATA[AI agents took a 119,443-finding backlog, traced 2,731 SLA breaches to one base-image fix, and opened a real Jira ticket. A human clicked Approve. That click is the whole autonomy debate, settled in one UI element.<br/><br/><em>Tags: Atlassian Jira</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/agentic-vulnerability-management-end-to-end-2-731-findings-one-approved-fix</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>Atlassian Jira</category>
-<category>Anthropic/Claude</category>
-<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Introducing Sysdig Secure AI: Your expert AI security team</title>
+<link>https://webflow.sysdig.com/blog/introducing-sysdig-secure-ai</link>
+<description><![CDATA[Sysdig Secure AI puts expert AI agents to work investigating, prioritizing, and acting on cloud security risk in real time, grounded in Sysdig&apos;s runtime intelligence. Teams choose how to use it across Agentic AI, Headless Cloud Security, and the GenAI Assistant, as security shifts from human-speed operators to machine-speed orchestration.]]></description>
+<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://webflow.sysdig.com/blog/introducing-sysdig-secure-ai</guid>
+<source url="https://sysdig.com/feed/">Sysdig</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Don&apos;t be a meat proxy</title>
+<link>https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything</link>
+<description><![CDATA[Don&apos;t be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means, prompt AI. But don&apos;t just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you&apos;ve done the prior steps). Making that effort is value you can add. Via Lobste.rs Tags: definitions , ai , generative-ai , llms , ai-misuse]]></description>
+<pubDate>Mon, 03 Aug 2026 23:45:04 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Jackpot: a browser lab of 10 deliberately vulnerable LLM apps, one per OWASP LLM Top 10 category</title>
@@ -2592,16 +2658,6 @@
 <guid isPermaLink="true">https://www.interconnects.ai/p/latest-open-artifacts-23-laguna-s21</guid>
 <source url="https://www.interconnects.ai/feed">Interconnects</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Open letters about AI development</title>
-<link>https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything</link>
-<description><![CDATA[Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I&apos;ve decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen&apos;s first ever tweet ), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI. It&apos;s clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over &quot;safety&quot; concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the ha<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
-<pubDate>Sun, 02 Aug 2026 04:16:52 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>r/netsec monthly discussion &amp; tool thread</title>
@@ -19457,7 +19513,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19466,7 +19522,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19475,7 +19531,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19484,7 +19540,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19493,7 +19549,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19502,7 +19558,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19511,7 +19567,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19520,7 +19576,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19529,7 +19585,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19538,7 +19594,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 10 Aug 2026 23:41:16 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 02:08:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
