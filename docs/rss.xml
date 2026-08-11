@@ -4,11 +4,30 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 11 Aug 2026 21:56:13 +0000</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 22:52:03 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>DeadLock ransomware uses blockchain to resist infrastructure takedown</title>
+<link>https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/</link>
+<description><![CDATA[The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Tue, 11 Aug 2026 22:15:22 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/deadlock-ransomware-uses-blockchain-to-resist-infrastructure-takedown/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Microsoft&apos;s Patch Tuesday Deluge Continues With August Updates</title>
+<link>https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues</link>
+<description><![CDATA[Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.]]></description>
+<pubDate>Tue, 11 Aug 2026 21:42:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Microsoft Plugs Nearly 400 Security Holes</title>
 <link>https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/</link>
@@ -32,6 +51,19 @@
 <category>cyber_news_breach_reporting</category>
 <category>Fortinet</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Patch Tuesday - August 2026</title>
+<link>https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026</link>
+<description><![CDATA[Microsoft is publishing 421 vulnerabilities on August 2026 Patch Tuesday , including 236 vulnerabilities in Windows. This is lower volume than last month’s record-breaking behemoth, but still one of the largest Patch Tuesday totals ever. There is no reason to suppose that Patch Tuesday will ever return to the lower volumes we saw prior to 2026. Microsoft is aware of exploitation in the wild for one of the vulnerabilities published today, as well as public disclosure for two others, although the Notable CVEs section of the Security Update Guide omits one of these. As usual, browser vulns are not included in the Patch Tuesday count above, but unusually, Microsoft does not appear to have published any desktop browser security patches so far this month. SharePoint: critical RCE chain by Rapid7 Today sees the publication of CVE-2026-63520 , a high-severity remote code execution in Microsoft SharePoint. Discovered by Rapid7 Senior Principal Security Researcher Stephen Fewer , and published t<br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-63520 · CVE-2026-55040 · CVE-2026-68820 · CVE-2026-62832 · CVE-2026-50656 · zero_day · active_exploitation</em>]]></description>
+<pubDate>Tue, 11 Aug 2026 21:10:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+<category>Microsoft SharePoint</category>
+<category>CVE-2026-63520</category>
+<category>CVE-2026-55040</category>
+<category>CVE-2026-68820</category>
 </item>
 <item>
 <title>Sandworm hackers target IT pros with trojanized WireGuard VPN client</title>
@@ -700,17 +732,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>BdThemes plugins supply-chain hack creates rogue WordPress admins</title>
-<link>https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/</link>
-<description><![CDATA[A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators&apos; browsers to create rogue admin accounts. [...]<br/><br/><em>Tags: WordPress · supply_chain</em>]]></description>
-<pubDate>Mon, 10 Aug 2026 21:12:10 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius</link>
 <description><![CDATA[The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.<br/><br/><em>Tags: zero_day</em>]]></description>
@@ -1324,16 +1345,6 @@
 <category>CVE-2026-64638</category>
 </item>
 <item>
-<title>Vulnerability Management Lifecycle: Core Phases</title>
-<link>https://orca.security/resources/blog/vulnerability-management-lifecycle/</link>
-<description><![CDATA[Key Takeaways The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase […]<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
-<pubDate>Fri, 07 Aug 2026 12:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/vulnerability-management-lifecycle/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>vulnerability_disclosure</category>
-</item>
-<item>
 <title>New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables</title>
 <link>https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html</link>
 <description><![CDATA[Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and]]></description>
@@ -1409,13 +1420,15 @@
 <item>
 <title>TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign</title>
 <link>https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</link>
-<description><![CDATA[A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. &quot;The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,<br/><br/><em>Tags: TeamPCP · supply_chain</em>]]></description>
+<description><![CDATA[A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. &quot;The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,<br/><br/><em>Tags: Kubernetes · GitLab · GitHub · TeamPCP · ransomware_extortion · supply_chain · credential_theft · web_shell_backdoor</em>]]></description>
 <pubDate>Fri, 07 Aug 2026 06:50:05 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Kubernetes</category>
+<category>GitLab</category>
+<category>GitHub</category>
 <category>TeamPCP</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>July 2026 CVE Landscape</title>
@@ -1433,13 +1446,14 @@
 <item>
 <title>ChainDrop: Inside a Self-Propagating npm Worm</title>
 <link>https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/</link>
-<description><![CDATA[Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .<br/><br/><em>Tags: GitHub · npm · supply_chain</em>]]></description>
+<description><![CDATA[Analysis of ChainDrop, an npm supply chain worm extracting GitHub Actions runner secrets and using Ethereum smart contracts for C2 routing. The post ChainDrop: Inside a Self-Propagating npm Worm appeared first on Unit 42 .<br/><br/><em>Tags: Palo Alto Networks · npm · GitHub · supply_chain</em>]]></description>
 <pubDate>Thu, 06 Aug 2026 22:26:39 +0000</pubDate>
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
-<category>GitHub</category>
+<category>Palo Alto Networks</category>
 <category>npm</category>
+<category>GitHub</category>
 <category>supply_chain</category>
 </item>
 <item>
@@ -1665,15 +1679,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>Anthropic/Claude</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Vulnerability Scanning Tools: Top 10 Compared for 2026</title>
-<link>https://orca.security/resources/blog/vulnerability-scanning-tools/</link>
-<description><![CDATA[Key Takeaways Vulnerability scanning tools inspect specific asset types for known security weaknesses and report the findings to whatever system manages remediation. They are not interchangeable with vulnerability management platforms, which organize, prioritize, and track the work that follows. Every scanner is built around a target class and an access method. A tool that authenticates […]]]></description>
-<pubDate>Thu, 06 Aug 2026 12:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/vulnerability-scanning-tools/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities</title>
@@ -1989,19 +1994,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Compromised keyv Maintainer Account Triggers Massive npm Supply Chain Attack</title>
-<link>https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/</link>
-<description><![CDATA[A compromised GitHub maintainer account was used to publish malicious versions of 10 widely-used npm packages in the keyv and cacheable ecosystem, collectively downloaded over 619 million times per month. The attack, attributed to the TeamPCP threat group, deployed a descendant of the “Mini” Shai-Hulud malware family that harvests cloud credentials, GitHub tokens, SSH keys, […]<br/><br/><em>Tags: npm · GitHub · Kubernetes · TeamPCP · supply_chain</em>]]></description>
-<pubDate>Wed, 05 Aug 2026 14:13:47 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>npm</category>
-<category>GitHub</category>
-<category>Kubernetes</category>
-<category>TeamPCP</category>
-</item>
-<item>
 <title>Immigration Policy: The Backdoor to Transnational Repression</title>
 <link>https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/</link>
 <description><![CDATA[Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .<br/><br/><em>Tags: web_shell_backdoor</em>]]></description>
@@ -2142,6 +2134,24 @@
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Bugtraq is back 🥹</title>
+<link>https://www.reddit.com/r/netsec/comments/1vfpmhg/bugtraq_is_back/</link>
+<description><![CDATA[submitted by /u/loselasso [link] [comments]]]></description>
+<pubDate>Tue, 04 Aug 2026 22:48:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vfpmhg/bugtraq_is_back/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>llm-anthropic 0.26</title>
+<link>https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything</link>
+<description><![CDATA[Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and AnthropicMCP , available through LLM&apos;s -T interface or Python tools= . The previous -o web_search* options have been removed in favor of -T WebSearch . #79 Upgraded to llm&gt;=0.32 . Reasoning, tool calls, tool results, and server-side tool results now stream as typed events. Reasoning for llm CLI prompts now displays to standard error unless you pass --hide-reasoning/-R . Simplified extended thinking to thinking and thinking_effort ( low , medium , high , xhigh , or max ). Claude 5 models think by default; -o thinking 0 disables thinking for Sonnet 5 and Opus 5, while Fable 5 always thinks. -R/--hide-reasoning now omits reasoning from responses and logs. The thinking_budget , thinking_display , and thinking_adaptive options have been removed. #80 Tags: llm , anthropic , c]]></description>
+<pubDate>Tue, 04 Aug 2026 22:00:58 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>PipeNetwork/minimax-h3-mlx</title>
@@ -2848,15 +2858,6 @@
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/coding-agent-project-trust-code-execution-before-first-prompt/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>condense-json 1.0</title>
-<link>https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything</link>
-<description><![CDATA[Release: condense-json 1.0 I&apos;m trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I&apos;ve applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here&apos;s an example of what it can do, lifted from the README: { &quot;foo&quot; : { &quot;bar&quot; : { &quot;string&quot; : &quot; This is a string with foxes in it &quot; , &quot;nested&quot; : { &quot;more&quot; : [ &quot; Here is a string &quot; , &quot; another with foxes in it too &quot; ] } } } } Combine that with a replacements object: { &quot;1&quot; : &quot; with foxes in it &quot; } And condense_json(input_json, replacements) produces the following: { &quot;foo&quot; : { &quot;bar&quot; : { &quot;string&quot; : { &quot;$r&quot; : [ &quot; This is a string &quot; , { &quot;$&quot; : &quot; 1 &quot; }]}, &quot;nested&quot; : { &quot;more&quot; : [ &quot; Here is a string &quot; , { &quot;$r&quot; : [ &quot; another &quot; , { &quot;$&quot; : &quot; 1 &quot; }, &quot; too &quot; ]}] } } } } It scans for strings or substrings that are present in that replacements object and replaces those with a special {&quot;$r&quot;: ...} syntax in the output. You can reverse the effect with uncondense_json(condensed, replacements) . The ]]></description>
-<pubDate>Sun, 02 Aug 2026 22:19:59 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Latest open artifacts (#23): Laguna S2.1, Inkling, &amp; Kimi K3 show the utility of open models on the Pareto frontier</title>
@@ -3903,15 +3904,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>&apos;Certighost&apos; Flaw Haunts Microsoft Active Directory Certificates</title>
-<link>https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates</link>
-<description><![CDATA[Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.]]></description>
-<pubDate>Tue, 28 Jul 2026 16:38:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Disrupting supply chain attacks on npm and GitHub Actions</title>
 <link>https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/</link>
 <description><![CDATA[Explore the changes we&apos;ve shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact. The post Disrupting supply chain attacks on npm and GitHub Actions appeared first on The GitHub Blog .<br/><br/><em>Tags: GitHub · npm · supply_chain</em>]]></description>
@@ -4045,6 +4037,16 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -4054,16 +4056,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -4513,17 +4505,6 @@
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>CVE-2026-16232: Critical Check Point SmartConsole Authentication Bypass Exploited in the Wild</title>
-<link>https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild</link>
-<description><![CDATA[Overview On July 22, 2026, Check Point published a security advisory for multiple vulnerabilities affecting Security Management, Multi-Domain Management, and firewall products. The most urgent of these is CVE-2026-16232 , an authentication bypass in the SmartConsole login process classified as improper authentication ( CWE-287 ). CVE-2026-16232 has been assigned a critical CVSS score of 9.1. The vulnerability allows an unauthenticated remote attacker to obtain an application login token and authenticate to the management server with full administrative privileges, enabling modification of security policies and configurations. Check Point has confirmed that CVE-2026-16232 is being actively exploited in the wild, affecting what the vendor describes as a small number of customers. Remote exploitation requires network access to the Management Server IP address in environments that do not restrict Trusted Clients. On the same day as the advisory, CVE-2026-16232 was added to the U.S. Cyberse<br/><br/><em>Tags: CVE-2026-16232 · active_exploitation</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 11:57:30 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2026-16232</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>What FATF’s 7th Crypto Compliance Report Card Means: Enforcement Must Catch Up With Legislation</title>
@@ -19365,7 +19346,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19374,7 +19355,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19383,7 +19364,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19392,7 +19373,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19401,7 +19382,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19410,7 +19391,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19419,7 +19400,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19428,7 +19409,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19437,7 +19418,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19446,7 +19427,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 21:56:13 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 22:52:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
