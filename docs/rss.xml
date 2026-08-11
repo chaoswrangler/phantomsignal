@@ -6,9 +6,37 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 11 Aug 2026 04:25:06 +0000</lastBuildDate>
+<lastBuildDate>Tue, 11 Aug 2026 05:57:00 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>An AI tool found 84 flaws in 5G network software and 23 of them still have no fix</title>
+<link>https://www.helpnetsecurity.com/2026/08/11/5g-core-network-vulnerabilities-research/</link>
+<description><![CDATA[Researchers at Nanyang Technological University turned a set of AI agents loose on the software that runs 4G and 5G phone networks, and the agents came back with 84 security flaws nobody had reported before. Developers have confirmed 83 of them, and 81 now carry CVE numbers. The most serious one lets an attacker take over a subscriber’s data session, so the network delivers that subscriber’s traffic to the attacker instead of to the internet. … More → The post An AI tool found 84 flaws in 5G network software and 23 of them still have no fix appeared first on Help Net Security .]]></description>
+<pubDate>Tue, 11 Aug 2026 05:30:20 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/11/5g-core-network-vulnerabilities-research/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Previously unseen entry vector used to breach Polish energy plant</title>
+<link>https://www.helpnetsecurity.com/2026/08/11/poland-energy-sector-cyberattack-heating-plant-private-apn/</link>
+<description><![CDATA[The December 29 cyberattack on a Polish combined heat and power (CHP) plant was the first observed case of attackers gaining access to an OT network through a private APN, according to CERT Polska. The private APN is a dedicated mobile network that a Distribution System Operator (DSO), the company running the local electricity grid, sets up with a mobile carrier. Illustrative use of a private APN in distributed energy resources (Source: CERT Polska) The … More → The post Previously unseen entry vector used to breach Polish energy plant appeared first on Help Net Security .]]></description>
+<pubDate>Tue, 11 Aug 2026 05:00:59 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/11/poland-energy-sector-cyberattack-heating-plant-private-apn/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Your security vendor gets the frontier cyber model, you get the findings</title>
+<link>https://www.helpnetsecurity.com/2026/08/11/openai-daybreak-cyber-models/</link>
+<description><![CDATA[Selected red team specialists can now use OpenAI’s cyber models to find and exploit weaknesses in client applications and infrastructure. Those clients never get the models themselves. That split is the design of the Daybreak Cyber Partner Program, which OpenAI expanded on August 10: access to the underlying models stays with the approved partner and is not transferred directly to the customer. Approved partners choose between Daybreak Blue and Daybreak Red, reached through Daybreak Access, … More → The post Your security vendor gets the frontier cyber model, you get the findings appeared first on Help Net Security .<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Tue, 11 Aug 2026 04:43:54 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/11/openai-daybreak-cyber-models/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+</item>
 <item>
 <title>Cybersecurity jobs available right now: August 11, 2026</title>
 <link>https://www.helpnetsecurity.com/2026/08/11/cybersecurity-jobs-available-right-now-august-11-2026/</link>
@@ -143,15 +171,13 @@
 <item>
 <title>New StormEncryptor ransomware used by former Medusa affiliate</title>
 <link>https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/</link>
-<description><![CDATA[A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]<br/><br/><em>Tags: SonicWall · Ivanti · Medusa · CVE-2026-18577 · ransomware_extortion · phishing_social_eng · zero_day</em>]]></description>
+<description><![CDATA[A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]<br/><br/><em>Tags: Medusa · ransomware_extortion</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 17:42:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>SonicWall</category>
-<category>Ivanti</category>
 <category>Medusa</category>
-<category>CVE-2026-18577</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development</title>
@@ -266,12 +292,14 @@
 <item>
 <title>DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</link>
-<description><![CDATA[Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<description><![CDATA[Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · ransomware_extortion · credential_theft · data_breach</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
+<category>Microsoft Defender</category>
 <category>ransomware_extortion</category>
+<category>credential_theft</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -612,30 +640,6 @@
 <category>GitHub</category>
 </item>
 <item>
-<title>GitHub Dependabot malware alerts now cover eight ecosystems</title>
-<link>https://www.helpnetsecurity.com/2026/08/10/github-dependabot-malware-alerts/</link>
-<description><![CDATA[GitHub has flagged npm malware since March 2026. Anyone pulling in a bad PyPI, Maven, RubyGems, NuGet, Go, crates.io, or PHP Composer package has had no such warning, because GitHub’s malware detection only ever watched one ecosystem. That changed this month. GitHub’s Advisory Database now ingests malware reports from OpenSSF’s malicious-packages repository, a public feed in OSV format that launched in 2023 with more than 15,000 reports and has grown daily since, covering typosquats, dependency-confusion … More → The post GitHub Dependabot malware alerts now cover eight ecosystems appeared first on Help Net Security .<br/><br/><em>Tags: GitHub · npm · PyPI</em>]]></description>
-<pubDate>Mon, 10 Aug 2026 07:01:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/10/github-dependabot-malware-alerts/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>npm</category>
-<category>PyPI</category>
-</item>
-<item>
-<title>Chainloop: Open-source evidence store and policy engine for the software supply chain</title>
-<link>https://www.helpnetsecurity.com/2026/08/10/chainloop-open-source-supply-chain-security/</link>
-<description><![CDATA[Chainloop is an open source evidence store for the software supply chain. A command line tool runs inside a GitHub Actions, GitLab, Jenkins, or Dagger pipeline, picks up what the build produced, uploads those files to content-addressable storage, and references each one in a signed in-toto attestation. in-toto is a specification for recording who ran which step of a build, so the record can be checked afterward. Compliance and security teams get a control plane … More → The post Chainloop: Open-source evidence store and policy engine for the software supply chain appeared first on Help Net Security .<br/><br/><em>Tags: GitHub · GitLab · supply_chain</em>]]></description>
-<pubDate>Mon, 10 Aug 2026 05:30:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/10/chainloop-open-source-supply-chain-security/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>GitLab</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Critical Flaws Discovered in Belgian eID Software Used by 2 Million People</title>
 <link>https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/</link>
 <description><![CDATA[The vulnerabilities affected software used by eight of Belgium’s ten largest banks and over 60 government agencies. The post Critical Flaws Discovered in Belgian eID Software Used by 2 Million People appeared first on SecurityWeek .]]></description>
@@ -785,15 +789,14 @@
 <item>
 <title>Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication</title>
 <link>https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html</link>
-<description><![CDATA[Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain<br/><br/><em>Tags: Azure · cPanel · Anthropic/Claude · CVE-2023-38646 · credential_theft · zero_day · data_breach · active_exploitation</em>]]></description>
+<description><![CDATA[Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain<br/><br/><em>Tags: CVE-2023-38646 · zero_day · active_exploitation</em>]]></description>
 <pubDate>Sat, 08 Aug 2026 06:58:31 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Azure</category>
-<category>cPanel</category>
-<category>Anthropic/Claude</category>
 <category>CVE-2023-38646</category>
+<category>zero_day</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist</title>
@@ -1228,13 +1231,14 @@
 <item>
 <title>New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts</title>
 <link>https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html</link>
-<description><![CDATA[Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86&apos;s shadow memory management unit (MMU), which manages shadow page<br/><br/><em>Tags: Linux kernel · CVE-2026-64561</em>]]></description>
+<description><![CDATA[Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86&apos;s shadow memory management unit (MMU), which manages shadow page<br/><br/><em>Tags: Linux kernel · CVE-2026-64561 · active_exploitation</em>]]></description>
 <pubDate>Thu, 06 Aug 2026 17:58:30 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Linux kernel</category>
 <category>CVE-2026-64561</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs</title>
@@ -1249,11 +1253,14 @@
 <item>
 <title>Canadian Man Pleads Guilty in Snowflake Extortions</title>
 <link>https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/</link>
-<description><![CDATA[A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&amp;T customers.]]></description>
+<description><![CDATA[A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&amp;T customers.<br/><br/><em>Tags: Snowflake · ransomware_extortion · phishing_social_eng</em>]]></description>
 <pubDate>Thu, 06 Aug 2026 17:00:56 +0000</pubDate>
 <guid isPermaLink="true">https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/</guid>
 <source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
 <category>practitioner_analysis</category>
+<category>Snowflake</category>
+<category>ransomware_extortion</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>How we took malware advisories beyond npm</title>
@@ -19526,7 +19533,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19535,7 +19542,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19544,7 +19551,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19553,7 +19560,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19562,7 +19569,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19571,7 +19578,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19580,7 +19587,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19589,7 +19596,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19598,7 +19605,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19607,7 +19614,7 @@
 <title>CrowdStrike Joins the Open Secure AI Alliance to Advance AI Safety and Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 11 Aug 2026 04:25:06 +0000</pubDate>
+<pubDate>Tue, 11 Aug 2026 05:57:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-joins-the-open-secure-ai-alliance/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
