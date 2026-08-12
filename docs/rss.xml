@@ -6,9 +6,29 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 12 Aug 2026 22:49:44 +0000</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 23:49:29 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Smashing Security podcast #480: This is the AI service you should never sign up to</title>
+<link>https://grahamcluley.com/smashing-security-podcast-480/</link>
+<description><![CDATA[Would you like access to Anthropic&apos;s Claude at 90% off the normal price? All you have to do is redirect your traffic to a mysterious service called &quot;Poison Claude&quot;. Only problem is that it&apos;s run by fraudsters... Meanwhile, a phishing-as-a-service platform called &quot;Greatness&quot; has come up with something rather nasty: a phishing attack that doesn&apos;t need a fake website, a suspicious URL, or your password. Just a real Microsoft login page and a moment of misplaced trust - and the attackers walk off with full access to your emails, your files, and your entire organisation. All this and more in episode 480 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lianne Potter.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 23:12:28 +0000</pubDate>
+<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-480/</guid>
+<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
+<category>practitioner_analysis</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>&quot;City-Forum&quot; data-theft attacks target Salesforce, ServiceNow portals</title>
+<link>https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/</link>
+<description><![CDATA[An ongoing data theft campaign uses custom tools to steal data exposed to anonymous users through Salesforce Experience Cloud and ServiceNow customer portals. [...]<br/><br/><em>Tags: Salesforce</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 23:07:23 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
+</item>
 <item>
 <title>Android malware combo takes out loans and relays victims&apos; credit cards</title>
 <link>https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/</link>
@@ -58,15 +78,15 @@
 <item>
 <title>Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor</title>
 <link>https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</link>
-<description><![CDATA[The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and<br/><br/><em>Tags: Lazarus · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
+<description><![CDATA[The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and<br/><br/><em>Tags: Lazarus · CVE-2026-68820 · phishing_social_eng · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 17:39:27 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Lazarus</category>
+<category>CVE-2026-68820</category>
+<category>phishing_social_eng</category>
 <category>zero_day</category>
-<category>apt_espionage</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>FBI: Hackers using social engineering to breach accounts and steal explicit content</title>
@@ -248,12 +268,13 @@
 <item>
 <title>Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset</title>
 <link>https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/</link>
-<description><![CDATA[Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset appeared first on SecurityWeek .<br/><br/><em>Tags: Salesforce</em>]]></description>
+<description><![CDATA[Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset appeared first on SecurityWeek .<br/><br/><em>Tags: Salesforce · ShinyHunters</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>Salesforce</category>
+<category>ShinyHunters</category>
 </item>
 <item>
 <title>Microsoft’s massive Patch Tuesday releases continue as AI reshapes bug discovery</title>
@@ -295,15 +316,13 @@
 <item>
 <title>Lazarus hackers pair fake job offers with Windows zero-day exploit</title>
 <link>https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/</link>
-<description><![CDATA[The North Korea-linked Lazarus group is using fake job offers, trojanized PDF software and a Windows zero-day in attacks aimed primarily at the defense sector, Check Point researchers have found. The activity is part of Operation Dream Job, a long-running campaign in which attackers pose as recruiters and lure targets with job opportunities at well-known companies. One of the decoy documents uncovered during the investigation used a Lockheed Martin job description. Check Point was unable … More → The post Lazarus hackers pair fake job offers with Windows zero-day exploit appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft Windows · Lazarus · CVE-2026-68820 · phishing_social_eng · zero_day · web_shell_backdoor</em>]]></description>
+<description><![CDATA[The North Korea-linked Lazarus group is using fake job offers, trojanized PDF software and a Windows zero-day in attacks aimed primarily at the defense sector, Check Point researchers have found. The activity is part of Operation Dream Job, a long-running campaign in which attackers pose as recruiters and lure targets with job opportunities at well-known companies. One of the decoy documents uncovered during the investigation used a Lockheed Martin job description. Check Point was unable … More → The post Lazarus hackers pair fake job offers with Windows zero-day exploit appeared first on Help Net Security .<br/><br/><em>Tags: Lazarus · zero_day</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 11:48:17 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/12/north-korea-lazarus-fake-job-offers/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
-<category>Microsoft Windows</category>
 <category>Lazarus</category>
-<category>CVE-2026-68820</category>
-<category>phishing_social_eng</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models&apos; Reasoning</title>
@@ -723,15 +742,6 @@
 <category>APT44</category>
 <category>phishing_social_eng</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees</title>
-<link>https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/</link>
-<description><![CDATA[Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]]]></description>
-<pubDate>Tue, 11 Aug 2026 18:34:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)</title>
@@ -2130,6 +2140,15 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
+<title>AI Sends Global Crime Syndicates Into Fraud Nirvana</title>
+<link>https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana</link>
+<description><![CDATA[Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.]]></description>
+<pubDate>Wed, 05 Aug 2026 23:35:28 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Incident Report: unsanctioned agent behaviour during cyber testing</title>
 <link>https://simonwillison.net/2026/Aug/5/incident-report/</link>
 <description><![CDATA[Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government&apos;s AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply]]></description>
@@ -2141,12 +2160,11 @@
 <item>
 <title>CRLF-Powered Desync Attacks: Beheading HTTP Streams</title>
 <link>https://portswigger.net/research/crlf-powered-desync-attacks</link>
-<description><![CDATA[Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power<br/><br/><em>Tags: active_exploitation</em>]]></description>
+<description><![CDATA[Abstract In this paper we’ll show that HTTP Header Injection is severely underestimated. Forget open redirects or Cross-Site Scripting and instead, embrace the catastrophic potential of the CRLF-Power]]></description>
 <pubDate>Wed, 05 Aug 2026 23:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://portswigger.net/research/crlf-powered-desync-attacks</guid>
 <source url="https://portswigger.net/research/rss">PortSwigger Research</source>
 <category>offensive_vulnerability_research</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>AI Browsers Vulnerable to &apos;PleaseFix&apos; Zero-Click Agent Hijacking</title>
@@ -2156,6 +2174,15 @@
 <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Smashing Security podcast #479: How a fake police officer nearly stole Graham’s cryptocurrency</title>
+<link>https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/</link>
+<description><![CDATA[Graham gets a phone call from the police. Well, someone who sounds convincingly like the police. There&apos;s just one small problem: what they really want is the 24-word seed key to Graham&apos;s cryptocurrency wallet. Meanwhile, if you&apos;ve stayed in a hotel recently, the free Wi-Fi you connected to might have come with an unexpected extra: an all-you-can-eat buffet of &quot;Captive Crunch&quot; for a Russian intelligence-linked hacking group. And a group calling itself the &quot;ExFilSquad&quot; has walked off with 600,000 records of the UK&apos;s teachers and head teachers from the Department for Education — sending an unusually polite ransom demand. All this and more in episode 479 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Danny Palmer.]]></description>
+<pubDate>Wed, 05 Aug 2026 23:10:20 +0000</pubDate>
+<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/</guid>
+<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>No Perfect Fix for AI Browser Prompt Injection Flaws</title>
@@ -4269,6 +4296,16 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -4278,16 +4315,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -6963,15 +6990,6 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Scammers race to cash in on Venezuelan earthquake disaster</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/scammers-cash-in-venezuela-earthquake</link>
-<description><![CDATA[Scammers wasted no time exploiting Venezuela&apos;s devastating earthquake, with researchers uncovering 212 newly-registered relief-themed domains in just five days. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Tue, 30 Jun 2026 21:04:35 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/scammers-cash-in-venezuela-earthquake</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>No (Bad) CAP: Inside an Ongoing LSHIY Password Spray Attack</title>
@@ -11024,15 +11042,6 @@
 <description><![CDATA[The United States (US) is shifting toward a more force-driven security strategy primarily relying on military operations and economic pressure to counter transnational criminal organizations and limit Chinese, Russian, and Iranian influence in the Western Hemisphere.]]></description>
 <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.recordedfuture.com/research/us-strategic-pivot</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>Building with AI: Here&apos;s What No Briefing Will Tell You</title>
-<link>https://www.recordedfuture.com/blog/building-with-ai</link>
-<description><![CDATA[What building with AI for three months revealed about four leadership blind spots executives can&apos;t afford to ignore: the comprehension gap, eroding competitive moats, deployment complexity, and what &quot;senior&quot; really means now.]]></description>
-<pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/building-with-ai</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
 </item>
@@ -18628,7 +18637,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18638,7 +18647,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18647,7 +18656,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18656,7 +18665,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18665,7 +18674,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18674,7 +18683,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18683,7 +18692,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18692,7 +18701,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18701,7 +18710,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18710,7 +18719,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 22:49:44 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 23:49:29 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
