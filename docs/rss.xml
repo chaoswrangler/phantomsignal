@@ -4,11 +4,36 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 12 Aug 2026 15:03:46 +0000</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 16:05:43 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days</title>
+<link>https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence</link>
+<description><![CDATA[Analyze Cl0p ransomware&apos;s history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.<br/><br/><em>Tags: SolarWinds · Cl0p · ransomware_extortion · zero_day</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 15:55:32 +0000</pubDate>
+<guid isPermaLink="true">https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence</guid>
+<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>SolarWinds</category>
+<category>Cl0p</category>
+<category>ransomware_extortion</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Lazarus hackers exploited Windows zero-day to target defense firms</title>
+<link>https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/</link>
+<description><![CDATA[North Korean hackers have been exploiting a Windows zero-day vulnerability (CVE-2026-68820) to target defense-sector companies as part of the Operation Dream Job campaign. [...]<br/><br/><em>Tags: Lazarus · CVE-2026-68820 · zero_day</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 15:38:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Lazarus</category>
+<category>CVE-2026-68820</category>
+<category>zero_day</category>
+</item>
 <item>
 <title>SharePoint Vulnerability Exploited Shortly After PoC Release</title>
 <link>https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/</link>
@@ -155,19 +180,6 @@
 <guid isPermaLink="true">https://therecord.media/cisa-gives-federal-agencies-two-weeks-to-patch-dprk-microsoft-bug</guid>
 <source url="https://therecord.media/feed">The Record</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days</title>
-<link>https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence</link>
-<description><![CDATA[Analyze Cl0p ransomware&apos;s history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.<br/><br/><em>Tags: SolarWinds · Cl0p · ransomware_extortion · zero_day</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 12:00:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence</guid>
-<source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>SolarWinds</category>
-<category>Cl0p</category>
-<category>ransomware_extortion</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Lazarus hackers pair fake job offers with Windows zero-day exploit</title>
@@ -754,12 +766,11 @@
 <item>
 <title>NIST wants to overhaul its vulnerability database for the AI age</title>
 <link>https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/</link>
-<description><![CDATA[NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .]]></description>
 <pubDate>Tue, 11 Aug 2026 15:36:02 +0000</pubDate>
 <guid isPermaLink="true">https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>CopyEscape: Container-to-host arbitrary file write via docker cp (CVE-2026-17106)</title>
@@ -971,12 +982,15 @@
 <item>
 <title>[remote] mcp-server-kubernetes 3.8.x - Argument Injection</title>
 <link>https://www.exploit-db.com/exploits/52638</link>
-<description><![CDATA[mcp-server-kubernetes 3.8.x - Argument Injection<br/><br/><em>Tags: Kubernetes</em>]]></description>
+<description><![CDATA[mcp-server-kubernetes 3.8.x - Argument Injection<br/><br/><em>Tags: Kubernetes · Anthropic/Claude · GitHub · CVE-2026-61459</em>]]></description>
 <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52638</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>Kubernetes</category>
+<category>Anthropic/Claude</category>
+<category>GitHub</category>
+<category>CVE-2026-61459</category>
 </item>
 <item>
 <title>deno-case-studies</title>
@@ -1299,12 +1313,15 @@
 <item>
 <title>IT threat evolution in Q2 2026. Non-mobile statistics</title>
 <link>https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/</link>
-<description><![CDATA[The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as internet of things (IoT) devices, during Q2 2026.<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
+<description><![CDATA[The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as internet of things (IoT) devices, during Q2 2026.<br/><br/><em>Tags: Apple iOS/macOS · Microsoft Defender · Rhysida · CVE-2026-33825 · CVE-2026-50751 · CVE-2026-50752 · ransomware_extortion · zero_day</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 10:00:37 +0000</pubDate>
 <guid isPermaLink="true">https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/</guid>
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>Apple iOS/macOS</category>
+<category>Microsoft Defender</category>
+<category>Rhysida</category>
+<category>CVE-2026-33825</category>
 </item>
 <item>
 <title>Go-Based macOS Malware Steals Crypto and Secrets</title>
@@ -1353,11 +1370,13 @@
 <item>
 <title>[webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution</title>
 <link>https://www.exploit-db.com/exploits/52633</link>
-<description><![CDATA[OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution]]></description>
+<description><![CDATA[OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution<br/><br/><em>Tags: GitHub · CVE-2026-58138</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52633</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+<category>GitHub</category>
+<category>CVE-2026-58138</category>
 </item>
 <item>
 <title>[webapps] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution</title>
@@ -1712,13 +1731,15 @@
 <item>
 <title>TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign</title>
 <link>https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</link>
-<description><![CDATA[A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. &quot;The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,<br/><br/><em>Tags: TeamPCP · supply_chain</em>]]></description>
+<description><![CDATA[A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. &quot;The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,<br/><br/><em>Tags: Kubernetes · GitLab · GitHub · TeamPCP · ransomware_extortion · supply_chain · credential_theft · web_shell_backdoor</em>]]></description>
 <pubDate>Fri, 07 Aug 2026 06:50:05 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Kubernetes</category>
+<category>GitLab</category>
+<category>GitHub</category>
 <category>TeamPCP</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>July 2026 CVE Landscape</title>
@@ -2182,6 +2203,15 @@
 <category>threat_research_primary</category>
 <category>Apple iOS/macOS</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>Fake Open VSX Extensions Harvest Private Repo and CI Data</title>
+<link>https://www.infosecurity-magazine.com/news/open-vsx-evil-twin-extensions-git/</link>
+<description><![CDATA[77 counterfeit Open VSX extensions beaconed to one domain, 19 harvesting git and CI identity]]></description>
+<pubDate>Wed, 05 Aug 2026 15:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/open-vsx-evil-twin-extensions-git/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Stored XSS in Django&apos;s admin via an unvalidated URLField display path (CVE-2026-15920)</title>
@@ -2803,15 +2833,6 @@
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
 <category>CVE-2026-66066</category>
-</item>
-<item>
-<title>Quoting David Crawshaw&apos;s prompt</title>
-<link>https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything</link>
-<description><![CDATA[Set up a nightly cron job that executes the prompt: fetch upstream changes to the &lt;software&gt; and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw&apos;s prompt , Devtools must be open source Tags: prompt-engineering , coding-agents , generative-ai , ai , llms , open-source]]></description>
-<pubDate>Mon, 03 Aug 2026 16:15:27 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>[Webinar] Tales from the Frontlines: An exclusive briefing on Q2 incidents</title>
@@ -17354,27 +17375,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>Doing the Due Diligence: Analyzing the Next.js Middleware Bypass (CVE-2025-29927)</title>
-<link>https://www.assetnote.io/resources/research/doing-the-due-diligence-analyzing-the-next-js-middleware-bypass-cve-2025-29927</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2025-29927</em>]]></description>
-<pubDate>Mon, 24 Mar 2025 08:22:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/doing-the-due-diligence-analyzing-the-next-js-middleware-bypass-cve-2025-29927</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2025-29927</category>
-</item>
-<item>
-<title>Nginx/Apache Path Confusion to Auth Bypass in PAN-OS (CVE-2025-0108)</title>
-<link>https://www.assetnote.io/resources/research/nginx-apache-path-confusion-to-auth-bypass-in-pan-os</link>
-<description><![CDATA[<br/><br/><em>Tags: Palo Alto Networks · CVE-2025-0108</em>]]></description>
-<pubDate>Mon, 24 Mar 2025 06:28:13 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/nginx-apache-path-confusion-to-auth-bypass-in-pan-os</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Palo Alto Networks</category>
-<category>CVE-2025-0108</category>
-</item>
-<item>
 <title>GreyNoise Observes Active Exploitation of Critical Apache Tomcat RCE Vulnerability (CVE-2025-24813)</title>
 <link>https://www.greynoise.io/blog/active-exploitation-critical-apache-tomcat-rce-vulnerability-cve-2025-24813</link>
 <description><![CDATA[Attackers are actively exploiting Apache Tomcat servers by leveraging CVE-2025-24813, a newly disclosed vulnerability that, if successfully exploited, could enable remote code execution (RCE). GreyNoise has identified multiple IPs engaging in this activity across multiple regions.<br/><br/><em>Tags: CVE-2025-24813</em>]]></description>
@@ -17597,304 +17597,6 @@
 <category>cloud_identity_infrastructure</category>
 <category>Palo Alto Networks</category>
 <category>CVE-2025-0108</category>
-</item>
-<item>
-<title>Leaking File Contents with a Blind File Oracle in Flarum</title>
-<link>https://www.assetnote.io/resources/research/leaking-file-contents-with-a-blind-file-oracle-in-flarum</link>
-<description><![CDATA[Our security researchers identified a critical vulnerability inside Flarum (popular forum software) which allows attackers to read local files from the system.]]></description>
-<pubDate>Wed, 12 Feb 2025 21:10:07 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/leaking-file-contents-with-a-blind-file-oracle-in-flarum</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Bypass IIS Authorisation with this One Weird Trick - Three RCEs and Two Auth Bypasses in Sitecore 9.3</title>
-<link>https://www.assetnote.io/resources/research/bypass-iis-authorisation-with-this-one-weird-trick-three-rces-and-two-auth-bypasses-in-sitecore-9-3</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/bypass-iis-authorisation-with-this-one-weird-trick-three-rces-and-two-auth-bypasses-in-sitecore-9-3</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>MOVEIt Transfer RCE Part Two (CVE-2023-34362)</title>
-<link>https://www.assetnote.io/resources/research/moveit-transfer-rce-part-two-cve-2023-34362</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2023-34362</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:39 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/moveit-transfer-rce-part-two-cve-2023-34362</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-34362</category>
-</item>
-<item>
-<title>Reversing Citrix Gateway for XSS</title>
-<link>https://www.assetnote.io/resources/research/reversing-citrix-gateway-for-xss</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/reversing-citrix-gateway-for-xss</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Patch Diffing Progress MOVEIt Transfer RCE (CVE-2023-34362)</title>
-<link>https://www.assetnote.io/resources/research/patch-diffing-progress-moveit-transfer-rce-cve-2023-34362</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2023-34362</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/patch-diffing-progress-moveit-transfer-rce-cve-2023-34362</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-34362</category>
-</item>
-<item>
-<title>Advisory: Citrix Gateway Open Redirect and XSS (CVE-2023-24488)</title>
-<link>https://www.assetnote.io/resources/research/advisory-citrix-gateway-open-redirect-and-xss-cve-2023-24488</link>
-<description><![CDATA[<br/><br/><em>Tags: Citrix · CVE-2023-24488</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-citrix-gateway-open-redirect-and-xss-cve-2023-24488</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Citrix</category>
-<category>CVE-2023-24488</category>
-</item>
-<item>
-<title>Encrypted Doesn&apos;t Mean Authenticated: ShareFile RCE (CVE-2023-24489)</title>
-<link>https://www.assetnote.io/resources/research/encrypted-doesnt-mean-authenticated-sharefile-rce-cve-2023-24489</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2023-24489</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:15 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/encrypted-doesnt-mean-authenticated-sharefile-rce-cve-2023-24489</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-24489</category>
-</item>
-<item>
-<title>Advisory: ShareFile Pre-Auth RCE (CVE-2023-24489)</title>
-<link>https://www.assetnote.io/resources/research/advisory-sharefile-pre-auth-rce-cve-2023-24489</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2023-24489</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:10 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-sharefile-pre-auth-rce-cve-2023-24489</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-24489</category>
-</item>
-<item>
-<title>Analysis of CVE-2023-3519 in Citrix ADC and NetScaler Gateway</title>
-<link>https://www.assetnote.io/resources/research/analysis-of-cve-2023-3519-in-citrix-adc-and-netscaler-gateway</link>
-<description><![CDATA[<br/><br/><em>Tags: Citrix · CVE-2023-3519</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:09:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/analysis-of-cve-2023-3519-in-citrix-adc-and-netscaler-gateway</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Citrix</category>
-<category>CVE-2023-3519</category>
-</item>
-<item>
-<title>Chaining our way to Pre-Auth RCE in Metabase (CVE-2023-38646)</title>
-<link>https://www.assetnote.io/resources/research/chaining-our-way-to-pre-auth-rce-in-metabase-cve-2023-38646</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2023-38646</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:08:58 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/chaining-our-way-to-pre-auth-rce-in-metabase-cve-2023-38646</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-38646</category>
-</item>
-<item>
-<title>Advisory: Metabase Pre-Auth RCE (CVE-2023-38646)</title>
-<link>https://www.assetnote.io/resources/research/advisory-metabase-pre-auth-rce-cve-2023-38646</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2023-38646</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:08:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-metabase-pre-auth-rce-cve-2023-38646</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-38646</category>
-</item>
-<item>
-<title>Analysis of CVE-2023-3519 in Citrix ADC and NetScaler Gateway (Part 2)</title>
-<link>https://www.assetnote.io/resources/research/analysis-of-cve-2023-3519-in-citrix-adc-and-netscaler-gateway-part-2</link>
-<description><![CDATA[<br/><br/><em>Tags: Citrix · CVE-2023-3519</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:08:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/analysis-of-cve-2023-3519-in-citrix-adc-and-netscaler-gateway-part-2</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Citrix</category>
-<category>CVE-2023-3519</category>
-</item>
-<item>
-<title>Finding and Exploiting Citrix NetScaler Buffer Overflow (CVE-2023-3519) (Part 3)</title>
-<link>https://www.assetnote.io/resources/research/finding-and-exploiting-citrix-netscaler-buffer-overflow-cve-2023-3519-part-3</link>
-<description><![CDATA[<br/><br/><em>Tags: Citrix · CVE-2023-3519</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 21:08:09 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/finding-and-exploiting-citrix-netscaler-buffer-overflow-cve-2023-3519-part-3</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Citrix</category>
-<category>CVE-2023-3519</category>
-</item>
-<item>
-<title>Advisory: Flarum LFI - CVE-2023-40033</title>
-<link>https://www.assetnote.io/resources/research/advisory-flarum-lfi-cve-2023-40033</link>
-<description><![CDATA[Security Advisory: Our security researchers identified a critical vulnerability inside Flarum (popular forum software) which allows attackers to read local files from the system.<br/><br/><em>Tags: CVE-2023-40033</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:54:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-flarum-lfi-cve-2023-40033</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-40033</category>
-</item>
-<item>
-<title>RCE in Progress WS_FTP Ad Hoc via IIS HTTP Modules (CVE-2023-40044)</title>
-<link>https://www.assetnote.io/resources/research/rce-in-progress-ws-ftp-ad-hoc-via-iis-http-modules-cve-2023-40044</link>
-<description><![CDATA[Over the last year or so, we&apos;ve seen the mass exploitation of managed file transfer software. From GoAnywhere MFT, MOVEIt, and our own work on Citrix Sharefile. The threats towards enterprises through managed file transfer software has really hit home after the recent ransomware attack by Cl0p, leveraging a series of vulnerabilities in Progress MOVEIt.<br/><br/><em>Tags: Cl0p · CVE-2023-40044 · ransomware_extortion</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:47:25 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/rce-in-progress-ws-ftp-ad-hoc-via-iis-http-modules-cve-2023-40044</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Cl0p</category>
-<category>CVE-2023-40044</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
-<title>Advisory: Progress WS_FTP RCE (CVE-2023-40044)</title>
-<link>https://www.assetnote.io/resources/research/advisory-progress-ws-ftp-rce-cve-2023-40044</link>
-<description><![CDATA[Assetnote Security Advisory: An attacker can exploit this vulnerability without authentication, to execute arbitrary commands on the Progress WS_FTP server through the deserialization of untrusted data. An attacker must be able to access the WS_FTP web server and the Ad Hoc Transfer application in order to exploit this issue.<br/><br/><em>Tags: CVE-2023-40044</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:47:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-progress-ws-ftp-rce-cve-2023-40044</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-40044</category>
-</item>
-<item>
-<title>Citrix Bleed: Leaking Session Tokens with CVE-2023-4966</title>
-<link>https://www.assetnote.io/resources/research/citrix-bleed-leaking-session-tokens-with-cve-2023-4966</link>
-<description><![CDATA[It&apos;s time for another round Citrix Patch Diffing! Earlier this month Citrix released a security bulletin which mentioned &quot;unauthenticated buffer-related vulnerabilities&quot; and two CVEs. These issues affected Citrix NetScaler ADC and NetScaler Gateway.<br/><br/><em>Tags: Citrix · CVE-2023-4966</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:47:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/citrix-bleed-leaking-session-tokens-with-cve-2023-4966</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Citrix</category>
-<category>CVE-2023-4966</category>
-</item>
-<item>
-<title>High Signal Detection and Exploitation of Ivanti&apos;s Pulse Connect Secure Auth Bypass &amp; RCE</title>
-<link>https://www.assetnote.io/resources/research/high-signal-detection-and-exploitation-of-ivantis-pulse-connect-secure-auth-bypass-rce</link>
-<description><![CDATA[Last week, Ivanti disclosed two critical vulnerabilities affecting Ivanti Pulse Connect Secure - CVE-2023-46805 (Authentication Bypass) &amp; CVE-2024-21887 (Remote Command Execution).<br/><br/><em>Tags: Ivanti · CVE-2023-46805 · CVE-2024-21887</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:46:56 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/high-signal-detection-and-exploitation-of-ivantis-pulse-connect-secure-auth-bypass-rce</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Ivanti</category>
-<category>CVE-2023-46805</category>
-<category>CVE-2024-21887</category>
-</item>
-<item>
-<title>Ivanti&apos;s Pulse Connect Secure Auth Bypass Round Two</title>
-<link>https://www.assetnote.io/resources/research/ivantis-pulse-connect-secure-auth-bypass-round-two</link>
-<description><![CDATA[The Ivanti excitement continues! After an authentication bypass and command injection to kick off the year, Ivanti are following with a second authentication bypass and a privilege escalation. On January 22 Ivanti released this advisory describing the two new vulnerabilities in Ivanti Connect Secure, CVE-2024-21888 (privilege escalation) and CVE-2024-21893 (authentication bypass).<br/><br/><em>Tags: Ivanti · CVE-2024-21888 · CVE-2024-21893</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:46:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/ivantis-pulse-connect-secure-auth-bypass-round-two</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Ivanti</category>
-<category>CVE-2024-21888</category>
-<category>CVE-2024-21893</category>
-</item>
-<item>
-<title>Continuing the Citrix Saga: CVE-2023-5914 &amp; CVE-2023-6184</title>
-<link>https://www.assetnote.io/resources/research/continuing-the-citrix-saga-cve-2023-5914-cve-2023-6184</link>
-<description><![CDATA[While most of the attention for vulnerabilities within Citrix has been on their NetScaler VPN product, we noticed that there were several other products offered by Citrix that require an on-premise deployment of a web application, that is sometimes internet facing. This piqued our interest and led us to investigate the security of these self-hosted applications.<br/><br/><em>Tags: CVE-2023-5914 · CVE-2023-6184</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:46:39 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/continuing-the-citrix-saga-cve-2023-5914-cve-2023-6184</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-5914</category>
-<category>CVE-2023-6184</category>
-</item>
-<item>
-<title>Two Bytes is Plenty: FortiGate RCE with CVE-2024-21762</title>
-<link>https://www.assetnote.io/resources/research/two-bytes-is-plenty-fortigate-rce-with-cve-2024-21762</link>
-<description><![CDATA[Early this February, Fortinet released an advisory for an &quot;out-of-bounds write vulnerability&quot; that could lead to remote code execution. The issue affected the SSL VPN component of their FortiGate network appliance and was potentially already being exploited in the wild. In this post we detail the steps we took to identify the patched vulnerability and produce a working exploit.<br/><br/><em>Tags: Fortinet · CVE-2024-21762 · active_exploitation</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:46:31 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/two-bytes-is-plenty-fortigate-rce-with-cve-2024-21762</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Fortinet</category>
-<category>CVE-2024-21762</category>
-<category>active_exploitation</category>
-</item>
-<item>
-<title>Digging for SSRF in NextJS apps</title>
-<link>https://www.assetnote.io/resources/research/digging-for-ssrf-in-nextjs-apps</link>
-<description><![CDATA[At Assetnote, we encounter sites running NextJS extremely often; in this blog post we will detail some common misconfigurations we find in NextJS websites, along with a vulnerability we found in the framework.]]></description>
-<pubDate>Wed, 12 Feb 2025 17:46:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/digging-for-ssrf-in-nextjs-apps</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Advisory: Next.js SSRF (CVE-2024-34351)</title>
-<link>https://www.assetnote.io/resources/research/advisory-next-js-ssrf-cve-2024-34351</link>
-<description><![CDATA[Assetnote Security Advisory: A Server-Side Request Forgery (SSRF) vulnerability was identified in Next.js Server Actions. If the Host header is modified, and the below conditions are also met, an attacker may be able to make requests that appear to be originating from the Next.js application server itself. An attacker is able to read the full HTTP response when successfully exploiting this SSRF issue.<br/><br/><em>Tags: CVE-2024-34351</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:46:09 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-next-js-ssrf-cve-2024-34351</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2024-34351</category>
-</item>
-<item>
-<title>Why nested deserialization is harmful: Magento XXE (CVE-2024-34102)</title>
-<link>https://www.assetnote.io/resources/research/why-nested-deserialization-is-harmful-magento-xxe-cve-2024-34102</link>
-<description><![CDATA[A critical, pre-authentication XML entity injection issue in Magento / Adobe Commerce (CVE-2024-34102), which Adobe rated as CVSS 9.8.<br/><br/><em>Tags: CVE-2024-34102</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:46:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/why-nested-deserialization-is-harmful-magento-xxe-cve-2024-34102</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2024-34102</category>
-</item>
-<item>
-<title>Chaining Three Bugs to Access All Your ServiceNow Data</title>
-<link>https://www.assetnote.io/resources/research/chaining-three-bugs-to-access-all-your-servicenow-data</link>
-<description><![CDATA[Through the course of 3/4 weeks, we were able to find a chain of vulnerabilities that allows full database access and full access to any MID servers configured. This resulted in 3 separate CVE&apos;s.]]></description>
-<pubDate>Wed, 12 Feb 2025 17:45:58 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/chaining-three-bugs-to-access-all-your-servicenow-data</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Insecurity through Censorship: Vulnerabilities Caused by The Great Firewall</title>
-<link>https://www.assetnote.io/resources/research/insecurity-through-censorship-vulnerabilities-caused-by-the-great-firewall</link>
-<description><![CDATA[We detail several practical client-side attacks that can result from DNS poisoning observed for domains hosted in China. These attacks impact every domain on the Internet that uses a nameserver located in China, and it&apos;s estimated that more than 30 million domains are vulnerable to this.]]></description>
-<pubDate>Wed, 12 Feb 2025 17:45:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/insecurity-through-censorship-vulnerabilities-caused-by-the-great-firewall</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Leveraging An Order of Operations Bug to Achieve RCE in Sitecore 8.x - 10.x</title>
-<link>https://www.assetnote.io/resources/research/leveraging-an-order-of-operations-bug-to-achieve-rce-in-sitecore-8-x---10-x</link>
-<description><![CDATA[Local file disclosure in Sitecore 8.x to 10.x that can lead to RCE (CVE-2024-46938) due to an order of operations bug within a handler responsible for reading local files.<br/><br/><em>Tags: CVE-2024-46938</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:45:44 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/leveraging-an-order-of-operations-bug-to-achieve-rce-in-sitecore-8-x---10-x</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2024-46938</category>
-</item>
-<item>
-<title>Citrix Denial of Service: Analysis of CVE-2024-8534</title>
-<link>https://www.assetnote.io/resources/research/citrix-denial-of-service-analysis-of-cve-2024-8534</link>
-<description><![CDATA[An analysis of CVE-2024-8534, a memory safety vulnerability leading to memory corruption and Denial of Service in NetScaler ADC and Gateway.<br/><br/><em>Tags: CVE-2024-8534 · ddos</em>]]></description>
-<pubDate>Wed, 12 Feb 2025 17:39:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/citrix-denial-of-service-analysis-of-cve-2024-8534</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2024-8534</category>
-<category>ddos</category>
-</item>
-<item>
-<title>How an obscure PHP footgun led to RCE in Craft CMS</title>
-<link>https://www.assetnote.io/resources/research/how-an-obscure-php-footgun-led-to-rce-in-craft-cms</link>
-<description><![CDATA[Craft CMS is one of the most popular PHP-based CMSes globally, boasting over 150,000 sites worldwide. This blog post details a pre-authentication RCE vulnerability affecting Craft CMS versions below 4.13.1 and 5.5.1.]]></description>
-<pubDate>Wed, 12 Feb 2025 17:38:31 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/how-an-obscure-php-footgun-led-to-rce-in-craft-cms</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>New Exploitation Surge: Attackers Target ThinkPHP and ownCloud Flaws at Scale</title>
@@ -18669,35 +18371,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Breaking Bitbucket: Pre Auth Remote Command Execution (CVE-2022-36804)</title>
-<link>https://www.assetnote.io/resources/research/breaking-bitbucket-pre-auth-remote-command-execution-cve-2022-36804</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2022-36804</em>]]></description>
-<pubDate>Sat, 17 Feb 2024 13:59:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/breaking-bitbucket-pre-auth-remote-command-execution-cve-2022-36804</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2022-36804</category>
-</item>
-<item>
-<title>Zoom Zero Day Followup: Getting the RCE</title>
-<link>https://www.assetnote.io/resources/research/zoom-zero-day-followup-getting-the-rce</link>
-<description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sat, 17 Feb 2024 13:59:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/zoom-zero-day-followup-getting-the-rce</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>zero_day</category>
-</item>
-<item>
-<title>Gaining access to Uber&apos;s user data through AMPScript evaluation</title>
-<link>https://www.assetnote.io/resources/research/gaining-access-to-ubers-user-data-through-ampscript-evaluation</link>
-<description><![CDATA[]]></description>
-<pubDate>Sat, 17 Feb 2024 13:59:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/gaining-access-to-ubers-user-data-through-ampscript-evaluation</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>ChatGPT: Lack of Isolation between Code Interpreter sessions of GPTs</title>
 <link>https://embracethered.com/blog/posts/2024/lack-of-isolation-gpts-code-interpreter/</link>
 <description><![CDATA[Your Code Interpreter sandbox, also known as Advanced Data Analysis sessions, are shared between private and public GPTs. Yes, your actual compute container and its storage is shared. Each user gets their own isolated container, but if a user uses multiple GPTs and stores files in Code Interpreter all GPTs can access (and also overwrite) each others files . This is true also for files uploaded/created with private GPTs and ChatGPT itself.]]></description>
@@ -18724,258 +18397,6 @@
 <source url="https://embracethered.com/blog/index.xml">Embrace the Red</source>
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Hacking on Bug Bounties for Four Years</title>
-<link>https://www.assetnote.io/resources/research/hacking-on-bug-bounties-for-four-years</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:58:57 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/hacking-on-bug-bounties-for-four-years</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>RCE in Avaya Aura Device Services</title>
-<link>https://www.assetnote.io/resources/research/rce-in-avaya-aura-device-services</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/rce-in-avaya-aura-device-services</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Pre-Auth RCE in Aspera Faspex: Case Guide for Auditing Ruby on Rails</title>
-<link>https://www.assetnote.io/resources/research/pre-auth-rce-in-aspera-faspex-case-guide-for-auditing-ruby-on-rails</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/pre-auth-rce-in-aspera-faspex-case-guide-for-auditing-ruby-on-rails</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Understanding CVE-2022-22972 (VMWare Workspace One Access Auth Bypass)</title>
-<link>https://www.assetnote.io/resources/research/understanding-cve-2022-22972-vmware-workspace-one-access-auth-bypass</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2022-22972</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/understanding-cve-2022-22972-vmware-workspace-one-access-auth-bypass</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2022-22972</category>
-</item>
-<item>
-<title>Solarwinds Web Help Desk: When the Helpdesk is too Helpful</title>
-<link>https://www.assetnote.io/resources/research/solarwinds-web-help-desk-when-the-helpdesk-is-too-helpful</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/solarwinds-web-help-desk-when-the-helpdesk-is-too-helpful</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Stealing administrative JWT&apos;s through post auth SSRF (CVE-2021-22056)</title>
-<link>https://www.assetnote.io/resources/research/stealing-administrative-jwts-through-post-auth-ssrf-cve-2021-22056</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-22056</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/stealing-administrative-jwts-through-post-auth-ssrf-cve-2021-22056</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-22056</category>
-</item>
-<item>
-<title>Taking over Azure DevOps Accounts with 1 Click</title>
-<link>https://www.assetnote.io/resources/research/taking-over-azure-devops-accounts-with-1-click</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/taking-over-azure-devops-accounts-with-1-click</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Sitecore Experience Platform Pre-Auth RCE - CVE-2021-42237</title>
-<link>https://www.assetnote.io/resources/research/sitecore-experience-platform-pre-auth-rce-cve-2021-42237</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-42237</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/sitecore-experience-platform-pre-auth-rce-cve-2021-42237</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-42237</category>
-</item>
-<item>
-<title>Turning bad SSRF to good SSRF: Websphere Portal (CVE-2021-27748)</title>
-<link>https://www.assetnote.io/resources/research/turning-bad-ssrf-to-good-ssrf-websphere-portal-cve-2021-27748</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-27748</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 08:43:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/turning-bad-ssrf-to-good-ssrf-websphere-portal-cve-2021-27748</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-27748</category>
-</item>
-<item>
-<title>Cloudflare Pages, part 2: The two privescs</title>
-<link>https://www.assetnote.io/resources/research/cloudflare-pages-part-2-the-two-privescs</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/cloudflare-pages-part-2-the-two-privescs</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Chaining vulnerabilities to criticality in Progress WhatsUp Gold</title>
-<link>https://www.assetnote.io/resources/research/chaining-vulnerabilities-to-criticality-in-progress-whatsup-gold</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/chaining-vulnerabilities-to-criticality-in-progress-whatsup-gold</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Hacking a Bank by Finding a 0day in DotCMS</title>
-<link>https://www.assetnote.io/resources/research/hacking-a-bank-by-finding-a-0day-in-dotcms</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/hacking-a-bank-by-finding-a-0day-in-dotcms</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Cloudflare Pages, part 1: The fellowship of the secret</title>
-<link>https://www.assetnote.io/resources/research/cloudflare-pages-part-1-the-fellowship-of-the-secret</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/cloudflare-pages-part-1-the-fellowship-of-the-secret</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Cloudflare Pages, part 3: The return of the secrets</title>
-<link>https://www.assetnote.io/resources/research/cloudflare-pages-part-3-the-return-of-the-secrets</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/cloudflare-pages-part-3-the-return-of-the-secrets</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>H2C Smuggling in the Wild</title>
-<link>https://www.assetnote.io/resources/research/h2c-smuggling-in-the-wild</link>
-<description><![CDATA[<br/><br/><em>Tags: active_exploitation</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/h2c-smuggling-in-the-wild</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>active_exploitation</category>
-</item>
-<item>
-<title>Logic Flaw Leading to RCE in Dynamicweb 9.5.0 - 9.12.7</title>
-<link>https://www.assetnote.io/resources/research/logic-flaw-leading-to-rce-in-dynamicweb-9-5-0-9-12-7</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/logic-flaw-leading-to-rce-in-dynamicweb-9-5-0-9-12-7</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Discovering Full Read SSRF in Jamf (CVE-2021-39303 &amp; CVE-2021-40809)</title>
-<link>https://www.assetnote.io/resources/research/discovering-full-read-ssrf-in-jamf-cve-2021-39303-cve-2021-40809</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-39303 · CVE-2021-40809</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/discovering-full-read-ssrf-in-jamf-cve-2021-39303-cve-2021-40809</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-39303</category>
-<category>CVE-2021-40809</category>
-</item>
-<item>
-<title>Discovering a zero day and getting code execution on Mozilla&apos;s AWS Network</title>
-<link>https://www.assetnote.io/resources/research/discovering-a-zero-day-and-getting-code-execution-on-mozillas-aws-network</link>
-<description><![CDATA[<br/><br/><em>Tags: AWS · zero_day</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/discovering-a-zero-day-and-getting-code-execution-on-mozillas-aws-network</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>AWS</category>
-<category>zero_day</category>
-</item>
-<item>
-<title>Contextual Content Discovery: You&apos;ve forgotten about the API endpoints</title>
-<link>https://www.assetnote.io/resources/research/contextual-content-discovery-youve-forgotten-about-the-api-endpoints</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/contextual-content-discovery-youve-forgotten-about-the-api-endpoints</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Getting access to Zendesk’s Google Cloud and Artifactory from GitHub dotfile repos</title>
-<link>https://www.assetnote.io/resources/research/getting-access-to-zendesks-google-cloud-and-artifactory-from-github-dotfile-repos</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 31 Jan 2024 08:23:04 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/getting-access-to-zendesks-google-cloud-and-artifactory-from-github-dotfile-repos</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Abusing functionality to exploit a super SSRF in Jira Server (CVE-2022-26135)</title>
-<link>https://www.assetnote.io/resources/research/abusing-functionality-to-exploit-a-super-ssrf-in-jira-server-cve-2022-26135</link>
-<description><![CDATA[<br/><br/><em>Tags: Atlassian Jira · CVE-2022-26135</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 05:11:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/abusing-functionality-to-exploit-a-super-ssrf-in-jira-server-cve-2022-26135</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Atlassian Jira</category>
-<category>CVE-2022-26135</category>
-</item>
-<item>
-<title>Advisory: DotCMS Remote Code Execution (CVE-2022-26352)</title>
-<link>https://www.assetnote.io/resources/research/advisory-dotcms-remote-code-execution-cve-2022-26352</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2022-26352</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 05:11:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-dotcms-remote-code-execution-cve-2022-26352</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2022-26352</category>
-</item>
-<item>
-<title>Advisory: Sitecore RCE via Insecure Deserialization - CVE-2021-42237</title>
-<link>https://www.assetnote.io/resources/research/advisory-sitecore-rce-via-insecure-deserialization-cve-2021-42237</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-42237</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 05:11:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-sitecore-rce-via-insecure-deserialization-cve-2021-42237</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-42237</category>
-</item>
-<item>
-<title>Advisory: Solarwinds Web Help Desk Arbitrary HQL Evaluation (CVE-2021-35232)</title>
-<link>https://www.assetnote.io/resources/research/advisory-solarwinds-web-help-desk-arbitrary-hql-evaluation-cve-2021-35232</link>
-<description><![CDATA[<br/><br/><em>Tags: SolarWinds · CVE-2021-35232</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 05:11:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-solarwinds-web-help-desk-arbitrary-hql-evaluation-cve-2021-35232</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>SolarWinds</category>
-<category>CVE-2021-35232</category>
-</item>
-<item>
-<title>Advisory: Dynamicweb Logic Flaw Leading to RCE (CVE-2022-25369)</title>
-<link>https://www.assetnote.io/resources/research/advisory-dynamicweb-logic-flaw-leading-to-rce-cve-2022-25369</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2022-25369</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 05:11:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-dynamicweb-logic-flaw-leading-to-rce-cve-2022-25369</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2022-25369</category>
-</item>
-<item>
-<title>Advisory: Jamf Pro SSRF - CVE-2021-39303 &amp; CVE-2021-40809</title>
-<link>https://www.assetnote.io/resources/research/advisory-jamf-pro-ssrf-cve-2021-39303-cve-2021-40809</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-39303 · CVE-2021-40809</em>]]></description>
-<pubDate>Wed, 31 Jan 2024 05:11:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-jamf-pro-ssrf-cve-2021-39303-cve-2021-40809</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-39303</category>
-<category>CVE-2021-40809</category>
 </item>
 <item>
 <title>Exploring Google Bard&apos;s Data Visualization Feature (Code Interpreter)</title>
@@ -19026,152 +18447,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Advisory: Websphere Portal SSRFs &amp; Post Auth RCE - CVE-2021-27748</title>
-<link>https://www.assetnote.io/resources/research/advisory-websphere-portal-ssrfs-post-auth-rce-cve-2021-27748</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-27748</em>]]></description>
-<pubDate>Mon, 08 Jan 2024 16:09:17 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-websphere-portal-ssrfs-post-auth-rce-cve-2021-27748</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-27748</category>
-</item>
-<item>
-<title>Advisory: VMWare Workspace One UEM SSRF - CVE-2021-22054</title>
-<link>https://www.assetnote.io/resources/research/advisory-vmware-workspace-one-uem-ssrf-cve-2021-22054</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-22054</em>]]></description>
-<pubDate>Mon, 08 Jan 2024 16:00:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-vmware-workspace-one-uem-ssrf-cve-2021-22054</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-22054</category>
-</item>
-<item>
-<title>Advisory: VMWare Workspace One Access (CVE-2021-22056)</title>
-<link>https://www.assetnote.io/resources/research/advisory-vmware-workspace-one-access-cve-2021-22056</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-22056</em>]]></description>
-<pubDate>Mon, 08 Jan 2024 15:55:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-vmware-workspace-one-access-cve-2021-22056</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-22056</category>
-</item>
-<item>
-<title>Advisory: Server Side Request Forgery in Jira Server (CVE-2022-26135)</title>
-<link>https://www.assetnote.io/resources/research/advisory-server-side-request-forgery-in-jira-server-cve-2022-26135</link>
-<description><![CDATA[<br/><br/><em>Tags: Atlassian Jira · CVE-2022-26135</em>]]></description>
-<pubDate>Mon, 08 Jan 2024 15:42:46 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-server-side-request-forgery-in-jira-server-cve-2022-26135</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Atlassian Jira</category>
-<category>CVE-2022-26135</category>
-</item>
-<item>
-<title>Advisory: Reflected Cross-Site Scripting in cPanel (CVE-2023-29489)</title>
-<link>https://www.assetnote.io/resources/research/advisory-reflected-cross-site-scripting-in-cpanel-cve-2023-29489</link>
-<description><![CDATA[<br/><br/><em>Tags: cPanel · CVE-2023-29489</em>]]></description>
-<pubDate>Mon, 08 Jan 2024 15:03:47 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-reflected-cross-site-scripting-in-cpanel-cve-2023-29489</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>cPanel</category>
-<category>CVE-2023-29489</category>
-</item>
-<item>
-<title>Advisory: Oracle Opera Pre-Auth RCE (CVE-2023-21932)</title>
-<link>https://www.assetnote.io/resources/research/advisory-oracle-opera-pre-auth-rce-cve-2023-21932</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2023-21932</em>]]></description>
-<pubDate>Mon, 08 Jan 2024 14:55:56 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-oracle-opera-pre-auth-rce-cve-2023-21932</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2023-21932</category>
-</item>
-<item>
-<title>Advisory: Multiple Vulnerabilities in Progress Ipswitch WhatsUp Gold</title>
-<link>https://www.assetnote.io/resources/research/advisory-multiple-vulnerabilities-in-progress-ipswitch-whatsup-gold</link>
-<description><![CDATA[]]></description>
-<pubDate>Mon, 08 Jan 2024 14:53:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/advisory-multiple-vulnerabilities-in-progress-ipswitch-whatsup-gold</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Diving Deeper into WatchGuard Pre-Auth RCE - CVE-2022-26318</title>
-<link>https://www.assetnote.io/resources/research/diving-deeper-into-watchguard-pre-auth-rce-cve-2022-26318</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2022-26318</em>]]></description>
-<pubDate>Thu, 04 Jan 2024 15:29:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/diving-deeper-into-watchguard-pre-auth-rce-cve-2022-26318</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2022-26318</category>
-</item>
-<item>
-<title>A Glossary of Blind SSRF Chains</title>
-<link>https://www.assetnote.io/resources/research/a-glossary-of-blind-ssrf-chains</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 03 Jan 2024 23:36:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/a-glossary-of-blind-ssrf-chains</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Exploiting Hardcoded Keys to achieve RCE in Yellowfin BI</title>
-<link>https://www.assetnote.io/resources/research/exploiting-hardcoded-keys-to-achieve-rce-in-yellowfin-bi</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 03 Jan 2024 23:02:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/exploiting-hardcoded-keys-to-achieve-rce-in-yellowfin-bi</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Exploiting GraphQL</title>
-<link>https://www.assetnote.io/resources/research/exploiting-graphql</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 03 Jan 2024 12:58:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/exploiting-graphql</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Expanding the Attack Surface: React Native Android Applications</title>
-<link>https://www.assetnote.io/resources/research/expanding-the-attack-surface-react-native-android-applications</link>
-<description><![CDATA[<br/><br/><em>Tags: Android</em>]]></description>
-<pubDate>Wed, 03 Jan 2024 12:57:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/expanding-the-attack-surface-react-native-android-applications</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>Android</category>
-</item>
-<item>
-<title>Exploiting an Order of Operations Bug to Achieve RCE in Oracle Opera</title>
-<link>https://www.assetnote.io/resources/research/exploiting-an-order-of-operations-bug-to-achieve-rce-in-oracle-opera</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 03 Jan 2024 12:31:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/exploiting-an-order-of-operations-bug-to-achieve-rce-in-oracle-opera</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Encrypting our way to SSRF in VMWare Workspace One UEM (CVE-2021-22054)</title>
-<link>https://www.assetnote.io/resources/research/encrypting-our-way-to-ssrf-in-vmware-workspace-one-uem-cve-2021-22054</link>
-<description><![CDATA[<br/><br/><em>Tags: CVE-2021-22054</em>]]></description>
-<pubDate>Tue, 02 Jan 2024 20:35:53 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/encrypting-our-way-to-ssrf-in-vmware-workspace-one-uem-cve-2021-22054</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>CVE-2021-22054</category>
-</item>
-<item>
-<title>Eliminating Dangling Elastic IP Takeovers with Ghostbuster</title>
-<link>https://www.assetnote.io/resources/research/eliminating-dangling-elastic-ip-takeovers-with-ghostbuster</link>
-<description><![CDATA[]]></description>
-<pubDate>Tue, 02 Jan 2024 19:35:47 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/eliminating-dangling-elastic-ip-takeovers-with-ghostbuster</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>37th Chaos Communication Congress: New Important Instructions (Video + Slides)</title>
 <link>https://embracethered.com/blog/posts/2023/37c3-new-important-instructions/</link>
 <description><![CDATA[Five years ago I gave a Lightning Talk at the 35th Chaos Communication Congress called “Pass the Cookie and Pivot to the Clouds” . It was a talk about my very first blog post on Embrace The Red just a few weeks earlier in December 2018. Fast forward to 2023… it was great to attend the 37C3 in person in Hamburg this year. The Congress was packed with great talks, amazing people, awesome events and side quests and I got to present also!]]></description>
@@ -19179,35 +18454,6 @@
 <guid isPermaLink="true">https://embracethered.com/blog/posts/2023/37c3-new-important-instructions/</guid>
 <source url="https://embracethered.com/blog/index.xml">Embrace the Red</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Finding XSS in a million websites (cPanel CVE-2023-29489)</title>
-<link>https://www.assetnote.io/resources/research/finding-xss-in-a-million-websites-cpanel-cve-2023-29489</link>
-<description><![CDATA[<br/><br/><em>Tags: cPanel · CVE-2023-29489</em>]]></description>
-<pubDate>Wed, 27 Dec 2023 21:57:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/finding-xss-in-a-million-websites-cpanel-cve-2023-29489</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-<category>cPanel</category>
-<category>CVE-2023-29489</category>
-</item>
-<item>
-<title>Finding Hidden Files and Folders on IIS using BigQuery</title>
-<link>https://www.assetnote.io/resources/research/finding-hidden-files-and-folders-on-iis-using-bigquery</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 27 Dec 2023 21:33:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/finding-hidden-files-and-folders-on-iis-using-bigquery</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Exploiting Static Site Generators: When Static Is Not Actually Static</title>
-<link>https://www.assetnote.io/resources/research/exploiting-static-site-generators-when-static-is-not-actually-static</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 27 Dec 2023 21:08:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.assetnote.io/resources/research/exploiting-static-site-generators-when-static-is-not-actually-static</guid>
-<source url="https://www.assetnote.io/resources/research/rss.xml">Assetnote</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>OpenAI Begins Tackling ChatGPT Data Leak Vulnerability</title>
@@ -19349,7 +18595,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19359,7 +18605,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19368,7 +18614,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19377,7 +18623,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19386,7 +18632,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19395,7 +18641,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19404,7 +18650,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19413,7 +18659,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19422,7 +18668,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19431,7 +18677,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 16:05:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
