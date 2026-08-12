@@ -6,9 +6,78 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 12 Aug 2026 13:23:07 +0000</lastBuildDate>
+<lastBuildDate>Wed, 12 Aug 2026 15:03:46 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>SharePoint Vulnerability Exploited Shortly After PoC Release</title>
+<link>https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/</link>
+<description><![CDATA[The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft SharePoint · active_exploitation</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 14:47:01 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>WindRelay Malware Pairs With SpyNote RAT in Live-Call Scam</title>
+<link>https://www.infosecurity-magazine.com/news/windrelay-nfc-relay-spynote-rat/</link>
+<description><![CDATA[New WindRelay NFC malware paired with SpyNote RAT let a fraudster clone a card mid-call]]></description>
+<pubDate>Wed, 12 Aug 2026 14:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/windrelay-nfc-relay-spynote-rat/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In</title>
+<link>https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/</link>
+<description><![CDATA[Fake remote workers can exploit gaps between hiring checks, device delivery, and account access to enter organizations under false identities. Specops Software explains how document verification and biometric liveness checks can help organizations confirm that the person receiving access is the legitimate new hire. [...]]]></description>
+<pubDate>Wed, 12 Aug 2026 14:01:11 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition</link>
+<description><![CDATA[Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months</title>
+<link>https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/</link>
+<description><![CDATA[Most security stories start with something broken. This one starts with everything working as designed. Researchers at Reco have been tracking a campaign they call City-Forum, named after a domain registered in 2002, abandoned, and now resolving to a generic rented server from a German hosting provider. From that server, someone has been pulling records out of Salesforce and ServiceNow portals around the world. The activity has not stopped, and there is more of it … More → The post A stranger has been reading Salesforce and ServiceNow portals worldwide for 17 months appeared first on Help Net Security .<br/><br/><em>Tags: Salesforce</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 13:51:02 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/12/salesforce-servicenow-guest-user-exposure/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>Salesforce</category>
+</item>
+<item>
+<title>Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day</title>
+<link>https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/</link>
+<description><![CDATA[Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit<br/><br/><em>Tags: Lazarus · zero_day</em>]]></description>
+<pubDate>Wed, 12 Aug 2026 13:35:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>Lazarus</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Deloitte strengthens AI governance to support trusted enterprise adoption</title>
+<link>https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/</link>
+<description><![CDATA[Deloitte has expanded AI Controls and Assurance services and solutions designed to help organizations confidently adopt, scale and govern AI across the enterprise. From early exploration to enterprise deployment, Deloitte’s enhanced services provide end-to-end support across the AI lifecycle, combining advisory and assurance services across governance frameworks and AI-enabled transformation to help organizations manage risk while unlocking value. While 74% of companies plan to deploy agentic AI within two years, only 21% report having a … More → The post Deloitte strengthens AI governance to support trusted enterprise adoption appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 12 Aug 2026 13:28:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/12/deloitte-ai-controls-and-assurance-services/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Gunra Ransomware Exploits Fortinet Flaws to Target Critical Infrastructure</title>
 <link>https://www.infosecurity-magazine.com/news/gunra-ransomware-fortinet-flaws/</link>
@@ -266,15 +335,15 @@
 <item>
 <title>Fresh Windows Zero-Day Exploited in North Korean Cyberattacks</title>
 <link>https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/</link>
-<description><![CDATA[The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor. The post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek .<br/><br/><em>Tags: Lazarus · CVE-2026-68820 · CVE-2025-49113 · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
+<description><![CDATA[The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor. The post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall · Lazarus · CVE-2026-68820 · CVE-2025-49113 · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 08:45:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
 <category>Lazarus</category>
 <category>CVE-2026-68820</category>
 <category>CVE-2025-49113</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Crytica’s RDAi detects OT device tampering from within</title>
@@ -347,16 +416,6 @@
 <category>CVE-2026-58231</category>
 </item>
 <item>
-<title>SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform</title>
-<link>https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/</link>
-<description><![CDATA[The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data. The post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek .<br/><br/><em>Tags: SonicWall</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 07:31:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>SonicWall</category>
-</item>
-<item>
 <title>ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access</title>
 <link>https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html</link>
 <description><![CDATA[The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described<br/><br/><em>Tags: Microsoft Defender · Azure · Anthropic/Claude · CVE-2026-50656 · CVE-2026-62832 · CVE-2026-68820 · CVE-2026-72971 · credential_theft</em>]]></description>
@@ -381,37 +440,6 @@
 <category>CVE-2026-20349</category>
 <category>ddos</category>
 <category>active_exploitation</category>
-</item>
-<item>
-<title>PentestGPT: Open-source automated penetration testing agentic framework</title>
-<link>https://www.helpnetsecurity.com/2026/08/12/pentestgpt-open-source/</link>
-<description><![CDATA[PentestGPT is an open-source penetration testing agent that points a large language model at a target and lets it work. In its default mode it runs recon, then exploit, then walkthrough, each stage feeding the next. Switch it to pentest mode and the stages become asset discovery, vulnerability identification, report. No human sits in the loop. The agent drives Claude Code or Codex, runs the tools, and decides what to try next. Gelei Deng and … More → The post PentestGPT: Open-source automated penetration testing agentic framework appeared first on Help Net Security .<br/><br/><em>Tags: GitHub · Anthropic/Claude</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 05:30:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/12/pentestgpt-open-source/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Cisco Patches Firewall Zero-Day Exploited for DoS Attacks</title>
-<link>https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/</link>
-<description><![CDATA[CVE-2026-20349 can be exploited remotely without authentication against Secure Firewall ASA and FTD devices. The post Cisco Patches Firewall Zero-Day Exploited for DoS Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-20349 · zero_day</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 05:10:47 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/cisco-patches-firewall-zero-day-exploited-for-dos-attacks/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-20349</category>
-<category>zero_day</category>
-</item>
-<item>
-<title>338 million attack simulations reveal the state of enterprise defense</title>
-<link>https://www.helpnetsecurity.com/2026/08/12/picus-security-blue-report-2026/</link>
-<description><![CDATA[First, a bit of good news: Enterprise defenses are recovering. However, it’s a narrow recovery, with a twist. Today, organizations are better at stopping loud attacks but have barely moved the needle at all against the quiet ones. This data, and a lot more, comes straight from the newly published Blue Report 2026, the fourth annual comprehensive study from Picus Labs. Based on more than 338 million attack simulations run in real production environments in … More → The post 338 million attack simulations reveal the state of enterprise defense appeared first on Help Net Security .]]></description>
-<pubDate>Wed, 12 Aug 2026 05:00:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/12/picus-security-blue-report-2026/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Risky Bulletin: Russian hackers jump on the fake job interview train</title>
@@ -808,16 +836,6 @@
 <category>ddos</category>
 </item>
 <item>
-<title>DDoS attacks over 1 Tbps surged fivefold in the second quarter</title>
-<link>https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/</link>
-<description><![CDATA[Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Tue, 11 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ddos</category>
-</item>
-<item>
 <title>A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices</title>
 <link>https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html</link>
 <description><![CDATA[A malicious SIM card can order the device it sits in to run commands of the attacker&apos;s choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it]]></description>
@@ -953,15 +971,12 @@
 <item>
 <title>[remote] mcp-server-kubernetes 3.8.x - Argument Injection</title>
 <link>https://www.exploit-db.com/exploits/52638</link>
-<description><![CDATA[mcp-server-kubernetes 3.8.x - Argument Injection<br/><br/><em>Tags: Kubernetes · Anthropic/Claude · GitHub · CVE-2026-61459</em>]]></description>
+<description><![CDATA[mcp-server-kubernetes 3.8.x - Argument Injection<br/><br/><em>Tags: Kubernetes</em>]]></description>
 <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52638</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>Kubernetes</category>
-<category>Anthropic/Claude</category>
-<category>GitHub</category>
-<category>CVE-2026-61459</category>
 </item>
 <item>
 <title>deno-case-studies</title>
@@ -1338,13 +1353,11 @@
 <item>
 <title>[webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution</title>
 <link>https://www.exploit-db.com/exploits/52633</link>
-<description><![CDATA[OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution<br/><br/><em>Tags: GitHub · CVE-2026-58138</em>]]></description>
+<description><![CDATA[OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution]]></description>
 <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52633</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
-<category>GitHub</category>
-<category>CVE-2026-58138</category>
 </item>
 <item>
 <title>[webapps] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution</title>
@@ -1807,16 +1820,6 @@
 <category>CVE-2026-64561</category>
 </item>
 <item>
-<title>Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs</title>
-<link>https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html</link>
-<description><![CDATA[Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is running in autonomous or controller mode. &quot;These vulnerabilities were found<br/><br/><em>Tags: Cisco</em>]]></description>
-<pubDate>Thu, 06 Aug 2026 17:13:15 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Cisco</category>
-</item>
-<item>
 <title>Canadian Man Pleads Guilty in Snowflake Extortions</title>
 <link>https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/</link>
 <description><![CDATA[A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&amp;T customers.<br/><br/><em>Tags: Snowflake · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -2159,18 +2162,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>Don&apos;t Revoke That Token Yet: Inside the keyv/cacheable npm Worm, (Wed, Aug 5th)</title>
-<link>https://isc.sans.edu/diary/rss/33218</link>
-<description><![CDATA[When you learn that a compromised package executed on one of your build hosts, muscle memory takes over: revoke the npm token, rotate the GitHub PAT, cycle the cloud keys. That reflex has been correct in almost every supply-chain incident I have worked. In the keyv / cacheable compromise that has been unfolding since yesterday, it is the one thing you should not do first â€” because revoking the stolen token is exactly what arms the payload.<br/><br/><em>Tags: npm · GitHub · supply_chain</em>]]></description>
-<pubDate>Wed, 05 Aug 2026 17:56:15 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33218</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-<category>npm</category>
-<category>GitHub</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</link>
 <description><![CDATA[A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
@@ -2210,6 +2201,24 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/paperclip-ai-vulnerabilities-rce/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Chainalysis Supports Cronos with Automatic Token Support</title>
+<link>https://www.chainalysis.com/blog/cronos-automatic-token-support/</link>
+<description><![CDATA[Chainalysis is excited to announce support for Cronos, an EVM-compatible Layer 1 blockchain. Cronos Network is a purpose-built settlement layer… The post Chainalysis Supports Cronos with Automatic Token Support appeared first on Chainalysis .]]></description>
+<pubDate>Wed, 05 Aug 2026 14:00:27 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/cronos-automatic-token-support/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>AI agents can&apos;t yet do open-ended AI research</title>
+<link>https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended</link>
+<description><![CDATA[Early evidence from two case studies]]></description>
+<pubDate>Wed, 05 Aug 2026 13:49:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended</guid>
+<source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Immigration Policy: The Backdoor to Transnational Repression</title>
@@ -4014,15 +4023,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>When AI Agents Escape Sandboxes, Old Security Rules Apply</title>
-<link>https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply</link>
-<description><![CDATA[OpenAI&apos;s recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.]]></description>
-<pubDate>Tue, 28 Jul 2026 20:27:36 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>What Is a Dependency Firewall?</title>
 <link>https://openssf.org/blog/2026/07/28/what-is-a-dependency-firewall/</link>
 <description><![CDATA[A dependency firewall is a security checkpoint that evaluates open source packages before they are installed. It can protect developer workstations, build environments, CI/CD pipelines, and AI coding agents by blocking packages that appear malicious, suspicious, or inconsistent with organizational policy.]]></description>
@@ -5603,16 +5603,6 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>Phishing Campaign Abuses eCards to Deploy RMM Tools</title>
-<link>https://www.infosecurity-magazine.com/news/seasonalinvite-phishing-ecards-rmm/</link>
-<description><![CDATA[Six-month phishing campaign used seasonal eCard lures to plant legitimate RMM tools on victims<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 15 Jul 2026 15:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/seasonalinvite-phishing-ecards-rmm/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>The Risk of Exposed Cloud Functions and How to Harden</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</link>
 <description><![CDATA[Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr]]></description>
@@ -5620,15 +5610,6 @@
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Eleven Vulnerable UEFI Shims Enable Secure Boot Bypass</title>
-<link>https://www.infosecurity-magazine.com/news/uefi-shims-secure-boot-bypass/</link>
-<description><![CDATA[Eleven forgotten Microsoft-signed UEFI shims can bypass Secure Boot on almost any machine]]></description>
-<pubDate>Wed, 15 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/uefi-shims-secure-boot-bypass/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System</title>
@@ -7718,20 +7699,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
-<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
-<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
-<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>The &apos;vibe coding spectrum&apos; approach to AI-assisted software development</title>
 <link>https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</link>
 <description><![CDATA[Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.]]></description>
 <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
+<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
+<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
+<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -14473,15 +14454,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>EtherRAT dissected: How a React2Shell implant delivers 5 payloads through blockchain C2</title>
-<link>https://webflow.sysdig.com/blog/etherrat-dissected-how-a-react2shell-implant-delivers-5-payloads-through-blockchain-c2</link>
-<description><![CDATA[On December 8, the Sysdig Threat Research Team (TRT) reported that a possible North Korean-linked actor had deployed EtherRAT, a novel Ethereum-based implant, in React2Shell attacks. The malware goes beyond other React2Shell cryptomining attacks, blending command and control (C2) traffic into blockchain activity and aggressively harvesting credentials. Additionally, this blog marks the first time the React2Shell exploit has been publicly documented in active malware.]]></description>
-<pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://webflow.sysdig.com/blog/etherrat-dissected-how-a-react2shell-implant-delivers-5-payloads-through-blockchain-c2</guid>
-<source url="https://sysdig.com/feed/">Sysdig</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>ChatGPT&apos;s rivals, Kwai&apos;s quiet rise: the top Internet services of 2025</title>
 <link>https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/</link>
 <description><![CDATA[AI competition intensified in 2025 as ChatGPT gained strong challengers. Instagram climbed, X declined, and platforms like Shopee, Temu, and Kwai reshaped global Internet usage. Our 2025 DNS data shows how Internet patterns evolved.]]></description>
@@ -15381,15 +15353,6 @@
 <description><![CDATA[We’re strengthening the Frontier Safety Framework (FSF) to help identify and mitigate severe risks from advanced AI models.]]></description>
 <pubDate>Thu, 23 Oct 2025 23:44:10 +0000</pubDate>
 <guid isPermaLink="true">https://deepmind.google/blog/strengthening-our-frontier-safety-framework/</guid>
-<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Gemini Robotics 1.5 brings AI agents into the physical world</title>
-<link>https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/</link>
-<description><![CDATA[We’re powering an era of physical agents — enabling robots to perceive, plan, think, use tools and act to better solve complex, multi-step tasks.]]></description>
-<pubDate>Thu, 23 Oct 2025 23:33:58 +0000</pubDate>
-<guid isPermaLink="true">https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
 </item>
@@ -19386,7 +19349,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19396,7 +19359,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19405,7 +19368,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19414,7 +19377,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19423,7 +19386,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19432,7 +19395,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19441,7 +19404,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19450,7 +19413,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19459,7 +19422,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19468,7 +19431,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 12 Aug 2026 13:23:07 +0000</pubDate>
+<pubDate>Wed, 12 Aug 2026 15:03:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
