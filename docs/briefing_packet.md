@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-13T22:51:18.175311+00:00
+- Generated: 2026-08-13T23:50:15.740914+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 333
+- Total items in window: 332
 - Total clusters raw: 142
 - Total clusters in packet: 72
 - Dropped low score: 70
@@ -75,38 +75,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -125,60 +125,65 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 11
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 15
+  - Item count: 40
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -190,26 +195,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,26 +220,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - Item count: 20
+  - In window count: 3
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
+  - In window count: 0
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -255,21 +265,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -285,41 +280,46 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 3
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 3
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - In window count: 15
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -330,11 +330,11 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
-  - In window count: 15
+  - In window count: 3
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,6 +350,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 17
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -359,32 +369,27 @@
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 19
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 17
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
+  - In window count: 18
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,11 +400,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -420,21 +420,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -445,21 +440,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 20
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -2408,6 +2408,56 @@ Deep dive and timeline of HF from OpenAI, Portswigger shows how CSS in webmail c
   - Link: https://tldrsec.com/p/tldr-sec-341
   - Summary: Deep dive and timeline of HF from OpenAI, Portswigger shows how CSS in webmail clients can be weaponized, GitHub's platform improvements
 
+### Cluster 963c57eb1b — score 10
+
+- Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-10T15:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, ransomware_extortion
+- affected_industries: manufacturing_industrial
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, data_breach
+- affected_industries: manufacturing_industrial
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windows Threats intelligence Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Microsoft Threat Intelligence tracks DeadLock ransomware as an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications and data leak operations. Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process. This architecture likely increases the resilience of portions of its communication, leak-hosting, and negotiation infrastructure, allowing DeadLock operators to recover from some disruption efforts while maintaining continuity for victims. Microsoft has observed DeadLock ransomware being deployed by multiple groups including an affiliate of the Lynx and INC ransomware ecosystems. First observed in July 2025, DeadLock operators employ double extortion tactics, encrypting victim environments while threatening to publicly release exfiltrated data. As of July 2026, the operators have published more than 80 compromised organizations on their data leak site, called the DeadLock blog, with more than half of the claimed victims in Europe. Microsoft identified DeadLock ransomware impacting organizations across information technology (IT), mining, transportation and logistics, manufacturing, hospitality, consumer goods, and other sectors in Europe, Asia, North America, South America, and Africa. The DeadLock encryptor includes a resource-aware throttling mechanism designed to maintain system responsiveness during encryption. In addition to its encryption capabilities, the ransomware also appears to implement language or country-based geofencing designed to avoid running in environments associated with former Soviet and Commonwealth of Independent States (CIS)-linked countries as well as select Middle Eastern countries, a pattern commonly observed among ransomware operators believed to operate from those regions. Together, these capabilities demonstrate how DeadLock combines established ransomware tradecraft with decentralized infrastructure designed to improve operational resilience. In this blog, we present a technical analysis of the DeadLock ransomware encryptor, covering its execution flow, defense evasion techniques, encryption design, and post-encryption behaviors, including a decentralized recovery chat system. We also provide indicators of compromise (IOCs), Microsoft Defender detections, and mitigation guidance to help organizations defend against this threat and similar ransomware activity. Pre-encryption Configuration parsing Before performing any malicious activity, the DeadLock encryptor decrypts an embedded configuration blob using XOR decoding with an 8-byte key. Below are the malware’s configuration fields and their values. Field Value Victim UID <redacted> Malware public key 03bf50bbf97c4e951e66ff12b689a37a3ce675b4921e254eae76da77573843e4a9 Encryption rule 1000,05052429880,025124288000,010524288000,F991114288000 Language exclude list Geofencing language IDs (see Language geofencing ) Process stop list Processes to terminate (see Process and service termination ) Service stop list Services to stop and delete (see Process and service termination ) File exclude list Extensions and file names to avoid encrypting (see Directory traversal ) Directory exclude list Pre-traversal filter with directories to avoid encrypting (see Directory traversal ) Sub-path Exclude List Sub-paths to avoid encrypting during traversal (see Directory traversal ) Text ransom note Full text ransom note content (see Ransom notes deployment ) HTML recovery chat Full HTML/JS interactive chat page (see Recovery chat: Technical architecture ) Language geofencing As an early exit check, the malware
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
+  - Published: 2026-08-10T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
+  - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
+  - Published: 2026-08-10T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
+  - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
+
 ### Cluster 1e15301923 — score 10
 
 - Title: Kimwolf v7: An Evolution of the Kimwolf Botnet
@@ -2540,56 +2590,6 @@ Threat Research Center Insights Inside the Modern SOC Inside the Modern SOC Insi
   - Published: 2026-08-07T23:00:01+00:00
   - Link: https://unit42.paloaltonetworks.com/soc-identity-front-door/
   - Summary: Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond. The post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42 .
-
-### Cluster 963c57eb1b — score 10
-
-- Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-08-10T15:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, ransomware_extortion
-- affected_industries: manufacturing_industrial
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, data_breach
-- affected_industries: manufacturing_industrial
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windows Threats intelligence Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Microsoft Threat Intelligence tracks DeadLock ransomware as an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications and data leak operations. Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process. This architecture likely increases the resilience of portions of its communication, leak-hosting, and negotiation infrastructure, allowing DeadLock operators to recover from some disruption efforts while maintaining continuity for victims. Microsoft has observed DeadLock ransomware being deployed by multiple groups including an affiliate of the Lynx and INC ransomware ecosystems. First observed in July 2025, DeadLock operators employ double extortion tactics, encrypting victim environments while threatening to publicly release exfiltrated data. As of July 2026, the operators have published more than 80 compromised organizations on their data leak site, called the DeadLock blog, with more than half of the claimed victims in Europe. Microsoft identified DeadLock ransomware impacting organizations across information technology (IT), mining, transportation and logistics, manufacturing, hospitality, consumer goods, and other sectors in Europe, Asia, North America, South America, and Africa. The DeadLock encryptor includes a resource-aware throttling mechanism designed to maintain system responsiveness during encryption. In addition to its encryption capabilities, the ransomware also appears to implement language or country-based geofencing designed to avoid running in environments associated with former Soviet and Commonwealth of Independent States (CIS)-linked countries as well as select Middle Eastern countries, a pattern commonly observed among ransomware operators believed to operate from those regions. Together, these capabilities demonstrate how DeadLock combines established ransomware tradecraft with decentralized infrastructure designed to improve operational resilience. In this blog, we present a technical analysis of the DeadLock ransomware encryptor, covering its execution flow, defense evasion techniques, encryption design, and post-encryption behaviors, including a decentralized recovery chat system. We also provide indicators of compromise (IOCs), Microsoft Defender detections, and mitigation guidance to help organizations defend against this threat and similar ransomware activity. Pre-encryption Configuration parsing Before performing any malicious activity, the DeadLock encryptor decrypts an embedded configuration blob using XOR decoding with an 8-byte key. Below are the malware’s configuration fields and their values. Field Value Victim UID <redacted> Malware public key 03bf50bbf97c4e951e66ff12b689a37a3ce675b4921e254eae76da77573843e4a9 Encryption rule 1000,05052429880,025124288000,010524288000,F991114288000 Language exclude list Geofencing language IDs (see Language geofencing ) Process stop list Processes to terminate (see Process and service termination ) Service stop list Services to stop and delete (see Process and service termination ) File exclude list Extensions and file names to avoid encrypting (see Directory traversal ) Directory exclude list Pre-traversal filter with directories to avoid encrypting (see Directory traversal ) Sub-path Exclude List Sub-paths to avoid encrypting during traversal (see Directory traversal ) Text ransom note Full text ransom note content (see Ransom notes deployment ) HTML recovery chat Full HTML/JS interactive chat page (see Recovery chat: Technical architecture ) Language geofencing As an early exit check, the malware
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
-  - Published: 2026-08-10T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
-  - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
-  - Published: 2026-08-10T15:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
-  - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
 
 ### Cluster a36b6d83b6 — score 10
 
@@ -3396,47 +3396,6 @@ Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws  Ravie La
   - Link: https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
   - Summary: Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could
 
-### Cluster e2f458ad1f — score 8
-
-- Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-08-07T23:59:59+00:00
-- Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude, Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Anthropic/Claude, Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
-```
-
-#### Full body
-
-```
-7 August 2026 • Mika Ayenson, PhD • Jia Yu Chan Living off the coding agent: Two tales of tunnels and LaunchAgents A macOS case study on Claude Code ancestry, free tunnel brokers, and the challenge of validating GenAI-adjacent alerts. 10 min read Generative AI Coding agents such as Claude Code and Cursor are vendor-signed, used all day on developer laptops, and routinely open shells, call APIs, edit files, and install helpers. That makes GenAI-adjacent alerts challenging to investigate. The parent looks trusted, while the children can still look a lot like classic high-severity activity. This article walks through one of those windows. On a macOS endpoint, Elastic Security endpoint telemetry showed shells under Claude Code that scripted a login to an ephemeral tunnel hostname, pulled application metrics, stood up a Cloudflare quick tunnel, and installed LaunchAgent persistence. Immediate children were often shells ( zsh ) and helpers under that ancestry, not Claude executing every binary itself. The outcomes Endpoint cares about are still there. Credentials show up on the wire, along with reverse tunnels and LaunchAgents. The destinations and command shapes also line up with known free tunnel providers ( localhost[.]run / lhr[.]life , trycloudflare, ngrok, etc.), a local loopback app pattern, and ordinary SaaS APIs. Put together, the same telemetry can read like a remote admin of a local dashboard with agent help, which is exactly why these alerts are hard to triage. Below we walk the multi-day suspicious activity and the 23 Jul window stage by stage, name the known dual-use tools, show which production rules fired, and describe challenges detection engineers and analysts encounter when investigating these alerts. Key takeaways Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Treat that as high severity even when it looks like vibe-coded ops, not confirmed malware. Known free tunnel brokers ( localhost[.]run / lhr[.]life , Cloudflare Quick Tunnels, ngrok) show up next to credentialed HTTP and LaunchAgents in the same session. The hard part for detection engineers is validation. Trusted coding-agent parents, dual-use destinations, and high-severity outcomes can all arrive in one alert pile. Coding agent activity analysis Two hunt paths landed on the same host on July 23, 2026. One started from VirusTotal reputation on a domain contacted under the agent lineage. The other started from correlated endpoint behavior alerts, including the production rule Persistence via GenAI Tool . Together they rebuilt one sequence rather than a pile of unrelated noisy events. That was not the first Elastic Defend signal on the host. Telemetry already showed event.code: malicious_file and behavior activity from July 20, 2026 onward. Most of it was tunnel and VPN-class binaries, noisy GenAI-adjacent alerts, followed by credential posts and LaunchAgent persistence the hunts highlighted. macOS developer endpoint: Where this showed up The activity sits on a macOS developer endpoint where Claude Code (and in related cases Cursor) was already installed and in use. The practical class is a workstation that trusts signed coding agents to open shells, edit files, call APIs, and install helpers. How the Claude Code session staged the chain From telemetry, the session needed to run tooling with fewer approval prompts, reach a tunnel-published URL, expose a local service without inbound firewall changes, keep that path alive, and check related processes. Those steps show up as ordinary process, file, and network event types under a coding-agent parent. Known dual-use tools in this window include localhost[.]run (free SSH tunnels on *.lhr[.]life ), Cloudflare Quick Tunnels ( *.trycloudflare[.]com / api.trycloudflare[.]com ), and an ngrok binary. VirusTotal flags on broker apexes (root domain) remain useful hunt signals because those services get abused. In this session, the tunnels sit next to publish-localhost beha
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
-  - Published: 2026-08-07T23:59:59+00:00
-  - Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
-  - Summary: Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
-
 ### Cluster dff444ac7f — score 8
 
 - Title: deno-case-studies
@@ -3477,6 +3436,47 @@ Abuse of alternative runtime environments Deno-tes defender headaches Attack TTP
   - Published: 2026-08-11T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/deno-case-studies
   - Summary: Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Research
+
+### Cluster e2f458ad1f — score 8
+
+- Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-08-07T23:59:59+00:00
+- Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Anthropic/Claude, Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
+```
+
+#### Full body
+
+```
+7 August 2026 • Mika Ayenson, PhD • Jia Yu Chan Living off the coding agent: Two tales of tunnels and LaunchAgents A macOS case study on Claude Code ancestry, free tunnel brokers, and the challenge of validating GenAI-adjacent alerts. 10 min read Generative AI Coding agents such as Claude Code and Cursor are vendor-signed, used all day on developer laptops, and routinely open shells, call APIs, edit files, and install helpers. That makes GenAI-adjacent alerts challenging to investigate. The parent looks trusted, while the children can still look a lot like classic high-severity activity. This article walks through one of those windows. On a macOS endpoint, Elastic Security endpoint telemetry showed shells under Claude Code that scripted a login to an ephemeral tunnel hostname, pulled application metrics, stood up a Cloudflare quick tunnel, and installed LaunchAgent persistence. Immediate children were often shells ( zsh ) and helpers under that ancestry, not Claude executing every binary itself. The outcomes Endpoint cares about are still there. Credentials show up on the wire, along with reverse tunnels and LaunchAgents. The destinations and command shapes also line up with known free tunnel providers ( localhost[.]run / lhr[.]life , trycloudflare, ngrok, etc.), a local loopback app pattern, and ordinary SaaS APIs. Put together, the same telemetry can read like a remote admin of a local dashboard with agent help, which is exactly why these alerts are hard to triage. Below we walk the multi-day suspicious activity and the 23 Jul window stage by stage, name the known dual-use tools, show which production rules fired, and describe challenges detection engineers and analysts encounter when investigating these alerts. Key takeaways Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Treat that as high severity even when it looks like vibe-coded ops, not confirmed malware. Known free tunnel brokers ( localhost[.]run / lhr[.]life , Cloudflare Quick Tunnels, ngrok) show up next to credentialed HTTP and LaunchAgents in the same session. The hard part for detection engineers is validation. Trusted coding-agent parents, dual-use destinations, and high-severity outcomes can all arrive in one alert pile. Coding agent activity analysis Two hunt paths landed on the same host on July 23, 2026. One started from VirusTotal reputation on a domain contacted under the agent lineage. The other started from correlated endpoint behavior alerts, including the production rule Persistence via GenAI Tool . Together they rebuilt one sequence rather than a pile of unrelated noisy events. That was not the first Elastic Defend signal on the host. Telemetry already showed event.code: malicious_file and behavior activity from July 20, 2026 onward. Most of it was tunnel and VPN-class binaries, noisy GenAI-adjacent alerts, followed by credential posts and LaunchAgent persistence the hunts highlighted. macOS developer endpoint: Where this showed up The activity sits on a macOS developer endpoint where Claude Code (and in related cases Cursor) was already installed and in use. The practical class is a workstation that trusts signed coding agents to open shells, edit files, call APIs, and install helpers. How the Claude Code session staged the chain From telemetry, the session needed to run tooling with fewer approval prompts, reach a tunnel-published URL, expose a local service without inbound firewall changes, keep that path alive, and check related processes. Those steps show up as ordinary process, file, and network event types under a coding-agent parent. Known dual-use tools in this window include localhost[.]run (free SSH tunnels on *.lhr[.]life ), Cloudflare Quick Tunnels ( *.trycloudflare[.]com / api.trycloudflare[.]com ), and an ngrok binary. VirusTotal flags on broker apexes (root domain) remain useful hunt signals because those services get abused. In this session, the tunnels sit next to publish-localhost beha
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
+  - Published: 2026-08-07T23:59:59+00:00
+  - Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+  - Summary: Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
 
 ### Cluster 684e954005 — score 8
 
