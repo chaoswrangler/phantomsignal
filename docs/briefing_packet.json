@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-13T02:28:11.194756+00:00",
+  "generated_at": "2026-08-13T04:57:29.667127+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 74,
-  "total_items_in_window": 346,
-  "total_clusters_raw": 152,
-  "total_clusters_in_packet": 69,
-  "dropped_low_score": 83,
+  "feeds_ok": 73,
+  "total_items_in_window": 327,
+  "total_clusters_raw": 138,
+  "total_clusters_in_packet": 67,
+  "dropped_low_score": 71,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -74,11 +81,18 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 2
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -88,26 +102,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -116,12 +130,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -135,27 +163,6 @@
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 2
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 2
     },
     "SANS Internet Storm Center": {
@@ -179,13 +186,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
@@ -207,13 +207,6 @@
       "item_count": 40,
       "in_window_count": 1
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -221,9 +214,30 @@
       "item_count": 50,
       "in_window_count": 11
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -235,36 +249,15 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -277,12 +270,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -290,6 +283,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -319,26 +319,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -347,9 +340,9 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
@@ -368,19 +361,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -389,11 +382,11 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 3
     },
     "Coveware": {
@@ -403,12 +396,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -417,12 +424,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 20,
+      "in_window_count": 20
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -431,22 +438,15 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
+      "item_count": 15,
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -459,22 +459,8 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 18
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -487,12 +473,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -500,6 +486,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -522,36 +522,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 21
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -564,12 +543,33 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -578,12 +578,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -611,7 +611,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 6
+      "in_window_count": 5
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -1741,16 +1741,14 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-          "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-          "published": "2026-08-07T18:48:17+00:00",
-          "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. \"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload,\" OpenSourceMalware researcher Paul",
+          "title": "Six npm Packages Read C2 Addresses From Ethereum Wallet",
+          "link": "https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/",
+          "published": "2026-08-11T15:00:00+00:00",
+          "summary": "Six npm packages queried an Ethereum wallet to locate C2 infrastructure",
           "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -1771,14 +1769,16 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Six npm Packages Read C2 Addresses From Ethereum Wallet",
-          "link": "https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/",
-          "published": "2026-08-11T15:00:00+00:00",
-          "summary": "Six npm packages queried an Ethereum wallet to locate C2 infrastructure",
+          "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+          "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+          "published": "2026-08-07T18:48:17+00:00",
+          "summary": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. \"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload,\" OpenSourceMalware researcher Paul",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "credential_theft"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -2517,6 +2517,36 @@
           }
         },
         {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "WordPress Plugins Compromised Without a Single File Change",
+          "link": "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
+          "published": "2026-08-10T14:30:00+00:00",
+          "summary": "Poisoned JSON feed let attackers backdoor WordPress sites without changing any plugin files",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
@@ -2539,36 +2569,6 @@
               "preauth_unauth"
             ],
             "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "WordPress Plugins Compromised Without a Single File Change",
-          "link": "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
-          "published": "2026-08-10T14:30:00+00:00",
-          "summary": "Poisoned JSON feed let attackers backdoor WordPress sites without changing any plugin files",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
               "WordPress": "target"
@@ -3054,36 +3054,6 @@
           }
         },
         {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-          "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-          "published": "2026-08-07T18:29:08+00:00",
-          "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials. The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture. \"",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
           "title": "Go-Based macOS Malware Steals Crypto and Secrets",
@@ -3112,14 +3082,44 @@
               "products": []
             }
           }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+          "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+          "published": "2026-08-07T18:29:08+00:00",
+          "summary": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials. The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture. \"",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
     {
       "cluster_id": "e8d811cf69",
       "priority_score": 16,
-      "member_count": 9,
-      "corroborating_source_count": 5,
+      "member_count": 7,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "OpenAI/ChatGPT"
       ],
@@ -3263,36 +3263,6 @@
           "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
           "published": "2026-08-12T11:47:38+00:00",
           "summary": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness affected encrypted reasoning objects used by the providers' reasoning APIs, where a block created in one session could be replayed into another and, during testing,",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target",
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Déjà Vu? Meta's AI Escapes Testing Lab in Hacking Joyride",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride",
-          "published": "2026-08-06T20:39:30+00:00",
-          "summary": "In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -4129,114 +4099,6 @@
       ]
     },
     {
-      "cluster_id": "fb556ca51b",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Cl0p"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Cl0p"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "SolarWinds"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Team Cymru",
-        "cohort": "ransomware_ecrime_financial_crime",
-        "title": "Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days",
-        "link": "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
-        "published": "2026-08-12T15:55:32+00:00",
-        "summary": "Analyze Cl0p ransomware's history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.",
-        "full_body": "All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days PART I Operational Profile and Campaign Analysis 1. The MFT Targeting Pattern Cl0p’s defining operational characteristic is a sustained and systematic focus on managed file transfer infrastructure. Across nine known campaigns, the group has targeted Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere MFT, PaperCut MF/NG, Progress MOVEit Transfer, SysAid ITSM, Cleo MFT (Harmony, VLTrader, LexiCom), Oracle E-Business Suite, and Gladinet Centrestack/TrioFox. With the partial exception of PaperCut (a print management server) and SysAid (an IT service management platform), every target shares a common architectural profile: an internet-facing application that processes, stores, or transfers files. This targeting consistency is significant for two reasons. First, it indicates strategic specialization rather than opportunistic exploitation. The group has invested in developing or acquiring zero-day capabilities specifically for this product category, deploying novel exploits in seven of nine campaigns. Second, it defines a bounded, defensible attack surface. Organizations that operate MFT infrastructure can identify themselves as potential targets and implement category-specific protections — a defensive advantage that is uncommon against most ransomware groups. Figure 1: Complete Cl0p campaign history, 2020–2025 ‍ 2. Exploitation Timeline The chronological record of Cl0p campaigns reveals a distinctive operational tempo characterized by extended dormancy periods punctuated by concentrated bursts of activity. Figure 2: Campaign timeline with inter-campaign intervals ‍ Several patterns merit attention. The group’s longest dormancy period — approximately 14 months between the SolarWinds Serv-U exploitation in late 2021 and the Fortra GoAnywhere campaign in January 2023 — was followed by its most active phase: four distinct campaigns across four separate technologies in ten months (January through October 2023). This burst-and-pause cadence suggests a development cycle in which the group acquires or develops exploits, executes campaigns in rapid succession, and then withdraws to prepare for the next cycle. The inter-campaign intervals since 2023 have been notably consistent, ranging from 10 to 14 months between major operations. This periodicity, while not perfectly predictable, provides a rough forecasting baseline. As of mid-2026, the group’s last confirmed campaign (Centrestack, November 2025) was approximately eight months ago — suggesting the next operational cycle may be approaching. 3. Seasonal Clustering: The Q4 Pattern Figure 3: Cl0p campaigns by quarter — Q4 exceeds all other quarters combined When campaigns are mapped by calendar quarter, Q4 emerges as the dominant operational window. Five of nine confirmed campaigns were initiated during October through December — more than all other quarters combined. This clustering is operationally rational: Q4 coincides with major holidays in the United States and Europe (Thanksgiving, Christmas, New Year), periods when security operations centers are typically operating at reduced capacity and organizational response times are extended. The Centrestack campaign provides the most explicit example. Initial compromises occurred on Thanksgiving Day 2025 (November 27), a date that maximized the gap between initial access and organizational detection. This seasonal preference should be treated as a high-confidence behavioral indicator for defensive planning purposes. 4. Pre-Attack Reconnaissance One of the most strategically significant findings in this analysis is the extent to which Cl0p conducts advance reconnaissance against eventual targets. This behavior has been confirmed in at least two campaigns and is assessed as likely present but undetected in others. 4.1 MOVEit: Two Years of Pre-Attack Scanning Following the MOVEit exploi",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day"
-          ],
-          "actor_attribution": [
-            "Cl0p"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "SolarWinds"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "SolarWinds": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Team Cymru",
-          "cohort": "ransomware_ecrime_financial_crime",
-          "title": "Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days",
-          "link": "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
-          "published": "2026-08-12T15:55:32+00:00",
-          "summary": "Analyze Cl0p ransomware's history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day"
-            ],
-            "actor_attribution": [
-              "Cl0p"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "SolarWinds"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "SolarWinds": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "22bf2708a0",
       "priority_score": 12,
       "member_count": 3,
@@ -4830,6 +4692,216 @@
       ]
     },
     {
+      "cluster_id": "fb556ca51b",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Cl0p"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "Cl0p"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "SolarWinds"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Team Cymru",
+        "cohort": "ransomware_ecrime_financial_crime",
+        "title": "Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days",
+        "link": "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
+        "published": "2026-08-12T15:55:32+00:00",
+        "summary": "Analyze Cl0p ransomware's history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.",
+        "full_body": "All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days PART I Operational Profile and Campaign Analysis 1. The MFT Targeting Pattern Cl0p’s defining operational characteristic is a sustained and systematic focus on managed file transfer infrastructure. Across nine known campaigns, the group has targeted Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere MFT, PaperCut MF/NG, Progress MOVEit Transfer, SysAid ITSM, Cleo MFT (Harmony, VLTrader, LexiCom), Oracle E-Business Suite, and Gladinet Centrestack/TrioFox. With the partial exception of PaperCut (a print management server) and SysAid (an IT service management platform), every target shares a common architectural profile: an internet-facing application that processes, stores, or transfers files. This targeting consistency is significant for two reasons. First, it indicates strategic specialization rather than opportunistic exploitation. The group has invested in developing or acquiring zero-day capabilities specifically for this product category, deploying novel exploits in seven of nine campaigns. Second, it defines a bounded, defensible attack surface. Organizations that operate MFT infrastructure can identify themselves as potential targets and implement category-specific protections — a defensive advantage that is uncommon against most ransomware groups. Figure 1: Complete Cl0p campaign history, 2020–2025 ‍ 2. Exploitation Timeline The chronological record of Cl0p campaigns reveals a distinctive operational tempo characterized by extended dormancy periods punctuated by concentrated bursts of activity. Figure 2: Campaign timeline with inter-campaign intervals ‍ Several patterns merit attention. The group’s longest dormancy period — approximately 14 months between the SolarWinds Serv-U exploitation in late 2021 and the Fortra GoAnywhere campaign in January 2023 — was followed by its most active phase: four distinct campaigns across four separate technologies in ten months (January through October 2023). This burst-and-pause cadence suggests a development cycle in which the group acquires or develops exploits, executes campaigns in rapid succession, and then withdraws to prepare for the next cycle. The inter-campaign intervals since 2023 have been notably consistent, ranging from 10 to 14 months between major operations. This periodicity, while not perfectly predictable, provides a rough forecasting baseline. As of mid-2026, the group’s last confirmed campaign (Centrestack, November 2025) was approximately eight months ago — suggesting the next operational cycle may be approaching. 3. Seasonal Clustering: The Q4 Pattern Figure 3: Cl0p campaigns by quarter — Q4 exceeds all other quarters combined When campaigns are mapped by calendar quarter, Q4 emerges as the dominant operational window. Five of nine confirmed campaigns were initiated during October through December — more than all other quarters combined. This clustering is operationally rational: Q4 coincides with major holidays in the United States and Europe (Thanksgiving, Christmas, New Year), periods when security operations centers are typically operating at reduced capacity and organizational response times are extended. The Centrestack campaign provides the most explicit example. Initial compromises occurred on Thanksgiving Day 2025 (November 27), a date that maximized the gap between initial access and organizational detection. This seasonal preference should be treated as a high-confidence behavioral indicator for defensive planning purposes. 4. Pre-Attack Reconnaissance One of the most strategically significant findings in this analysis is the extent to which Cl0p conducts advance reconnaissance against eventual targets. This behavior has been confirmed in at least two campaigns and is assessed as likely present but undetected in others. 4.1 MOVEit: Two Years of Pre-Attack Scanning Following the MOVEit exploi",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "zero_day"
+          ],
+          "actor_attribution": [
+            "Cl0p"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "SolarWinds"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "SolarWinds": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Team Cymru",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "title": "Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days",
+          "link": "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
+          "published": "2026-08-12T15:55:32+00:00",
+          "summary": "Analyze Cl0p ransomware's history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "zero_day"
+            ],
+            "actor_attribution": [
+              "Cl0p"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "SolarWinds"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "SolarWinds": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b6abff1635",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial",
+          "retail_ecommerce"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Logistics Giant Ceva Suffers Data Breach Impacting European Clients",
+        "link": "https://www.infosecurity-magazine.com/news/logistics-ceva-data-breach/",
+        "published": "2026-08-11T10:45:00+00:00",
+        "summary": "Supply chain attack and data breach at Ceva Logistics appears to have a large blast radius",
+        "full_body": "Infosecurity Magazine Home » News » Logistics Giant Ceva Suffers Data Breach Impacting European Clients Logistics Giant Ceva Suffers Data Breach Impacting European Clients News 11 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A data breach at one of the world’s biggest logistics companies appears to have had a significant impact on its wider supply chain ecosystem of customers. Ceva Logistics is a subsidiary of the French CMA CGM Group, which is the world’s third-largest shipper. A brief statement from the firm seen by Infosecurity claimed its European contract logistics operations were impacted by the breach. This part of the business provides customers with warehousing and fulfilment, manufacturing support and aftermarket services. The statement said Ceva notified impacted customers on August 1, with eight warehouses affected. “No other Ceva systems globally were affected, and all other operations continue without incident,” it added Read more on logistics breaches: UK Logistics Firm Forced to Close After Ransomware Breach An email sent by Ceva client, video game developer Valve , to its customers and republished online claimed the cyber-attack lasted from July 29 to August 1. “Ceva receives specific delivery-related information from Steam to be able to ship physical hardware to customers in Europe, and told us these are the details the attacker likely took,” it explained. “Because Ceva retains this information for up to 90 days after that order, we are sending this message to all customers we can assume were impacted.” In this case, hackers may have obtained names, email and home addresses, phone numbers and order details. Aside from the gaming specialist, other Ceva clients impacted by the incident include Dutch online retail firm Bol, which said restoration of operations at Ceva’s Veerweg location is taking longer than anticipated, and may impact service levels. Dutch department store chain De Bijenkorf was also impacted, as was football club Ajax and banking giant ING. Logistics Under Fire The logistics sector is an obvious choice for cybercriminals, argued Joseph Perry, cybersecurity researcher and advanced services lead at Arcova. “They sit at the center of thousands of transactions between businesses and their customers. That makes them an appealing target because a compromise can create operational problems while also giving attackers access to information about the people and products moving through the system,” he argued. “Shipping information is also highly contextual. A name, address, phone number, email address, and recent purchase can give attackers enough context to make phishing and impersonation attempts far more convincing.” These companies should be treated as “part of the security and operational environment” of all those that depend on them, said Perry. “You do not have to be the final target to become the point of failure,” he added. KnowBe4 CISO advisory, Anna Collard, described the incident as a “textbook supply chain breach.” “I’d expect a wave of ‘delivery problem’ lures over the coming weeks, messages about a redelivery fee or a request to ‘verify’ an order,” she added. “So treat any unexpected message about this order as fake, don’t click links or pay fees, and go directly to the retailer’s official site by typing the address yourself.” In 2020, CMA CGM suffered a ransomware attack on its servers, leading to the temporary closure of its shipping website and applications. You may also like Hellmann Warns Customers They Could Face Malicious Communications Following Attack News 24 December 2021 Widespread Net RFQ Scam Targets High-Value Goods News 22 July 2025 Researchers Warn of Global Surge in Fake Shipment Tracking Scams News 16 March 2026 \"Workarounds\" Helped Royal Mail Resume Shipping After Ransomware Attack News 20 January 2023 Interview: Mitigating Cyber-Threats in the Maritime Industry Interview 23 May 2022 What’s Hot on",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "manufacturing_industrial",
+            "retail_ecommerce"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Logistics Giant Ceva Suffers Data Breach Impacting European Clients",
+          "link": "https://www.infosecurity-magazine.com/news/logistics-ceva-data-breach/",
+          "published": "2026-08-11T10:45:00+00:00",
+          "summary": "Supply chain attack and data breach at Ceva Logistics appears to have a large blast radius",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "manufacturing_industrial",
+              "retail_ecommerce"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "4535ef9ae8",
       "priority_score": 11,
       "member_count": 1,
@@ -5126,108 +5198,6 @@
             "role_map": {
               "Microsoft Defender": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b6abff1635",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial",
-          "retail_ecommerce"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Logistics Giant Ceva Suffers Data Breach Impacting European Clients",
-        "link": "https://www.infosecurity-magazine.com/news/logistics-ceva-data-breach/",
-        "published": "2026-08-11T10:45:00+00:00",
-        "summary": "Supply chain attack and data breach at Ceva Logistics appears to have a large blast radius",
-        "full_body": "Infosecurity Magazine Home » News » Logistics Giant Ceva Suffers Data Breach Impacting European Clients Logistics Giant Ceva Suffers Data Breach Impacting European Clients News 11 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster A data breach at one of the world’s biggest logistics companies appears to have had a significant impact on its wider supply chain ecosystem of customers. Ceva Logistics is a subsidiary of the French CMA CGM Group, which is the world’s third-largest shipper. A brief statement from the firm seen by Infosecurity claimed its European contract logistics operations were impacted by the breach. This part of the business provides customers with warehousing and fulfilment, manufacturing support and aftermarket services. The statement said Ceva notified impacted customers on August 1, with eight warehouses affected. “No other Ceva systems globally were affected, and all other operations continue without incident,” it added Read more on logistics breaches: UK Logistics Firm Forced to Close After Ransomware Breach An email sent by Ceva client, video game developer Valve , to its customers and republished online claimed the cyber-attack lasted from July 29 to August 1. “Ceva receives specific delivery-related information from Steam to be able to ship physical hardware to customers in Europe, and told us these are the details the attacker likely took,” it explained. “Because Ceva retains this information for up to 90 days after that order, we are sending this message to all customers we can assume were impacted.” In this case, hackers may have obtained names, email and home addresses, phone numbers and order details. Aside from the gaming specialist, other Ceva clients impacted by the incident include Dutch online retail firm Bol, which said restoration of operations at Ceva’s Veerweg location is taking longer than anticipated, and may impact service levels. Dutch department store chain De Bijenkorf was also impacted, as was football club Ajax and banking giant ING. Logistics Under Fire The logistics sector is an obvious choice for cybercriminals, argued Joseph Perry, cybersecurity researcher and advanced services lead at Arcova. “They sit at the center of thousands of transactions between businesses and their customers. That makes them an appealing target because a compromise can create operational problems while also giving attackers access to information about the people and products moving through the system,” he argued. “Shipping information is also highly contextual. A name, address, phone number, email address, and recent purchase can give attackers enough context to make phishing and impersonation attempts far more convincing.” These companies should be treated as “part of the security and operational environment” of all those that depend on them, said Perry. “You do not have to be the final target to become the point of failure,” he added. KnowBe4 CISO advisory, Anna Collard, described the incident as a “textbook supply chain breach.” “I’d expect a wave of ‘delivery problem’ lures over the coming weeks, messages about a redelivery fee or a request to ‘verify’ an order,” she added. “So treat any unexpected message about this order as fake, don’t click links or pay fees, and go directly to the retailer’s official site by typing the address yourself.” In 2020, CMA CGM suffered a ransomware attack on its servers, leading to the temporary closure of its shipping website and applications. You may also like Hellmann Warns Customers They Could Face Malicious Communications Following Attack News 24 December 2021 Widespread Net RFQ Scam Targets High-Value Goods News 22 July 2025 Researchers Warn of Global Surge in Fake Shipment Tracking Scams News 16 March 2026 \"Workarounds\" Helped Royal Mail Resume Shipping After Ransomware Attack News 20 January 2023 Interview: Mitigating Cyber-Threats in the Maritime Industry Interview 23 May 2022 What’s Hot on",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "manufacturing_industrial",
-            "retail_ecommerce"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Logistics Giant Ceva Suffers Data Breach Impacting European Clients",
-          "link": "https://www.infosecurity-magazine.com/news/logistics-ceva-data-breach/",
-          "published": "2026-08-11T10:45:00+00:00",
-          "summary": "Supply chain attack and data breach at Ceva Logistics appears to have a large blast radius",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "manufacturing_industrial",
-              "retail_ecommerce"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5753,6 +5723,140 @@
       ]
     },
     {
+      "cluster_id": "1c833c15fa",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco",
+          "Fortinet",
+          "Palo Alto Networks"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2008-4128",
+          "CVE-2017-17215",
+          "CVE-2018-0802",
+          "CVE-2021-4034",
+          "CVE-2025-3248"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "July 2026 CVE Landscape",
+        "link": "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
+        "published": "2026-08-07T00:00:00+00:00",
+        "summary": "In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.",
+        "full_body": "July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Fortinet",
+            "Palo Alto Networks",
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-3248",
+            "CVE-2008-4128",
+            "CVE-2017-17215",
+            "CVE-2018-0802",
+            "CVE-2021-4034"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Fortinet": "target",
+            "Palo Alto Networks": "target",
+            "Cisco": "target",
+            "SonicWall": "target",
+            "WordPress": "target",
+            "Microsoft SharePoint": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "July 2026 CVE Landscape",
+          "link": "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
+          "published": "2026-08-07T00:00:00+00:00",
+          "summary": "In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Fortinet",
+              "Palo Alto Networks",
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-3248",
+              "CVE-2008-4128",
+              "CVE-2017-17215",
+              "CVE-2018-0802",
+              "CVE-2021-4034"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Fortinet": "target",
+              "Palo Alto Networks": "target",
+              "Cisco": "target",
+              "SonicWall": "target",
+              "WordPress": "target",
+              "Microsoft SharePoint": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "a36b6d83b6",
       "priority_score": 10,
       "member_count": 1,
@@ -6204,140 +6308,6 @@
                   0.25
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1c833c15fa",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco",
-          "Fortinet",
-          "Palo Alto Networks"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2008-4128",
-          "CVE-2017-17215",
-          "CVE-2018-0802",
-          "CVE-2021-4034",
-          "CVE-2025-3248"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "July 2026 CVE Landscape",
-        "link": "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
-        "published": "2026-08-07T00:00:00+00:00",
-        "summary": "In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.",
-        "full_body": "July 2026 CVE Landscape In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation , 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month. 26 of these vulnerabilities were surfaced through the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 55 were reported by vendors, and four were primarily surfaced through honeypot data. The 85 vulnerabilities in this report affected products from 61 vendors, with Microsoft accounting for approximately 12% of the vulnerabilities. The remaining exposure was concentrated across a range of enterprise software, security products, network infrastructure, developer tooling, and cloud platform vendors. Insikt Group previously created a Nuclei template to detect the Langflow vulnerability (CVE-2025-3248) featured in this report. These are available to Recorded Future customers via the Recorded Future Intelligence Platform. Quick reference: July 2026 Vulnerability Table All 81 vulnerabilities below were actively exploited or operationally weaponized in July 2026. This table does not include the four CVEs that were primarily surfaced through our honeypot data, which are available to Recorded Future Intelligence Platform customers via the CVE Monthly report. The table below also provides examples of public PoCs identified by Insikt Group. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Analysis RCE PoC 1 CVE-2008-4128 99 Cisco IOS ✓ ✓ ✓ Link 2 CVE-2017-17215 99 Huawei HG532 ✓ ✓ ✓ Link 3 CVE-2018-0802 99 Microsoft Office Equation Editor ✓ ✓ ✓ Link 4 CVE-2021-4034 99 Polkit ✓ ✓ Link 5 CVE-2021-27137 99 DD-WRT ✓ ✓ ✓ Link 6 CVE-2023-4346 99 KNX Association KNX Protocol Connection Authorization Option 1 ✓ 7 CVE-2025-55182 99 Meta React Server Components ✓ ✓ ✓ Link 8 CVE-2025-68686 99 Fortinet FortiOS ✓ 9 CVE-2026-0770 99 Langflow ✓ ✓ ✓ Link 10 CVE-2026-15409 99 SonicWall SMA1000 Appliances ✓ ✓ Link 11 CVE-2026-15410 99 SonicWall SMA1000 Appliances ✓ ✓ ✓ Link 12 CVE-2026-16232 99 Check Point SmartConsole ✓ ✓ Link 13 CVE-2026-16812 99 Arista VeloCloud Orchestrator ✓ 14 CVE-2026-20316 99 Cisco Secure Firewall Management Center (FMC) ✓ 15 CVE-2026-25089 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 16 CVE-2026-34486 99 Apache Tomcat ✓ 17 CVE-2026-39808 99 Fortinet FortiSandbox ✓ ✓ ✓ Link 18 CVE-2026-39987 99 Marimo ✓ ✓ ✓ Link 19 CVE-2026-46817 99 Oracle E-Business Suite ✓ ✓ Link 20 CVE-2026-48282 99 Adobe ColdFusion ✓ ✓ ✓ Link 21 CVE-2026-48907 99 JoomlaContentEditor.net Joomla Content Editor (JCE) ✓ ✓ ✓ Link 22 CVE-2026-48908 99 JoomShaper SP Page Builder ✓ ✓ ✓ Link 23 CVE-2026-48939 99 iCagenda ✓ ✓ ✓ Link 24 CVE-2026-50522 99 Microsoft SharePoint ✓ ✓ ✓ Link 25 CVE-2026-55255 99 Langflow ✓ ✓ Link 26 CVE-2026-56155 99 Microsoft Active Directory Federation Services ✓ 27 CVE-2026-56164 99 Microsoft SharePoint Server ✓ ✓ Link 28 CVE-2026-56290 99 Joomlack Page Builder ✓ ✓ ✓ Link 29 CVE-2026-56291 99 Balbooa Forms ✓ ✓ ✓ Link 30 CVE-2026-58644 99 Microsoft SharePoint ✓ ✓ 31 CVE-2026-60137 99 WordPress Core ✓ ✓ Link 32 CVE-2026-63030 99 WordPress Core ✓ ✓ ✓ Link 33 CVE-2021-3156 89 Sudo ✓ ✓ Link 34 CVE-2021-29441 89 Alibaba Nacos ✓ ✓ Link 35 CVE-2025-6389 89 Sneeit Framework ✓ ✓ ✓ Link 36 CVE-2025-9491 89 Microsoft Windows ✓ ✓ ✓ Link 37 CVE-2025-32432 89 Craft CMS ✓ ✓ ✓ Link 38 CVE-2025-3248 89 Langflow ✓ ✓ ✓ Link 39 CVE-2025-34152 89 Shenzhen Aitemi M300 Wi-Fi Repeater ✓ ✓ ✓ Link 40 CVE-2025-49113 89 Roundcube Webmail ✓ ✓ ✓ Link 41 CVE-2025-66376 89 Zimbra Collaboration ✓ 42 CVE-2026-0257 89 Palo Alto Networks PAN-OS and Prisma Access ✓ ✓ Link 43 CVE-2026-0740 89 SaturdayDrive Ninja Forms - File Uploads ✓ ✓ ✓ Link 44 CVE-2026-3055 89 NetScaler ADC and Gateway ✓ ✓ Link 45 CVE-2026-6875 89 ServiceNow AI Platfor",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Fortinet",
-            "Palo Alto Networks",
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-3248",
-            "CVE-2008-4128",
-            "CVE-2017-17215",
-            "CVE-2018-0802",
-            "CVE-2021-4034"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Fortinet": "target",
-            "Palo Alto Networks": "target",
-            "Cisco": "target",
-            "SonicWall": "target",
-            "WordPress": "target",
-            "Microsoft SharePoint": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "July 2026 CVE Landscape",
-          "link": "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
-          "published": "2026-08-07T00:00:00+00:00",
-          "summary": "In July 2026, Insikt Group® identified 85 high-impact vulnerabilities that should be prioritized for remediation, 36 of which had a Very Critical Recorded Future Risk Score. This represents a 44% increase from last month.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Fortinet",
-              "Palo Alto Networks",
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-3248",
-              "CVE-2008-4128",
-              "CVE-2017-17215",
-              "CVE-2018-0802",
-              "CVE-2021-4034"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Fortinet": "target",
-              "Palo Alto Networks": "target",
-              "Cisco": "target",
-              "SonicWall": "target",
-              "WordPress": "target",
-              "Microsoft SharePoint": "target"
-            },
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -7567,107 +7537,6 @@
       ]
     },
     {
-      "cluster_id": "60293792bd",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Azure"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "TrustedSec",
-        "cohort": "detection_response_operations",
-        "title": "The Art of Hunting Azure Cloud Secrets",
-        "link": "https://trustedsec.com/blog/the-art-of-hunting-azure-cloud-secrets",
-        "published": "2026-08-06T04:00:00+00:00",
-        "summary": "<p>The difference between a standard cloud test and a subscription takeover? Finding the right secrets. In this blog, we introduce two open-source tools for hunting Azure secrets that probably shouldn't be there.</p>",
-        "full_body": "Blog The Art of Hunting Azure Cloud Secrets August 06, 2026 The Art of Hunting Azure Cloud Secrets Written by Edwin David Cloud Penetration Testing Demo Finding secrets in the cloud is what can turn a normal cloud test into a privilege escalation game changer. The approach to finding secrets is what may separate your next cloud penetration test from a finding expedition into a subscription or global administrative takeover. In this blog, I am going to introduce two tools that I am making public. The purpose of each tool is to minimize your time looking for secrets in Azure that probably should not be there. Microburst, a public tool made by NetSPI, allows you to enumerate Azure Assets using an authenticated account in Azure. To get the maximum benefit out of tools such as Microburst, subscription reader access is normally recommended prior to running. Microburst can be found at the following GitHub URL: https://github.com/Netspi/Microburst Once collection is finished, penetration testers will typically pivot to the data and pull secrets that may be stored in logic applications, VM extensions, automation accounts, and Azure resource deployment logs. The downside is that these actions require time and, in larger environments, you could inadvertently miss some secrets that could gain you privilege escalation in the cloud. I had AI assist me into building a fully functional toolset that would search for secrets collected by Microburst. You don’t need something powerful like Claude Mythos to come up with these actions. You just need to plan how you want to build it, ask the right questions, do code review, and ensure you are not introducing a tool that may produce several false positives. Microburst Secrets Hunter is meant to be a companion post exploitation tool to Microburst collection. It is done entirely offline using the data that was collected during Microburst enumeration. I have also included actional reporting with redactions that you can easily import into reporting tools with very little effort. Microburst Secrets Hunter can be downloaded at the following GitHub URL: https://github.com/rootsecdev/MicroburstSecretsHunter This blog would not be complete without a demonstration. To protect any guilty cloud environments, I have made a sample pack of tests that are comparable to output produced by Microburst. This will give basic command use syntax and how the sample output looks. I have added two separate options for usage depending on the environment you are operating in and how paranoid you are when importing modules versus running PowerShell directly. Sample usage: # Clone / copy this folder, then from a PowerShell prompt: .\\Scan-MicroBurst.ps1 -Path .\\MicroBurst-2026 -Verbose #Import Module and use cmdlet directly Import-Module .\\MicroBurstSecretsHunter.psd1 -Force Invoke-MBSecretScan -Path .\\MicroBurst-2026 By default, all scans are redacted for reporting purposes. There is a switch you can use that will export full unredacted secrets data if you choose to do so. Sample Syntax to export redacted secrets: .\\Scan-MicroBurst.ps1 -Path .\\MicroBurst-2026 -ShowSecrets When running a scan, there will be an overview of findings by category. Figure 1 - Sample Scan Two output formats are on by default. A CSV file will automatically generate. The CSV will help alleviate reporting when it comes to documenting where secrets are living and what they are providing access to. An .html file will also be in the output directory. Figure 2 - Output Directory The .html file is beneficial to use as a dashboard as you validate your secrets found in plaintext. You can filter by rule and severity. Severity should not be taken as gospel. I simply use it to prioritize secrets hunting based upon strategic value. Figure 3 - HTML Report To expand upon initial secrets hunting discovery, this blog will go into more depth around client secrets and how to determine if third-party applications living in Azure have some expanded cloud access. You've found",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Azure"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Azure": "target",
-            "Anthropic/Claude": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Anthropic/Claude",
-                "mention",
-                0.26
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "TrustedSec",
-          "cohort": "detection_response_operations",
-          "title": "The Art of Hunting Azure Cloud Secrets",
-          "link": "https://trustedsec.com/blog/the-art-of-hunting-azure-cloud-secrets",
-          "published": "2026-08-06T04:00:00+00:00",
-          "summary": "<p>The difference between a standard cloud test and a subscription takeover? Finding the right secrets. In this blog, we introduce two open-source tools for hunting Azure secrets that probably shouldn't be there.</p>",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Azure": "target",
-              "Anthropic/Claude": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Anthropic/Claude",
-                  "mention",
-                  0.26
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "dff444ac7f",
       "priority_score": 8,
       "member_count": 1,
@@ -8065,10 +7934,16 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -8087,6 +7962,97 @@
         "link": "https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/",
         "published": "2026-08-11T15:36:02+00:00",
         "summary": "NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .",
+        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close The National Institute for Standards and Technology is looking for input on how to overhaul its vulnerability reporting process to better meet the challenges of an “evolving cybersecurity landscape increasingly shaped by artificial intelligence and machine-consumable security data.” In a request for information set to publish Wednesday in the Federal Register, NIST said its National Vulnerability Database , one of the primary ways the federal government coordinates with security researchers to identify and fix software vulnerabilities, must be updated for the AI age. NIST is concerned that as large language models become more capable of finding and exploiting vulnerabilities at scale, the NVD’s process must be updated. “The inadequacies of traditional vulnerability management approaches, which center on periodic scanning, static prioritization, and manual remediation, are increasingly apparent,” the RFI states. NIST believes AI hacking tools are contributing to recent trends in vulnerability reporting. The NVD has seen increased volume and complexity of disclosed vulnerabilities, inconsistent data quality, increased reliance on automation and machine-readable security data, and “demand for near real-time vulnerability enrichment” from defenders facing faster threats.But NIST believes these challenges also present an “opportunity to transform the vulnerability management ecosystem” through proactive reforms and NVD innovation. Advertisement That’s where the public comes in. NIST is posing a series of questions that must be answered before a larger strategy can be developed. Many of their questions focus on better integrating automation – AI or otherwise – into the process. The agency asked for insight on how defenders could better leverage automation in the vulnerability reporting process; which capabilities, products and processes would help more quickly disseminate information to stakeholders, how to build transparency and auditability into AI-driven decisionmaking, and what role AI should play in automated vulnerability remediation. “NIST intends to support a future-ready vulnerability management ecosystem that is continuous, contextual, and automated, while enabling cybersecurity practices to respond appropriately to real-world threats and business priorities,” the RFI states. The NIST effort to revamp its vulnerability database comes a month after the Trump administration rolled out a new federal clearinghouse , overseen by the Department of Treasury, for sharing AI threat information between government and the private sector called “Gold Eagle.” It’s not clear how Treasury’s process will interact with NIST’s database. The White House also partnered with Carnegie Mellon’s Software Engineering Institute to create the Vulnerability Information and Coordination Environment , (VINCE) which will collect and distribute reports on AI-discovered vulnerabilities. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops In a pair of blogs posted Monday, OpenAI said it was updating its Daybreak program – which provides unreleased frontier models to private organizations and governments for defensive cybersecurity work – and introducing a new model variant. (Photo by Samuel Boivin/NurPhoto via Getty Images) (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race A builder’s view of the AI arms race Government NATO and an AI startup can now name and track software vulnerabilities U.S., South Korean government agencies caution to be on lookout for Gunra ransomware gang Capitol Hill wants to know if executive branch, foreign allies coordinated enough to combat scams The water sector just got it's wake-up call. Again. Technology More than half of AI-ge",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "CyberScoop",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "NIST wants to overhaul its vulnerability database for the AI age",
+          "link": "https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/",
+          "published": "2026-08-11T15:36:02+00:00",
+          "summary": "NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3b8dca7ee7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+        "published": "2026-08-10T15:30:00+00:00",
+        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -8108,12 +8074,12 @@
       },
       "corroborating_sources": [
         {
-          "source": "CyberScoop",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "NIST wants to overhaul its vulnerability database for the AI age",
-          "link": "https://cyberscoop.com/nist-national-vulnerability-database-ai-overhaul/",
-          "published": "2026-08-11T15:36:02+00:00",
-          "summary": "NIST is seeking public input to modernize the National Vulnerability Database to keep pace with AI-driven cyber threats and machine-scale security data. The post NIST wants to overhaul its vulnerability database for the AI age appeared first on CyberScoop .",
+          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+          "published": "2026-08-10T15:30:00+00:00",
+          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -8134,14 +8100,15 @@
       ]
     },
     {
-      "cluster_id": "f92fe3a8b7",
+      "cluster_id": "38f40f9f14",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "zero_day"
+          "phishing_social_eng",
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
         "affected_industries": [],
@@ -8149,28 +8116,27 @@
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "incident_report"
         ],
         "confidence_tier": [
           "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Dark Reading",
+        "source": "Infosecurity Magazine",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
-        "published": "2026-08-10T21:02:23+00:00",
-        "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+        "title": "Google Links Redact Extortion Group to BlackFile Rebrand",
+        "link": "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
+        "published": "2026-08-07T09:40:00+00:00",
+        "summary": "BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
-            "zero_day"
+            "ransomware_extortion",
+            "phishing_social_eng"
           ],
           "actor_attribution": [],
           "affected_industries": [],
@@ -8178,10 +8144,8 @@
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
+          "urgency_signals": [],
+          "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
           "role_map": {},
           "weak_tags": {
@@ -8191,15 +8155,16 @@
       },
       "corroborating_sources": [
         {
-          "source": "Dark Reading",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
-          "published": "2026-08-10T21:02:23+00:00",
-          "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+          "title": "Google Links Redact Extortion Group to BlackFile Rebrand",
+          "link": "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
+          "published": "2026-08-07T09:40:00+00:00",
+          "summary": "BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns",
           "taxonomy": {
             "threat_categories": [
-              "zero_day"
+              "ransomware_extortion",
+              "phishing_social_eng"
             ],
             "actor_attribution": [],
             "affected_industries": [],
@@ -8207,12 +8172,103 @@
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
+            "urgency_signals": [],
+            "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f3f661095c",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Snowflake"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Snowflake"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign",
+        "link": "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
+        "published": "2026-08-06T10:15:00+00:00",
+        "summary": "A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Snowflake"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Snowflake": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign",
+          "link": "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
+          "published": "2026-08-06T10:15:00+00:00",
+          "summary": "A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Snowflake"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Snowflake": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -8563,258 +8619,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "3b8dca7ee7",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-        "published": "2026-08-10T15:30:00+00:00",
-        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-          "published": "2026-08-10T15:30:00+00:00",
-          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "38f40f9f14",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Google Links Redact Extortion Group to BlackFile Rebrand",
-        "link": "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
-        "published": "2026-08-07T09:40:00+00:00",
-        "summary": "BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Google Links Redact Extortion Group to BlackFile Rebrand",
-          "link": "https://www.infosecurity-magazine.com/news/redact-extortion-group-blackfile/",
-          "published": "2026-08-07T09:40:00+00:00",
-          "summary": "BlackFile has rebranded as Redact after an alleged affiliate hijack, with Google linking the group to ongoing vishing and extortion campaigns",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f3f661095c",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Snowflake"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Snowflake"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign",
-        "link": "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
-        "published": "2026-08-06T10:15:00+00:00",
-        "summary": "A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Snowflake"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Snowflake": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign",
-          "link": "https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/",
-          "published": "2026-08-06T10:15:00+00:00",
-          "summary": "A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Snowflake"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Snowflake": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8920,8 +8724,8 @@
         "https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/",
         "https://www.reddit.com/r/cybersecurity/comments/1vlpe1b/zoomsday_zeroclick_rce_in_zoom_from_any_meeting/",
         "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
-        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://www.infosecurity-magazine.com/news/gobased-macos-malware-crypto-and/",
+        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
         "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
         "https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection"
@@ -9005,8 +8809,8 @@
       "links": [
         "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
         "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
         "https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/",
+        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
         "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
         "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/",
         "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
@@ -9042,14 +8846,14 @@
       "cluster_ids": [
         "496f8b853a",
         "9202676389",
-        "b4927a86ad",
-        "1c833c15fa"
+        "1c833c15fa",
+        "b4927a86ad"
       ],
       "links": [
         "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
         "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-and-ftd-vpn-flaw-exploited-to-crash-devices/",
-        "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
-        "https://www.recordedfuture.com/blog/july-2026-cve-landscape"
+        "https://www.recordedfuture.com/blog/july-2026-cve-landscape",
+        "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/"
       ]
     },
     {
@@ -9095,8 +8899,8 @@
       ],
       "links": [
         "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
-        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://www.infosecurity-magazine.com/news/gobased-macos-malware-crypto-and/",
+        "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
         "https://www.helpnetsecurity.com/2026/08/12/august-2026-patch-tuesday-cve-2026-68820/",
         "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
         "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
@@ -9144,8 +8948,8 @@
         "https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/",
         "https://risky.biz/RBNEWS598/",
         "https://www.sophos.com/en-us/blog/clickfix-campaign-abuses-deno-runtime-for-infostealer-delivery",
-        "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
         "https://www.infosecurity-magazine.com/news/bdthemes-wordpress-poisoned-api/",
+        "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
         "https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/"
       ]
     },
@@ -9209,8 +9013,8 @@
       "links": [
         "https://unit42.paloaltonetworks.com/chaindrop-npm-worm-analysis/",
         "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
         "https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/",
+        "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
         "https://unit42.paloaltonetworks.com/ai-token-jacking/"
       ]
     },
