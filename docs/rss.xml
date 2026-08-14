@@ -4,11 +4,38 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 72 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 14 Aug 2026 17:56:51 +0000</lastBuildDate>
+<lastBuildDate>Fri, 14 Aug 2026 19:02:33 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>SOC Automation: AI-Driven Tools and Best Practices</title>
+<link>https://orca.security/resources/blog/soc-automation/</link>
+<description><![CDATA[Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]]]></description>
+<pubDate>Fri, 14 Aug 2026 18:11:14 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/soc-automation/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Hackers arrested over €30M bank fraud exploiting service provider flaw</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/</link>
+<description><![CDATA[Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Commerzbank customers&apos; bank accounts. [...]]]></description>
+<pubDate>Fri, 14 Aug 2026 18:04:26 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Amid AI-Driven Bug Tsunami, NIST Looks to…AI</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai</link>
+<description><![CDATA[Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.]]></description>
+<pubDate>Fri, 14 Aug 2026 17:32:46 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Our AI pentesting engine talked a production AI agent&apos;s prompt-injection guardrail into handing over its entire system prompt on its second attempt.</title>
 <link>https://www.reddit.com/r/netsec/comments/1vocxlt/our_ai_pentesting_engine_talked_a_production_ai/</link>
@@ -669,15 +696,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Using Gemma4 with Ollama - Testing File Hash Analysis and Recommendations with AI, (Wed, Aug 12th)</title>
-<link>https://isc.sans.edu/diary/rss/33242</link>
-<description><![CDATA[In the past few weeks, I have been using Gemma4 as a Large Language Model (LLM) to see how useful it can be to analyze some of the malware hashes uploaded to the DShield sensor over the past 30 days and figure out how its recommendation can be considered useful about the activity my DShield sensor is collecting and tracking. The model I use for this testing is gemma4:e4b [ 2 ] using two sites to compare the data against VirusTotal and CyberGordon .]]></description>
-<pubDate>Thu, 13 Aug 2026 01:26:53 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33242</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Malware Crypting Services and the Threat Actors Who Sell Them</title>
 <link>https://www.recordedfuture.com/research/malware-crypting-services-threat-actors</link>
 <description><![CDATA[Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -884,14 +902,11 @@
 <item>
 <title>Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws</title>
 <link>https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</link>
-<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: Anthropic/Claude · cPanel · Azure · CVE-2026-48362 · CVE-2026-48273 · CVE-2026-71384 · CVE-2026-71362 · CVE-2026-71398</em>]]></description>
+<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: CVE-2026-48362</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 11:13:03 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
-<category>cPanel</category>
-<category>Azure</category>
 <category>CVE-2026-48362</category>
 </item>
 <item>
@@ -1125,16 +1140,6 @@
 <category>APT44</category>
 <category>phishing_social_eng</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)</title>
-<link>https://isc.sans.edu/diary/rss/33236</link>
-<description><![CDATA[This month we got patches for 418 vulnerabilities. Of these, 62 are critical, 1 is being exploited in the wild, and 2 were publicly disclosed as zero-days. Notable fixes include Windows privilege escalation, container tampering, and critical QUIC and DNS Server remote code execution bugs.<br/><br/><em>Tags: active_exploitation</em>]]></description>
-<pubDate>Tue, 11 Aug 2026 17:54:49 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33236</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>Shattering the Dream – When a Job Offer Becomes a Zero-Day Attack</title>
@@ -1422,11 +1427,12 @@
 <item>
 <title>deno-case-studies</title>
 <link>https://www.sophos.com/en-us/blog/deno-case-studies</link>
-<description><![CDATA[Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Research]]></description>
+<description><![CDATA[Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Research<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
 <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/deno-case-studies</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>ClickFix campaign abuses Deno runtime for infostealer delivery</title>
@@ -1947,6 +1953,15 @@
 <category>Apple iOS/macOS</category>
 </item>
 <item>
+<title>tl;dv (Too Lazy; Didn&apos;t Validate): 181,874 Meetings Left Wide Open</title>
+<link>https://www.reddit.com/r/netsec/comments/1vi8ibp/tldv_too_lazy_didnt_validate_181874_meetings_left/</link>
+<description><![CDATA[The meetings collection has no tenant isolation. Any authenticated tl;dv user can query every meeting across every account on the platform. Each meeting record hands you the creator&apos;s email address, the conference ID (which is a joinable Google Meet or Teams room), the provider, the recording status, and timestamps. I queried the Firestore meetings collection and saw there were 181,874 meeting records belonging to 84,312 unique users across 35,003 email domains . submitted by /u/kochurshak [link] [comments]]]></description>
+<pubDate>Fri, 07 Aug 2026 18:23:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vi8ibp/tldv_too_lazy_didnt_validate_181874_meetings_left/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data</title>
 <link>https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html</link>
 <description><![CDATA[A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. &quot;UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via<br/><br/><em>Tags: UNC6671 · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -2100,24 +2115,6 @@
 <category>CVE-2026-64638</category>
 </item>
 <item>
-<title>What is AI AppGen Security?</title>
-<link>https://orca.security/resources/blog/what-is-ai-appgen-security/</link>
-<description><![CDATA[Key Takeaways AI AppGen security is the practice of finding and governing applications that an AI app builder generated and deployed outside your development pipeline. The unit of risk is the running application: a live URL, a database behind it, an identity that reaches real records, and a builder who never filed a ticket. Discovery […]]]></description>
-<pubDate>Fri, 07 Aug 2026 12:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/what-is-ai-appgen-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Vulnerability Management Lifecycle: Core Phases</title>
-<link>https://orca.security/resources/blog/vulnerability-management-lifecycle/</link>
-<description><![CDATA[Key Takeaways The vulnerability management lifecycle runs through six connected phases: asset discovery, vulnerability assessment, risk-based prioritization, remediation, verification and rescanning, then reporting and continuous improvement. The sixth phase feeds the first, which is what makes it a loop instead of a checklist. What separates a loop from a list is the handoff. Every phase […]]]></description>
-<pubDate>Fri, 07 Aug 2026 12:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/vulnerability-management-lifecycle/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Growing Up The Hard Way</title>
 <link>https://thehackernews.com/2026/08/growing-up-hard-way.html</link>
 <description><![CDATA[Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral. Then,]]></description>
@@ -2225,15 +2222,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Linux Shell Forensic: Let?s Dive Into Atuin!, (Fri, Aug 7th)</title>
-<link>https://isc.sans.edu/diary/rss/33226</link>
-<description><![CDATA[UNIX systems (including Linux) are well-known to record a lot of activities in many different locations. But there is one domain where they definitely lack of &quot;modern&quot; logging: shells. Most shells provide an historization of the typed commands through a flat file in the $HOME directory (ex: $HOME/.bash_history). They suffer of multiple problems:]]></description>
-<pubDate>Fri, 07 Aug 2026 07:22:28 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33226</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
 </item>
 <item>
 <title>Risky Bulletin: A Meta AI model also escaped a testing sandbox</title>
@@ -4280,15 +4268,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Cybersecurity, Then &amp; Now: A Visual Look at 20 Years of Change</title>
-<link>https://www.darkreading.com/cyber-risk/cybersecurity-then-now</link>
-<description><![CDATA[Since 2006, Dark Reading has been at the forefront of covering cybersecurity. The more things change, the more they stay the same.]]></description>
-<pubDate>Wed, 29 Jul 2026 23:26:46 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/cybersecurity-then-now</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Smashing Security podcast #478: This job interview could destroy your company</title>
 <link>https://grahamcluley.com/smashing-security-podcast-478/</link>
 <description><![CDATA[You&apos;ve been headhunted for a great job in cryptocurrency. All you have to do is complete a short online assessment - with your webcam on, of course, so they can verify who you really are. Which is ironic, because the person recruiting you doesn&apos;t exist. And North Korean hackers using this trick have already made off with $643 million in crypto this year alone. Meanwhile, researchers at UC San Diego have discovered that 2.2 million cars across the United States can be unlocked or immobilised by anyone with a bit of Bluetooth kit - thanks to one aftermarket car alarm that made a truly spectacular cryptographic blunder. The bug has been sitting there since 2017. Nobody noticed. All this and more in episode 478 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.]]></description>
@@ -4671,6 +4650,16 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -4680,16 +4669,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -18665,7 +18644,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18675,7 +18654,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18684,7 +18663,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18693,7 +18672,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18702,7 +18681,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18711,7 +18690,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18720,7 +18699,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18729,7 +18708,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18738,7 +18717,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18747,7 +18726,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 17:56:51 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
