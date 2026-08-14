@@ -4,19 +4,19 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 72 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 73 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 14 Aug 2026 19:02:33 +0000</lastBuildDate>
+<lastBuildDate>Fri, 14 Aug 2026 19:51:34 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
-<title>SOC Automation: AI-Driven Tools and Best Practices</title>
-<link>https://orca.security/resources/blog/soc-automation/</link>
-<description><![CDATA[Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]]]></description>
-<pubDate>Fri, 14 Aug 2026 18:11:14 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/soc-automation/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
+<title>I went looking for a managed-Postgres provider. Instead, I found a vulnerability in a 4-star PostgreSQL extension available everywhere! and turned it into code execution at NeonDB, Supabase, Xata and many other PostgreSQL service companies</title>
+<link>https://www.reddit.com/r/netsec/comments/1vohdfo/i_went_looking_for_a_managedpostgres_provider/</link>
+<description><![CDATA[submitted by /u/wtfse [link] [comments]]]></description>
+<pubDate>Fri, 14 Aug 2026 19:43:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vohdfo/i_went_looking_for_a_managedpostgres_provider/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Hackers arrested over €30M bank fraud exploiting service provider flaw</title>
@@ -28,7 +28,7 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Amid AI-Driven Bug Tsunami, NIST Looks to…AI</title>
+<title>Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai</link>
 <description><![CDATA[Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.]]></description>
 <pubDate>Fri, 14 Aug 2026 17:32:46 +0000</pubDate>
@@ -409,15 +409,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>How to Improve Cloud Security Posture With CSPM: Visualizing the Attack Path</title>
-<link>https://orca.security/resources/blog/how-to-improve-cloud-security-posture-with-cspm/</link>
-<description><![CDATA[One dashboard for misconfigurations. A separate one for identities. Neither tells you what an attacker can actually reach. Most cloud security teams operate with fragmented visibility. Misconfiguration alerts fire from one tool, identity findings from another, and compliance reports from a third. The result is triage by volume, not by actual risk, which means the […]]]></description>
-<pubDate>Thu, 13 Aug 2026 17:24:47 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/how-to-improve-cloud-security-posture-with-cspm/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>AI’s ‘middle class’ has gotten dramatically better at hacking</title>
 <link>https://cyberscoop.com/mid-tier-ai-models-hacking-threat/</link>
 <description><![CDATA[As frontier models and their sandbox escaping exploits dominate front-page news, researchers are increasingly worried about cheaper, more efficient AI models. The post AI’s ‘middle class’ has gotten dramatically better at hacking appeared first on CyberScoop .]]></description>
@@ -696,6 +687,15 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>Using Gemma4 with Ollama - Testing File Hash Analysis and Recommendations with AI, (Wed, Aug 12th)</title>
+<link>https://isc.sans.edu/diary/rss/33242</link>
+<description><![CDATA[In the past few weeks, I have been using Gemma4 as a Large Language Model (LLM) to see how useful it can be to analyze some of the malware hashes uploaded to the DShield sensor over the past 30 days and figure out how its recommendation can be considered useful about the activity my DShield sensor is collecting and tracking. The model I use for this testing is gemma4:e4b [ 2 ] using two sites to compare the data against VirusTotal and CyberGordon .]]></description>
+<pubDate>Thu, 13 Aug 2026 01:26:53 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33242</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
 <title>Malware Crypting Services and the Threat Actors Who Sell Them</title>
 <link>https://www.recordedfuture.com/research/malware-crypting-services-threat-actors</link>
 <description><![CDATA[Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -742,19 +742,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>Salesforce</category>
-</item>
-<item>
-<title>Zoom Zero-Click RCE Flaws Allow Any Meeting Attendee to Compromise All Participants</title>
-<link>https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/</link>
-<description><![CDATA[Executive Summary Multiple critical memory corruption vulnerabilities (CVE-2026-53413, CVSS 8.3/9.0 and CVE-2026-53415, CVSS 8.3/9.0) were disclosed affecting Zoom Workplace clients across all platforms, allowing attackers to achieve zero-click remote code execution against every participant in a meeting via malicious annotation messages. Due to the potential for full device compromise without any user interaction, immediate patching […]<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-53413 · CVE-2026-53415 · CVE-2026-53414 · CVE-2026-53416 · data_breach · ddos · active_exploitation</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 19:36:43 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>Apple iOS/macOS</category>
-<category>CVE-2026-53413</category>
-<category>CVE-2026-53415</category>
-<category>CVE-2026-53414</category>
 </item>
 <item>
 <title>Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor</title>
@@ -891,22 +878,16 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Tools to Scan Workloads and Containers: Detecting Threats Agents Miss</title>
-<link>https://orca.security/resources/blog/tools-to-scan-workloads-and-containers-orca-security/</link>
-<description><![CDATA[Security teams running containerized workloads across EKS, GKE, and AKS clusters face a persistent coverage problem. Agents protect the hosts they’re installed on, but ephemeral containers, auto-scaled nodes, and serverless functions routinely spin up and terminate without ever registering with an agent. That gap leaves real vulnerabilities undetected in production. This article breaks down what […]]]></description>
-<pubDate>Wed, 12 Aug 2026 11:14:29 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/tools-to-scan-workloads-and-containers-orca-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws</title>
 <link>https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</link>
-<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: CVE-2026-48362</em>]]></description>
+<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: Anthropic/Claude · cPanel · Azure · CVE-2026-48362 · CVE-2026-48273 · CVE-2026-71384 · CVE-2026-71362 · CVE-2026-71398</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 11:13:03 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>cPanel</category>
+<category>Azure</category>
 <category>CVE-2026-48362</category>
 </item>
 <item>
@@ -1140,6 +1121,16 @@
 <category>APT44</category>
 <category>phishing_social_eng</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>Microsoft Patch Tuesday August 2026, (Tue, Aug 11th)</title>
+<link>https://isc.sans.edu/diary/rss/33236</link>
+<description><![CDATA[This month we got patches for 418 vulnerabilities. Of these, 62 are critical, 1 is being exploited in the wild, and 2 were publicly disclosed as zero-days. Notable fixes include Windows privilege escalation, container tampering, and critical QUIC and DNS Server remote code execution bugs.<br/><br/><em>Tags: active_exploitation</em>]]></description>
+<pubDate>Tue, 11 Aug 2026 17:54:49 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33236</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>Shattering the Dream – When a Job Offer Becomes a Zero-Day Attack</title>
@@ -1891,15 +1882,6 @@
 <category>CVE-2026-8037</category>
 </item>
 <item>
-<title>SCTPhantom: An 18-Year-Old SCTP ASCONF Transport Use-After-Free · Tencent Zhuque Lab</title>
-<link>https://www.reddit.com/r/netsec/comments/1vijs4n/sctphantom_an_18yearold_sctp_asconf_transport/</link>
-<description><![CDATA[Yes, given that the legacy SCT protocol has known security vulnerabilities such as sctphantom, the industry strongly recommends deprecating it and migrating to more secure modern standards to ensure system security. submitted by /u/thobiso [link] [comments]]]></description>
-<pubDate>Sat, 08 Aug 2026 02:20:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vijs4n/sctphantom_an_18yearold_sctp_asconf_transport/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Living off the coding agent: Two tales of tunnels and LaunchAgents</title>
 <link>https://www.elastic.co/security-labs/coding-agent-launchagent-tunnel-detection</link>
 <description><![CDATA[Agent-parented reverse tunnels and LaunchAgents can expose a local admin app to the internet. Endpoint still needs to treat that as high severity even when the activity looks like vibe-coded ops, not confirmed malware.]]></description>
@@ -1930,6 +1912,24 @@
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>A decade of enterprise identity in the cloud with AWS Managed Microsoft AD</title>
+<link>https://aws.amazon.com/blogs/security/a-decade-of-enterprise-identity-in-the-cloud-with-aws-managed-microsoft-ad/</link>
+<description><![CDATA[Ten years ago, we launched AWS Directory Service for Microsoft Active Directory, a fully managed Microsoft Active Directory in the AWS Cloud. In that original announcement, Jeff Barr described a straightforward promise: “You will spend less time administering and more time working on your applications and your business.” A decade later, AWS Managed Microsoft AD […]]]></description>
+<pubDate>Fri, 07 Aug 2026 19:37:57 +0000</pubDate>
+<guid isPermaLink="true">https://aws.amazon.com/blogs/security/a-decade-of-enterprise-identity-in-the-cloud-with-aws-managed-microsoft-ad/</guid>
+<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)</title>
+<link>https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</link>
+<description><![CDATA[Moonlight &amp; Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago . I decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-agents - to see how it would do. It produced a much better game! Here&apos;s Moonlight &amp; Mayhem - GitHub repository here , including the textures and prompts it generated using gpt-image-2 . Your browser does not support HTML5 video. The original GPT-3 generated game description included: In “Raccoon Heist”, you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. Fable&apos;s version had you as a single raccoon running around a back yard collecting coins and fish. GPT-5.]]></description>
+<pubDate>Fri, 07 Aug 2026 19:18:09 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/7/moonlight-mayhem/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer</title>
@@ -2222,6 +2222,15 @@
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
 <category>Anthropic/Claude</category>
+</item>
+<item>
+<title>Linux Shell Forensic: Let?s Dive Into Atuin!, (Fri, Aug 7th)</title>
+<link>https://isc.sans.edu/diary/rss/33226</link>
+<description><![CDATA[UNIX systems (including Linux) are well-known to record a lot of activities in many different locations. But there is one domain where they definitely lack of &quot;modern&quot; logging: shells. Most shells provide an historization of the typed commands through a flat file in the $HOME directory (ex: $HOME/.bash_history). They suffer of multiple problems:]]></description>
+<pubDate>Fri, 07 Aug 2026 07:22:28 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33226</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
 </item>
 <item>
 <title>Risky Bulletin: A Meta AI model also escaped a testing sandbox</title>
@@ -4222,15 +4231,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>&apos;Flying Eagle&apos; Full-Service Mobile RAT Builder Wings Across China</title>
-<link>https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</link>
-<description><![CDATA[A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims&apos; bank accounts.]]></description>
-<pubDate>Thu, 30 Jul 2026 00:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Iran War’s Secondary Effects Shape 2026 US Violent Extremism</title>
 <link>https://www.recordedfuture.com/research/iran-violent-extremism-landscape</link>
 <description><![CDATA[Explore the 2026 US violent extremism threat landscape. This report analyzes rising risks from HVEs, DVEs, and Iran-nexus actors to public and private sector entities.]]></description>
@@ -4756,9 +4756,9 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Atlasのご紹介：WizのAI脆弱性リサーチャー</title>
+<title>Atlas: Wiz&apos;s autonomous AI Agent for vulnerability research, ranked #1 on CyberGym</title>
 <link>https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</link>
-<description><![CDATA[実証可能なリアルなエクスプロイトを用いてすべての検出結果を検証する、脆弱性調査のための自律型AIシステム「Atlas」をWizがどのように構築したかをご覧ください。]]></description>
+<description><![CDATA[See how Wiz built Atlas, an autonomous AI system for vulnerability research that validates every finding with a real, working exploit.]]></description>
 <pubDate>Mon, 27 Jul 2026 14:00:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -18644,7 +18644,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18654,7 +18654,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18663,7 +18663,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18672,7 +18672,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18681,7 +18681,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18690,7 +18690,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18699,7 +18699,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18708,7 +18708,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18717,7 +18717,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18726,7 +18726,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 14 Aug 2026 19:02:33 +0000</pubDate>
+<pubDate>Fri, 14 Aug 2026 19:51:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
