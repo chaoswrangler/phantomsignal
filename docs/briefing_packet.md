@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-15T08:36:58.260492+00:00
+- Generated: 2026-08-15T09:31:48.494789+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 73
-- Total items in window: 317
-- Total clusters raw: 139
+- Feeds OK: 74
+- Total items in window: 316
+- Total clusters raw: 138
 - Total clusters in packet: 67
-- Dropped low score: 72
+- Dropped low score: 71
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,76 +70,76 @@
 
 ## Feed status
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - In window count: 2
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 10
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
+  - Item count: 20
   - In window count: 3
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 10
+  - In window count: 6
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 15
+  - In window count: 3
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -150,56 +150,61 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 11
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -220,16 +225,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -240,36 +235,36 @@
   - Status: ok
   - Item count: 30
   - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 5
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -280,56 +275,66 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 2
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 5
+  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,11 +345,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 11
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,36 +355,41 @@
   - Status: ok
   - Item count: 50
   - In window count: 21
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
+  - Item count: 20
+  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 19
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,11 +400,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -410,51 +410,51 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 35
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 34
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 28
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 20
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 19
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -553,7 +553,7 @@
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
 - Cluster count: 5
-- Article count: 10
+- Article count: 11
 - Cohesion: 0.223
 - Shared strong signals: Microsoft Defender
 - Member CVEs: (none)
@@ -562,7 +562,7 @@
   - threat_categories: ransomware_extortion, zero_day, data_breach, vulnerability_disclosure
   - affected_products: Microsoft Defender, Microsoft Windows
   - urgency_signals: zero_day, poc_available
-- Cluster IDs: e3235a03c3, 8eec2abce7, 21cbe0b5fa, 963c57eb1b, 8fb5179107
+- Cluster IDs: e3235a03c3, 8eec2abce7, 963c57eb1b, 21cbe0b5fa, 8fb5179107
 - Links:
   - https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
@@ -570,8 +570,8 @@
   - https://risky.biz/RBNEWS600/
   - https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/
   - https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/
-  - https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
   - https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
+  - https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
   - https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
 
 ### web shell backdoor targeting WordPress
@@ -1086,7 +1086,61 @@ Threat Response Table of Contents Overview of the attack Detection by Kaspersky 
   - Link: https://securelist.com/tr/head-mare-targets-trueconf-server-with-phantomcore/120988/
   - Summary: Kaspersky experts have discovered malicious TrueConf software installers. The Head Mare APT group uses them to deliver the PhantomCore and PhantomGraph backdoors to target systems by exploiting vulnerabilities in an unpatched TrueConf server.
 
-### Cluster e15b654037 — score 23
+### Cluster 496f8b853a — score 23
+
+- Title: Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-12T06:15:58+00:00
+- Link: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-20349, Cisco
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos, phishing_social_eng
+- affected_industries: financial_services
+- affected_products: Cisco
+- cve_ids: CVE-2026-20349
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ddos, active_exploitation
+- affected_industries: financial_services
+- affected_products: Cisco
+- cve_ids: CVE-2026-20349
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger
+```
+
+#### Full body
+
+```
+Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS  Ravie Lakshmanan  Aug 12, 2026 Network Security / Vulnerability Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger a denial-of-service (DoS) condition. "An attacker could exploit this vulnerability by sending a crafted HTTP request to the Remote Access SSL VPN service on an affected device," Cisco said in a Tuesday advisory. "A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition." The security defects impact devices running a vulnerable version of Secure Firewall ASA Software or Cisco Secure FTD Software and have one or more of the vulnerable configurations listed below - IKEv2 Remote Access VPN (with client services) - crypto ikev2 enable <interface_name> client-services port <port_numbers> SSL-VPN - webvpn enable <interface_name> Zero Trust Network Access2 - zero-trust enable The following versions of ASA and FTD are affected - ASA 9.161 - Fixed in 89.16.4.50) ASA 9.181 - Fixed in 89.18.4.50) ASA 9.20 - Fixed in 9.20.4.235) ASA 9.22 - Fixed in 9.22.3.191) ASA 9.23 - Fixed in 9.23.1.211) ASA 9.24 - Fixed in 9.24.1.221) FTD 7.0 - Fixed in Cisco_FTD_Hotfix_GC-7.0.9.1-1.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_GC-7.0.9.1-1.sh.REL.tar Cisco_FTD_SSP_FP2K_Hotfix_GC-7.0.9.1-1.sh.REL.tar Cisco_FTD_SSP_Hotfix_GC-7.0.9.1-1.sh.REL.tar FTD 7.2 - Fixed in Cisco_FTD_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP2K_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_HM-7.2.11.1-2.sh.REL.tar FTD 7.4 - Fixed in Cisco_FTD_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_FP2K_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_HK-7.4.7.1-1.sh.REL.tar FTD 7.6 (Fixed in Cisco_FTD_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_DD-7.6.4.1-2.sh.REL.tar FTD 7.7 - Fixed in Cisco_FTD_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_Secure_FW_TD_1200_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_AN-7.7.11.1-2.sh.REL.tar FTD 10.0 - Fixed in Cisco_FTD_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_200_Hotfix_R-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_1200_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_6100_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco said there are no workarounds that address the flaw, adding it became aware of active exploitation earlier this month. The network equipment maker said the issue was found during internal security testing. It also credited Valerio Brussani for separately discovering and reporting the vulnerability. There are currently no details about the nature of the attacks, the identity and origins of the threat actor exploiting the vulnerability, what organizations have been targeted, and if any of those efforts were successful. The development has prompted the U.S. Cybersecurity and Infrastructure Security Agency (CISA) to add the flaw to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring F
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
+  - Published: 2026-08-12T06:15:58+00:00
+  - Link: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
+  - Summary: Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger
+- **Cisco Talos** (threat_research_primary)
+  - Title: Dissecting the JWR phishing framework
+  - Published: 2026-08-13T10:00:35+00:00
+  - Link: https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
+  - Summary: Cisco Talos recently identified an undocumented phishing framework, internally branded "JWR" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.
+
+### Cluster e15b654037 — score 22
 
 - Title: Metasploit Wrap Up: Lot of summer shells and fit http profiles
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -1151,60 +1205,6 @@ Back to Blog Products and Tools Metasploit Wrap Up: Lot of summer shells and fit
   - Published: 2026-08-11T05:48:44+00:00
   - Link: https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html
   - Summary: Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. "Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository," Wordfence researcher Paolo Tresso said.
-
-### Cluster 496f8b853a — score 23
-
-- Title: Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-12T06:15:58+00:00
-- Link: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-20349, Cisco
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, phishing_social_eng
-- affected_industries: financial_services
-- affected_products: Cisco
-- cve_ids: CVE-2026-20349
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos, active_exploitation
-- affected_industries: financial_services
-- affected_products: Cisco
-- cve_ids: CVE-2026-20349
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger
-```
-
-#### Full body
-
-```
-Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS  Ravie Lakshmanan  Aug 12, 2026 Network Security / Vulnerability Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger a denial-of-service (DoS) condition. "An attacker could exploit this vulnerability by sending a crafted HTTP request to the Remote Access SSL VPN service on an affected device," Cisco said in a Tuesday advisory. "A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition." The security defects impact devices running a vulnerable version of Secure Firewall ASA Software or Cisco Secure FTD Software and have one or more of the vulnerable configurations listed below - IKEv2 Remote Access VPN (with client services) - crypto ikev2 enable <interface_name> client-services port <port_numbers> SSL-VPN - webvpn enable <interface_name> Zero Trust Network Access2 - zero-trust enable The following versions of ASA and FTD are affected - ASA 9.161 - Fixed in 89.16.4.50) ASA 9.181 - Fixed in 89.18.4.50) ASA 9.20 - Fixed in 9.20.4.235) ASA 9.22 - Fixed in 9.22.3.191) ASA 9.23 - Fixed in 9.23.1.211) ASA 9.24 - Fixed in 9.24.1.221) FTD 7.0 - Fixed in Cisco_FTD_Hotfix_GC-7.0.9.1-1.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_GC-7.0.9.1-1.sh.REL.tar Cisco_FTD_SSP_FP2K_Hotfix_GC-7.0.9.1-1.sh.REL.tar Cisco_FTD_SSP_Hotfix_GC-7.0.9.1-1.sh.REL.tar FTD 7.2 - Fixed in Cisco_FTD_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP2K_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_HM-7.2.11.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_HM-7.2.11.1-2.sh.REL.tar FTD 7.4 - Fixed in Cisco_FTD_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_FP2K_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_FTD_SSP_Hotfix_HK-7.4.7.1-1.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_HK-7.4.7.1-1.sh.REL.tar FTD 7.6 (Fixed in Cisco_FTD_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_DD-7.6.4.1-2.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_DD-7.6.4.1-2.sh.REL.tar FTD 7.7 - Fixed in Cisco_FTD_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_Secure_FW_TD_1200_Hotfix_AN-7.7.11.1-2.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_AN-7.7.11.1-2.sh.REL.tar FTD 10.0 - Fixed in Cisco_FTD_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_FTD_SSP_FP1K_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_FTD_SSP_FP3K_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_FTD_SSP_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_200_Hotfix_R-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_1200_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_4200_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco_Secure_FW_TD_6100_Hotfix_S-10.0.0.1-2.sh.REL.tar Cisco said there are no workarounds that address the flaw, adding it became aware of active exploitation earlier this month. The network equipment maker said the issue was found during internal security testing. It also credited Valerio Brussani for separately discovering and reporting the vulnerability. There are currently no details about the nature of the attacks, the identity and origins of the threat actor exploiting the vulnerability, what organizations have been targeted, and if any of those efforts were successful. The development has prompted the U.S. Cybersecurity and Infrastructure Security Agency (CISA) to add the flaw to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring F
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS
-  - Published: 2026-08-12T06:15:58+00:00
-  - Link: https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html
-  - Summary: Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger
-- **Cisco Talos** (threat_research_primary)
-  - Title: Dissecting the JWR phishing framework
-  - Published: 2026-08-13T10:00:35+00:00
-  - Link: https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
-  - Summary: Cisco Talos recently identified an undocumented phishing framework, internally branded "JWR" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.
 
 ### Cluster 74d794cf5f — score 21
 
@@ -2040,51 +2040,6 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5
   - Link: https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/
   - Summary: Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]
 
-### Cluster 21cbe0b5fa — score 11
-
-- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-14T09:00:14+00:00
-- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-  - Published: 2026-08-14T09:00:14+00:00
-  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
-
 ### Cluster 75a2a6649a — score 11
 
 - Title: RingCentral data breach exposed info of 1.6 million accounts
@@ -2270,8 +2225,8 @@ Threat Research Center Threat Research Malware Malware The Permanent Threat: Ana
 - Published: 2026-08-10T15:00:00+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
@@ -2300,13 +2255,63 @@ Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financia
 Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windows Threats intelligence Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Microsoft Threat Intelligence tracks DeadLock ransomware as an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications and data leak operations. Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process. This architecture likely increases the resilience of portions of its communication, leak-hosting, and negotiation infrastructure, allowing DeadLock operators to recover from some disruption efforts while maintaining continuity for victims. Microsoft has observed DeadLock ransomware being deployed by multiple groups including an affiliate of the Lynx and INC ransomware ecosystems. First observed in July 2025, DeadLock operators employ double extortion tactics, encrypting victim environments while threatening to publicly release exfiltrated data. As of July 2026, the operators have published more than 80 compromised organizations on their data leak site, called the DeadLock blog, with more than half of the claimed victims in Europe. Microsoft identified DeadLock ransomware impacting organizations across information technology (IT), mining, transportation and logistics, manufacturing, hospitality, consumer goods, and other sectors in Europe, Asia, North America, South America, and Africa. The DeadLock encryptor includes a resource-aware throttling mechanism designed to maintain system responsiveness during encryption. In addition to its encryption capabilities, the ransomware also appears to implement language or country-based geofencing designed to avoid running in environments associated with former Soviet and Commonwealth of Independent States (CIS)-linked countries as well as select Middle Eastern countries, a pattern commonly observed among ransomware operators believed to operate from those regions. Together, these capabilities demonstrate how DeadLock combines established ransomware tradecraft with decentralized infrastructure designed to improve operational resilience. In this blog, we present a technical analysis of the DeadLock ransomware encryptor, covering its execution flow, defense evasion techniques, encryption design, and post-encryption behaviors, including a decentralized recovery chat system. We also provide indicators of compromise (IOCs), Microsoft Defender detections, and mitigation guidance to help organizations defend against this threat and similar ransomware activity. Pre-encryption Configuration parsing Before performing any malicious activity, the DeadLock encryptor decrypts an embedded configuration blob using XOR decoding with an 8-byte key. Below are the malware’s configuration fields and their values. Field Value Victim UID <redacted> Malware public key 03bf50bbf97c4e951e66ff12b689a37a3ce675b4921e254eae76da77573843e4a9 Encryption rule 1000,05052429880,025124288000,010524288000,F991114288000 Language exclude list Geofencing language IDs (see Language geofencing ) Process stop list Processes to terminate (see Process and service termination ) Service stop list Services to stop and delete (see Process and service termination ) File exclude list Extensions and file names to avoid encrypting (see Directory traversal ) Directory exclude list Pre-traversal filter with directories to avoid encrypting (see Directory traversal ) Sub-path Exclude List Sub-paths to avoid encrypting during traversal (see Directory traversal ) Text ransom note Full text ransom note content (see Ransom notes deployment ) HTML recovery chat Full HTML/JS interactive chat page (see Recovery chat: Technical architecture ) Language geofencing As an early exit check, the malware
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
   - Published: 2026-08-10T15:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
   - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure
+  - Published: 2026-08-10T15:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
+  - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
+
+### Cluster 21cbe0b5fa — score 10
+
+- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-14T09:00:14+00:00
+- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+  - Published: 2026-08-14T09:00:14+00:00
+  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
 
 ### Cluster 1e8cbb1e90 — score 10
 
@@ -2350,6 +2355,98 @@ Table of Contents Background Initial infection Still Sync How it works Telegram 
   - Published: 2026-08-13T08:00:15+00:00
   - Link: https://securelist.com/armored-likho-still-toolkit/121033/
   - Summary: Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
+
+### Cluster 452d902ac4 — score 10
+
+- Title: Curiouser and Curiouser
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-13T18:00:18+00:00
+- Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: retail_ecommerce
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: retail_ecommerce
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
+```
+
+#### Full body
+
+```
+Curiouser and Curiouser By William Largent Thursday, August 13, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. “Experiment is the mother of knowledge.” ― Madeleine L'Engle, A Wrinkle in Time “Don't slide down the rabbit hole. The way down is a breeze, but climbing back's a battle.” ― Kate Morton, The Clockmaker's Daughter Hacker Summer Camp has come and gone, which means it’s time for you to start planning next year’s trip. I’m surely going to recap Camp Season, right? Nope. One of the things that I’ve really enjoyed lately is a segment on the Beers with Talos podcast that we call “Make Hazel a Hacker.” If you haven’t listened to it, this is a perfect time to start. Each episode we take a few minutes and pose a security question, term, or concept to Hazel and force her to come up with an idea or explanation on the spot. There are no parameters, so she’s faced with the entirety of information security — past, present, and future. I know, it’s insane. The craziest part is that (I think) Hazel came up with this idea and still volunteered to put herself in the line of fire. As we put Hazel’s feet to the fire, one of my favorite things happens: The rest of us listen in and offer our thoughts during her brainstorming process. Invariably, we’ve got three very different answers, ideas, hints, or directions for her. It’s surely maddening for Hazel, but to me, the best part of the discussion that inevitably follows is that although they’re all different, they’re all correct. For example, this past episode I asked her about a behavioral indicator (regarding “wallpaper.bmp”) that seems benign on its own, but can be interesting to use as a pivot for a threat hunt. We had various interesting angles to consider, backed by years of knowledge and experience. It gave us a good conversation, and that was a .bmp! One of the most nebulous things to learn in this field is that multiple things can be both different and correct. When you are making your decisions this week — whether it’s deciding on a new pivot in your hunting, what devices to prioritize in your patching and updating, or which books or online training to focus on — take a quick second and get a second, third, and fourth opinion. Then try something that’s outside of your normal wheelhouse but sounds good when it’s proposed. None of this is a solo sport. It’s a team game and the best plays come from a mix of perspectives, experiences, and mistakes. The “right” answer can wear many faces, and your ability to hold different truths will lead you to undiscovered territory, the rabbit hole where anomaly lives and breathes. So... welcome back from Vegas. Now go down a rabbit hole on a path you wouldn’t normally take because one of your friends (Joe) or your mortal enemy (Dave) told you that it would work. “She'd been to Narnia, Wonderland, Hogwarts, Dictionopolis. She had tessered, fallen through the rabbit hole, crossed the ice bridge into the unknown world beyond.” ― Anne Ursu, Breadcrumbs The one big thing Cisco Talos recently discovered "JWR," a previously undocumented, real-time phishing framework and likely variant of "The Outsider" phishing-as-a-service platform. JWR uses an open WebSocket connection that allows attackers to monitor keystrokes live and dynamically steer victims through fake checkout and login flows. Currently deployed via SMS lures impersonating regional toll and postal authorities, JWR enables operators to steal payment data, 2FA codes, identity documents, and device fingerprints. Why do I care? Because JWR is operator-driven in real time, attackers can actively bypass multi-factor authentication (MFA) by prompting victims for 2FA codes exactly when needed. The sheer volume of collected data gives threat actors a comprehensive identity profile primed for extensive follow-on fraud and network compromise. Furthermore, JWR's seamless integration with legitimate e-commerce platforms like Shopify makes these lures incre
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Curiouser and Curiouser
+  - Published: 2026-08-13T18:00:18+00:00
+  - Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
+  - Summary: In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
+
+### Cluster b4927a86ad — score 10
+
+- Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-11T22:21:02+00:00
+- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Azure, Cisco, Microsoft SharePoint
+- cve_ids: CVE-2026-62823, CVE-2026-62830, CVE-2026-62893, CVE-2026-65665, CVE-2026-68820
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Cisco, Microsoft SharePoint, Azure
+- cve_ids: CVE-2026-68820, CVE-2026-62893, CVE-2026-65665, CVE-2026-62823, CVE-2026-62830
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
+```
+
+#### Full body
+
+```
+Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, August 11, 2026 18:21 Patch Tuesday Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-68820 is an elevation of privilege vulnerability affecting Windows Ancillary Function Driver for WinSock. A Use After Free vulnerability could allow an authorized attacker to elevate privileges locally. This vulnerability has a CVSS base score of 7.0. Out of 62 "critical" vulnerabilities, 40 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-62893 is a remote code execution vulnerability affecting Windows Deployment Services TFTP Server. A Use After Free could allow an unauthorized attacker to execute code over a network. This vulnerability has a CVSS base score of 9.8. CVE-2026-65665 is a remote code execution vulnerability affecting Microsoft SharePoint Server. Deserialization of Untrusted Data could allow an authorized attacker to execute code over a network. This vulnerability has a CVSS base score of 8.8. CVE-2026-62823 is a remote code execution vulnerability affecting Windows DHCP Server. A Heap-based Buffer Overflow could allow an unauthorized attacker to execute code over an adjacent network. This vulnerability has a CVSS base score of 8.8. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-62830 is an elevation of privilege vulnerability affecting Azure SRE Agent. Missing Authorization could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.9. CVE-2026-50516 is an elevation of privilege vulnerability affecting Microsoft Azure Kubernetes Service. Missing Authentication for Critical Function could allow an unauthorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.4. Three remote code execution vulnerabilities, CVE-2026-68794 , CVE-2026-68816 and CVE-2026-68804 , affect Microsoft Excel and have a CVSS base score of 7.8. An unauthorized attacker could execute code locally. CVE-2026-68794 is a Heap-based Buffer Overflow. CVE-2026-68816 is a Stack-based Buffer Overflow. CVE-2026-68804 involves a Numeric Truncation Error and a Heap-based Buffer Overflow. CVE-2026-62911 is an elevation of privilege vulnerability affecting Microsoft Exchange Server. Authentication Bypass by Capture-replay could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 8.0. Nine remote code execution vulnerabilities, CVE-2026-63515 , CVE-2026-65657 , CVE-2026-63532 , CVE-2026-64898 , CVE-2026-64903 , CVE-2026-64909 , CVE-2026-64910 , CVE-2026-64911 and CVE-2026-70130 , affect Microsoft Office and could allow an unauthorized attacker to execute code locally. CVE-2026-63515 involves an Out-of-bounds Read and an Integer Underflow (Wrap or Wraparound) and has a CVSS base score of 7.8. CVE-2026-65657 is a Use After Free and has a CVSS base score of 7.8. CVE-2026-63532 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64898 involves a Heap-based Buffer Overflow and an Integer Overflow or Wraparound and has a CVSS base score of 7.8. CVE-2026-64903 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64909 involves an Integer Underflow (Wrap or Wraparound), an Out-of-bounds Read and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64910 is an Untrusted Pointer Dereference and has a CVSS base score of 7.8. CVE-2026-64911 involves an Integer Overflow or Wraparound and a Heap-based Buffer O
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
+  - Published: 2026-08-11T22:21:02+00:00
+  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
+  - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
 
 ### Cluster 2a12c51464 — score 10
 
@@ -2444,98 +2541,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 10th Augus
   - Published: 2026-08-10T13:53:22+00:00
   - Link: https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 452d902ac4 — score 10
-
-- Title: Curiouser and Curiouser
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-13T18:00:18+00:00
-- Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: retail_ecommerce
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: retail_ecommerce
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
-```
-
-#### Full body
-
-```
-Curiouser and Curiouser By William Largent Thursday, August 13, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. “Experiment is the mother of knowledge.” ― Madeleine L'Engle, A Wrinkle in Time “Don't slide down the rabbit hole. The way down is a breeze, but climbing back's a battle.” ― Kate Morton, The Clockmaker's Daughter Hacker Summer Camp has come and gone, which means it’s time for you to start planning next year’s trip. I’m surely going to recap Camp Season, right? Nope. One of the things that I’ve really enjoyed lately is a segment on the Beers with Talos podcast that we call “Make Hazel a Hacker.” If you haven’t listened to it, this is a perfect time to start. Each episode we take a few minutes and pose a security question, term, or concept to Hazel and force her to come up with an idea or explanation on the spot. There are no parameters, so she’s faced with the entirety of information security — past, present, and future. I know, it’s insane. The craziest part is that (I think) Hazel came up with this idea and still volunteered to put herself in the line of fire. As we put Hazel’s feet to the fire, one of my favorite things happens: The rest of us listen in and offer our thoughts during her brainstorming process. Invariably, we’ve got three very different answers, ideas, hints, or directions for her. It’s surely maddening for Hazel, but to me, the best part of the discussion that inevitably follows is that although they’re all different, they’re all correct. For example, this past episode I asked her about a behavioral indicator (regarding “wallpaper.bmp”) that seems benign on its own, but can be interesting to use as a pivot for a threat hunt. We had various interesting angles to consider, backed by years of knowledge and experience. It gave us a good conversation, and that was a .bmp! One of the most nebulous things to learn in this field is that multiple things can be both different and correct. When you are making your decisions this week — whether it’s deciding on a new pivot in your hunting, what devices to prioritize in your patching and updating, or which books or online training to focus on — take a quick second and get a second, third, and fourth opinion. Then try something that’s outside of your normal wheelhouse but sounds good when it’s proposed. None of this is a solo sport. It’s a team game and the best plays come from a mix of perspectives, experiences, and mistakes. The “right” answer can wear many faces, and your ability to hold different truths will lead you to undiscovered territory, the rabbit hole where anomaly lives and breathes. So... welcome back from Vegas. Now go down a rabbit hole on a path you wouldn’t normally take because one of your friends (Joe) or your mortal enemy (Dave) told you that it would work. “She'd been to Narnia, Wonderland, Hogwarts, Dictionopolis. She had tessered, fallen through the rabbit hole, crossed the ice bridge into the unknown world beyond.” ― Anne Ursu, Breadcrumbs The one big thing Cisco Talos recently discovered "JWR," a previously undocumented, real-time phishing framework and likely variant of "The Outsider" phishing-as-a-service platform. JWR uses an open WebSocket connection that allows attackers to monitor keystrokes live and dynamically steer victims through fake checkout and login flows. Currently deployed via SMS lures impersonating regional toll and postal authorities, JWR enables operators to steal payment data, 2FA codes, identity documents, and device fingerprints. Why do I care? Because JWR is operator-driven in real time, attackers can actively bypass multi-factor authentication (MFA) by prompting victims for 2FA codes exactly when needed. The sheer volume of collected data gives threat actors a comprehensive identity profile primed for extensive follow-on fraud and network compromise. Furthermore, JWR's seamless integration with legitimate e-commerce platforms like Shopify makes these lures incre
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Curiouser and Curiouser
-  - Published: 2026-08-13T18:00:18+00:00
-  - Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
-  - Summary: In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
-
-### Cluster b4927a86ad — score 10
-
-- Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-11T22:21:02+00:00
-- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Azure, Cisco, Microsoft SharePoint
-- cve_ids: CVE-2026-62823, CVE-2026-62830, CVE-2026-62893, CVE-2026-65665, CVE-2026-68820
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Cisco, Microsoft SharePoint, Azure
-- cve_ids: CVE-2026-68820, CVE-2026-62893, CVE-2026-65665, CVE-2026-62823, CVE-2026-62830
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
-```
-
-#### Full body
-
-```
-Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, August 11, 2026 18:21 Patch Tuesday Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-68820 is an elevation of privilege vulnerability affecting Windows Ancillary Function Driver for WinSock. A Use After Free vulnerability could allow an authorized attacker to elevate privileges locally. This vulnerability has a CVSS base score of 7.0. Out of 62 "critical" vulnerabilities, 40 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-62893 is a remote code execution vulnerability affecting Windows Deployment Services TFTP Server. A Use After Free could allow an unauthorized attacker to execute code over a network. This vulnerability has a CVSS base score of 9.8. CVE-2026-65665 is a remote code execution vulnerability affecting Microsoft SharePoint Server. Deserialization of Untrusted Data could allow an authorized attacker to execute code over a network. This vulnerability has a CVSS base score of 8.8. CVE-2026-62823 is a remote code execution vulnerability affecting Windows DHCP Server. A Heap-based Buffer Overflow could allow an unauthorized attacker to execute code over an adjacent network. This vulnerability has a CVSS base score of 8.8. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-62830 is an elevation of privilege vulnerability affecting Azure SRE Agent. Missing Authorization could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.9. CVE-2026-50516 is an elevation of privilege vulnerability affecting Microsoft Azure Kubernetes Service. Missing Authentication for Critical Function could allow an unauthorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.4. Three remote code execution vulnerabilities, CVE-2026-68794 , CVE-2026-68816 and CVE-2026-68804 , affect Microsoft Excel and have a CVSS base score of 7.8. An unauthorized attacker could execute code locally. CVE-2026-68794 is a Heap-based Buffer Overflow. CVE-2026-68816 is a Stack-based Buffer Overflow. CVE-2026-68804 involves a Numeric Truncation Error and a Heap-based Buffer Overflow. CVE-2026-62911 is an elevation of privilege vulnerability affecting Microsoft Exchange Server. Authentication Bypass by Capture-replay could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 8.0. Nine remote code execution vulnerabilities, CVE-2026-63515 , CVE-2026-65657 , CVE-2026-63532 , CVE-2026-64898 , CVE-2026-64903 , CVE-2026-64909 , CVE-2026-64910 , CVE-2026-64911 and CVE-2026-70130 , affect Microsoft Office and could allow an unauthorized attacker to execute code locally. CVE-2026-63515 involves an Out-of-bounds Read and an Integer Underflow (Wrap or Wraparound) and has a CVSS base score of 7.8. CVE-2026-65657 is a Use After Free and has a CVSS base score of 7.8. CVE-2026-63532 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64898 involves a Heap-based Buffer Overflow and an Integer Overflow or Wraparound and has a CVSS base score of 7.8. CVE-2026-64903 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64909 involves an Integer Underflow (Wrap or Wraparound), an Out-of-bounds Read and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64910 is an Untrusted Pointer Dereference and has a CVSS base score of 7.8. CVE-2026-64911 involves an Integer Overflow or Wraparound and a Heap-based Buffer O
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
-  - Published: 2026-08-11T22:21:02+00:00
-  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-  - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
 
 ### Cluster 44f04ecb50 — score 10
 
@@ -3137,20 +3142,14 @@ Cyberattacks & Data Breaches Cybersecurity Operations Cyber Risk Data Privacy Ne
 - Strong signals: CVE-2026-48362
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, ddos, web_shell_backdoor
-- affected_industries: retail_ecommerce, telecommunications
-- affected_products: Anthropic/Claude, Azure, cPanel
-- cve_ids: CVE-2026-48273, CVE-2026-48362, CVE-2026-71362, CVE-2026-71384, CVE-2026-71398
-- urgency_signals: actively_exploited, critical_cvss
+- cve_ids: CVE-2026-48362
+- urgency_signals: critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: credential_theft, ddos, web_shell_backdoor, active_exploitation
-- affected_industries: telecommunications, retail_ecommerce
-- affected_products: Anthropic/Claude, cPanel, Azure
-- cve_ids: CVE-2026-48362, CVE-2026-48273, CVE-2026-71384, CVE-2026-71362, CVE-2026-71398
-- urgency_signals: actively_exploited, critical_cvss
+- cve_ids: CVE-2026-48362
+- urgency_signals: critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3158,12 +3157,6 @@ Cyberattacks & Data Breaches Cybersecurity Operations Cyber Risk Data Privacy Ne
 
 ```
 Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could
-```
-
-#### Full body
-
-```
-Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws  Ravie Lakshmanan  Aug 12, 2026 Vulnerability / Web Security Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could lead to arbitrary code execution (Fixed in 2025.0.12 and 2023.0.23) CVE-2026-48273 (CVSS score: 9.9) - An eval injection vulnerability in ColdFusion that could lead to arbitrary code execution (Fixed in 2025.0.12 and 2023.0.23) CVE-2026-71384 (CVSS score: 9.6) - An incorrect authorization vulnerability in ColdFusion that could lead to an application denial-of-service (Fixed in 2025.0.12 and 2023.0.23) CVE-2026-71362 (CVSS score: 9.1) - An incorrect authorization vulnerability in Commerce that could lead to privilege escalation CVE-2026-71398 (CVSS score: 10.0) - An incorrect authorization vulnerability in Campaign Classic that could lead to arbitrary code execution (Fixed in ACC v7 7.4.4 build 9400) CVE-2026-27302 (CVSS score: 10.0) - An incorrect authorization vulnerability in Campaign Classic that could lead to arbitrary code execution (Fixed in ACC v7 7.4.4 build 9400) CVE-2026-48381 (CVSS score: 9.0) - An SQL injection vulnerability in Campaign Classic that could lead to arbitrary code execution (Fixed in ACC v7 7.4.4 build 9400) The updates for ColdFusion and Campaign Classic have a Priority 1 rating , which refers to vulnerabilities that have a higher risk of being targeted by malicious cyber attacks. It's worth noting that the Campaign Classic updates only apply to fully on-premise deployments and to the on-premise components of hybrid deployments. Adobe-hosted instances have already been remediated and require no customer action. Although there is no evidence of these flaws being exploited in the wild, administrators are recommended to install the update as soon as possible, preferably within 72 hours. The disclosure comes less than two weeks after Adobe released patches for a maximum-severity security flaw in Campaign Classic (CVE-2026-48449, CVSS score: 10.0) that could result in arbitrary code execution. Update Indications have emerged that threat actors are exploiting CVE-2026-71362, a critical flaw in Adobe Commerce and Magento Open Source, according to Sansec. "The vulnerability lets attackers switch a customer session to another customer account," the Dutch e-commerce security company said . "This gives them access to the victim's account and private customer data." (The story was updated after publication on August 13, 2026, to include additional insights from Sansec.) Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Adobe , Application Security , Code Execution , denial of service , enterprise security , Patch Management , privilege escalation , SQL Injection , Vulnerability , Web Security ⚡ Top Stories This Week Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself Critical Gi
 ```
 
 #### Corroborating sources (1)
