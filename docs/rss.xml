@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 15 Aug 2026 21:27:35 +0000</lastBuildDate>
+<lastBuildDate>Sat, 15 Aug 2026 22:28:35 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -747,15 +747,15 @@
 <item>
 <title>Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor</title>
 <link>https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</link>
-<description><![CDATA[The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and<br/><br/><em>Tags: Lazarus · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
+<description><![CDATA[The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and<br/><br/><em>Tags: Lazarus · CVE-2026-68820 · phishing_social_eng · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 17:39:27 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Lazarus</category>
+<category>CVE-2026-68820</category>
+<category>phishing_social_eng</category>
 <category>zero_day</category>
-<category>apt_espionage</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>From Patch Tuesday to Pentest Wednesday®: How a Major Transportation Company Turned AWS Attack Paths Into Action</title>
@@ -825,15 +825,13 @@
 <item>
 <title>Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day</title>
 <link>https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/</link>
-<description><![CDATA[Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit<br/><br/><em>Tags: Fortinet · AWS · Microsoft Windows · Lazarus · CVE-2026-68820 · CVE-2025-49113 · ransomware_extortion · zero_day</em>]]></description>
+<description><![CDATA[Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit<br/><br/><em>Tags: Lazarus · zero_day</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 13:35:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>Fortinet</category>
-<category>AWS</category>
-<category>Microsoft Windows</category>
 <category>Lazarus</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Gunra Ransomware Exploits Fortinet Flaws to Target Critical Infrastructure</title>
@@ -896,11 +894,14 @@
 <item>
 <title>Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws</title>
 <link>https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</link>
-<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: CVE-2026-48362</em>]]></description>
+<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: Anthropic/Claude · cPanel · Azure · CVE-2026-48362 · CVE-2026-48273 · CVE-2026-71384 · CVE-2026-71362 · CVE-2026-71398</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 11:13:03 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>cPanel</category>
+<category>Azure</category>
 <category>CVE-2026-48362</category>
 </item>
 <item>
@@ -966,11 +967,14 @@
 <item>
 <title>SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code</title>
 <link>https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html</link>
-<description><![CDATA[SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. &quot;SAP Commerce Cloud allows an<br/><br/><em>Tags: CVE-2026-58231</em>]]></description>
+<description><![CDATA[SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. &quot;SAP Commerce Cloud allows an<br/><br/><em>Tags: Anthropic/Claude · Gitea · cPanel · CVE-2026-58231 · CVE-2026-44772 · CVE-2026-34265 · CVE-2026-44758 · credential_theft</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 07:31:40 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>Gitea</category>
+<category>cPanel</category>
 <category>CVE-2026-58231</category>
 </item>
 <item>
@@ -1592,15 +1596,11 @@
 <item>
 <title>Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant</title>
 <link>https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/</link>
-<description><![CDATA[Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data<br/><br/><em>Tags: Salesforce · Fortinet · Microsoft 365 · Lazarus · ransomware_extortion · zero_day · data_breach · ai_security</em>]]></description>
+<description><![CDATA[Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data]]></description>
 <pubDate>Mon, 10 Aug 2026 15:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>Salesforce</category>
-<category>Fortinet</category>
-<category>Microsoft 365</category>
-<category>Lazarus</category>
 </item>
 <item>
 <title>⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors</title>
@@ -14369,6 +14369,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>What we know about Iran’s Internet shutdown</title>
+<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
+<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
+<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>How threat actors are using self-hosted GitHub Actions runners as backdoors</title>
 <link>https://webflow.sysdig.com/blog/how-threat-actors-are-using-self-hosted-github-actions-runners-as-backdoors</link>
 <description><![CDATA[Using Shai-Hulud as a case study, explore how attackers can abuse GitHub&apos;s self-hosted runner infrastructure to establish persistent remote access.<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -14377,15 +14386,6 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>GitHub</category>
-</item>
-<item>
-<title>What we know about Iran’s Internet shutdown</title>
-<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
-<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
-<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Filtering Noise in (Cyber)Space</title>
@@ -18676,7 +18676,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18686,7 +18686,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18695,7 +18695,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18704,7 +18704,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18713,7 +18713,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18722,7 +18722,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18731,7 +18731,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18740,7 +18740,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18749,7 +18749,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18758,7 +18758,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 15 Aug 2026 21:27:35 +0000</pubDate>
+<pubDate>Sat, 15 Aug 2026 22:28:35 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
