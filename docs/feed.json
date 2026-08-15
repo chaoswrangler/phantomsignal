@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-08-15T01:37:44.550478+00:00",
+  "generated_at": "2026-08-15T02:57:32.239625+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2090,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -18,19 +11,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -46,26 +39,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 25,
       "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -74,12 +53,40 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -95,26 +102,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -123,6 +123,13 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -130,19 +137,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 3
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -151,11 +151,11 @@
       "item_count": 50,
       "in_window_count": 11
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -165,8 +165,29 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -179,19 +200,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -200,13 +214,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -214,12 +221,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -235,26 +242,12 @@
       "item_count": 30,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 7
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -263,12 +256,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 7
+      "in_window_count": 0
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -277,13 +270,6 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -291,12 +277,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 2
+      "in_window_count": 0
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -304,6 +297,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -319,11 +319,25 @@
       "item_count": 100,
       "in_window_count": 5
     },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 2
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 2
     },
     "OpenSSF Blog": {
@@ -333,12 +347,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 11
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -347,12 +361,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 4
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -361,20 +375,6 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -382,12 +382,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 11
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -403,13 +403,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -424,19 +417,19 @@
       "item_count": 30,
       "in_window_count": 18
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 21
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 8
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -445,12 +438,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -466,6 +459,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -480,12 +480,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -494,12 +494,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 0,
+      "in_window_count": 0
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -953,15 +953,15 @@
       "also_targets": [],
       "cluster_ids": [
         "d32aa43a64",
+        "ab440398cd",
         "b3aa07bd4c",
-        "a06704d870",
-        "ab440398cd"
+        "a06704d870"
       ],
       "links": [
         "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
+        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
         "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
-        "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/"
+        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
       ]
     },
     {
@@ -1722,7 +1722,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1756,7 +1756,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1769,48 +1769,22 @@
       "author": "Sergiu Gatlan",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "zero_day",
-          "active_exploitation"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "retail_ecommerce"
-        ],
-        "affected_products": [
-          "VMware",
-          "npm"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-58231",
-          "CVE-2026-44761",
-          "CVE-2026-22732",
-          "CVE-2026-34263"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth",
-          "poc_available",
-          "critical_cvss"
-        ],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "VMware": "target",
-          "npm": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Max severity SAP Commerce Cloud flaw now targeted in attacks By Sergiu Gatlan August 14, 2026 09:45 AM 0 A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. Commerce Cloud (formerly known as SAP Hybris) is a cloud-based e-commerce platform used by online stores owned by high-profile global brands and large retailers. Tracked as CVE-2026-58231 , this critical flaw stems from an improper authorization weakness in the core Data Hub Adapter extension for Commerce Cloud that threat actors without privileges can exploit in low-complexity attacks to execute arbitrary code. \"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit specially crafted input to certain functions lacking sufficient validation,\" SAP explains. \"Successful exploitation could enable arbitrary code execution and compromise internal components, resulting in high impact on confidentiality, integrity, and availability of the application.\" While SAP has yet to flag this security flaw as actively exploited in a security advisory issued this Tuesday, Defused security researchers confirmed earlier today that CVE-2026-58231 is now being targeted in the wild. CVE-2026-58231 exploitation attempt (Defused) ​\"First exploitation attempts against CVE-2026-58231 (unauth RCE in SAP Commerce Cloud, CVSS 10.0) is now hitting our honeypots - 3 days after patch day,\" Defused warned in a Friday tweet. \"This vulnerability has no public PoC and is not known to be exploited.\" A SAP spokesperson told BleepingComputer that the company is aware of and investigating this issue when asked to confirm Defused's report. \"A security note https://me.sap.com/notes/3771065 is published and available for SAP customers and partners and was released on SAP’s August Patch Day. We recommend customers and partners patch their systems with immediate effect,\" the spokesperson added. Internet security watchdog group Shadowserver tracks over 4,200 IP addresses with a SAP Commerce Cloud fingerprint , most of them from Europe and North America. However, there is no information on how many of them are honeypots or have already been secured against CVE-2026-58231 attacks. Internet-exposed SAP Commerce Cloud instances (Shadowserver) ​Most recently, SAP fixed 16 vulnerabilities in its July 2026 Security Patch package and 30 more vulnerabilities in June and May , including three more critical security flaws ( CVE-2026-44761 , CVE-2026-22732 , and CVE-2026-34263 ) affecting the Commerce Cloud enterprise-grade e-commerce platform. In April, cybersecurity companies Aikido and Socket also reported that attackers aiming to steal credentials from developers' systems compromised multiple official SAP npm packages in a supply chain attack . Since November 2021, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added 14 SAP vulnerabilities to its Known Exploited Vulnerabilities catalog, including three that were abused in ransomware attacks. SAP is a German multinational software corporation that serves 99 of the 100 largest companies worldwide and has reported total revenues exceeding €36 billion in fiscal year 2025. Update August 14, 11:51 EDT: Added SAP statement. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical VMware vCenter RCE flaw exploited for reverse SSH access Hackers target US firms in FastJson RCE zero-day attacks CISA orders urgent action on actively exploited Langflow RCE flaw Critical Langflow RCE flaw exploited to hack AI app servers CISA sets urgent deadline to fix Cisc",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "The Record",
@@ -6149,7 +6123,9 @@
       "author": "",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -6164,7 +6140,9 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "Abuse of alternative runtime environments Deno-tes defender headaches Attack TTPs combine fileless execution, wide LOLBin use Written by Wong Jun Qi , Krishna Priya Vijayakumar Threat Research Share This Link Copied In early 2026, Sophos MDR investigated multiple intrusion cases involving a threat activity cluster that consistently abused Deno, a legitimate JavaScript and TypeScript runtime environment, to execute malicious JavaScript payloads directly in memory. Although the initial access vectors varied among victims, analysis of the observed malware, infrastructure, and execution chains revealed a shared set of post-compromise behaviors and tooling. This post examines the tactics, techniques and procedures (TTPs) utilized by the threat actors and observed by Sophos MDR incident responders during the first part of the year. By analyzing commonalities across a selection of cases, MDR identified a repeatable attack framework, which it continues to track. Our threat-hunting colleagues in Sophos’ Counter Threat Unit have likewise been watching the evolution of ClickFix-involved Deno abuse; a description of what they see from their perspective (and in a later evaluation window) is posted here . Overview The growing adoption of alternative runtime environments presents a challenge for defenders. Security tooling and behavioral detections are often optimized around established attack pathways and commonly abused scripting engines. While Deno is a legitimate development tool, its adoption by the threat actor reflects a shift towards leveraging less commonly monitored runtime environments to facilitate reliable payload execution through potentially unmonitored pathways. In the cases we analyze in this report, the attackers used a Bring Your Own Runtime (BYOR) approach to guarantee consistent execution across victim environments, independent of whatever runtimes were already present on the host. In all these cases, the threat actor downloaded and installed the Deno runtime before executing obfuscated JavaScript payloads, mainly C2 (command-and-control) payloads. Across multiple observed cases, the threat actors combined social engineering, web-based delivery mechanisms, and malware masquerading as legitimate software to gain initial access. Once a foothold was established, malicious MSI packages were used to deploy VBS and PowerShell loaders that subsequently retrieved, installed, and executed the Deno runtime. Throughout both the initial access stage and post-compromise activity, the threat actors heavily leveraged living-off-the-land binaries (LOLBins), including msiexec, wscript, PowerShell, curl, and tar. Extensive use of VBS, PowerShell, and other native binaries enabled the threat actors to establish persistence, perform host fingerprinting, retrieve additional payloads, deploy the Deno runtime, and maintain command-and-control communications while blending malicious activity with legitimate system operations. Various JavaScript payloads executed via Deno performed host fingerprinting, execution control checks, persistent C2 communications, and in some instances facilitated the retrieval and execution of additional payloads. Despite variations in victim targeting and secondary payload deployment, the underlying staging mechanisms, runtime deployment techniques, and C2 design remained highly consistent. These observations are consistent with publicly reported activity involving Deno abuse. ThreatDown documented a similar intrusion chain involving Deno-based JavaScript execution and the delivery of Castle RAT, highlighting the growing interest among threat actors in leveraging alternative runtime environments for stealthier post-compromise operations. This report further examines the campaign's mechanisms, including variations in secondary payload deployment across affected victims. In addition, this report presents detailed analysis of a recovered malicious MSI file, providing insights into the threat actor's staging mechanisms, ",
+      "fetch_status": "ok"
     },
     {
       "source": "Sophos X-Ops",
