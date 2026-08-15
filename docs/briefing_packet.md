@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-15T11:26:38.541510+00:00
+- Generated: 2026-08-15T12:49:38.352655+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 316
+- Total items in window: 315
 - Total clusters raw: 138
 - Total clusters in packet: 67
 - Dropped low score: 71
@@ -70,56 +70,46 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 10
+  - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -130,8 +120,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
@@ -140,6 +130,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -150,26 +145,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
-  - In window count: 11
+  - In window count: 3
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -180,6 +165,16 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 11
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,6 +190,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
@@ -210,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -230,26 +225,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 30
+  - Item count: 10
   - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -265,11 +265,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -280,33 +275,33 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
@@ -315,6 +310,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 11
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,38 +335,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 11
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 19
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 21
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -365,48 +355,58 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 19
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+  - Item count: 100
+  - In window count: 1
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 21
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,15 +420,15 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
@@ -444,17 +444,17 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 19
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 18
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -1864,38 +1864,6 @@ Application Security Vulnerabilities & Threats Threat Intelligence News Microsof
   - Link: https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
   - Summary: The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.
 
-### Cluster 0c38643ce6 — score 12
-
-- Title: Vulnerability response in the AI-discovery era
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-08-11T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/vulnerability-response-in-the-ai-discovery-era
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Full body
-
-```
-< back to blog Vulnerability response in the AI-discovery era Published by: Ivan Evsyukov @ linkedin Published: August 11, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more What changes when AI can find vulnerabilities faster than teams can fix them, and a four-part plan for dealing with it. Frontier AI models can now find vulnerabilities at a scale and speed humans can't match , with Mythos as the current high-water mark. That includes flaws with no CVE attached, in code that has been reviewed for decades. Access to the strongest models is restricted today , but the capability is spreading , and attackers get it too. Here is the practical problem: finding vulnerabilities got fast and cheap. Triaging them, fixing them, and containing what gets exploited did not. If your program was already behind on its backlog, this makes it worse. So in this post, we’ll explore what actually changes, and how to build a program that keeps up. Four shifts in the ground rules 1. There are more vulnerabilities than established institutions can process. CVE creation doesn't keep up with what AI can find , so some real findings will never have a CVE at all. Regardless of whether something has a CVE, if it represents a real business risk, your team owns doing something about it. 2. Exploits get faster and cheaper for attackers. The time from a vulnerability being known to it being exploited has collapsed. Mandiant's latest M-Trends report estimates the average time-to-exploit at negative seven days . This means that exploitation now begins before a patch exists. Your response and remediation times have to come down to match. 3. Risk acceptance gets harder to justify. There is an industry narrative that AI makes defense faster and cheaper, so leaving things unfixed looks less like a resource problem and more like a decision. Boards and auditors will expect security teams to operate faster and cheaper with AI, because attackers will. 4. Your whole attack surface is more exposed. Software, configuration, and identity weaknesses can all be discovered and probed at machine speed. This post focuses on software vulnerabilities, but the principles can be extended to other common attack vectors as well. On a positive note: For any given codebase, this will be a surge and not an endless flood. Code is finite, and most AI-found flaws are known vulnerability classes with known fixes. The hard part isn't that the vulnerabilities are exotic, it's the volume of the vulnerabilities. How to create a program for the new landscape: A four-part plan Closing this gap is the security team's job. The same class of AI tools helping attackers is available to defenders. Use it — for triage, for routing fixes, and for response. The plan outlined below will help you achieve this. Each part of the plan exists because the one before it isn't enough. You'll find more than you can triage, you'll triage more than you can fix, and you won't fix everything. 1. Scan and discover For this first step, the goal is that everything found ends up in one place you can manage. CVE discovery is the straightforward part: Make sure every important asset is actually covered, whether that takes one very complete vendor or a combination of sources. The new work is non-CVE findings. Your scanning needs to pull in vulnerability data beyond the CVE catalog, including AI-discovered flaws, and feed it into the same triage and remediation process as everything else. A tool that only manages CVEs is blind to this new class of findings. Luckily, the remediation and response patterns remain the same, as the non-CVE vulnerabilities are tied to what we know how to fix — libraries, binaries, and images. 2. Prioritize Even before AI, only the most mature security and engineering orgs could fix everything. Now proper triage is even more
-```
-
-#### Corroborating sources (1)
-
-- **Sysdig** (detection_response_operations)
-  - Title: Vulnerability response in the AI-discovery era
-  - Published: 2026-08-11T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/vulnerability-response-in-the-ai-discovery-era
-
 ### Cluster d9890362d0 — score 12
 
 - Title: Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain
@@ -1940,6 +1908,38 @@ Wiz Pricing Get a demo Get a demo Most application security programs assume a cl
   - Published: 2026-08-13T13:48:56+00:00
   - Link: https://www.wiz.io/blog/securing-personal-repositories
   - Summary: Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.
+
+### Cluster 0c38643ce6 — score 12
+
+- Title: Vulnerability response in the AI-discovery era
+- Source: Sysdig (detection_response_operations)
+- Published: 2026-08-11T00:00:00+00:00
+- Link: https://webflow.sysdig.com/blog/vulnerability-response-in-the-ai-discovery-era
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Full body
+
+```
+< back to blog Vulnerability response in the AI-discovery era Published by: Ivan Evsyukov @ linkedin Published: August 11, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more What changes when AI can find vulnerabilities faster than teams can fix them, and a four-part plan for dealing with it. Frontier AI models can now find vulnerabilities at a scale and speed humans can't match , with Mythos as the current high-water mark. That includes flaws with no CVE attached, in code that has been reviewed for decades. Access to the strongest models is restricted today , but the capability is spreading , and attackers get it too. Here is the practical problem: finding vulnerabilities got fast and cheap. Triaging them, fixing them, and containing what gets exploited did not. If your program was already behind on its backlog, this makes it worse. So in this post, we’ll explore what actually changes, and how to build a program that keeps up. Four shifts in the ground rules 1. There are more vulnerabilities than established institutions can process. CVE creation doesn't keep up with what AI can find , so some real findings will never have a CVE at all. Regardless of whether something has a CVE, if it represents a real business risk, your team owns doing something about it. 2. Exploits get faster and cheaper for attackers. The time from a vulnerability being known to it being exploited has collapsed. Mandiant's latest M-Trends report estimates the average time-to-exploit at negative seven days . This means that exploitation now begins before a patch exists. Your response and remediation times have to come down to match. 3. Risk acceptance gets harder to justify. There is an industry narrative that AI makes defense faster and cheaper, so leaving things unfixed looks less like a resource problem and more like a decision. Boards and auditors will expect security teams to operate faster and cheaper with AI, because attackers will. 4. Your whole attack surface is more exposed. Software, configuration, and identity weaknesses can all be discovered and probed at machine speed. This post focuses on software vulnerabilities, but the principles can be extended to other common attack vectors as well. On a positive note: For any given codebase, this will be a surge and not an endless flood. Code is finite, and most AI-found flaws are known vulnerability classes with known fixes. The hard part isn't that the vulnerabilities are exotic, it's the volume of the vulnerabilities. How to create a program for the new landscape: A four-part plan Closing this gap is the security team's job. The same class of AI tools helping attackers is available to defenders. Use it — for triage, for routing fixes, and for response. The plan outlined below will help you achieve this. Each part of the plan exists because the one before it isn't enough. You'll find more than you can triage, you'll triage more than you can fix, and you won't fix everything. 1. Scan and discover For this first step, the goal is that everything found ends up in one place you can manage. CVE discovery is the straightforward part: Make sure every important asset is actually covered, whether that takes one very complete vendor or a combination of sources. The new work is non-CVE findings. Your scanning needs to pull in vulnerability data beyond the CVE catalog, including AI-discovered flaws, and feed it into the same triage and remediation process as everything else. A tool that only manages CVEs is blind to this new class of findings. Luckily, the remediation and response patterns remain the same, as the non-CVE vulnerabilities are tied to what we know how to fix — libraries, binaries, and images. 2. Prioritize Even before AI, only the most mature security and engineering orgs could fix everything. Now proper triage is even more
+```
+
+#### Corroborating sources (1)
+
+- **Sysdig** (detection_response_operations)
+  - Title: Vulnerability response in the AI-discovery era
+  - Published: 2026-08-11T00:00:00+00:00
+  - Link: https://webflow.sysdig.com/blog/vulnerability-response-in-the-ai-discovery-era
 
 ### Cluster 8eec2abce7 — score 12
 
@@ -2221,6 +2221,94 @@ Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windo
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
   - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
 
+### Cluster 21cbe0b5fa — score 10
+
+- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-14T09:00:14+00:00
+- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+  - Published: 2026-08-14T09:00:14+00:00
+  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
+
+### Cluster 1e8cbb1e90 — score 10
+
+- Title: Armored Likho expands its cyber-espionage toolkit
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-13T08:00:15+00:00
+- Link: https://securelist.com/armored-likho-still-toolkit/121033/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: education, government
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: government, education
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
+```
+
+#### Full body
+
+```
+Table of Contents Background Initial infection Still Sync How it works Telegram data collection Still Audio The eavesdropping process Infrastructure Victims Attribution Takeaways Indicators of compromise Authors Konstantin Isakov In May 2026, we discovered a new cyber-espionage campaign by the Armored Likho group, also known as Eagle Werewolf, that targets private individuals and organizations across various industries in Russia, including major corporations, the public sector, IT, and education. The attackers used a fake app as bait that mimics a service for donations. However, the most interesting part of this campaign isn’t the initial infection method – it’s the malicious implants the attackers use for cyber-espionage. We’ve written previously about recent Armored Likho attacks, but our analysis shows that the campaign discussed below has more in common with the group’s activity from February . That said, the attackers have significantly expanded their arsenal. During our research, we found a new cyber-espionage toolkit written in Rust: the Still Toolkit . One of its components, Still Sync , steals Telegram session data to gain ongoing access to the victim’s account. With this stolen data, attackers can leverage the Telegram API to automatically pull chat logs, media files, and other information from the account. The second component, Still Audio , is an implant for covert audio surveillance. It analyzes the incoming audio stream, automatically detects speech, records conversations, and sends the recordings to a command-and-control server. In this article, we’ll look at the initial infection method, how the new Still Toolkit components are built, and the technical details of how they operate. Kaspersky products detect this threat as Trojan.Win64.Agent.* and HEUR:Backdoor.Win32.Generic . Background Armored Likho’s malicious activity has been documented several times before: in November 2024, and in February and July 2026. The current campaign shows significant overlap with the November and February campaigns, which used malicious droppers disguised as documents and applications related to Starlink activation or fundraising efforts as the initial infection vector. This campaign also uses fundraising as its lure. At the same time, our research uncovered a number of new tools that point to the attackers expanding their capabilities. Initial infection The infection chain starts with an app that mimics a donation service. As of this writing, the app distribution method remains unknown. During our research, however, we obtained several samples posing as apps from different Russian foundations. In reality, the app is a dropper. Its developers wrote it in Rust on top of the popular Tauri framework, and it has a graphical interface designed to deceive the user. After launch, it displays a login form that asks for a password, presumably one the attackers supplied. The login form After the user enters a valid password, they see a catalog of donatable items. The app pulls item and category information from orderapiserver[.]info through the public/categories and public/products endpoints . A clickable catalog makes the app look legitimate. While the user browses the items, the dropper quietly decrypts and launches the payload for the next stage in the background. Our analysis shows that the mechanism for decrypting the payload and launching subsequent stages hasn’t changed since the February campaign. However, we found a new cyber-espionage toolkit – the Still Toolkit – made up of two components: Still Sync and Still Audio. Still Sync Still Sync is a stealer written in Rust that steals Telegram session data. However, its capabilities don’t stop there. With this stolen data, Sync can log in to the victim’s account and pull messages and media files through the Telegram API. Architecturally, Sync is an asynchronous application based on the Tokio library. It talks to the server over gRPC and serializes messages with FlatBuffers . It support
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Armored Likho expands its cyber-espionage toolkit
+  - Published: 2026-08-13T08:00:15+00:00
+  - Link: https://securelist.com/armored-likho-still-toolkit/121033/
+  - Summary: Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
+
 ### Cluster 2a12c51464 — score 10
 
 - Title: The State of Ransomware Q2 2026
@@ -2315,94 +2403,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 10th Augus
   - Link: https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 21cbe0b5fa — score 10
-
-- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-14T09:00:14+00:00
-- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-  - Published: 2026-08-14T09:00:14+00:00
-  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
-
-### Cluster 1e8cbb1e90 — score 10
-
-- Title: Armored Likho expands its cyber-espionage toolkit
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-13T08:00:15+00:00
-- Link: https://securelist.com/armored-likho-still-toolkit/121033/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: education, government
-- content_type: threat_research
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: government, education
-- content_type: threat_research
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
-```
-
-#### Full body
-
-```
-Table of Contents Background Initial infection Still Sync How it works Telegram data collection Still Audio The eavesdropping process Infrastructure Victims Attribution Takeaways Indicators of compromise Authors Konstantin Isakov In May 2026, we discovered a new cyber-espionage campaign by the Armored Likho group, also known as Eagle Werewolf, that targets private individuals and organizations across various industries in Russia, including major corporations, the public sector, IT, and education. The attackers used a fake app as bait that mimics a service for donations. However, the most interesting part of this campaign isn’t the initial infection method – it’s the malicious implants the attackers use for cyber-espionage. We’ve written previously about recent Armored Likho attacks, but our analysis shows that the campaign discussed below has more in common with the group’s activity from February . That said, the attackers have significantly expanded their arsenal. During our research, we found a new cyber-espionage toolkit written in Rust: the Still Toolkit . One of its components, Still Sync , steals Telegram session data to gain ongoing access to the victim’s account. With this stolen data, attackers can leverage the Telegram API to automatically pull chat logs, media files, and other information from the account. The second component, Still Audio , is an implant for covert audio surveillance. It analyzes the incoming audio stream, automatically detects speech, records conversations, and sends the recordings to a command-and-control server. In this article, we’ll look at the initial infection method, how the new Still Toolkit components are built, and the technical details of how they operate. Kaspersky products detect this threat as Trojan.Win64.Agent.* and HEUR:Backdoor.Win32.Generic . Background Armored Likho’s malicious activity has been documented several times before: in November 2024, and in February and July 2026. The current campaign shows significant overlap with the November and February campaigns, which used malicious droppers disguised as documents and applications related to Starlink activation or fundraising efforts as the initial infection vector. This campaign also uses fundraising as its lure. At the same time, our research uncovered a number of new tools that point to the attackers expanding their capabilities. Initial infection The infection chain starts with an app that mimics a donation service. As of this writing, the app distribution method remains unknown. During our research, however, we obtained several samples posing as apps from different Russian foundations. In reality, the app is a dropper. Its developers wrote it in Rust on top of the popular Tauri framework, and it has a graphical interface designed to deceive the user. After launch, it displays a login form that asks for a password, presumably one the attackers supplied. The login form After the user enters a valid password, they see a catalog of donatable items. The app pulls item and category information from orderapiserver[.]info through the public/categories and public/products endpoints . A clickable catalog makes the app look legitimate. While the user browses the items, the dropper quietly decrypts and launches the payload for the next stage in the background. Our analysis shows that the mechanism for decrypting the payload and launching subsequent stages hasn’t changed since the February campaign. However, we found a new cyber-espionage toolkit – the Still Toolkit – made up of two components: Still Sync and Still Audio. Still Sync Still Sync is a stealer written in Rust that steals Telegram session data. However, its capabilities don’t stop there. With this stolen data, Sync can log in to the victim’s account and pull messages and media files through the Telegram API. Architecturally, Sync is an asynchronous application based on the Tokio library. It talks to the server over gRPC and serializes messages with FlatBuffers . It support
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Armored Likho expands its cyber-espionage toolkit
-  - Published: 2026-08-13T08:00:15+00:00
-  - Link: https://securelist.com/armored-likho-still-toolkit/121033/
-  - Summary: Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
-
 ### Cluster 452d902ac4 — score 10
 
 - Title: Curiouser and Curiouser
@@ -2495,6 +2495,45 @@ Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabil
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
   - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
 
+### Cluster af5513db44 — score 10
+
+- Title: From Scanner Findings to Verifiable Web Application Risk
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-11T17:07:51+00:00
+- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+```
+
+#### Full body
+
+```
+From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: From Scanner Findings to Verifiable Web Application Risk
+  - Published: 2026-08-11T17:07:51+00:00
+  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+
 ### Cluster 44f04ecb50 — score 10
 
 - Title: Malware Crypting Services and the Threat Actors Who Sell Them
@@ -2535,45 +2574,6 @@ Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary 
   - Published: 2026-08-13T00:00:00+00:00
   - Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
   - Summary: Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
-
-### Cluster af5513db44 — score 10
-
-- Title: From Scanner Findings to Verifiable Web Application Risk
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-11T17:07:51+00:00
-- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
-```
-
-#### Full body
-
-```
-From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: From Scanner Findings to Verifiable Web Application Risk
-  - Published: 2026-08-11T17:07:51+00:00
-  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
 
 ### Cluster 272e108269 — score 10
 
@@ -3372,6 +3372,47 @@ Key Takeaways SOC automation hands a defined alert-handling task to software tha
   - Link: https://orca.security/resources/blog/soc-automation/
   - Summary: Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]
 
+### Cluster ab440398cd — score 8
+
+- Title: What’s new with Google Cloud
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-08-14T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
+```
+
+#### Full body
+
+```
+Inside Google Cloud What’s new with Google Cloud August 14, 2026 Google Cloud Content & Editorial Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gemini 3.5 and Google Cloud. Compete for your share of $190,000 in prizes, cash, and Google Cloud credits! Submissions are open from August 3, 2026, to August 31, 2026. Learn more and register . Sign up for GEAR to get exclusive updates and your badge. #AllThingsAgenticHackathon Accelerate PostgreSQL migrations using Gemini in Database Migration Service Enterprise database migrations often stall during the "last mile" of translating legacy stored procedures, triggers, and custom functions from Oracle or SQL Server. Database Migration Service (DMS) now provides AI-assisted code conversion powered by Gemini in Databases. By combining deterministic compiler rules for 1:1 syntax with Gemini contextual synthesis for complex procedural blocks, DMS converts legacy code into native PostgreSQL and AlloyDB with full schema awareness and side-by-side validation. Read the full blog post to learn how to streamline your database code conversion. Compute Flex CUDs now available for G2 and G4 GPU VMs Compute Flexible Committed Use Discounts (Flex CUDs) are now available for G2 (NVIDIA L4) and G4 (NVIDIA RTX Pro 6000) VMs . You can now lock in predictable savings while retaining the flexibility to adapt across VM families, migrate between regions, and combine general-purpose compute, GKE, Cloud Run, and G2 & G4 GPU VMs under a single spend commitment. Flex CUDs for G-series VMs let you lock in savings today while preserving the agility to upgrade to latest hardware without disruption! Explore VM instance pricing or learn more about Flex CUDs . Rapid Bucket accelerates the training and checkpoint performance in PyTorch Ecosystem via GCSFS With the release of GCSFS 2026.8.0 , organisations can now unlock maximum ROI from their AI/ML infrastructure by eliminating data starvation on GPUs in PyTorch ecosystem when they are using Frameworks like Dask, Pandas, PyTorch , PyTorch Lightning, Hugging Face Datasets, Ray dataetc. By making adaptive concurrent prefetching the default, GCSFS dynamically predicts and background-fetches sequential read patterns—boosting single-file throughput by 5x, and scaling up to 21 GiB/s , saturating the NIC when paired with Rapid Bucket . Saturating the NIC translates to significantly improved accelerator goodput and reduced training wait times with zero integration friction. Training and checkpoint restore workflows benefit from intelligent memory management that automatically drains the buffer during random reads to completely avoid bandwidth or memory penalties. Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: What’s new with Google Cloud
+  - Published: 2026-08-14T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
+
 ### Cluster f747f77112 — score 8
 
 - Title: Max severity SAP Commerce Cloud flaw now targeted in attacks
@@ -3420,47 +3461,6 @@ Max severity SAP Commerce Cloud flaw now targeted in attacks By Sergiu Gatlan Au
   - Published: 2026-08-14T13:45:18+00:00
   - Link: https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/
   - Summary: A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]
-
-### Cluster ab440398cd — score 8
-
-- Title: What’s new with Google Cloud
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-08-14T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
-```
-
-#### Full body
-
-```
-Inside Google Cloud What’s new with Google Cloud August 14, 2026 Google Cloud Content & Editorial Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gemini 3.5 and Google Cloud. Compete for your share of $190,000 in prizes, cash, and Google Cloud credits! Submissions are open from August 3, 2026, to August 31, 2026. Learn more and register . Sign up for GEAR to get exclusive updates and your badge. #AllThingsAgenticHackathon Accelerate PostgreSQL migrations using Gemini in Database Migration Service Enterprise database migrations often stall during the "last mile" of translating legacy stored procedures, triggers, and custom functions from Oracle or SQL Server. Database Migration Service (DMS) now provides AI-assisted code conversion powered by Gemini in Databases. By combining deterministic compiler rules for 1:1 syntax with Gemini contextual synthesis for complex procedural blocks, DMS converts legacy code into native PostgreSQL and AlloyDB with full schema awareness and side-by-side validation. Read the full blog post to learn how to streamline your database code conversion. Compute Flex CUDs now available for G2 and G4 GPU VMs Compute Flexible Committed Use Discounts (Flex CUDs) are now available for G2 (NVIDIA L4) and G4 (NVIDIA RTX Pro 6000) VMs . You can now lock in predictable savings while retaining the flexibility to adapt across VM families, migrate between regions, and combine general-purpose compute, GKE, Cloud Run, and G2 & G4 GPU VMs under a single spend commitment. Flex CUDs for G-series VMs let you lock in savings today while preserving the agility to upgrade to latest hardware without disruption! Explore VM instance pricing or learn more about Flex CUDs . Rapid Bucket accelerates the training and checkpoint performance in PyTorch Ecosystem via GCSFS With the release of GCSFS 2026.8.0 , organisations can now unlock maximum ROI from their AI/ML infrastructure by eliminating data starvation on GPUs in PyTorch ecosystem when they are using Frameworks like Dask, Pandas, PyTorch , PyTorch Lightning, Hugging Face Datasets, Ray dataetc. By making adaptive concurrent prefetching the default, GCSFS dynamically predicts and background-fetches sequential read patterns—boosting single-file throughput by 5x, and scaling up to 21 GiB/s , saturating the NIC when paired with Rapid Bucket . Saturating the NIC translates to significantly improved accelerator goodput and reduced training wait times with zero integration friction. Training and checkpoint restore workflows benefit from intelligent memory management that automatically drains the buffer during random reads to completely avoid bandwidth or memory penalties. Aug 3 - Aug 7 Navigate data sovereignty and AI innovation with hybrid cloud For enterprises facing strict compliance rules, keeping sensitive data on-premises often means missing out on cutting-edge AI. Data from the 2026 State of AI Infrastructure report reveals that 52% of IT leaders are adopting hybrid cloud strategies to
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new with Google Cloud
-  - Published: 2026-08-14T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagnosing Apigee Hybrid Cassandra Read Latency for Peak Performance Diagnose real-time Cassandra read latency and resolve API key verification bottlenecks in Apigee Hybrid with this step-by-step troubleshooting guide. Learn how to deploy a debugging client and query performance tables to maintain sub-millisecond response times. Read the Apigee Hybrid Cassandra Troubleshooting Guide Keep moving with agents! The All Things Agentic Hackathon is officially live. We're challenging builders to build next-generation agents that take on the busy work and handle the heavy lifting in the background using Gem
 
 ### Cluster b3aa07bd4c — score 8
 
