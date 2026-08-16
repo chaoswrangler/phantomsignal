@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-16T13:36:37.215256+00:00
+- Generated: 2026-08-16T14:29:25.864440+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -80,23 +80,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -110,15 +115,20 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 15
   - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
@@ -130,11 +140,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 10
+  - In window count: 4
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -145,41 +160,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 11
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -190,16 +190,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -225,11 +230,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,26 +240,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -274,6 +269,11 @@
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
@@ -290,26 +290,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -325,18 +320,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 10
+  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 11
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,36 +350,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 18
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 21
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 18
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -385,23 +380,23 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,8 +410,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,21 +420,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 34
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 28
+  - Item count: 0
+  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 28
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 34
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -478,17 +478,18 @@
 - Theme key: cve-2026-68820
 - Cluster count: 7
 - Article count: 13
-- Cohesion: 0.259
+- Cohesion: 0.271
 - Shared strong signals: CVE-2026-68820
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation, phishing_social_eng
+  - threat_categories: zero_day, active_exploitation
   - actor_attribution: Lazarus
+  - affected_industries: financial_services
   - affected_products: Microsoft SharePoint
   - cve_ids: CVE-2026-68820, CVE-2026-62832
   - urgency_signals: zero_day, actively_exploited
-- Cluster IDs: 17761b9ecf, c13f381a5a, ef336b7141, 02b0e547f6, b4927a86ad, 22bf2708a0, 7f18333ab6
+- Cluster IDs: 17761b9ecf, c13f381a5a, ef336b7141, 02b0e547f6, b4927a86ad, 4d06d42e84, 7f18333ab6
 - Links:
   - https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026
   - https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
@@ -496,8 +497,8 @@
   - https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
   - https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-  - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
   - https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
+  - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
   - https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
 
 ### CVE-2026-62832 exploitation (Microsoft SharePoint)
@@ -598,6 +599,29 @@
   - https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/
   - https://tldrsec.com/p/tldr-sec-341
 
+### zero day targeting Microsoft Windows
+- Anchor signal: Microsoft Windows
+- Theme key: microsoft-windows
+- Cluster count: 4
+- Article count: 6
+- Cohesion: 0.262
+- Shared strong signals: Microsoft Windows
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, vulnerability_disclosure
+  - actor_attribution: Lazarus
+  - affected_products: Microsoft Windows, Microsoft Defender
+  - cve_ids: CVE-2026-68820
+  - urgency_signals: zero_day, poc_available
+- Cluster IDs: 8eec2abce7, 4d06d42e84, 8fb5179107, 7f18333ab6
+- Links:
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/
+  - https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
+  - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+  - https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
+  - https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
+
 ### Cisco active exploitation
 - Anchor signal: Cisco
 - Theme key: cisco
@@ -658,25 +682,6 @@
   - https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
   - https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
 
-### zero day targeting Microsoft Windows
-- Anchor signal: Microsoft Windows
-- Theme key: microsoft-windows
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.25
-- Shared strong signals: Microsoft Windows
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, vulnerability_disclosure
-  - affected_products: Microsoft Windows, Microsoft Defender
-  - urgency_signals: zero_day, poc_available
-- Cluster IDs: 8eec2abce7, 8fb5179107, 7f18333ab6
-- Links:
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/
-  - https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
-  - https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
-
 ### Linux kernel vulnerability activity
 - Anchor signal: Linux kernel
 - Theme key: linux-kernel
@@ -734,8 +739,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-33696 (first seen via Reddit r/netsec at 2026-08-16T13:33:02+00:00, cluster 7029814c59)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -2348,98 +2352,6 @@ Table of Contents Background Initial infection Still Sync How it works Telegram 
   - Link: https://securelist.com/armored-likho-still-toolkit/121033/
   - Summary: Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
 
-### Cluster 452d902ac4 — score 10
-
-- Title: Curiouser and Curiouser
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-13T18:00:18+00:00
-- Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: retail_ecommerce
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: retail_ecommerce
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
-```
-
-#### Full body
-
-```
-Curiouser and Curiouser By William Largent Thursday, August 13, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. “Experiment is the mother of knowledge.” ― Madeleine L'Engle, A Wrinkle in Time “Don't slide down the rabbit hole. The way down is a breeze, but climbing back's a battle.” ― Kate Morton, The Clockmaker's Daughter Hacker Summer Camp has come and gone, which means it’s time for you to start planning next year’s trip. I’m surely going to recap Camp Season, right? Nope. One of the things that I’ve really enjoyed lately is a segment on the Beers with Talos podcast that we call “Make Hazel a Hacker.” If you haven’t listened to it, this is a perfect time to start. Each episode we take a few minutes and pose a security question, term, or concept to Hazel and force her to come up with an idea or explanation on the spot. There are no parameters, so she’s faced with the entirety of information security — past, present, and future. I know, it’s insane. The craziest part is that (I think) Hazel came up with this idea and still volunteered to put herself in the line of fire. As we put Hazel’s feet to the fire, one of my favorite things happens: The rest of us listen in and offer our thoughts during her brainstorming process. Invariably, we’ve got three very different answers, ideas, hints, or directions for her. It’s surely maddening for Hazel, but to me, the best part of the discussion that inevitably follows is that although they’re all different, they’re all correct. For example, this past episode I asked her about a behavioral indicator (regarding “wallpaper.bmp”) that seems benign on its own, but can be interesting to use as a pivot for a threat hunt. We had various interesting angles to consider, backed by years of knowledge and experience. It gave us a good conversation, and that was a .bmp! One of the most nebulous things to learn in this field is that multiple things can be both different and correct. When you are making your decisions this week — whether it’s deciding on a new pivot in your hunting, what devices to prioritize in your patching and updating, or which books or online training to focus on — take a quick second and get a second, third, and fourth opinion. Then try something that’s outside of your normal wheelhouse but sounds good when it’s proposed. None of this is a solo sport. It’s a team game and the best plays come from a mix of perspectives, experiences, and mistakes. The “right” answer can wear many faces, and your ability to hold different truths will lead you to undiscovered territory, the rabbit hole where anomaly lives and breathes. So... welcome back from Vegas. Now go down a rabbit hole on a path you wouldn’t normally take because one of your friends (Joe) or your mortal enemy (Dave) told you that it would work. “She'd been to Narnia, Wonderland, Hogwarts, Dictionopolis. She had tessered, fallen through the rabbit hole, crossed the ice bridge into the unknown world beyond.” ― Anne Ursu, Breadcrumbs The one big thing Cisco Talos recently discovered "JWR," a previously undocumented, real-time phishing framework and likely variant of "The Outsider" phishing-as-a-service platform. JWR uses an open WebSocket connection that allows attackers to monitor keystrokes live and dynamically steer victims through fake checkout and login flows. Currently deployed via SMS lures impersonating regional toll and postal authorities, JWR enables operators to steal payment data, 2FA codes, identity documents, and device fingerprints. Why do I care? Because JWR is operator-driven in real time, attackers can actively bypass multi-factor authentication (MFA) by prompting victims for 2FA codes exactly when needed. The sheer volume of collected data gives threat actors a comprehensive identity profile primed for extensive follow-on fraud and network compromise. Furthermore, JWR's seamless integration with legitimate e-commerce platforms like Shopify makes these lures incre
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Curiouser and Curiouser
-  - Published: 2026-08-13T18:00:18+00:00
-  - Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
-  - Summary: In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
-
-### Cluster b4927a86ad — score 10
-
-- Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-11T22:21:02+00:00
-- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Azure, Cisco, Microsoft SharePoint
-- cve_ids: CVE-2026-62823, CVE-2026-62830, CVE-2026-62893, CVE-2026-65665, CVE-2026-68820
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Cisco, Microsoft SharePoint, Azure
-- cve_ids: CVE-2026-68820, CVE-2026-62893, CVE-2026-65665, CVE-2026-62823, CVE-2026-62830
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
-```
-
-#### Full body
-
-```
-Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, August 11, 2026 18:21 Patch Tuesday Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-68820 is an elevation of privilege vulnerability affecting Windows Ancillary Function Driver for WinSock. A Use After Free vulnerability could allow an authorized attacker to elevate privileges locally. This vulnerability has a CVSS base score of 7.0. Out of 62 "critical" vulnerabilities, 40 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-62893 is a remote code execution vulnerability affecting Windows Deployment Services TFTP Server. A Use After Free could allow an unauthorized attacker to execute code over a network. This vulnerability has a CVSS base score of 9.8. CVE-2026-65665 is a remote code execution vulnerability affecting Microsoft SharePoint Server. Deserialization of Untrusted Data could allow an authorized attacker to execute code over a network. This vulnerability has a CVSS base score of 8.8. CVE-2026-62823 is a remote code execution vulnerability affecting Windows DHCP Server. A Heap-based Buffer Overflow could allow an unauthorized attacker to execute code over an adjacent network. This vulnerability has a CVSS base score of 8.8. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-62830 is an elevation of privilege vulnerability affecting Azure SRE Agent. Missing Authorization could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.9. CVE-2026-50516 is an elevation of privilege vulnerability affecting Microsoft Azure Kubernetes Service. Missing Authentication for Critical Function could allow an unauthorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.4. Three remote code execution vulnerabilities, CVE-2026-68794 , CVE-2026-68816 and CVE-2026-68804 , affect Microsoft Excel and have a CVSS base score of 7.8. An unauthorized attacker could execute code locally. CVE-2026-68794 is a Heap-based Buffer Overflow. CVE-2026-68816 is a Stack-based Buffer Overflow. CVE-2026-68804 involves a Numeric Truncation Error and a Heap-based Buffer Overflow. CVE-2026-62911 is an elevation of privilege vulnerability affecting Microsoft Exchange Server. Authentication Bypass by Capture-replay could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 8.0. Nine remote code execution vulnerabilities, CVE-2026-63515 , CVE-2026-65657 , CVE-2026-63532 , CVE-2026-64898 , CVE-2026-64903 , CVE-2026-64909 , CVE-2026-64910 , CVE-2026-64911 and CVE-2026-70130 , affect Microsoft Office and could allow an unauthorized attacker to execute code locally. CVE-2026-63515 involves an Out-of-bounds Read and an Integer Underflow (Wrap or Wraparound) and has a CVSS base score of 7.8. CVE-2026-65657 is a Use After Free and has a CVSS base score of 7.8. CVE-2026-63532 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64898 involves a Heap-based Buffer Overflow and an Integer Overflow or Wraparound and has a CVSS base score of 7.8. CVE-2026-64903 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64909 involves an Integer Underflow (Wrap or Wraparound), an Out-of-bounds Read and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64910 is an Untrusted Pointer Dereference and has a CVSS base score of 7.8. CVE-2026-64911 involves an Integer Overflow or Wraparound and a Heap-based Buffer O
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
-  - Published: 2026-08-11T22:21:02+00:00
-  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-  - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
-
 ### Cluster 2a12c51464 — score 10
 
 - Title: The State of Ransomware Q2 2026
@@ -2534,6 +2446,137 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 10th Augus
   - Link: https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 452d902ac4 — score 10
+
+- Title: Curiouser and Curiouser
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-13T18:00:18+00:00
+- Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: retail_ecommerce
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: retail_ecommerce
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
+```
+
+#### Full body
+
+```
+Curiouser and Curiouser By William Largent Thursday, August 13, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. “Experiment is the mother of knowledge.” ― Madeleine L'Engle, A Wrinkle in Time “Don't slide down the rabbit hole. The way down is a breeze, but climbing back's a battle.” ― Kate Morton, The Clockmaker's Daughter Hacker Summer Camp has come and gone, which means it’s time for you to start planning next year’s trip. I’m surely going to recap Camp Season, right? Nope. One of the things that I’ve really enjoyed lately is a segment on the Beers with Talos podcast that we call “Make Hazel a Hacker.” If you haven’t listened to it, this is a perfect time to start. Each episode we take a few minutes and pose a security question, term, or concept to Hazel and force her to come up with an idea or explanation on the spot. There are no parameters, so she’s faced with the entirety of information security — past, present, and future. I know, it’s insane. The craziest part is that (I think) Hazel came up with this idea and still volunteered to put herself in the line of fire. As we put Hazel’s feet to the fire, one of my favorite things happens: The rest of us listen in and offer our thoughts during her brainstorming process. Invariably, we’ve got three very different answers, ideas, hints, or directions for her. It’s surely maddening for Hazel, but to me, the best part of the discussion that inevitably follows is that although they’re all different, they’re all correct. For example, this past episode I asked her about a behavioral indicator (regarding “wallpaper.bmp”) that seems benign on its own, but can be interesting to use as a pivot for a threat hunt. We had various interesting angles to consider, backed by years of knowledge and experience. It gave us a good conversation, and that was a .bmp! One of the most nebulous things to learn in this field is that multiple things can be both different and correct. When you are making your decisions this week — whether it’s deciding on a new pivot in your hunting, what devices to prioritize in your patching and updating, or which books or online training to focus on — take a quick second and get a second, third, and fourth opinion. Then try something that’s outside of your normal wheelhouse but sounds good when it’s proposed. None of this is a solo sport. It’s a team game and the best plays come from a mix of perspectives, experiences, and mistakes. The “right” answer can wear many faces, and your ability to hold different truths will lead you to undiscovered territory, the rabbit hole where anomaly lives and breathes. So... welcome back from Vegas. Now go down a rabbit hole on a path you wouldn’t normally take because one of your friends (Joe) or your mortal enemy (Dave) told you that it would work. “She'd been to Narnia, Wonderland, Hogwarts, Dictionopolis. She had tessered, fallen through the rabbit hole, crossed the ice bridge into the unknown world beyond.” ― Anne Ursu, Breadcrumbs The one big thing Cisco Talos recently discovered "JWR," a previously undocumented, real-time phishing framework and likely variant of "The Outsider" phishing-as-a-service platform. JWR uses an open WebSocket connection that allows attackers to monitor keystrokes live and dynamically steer victims through fake checkout and login flows. Currently deployed via SMS lures impersonating regional toll and postal authorities, JWR enables operators to steal payment data, 2FA codes, identity documents, and device fingerprints. Why do I care? Because JWR is operator-driven in real time, attackers can actively bypass multi-factor authentication (MFA) by prompting victims for 2FA codes exactly when needed. The sheer volume of collected data gives threat actors a comprehensive identity profile primed for extensive follow-on fraud and network compromise. Furthermore, JWR's seamless integration with legitimate e-commerce platforms like Shopify makes these lures incre
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Curiouser and Curiouser
+  - Published: 2026-08-13T18:00:18+00:00
+  - Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
+  - Summary: In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
+
+### Cluster b4927a86ad — score 10
+
+- Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-11T22:21:02+00:00
+- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Azure, Cisco, Microsoft SharePoint
+- cve_ids: CVE-2026-62823, CVE-2026-62830, CVE-2026-62893, CVE-2026-65665, CVE-2026-68820
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Cisco, Microsoft SharePoint, Azure
+- cve_ids: CVE-2026-68820, CVE-2026-62893, CVE-2026-65665, CVE-2026-62823, CVE-2026-62830
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
+```
+
+#### Full body
+
+```
+Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, August 11, 2026 18:21 Patch Tuesday Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-68820 is an elevation of privilege vulnerability affecting Windows Ancillary Function Driver for WinSock. A Use After Free vulnerability could allow an authorized attacker to elevate privileges locally. This vulnerability has a CVSS base score of 7.0. Out of 62 "critical" vulnerabilities, 40 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-62893 is a remote code execution vulnerability affecting Windows Deployment Services TFTP Server. A Use After Free could allow an unauthorized attacker to execute code over a network. This vulnerability has a CVSS base score of 9.8. CVE-2026-65665 is a remote code execution vulnerability affecting Microsoft SharePoint Server. Deserialization of Untrusted Data could allow an authorized attacker to execute code over a network. This vulnerability has a CVSS base score of 8.8. CVE-2026-62823 is a remote code execution vulnerability affecting Windows DHCP Server. A Heap-based Buffer Overflow could allow an unauthorized attacker to execute code over an adjacent network. This vulnerability has a CVSS base score of 8.8. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-62830 is an elevation of privilege vulnerability affecting Azure SRE Agent. Missing Authorization could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.9. CVE-2026-50516 is an elevation of privilege vulnerability affecting Microsoft Azure Kubernetes Service. Missing Authentication for Critical Function could allow an unauthorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.4. Three remote code execution vulnerabilities, CVE-2026-68794 , CVE-2026-68816 and CVE-2026-68804 , affect Microsoft Excel and have a CVSS base score of 7.8. An unauthorized attacker could execute code locally. CVE-2026-68794 is a Heap-based Buffer Overflow. CVE-2026-68816 is a Stack-based Buffer Overflow. CVE-2026-68804 involves a Numeric Truncation Error and a Heap-based Buffer Overflow. CVE-2026-62911 is an elevation of privilege vulnerability affecting Microsoft Exchange Server. Authentication Bypass by Capture-replay could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 8.0. Nine remote code execution vulnerabilities, CVE-2026-63515 , CVE-2026-65657 , CVE-2026-63532 , CVE-2026-64898 , CVE-2026-64903 , CVE-2026-64909 , CVE-2026-64910 , CVE-2026-64911 and CVE-2026-70130 , affect Microsoft Office and could allow an unauthorized attacker to execute code locally. CVE-2026-63515 involves an Out-of-bounds Read and an Integer Underflow (Wrap or Wraparound) and has a CVSS base score of 7.8. CVE-2026-65657 is a Use After Free and has a CVSS base score of 7.8. CVE-2026-63532 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64898 involves a Heap-based Buffer Overflow and an Integer Overflow or Wraparound and has a CVSS base score of 7.8. CVE-2026-64903 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64909 involves an Integer Underflow (Wrap or Wraparound), an Out-of-bounds Read and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64910 is an Untrusted Pointer Dereference and has a CVSS base score of 7.8. CVE-2026-64911 involves an Integer Overflow or Wraparound and a Heap-based Buffer O
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
+  - Published: 2026-08-11T22:21:02+00:00
+  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
+  - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
+
+### Cluster af5513db44 — score 10
+
+- Title: From Scanner Findings to Verifiable Web Application Risk
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-11T17:07:51+00:00
+- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+```
+
+#### Full body
+
+```
+From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: From Scanner Findings to Verifiable Web Application Risk
+  - Published: 2026-08-11T17:07:51+00:00
+  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+
 ### Cluster 44f04ecb50 — score 10
 
 - Title: Malware Crypting Services and the Threat Actors Who Sell Them
@@ -2574,45 +2617,6 @@ Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary 
   - Published: 2026-08-13T00:00:00+00:00
   - Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
   - Summary: Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
-
-### Cluster af5513db44 — score 10
-
-- Title: From Scanner Findings to Verifiable Web Application Risk
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-11T17:07:51+00:00
-- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
-```
-
-#### Full body
-
-```
-From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: From Scanner Findings to Verifiable Web Application Risk
-  - Published: 2026-08-11T17:07:51+00:00
-  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
 
 ### Cluster 272e108269 — score 10
 
@@ -2741,31 +2745,33 @@ RingCentral data breach exposed info of 1.6 million accounts By Sergiu Gatlan Au
   - Link: https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
   - Summary: The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]
 
-### Cluster 22bf2708a0 — score 10
+### Cluster 4d06d42e84 — score 10
 
-- Title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-12T17:39:27+00:00
-- Link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+- Title: Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-12T13:35:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
 - Fetch status: ok
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: Lazarus
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, web_shell_backdoor, zero_day
+- threat_categories: apt_espionage, web_shell_backdoor, zero_day
 - actor_attribution: Lazarus
-- affected_industries: aviation_defense
-- cve_ids: CVE-2026-68820
+- affected_industries: aviation_defense, financial_services, government
+- affected_products: Microsoft Windows, OpenAI/ChatGPT
+- cve_ids: CVE-2025-49113, CVE-2026-68820
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, apt_espionage, web_shell_backdoor
+- threat_categories: zero_day, apt_espionage, web_shell_backdoor
 - actor_attribution: Lazarus
-- affected_industries: aviation_defense
-- cve_ids: CVE-2026-68820
+- affected_industries: financial_services, government, aviation_defense
+- affected_products: OpenAI/ChatGPT, Microsoft Windows
+- cve_ids: CVE-2026-68820, CVE-2025-49113
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -2773,27 +2779,27 @@ RingCentral data breach exposed info of 1.6 million accounts By Sergiu Gatlan Au
 #### Summary
 
 ```
-The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
+Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit
 ```
 
 #### Full body
 
 ```
-Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor  Ravie Lakshmanan  Aug 12, 2026 Vulnerability / Cyber Espionage The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job , a long-running cyber espionage and social engineering campaign orchestrated by Pyongyang-backed hackers to target professionals worldwide with fake-but-compelling job offers at firms like Lockheed Martin and Enveil to steal sensitive data and install malware by approaching them on platforms like LinkedIn, pretending to be recruiters in an attempt to build trust. The attacks have been found to exploit CVE-2026-68820 (CVSS score: 7.0), a privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock ("AFD.sys") that was patched by Microsoft as part of its Patch Tuesday updates for August 2026. Check Point Research told The Hacker News that it reported the vulnerability to Microsoft in late July 2026, although it said "we are familiar with a successful implementation of the CVE in the beginning of June." As observed in prior campaign waves, victims are lured through bogus recruiter messages and tricked into opening a malicious PDF or installing a trojanized PDF viewer, which is then used to install a new backdoor called Troy that grants remote access to the compromised machine. The end goal of these intrusions is to seize complete control of infected computers and bypass security controls. The use of a trojanized PDF viewer is a tried-and-tested tactic adopted by the Lazarus Group in conjunction with Dream Job , with the threat actors abusing this method as far back as 2022. Two different parallel infection sequences have been detected as part of the latest attacks - DLL side-loading , in which victims are instructed to download an encrypted archive that's used to trigger a DLL side-loading chain. The malicious DLL ("libmupdf.dll") is used to display a bogus job description lure, while it stealthily downloads and executes in memory a lightweight downloader dubbed MISTPEN . The downloader communicates with threat actor-controlled infrastructure using Microsoft Graph API and OneDrive to retrieve and run reconnaissance and persistence modules and trigger the "AFD.sys" driver exploit, before deploying ForestTiger (aka ScoringMathTea), which provides remote access to the host. Trojanized "SecurityPDF" PDF viewer , in which victims are instructed to download SecurityPDF from a website impersonating Enveil. Once installed, it monitors for any PDF document opened through it for a special marker ("This document is encrypted with sumatrapdf reader!!!!!!!!!!!!"). If such a marker is present, the application decrypts and launches an embedded payload that's responsible for loading a backdoor called Troy directly into memory. The DLL implant supports 17 operator commands to facilitate file enumeration, upload and download, archive and exfiltration, interactive shell access, process termination, in-memory DLL injection, and configuration updates. High-level overview of the DLL sideloading infection chain. MISTPEN, for its part, loads at least four different modules - GetInfoPlugin ("Release_GetInfoPlugin_x64.dll"), to profile the host and exfiltrate the collected information as a single wide-character string PvPlugin ("Release_PvPlugin_x64.dll"), to collect host reconnaissance data and details about running processes OneScreenCapture ("OneScreenCapture64.dll"), to take screenshots of the current desktop, including all monitors, and transmit them as JPEG images LPE (local privilege escalation) loader , which gathers host information, generates new key material using the ML-KEM post-quantum key encapsulation algorithm, and uses the ne
+Infosecurity Magazine Home » News » Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day News 12 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Malware used by North Korea's Lazarus group negotiated its command channel using a post-quantum key exchange before pulling down a Windows zero-day exploit, in a campaign against defense and aerospace companies across Europe and India. Check Point Research reported the vulnerability to Microsoft on July 28 and published its analysis on August 11, the day a patch shipped. CVE-2026-68820 is a use-after-free race condition in AFD.sys, the driver handling network sockets in the Windows kernel, and was the only flaw in this the August Patch Tuesday release Microsoft flagged as under active exploitation. The activity is the latest wave of Operation Dream Job , which approaches employees at defense firms with fraudulent job offers. Targets included organizations working on surveillance sensors, drones and robotics, with activity or targeting in France, Germany, Brazil and India. Four Keys and a Layered Handshake Infection ran through MISTPEN, an in-memory downloader that communicates via attacker-controlled files on OneDrive using the Microsoft Graph API. After reconnaissance and persistence stages, it loaded a dedicated module to fetch the privilege escalation exploit. That module fingerprinted the host, then requested four public keys from the command server. It used them to generate fresh key material with Kyber/ML-KEM, the key encapsulation scheme NIST standardized in 2024 to resist attack by quantum computers , returning the encapsulated result before requesting the exploit itself, which it decrypted and ran in memory. Traffic through that channel carried a second encryption layer using GOST-CBC, on top of MISTPEN's own AES transport encryption. What arrived through the handshake was FudModule, Lazarus's kernel rootkit, in a build Check Point tracks as v3.1.It disables telemetry callbacks, removes minifilters, kills the NT Kernel Logger and blinds 94 Event Tracing for Windows (ETW) providers. Newly added is tampering with Smart App Control, resetting its policy state and forcing a code integrity reload. Command and Control on Borrowed Servers The group ran its infrastructure almost entirely on machines it did not own, using Roundcube webmail servers exploited through CVE-2025-49113 with credentials likely sourced from dark web leaks, alongside compromised PrestaShop sites. Each hosts RelayShell, a previously undocumented PHP webshell that acts as a message relay rather than a conventional command shell, passing traffic between operator and victim through session files. Check Point found evidence of at least 17 compromised relay servers. Delivery has also shifted. The group built at least three websites impersonating privacy technology vendor Enveil, some ranking top in search results. Check Point stressed Enveil was neither targeted nor compromised. Those sites distributed a trojanized PDF viewer that runs a payload hidden inside crafted documents, delivering Troy, a previously undocumented backdoor supporting 17 operator commands. You may also like Lazarus Group Targets Developers in New Data Theft Campaign News 17 January 2025 Lazarus Group Targeting Microsoft Web Servers to Launch Espionage Malware News 24 May 2023 Cybercrime a Key Revenue Stream For North Korea's Weapons Program News 5 August 2022 Aerospace Executives Targeted Via LinkedIn Recruitment Messages News 17 June 2020 US Government: North Korean Threat Actors Are Targeting Cryptocurrency Organizations News 20 April 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Suisan City, California, Responds to Cyber Incident Amid Wave of US Local Government Attacks News 11 August 2026 1 Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day News 12 August 2026 2 OpenAI Launches Two-Tier Se
 ```
 
 #### Corroborating sources (2)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
-  - Published: 2026-08-12T17:39:27+00:00
-  - Link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
-  - Summary: The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day
   - Published: 2026-08-12T13:35:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
   - Summary: Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+  - Published: 2026-08-12T17:39:27+00:00
+  - Link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+  - Summary: The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
 
 ### Cluster 4535ef9ae8 — score 10
 
@@ -3600,6 +3606,39 @@ Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Br
   - Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
   - Summary: The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
 
+### Cluster 3b8dca7ee7 — score 8
+
+- Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-10T15:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
+  - Published: 2026-08-10T15:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
+  - Summary: Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
+
 ### Cluster b149935f25 — score 8
 
 - Title: SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code
@@ -3743,36 +3782,3 @@ A lot of security problems still begin with someone doing a completely normal th
   - Published: 2026-08-10T15:00:29+00:00
   - Link: https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html
   - Summary: A lot of security problems still begin with someone doing a completely normal thing. Cloning a repo. Answering a call. Leaving a box exposed. Trusting the default. That pretty much covers the mood this week. Old bugs are back, supply chains are getting stranger, and some exploit paths are so short you wonder what was supposed to stop them in the first place. That’s only part of it. Here’s
-
-### Cluster 3b8dca7ee7 — score 8
-
-- Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-10T15:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant
-  - Published: 2026-08-10T15:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/
-  - Summary: Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data
