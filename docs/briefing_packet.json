@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:30:08.939919+00:00",
+  "generated_at": "2026-08-16T21:26:31.032284+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
@@ -81,13 +81,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -95,12 +88,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -109,12 +109,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -130,13 +130,6 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
@@ -151,13 +144,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -165,26 +151,19 @@
       "item_count": 10,
       "in_window_count": 9
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 15,
       "in_window_count": 3
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -193,11 +172,25 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -214,26 +207,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 11
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -242,6 +228,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -249,8 +242,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -262,13 +269,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -284,18 +284,18 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 0
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
       "in_window_count": 0
     },
     "Orca Security Research": {
@@ -319,19 +319,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -445,6 +445,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -452,8 +459,8 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -466,12 +473,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 21
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -480,18 +487,18 @@
       "item_count": 30,
       "in_window_count": 19
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -501,15 +508,15 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -529,36 +536,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 34
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -571,12 +550,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 28
+      "item_count": 50,
+      "in_window_count": 34
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -585,6 +578,13 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 28
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -592,19 +592,19 @@
       "item_count": 25,
       "in_window_count": 17
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -4470,6 +4470,199 @@
       ]
     },
     {
+      "cluster_id": "21cbe0b5fa",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [
+          "Mustang Panda"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Defender"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit",
+        "link": "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
+        "published": "2026-08-14T09:00:14+00:00",
+        "summary": "Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.",
+        "full_body": "Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\\\Root\\Microsoft\\Windows\\Defender Path MSFT_MpPreference call Add ExclusionPath=\"$programfiles\\Microsoft\\Windows Defender\" wmic /Node:localhost /Namespace:\\\\Root\\Microsoft\\Windows\\Defender Path MSFT_MpPreference call Add ExclusionPath=\"$programfiles\\Microsoft\\Windows Defender\\defender.exe\" 1 2 wmic / Node : localhost / Namespace : \\ \\ Root \\ Microsoft \\ Windows \\ Defender Path MSFT_MpPreference call Add ExclusionPath = \"$programfiles\\Microsoft\\Windows Defender\" wmic / Node : localhost / Namespace : \\ \\ Root \\ Microsoft \\ Windows \\ Defender Path MSFT_MpPreference call Add ExclusionPath = \"$programfiles\\Microsoft\\Windows Defender\\defender.exe\" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy \"$programfiles\\Windows Defender\\*\" \"$programfiles\\Microsoft\\Windows Defender\" /a /s /v /e /f 1 xcopy \"$programfiles\\Windows Defender\\*\" \"$programfiles\\Microsoft\\Windows Defender\" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn \"\\Microsoft\\Windows\\Windows Defender Advanced Threat Protection Service\" /tr \"\\\"$p",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [
+            "Mustang Panda"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit",
+          "link": "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
+          "published": "2026-08-14T09:00:14+00:00",
+          "summary": "Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [
+              "Mustang Panda"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1e8cbb1e90",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Armored Likho expands its cyber-espionage toolkit",
+        "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
+        "published": "2026-08-13T08:00:15+00:00",
+        "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
+        "full_body": "Table of Contents Background Initial infection Still Sync How it works Telegram data collection Still Audio The eavesdropping process Infrastructure Victims Attribution Takeaways Indicators of compromise Authors Konstantin Isakov In May 2026, we discovered a new cyber-espionage campaign by the Armored Likho group, also known as Eagle Werewolf, that targets private individuals and organizations across various industries in Russia, including major corporations, the public sector, IT, and education. The attackers used a fake app as bait that mimics a service for donations. However, the most interesting part of this campaign isn’t the initial infection method – it’s the malicious implants the attackers use for cyber-espionage. We’ve written previously about recent Armored Likho attacks, but our analysis shows that the campaign discussed below has more in common with the group’s activity from February . That said, the attackers have significantly expanded their arsenal. During our research, we found a new cyber-espionage toolkit written in Rust: the Still Toolkit . One of its components, Still Sync , steals Telegram session data to gain ongoing access to the victim’s account. With this stolen data, attackers can leverage the Telegram API to automatically pull chat logs, media files, and other information from the account. The second component, Still Audio , is an implant for covert audio surveillance. It analyzes the incoming audio stream, automatically detects speech, records conversations, and sends the recordings to a command-and-control server. In this article, we’ll look at the initial infection method, how the new Still Toolkit components are built, and the technical details of how they operate. Kaspersky products detect this threat as Trojan.Win64.Agent.* and HEUR:Backdoor.Win32.Generic . Background Armored Likho’s malicious activity has been documented several times before: in November 2024, and in February and July 2026. The current campaign shows significant overlap with the November and February campaigns, which used malicious droppers disguised as documents and applications related to Starlink activation or fundraising efforts as the initial infection vector. This campaign also uses fundraising as its lure. At the same time, our research uncovered a number of new tools that point to the attackers expanding their capabilities. Initial infection The infection chain starts with an app that mimics a donation service. As of this writing, the app distribution method remains unknown. During our research, however, we obtained several samples posing as apps from different Russian foundations. In reality, the app is a dropper. Its developers wrote it in Rust on top of the popular Tauri framework, and it has a graphical interface designed to deceive the user. After launch, it displays a login form that asks for a password, presumably one the attackers supplied. The login form After the user enters a valid password, they see a catalog of donatable items. The app pulls item and category information from orderapiserver[.]info through the public/categories and public/products endpoints . A clickable catalog makes the app look legitimate. While the user browses the items, the dropper quietly decrypts and launches the payload for the next stage in the background. Our analysis shows that the mechanism for decrypting the payload and launching subsequent stages hasn’t changed since the February campaign. However, we found a new cyber-espionage toolkit – the Still Toolkit – made up of two components: Still Sync and Still Audio. Still Sync Still Sync is a stealer written in Rust that steals Telegram session data. However, its capabilities don’t stop there. With this stolen data, Sync can log in to the victim’s account and pull messages and media files through the Telegram API. Architecturally, Sync is an asynchronous application based on the Tokio library. It talks to the server over gRPC and serializes messages with FlatBuffers . It support",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Armored Likho expands its cyber-espionage toolkit",
+          "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
+          "published": "2026-08-13T08:00:15+00:00",
+          "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2a12c51464",
       "priority_score": 10,
       "member_count": 1,
@@ -4706,199 +4899,6 @@
       ]
     },
     {
-      "cluster_id": "21cbe0b5fa",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [
-          "Mustang Panda"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Defender"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit",
-        "link": "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
-        "published": "2026-08-14T09:00:14+00:00",
-        "summary": "Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.",
-        "full_body": "Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\\\Root\\Microsoft\\Windows\\Defender Path MSFT_MpPreference call Add ExclusionPath=\"$programfiles\\Microsoft\\Windows Defender\" wmic /Node:localhost /Namespace:\\\\Root\\Microsoft\\Windows\\Defender Path MSFT_MpPreference call Add ExclusionPath=\"$programfiles\\Microsoft\\Windows Defender\\defender.exe\" 1 2 wmic / Node : localhost / Namespace : \\ \\ Root \\ Microsoft \\ Windows \\ Defender Path MSFT_MpPreference call Add ExclusionPath = \"$programfiles\\Microsoft\\Windows Defender\" wmic / Node : localhost / Namespace : \\ \\ Root \\ Microsoft \\ Windows \\ Defender Path MSFT_MpPreference call Add ExclusionPath = \"$programfiles\\Microsoft\\Windows Defender\\defender.exe\" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy \"$programfiles\\Windows Defender\\*\" \"$programfiles\\Microsoft\\Windows Defender\" /a /s /v /e /f 1 xcopy \"$programfiles\\Windows Defender\\*\" \"$programfiles\\Microsoft\\Windows Defender\" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn \"\\Microsoft\\Windows\\Windows Defender Advanced Threat Protection Service\" /tr \"\\\"$p",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [
-            "Mustang Panda"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Defender"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft Defender": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit",
-          "link": "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
-          "published": "2026-08-14T09:00:14+00:00",
-          "summary": "Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [
-              "Mustang Panda"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Defender"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft Defender": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1e8cbb1e90",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Armored Likho expands its cyber-espionage toolkit",
-        "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
-        "published": "2026-08-13T08:00:15+00:00",
-        "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
-        "full_body": "Table of Contents Background Initial infection Still Sync How it works Telegram data collection Still Audio The eavesdropping process Infrastructure Victims Attribution Takeaways Indicators of compromise Authors Konstantin Isakov In May 2026, we discovered a new cyber-espionage campaign by the Armored Likho group, also known as Eagle Werewolf, that targets private individuals and organizations across various industries in Russia, including major corporations, the public sector, IT, and education. The attackers used a fake app as bait that mimics a service for donations. However, the most interesting part of this campaign isn’t the initial infection method – it’s the malicious implants the attackers use for cyber-espionage. We’ve written previously about recent Armored Likho attacks, but our analysis shows that the campaign discussed below has more in common with the group’s activity from February . That said, the attackers have significantly expanded their arsenal. During our research, we found a new cyber-espionage toolkit written in Rust: the Still Toolkit . One of its components, Still Sync , steals Telegram session data to gain ongoing access to the victim’s account. With this stolen data, attackers can leverage the Telegram API to automatically pull chat logs, media files, and other information from the account. The second component, Still Audio , is an implant for covert audio surveillance. It analyzes the incoming audio stream, automatically detects speech, records conversations, and sends the recordings to a command-and-control server. In this article, we’ll look at the initial infection method, how the new Still Toolkit components are built, and the technical details of how they operate. Kaspersky products detect this threat as Trojan.Win64.Agent.* and HEUR:Backdoor.Win32.Generic . Background Armored Likho’s malicious activity has been documented several times before: in November 2024, and in February and July 2026. The current campaign shows significant overlap with the November and February campaigns, which used malicious droppers disguised as documents and applications related to Starlink activation or fundraising efforts as the initial infection vector. This campaign also uses fundraising as its lure. At the same time, our research uncovered a number of new tools that point to the attackers expanding their capabilities. Initial infection The infection chain starts with an app that mimics a donation service. As of this writing, the app distribution method remains unknown. During our research, however, we obtained several samples posing as apps from different Russian foundations. In reality, the app is a dropper. Its developers wrote it in Rust on top of the popular Tauri framework, and it has a graphical interface designed to deceive the user. After launch, it displays a login form that asks for a password, presumably one the attackers supplied. The login form After the user enters a valid password, they see a catalog of donatable items. The app pulls item and category information from orderapiserver[.]info through the public/categories and public/products endpoints . A clickable catalog makes the app look legitimate. While the user browses the items, the dropper quietly decrypts and launches the payload for the next stage in the background. Our analysis shows that the mechanism for decrypting the payload and launching subsequent stages hasn’t changed since the February campaign. However, we found a new cyber-espionage toolkit – the Still Toolkit – made up of two components: Still Sync and Still Audio. Still Sync Still Sync is a stealer written in Rust that steals Telegram session data. However, its capabilities don’t stop there. With this stolen data, Sync can log in to the victim’s account and pull messages and media files through the Telegram API. Architecturally, Sync is an asynchronous application based on the Tokio library. It talks to the server over gRPC and serializes messages with FlatBuffers . It support",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Armored Likho expands its cyber-espionage toolkit",
-          "link": "https://securelist.com/armored-likho-still-toolkit/121033/",
-          "published": "2026-08-13T08:00:15+00:00",
-          "summary": "Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "452d902ac4",
       "priority_score": 10,
       "member_count": 1,
@@ -5123,87 +5123,6 @@
       ]
     },
     {
-      "cluster_id": "44f04ecb50",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
-        "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
-        "published": "2026-08-13T00:00:00+00:00",
-        "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
-        "full_body": "Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
-          "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
-          "published": "2026-08-13T00:00:00+00:00",
-          "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "af5513db44",
       "priority_score": 10,
       "member_count": 1,
@@ -5289,6 +5208,87 @@
                   0.25
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "44f04ecb50",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
+        "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
+        "published": "2026-08-13T00:00:00+00:00",
+        "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
+        "full_body": "Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
+          "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
+          "published": "2026-08-13T00:00:00+00:00",
+          "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
             }
           }
         }

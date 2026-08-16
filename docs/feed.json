@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:30:08.963864+00:00",
+  "generated_at": "2026-08-16T21:26:31.058939+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2090,
@@ -18,13 +18,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -32,12 +25,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -46,12 +46,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "item_count": 25,
+      "in_window_count": 0
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -67,13 +67,6 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
@@ -88,13 +81,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -102,26 +88,19 @@
       "item_count": 10,
       "in_window_count": 9
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 15,
       "in_window_count": 3
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -130,11 +109,25 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -151,26 +144,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 11
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -179,6 +165,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -186,8 +179,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -199,13 +206,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -221,18 +221,18 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 0
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
       "in_window_count": 0
     },
     "Orca Security Research": {
@@ -256,19 +256,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -382,6 +382,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -389,8 +396,8 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -403,12 +410,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 21
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -417,18 +424,18 @@
       "item_count": 30,
       "in_window_count": 19
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -438,15 +445,15 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -466,36 +473,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 34
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -508,12 +487,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 28
+      "item_count": 50,
+      "in_window_count": 34
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -522,6 +515,13 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 28
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -529,19 +529,19 @@
       "item_count": 25,
       "in_window_count": 17
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -16006,6 +16006,35 @@
       }
     },
     {
+      "source": "Intel 471",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "category": "ransomware_ecrime_financial_crime",
+      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
+      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
+      "published": "2026-07-28T11:00:00+00:00",
+      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -16029,35 +16058,6 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Intel 471",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "category": "ransomware_ecrime_financial_crime",
-      "title": "Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows",
-      "link": "https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows",
-      "published": "2026-07-28T11:00:00+00:00",
-      "summary": "While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
