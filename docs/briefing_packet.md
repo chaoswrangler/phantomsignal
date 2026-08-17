@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-17T07:06:47.586555+00:00
+- Generated: 2026-08-17T08:51:49.376624+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 307
-- Total clusters raw: 136
+- Total items in window: 308
+- Total clusters raw: 138
 - Total clusters in packet: 69
-- Dropped low score: 67
+- Dropped low score: 69
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,18 +80,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -100,51 +110,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,11 +150,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,36 +170,41 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 7
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -210,16 +215,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -229,11 +234,6 @@
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
@@ -245,11 +245,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -259,12 +254,22 @@
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 5
+  - In window count: 6
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -275,11 +280,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -290,51 +290,51 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 2
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 20
+  - In window count: 11
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 3
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 11
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,11 +350,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -370,6 +365,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 21
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -380,11 +385,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 8
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,6 +400,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -405,11 +415,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -424,17 +429,12 @@
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
-  - In window count: 33
+  - In window count: 32
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 28
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - In window count: 29
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -445,15 +445,15 @@
   - Status: ok
   - Item count: 25
   - In window count: 16
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -473,28 +473,29 @@
 
 ## Affinity groups (themes)
 
-### CVE-2026-68820 exploitation (Microsoft SharePoint)
-- Anchor signal: CVE-2026-68820
-- Theme key: cve-2026-68820
-- Cluster count: 7
-- Article count: 14
-- Cohesion: 0.259
-- Shared strong signals: CVE-2026-68820
-- Member CVEs: (none)
+### Microsoft SharePoint exploitation (CVE-2026-68820)
+- Anchor signal: Microsoft SharePoint
+- Theme key: microsoft-sharepoint
+- Cluster count: 8
+- Article count: 12
+- Cohesion: 0.251
+- Shared strong signals: Microsoft SharePoint
+- Member CVEs: CVE-2026-68820
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation, phishing_social_eng
-  - actor_attribution: Lazarus
-  - affected_products: Microsoft SharePoint
-  - cve_ids: CVE-2026-68820, CVE-2026-62832
-  - urgency_signals: zero_day, actively_exploited
-- Cluster IDs: 17761b9ecf, c13f381a5a, ef336b7141, 02b0e547f6, b4927a86ad, 22bf2708a0, 7f18333ab6
+  - threat_categories: active_exploitation, zero_day
+  - affected_products: Microsoft SharePoint, Azure
+  - cve_ids: CVE-2026-68820, CVE-2026-62832, CVE-2026-62815, CVE-2026-62878, CVE-2026-62893
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth
+- Cluster IDs: 17761b9ecf, c13f381a5a, ef336b7141, 02b0e547f6, 927bf94c9b, b4927a86ad, 22bf2708a0, 7f18333ab6
 - Links:
   - https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026
   - https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
   - https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/
   - https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/
   - https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
+  - https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/
+  - https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
   - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
   - https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
@@ -506,12 +507,12 @@
 - Theme key: apple-ios-macos
 - Cluster count: 5
 - Article count: 11
-- Cohesion: 0.278
+- Cohesion: 0.257
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: data_breach, zero_day, supply_chain, ransomware_extortion, phishing_social_eng
+  - threat_categories: data_breach, zero_day, ransomware_extortion, phishing_social_eng
   - actor_attribution: ShinyHunters
   - affected_industries: financial_services
   - affected_products: Apple iOS/macOS, Fortinet, Google Cloud
@@ -521,9 +522,9 @@
   - https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/
   - https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/
   - https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/
+  - https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
   - https://risky.biz/RBNEWS600/
-  - https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/
   - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/
   - https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/
@@ -567,9 +568,9 @@
 - Cluster IDs: e3235a03c3, 963c57eb1b, 21cbe0b5fa, 8fb5179107
 - Links:
   - https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/
+  - https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/
   - https://risky.biz/RBNEWS600/
-  - https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/
   - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
   - https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
@@ -600,20 +601,40 @@
 - Theme key: shinyhunters
 - Cluster count: 3
 - Article count: 3
-- Cohesion: 0.68
+- Cohesion: 0.65
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, supply_chain
+  - threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
   - actor_attribution: ShinyHunters
   - affected_industries: financial_services
-  - affected_products: Apple iOS/macOS, Fortinet, Google Cloud
+  - affected_products: Apple iOS/macOS, Fortinet
   - urgency_signals: zero_day, no_patch_yet
 - Cluster IDs: 75a2a6649a, b3aa07bd4c, a06704d870
 - Links:
   - https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/
   - https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/
+  - https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/
+
+### zero day targeting Google Cloud
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
+- Cluster count: 3
+- Article count: 4
+- Cohesion: 0.275
+- Shared strong signals: Google Cloud
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, data_breach
+  - affected_products: Google Cloud, Apple iOS/macOS, Fortinet
+  - urgency_signals: zero_day, no_patch_yet
+- Cluster IDs: d32aa43a64, 927bf94c9b, a06704d870
+- Links:
+  - https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/
+  - https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/
+  - https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
   - https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/
 
 ### CVE-2026-50656 exploitation activity
@@ -710,7 +731,8 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2019-0344 (first seen via SecurityWeek at 2026-08-17T08:13:07+00:00, cluster 927bf94c9b)
 - Novel actors: 0
 - Novel products: 0
 
@@ -1279,7 +1301,7 @@ Mines, Minds, and Machines: The Journey of AI Minerals become chips. Chips suppl
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, supply_chain, zero_day
+- threat_categories: data_breach, zero_day
 - affected_industries: government, telecommunications
 - affected_products: Apple iOS/macOS, Fortinet, Google Cloud
 - urgency_signals: no_patch_yet, zero_day
@@ -1287,7 +1309,7 @@ Mines, Minds, and Machines: The Journey of AI Minerals become chips. Chips suppl
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, zero_day, data_breach
+- threat_categories: zero_day, data_breach
 - affected_industries: government, telecommunications
 - affected_products: Google Cloud, Fortinet, Apple iOS/macOS
 - urgency_signals: zero_day, no_patch_yet
@@ -1303,7 +1325,7 @@ The security defect is described as an SQL injection that could allow attackers 
 #### Full body
 
 ```
-Threat actors started exploiting an unpatched zero-day vulnerability in GeoServer hours after it was publicly disclosed, attack surface management firm WatchTowr says. The security defect, described as an SQL injection issue that could be exploited to achieve remote code execution (RCE), was disclosed on Wednesday by a security researcher named q1uf3ng. According to the researcher’s post on X, the flaw affects GeoServer’s jsonArrayContains function, a filter expression for querying JSON array fields to check if they contain specific values. It can be used with PostGIS and Oracle JDBC data stores. The SQL injection is likely caused by user-supplied arguments being improperly sanitized before they are encoded into database queries, which, under certain configurations, leads to RCE. According to WatchTowr, threat actors started exploiting the unpatched zero-day vulnerability shortly after it became public. “Within hours of public disclosure, we began observing exploitation attempts and have since recorded hundreds of attempts originating from a small number of source IP addresses. Yet another example of how quickly attackers move once a vulnerability enters the public domain,” WatchTowr’s Jake Knott said. Advertisement. Scroll to continue reading. Threat actors have been targeting the security defect to probe vulnerable systems, but no follow-up activity has been observed. “However, this is unlikely to remain the case for long: GeoServer has a track record of being targeted and exploited at scale , with multiple vulnerabilities listed in CISA’s Known Exploited Vulnerabilities catalog,” Knott said. “With no patch currently available and exploitation already underway, organizations running GeoServer should take this vulnerability seriously and, where possible, identify exposed instances, restrict public access, and monitor for a vendor fix,” he added. A popular open source platform for sharing and processing geospatial data, GeoServer is used across government, agriculture, telecoms, transit, and other industries. Related: Adobe Commerce Bug Targeted Immediately After Disclosure Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Related: Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Related: Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Re
+Threat actors started exploiting an unpatched zero-day vulnerability in GeoServer hours after it was publicly disclosed, attack surface management firm WatchTowr says. The security defect, described as an SQL injection issue that could be exploited to achieve remote code execution (RCE), was disclosed on Wednesday by a security researcher named q1uf3ng. According to the researcher’s post on X, the flaw affects GeoServer’s jsonArrayContains function, a filter expression for querying JSON array fields to check if they contain specific values. It can be used with PostGIS and Oracle JDBC data stores. The SQL injection is likely caused by user-supplied arguments being improperly sanitized before they are encoded into database queries, which, under certain configurations, leads to RCE. According to WatchTowr, threat actors started exploiting the unpatched zero-day vulnerability shortly after it became public. “Within hours of public disclosure, we began observing exploitation attempts and have since recorded hundreds of attempts originating from a small number of source IP addresses. Yet another example of how quickly attackers move once a vulnerability enters the public domain,” WatchTowr’s Jake Knott said. Advertisement. Scroll to continue reading. Threat actors have been targeting the security defect to probe vulnerable systems, but no follow-up activity has been observed. “However, this is unlikely to remain the case for long: GeoServer has a track record of being targeted and exploited at scale , with multiple vulnerabilities listed in CISA’s Known Exploited Vulnerabilities catalog,” Knott said. “With no patch currently available and exploitation already underway, organizations running GeoServer should take this vulnerability seriously and, where possible, identify exposed instances, restrict public access, and monitor for a vendor fix,” he added. A popular open source platform for sharing and processing geospatial data, GeoServer is used across government, agriculture, telecoms, transit, and other industries. Related: Adobe Commerce Bug Targeted Immediately After Disclosure Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Related: Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Related: Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 14,000 Trezor Customers Impacted by Data Breach at ShipMonk AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Latest News Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as th
 ```
 
 #### Corroborating sources (1)
@@ -1477,7 +1499,7 @@ AI Research The Model Is the Malware | What Four Agentic Intrusions Tell Defende
 - affected_products: Apple iOS/macOS, Microsoft Defender
 - cve_ids: CVE-2026-33825, CVE-2026-50751, CVE-2026-50752
 - urgency_signals: no_patch_yet, zero_day
-- content_type: news_report
+- content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_1_primary_research, tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
@@ -1508,6 +1530,11 @@ Table of Contents Quarterly figures Ransomware Quarterly trends and highlights T
   - Published: 2026-08-10T10:00:37+00:00
   - Link: https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/
   - Summary: The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as internet of things (IoT) devices, during Q2 2026.
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Recent macOS Screen Sharing Vulnerability Exploited in Attacks
+  - Published: 2026-08-17T08:47:38+00:00
+  - Link: https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/
+  - Summary: Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Hackers exploit macOS Screen Sharing flaw to deploy Monero miner
   - Published: 2026-08-14T14:59:55+00:00
@@ -1518,11 +1545,6 @@ Table of Contents Quarterly figures Ransomware Quarterly trends and highlights T
   - Published: 2026-08-14T04:37:40+00:00
   - Link: https://risky.biz/RBNEWS600/
   - Summary: The White House will let private companies carry out offensive cyber ops, an AI hacking campaign breached Taiwan’s government, a macOS bug was exploited over the internet to drop cryptominers, and Kenya orders internet cafes to store logs.
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions
-  - Published: 2026-08-14T06:41:43+00:00
-  - Link: https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/
-  - Summary: The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek .
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Novel macOS Infostealer AmnesiaStealer Spread via ClickFix
   - Published: 2026-08-14T10:45:00+00:00
@@ -1594,12 +1616,12 @@ From Patch Tuesday to Pentest Wednesday®: How a Major Transportation Company Tu
 - Published: 2026-08-13T16:00:00+00:00
 - Link: https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
-- affected_industries: education, financial_services
+- affected_industries: education
 - affected_products: Azure, GitHub, Salesforce, npm
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research, tier_2_operator, tier_4_news
@@ -1622,7 +1644,7 @@ See how the open source projects in Session 4 of the GitHub Secure Open Source F
 Gregg Cochran · @dubsopenhub August 13, 2026 | 11 minutes Share: AI is changing the pace of open source development and the security challenges that come with it. Maintainers are reviewing unfamiliar contributions, managing new attack surfaces, and responding to vulnerabilities with limited time and resources. Session 4 of the GitHub Secure Open Source Fund tested a practical response. The Secure Fund invested more than $500,000 across 50 projects , pairing maintainers with GitHub Security Lab experts, GitHub security tools, AI-assisted workflows, and a peer community. One lesson emerged consistently: AI can help maintainers investigate, prioritize, and respond faster. Maintainers still provide the context, judgement, and accountability required to decide what ships. OpenClaw was invited to participate in Session 4 because it is GitHub’s fastest-growing open source project, and its maintainers wanted to strengthen its security posture. By the end of Session 4, OpenClaw developed an incident response plan, expanded its use of GitHub security tooling, audited its GitHub Actions workflows, and strengthened its processes for identifying and responding to security issues. The maintainers shared: OpenClaw’s experience reflects the broader story of Session 4. While the specific risks varied across the cohort, maintainers shared a consistent need: the knowledge, tools, and expert support to secure software as AI changed how they built it. Across the program, maintainers turned that support into concrete security improvements. Projects strengthened established practices, prepared for emerging AI-related risks, and explored how tools like GitHub Copilot could support vulnerability triage, threat modeling, code review, and remediation. The benefits extend beyond individual projects. When maintainers strengthen the security of widely used open source software, they help build a more resilient ecosystem for everyone who depends on it. How the GitHub Secure Open Source Fund works The GitHub Secure Open Source Fund links funding directly to measurable security outcomes. The program combines hands-on security education, direct engagement with GitHub Security Lab experts, and a trusted community where maintainers can work through security challenges with their peers. Each session is a three-week sprint and engagement for a total of 12 months. Funding and participation are tied directly to outcome‑driven goals and verified security improvements. The sprint is designed and curated by the GitHub Security Lab , and delivered by security experts from GitHub and our partners. The training is structured into different focus areas per week. These include: Foundations of open source security Threat modeling and secure coding AI security and vulnerability management Throughout this program, each project receives $10,000 USD via GitHub Sponsors (which breaks down to $6,000 USD during the sprint and $2,000 USD at six- and 12-month security check-ins). Projects are invited to a new security-focused community and office hours with the GitHub Security Lab , which they can take advantage of during the full 12 months. They also receive security resources to immediately implement in their project and Azure credits for cloud infrastructure. Learn more about the Secure Open Source Fund. Apply for Session 5 of the GitHub Secure Open Source Fund before August 24. Become a Funding or Ecosystem Partner of the GitHub Secure Open Source Fund. Where security work happened in Session 4 Session 4 focused on improving security across the systems developers rely on every day. The projects below are grouped by the role they play in the software ecosystem. AI, machine learning, and intelligent systems 🤖 Caracal • Deep Agents • DocsGPT • LadybugDB • LangChain • n8n-MCP • Nasiko • ONNX • OpenClaw • PageIndex • Scenic • Serena These projects sit at the intersection of AI, automation, data infrastructure, and machine learning. They increasingly serve as foundational components fo
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - Title: What 50 open source projects taught us about security in the AI era
@@ -1639,11 +1661,6 @@ Gregg Cochran · @dubsopenhub August 13, 2026 | 11 minutes Share: AI is changing
   - Published: 2026-08-16T08:00:56+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/16/week-in-review-salesforce-and-servicenow-portals-exposed-for-17-months-exploited-metabase-0-day/
   - Summary: Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: GitHub Dependabot malware alerts now cover eight ecosystems GitHub has flagged npm malware since March 2026. Anyone pulling in a bad PyPI, Maven, RubyGems, NuGet, Go, crates.io, or PHP Composer package has had no such warning, because GitHub’s malware detection only ever watched one ecosystem. That changed this month. Dependabot malware alerts, which had run on npm data alone, now … More → The post Week in review: Salesforce and ServiceNow portals exposed for 17 months, exploited Metabase 0-day appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials
-  - Published: 2026-08-10T07:38:23+00:00
-  - Link: https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html
-  - Summary: Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro ("solidity-pro") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although neither of the extensions is now available on Open VSX, the GitHub repository
 
 ### Cluster c9f01215de — score 16
 
@@ -1863,6 +1880,60 @@ Wiz Pricing Get a demo Get a demo Most application security programs assume a cl
   - Published: 2026-08-13T13:48:56+00:00
   - Link: https://www.wiz.io/blog/securing-personal-repositories
   - Summary: Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.
+
+### Cluster 927bf94c9b — score 12
+
+- Title: Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-17T08:13:07+00:00
+- Link: https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-58231
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, zero_day
+- affected_industries: manufacturing_industrial
+- affected_products: Azure, Google Cloud, Microsoft SharePoint
+- cve_ids: CVE-2019-0344, CVE-2026-58231
+- urgency_signals: no_patch_yet, poc_available, preauth_unauth, zero_day
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, data_breach, active_exploitation
+- affected_industries: manufacturing_industrial
+- affected_products: Google Cloud, Microsoft SharePoint, Azure
+- cve_ids: CVE-2026-58231, CVE-2019-0344
+- urgency_signals: zero_day, no_patch_yet, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Hackers started exploiting a critical vulnerability in SAP Commerce Cloud just three days after its public disclosure, according to threat intelligence organizations. The vulnerability is tracked as CVE-2026-58231 and is described as an issue involving insufficient authorization checks and input validation. An attacker can exploit the vulnerability, which has a CVSS score of 10, to execute arbitrary code and compromise internal components. SAP announced patches for CVE-2026-58231 on August 11 and Defused reported that its honeypots had started seeing exploitation attempts on August 14. The security firm noted that there had been no public PoC exploit and no prior reports of in-the-wild exploitation. KEVIntel, which uses proprietary sensors and private honeypots to observe exploitation attempts, independently confirmed seeing attacks. The organization noted on August 15 that a PoC exploit has become available. Advertisement. Scroll to continue reading. CISA’s Known Exploited Vulnerabilities ( KEV ) catalog currently includes 14 SAP product flaws, but only one of them, CVE-2019-0344, affects Commerce Cloud. The security hole was added to the KEV list in 2024. CISA has yet to add CVE-2026-58231 to its catalog. Related : Adobe Commerce Bug Targeted Immediately After Disclosure Related : Fortune 500 Companies Hit in Azure Data Theft Campaign Related : Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related : Hackers Exploiting Unpatched GeoServer Zero-Day Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs SharePoint Vulnerability Exploited Shortly After PoC Release WhatsApp Unveils New Scam Alert Feature Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact Cisco Patches Firewall Zero-Day Exploited for DoS Attacks US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Erika Dean has been appointed Chief Information Security Officer at Tricentis. C1 has named Jeff St. Clair Chief Revenue Officer. John Opala has joined Ralph Lauren as Chief Information Security Officer. More People On The Move Expert Insights The AI Gover
+```
+
+#### Corroborating sources (2)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure
+  - Published: 2026-08-17T08:13:07+00:00
+  - Link: https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/
+  - Summary: The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code
+  - Published: 2026-08-12T07:31:40+00:00
+  - Link: https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
+  - Summary: SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. "SAP Commerce Cloud allows an
 
 ### Cluster c41212d2e8 — score 12
 
@@ -2173,6 +2244,98 @@ Share Link copied to clipboard! Tags Credential theft Extortion Ransomware Windo
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/
   - Summary: Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .
 
+### Cluster 452d902ac4 — score 10
+
+- Title: Curiouser and Curiouser
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-13T18:00:18+00:00
+- Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: retail_ecommerce
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: retail_ecommerce
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
+```
+
+#### Full body
+
+```
+Curiouser and Curiouser By William Largent Thursday, August 13, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. “Experiment is the mother of knowledge.” ― Madeleine L'Engle, A Wrinkle in Time “Don't slide down the rabbit hole. The way down is a breeze, but climbing back's a battle.” ― Kate Morton, The Clockmaker's Daughter Hacker Summer Camp has come and gone, which means it’s time for you to start planning next year’s trip. I’m surely going to recap Camp Season, right? Nope. One of the things that I’ve really enjoyed lately is a segment on the Beers with Talos podcast that we call “Make Hazel a Hacker.” If you haven’t listened to it, this is a perfect time to start. Each episode we take a few minutes and pose a security question, term, or concept to Hazel and force her to come up with an idea or explanation on the spot. There are no parameters, so she’s faced with the entirety of information security — past, present, and future. I know, it’s insane. The craziest part is that (I think) Hazel came up with this idea and still volunteered to put herself in the line of fire. As we put Hazel’s feet to the fire, one of my favorite things happens: The rest of us listen in and offer our thoughts during her brainstorming process. Invariably, we’ve got three very different answers, ideas, hints, or directions for her. It’s surely maddening for Hazel, but to me, the best part of the discussion that inevitably follows is that although they’re all different, they’re all correct. For example, this past episode I asked her about a behavioral indicator (regarding “wallpaper.bmp”) that seems benign on its own, but can be interesting to use as a pivot for a threat hunt. We had various interesting angles to consider, backed by years of knowledge and experience. It gave us a good conversation, and that was a .bmp! One of the most nebulous things to learn in this field is that multiple things can be both different and correct. When you are making your decisions this week — whether it’s deciding on a new pivot in your hunting, what devices to prioritize in your patching and updating, or which books or online training to focus on — take a quick second and get a second, third, and fourth opinion. Then try something that’s outside of your normal wheelhouse but sounds good when it’s proposed. None of this is a solo sport. It’s a team game and the best plays come from a mix of perspectives, experiences, and mistakes. The “right” answer can wear many faces, and your ability to hold different truths will lead you to undiscovered territory, the rabbit hole where anomaly lives and breathes. So... welcome back from Vegas. Now go down a rabbit hole on a path you wouldn’t normally take because one of your friends (Joe) or your mortal enemy (Dave) told you that it would work. “She'd been to Narnia, Wonderland, Hogwarts, Dictionopolis. She had tessered, fallen through the rabbit hole, crossed the ice bridge into the unknown world beyond.” ― Anne Ursu, Breadcrumbs The one big thing Cisco Talos recently discovered "JWR," a previously undocumented, real-time phishing framework and likely variant of "The Outsider" phishing-as-a-service platform. JWR uses an open WebSocket connection that allows attackers to monitor keystrokes live and dynamically steer victims through fake checkout and login flows. Currently deployed via SMS lures impersonating regional toll and postal authorities, JWR enables operators to steal payment data, 2FA codes, identity documents, and device fingerprints. Why do I care? Because JWR is operator-driven in real time, attackers can actively bypass multi-factor authentication (MFA) by prompting victims for 2FA codes exactly when needed. The sheer volume of collected data gives threat actors a comprehensive identity profile primed for extensive follow-on fraud and network compromise. Furthermore, JWR's seamless integration with legitimate e-commerce platforms like Shopify makes these lures incre
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Curiouser and Curiouser
+  - Published: 2026-08-13T18:00:18+00:00
+  - Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
+  - Summary: In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
+
+### Cluster b4927a86ad — score 10
+
+- Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-11T22:21:02+00:00
+- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Azure, Cisco, Microsoft SharePoint
+- cve_ids: CVE-2026-62823, CVE-2026-62830, CVE-2026-62893, CVE-2026-65665, CVE-2026-68820
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Cisco, Microsoft SharePoint, Azure
+- cve_ids: CVE-2026-68820, CVE-2026-62893, CVE-2026-65665, CVE-2026-62823, CVE-2026-62830
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
+```
+
+#### Full body
+
+```
+Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, August 11, 2026 18:21 Patch Tuesday Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-68820 is an elevation of privilege vulnerability affecting Windows Ancillary Function Driver for WinSock. A Use After Free vulnerability could allow an authorized attacker to elevate privileges locally. This vulnerability has a CVSS base score of 7.0. Out of 62 "critical" vulnerabilities, 40 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-62893 is a remote code execution vulnerability affecting Windows Deployment Services TFTP Server. A Use After Free could allow an unauthorized attacker to execute code over a network. This vulnerability has a CVSS base score of 9.8. CVE-2026-65665 is a remote code execution vulnerability affecting Microsoft SharePoint Server. Deserialization of Untrusted Data could allow an authorized attacker to execute code over a network. This vulnerability has a CVSS base score of 8.8. CVE-2026-62823 is a remote code execution vulnerability affecting Windows DHCP Server. A Heap-based Buffer Overflow could allow an unauthorized attacker to execute code over an adjacent network. This vulnerability has a CVSS base score of 8.8. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-62830 is an elevation of privilege vulnerability affecting Azure SRE Agent. Missing Authorization could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.9. CVE-2026-50516 is an elevation of privilege vulnerability affecting Microsoft Azure Kubernetes Service. Missing Authentication for Critical Function could allow an unauthorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.4. Three remote code execution vulnerabilities, CVE-2026-68794 , CVE-2026-68816 and CVE-2026-68804 , affect Microsoft Excel and have a CVSS base score of 7.8. An unauthorized attacker could execute code locally. CVE-2026-68794 is a Heap-based Buffer Overflow. CVE-2026-68816 is a Stack-based Buffer Overflow. CVE-2026-68804 involves a Numeric Truncation Error and a Heap-based Buffer Overflow. CVE-2026-62911 is an elevation of privilege vulnerability affecting Microsoft Exchange Server. Authentication Bypass by Capture-replay could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 8.0. Nine remote code execution vulnerabilities, CVE-2026-63515 , CVE-2026-65657 , CVE-2026-63532 , CVE-2026-64898 , CVE-2026-64903 , CVE-2026-64909 , CVE-2026-64910 , CVE-2026-64911 and CVE-2026-70130 , affect Microsoft Office and could allow an unauthorized attacker to execute code locally. CVE-2026-63515 involves an Out-of-bounds Read and an Integer Underflow (Wrap or Wraparound) and has a CVSS base score of 7.8. CVE-2026-65657 is a Use After Free and has a CVSS base score of 7.8. CVE-2026-63532 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64898 involves a Heap-based Buffer Overflow and an Integer Overflow or Wraparound and has a CVSS base score of 7.8. CVE-2026-64903 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64909 involves an Integer Underflow (Wrap or Wraparound), an Out-of-bounds Read and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64910 is an Untrusted Pointer Dereference and has a CVSS base score of 7.8. CVE-2026-64911 involves an Integer Overflow or Wraparound and a Heap-based Buffer O
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
+  - Published: 2026-08-11T22:21:02+00:00
+  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
+  - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
+
 ### Cluster 21cbe0b5fa — score 10
 
 - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
@@ -2355,6 +2518,45 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 10th Augus
   - Link: https://research.checkpoint.com/2026/10th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 10th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES North Carolina Ports, the US authority operating the ports of Wilmington, Morehead City and others, has suffered a cyberattack that forced some operations onto manual processes. The authority claims it has contained […] The post 10th August – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster af5513db44 — score 10
+
+- Title: From Scanner Findings to Verifiable Web Application Risk
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-11T17:07:51+00:00
+- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+```
+
+#### Full body
+
+```
+From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: From Scanner Findings to Verifiable Web Application Risk
+  - Published: 2026-08-11T17:07:51+00:00
+  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+
 ### Cluster 44f04ecb50 — score 10
 
 - Title: Malware Crypting Services and the Threat Actors Who Sell Them
@@ -2395,137 +2597,6 @@ Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary 
   - Published: 2026-08-13T00:00:00+00:00
   - Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
   - Summary: Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
-
-### Cluster 452d902ac4 — score 10
-
-- Title: Curiouser and Curiouser
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-13T18:00:18+00:00
-- Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: retail_ecommerce
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: retail_ecommerce
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
-```
-
-#### Full body
-
-```
-Curiouser and Curiouser By William Largent Thursday, August 13, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. “Experiment is the mother of knowledge.” ― Madeleine L'Engle, A Wrinkle in Time “Don't slide down the rabbit hole. The way down is a breeze, but climbing back's a battle.” ― Kate Morton, The Clockmaker's Daughter Hacker Summer Camp has come and gone, which means it’s time for you to start planning next year’s trip. I’m surely going to recap Camp Season, right? Nope. One of the things that I’ve really enjoyed lately is a segment on the Beers with Talos podcast that we call “Make Hazel a Hacker.” If you haven’t listened to it, this is a perfect time to start. Each episode we take a few minutes and pose a security question, term, or concept to Hazel and force her to come up with an idea or explanation on the spot. There are no parameters, so she’s faced with the entirety of information security — past, present, and future. I know, it’s insane. The craziest part is that (I think) Hazel came up with this idea and still volunteered to put herself in the line of fire. As we put Hazel’s feet to the fire, one of my favorite things happens: The rest of us listen in and offer our thoughts during her brainstorming process. Invariably, we’ve got three very different answers, ideas, hints, or directions for her. It’s surely maddening for Hazel, but to me, the best part of the discussion that inevitably follows is that although they’re all different, they’re all correct. For example, this past episode I asked her about a behavioral indicator (regarding “wallpaper.bmp”) that seems benign on its own, but can be interesting to use as a pivot for a threat hunt. We had various interesting angles to consider, backed by years of knowledge and experience. It gave us a good conversation, and that was a .bmp! One of the most nebulous things to learn in this field is that multiple things can be both different and correct. When you are making your decisions this week — whether it’s deciding on a new pivot in your hunting, what devices to prioritize in your patching and updating, or which books or online training to focus on — take a quick second and get a second, third, and fourth opinion. Then try something that’s outside of your normal wheelhouse but sounds good when it’s proposed. None of this is a solo sport. It’s a team game and the best plays come from a mix of perspectives, experiences, and mistakes. The “right” answer can wear many faces, and your ability to hold different truths will lead you to undiscovered territory, the rabbit hole where anomaly lives and breathes. So... welcome back from Vegas. Now go down a rabbit hole on a path you wouldn’t normally take because one of your friends (Joe) or your mortal enemy (Dave) told you that it would work. “She'd been to Narnia, Wonderland, Hogwarts, Dictionopolis. She had tessered, fallen through the rabbit hole, crossed the ice bridge into the unknown world beyond.” ― Anne Ursu, Breadcrumbs The one big thing Cisco Talos recently discovered "JWR," a previously undocumented, real-time phishing framework and likely variant of "The Outsider" phishing-as-a-service platform. JWR uses an open WebSocket connection that allows attackers to monitor keystrokes live and dynamically steer victims through fake checkout and login flows. Currently deployed via SMS lures impersonating regional toll and postal authorities, JWR enables operators to steal payment data, 2FA codes, identity documents, and device fingerprints. Why do I care? Because JWR is operator-driven in real time, attackers can actively bypass multi-factor authentication (MFA) by prompting victims for 2FA codes exactly when needed. The sheer volume of collected data gives threat actors a comprehensive identity profile primed for extensive follow-on fraud and network compromise. Furthermore, JWR's seamless integration with legitimate e-commerce platforms like Shopify makes these lures incre
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Curiouser and Curiouser
-  - Published: 2026-08-13T18:00:18+00:00
-  - Link: https://blog.talosintelligence.com/curiouser-and-curiouser/
-  - Summary: In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.
-
-### Cluster b4927a86ad — score 10
-
-- Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-11T22:21:02+00:00
-- Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Azure, Cisco, Microsoft SharePoint
-- cve_ids: CVE-2026-62823, CVE-2026-62830, CVE-2026-62893, CVE-2026-65665, CVE-2026-68820
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Cisco, Microsoft SharePoint, Azure
-- cve_ids: CVE-2026-68820, CVE-2026-62893, CVE-2026-65665, CVE-2026-62823, CVE-2026-62830
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
-```
-
-#### Full body
-
-```
-Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities By Cisco Talos Tuesday, August 11, 2026 18:21 Patch Tuesday Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical." Microsoft notes that 1 of the vulnerabilities disclosed this month have been exploited in the wild CVE-2026-68820 is an elevation of privilege vulnerability affecting Windows Ancillary Function Driver for WinSock. A Use After Free vulnerability could allow an authorized attacker to elevate privileges locally. This vulnerability has a CVSS base score of 7.0. Out of 62 "critical" vulnerabilities, 40 are remote code execution (RCE) vulnerabilities. Microsoft considers exploitation of the following vulnerabilities more likely. CVE-2026-62893 is a remote code execution vulnerability affecting Windows Deployment Services TFTP Server. A Use After Free could allow an unauthorized attacker to execute code over a network. This vulnerability has a CVSS base score of 9.8. CVE-2026-65665 is a remote code execution vulnerability affecting Microsoft SharePoint Server. Deserialization of Untrusted Data could allow an authorized attacker to execute code over a network. This vulnerability has a CVSS base score of 8.8. CVE-2026-62823 is a remote code execution vulnerability affecting Windows DHCP Server. A Heap-based Buffer Overflow could allow an unauthorized attacker to execute code over an adjacent network. This vulnerability has a CVSS base score of 8.8. Microsoft considers exploitation of the following vulnerabilities less likely. CVE-2026-62830 is an elevation of privilege vulnerability affecting Azure SRE Agent. Missing Authorization could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.9. CVE-2026-50516 is an elevation of privilege vulnerability affecting Microsoft Azure Kubernetes Service. Missing Authentication for Critical Function could allow an unauthorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 9.4. Three remote code execution vulnerabilities, CVE-2026-68794 , CVE-2026-68816 and CVE-2026-68804 , affect Microsoft Excel and have a CVSS base score of 7.8. An unauthorized attacker could execute code locally. CVE-2026-68794 is a Heap-based Buffer Overflow. CVE-2026-68816 is a Stack-based Buffer Overflow. CVE-2026-68804 involves a Numeric Truncation Error and a Heap-based Buffer Overflow. CVE-2026-62911 is an elevation of privilege vulnerability affecting Microsoft Exchange Server. Authentication Bypass by Capture-replay could allow an authorized attacker to elevate privileges over a network. This vulnerability has a CVSS base score of 8.0. Nine remote code execution vulnerabilities, CVE-2026-63515 , CVE-2026-65657 , CVE-2026-63532 , CVE-2026-64898 , CVE-2026-64903 , CVE-2026-64909 , CVE-2026-64910 , CVE-2026-64911 and CVE-2026-70130 , affect Microsoft Office and could allow an unauthorized attacker to execute code locally. CVE-2026-63515 involves an Out-of-bounds Read and an Integer Underflow (Wrap or Wraparound) and has a CVSS base score of 7.8. CVE-2026-65657 is a Use After Free and has a CVSS base score of 7.8. CVE-2026-63532 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64898 involves a Heap-based Buffer Overflow and an Integer Overflow or Wraparound and has a CVSS base score of 7.8. CVE-2026-64903 involves an Integer Overflow or Wraparound and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64909 involves an Integer Underflow (Wrap or Wraparound), an Out-of-bounds Read and a Heap-based Buffer Overflow and has a CVSS base score of 7.8. CVE-2026-64910 is an Untrusted Pointer Dereference and has a CVSS base score of 7.8. CVE-2026-64911 involves an Integer Overflow or Wraparound and a Heap-based Buffer O
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities
-  - Published: 2026-08-11T22:21:02+00:00
-  - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-  - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
-
-### Cluster af5513db44 — score 10
-
-- Title: From Scanner Findings to Verifiable Web Application Risk
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-11T17:07:51+00:00
-- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
-```
-
-#### Full body
-
-```
-From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: From Scanner Findings to Verifiable Web Application Risk
-  - Published: 2026-08-11T17:07:51+00:00
-  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
 
 ### Cluster 272e108269 — score 10
 
@@ -2991,41 +3062,6 @@ submitted by /u/TradeGold6317 [link] [comments]
   - Link: https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/
   - Summary: submitted by /u/TradeGold6317 [link] [comments]
 
-### Cluster 947ec80e08 — score 10
-
-- Title: AMA with Black Hat Speakers Lidor B. & Elad Meged (Pre-Auth RCE in Enterprise Java, Hijacking AI Coding Agents)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-08-16T19:38:08+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1vq6fef/ama_with_black_hat_speakers_lidor_b_elad_meged/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/_cybersecurity_ [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: AMA with Black Hat Speakers Lidor B. & Elad Meged (Pre-Auth RCE in Enterprise Java, Hijacking AI Coding Agents)
-  - Published: 2026-08-16T19:38:08+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vq6fef/ama_with_black_hat_speakers_lidor_b_elad_meged/
-  - Summary: submitted by /u/_cybersecurity_ [link] [comments]
-
 ### Cluster c63d21cf7f — score 9
 
 - Title: How BitLocker PINs help protect your data and devices
@@ -3151,6 +3187,41 @@ Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws  Ravie La
   - Link: https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html
   - Summary: Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could
 
+### Cluster 947ec80e08 — score 9
+
+- Title: AMA with Black Hat Speakers Lidor B. & Elad Meged (Pre-Auth RCE in Enterprise Java, Hijacking AI Coding Agents)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-16T19:38:08+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vq6fef/ama_with_black_hat_speakers_lidor_b_elad_meged/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/_cybersecurity_ [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: AMA with Black Hat Speakers Lidor B. & Elad Meged (Pre-Auth RCE in Enterprise Java, Hijacking AI Coding Agents)
+  - Published: 2026-08-16T19:38:08+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vq6fef/ama_with_black_hat_speakers_lidor_b_elad_meged/
+  - Summary: submitted by /u/_cybersecurity_ [link] [comments]
+
 ### Cluster b1da6aaade — score 9
 
 - Title: From Unauthenticated API to Grid Risk: A Hybrid Inverter Vulnerability Explained
@@ -3270,52 +3341,6 @@ Risky Bulletin Podcast August 13, 2026 Srsly Risky Biz: Data extortion is boomin
   - Link: https://risky.biz/SRB179/
   - Summary: Tom Uren and James Wilson talk about the cybercrime ecosystem shifting towards data theft extortion, stealing sensitive data and extracting ransoms from victims by threatening to leak it. For organisations whose reputation is very important to them, data leaks are a bigger threat than having their files locked up. They also discuss how the rise of AI makes it worth reinvigorating CISA’s Secure by Design initiative.
 
-### Cluster 3859b33fd6 — score 9
-
-- Title: Sponsored: What npm 12 fixes… and what it doesn’t
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-08-16T19:08:45+00:00
-- Link: https://risky.biz/RBNEWSSI140/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: npm
-
-#### Cluster taxonomy (union across members)
-- affected_products: npm
-- content_type: news_report
-- confidence_tier: tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: npm
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-In this Risky Business sponsored interview, Casey Ellis chats with Socket founder Feross Aboukhadijeh about npm 12’s move to disable install scripts by default. Attackers are already shifting payloads into package source code, and Feross explains why teams need to understand what third-party code actually does before allowing it into their environments.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast August 17, 2026 Sponsored: What npm 12 fixesâ¦ and what it doesnât Presented by Casey Ellis Founder, Bugcrowd In this Risky Business sponsored interview, Casey Ellis chats with Socket founder Feross Aboukhadijeh about npm 12âs move to disable install scripts by default. Attackers are already shifting payloads into package source code, and Feross explains why teams need to understand what third-party code actually does before allowing it into their environments. Your browser does not support the audio element. Sponsored: What npm 12 fixesâ¦ and what it doesnât â¶ 0:00 / 17:54 Subscribe Brought to you by Socket Secure your dependencies. Ship with confidence.
-```
-
-#### Corroborating sources (2)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Sponsored: What npm 12 fixes… and what it doesn’t
-  - Published: 2026-08-16T19:08:45+00:00
-  - Link: https://risky.biz/RBNEWSSI140/
-  - Summary: In this Risky Business sponsored interview, Casey Ellis chats with Socket founder Feross Aboukhadijeh about npm 12’s move to disable install scripts by default. Attackers are already shifting payloads into package source code, and Feross explains why teams need to understand what third-party code actually does before allowing it into their environments.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Six npm Packages Read C2 Addresses From Ethereum Wallet
-  - Published: 2026-08-11T15:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/
-  - Summary: Six npm packages queried an Ethereum wallet to locate C2 infrastructure
-
 ### Cluster 228cd48aeb — score 8
 
 - Title: AI Offense is Not Noclip Mode
@@ -3412,19 +3437,19 @@ Abuse of alternative runtime environments Deno-tes defender headaches Attack TTP
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
 - actor_attribution: ShinyHunters
 - affected_industries: financial_services
-- affected_products: Apple iOS/macOS, Fortinet, Google Cloud
+- affected_products: Apple iOS/macOS, Fortinet, VMware
 - urgency_signals: no_patch_yet, zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
 - actor_attribution: ShinyHunters
 - affected_industries: financial_services
-- affected_products: Google Cloud, Fortinet, Apple iOS/macOS
+- affected_products: Fortinet, Apple iOS/macOS, VMware
 - urgency_signals: zero_day, no_patch_yet
 - content_type: incident_report
 - confidence_tier: tier_4_news
@@ -3438,7 +3463,7 @@ The hackers published the allegedly stolen information, including names, address
 #### Full body
 
 ```
-The personal information of 1.6 million individuals appears to have been stolen from the widely used business communications platform RingCentral by a notorious extortion group. The incident occurred in July and was the result of a “sophisticated social engineering campaign”, RingCentral said in a notice on its website. “Upon detection, we promptly took steps to stop the unauthorized activity and immediately began an investigation with assistance from a leading third-party forensic firm. We have not seen any new unauthorized activity since taking these remediation efforts,” the company said. According to RingCentral, only a limited portion of its customers was affected by the attack, and those individuals were notified directly. “If you are not contacted by RingCentral, you are not affected. This incident did not impact the core RingCentral platform, and our services continue to operate without disruption,” it said. While RingCentral did not name the attackers, the ShinyHunters extortion group added the company to its Tor-based leak site in late July, claiming it stole over 623 gigabytes of data. Advertisement. Scroll to continue reading. Roughly a week later, as RingCentral did not succumb to the extortionists’ demands, ShinyHunters published a 280GB archive containing the data allegedly stolen from the company. On Thursday, data breach reporting site HaveIBeenPwned added the leaked information to its database, saying that it includes approximately 1.6 million unique email addresses, accompanied by names, addresses, and phone numbers. RingCentral hacked by ShinyHunters RingCentral has yet to confirm the attackers’ claims and the number of potentially impacted individuals. SecurityWeek has emailed RingCentral for a statement on the matter and will update this article if the company responds. RingCentral is a cloud-based provider of unified communications and contact center solutions. Its platform delivers business phone, team messaging, video meetings, and AI-assisted tools for employee collaboration and customer interactions. Related: 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal Over 1,000 Charities Hit by Beacon CRM Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the stronges
+The personal information of 1.6 million individuals appears to have been stolen from the widely used business communications platform RingCentral by a notorious extortion group. The incident occurred in July and was the result of a “sophisticated social engineering campaign”, RingCentral said in a notice on its website. “Upon detection, we promptly took steps to stop the unauthorized activity and immediately began an investigation with assistance from a leading third-party forensic firm. We have not seen any new unauthorized activity since taking these remediation efforts,” the company said. According to RingCentral, only a limited portion of its customers was affected by the attack, and those individuals were notified directly. “If you are not contacted by RingCentral, you are not affected. This incident did not impact the core RingCentral platform, and our services continue to operate without disruption,” it said. While RingCentral did not name the attackers, the ShinyHunters extortion group added the company to its Tor-based leak site in late July, claiming it stole over 623 gigabytes of data. Advertisement. Scroll to continue reading. Roughly a week later, as RingCentral did not succumb to the extortionists’ demands, ShinyHunters published a 280GB archive containing the data allegedly stolen from the company. On Thursday, data breach reporting site HaveIBeenPwned added the leaked information to its database, saying that it includes approximately 1.6 million unique email addresses, accompanied by names, addresses, and phone numbers. RingCentral hacked by ShinyHunters RingCentral has yet to confirm the attackers’ claims and the number of potentially impacted individuals. RingCentral is a cloud-based provider of unified communications and contact center solutions. Its platform delivers business phone, team messaging, video meetings, and AI-assisted tools for employee collaboration and customer interactions. Responding to a SecurityWeek inquiry, a RingCentral spokesperson provided the following statement: “RingCentral recently addressed a social engineering incident that affected a limited number of customers. Upon detection, we promptly took steps to stop the unauthorized activity and have not seen any new unauthorized activity since taking these efforts. We also began an investigation with assistance from a third-party forensic firm to investigate what happened and what data may have been impacted. This incident did not impact the RingCentral core platform and our services continue to operate without disruption. The investigation is ongoing, and we are communicating with customers as appropriate.” *Updated with statement from RingCentral. Related: 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Latest News Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities T
 ```
 
 #### Corroborating sources (1)
@@ -3461,7 +3486,7 @@ The personal information of 1.6 million individuals appears to have been stolen 
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
 - actor_attribution: ShinyHunters
 - affected_industries: financial_services, healthcare
 - affected_products: Apple iOS/macOS, Fortinet, Google Cloud
@@ -3470,7 +3495,7 @@ The personal information of 1.6 million individuals appears to have been stolen 
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
 - actor_attribution: ShinyHunters
 - affected_industries: healthcare, financial_services
 - affected_products: Google Cloud, Fortinet, Apple iOS/macOS
@@ -3487,7 +3512,7 @@ Hackers stole the customers’ shipping information, including names, addresses,
 #### Full body
 
 ```
-Hardware crypto wallet provider Trezor says the personal information of nearly 14,000 people was compromised in a data breach. The incident, it says, did not involve Trezor’s systems but rather its third-party shipping provider, ShipMonk. Trezor was notified of the attack on August 10. Customers in the US, the UK, Sweden, Colombia, Brazil, Italy, and Portugal who placed orders between May 10 and August 8 were affected. “We’re extremely sorry to inform our community that customer personal information, including full names, phone numbers, email addresses, and shipping addresses, has been accessed by an unauthorized actor during this breach,” Trezor says in a notice . Hackers stole the names, addresses, email addresses, and phone numbers of 11,742 customers, as well as the names, cities, and email addresses of 1,947 customers. Trezor shared the information with ShipMonk for order delivery purposes. “The breach is limited due to Trezor’s strict 90-day data storage policy (we were also able to negotiate the same terms with fulfillment partners, who follow the same policy),” the company says, but notes that for the 1,947 customers with partial exposure, older orders might have been accessed as well. Advertisement. Scroll to continue reading. “To be clear, our systems were not compromised, and your Trezor device is secure, but the affected customers might be targeted by more sophisticated phishing attempts,” the company says. Trezor notified all impacted customers via email and advised them to be wary of suspicious communication that requests personal information or prompts for immediate action. The company says it is in direct contact with ShipMonk to establish an exact timeline of events and determine the full scope of the data breach. ShipMonk reportedly notified customers that hackers accessed customer data by exploiting a vulnerability in Metabase. The targeted bug is likely the SQL injection zero-day that Metabase patched last week. The notorious extortion group ShinyHunters claimed responsibility for an attack on Metabase. On Wednesday, the group leaked data allegedly stolen from the data analytics solutions provider. ShipMonk has yet to acknowledge the incident publicly. It is unclear how many companies might have been affected, whether other individuals’ personal information was stolen, and who was behind the attack. SecurityWeek has emailed ShipMonk for a statement on the data breach and will update this article if the company responds. Related: Ceva Logistics Operations Disrupted by Cyberattack Related: Corporate Data Stolen in Levi Strauss Cyberattack Related: 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Trending Daily Briefing N
+Hardware crypto wallet provider Trezor says the personal information of nearly 14,000 people was compromised in a data breach. The incident, it says, did not involve Trezor’s systems but rather its third-party shipping provider, ShipMonk. Trezor was notified of the attack on August 10. Customers in the US, the UK, Sweden, Colombia, Brazil, Italy, and Portugal who placed orders between May 10 and August 8 were affected. “We’re extremely sorry to inform our community that customer personal information, including full names, phone numbers, email addresses, and shipping addresses, has been accessed by an unauthorized actor during this breach,” Trezor says in a notice . Hackers stole the names, addresses, email addresses, and phone numbers of 11,742 customers, as well as the names, cities, and email addresses of 1,947 customers. Trezor shared the information with ShipMonk for order delivery purposes. “The breach is limited due to Trezor’s strict 90-day data storage policy (we were also able to negotiate the same terms with fulfillment partners, who follow the same policy),” the company says, but notes that for the 1,947 customers with partial exposure, older orders might have been accessed as well. Advertisement. Scroll to continue reading. “To be clear, our systems were not compromised, and your Trezor device is secure, but the affected customers might be targeted by more sophisticated phishing attempts,” the company says. Trezor notified all impacted customers via email and advised them to be wary of suspicious communication that requests personal information or prompts for immediate action. The company says it is in direct contact with ShipMonk to establish an exact timeline of events and determine the full scope of the data breach. ShipMonk reportedly notified customers that hackers accessed customer data by exploiting a vulnerability in Metabase. The targeted bug is likely the SQL injection zero-day that Metabase patched last week. The notorious extortion group ShinyHunters claimed responsibility for an attack on Metabase. On Wednesday, the group leaked data allegedly stolen from the data analytics solutions provider. ShipMonk has yet to acknowledge the incident publicly. It is unclear how many companies might have been affected, whether other individuals’ personal information was stolen, and who was behind the attack. SecurityWeek has emailed ShipMonk for a statement on the data breach and will update this article if the company responds. Related: Ceva Logistics Operations Disrupted by Cyberattack Related: Corporate Data Stolen in Levi Strauss Cyberattack Related: 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Latest News Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Tr
 ```
 
 #### Corroborating sources (1)
@@ -3649,43 +3674,6 @@ The maximum-severity vulnerability, which still has no CVE, allows malicious, re
   - Published: 2026-08-10T21:02:23+00:00
   - Link: https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius
   - Summary: The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.
-
-### Cluster b149935f25 — score 8
-
-- Title: SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-12T07:31:40+00:00
-- Link: https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-58231
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-58231
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-58231
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. "SAP Commerce Cloud allows an
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code
-  - Published: 2026-08-12T07:31:40+00:00
-  - Link: https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html
-  - Summary: SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. "SAP Commerce Cloud allows an
 
 ### Cluster fa079f0be4 — score 8
 
@@ -3861,3 +3849,43 @@ Technical analysis of CVE-2026-6837, an authenticated command-injection vulnerab
   - Published: 2026-08-16T18:48:50+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1vq55y4/cve20266837_command_injection_in_zyxel_exportcgi/
   - Summary: Technical analysis of CVE-2026-6837, an authenticated command-injection vulnerability in Zyxel’s PKCS#12 certificate export flow. The post covers the vulnerable execution path, root cause, affected firmware scope, and the firmware-emulation methodology used during analysis. submitted by /u/TheReedemer69 [link] [comments]
+
+### Cluster 3859b33fd6 — score 8
+
+- Title: Sponsored: What npm 12 fixes… and what it doesn’t
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-08-16T19:08:45+00:00
+- Link: https://risky.biz/RBNEWSSI140/
+- Fetch status: not_attempted
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- affected_products: npm
+- content_type: news_report
+- confidence_tier: tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: npm
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+In this Risky Business sponsored interview, Casey Ellis chats with Socket founder Feross Aboukhadijeh about npm 12’s move to disable install scripts by default. Attackers are already shifting payloads into package source code, and Feross explains why teams need to understand what third-party code actually does before allowing it into their environments.
+```
+
+#### Corroborating sources (2)
+
+- **Risky Business News** (practitioner_analysis)
+  - Title: Sponsored: What npm 12 fixes… and what it doesn’t
+  - Published: 2026-08-16T19:08:45+00:00
+  - Link: https://risky.biz/RBNEWSSI140/
+  - Summary: In this Risky Business sponsored interview, Casey Ellis chats with Socket founder Feross Aboukhadijeh about npm 12’s move to disable install scripts by default. Attackers are already shifting payloads into package source code, and Feross explains why teams need to understand what third-party code actually does before allowing it into their environments.
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Six npm Packages Read C2 Addresses From Ethereum Wallet
+  - Published: 2026-08-11T15:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/npm-packages-ethereum-wallet-c2/
+  - Summary: Six npm packages queried an Ethereum wallet to locate C2 infrastructure

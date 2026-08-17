@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:06:47.611935+00:00",
+  "generated_at": "2026-08-17T08:51:49.403812+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2090,
@@ -18,13 +18,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -32,8 +25,29 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -46,12 +60,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -60,26 +74,12 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -88,26 +88,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -123,12 +116,19 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -144,12 +144,26 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 7
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -158,18 +172,18 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -178,13 +192,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -200,19 +207,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -226,13 +233,6 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Orca Security Research": {
@@ -249,13 +249,6 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -268,7 +261,14 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 5
+      "in_window_count": 6
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -276,6 +276,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -291,13 +298,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -312,18 +312,18 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 2
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 2
     },
     "Coveware": {
@@ -333,6 +333,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -340,11 +347,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 11
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 3
     },
     "The Record": {
@@ -354,26 +368,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 11
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -396,13 +396,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 17
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
@@ -424,6 +417,20 @@
       "item_count": 50,
       "in_window_count": 21
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 17
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
@@ -438,12 +445,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 8
+      "in_window_count": 2
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -459,6 +466,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -472,13 +486,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -499,21 +506,14 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 33
+      "in_window_count": 32
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 28
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 29
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -529,18 +529,18 @@
       "item_count": 25,
       "in_window_count": 16
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -681,43 +681,47 @@
   },
   "affinity_groups": [
     {
-      "label": "CVE-2026-68820 exploitation (Microsoft SharePoint)",
-      "anchor_signal": "CVE-2026-68820",
-      "theme_key": "cve-2026-68820",
+      "label": "Microsoft SharePoint exploitation (CVE-2026-68820)",
+      "anchor_signal": "Microsoft SharePoint",
+      "theme_key": "microsoft-sharepoint",
       "dominant_features": {
         "threat_categories": [
-          "zero_day",
           "active_exploitation",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "Lazarus"
+          "zero_day"
         ],
         "affected_products": [
-          "Microsoft SharePoint"
+          "Microsoft SharePoint",
+          "Azure"
         ],
         "cve_ids": [
           "CVE-2026-68820",
-          "CVE-2026-62832"
+          "CVE-2026-62832",
+          "CVE-2026-62815",
+          "CVE-2026-62878",
+          "CVE-2026-62893"
         ],
         "urgency_signals": [
+          "actively_exploited",
           "zero_day",
-          "actively_exploited"
+          "preauth_unauth"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 14,
-      "cohesion": 0.259,
+      "cluster_count": 8,
+      "article_count": 12,
+      "cohesion": 0.251,
       "shared_strong_signals": [
+        "Microsoft SharePoint"
+      ],
+      "member_cves": [
         "CVE-2026-68820"
       ],
-      "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
         "17761b9ecf",
         "c13f381a5a",
         "ef336b7141",
         "02b0e547f6",
+        "927bf94c9b",
         "b4927a86ad",
         "22bf2708a0",
         "7f18333ab6"
@@ -728,6 +732,8 @@
         "https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/",
         "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
         "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
+        "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
+        "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
         "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
         "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
         "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
@@ -743,7 +749,6 @@
         "threat_categories": [
           "data_breach",
           "zero_day",
-          "supply_chain",
           "ransomware_extortion",
           "phishing_social_eng"
         ],
@@ -765,7 +770,7 @@
       },
       "cluster_count": 5,
       "article_count": 11,
-      "cohesion": 0.278,
+      "cohesion": 0.257,
       "shared_strong_signals": [
         "Apple iOS/macOS"
       ],
@@ -782,9 +787,9 @@
         "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
         "https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/",
         "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
+        "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
         "https://risky.biz/RBNEWS600/",
-        "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
         "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
         "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
         "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
@@ -863,9 +868,9 @@
       ],
       "links": [
         "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
+        "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
         "https://risky.biz/RBNEWS600/",
-        "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
         "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
         "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
         "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
@@ -916,8 +921,7 @@
           "ransomware_extortion",
           "phishing_social_eng",
           "zero_day",
-          "data_breach",
-          "supply_chain"
+          "data_breach"
         ],
         "actor_attribution": [
           "ShinyHunters"
@@ -927,8 +931,7 @@
         ],
         "affected_products": [
           "Apple iOS/macOS",
-          "Fortinet",
-          "Google Cloud"
+          "Fortinet"
         ],
         "urgency_signals": [
           "zero_day",
@@ -937,7 +940,7 @@
       },
       "cluster_count": 3,
       "article_count": 3,
-      "cohesion": 0.68,
+      "cohesion": 0.65,
       "shared_strong_signals": [
         "ShinyHunters"
       ],
@@ -951,6 +954,45 @@
       "links": [
         "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
         "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
+        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
+      ]
+    },
+    {
+      "label": "zero day targeting Google Cloud",
+      "anchor_signal": "Google Cloud",
+      "theme_key": "google-cloud",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "data_breach"
+        ],
+        "affected_products": [
+          "Google Cloud",
+          "Apple iOS/macOS",
+          "Fortinet"
+        ],
+        "urgency_signals": [
+          "zero_day",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.275,
+      "shared_strong_signals": [
+        "Google Cloud"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "d32aa43a64",
+        "927bf94c9b",
+        "a06704d870"
+      ],
+      "links": [
+        "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
+        "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
+        "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
         "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
       ]
     },
@@ -1111,7 +1153,14 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2019-0344",
+          "cluster_id": "927bf94c9b",
+          "first_source": "SecurityWeek",
+          "first_published": "2026-08-17T08:13:07+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -1337,6 +1386,147 @@
     ]
   },
   "items": [
+    {
+      "source": "SecurityWeek",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
+      "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
+      "published": "2026-08-17T08:47:38+00:00",
+      "summary": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
+      "author": "Ionut Arghire",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Apple iOS/macOS": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10
+    },
+    {
+      "source": "SecurityWeek",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
+      "link": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
+      "published": "2026-08-17T08:13:07+00:00",
+      "summary": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek .",
+      "author": "Eduard Kovacs",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day",
+          "data_breach",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Google Cloud",
+          "Microsoft SharePoint",
+          "Azure"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-58231",
+          "CVE-2019-0344"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day",
+          "no_patch_yet",
+          "poc_available"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Google Cloud": "target",
+          "Microsoft SharePoint": "target",
+          "Azure": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 12,
+      "full_body": "Hackers started exploiting a critical vulnerability in SAP Commerce Cloud just three days after its public disclosure, according to threat intelligence organizations. The vulnerability is tracked as CVE-2026-58231 and is described as an issue involving insufficient authorization checks and input validation. An attacker can exploit the vulnerability, which has a CVSS score of 10, to execute arbitrary code and compromise internal components. SAP announced patches for CVE-2026-58231 on August 11 and Defused reported that its honeypots had started seeing exploitation attempts on August 14. The security firm noted that there had been no public PoC exploit and no prior reports of in-the-wild exploitation. KEVIntel, which uses proprietary sensors and private honeypots to observe exploitation attempts, independently confirmed seeing attacks. The organization noted on August 15 that a PoC exploit has become available. Advertisement. Scroll to continue reading. CISA’s Known Exploited Vulnerabilities ( KEV ) catalog currently includes 14 SAP product flaws, but only one of them, CVE-2019-0344, affects Commerce Cloud. The security hole was added to the KEV list in 2024. CISA has yet to add CVE-2026-58231 to its catalog. Related : Adobe Commerce Bug Targeted Immediately After Disclosure Related : Fortune 500 Companies Hit in Azure Data Theft Campaign Related : Critical Flaws Discovered in Belgian eID Software Used by 2 Million People Related : Hackers Exploiting Unpatched GeoServer Zero-Day Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs SharePoint Vulnerability Exploited Shortly After PoC Release WhatsApp Unveils New Scam Alert Feature Chipmaker Patch Tuesday: Intel, AMD Fix Over 80 Vulnerabilities Combined ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact Cisco Patches Firewall Zero-Day Exploited for DoS Attacks US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Erika Dean has been appointed Chief Information Security Officer at Tricentis. C1 has named Jeff St. Clair Chief Revenue Officer. John Opala has joined Ralph Lauren as Chief Information Security Officer. More People On The Move Expert Insights The AI Gover",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "Help Net Security",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Police bust cybercrime ring accused of stealing €30 million in four-day spree",
+      "link": "https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/",
+      "published": "2026-08-17T08:08:30+00:00",
+      "summary": "German and Brazilian police dismantled an international bank fraud ring blamed for a €30 million cyberattack on a German financial institution, arresting four people in Brazil and pursuing three more suspects in Spain and Bulgaria. Brazilian police named the operation “Klonen.” On August 13, agents executed 21 search-and-seizure warrants across seven cities, including Rio de Janeiro, Goiânia, and Guarulhos. The case traces back to late 2023, when attackers exploited a flaw in the booking process … More → The post Police bust cybercrime ring accused of stealing €30 million in four-day spree appeared first on Help Net Security .",
+      "author": "Sinisa Markovic",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "Infosecurity Magazine",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Infostealers Harvest 1.7 Billion Credentials in Six Months",
+      "link": "https://www.infosecurity-magazine.com/news/infostealers-17-billion/",
+      "published": "2026-08-17T07:30:00+00:00",
+      "summary": "Flashpoint data reveals infostealers were responsible for taking 1.7 billion credentials in the first half of 2026",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
@@ -1567,7 +1757,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "",
       "fetch_status": "fetch_failed:HTTPError"
     },
@@ -1601,9 +1791,7 @@
           "products": []
         }
       },
-      "score": 7,
-      "full_body": "Risky Bulletin Podcast August 17, 2026 Sponsored: What npm 12 fixesâ¦ and what it doesnât Presented by Casey Ellis Founder, Bugcrowd In this Risky Business sponsored interview, Casey Ellis chats with Socket founder Feross Aboukhadijeh about npm 12âs move to disable install scripts by default. Attackers are already shifting payloads into package source code, and Feross explains why teams need to understand what third-party code actually does before allowing it into their environments. Your browser does not support the audio element. Sponsored: What npm 12 fixesâ¦ and what it doesnât â¶ 0:00 / 17:54 Subscribe Brought to you by Socket Secure your dependencies. Ship with confidence.",
-      "fetch_status": "ok"
+      "score": 6
     },
     {
       "source": "Reddit r/netsec",
@@ -1765,7 +1953,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -2359,7 +2547,6 @@
       "taxonomy": {
         "threat_categories": [
           "ransomware_extortion",
-          "supply_chain",
           "phishing_social_eng",
           "zero_day",
           "data_breach"
@@ -2371,9 +2558,9 @@
           "financial_services"
         ],
         "affected_products": [
-          "Google Cloud",
           "Fortinet",
-          "Apple iOS/macOS"
+          "Apple iOS/macOS",
+          "VMware"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -2385,7 +2572,6 @@
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Google Cloud": "target",
           "Fortinet": "target",
           "Apple iOS/macOS": "target",
           "VMware": "target",
@@ -2397,7 +2583,7 @@
         }
       },
       "score": 8,
-      "full_body": "The personal information of 1.6 million individuals appears to have been stolen from the widely used business communications platform RingCentral by a notorious extortion group. The incident occurred in July and was the result of a “sophisticated social engineering campaign”, RingCentral said in a notice on its website. “Upon detection, we promptly took steps to stop the unauthorized activity and immediately began an investigation with assistance from a leading third-party forensic firm. We have not seen any new unauthorized activity since taking these remediation efforts,” the company said. According to RingCentral, only a limited portion of its customers was affected by the attack, and those individuals were notified directly. “If you are not contacted by RingCentral, you are not affected. This incident did not impact the core RingCentral platform, and our services continue to operate without disruption,” it said. While RingCentral did not name the attackers, the ShinyHunters extortion group added the company to its Tor-based leak site in late July, claiming it stole over 623 gigabytes of data. Advertisement. Scroll to continue reading. Roughly a week later, as RingCentral did not succumb to the extortionists’ demands, ShinyHunters published a 280GB archive containing the data allegedly stolen from the company. On Thursday, data breach reporting site HaveIBeenPwned added the leaked information to its database, saying that it includes approximately 1.6 million unique email addresses, accompanied by names, addresses, and phone numbers. RingCentral hacked by ShinyHunters RingCentral has yet to confirm the attackers’ claims and the number of potentially impacted individuals. SecurityWeek has emailed RingCentral for a statement on the matter and will update this article if the company responds. RingCentral is a cloud-based provider of unified communications and contact center solutions. Its platform delivers business phone, team messaging, video meetings, and AI-assisted tools for employee collaboration and customer interactions. Related: 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal Over 1,000 Charities Hit by Beacon CRM Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the stronges",
+      "full_body": "The personal information of 1.6 million individuals appears to have been stolen from the widely used business communications platform RingCentral by a notorious extortion group. The incident occurred in July and was the result of a “sophisticated social engineering campaign”, RingCentral said in a notice on its website. “Upon detection, we promptly took steps to stop the unauthorized activity and immediately began an investigation with assistance from a leading third-party forensic firm. We have not seen any new unauthorized activity since taking these remediation efforts,” the company said. According to RingCentral, only a limited portion of its customers was affected by the attack, and those individuals were notified directly. “If you are not contacted by RingCentral, you are not affected. This incident did not impact the core RingCentral platform, and our services continue to operate without disruption,” it said. While RingCentral did not name the attackers, the ShinyHunters extortion group added the company to its Tor-based leak site in late July, claiming it stole over 623 gigabytes of data. Advertisement. Scroll to continue reading. Roughly a week later, as RingCentral did not succumb to the extortionists’ demands, ShinyHunters published a 280GB archive containing the data allegedly stolen from the company. On Thursday, data breach reporting site HaveIBeenPwned added the leaked information to its database, saying that it includes approximately 1.6 million unique email addresses, accompanied by names, addresses, and phone numbers. RingCentral hacked by ShinyHunters RingCentral has yet to confirm the attackers’ claims and the number of potentially impacted individuals. RingCentral is a cloud-based provider of unified communications and contact center solutions. Its platform delivers business phone, team messaging, video meetings, and AI-assisted tools for employee collaboration and customer interactions. Responding to a SecurityWeek inquiry, a RingCentral spokesperson provided the following statement: “RingCentral recently addressed a social engineering incident that affected a limited number of customers. Upon detection, we promptly took steps to stop the unauthorized activity and have not seen any new unauthorized activity since taking these efforts. We also began an investigation with assistance from a third-party forensic firm to investigate what happened and what data may have been impacted. This incident did not impact the RingCentral core platform and our services continue to operate without disruption. The investigation is ongoing, and we are communicating with customers as appropriate.” *Updated with statement from RingCentral. Related: 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Latest News Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities T",
       "fetch_status": "ok"
     },
     {
@@ -2516,7 +2702,6 @@
       "taxonomy": {
         "threat_categories": [
           "ransomware_extortion",
-          "supply_chain",
           "phishing_social_eng",
           "zero_day",
           "data_breach"
@@ -2555,7 +2740,7 @@
         }
       },
       "score": 8,
-      "full_body": "Hardware crypto wallet provider Trezor says the personal information of nearly 14,000 people was compromised in a data breach. The incident, it says, did not involve Trezor’s systems but rather its third-party shipping provider, ShipMonk. Trezor was notified of the attack on August 10. Customers in the US, the UK, Sweden, Colombia, Brazil, Italy, and Portugal who placed orders between May 10 and August 8 were affected. “We’re extremely sorry to inform our community that customer personal information, including full names, phone numbers, email addresses, and shipping addresses, has been accessed by an unauthorized actor during this breach,” Trezor says in a notice . Hackers stole the names, addresses, email addresses, and phone numbers of 11,742 customers, as well as the names, cities, and email addresses of 1,947 customers. Trezor shared the information with ShipMonk for order delivery purposes. “The breach is limited due to Trezor’s strict 90-day data storage policy (we were also able to negotiate the same terms with fulfillment partners, who follow the same policy),” the company says, but notes that for the 1,947 customers with partial exposure, older orders might have been accessed as well. Advertisement. Scroll to continue reading. “To be clear, our systems were not compromised, and your Trezor device is secure, but the affected customers might be targeted by more sophisticated phishing attempts,” the company says. Trezor notified all impacted customers via email and advised them to be wary of suspicious communication that requests personal information or prompts for immediate action. The company says it is in direct contact with ShipMonk to establish an exact timeline of events and determine the full scope of the data breach. ShipMonk reportedly notified customers that hackers accessed customer data by exploiting a vulnerability in Metabase. The targeted bug is likely the SQL injection zero-day that Metabase patched last week. The notorious extortion group ShinyHunters claimed responsibility for an attack on Metabase. On Wednesday, the group leaked data allegedly stolen from the data analytics solutions provider. ShipMonk has yet to acknowledge the incident publicly. It is unclear how many companies might have been affected, whether other individuals’ personal information was stolen, and who was behind the attack. SecurityWeek has emailed ShipMonk for a statement on the data breach and will update this article if the company responds. Related: Ceva Logistics Operations Disrupted by Cyberattack Related: Corporate Data Stolen in Levi Strauss Cyberattack Related: 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Trending Daily Briefing N",
+      "full_body": "Hardware crypto wallet provider Trezor says the personal information of nearly 14,000 people was compromised in a data breach. The incident, it says, did not involve Trezor’s systems but rather its third-party shipping provider, ShipMonk. Trezor was notified of the attack on August 10. Customers in the US, the UK, Sweden, Colombia, Brazil, Italy, and Portugal who placed orders between May 10 and August 8 were affected. “We’re extremely sorry to inform our community that customer personal information, including full names, phone numbers, email addresses, and shipping addresses, has been accessed by an unauthorized actor during this breach,” Trezor says in a notice . Hackers stole the names, addresses, email addresses, and phone numbers of 11,742 customers, as well as the names, cities, and email addresses of 1,947 customers. Trezor shared the information with ShipMonk for order delivery purposes. “The breach is limited due to Trezor’s strict 90-day data storage policy (we were also able to negotiate the same terms with fulfillment partners, who follow the same policy),” the company says, but notes that for the 1,947 customers with partial exposure, older orders might have been accessed as well. Advertisement. Scroll to continue reading. “To be clear, our systems were not compromised, and your Trezor device is secure, but the affected customers might be targeted by more sophisticated phishing attempts,” the company says. Trezor notified all impacted customers via email and advised them to be wary of suspicious communication that requests personal information or prompts for immediate action. The company says it is in direct contact with ShipMonk to establish an exact timeline of events and determine the full scope of the data breach. ShipMonk reportedly notified customers that hackers accessed customer data by exploiting a vulnerability in Metabase. The targeted bug is likely the SQL injection zero-day that Metabase patched last week. The notorious extortion group ShinyHunters claimed responsibility for an attack on Metabase. On Wednesday, the group leaked data allegedly stolen from the data analytics solutions provider. ShipMonk has yet to acknowledge the incident publicly. It is unclear how many companies might have been affected, whether other individuals’ personal information was stolen, and who was behind the attack. SecurityWeek has emailed ShipMonk for a statement on the data breach and will update this article if the company responds. Related: Ceva Logistics Operations Disrupted by Cyberattack Related: Corporate Data Stolen in Levi Strauss Cyberattack Related: 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Latest News Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Tr",
       "fetch_status": "ok"
     },
     {
@@ -2678,7 +2863,6 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "supply_chain",
           "zero_day",
           "data_breach"
         ],
@@ -2714,42 +2898,8 @@
         }
       },
       "score": 17,
-      "full_body": "Threat actors started exploiting an unpatched zero-day vulnerability in GeoServer hours after it was publicly disclosed, attack surface management firm WatchTowr says. The security defect, described as an SQL injection issue that could be exploited to achieve remote code execution (RCE), was disclosed on Wednesday by a security researcher named q1uf3ng. According to the researcher’s post on X, the flaw affects GeoServer’s jsonArrayContains function, a filter expression for querying JSON array fields to check if they contain specific values. It can be used with PostGIS and Oracle JDBC data stores. The SQL injection is likely caused by user-supplied arguments being improperly sanitized before they are encoded into database queries, which, under certain configurations, leads to RCE. According to WatchTowr, threat actors started exploiting the unpatched zero-day vulnerability shortly after it became public. “Within hours of public disclosure, we began observing exploitation attempts and have since recorded hundreds of attempts originating from a small number of source IP addresses. Yet another example of how quickly attackers move once a vulnerability enters the public domain,” WatchTowr’s Jake Knott said. Advertisement. Scroll to continue reading. Threat actors have been targeting the security defect to probe vulnerable systems, but no follow-up activity has been observed. “However, this is unlikely to remain the case for long: GeoServer has a track record of being targeted and exploited at scale , with multiple vulnerabilities listed in CISA’s Known Exploited Vulnerabilities catalog,” Knott said. “With no patch currently available and exploitation already underway, organizations running GeoServer should take this vulnerability seriously and, where possible, identify exposed instances, restrict public access, and monitor for a vendor fix,” he added. A popular open source platform for sharing and processing geospatial data, GeoServer is used across government, agriculture, telecoms, transit, and other industries. Related: Adobe Commerce Bug Targeted Immediately After Disclosure Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Related: Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Related: Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Ceva Logistics Operations Disrupted by Cyberattack Over 2,500 Organizations Impacted by LiteLLM Supply Chain Attack Latest News Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Re",
+      "full_body": "Threat actors started exploiting an unpatched zero-day vulnerability in GeoServer hours after it was publicly disclosed, attack surface management firm WatchTowr says. The security defect, described as an SQL injection issue that could be exploited to achieve remote code execution (RCE), was disclosed on Wednesday by a security researcher named q1uf3ng. According to the researcher’s post on X, the flaw affects GeoServer’s jsonArrayContains function, a filter expression for querying JSON array fields to check if they contain specific values. It can be used with PostGIS and Oracle JDBC data stores. The SQL injection is likely caused by user-supplied arguments being improperly sanitized before they are encoded into database queries, which, under certain configurations, leads to RCE. According to WatchTowr, threat actors started exploiting the unpatched zero-day vulnerability shortly after it became public. “Within hours of public disclosure, we began observing exploitation attempts and have since recorded hundreds of attempts originating from a small number of source IP addresses. Yet another example of how quickly attackers move once a vulnerability enters the public domain,” WatchTowr’s Jake Knott said. Advertisement. Scroll to continue reading. Threat actors have been targeting the security defect to probe vulnerable systems, but no follow-up activity has been observed. “However, this is unlikely to remain the case for long: GeoServer has a track record of being targeted and exploited at scale , with multiple vulnerabilities listed in CISA’s Known Exploited Vulnerabilities catalog,” Knott said. “With no patch currently available and exploitation already underway, organizations running GeoServer should take this vulnerability seriously and, where possible, identify exposed instances, restrict public access, and monitor for a vendor fix,” he added. A popular open source platform for sharing and processing geospatial data, GeoServer is used across government, agriculture, telecoms, transit, and other industries. Related: Adobe Commerce Bug Targeted Immediately After Disclosure Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Related: Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Related: Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 14,000 Trezor Customers Impacted by Data Breach at ShipMonk AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Latest News Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as th",
       "fetch_status": "ok"
-    },
-    {
-      "source": "SecurityWeek",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
-      "link": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
-      "published": "2026-08-14T06:41:43+00:00",
-      "summary": "The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek .",
-      "author": "Ionut Arghire",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Apple iOS/macOS": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "Risky Business News",
@@ -7180,7 +7330,7 @@
       "published": "2026-08-10T07:38:23+00:00",
       "summary": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although neither of the extensions is now available on Open VSX, the GitHub repository",
       "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7202,8 +7352,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 0
+      }
     },
     {
       "source": "The Hacker News",
@@ -12016,33 +12165,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
-      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
-      "published": "2026-08-04T00:00:00+00:00",
-      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -12090,6 +12212,33 @@
         "cve_ids": [
           "CVE-2026-18577"
         ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
+      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
+      "published": "2026-08-04T00:00:00+00:00",
+      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
@@ -15902,35 +16051,6 @@
       }
     },
     {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "The Next Evolution of MDR: Preemptive Defense and Agentic Investigation",
-      "link": "https://www.rapid7.com/blog/post/dr-the-next-evolution-mdr-preemptive-defense-agentic-investigation",
-      "published": "2026-07-28T13:00:00+00:00",
-      "summary": "For years, security operations followed a familiar sequence: detect suspicious activity, investigate what happened, and respond before it caused significant harm. That model developed in a threat landscape where defenders had considerably more time to establish the facts and decide what to do next. In 2019, the average data breach took 206 days to identify and another 73 days to contain, creating a total breach lifecycle of 279 days . As the time between initial access and attacker movement continues to contract, security teams are being asked to operate within a much narrower window. AI is accelerating reconnaissance, vulnerability discovery, and campaign execution, while defenders are responsible for growing volumes of data across cloud, identity, endpoint, SaaS, and AI environments, often without equivalent growth in analyst capacity. Managed detection and response is evolving to meet those conditions by connecting exposure intelligence, machine-speed investigation, and human expert",
-      "author": "Mikayla Wyman",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Cloudflare Radar",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -16557,13 +16677,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
-      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
+      "title": "2607-secai",
+      "link": "https://www.sophos.com/en-us/blog/2607-secai",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
+      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -16584,13 +16704,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "2607-secai",
-      "link": "https://www.sophos.com/en-us/blog/2607-secai",
+      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
+      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
+      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -18937,33 +19057,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Infosecurity Magazine",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Police Chiefs Cite TfL Hack in Push for Cybercrime Risk Orders",
-      "link": "https://www.infosecurity-magazine.com/news/police-chiefs-tfl-cybercrime-risk/",
-      "published": "2026-07-20T09:45:00+00:00",
-      "summary": "Two chiefs of UK policing agencies said the Transport for London prosecution demonstrates the need for Cybercrime Risk Orders",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_4_news",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -23306,33 +23399,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
-      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
-      "published": "2026-07-02T00:00:00+00:00",
-      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -23350,6 +23416,33 @@
         "actor_attribution": [
           "TeamPCP"
         ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
+      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
+      "published": "2026-07-02T00:00:00+00:00",
+      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],

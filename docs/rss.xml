@@ -6,9 +6,50 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 17 Aug 2026 07:06:47 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 08:51:49 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Recent macOS Screen Sharing Vulnerability Exploited in Attacks</title>
+<link>https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/</link>
+<description><![CDATA[Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
+<pubDate>Mon, 17 Aug 2026 08:47:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Apple iOS/macOS</category>
+</item>
+<item>
+<title>Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure</title>
+<link>https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/</link>
+<description><![CDATA[The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Microsoft SharePoint · Azure · CVE-2026-58231 · CVE-2019-0344 · zero_day · data_breach · active_exploitation</em>]]></description>
+<pubDate>Mon, 17 Aug 2026 08:13:07 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Google Cloud</category>
+<category>Microsoft SharePoint</category>
+<category>Azure</category>
+<category>CVE-2026-58231</category>
+</item>
+<item>
+<title>Police bust cybercrime ring accused of stealing €30 million in four-day spree</title>
+<link>https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/</link>
+<description><![CDATA[German and Brazilian police dismantled an international bank fraud ring blamed for a €30 million cyberattack on a German financial institution, arresting four people in Brazil and pursuing three more suspects in Spain and Bulgaria. Brazilian police named the operation “Klonen.” On August 13, agents executed 21 search-and-seizure warrants across seven cities, including Rio de Janeiro, Goiânia, and Guarulhos. The case traces back to late 2023, when attackers exploited a flaw in the booking process … More → The post Police bust cybercrime ring accused of stealing €30 million in four-day spree appeared first on Help Net Security .]]></description>
+<pubDate>Mon, 17 Aug 2026 08:08:30 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/17/germany-brazil-bank-fraud-ring-dismantled/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Infostealers Harvest 1.7 Billion Credentials in Six Months</title>
+<link>https://www.infosecurity-magazine.com/news/infostealers-17-billion/</link>
+<description><![CDATA[Flashpoint data reveals infostealers were responsible for taking 1.7 billion credentials in the first half of 2026]]></description>
+<pubDate>Mon, 17 Aug 2026 07:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/infostealers-17-billion/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Fortune 500 Companies Hit in Azure Data Theft Campaign</title>
 <link>https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/</link>
@@ -323,14 +364,14 @@
 <item>
 <title>1.6 Million Likely Impacted by RingCentral Data Breach</title>
 <link>https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/</link>
-<description><![CDATA[The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers. The post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Fortinet · Apple iOS/macOS · ShinyHunters · ransomware_extortion · supply_chain · phishing_social_eng · zero_day</em>]]></description>
+<description><![CDATA[The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers. The post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek .<br/><br/><em>Tags: Fortinet · Apple iOS/macOS · VMware · ShinyHunters · ransomware_extortion · phishing_social_eng · zero_day · data_breach</em>]]></description>
 <pubDate>Fri, 14 Aug 2026 10:24:03 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>Google Cloud</category>
 <category>Fortinet</category>
 <category>Apple iOS/macOS</category>
+<category>VMware</category>
 <category>ShinyHunters</category>
 </item>
 <item>
@@ -370,7 +411,7 @@
 <item>
 <title>14,000 Trezor Customers Impacted by Data Breach at ShipMonk</title>
 <link>https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/</link>
-<description><![CDATA[Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Fortinet · Apple iOS/macOS · ShinyHunters · ransomware_extortion · supply_chain · phishing_social_eng · zero_day</em>]]></description>
+<description><![CDATA[Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Fortinet · Apple iOS/macOS · ShinyHunters · ransomware_extortion · phishing_social_eng · zero_day · data_breach</em>]]></description>
 <pubDate>Fri, 14 Aug 2026 08:16:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
@@ -416,7 +457,7 @@
 <item>
 <title>Hackers Exploiting Unpatched GeoServer Zero-Day</title>
 <link>https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/</link>
-<description><![CDATA[The security defect is described as an SQL injection that could allow attackers to achieve remote code execution. The post Hackers Exploiting Unpatched GeoServer Zero-Day appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Fortinet · Apple iOS/macOS · supply_chain · zero_day · data_breach</em>]]></description>
+<description><![CDATA[The security defect is described as an SQL injection that could allow attackers to achieve remote code execution. The post Hackers Exploiting Unpatched GeoServer Zero-Day appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Fortinet · Apple iOS/macOS · zero_day · data_breach</em>]]></description>
 <pubDate>Fri, 14 Aug 2026 07:01:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
@@ -424,18 +465,7 @@
 <category>Google Cloud</category>
 <category>Fortinet</category>
 <category>Apple iOS/macOS</category>
-<category>supply_chain</category>
-</item>
-<item>
-<title>AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions</title>
-<link>https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/</link>
-<description><![CDATA[The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
-<pubDate>Fri, 14 Aug 2026 06:41:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>Apple iOS/macOS</category>
-<category>credential_theft</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Risky Bulletin: US will let private companies carry out offensive cyber ops</title>
@@ -3393,15 +3423,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
-<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
-<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
-<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>2608-volatility-interlock</title>
 <link>https://www.sophos.com/en-us/blog/2608-volatility-interlock</link>
 <description><![CDATA[&lt;p&gt;Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists&lt;/p&gt; Categories: Threat Research<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -3420,6 +3441,15 @@
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
 <category>CVE-2026-18577</category>
+</item>
+<item>
+<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
+<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
+<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
+<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Worm compromises hundreds of popular npm packages</title>
@@ -4681,16 +4711,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>The Next Evolution of MDR: Preemptive Defense and Agentic Investigation</title>
-<link>https://www.rapid7.com/blog/post/dr-the-next-evolution-mdr-preemptive-defense-agentic-investigation</link>
-<description><![CDATA[For years, security operations followed a familiar sequence: detect suspicious activity, investigate what happened, and respond before it caused significant harm. That model developed in a threat landscape where defenders had considerably more time to establish the facts and decide what to do next. In 2019, the average data breach took 206 days to identify and another 73 days to contain, creating a total breach lifecycle of 279 days . As the time between initial access and attacker movement continues to contract, security teams are being asked to operate within a much narrower window. AI is accelerating reconnaissance, vulnerability discovery, and campaign execution, while defenders are responsible for growing volumes of data across cloud, identity, endpoint, SaaS, and AI environments, often without equivalent growth in analyst capacity. Managed detection and response is evolving to meet those conditions by connecting exposure intelligence, machine-speed investigation, and human expert<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/dr-the-next-evolution-mdr-preemptive-defense-agentic-investigation</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Natural disasters and government interference: examining Q2 2026’s major Internet disruption events</title>
 <link>https://blog.cloudflare.com/q2-2026-internet-disruption-summary/</link>
 <description><![CDATA[Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.]]></description>
@@ -4901,21 +4921,21 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
-<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
-<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
-<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>2607-secai</title>
 <link>https://www.sophos.com/en-us/blog/2607-secai</link>
 <description><![CDATA[&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research]]></description>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/2607-secai</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
+<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
+<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
+<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 </item>
 <item>
@@ -5690,15 +5710,6 @@
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Police Chiefs Cite TfL Hack in Push for Cybercrime Risk Orders</title>
-<link>https://www.infosecurity-magazine.com/news/police-chiefs-tfl-cybercrime-risk/</link>
-<description><![CDATA[Two chiefs of UK policing agencies said the Transport for London prosecution demonstrates the need for Cybercrime Risk Orders]]></description>
-<pubDate>Mon, 20 Jul 2026 09:45:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/police-chiefs-tfl-cybercrime-risk/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Risky Bulletin: Hacker wipes Romania&apos;s entire land registry database</title>
@@ -7135,15 +7146,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
-<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
-<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
-<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Vect and TeamPCP partner for ransomware campaigns</title>
 <link>https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns</link>
 <description><![CDATA[Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Categories: Threat Research Tags: Vect, TeamPCP, Ransomware<br/><br/><em>Tags: TeamPCP · ransomware_extortion · supply_chain</em>]]></description>
@@ -7154,6 +7156,15 @@
 <category>TeamPCP</category>
 <category>ransomware_extortion</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
+<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
+<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
+<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Lateral Movement Attack: Techniques, Detection &amp; Prevention</title>
@@ -18684,7 +18695,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18694,7 +18705,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18703,7 +18714,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18712,7 +18723,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18721,7 +18732,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18730,7 +18741,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18739,7 +18750,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18748,7 +18759,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18757,7 +18768,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18766,7 +18777,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 08:51:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
