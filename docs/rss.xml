@@ -6,9 +6,38 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 17 Aug 2026 15:31:01 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 16:35:04 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Irregular faces criticism over ‘spin’ in AI hacking postmortem</title>
+<link>https://therecord.media/irregular-ai-hacking-model-blog</link>
+<description><![CDATA[The company at the center of a series of incidents in which AI models compromised real-world computer systems during security evaluations is facing criticism after the release of a report that security experts say leaves key questions unanswered.]]></description>
+<pubDate>Mon, 17 Aug 2026 16:15:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/irregular-ai-hacking-model-blog</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Poland probes MyDr healthcare software breach potentially affecting 19 million people</title>
+<link>https://therecord.media/poland-probes-mydr-healthcare-software-breach</link>
+<description><![CDATA[MyDr, a privately-owned Polish company that supplies software to doctors, clinics and other healthcare providers, said on Friday that it had identified and removed the cause of the incident and introduced additional security measures.]]></description>
+<pubDate>Mon, 17 Aug 2026 16:01:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/poland-probes-mydr-healthcare-software-breach</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS</title>
+<link>https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos</link>
+<description><![CDATA[The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.<br/><br/><em>Tags: credential_theft · ddos</em>]]></description>
+<pubDate>Mon, 17 Aug 2026 15:44:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>credential_theft</category>
+<category>ddos</category>
+</item>
 <item>
 <title>France’s tax authority admits hackers made off with data on 678,000 individuals</title>
 <link>https://www.helpnetsecurity.com/2026/08/17/france-tax-authority-data-breach/</link>
@@ -396,15 +425,6 @@
 <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33248</guid>
 <source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
 <category>government_authoritative</category>
-</item>
-<item>
-<title>AMA with Black Hat Speakers Lidor B. &amp; Elad Meged (Pre-Auth RCE in Enterprise Java, Hijacking AI Coding Agents)</title>
-<link>https://www.reddit.com/r/netsec/comments/1vq6fef/ama_with_black_hat_speakers_lidor_b_elad_meged/</link>
-<description><![CDATA[submitted by /u/_cybersecurity_ [link] [comments]]]></description>
-<pubDate>Sun, 16 Aug 2026 19:38:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vq6fef/ama_with_black_hat_speakers_lidor_b_elad_meged/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Sponsored: What npm 12 fixes… and what it doesn’t</title>
@@ -837,15 +857,6 @@
 <category>offensive_vulnerability_research</category>
 <category>GitHub</category>
 <category>Azure</category>
-</item>
-<item>
-<title>New Mirai variant adds stealth capabilities to notorious botnet code</title>
-<link>https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code</link>
-<description><![CDATA[Beyond Mirai’s usual functions, the new code features include encrypted communications with command-and-control servers and a “sniffer” that looks for default access credentials.]]></description>
-<pubDate>Thu, 13 Aug 2026 15:52:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/new-mirai-variant-adds-stealth-to-botnet-code</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities</title>
@@ -1971,6 +1982,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>How Malachyte solves retail’s cold-start problem with managed real-time AI</title>
+<link>https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</link>
+<description><![CDATA[What’s the best way to recommend products to little-known users? We’ve spent our careers trying to solve this problem for major companies like Spotify and Priceline, and it’s why Sidd founded Malachyte , an AI-powered ecommerce recommendation platform. These days, consumers have come to expect content that feels personalized and relevant, and online services competing for their attention have no choice but to do this exceptionally well. Malachyte was inspired by some unique insights into how advanced AI models, and large language models in particular, could be applied in new ways to old challenges like personalization and recommendations. As Malachyte set out to win potential customers’ business, we needed secure, scalable, reliable and, above all, leading-edge AI infrastructure to continue building the personalization algorithm we had always envisioned. By utilizing Google Cloud tools like Bigtable and Managed Service for Apache Kafka , Malachyte has been able to help some of its reta]]></description>
+<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices</title>
 <link>https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/</link>
 <description><![CDATA[Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec<br/><br/><em>Tags: Kubernetes</em>]]></description>
@@ -1979,6 +1999,24 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Kubernetes</category>
+</item>
+<item>
+<title>Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</link>
+<description><![CDATA[At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give customers the flexibility to innovate and the foundation to deliver measurable business value. At the center of it all is Gemini Enterprise, a unified platform designed to power the agentic enterprise , meet builders where they are , and deliver enterprise trust by default . We believe this integrated approach is why Google has been named a Leader in The Forrester Wave ™: AI Platforms, Q3 2026 report , and received the highest score in the Strategy category . Powering the Agentic Era As agents become embedded across every part of the business, organizations need a unified platform. Gemini Enterprise serves as the front door to AI for your entire organization, removing the silos between business users, developers, and IT leaders by connecting them all with shared, universal c]]></description>
+<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>How WPP operationalizes platform and data engineering for AI marketing</title>
+<link>https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/</link>
+<description><![CDATA[Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and optimize their ad spend. WPP is replacing that guesswork with an AI-powered view of shifting market dynamics, giving brands predictive certainty that lets them invest with confidence while moving at the speed of the market. That’s the value of WPP Open , its agentic marketing system. But before it could begin applying sophisticated AI models to power those insights, WPP had to overcome a critical engineering challenge: the marketing data that made up the models was fragmented across hundreds of global agencies. While this dynamic made it nearly impossible to deploy AI tools efficiently and securely, access to models was only part of the equation. And until it built a reliable way to ingest, clean, and serve data to those models, WPP couldn’t unlock the true potential of generative AI. To sol]]></description>
+<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Sherlock Holmes Was the &apos;OG&apos; Social Engineer</title>
@@ -2286,6 +2324,15 @@
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
 <category>ai_security</category>
+</item>
+<item>
+<title>Analyzing a Multi-Stage PowerShell Payload Chain</title>
+<link>https://www.reddit.com/r/netsec/comments/1vj2hiw/analyzing_a_multistage_powershell_payload_chain/</link>
+<description><![CDATA[I recently analyzed a multi-stage PowerShell payload delivery chain involving heavily obfuscated PowerShell loaders and remotely hosted payloads. The analysis covers PowerShell deobfuscation, hidden execution, Base64/XOR decoding, a decoy “Verification complete!” prompt, payload delivery, and IOCs. Initial indicators: 203[.]188[.]171[.]166 dorenzaa[.]com submitted by /u/anuraggawande [link] [comments]]]></description>
+<pubDate>Sat, 08 Aug 2026 17:55:01 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vj2hiw/analyzing_a_multistage_powershell_payload_chain/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Now we have a timeline of the OpenAI accidental attack against Hugging Face</title>
@@ -4442,15 +4489,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>SE Asian Cybercriminal Syndicates Become a Global Power</title>
-<link>https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power</link>
-<description><![CDATA[The organized crime groups have moved from goods to services and continue to traffic people from at least 80 countries, costing nations in the region at least $88 billion in 2025 alone.]]></description>
-<pubDate>Thu, 30 Jul 2026 01:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/se-asian-cybercriminal-syndicates-global-power</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Iran War’s Secondary Effects Shape 2026 US Violent Extremism</title>
 <link>https://www.recordedfuture.com/research/iran-violent-extremism-landscape</link>
 <description><![CDATA[Explore the 2026 US violent extremism threat landscape. This report analyzes rising risks from HVEs, DVEs, and Iran-nexus actors to public and private sector entities.]]></description>
@@ -4851,16 +4889,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -4870,6 +4898,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
+</item>
+<item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -5734,15 +5772,6 @@
 <guid isPermaLink="true">https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation</guid>
 <source url="https://www.interconnects.ai/feed">Interconnects</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Cruciferra Crypter Uses Process Ghosting to Evade Detection</title>
-<link>https://www.infosecurity-magazine.com/news/cruciferra-crypter-process-ghosting/</link>
-<description><![CDATA[Cruciferra crypter used process ghosting and 90 custom ciphers to hide payloads for multiple actors]]></description>
-<pubDate>Mon, 20 Jul 2026 15:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/cruciferra-crypter-process-ghosting/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>20th July – Threat Intelligence Report</title>
@@ -7448,6 +7477,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
+<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
+<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>The Hacker&apos;s 2026 Playbook: Dark Web Tactics Targeting You</title>
 <link>https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook</link>
 <description><![CDATA[Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
@@ -7456,15 +7494,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
-</item>
-<item>
-<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
-<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
-<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams</title>
@@ -7637,15 +7666,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
-<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
-<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
-<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/</link>
 <description><![CDATA[Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
@@ -7655,6 +7675,15 @@
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
+</item>
+<item>
+<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
+<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
+<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
+<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Computer-Use and TOCTOU: What You Click Is Not What You Get!</title>
@@ -7877,7 +7906,7 @@
 <item>
 <title>The White House&apos;s post-quantum executive order is an important milestone. It’s time to get to work</title>
 <link>https://blog.cloudflare.com/post-quantum-eo-2026/</link>
-<description><![CDATA[The new executive order sets a 2030 migration deadline and establishes a powerful foundation for post-quantum resilience. We look at what it gets right, where it can go further, and our migration playbook for government and industry.]]></description>
+<description><![CDATA[The new executive order sets a 2030 migration deadline and establishes a powerful foundation for post-quantum resilience. We look at what it gets right, where it can go further, and our migration playbook for government and industry]]></description>
 <pubDate>Tue, 23 Jun 2026 18:25:18 +0000</pubDate>
 <guid isPermaLink="true">https://blog.cloudflare.com/post-quantum-eo-2026/</guid>
 <source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
@@ -8085,20 +8114,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>The &apos;vibe coding spectrum&apos; approach to AI-assisted software development</title>
-<link>https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</link>
-<description><![CDATA[Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.]]></description>
-<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
 <link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
 <description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
 <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>The &apos;vibe coding spectrum&apos; approach to AI-assisted software development</title>
+<link>https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</link>
+<description><![CDATA[Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.]]></description>
+<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -8358,16 +8387,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed</title>
-<link>https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</link>
-<description><![CDATA[A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
 <description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
@@ -8376,6 +8395,16 @@
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>UNC6508</category>
+</item>
+<item>
+<title>The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed</title>
+<link>https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</link>
+<description><![CDATA[A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>EvilTokens: A phishing attack that doesn’t steal your password</title>
@@ -8927,15 +8956,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Why Huntress Doesn’t Need FedRAMP</title>
-<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
-<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
-<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/</link>
 <description><![CDATA[Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as &quot;Luna Moth,&quot; “Chatty Spider,” and &quot;Silent Ransom Group&quot;) targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their <br/><br/><em>Tags: Silent Ransom Group · UNC3753 · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -8947,6 +8967,15 @@
 <category>UNC3753</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Why Huntress Doesn’t Need FedRAMP</title>
+<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
+<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
+<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Risky Bulletin: EU unveils digital sovereignty plan</title>
@@ -18590,7 +18619,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18600,7 +18629,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18609,7 +18638,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18618,7 +18647,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18627,7 +18656,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18636,7 +18665,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18645,7 +18674,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18654,7 +18683,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18663,7 +18692,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18672,7 +18701,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 15:31:01 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 16:35:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
