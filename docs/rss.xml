@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 17 Aug 2026 05:40:08 +0000</lastBuildDate>
+<lastBuildDate>Mon, 17 Aug 2026 07:06:47 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Fortune 500 Companies Hit in Azure Data Theft Campaign</title>
+<link>https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/</link>
+<description><![CDATA[A threat actor is claiming the exfiltration of millions of records from McDonald’s, TCS, Vodafone, and other large organizations. The post Fortune 500 Companies Hit in Azure Data Theft Campaign appeared first on SecurityWeek .]]></description>
+<pubDate>Mon, 17 Aug 2026 06:51:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>Windows 11’s strongest security defenses can be bypassed without a screwdriver</title>
 <link>https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/</link>
@@ -583,16 +592,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>Adobe Commerce Bug Targeted Immediately After Disclosure</title>
-<link>https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/</link>
-<description><![CDATA[The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches. The post Adobe Commerce Bug Targeted Immediately After Disclosure appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-71362</em>]]></description>
-<pubDate>Thu, 13 Aug 2026 14:17:44 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-71362</category>
-</item>
-<item>
 <title>vCenter Flaw Exploited Just Five Days After Disclosure</title>
 <link>https://www.infosecurity-magazine.com/news/vcenter-cve-2026-59310-exploited/</link>
 <description><![CDATA[Attackers exploited a critical-severity vCenter flaw five days after Broadcom disclosed it]]></description>
@@ -835,11 +834,15 @@
 <item>
 <title>Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan</title>
 <link>https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/</link>
-<description><![CDATA[Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .]]></description>
+<description><![CDATA[Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .<br/><br/><em>Tags: OpenAI/ChatGPT · GitHub · Anthropic/Claude · supply_chain · apt_espionage</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 17:05:01 +0000</pubDate>
 <guid isPermaLink="true">https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+<category>GitHub</category>
+<category>Anthropic/Claude</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Walmart Takes a &apos;Trusted Agent&apos; Approach to Purple Teaming</title>
@@ -1479,12 +1482,15 @@
 <item>
 <title>[remote] mcp-server-kubernetes 3.8.x - Argument Injection</title>
 <link>https://www.exploit-db.com/exploits/52638</link>
-<description><![CDATA[mcp-server-kubernetes 3.8.x - Argument Injection<br/><br/><em>Tags: Kubernetes</em>]]></description>
+<description><![CDATA[mcp-server-kubernetes 3.8.x - Argument Injection<br/><br/><em>Tags: Kubernetes · Anthropic/Claude · GitHub · CVE-2026-61459</em>]]></description>
 <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52638</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>Kubernetes</category>
+<category>Anthropic/Claude</category>
+<category>GitHub</category>
+<category>CVE-2026-61459</category>
 </item>
 <item>
 <title>deno-case-studies</title>
@@ -1796,6 +1802,15 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>GitHub</category>
+</item>
+<item>
+<title>OpenAI&apos;s Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause</title>
+<link>https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html</link>
+<description><![CDATA[OpenAI has announced that it&apos;s pausing some &quot;internal activities&quot; involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant advancements in agentic coding and cybersecurity. In response to the discovery, the AI upstart said it&apos;s implementing security controls for higher-capability models and associated activities, such as isolated]]></description>
+<pubDate>Mon, 10 Aug 2026 05:50:03 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Risky Bulletin: Two law firms pay giant ransoms</title>
@@ -3378,6 +3393,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
+<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
+<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
+<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>2608-volatility-interlock</title>
 <link>https://www.sophos.com/en-us/blog/2608-volatility-interlock</link>
 <description><![CDATA[&lt;p&gt;Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists&lt;/p&gt; Categories: Threat Research<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -3406,15 +3430,6 @@
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
 <category>npm</category>
-</item>
-<item>
-<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
-<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
-<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
-<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Security briefing: July 2026</title>
@@ -3706,15 +3721,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Before the first prompt: Code execution paths in trusted coding-agent projects</title>
-<link>https://securitylabs.datadoghq.com/articles/coding-agent-project-trust-code-execution-before-first-prompt/</link>
-<description><![CDATA[Learn how trusted coding-agent projects can execute repository-controlled code before the first prompt through Codex MCP configuration and Claude Code environment settings.]]></description>
-<pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/coding-agent-project-trust-code-execution-before-first-prompt/</guid>
-<source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>SOC case management and detection rule history in Elastic Security</title>
 <link>https://www.elastic.co/security-labs/soc-case-management-detection-rule-history</link>
 <description><![CDATA[Elastic Security now tracks every detection rule change with one-click rollback and makes case data queryable out of the box, so SOC teams get audit trails and reporting without configuring anything.]]></description>
@@ -3722,6 +3728,15 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/soc-case-management-detection-rule-history</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Before the first prompt: Code execution paths in trusted coding-agent projects</title>
+<link>https://securitylabs.datadoghq.com/articles/coding-agent-project-trust-code-execution-before-first-prompt/</link>
+<description><![CDATA[Learn how trusted coding-agent projects can execute repository-controlled code before the first prompt through Codex MCP configuration and Claude Code environment settings.]]></description>
+<pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/coding-agent-project-trust-code-execution-before-first-prompt/</guid>
+<source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Latest open artifacts (#23): Laguna S2.1, Inkling, &amp; Kimi K3 show the utility of open models on the Pareto frontier</title>
@@ -4886,6 +4901,15 @@
 <category>apt_espionage</category>
 </item>
 <item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
+<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
+<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
+<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>2607-secai</title>
 <link>https://www.sophos.com/en-us/blog/2607-secai</link>
 <description><![CDATA[&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research]]></description>
@@ -4902,15 +4926,6 @@
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/detection-primitives-for-ebpf-rootkits/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
-<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
-<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
-<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Sponsored: How AI is putting pressure on EDR</title>
@@ -6649,15 +6664,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Coordinated GitHub API enumeration and access token abuse</title>
-<link>https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/</link>
-<description><![CDATA[Datadog Security Research has tracked multiple coordinated campaigns enumerating GitHub organizations, repositories, and users through the public GitHub API, abusing leaked access tokens, and cloning private repositories.]]></description>
-<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/</guid>
-<source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>ClickFix to Cash-Out: Anatomy of a Mexican Banking-Fraud Toolkit</title>
 <link>https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045</link>
 <description><![CDATA[Elastic Security Labs tracks REF6045, an active operator-assisted banking fraud operation targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges.]]></description>
@@ -6665,6 +6671,15 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Coordinated GitHub API enumeration and access token abuse</title>
+<link>https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/</link>
+<description><![CDATA[Datadog Security Research has tracked multiple coordinated campaigns enumerating GitHub organizations, repositories, and users through the public GitHub API, abusing leaked access tokens, and cloning private repositories.]]></description>
+<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/coordinated-github-api-enumeration/</guid>
+<source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI</title>
@@ -7120,6 +7135,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
+<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
+<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
+<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Vect and TeamPCP partner for ransomware campaigns</title>
 <link>https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns</link>
 <description><![CDATA[Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Categories: Threat Research Tags: Vect, TeamPCP, Ransomware<br/><br/><em>Tags: TeamPCP · ransomware_extortion · supply_chain</em>]]></description>
@@ -7130,15 +7154,6 @@
 <category>TeamPCP</category>
 <category>ransomware_extortion</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
-<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
-<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
-<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Lateral Movement Attack: Techniques, Detection &amp; Prevention</title>
@@ -18669,7 +18684,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18679,7 +18694,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18688,7 +18703,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18697,7 +18712,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18706,7 +18721,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18715,7 +18730,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18724,7 +18739,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18733,7 +18748,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18742,7 +18757,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18751,7 +18766,7 @@
 <title>5 High-Impact Use Cases for Falcon Onum</title>
 <link>https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 17 Aug 2026 05:40:08 +0000</pubDate>
+<pubDate>Mon, 17 Aug 2026 07:06:47 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/five-high-impact-use-cases-for-falcon-onum/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
