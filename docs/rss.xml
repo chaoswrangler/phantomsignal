@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 18 Aug 2026 06:53:57 +0000</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 07:43:53 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -18,6 +18,19 @@
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>Apple iOS/macOS</category>
+</item>
+<item>
+<title>CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE</title>
+<link>https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html</link>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than<br/><br/><em>Tags: Azure · GitHub · Anthropic/Claude · CVE-2025-62593 · phishing_social_eng · credential_theft · ddos · active_exploitation</em>]]></description>
+<pubDate>Tue, 18 Aug 2026 06:34:20 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Azure</category>
+<category>GitHub</category>
+<category>Anthropic/Claude</category>
+<category>CVE-2025-62593</category>
 </item>
 <item>
 <title>A hollowed out data layer is making CISOs fly blind into AI attacks</title>
@@ -89,12 +102,14 @@
 <item>
 <title>Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects</title>
 <link>https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</link>
-<description><![CDATA[GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data. The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4. Released on<br/><br/><em>Tags: GitLab · CVE-2026-19478</em>]]></description>
+<description><![CDATA[GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data. The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4. Released on<br/><br/><em>Tags: GitLab · GitHub · cPanel · CVE-2026-19478 · CVE-2026-19650 · credential_theft</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 21:03:04 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>GitLab</category>
+<category>GitHub</category>
+<category>cPanel</category>
 <category>CVE-2026-19478</category>
 </item>
 <item>
@@ -182,13 +197,14 @@
 <item>
 <title>Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads</title>
 <link>https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</link>
-<description><![CDATA[A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias &quot;<br/><br/><em>Tags: WordPress · CVE-2026-15748</em>]]></description>
+<description><![CDATA[A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias &quot;<br/><br/><em>Tags: WordPress · CVE-2026-15748 · CVE-2026-15826</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 18:22:09 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
 <category>CVE-2026-15748</category>
+<category>CVE-2026-15826</category>
 </item>
 <item>
 <title>Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic</title>
@@ -329,12 +345,15 @@
 <item>
 <title>⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More</title>
 <link>https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</link>
-<description><![CDATA[The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a<br/><br/><em>Tags: supply_chain</em>]]></description>
+<description><![CDATA[The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a<br/><br/><em>Tags: Apple iOS/macOS · VMware · Lazarus · CVE-2026-59310 · CVE-2026-65400 · CVE-2026-68820 · ransomware_extortion · supply_chain</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 13:23:51 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>supply_chain</category>
+<category>Apple iOS/macOS</category>
+<category>VMware</category>
+<category>Lazarus</category>
+<category>CVE-2026-59310</category>
 </item>
 <item>
 <title>Attackers exploit patched macOS Screen Sharing flaw to deploy cryptominer</title>
@@ -488,16 +507,6 @@
 <category>CVE-2026-69414</category>
 </item>
 <item>
-<title>How QR-code phishing can slip past corporate security measures</title>
-<link>https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/</link>
-<description><![CDATA[Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Mon, 17 Aug 2026 09:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/</guid>
-<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
-<category>threat_research_primary</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Recent macOS Screen Sharing Vulnerability Exploited in Attacks</title>
 <link>https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/</link>
 <description><![CDATA[Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
@@ -556,16 +565,6 @@
 <guid isPermaLink="true">https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Windows 11’s strongest security defenses can be bypassed without a screwdriver</title>
-<link>https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/</link>
-<description><![CDATA[Researchers from the University of Birmingham and Durham University have found a way to knock down some of the toughest protections in Windows 11 without physically opening or modifying the target machine. The attack assumes the attacker has already gained privileged access to the system. A chip that never checks who’s asking The attack, named “Download More RAM,” targets a small configuration chip found on Dual In-line Memory Modules (DIMMs), the RAM sticks inside most … More → The post Windows 11’s strongest security defenses can be bypassed without a screwdriver appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft Windows</em>]]></description>
-<pubDate>Mon, 17 Aug 2026 05:30:34 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/17/windows-11-security-bypass-research/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft Windows</category>
 </item>
 <item>
 <title>Risky Bulletin: The EU publishes its upcoming cybersecurity standards</title>
@@ -1926,15 +1925,6 @@
 <pubDate>Tue, 11 Aug 2026 08:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/half-uk-manufacturers-cyber/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine</title>
-<link>https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html</link>
-<description><![CDATA[Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the intruders were still active inside the network, and customers lost neither heat]]></description>
-<pubDate>Tue, 11 Aug 2026 06:55:45 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -5051,16 +5041,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -5070,6 +5050,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
+</item>
+<item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -15193,6 +15183,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>What if your romantic AI chatbot can’t keep a secret?</title>
+<link>https://www.welivesecurity.com/en/privacy/romantic-ai-chatbot-keep-secret/</link>
+<description><![CDATA[Does your chatbot know too much? Here&apos;s why you should think twice before you tell your AI companion everything.]]></description>
+<pubDate>Mon, 17 Nov 2025 10:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.welivesecurity.com/en/privacy/romantic-ai-chatbot-keep-secret/</guid>
+<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>When Bulletproof Hosting Proves Bulletproof: The Stark Industries Shell Game</title>
 <link>https://www.greynoise.io/blog/stark-industries-shell-game</link>
 <description><![CDATA[EU sanctions hit Stark Industries in May 2025. GreyNoise data shows how the group quietly rebranded to THE.Hosting and kept its malicious infrastructure running.]]></description>
@@ -18735,7 +18734,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18744,7 +18743,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18754,7 +18753,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18763,7 +18762,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18772,7 +18771,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18781,7 +18780,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18790,7 +18789,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18799,7 +18798,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18808,7 +18807,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18817,7 +18816,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 06:53:57 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 07:43:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
