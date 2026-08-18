@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-18T09:39:47.924210+00:00
+- Generated: 2026-08-18T10:35:28.512085+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 313
-- Total clusters raw: 142
+- Total items in window: 310
+- Total clusters raw: 141
 - Total clusters in packet: 69
-- Dropped low score: 73
+- Dropped low score: 72
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,21 +70,26 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 1
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -95,36 +100,41 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -135,41 +145,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -180,6 +170,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 11
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,51 +195,56 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 30
+  - Item count: 20
+  - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -255,56 +260,46 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 100
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -315,6 +310,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,23 +325,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,26 +345,36 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 18
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 18
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 18
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -379,11 +384,6 @@
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 2
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 2
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
@@ -400,16 +400,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -420,40 +425,35 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 27
+  - In window count: 28
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 49
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 17
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -478,7 +478,7 @@
 - Theme key: cve-2026-68820
 - Cluster count: 9
 - Article count: 16
-- Cohesion: 0.25
+- Cohesion: 0.257
 - Shared strong signals: CVE-2026-68820
 - Member CVEs: (none)
 - Also targets: (none)
@@ -489,7 +489,7 @@
   - affected_products: Microsoft SharePoint
   - cve_ids: CVE-2026-68820
   - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 17761b9ecf, c13f381a5a, ef336b7141, 02b0e547f6, 7e142768f0, b4927a86ad, 22bf2708a0, 7f18333ab6, 388705e7c7
+- Cluster IDs: 17761b9ecf, c13f381a5a, ef336b7141, 02b0e547f6, 7e142768f0, b4927a86ad, 4d06d42e84, 7f18333ab6, 388705e7c7
 - Links:
   - https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026
   - https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
@@ -498,17 +498,17 @@
   - https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues
   - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-  - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
   - https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
+  - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
   - https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
 
 ### Apple iOS/macOS active exploitation
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
-- Cluster count: 8
-- Article count: 19
-- Cohesion: 0.245
+- Cluster count: 9
+- Article count: 21
+- Cohesion: 0.243
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
@@ -517,7 +517,7 @@
   - affected_industries: financial_services, government
   - affected_products: Apple iOS/macOS
   - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 1580e2d432, cb8fdf38e7, 7d705c8d6a, a50e916d10, 7e142768f0, 63d69c8e14, ff9d8c251f, 388705e7c7
+- Cluster IDs: 1580e2d432, cb8fdf38e7, 7d705c8d6a, a50e916d10, 7e142768f0, 63d69c8e14, 4d06d42e84, ff9d8c251f, 388705e7c7
 - Links:
   - https://www.helpnetsecurity.com/2026/08/17/apple-macos-screen-sharing-flaw/
   - https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html
@@ -533,6 +533,8 @@
   - https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/
   - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/
+  - https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
+  - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
   - https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
 
@@ -563,6 +565,31 @@
   - https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/
   - https://tldrsec.com/p/tldr-sec-341
 
+### Microsoft Windows exploitation (CVE-2026-50656)
+- Anchor signal: Microsoft Windows
+- Theme key: microsoft-windows
+- Cluster count: 5
+- Article count: 7
+- Cohesion: 0.299
+- Shared strong signals: Microsoft Windows
+- Member CVEs: CVE-2026-50656
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, vulnerability_disclosure
+  - actor_attribution: Lazarus
+  - affected_products: Microsoft Windows, Microsoft Defender
+  - cve_ids: CVE-2026-50656, CVE-2026-68820
+  - urgency_signals: zero_day, poc_available
+- Cluster IDs: 17761b9ecf, dcf9212f8f, 4d06d42e84, 8fb5179107, 7f18333ab6
+- Links:
+  - https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026
+  - https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
+  - https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/
+  - https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
+  - https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+  - https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
+  - https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
+
 ### Cisco active exploitation
 - Anchor signal: Cisco
 - Theme key: cisco
@@ -582,28 +609,6 @@
   - https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
   - https://blog.talosintelligence.com/curiouser-and-curiouser/
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
-
-### Microsoft Windows exploitation (CVE-2026-50656)
-- Anchor signal: Microsoft Windows
-- Theme key: microsoft-windows
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.33
-- Shared strong signals: Microsoft Windows
-- Member CVEs: CVE-2026-50656
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, vulnerability_disclosure
-  - affected_products: Microsoft Windows, Microsoft Defender
-  - cve_ids: CVE-2026-50656
-  - urgency_signals: zero_day, poc_available
-- Cluster IDs: 17761b9ecf, dcf9212f8f, 8fb5179107, 7f18333ab6
-- Links:
-  - https://www.rapid7.com/blog/post/em-patch-tuesday-august-2026
-  - https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html
-  - https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/
-  - https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html
-  - https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html
 
 ### zero day targeting Microsoft Defender
 - Anchor signal: Microsoft Defender
@@ -1489,8 +1494,8 @@ Clive Robinson • August 12, 2026 4:46 AM @ Magnus, With regards, “Or, global
 - Published: 2026-08-13T13:00:40+00:00
 - Link: https://www.sentinelone.com/labs/the-model-is-the-malware-what-four-agentic-intrusions-tell-defenders/
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 4
+- Member count: 8
+- Corroborating source count: 5
 - Strong signals: Anthropic/Claude, OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -1517,13 +1522,18 @@ OpenAI, Anthropic and Meta disclosed agents reaching external systems. The tools
 AI Research The Model Is the Malware | What Four Agentic Intrusions Tell Defenders Gabriel Bernadett-Shapiro / August 13, 2026 Executive Summary Four incidents involving OpenAI, Anthropic, Meta and the UK AI Security Institute (AISI) describe AI agents reaching systems belonging to other organizations without their consent. While the causes differ, the consistent factor is the models’ persistence rather than their sophistication, whether as endurance across days of failed attempts or as pivots to entirely new vectors. Security teams have traditionally studied the artifacts attackers leave behind, but an agent that simply writes unique, disposable tools makes the model itself the thing worth studying. SentinelLABS has been benchmarking frontier models in agent harnesses for months. We observe that the capability that lets GPT-5.6 Sol complete a long-horizon malware investigation is the same one that lets it sustain a two-and-a-half-day intrusion. A model may independently determine the methods or targets it uses, but it does not choose its high-level objective or the access it is given to pursue it. We argue that “the AI did it” will not survive contact with the first incident outside a frontier lab. Four Disclosures, One Pattern Across four weeks in July and August 2026, OpenAI, Anthropic and Meta have each admitted that their models reached systems belonging to other organizations without consent, and the UK’s AI Security Institute (AISI) published a fourth account describing agents that invented identities and tried to slip a malicious contribution into a live open source project. The disclosures differ in almost every particular, including whose mistake it was, whether the model defeated a control or simply found one missing, and whether anything was really “escaped” at all. Arguments over those details may run for a while, but the four accounts share something more interesting than their differences, which is that no individual piece of tooling mattered very much. That observation should sit slightly uncomfortably because most of how intrusions get investigated assumes the opposite. Early evaluations of LLM cyber capability asked fairly narrow questions. Would a model comply with an obviously malicious request? Did it meaningfully advantage a human attacker? By 2024, the answer was a qualified “yes”. Models could produce serviceable components of an offensive operation, but they could not reliably integrate them into a sustained or adaptive campaign. Beyond short well-defined tasks they became unreliable in ways that made them a liability. The operator was still the operator. The model did scoped work inside a structure someone else maintained. The disclosures show the boundary between operator and tool is moving faster than the evaluation literature. A capable enough model placed in an agent harness, given tools, memory, permissions and something to achieve, starts absorbing functions that used to be spread across the operator, the toolchain and the payload, which becomes something generated for a single target and then discarded. Kill the process and the agent writes another; block the channel and it improvises around it. In such incidents, the malicious capability shifts from the code left behind on a machine to the system that produces the next piece of code once the last one fails. In an operational sense, the model is the malware. Persistence Is the Defining Characteristic In July, OpenAI agents driven by GPT-5.6 Sol and an unreleased internal research model found a previously unknown vulnerability in a self-hosted Artifactory instance and turned the shared service into a message board allowing agents running different models and evaluations to exchange exploits and coordinate their work. OpenAI disrupted that channel, however the agents recreated it through Artifactory’s remote cache and continued collaborating, eventually breaking out of the evaluation sandbox and onto the public internet. The campaign ultimately c
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **SentinelOne Labs** (threat_research_primary)
   - Title: The Model Is the Malware | What Four Agentic Intrusions Tell Defenders
   - Published: 2026-08-13T13:00:40+00:00
   - Link: https://www.sentinelone.com/labs/the-model-is-the-malware-what-four-agentic-intrusions-tell-defenders/
   - Summary: OpenAI, Anthropic and Meta disclosed agents reaching external systems. The tools didn't matter, and that changes the playbook for investigating intrusions.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: OpenAI tightens defenses after AI agents breach research environment
+  - Published: 2026-08-18T09:41:36+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/18/openai-strengthening-security-measures/
+  - Summary: Following the OpenAI-Hugging Face incident, in which an agentic collective autonomously penetrated OpenAI’s research infrastructure and another company’s production infrastructure by chaining together multiple weaknesses, OpenAI began strengthening its safety requirements. The weaknesses included previously unknown vulnerabilities and credentials leaked online. OpenAI President Greg Brockman said ChatGPT Work identified 13 security issues on his personal website in about 15 minutes and spent another hour addressing them, showing how AI agents can accelerate security work. OpenAI’s … More → The post OpenAI tightens defenses after AI agents breach research environment appeared first on Help Net Security .
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Irregular Details How a Naming Error Let AI Models Attack a Real Company
   - Published: 2026-08-17T12:11:00+00:00
@@ -2127,51 +2137,6 @@ Infosecurity Magazine Home » News » Logistics Giant Ceva Suffers Data Breach I
   - Link: https://www.infosecurity-magazine.com/news/logistics-ceva-data-breach/
   - Summary: Supply chain attack and data breach at Ceva Logistics appears to have a large blast radius
 
-### Cluster 1e15301923 — score 10
-
-- Title: Kimwolf v7: An Evolution of the Kimwolf Botnet
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-08-11T10:00:16+00:00
-- Link: https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_products: Palo Alto Networks
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- affected_products: Palo Alto Networks
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing. The post Kimwolf v7: An Evolution of the Kimwolf Botnet appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Malware Malware Kimwolf v7: An Evolution of the Kimwolf Botnet 11 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services IoT Security Unit 42 Incident Response By: Chris Navarrete Doel Santos Asher Davila Published: August 11, 2026 Categories: Malware Threat Research Tags: Android APK Ethereum HTTP IoT botnets Kimwolf v7 Linux RPC Spoofing Share Content Warning We are providing a content warning because the following article contains usage of a racial slur by a threat actor, which Unit 42 does not condone in any instance. We have partially redacted the racial slur, but preserved some references to it in order to provide researchers with the ability to identify it and check IoCs as needed. Executive Summary We identified a new version (v7) of the Kimwolf Android/internet-of-things (IoT) botnet. This version upgrades its distributed denial-of-service (DDoS) attack capabilities and the resilience of its command-and-control (C2) infrastructure. Kimwolf primarily affects Android TV boxes and set-top boxes. Kimwolf v7 adds an HTTP/2-based DDoS flood that constructs complete browser fingerprints. This makes attack traffic more difficult to distinguish from legitimate browsing. The threat’s binary includes five hard-coded public Ethereum-based endpoints for resolving Ethereum Name Service (ENS) domains. ENS is a blockchain-based naming system used to obtain C2 addresses. Kimwolf also carries a hard-coded Tor .onion hidden service as a backup and a local proxy architecture for flexible routing between clearnet and Tor. The malware developers added this function to directly respond to C2 server takedown efforts in December 2025. We discovered this variant on Feb. 3, 2026, through threat hunting that followed public disclosures by XLab, Synthient, Infoblox, Cloudflare and others. Palo Alto Networks customers are better protected through the following products and services: Advanced URL Filtering and Advanced DNS Security Advanced WildFire Device Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Malware , Botnet , DDoS Background The Kimwolf botnet (also tracked as AISURU ) has been active since August 2024. It initially targeted Linux IoT devices under the AISURU name. The botnet transitioned to Android TV boxes around August 2025. This reflects two separate codebases under the same operators. AISURU covers the Linux IoT variants, and Kimwolf covers variants targeting Android. Kimwolf spreads by misusing residential proxy services to reach unauthenticated Android Debug Bridge (ADB) instances on local networks. Some Android TV boxes ship with ADB enabled on port 5555. Once attackers tunnel through a proxy endpoint into the local network, they can install the malware without any authentication. Kimwolf Sample Overview The Kimwolf sample we analyzed as a baseline is a statically linked ARM Executable and Linkable Format (ELF) binary. The file was compiled with the Android Native Development Kit (NDK) using Clang and uses Bionic libc. It statically links BoringSSL for Transport Layer Security (TLS) operations and nghttp2 for HTTP/2 functionality. The binary is stripped but retains some symbol information. It is not uncommon for malware authors to use racial slurs in their code. The Kimwolf malware family has historically included racial slurs. In our discussion of the v7 variant, we have partially redacted these slurs, but have left enough information present that defenders could identify the variant and check for IoCs. Previous Kimwolf builds used the internal version strings such as n[redacted]boxv4 and n[redacted]boxv5 , establishing the naming pattern for the family. The version string n [redacted] boxv7 , shown in Figure 1, identifies this sample as version 7. The binary creates a Unix domain socket @n[redacted]boxv7 to ensure only one
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Kimwolf v7: An Evolution of the Kimwolf Botnet
-  - Published: 2026-08-11T10:00:16+00:00
-  - Link: https://unit42.paloaltonetworks.com/kimwolf-v7-botnet-malware/
-  - Summary: Discover how Kimwolf v7 targets Android IoT devices with HTTP/2 DDoS fingerprinting, Ethereum ENS C2 resolution and Tor backup routing. The post Kimwolf v7: An Evolution of the Kimwolf Botnet appeared first on Unit 42 .
-
 ### Cluster 21cbe0b5fa — score 10
 
 - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
@@ -2259,6 +2224,47 @@ Table of Contents Background Initial infection Still Sync How it works Telegram 
   - Published: 2026-08-13T08:00:15+00:00
   - Link: https://securelist.com/armored-likho-still-toolkit/121033/
   - Summary: Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
+
+### Cluster 8883aedcfe — score 10
+
+- Title: How QR-code phishing can slip past corporate security measures
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-08-17T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
+```
+
+#### Full body
+
+```
+Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: How QR-code phishing can slip past corporate security measures
+  - Published: 2026-08-17T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
 
 ### Cluster 2a12c51464 — score 10
 
@@ -2397,6 +2403,45 @@ Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabil
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-august-2026/
   - Summary: Microsoft has released its monthly security update for August 2026, which includes 421 vulnerabilities affecting a range of products, including 62 that Microsoft marked as "critical."
 
+### Cluster af5513db44 — score 10
+
+- Title: From Scanner Findings to Verifiable Web Application Risk
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-11T17:07:51+00:00
+- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+```
+
+#### Full body
+
+```
+From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: From Scanner Findings to Verifiable Web Application Risk
+  - Published: 2026-08-11T17:07:51+00:00
+  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
+  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
+
 ### Cluster 44f04ecb50 — score 10
 
 - Title: Malware Crypting Services and the Threat Actors Who Sell Them
@@ -2437,86 +2482,6 @@ Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary 
   - Published: 2026-08-13T00:00:00+00:00
   - Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
   - Summary: Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
-
-### Cluster af5513db44 — score 10
-
-- Title: From Scanner Findings to Verifiable Web Application Risk
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-11T17:07:51+00:00
-- Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
-```
-
-#### Full body
-
-```
-From Scanner Findings to Verifiable Web Application Risk Horizon3 Customer Stories Web application scanners can surface potential vulnerabilities. They don’t always prove what attackers can actually exploit or give developers the evidence they need to act. A cloud-native merchandise returns technology provider needed a better way to continuously validate application risk across an AWS-heavy environment while helping security and engineering teams reach the same conclusions faster. This customer story explores how the company expanded its use of NodeZero® from infrastructure validation into continuous autonomous WebApp pentesting, creating a shared, evidence-driven view of exploitable risk. Key Insight Traditional scanners and periodic pentests generated findings, but the security team needed stronger proof of what was truly exploitable and a better way to communicate that risk to developers. By adopting NodeZero and NodeZero WebApp, the organization gained: Continuous validation across cloud infrastructure and web applications Clearer visibility into exploitable application risk Evidence developers and security teams could evaluate together Greater insight into how credentials and cloud assets compound risk Scalable WebApp testing across a growing application portfolio Less reliance on abstract severity ratings and static reports What You’ll Learn Why traditional scanner findings can create friction between security and development teams How autonomous WebApp pentesting validates what is actually exploitable How attack-path evidence helps teams understand compounded cloud risk Why route-level proof can make application security findings easier for developers to act on How continuous testing fits an AWS-heavy, cloud-native operating model How security teams can move from interpreting scanner noise to reviewing verifiable evidence Why autonomous pentesting can create a shared view of risk across security and engineering Why It Matters Cloud-native environments change quickly. Applications evolve, infrastructure shifts, identities connect systems, and customer-facing services remain directly tied to the business. For lean security teams responsible for cloud, infrastructure, AppSec, privacy, and compliance, identifying another potential vulnerability isn’t enough. They need to know whether it can actually be exploited and give developers evidence that makes the path to remediation clear. This organization moved beyond periodic reports toward continuous, evidence-driven validation. After about a dozen early NodeZero tests, the team expanded to nearly 30 autonomous WebApp pentesting campaigns across more than 20 applications, creating a more practical way for security and engineering to understand and act on real risk. Download the customer story to see how a cloud-native technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers verifiable evidence they could act on. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: From Scanner Findings to Verifiable Web Application Risk
-  - Published: 2026-08-11T17:07:51+00:00
-  - Link: https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/
-  - Summary: See how a cloud-native merchandise returns technology provider used NodeZero WebApp to continuously validate exploitable risk and give developers evidence they could act on.
-
-### Cluster 8883aedcfe — score 10
-
-- Title: How QR-code phishing can slip past corporate security measures
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-08-17T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
-```
-
-#### Full body
-
-```
-Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: How QR-code phishing can slip past corporate security measures
-  - Published: 2026-08-17T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
 
 ### Cluster 272e108269 — score 10
 
@@ -2694,31 +2659,76 @@ Consumer lender Heights Finance Holdings Co. is notifying over 1.2 million peopl
   - Link: https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/
   - Summary: Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform. The post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek .
 
-### Cluster 22bf2708a0 — score 10
+### Cluster 1293349fdc — score 10
 
-- Title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-12T17:39:27+00:00
-- Link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-18T10:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+  - Published: 2026-08-18T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+
+### Cluster 4d06d42e84 — score 10
+
+- Title: Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-12T13:35:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
 - Fetch status: ok
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: Lazarus
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, web_shell_backdoor, zero_day
+- threat_categories: apt_espionage, credential_theft, web_shell_backdoor, zero_day
 - actor_attribution: Lazarus
-- affected_industries: aviation_defense
-- cve_ids: CVE-2026-68820
+- affected_industries: aviation_defense, financial_services, government
+- affected_products: Apple iOS/macOS, Microsoft Windows, OpenAI/ChatGPT
+- cve_ids: CVE-2025-49113, CVE-2026-68820
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day, apt_espionage, web_shell_backdoor
+- threat_categories: credential_theft, zero_day, apt_espionage, web_shell_backdoor
 - actor_attribution: Lazarus
-- affected_industries: aviation_defense
-- cve_ids: CVE-2026-68820
+- affected_industries: financial_services, government, aviation_defense
+- affected_products: Apple iOS/macOS, Microsoft Windows, OpenAI/ChatGPT
+- cve_ids: CVE-2026-68820, CVE-2025-49113
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -2726,27 +2736,27 @@ Consumer lender Heights Finance Holdings Co. is notifying over 1.2 million peopl
 #### Summary
 
 ```
-The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
+Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit
 ```
 
 #### Full body
 
 ```
-Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor  Ravie Lakshmanan  Aug 12, 2026 Vulnerability / Cyber Espionage The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job , a long-running cyber espionage and social engineering campaign orchestrated by Pyongyang-backed hackers to target professionals worldwide with fake-but-compelling job offers at firms like Lockheed Martin and Enveil to steal sensitive data and install malware by approaching them on platforms like LinkedIn, pretending to be recruiters in an attempt to build trust. The attacks have been found to exploit CVE-2026-68820 (CVSS score: 7.0), a privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock ("AFD.sys") that was patched by Microsoft as part of its Patch Tuesday updates for August 2026. Check Point Research told The Hacker News that it reported the vulnerability to Microsoft in late July 2026, although it said "we are familiar with a successful implementation of the CVE in the beginning of June." As observed in prior campaign waves, victims are lured through bogus recruiter messages and tricked into opening a malicious PDF or installing a trojanized PDF viewer, which is then used to install a new backdoor called Troy that grants remote access to the compromised machine. The end goal of these intrusions is to seize complete control of infected computers and bypass security controls. The use of a trojanized PDF viewer is a tried-and-tested tactic adopted by the Lazarus Group in conjunction with Dream Job , with the threat actors abusing this method as far back as 2022. Two different parallel infection sequences have been detected as part of the latest attacks - DLL side-loading , in which victims are instructed to download an encrypted archive that's used to trigger a DLL side-loading chain. The malicious DLL ("libmupdf.dll") is used to display a bogus job description lure, while it stealthily downloads and executes in memory a lightweight downloader dubbed MISTPEN . The downloader communicates with threat actor-controlled infrastructure using Microsoft Graph API and OneDrive to retrieve and run reconnaissance and persistence modules and trigger the "AFD.sys" driver exploit, before deploying ForestTiger (aka ScoringMathTea), which provides remote access to the host. Trojanized "SecurityPDF" PDF viewer , in which victims are instructed to download SecurityPDF from a website impersonating Enveil. Once installed, it monitors for any PDF document opened through it for a special marker ("This document is encrypted with sumatrapdf reader!!!!!!!!!!!!"). If such a marker is present, the application decrypts and launches an embedded payload that's responsible for loading a backdoor called Troy directly into memory. The DLL implant supports 17 operator commands to facilitate file enumeration, upload and download, archive and exfiltration, interactive shell access, process termination, in-memory DLL injection, and configuration updates. High-level overview of the DLL sideloading infection chain. MISTPEN, for its part, loads at least four different modules - GetInfoPlugin ("Release_GetInfoPlugin_x64.dll"), to profile the host and exfiltrate the collected information as a single wide-character string PvPlugin ("Release_PvPlugin_x64.dll"), to collect host reconnaissance data and details about running processes OneScreenCapture ("OneScreenCapture64.dll"), to take screenshots of the current desktop, including all monitors, and transmit them as JPEG images LPE (local privilege escalation) loader , which gathers host information, generates new key material using the ML-KEM post-quantum key encapsulation algorithm, and uses the ne
+Infosecurity Magazine Home » News » Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day News 12 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Malware used by North Korea's Lazarus group negotiated its command channel using a post-quantum key exchange before pulling down a Windows zero-day exploit, in a campaign against defense and aerospace companies across Europe and India. Check Point Research reported the vulnerability to Microsoft on July 28 and published its analysis on August 11, the day a patch shipped. CVE-2026-68820 is a use-after-free race condition in AFD.sys, the driver handling network sockets in the Windows kernel, and was the only flaw in this the August Patch Tuesday release Microsoft flagged as under active exploitation. The activity is the latest wave of Operation Dream Job , which approaches employees at defense firms with fraudulent job offers. Targets included organizations working on surveillance sensors, drones and robotics, with activity or targeting in France, Germany, Brazil and India. Four Keys and a Layered Handshake Infection ran through MISTPEN, an in-memory downloader that communicates via attacker-controlled files on OneDrive using the Microsoft Graph API. After reconnaissance and persistence stages, it loaded a dedicated module to fetch the privilege escalation exploit. That module fingerprinted the host, then requested four public keys from the command server. It used them to generate fresh key material with Kyber/ML-KEM, the key encapsulation scheme NIST standardized in 2024 to resist attack by quantum computers , returning the encapsulated result before requesting the exploit itself, which it decrypted and ran in memory. Traffic through that channel carried a second encryption layer using GOST-CBC, on top of MISTPEN's own AES transport encryption. What arrived through the handshake was FudModule, Lazarus's kernel rootkit, in a build Check Point tracks as v3.1.It disables telemetry callbacks, removes minifilters, kills the NT Kernel Logger and blinds 94 Event Tracing for Windows (ETW) providers. Newly added is tampering with Smart App Control, resetting its policy state and forcing a code integrity reload. Command and Control on Borrowed Servers The group ran its infrastructure almost entirely on machines it did not own, using Roundcube webmail servers exploited through CVE-2025-49113 with credentials likely sourced from dark web leaks, alongside compromised PrestaShop sites. Each hosts RelayShell, a previously undocumented PHP webshell that acts as a message relay rather than a conventional command shell, passing traffic between operator and victim through session files. Check Point found evidence of at least 17 compromised relay servers. Delivery has also shifted. The group built at least three websites impersonating privacy technology vendor Enveil, some ranking top in search results. Check Point stressed Enveil was neither targeted nor compromised. Those sites distributed a trojanized PDF viewer that runs a payload hidden inside crafted documents, delivering Troy, a previously undocumented backdoor supporting 17 operator commands. You may also like Lazarus Group Targets Developers in New Data Theft Campaign News 17 January 2025 Lazarus Group Targeting Microsoft Web Servers to Launch Espionage Malware News 24 May 2023 Cybercrime a Key Revenue Stream For North Korea's Weapons Program News 5 August 2022 Aerospace Executives Targeted Via LinkedIn Recruitment Messages News 17 June 2020 US Government: North Korean Threat Actors Are Targeting Cryptocurrency Organizations News 20 April 2022 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Infostealers Harvest 1.7 Billion Credentials in Six Months News 17 August 2026 1 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 2 OpenAI Launches Two-Tier Security Access Program Alongside GP
 ```
 
 #### Corroborating sources (2)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
-  - Published: 2026-08-12T17:39:27+00:00
-  - Link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
-  - Summary: The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Lazarus Used Post-Quantum Key Exchange to Deliver Zero-Day
   - Published: 2026-08-12T13:35:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/
   - Summary: Lazarus malware used post-quantum key exchange to protect delivery of a Windows zero-day exploit
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor
+  - Published: 2026-08-12T17:39:27+00:00
+  - Link: https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html
+  - Summary: The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and
 
 ### Cluster 4535ef9ae8 — score 10
 
@@ -3135,51 +3145,6 @@ Pokémon Center data breach exposes customer info, cancels some orders By Lawren
   - Published: 2026-08-17T19:12:39+00:00
   - Link: https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/
   - Summary: Pokémon Center is notifying customers in the United Kingdom and Germany that it suffered a third-party data breach after hackers stole customer personal and order information from third-party logistics provider CEVA Logistics. [...]
-
-### Cluster 5b5ad8b9f8 — score 9
-
-- Title: French tax authority data breach affects 678,000 individuals
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-17T10:09:48+00:00
-- Link: https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services, government
-- affected_products: Snowflake
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services, government
-- affected_products: Snowflake
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]
-```
-
-#### Full body
-
-```
-French tax authority data breach affects 678,000 individuals By Sergiu Gatlan August 17, 2026 06:09 AM 0 The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. This incident was discovered after a threat actor using the "ZeroBytes" handle claimed the attack and listed a stolen database for sale on August 12 on the PwnForums hacking forum. "The in-depth investigations conducted since August 12, 2026, have established that, prior to their interruption, these access points had been used to consult and extract data concerning a total of 678,000 individuals and professionals, including tax data such as reference tax income, family quotient, and withholding tax rate, and, for businesses, data such as their company name and SIREN number," the French Finance Ministry said . "Cadastral data relating to addresses and property sizes were also accessed. As soon as these data breaches were identified, the French Public Finances Directorate (DGFIP) notified the French Data Protection Authority (CNIL). The online accounts of individual and professional users were not compromised. User IDs and passwords were not compromised." After detecting the attack, the French tax administration shut down access to sensitive information systems and continues investigating the incident with the help of the National Cybersecurity Agency of France (ANSSI) to assess the breach's full impact. In a post on the hacking forum, ZeroBytes also claimed they gained access to the Serveur Professionnel de Données Cadastrales (SPDC), an online platform operated by the French tax authority that provides access to the country's central land registry and property ownership records. French DGFiP database for sale ( DarkWebSonar ) ​While the portal gave them access to data on roughly 20 million French citizens, the threat actor claims they only managed to steal 252,149 records containing data on over 2 million people. "We couldn't finish the extraction because honestly, it's just horrible to scrape and would have taken months. I'm still logged into the panel, so if you want, you can buy it along with the database," they said. "I'm not going to sell this one for very much anyway. And as always, no mention from France about this incident." The French Finance Ministry added on Friday that it will contact all affected individuals starting next week via email or letter, with details on what data may have been accessed or stolen and the necessary precautions to take. This is just the latest in a spree of cyberattacks and data breaches that have impacted multiple French government agencies in recent months. In January, the French data protection authority fined the national employment agency France Travail €5 million after hackers stole the personal information of 43 million people. One month later, the French Ministry of Finance disclosed another data breach affecting over 1.2 million user accounts after hackers stole a database from the national bank account registry (FICOBA) systems. More recently, France Titres, the government agency in France for issuing and managing administrative documents, also disclosed a data breach after a threat actor put up for sale a database containing 19 million records allegedly stolen from the National Agency for Secure Documents (ANTS). Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: France fines unemployment agency €5 million over data breach Valve notifies Steam hardware customers of a data breach Canadian pleads guilty to Snowflake cloud data-theft attacks Huggi
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: French tax authority data breach affects 678,000 individuals
-  - Published: 2026-08-17T10:09:48+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/
-  - Summary: The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]
 
 ### Cluster ff9d8c251f — score 9
 
@@ -3603,6 +3568,51 @@ Blog AI Offense is Not Noclip Mode August 13, 2026 AI Offense is Not Noclip Mode
   - Link: https://trustedsec.com/blog/ai-offense-is-not-noclip-mode
   - Summary: <p>AI doesn't let attackers walk through walls, but it makes finding the cracks more efficient. In this blog, we cut through the hype and explain what AI-driven offense really looks like and why hard controls still work.</p>
 
+### Cluster 5b5ad8b9f8 — score 8
+
+- Title: French tax authority data breach affects 678,000 individuals
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-17T10:09:48+00:00
+- Link: https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services, government
+- affected_products: Snowflake
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services, government
+- affected_products: Snowflake
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]
+```
+
+#### Full body
+
+```
+French tax authority data breach affects 678,000 individuals By Sergiu Gatlan August 17, 2026 06:09 AM 0 The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. This incident was discovered after a threat actor using the "ZeroBytes" handle claimed the attack and listed a stolen database for sale on August 12 on the PwnForums hacking forum. "The in-depth investigations conducted since August 12, 2026, have established that, prior to their interruption, these access points had been used to consult and extract data concerning a total of 678,000 individuals and professionals, including tax data such as reference tax income, family quotient, and withholding tax rate, and, for businesses, data such as their company name and SIREN number," the French Finance Ministry said . "Cadastral data relating to addresses and property sizes were also accessed. As soon as these data breaches were identified, the French Public Finances Directorate (DGFIP) notified the French Data Protection Authority (CNIL). The online accounts of individual and professional users were not compromised. User IDs and passwords were not compromised." After detecting the attack, the French tax administration shut down access to sensitive information systems and continues investigating the incident with the help of the National Cybersecurity Agency of France (ANSSI) to assess the breach's full impact. In a post on the hacking forum, ZeroBytes also claimed they gained access to the Serveur Professionnel de Données Cadastrales (SPDC), an online platform operated by the French tax authority that provides access to the country's central land registry and property ownership records. French DGFiP database for sale ( DarkWebSonar ) ​While the portal gave them access to data on roughly 20 million French citizens, the threat actor claims they only managed to steal 252,149 records containing data on over 2 million people. "We couldn't finish the extraction because honestly, it's just horrible to scrape and would have taken months. I'm still logged into the panel, so if you want, you can buy it along with the database," they said. "I'm not going to sell this one for very much anyway. And as always, no mention from France about this incident." The French Finance Ministry added on Friday that it will contact all affected individuals starting next week via email or letter, with details on what data may have been accessed or stolen and the necessary precautions to take. This is just the latest in a spree of cyberattacks and data breaches that have impacted multiple French government agencies in recent months. In January, the French data protection authority fined the national employment agency France Travail €5 million after hackers stole the personal information of 43 million people. One month later, the French Ministry of Finance disclosed another data breach affecting over 1.2 million user accounts after hackers stole a database from the national bank account registry (FICOBA) systems. More recently, France Titres, the government agency in France for issuing and managing administrative documents, also disclosed a data breach after a threat actor put up for sale a database containing 19 million records allegedly stolen from the National Agency for Secure Documents (ANTS). Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: France fines unemployment agency €5 million over data breach Valve notifies Steam hardware customers of a data breach Canadian pleads guilty to Snowflake cloud data-theft attacks Huggi
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: French tax authority data breach affects 678,000 individuals
+  - Published: 2026-08-17T10:09:48+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/
+  - Summary: The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]
+
 ### Cluster 64e89d5ce0 — score 8
 
 - Title: SafePal data breach impacts 39,798 customers, stolen info for sale
@@ -3674,6 +3684,39 @@ Hackers exploited a vulnerability in the order-tracking function of a plugin to 
   - Published: 2026-08-17T09:37:06+00:00
   - Link: https://www.securityweek.com/40000-impacted-by-safepal-data-breach/
   - Summary: Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information. The post 40,000 Impacted by SafePal Data Breach appeared first on SecurityWeek .
+
+### Cluster 71756279ee — score 8
+
+- Title: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-08-17T23:58:14+00:00
+- Link: https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
+  - Published: 2026-08-17T23:58:14+00:00
+  - Link: https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
+  - Summary: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis
 
 ### Cluster a52785cdd9 — score 8
 
@@ -3747,38 +3790,40 @@ One Caledonian government agency reported a breach, thanks to a third party that
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office
   - Summary: One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.
 
-### Cluster 71756279ee — score 8
+### Cluster 20c2a82904 — score 8
 
-- Title: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-08-17T23:58:14+00:00
-- Link: https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
+- Title: SafePal Data Breach Hits Tens of Thousands of Customers
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-17T09:10:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis
+Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
 ```
 
 #### Corroborating sources (1)
 
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index
-  - Published: 2026-08-17T23:58:14+00:00
-  - Link: https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/
-  - Summary: Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.7T parameters , and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: SafePal Data Breach Hits Tens of Thousands of Customers
+  - Published: 2026-08-17T09:10:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
+  - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
 
 ### Cluster aabaae34c0 — score 8
 
@@ -3884,38 +3929,3 @@ The ransomware group known as DeadLock has been observed using decentralized inf
   - Published: 2026-08-11T16:35:27+00:00
   - Link: https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html
   - Summary: The ransomware group known as DeadLock has been observed using decentralized infrastructure to facilitate victim communications and data leak operations in a bid to improve operational resilience. "Its recovery ecosystem combines the Session messaging network with blockchain-backed services that store and deliver resources used throughout the extortion process," the Microsoft Threat
-
-### Cluster 20c2a82904 — score 8
-
-- Title: SafePal Data Breach Hits Tens of Thousands of Customers
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-17T09:10:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: SafePal Data Breach Hits Tens of Thousands of Customers
-  - Published: 2026-08-17T09:10:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-  - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
