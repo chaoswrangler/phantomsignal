@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-08-18T22:30:26.415149+00:00",
+  "generated_at": "2026-08-18T23:28:14.730453+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2115,
+  "total_items": 2090,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -18,19 +11,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -46,6 +39,20 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -60,26 +67,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -88,12 +81,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -109,13 +116,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
@@ -123,19 +123,19 @@
       "item_count": 50,
       "in_window_count": 3
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 16
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -151,16 +151,23 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 16
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -179,13 +186,6 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
@@ -200,6 +200,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
@@ -207,12 +214,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -228,26 +235,12 @@
       "item_count": 30,
       "in_window_count": 0
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 9
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -256,19 +249,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -277,11 +270,25 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Cloudflare Security": {
@@ -298,19 +305,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -326,26 +333,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -361,12 +354,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -374,6 +367,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -389,12 +389,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 10
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -403,6 +403,13 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
@@ -410,26 +417,12 @@
       "item_count": 50,
       "in_window_count": 21
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 18
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "in_window_count": 17
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,19 +438,19 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 45
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -466,19 +459,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -487,12 +473,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -508,6 +494,27 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 45
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -521,13 +528,6 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 19
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -956,33 +956,6 @@
       ]
     },
     {
-      "label": "SolarWinds vulnerability activity",
-      "anchor_signal": "SolarWinds",
-      "theme_key": "solarwinds",
-      "dominant_features": {
-        "affected_products": [
-          "SolarWinds"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.333,
-      "shared_strong_signals": [
-        "SolarWinds"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "6c4f057b27",
-        "fb556ca51b"
-      ],
-      "links": [
-        "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
-        "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
-        "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/"
-      ]
-    },
-    {
       "label": "ransomware extortion targeting Android",
       "anchor_signal": "Android",
       "theme_key": "android",
@@ -1013,6 +986,33 @@
       "links": [
         "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/",
         "https://research.checkpoint.com/2026/the-state-of-ransomware-q2-2026/"
+      ]
+    },
+    {
+      "label": "SolarWinds vulnerability activity",
+      "anchor_signal": "SolarWinds",
+      "theme_key": "solarwinds",
+      "dominant_features": {
+        "affected_products": [
+          "SolarWinds"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.333,
+      "shared_strong_signals": [
+        "SolarWinds"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "6c4f057b27",
+        "fb556ca51b"
+      ],
+      "links": [
+        "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
+        "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
+        "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/"
       ]
     },
     {
@@ -1421,14 +1421,6 @@
         ]
       },
       {
-        "cluster_id": "155be52ad5",
-        "title": "CVE-2026-6837: Root Command Injection Affecting 18 Zyxel Access Point Models with full firmware emulation guide",
-        "primary_source": "Reddit r/cybersecurity",
-        "strong_signals": [
-          "CVE-2026-6837"
-        ]
-      },
-      {
         "cluster_id": "4405003146",
         "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
         "primary_source": "Reddit r/netsec",
@@ -1533,90 +1525,6 @@
       "score": 6
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Feasibility of Blocking User App Installs",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vs0izl/feasibility_of_blocking_user_app_installs/",
-      "published": "2026-08-18T20:10:40+00:00",
-      "summary": "I’m interesting in deploying some kind of solution for my org (~300 users/PCs) that restricts app execution from user writable directories. The risk being addressed is the unauthorized installation of software, which may result in users accidentally getting malware on their device (albeit with non-admin perms). I understand there are tools to do this (in particular I’ve been looking at AaronLocker), but I’ve also seen and heard that it requires a lot of validation to catch and exempt known legitimate software. For those of similarly sized orgs, is this something you’ve undertaken with success? Or is this something that is just too much overhead to maintain and not worth the security gain? submitted by /u/Splendid_Sigma [link] [comments]",
-      "author": "/u/Splendid_Sigma",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "How to Stop OTP SMS Abuse When Attackers Rotate Valid Phone Numbers, Emails, and IPs?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrzfym/how_to_stop_otp_sms_abuse_when_attackers_rotate/",
-      "published": "2026-08-18T19:31:53+00:00",
-      "summary": "Hi friends, I am currently dealing with a problem. An unknown person is targeting the OTP SMS service on our website's sign-up page. They are attempting this using multiple phone numbers, multiple email addresses, and rotating IP addresses. We are already using email validation services, yet they are using email addresses like \" bowobon834@sepmaf.com \" and \" kiyow78785@toooby.com .\" They are also using a specific series of mobile numbers, such as: \"+201195127174\", \"+201181110723\", \"+201195130069\", \"+201195127216\", \"+201181111455\", \"+201195127472\", \"+201181113961\", \"+201195127038\", \"+201195129482\", \"+201000177595\", All these numbers are valid. What kind of service provides such valid numbers? By submitting only valid numbers, they are negatively impacting our SMS budget. They are using two types of emails: valid permanent ones (like \" mai.t.hi.e.ndi.9.5.5.11@gmail.com \", \" ph.a.nd.ong.nh.i.19.5.8.5@gmail.com \", \" m.er.ed.ith.geron.i.mo.24.1@gmail.com \") and temporary ones (like \" nofon8",
-      "author": "/u/Try_something_differ",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "❄️ Chilling Discoveries: Unpacking Vulnerabilities in Copeland XWEB Pro Controllers",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrze6q/chilling_discoveries_unpacking_vulnerabilities_in/",
-      "published": "2026-08-18T19:30:08+00:00",
-      "summary": "Team82 analyzed the attack surface of the Copeland XWEB Pro supervisory platform and identified 23 vulnerabilities, including 21 high-severity issues . The vulnerabilities can be chained to progressively bypass security controls and ultimately achieve root-level remote code execution (RCE) without authentication. In a physical test environment, Team82 demonstrated that compromising the supervisory controller could enable an attacker to manipulate connected refrigeration systems. The interesting part from an OT security perspective is the IT-to-physical impact path : compromise the supervisory layer, gain control of the underlying system, and potentially affect physical processes without obvious signs of tampering. Technical details and the full attack path: https://claroty.com/team82/research/chilling-discoveries-unpacking-vulnerabilities-in-copeland-xweb-pro-controllers submitted by /u/clarotyofficial [link] [comments]",
-      "author": "/u/clarotyofficial",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 6
-    },
-    {
       "source": "Unit 42",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -1686,34 +1594,6 @@
         }
       },
       "score": 7
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Feeling Stuck",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrxr5k/feeling_stuck/",
-      "published": "2026-08-18T18:32:35+00:00",
-      "summary": "2 years and a few months of IT experience as a whole. Bachelors in Cybersecurity and have some basic fundamentals certs such as CySA+. Not cyber many jobs where I live and when they do open up they almost always senior roles. The help desk for MSP’s in my area pay less then working at burger places where I live and I can’t take a 10K-15k pay cut just to be in semi cybersecurity role but it would still be really doing help desk in the reality of things. Applying each week to remote entry roles and internships dealing with SOC roles but no luck yet. I get paid well in what I do now but help desk my entire career is not my goal at all. I know the market has been horrible the last 5 years and even those with cybersecurity experience are struggling to find a job. Just feel so low and lost right now. So much going on as I stay consistent in where I’m at but I want to move up. Used to be motivated but now I’m not sure what to go for. I always wished cybersecurity was like going to be a doctor",
-      "author": "/u/FancyUser100",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "The Record",
@@ -2098,34 +1978,6 @@
       "score": 9
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Is GRC the new wave in cybersecurity?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrtuj1/is_grc_the_new_wave_in_cybersecurity/",
-      "published": "2026-08-18T16:17:26+00:00",
-      "summary": "I’ve been noticing a pretty big uptick in GRC job postings lately, especially remote positions. It feels like cybersecurity always has a “wave.” First it was everyone getting Security+, then it seemed like everyone was trying to break into SOC roles, and now I’m seeing GRC everywhere. Is GRC becoming the new wave in cybersecurity? For those already working in GRC, are you seeing the field actually grow, or is it just getting more attention right now? submitted by /u/Main_Class8520 [link] [comments]",
-      "author": "/u/Main_Class8520",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -2266,62 +2118,6 @@
         }
       },
       "score": 8
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Moving from frontend to backend made me realize how bad my secrets management actually is. How do you handle credential rotation?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrq8kf/moving_from_frontend_to_backend_made_me_realize/",
-      "published": "2026-08-18T14:08:31+00:00",
-      "summary": "While working on the frontend of applications, handling an API key usually just means putting it into a .env file and trusting the process. Recently, I've been exploring backend infrastructure, and it turns out managing secrets in production infrastructure is a completely different story. I went through a guide on the architecture of secrets management, and it pointed out a trap I normally would have fallen into. The piece noted that centralizing your database passwords and API keys into a secure vault may feel like a massive upgrade. But if you do not have automated rotation in place, you basically just created a very organized list of stagnant targets for an attacker. Another issue brought up is the runtime delivery gap. Storing secrets securely can be pointless if they still end up hardcoded somewhere in your source code or live as permanent environment variables during a deployment. The argument is that storage, access control, secure delivery, lifecycle automation, and auditabilit",
-      "author": "/u/Chris__Codes",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Hackers abuse AI models to find new entry paths",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrq8ez/hackers_abuse_ai_models_to_find_new_entry_paths/",
-      "published": "2026-08-18T14:08:22+00:00",
-      "summary": "submitted by /u/kyle4beantown [link] [comments]",
-      "author": "/u/kyle4beantown",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -2524,36 +2320,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vron22/cisa_windows_task_host_flaw_now_exploited_by/",
-      "published": "2026-08-18T13:05:40+00:00",
-      "summary": "submitted by /u/Doug24 [link] [comments]",
-      "author": "/u/Doug24",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -2720,38 +2486,6 @@
         }
       },
       "score": 6
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "CVE-2026-6837: Root Command Injection Affecting 18 Zyxel Access Point Models with full firmware emulation guide",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrnwu3/cve20266837_root_command_injection_affecting_18/",
-      "published": "2026-08-18T12:35:01+00:00",
-      "summary": "I published my technical write-up for CVE-2026-6837, an authenticated command-injection issue in Zyxel’s certificate export functionality. The analysis is based on the WAX650S, while Zyxel’s advisory expanded the affected scope to 18 AP models. The post includes root cause, affected versions, remediation, and the reproduction environment. submitted by /u/TheReedemer69 [link] [comments]",
-      "author": "/u/TheReedemer69",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-6837"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
     },
     {
       "source": "Help Net Security",
@@ -2922,34 +2656,6 @@
       "score": 6
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Engineering advice on detection logic",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrlxkh/engineering_advice_on_detection_logic/",
-      "published": "2026-08-18T11:00:42+00:00",
-      "summary": "Hello fellow nerds I come bearing issues. MSSP is restricting SIEM detection logic to a “one-solution-fits-all” shitology. I am the only engineer, and the only Security person who has learned SIEM tooling and querying language. No one else understands the platform or is interest in the platform. Because of this, most of the detections are AI generated and shoe horned for each. I am having a slight menty-B as I am expected to create high fidelity alerts which work across all clients. We have clients all over the world, different licensing, different Entra configurations, some are cloud-only, some are hybrid - you get the point. Is any in a similar position, can any help? submitted by /u/ImportanceAvailable7 [link] [comments]",
-      "author": "/u/ImportanceAvailable7",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -2983,7 +2689,7 @@
           "products": []
         }
       },
-      "score": 10
+      "score": 9
     },
     {
       "source": "Team Cymru",
@@ -3022,37 +2728,9 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days PART I Operational Profile and Campaign Analysis 1. The MFT Targeting Pattern Cl0p’s defining operational characteristic is a sustained and systematic focus on managed file transfer infrastructure. Across nine known campaigns, the group has targeted Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere MFT, PaperCut MF/NG, Progress MOVEit Transfer, SysAid ITSM, Cleo MFT (Harmony, VLTrader, LexiCom), Oracle E-Business Suite, and Gladinet Centrestack/TrioFox. With the partial exception of PaperCut (a print management server) and SysAid (an IT service management platform), every target shares a common architectural profile: an internet-facing application that processes, stores, or transfers files. This targeting consistency is significant for two reasons. First, it indicates strategic specialization rather than opportunistic exploitation. The group has invested in developing or acquiring zero-day capabilities specifically for this product category, deploying novel exploits in seven of nine campaigns. Second, it defines a bounded, defensible attack surface. Organizations that operate MFT infrastructure can identify themselves as potential targets and implement category-specific protections — a defensive advantage that is uncommon against most ransomware groups. Figure 1: Complete Cl0p campaign history, 2020–2025 ‍ 2. Exploitation Timeline The chronological record of Cl0p campaigns reveals a distinctive operational tempo characterized by extended dormancy periods punctuated by concentrated bursts of activity. Figure 2: Campaign timeline with inter-campaign intervals ‍ Several patterns merit attention. The group’s longest dormancy period — approximately 14 months between the SolarWinds Serv-U exploitation in late 2021 and the Fortra GoAnywhere campaign in January 2023 — was followed by its most active phase: four distinct campaigns across four separate technologies in ten months (January through October 2023). This burst-and-pause cadence suggests a development cycle in which the group acquires or develops exploits, executes campaigns in rapid succession, and then withdraws to prepare for the next cycle. The inter-campaign intervals since 2023 have been notably consistent, ranging from 10 to 14 months between major operations. This periodicity, while not perfectly predictable, provides a rough forecasting baseline. As of mid-2026, the group’s last confirmed campaign (Centrestack, November 2025) was approximately eight months ago — suggesting the next operational cycle may be approaching. 3. Seasonal Clustering: The Q4 Pattern Figure 3: Cl0p campaigns by quarter — Q4 exceeds all other quarters combined When campaigns are mapped by calendar quarter, Q4 emerges as the dominant operational window. Five of nine confirmed campaigns were initiated during October through December — more than all other quarters combined. This clustering is operationally rational: Q4 coincides with major holidays in the United States and Europe (Thanksgiving, Christmas, New Year), periods when security operations centers are typically operating at reduced capacity and organizational response times are extended. The Centrestack campaign provides the most explicit example. Initial compromises occurred on Thanksgiving Day 2025 (November 27), a date that maximized the gap between initial access and organizational detection. This seasonal preference should be treated as a high-confidence behavioral indicator for defensive planning purposes. 4. Pre-Attack Reconnaissance One of the most strategically significant findings in this analysis is the extent to which Cl0p conducts advance reconnaissance against eventual targets. This behavior has been confirmed in at least two campaigns and is assessed as likely present but undetected in others. 4.1 MOVEit: Two Years of Pre-Attack Scanning Following the MOVEit exploi",
       "fetch_status": "ok"
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "How does your average day as a L1/L2 SOC Analyst look like?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vrldpt/how_does_your_average_day_as_a_l1l2_soc_analyst/",
-      "published": "2026-08-18T10:32:23+00:00",
-      "summary": "How does your average day as a SOC Analyst look like working at an MDR, and what's the average number of incidents you are handling per day, just trying to figure out if we are actually overwhelmed with tickets or is that normal everywhere :) submitted by /u/Terrible-Body2787 [link] [comments]",
-      "author": "/u/Terrible-Body2787",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -3099,7 +2777,7 @@
           "products": []
         }
       },
-      "score": 17,
+      "score": 16,
       "full_body": "CISA: Windows Task Host flaw now exploited by ransomware gangs By Sergiu Gatlan August 18, 2026 06:32 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. Task Host is a core Windows system component that allows DLL-based processes to run in the background and prevents data corruption by ensuring they close properly during shutdown. Tracked as CVE-2025-60710 , this Windows privilege escalation security flaw was patched by Microsoft in November 2025 and stems from a link following weakness that affects Windows 11 and Windows Server 2025 devices. Following successful exploitation, local attackers with basic user permissions can gain SYSTEM privileges and take full control of unpatched devices. While it didn't share any details regarding ongoing attacks and Microsoft has yet to update its security advisory to confirm in-the-wild exploitation, CISA added CVE-2025-60710 to its list of actively exploited vulnerabilities on April 13 and gave Federal Civilian Executive Branch (FCEB) agencies two weeks to secure their systems. On Friday, CISA updated its Known Exploited Vulnerabilities Catalog (KEV) again, flagging the security vulnerability as being abused by ransomware gangs . The U.S. cybersecurity agency has not yet shared any information about attacks targeting CVE-2025-60710, and a Microsoft spokesperson was not immediately available for comment when BleepingComputer reached out earlier today. \"This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise,\" CISA warned. \"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.\" One week ago, CISA also warned that ransomware gangs have begun exploiting a Microsoft SharePoint remote code execution vulnerability (CVE-2026-45659) after confirming active exploitation in early July . Since November 2021, the agency has flagged 383 actively exploited vulnerabilities in various Microsoft products , 112 of which have also been exploited in ransomware attacks. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA: Windows BlueHammer flaw now exploited by ransomware gangs CISA orders feds to patch BlueHammer flaw exploited as zero-day Microsoft working on Defender patch for ShieldBreak zero-day Windows LegacyHive zero-day flaw gets free, unofficial patches CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
       "fetch_status": "ok"
     },
@@ -3570,7 +3248,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Dark Reading",
@@ -3736,34 +3414,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1vr2mql/hacker_claims_36_million_azure_account_records/",
-      "published": "2026-08-17T19:43:30+00:00",
-      "summary": "submitted by /u/homothebrave [link] [comments]",
-      "author": "/u/homothebrave",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
     },
     {
       "source": "BleepingComputer",
@@ -4459,21 +4109,28 @@
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "financial_services"
+          "financial_services",
+          "government"
         ],
-        "affected_products": [],
+        "affected_products": [
+          "Snowflake"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
+        "role_map": {
+          "Snowflake": "target"
+        },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "French tax authority data breach affects 678,000 individuals By Sergiu Gatlan August 17, 2026 06:09 AM 0 The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. This incident was discovered after a threat actor using the \"ZeroBytes\" handle claimed the attack and listed a stolen database for sale on August 12 on the PwnForums hacking forum. \"The in-depth investigations conducted since August 12, 2026, have established that, prior to their interruption, these access points had been used to consult and extract data concerning a total of 678,000 individuals and professionals, including tax data such as reference tax income, family quotient, and withholding tax rate, and, for businesses, data such as their company name and SIREN number,\" the French Finance Ministry said . \"Cadastral data relating to addresses and property sizes were also accessed. As soon as these data breaches were identified, the French Public Finances Directorate (DGFIP) notified the French Data Protection Authority (CNIL). The online accounts of individual and professional users were not compromised. User IDs and passwords were not compromised.\" After detecting the attack, the French tax administration shut down access to sensitive information systems and continues investigating the incident with the help of the National Cybersecurity Agency of France (ANSSI) to assess the breach's full impact. In a post on the hacking forum, ZeroBytes also claimed they gained access to the Serveur Professionnel de Données Cadastrales (SPDC), an online platform operated by the French tax authority that provides access to the country's central land registry and property ownership records. French DGFiP database for sale ( DarkWebSonar ) ​While the portal gave them access to data on roughly 20 million French citizens, the threat actor claims they only managed to steal 252,149 records containing data on over 2 million people. \"We couldn't finish the extraction because honestly, it's just horrible to scrape and would have taken months. I'm still logged into the panel, so if you want, you can buy it along with the database,\" they said. \"I'm not going to sell this one for very much anyway. And as always, no mention from France about this incident.\" The French Finance Ministry added on Friday that it will contact all affected individuals starting next week via email or letter, with details on what data may have been accessed or stolen and the necessary precautions to take. This is just the latest in a spree of cyberattacks and data breaches that have impacted multiple French government agencies in recent months. In January, the French data protection authority fined the national employment agency France Travail €5 million after hackers stole the personal information of 43 million people. One month later, the French Ministry of Finance disclosed another data breach affecting over 1.2 million user accounts after hackers stole a database from the national bank account registry (FICOBA) systems. More recently, France Titres, the government agency in France for issuing and managing administrative documents, also disclosed a data breach after a threat actor put up for sale a database containing 19 million records allegedly stolen from the National Agency for Secure Documents (ANTS). Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: France fines unemployment agency €5 million over data breach Valve notifies Steam hardware customers of a data breach Canadian pleads guilty to Snowflake cloud data-theft attacks Huggi",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -4581,7 +4238,7 @@
         }
       },
       "score": 10,
-      "full_body": "Microsoft working on Defender patch for ShieldBreak zero-day By Sergiu Gatlan August 17, 2026 05:05 AM 1 On Friday, Microsoft confirmed it has begun working on a security patch for a Defender zero-day vulnerability named \"ShieldBreak.\" A security researcher who uses the \"Nightmare Eclipse\" handle disclosed this privilege escalation vulnerability after Microsoft released the August 2026 Patch Tuesday security updates. ​\"Microsoft is aware of the reported vulnerability and is actively investigating the validity and potential applicability of these claims,\" a Microsoft spokesperson told BleepingComputer when asked for a statement regarding the new ShieldBreak zero-day. \"Microsoft is committed to investigating security issues and updating impacted products to protect customers as soon as possible.\" Nightmare Eclipse described ShieldBreak as a bypass for RoguePlanet , another Defender privilege escalation flaw disclosed in June, and shared a ShieldBreak proof-of-concept (PoC) exploit that local attackers with limited permissions can use to gain SYSTEM privileges on fully patched Windows 10, Windows 11, and Windows Server systems. \"Microsoft has failed to properly patch the RoguePlanet vulnerability CVE-2026-50656, this PoC demonstrates a full patch bypass,\" Nightmare Eclipse said . \"The PoC was tested in the latest version of windows 11 25h2 (+Canary channel) and windows server 2025, the PoC also have a 100% success rate. Please note that Windows 10 (and respective server editions) are not currently supported, they are however vulnerable to ShieldBreak as well.\" Vulnerability analyst Will Dormann confirmed last week that the ShieldBreak exploit works but added that Microsoft Defender must also be enabled for attackers to escalate privileges. ShieldBreak PoC exploit demo (Nightmare Eclipse) Tracked as CVE-2026-69414 and waiting for a patch On Friday, three days after ShieldBreak was disclosed, Microsoft said it's now tracking the flaw as CVE-2026-69414 and confirmed it's working on a patch, but has yet to acknowledge that Nightmare Eclipse found it. \"Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as 'ShieldBreak,'\" the company said. \"We are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available.\" Nightmare Eclipse publicly disclosed ShieldBreak without notice to Microsoft as part of an ongoing dispute with the company over its vulnerability disclosure and bug bounty practices. Days after the researcher published PoC exploits without prior notice, Microsoft responded with warnings of legal action against people engaging in \"malicious activity causing real harm\" to its customers, prompting many to believe that the company was directly threatening the security researcher. Since April, Nightmare Eclipse has disclosed multiple zero-day exploits targeting Microsoft Defender, BitLocker, and various other Windows components, now known as LegacyHive , RoguePlanet , BlueHammer , RedSun , YellowKey , GreenPlasma , MiniPlasma , and UnDefend . While the company fixed the YellowKey, GreenPlasma, and MiniPlasma flaws as part of the June 2026 Patch Tuesday and RoguePlanet in July , the other security flaws disclosed by Nightmare Eclipse remain zero-days and are still awaiting an official patch. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges Microsoft patches LegacyHive Windows zero-day vulnerability New Windows LegacyHive zero-day gives hackers admin privileges Wind",
+      "full_body": "Microsoft working on Defender patch for ShieldBreak zero-day By Sergiu Gatlan August 17, 2026 05:05 AM 2 On Friday, Microsoft confirmed it has begun working on a security patch for a Defender zero-day vulnerability named \"ShieldBreak.\" A security researcher who uses the \"Nightmare Eclipse\" handle disclosed this privilege escalation vulnerability after Microsoft released the August 2026 Patch Tuesday security updates. ​\"Microsoft is aware of the reported vulnerability and is actively investigating the validity and potential applicability of these claims,\" a Microsoft spokesperson told BleepingComputer when asked for a statement regarding the new ShieldBreak zero-day. \"Microsoft is committed to investigating security issues and updating impacted products to protect customers as soon as possible.\" Nightmare Eclipse described ShieldBreak as a bypass for RoguePlanet , another Defender privilege escalation flaw disclosed in June, and shared a ShieldBreak proof-of-concept (PoC) exploit that local attackers with limited permissions can use to gain SYSTEM privileges on fully patched Windows 10, Windows 11, and Windows Server systems. \"Microsoft has failed to properly patch the RoguePlanet vulnerability CVE-2026-50656, this PoC demonstrates a full patch bypass,\" Nightmare Eclipse said . \"The PoC was tested in the latest version of windows 11 25h2 (+Canary channel) and windows server 2025, the PoC also have a 100% success rate. Please note that Windows 10 (and respective server editions) are not currently supported, they are however vulnerable to ShieldBreak as well.\" Vulnerability analyst Will Dormann confirmed last week that the ShieldBreak exploit works but added that Microsoft Defender must also be enabled for attackers to escalate privileges. ShieldBreak PoC exploit demo (Nightmare Eclipse) Tracked as CVE-2026-69414 and waiting for a patch On Friday, three days after ShieldBreak was disclosed, Microsoft said it's now tracking the flaw as CVE-2026-69414 and confirmed it's working on a patch, but has yet to acknowledge that Nightmare Eclipse found it. \"Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as 'ShieldBreak,'\" the company said. \"We are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available.\" Nightmare Eclipse publicly disclosed ShieldBreak without notice to Microsoft as part of an ongoing dispute with the company over its vulnerability disclosure and bug bounty practices. Days after the researcher published PoC exploits without prior notice, Microsoft responded with warnings of legal action against people engaging in \"malicious activity causing real harm\" to its customers, prompting many to believe that the company was directly threatening the security researcher. Since April, Nightmare Eclipse has disclosed multiple zero-day exploits targeting Microsoft Defender, BitLocker, and various other Windows components, now known as LegacyHive , RoguePlanet , BlueHammer , RedSun , YellowKey , GreenPlasma , MiniPlasma , and UnDefend . While the company fixed the YellowKey, GreenPlasma, and MiniPlasma flaws as part of the June 2026 Patch Tuesday and RoguePlanet in July , the other security flaws disclosed by Nightmare Eclipse remain zero-days and are still awaiting an official patch. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges Microsoft patches LegacyHive Windows zero-day vulnerability New Windows LegacyHive zero-day gives hackers admin privileges Wind",
       "fetch_status": "ok"
     },
     {
@@ -7987,6 +7644,33 @@
         }
       },
       "score": 4
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
+      "published": "2026-08-11T22:40:45+00:00",
+      "summary": "Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidden reasoning in plaintext You can see an example of these encrypted blocks by running: curl https://api.openai.com/v1/responses \\ -H \" Content-Type: application/json \" \\ -H \" Authorization: Bearer $( llm keys get openai ) \" \\ -d ' { \"model\": \"gpt-5.6-luna\", \"input\": \"Solve step by step: What is the smallest positive integer divisible by every integer from 1 through 20?\", \"reasoning\": { \"effort\": \"medium\" }, \"include\": [\"reasoning.encrypted_content\"], \"store\": false, \"stream\": false } ' Here's the full output , which includes chunks that look like this: \"output\": [ { \"id\": \"rs_0a7479de7ebae17001",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Cisco Talos",

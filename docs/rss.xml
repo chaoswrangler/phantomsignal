@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 18 Aug 2026 22:30:26 +0000</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 23:28:14 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -39,33 +39,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Feasibility of Blocking User App Installs</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vs0izl/feasibility_of_blocking_user_app_installs/</link>
-<description><![CDATA[I’m interesting in deploying some kind of solution for my org (~300 users/PCs) that restricts app execution from user writable directories. The risk being addressed is the unauthorized installation of software, which may result in users accidentally getting malware on their device (albeit with non-admin perms). I understand there are tools to do this (in particular I’ve been looking at AaronLocker), but I’ve also seen and heard that it requires a lot of validation to catch and exempt known legitimate software. For those of similarly sized orgs, is this something you’ve undertaken with success? Or is this something that is just too much overhead to maintain and not worth the security gain? submitted by /u/Splendid_Sigma [link] [comments]]]></description>
-<pubDate>Tue, 18 Aug 2026 20:10:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vs0izl/feasibility_of_blocking_user_app_installs/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>How to Stop OTP SMS Abuse When Attackers Rotate Valid Phone Numbers, Emails, and IPs?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrzfym/how_to_stop_otp_sms_abuse_when_attackers_rotate/</link>
-<description><![CDATA[Hi friends, I am currently dealing with a problem. An unknown person is targeting the OTP SMS service on our website&apos;s sign-up page. They are attempting this using multiple phone numbers, multiple email addresses, and rotating IP addresses. We are already using email validation services, yet they are using email addresses like &quot; bowobon834@sepmaf.com &quot; and &quot; kiyow78785@toooby.com .&quot; They are also using a specific series of mobile numbers, such as: &quot;+201195127174&quot;, &quot;+201181110723&quot;, &quot;+201195130069&quot;, &quot;+201195127216&quot;, &quot;+201181111455&quot;, &quot;+201195127472&quot;, &quot;+201181113961&quot;, &quot;+201195127038&quot;, &quot;+201195129482&quot;, &quot;+201000177595&quot;, All these numbers are valid. What kind of service provides such valid numbers? By submitting only valid numbers, they are negatively impacting our SMS budget. They are using two types of emails: valid permanent ones (like &quot; mai.t.hi.e.ndi.9.5.5.11@gmail.com &quot;, &quot; ph.a.nd.ong.nh.i.19.5.8.5@gmail.com &quot;, &quot; m.er.ed.ith.geron.i.mo.24.1@gmail.com &quot;) and temporary ones (like &quot; nofon8]]></description>
-<pubDate>Tue, 18 Aug 2026 19:31:53 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrzfym/how_to_stop_otp_sms_abuse_when_attackers_rotate/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>❄️ Chilling Discoveries: Unpacking Vulnerabilities in Copeland XWEB Pro Controllers</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrze6q/chilling_discoveries_unpacking_vulnerabilities_in/</link>
-<description><![CDATA[Team82 analyzed the attack surface of the Copeland XWEB Pro supervisory platform and identified 23 vulnerabilities, including 21 high-severity issues . The vulnerabilities can be chained to progressively bypass security controls and ultimately achieve root-level remote code execution (RCE) without authentication. In a physical test environment, Team82 demonstrated that compromising the supervisory controller could enable an attacker to manipulate connected refrigeration systems. The interesting part from an OT security perspective is the IT-to-physical impact path : compromise the supervisory layer, gain control of the underlying system, and potentially affect physical processes without obvious signs of tampering. Technical details and the full attack path: https://claroty.com/team82/research/chilling-discoveries-unpacking-vulnerabilities-in-copeland-xweb-pro-controllers submitted by /u/clarotyofficial [link] [comments]]]></description>
-<pubDate>Tue, 18 Aug 2026 19:30:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrze6q/chilling_discoveries_unpacking_vulnerabilities_in/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)</title>
 <link>https://unit42.paloaltonetworks.com/large-scale-credential-attacks/</link>
 <description><![CDATA[In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations&apos; Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. The post Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18) appeared first on Unit 42 .<br/><br/><em>Tags: Microsoft Entra · Fortinet · Palo Alto Networks · credential_theft · mfa_bypass</em>]]></description>
@@ -86,15 +59,6 @@
 <guid isPermaLink="true">https://www.justsecurity.org/152181/unexplained-reversal-social-media-disclosure/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=unexplained-reversal-social-media-disclosure</guid>
 <source url="https://www.justsecurity.org/feed/">Just Security</source>
 <category>policy_strategy_geopolitics</category>
-</item>
-<item>
-<title>Feeling Stuck</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrxr5k/feeling_stuck/</link>
-<description><![CDATA[2 years and a few months of IT experience as a whole. Bachelors in Cybersecurity and have some basic fundamentals certs such as CySA+. Not cyber many jobs where I live and when they do open up they almost always senior roles. The help desk for MSP’s in my area pay less then working at burger places where I live and I can’t take a 10K-15k pay cut just to be in semi cybersecurity role but it would still be really doing help desk in the reality of things. Applying each week to remote entry roles and internships dealing with SOC roles but no luck yet. I get paid well in what I do now but help desk my entire career is not my goal at all. I know the market has been horrible the last 5 years and even those with cybersecurity experience are struggling to find a job. Just feel so low and lost right now. So much going on as I stay consistent in where I’m at but I want to move up. Used to be motivated but now I’m not sure what to go for. I always wished cybersecurity was like going to be a doctor]]></description>
-<pubDate>Tue, 18 Aug 2026 18:32:35 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrxr5k/feeling_stuck/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>More than 200 victims of Medusa ransomware identified over the last year, CISA says</title>
@@ -216,15 +180,6 @@
 <category>Microsoft Entra</category>
 </item>
 <item>
-<title>Is GRC the new wave in cybersecurity?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrtuj1/is_grc_the_new_wave_in_cybersecurity/</link>
-<description><![CDATA[I’ve been noticing a pretty big uptick in GRC job postings lately, especially remote positions. It feels like cybersecurity always has a “wave.” First it was everyone getting Security+, then it seemed like everyone was trying to break into SOC roles, and now I’m seeing GRC everywhere. Is GRC becoming the new wave in cybersecurity? For those already working in GRC, are you seeing the field actually grow, or is it just getting more attention right now? submitted by /u/Main_Class8520 [link] [comments]]]></description>
-<pubDate>Tue, 18 Aug 2026 16:17:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrtuj1/is_grc_the_new_wave_in_cybersecurity/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks</title>
 <link>https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/</link>
 <description><![CDATA[Join the live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. The post Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks appeared first on SecurityWeek .]]></description>
@@ -268,24 +223,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/nasa-ground-control-software-flaw/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Moving from frontend to backend made me realize how bad my secrets management actually is. How do you handle credential rotation?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrq8kf/moving_from_frontend_to_backend_made_me_realize/</link>
-<description><![CDATA[While working on the frontend of applications, handling an API key usually just means putting it into a .env file and trusting the process. Recently, I&apos;ve been exploring backend infrastructure, and it turns out managing secrets in production infrastructure is a completely different story. I went through a guide on the architecture of secrets management, and it pointed out a trap I normally would have fallen into. The piece noted that centralizing your database passwords and API keys into a secure vault may feel like a massive upgrade. But if you do not have automated rotation in place, you basically just created a very organized list of stagnant targets for an attacker. Another issue brought up is the runtime delivery gap. Storing secrets securely can be pointless if they still end up hardcoded somewhere in your source code or live as permanent environment variables during a deployment. The argument is that storage, access control, secure delivery, lifecycle automation, and auditabilit]]></description>
-<pubDate>Tue, 18 Aug 2026 14:08:31 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrq8kf/moving_from_frontend_to_backend_made_me_realize/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Hackers abuse AI models to find new entry paths</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrq8ez/hackers_abuse_ai_models_to_find_new_entry_paths/</link>
-<description><![CDATA[submitted by /u/kyle4beantown [link] [comments]]]></description>
-<pubDate>Tue, 18 Aug 2026 14:08:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrq8ez/hackers_abuse_ai_models_to_find_new_entry_paths/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Your Controls Block Known Attacks. What About the Behavior?</title>
@@ -352,16 +289,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>CISA: Windows Task Host flaw now exploited by ransomware gangs</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vron22/cisa_windows_task_host_flaw_now_exploited_by/</link>
-<description><![CDATA[submitted by /u/Doug24 [link] [comments]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 13:05:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vron22/cisa_windows_task_host_flaw_now_exploited_by/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>AI-Driven Vulnerability Surge Breaks the Traditional Patching Model</title>
 <link>https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/</link>
 <description><![CDATA[Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores. The post AI-Driven Vulnerability Surge Breaks the Traditional Patching Model appeared first on SecurityWeek .<br/><br/><em>Tags: supply_chain · apt_espionage · vulnerability_disclosure</em>]]></description>
@@ -416,16 +343,6 @@
 <category>Microsoft SharePoint</category>
 </item>
 <item>
-<title>CVE-2026-6837: Root Command Injection Affecting 18 Zyxel Access Point Models with full firmware emulation guide</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrnwu3/cve20266837_root_command_injection_affecting_18/</link>
-<description><![CDATA[I published my technical write-up for CVE-2026-6837, an authenticated command-injection issue in Zyxel’s certificate export functionality. The analysis is based on the WAX650S, while Zyxel’s advisory expanded the affected scope to 18 AP models. The post includes root cause, affected versions, remediation, and the reproduction environment. submitted by /u/TheReedemer69 [link] [comments]<br/><br/><em>Tags: CVE-2026-6837</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 12:35:01 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrnwu3/cve20266837_root_command_injection_affecting_18/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-6837</category>
-</item>
-<item>
 <title>Download: 2026 Credential Risk Report</title>
 <link>https://www.helpnetsecurity.com/2026/08/18/download-enzoic-2026-credential-risk-report/</link>
 <description><![CDATA[85% of cybersecurity professionals consider compromised credentials a primary attack path, yet only 19% continuously monitor active credentials and automatically remediate exposure. The 2026 Credential Risk Report examines where credential security programs fall short and what it takes to move toward Continuous Credential Defense. Learn: Where gaps remain across credential detection, monitoring, and response Why MFA and point-in-time password screening do not fully address credential exposure How to move from reactive password controls to continuous … More → The post Download: 2026 Credential Risk Report appeared first on Help Net Security .]]></description>
@@ -478,15 +395,6 @@
 <category>Salesforce</category>
 </item>
 <item>
-<title>Engineering advice on detection logic</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrlxkh/engineering_advice_on_detection_logic/</link>
-<description><![CDATA[Hello fellow nerds I come bearing issues. MSSP is restricting SIEM detection logic to a “one-solution-fits-all” shitology. I am the only engineer, and the only Security person who has learned SIEM tooling and querying language. No one else understands the platform or is interest in the platform. Because of this, most of the detections are AI generated and shoe horned for each. I am having a slight menty-B as I am expected to create high fidelity alerts which work across all clients. We have clients all over the world, different licensing, different Entra configurations, some are cloud-only, some are hybrid - you get the point. Is any in a similar position, can any help? submitted by /u/ImportanceAvailable7 [link] [comments]]]></description>
-<pubDate>Tue, 18 Aug 2026 11:00:42 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrlxkh/engineering_advice_on_detection_logic/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw</title>
 <link>https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/</link>
 <description><![CDATA[Tracked as CVE-2026-15748, the arbitrary file upload bug allows unauthenticated attackers to upload executable files. The post 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · CVE-2026-15748</em>]]></description>
@@ -509,15 +417,6 @@
 <category>Cl0p</category>
 <category>ransomware_extortion</category>
 <category>zero_day</category>
-</item>
-<item>
-<title>How does your average day as a L1/L2 SOC Analyst look like?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vrldpt/how_does_your_average_day_as_a_l1l2_soc_analyst/</link>
-<description><![CDATA[How does your average day as a SOC Analyst look like working at an MDR, and what&apos;s the average number of incidents you are handling per day, just trying to figure out if we are actually overwhelmed with tickets or is that normal everywhere :) submitted by /u/Terrible-Body2787 [link] [comments]]]></description>
-<pubDate>Tue, 18 Aug 2026 10:32:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vrldpt/how_does_your_average_day_as_a_l1l2_soc_analyst/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>CISA: Windows Task Host flaw now exploited by ransomware gangs</title>
@@ -724,15 +623,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Hacker claims 3.6 million Azure account records stolen from major companies</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1vr2mql/hacker_claims_36_million_azure_account_records/</link>
-<description><![CDATA[submitted by /u/homothebrave [link] [comments]]]></description>
-<pubDate>Mon, 17 Aug 2026 19:43:30 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1vr2mql/hacker_claims_36_million_azure_account_records/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Hacker claims 3.6 million Azure account records stolen from major companies</title>
@@ -946,11 +836,12 @@
 <item>
 <title>French tax authority data breach affects 678,000 individuals</title>
 <link>https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/</link>
-<description><![CDATA[The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]<br/><br/><em>Tags: Snowflake · data_breach</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 10:09:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+<category>Snowflake</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -2019,6 +1910,15 @@
 <guid isPermaLink="true">https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/</guid>
 <source url="https://cyberscoop.com/feed/">CyberScoop</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
+<link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</link>
+<description><![CDATA[Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidden reasoning in plaintext You can see an example of these encrypted blocks by running: curl https://api.openai.com/v1/responses \ -H &quot; Content-Type: application/json &quot; \ -H &quot; Authorization: Bearer $( llm keys get openai ) &quot; \ -d &apos; { &quot;model&quot;: &quot;gpt-5.6-luna&quot;, &quot;input&quot;: &quot;Solve step by step: What is the smallest positive integer divisible by every integer from 1 through 20?&quot;, &quot;reasoning&quot;: { &quot;effort&quot;: &quot;medium&quot; }, &quot;include&quot;: [&quot;reasoning.encrypted_content&quot;], &quot;store&quot;: false, &quot;stream&quot;: false } &apos; Here&apos;s the full output , which includes chunks that look like this: &quot;output&quot;: [ { &quot;id&quot;: &quot;rs_0a7479de7ebae17001]]></description>
+<pubDate>Tue, 11 Aug 2026 22:40:45 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities</title>
@@ -18790,7 +18690,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18799,7 +18699,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18809,7 +18709,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18818,7 +18718,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18827,7 +18727,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18836,7 +18736,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18845,7 +18745,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18854,7 +18754,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18863,7 +18763,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18872,7 +18772,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 18 Aug 2026 22:30:26 +0000</pubDate>
+<pubDate>Tue, 18 Aug 2026 23:28:14 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
