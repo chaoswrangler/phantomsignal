@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-08-18T11:31:08.416509+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-08-18T12:57:11.788052+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2090,
@@ -18,13 +18,6 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;SentinelOne Labs&quot;: {
-      &quot;url&quot;: &quot;https://www.sentinelone.com/labs/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Microsoft Security Blog&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -38,6 +31,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 25,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;SentinelOne Labs&quot;: {
+      &quot;url&quot;: &quot;https://www.sentinelone.com/labs/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Google Threat Analysis Group&quot;: {
       &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
@@ -53,19 +53,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Kaspersky Securelist&quot;: {
-      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
+    &quot;Sekoia&quot;: {
+      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 3
-    },
-    &quot;NCSC UK&quot;: {
-      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 3
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Citizen Lab&quot;: {
       &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
@@ -74,6 +67,13 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
+    &quot;Kaspersky Securelist&quot;: {
+      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
+    },
     &quot;SANS Internet Storm Center&quot;: {
       &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
@@ -81,12 +81,33 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
+    &quot;Check Point Research&quot;: {
+      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;NCSC UK&quot;: {
+      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 2
+    },
     &quot;Cisco Talos&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 3
+    },
+    &quot;Horizon3 Attack Research&quot;: {
+      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 4
     },
     &quot;ESET WeLiveSecurity&quot;: {
       &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
@@ -102,13 +123,6 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;GitHub Security Lab&quot;: {
-      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Recorded Future&quot;: {
       &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -123,13 +137,6 @@
       &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Horizon3 Attack Research&quot;: {
-      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 4
-    },
     &quot;Red Canary&quot;: {
       &quot;url&quot;: &quot;https://redcanary.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
@@ -137,11 +144,11 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;watchTowr Labs&quot;: {
-      &quot;url&quot;: &quot;https://labs.watchtowr.com/rss/&quot;,
+    &quot;GitHub Security Lab&quot;: {
+      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
     &quot;Exploit-DB&quot;: {
@@ -151,12 +158,19 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 11
     },
-    &quot;Check Point Research&quot;: {
-      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+    &quot;Assetnote&quot;: {
+      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;watchTowr Labs&quot;: {
+      &quot;url&quot;: &quot;https://labs.watchtowr.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 3
+      &quot;in_window_count&quot;: 1
     },
     &quot;The DFIR Report&quot;: {
       &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
@@ -168,13 +182,6 @@
     &quot;Black Hills Information Security&quot;: {
       &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Assetnote&quot;: {
-      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
@@ -221,11 +228,11 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Sekoia&quot;: {
-      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
+    &quot;Datadog Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 0
     },
     &quot;Orca Security Research&quot;: {
@@ -235,19 +242,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
+    &quot;Permiso Security&quot;: {
+      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;AWS Security Blog&quot;: {
       &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 6
-    },
-    &quot;Datadog Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 0
     },
     &quot;Google Cloud Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
@@ -270,11 +277,11 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 7
     },
-    &quot;Permiso Security&quot;: {
-      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
+    &quot;Cloudflare Security&quot;: {
+      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
+      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
     &quot;Protect AI&quot;: {
@@ -284,13 +291,6 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Sysdig&quot;: {
-      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Trail of Bits&quot;: {
       &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -298,19 +298,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Cloudflare Security&quot;: {
-      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Wiz Research&quot;: {
-      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;Sysdig&quot;: {
+      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 6
+      &quot;in_window_count&quot;: 1
     },
     &quot;Cloudflare Radar&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
@@ -319,12 +312,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
-    &quot;OpenSSF Blog&quot;: {
-      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;Wiz Research&quot;: {
+      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 3
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 7
     },
     &quot;Coveware&quot;: {
       &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
@@ -332,6 +325,20 @@
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;OpenSSF Blog&quot;: {
+      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;Chainalysis&quot;: {
+      &quot;url&quot;: &quot;https://www.chainalysis.com/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Google DeepMind Blog&quot;: {
       &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
@@ -347,26 +354,12 @@
       &quot;item_count&quot;: 5,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Chainalysis&quot;: {
-      &quot;url&quot;: &quot;https://www.chainalysis.com/blog/feed/&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;BleepingComputer&quot;: {
       &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 15
-    },
-    &quot;Interconnects&quot;: {
-      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 3
     },
     &quot;Google Cloud Security&quot;: {
       &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
@@ -375,6 +368,13 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 5
     },
+    &quot;Interconnects&quot;: {
+      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 3
+    },
     &quot;SecurityWeek&quot;: {
       &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -382,26 +382,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;CyberScoop&quot;: {
-      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
-    },
-    &quot;AI Snake Oil&quot;: {
-      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;GreyNoise&quot;: {
       &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;CyberScoop&quot;: {
+      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
     },
     &quot;Dark Reading&quot;: {
       &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
@@ -424,12 +417,12 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 18
     },
-    &quot;Team Cymru&quot;: {
-      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+    &quot;AI Snake Oil&quot;: {
+      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Troy Hunt&quot;: {
       &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
@@ -437,6 +430,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;Team Cymru&quot;: {
+      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Schneier on Security&quot;: {
       &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
@@ -451,6 +451,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Krebs on Security&quot;: {
+      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
     },
     &quot;Reddit r/blueteamsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/blueteamsec/.rss&quot;,
@@ -473,22 +480,15 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
-    &quot;The Hacker News&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 48
-    },
-    &quot;Krebs on Security&quot;: {
-      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
-    },
     &quot;Reddit r/msp&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Reddit r/netsecstudents&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -501,20 +501,6 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Infosecurity Magazine&quot;: {
-      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 27
-    },
-    &quot;Reddit r/netsecstudents&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Intel 471&quot;: {
       &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
@@ -522,25 +508,39 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
     },
+    &quot;The Hacker News&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 47
+    },
+    &quot;Infosecurity Magazine&quot;: {
+      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 26
+    },
     &quot;Reddit r/netsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 25,
-      &quot;in_window_count&quot;: 16
-    },
-    &quot;tl;dr sec&quot;: {
-      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
+      &quot;in_window_count&quot;: 17
     },
     &quot;Embrace the Red&quot;: {
       &quot;url&quot;: &quot;https://embracethered.com/blog/index.xml&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;tl;dr sec&quot;: {
+      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
     &quot;Risky Business News&quot;: {
@@ -686,9 +686,9 @@
       &quot;theme_key&quot;: &quot;apple-ios-macos&quot;,
       &quot;dominant_features&quot;: {
         &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;,
           &quot;active_exploitation&quot;,
           &quot;data_breach&quot;,
-          &quot;zero_day&quot;,
           &quot;ransomware_extortion&quot;
         ],
         &quot;affected_industries&quot;: [
@@ -704,15 +704,15 @@
         ]
       },
       &quot;cluster_count&quot;: 8,
-      &quot;article_count&quot;: 18,
-      &quot;cohesion&quot;: 0.245,
+      &quot;article_count&quot;: 16,
+      &quot;cohesion&quot;: 0.237,
       &quot;shared_strong_signals&quot;: [
         &quot;Apple iOS/macOS&quot;
       ],
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
-        &quot;1580e2d432&quot;,
+        &quot;918adf4913&quot;,
         &quot;cb8fdf38e7&quot;,
         &quot;7d705c8d6a&quot;,
         &quot;a50e916d10&quot;,
@@ -722,76 +722,20 @@
         &quot;388705e7c7&quot;
       ],
       &quot;links&quot;: [
-        &quot;https://www.helpnetsecurity.com/2026/08/17/apple-macos-screen-sharing-flaw/&quot;,
         &quot;https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html&quot;,
         &quot;https://isc.sans.edu/diary/rss/33254&quot;,
-        &quot;https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/&quot;,
+        &quot;https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/&quot;,
         &quot;https://risky.biz/RBNEWS600/&quot;,
         &quot;https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/&quot;,
         &quot;https://orca.security/resources/research-pod/zoom-zero-click-rce-vulnerability-orca-security/&quot;,
         &quot;https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/&quot;,
+        &quot;https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/&quot;,
         &quot;https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html&quot;,
         &quot;https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html&quot;,
-        &quot;https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/&quot;,
         &quot;https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/&quot;,
         &quot;https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/&quot;,
         &quot;https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/&quot;,
         &quot;https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html&quot;
-      ]
-    },
-    {
-      &quot;label&quot;: &quot;zero day targeting WordPress&quot;,
-      &quot;anchor_signal&quot;: &quot;WordPress&quot;,
-      &quot;theme_key&quot;: &quot;wordpress&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;,
-          &quot;ransomware_extortion&quot;,
-          &quot;data_breach&quot;
-        ],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;WordPress&quot;,
-          &quot;Apple iOS/macOS&quot;,
-          &quot;GitLab&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;,
-          &quot;preauth_unauth&quot;,
-          &quot;no_patch_yet&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 7,
-      &quot;article_count&quot;: 11,
-      &quot;cohesion&quot;: 0.236,
-      &quot;shared_strong_signals&quot;: [
-        &quot;WordPress&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;c13f381a5a&quot;,
-        &quot;a7b2f82e67&quot;,
-        &quot;ad3b948659&quot;,
-        &quot;7d705c8d6a&quot;,
-        &quot;63d69c8e14&quot;,
-        &quot;ff9d8c251f&quot;,
-        &quot;b7b068c390&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/&quot;,
-        &quot;https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html&quot;,
-        &quot;https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles&quot;,
-        &quot;https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/&quot;,
-        &quot;https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/&quot;,
-        &quot;https://www.exploit-db.com/exploits/52642&quot;,
-        &quot;https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/&quot;,
-        &quot;https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html&quot;,
-        &quot;https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/&quot;,
-        &quot;https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/&quot;,
-        &quot;https://tldrsec.com/p/tldr-sec-341&quot;
       ]
     },
     {
@@ -849,6 +793,54 @@
         &quot;https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/&quot;,
         &quot;https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html&quot;,
         &quot;https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html&quot;
+      ]
+    },
+    {
+      &quot;label&quot;: &quot;zero day targeting WordPress&quot;,
+      &quot;anchor_signal&quot;: &quot;WordPress&quot;,
+      &quot;theme_key&quot;: &quot;wordpress&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;
+        ],
+        &quot;affected_industries&quot;: [
+          &quot;financial_services&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;WordPress&quot;,
+          &quot;OpenAI/ChatGPT&quot;
+        ],
+        &quot;urgency_signals&quot;: [
+          &quot;preauth_unauth&quot;,
+          &quot;zero_day&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 5,
+      &quot;article_count&quot;: 10,
+      &quot;cohesion&quot;: 0.2,
+      &quot;shared_strong_signals&quot;: [
+        &quot;WordPress&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;c13f381a5a&quot;,
+        &quot;a7b2f82e67&quot;,
+        &quot;ad3b948659&quot;,
+        &quot;7d705c8d6a&quot;,
+        &quot;b7b068c390&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/&quot;,
+        &quot;https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html&quot;,
+        &quot;https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles&quot;,
+        &quot;https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/&quot;,
+        &quot;https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/&quot;,
+        &quot;https://www.exploit-db.com/exploits/52642&quot;,
+        &quot;https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/&quot;,
+        &quot;https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/&quot;,
+        &quot;https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html&quot;,
+        &quot;https://tldrsec.com/p/tldr-sec-341&quot;
       ]
     },
     {
@@ -1052,7 +1044,7 @@
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 6,
+      &quot;article_count&quot;: 5,
       &quot;cohesion&quot;: 0.2,
       &quot;shared_strong_signals&quot;: [
         &quot;UNC5174&quot;
@@ -1065,7 +1057,6 @@
       ],
       &quot;links&quot;: [
         &quot;https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html&quot;,
-        &quot;https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/&quot;,
         &quot;https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html&quot;,
         &quot;https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw&quot;
       ]
@@ -1170,27 +1161,23 @@
   ],
   &quot;forward_signals&quot;: {
     &quot;novelty&quot;: {
-      &quot;cves&quot;: [
-        {
-          &quot;value&quot;: &quot;CVE-2025-60710&quot;,
-          &quot;cluster_id&quot;: &quot;46d0bf1827&quot;,
-          &quot;first_source&quot;: &quot;BleepingComputer&quot;,
-          &quot;first_published&quot;: &quot;2026-08-18T10:32:16+00:00&quot;
-        }
-      ],
+      &quot;cves&quot;: [],
       &quot;actors&quot;: [],
       &quot;products&quot;: []
     },
     &quot;velocity&quot;: [],
     &quot;leading_edge&quot;: [
       {
-        &quot;cluster_id&quot;: &quot;1580e2d432&quot;,
-        &quot;title&quot;: &quot;Attackers exploit patched macOS Screen Sharing flaw to deploy cryptominer&quot;,
+        &quot;cluster_id&quot;: &quot;918adf4913&quot;,
+        &quot;title&quot;: &quot;Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner&quot;,
         &quot;lead_hours&quot;: 87.8,
         &quot;first_source&quot;: &quot;Risky Business News&quot;,
         &quot;later_tier1_source&quot;: &quot;SANS Internet Storm Center&quot;,
         &quot;shared_signals&quot;: [
           &quot;Apple iOS/macOS&quot;,
+          &quot;CVE-2026-43760&quot;,
+          &quot;CVE-2026-43777&quot;,
+          &quot;CVE-2026-43779&quot;,
           &quot;CVE-2026-65400&quot;,
           &quot;GitHub&quot;
         ]
@@ -1238,16 +1225,6 @@
         &quot;first_observation&quot;: true
       },
       {
-        &quot;cluster_id&quot;: &quot;1580e2d432&quot;,
-        &quot;pair&quot;: &quot;CVE-2026-65400 + Apple iOS/macOS&quot;,
-        &quot;first_observation&quot;: true
-      },
-      {
-        &quot;cluster_id&quot;: &quot;1580e2d432&quot;,
-        &quot;pair&quot;: &quot;CVE-2026-65400 + GitHub&quot;,
-        &quot;first_observation&quot;: true
-      },
-      {
         &quot;cluster_id&quot;: &quot;c13f381a5a&quot;,
         &quot;pair&quot;: &quot;CVE-2025-49113 + Lazarus&quot;,
         &quot;first_observation&quot;: true
@@ -1280,6 +1257,16 @@
       {
         &quot;cluster_id&quot;: &quot;c13f381a5a&quot;,
         &quot;pair&quot;: &quot;CVE-2026-68820 + OpenAI/ChatGPT&quot;,
+        &quot;first_observation&quot;: true
+      },
+      {
+        &quot;cluster_id&quot;: &quot;c13f381a5a&quot;,
+        &quot;pair&quot;: &quot;CVE-2026-68820 + WordPress&quot;,
+        &quot;first_observation&quot;: true
+      },
+      {
+        &quot;cluster_id&quot;: &quot;c13f381a5a&quot;,
+        &quot;pair&quot;: &quot;Lazarus + Android&quot;,
         &quot;first_observation&quot;: true
       }
     ],
@@ -1360,6 +1347,12 @@
     ],
     &quot;persistence&quot;: [
       {
+        &quot;axis&quot;: &quot;cve_ids&quot;,
+        &quot;value&quot;: &quot;CVE-2026-45659&quot;,
+        &quot;cluster_id&quot;: &quot;46d0bf1827&quot;,
+        &quot;weeks_observed&quot;: 6
+      },
+      {
         &quot;axis&quot;: &quot;actor_attribution&quot;,
         &quot;value&quot;: &quot;Cl0p&quot;,
         &quot;cluster_id&quot;: &quot;fb556ca51b&quot;,
@@ -1369,12 +1362,6 @@
         &quot;axis&quot;: &quot;cve_ids&quot;,
         &quot;value&quot;: &quot;CVE-2026-50656&quot;,
         &quot;cluster_id&quot;: &quot;17761b9ecf&quot;,
-        &quot;weeks_observed&quot;: 5
-      },
-      {
-        &quot;axis&quot;: &quot;cve_ids&quot;,
-        &quot;value&quot;: &quot;CVE-2026-45659&quot;,
-        &quot;cluster_id&quot;: &quot;46d0bf1827&quot;,
         &quot;weeks_observed&quot;: 5
       },
       {
@@ -1438,6 +1425,168 @@
     ]
   },
   &quot;items&quot;: [
+    {
+      &quot;source&quot;: &quot;Help Net Security&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Download: 2026 Credential Risk Report&quot;,
+      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/18/download-enzoic-2026-credential-risk-report/&quot;,
+      &quot;published&quot;: &quot;2026-08-18T12:03:16+00:00&quot;,
+      &quot;summary&quot;: &quot;85% of cybersecurity professionals consider compromised credentials a primary attack path, yet only 19% continuously monitor active credentials and automatically remediate exposure. The 2026 Credential Risk Report examines where credential security programs fall short and what it takes to move toward Continuous Credential Defense. Learn: Where gaps remain across credential detection, monitoring, and response Why MFA and point-in-time password screening do not fully address credential exposure How to move from reactive password controls to continuous … More → The post Download: 2026 Credential Risk Report appeared first on Help Net Security .&quot;,
+      &quot;author&quot;: &quot;Help Net Security&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;Wiz Research&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;title&quot;: &quot;Announcing the 2026 Wiz Partner Alliance Award Winners&quot;,
+      &quot;link&quot;: &quot;https://www.wiz.io/blog/2026-partner-award-winners&quot;,
+      &quot;published&quot;: &quot;2026-08-18T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Recognizing the partners, integrators, and visionaries driving cloud security transformation, AI risk management, and SOC modernization across AMER, EMEA, and ANZ.&quot;,
+      &quot;author&quot;: &quot;Andy Ritchie&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;GitHub&quot;,
+          &quot;Snowflake&quot;,
+          &quot;Atlassian Jira&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {
+          &quot;GitHub&quot;: &quot;target&quot;,
+          &quot;Snowflake&quot;: &quot;target&quot;,
+          &quot;Atlassian Jira&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 9,
+      &quot;full_body&quot;: &quot;Wiz Pricing Get a demo Get a demo Building cloud security at scale takes more than just great technology. It requires a powerful ecosystem of partners aligned around a unified platform story spanning Cloud, Code, Runtime, and AI. At this year’s Build with Wiz: The Partner Summit , we paused to celebrate the standout organizations and individuals who embody our core themes, from those who Build to Grow and Build to Launch , to those driving innovation as they Build to Run . Whether helping government agencies establish Zero Trust guardrails, guiding global enterprises through multi-cloud migrations, or securing emerging LLM pipelines, our partner ecosystem proves that proactive risk reduction and fast execution go hand in hand. The competition for our 2026 Wiz Partner Alliance Awards was fierce, with dozens of finalists evaluated against rigorous criteria. Here are the partners across the Americas (AMER), Europe, Middle East &amp; Africa (EMEA), and Australia &amp; New Zealand (ANZ) who set the benchmark for excellence this year. 2026 Wiz Partner Award Winners Americas (AMER) Partner of the Year: GuidePoint Security GSI Partner of the Year: Accenture CSP Partner of the Year: Amazon Web Services (AWS) Rising Star: AHEAD Public Sector Partner of the Year: Blackwood Bright Spark: Arctiq AI Security Excellence: Deloitte GTM Magician: Optiv Security Europe, Middle East &amp; Africa (EMEA) Partner of the Year: Computacenter GSI Partner of the Year: Accenture CSP Growth Partner of the Year: Microsoft GTM Magician: Saepio Rising Star: O3 Cyber AI Security Excellence: Devoteam Bright Spark: Albiona Dzemaili, Spike Reply SOC Transformer: PwC Australia &amp; New Zealand (ANZ) Partner of the Year: Accenture GTM Magician: Sekuro Rising Star: Mantel Group AI Security Excellence Partner: Versent Bright Spark Award: Francesco Sbaraglia, Accenture Building What’s Next, Together To every winner, finalist, and partner in our alliance: thank you. Your technical depth, creative GTM strategies, and relentless commitment to customer success make securing the cloud simple for teams everywhere. As we look ahead, the pace of cloud adoption and AI integration isn&#x27;t slowing down, and neither are we. Cheers to an incredible year, and let’s keep building. Tags # Product &amp; Company News Continue reading Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR Gal Nagli August 17, 2026 Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s Advanced Security, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live. The Closed Loop Remediation Playbook with Wiz + 3 Eyal Golombek , Guy Mast , Erez Talgam and 3 more August 17, 2026 Start your path to a self-healing cloud today, with Wiz Workflows now GA and Remediation and Response in public preview. Wiz on Wiz: How the Wiz FinOps Team Uses Wiz Cloud Cost + 2 Ron Tzrouya , Guy Aharon , Noa Manor and 2 more August 14, 2026 Powering cost investigation and optimization with deep cloud context Get a personalized demo Ready to see Wiz in action? \&quot;Best User Experience I have ever seen, provides full visibility to cloud workloads.\&quot; David Estlick CISO \&quot;Wiz provides a single pane of glass to see what is going on in our cloud environments.\&quot; Adam Fletcher Chief Security Officer \&quot;We know that if Wiz identifies something as critical, it actually is.\&quot; Greg Poniatowski Head of Threat and Vulnerability Management Get a demo&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
+    },
+    {
+      &quot;source&quot;: &quot;Help Net Security&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Google’s $10,000 refund test shows why AI agents need zero trust&quot;,
+      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/18/google-zero-trust-ai-agents/&quot;,
+      &quot;published&quot;: &quot;2026-08-18T11:49:54+00:00&quot;,
+      &quot;summary&quot;: &quot;Google’s open-source autonomous Customer Support &amp; Returns Agent, built using the Agent Development Kit (ADK) and Gemini, demonstrates how developers can apply zero-trust security principles to AI agents that interact with sensitive systems and take real-world actions. The project tests an approach that assumes an AI agent could be manipulated or compromised and puts security controls around it to limit what the agent can do. The architecture uses safeguards outside the model to verify actions, … More → The post Google’s $10,000 refund test shows why AI agents need zero trust appeared first on Help Net Security .&quot;,
+      &quot;author&quot;: &quot;Anamarija Pogorelec&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;Help Net Security&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Critical GitLab flaw allows attackers to modify or delete public projects (CVE-2026-19478)&quot;,
+      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/&quot;,
+      &quot;published&quot;: &quot;2026-08-18T11:38:24+00:00&quot;,
+      &quot;summary&quot;: &quot;GitLab has released patches for two vulnerabilities, including a critical-severity code injection flaw that can be exploited without authentication. The vulnerabilities affect GitLab Community Edition (CE) and Enterprise Edition (EE) versions from 18.2 before 18.11.11, 19.0 before 19.0.8, 19.1 before 19.1.6, and 19.2 before 19.2.4. The fixes are available in GitLab 19.2.4, 19.1.6, 19.0.8, and 18.11.11. “These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded … More → The post Critical GitLab flaw allows attackers to modify or delete public projects (CVE-2026-19478) appeared first on Help Net Security .&quot;,
+      &quot;author&quot;: &quot;Sinisa Markovic&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;GitLab&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-19478&quot;
+        ],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {
+          &quot;GitLab&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 12
+    },
+    {
+      &quot;source&quot;: &quot;The Hacker News&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025&quot;,
+      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html&quot;,
+      &quot;published&quot;: &quot;2026-08-18T11:30:00+00:00&quot;,
+      &quot;summary&quot;: &quot;A single piece of infrastructure has been pulling records out of Salesforce and ServiceNow customer portals across multiple industries for more than a year, according to research published this week by agent security platform Reco. The activity, which Reco has named the City Forum campaign after a domain tied to the attacker&#x27;s IP address, traces back to one server: 158.220.87.79, hosted on a&quot;,
+      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;Salesforce&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {
+          &quot;Salesforce&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -1615,7 +1764,7 @@
         &quot;affected_products&quot;: [
           &quot;GitLab&quot;,
           &quot;Apple iOS/macOS&quot;,
-          &quot;WordPress&quot;
+          &quot;Azure&quot;
         ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
@@ -1629,16 +1778,17 @@
         &quot;role_map&quot;: {
           &quot;GitLab&quot;: &quot;target&quot;,
           &quot;Apple iOS/macOS&quot;: &quot;target&quot;,
-          &quot;WordPress&quot;: &quot;target&quot;,
+          &quot;Azure&quot;: &quot;target&quot;,
           &quot;Anthropic/Claude&quot;: &quot;target&quot;,
-          &quot;Azure&quot;: &quot;target&quot;
+          &quot;WordPress&quot;: &quot;target&quot;,
+          &quot;Fortinet&quot;: &quot;target&quot;
         },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
       &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Consumer lender Heights Finance Holdings Co. is notifying over 1.2 million people that their personal and financial information was stolen in a data breach. In early May, Heights discovered that hackers accessed a third-party cloud-based platform used for customer data storage, the company said in an incident notice . The loan provider says the platform has been secured and that its operations were not affected, as the incident was limited to the cloud-based platform. “It did not affect any of our loan management systems or other computer systems or networks. We immediately activated our incident response protocols, brought in outside cybersecurity specialists to investigate, and reported the incident to federal law enforcement,” Heights says. During the attack, the hackers accessed and stole personal and financial information, including names, addresses, email addresses, phone numbers, Social Security numbers, government ID numbers, driver’s license numbers, bank account information, account details, dates of birth, and other information customers shared with the company. “Your information may be involved if you received a loan through Heights, or if you inquired about or applied for a loan product (including through a third party). Your information may also be involved if you were a former borrower of Curo Management or any of its former or current related brands,” the lender says. Advertisement. Scroll to continue reading. Based on notices sent to the Attorney General’s Offices in several states, more than 1.2 million people have been affected: 734,828 in Texas, 486,463 in South Carolina, 26 in New Hampshire, and 21 in Vermont. Heights is providing the affected individuals with 24 months of free credit monitoring and identity protection services. According to the company, its monitoring of the dark web has found no evidence that the hackers have shared the information stolen in the attack. Heights has not named the threat actor behind the data breach, and SecurityWeek has not seen any known ransomware or extortion group claiming responsibility for it. Related: 680,000 Impacted by French Tax Authority Data Breach Related: 40,000 Impacted by SafePal Data Breach Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: 1.6 Million Likely Impacted by RingCentral Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Latest News 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw GitLab Patches Critical Code Injection Vulnerability Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates 680,000 Impacted by French Tax Authority Data Breach Irregular Details How a Naming Error Let AI Models Attack a Real Company Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Re&quot;,
+      &quot;full_body&quot;: &quot;Consumer lender Heights Finance Holdings Co. is notifying over 1.2 million people that their personal and financial information was stolen in a data breach. In early May, Heights discovered that hackers accessed a third-party cloud-based platform used for customer data storage, the company said in an incident notice . The loan provider says the platform has been secured and that its operations were not affected, as the incident was limited to the cloud-based platform. “It did not affect any of our loan management systems or other computer systems or networks. We immediately activated our incident response protocols, brought in outside cybersecurity specialists to investigate, and reported the incident to federal law enforcement,” Heights says. During the attack, the hackers accessed and stole personal and financial information, including names, addresses, email addresses, phone numbers, Social Security numbers, government ID numbers, driver’s license numbers, bank account information, account details, dates of birth, and other information customers shared with the company. “Your information may be involved if you received a loan through Heights, or if you inquired about or applied for a loan product (including through a third party). Your information may also be involved if you were a former borrower of Curo Management or any of its former or current related brands,” the lender says. Advertisement. Scroll to continue reading. Based on notices sent to the Attorney General’s Offices in several states, more than 1.2 million people have been affected: 734,828 in Texas, 486,463 in South Carolina, 26 in New Hampshire, and 21 in Vermont. Heights is providing the affected individuals with 24 months of free credit monitoring and identity protection services. According to the company, its monitoring of the dark web has found no evidence that the hackers have shared the information stolen in the attack. Heights has not named the threat actor behind the data breach, and SecurityWeek has not seen any known ransomware or extortion group claiming responsibility for it. Related: 680,000 Impacted by French Tax Authority Data Breach Related: 40,000 Impacted by SafePal Data Breach Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: 1.6 Million Likely Impacted by RingCentral Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Latest News Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw GitLab Patches Critical Code Injection Vulnerability Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates 680,000 Impacted by French Tax Authority Data Breach Irregular Details How a Naming Error Let AI Models Attack a Real Company Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register V&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -1715,7 +1865,8 @@
         ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
+          &quot;financial_services&quot;,
+          &quot;government&quot;
         ],
         &quot;affected_products&quot;: [
           &quot;GitLab&quot;,
@@ -1740,15 +1891,16 @@
           &quot;GitLab&quot;: &quot;target&quot;,
           &quot;Apple iOS/macOS&quot;: &quot;target&quot;,
           &quot;WordPress&quot;: &quot;target&quot;,
+          &quot;Azure&quot;: &quot;target&quot;,
           &quot;Anthropic/Claude&quot;: &quot;target&quot;,
-          &quot;Azure&quot;: &quot;target&quot;
+          &quot;Fortinet&quot;: &quot;target&quot;
         },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
       &quot;score&quot;: 12,
-      &quot;full_body&quot;: &quot;GitLab on Monday rolled out patches for two vulnerabilities, including a critical-severity code injection flaw that can be exploited without authentication. Tracked as CVE-2026-19478 (CVSS score of 9.4), the security defect allows attackers to modify or delete user data and public projects via a GraphQL directive, GitLab explains in its advisory . The second bug is CVE-2026-19650 (CVSS score of 7.1), a cross-site request forgery (CSRF) issue impacting the GraphQL multiplex query handler. “GitLab has remediated an issue that under certain conditions could have allowed an unauthenticated user to execute mutations via GET requests due to improper request validation in GraphQL multiplex query handling,” the advisory reads. The two vulnerabilities impact all GitLab Community Edition (CE) and Enterprise Edition (EE) versions from 18.2, 19.0, 19.1, and 19.2 onwards. They were addressed in GitLab CE/EE versions 18.11.11, 19.0.8, 19.1.6, and 19.2.4. “We strongly recommend that all self-managed GitLab installations be upgraded to one of these versions immediately,” GitLab notes. Advertisement. Scroll to continue reading. The patches were automatically applied to GitLab.com and GitLab Dedicated, and no action is required from their users. GitLab says both security defects were reported via its HackerOne bug bounty program. The code management and sharing platform makes no mention of any of these vulnerabilities being exploited in the wild. Related: Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Related: In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Related: Is Patching Dead? Vulnerability Management in the Post-Mythos Era Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Latest News 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates 680,000 Impacted by French Tax Authority Data Breach Irregular Details How a Naming Error Let AI Models Attack a Real Company Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Dali Rajic is joining OpenAI as Chief Revenue Officer. Erika Dean has been appointed Chief Information Security Officer at Tricentis. C1 has named Jeff St. Clair Chief Revenue Officer. More People On The Move Expert Insights The &quot;,
+      &quot;full_body&quot;: &quot;GitLab on Monday rolled out patches for two vulnerabilities, including a critical-severity code injection flaw that can be exploited without authentication. Tracked as CVE-2026-19478 (CVSS score of 9.4), the security defect allows attackers to modify or delete user data and public projects via a GraphQL directive, GitLab explains in its advisory . The second bug is CVE-2026-19650 (CVSS score of 7.1), a cross-site request forgery (CSRF) issue impacting the GraphQL multiplex query handler. “GitLab has remediated an issue that under certain conditions could have allowed an unauthenticated user to execute mutations via GET requests due to improper request validation in GraphQL multiplex query handling,” the advisory reads. The two vulnerabilities impact all GitLab Community Edition (CE) and Enterprise Edition (EE) versions from 18.2, 19.0, 19.1, and 19.2 onwards. They were addressed in GitLab CE/EE versions 18.11.11, 19.0.8, 19.1.6, and 19.2.4. “We strongly recommend that all self-managed GitLab installations be upgraded to one of these versions immediately,” GitLab notes. Advertisement. Scroll to continue reading. The patches were automatically applied to GitLab.com and GitLab Dedicated, and no action is required from their users. GitLab says both security defects were reported via its HackerOne bug bounty program. The code management and sharing platform makes no mention of any of these vulnerabilities being exploited in the wild. Related: Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Related: In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Related: Is Patching Dead? Vulnerability Management in the Post-Mythos Era Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Latest News Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates 680,000 Impacted by French Tax Authority Data Breach Irregular Details How a Naming Error Let AI Models Attack a Real Company Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Dali Rajic is joining OpenAI as Chief Revenue Officer. Erika Dean has been appointed Chief Information Security Officer at Tricentis. C1 has named Jeff St. Clair Chief Revenue Officer. More People On The Move Expert Insights The AI Gover&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -1985,7 +2137,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 4
+      &quot;score&quot;: 3
     },
     {
       &quot;source&quot;: &quot;Simon Willison&quot;,
@@ -2013,7 +2165,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;The Record&quot;,
@@ -2283,10 +2435,10 @@
       &quot;source&quot;: &quot;Dark Reading&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Adam Shostack Talks Hugging Face &amp; PHANTOM-B&quot;,
+      &quot;title&quot;: &quot;Adam Shostack Talks Hugging Face Breach &amp; PHANTOM-B&quot;,
       &quot;link&quot;: &quot;https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b&quot;,
       &quot;published&quot;: &quot;2026-08-17T19:22:56+00:00&quot;,
-      &quot;summary&quot;: &quot;World-class threat modeler Adam Shostack shared he was \&quot;blown away\&quot; by OpenAI&#x27;s revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both \&quot;lightweight yet still usable.\&quot;&quot;,
+      &quot;summary&quot;: &quot;The security expert talks with the Dark Reading News Desk about why he \&quot;blown away\&quot; by OpenAI&#x27;s revelations regarding the Hugging Face attack, and also discussed his new threat model for LLMs.&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
@@ -2570,36 +2722,6 @@
       &quot;score&quot;: 5
     },
     {
-      &quot;source&quot;: &quot;Help Net Security&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;France’s tax authority admits hackers made off with data on 678,000 individuals&quot;,
-      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/17/france-tax-authority-data-breach/&quot;,
-      &quot;published&quot;: &quot;2026-08-17T14:20:20+00:00&quot;,
-      &quot;summary&quot;: &quot;France’s tax authority has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems, saying the intrusion exposed data on 678,000 individuals and professionals. The incident came to light after an alleged attacker using the alias “ZeroBytes” took credit on a cybercrime forum and listed a stolen database for sale. ZeroBytes said the compromised portal contained data on about 20 million French citizens, but they only managed to extract … More → The post France’s tax authority admits hackers made off with data on 678,000 individuals appeared first on Help Net Security .&quot;,
-      &quot;author&quot;: &quot;Sinisa Markovic&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;data_breach&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 5
-    },
-    {
       &quot;source&quot;: &quot;Reddit r/netsec&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;category&quot;: &quot;reddit_practitioner_osint&quot;,
@@ -2721,7 +2843,7 @@
         &quot;affected_products&quot;: [
           &quot;GitLab&quot;,
           &quot;Apple iOS/macOS&quot;,
-          &quot;WordPress&quot;
+          &quot;Azure&quot;
         ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
@@ -2735,49 +2857,18 @@
         &quot;role_map&quot;: {
           &quot;GitLab&quot;: &quot;target&quot;,
           &quot;Apple iOS/macOS&quot;: &quot;target&quot;,
-          &quot;WordPress&quot;: &quot;target&quot;,
+          &quot;Azure&quot;: &quot;target&quot;,
           &quot;Anthropic/Claude&quot;: &quot;target&quot;,
-          &quot;Azure&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 9,
-      &quot;full_body&quot;: &quot;France’s Directorate General of Public Finances (DGFiP) has disclosed a data breach impacting approximately 680,000 individuals. The incident was disclosed after a threat actor boasted on a hacking forum about accessing DGFiP’s internal systems and exfiltrating data. According to DGFiP, the threat actor accessed its systems in June and July, and the unauthorized access was suspended immediately upon detection. However, the public tax authority did not discover evidence of data exfiltration at the time. Last week, DGFiP confirmed that the attackers used compromised credentials for an employee and a third-party account to access its systems and steal the information of 678,000 users. According to the finance agency, reference tax income, withholding tax rate, company names and unique identifiers, and cadastral data on real estate addresses and surfaces were compromised. No other information, including usernames and passwords, was compromised in the attack, which was immediately reported to France’s data protection authority CNIL. Advertisement. Scroll to continue reading. DGFiP says it continues to investigate the nature and scope of the data breach, as well as the exact number of potentially affected individuals. The tax authority says it will contact each affected individual directly. The incident came to light roughly one month after another European government agency, Romania’s National Agency for Cadastre and Property Registration (ANCPI), fell victim to a disruptive cyberattack. ANCPI was reportedly hacked by a threat actor known as ByteToBreach, who stole information including employee credentials and internal documents and attempted to extort the agency. When the extortion attempt failed, the hacker reportedly wiped the encrypted data, disrupting official applications, sites, and email services, and bringing Romania’s real estate market to a standstill. The central database of the cadastral system, containing property and real estate rights records, was not affected. Still, ANCPI scrambled for roughly three weeks to rebuild its servers and restore the affected applications. Related: 40,000 Impacted by SafePal Data Breach Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: Trivy, Not LiteLLM Behind the 2,500 Org Compromise Related: Irregular Details How a Naming Error Let AI Models Attack a Real Company Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Adobe Commerce Bug Targeted Immediately After Disclosure WordPress 7.0.4 Patches Remote Code Execution Vulnerability Latest News 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals GitLab Patches Critical Code Injection Vulnerability Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Irregular Details How a Naming Error Let AI Models Attack a Real Company Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
-    },
-    {
-      &quot;source&quot;: &quot;Help Net Security&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Fortinet expands AI security portfolio with Virtue AI acquisition&quot;,
-      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/17/fortinet-virtue-ai-acquisition/&quot;,
-      &quot;published&quot;: &quot;2026-08-17T13:52:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Fortinet has acquired Virtue AI, strengthening its broader Security for AI strategy and its vision for securing the agentic enterprise. The acquisition builds on Fortinet’s existing AI security portfolio, which includes the FortiGate Hyperscale Firewall. As organizations deploy AI applications and autonomous agents, their attack surface expands beyond networks, users, endpoints, applications, and cloud workloads. It now includes prompts, models, agents, Model Context Protocol (MCP) tools, application programming interface (API) calls, and AI infrastructure. Organizations … More → The post Fortinet expands AI security portfolio with Virtue AI acquisition appeared first on Help Net Security .&quot;,
-      &quot;author&quot;: &quot;Industry News&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;Fortinet&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
+          &quot;WordPress&quot;: &quot;target&quot;,
           &quot;Fortinet&quot;: &quot;target&quot;
         },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 9,
+      &quot;full_body&quot;: &quot;France’s Directorate General of Public Finances (DGFiP) has disclosed a data breach impacting approximately 680,000 individuals. The incident was disclosed after a threat actor boasted on a hacking forum about accessing DGFiP’s internal systems and exfiltrating data. According to DGFiP, the threat actor accessed its systems in June and July, and the unauthorized access was suspended immediately upon detection. However, the public tax authority did not discover evidence of data exfiltration at the time. Last week, DGFiP confirmed that the attackers used compromised credentials for an employee and a third-party account to access its systems and steal the information of 678,000 users. According to the finance agency, reference tax income, withholding tax rate, company names and unique identifiers, and cadastral data on real estate addresses and surfaces were compromised. No other information, including usernames and passwords, was compromised in the attack, which was immediately reported to France’s data protection authority CNIL. Advertisement. Scroll to continue reading. DGFiP says it continues to investigate the nature and scope of the data breach, as well as the exact number of potentially affected individuals. The tax authority says it will contact each affected individual directly. The incident came to light roughly one month after another European government agency, Romania’s National Agency for Cadastre and Property Registration (ANCPI), fell victim to a disruptive cyberattack. ANCPI was reportedly hacked by a threat actor known as ByteToBreach, who stole information including employee credentials and internal documents and attempted to extort the agency. When the extortion attempt failed, the hacker reportedly wiped the encrypted data, disrupting official applications, sites, and email services, and bringing Romania’s real estate market to a standstill. The central database of the cadastral system, containing property and real estate rights records, was not affected. Still, ANCPI scrambled for roughly three weeks to rebuild its servers and restore the affected applications. Related: 40,000 Impacted by SafePal Data Breach Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: Trivy, Not LiteLLM Behind the 2,500 Org Compromise Related: Irregular Details How a Naming Error Let AI Models Attack a Real Company Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Latest News Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals GitLab Patches Critical Code Injection Vulnerability Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Irregular Details How a Naming Error Let AI Models Attack a Real Company Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time &quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;Check Point Research&quot;,
@@ -2929,47 +3020,38 @@
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
-      &quot;source&quot;: &quot;Help Net Security&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Attackers exploit patched macOS Screen Sharing flaw to deploy cryptominer&quot;,
-      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/17/apple-macos-screen-sharing-flaw/&quot;,
-      &quot;published&quot;: &quot;2026-08-17T12:23:15+00:00&quot;,
-      &quot;summary&quot;: &quot;A recently patched security flaw in Apple macOS is being actively exploited by hackers to bypass authentication, gain root access, and install a cryptominer, the Netherlands’ National Cyber Security Centre (NCSC) warns. The vulnerability, tracked as CVE-2026-65400, , let attackers authenticate to macOS Screen Sharing without valid login credentials. Apple fixed the issue with updates to macOS Sequoia (15.7.9), Sonoma (14.8.9), and Tahoe (26.6.1), and advised its macOS users to upgrade their systems. “An authentication … More → The post Attackers exploit patched macOS Screen Sharing flaw to deploy cryptominer appeared first on Help Net Security .&quot;,
-      &quot;author&quot;: &quot;Sinisa Markovic&quot;,
+      &quot;source&quot;: &quot;Reddit r/netsec&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;category&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;title&quot;: &quot;From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)&quot;,
+      &quot;link&quot;: &quot;https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/&quot;,
+      &quot;published&quot;: &quot;2026-08-17T12:17:40+00:00&quot;,
+      &quot;summary&quot;: &quot;submitted by /u/Master_Access_486 [link] [comments]&quot;,
+      &quot;author&quot;: &quot;/u/Master_Access_486&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;active_exploitation&quot;
-        ],
+        &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
+        &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [
-          &quot;Apple iOS/macOS&quot;
+          &quot;Microsoft/Copilot&quot;
         ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [
-          &quot;CVE-2026-65400&quot;
+          &quot;CVE-2026-32193&quot;
         ],
         &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;,
-          &quot;poc_available&quot;
-        ],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_5_chatter&quot;,
         &quot;role_map&quot;: {
-          &quot;Apple iOS/macOS&quot;: &quot;target&quot;
+          &quot;Microsoft/Copilot&quot;: &quot;target&quot;
         },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 19,
-      &quot;full_body&quot;: &quot;Sinisa Markovic , Managing Editor, Help Net Security August 17, 2026 Share Attackers exploit patched macOS Screen Sharing flaw to deploy cryptominer A recently patched security flaw in Apple macOS is being actively exploited by hackers to bypass authentication, gain root access, and install a cryptominer, the Netherlands’ National Cyber Security Centre (NCSC) warns. The vulnerability, tracked as CVE-2026-65400 , , let attackers authenticate to macOS Screen Sharing without valid login credentials. Apple fixed the issue with updates to macOS Sequoia (15.7.9), Sonoma (14.8.9), and Tahoe (26.6.1), and advised its macOS users to upgrade their systems. “An authentication issue was addressed with improved state management,” Apple said in its advisory, crediting researcher Alfredo Pesoli, known as @__rev of Bynario Atlas, for reporting the issue. On August 7, one day after Apple’s fix, the NCSC published its first advisory, urging organizations to update. The warning was informational, since no exploitation had been reported at that point. That changed five days later, on August 12, when the agency raised the advisory’s severity after proof-of-concept code went public and reports of active attacks on exposed systems began arriving. “NCSC has received a report indicating active exploitation of this vulnerability has been observed on multiple systems where port 5900 was reachable from the internet. In all these cases, root access was obtained on the affected system and a Monero crypto miner was installed,” NCSC wrote . Users who can’t patch immediately can disable Screen Sharing manually, by opening System Settings , selecting General , then Sharing , and switching the Screen Sharing toggle off. NCSC hasn’t shared details on the scope of the attacks, including when they started, how many systems were hit, or whether attackers did anything beyond installing the cryptominer. More about Apple CVE macOS vulnerability Share&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -3001,7 +3083,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -3031,7 +3113,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Rapid7&quot;,
@@ -3404,68 +3486,6 @@
       &quot;score&quot;: 10,
       &quot;full_body&quot;: &quot;Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
-    },
-    {
-      &quot;source&quot;: &quot;SecurityWeek&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Recent macOS Screen Sharing Vulnerability Exploited in Attacks&quot;,
-      &quot;link&quot;: &quot;https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/&quot;,
-      &quot;published&quot;: &quot;2026-08-17T08:47:38+00:00&quot;,
-      &quot;summary&quot;: &quot;Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek .&quot;,
-      &quot;author&quot;: &quot;Ionut Arghire&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;Apple iOS/macOS&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Apple iOS/macOS&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 8
-    },
-    {
-      &quot;source&quot;: &quot;SecurityWeek&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure&quot;,
-      &quot;link&quot;: &quot;https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/&quot;,
-      &quot;published&quot;: &quot;2026-08-17T08:13:07+00:00&quot;,
-      &quot;summary&quot;: &quot;The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek .&quot;,
-      &quot;author&quot;: &quot;Eduard Kovacs&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-58231&quot;
-        ],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 10
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -3858,22 +3878,30 @@
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;,
+          &quot;ddos&quot;,
+          &quot;vulnerability_disclosure&quot;,
           &quot;active_exploitation&quot;
         ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
+          &quot;financial_services&quot;,
+          &quot;education&quot;
         ],
         &quot;affected_products&quot;: [
           &quot;Apple iOS/macOS&quot;
         ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [
-          &quot;CVE-2026-65400&quot;
+          &quot;CVE-2026-65400&quot;,
+          &quot;CVE-2026-43779&quot;,
+          &quot;CVE-2026-43777&quot;,
+          &quot;CVE-2026-43760&quot;
         ],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;
+          &quot;actively_exploited&quot;,
+          &quot;zero_day&quot;
         ],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
@@ -3884,7 +3912,9 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 15
+      &quot;score&quot;: 15,
+      &quot;full_body&quot;: &quot;Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner  Ravie Lakshmanan  Aug 15, 2026 Vulnerability / Endpoint Security A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned . The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to authenticate to the built-in remote desktop feature service without valid credentials. The updates released by Apple improve state management mechanisms to enforce correct credential validation and prevent unauthorized authentication attempts. The shortcoming was addressed as part of an emergency update in macOS Tahoe 26.6.1 , macOS Sequoia 15.7.9 , and macOS Sonoma 14.8.9 earlier this month. \&quot;An authentication issue was addressed with improved state management,\&quot; Apple said in an advisory released on August 6, 2026. It credited security researcher Alfredo Pesoli of Bynario for discovering and reporting the issue. In an update to its advisory, the NCSC-NL said it has received a report indicating active abuse of the vulnerability across multiple systems on which port 5900 was accessible from the internet. \&quot;In all these cases, root had gained access to the affected system and placed a Monero crypto miner,\&quot; the agency added. There are currently no details on when these attacks were observed, the scale of such efforts, if the flaw was exploited as a zero-day, and if it goes beyond cryptocurrency mining. Calif, which published additional information about the flaw, said it&#x27;s part of a series of bugs in the Screen Sharing Server component that were patched by Apple with macOS Tahoe 26.6 shipped late last month - CVE-2026-43779 (CVSS score: 9.8) - A logic issue that could allow an app to intercept network connections intended for another process CVE-2026-43777 (CVSS score: 7.5) - An unspecified issue that could a remote attacker to cause a denial-of-service (DoS) CVE-2026-43760 (CVSS score: 8.6) - An access issue that could allow an app to access user-sensitive data In a technical breakdown published following the release of the patches, Pesoli described CVE-2026-43760 as a post authentication bug that requires the target Mac to have Screen Sharing or Remote Management enabled with \&quot;VNC viewers may control screen with password\&quot; configured and the attacker is already in possession of that VNC password. The problem, the researcher noted, resides in a legacy Screen Sharing authentication path involving VNC password access that turns a file copy operation into protected file disclosure, arbitrary root file creation, and remote root command execution. \&quot;After the VNC authentication step, we cross a boundary the password was never supposed to cross,\&quot; Pesoli explained . \&quot;A remote viewer can make macOS Screen Sharing read protected files as root.\&quot; \&quot;In the other direction, the viewer can create attacker-controlled files as root. We used that second primitive to install a valid sudoers policy and turn a file-copy operation into a remote root command execution (or an LPE).\&quot; However, a security researcher who goes by the online alias @osxreverser said the real issue is a pre-authentication vulnerability in the Screen Sharing daemon (\&quot;screensharingd\&quot;) that makes it possible to pwn any Mac that has Screen Sharing enabled without having to know the password or anything else. The only prerequisite is knowing the IP address. The researcher also noted that they had been sitting on the bug \&quot;for a while\&quot; and that they did not report the issue to Apple \&quot;given my long history with them.\&quot; \&quot;My last scan shown around 40k open screen sharing hosts on the internet, almost half in the U.S., most are residential IPs but there are many juicy hosts in Murican universities, some companies, a server from BBEdit company,\&quot; @osxre&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;Rapid7&quot;,
@@ -7569,7 +7599,7 @@
       &quot;published&quot;: &quot;2026-08-11T12:05:03+00:00&quot;,
       &quot;summary&quot;: &quot;A malicious SIM card can order the device it sits in to run commands of the attacker&#x27;s choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it&quot;,
       &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -7589,8 +7619,34 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 4
+      }
+    },
+    {
+      &quot;source&quot;: &quot;The Hacker News&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo&quot;,
+      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html&quot;,
+      &quot;published&quot;: &quot;2026-08-11T12:04:51+00:00&quot;,
+      &quot;summary&quot;: &quot;Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company&#x27;s own private code repositories. That key is how a user, or a Linux distribution packaging the browser, confirms a downloaded Firefox tarball came from Mozilla and was not tampered with. That decision carries a cost for&quot;,
+      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Kaspersky Securelist&quot;,
@@ -7601,11 +7657,10 @@
       &quot;published&quot;: &quot;2026-08-11T12:00:55+00:00&quot;,
       &quot;summary&quot;: &quot;Kaspersky experts have discovered malicious TrueConf software installers. The Head Mare APT group uses them to deliver the PhantomCore and PhantomGraph backdoors to target systems by exploiting vulnerabilities in an unpatched TrueConf server.&quot;,
       &quot;author&quot;: &quot;Kaspersky&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;apt_espionage&quot;,
-          &quot;web_shell_backdoor&quot;
+          &quot;apt_espionage&quot;
         ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
@@ -7622,10 +7677,36 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 23,
-      &quot;full_body&quot;: &quot;Threat Response Table of Contents Overview of the attack Detection by Kaspersky solutions Indicators of compromise File hashes (MD5) IP Domains Windows service names File paths Registry keys Kaspersky detection names YARA rules Overview of the attack In July 2026, Kaspersky experts detected a new attack by the Head Mare group. Previously, we classified them as hacktivists, but now we define them as an APT group due to the sophistication of their TTPs and the absence of destructive activity (encryption, wiping) in the targeted infrastructures. In this latest campaign, the attackers exploited a chain of vulnerabilities in the TrueConf video conferencing server and replaced the original TrueConf client installers with infected versions that installed the PhantomCore malware on the system. An investigation of the compromised server revealed that the attackers used a combination of two new vulnerabilities (assigned the internal identifiers KLCERT-26-057 and KLCERT-26-058 ), allowing them to execute arbitrary code with the highest privileges. The attack occurs in several stages: The attackers connect to the TrueConf server without prior authorization via port 4307/TCP, which, according to the product documentation, is open by default. The attack targets TrueConf servers running versions 5.3.X through 5.3.9 , 5.4.X through 5.4.9 , and 5.5.X through 5.5.5 . Once connected, attackers call a server function to transmit a malicious script and execute it on the server. The vulnerability that allows this stage of the attack to be carried out has been assigned the internal identifier KLCERT-26-057 . The received script runs on the TrueConf server in an isolated environment. By default, operating system functions are not accessible in this environment, which should limit the capabilities of the executed code. To escape the isolated environment, attackers exploit a second vulnerability, assigned the internal identifier KLCERT-26-058 . Exploiting this vulnerability allows them to bypass the restrictions of the isolated environment and proceed to execute commands in the context of the operating system. Once the environment’s restrictions are bypassed, attackers gain the ability to execute arbitrary code on the server with the privileges of the NT AUTHORITY\\SYSTEM account. Once they have gained elevated privileges, attackers replace the file …\\public\\js\\locale.php with a web shell, which can be used for subsequent remote control of the compromised server. This web shell was used for the following activities: collecting data on the IT infrastructure; gaining privileged access to the TrueConf database; replacing the original TrueConf Client distribution with an infected version containing the PhantomCore backdoor. The vulnerabilities exploited by the attackers were patched by the vendor in the latest TrueConf Server updates (versions 5.3.9, 5.4.9, and 5.5.5). These updates were released on June 18, 2026. The PhantomCore backdoor was successfully detected by Kaspersky solutions. To automatically launch the malware after the system boots, a registry key is created: HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\{0340F119-A598-4ed9-B0AC-6F6A12D3E755}\\InprocServer32, with the value set to the path to the malicious program’s file. Using a web shell, in addition to PhantomCore, the attackers load a backdoor that we have named PhantomGraph, consisting of two modules: SysExcSvc.dll is responsible for receiving commands from the attackers and transmitting the results of their execution. The attackers used an account on Microsoft OneDrive cloud storage as their command-and-control (C2) server. SysReadSvc.dll reads the command transmitted by the first module, executes it, and saves the execution result. To establish persistence on the system, the attackers execute a Base64-encoded PowerShell command that installs SysExcSvc.dll and SysReadSvc.dll as Windows services. We believe the attackers deliberately split this malicious command into two components to make it h&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
+    },
+    {
+      &quot;source&quot;: &quot;NCSC UK&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
+      &quot;category&quot;: &quot;government_authoritative&quot;,
+      &quot;title&quot;: &quot;Water sector example added to the NCSC’s Secure connectivity principles&quot;,
+      &quot;link&quot;: &quot;https://www.ncsc.gov.uk/blogs/water-sector-example-added-to-the-ncscs-secure-connectivity-principles&quot;,
+      &quot;published&quot;: &quot;2026-08-11T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;New guidance is the first content authored by the Industrial Control System COI to appear on ncsc.gov.uk.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;manufacturing_industrial&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_government&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -7636,7 +7717,7 @@
       &quot;published&quot;: &quot;2026-08-11T12:00:00+00:00&quot;,
       &quot;summary&quot;: &quot;Police and fire response has been impacted by the attack on Suisan City, while two other local authorities have been hit by cyber incidents in the past week also&quot;,
       &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -7654,8 +7735,36 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 4
+      }
+    },
+    {
+      &quot;source&quot;: &quot;The Hacker News&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers&quot;,
+      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html&quot;,
+      &quot;published&quot;: &quot;2026-08-11T11:35:03+00:00&quot;,
+      &quot;summary&quot;: &quot;Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording. The onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas, then sent a California driver&#x27;s license and a New York bank account. The&quot;,
+      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;financial_services&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -7712,37 +7821,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;The Hacker News&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11&quot;,
-      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html&quot;,
-      &quot;published&quot;: &quot;2026-08-11T10:48:26+00:00&quot;,
-      &quot;summary&quot;: &quot;Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path can be triggered over Remote Desktop without physical hardware when supported Plug and Play or low-level USB redirection is enabled; Microsoft says that&quot;,
-      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;Microsoft Windows&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Microsoft Windows&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -7765,33 +7843,6 @@
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;incident_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;The Hacker News&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets&quot;,
-      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html&quot;,
-      &quot;published&quot;: &quot;2026-08-11T10:24:00+00:00&quot;,
-      &quot;summary&quot;: &quot;A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction. The trick can work even after a blunt version of the same theft is refused: split the request into fragments that each look routine, place them in channels the assistant already uses, and let&quot;,
-      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
@@ -9784,33 +9835,6 @@
         &quot;role_map&quot;: {
           &quot;Anthropic/Claude&quot;: &quot;target&quot;
         },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Reddit r/netsec&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;category&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;title&quot;: &quot;Analyzing a Multi-Stage PowerShell Payload Chain&quot;,
-      &quot;link&quot;: &quot;https://www.reddit.com/r/netsec/comments/1vj2hiw/analyzing_a_multistage_powershell_payload_chain/&quot;,
-      &quot;published&quot;: &quot;2026-08-08T17:55:01+00:00&quot;,
-      &quot;summary&quot;: &quot;I recently analyzed a multi-stage PowerShell payload delivery chain involving heavily obfuscated PowerShell loaders and remotely hosted payloads. The analysis covers PowerShell deobfuscation, hidden execution, Base64/XOR decoding, a decoy “Verification complete!” prompt, payload delivery, and IOCs. Initial indicators: 203[.]188[.]171[.]166 dorenzaa[.]com submitted by /u/anuraggawande [link] [comments]&quot;,
-      &quot;author&quot;: &quot;/u/anuraggawande&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_5_chatter&quot;,
-        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -17369,6 +17393,35 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Intel 471&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;category&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;title&quot;: &quot;Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows&quot;,
+      &quot;link&quot;: &quot;https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows&quot;,
+      &quot;published&quot;: &quot;2026-07-28T11:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;supply_chain&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -17392,35 +17445,6 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;incident_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Intel 471&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;category&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;title&quot;: &quot;Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows&quot;,
-      &quot;link&quot;: &quot;https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows&quot;,
-      &quot;published&quot;: &quot;2026-07-28T11:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;supply_chain&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -17656,10 +17680,10 @@
       &quot;source&quot;: &quot;Wiz Research&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;title&quot;: &quot;Atlasのご紹介：WizのAI脆弱性リサーチャー&quot;,
+      &quot;title&quot;: &quot;Atlas: Wiz&#x27;s autonomous AI Agent for vulnerability research, ranked #1 on CyberGym&quot;,
       &quot;link&quot;: &quot;https://www.wiz.io/blog/atlas-ai-vulnerability-researcher&quot;,
       &quot;published&quot;: &quot;2026-07-27T14:00:02+00:00&quot;,
-      &quot;summary&quot;: &quot;実証可能なリアルなエクスプロイトを用いてすべての検出結果を検証する、脆弱性調査のための自律型AIシステム「Atlas」をWizがどのように構築したかをご覧ください。&quot;,
+      &quot;summary&quot;: &quot;See how Wiz built Atlas, an autonomous AI system for vulnerability research that validates every finding with a real, working exploit.&quot;,
       &quot;author&quot;: &quot;Yuval Avrahami&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -17671,7 +17695,7 @@
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
@@ -38786,33 +38810,6 @@
       &quot;published&quot;: &quot;2026-04-14T13:00:10+00:00&quot;,
       &quot;summary&quot;: &quot;Managed OAuth for Cloudflare Access helps AI agents securely navigate internal applications. By adopting RFC 9728, agents can authenticate on behalf of users without using insecure service accounts.&quot;,
       &quot;author&quot;: &quot;Ann Ming Samborski&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Wiz Research&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;title&quot;: &quot;Securing the AI Edge: Wiz and Cloudflare Integrate for End-to-End AI Protection&quot;,
-      &quot;link&quot;: &quot;https://www.wiz.io/blog/wiz-cloudflare-ai-security-integration&quot;,
-      &quot;published&quot;: &quot;2026-04-14T13:00:02+00:00&quot;,
-      &quot;summary&quot;: &quot;Gain a unified view of AI application endpoints and DNS exposure across your environment, including which are protected by Cloudflare and which need to be secured&quot;,
-      &quot;author&quot;: &quot;Gilad Hoze&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
