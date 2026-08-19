@@ -6,9 +6,28 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 19 Aug 2026 11:31:28 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 12:58:02 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>US charges Iranians for sprawling hacking campaign on government agencies, universities</title>
+<link>https://therecord.media/iran-cyberattacks-us-doj</link>
+<description><![CDATA[The Justice Department accused 17 alleged hackers with ties to the Iranian government of breaching email accounts at U.S. government agencies and stealing intellectual property from dozens of universities.]]></description>
+<pubDate>Wed, 19 Aug 2026 12:15:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/iran-cyberattacks-us-doj</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>How to break secure boot without touching any cryptography</title>
+<link>https://www.reddit.com/r/netsec/comments/1vskftw/how_to_break_secure_boot_without_touching_any/</link>
+<description><![CDATA[I finally found some time to organize my notes on secure boot, remote attestation, measured boot and in general embedded security. This is not ground breaking zero-day research but I figured some of you might like a good story. Good here is obviously subjective but I felt like it came out quite readable. This blog builds heavily on public research so as already stated at the end of article if you liked some particular section, show the respective person some love :) P.S.: yes I know the image is AI generated please don’t give me shit for that submitted by /u/0x00rick [link] [comments]<br/><br/><em>Tags: zero_day</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 12:01:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vskftw/how_to_break_secure_boot_without_touching_any/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>zero_day</category>
+</item>
 <item>
 <title>US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them</title>
 <link>https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/</link>
@@ -99,6 +118,16 @@
 <category>Microsoft Windows</category>
 <category>CVE-2026-33824</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Describing attacks with crime script analysis</title>
+<link>https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/</link>
+<description><![CDATA[Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 10:00:52 +0000</pubDate>
+<guid isPermaLink="true">https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/</guid>
+<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
+<category>threat_research_primary</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>943 Patches Rolled Out With Oracle’s August 2026 Security Update</title>
@@ -236,6 +265,19 @@
 <category>apt_espionage</category>
 </item>
 <item>
+<title>Fake AI, real malware: Attackers impersonating AI brands</title>
+<link>https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands</link>
+<description><![CDATA[&lt;p&gt;A year of MDR casework shows attackers repeatedly exploiting demand for AI tools&lt;/p&gt; Categories: Threat Research Tags: AI, malvertising, infostealer, Sophos X-Ops<br/><br/><em>Tags: SonicWall · Anthropic/Claude · Apple iOS/macOS · ransomware_extortion · credential_theft · web_shell_backdoor</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands</guid>
+<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
+<category>detection_response_operations</category>
+<category>SonicWall</category>
+<category>Anthropic/Claude</category>
+<category>Apple iOS/macOS</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
 <title>Critical GitLab Zero-Click Flaw Poses Mitigation Challenges</title>
 <link>https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges</link>
 <description><![CDATA[A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.<br/><br/><em>Tags: GitLab · CVE-2026-19478</em>]]></description>
@@ -306,17 +348,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft/Copilot</category>
-</item>
-<item>
-<title>prompt injection containment as a structural property instead of a detector (interactive, real code, no llm)</title>
-<link>https://www.reddit.com/r/netsec/comments/1vrwgg2/prompt_injection_containment_as_a_structural/</link>
-<description><![CDATA[my agent takes orders from other ai agents . they send it signed messages asking it to do stuff. anthropic put out a paper this month where three agents shared a repo and ended up writing self replicating malware at each other. the reason was dumb and kind of bleak: none of them could tell who was talking to them . so i pulled the security layer out of my repo and compiled it into 33kb of javascript . it runs in your tab. no server, no api key, no model call anywhere in it. same input gives the same answer on every machine. turn your wifi off, it still works. you play an agent mine already approved and trusts. write any order you want, then pick how you smuggle it in: forge the signature replay a packet you captured show up as an agent it never met claim authority you don&apos;t have use a token minted for somebody else bury it nine hops deep the fun one isn&apos;t any of the ones it blocks. it&apos;s &quot;send it normally&quot; . your order gets in, fully accepted, and still can&apos;t run, because anything from <br/><br/><em>Tags: Anthropic/Claude · ai_security</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 17:47:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vrwgg2/prompt_injection_containment_as_a_structural/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Anthropic/Claude</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets</title>
@@ -537,6 +568,15 @@
 <category>vulnerability_disclosure</category>
 </item>
 <item>
+<title>Silent &apos;TwinLoot&apos; Cyber Threat Operates Entirely From Microsoft&apos;s Cloud</title>
+<link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
+<description><![CDATA[The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.]]></description>
+<pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>&apos;Ransom Busters&apos;: Ransomware Actor Poses as Incident-Recovery Service</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
 <description><![CDATA[A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -545,15 +585,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Silent &apos;TwinLoot&apos; Cyber Threat Operates Entirely From Microsoft&apos;s Cloud</title>
-<link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
-<description><![CDATA[The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.]]></description>
-<pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles</title>
@@ -590,14 +621,11 @@
 <item>
 <title>Announcing the 2026 Wiz Partner Alliance Award Winners</title>
 <link>https://www.wiz.io/blog/2026-partner-award-winners</link>
-<description><![CDATA[Recognizing the partners, integrators, and visionaries driving cloud security transformation, AI risk management, and SOC modernization across AMER, EMEA, and ANZ.<br/><br/><em>Tags: GitHub · Snowflake · Atlassian Jira</em>]]></description>
+<description><![CDATA[Recognizing the partners, integrators, and visionaries driving cloud security transformation, AI risk management, and SOC modernization across AMER, EMEA, and ANZ.]]></description>
 <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/2026-partner-award-winners</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>GitHub</category>
-<category>Snowflake</category>
-<category>Atlassian Jira</category>
 </item>
 <item>
 <title>One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025</title>
@@ -638,13 +666,12 @@
 <item>
 <title>Three-quarters of Ransomware Attacks Target Mid-Market Firms</title>
 <link>https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/</link>
-<description><![CDATA[Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
+<description><![CDATA[Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Tue, 18 Aug 2026 10:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers</title>
@@ -696,16 +723,6 @@
 <guid isPermaLink="true">https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Ukrainian software developer faces 12 years in Swiss ransomware trial</title>
-<link>https://therecord.media/ukrainian-software-developer-court-switzerland</link>
-<description><![CDATA[The unnamed 52-year-old is accused of attacking Swiss train manufacturer Stadler Rail alongside other enterprises as part of an international ransomware operation.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 17 Aug 2026 23:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/ukrainian-software-developer-court-switzerland</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Video Call Exploit Chains Two Flaws in Unisoc Modems</title>
@@ -1162,12 +1179,11 @@
 <item>
 <title>Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor&apos;s Office</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office</link>
-<description><![CDATA[One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.<br/><br/><em>Tags: Salesforce · ransomware_extortion · phishing_social_eng · data_breach</em>]]></description>
+<description><![CDATA[One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng · data_breach</em>]]></description>
 <pubDate>Fri, 14 Aug 2026 15:58:50 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-<category>Salesforce</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
 <category>data_breach</category>
@@ -1845,6 +1861,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Walmart Leaders Transform Security Operations Without Going Bananas</title>
+<link>https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas</link>
+<description><![CDATA[The big-box giant has scaled its defenses by encouraging trust and innovation. Good communications, transparency, and team spirit are key factors.]]></description>
+<pubDate>Wed, 12 Aug 2026 12:41:03 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>NIST Seeks Public Input on AI-Ready NVD Modernization</title>
 <link>https://www.infosecurity-magazine.com/news/nist-seeks-public-input-ai-nvd/</link>
 <description><![CDATA[The US National Institute for Standards and Technology wants to modernize its National Vulnerability Database to embrace AI-powered vulnerability research]]></description>
@@ -1852,6 +1877,15 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/nist-seeks-public-input-ai-nvd/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Help shape the future of resilient private 5G</title>
+<link>https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g</link>
+<description><![CDATA[The NCSC wants to collaborate with organisations developing technologies and approaches for secure, resilient and deployable private 5G]]></description>
+<pubDate>Wed, 12 Aug 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
 </item>
 <item>
 <title>OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models&apos; Reasoning</title>
@@ -2222,20 +2256,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Looker’s semantic layer governs Gemini Enterprise data for user trust</title>
-<link>https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/</link>
-<description><![CDATA[For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent]]></description>
-<pubDate>Tue, 11 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Accelerate PostgreSQL migrations using Gemini in Database Migration Service</title>
 <link>https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/</link>
 <description><![CDATA[Imagine this scenario: Your team decides to migrate a core application from an existing commercial database like Oracle or SQL Server to open source PostgreSQL or a fully managed service such as AlloyDB for PostgreSQL . The initial phase goes smoothly. Schemas convert, tables populate, and data migration pipelines transfer terabytes of data in hours. The project looks ahead of schedule. Then your team hits the bottleneck. Buried inside the existing databases are hundreds of stored procedures, complex triggers, and custom functions written in proprietary SQL dialects like PL/SQL or T-SQL. These routines contain years of critical business logic handling transaction validation, order processing, and custom reporting. Suddenly, your modernization project halts. Translating thousands of lines of procedural logic demands specialized dual-dialect expertise, months of manual rewriting, and high risk of conversion errors. This code translation represents the &quot;last mile&quot; bottleneck of database m]]></description>
 <pubDate>Tue, 11 Aug 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Looker’s semantic layer governs Gemini Enterprise data for user trust</title>
+<link>https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/</link>
+<description><![CDATA[For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent]]></description>
+<pubDate>Tue, 11 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
@@ -2682,29 +2716,20 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>How Malachyte solves retail’s cold-start problem with managed real-time AI</title>
-<link>https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</link>
-<description><![CDATA[What’s the best way to recommend products to little-known users? We’ve spent our careers trying to solve this problem for major companies like Spotify and Priceline, and it’s why Sidd founded Malachyte , an AI-powered ecommerce recommendation platform. These days, consumers have come to expect content that feels personalized and relevant, and online services competing for their attention have no choice but to do this exceptionally well. Malachyte was inspired by some unique insights into how advanced AI models, and large language models in particular, could be applied in new ways to old challenges like personalization and recommendations. As Malachyte set out to win potential customers’ business, we needed secure, scalable, reliable and, above all, leading-edge AI infrastructure to continue building the personalization algorithm we had always envisioned. By utilizing Google Cloud tools like Bigtable and Managed Service for Apache Kafka , Malachyte has been able to help some of its reta]]></description>
-<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</link>
-<description><![CDATA[At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give customers the flexibility to innovate and the foundation to deliver measurable business value. At the center of it all is Gemini Enterprise, a unified platform designed to power the agentic enterprise , meet builders where they are , and deliver enterprise trust by default . We believe this integrated approach is why Google has been named a Leader in The Forrester Wave ™: AI Platforms, Q3 2026 report , and received the highest score in the Strategy category . Powering the Agentic Era As agents become embedded across every part of the business, organizations need a unified platform. Gemini Enterprise serves as the front door to AI for your entire organization, removing the silos between business users, developers, and IT leaders by connecting them all with shared, universal c]]></description>
-<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>How WPP operationalizes platform and data engineering for AI marketing</title>
 <link>https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/</link>
 <description><![CDATA[Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and optimize their ad spend. WPP is replacing that guesswork with an AI-powered view of shifting market dynamics, giving brands predictive certainty that lets them invest with confidence while moving at the speed of the market. That’s the value of WPP Open , its agentic marketing system. But before it could begin applying sophisticated AI models to power those insights, WPP had to overcome a critical engineering challenge: the marketing data that made up the models was fragmented across hundreds of global agencies. While this dynamic made it nearly impossible to deploy AI tools efficiently and securely, access to models was only part of the equation. And until it built a reliable way to ingest, clean, and serve data to those models, WPP couldn’t unlock the true potential of generative AI. To sol]]></description>
 <pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>How Malachyte solves retail’s cold-start problem with managed real-time AI</title>
+<link>https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</link>
+<description><![CDATA[What’s the best way to recommend products to little-known users? We’ve spent our careers trying to solve this problem for major companies like Spotify and Priceline, and it’s why Sidd founded Malachyte , an AI-powered ecommerce recommendation platform. These days, consumers have come to expect content that feels personalized and relevant, and online services competing for their attention have no choice but to do this exceptionally well. Malachyte was inspired by some unique insights into how advanced AI models, and large language models in particular, could be applied in new ways to old challenges like personalization and recommendations. As Malachyte set out to win potential customers’ business, we needed secure, scalable, reliable and, above all, leading-edge AI infrastructure to continue building the personalization algorithm we had always envisioned. By utilizing Google Cloud tools like Bigtable and Managed Service for Apache Kafka , Malachyte has been able to help some of its reta]]></description>
+<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
@@ -2717,6 +2742,15 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Kubernetes</category>
+</item>
+<item>
+<title>Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</link>
+<description><![CDATA[At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give customers the flexibility to innovate and the foundation to deliver measurable business value. At the center of it all is Gemini Enterprise, a unified platform designed to power the agentic enterprise , meet builders where they are , and deliver enterprise trust by default . We believe this integrated approach is why Google has been named a Leader in The Forrester Wave ™: AI Platforms, Q3 2026 report , and received the highest score in the Strategy category . Powering the Agentic Era As agents become embedded across every part of the business, organizations need a unified platform. Gemini Enterprise serves as the front door to AI for your entire organization, removing the silos between business users, developers, and IT leaders by connecting them all with shared, universal c]]></description>
+<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Sherlock Holmes Was the &apos;OG&apos; Social Engineer</title>
@@ -5987,16 +6021,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Two-Thirds of Ransomware Victims Say AI Boosted Attack Effectiveness</title>
-<link>https://www.infosecurity-magazine.com/news/ai-boosts-ransomware-effectiveness/</link>
-<description><![CDATA[A new study of organizations which have fallen victim to ransomware suggests the rise of AI-tools being used by hackers is making life harder for defenders<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 23 Jul 2026 08:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ai-boosts-ransomware-effectiveness/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Srsly Risky Biz: Knives are out for open-weight AI models</title>
 <link>https://risky.biz/SRB176/</link>
 <description><![CDATA[Tom Uren and James Wilson talk about the future of open-weight models. For different reasons, both the Chinese and American governments have reasons to crack down on them. They also talk about arrests of several members of the Scattered Spider juvenile cybercrime collective. This episode is also available on YouTube]]></description>
@@ -6579,16 +6603,6 @@
 <guid isPermaLink="true">https://blog.talosintelligence.com/the-hunters-paradox-is-it-time-to-embrace-automated-threat-hunting/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>UAT-11795 deploys novel Starland RAT and bespoke WLDR C2 implant in financially motivated campaign</title>
-<link>https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/</link>
-<description><![CDATA[Cisco Talos is disclosing UAT-11795, a sophisticated, Russian-speaking, financially motivated adversary that has been conducting a malicious campaign targeting users in the U.S. and Europe since at least June 2025.<br/><br/><em>Tags: Cisco</em>]]></description>
-<pubDate>Thu, 16 Jul 2026 10:00:01 +0000</pubDate>
-<guid isPermaLink="true">https://blog.talosintelligence.com/uat-11795-deploys-novel-starland-rat-and-bespoke-wldr-c2-implant-in-financially-motivated-campaign/</guid>
-<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
-<category>threat_research_primary</category>
-<category>Cisco</category>
 </item>
 <item>
 <title>Our approach to bioresilience</title>
@@ -9821,15 +9835,6 @@
 <category>threat_research_primary</category>
 <category>Handala</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>Pointing a Cursor at evading detection</title>
-<link>https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection</link>
-<description><![CDATA[AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR]]></description>
-<pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection</guid>
-<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>The case for GitHub Actions security after recent supply chain attacks</title>
@@ -18687,7 +18692,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18696,7 +18701,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18706,7 +18711,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18715,7 +18720,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18724,7 +18729,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18733,7 +18738,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18742,7 +18747,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18751,7 +18756,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18760,7 +18765,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18769,7 +18774,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 12:58:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
