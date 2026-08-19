@@ -6,9 +6,67 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 19 Aug 2026 15:37:58 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 16:38:01 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Iran&apos;s Mabna Institute ran a 3-phase spearphishing campaign against university professors for a decade. The 50-page superseding indictment has more methodological detail than the press coverage suggests.</title>
+<link>https://www.reddit.com/r/netsec/comments/1vsrji8/irans_mabna_institute_ran_a_3phase_spearphishing/</link>
+<description><![CDATA[The DOJ unsealed a 14-count superseding indictment last week (US v. Rafatnejad, S2 18 Cr. 94, SDNY) adding 8 defendants to the original 2018 case and extending the documented timeline to at least March 2022. The headline numbers (31.5 TB, 144 US universities, $3.4B in licensing value) got the coverage. The operational detail in the document itself is worth a closer look. Three-phase university attack model Phase 1: open-source reconnaissance on individual professors. Publications, research interests, co-authors, institutional network. The goal was a convincing impersonation before any contact. Phase 2: spearphishing email appearing to come from a professor at a peer institution, referencing the target&apos;s actual recent publications and offering links to related papers. Clicking resolved to a typosquatted domain (single character off the legitimate university URL, or an alternate TLD) hosting a cloned login page for that specific institution. Credentials logged. Phase 3: using stolen cred]]></description>
+<pubDate>Wed, 19 Aug 2026 16:34:25 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vsrji8/irans_mabna_institute_ran_a_3phase_spearphishing/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Building Capacity and Resilience for U.S. Partners</title>
+<link>https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/</link>
+<description><![CDATA[Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.<br/><br/><em>Tags: supply_chain · apt_espionage</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 16:19:49 +0000</pubDate>
+<guid isPermaLink="true">https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/</guid>
+<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
+<category>offensive_vulnerability_research</category>
+<category>supply_chain</category>
+<category>apt_espionage</category>
+</item>
+<item>
+<title>CTEM: From Visibility to Measurable Risk Reduction</title>
+<link>https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/</link>
+<description><![CDATA[Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.]]></description>
+<pubDate>Wed, 19 Aug 2026 16:10:35 +0000</pubDate>
+<guid isPermaLink="true">https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/</guid>
+<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>Serverless Apache Spark on Google Cloud: Architecture Choices &amp; AI Troubleshooting</title>
+<link>https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/</link>
+<description><![CDATA[In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch<br/><br/><em>Tags: Google Cloud · Google/Gemini</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+<category>Google/Gemini</category>
+</item>
+<item>
+<title>US charges Iranian hackers over $3.4 billion intellectual property theft</title>
+<link>https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/</link>
+<description><![CDATA[The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]]]></description>
+<pubDate>Wed, 19 Aug 2026 15:56:09 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>I escaped the WebAssembly&apos;s sandbox and got arbitrary shell execution on the host.</title>
+<link>https://www.reddit.com/r/netsec/comments/1vsqdl1/i_escaped_the_webassemblys_sandbox_and_got/</link>
+<description><![CDATA[As per WABT&apos;s SECURITY.txt, #2831 issue exists For context: WABT is a Binary Toolkit for WebAssembly developed by WebAssembly.org (W3C) wasm2c is a tool inside of it, which is used by many projects like FireFox (via RLBox) to compile wasm down to a sandboxed c library, the assumption is the built C code preserves all WebAssembly&apos;s sandbox security features. This PoC demonstrates escaping that sandbox. submitted by /u/trustsigRobert [link] [comments]]]></description>
+<pubDate>Wed, 19 Aug 2026 15:54:04 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vsqdl1/i_escaped_the_webassemblys_sandbox_and_got/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
 <item>
 <title>Exclusive: Linux Foundation&apos;s Akrites to Go Live in September</title>
 <link>https://www.infosecurity-magazine.com/news/linux-foundations-akrites-go-live/</link>
@@ -17,6 +75,15 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/linux-foundations-akrites-go-live/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Autonomous SOC: AI-Driven Security Operations Explained</title>
+<link>https://orca.security/resources/blog/autonomous-soc/</link>
+<description><![CDATA[Key Takeaways An autonomous SOC is a security operations center where software makes and executes operational decisions an analyst used to make. The label describes how much judgment has moved. Triage, closure, containment, and detection tuning are separate decisions, and a working deployment transfers some of them while leaving others with a person. The category […]]]></description>
+<pubDate>Wed, 19 Aug 2026 15:28:22 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/autonomous-soc/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>MaaS Campaign Combines ClickFix, ErrTraffic and Cruciferra</title>
@@ -356,6 +423,15 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>Recorded Future Launches 6 New Capabilities for Third-Party Risk</title>
+<link>https://www.recordedfuture.com/blog/native-risk-ratings</link>
+<description><![CDATA[Recorded Future has launched native risk ratings capabilities inside its Third-Party Risk product, uniting threat intelligence and risk ratings in a single workflow.]]></description>
+<pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/native-risk-ratings</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Fake AI, real malware: Attackers impersonating AI brands</title>
@@ -729,13 +805,12 @@
 <item>
 <title>Three-quarters of Ransomware Attacks Target Mid-Market Firms</title>
 <link>https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/</link>
-<description><![CDATA[Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
+<description><![CDATA[Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Tue, 18 Aug 2026 10:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers</title>
@@ -963,15 +1038,12 @@
 <item>
 <title>⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More</title>
 <link>https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</link>
-<description><![CDATA[The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a<br/><br/><em>Tags: Apple iOS/macOS · VMware · Lazarus · CVE-2026-59310 · CVE-2026-65400 · CVE-2026-68820 · ransomware_extortion · supply_chain</em>]]></description>
+<description><![CDATA[The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 13:23:51 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Apple iOS/macOS</category>
-<category>VMware</category>
-<category>Lazarus</category>
-<category>CVE-2026-59310</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)</title>
@@ -1035,15 +1107,12 @@
 <item>
 <title>SafePal Data Breach Hits Tens of Thousands of Customers</title>
 <link>https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/</link>
-<description><![CDATA[Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach<br/><br/><em>Tags: Apple iOS/macOS · WordPress · Snowflake · ransomware_extortion · phishing_social_eng · credential_theft · data_breach</em>]]></description>
+<description><![CDATA[Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 09:10:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>Apple iOS/macOS</category>
-<category>WordPress</category>
-<category>Snowflake</category>
-<category>ransomware_extortion</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>How QR-code phishing can slip past corporate security measures</title>
@@ -1833,19 +1902,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan</title>
-<link>https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/</link>
-<description><![CDATA[Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .<br/><br/><em>Tags: OpenAI/ChatGPT · GitHub · Anthropic/Claude · supply_chain · apt_espionage</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 17:05:01 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>GitHub</category>
-<category>Anthropic/Claude</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Walmart Takes a &apos;Trusted Agent&apos; Approach to Purple Teaming</title>
 <link>https://www.darkreading.com/cybersecurity-operations/walmart-trusted-agent-approach-purple-teaming</link>
 <description><![CDATA[Walmart colocates red and blue teams to build trust and improve security through collaborative purple teaming exercises]]></description>
@@ -1941,6 +1997,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
+<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
+<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
+<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
 <title>Akira Hits Safe Mode: Ransomware Rebooting Around EDR</title>
 <link>https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr</link>
 <description><![CDATA[An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -1949,15 +2014,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
-<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
-<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
-<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Walmart Leaders Transform Security Operations Without Going Bananas</title>
@@ -2024,16 +2080,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-48362</category>
-</item>
-<item>
-<title>CVE-2026-53360: KVM SEV-SNP guest-to-host heap OOB and analysis of the upstream fix</title>
-<link>https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/</link>
-<description><![CDATA[submitted by /u/unknownhad [link] [comments]<br/><br/><em>Tags: CVE-2026-53360</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 10:31:17 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vmadcw/cve202653360_kvm_sevsnp_guesttohost_heap_oob_and/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-53360</category>
 </item>
 <item>
 <title>Prompt Injections for Defense</title>
@@ -2219,15 +2265,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Expired DMARC reporting endpoint exposed a NYSE Fortune 1000&apos;s infrastructure for $10</title>
-<link>https://www.reddit.com/r/netsec/comments/1vlsvsn/expired_dmarc_reporting_endpoint_exposed_a_nyse/</link>
-<description><![CDATA[I registered an expired DMARC reporting domain (gca-emailauth[.]org) for $10. It had been published as the aggregate-reporting address in Global Cyber Alliance DMARC training docs going back to a 2019 bootcamp, and at some point it lapsed. Shortly after registration, aggregate DMARC reports for 86 domains across 20+ organizations started arriving. 56 belonged to The Toro Company (NYSE-listed), including myturf[.]com, their distributor platform, which sits at p=none. The rest - University of Wisconsin–Stevens Point (14 subdomains), the North Carolina School of Science and Mathematics, Ennis ISD (Texas), Great Prairie AEA (an Iowa education agency serving 35,000 students), two county governments, and several commercial domains. For most of these it was a second rua address sitting behind a working commercial processor (Proofpoint, in Toro&apos;s case). Reports still arrived at the primary. GCA&apos;s engineers later traced it to a former partner who&apos;d held the domain and let it lapse - the depende]]></description>
-<pubDate>Tue, 11 Aug 2026 20:23:28 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vlsvsn/expired_dmarc_reporting_endpoint_exposed_a_nyse/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Summer 2026 SOC 1 report is now available with 185 services in scope</title>
 <link>https://aws.amazon.com/blogs/security/summer-2026-soc-1-report-is-now-available-with-185-services-in-scope/</link>
 <description><![CDATA[Amazon Web Services (AWS) is pleased to announce that the Summer 2026 System and Organization Controls (SOC) 1 report is now available. The reports cover 185 services over the 12-month period from July 1, 2025–June 30, 2026, giving customers a full year of assurance. These reports demonstrate our continuous commitment to adhering to the heightened […]]]></description>
@@ -2272,15 +2309,6 @@
 <guid isPermaLink="true">https://horizon3.ai/customer-story/cloud-native-webapp-security-validation/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>5 Key Takeaways from Black Hat USA 2026</title>
-<link>https://orca.security/resources/blog/5-key-takeaways-from-black-hat-usa-2026/</link>
-<description><![CDATA[Black Hat USA 2026 ran August 1 through 6 in Las Vegas this year, days of training, briefings, presentations, and of course, the vendor showroom, that drew cybersecurity professionals and enthusiasts from across the industry. This year’s event spotlighted how quickly AI has moved from a nice to have pitch to the operational center of […]]]></description>
-<pubDate>Tue, 11 Aug 2026 16:17:11 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/5-key-takeaways-from-black-hat-usa-2026/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>AWS successfully completed its 2025-26 NHS DSPT assessment</title>
@@ -3178,24 +3206,6 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Google Cloud</category>
-</item>
-<item>
-<title>GOL! How TelevisaUnivision streamed the FIFA World Cup to millions with Google Cloud</title>
-<link>https://cloud.google.com/blog/products/networking/streaming-the-fifa-world-cup-with-televisaunivision/</link>
-<description><![CDATA[Live sports broadcasting represents the ultimate stress test for digital media infrastructure, where operational success or failure is measured in milliseconds and observed live by millions of viewers simultaneously. During the 2026 FIFA World Cup, the stakes reached a high for TelevisaUnivision, the leading Spanish-language media conglomerate. With Mexico serving as both a primary host nation and a core contender on home soil, fan engagement created unprecedented demand across Latin America and TelevisaUnivision&apos;s ViX streaming platform. For a marquee broadcaster like TelevisaUnivision, high-stakes events carry direct, long-term brand and reputational implications. Audiences demand uninterrupted, pristine access to every critical moment of play. Playback interruptions during a key goal, login latency at kickoff, or degraded stream resolutions immediately impact customer satisfaction, risking subscriber churn and brand dilution. When streaming tier-1 global sports events, technical exe]]></description>
-<pubDate>Fri, 07 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/networking/streaming-the-fifa-world-cup-with-televisaunivision/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Unifying Structured and Unstructured Data Insights with BQ Search Innovations</title>
-<link>https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/</link>
-<description><![CDATA[Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audio files, images, and unstructured text required a fragmented architecture: moving data out of your warehouse, stitching together complex LLM pipelines, and managing disparate search indexes. BigQuery has worked with many enterprises to make sense of their unstructured data sources. For example, consider an advanced healthcare company managing thousands of clinical trial documents in PDF form. BigQuery helps unlock insights from these documents through a simple, five-step lifecycle: Access, Process, Ground, Relate, and Activate . In this post, we are highlighting three major milestones focused heavily on the &quot;Ground&quot; phase of this framework: General Availability (GA) of Autonomous Embedding Generation General Availability (GA) of AI.SEARCH with massive single-query perfor]]></description>
-<pubDate>Fri, 07 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Beware cut-price AI services that read your every word</title>
@@ -4471,15 +4481,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Horizon3 Raises $250M Series E at $2B+ Valuation to Lead the “AI vs. AI” Cybersecurity Era</title>
-<link>https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/</link>
-<description><![CDATA[Horizon3, the AI-Native Proactive Security Company behind NodeZero®, the World’s Best AI Hacker™, today announced a $250 million Series E at a valuation of more than $2 billion.]]></description>
-<pubDate>Mon, 03 Aug 2026 13:04:33 +0000</pubDate>
-<guid isPermaLink="true">https://horizon3.ai/news/press-release/horizon3-raises-250m-series-e-at-2b-valuation-to-lead-the-ai-vs-ai-cybersecurity-era/</guid>
-<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>An analysis of incidents at Brazilian educational institutions</title>
 <link>https://securelist.com/incidents-at-brazilian-educational-institutions/120803/</link>
 <description><![CDATA[Kaspersky expert provides statistics and details on several incident response cases at educational institutions in Brazil, as well as tips for schools and universities on how to stay safe.]]></description>
@@ -4636,17 +4637,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>CVE-2026-20316 | Cisco Secure Firewall Management Center Static Credential Vulnerability</title>
-<link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/</link>
-<description><![CDATA[CVE-2026-20316 is a high-severity static credential vulnerability affecting Cisco Secure Firewall Management Center that allows unauthenticated access through a built-in account. NodeZero® Rapid Response safely validates exposure and verifies remediation.<br/><br/><em>Tags: Cisco · CVE-2026-20316</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 21:13:01 +0000</pubDate>
-<guid isPermaLink="true">https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20316/</guid>
-<source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
-<category>offensive_vulnerability_research</category>
-<category>Cisco</category>
-<category>CVE-2026-20316</category>
 </item>
 <item>
 <title>CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft</title>
@@ -5544,16 +5534,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -5563,6 +5543,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
+</item>
+<item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -8714,20 +8704,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
-<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
-<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
-<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>The &apos;vibe coding spectrum&apos; approach to AI-assisted software development</title>
 <link>https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</link>
 <description><![CDATA[Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.]]></description>
 <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
+<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
+<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
+<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -11500,15 +11490,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>Hacking Embodied AI</title>
-<link>https://www.recordedfuture.com/research/hacking-embodied-ai</link>
-<description><![CDATA[Embodied AI, intelligent systems in physical forms such as humanoid and quadruped robots, is moving from spectacle to staffing plans.]]></description>
-<pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/research/hacking-embodied-ai</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>Security briefing: April 2026</title>
 <link>https://webflow.sysdig.com/blog/security-briefing-april-2026</link>
 <description><![CDATA[Supply chain failure is the gift that keeps on giving, or should I say taking? The vulnerabilities, the exploitation, the breaches…these are inevitable, we know that. None of these are surprising anymore. The need for an “assume breach” mindset has become all too real.<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -12279,15 +12260,6 @@
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Securing AI Applications From Inception to Deployment</title>
-<link>https://www.wiz.io/blog/securing-ai-application-from-inception-to-deployment</link>
-<description><![CDATA[Extending the Wiz AI APP into the code layer to detect AI-specific risks at inception, validate exploitability at runtime, and orchestrate remediation with agents that understand your codebase]]></description>
-<pubDate>Thu, 16 Apr 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/securing-ai-application-from-inception-to-deployment</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Supply chain dependencies: Have you checked your blind spot?</title>
@@ -13230,15 +13202,6 @@
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
-</item>
-<item>
-<title>Uncovering agent logging gaps in Copilot Studio</title>
-<link>https://securitylabs.datadoghq.com/articles/copilot-studio-logging-gaps/</link>
-<description><![CDATA[During research, we sometimes encounter scenarios that remind us that it&apos;s a good idea to trust but verify. In September 2025, we noticed that certain Microsoft Copilot Studio agent settings did not log certain administrative actions related to sharing, authentication, logging, and publication of Copilot Studio agents.]]></description>
-<pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/copilot-studio-logging-gaps/</guid>
-<source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>GreyNoise Integrates with Google Security Operations to Enhance Detection and Response Capabilities</title>
@@ -18688,7 +18651,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18697,7 +18660,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18707,7 +18670,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18716,7 +18679,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18725,7 +18688,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18734,7 +18697,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18743,7 +18706,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18752,7 +18715,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18761,7 +18724,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18770,7 +18733,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 15:37:58 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 16:38:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
