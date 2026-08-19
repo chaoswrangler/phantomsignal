@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-19T21:31:18.900384+00:00
+- Generated: 2026-08-19T22:30:53.260001+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 322
+- Total items in window: 321
 - Total clusters raw: 150
 - Total clusters in packet: 62
 - Dropped low score: 88
@@ -80,6 +80,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -95,113 +100,98 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 10
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 16
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -210,16 +200,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -230,41 +225,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 9
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - In window count: 5
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 6
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
@@ -275,21 +280,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -300,46 +290,66 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
+  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 14
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -350,26 +360,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 21
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 14
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 21
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -380,11 +385,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,26 +405,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 44
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -478,16 +478,16 @@
 - Theme key: apple-ios-macos
 - Cluster count: 8
 - Article count: 15
-- Cohesion: 0.214
+- Cohesion: 0.224
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: CVE-2026-68820
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, active_exploitation, data_breach, credential_theft, web_shell_backdoor
+  - threat_categories: ransomware_extortion, credential_theft, web_shell_backdoor, active_exploitation, apt_espionage
   - affected_industries: financial_services, government
   - affected_products: Apple iOS/macOS, Anthropic/Claude, Microsoft SharePoint
-  - cve_ids: CVE-2026-65400
-  - urgency_signals: actively_exploited, preauth_unauth
+  - cve_ids: CVE-2026-65400, CVE-2026-59310
+  - urgency_signals: actively_exploited, preauth_unauth, poc_available
 - Cluster IDs: bd5d2abe67, 2dee8c71ba, a50e916d10, 7e142768f0, 114ded0230, 3ec665ac60, 388705e7c7, 20c2a82904
 - Links:
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
@@ -532,16 +532,16 @@
 - Theme key: microsoft-sharepoint
 - Cluster count: 4
 - Article count: 12
-- Cohesion: 0.231
+- Cohesion: 0.263
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, ransomware_extortion, data_breach
+  - threat_categories: ransomware_extortion, active_exploitation, data_breach
   - affected_industries: government, financial_services
   - affected_products: Microsoft SharePoint, Apple iOS/macOS
-  - cve_ids: CVE-2026-65400, CVE-2026-33824
-  - urgency_signals: actively_exploited, preauth_unauth
+  - cve_ids: CVE-2026-33824, CVE-2026-65400, CVE-2026-55040, CVE-2026-59310
+  - urgency_signals: actively_exploited, preauth_unauth, poc_available
 - Cluster IDs: bd5d2abe67, 5bd77a5422, 2dee8c71ba, 7e142768f0
 - Links:
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
@@ -574,6 +574,28 @@
   - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
   - https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/
   - https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/
+
+### credential theft targeting Palo Alto Networks
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 2
+- Article count: 11
+- Cohesion: 0.2
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: credential_theft
+  - affected_products: Palo Alto Networks
+- Cluster IDs: bd5d2abe67, 08eea4e588
+- Links:
+  - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://isc.sans.edu/diary/rss/33254
+  - https://www.huntress.com/blog/fake-claude-macsync
+  - https://risky.biz/RBNEWS600/
+  - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
 
 ### phishing social eng targeting Cisco
 - Anchor signal: Cisco
@@ -700,26 +722,6 @@
   - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/
 
-### ransomware extortion targeting Snowflake
-- Anchor signal: Snowflake
-- Theme key: snowflake
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.404
-- Shared strong signals: Snowflake
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-  - affected_industries: financial_services
-  - affected_products: Snowflake
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 41fa423c0b, 20c2a82904
-- Links:
-  - https://www.infosecurity-magazine.com/news/exposed-aws-key-data-charities/
-  - https://www.reddit.com/r/netsec/comments/1vsy33z/graphing_aws_attack_paths_in_bloodhound/
-  - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-
 ## Forward signals
 
 ### Novelty
@@ -740,30 +742,30 @@
   - Lead hours: 87.8
   - First source: Risky Business News
   - Later Tier 1 source: SANS Internet Storm Center
-  - Shared signals: Anthropic/Claude, Apple iOS/macOS, CVE-2026-55040, CVE-2026-65400, GitHub, Microsoft SharePoint
+  - Shared signals: Anthropic/Claude, Apple iOS/macOS, CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, CVE-2026-65400, GitHub, Microsoft SharePoint, Palo Alto Networks
 
 ### Convergence (15)
 - Pair: CVE-2026-19490 + Citrix (cluster 0e9ca139ce, first observation: True)
 - Pair: CVE-2026-19490 + OpenAI/ChatGPT (cluster 0e9ca139ce, first observation: True)
 - Pair: CVE-2026-8452 + Citrix (cluster 0e9ca139ce, first observation: True)
 - Pair: CVE-2026-8452 + OpenAI/ChatGPT (cluster 0e9ca139ce, first observation: True)
+- Pair: CVE-2026-33824 + Anthropic/Claude (cluster bd5d2abe67, first observation: True)
+- Pair: CVE-2026-33824 + Apple iOS/macOS (cluster bd5d2abe67, first observation: True)
+- Pair: CVE-2026-33824 + GitHub (cluster bd5d2abe67, first observation: True)
+- Pair: CVE-2026-33824 + Microsoft SharePoint (cluster bd5d2abe67, first observation: True)
+- Pair: CVE-2026-33824 + Palo Alto Networks (cluster bd5d2abe67, first observation: True)
 - Pair: CVE-2026-55040 + Anthropic/Claude (cluster bd5d2abe67, first observation: True)
 - Pair: CVE-2026-55040 + Apple iOS/macOS (cluster bd5d2abe67, first observation: True)
 - Pair: CVE-2026-55040 + GitHub (cluster bd5d2abe67, first observation: True)
-- Pair: CVE-2026-65400 + Anthropic/Claude (cluster bd5d2abe67, first observation: True)
-- Pair: CVE-2026-65400 + Apple iOS/macOS (cluster bd5d2abe67, first observation: True)
-- Pair: CVE-2026-65400 + GitHub (cluster bd5d2abe67, first observation: True)
-- Pair: CVE-2026-65400 + Microsoft SharePoint (cluster bd5d2abe67, first observation: True)
-- Pair: CVE-2026-15748 + Linux kernel (cluster a7b2f82e67, first observation: True)
-- Pair: CVE-2026-15748 + SonicWall (cluster a7b2f82e67, first observation: True)
-- Pair: CVE-2026-15748 + WordPress (cluster a7b2f82e67, first observation: True)
-- Pair: CVE-2026-15826 + Linux kernel (cluster a7b2f82e67, first observation: True)
+- Pair: CVE-2026-55040 + Palo Alto Networks (cluster bd5d2abe67, first observation: True)
+- Pair: CVE-2026-59310 + Apple iOS/macOS (cluster bd5d2abe67, first observation: True)
+- Pair: CVE-2026-59310 + GitHub (cluster bd5d2abe67, first observation: True)
 
 ### Drift (7)
 - **Cl0p** (cluster 2dee8c71ba)
-  - New industries: government
+  - New industries: (none)
   - New products: Apple iOS/macOS, GitLab
-  - Prior top industries: aviation_defense, financial_services, manufacturing_industrial
+  - Prior top industries: financial_services, government, manufacturing_industrial
   - Prior top products: Microsoft 365, Microsoft SharePoint, SolarWinds
 - **UNC5174** (cluster a50e916d10)
   - New industries: (none)
@@ -799,7 +801,7 @@
 ### Persistence (10)
 - actor_attribution: ShinyHunters (weeks observed: 12, cluster 0adf15e51b)
 - actor_attribution: Cl0p (weeks observed: 7, cluster 2dee8c71ba)
-- cve_ids: CVE-2026-59310 (weeks observed: 4, cluster 2dee8c71ba)
+- cve_ids: CVE-2026-59310 (weeks observed: 4, cluster bd5d2abe67)
 - actor_attribution: Mustang Panda (weeks observed: 4, cluster 21cbe0b5fa)
 - actor_attribution: Lazarus (weeks observed: 4, cluster 388705e7c7)
 - cve_ids: CVE-2026-18556 (weeks observed: 3, cluster 67b968df05)
@@ -936,19 +938,20 @@ Metabase Pre-Authentication SQL Injection Vulnerability CVE-2026-72898 is a crit
 - Strong signals: Apple iOS/macOS, CVE-2026-65400, Microsoft SharePoint
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft
-- affected_industries: financial_services, government
-- affected_products: Anthropic/Claude, Apple iOS/macOS, GitHub, Microsoft SharePoint
-- cve_ids: CVE-2026-55040, CVE-2026-65400
-- urgency_signals: actively_exploited, poc_available
+- threat_categories: active_exploitation, apt_espionage, credential_theft, ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services, government, telecommunications
+- affected_products: Anthropic/Claude, Apple iOS/macOS, GitHub, Microsoft SharePoint, Palo Alto Networks
+- cve_ids: CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, CVE-2026-65400
+- urgency_signals: actively_exploited, poc_available, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_government, tier_2_operator, tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Microsoft SharePoint, Apple iOS/macOS
-- cve_ids: CVE-2026-65400
-- urgency_signals: actively_exploited
+- threat_categories: ransomware_extortion, credential_theft, apt_espionage, web_shell_backdoor, active_exploitation
+- affected_industries: financial_services, government, telecommunications
+- affected_products: Microsoft SharePoint, Apple iOS/macOS, Palo Alto Networks
+- cve_ids: CVE-2026-65400, CVE-2026-55040, CVE-2026-59310, CVE-2026-33824
+- urgency_signals: actively_exploited, preauth_unauth, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -956,6 +959,12 @@ Metabase Pre-Authentication SQL Injection Vulnerability CVE-2026-72898 is a crit
 
 ```
 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an
+```
+
+#### Full body
+
+```
+Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation  Ravie Lakshmanan  Aug 19, 2026 Vulnerability / Ransomware The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials. CVE-2026-55040 (CVSS score: 9.1) - A weak authentication vulnerability impacting Microsoft SharePoint that could allow an unauthorized attacker to bypass a security feature over a network. CVE-2026-59310 (CVSS score: 9.8) - A path traversal vulnerability in Broadcom VMware vCenter that could allow a threat actor with network access to vCenter to execute arbitrary code. CVE-2026-33824 (CVSS score: 9.8) - A double free vulnerability in Microsoft Internet Key Exchange (IKE) Service Extensions that could allow an unauthorized attacker to execute code over a network. Although the vulnerabilities have since been patched by the respective vendors, they have come under active exploitation, according to multiple public reports. While the Apple macOS flaw has been abused to deliver a Monero cryptocurrency miner, the SharePoint vulnerability has been exploited by unknown actors following the release of a proof-of-concept (PoC) code. The vulnerability affecting VMware vCenter is assessed to have been exploited by a suspected China-nexus advanced persistent threat (APT) actor to deploy a backdoor along with reverse_ssh binaries for persistent access to compromised instances. In at least one case, the campaign has led to the deployment of a Babuk-derived ransomware. In all, the activity has compromised 361 unique victim IP addresses across 47 countries, with most of the infections concentrated in Germany (55), the U.S. (41), Turkey (38), Iran (26), and France (25). CVE-2026-33824, per Palo Alto Networks Unit 42, has been observed being exploited by another Chinese-speaking threat actor, who is said to have simultaneously launched an AI-enabled autonomous hacking campaign using DeepSeek and conducted manual operations using known vulnerabilities, including the Microsoft Internet Key Exchange flaw. Federal Civilian Executive Branch (FCEB) agencies have until August 21, 2026, to update vulnerable systems to the latest version and adhere to BOD 26-04 patching guidelines for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Apple , endpoint security , exploitation , Malware , Microsoft , Nation-State , network security , ransomware , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware
 ```
 
 #### Corroborating sources (5)
@@ -1041,7 +1050,7 @@ Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploa
   - Link: https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/
   - Summary: Critical User Profile Builder flaw let unauthenticated attackers access administrator accounts
 
-### Cluster 5bd77a5422 — score 20
+### Cluster 5bd77a5422 — score 19
 
 - Title: Critical RCE flaw in Windows IKE Extension now actively exploited
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1540,49 +1549,6 @@ The US Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday called
   - Link: https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/
   - Summary: The flaws can be exploited for remote code execution, authentication bypass, and device takeover. The post CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities appeared first on SecurityWeek .
 
-### Cluster 73a67d61f6 — score 12
-
-- Title: Describing attacks with crime script analysis
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-19T10:00:52+00:00
-- Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
-```
-
-#### Full body
-
-```
-Describing attacks with crime script analysis By Martin Lee Wednesday, August 19, 2026 06:00 On The Radar Crime script analysis is a narrative-driven technique that can be used alongside, or as an alternative to, tactics, techniques, and procedures (TTPs) — creating human-readable stories that describe attacks in a way non-technical audiences can understand. By analyzing the attacker’s workflow, we can identify how AI can be used to industrialize attacks. Through considering a business email compromise (BEC) example, we demonstrate how attackers may scale the attack to target previously unprofitable victims. Deconstructing an attack into discrete steps allows defenders to pinpoint intervention points where defenses can be effectively deployed, or where strategic disruption can break the script and thwart the threat actor's operation. Effective defense against cyber attacks requires understanding how attacks are carried out and identifying where the attack can be disrupted or detected. Lockheed Martin’s Cyber Kill Chain was one of the earliest models to describe the steps required to conduct a cyber attack. However, its seven-step linear sequence is too rigid to apply to many attacks. The Attack Flow model of the MITRE ATT&CK framework allows various tactics, techniques, and procedures (TTPs) to be chained together to describe exactly how attacks are conducted, including branches and loops if necessary. The resulting graphs are comprehensive, but can be daunting to a non-technical audience. In a world of evolving threats and shrinking budgets, defenders need techniques to communicate threats to a wider audience. Crime script analysis (CSA) is a technique originally developed in the mid-1990s as a criminology tool to understand how crimes are committed. CSA allows us to decompose an attack into a sequence of actions, decisions, and situational requirements. Describing an attack as a narrative using everyday language not only makes the description accessible to non-technical audiences, but also to identify "choke points" where the crime can be disrupted. If MITRE ATT&CK TTPs describe the building blocks that comprise an attack, Attack Flow diagrams are the structural engineering blueprints showing how the blocks fit together, and CSA is the architect’s artistic impression of the finished building. Each component has their place in providing a picture of what is happening at different levels of abstraction for different audiences. Business email compromise as a case study The business email compromise (BEC) is a common scam. Someone with financial authority receives a message purporting to be from a superior in the same organization requesting an urgent payment. If the victim is fooled, payment is released to the scammer, who acts quickly to launder the money to disguise its origin before the scam is uncovered. In April I wrote about such an attack against a small, community sports club of which I am a member. The sum requested in the attack wasn’t large, so the reason was plausible. However, the tone of the email wasn’t quite correct. The treasurer’s suspicions were raised and the attempted fraud uncovered. This incident was particularly interesting because of the small scale of the attack. Historically, the research necessary to conduct the attack — the identification of the target victim, the person spoofed, the nature of the social engineering lure — has limited its scalability. Carrying out these tasks manually takes time and has meant that it has typically been conducted against larger businesses. The advent of AI means that the previously time-consuming preparative work can be automated. Expressing the attack as a crime script helps us understand where AI may assist the attacker and how the attack could be disrupted. Putting BEC in the crime script narrative We can imagine the crime script for the attack as follows: Figure 1. A general BEC crime script. Steps 1 – 4 are time consuming to perform manually, but can be automate
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Describing attacks with crime script analysis
-  - Published: 2026-08-19T10:00:52+00:00
-  - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
-  - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
-
 ### Cluster a40b955a81 — score 12
 
 - Title: Building Capacity and Resilience for U.S. Partners
@@ -1665,45 +1631,6 @@ CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Info
   - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
   - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
 
-### Cluster 82fb30db67 — score 12
-
-- Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-08-19T12:00:00+00:00
-- Link: https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation
-```
-
-#### Full body
-
-```
-Back to Blog Culture Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America Cássio De Alcântara Aug 19, 2026 | Last updated on Aug 19, 2026 | 3 min read DISCOVER RAPID7 MDR Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation. Rapid7's AI-powered cybersecurity operations platform helps organizations strengthen cyber resilience by unifying continuous exposure management, AI-driven threat detection and response, and security automation. By connecting security data across endpoint, cloud, identity, and infrastructure environments, organizations leverage one platform to gain the visibility to reduce risk and act with confidence. A shared commitment to partner success Success in today’s fragmented cybersecurity environments depends on a strong ecosystem of partners who can help organizations implement, optimize, and maximize the value of unified security operations. This is where Licencias OnLine comes in. With a strong, well-established presence across Latin America, deep cybersecurity expertise, and a highly specialized channel ecosystem, Licencias OnLine brings the local knowledge, technical enablement, and operational agility needed to help partners grow their cybersecurity practices and deliver greater value to customers. Together, Rapid7 and Licencias OnLine will invest in technical training, partner enablement, joint marketing initiatives, and go-to-market programs that help partners expand managed security services , strengthen customer relationships, and accelerate business growth across the region. Building cyber resilience together As organizations across Latin America continue to modernize their IT environments, they should have access to security operations that are integrated, intelligent, and designed for today's AI-powered threat landscape. Rapid7's open platform supports this approach through hundreds of technology integrations that help organizations eliminate security silos, improve visibility across their attack surfaces, and automate response workflows. This enables security teams to reduce operational complexity while improving cybersecurity program maturity. By combining Rapid7's global cybersecurity innovation with Licencias OnLine's regional expertise and trusted partner network, this new alliance will make it easier for organizations across Latin America to strengthen cyber resilience while enabling partners to see greater success through measurable business outcomes. We're excited to begin this next chapter together and look forward to supporting our partners as they help customers build stronger, more resilient security operations across the region. Ready to grow with Rapid7? Discover how Rapid7 and Licencias OnLine are helping partners accelerate cybersecurity maturity across Latin America. Article Tags Cybersecurity Cássio De Alcântara Author Posts
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
-  - Published: 2026-08-19T12:00:00+00:00
-  - Link: https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america
-  - Summary: Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation
-
 ### Cluster 6c4f057b27 — score 12
 
 - Title: Security Hub Extended adds Supply Chain Security as its tenth category
@@ -1746,6 +1673,45 @@ AWS Security Blog Security Hub Extended adds Supply Chain Security as its tenth 
   - Published: 2026-08-18T17:04:28+00:00
   - Link: https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/
   - Summary: Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]
+
+### Cluster 82fb30db67 — score 12
+
+- Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-08-19T12:00:00+00:00
+- Link: https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation
+```
+
+#### Full body
+
+```
+Back to Blog Culture Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America Cássio De Alcântara Aug 19, 2026 | Last updated on Aug 19, 2026 | 3 min read DISCOVER RAPID7 MDR Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation. Rapid7's AI-powered cybersecurity operations platform helps organizations strengthen cyber resilience by unifying continuous exposure management, AI-driven threat detection and response, and security automation. By connecting security data across endpoint, cloud, identity, and infrastructure environments, organizations leverage one platform to gain the visibility to reduce risk and act with confidence. A shared commitment to partner success Success in today’s fragmented cybersecurity environments depends on a strong ecosystem of partners who can help organizations implement, optimize, and maximize the value of unified security operations. This is where Licencias OnLine comes in. With a strong, well-established presence across Latin America, deep cybersecurity expertise, and a highly specialized channel ecosystem, Licencias OnLine brings the local knowledge, technical enablement, and operational agility needed to help partners grow their cybersecurity practices and deliver greater value to customers. Together, Rapid7 and Licencias OnLine will invest in technical training, partner enablement, joint marketing initiatives, and go-to-market programs that help partners expand managed security services , strengthen customer relationships, and accelerate business growth across the region. Building cyber resilience together As organizations across Latin America continue to modernize their IT environments, they should have access to security operations that are integrated, intelligent, and designed for today's AI-powered threat landscape. Rapid7's open platform supports this approach through hundreds of technology integrations that help organizations eliminate security silos, improve visibility across their attack surfaces, and automate response workflows. This enables security teams to reduce operational complexity while improving cybersecurity program maturity. By combining Rapid7's global cybersecurity innovation with Licencias OnLine's regional expertise and trusted partner network, this new alliance will make it easier for organizations across Latin America to strengthen cyber resilience while enabling partners to see greater success through measurable business outcomes. We're excited to begin this next chapter together and look forward to supporting our partners as they help customers build stronger, more resilient security operations across the region. Ready to grow with Rapid7? Discover how Rapid7 and Licencias OnLine are helping partners accelerate cybersecurity maturity across Latin America. Article Tags Cybersecurity Cássio De Alcântara Author Posts
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
+  - Published: 2026-08-19T12:00:00+00:00
+  - Link: https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america
+  - Summary: Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation
 
 ### Cluster d9890362d0 — score 12
 
@@ -1909,6 +1875,49 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5
   - Published: 2026-08-18T17:29:51+00:00
   - Link: https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/
   - Summary: A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]
+
+### Cluster 73a67d61f6 — score 11
+
+- Title: Describing attacks with crime script analysis
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-19T10:00:52+00:00
+- Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
+```
+
+#### Full body
+
+```
+Describing attacks with crime script analysis By Martin Lee Wednesday, August 19, 2026 06:00 On The Radar Crime script analysis is a narrative-driven technique that can be used alongside, or as an alternative to, tactics, techniques, and procedures (TTPs) — creating human-readable stories that describe attacks in a way non-technical audiences can understand. By analyzing the attacker’s workflow, we can identify how AI can be used to industrialize attacks. Through considering a business email compromise (BEC) example, we demonstrate how attackers may scale the attack to target previously unprofitable victims. Deconstructing an attack into discrete steps allows defenders to pinpoint intervention points where defenses can be effectively deployed, or where strategic disruption can break the script and thwart the threat actor's operation. Effective defense against cyber attacks requires understanding how attacks are carried out and identifying where the attack can be disrupted or detected. Lockheed Martin’s Cyber Kill Chain was one of the earliest models to describe the steps required to conduct a cyber attack. However, its seven-step linear sequence is too rigid to apply to many attacks. The Attack Flow model of the MITRE ATT&CK framework allows various tactics, techniques, and procedures (TTPs) to be chained together to describe exactly how attacks are conducted, including branches and loops if necessary. The resulting graphs are comprehensive, but can be daunting to a non-technical audience. In a world of evolving threats and shrinking budgets, defenders need techniques to communicate threats to a wider audience. Crime script analysis (CSA) is a technique originally developed in the mid-1990s as a criminology tool to understand how crimes are committed. CSA allows us to decompose an attack into a sequence of actions, decisions, and situational requirements. Describing an attack as a narrative using everyday language not only makes the description accessible to non-technical audiences, but also to identify "choke points" where the crime can be disrupted. If MITRE ATT&CK TTPs describe the building blocks that comprise an attack, Attack Flow diagrams are the structural engineering blueprints showing how the blocks fit together, and CSA is the architect’s artistic impression of the finished building. Each component has their place in providing a picture of what is happening at different levels of abstraction for different audiences. Business email compromise as a case study The business email compromise (BEC) is a common scam. Someone with financial authority receives a message purporting to be from a superior in the same organization requesting an urgent payment. If the victim is fooled, payment is released to the scammer, who acts quickly to launder the money to disguise its origin before the scam is uncovered. In April I wrote about such an attack against a small, community sports club of which I am a member. The sum requested in the attack wasn’t large, so the reason was plausible. However, the tone of the email wasn’t quite correct. The treasurer’s suspicions were raised and the attempted fraud uncovered. This incident was particularly interesting because of the small scale of the attack. Historically, the research necessary to conduct the attack — the identification of the target victim, the person spoofed, the nature of the social engineering lure — has limited its scalability. Carrying out these tasks manually takes time and has meant that it has typically been conducted against larger businesses. The advent of AI means that the previously time-consuming preparative work can be automated. Expressing the attack as a crime script helps us understand where AI may assist the attacker and how the attack could be disrupted. Putting BEC in the crime script narrative We can imagine the crime script for the attack as follows: Figure 1. A general BEC crime script. Steps 1 – 4 are time consuming to perform manually, but can be automate
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Describing attacks with crime script analysis
+  - Published: 2026-08-19T10:00:52+00:00
+  - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
+  - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
 
 ### Cluster 21cbe0b5fa — score 10
 
@@ -2227,47 +2236,6 @@ Dissecting the JWR phishing framework By Chetan Raghuprasad Thursday, August 13,
   - Link: https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
   - Summary: Cisco Talos recently identified an undocumented phishing framework, internally branded "JWR" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.
 
-### Cluster 8883aedcfe — score 10
-
-- Title: How QR-code phishing can slip past corporate security measures
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-08-17T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
-```
-
-#### Full body
-
-```
-Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: How QR-code phishing can slip past corporate security measures
-  - Published: 2026-08-17T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
-
 ### Cluster 44f04ecb50 — score 10
 
 - Title: Malware Crypting Services and the Threat Actors Who Sell Them
@@ -2308,6 +2276,47 @@ Malware Crypting Services and the Threat Actors Who Sell Them Executive Summary 
   - Published: 2026-08-13T00:00:00+00:00
   - Link: https://www.recordedfuture.com/research/malware-crypting-services-threat-actors
   - Summary: Insikt Group analyzes 24 threat actors selling malware crypting services. Learn about their evasion techniques, market dynamics, and how defenders can prioritize behavioral detection over static analysis.
+
+### Cluster 8883aedcfe — score 10
+
+- Title: How QR-code phishing can slip past corporate security measures
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-08-17T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
+```
+
+#### Full body
+
+```
+Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: How QR-code phishing can slip past corporate security measures
+  - Published: 2026-08-17T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
 
 ### Cluster 396e9da871 — score 10
 
@@ -2488,11 +2497,6 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Published: 2026-08-18T17:18:58+00:00
   - Link: https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/
   - Summary: The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Medusa ransomware gang has hit over 500 organizations, CISA warns
-  - Published: 2026-08-19T10:18:51+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/
-  - Summary: Medusa ransomware has breached more than 500 organizations since it first appeared in June 2021, the FBI, CISA, and the Department of Health and Human Services (HHS) said in an updated joint advisory. The update builds on an advisory first issued in March 2025 and draws on FBI investigations conducted as late as April 2026. “Medusa developers and affiliates have impacted over 500 victims from a variety of critical infrastructure sectors,” the advisory reads, listing … More → The post Medusa ransomware gang has hit over 500 organizations, CISA warns appeared first on Help Net Security .
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware
   - Published: 2026-08-19T10:50:00+00:00
@@ -2503,6 +2507,11 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Published: 2026-08-19T08:00:48+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/
   - Summary: The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Medusa ransomware gang has hit over 500 organizations, CISA warns
+  - Published: 2026-08-19T10:18:51+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/
+  - Summary: Medusa ransomware has breached more than 500 organizations since it first appeared in June 2021, the FBI, CISA, and the Department of Health and Human Services (HHS) said in an updated joint advisory. The update builds on an advisory first issued in March 2025 and draws on FBI investigations conducted as late as April 2026. “Medusa developers and affiliates have impacted over 500 victims from a variety of critical infrastructure sectors,” the advisory reads, listing … More → The post Medusa ransomware gang has hit over 500 organizations, CISA warns appeared first on Help Net Security .
 - **The Record** (cyber_news_breach_reporting)
   - Title: More than 200 victims of Medusa ransomware identified over the last year, CISA says
   - Published: 2026-08-18T18:05:00+00:00
@@ -2560,10 +2569,12 @@ Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Se
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- cve_ids: CVE-2021-33044, CVE-2021-33045
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- cve_ids: CVE-2021-33044, CVE-2021-33045
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -2571,6 +2582,12 @@ Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Se
 
 ```
 Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files
+```
+
+#### Full body
+
+```
+Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P  Swati Khandelwal  Aug 19, 2026 IoT Security / Network Security Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm , was reconstructed from a 407 MB exposed working directory containing 2,616 files across 234 subdirectories, including tooling, logs, shell history, and campaign records, with the researchers saying confirmed compromises were concentrated in Ukraine and Russia. The researchers said 1,923 cameras were configured with a persistent account during the operation and 283 were reached through the P2P path. Users of affected Dahua products are advised to install the corresponding fix software or newer firmware, while ITRES Labs recommends disabling P2P where it is not required and checking firmware against the vendor's download site. "The relay establishes the route without prior authentication, leaving login checks to the device's web application," ITRES Labs said in an analysis published in October 2025. Hunt.io attributed the 14,530-plus total to three attack paths - Credential attacks: 12,324 unique IP addresses across 13,229 campaign records. Authentication bypass: 1,923 cameras reached using CVE-2021-33044 and CVE-2021-33045, which Hunt.io said were also configured with the persistent account. P2P relay: 283 cameras identified by serial number, including devices located behind network address translation (NAT). The two 2021 flaws are authentication-bypass vulnerabilities in Dahua cameras and related products. Dahua's advisory rates them 8.1 on the CVSS scoring system and lists fixed firmware, while the U.S. National Vulnerability Database ( NVD ) currently assigns each a CVSS score of 9.8. "Attackers can bypass device identity authentication by constructing malicious data packets," Dahua said in its advisory. A NetKeyboard client type triggers CVE-2021-33044 during authentication, while CVE-2021-33045 involves a loopback login request using the 127.0.0.1 address, according to the original disclosure from security researcher Bashis. As of August 19, 2026, both flaws remain listed in the U.S. Cybersecurity and Infrastructure Security Agency's (CISA) Known Exploited Vulnerabilities ( KEV ) catalog, which records them as Dahua IP camera authentication-bypass vulnerabilities and advises applying vendor mitigations or discontinuing use if mitigations are unavailable. As of August 19, 2026, the public p2pwn repository remains accessible and independently confirms that the tool accepts Dahua serial numbers as input, checks CVE-2021-33044 and CVE-2021-33045, and contains a default dummy-account configuration. The repository does not establish Hunt.io's count of 1,923 affected cameras or its claim that the account survives a factory reset on most firmware. The P2P path is separate from the two authentication-bypass flaws. ITRES Labs found during an earlier incident response investigation that, on firmware before mid-2024, a valid Dahua serial number could be used to establish an Easy4IP relay path before the connected device performed its own credential check, allowing a device behind NAT to become reachable through the vendor's relay infrastructure. The dh-p2p proof-of-concept repository also shows that the Dahua P2P protocol locates a device through Easy4IPCloud using its serial number and can establish a tunnel to the camera or network video recorder. A successful P2P relay can make the device reachable behind NAT, but device-level authentication can still be required for access. Hunt.io said the operator's recovered code recorded 89.4% of live serial numbers returning an open channel without authentication. That figure remains a campaign-specific claim from the recovered o
 ```
 
 #### Corroborating sources (1)
