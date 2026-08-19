@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T16:38:01.348375+00:00",
+  "generated_at": "2026-08-19T17:32:04.158080+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 74,
-  "total_items_in_window": 319,
-  "total_clusters_raw": 145,
+  "total_items_in_window": 321,
+  "total_clusters_raw": 146,
   "total_clusters_in_packet": 64,
-  "dropped_low_score": 81,
+  "dropped_low_score": 82,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,8 +81,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -95,8 +95,8 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -109,13 +109,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -123,12 +116,33 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -144,20 +158,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -165,30 +165,16 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
+      "in_window_count": 4
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -200,19 +186,19 @@
       "item_count": 50,
       "in_window_count": 4
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 3
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 16
+      "item_count": 10,
+      "in_window_count": 0
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -221,12 +207,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 16
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -235,16 +228,23 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -263,13 +263,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
@@ -284,19 +277,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 9
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -305,9 +291,16 @@
       "item_count": 30,
       "in_window_count": 1
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -317,28 +310,28 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 5
+      "in_window_count": 6
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 5
+      "in_window_count": 4
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 6
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -347,12 +340,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -368,12 +361,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -381,6 +374,20 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 9
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -403,11 +410,25 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 2
     },
     "Google Cloud Security": {
@@ -417,36 +438,8 @@
       "item_count": 20,
       "in_window_count": 9
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -459,19 +452,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 19
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 15
+      "in_window_count": 20
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,6 +480,27 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 15
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -501,13 +515,6 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -515,15 +522,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -536,12 +543,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 43
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -556,13 +563,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 43
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -592,18 +592,18 @@
       "item_count": 25,
       "in_window_count": 23
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -632,8 +632,8 @@
     {
       "cluster_id": "0e9ca139ce",
       "priority_score": 44,
-      "member_count": 2,
-      "corroborating_source_count": 2,
+      "member_count": 3,
+      "corroborating_source_count": 3,
       "strong_signals": [
         "CVE-2026-8452",
         "Citrix"
@@ -648,6 +648,7 @@
         ],
         "tools_used": [],
         "cve_ids": [
+          "CVE-2026-19490",
           "CVE-2026-8452"
         ],
         "attack_techniques": [],
@@ -727,6 +728,38 @@
             "role_map": {
               "Citrix": "target",
               "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway",
+          "link": "https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway",
+          "published": "2026-08-19T16:46:06+00:00",
+          "summary": "Overview On August 19, 2026, a security advisory was published for CVE-2026-19490 , a critical authentication bypass vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. The vulnerability carries a CVSS v4.0 base score of 9.3 and can be exploited remotely by an unauthenticated attacker over the network without user interaction or elevated privileges. NetScaler ADC and NetScaler Gateway are widely deployed enterprise networking products commonly positioned at or near the network perimeter. NetScaler ADC provides application delivery, traffic management, load balancing, SSL/TLS offloading, and application security capabilities, while NetScaler Gateway provides secure remote access and VPN functionality. Because these systems are frequently deployed in enterprise DMZs and exposed to the public internet, authentication bypass vulnerabilities affecting Citrix products are nearly always exploited by threat actors. CVE-2026-19490 affects the following systems: NetScaler ADC and",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Citrix"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-19490"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Citrix": "target"
             },
             "weak_tags": {
               "products": []
@@ -2143,131 +2176,6 @@
       ]
     },
     {
-      "cluster_id": "6a4c525838",
-      "priority_score": 16,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "AWS"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "From Patch Tuesday to Pentest Wednesday®: How a Major Transportation Company Turned AWS Attack Paths Into Action",
-        "link": "https://horizon3.ai/intelligence/blogs/aws-attack-paths-pentest-wednesday/",
-        "published": "2026-08-12T17:18:37+00:00",
-        "summary": "See how a major transportation company used repeated NodeZero® AWS pentests to uncover exploitable IAM attack paths, prioritize meaningful risk, and verify that remediation actually closed the exposure.",
-        "full_body": "From Patch Tuesday to Pentest Wednesday®: How a Major Transportation Company Turned AWS Attack Paths Into Action Stephen Gates August 12, 2026 Blogs A Pentest Wednesday® Story For a major U.S. transportation and logistics company that plays a critical role in moving essential goods and supporting complex international supply chains, resilience is more than an IT objective. Its operations depend on an interconnected ecosystem of transportation infrastructure, logistics services, internal systems, customer-facing applications, operational technology, and a growing cloud footprint. A weakness in the wrong place can have consequences far beyond a security dashboard. The security team understood that complexity. What they needed was a clearer view of what an attacker could actually do inside it. Rather than relying solely on configuration findings or vulnerability data, the team used the NodeZero® Proactive Security Platform to repeatedly pentest its AWS environment. The goal was to determine whether weaknesses in identities, permissions, and cloud configurations could be combined into attack paths with meaningful impact. The testing did exactly that. NodeZero identified AWS IAM weaknesses, demonstrated privilege escalation paths, and showed how certain combinations of permissions could potentially lead to full AWS account compromise and sensitive data exposure. Just as importantly, repeated testing gave the team a way to address those weaknesses and determine whether its changes actually removed the exposure. Over time, AWS testing became less about taking an occasional snapshot of cloud security and more about creating a repeatable process for understanding what was exploitable, fixing it, and testing again. Outcomes at a Glance At least 25 AWS pentests conducted as part of a broader security validation program. AWS IAM weaknesses identified that could enable privilege escalation and potential full account compromise. Four AWS weaknesses connected to 25 potential impacts, including 22 paths to AWS full account compromise and three involving sensitive data exposure. 102 weaknesses mitigated, with only one remaining open in one AWS testing view. Findings mapped to techniques associated with threat actors including Scattered Spider, BlackByte, Lazarus Group, HAFNIUM, FIN13, and LAPSUS$. AWS testing became part of a broader expansion of security validation across the company’s cloud, internal, external, and web application environments. NodeZero connected four AWS weaknesses to 25 potential impacts, including paths to full AWS account compromise and sensitive data exposure, while showing how those weaknesses aligned with techniques associated with known threat actors. Impact Cloud security findings rarely exist in isolation. An overly permissive identity or policy may look like a configuration problem on its own. The significance changes when an attacker can use it to escalate privileges, access sensitive resources, or move toward control of an AWS account. That distinction became visible through NodeZero testing. In one AWS pentest, NodeZero discovered AWS users and IAM policies before identifying permissions that could be used for privilege escalation. One path involved iam:CreateAccessKey, which can allow an attacker with sufficient permissions to create credentials for another IAM user and potentially assume that user’s privileges. NodeZero did not stop at identifying the permission. In just over 42 minutes , it safely mapped how an attacker could progress through AWS STS, connected roles, discovered users, and IAM policies to an exploitable weakness that could potentially lead to full AWS account compromise, without disrupting the production environment. NodeZero discovered AWS identities and IAM policies, identified a privilege escalation opportunity involving iam:CreateAccessKey , and mapped the attack path toward potential AWS full account compromise. The broader results put that individual path into context. For the security",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "AWS": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "From Patch Tuesday to Pentest Wednesday®: How a Major Transportation Company Turned AWS Attack Paths Into Action",
-          "link": "https://horizon3.ai/intelligence/blogs/aws-attack-paths-pentest-wednesday/",
-          "published": "2026-08-12T17:18:37+00:00",
-          "summary": "See how a major transportation company used repeated NodeZero® AWS pentests to uncover exploitable IAM attack paths, prioritize meaningful risk, and verify that remediation actually closed the exposure.",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities",
-          "link": "https://www.infosecurity-magazine.com/news/exposed-aws-key-data-charities/",
-          "published": "2026-08-13T15:30:00+00:00",
-          "summary": "CRM provider Beacon has revealed that a compromised AWS access key was the likely root cause of the breach of 1500 UK charities’ data",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "44ffee7a7d",
       "priority_score": 16,
       "member_count": 5,
@@ -2915,114 +2823,6 @@
       ]
     },
     {
-      "cluster_id": "6c4f057b27",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "SolarWinds"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "AWS Security Blog",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Security Hub Extended adds Supply Chain Security as its tenth category",
-        "link": "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
-        "published": "2026-08-18T17:04:28+00:00",
-        "summary": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]",
-        "full_body": "AWS Security Blog Security Hub Extended adds Supply Chain Security as its tenth category Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted a partner reception that brought our leadership together with partner executives to plan what comes next. These are companies investing real engineering and real go-to-market (GTM) alongside us, and increasingly with each other, because the model resonates with the customers they’re talking to every day. The most common question we heard at the booth was when Supply Chain Security was coming. It’s here. And that’s the thing I want to spend the most time on today, because it’s the category customers keep asking us about. Supply Chain Security: The category customers have been asking for Software supply chain risk has moved from a security-team concern to a board-level conversation. SolarWinds showed what happens when a build system is compromised. Log4j showed what a single transitive dependency vulnerability can do at global scale. The xz utils backdoor showed the patience of a maintainer-compromise attack executed over years. Each demonstrated a different dimension of the same problem, and the pace is accelerating. Attackers know that a fast way into an enterprise is through the open source packages that enterprise unknowingly trust. Every customer I talked to at Black Hat had this on their risk register. Most still hadn’t operationalized a solution, because doing so meant a standalone deployment, a new contract, a new console, and integration work their security team couldn’t prioritize. That’s the friction we aim to remove. Security Hub Extended now offers Supply Chain Security with Chainguard and Socket as the curated partners. Supply Chain Security uses the same model as everything else in Extended. Every offering has pay-as-you-go pricing, one bill, no required long-term commitment. For enterprises that prefer to continue using the procurement process they always have, Security Hub Extended Private Offers are also available. These are committed term agreements with deeper discounts, the ability to aggregate spend across partners on a single AWS bill, and both monthly and annual payment options throughout the term. You pick the path that fits how you buy. What Chainguard does Chainguard gives you open source dependencies rebuilt from source in a hardened, verified build process, so what enters your environment is malware-resistant and provenance-backed. Their research shows that rebuilding from source would have stopped 98% of known malicious packages from ever reaching production. If you can’t verify the source, it never appears in the Chainguard repository. That’s the filter between the public registry and your developers. What Socket does Socket analyzes the actual behavior of open source packages to block malicious dependencies at the time of install. Not after a Common Vulnerability and Exposures (CVE) is published days or weeks later. At the moment the package tries to land in your environment, Socket flags it based on what it does, not what a database says about it. Its reachability analysis then tells you which vulnerabilities are exploitable from your code instead of drowning your team in noise. You pay for the distinct packages you check, not for how often your builds run. Why they work together Together, Chainguard and Socket cover the two questions that matter: Can I trust what I’m pulling in? Can I stop malicious components before they get built into my applications? Chainguard helps secure the foundation your code is built on. Socket secures the packages you pull into it. Both help protect your software supply chain regardless of where you deploy—across clouds or on-premises. Activate both th",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "SolarWinds"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "SolarWinds": "target",
-            "AWS": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "AWS",
-                "mention",
-                0.26
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Security Hub Extended adds Supply Chain Security as its tenth category",
-          "link": "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
-          "published": "2026-08-18T17:04:28+00:00",
-          "summary": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "SolarWinds"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "SolarWinds": "target",
-              "AWS": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "AWS",
-                  "mention",
-                  0.26
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2dee8c71ba",
       "priority_score": 13,
       "member_count": 1,
@@ -3430,6 +3230,114 @@
             "role_map": {},
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "6c4f057b27",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "SolarWinds"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "AWS Security Blog",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Security Hub Extended adds Supply Chain Security as its tenth category",
+        "link": "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
+        "published": "2026-08-18T17:04:28+00:00",
+        "summary": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]",
+        "full_body": "AWS Security Blog Security Hub Extended adds Supply Chain Security as its tenth category Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted a partner reception that brought our leadership together with partner executives to plan what comes next. These are companies investing real engineering and real go-to-market (GTM) alongside us, and increasingly with each other, because the model resonates with the customers they’re talking to every day. The most common question we heard at the booth was when Supply Chain Security was coming. It’s here. And that’s the thing I want to spend the most time on today, because it’s the category customers keep asking us about. Supply Chain Security: The category customers have been asking for Software supply chain risk has moved from a security-team concern to a board-level conversation. SolarWinds showed what happens when a build system is compromised. Log4j showed what a single transitive dependency vulnerability can do at global scale. The xz utils backdoor showed the patience of a maintainer-compromise attack executed over years. Each demonstrated a different dimension of the same problem, and the pace is accelerating. Attackers know that a fast way into an enterprise is through the open source packages that enterprise unknowingly trust. Every customer I talked to at Black Hat had this on their risk register. Most still hadn’t operationalized a solution, because doing so meant a standalone deployment, a new contract, a new console, and integration work their security team couldn’t prioritize. That’s the friction we aim to remove. Security Hub Extended now offers Supply Chain Security with Chainguard and Socket as the curated partners. Supply Chain Security uses the same model as everything else in Extended. Every offering has pay-as-you-go pricing, one bill, no required long-term commitment. For enterprises that prefer to continue using the procurement process they always have, Security Hub Extended Private Offers are also available. These are committed term agreements with deeper discounts, the ability to aggregate spend across partners on a single AWS bill, and both monthly and annual payment options throughout the term. You pick the path that fits how you buy. What Chainguard does Chainguard gives you open source dependencies rebuilt from source in a hardened, verified build process, so what enters your environment is malware-resistant and provenance-backed. Their research shows that rebuilding from source would have stopped 98% of known malicious packages from ever reaching production. If you can’t verify the source, it never appears in the Chainguard repository. That’s the filter between the public registry and your developers. What Socket does Socket analyzes the actual behavior of open source packages to block malicious dependencies at the time of install. Not after a Common Vulnerability and Exposures (CVE) is published days or weeks later. At the moment the package tries to land in your environment, Socket flags it based on what it does, not what a database says about it. Its reachability analysis then tells you which vulnerabilities are exploitable from your code instead of drowning your team in noise. You pay for the distinct packages you check, not for how often your builds run. Why they work together Together, Chainguard and Socket cover the two questions that matter: Can I trust what I’m pulling in? Can I stop malicious components before they get built into my applications? Chainguard helps secure the foundation your code is built on. Socket secures the packages you pull into it. Both help protect your software supply chain regardless of where you deploy—across clouds or on-premises. Activate both th",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "SolarWinds"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "SolarWinds": "target",
+            "AWS": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "AWS",
+                "mention",
+                0.26
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Security Hub Extended adds Supply Chain Security as its tenth category",
+          "link": "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
+          "published": "2026-08-18T17:04:28+00:00",
+          "summary": "Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "SolarWinds"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "SolarWinds": "target",
+              "AWS": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "AWS",
+                  "mention",
+                  0.26
+                ]
+              ]
             }
           }
         }
@@ -3964,256 +3872,6 @@
               "Cl0p"
             ],
             "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "c7e8884f67",
-      "priority_score": 11,
-      "member_count": 5,
-      "corroborating_source_count": 5,
-      "strong_signals": [
-        "Medusa"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Medusa"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "CyberScoop",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
-        "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
-        "published": "2026-08-18T17:18:58+00:00",
-        "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .",
-        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close The ransomware-as-a-service group Medusa has adopted fresh tactics to gain access and added hundreds of victims in a little more than a year, according to an updated U.S. government advisory published Tuesday. The gang is relying on access brokers,compensating them anywhere from $100 to $1 million, with higher prices going to those who work exclusively with Medusa. However, most of the brokers work simultaneously for “multiple variants at the same time,” the advisory from the Cybersecurity and Infrastructure Security Agency, FBI and Health and Human Services Department states in one of the updated portions of the advisory. Tuesday’s update advisory expands upon aMarch 2025 advisory, drawing on ongoing FBI investigations.nIt includes information on the kinds of software vulnerabilities Medusa has exploited, such as Fortra GoAnywhere and BeyondTrust flaws. “Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors; however, the Healthcare and Public Health (HPH) Sector has been a frequent victim of Medusa operations,” according to the advisory. “Medusa actors leverage newly announced exploits within 24 hours and have been observed to use exploits up to a week before public vulnerability disclosure.’ Advertisement “However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching,” the advisory continues. The approach appears to be netting gains: From March 2025 to April of this year, the victim tally in the advisory jumped from more than 300 to more than 500. The group was first identified in 2021. “Medusa actors often use legitimate tools and living off the land techniques to evade detection. They may also leverage remote monitoring and management software and remote access services, including Remote Desktop Protocol, for lateral movement,” as updated sections of the advisory detail. “Once inside a network, they use common utilities and tools to support credential access, data exfiltration, and ransomware deployment.” Earlier this year, Microsoft detailed how a group it dubbed Storm-1175 was making use of Medusa ransomware in speedy operations. Symantec and Carbon Black also detailed earlier this year how North Korean hackers were leaning on Medusa to target the health care sector. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Advertisement More Scoops The headquarters of the Federal Bureau of Investigation on August 16, 2022, in Washington. (Matt McClain/The Washington Post via Getty Images) (Getty Images) A sign is seen at Microsoft headquarters on July 3, 2024, in Redmond, Washington. (David Ryder/Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The world still treats bug hunters like criminals The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race Government A California county wants to hire Tina Peters to help run its elections Irregular says ‘human oversight’ responsible for AI sandbox escape incidents A bold new strategy or a dangerous precedent? Experts are divided on Trump's memo. Trump turns to private sector in offensive hacking operations memo Technology AI’s ‘middle class’ has gotten dramatically better at hacking The FTC wants to regulate AI for ideological bias OpenAI says Daybreak will expand to offer specialized cyber services More than half of AI-generated patches are broken Threats Details emerge on BlackFile's recent attacks on financial companies Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan Kimwolf botnet rebuilt to survive takedowns, researchers say Delta inves",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [
-            "Medusa"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [
-            "OpenAI/ChatGPT"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "tool"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "CyberScoop",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
-          "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
-          "published": "2026-08-18T17:18:58+00:00",
-          "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [
-              "Medusa"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [
-              "OpenAI/ChatGPT"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "tool"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
-          "published": "2026-08-19T08:00:48+00:00",
-          "summary": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Medusa"
-            ],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Medusa ransomware gang has hit over 500 organizations, CISA warns",
-          "link": "https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/",
-          "published": "2026-08-19T10:18:51+00:00",
-          "summary": "Medusa ransomware has breached more than 500 organizations since it first appeared in June 2021, the FBI, CISA, and the Department of Health and Human Services (HHS) said in an updated joint advisory. The update builds on an advisory first issued in March 2025 and draws on FBI investigations conducted as late as April 2026. “Medusa developers and affiliates have impacted over 500 victims from a variety of critical infrastructure sectors,” the advisory reads, listing … More → The post Medusa ransomware gang has hit over 500 organizations, CISA warns appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Medusa"
-            ],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware",
-          "link": "https://www.infosecurity-magazine.com/news/critical-infrastructure-medusa/",
-          "published": "2026-08-19T10:50:00+00:00",
-          "summary": "The FBI warned that the RaaS operation has significantly enhanced its tactics, techniques and procedures, making it harder for defenders to counter",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Medusa"
-            ],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Record",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "More than 200 victims of Medusa ransomware identified over the last year, CISA says",
-          "link": "https://therecord.media/more-than-200-medusa-ransomware-victims-in-last-year-cisa",
-          "published": "2026-08-18T18:05:00+00:00",
-          "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) and FBI updated an advisory on the group initially released in March 2025 — writing that as of April 2026, Medusa actors have hit more than 500 victims. CISA previously said 300 victims, many of which are in critical infrastructure sectors, were attacked as of 2025.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Medusa"
-            ],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -4985,87 +4643,6 @@
       ]
     },
     {
-      "cluster_id": "8883aedcfe",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "How QR-code phishing can slip past corporate security measures",
-        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-        "published": "2026-08-17T09:00:00+00:00",
-        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
-        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "How QR-code phishing can slip past corporate security measures",
-          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-          "published": "2026-08-17T09:00:00+00:00",
-          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "44f04ecb50",
       "priority_score": 10,
       "member_count": 1,
@@ -5128,6 +4705,87 @@
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "8883aedcfe",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "How QR-code phishing can slip past corporate security measures",
+        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+        "published": "2026-08-17T09:00:00+00:00",
+        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "How QR-code phishing can slip past corporate security measures",
+          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+          "published": "2026-08-17T09:00:00+00:00",
+          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
             ],
             "actor_attribution": [],
             "affected_industries": [],
@@ -5466,6 +5124,256 @@
                   0.3
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7e8884f67",
+      "priority_score": 10,
+      "member_count": 5,
+      "corroborating_source_count": 5,
+      "strong_signals": [
+        "Medusa"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "Medusa"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "CyberScoop",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
+        "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
+        "published": "2026-08-18T17:18:58+00:00",
+        "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .",
+        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close The ransomware-as-a-service group Medusa has adopted fresh tactics to gain access and added hundreds of victims in a little more than a year, according to an updated U.S. government advisory published Tuesday. The gang is relying on access brokers,compensating them anywhere from $100 to $1 million, with higher prices going to those who work exclusively with Medusa. However, most of the brokers work simultaneously for “multiple variants at the same time,” the advisory from the Cybersecurity and Infrastructure Security Agency, FBI and Health and Human Services Department states in one of the updated portions of the advisory. Tuesday’s update advisory expands upon aMarch 2025 advisory, drawing on ongoing FBI investigations.nIt includes information on the kinds of software vulnerabilities Medusa has exploited, such as Fortra GoAnywhere and BeyondTrust flaws. “Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors; however, the Healthcare and Public Health (HPH) Sector has been a frequent victim of Medusa operations,” according to the advisory. “Medusa actors leverage newly announced exploits within 24 hours and have been observed to use exploits up to a week before public vulnerability disclosure.’ Advertisement “However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching,” the advisory continues. The approach appears to be netting gains: From March 2025 to April of this year, the victim tally in the advisory jumped from more than 300 to more than 500. The group was first identified in 2021. “Medusa actors often use legitimate tools and living off the land techniques to evade detection. They may also leverage remote monitoring and management software and remote access services, including Remote Desktop Protocol, for lateral movement,” as updated sections of the advisory detail. “Once inside a network, they use common utilities and tools to support credential access, data exfiltration, and ransomware deployment.” Earlier this year, Microsoft detailed how a group it dubbed Storm-1175 was making use of Medusa ransomware in speedy operations. Symantec and Carbon Black also detailed earlier this year how North Korean hackers were leaning on Medusa to target the health care sector. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Advertisement More Scoops The headquarters of the Federal Bureau of Investigation on August 16, 2022, in Washington. (Matt McClain/The Washington Post via Getty Images) (Getty Images) A sign is seen at Microsoft headquarters on July 3, 2024, in Redmond, Washington. (David Ryder/Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The world still treats bug hunters like criminals The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race Government A California county wants to hire Tina Peters to help run its elections Irregular says ‘human oversight’ responsible for AI sandbox escape incidents A bold new strategy or a dangerous precedent? Experts are divided on Trump's memo. Trump turns to private sector in offensive hacking operations memo Technology AI’s ‘middle class’ has gotten dramatically better at hacking The FTC wants to regulate AI for ideological bias OpenAI says Daybreak will expand to offer specialized cyber services More than half of AI-generated patches are broken Threats Details emerge on BlackFile's recent attacks on financial companies Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan Kimwolf botnet rebuilt to survive takedowns, researchers say Delta inves",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "zero_day",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [
+            "Medusa"
+          ],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government",
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [
+            "OpenAI/ChatGPT"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "tool"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "CyberScoop",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
+          "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
+          "published": "2026-08-18T17:18:58+00:00",
+          "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "zero_day",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [
+              "Medusa"
+            ],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government",
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [
+              "OpenAI/ChatGPT"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "tool"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CISA: Medusa ransomware hit over 500 critical infrastructure orgs",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+          "published": "2026-08-19T08:00:48+00:00",
+          "summary": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Medusa"
+            ],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Medusa ransomware gang has hit over 500 organizations, CISA warns",
+          "link": "https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/",
+          "published": "2026-08-19T10:18:51+00:00",
+          "summary": "Medusa ransomware has breached more than 500 organizations since it first appeared in June 2021, the FBI, CISA, and the Department of Health and Human Services (HHS) said in an updated joint advisory. The update builds on an advisory first issued in March 2025 and draws on FBI investigations conducted as late as April 2026. “Medusa developers and affiliates have impacted over 500 victims from a variety of critical infrastructure sectors,” the advisory reads, listing … More → The post Medusa ransomware gang has hit over 500 organizations, CISA warns appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Medusa"
+            ],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware",
+          "link": "https://www.infosecurity-magazine.com/news/critical-infrastructure-medusa/",
+          "published": "2026-08-19T10:50:00+00:00",
+          "summary": "The FBI warned that the RaaS operation has significantly enhanced its tactics, techniques and procedures, making it harder for defenders to counter",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Medusa"
+            ],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Record",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "More than 200 victims of Medusa ransomware identified over the last year, CISA says",
+          "link": "https://therecord.media/more-than-200-medusa-ransomware-victims-in-last-year-cisa",
+          "published": "2026-08-18T18:05:00+00:00",
+          "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) and FBI updated an advisory on the group initially released in March 2025 — writing that as of April 2026, Medusa actors have hit more than 500 victims. CISA previously said 300 victims, many of which are in critical infrastructure sectors, were attacked as of 2025.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Medusa"
+            ],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -6943,14 +6851,24 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "active_exploitation"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-24301",
+          "CVE-2026-6726",
+          "CVE-2026-6727",
+          "CVE-2026-68820",
+          "CVE-2026-69414"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -6964,18 +6882,28 @@
         "title": "2608-patch-tuesday",
         "link": "https://www.sophos.com/en-us/blog/2608-patch-tuesday",
         "published": "2026-08-17T00:00:00+00:00",
-        "summary": "<p>423 CVEs, no Edge patches, and a small shift in CWE findings</p> Categories: Threat Research Tags: Patch Tuesday, MICROSOFT PATCH TUESDAY",
-        "full_body": "A heap of overflow in August’s Patch Tuesday haul 423 CVEs, no Edge patches, and a small shift in CWE findings Written by Angela Gunn Threat Research Patch Tuesday MICROSOFT PATCH TUESDAY Share This Link Copied",
+        "summary": "<p>421 CVEs, a relatively small set of Edge patches, and two spicy stragglers</p> Categories: Threat Research Tags: Patch Tuesday, MICROSOFT PATCH TUESDAY",
+        "full_body": "A heap of overflow in August’s Patch Tuesday haul 421 CVEs, a relatively small set of Edge patches, and two spicy stragglers Written by Angela Gunn Threat Research Patch Tuesday MICROSOFT PATCH TUESDAY Share This Link Copied Microsoft on August 11 released 421 patches affecting 29 product families. Sixty-four of the addressed issues are considered by Microsoft to be of Critical severity; 35 CVEs are expected to be exploited within the next 30 days. (One already is; CVE-2026-68820 is an Important-severity Elevation of Privilege issue affecting most versions of Windows.) Eighty have a CVSS Base score of 8.0 or higher. Just one was publicly disclosed (but not yet exploited) as of release day, with one additional item (CVE-2026-69414) stated by Microsoft to be publicly disclosed by week’s end. (More on post-Tuesday patch activity in a moment.) One other, CVE-2026-68820, is acknowledged to be under active exploit in the wild. In this AI-driven era, the relatively low count of advisories is striking. There are two MITRE-credited items (CVE-2026-6726, CVE-2026-6727) that were patched earlier in the month, but as these are Windows-related we’re simply rolling them into the main patch count. As for Edge, there were just 42 advisories (all but two issued by Chrome, not Microsoft), with everything patched in advance of Tuesday. There were also 24 updates issued by Adobe, affecting Commerce and ColdFusion. Of greater interest is the remarkable number of very nasty bugs that were also patched earlier in the month. Nineteen vulnerabilities affecting 10 families have already been mitigated, and a twentieth (CVE-2026-24301, a Copilot Web issue) was handled several days later. The average CVSS Base score for those 20 is 9.3, with three weighing in at a “perfect” 10. In contrast, the average CVSS Base score for the rest of August’s patches is a less agita-inducing 7.2. Various of this month’s issues are amenable to direct detection by Sophos protections, and we include information on those in the usual table below. AI-era trends we’ve been watching continue to develop. Once again we have a lot of multiple-finder vulnerabilities; CVE-2026-58612, an Important-severity PowerShell bug, leads the pack with 17 credited discoverers from around the globe. Anonymous is of course the busiest bee on the planet (every month), but the finder 0ccbbf129444eb66344ccafb92b00df4 topped the sheer-volume leaderboard for the second month, racking up 45 finds, all in 365 or Office (or both), 10 of Critical severity. For those who follow such things, there’s an interesting divide opening up between certain hyper-productive handles and certain well-known folk who are still producing finds at pre-AI volumes. We’re only five months into the era, but the trend bears watching. Second, the rise in patch volume still isn’t translating to more bugs in the wild. The percentage of vulnerabilities Microsoft expects to be exploited in the wild within the next 30 days went up slightly in August (8.0 percent, compared to 7.7 percent for both June and July), but the number of bugs either publicly disclosed or under active exploit in the wild is vanishingly small – three, all together. In other words, so far the finders responsible for this flood are behaving, well, responsibly. And what are they finding? We’ve now had Microsoft-provided CWE information for five months, which isn’t enough time to start opining on Where The Bugs Are, but we did notice that a different weakness type than usual is topping the CWE charts – CWE-122, better known as Heap-based Buffer Overflow or (if you think about CWEs a great deal, which… stop that) the perpetual runner-up to CWE-416, the ever-unpopular Use After Free. Over the course of the past five months these two have cumulatively accounted for just over a third of all flaws patched in Microsoft products. The second runner-up, CWE-125 (Out-of-bounds Read), doesn’t break ten percent of the cumulative total. Oh. And we may have a pre-authentication, ",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "active_exploitation"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-68820",
+            "CVE-2026-69414",
+            "CVE-2026-6726",
+            "CVE-2026-6727",
+            "CVE-2026-24301"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_2_operator",
           "role_map": {},
@@ -6991,16 +6919,26 @@
           "title": "2608-patch-tuesday",
           "link": "https://www.sophos.com/en-us/blog/2608-patch-tuesday",
           "published": "2026-08-17T00:00:00+00:00",
-          "summary": "<p>423 CVEs, no Edge patches, and a small shift in CWE findings</p> Categories: Threat Research Tags: Patch Tuesday, MICROSOFT PATCH TUESDAY",
+          "summary": "<p>421 CVEs, a relatively small set of Edge patches, and two spicy stragglers</p> Categories: Threat Research Tags: Patch Tuesday, MICROSOFT PATCH TUESDAY",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "active_exploitation"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-68820",
+              "CVE-2026-69414",
+              "CVE-2026-6726",
+              "CVE-2026-6727",
+              "CVE-2026-24301"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
@@ -7634,15 +7572,37 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "supply_chain"
+          "active_exploitation",
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain",
+          "web_shell_backdoor",
+          "zero_day"
         ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "actor_attribution": [
+          "Lazarus"
+        ],
+        "affected_industries": [
+          "aviation_defense",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "VMware"
+        ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-59310",
+          "CVE-2026-65400",
+          "CVE-2026-68820"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ],
         "content_type": [
           "intel_roundup"
         ],
@@ -7657,22 +7617,47 @@
         "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
         "published": "2026-08-17T13:23:51+00:00",
         "summary": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More  Ravie Lakshmanan  Aug 17, 2026 Cybersecurity / Hacking The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a lot of small openings turning into bigger problems. Here’s what stood out. ⚡ Threat of the Week Suspected China APT Behind Exploitation of New VMware Flaw — A suspected China-nexus APT is assessed to be behind the exploitation of a newly patched security flaw in VMware vCenter. The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code. In at least one compromised instance, the attacks led to the deployment of a backdoor and. a reverse SSH binary, with the attack ultimately leading to the deployment of Babuk-derived ransomware. \"Based on the case we investigated, however, we do not believe ransomware was necessarily the primary objective,\" QUIRSO said. \"To us, its deployment looks more like a smoke screen intended to distract from the underlying intrusion and, importantly, hinder subsequent forensic analysis by encrypting evidence. We therefore see the ransomware activity in this case as potentially serving the broader intrusion rather than being its ultimate objective.\" AI Adoption Is Outpacing Governance, New SANS Survey Finds Seventy-eight percent of practitioners now say AI is part of their cybersecurity strategy, up from 50% last year. Governance hasn't kept pace: just 36% have a formal AI risk program. See where 536 security professionals say programs are falling short, and what to do about it. Read the Findings ➝ 🔔 Top News Apple macOS Flaw Exploited to Drop Crypto Miner — A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner. The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to authenticate to the built-in remote desktop feature service without valid credentials. The shortcoming was addressed as part of an emergency update in macOS Tahoe 26.6.1, macOS Sequoia 15.7.9, and macOS Sonoma 14.8.9 earlier this month. The Netherlands National Cyber Security Center (NCSC-NL) said it received a report indicating active abuse of the vulnerability across multiple systems on which port 5900 was accessible from the internet. \"In all these cases, root had gained access to the affected system and placed a Monero crypto miner,\" the agency said. Lazarus Exploits New Windows 0-Day — The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity is part of Operation Dream Job, a long-running cyber espionage and social engineering campaign orchestrated by Pyongyang-backed hackers to target professionals worldwide with fake-but-compelling job offers to steal sensitive data and install malware. The attacks have been found to exploit CVE-2026-68820 (CVSS score: 7.0), a privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock (\"AFD.sys\") that was patched by Microsoft as part of its Patch Tuesday updates for August 2026. The attacks have been observed to deliver ForestTiger and a new backdoor called Troy. GeoServer Patches Critical Flaw Under Attack — GeoServer has released patches for a criti",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "supply_chain"
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "zero_day",
+            "apt_espionage",
+            "web_shell_backdoor",
+            "active_exploitation"
           ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "actor_attribution": [
+            "Lazarus"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "aviation_defense"
+          ],
+          "affected_products": [
+            "Apple iOS/macOS",
+            "VMware"
+          ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-59310",
+            "CVE-2026-65400",
+            "CVE-2026-68820"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day"
+          ],
           "content_type": "intel_roundup",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Apple iOS/macOS": "target",
+            "VMware": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -7688,18 +7673,43 @@
           "summary": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain"
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "zero_day",
+              "apt_espionage",
+              "web_shell_backdoor",
+              "active_exploitation"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "actor_attribution": [
+              "Lazarus"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "aviation_defense"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS",
+              "VMware"
+            ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-59310",
+              "CVE-2026-65400",
+              "CVE-2026-68820"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day"
+            ],
             "content_type": "intel_roundup",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Apple iOS/macOS": "target",
+              "VMware": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -7876,6 +7886,99 @@
       ]
     },
     {
+      "cluster_id": "41fa423c0b",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "AWS"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities",
+        "link": "https://www.infosecurity-magazine.com/news/exposed-aws-key-data-charities/",
+        "published": "2026-08-13T15:30:00+00:00",
+        "summary": "CRM provider Beacon has revealed that a compromised AWS access key was the likely root cause of the breach of 1500 UK charities’ data",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "AWS": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities",
+          "link": "https://www.infosecurity-magazine.com/news/exposed-aws-key-data-charities/",
+          "published": "2026-08-13T15:30:00+00:00",
+          "summary": "CRM provider Beacon has revealed that a compromised AWS access key was the likely root cause of the breach of 1500 UK charities’ data",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "a0547d74b2",
       "priority_score": 8,
       "member_count": 1,
@@ -7959,16 +8062,16 @@
   ],
   "affinity_groups": [
     {
-      "label": "Apple iOS/macOS active exploitation",
+      "label": "Apple iOS/macOS exploitation (CVE-2026-68820)",
       "anchor_signal": "Apple iOS/macOS",
       "theme_key": "apple-ios-macos",
       "dominant_features": {
         "threat_categories": [
           "ransomware_extortion",
           "active_exploitation",
-          "credential_theft",
           "web_shell_backdoor",
-          "data_breach"
+          "credential_theft",
+          "apt_espionage"
         ],
         "affected_industries": [
           "financial_services",
@@ -7980,7 +8083,8 @@
           "Microsoft SharePoint"
         ],
         "cve_ids": [
-          "CVE-2026-65400"
+          "CVE-2026-65400",
+          "CVE-2026-59310"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -7988,13 +8092,15 @@
           "preauth_unauth"
         ]
       },
-      "cluster_count": 6,
-      "article_count": 14,
-      "cohesion": 0.218,
+      "cluster_count": 9,
+      "article_count": 15,
+      "cohesion": 0.222,
       "shared_strong_signals": [
         "Apple iOS/macOS"
       ],
-      "member_cves": [],
+      "member_cves": [
+        "CVE-2026-68820"
+      ],
       "also_targets": [],
       "cluster_ids": [
         "bd5d2abe67",
@@ -8002,7 +8108,10 @@
         "2dee8c71ba",
         "a50e916d10",
         "7e142768f0",
-        "114ded0230"
+        "22bf2708a0",
+        "114ded0230",
+        "3ec665ac60",
+        "388705e7c7"
       ],
       "links": [
         "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
@@ -8014,7 +8123,10 @@
         "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/",
         "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
         "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/",
-        "https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands"
+        "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+        "https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands",
+        "https://www.sophos.com/en-us/blog/2608-patch-tuesday",
+        "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html"
       ]
     },
     {
@@ -8390,7 +8502,20 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-19490",
+          "cluster_id": "0e9ca139ce",
+          "first_source": "watchTowr Labs",
+          "first_published": "2026-08-14T07:08:20+00:00"
+        },
+        {
+          "value": "CVE-2026-24301",
+          "cluster_id": "3ec665ac60",
+          "first_source": "Sophos X-Ops",
+          "first_published": "2026-08-17T00:00:00+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -8424,6 +8549,16 @@
       }
     ],
     "convergence": [
+      {
+        "cluster_id": "0e9ca139ce",
+        "pair": "CVE-2026-19490 + Citrix",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "0e9ca139ce",
+        "pair": "CVE-2026-19490 + OpenAI/ChatGPT",
+        "first_observation": true
+      },
       {
         "cluster_id": "0e9ca139ce",
         "pair": "CVE-2026-8452 + Citrix",
@@ -8488,16 +8623,6 @@
         "cluster_id": "bd5d2abe67",
         "pair": "CVE-2026-59310 + GitHub",
         "first_observation": true
-      },
-      {
-        "cluster_id": "bd5d2abe67",
-        "pair": "CVE-2026-59310 + Palo Alto Networks",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "bd5d2abe67",
-        "pair": "CVE-2026-65400 + Anthropic/Claude",
-        "first_observation": true
       }
     ],
     "drift": [
@@ -8560,23 +8685,6 @@
         ]
       },
       {
-        "actor": "Medusa",
-        "cluster_id": "c7e8884f67",
-        "new_industries": [
-          "financial_services"
-        ],
-        "new_products": [],
-        "prior_top_industries": [
-          "critical_infrastructure",
-          "government",
-          "healthcare"
-        ],
-        "prior_top_products": [
-          "Ivanti",
-          "SonicWall"
-        ]
-      },
-      {
         "actor": "Kimsuky",
         "cluster_id": "7e142768f0",
         "new_industries": [
@@ -8592,6 +8700,23 @@
           "Apple iOS/macOS",
           "Microsoft 365",
           "Microsoft SharePoint"
+        ]
+      },
+      {
+        "actor": "Medusa",
+        "cluster_id": "c7e8884f67",
+        "new_industries": [
+          "financial_services"
+        ],
+        "new_products": [],
+        "prior_top_industries": [
+          "critical_infrastructure",
+          "government",
+          "healthcare"
+        ],
+        "prior_top_products": [
+          "Ivanti",
+          "SonicWall"
         ]
       },
       {
