@@ -6,9 +6,76 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 19 Aug 2026 10:35:06 +0000</lastBuildDate>
+<lastBuildDate>Wed, 19 Aug 2026 11:31:28 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them</title>
+<link>https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/</link>
+<description><![CDATA[The 17 members of the Mabna Institute targeted hundreds of universities and organizations in the US and abroad. The post US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them appeared first on SecurityWeek .]]></description>
+<pubDate>Wed, 19 Aug 2026 11:30:33 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data</title>
+<link>https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html</link>
+<description><![CDATA[Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store stolen documents, screenshots, and activity logs created to track the status of the activity. &quot;The operation doesn&apos;t rely on a single piece of malware, but on a whole toolkit of criminal software<br/><br/><em>Tags: WordPress</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 11:25:28 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>WordPress</category>
+</item>
+<item>
+<title>Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign</title>
+<link>https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/</link>
+<description><![CDATA[The cybercrime gang has listed major companies such as Shell, Philips, Fiserv, Zebra, Mindray, and Largan Precision. The post Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign appeared first on SecurityWeek .<br/><br/><em>Tags: Cl0p · ransomware_extortion</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 11:07:21 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Cl0p</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation</title>
+<link>https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</link>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an<br/><br/><em>Tags: Microsoft SharePoint · Apple iOS/macOS · Palo Alto Networks · CVE-2026-65400 · CVE-2026-55040 · CVE-2026-59310 · CVE-2026-33824 · ransomware_extortion</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 11:01:48 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft SharePoint</category>
+<category>Apple iOS/macOS</category>
+<category>Palo Alto Networks</category>
+<category>CVE-2026-65400</category>
+</item>
+<item>
+<title>Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware</title>
+<link>https://www.infosecurity-magazine.com/news/critical-infrastructure-medusa/</link>
+<description><![CDATA[The FBI warned that the RaaS operation has significantly enhanced its tactics, techniques and procedures, making it harder for defenders to counter<br/><br/><em>Tags: Medusa · ransomware_extortion</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 10:50:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/critical-infrastructure-medusa/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>Medusa</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities</title>
+<link>https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/</link>
+<description><![CDATA[The flaws can be exploited for remote code execution, authentication bypass, and device takeover. The post CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities appeared first on SecurityWeek .<br/><br/><em>Tags: GitLab · Microsoft SharePoint · Apple iOS/macOS · Cl0p · CVE-2026-33824 · CVE-2026-55040 · CVE-2026-59310 · CVE-2026-65400</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 10:37:31 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitLab</category>
+<category>Microsoft SharePoint</category>
+<category>Apple iOS/macOS</category>
+<category>Cl0p</category>
+</item>
 <item>
 <title>Medusa ransomware gang has hit over 500 organizations, CISA warns</title>
 <link>https://www.helpnetsecurity.com/2026/08/19/medusa-ransomware-cisa-warning/</link>
@@ -94,15 +161,15 @@
 <item>
 <title>CareCloud Data Breach Impact Grows to 3.7 Million Individuals</title>
 <link>https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/</link>
-<description><![CDATA[The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Microsoft SharePoint · Anthropic/Claude · data_breach</em>]]></description>
+<description><![CDATA[The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek .<br/><br/><em>Tags: Google Cloud · Anthropic/Claude · Fortinet · Cl0p · ransomware_extortion · data_breach</em>]]></description>
 <pubDate>Wed, 19 Aug 2026 06:56:43 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>Google Cloud</category>
-<category>Microsoft SharePoint</category>
 <category>Anthropic/Claude</category>
-<category>data_breach</category>
+<category>Fortinet</category>
+<category>Cl0p</category>
 </item>
 <item>
 <title>Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure</title>
@@ -470,15 +537,6 @@
 <category>vulnerability_disclosure</category>
 </item>
 <item>
-<title>Silent &apos;TwinLoot&apos; Cyber Threat Operates Entirely From Microsoft&apos;s Cloud</title>
-<link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
-<description><![CDATA[The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.]]></description>
-<pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>&apos;Ransom Busters&apos;: Ransomware Actor Poses as Incident-Recovery Service</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service</link>
 <description><![CDATA[A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -487,6 +545,15 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Silent &apos;TwinLoot&apos; Cyber Threat Operates Entirely From Microsoft&apos;s Cloud</title>
+<link>https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</link>
+<description><![CDATA[The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.]]></description>
+<pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>New Report: AI threats are here. Why Q2 2026 signals the end of traditional patch cycles</title>
@@ -543,17 +610,6 @@
 <category>Salesforce</category>
 </item>
 <item>
-<title>300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw</title>
-<link>https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/</link>
-<description><![CDATA[Tracked as CVE-2026-15748, the arbitrary file upload bug allows unauthenticated attackers to upload executable files. The post 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · CVE-2026-15748</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 10:48:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>CVE-2026-15748</category>
-</item>
-<item>
 <title>Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days</title>
 <link>https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence</link>
 <description><![CDATA[Analyze Cl0p ransomware&apos;s history of targeting MFT systems. Discover their attack pattern in threat intelligence to improve cyber attack surface reduction.<br/><br/><em>Tags: SolarWinds · Cl0p · ransomware_extortion · zero_day</em>]]></description>
@@ -582,25 +638,13 @@
 <item>
 <title>Three-quarters of Ransomware Attacks Target Mid-Market Firms</title>
 <link>https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/</link>
-<description><![CDATA[Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
 <pubDate>Tue, 18 Aug 2026 10:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Heights Finance Data Breach Impacts at Least 1.2 Million Individuals</title>
-<link>https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/</link>
-<description><![CDATA[Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform. The post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek .<br/><br/><em>Tags: GitLab · Apple iOS/macOS · Azure · ransomware_extortion · data_breach</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 09:18:34 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitLab</category>
-<category>Apple iOS/macOS</category>
-<category>Azure</category>
-<category>ransomware_extortion</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers</title>
@@ -848,12 +892,15 @@
 <item>
 <title>⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More</title>
 <link>https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</link>
-<description><![CDATA[The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a<br/><br/><em>Tags: supply_chain</em>]]></description>
+<description><![CDATA[The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a<br/><br/><em>Tags: Apple iOS/macOS · VMware · Lazarus · CVE-2026-59310 · CVE-2026-65400 · CVE-2026-68820 · ransomware_extortion · supply_chain</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 13:23:51 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>supply_chain</category>
+<category>Apple iOS/macOS</category>
+<category>VMware</category>
+<category>Lazarus</category>
+<category>CVE-2026-59310</category>
 </item>
 <item>
 <title>From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)</title>
@@ -1053,15 +1100,14 @@
 <item>
 <title>Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner</title>
 <link>https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html</link>
-<description><![CDATA[A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned. The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-65400 · CVE-2026-43779 · CVE-2026-43777 · CVE-2026-43760 · zero_day · ddos · vulnerability_disclosure</em>]]></description>
+<description><![CDATA[A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC-NL) has warned. The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-65400 · active_exploitation</em>]]></description>
 <pubDate>Sat, 15 Aug 2026 07:24:04 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Apple iOS/macOS</category>
 <category>CVE-2026-65400</category>
-<category>CVE-2026-43779</category>
-<category>CVE-2026-43777</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>Metasploit Wrap Up: Lot of summer shells and fit http profiles</title>
@@ -1601,14 +1647,12 @@
 <item>
 <title>Attackers Exploit SharePoint Authentication Bypass After Public PoC Release</title>
 <link>https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</link>
-<description><![CDATA[Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. &quot;The authentication<br/><br/><em>Tags: Microsoft SharePoint · Anthropic/Claude · Azure · CVE-2026-55040 · CVE-2026-45659 · CVE-2026-56164 · CVE-2026-58644 · CVE-2026-50522</em>]]></description>
+<description><![CDATA[Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. &quot;The authentication<br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-55040</em>]]></description>
 <pubDate>Thu, 13 Aug 2026 06:09:48 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft SharePoint</category>
-<category>Anthropic/Claude</category>
-<category>Azure</category>
 <category>CVE-2026-55040</category>
 </item>
 <item>
@@ -1841,14 +1885,11 @@
 <item>
 <title>Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws</title>
 <link>https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</link>
-<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: Anthropic/Claude · cPanel · Azure · CVE-2026-48362 · CVE-2026-48273 · CVE-2026-71384 · CVE-2026-71362 · CVE-2026-71398</em>]]></description>
+<description><![CDATA[Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code execution and privilege escalation. The most severe of the flaws are listed below - CVE-2026-48362 (CVSS score: 10.0) - An operating system command injection vulnerability in ColdFusion that could<br/><br/><em>Tags: CVE-2026-48362</em>]]></description>
 <pubDate>Wed, 12 Aug 2026 11:13:03 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
-<category>cPanel</category>
-<category>Azure</category>
 <category>CVE-2026-48362</category>
 </item>
 <item>
@@ -2106,26 +2147,6 @@
 <category>Microsoft Windows</category>
 <category>CVE-2026-68820</category>
 <category>zero_day</category>
-</item>
-<item>
-<title>Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing</title>
-<link>https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html</link>
-<description><![CDATA[Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks. The new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026. &quot;Kimwolf v7 adds an HTTP/2-based<br/><br/><em>Tags: Palo Alto Networks · ddos</em>]]></description>
-<pubDate>Tue, 11 Aug 2026 19:36:37 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Palo Alto Networks</category>
-<category>ddos</category>
-</item>
-<item>
-<title>Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee&apos;s Client</title>
-<link>https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html</link>
-<description><![CDATA[Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter&apos;s. The flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it]]></description>
-<pubDate>Tue, 11 Aug 2026 19:08:47 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Summer 2026 SOC 1 report is now available with 185 services in scope</title>
@@ -2785,15 +2806,6 @@
 <category>cloud_identity_infrastructure</category>
 <category>CVE-2026-72898</category>
 <category>active_exploitation</category>
-</item>
-<item>
-<title>Python Now Has a Post-Quantum Encryption Library</title>
-<link>https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html</link>
-<description><![CDATA[This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography. Remember, the reason to do this now is because there’s no emergency. And because you will make your systems crypto agile, which is always a good idea.]]></description>
-<pubDate>Mon, 10 Aug 2026 11:02:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html</guid>
-<source url="https://www.schneier.com/feed/atom/">Schneier on Security</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>“Ghostjacking” Exploits AI Agents’ Trusted Access to Evade Firewall Controls</title>
@@ -6085,15 +6097,6 @@
 <guid isPermaLink="true">https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/</guid>
 <source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>TrickBot Ditches HTTP for DNS Tunneling in Latest Variant</title>
-<link>https://www.infosecurity-magazine.com/news/trickbot-dns-tunneling-c2/</link>
-<description><![CDATA[New TrickBot variant hides C2 communication inside DNS queries, replacing decade-old HTTP pattern]]></description>
-<pubDate>Wed, 22 Jul 2026 15:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/trickbot-dns-tunneling-c2/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Opening the Black Box: Agentless Threat Detection for Virtual Appliances</title>
@@ -18684,7 +18687,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18693,7 +18696,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18703,7 +18706,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18712,7 +18715,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18721,7 +18724,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18730,7 +18733,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18739,7 +18742,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18748,7 +18751,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18757,7 +18760,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18766,7 +18769,7 @@
 <title>Falcon Platform IOAs Arrive in Falcon Next-Gen SIEM to Identify New Threats</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 19 Aug 2026 10:35:06 +0000</pubDate>
+<pubDate>Wed, 19 Aug 2026 11:31:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-platform-ioas-arrive-in-falcon-next-gen-siem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
