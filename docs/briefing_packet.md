@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-19T13:50:02.804188+00:00
+- Generated: 2026-08-19T14:40:14.821433+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 310
-- Total clusters raw: 140
-- Total clusters in packet: 60
-- Dropped low score: 80
+- Total items in window: 309
+- Total clusters raw: 138
+- Total clusters in packet: 61
+- Dropped low score: 77
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,31 +85,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -120,11 +125,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -135,6 +135,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -145,26 +155,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -180,21 +175,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 16
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
@@ -210,111 +205,126 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 5
+  - Item count: 30
+  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 5
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 4
+  - In window count: 5
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 20
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 8
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,21 +335,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -349,7 +344,12 @@
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
+  - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -359,7 +359,7 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 21
+  - In window count: 20
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,48 +370,23 @@
   - Status: ok
   - Item count: 30
   - In window count: 16
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
+  - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,8 +395,13 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -429,7 +409,27 @@
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
-  - In window count: 44
+  - In window count: 43
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -445,6 +445,11 @@
   - Status: ok
   - Item count: 25
   - In window count: 21
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -455,11 +460,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -559,7 +559,7 @@
 - Anchor signal: Cl0p
 - Theme key: cl0p
 - Cluster count: 3
-- Article count: 6
+- Article count: 7
 - Cohesion: 0.361
 - Shared strong signals: Cl0p
 - Member CVEs: (none)
@@ -572,6 +572,7 @@
   - https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/
   - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
   - https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/
+  - https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/
   - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
   - https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/
   - https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/
@@ -673,7 +674,7 @@
 - Anchor signal: SolarWinds
 - Theme key: solarwinds
 - Cluster count: 2
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.333
 - Shared strong signals: SolarWinds
 - Member CVEs: (none)
@@ -685,6 +686,7 @@
   - https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/
   - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
   - https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/
+  - https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/
   - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
   - https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/
 
@@ -726,8 +728,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2021-33045 (first seen via The Hacker News at 2026-08-19T11:34:28+00:00, cluster bf06d05aec)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -1233,54 +1234,6 @@ Threat Research Center High Profile Threats General General Threat Brief: Mitiga
   - Link: https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - Summary: Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.
 
-### Cluster fc66ccb428 — score 17
-
-- Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-08-18T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- cve_ids: CVE-2026-13242, CVE-2026-55803
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- cve_ids: CVE-2026-13242, CVE-2026-55803
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v
-```
-
-#### Full body
-
-```
-Threat Intelligence Staying Ahead of Adversarial AI Through Agentic Source Code Review August 18, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and validation of routine vulnerabilities, enabling humans to focus their impact. To help defenders implement similar approaches for their own environments, we are sharing the details of this internal, point-in-time architecture for the first time. AVDH can also be used alongside CodeMender’s ongoing scanning to create a two-layered defense strategy. Real-World Results In the 10 months that we’ve been using AVDH, we’ve seen it have a significant impact. During a recent incident response investigation involving stolen corporate repositories, the harness discovered over 100 true-positive critical vulnerabilities in just two days — achieving results in a fraction of the time required for manual review. This has greatly accelerated how Mandiant discovers vulnerabilities at scale. We have used it to analyze environments spanning tens of millions of lines of code, and execute thousands of pipelines to generate tens of thousands of findings. This rapid analysis has uncovered dozens of assignable flaws in widely used web extensions and open-source projects, resulting in 12 assigned CVEs, including CVE-2026-13242 , CVE-2026-55803 , and an additional dozen currently in active disclosure. While fast, broad, high-precision scanning has been one of the key benefits of AVDH, it has also acted as a force multiplier during our targeted adversary simulation engagements. We recently processed a client’s web application source code through the harness, and quickly found a remote code execution (RCE) vulnerability that enabled initial access. AVDH has repeatedly proven invaluable for navigating mature defenses and accelerating complex exploit chains. Architecting the Pipeline Harnesses have become a vital tool for cybersecurity uses of large language models (LLMs). They help mitigate much of the model’s unpredictability, driven by inherent, non-deterministic behavior, and dramatically improve their effectiveness at code analysis. The programmatic infrastructure of a harness orchestrates agents in a strictly deterministic manner toward objective completion. For AVDH, we used the Google Agent Development Kit (ADK), an LLM framework that implements the most common agent orchestration patterns, and provides flexibility for configuring custom and third-party integrations. This approach aligns with the agentic orchestration capabilities now available in Google Antigravity , which provides a centralized workspace for builders to steer and manage these agentic workflows. Our decades of frontline experience discovering and remediating vulnerabilities across every software domain helped us structure AVDH around the proven methodologies our consultants execute daily. AVDH chains specialized agents together in a sequential pipeline, much like t
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
-  - Published: 2026-08-18T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/
-  - Summary: Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
-  - Published: 2026-08-18T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/
-  - Summary: Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v
-
 ### Cluster cb8fdf38e7 — score 16
 
 - Title: Zoom Zero-Click RCE Flaws Allow Any Meeting Attendee to Compromise All Participants
@@ -1485,6 +1438,54 @@ Gregg Cochran · @dubsopenhub August 13, 2026 | 11 minutes Share: AI is changing
   - Published: 2026-08-17T18:44:17+00:00
   - Link: https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html
   - Summary: Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be exploited through a crafted GitHub issue to execute commands in a workflow containing internal Jira credentials. The issue was present in .github/workflows/jira_issue.yml, which ran when a
+
+### Cluster fc66ccb428 — score 16
+
+- Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-08-18T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- cve_ids: CVE-2026-13242, CVE-2026-55803
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- cve_ids: CVE-2026-13242, CVE-2026-55803
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v
+```
+
+#### Full body
+
+```
+Threat Intelligence Staying Ahead of Adversarial AI Through Agentic Source Code Review August 18, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and validation of routine vulnerabilities, enabling humans to focus their impact. To help defenders implement similar approaches for their own environments, we are sharing the details of this internal, point-in-time architecture for the first time. AVDH can also be used alongside CodeMender’s ongoing scanning to create a two-layered defense strategy. Real-World Results In the 10 months that we’ve been using AVDH, we’ve seen it have a significant impact. During a recent incident response investigation involving stolen corporate repositories, the harness discovered over 100 true-positive critical vulnerabilities in just two days — achieving results in a fraction of the time required for manual review. This has greatly accelerated how Mandiant discovers vulnerabilities at scale. We have used it to analyze environments spanning tens of millions of lines of code, and execute thousands of pipelines to generate tens of thousands of findings. This rapid analysis has uncovered dozens of assignable flaws in widely used web extensions and open-source projects, resulting in 12 assigned CVEs, including CVE-2026-13242 , CVE-2026-55803 , and an additional dozen currently in active disclosure. While fast, broad, high-precision scanning has been one of the key benefits of AVDH, it has also acted as a force multiplier during our targeted adversary simulation engagements. We recently processed a client’s web application source code through the harness, and quickly found a remote code execution (RCE) vulnerability that enabled initial access. AVDH has repeatedly proven invaluable for navigating mature defenses and accelerating complex exploit chains. Architecting the Pipeline Harnesses have become a vital tool for cybersecurity uses of large language models (LLMs). They help mitigate much of the model’s unpredictability, driven by inherent, non-deterministic behavior, and dramatically improve their effectiveness at code analysis. The programmatic infrastructure of a harness orchestrates agents in a strictly deterministic manner toward objective completion. For AVDH, we used the Google Agent Development Kit (ADK), an LLM framework that implements the most common agent orchestration patterns, and provides flexibility for configuring custom and third-party integrations. This approach aligns with the agentic orchestration capabilities now available in Google Antigravity , which provides a centralized workspace for builders to steer and manage these agentic workflows. Our decades of frontline experience discovering and remediating vulnerabilities across every software domain helped us structure AVDH around the proven methodologies our consultants execute daily. AVDH chains specialized agents together in a sequential pipeline, much like t
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
+  - Published: 2026-08-18T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/
+  - Summary: Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
+  - Published: 2026-08-18T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/
+  - Summary: Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v
 
 ### Cluster 46d0bf1827 — score 15
 
@@ -1762,6 +1763,45 @@ Describing attacks with crime script analysis By Martin Lee Wednesday, August 19
   - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
   - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
 
+### Cluster 82fb30db67 — score 12
+
+- Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-08-19T12:00:00+00:00
+- Link: https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation
+```
+
+#### Full body
+
+```
+Back to Blog Culture Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America Cássio De Alcântara Aug 19, 2026 | Last updated on Aug 19, 2026 | 3 min read DISCOVER RAPID7 MDR Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation. Rapid7's AI-powered cybersecurity operations platform helps organizations strengthen cyber resilience by unifying continuous exposure management, AI-driven threat detection and response, and security automation. By connecting security data across endpoint, cloud, identity, and infrastructure environments, organizations leverage one platform to gain the visibility to reduce risk and act with confidence. A shared commitment to partner success Success in today’s fragmented cybersecurity environments depends on a strong ecosystem of partners who can help organizations implement, optimize, and maximize the value of unified security operations. This is where Licencias OnLine comes in. With a strong, well-established presence across Latin America, deep cybersecurity expertise, and a highly specialized channel ecosystem, Licencias OnLine brings the local knowledge, technical enablement, and operational agility needed to help partners grow their cybersecurity practices and deliver greater value to customers. Together, Rapid7 and Licencias OnLine will invest in technical training, partner enablement, joint marketing initiatives, and go-to-market programs that help partners expand managed security services , strengthen customer relationships, and accelerate business growth across the region. Building cyber resilience together As organizations across Latin America continue to modernize their IT environments, they should have access to security operations that are integrated, intelligent, and designed for today's AI-powered threat landscape. Rapid7's open platform supports this approach through hundreds of technology integrations that help organizations eliminate security silos, improve visibility across their attack surfaces, and automate response workflows. This enables security teams to reduce operational complexity while improving cybersecurity program maturity. By combining Rapid7's global cybersecurity innovation with Licencias OnLine's regional expertise and trusted partner network, this new alliance will make it easier for organizations across Latin America to strengthen cyber resilience while enabling partners to see greater success through measurable business outcomes. We're excited to begin this next chapter together and look forward to supporting our partners as they help customers build stronger, more resilient security operations across the region. Ready to grow with Rapid7? Discover how Rapid7 and Licencias OnLine are helping partners accelerate cybersecurity maturity across Latin America. Article Tags Cybersecurity Cássio De Alcântara Author Posts
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
+  - Published: 2026-08-19T12:00:00+00:00
+  - Link: https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america
+  - Summary: Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation
+
 ### Cluster d9890362d0 — score 12
 
 - Title: Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain
@@ -1865,8 +1905,8 @@ SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After P
 - Published: 2026-08-18T10:41:24+00:00
 - Link: https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 5
+- Corroborating source count: 5
 - Strong signals: Cl0p
 
 #### Cluster taxonomy (union across members)
@@ -1897,7 +1937,7 @@ Analyze Cl0p ransomware's history of targeting MFT systems. Discover their attac
 All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days PART I Operational Profile and Campaign Analysis 1. The MFT Targeting Pattern Cl0p’s defining operational characteristic is a sustained and systematic focus on managed file transfer infrastructure. Across nine known campaigns, the group has targeted Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere MFT, PaperCut MF/NG, Progress MOVEit Transfer, SysAid ITSM, Cleo MFT (Harmony, VLTrader, LexiCom), Oracle E-Business Suite, and Gladinet Centrestack/TrioFox. With the partial exception of PaperCut (a print management server) and SysAid (an IT service management platform), every target shares a common architectural profile: an internet-facing application that processes, stores, or transfers files. This targeting consistency is significant for two reasons. First, it indicates strategic specialization rather than opportunistic exploitation. The group has invested in developing or acquiring zero-day capabilities specifically for this product category, deploying novel exploits in seven of nine campaigns. Second, it defines a bounded, defensible attack surface. Organizations that operate MFT infrastructure can identify themselves as potential targets and implement category-specific protections — a defensive advantage that is uncommon against most ransomware groups. Figure 1: Complete Cl0p campaign history, 2020–2025 ‍ 2. Exploitation Timeline The chronological record of Cl0p campaigns reveals a distinctive operational tempo characterized by extended dormancy periods punctuated by concentrated bursts of activity. Figure 2: Campaign timeline with inter-campaign intervals ‍ Several patterns merit attention. The group’s longest dormancy period — approximately 14 months between the SolarWinds Serv-U exploitation in late 2021 and the Fortra GoAnywhere campaign in January 2023 — was followed by its most active phase: four distinct campaigns across four separate technologies in ten months (January through October 2023). This burst-and-pause cadence suggests a development cycle in which the group acquires or develops exploits, executes campaigns in rapid succession, and then withdraws to prepare for the next cycle. The inter-campaign intervals since 2023 have been notably consistent, ranging from 10 to 14 months between major operations. This periodicity, while not perfectly predictable, provides a rough forecasting baseline. As of mid-2026, the group’s last confirmed campaign (Centrestack, November 2025) was approximately eight months ago — suggesting the next operational cycle may be approaching. 3. Seasonal Clustering: The Q4 Pattern Figure 3: Cl0p campaigns by quarter — Q4 exceeds all other quarters combined When campaigns are mapped by calendar quarter, Q4 emerges as the dominant operational window. Five of nine confirmed campaigns were initiated during October through December — more than all other quarters combined. This clustering is operationally rational: Q4 coincides with major holidays in the United States and Europe (Thanksgiving, Christmas, New Year), periods when security operations centers are typically operating at reduced capacity and organizational response times are extended. The Centrestack campaign provides the most explicit example. Initial compromises occurred on Thanksgiving Day 2025 (November 27), a date that maximized the gap between initial access and organizational detection. This seasonal preference should be treated as a high-confidence behavioral indicator for defensive planning purposes. 4. Pre-Attack Reconnaissance One of the most strategically significant findings in this analysis is the extent to which Cl0p conducts advance reconnaissance against eventual targets. This behavior has been confirmed in at least two campaigns and is assessed as likely present but undetected in others. 4.1 MOVEit: Two Years of Pre-Attack Scanning Following the MOVEit exploi
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - Title: Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days
@@ -1909,6 +1949,11 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5
   - Published: 2026-08-19T11:07:21+00:00
   - Link: https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/
   - Summary: The cybercrime gang has listed major companies such as Shell, Philips, Fiserv, Zebra, Mindray, and Largan Precision. The post Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign appeared first on SecurityWeek .
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: The long tail of Clop’s PTC hack is just beginning to emerge
+  - Published: 2026-08-19T14:30:52+00:00
+  - Link: https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/
+  - Summary: The data theft extortion group likely compromised a critical vulnerability affecting PTC’s product lifecycle management software in June, a month before it sent threatening emails to victims. The post The long tail of Clop’s PTC hack is just beginning to emerge appeared first on CyberScoop .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data
   - Published: 2026-08-19T05:39:25+00:00
@@ -2218,6 +2263,47 @@ Table of Contents Background Initial infection Still Sync How it works Telegram 
   - Link: https://securelist.com/armored-likho-still-toolkit/121033/
   - Summary: Kaspersky experts break down a new Armored Likho campaign that poses as a fundraising efforts and delivers a new Still Toolkit aimed at stealing Telegram data and eavesdropping on victims.
 
+### Cluster 8883aedcfe — score 10
+
+- Title: How QR-code phishing can slip past corporate security measures
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-08-17T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
+```
+
+#### Full body
+
+```
+Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: How QR-code phishing can slip past corporate security measures
+  - Published: 2026-08-17T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
+
 ### Cluster 452d902ac4 — score 10
 
 - Title: Curiouser and Curiouser
@@ -2305,47 +2391,6 @@ Dissecting the JWR phishing framework By Chetan Raghuprasad Thursday, August 13,
   - Published: 2026-08-13T10:00:35+00:00
   - Link: https://blog.talosintelligence.com/dissecting-the-jwr-phishing-framework/
   - Summary: Cisco Talos recently identified an undocumented phishing framework, internally branded "JWR" by its developer, built to convincingly impersonate checkout and login pages across major payment and shopping platforms.
-
-### Cluster 8883aedcfe — score 10
-
-- Title: How QR-code phishing can slip past corporate security measures
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-08-17T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
-```
-
-#### Full body
-
-```
-Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: How QR-code phishing can slip past corporate security measures
-  - Published: 2026-08-17T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
 
 ### Cluster 44f04ecb50 — score 10
 
@@ -2913,47 +2958,6 @@ Auth Bypass. Commands over CAN Bus to internal components. Protection mechanisms
   - Link: https://www.reddit.com/r/netsec/comments/1vndp8e/from_unauthenticated_api_to_grid_risk_a_hybrid/
   - Summary: Auth Bypass. Commands over CAN Bus to internal components. Protection mechanisms disabled and configuration changes. Impact: damage connected devices, permanent DoS to the inverter itself, fines, and even risk to the lives of grid technicians. proprietary communication protocols and file formats. RX architecture reverse engineering. submitted by /u/_solid_snail [link] [comments]
 
-### Cluster aedb17e633 — score 9
-
-- Title: Srsly Risky Biz: Data extortion is booming. Hooray!
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-08-13T09:40:16+00:00
-- Link: https://risky.biz/SRB179/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Tom Uren and James Wilson talk about the cybercrime ecosystem shifting towards data theft extortion, stealing sensitive data and extracting ransoms from victims by threatening to leak it. For organisations whose reputation is very important to them, data leaks are a bigger threat than having their files locked up. They also discuss how the rise of AI makes it worth reinvigorating CISA’s Secure by Design initiative.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast August 13, 2026 Srsly Risky Biz: Data extortion is booming. Hooray! Presented by James Wilson Technology Editor Tom Uren Policy & Intelligence Tom Uren and James Wilson talk about the cybercrime ecosystem shifting towards data theft extortion, stealing sensitive data and extracting ransoms from victims by threatening to leak it. For organisations whose reputation is very important to them, data leaks are a bigger threat than having their files locked up. They also discuss how the rise of AI makes it worth reinvigorating CISAâs Secure by Design initiative. Your browser does not support the audio element. Srsly Risky Biz: Data extortion is booming. Hooray! â¶ 0:00 / 30:48 Subscribe Brought to you by Island The Enterprise Browser
-```
-
-#### Corroborating sources (1)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Srsly Risky Biz: Data extortion is booming. Hooray!
-  - Published: 2026-08-13T09:40:16+00:00
-  - Link: https://risky.biz/SRB179/
-  - Summary: Tom Uren and James Wilson talk about the cybercrime ecosystem shifting towards data theft extortion, stealing sensitive data and extracting ransoms from victims by threatening to leak it. For organisations whose reputation is very important to them, data leaks are a bigger threat than having their files locked up. They also discuss how the rise of AI makes it worth reinvigorating CISA’s Secure by Design initiative.
-
 ### Cluster b7b068c390 — score 9
 
 - Title: [tl;dr sec] #341 - Hugging Face Incident Black Hat Talk, CSS Bomb in your Inbox, GitHub Supply Chain Security Improvements
@@ -2996,6 +3000,47 @@ Deep dive and timeline of HF from OpenAI, Portswigger shows how CSS in webmail c
   - Published: 2026-08-13T14:30:00+00:00
   - Link: https://tldrsec.com/p/tldr-sec-341
   - Summary: Deep dive and timeline of HF from OpenAI, Portswigger shows how CSS in webmail clients can be weaponized, GitHub's platform improvements
+
+### Cluster aedb17e633 — score 9
+
+- Title: Srsly Risky Biz: Data extortion is booming. Hooray!
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-08-13T09:40:16+00:00
+- Link: https://risky.biz/SRB179/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Tom Uren and James Wilson talk about the cybercrime ecosystem shifting towards data theft extortion, stealing sensitive data and extracting ransoms from victims by threatening to leak it. For organisations whose reputation is very important to them, data leaks are a bigger threat than having their files locked up. They also discuss how the rise of AI makes it worth reinvigorating CISA’s Secure by Design initiative.
+```
+
+#### Full body
+
+```
+Risky Bulletin Podcast August 13, 2026 Srsly Risky Biz: Data extortion is booming. Hooray! Presented by James Wilson Technology Editor Tom Uren Policy & Intelligence Tom Uren and James Wilson talk about the cybercrime ecosystem shifting towards data theft extortion, stealing sensitive data and extracting ransoms from victims by threatening to leak it. For organisations whose reputation is very important to them, data leaks are a bigger threat than having their files locked up. They also discuss how the rise of AI makes it worth reinvigorating CISAâs Secure by Design initiative. Your browser does not support the audio element. Srsly Risky Biz: Data extortion is booming. Hooray! â¶ 0:00 / 30:48 Subscribe Brought to you by Island The Enterprise Browser
+```
+
+#### Corroborating sources (1)
+
+- **Risky Business News** (practitioner_analysis)
+  - Title: Srsly Risky Biz: Data extortion is booming. Hooray!
+  - Published: 2026-08-13T09:40:16+00:00
+  - Link: https://risky.biz/SRB179/
+  - Summary: Tom Uren and James Wilson talk about the cybercrime ecosystem shifting towards data theft extortion, stealing sensitive data and extracting ransoms from victims by threatening to leak it. For organisations whose reputation is very important to them, data leaks are a bigger threat than having their files locked up. They also discuss how the rise of AI makes it worth reinvigorating CISA’s Secure by Design initiative.
 
 ### Cluster 4405003146 — score 9
 
@@ -3541,7 +3586,7 @@ Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands
 - Source: Reddit r/netsec (reddit_practitioner_osint)
 - Published: 2026-08-17T14:14:44+00:00
 - Link: https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)

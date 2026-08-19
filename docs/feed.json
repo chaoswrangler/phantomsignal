@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:50:02.830610+00:00",
+  "generated_at": "2026-08-19T14:40:14.848391+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2090,
@@ -25,12 +25,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -39,6 +39,13 @@
       "item_count": 25,
       "in_window_count": 0
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -46,19 +53,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -74,13 +81,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -94,6 +94,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -109,33 +123,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -158,19 +151,12 @@
       "item_count": 50,
       "in_window_count": 16
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -178,6 +164,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -200,11 +193,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Sophos X-Ops": {
@@ -214,11 +214,11 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 0
     },
     "SpecterOps": {
@@ -228,13 +228,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 0
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -242,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+      "item_count": 30,
+      "in_window_count": 0
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -256,11 +249,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 5
     },
     "Google Cloud Threat Intelligence": {
@@ -270,18 +263,32 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 4
+      "in_window_count": 5
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Sysdig": {
@@ -291,13 +298,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -305,19 +305,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -326,18 +319,11 @@
       "item_count": 100,
       "in_window_count": 8
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 1
     },
     "OpenSSF Blog": {
@@ -346,6 +332,34 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -361,27 +375,6 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -394,7 +387,14 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 9
+      "in_window_count": 10
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -408,7 +408,7 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 21
+      "in_window_count": 20
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,11 +424,18 @@
       "item_count": 30,
       "in_window_count": 16
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -438,50 +445,8 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -494,8 +459,15 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -506,7 +478,35 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 44
+      "in_window_count": 43
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -529,6 +529,13 @@
       "item_count": 25,
       "in_window_count": 21
     },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
@@ -542,13 +549,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -862,7 +862,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 6,
+      "article_count": 7,
       "cohesion": 0.361,
       "shared_strong_signals": [
         "Cl0p"
@@ -878,6 +878,7 @@
         "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/",
         "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
         "https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/",
+        "https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/",
         "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
         "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
         "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/"
@@ -1045,7 +1046,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
+      "article_count": 6,
       "cohesion": 0.333,
       "shared_strong_signals": [
         "SolarWinds"
@@ -1060,6 +1061,7 @@
         "https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/",
         "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
         "https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/",
+        "https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/",
         "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
         "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/"
       ]
@@ -1124,14 +1126,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2021-33045",
-          "cluster_id": "bf06d05aec",
-          "first_source": "The Hacker News",
-          "first_published": "2026-08-19T11:34:28+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -1436,6 +1431,94 @@
   },
   "items": [
     {
+      "source": "CyberScoop",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "The long tail of Clop’s PTC hack is just beginning to emerge",
+      "link": "https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/",
+      "published": "2026-08-19T14:30:52+00:00",
+      "summary": "The data theft extortion group likely compromised a critical vulnerability affecting PTC’s product lifecycle management software in June, a month before it sent threatening emails to victims. The post The long tail of Clop’s PTC hack is just beginning to emerge appeared first on CyberScoop .",
+      "author": "Matt Kapko",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Cl0p"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
+      "link": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
+      "published": "2026-08-19T14:00:10+00:00",
+      "summary": "Huntress observed a 155x increase in password spraying attacks in H1 2026, including a campaign that generated more than 81 million login attempts in two weeks. The attacks exploited legacy authentication and gaps in MFA policies that left some login flows unprotected. [...]",
+      "author": "Sponsored by Huntress Labs",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "The Record",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Latvian officials resign after cyberattack exposes data on 1.2 million people",
+      "link": "https://therecord.media/latvia-cyberattack-vehicle-data",
+      "published": "2026-08-19T13:45:00+00:00",
+      "summary": "Latvia’s road traffic agency confirmed that hackers stole data connected to about two-thirds of the country’s population in a major cyberattack that has prompted calls for senior officials to resign.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -1557,6 +1640,36 @@
         }
       },
       "score": 6
+    },
+    {
+      "source": "Rapid7",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America",
+      "link": "https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america",
+      "published": "2026-08-19T12:00:00+00:00",
+      "summary": "Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation",
+      "author": "Cássio De Alcântara",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 12,
+      "full_body": "Back to Blog Culture Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America Cássio De Alcântara Aug 19, 2026 | Last updated on Aug 19, 2026 | 3 min read DISCOVER RAPID7 MDR Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation. Rapid7's AI-powered cybersecurity operations platform helps organizations strengthen cyber resilience by unifying continuous exposure management, AI-driven threat detection and response, and security automation. By connecting security data across endpoint, cloud, identity, and infrastructure environments, organizations leverage one platform to gain the visibility to reduce risk and act with confidence. A shared commitment to partner success Success in today’s fragmented cybersecurity environments depends on a strong ecosystem of partners who can help organizations implement, optimize, and maximize the value of unified security operations. This is where Licencias OnLine comes in. With a strong, well-established presence across Latin America, deep cybersecurity expertise, and a highly specialized channel ecosystem, Licencias OnLine brings the local knowledge, technical enablement, and operational agility needed to help partners grow their cybersecurity practices and deliver greater value to customers. Together, Rapid7 and Licencias OnLine will invest in technical training, partner enablement, joint marketing initiatives, and go-to-market programs that help partners expand managed security services , strengthen customer relationships, and accelerate business growth across the region. Building cyber resilience together As organizations across Latin America continue to modernize their IT environments, they should have access to security operations that are integrated, intelligent, and designed for today's AI-powered threat landscape. Rapid7's open platform supports this approach through hundreds of technology integrations that help organizations eliminate security silos, improve visibility across their attack surfaces, and automate response workflows. This enables security teams to reduce operational complexity while improving cybersecurity program maturity. By combining Rapid7's global cybersecurity innovation with Licencias OnLine's regional expertise and trusted partner network, this new alliance will make it easier for organizations across Latin America to strengthen cyber resilience while enabling partners to see greater success through measurable business outcomes. We're excited to begin this next chapter together and look forward to supporting our partners as they help customers build stronger, more resilient security operations across the region. Ready to grow with Rapid7? Discover how Rapid7 and Licencias OnLine are helping partners accelerate cybersecurity maturity across Latin America. Article Tags Cybersecurity Cássio De Alcântara Author Posts",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -3059,34 +3172,6 @@
       "score": 5
     },
     {
-      "source": "The Record",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Hackers target Ukrainian agency managing assets seized from sanctioned Russians",
-      "link": "https://therecord.media/hackers-target-ukraine-agency-sanctioned-russians",
-      "published": "2026-08-18T14:45:00+00:00",
-      "summary": "The agency said the latest attack came amid preparations to select a manager for seized corporate rights in IDS Ukraine, one of the country’s largest producers of bottled mineral water and beverages.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 5
-    },
-    {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -3112,7 +3197,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Infosecurity Magazine",
@@ -3142,7 +3227,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "BleepingComputer",
@@ -3170,7 +3255,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Google Cloud Threat Intelligence",
@@ -3203,7 +3288,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Threat Intelligence Staying Ahead of Adversarial AI Through Agentic Source Code Review August 18, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and validation of routine vulnerabilities, enabling humans to focus their impact. To help defenders implement similar approaches for their own environments, we are sharing the details of this internal, point-in-time architecture for the first time. AVDH can also be used alongside CodeMender’s ongoing scanning to create a two-layered defense strategy. Real-World Results In the 10 months that we’ve been using AVDH, we’ve seen it have a significant impact. During a recent incident response investigation involving stolen corporate repositories, the harness discovered over 100 true-positive critical vulnerabilities in just two days — achieving results in a fraction of the time required for manual review. This has greatly accelerated how Mandiant discovers vulnerabilities at scale. We have used it to analyze environments spanning tens of millions of lines of code, and execute thousands of pipelines to generate tens of thousands of findings. This rapid analysis has uncovered dozens of assignable flaws in widely used web extensions and open-source projects, resulting in 12 assigned CVEs, including CVE-2026-13242 , CVE-2026-55803 , and an additional dozen currently in active disclosure. While fast, broad, high-precision scanning has been one of the key benefits of AVDH, it has also acted as a force multiplier during our targeted adversary simulation engagements. We recently processed a client’s web application source code through the harness, and quickly found a remote code execution (RCE) vulnerability that enabled initial access. AVDH has repeatedly proven invaluable for navigating mature defenses and accelerating complex exploit chains. Architecting the Pipeline Harnesses have become a vital tool for cybersecurity uses of large language models (LLMs). They help mitigate much of the model’s unpredictability, driven by inherent, non-deterministic behavior, and dramatically improve their effectiveness at code analysis. The programmatic infrastructure of a harness orchestrates agents in a strictly deterministic manner toward objective completion. For AVDH, we used the Google Agent Development Kit (ADK), an LLM framework that implements the most common agent orchestration patterns, and provides flexibility for configuring custom and third-party integrations. This approach aligns with the agentic orchestration capabilities now available in Google Antigravity , which provides a centralized workspace for builders to steer and manage these agentic workflows. Our decades of frontline experience discovering and remediating vulnerabilities across every software domain helped us structure AVDH around the proven methodologies our consultants execute daily. AVDH chains specialized agents together in a sequential pipeline, much like t",
       "fetch_status": "ok"
     },
@@ -3235,7 +3320,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "Reddit r/netsec",
@@ -3348,14 +3433,16 @@
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
+      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
       "published": "2026-08-18T13:00:00+00:00",
-      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-      "author": "Elizabeth Montalbano",
+      "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+      "author": "Alexander Culafi",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -3376,16 +3463,14 @@
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service",
+      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
       "published": "2026-08-18T13:00:00+00:00",
-      "summary": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
-      "author": "Alexander Culafi",
+      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+      "author": "Elizabeth Montalbano",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -3468,34 +3553,6 @@
         "role_map": {
           "Microsoft SharePoint": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Help Net Security",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Download: 2026 Credential Risk Report",
-      "link": "https://www.helpnetsecurity.com/2026/08/18/download-enzoic-2026-credential-risk-report/",
-      "published": "2026-08-18T12:03:16+00:00",
-      "summary": "85% of cybersecurity professionals consider compromised credentials a primary attack path, yet only 19% continuously monitor active credentials and automatically remediate exposure. The 2026 Credential Risk Report examines where credential security programs fall short and what it takes to move toward Continuous Credential Defense. Learn: Where gaps remain across credential detection, monitoring, and response Why MFA and point-in-time password screening do not fully address credential exposure How to move from reactive password controls to continuous … More → The post Download: 2026 Credential Risk Report appeared first on Help Net Security .",
-      "author": "Help Net Security",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -4304,39 +4361,7 @@
           "products": []
         }
       },
-      "score": 8,
-      "full_body": "",
-      "fetch_status": "fetch_failed:HTTPError"
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
-      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
-      "published": "2026-08-17T14:00:10+00:00",
-      "summary": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
-      "author": "Sponsored by BeyondTrust",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-54121"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 6
+      "score": 8
     },
     {
       "source": "Wiz Research",
@@ -7429,7 +7454,7 @@
       "published": "2026-08-12T14:30:00+00:00",
       "summary": "New WindRelay NFC malware paired with SpyNote RAT let a fraudster clone a card mid-call",
       "author": "",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7445,8 +7470,61 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+      "link": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+      "published": "2026-08-12T14:09:50+00:00",
+      "summary": "A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure. The extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "Putting sign language AI into users’ hands",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "published": "2026-08-12T14:01:59+00:00",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Dark Reading",
@@ -7457,7 +7535,7 @@
       "published": "2026-08-12T14:00:00+00:00",
       "summary": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
       "author": "Robert Lemos",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "ransomware_extortion"
@@ -7478,8 +7556,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
     },
     {
       "source": "Infosecurity Magazine",
@@ -8120,33 +8197,6 @@
       }
     },
     {
-      "source": "CyberScoop",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Kimwolf botnet rebuilt to survive takedowns, researchers say",
-      "link": "https://cyberscoop.com/kimwolf-botnet-palo-alto-unit-42-android-tv-boxes/",
-      "published": "2026-08-12T00:13:08+00:00",
-      "summary": "Months after police seized its servers and arrested an alleged operator, the Kimwolf botnet is running code that disguises attacks as Chrome traffic and fetches its orders from the Ethereum blockchain. The post Kimwolf botnet rebuilt to survive takedowns, researchers say appeared first on CyberScoop .",
-      "author": "Greg Otto",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -8729,35 +8779,6 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
-      "link": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
-      "published": "2026-08-11T16:00:00+00:00",
-      "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent",
-      "author": "Tarunima Tripathi",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
       "title": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
       "link": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
       "published": "2026-08-11T16:00:00+00:00",
@@ -8786,6 +8807,35 @@
               0.35
             ]
           ]
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
+      "link": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
+      "published": "2026-08-11T16:00:00+00:00",
+      "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent",
+      "author": "Tarunima Tripathi",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
         }
       }
     },
@@ -9573,33 +9623,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "13 million tool calls: auditing every AI coding agent action with Elastic Agent",
-      "link": "https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks",
-      "published": "2026-08-11T00:00:00+00:00",
-      "summary": "Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -9654,6 +9677,33 @@
         "role_map": {
           "WordPress": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "13 million tool calls: auditing every AI coding agent action with Elastic Agent",
+      "link": "https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks",
+      "published": "2026-08-11T00:00:00+00:00",
+      "summary": "Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -10103,6 +10153,33 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
+      "title": "How WPP operationalizes platform and data engineering for AI marketing",
+      "link": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
+      "published": "2026-08-10T16:00:00+00:00",
+      "summary": "Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and optimize their ad spend. WPP is replacing that guesswork with an AI-powered view of shifting market dynamics, giving brands predictive certainty that lets them invest with confidence while moving at the speed of the market. That’s the value of WPP Open , its agentic marketing system. But before it could begin applying sophisticated AI models to power those insights, WPP had to overcome a critical engineering challenge: the marketing data that made up the models was fragmented across hundreds of global agencies. While this dynamic made it nearly impossible to deploy AI tools efficiently and securely, access to models was only part of the equation. And until it built a reliable way to ingest, clean, and serve data to those models, WPP couldn’t unlock the true potential of generative AI. To sol",
+      "author": "Prabha Arya",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
       "title": "How Malachyte solves retail’s cold-start problem with managed real-time AI",
       "link": "https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/",
       "published": "2026-08-10T16:00:00+00:00",
@@ -10115,60 +10192,6 @@
         "affected_industries": [
           "retail_ecommerce"
         ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
-      "published": "2026-08-10T16:00:00+00:00",
-      "summary": "At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give customers the flexibility to innovate and the foundation to deliver measurable business value. At the center of it all is Gemini Enterprise, a unified platform designed to power the agentic enterprise , meet builders where they are , and deliver enterprise trust by default . We believe this integrated approach is why Google has been named a Leader in The Forrester Wave ™: AI Platforms, Q3 2026 report , and received the highest score in the Strategy category . Powering the Agentic Era As agents become embedded across every part of the business, organizations need a unified platform. Gemini Enterprise serves as the front door to AI for your entire organization, removing the silos between business users, developers, and IT leaders by connecting them all with shared, universal c",
-      "author": "Jamie de Guerre",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "How WPP operationalizes platform and data engineering for AI marketing",
-      "link": "https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/",
-      "published": "2026-08-10T16:00:00+00:00",
-      "summary": "Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and optimize their ad spend. WPP is replacing that guesswork with an AI-powered view of shifting market dynamics, giving brands predictive certainty that lets them invest with confidence while moving at the speed of the market. That’s the value of WPP Open , its agentic marketing system. But before it could begin applying sophisticated AI models to power those insights, WPP had to overcome a critical engineering challenge: the marketing data that made up the models was fragmented across hundreds of global agencies. While this dynamic made it nearly impossible to deploy AI tools efficiently and securely, access to models was only part of the equation. And until it built a reliable way to ingest, clean, and serve data to those models, WPP couldn’t unlock the true potential of generative AI. To sol",
-      "author": "Prabha Arya",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -10208,6 +10231,33 @@
         "role_map": {
           "Kubernetes": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/",
+      "published": "2026-08-10T16:00:00+00:00",
+      "summary": "At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give customers the flexibility to innovate and the foundation to deliver measurable business value. At the center of it all is Gemini Enterprise, a unified platform designed to power the agentic enterprise , meet builders where they are , and deliver enterprise trust by default . We believe this integrated approach is why Google has been named a Leader in The Forrester Wave ™: AI Platforms, Q3 2026 report , and received the highest score in the Strategy category . Powering the Agentic Era As agents become embedded across every part of the business, organizations need a unified platform. Gemini Enterprise serves as the front door to AI for your entire organization, removing the silos between business users, developers, and IT leaders by connecting them all with shared, universal c",
+      "author": "Jamie de Guerre",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -12434,35 +12484,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
-      "link": "https://www.huntress.com/blog/mac-crypto-draining-malware",
-      "published": "2026-08-06T14:00:00+00:00",
-      "summary": "A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -12491,6 +12512,35 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
+      "link": "https://www.huntress.com/blog/mac-crypto-draining-malware",
+      "published": "2026-08-06T14:00:00+00:00",
+      "summary": "A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -14662,33 +14712,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
-      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
-      "published": "2026-08-04T00:00:00+00:00",
-      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -14736,6 +14759,33 @@
         "cve_ids": [
           "CVE-2026-18577"
         ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
+      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
+      "published": "2026-08-04T00:00:00+00:00",
+      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
@@ -16942,33 +16992,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.",
-      "link": "https://www.huntress.com/blog/business-reflection-250m-arr",
-      "published": "2026-07-30T14:00:00+00:00",
-      "summary": "Hitting $250M ARR is a milestone, but it wasn't the goal. CEO Kyle Hanslovan reflects on Huntress' mission to protect the 99% and why staying true to it remains his top priority.\"",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -17000,6 +17023,33 @@
         "role_map": {
           "SolarWinds": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.",
+      "link": "https://www.huntress.com/blog/business-reflection-250m-arr",
+      "published": "2026-07-30T14:00:00+00:00",
+      "summary": "Hitting $250M ARR is a milestone, but it wasn't the goal. CEO Kyle Hanslovan reflects on Huntress' mission to protect the 99% and why staying true to it remains his top priority.\"",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -17886,39 +17936,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "How AI is Rewriting the Zero-Day Playbook for Preemptive Security",
-      "link": "https://www.rapid7.com/blog/post/ai-rewriting-zero-day-playbook-for-preemptive-security",
-      "published": "2026-07-29T13:00:00+00:00",
-      "summary": "The scenario is all too familiar for any cybersecurity professional: It’s late in the day, and a critical zero-day vulnerability is disclosed. When this happens, CISOs from every industry immediately turn to their Security Operations Centers (SOC) with the single most important, and often most difficult, question: \"Are we exposed?” Answering questions like these when zero-days drop tends to trigger a frantic, high-stress fire drill. Analysts scramble to cross-reference outdated Configuration Management Databases (CMDBs), query disparate endpoint detection tools, and ping IT administrators. The data is siloed, context is missing, and time rapidly slips away. Today, the window between a vulnerability’s disclosure and its active exploitation in the wild has essentially collapsed, making predictive lead time a thing of the past. As adversaries integrate AI into their playbooks to automate attacks, defending against them requires us to operate at machine speed. We believe preemptive securit",
-      "author": "Joel Alcon",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -19038,13 +19055,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
-      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
+      "title": "2607-secai",
+      "link": "https://www.sophos.com/en-us/blog/2607-secai",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
+      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -19065,13 +19082,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "2607-secai",
-      "link": "https://www.sophos.com/en-us/blog/2607-secai",
+      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
+      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
+      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -19264,33 +19281,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements",
-      "link": "https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance",
-      "published": "2026-07-24T14:00:00+00:00",
-      "summary": "DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn't move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here's what changed, what didn't, and why we're not slowing down.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -19313,6 +19303,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements",
+      "link": "https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance",
+      "published": "2026-07-24T14:00:00+00:00",
+      "summary": "DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn't move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here's what changed, what didn't, and why we're not slowing down.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -19986,35 +20003,6 @@
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Infosecurity Magazine",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "New Dolphin X Stealer Employs AI Profiling to Prioritize Targets",
-      "link": "https://www.infosecurity-magazine.com/news/new-dolphin-x-stealer-ai-targets/",
-      "published": "2026-07-23T10:19:00+00:00",
-      "summary": "Dolphin X is a new infostealer that uses AI to sort and rank victims, giving cybercriminals a faster way to identify lucrative targets",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -21745,6 +21733,33 @@
       }
     },
     {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
+      "published": "2026-07-16T14:00:00+00:00",
+      "summary": "Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te",
+      "author": "Mandiant",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -21794,33 +21809,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
-      "published": "2026-07-16T14:00:00+00:00",
-      "summary": "Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te",
-      "author": "Mandiant",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -22177,33 +22165,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered",
-      "link": "https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered",
-      "published": "2026-07-15T14:00:00+00:00",
-      "summary": "Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -22235,6 +22196,33 @@
               0.28
             ]
           ]
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered",
+      "link": "https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered",
+      "published": "2026-07-15T14:00:00+00:00",
+      "summary": "Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
         }
       }
     },
@@ -25549,33 +25537,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
-      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
-      "published": "2026-07-02T00:00:00+00:00",
-      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -25593,6 +25554,33 @@
         "actor_attribution": [
           "TeamPCP"
         ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
+      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
+      "published": "2026-07-02T00:00:00+00:00",
+      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
@@ -26328,6 +26316,33 @@
       }
     },
     {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
+      "published": "2026-06-29T14:00:00+00:00",
+      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -26353,33 +26368,6 @@
         "role_map": {
           "Microsoft 365": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
-      "published": "2026-06-29T14:00:00+00:00",
-      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -26869,35 +26857,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
-      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
-      "published": "2026-06-25T14:00:00+00:00",
-      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -26923,6 +26882,35 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
+      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
+      "published": "2026-06-25T14:00:00+00:00",
+      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -29043,37 +29031,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed",
-      "link": "https://www.huntress.com/blog/terminal-server-phishing-stager-exposed",
-      "published": "2026-06-15T14:00:00+00:00",
-      "summary": "A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -29098,6 +29055,37 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed",
+      "link": "https://www.huntress.com/blog/terminal-server-phishing-stager-exposed",
+      "published": "2026-06-15T14:00:00+00:00",
+      "summary": "A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -30762,33 +30750,6 @@
       }
     },
     {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Why Huntress Doesn’t Need FedRAMP",
-      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
-      "published": "2026-06-05T14:00:00+00:00",
-      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -30819,6 +30780,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Why Huntress Doesn’t Need FedRAMP",
+      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
+      "published": "2026-06-05T14:00:00+00:00",
+      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
