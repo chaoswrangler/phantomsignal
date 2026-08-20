@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 20 Aug 2026 15:39:33 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 16:41:07 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -40,6 +40,15 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
+</item>
+<item>
+<title>New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data</title>
+<link>https://thehackernews.com/2026/08/new-cryptographic-context-injection.html</link>
+<description><![CDATA[Adversa AI has disclosed an attack technique that it says can cause xAI&apos;s Grok chatbot to send a user&apos;s name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI security company, which has codenamed the technique &quot;Cryptographic Context Injection,&quot; said the]]></description>
+<pubDate>Thu, 20 Aug 2026 14:36:27 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/new-cryptographic-context-injection.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>JFrog Artifactory Flaws Enable Software Supply Chain Attacks</title>
@@ -93,12 +102,15 @@
 <item>
 <title>Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE</title>
 <link>https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html</link>
-<description><![CDATA[Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (&quot;GHSA-864f-rcv7-6rh4&quot;), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.<br/><br/><em>Tags: GitHub</em>]]></description>
+<description><![CDATA[Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (&quot;GHSA-864f-rcv7-6rh4&quot;), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.<br/><br/><em>Tags: GitHub · Azure · Anthropic/Claude · credential_theft · ddos</em>]]></description>
 <pubDate>Thu, 20 Aug 2026 13:48:24 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>GitHub</category>
+<category>Azure</category>
+<category>Anthropic/Claude</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers</title>
@@ -1542,11 +1554,13 @@
 <item>
 <title>[webapps] WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload</title>
 <link>https://www.exploit-db.com/exploits/52642</link>
-<description><![CDATA[WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload]]></description>
+<description><![CDATA[WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload<br/><br/><em>Tags: WordPress · CVE-2026-3891</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52642</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+<category>WordPress</category>
+<category>CVE-2026-3891</category>
 </item>
 <item>
 <title>2608-patch-tuesday</title>
@@ -1856,15 +1870,6 @@
 <category>CVE-2023-25157</category>
 </item>
 <item>
-<title>ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories</title>
-<link>https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html</link>
-<description><![CDATA[Some weeks have one big security story. Others bring many smaller updates that are easy to miss but still matter. This week has plenty of them, covering cloud services, AI tools, malware, data breaches, scams, and new attack methods. The latest ThreatsDay Bulletin puts all of these short updates in one place, so you can quickly catch up on what happened, what changed, and what security teams]]></description>
-<pubDate>Thu, 13 Aug 2026 18:17:10 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Curiouser and Curiouser</title>
 <link>https://blog.talosintelligence.com/curiouser-and-curiouser/</link>
 <description><![CDATA[In this edition of the Threat Source newsletter, William reflects on the “Make Hazel a Hacker” segment in Beers with Talos, and how cybersecurity is a field where questions can lead to multiple correct answers.<br/><br/><em>Tags: Cisco · phishing_social_eng</em>]]></description>
@@ -1900,13 +1905,12 @@
 <item>
 <title>What 50 open source projects taught us about security in the AI era</title>
 <link>https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/</link>
-<description><![CDATA[See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about security in the AI era appeared first on The GitHub Blog .<br/><br/><em>Tags: GitHub · Azure</em>]]></description>
+<description><![CDATA[See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about security in the AI era appeared first on The GitHub Blog .<br/><br/><em>Tags: GitHub</em>]]></description>
 <pubDate>Thu, 13 Aug 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/</guid>
 <source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
 <category>offensive_vulnerability_research</category>
 <category>GitHub</category>
-<category>Azure</category>
 </item>
 <item>
 <title>Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities</title>
@@ -2357,6 +2361,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
+<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
+<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
+<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
 <title>Akira Hits Safe Mode: Ransomware Rebooting Around EDR</title>
 <link>https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr</link>
 <description><![CDATA[An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -2365,15 +2378,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
-<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
-<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
-<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Walmart Leaders Transform Security Operations Without Going Bananas</title>
@@ -2887,6 +2891,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>13 million tool calls: auditing every AI coding agent action with Elastic Agent</title>
+<link>https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</link>
+<description><![CDATA[Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>deno-case-studies</title>
 <link>https://www.sophos.com/en-us/blog/deno-case-studies</link>
 <description><![CDATA[Attack TTPs combine fileless execution, wide LOLBin use Categories: Threat Research]]></description>
@@ -2905,15 +2918,6 @@
 <category>detection_response_operations</category>
 <category>WordPress</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>13 million tool calls: auditing every AI coding agent action with Elastic Agent</title>
-<link>https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</link>
-<description><![CDATA[Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.]]></description>
-<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Vulnerability response in the AI-discovery era</title>
@@ -3066,34 +3070,6 @@
 <description><![CDATA[Between chaotic levels of market fragmentation and economic volatility, marketing and communications agencies can no longer rely on the human intuition they’ve traditionally used to win clients and optimize their ad spend. WPP is replacing that guesswork with an AI-powered view of shifting market dynamics, giving brands predictive certainty that lets them invest with confidence while moving at the speed of the market. That’s the value of WPP Open , its agentic marketing system. But before it could begin applying sophisticated AI models to power those insights, WPP had to overcome a critical engineering challenge: the marketing data that made up the models was fragmented across hundreds of global agencies. While this dynamic made it nearly impossible to deploy AI tools efficiently and securely, access to models was only part of the equation. And until it built a reliable way to ingest, clean, and serve data to those models, WPP couldn’t unlock the true potential of generative AI. To sol]]></description>
 <pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/media-entertainment/how-wpp-operationalizes-platform-and-data-engineering-for-ai-marketing/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>How Malachyte solves retail’s cold-start problem with managed real-time AI</title>
-<link>https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</link>
-<description><![CDATA[What’s the best way to recommend products to little-known users? We’ve spent our careers trying to solve this problem for major companies like Spotify and Priceline, and it’s why Sidd founded Malachyte , an AI-powered ecommerce recommendation platform. These days, consumers have come to expect content that feels personalized and relevant, and online services competing for their attention have no choice but to do this exceptionally well. Malachyte was inspired by some unique insights into how advanced AI models, and large language models in particular, could be applied in new ways to old challenges like personalization and recommendations. As Malachyte set out to win potential customers’ business, we needed secure, scalable, reliable and, above all, leading-edge AI infrastructure to continue building the personalization algorithm we had always envisioned. By utilizing Google Cloud tools like Bigtable and Managed Service for Apache Kafka , Malachyte has been able to help some of its reta]]></description>
-<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/solving-retails-cold-start-problem-malachytes-recommendation-reinvention/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>ClusterNetworkPolicy in GKE: Balancing control and autonomy for your microservices</title>
-<link>https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/</link>
-<description><![CDATA[Managing network security in a multi-tenant Kubernetes environment typically requires balancing two distinct needs: developers need their microservices to communicate effectively, while platform and security teams must maintain compliance, prevent lateral movement, and establish cluster-wide guardrails. Historically, the standard Kubernetes NetworkPolicy has been the primary tool for this. While effective for single-namespace isolation, standard NetworkPolicy is scoped strictly to individual namespaces and designed around developer self-service. When cluster administrators attempt to use it for global security enforcement, it can lead to policy conflicts and operational challenges. To address this, we introduced ClusterNetworkPolicy (CNP) , an open-source standard developed by the Kubernetes SIG-Policy Working Group (WG), to Google Kubernetes Engine (GKE). Designed for scale, CNP is a cluster-wide resource that allows administrators to manage network security centrally, providing a mec<br/><br/><em>Tags: Kubernetes</em>]]></description>
-<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/networking/new-clusternetworkpolicy-in-gke/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Kubernetes</category>
-</item>
-<item>
-<title>Google named a Leader in The Forrester Wave™: AI Platforms, Q3 2026</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</link>
-<description><![CDATA[At Google Cloud, we help organizations of all sizes build and operationalize complex agentic workflows with total confidence. By combining world-class AI research with an open, fully integrated AI platform, we give customers the flexibility to innovate and the foundation to deliver measurable business value. At the center of it all is Gemini Enterprise, a unified platform designed to power the agentic enterprise , meet builders where they are , and deliver enterprise trust by default . We believe this integrated approach is why Google has been named a Leader in The Forrester Wave ™: AI Platforms, Q3 2026 report , and received the highest score in the Strategy category . Powering the Agentic Era As agents become embedded across every part of the business, organizations need a unified platform. Gemini Enterprise serves as the front door to AI for your entire organization, removing the silos between business users, developers, and IT leaders by connecting them all with shared, universal c]]></description>
-<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-the-forrester-wave-ai-platforms/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
@@ -3422,16 +3398,6 @@
 <category>Apple iOS/macOS</category>
 <category>CVE-2026-43760</category>
 <category>CVE-2026-65400</category>
-</item>
-<item>
-<title>Zero-code, low-cost data ingestion: New BigQuery DTS capabilities</title>
-<link>https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/</link>
-<description><![CDATA[In a fast-paced digital economy, data is your most critical engine. Yet, many enterprises find themselves trapped in a costly paradox, spending over 100 hours a week building and fixing fragile, in-house ETL pipelines or wrestling with unpredictable third-party tools. Trusted by thousands of customers every single day , BigQuery Data Transfer Service (DTS) eliminates this engineering burden. As a fully managed, zero-code data movement solution, BigQuery DTS automates data ingestion into BigQuery allowing your teams to transition from pipeline maintenance to strategic data science in minutes. Expanding the ecosystem: New connectors and capabilities We are rapidly expanding our integration landscape to eliminate data silos across databases, ads and marketing platforms. Here are the latest additions and enhancements Open Lakehouse ingestion Direct ingestion into Apache Iceberg managed tables (Preview) : You can now ingest data from common sources such as Google Cloud Storage, Amazon S3, a<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Fri, 07 Aug 2026 17:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>AI-Generated Patches Fail Half the Time</title>
@@ -4491,6 +4457,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
+<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
+<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
+<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>2608-volatility-interlock</title>
 <link>https://www.sophos.com/en-us/blog/2608-volatility-interlock</link>
 <description><![CDATA[&lt;p&gt;Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists&lt;/p&gt; Categories: Threat Research<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -4509,15 +4484,6 @@
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
 <category>CVE-2026-18577</category>
-</item>
-<item>
-<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
-<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
-<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
-<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Worm compromises hundreds of popular npm packages</title>
@@ -5259,6 +5225,18 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Critical VMware vCenter Vulnerabilities Allow Authentication Bypass and Remote Code Execution (CVE-2026-59309, CVE-2026-59310)</title>
+<link>https://www.rapid7.com/blog/post/etr-critical-vmware-vcenter-vulnerabilities-allow-authentication-bypass-and-remote-code-execution-cve-2026-59309-cve-2026-59310</link>
+<description><![CDATA[Overview On July 29, 2026, Broadcom published security advisory VMSA-2026-0006 addressing multiple vulnerabilities in several VMWare products. Included in the advisory are two critical remotely exploitable vulnerabilities affecting VMware vCenter Server: CVE-2026-59309 and CVE-2026-59310 . Both vulnerabilities carry CVSSv3.1 base scores of 9.8 and can be exploited by unauthenticated attackers with network access to a vulnerable vCenter Server. CVE CVSSv3.1 Description Summary CVE-2026-59309 9.8 (Critical) An authentication bypass vulnerability in the VMware Directory Service of vCenter that could allow a remote attacker to bypass authentication and gain unauthorized access to the vCenter management plane. CVE-2026-59310 9.8 (Critical) A directory traversal vulnerability in the vCenter Syslog server that could allow an attacker with network access to execute arbitrary code. VMware vCenter Server provides centralized management for VMware vSphere environments, allowing administrators to <br/><br/><em>Tags: VMware · CVE-2026-59309 · CVE-2026-59310</em>]]></description>
+<pubDate>Thu, 30 Jul 2026 10:35:21 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/etr-critical-vmware-vcenter-vulnerabilities-allow-authentication-bypass-and-remote-code-execution-cve-2026-59309-cve-2026-59310</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+<category>VMware</category>
+<category>CVE-2026-59309</category>
+<category>CVE-2026-59310</category>
+</item>
+<item>
 <title>Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks</title>
 <link>https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/</link>
 <description><![CDATA[Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .]]></description>
@@ -5823,21 +5801,21 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>2607-secai</title>
-<link>https://www.sophos.com/en-us/blog/2607-secai</link>
-<description><![CDATA[&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research]]></description>
-<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.sophos.com/en-us/blog/2607-secai</guid>
-<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
 <link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
 <description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>2607-secai</title>
+<link>https://www.sophos.com/en-us/blog/2607-secai</link>
+<description><![CDATA[&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research]]></description>
+<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.sophos.com/en-us/blog/2607-secai</guid>
+<source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
 </item>
 <item>
@@ -7865,6 +7843,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
+<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
+<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
+<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Vect and TeamPCP partner for ransomware campaigns</title>
 <link>https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns</link>
 <description><![CDATA[Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Categories: Threat Research Tags: Vect, TeamPCP, Ransomware<br/><br/><em>Tags: TeamPCP · ransomware_extortion · supply_chain</em>]]></description>
@@ -7875,15 +7862,6 @@
 <category>TeamPCP</category>
 <category>ransomware_extortion</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
-<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
-<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
-<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Lateral Movement Attack: Techniques, Detection &amp; Prevention</title>
@@ -18626,7 +18604,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18635,7 +18613,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18644,7 +18622,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18654,7 +18632,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18663,7 +18641,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18672,7 +18650,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18681,7 +18659,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18690,7 +18668,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18699,7 +18677,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18708,7 +18686,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 15:39:33 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 16:41:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
