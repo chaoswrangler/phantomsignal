@@ -6,9 +6,39 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 20 Aug 2026 13:00:45 +0000</lastBuildDate>
+<lastBuildDate>Thu, 20 Aug 2026 13:51:39 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>&apos;Grandoreiro&apos; Malware Resurfaces With Mexico Campaign</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign</link>
+<description><![CDATA[The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.]]></description>
+<pubDate>Thu, 20 Aug 2026 13:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia</title>
+<link>https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/</link>
+<description><![CDATA[Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks. The post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek .]]></description>
+<pubDate>Thu, 20 Aug 2026 13:16:35 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive</title>
+<link>https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/</link>
+<description><![CDATA[Research by: Jiří Vinopal (@vinopaljiri) Abstract What if a trusted security component could be repurposed into an attacker-controlled kernel primitive? What if a signed Microsoft remediation driver could be instructed to execute arbitrary file and registry operations from Ring 0 – without exploits, vulnerabilities, or memory corruption? In this publication, we present the first full […] The post BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive appeared first on Check Point Research .<br/><br/><em>Tags: Android · OpenAI/ChatGPT · ransomware_extortion</em>]]></description>
+<pubDate>Thu, 20 Aug 2026 13:07:13 +0000</pubDate>
+<guid isPermaLink="true">https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/</guid>
+<source url="https://research.checkpoint.com/feed/">Check Point Research</source>
+<category>threat_research_primary</category>
+<category>Android</category>
+<category>OpenAI/ChatGPT</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities</title>
 <link>https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/</link>
@@ -41,6 +71,15 @@
 <category>CVE-2026-64849</category>
 </item>
 <item>
+<title>Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments</title>
+<link>https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html</link>
+<description><![CDATA[Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card&apos;s cryptography. The attack, which the researchers named &quot;Zombie Card,&quot; requires physical]]></description>
+<pubDate>Thu, 20 Aug 2026 12:01:24 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities</title>
 <link>https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/</link>
 <description><![CDATA[The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek .<br/><br/><em>Tags: Citrix · GitLab · WordPress · CVE-2026-20030 · CVE-2026-20357 · CVE-2026-20358 · CVE-2026-20359 · CVE-2026-20315</em>]]></description>
@@ -52,6 +91,26 @@
 <category>GitLab</category>
 <category>WordPress</category>
 <category>CVE-2026-20030</category>
+</item>
+<item>
+<title>CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification</title>
+<link>https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html</link>
+<description><![CDATA[Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server. The attacks, collectively named &quot;CDN Tsunami,&quot; were evaluated against Alibaba, Baidu,<br/><br/><em>Tags: ddos</em>]]></description>
+<pubDate>Thu, 20 Aug 2026 11:39:35 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>ddos</category>
+</item>
+<item>
+<title>Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices</title>
+<link>https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html</link>
+<description><![CDATA[A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications. &quot;Manic sits at the intersection of Android banking malware and mobile spyware, combining financial-fraud<br/><br/><em>Tags: Android</em>]]></description>
+<pubDate>Thu, 20 Aug 2026 11:26:08 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Android</category>
 </item>
 <item>
 <title>Corero brings cloud-based AI threat analysis to SmartWall ONE</title>
@@ -1755,15 +1814,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>AI’s ‘middle class’ has gotten dramatically better at hacking</title>
-<link>https://cyberscoop.com/mid-tier-ai-models-hacking-threat/</link>
-<description><![CDATA[As frontier models and their sandbox escaping exploits dominate front-page news, researchers are increasingly worried about cheaper, more efficient AI models. The post AI’s ‘middle class’ has gotten dramatically better at hacking appeared first on CyberScoop .]]></description>
-<pubDate>Thu, 13 Aug 2026 16:55:02 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/mid-tier-ai-models-hacking-threat/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>What 50 open source projects taught us about security in the AI era</title>
 <link>https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/</link>
 <description><![CDATA[See how the open source projects in Session 4 of the GitHub Secure Open Source Fund combined AI-assisted workflows, maintainer expertise, GitHub security tools, expert guidance, and funding to improve project security. The post What 50 open source projects taught us about security in the AI era appeared first on The GitHub Blog .<br/><br/><em>Tags: GitHub · Azure</em>]]></description>
@@ -1856,12 +1906,11 @@
 <item>
 <title>Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain</title>
 <link>https://www.wiz.io/blog/securing-personal-repositories</link>
-<description><![CDATA[Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.<br/><br/><em>Tags: GitHub · supply_chain</em>]]></description>
+<description><![CDATA[Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix.<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Thu, 13 Aug 2026 13:48:56 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/securing-personal-repositories</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>GitHub</category>
 <category>supply_chain</category>
 </item>
 <item>
@@ -1885,6 +1934,15 @@
 <category>threat_research_primary</category>
 <category>Anthropic/Claude</category>
 <category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Fake Refund Scam Hits Shopify Shop App Users</title>
+<link>https://www.huntress.com/blog/shopify-fake-refund-scam</link>
+<description><![CDATA[A Shopify fake refund scam has been making the rounds over the past few months, targeting Shopify’s Shop app users directly within the app. Here’s what to know.]]></description>
+<pubDate>Thu, 13 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/shopify-fake-refund-scam</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>The State of Ransomware Q2 2026</title>
@@ -1924,15 +1982,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Android</category>
-</item>
-<item>
-<title>North Korean Remote Workers Are Infiltrating Government and Businesses: How to Expose Them Before Hiring</title>
-<link>https://thehackernews.com/2026/08/north-korean-remote-workers-are.html</link>
-<description><![CDATA[Companies are used to thinking about attackers as outsiders trying to break in. North Korean IT workers flip that model. They apply for jobs, pass interviews, receive legitimate credentials, and can end up inside the same systems companies spend millions trying to protect. That risk is no longer theoretical. The FBI is now investigating a North Korean remote IT worker who reportedly worked for]]></description>
-<pubDate>Thu, 13 Aug 2026 11:45:00 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/north-korean-remote-workers-are.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Cloud Infrastructure Security: Risks and Best Practices</title>
@@ -2040,17 +2089,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Attackers Exploit SharePoint Authentication Bypass After Public PoC Release</title>
-<link>https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</link>
-<description><![CDATA[Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. &quot;The authentication<br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-55040</em>]]></description>
-<pubDate>Thu, 13 Aug 2026 06:09:48 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft SharePoint</category>
-<category>CVE-2026-55040</category>
-</item>
-<item>
 <title>AI Offense is Not Noclip Mode</title>
 <link>https://trustedsec.com/blog/ai-offense-is-not-noclip-mode</link>
 <description><![CDATA[&lt;p&gt;AI doesn&apos;t let attackers walk through walls, but it makes finding the cracks more efficient. In this blog, we cut through the hype and explain what AI-driven offense really looks like and why hard controls still work.&lt;/p&gt;]]></description>
@@ -2145,19 +2183,6 @@
 <category>CVE-2026-53415</category>
 </item>
 <item>
-<title>Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor</title>
-<link>https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</link>
-<description><![CDATA[The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity, per Check Point Research, is part of Operation Dream Job, a long-running cyber espionage and<br/><br/><em>Tags: Lazarus · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 17:39:27 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>Lazarus</category>
-<category>zero_day</category>
-<category>apt_espionage</category>
-<category>web_shell_backdoor</category>
-</item>
-<item>
 <title>From Patch Tuesday to Pentest Wednesday®: How a Major Transportation Company Turned AWS Attack Paths Into Action</title>
 <link>https://horizon3.ai/intelligence/blogs/aws-attack-paths-pentest-wednesday/</link>
 <description><![CDATA[See how a major transportation company used repeated NodeZero® AWS pentests to uncover exploitable IAM attack paths, prioritize meaningful risk, and verify that remediation actually closed the exposure.<br/><br/><em>Tags: AWS</em>]]></description>
@@ -2201,15 +2226,6 @@
 <pubDate>Wed, 12 Aug 2026 14:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/windrelay-nfc-relay-spynote-rat/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One</title>
-<link>https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html</link>
-<description><![CDATA[A massive set of 737 free VPN and proxy extensions have been found to mainly target Russian-speaking users seeking access to blocked services with an aim to intercept browser traffic and route them through a proxy infrastructure. The extensions, published across at least 40 Chrome Web Store developer accounts, racked up 75,486 installs. Of those identified, 274 have been found to impersonate 66]]></description>
-<pubDate>Wed, 12 Aug 2026 14:09:50 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -4416,16 +4432,6 @@
 <category>data_breach</category>
 </item>
 <item>
-<title>Device Code Phishing Up 1,500% in 2026; Vishing Doubles</title>
-<link>https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles</link>
-<description><![CDATA[Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Tue, 04 Aug 2026 07:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>TLS Encryption and Compliance</title>
 <link>https://trustedsec.com/blog/tls-encryption-and-compliance</link>
 <description><![CDATA[&lt;p&gt;Transport Layer Security: the compliance checkbox that&apos;s harder to get right than it looks. In this blog, we cover the most common TLS misconfigurations and what organizations need to know to meet the standard.&lt;/p&gt;]]></description>
@@ -5636,6 +5642,16 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -5645,16 +5661,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -7907,17 +7913,6 @@
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Browser-Only Ransomware: From LLM Hallucinations to a Practical Attack Technique</title>
-<link>https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/</link>
-<description><![CDATA[Research by: Alexey Bukhteyev Key Takeaways Introduction Over the past several years, large language models have reshaped software development, and malware development has followed the same path. Check Point Research has documented this trend from early experiments showing that AI systems could generate offensive components, to cases of cybercriminals using ChatGPT to create malicious tools, and […] The post Browser-Only Ransomware: From LLM Hallucinations to a Practical Attack Technique appeared first on Check Point Research .<br/><br/><em>Tags: OpenAI/ChatGPT · ransomware_extortion</em>]]></description>
-<pubDate>Wed, 01 Jul 2026 10:05:35 +0000</pubDate>
-<guid isPermaLink="true">https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/</guid>
-<source url="https://research.checkpoint.com/feed/">Check Point Research</source>
-<category>threat_research_primary</category>
-<category>OpenAI/ChatGPT</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Risky Bulletin: Researcher drops giant cache of zero-days</title>
@@ -18636,7 +18631,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18645,7 +18640,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18654,7 +18649,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18664,7 +18659,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18673,7 +18668,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18682,7 +18677,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18691,7 +18686,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18700,7 +18695,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18709,7 +18704,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18718,7 +18713,7 @@
 <title>Falcon Cloud Security July 2026 Release: Helping Security Teams Move Faster in the Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 20 Aug 2026 13:00:45 +0000</pubDate>
+<pubDate>Thu, 20 Aug 2026 13:51:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-helping-security-teams-move-faster/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
