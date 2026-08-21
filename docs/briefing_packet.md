@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-21T07:49:07.687229+00:00
+- Generated: 2026-08-21T08:49:32.374969+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 318
-- Total clusters raw: 141
+- Total items in window: 319
+- Total clusters raw: 140
 - Total clusters in packet: 56
-- Dropped low score: 85
+- Dropped low score: 84
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,16 +80,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -100,6 +100,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -109,42 +114,37 @@
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 2
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -155,10 +155,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 40
+  - Item count: 10
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -175,81 +175,76 @@
   - Status: ok
   - Item count: 50
   - In window count: 16
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 7
+  - Item count: 20
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 5
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -260,88 +255,88 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 8
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 10
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,13 +350,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 26
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -370,6 +360,21 @@
   - Status: ok
   - Item count: 30
   - In window count: 14
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 26
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -380,16 +385,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -400,23 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,16 +415,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -476,18 +476,18 @@
 ### Apple iOS/macOS exploitation (CVE-2026-68820)
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
-- Cluster count: 12
-- Article count: 19
-- Cohesion: 0.223
+- Cluster count: 11
+- Article count: 18
+- Cohesion: 0.222
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: CVE-2026-68820
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: credential_theft, web_shell_backdoor, ransomware_extortion, active_exploitation, phishing_social_eng
+  - threat_categories: web_shell_backdoor, credential_theft, active_exploitation, ransomware_extortion
   - affected_industries: government
   - affected_products: Apple iOS/macOS
-  - urgency_signals: preauth_unauth, actively_exploited
-- Cluster IDs: 496d2b45e6, 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 7d481c14a9, 114ded0230, 3ec665ac60, 388705e7c7, 2d052ce523, 20c2a82904
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: 496d2b45e6, 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 114ded0230, 3ec665ac60, 7d481c14a9, 388705e7c7, 20c2a82904
 - Links:
   - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
@@ -501,11 +501,10 @@
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
   - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
-  - https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - https://www.sophos.com/en-us/blog/2608-patch-tuesday
+  - https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-  - https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
   - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
 
 ### Citrix active exploitation
@@ -525,7 +524,7 @@
 - Cluster IDs: 7f1247614d, 0d83fa199c, 94883eb56c
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
-  - https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/
+  - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
   - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
   - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
 
@@ -533,7 +532,7 @@
 - Anchor signal: Cisco
 - Theme key: cisco
 - Cluster count: 3
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.27
 - Shared strong signals: Cisco
 - Member CVEs: (none)
@@ -544,7 +543,7 @@
 - Cluster IDs: 7b38f69250, d5a759a910, 4994a64df5
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
-  - https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
+  - https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
   - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   - https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
   - https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
@@ -571,11 +570,33 @@
   - https://www.exploit-db.com/exploits/52642
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
 
+### ransomware extortion targeting Android
+- Anchor signal: Android
+- Theme key: android
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.444
+- Shared strong signals: Android
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion
+  - affected_industries: financial_services
+  - affected_products: Android, OpenAI/ChatGPT
+- Cluster IDs: 9101d8d7ac, e7f188e340, 8a66834bf6
+- Links:
+  - https://securelist.com/android-head-unit-malware/121106/
+  - https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/
+  - https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
+  - https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems
+  - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
+  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+
 ### GitLab active exploitation
 - Anchor signal: GitLab
 - Theme key: gitlab
 - Cluster count: 3
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.24
 - Shared strong signals: GitLab
 - Member CVEs: (none)
@@ -588,7 +609,7 @@
 - Cluster IDs: 7b38f69250, 0d83fa199c, 94883eb56c
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
-  - https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
+  - https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
   - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
   - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
@@ -632,30 +653,8 @@
 - Cluster IDs: 7f1247614d, 844772e10d
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
-  - https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/
+  - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
   - https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
-
-### Medusa targeting Apple iOS/macOS
-- Anchor signal: Medusa
-- Theme key: medusa
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.315
-- Shared strong signals: Medusa
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft
-  - actor_attribution: Medusa
-  - affected_industries: critical_infrastructure, financial_services, government
-  - affected_products: Apple iOS/macOS
-  - urgency_signals: preauth_unauth
-- Cluster IDs: c7e8884f67, 2d052ce523, 20c2a82904
-- Links:
-  - https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/
-  - https://www.infosecurity-magazine.com/news/critical-infrastructure-medusa/
-  - https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
-  - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
 
 ### CVE-2026-73570 exploitation activity
 - Anchor signal: CVE-2026-73570
@@ -715,23 +714,25 @@
   - https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html
   - https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/
 
-### ransomware extortion targeting Android
-- Anchor signal: Android
-- Theme key: android
+### credential theft targeting Palo Alto Networks
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.727
-- Shared strong signals: Android
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion
-  - affected_industries: financial_services
-  - affected_products: Android, OpenAI/ChatGPT
-- Cluster IDs: e7f188e340, 8a66834bf6
+  - threat_categories: credential_theft
+  - affected_products: Palo Alto Networks
+- Cluster IDs: bd5d2abe67, 213e3c4494
 - Links:
-  - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
-  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+  - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://isc.sans.edu/diary/rss/33254
+  - https://www.huntress.com/blog/fake-claude-macsync
+  - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
+  - https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
 
 ## Forward signals
 
@@ -840,7 +841,7 @@
 - affected_products: Citrix
 - cve_ids: CVE-2026-19490
 - urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
@@ -870,11 +871,11 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-19490: Critical Vulnerability
   - Published: 2026-08-19T16:46:06+00:00
   - Link: https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
   - Summary: Overview On August 19, 2026, a security advisory was published for CVE-2026-19490 , a critical authentication bypass vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. The vulnerability carries a CVSS v4.0 base score of 9.3 and can be exploited remotely by an unauthenticated attacker over the network without user interaction or elevated privileges. NetScaler ADC and NetScaler Gateway are widely deployed enterprise networking products commonly positioned at or near the network perimeter. NetScaler ADC provides application delivery, traffic management, load balancing, SSL/TLS offloading, and application security capabilities, while NetScaler Gateway provides secure remote access and VPN functionality. Because these systems are frequently deployed in enterprise DMZs and exposed to the public internet, authentication bypass vulnerabilities affecting Citrix products are nearly always exploited by threat actors. CVE-2026-19490 affects the following systems: NetScaler ADC and
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler
-  - Published: 2026-08-20T08:33:25+00:00
-  - Link: https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/
-  - Summary: Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction. The post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler appeared first on SecurityWeek .
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Citrix urges customers to fix critical NetScaler authentication bypass (CVE-2026-19490)
+  - Published: 2026-08-21T07:55:43+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
+  - Summary: Citrix has patched two vulnerabilities in NetScaler ADC and NetScaler Gateway, including a critical authentication bypass flaw tracked as CVE-2026-19490, and is urging customers to upgrade affected appliances as soon as possible. “We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin, assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible,” Anil Shetty, senior VP of Engineering with Cloud Software Group … More → The post Citrix urges customers to fix critical NetScaler authentication bypass (CVE-2026-19490) appeared first on Help Net Security .
 
 ### Cluster 73e2ba5a94 — score 32
 
@@ -950,7 +951,7 @@ Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disc
 - Published: 2026-08-20T21:19:55+00:00
 - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
 - Fetch status: ok
-- Member count: 3
+- Member count: 4
 - Corroborating source count: 3
 - Strong signals: CVE-2026-19478, GitLab
 
@@ -990,10 +991,10 @@ Me GitLab CE/EE GraphQL Directive Code Injection Vulnerability CVE-2026-19478 is
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
   - Summary: CVE-2026-19478 is a critical GitLab GraphQL code injection vulnerability that can allow unauthenticated attackers to modify or delete public projects and user data.
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects
-  - Published: 2026-08-17T21:03:04+00:00
-  - Link: https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html
-  - Summary: GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an unauthenticated attacker to remotely modify or delete public projects and user data. The flaw, tracked as CVE-2026-19478, has been rated Critical by GitLab and assigned a CVSS score of 9.4. Released on
+  - Title: GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure
+  - Published: 2026-08-21T07:04:25+00:00
+  - Link: https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
+  - Summary: A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or delete publicly accessible GitLab projects and rewrite their data under certain conditions without requiring
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Critical GitLab Zero-Click Flaw Poses Mitigation Challenges
   - Published: 2026-08-18T21:25:58+00:00
@@ -1333,6 +1334,64 @@ CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE  Ra
   - Published: 2026-08-18T06:34:20+00:00
   - Link: https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than
+
+### Cluster 9101d8d7ac — score 18
+
+- Title: The invisible passenger in your car
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-21T08:00:29+00:00
+- Link: https://securelist.com/android-head-unit-malware/121106/
+- Fetch status: ok
+- Member count: 5
+- Corroborating source count: 4
+- Strong signals: Android
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services, government, manufacturing_industrial
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: financial_services, manufacturing_industrial
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky expert has discovered new Android malware designed to serve ads and build a proxy botnet. It's delivered through legitimate software for DoFun head units.
+```
+
+#### Full body
+
+```
+Table of Contents Head unit firmware overview The TWCore app Stage 1: the JarService dropper Stage 2: the loader Stage 3: clicker / reverse proxy loader Attribution Conclusion Indicators of compromise Stage 1: JarService Stage 2: loader Stage 3: loader/clicker zhima module Domains and IP addresses Addresses used to download JarService Hashes of TWCore (the legitimate software used to distribute JarService) Authors Dmitry Kalinin While monitoring Android threats in June 2026, we discovered a new piece of Android malware. What struck us as unusual was that it installed like an ordinary user app yet made no attempt to disguise itself as legitimate software: it had no user interface at all. This led us to suspect the app might be reaching users’ devices without their knowledge. Further investigation confirmed that hypothesis and allowed us to reconstruct the entire infection chain. Key findings: We identified new Android malware: a multi-stage downloader whose ultimate purpose is ad fraud and creation of a proxy botnet. The malware spread through the built-in updaters of Android-based automotive head unit firmware. This is the first documented case of malware found on a car head unit with an infection chain specific to that type of device. We attribute this activity, with high confidence, to the MoYu Group, an actor linked to the BADBOX botnet. Kaspersky solutions detect the threats described below under the following detection names: HEUR:Trojan-Dropper.AndroidOS.Agent.vu HEUR:Trojan-Downloader.AndroidOS.Agent.ov HEUR:Trojan-Proxy.AndroidOS.Zhima.* HEUR:Trojan.AndroidOS.Vo1d.* Head unit firmware overview A head unit is a system that combines multimedia functions with partial control over certain vehicle functions. Head units may come as part of a car’s factory equipment or as an aftermarket upgrade. The main attack vectors for these systems are compromise via physical access and vulnerabilities in the head unit’s OS or components, both of which we’ve covered previously . In some cases, head units run on Android, primarily because it’s convenient for manufacturers: Android’s source code already accounts for use cases within automotive head units. Android also allows manufacturers to add their own system applications during the build process, which they can use for a range of purposes: customizing the UI, adding system components tailored to the vendor’s needs, and more. Most apps developed for Android devices can also run on an Android-based head unit, and that is true for malware as well. That said, it’s hard to imagine certain categories of smartphone-targeted malware being used to attack a head unit. Banking Trojans are a good example: since mobile banking is used almost exclusively on smartphones, infecting a head unit with a banking Trojan would be a waste of the attacker’s resources. It’s worth noting that head units often include SIM card slots and can connect to the internet, enabling features like navigation and software updates. Since a head unit typically holds nothing of value to an attacker, one of the more likely attack scenarios using “classic” Android malware is infecting the device to recruit it into a botnet – similar to attacks on IoT devices. During our research, we found exactly that kind of malware. The design of firmware for DoFun head units enabled attackers to distribute malware. We notified the vendor about the distribution scheme, and they subsequently reported fixing the security issues. Below is the entire infection chain: Head unit infection scheme Let’s look at exactly how these head units became infected. The TWCore app TWCore is a legitimate system application responsible for collecting analytics data and updating the head unit software. Let’s take a closer look at how the update function works. The process is fairly simple. An MQTT message broker hosted on the subdomain cardoor[.]cn sends a message containing information about the APK files that need to be downloaded and installed on the head unit
+```
+
+#### Corroborating sources (4)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: The invisible passenger in your car
+  - Published: 2026-08-21T08:00:29+00:00
+  - Link: https://securelist.com/android-head-unit-malware/121106/
+  - Summary: Kaspersky expert has discovered new Android malware designed to serve ads and build a proxy botnet. It's delivered through legitimate software for DoFun head units.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New Manic Android malware can exfiltrate data through nearby devices
+  - Published: 2026-08-20T10:02:02+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/
+  - Summary: A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices
+  - Published: 2026-08-20T11:26:08+00:00
+  - Link: https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
+  - Summary: A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications. "Manic sits at the intersection of Android banking malware and mobile spyware, combining financial-fraud
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Video Call Exploit Chains Two Flaws in Unisoc Modems
+  - Published: 2026-08-17T21:37:23+00:00
+  - Link: https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems
+  - Summary: Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.
 
 ### Cluster 175a6a518c — score 17
 
@@ -1776,47 +1835,6 @@ Threat Research Center Threat Research Malware Malware Identity Abuse Through Tr
   - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
   - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
 
-### Cluster a7d83e74e6 — score 11
-
-- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-20T17:52:13+00:00
-- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-  - Published: 2026-08-20T17:52:13+00:00
-  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-
 ### Cluster e7f188e340 — score 11
 
 - Title: BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive
@@ -1861,6 +1879,47 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-08-20T13:07:13+00:00
   - Link: https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - Summary: Research by: Jiří Vinopal (@vinopaljiri) Abstract What if a trusted security component could be repurposed into an attacker-controlled kernel primitive? What if a signed Microsoft remediation driver could be instructed to execute arbitrary file and registry operations from Ring 0 – without exploits, vulnerabilities, or memory corruption? In this publication, we present the first full […] The post BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive appeared first on Check Point Research .
+
+### Cluster a7d83e74e6 — score 11
+
+- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-20T17:52:13+00:00
+- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+  - Published: 2026-08-20T17:52:13+00:00
+  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster d5a759a910 — score 11
 
@@ -2545,7 +2604,6 @@ CISA warns of hackers exploiting critical MLflow vulnerability By Sergiu Gatlan 
 - threat_categories: active_exploitation, credential_theft
 - affected_industries: government
 - affected_products: Citrix, GitHub, GitLab
-- tools_used: OpenAI/ChatGPT
 - cve_ids: CVE-2026-64849
 - urgency_signals: preauth_unauth
 - content_type: vulnerability_disclosure
@@ -2555,7 +2613,6 @@ CISA warns of hackers exploiting critical MLflow vulnerability By Sergiu Gatlan 
 - threat_categories: credential_theft, active_exploitation
 - affected_industries: government
 - affected_products: Citrix, GitLab, GitHub
-- tools_used: OpenAI/ChatGPT
 - cve_ids: CVE-2026-64849
 - urgency_signals: preauth_unauth
 - content_type: vulnerability_disclosure
@@ -2570,7 +2627,7 @@ The critical-severity flaw allows attackers to send HTTP requests to internal en
 #### Full body
 
 ```
-Threat actors have been exploiting a recent MLflow vulnerability to steal sensitive information, including credentials and secrets. An open source AI engineering platform, MLflow allows users to manage the end-to-end machine learning lifecycle and deploy AI agents, LLMs, and ML models in production. It has over 27,000 GitHub stars and more than 60 million monthly downloads. Tracked as CVE-2026-64849 (CVSS score of 9.3), the exploited security defect is described as an unauthenticated server-side request forgery (SSRF) issue that allows attackers to send HTTP requests to internal endpoints. The issue exists because the default MLflow Tracking Server (mlflow server) exposes the model-registry webhooks API without authentication, according to MLflow’s advisory . One of the exposed endpoints would return the upstream response status and body to the caller, and an SSRF protection that was added in version 3.10.0 could be bypassed. “Attackers are exploiting the vulnerability to reach cloud metadata services directly and exfiltrate cloud credentials and secrets,” attack surface management firm WatchTowr warns . Advertisement. Scroll to continue reading. According to the company, in-the-wild exploitation started within hours of CVE assignment, targeting cloud-hosted instances. “All MLflow versions before 3.15.0 are affected. If your organization runs MLflow, prioritize patching any exposed systems, review audit logs for signs of compromise, and check whether sensitive credentials may have been exposed,” WatchTowr says. On Wednesday, the US cybersecurity agency CISA added CVE-2026-64849 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations. Related: Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Chrome, Firefox Updates Patch Dozens of Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Chrome, Firefox Updates Patch Dozens of Vulnerabilities Xpander Raises $7.5 Million for AI Management and Governance Latest News CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices f
+Threat actors have been exploiting a recent MLflow vulnerability to steal sensitive information, including credentials and secrets. An open source AI engineering platform, MLflow allows users to manage the end-to-end machine learning lifecycle and deploy AI agents, LLMs, and ML models in production. It has over 27,000 GitHub stars and more than 60 million monthly downloads. Tracked as CVE-2026-64849 (CVSS score of 9.3), the exploited security defect is described as an unauthenticated server-side request forgery (SSRF) issue that allows attackers to send HTTP requests to internal endpoints. The issue exists because the default MLflow Tracking Server (mlflow server) exposes the model-registry webhooks API without authentication, according to MLflow’s advisory . One of the exposed endpoints would return the upstream response status and body to the caller, and an SSRF protection that was added in version 3.10.0 could be bypassed. “Attackers are exploiting the vulnerability to reach cloud metadata services directly and exfiltrate cloud credentials and secrets,” attack surface management firm WatchTowr warns . Advertisement. Scroll to continue reading. According to the company, in-the-wild exploitation started within hours of CVE assignment, targeting cloud-hosted instances. “All MLflow versions before 3.15.0 are affected. If your organization runs MLflow, prioritize patching any exposed systems, review audit logs for signs of compromise, and check whether sensitive credentials may have been exposed,” WatchTowr says. On Wednesday, the US cybersecurity agency CISA added CVE-2026-64849 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations. Related: Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Chrome, Firefox Updates Patch Dozens of Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Chrome, Firefox Updates Patch Dozens of Vulnerabilities Xpander Raises $7.5 Million for AI Management and Governance Latest News Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Rolls Out 22 Fresh Security Patches CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe
 ```
 
 #### Corroborating sources (1)
@@ -2580,49 +2637,6 @@ Threat actors have been exploiting a recent MLflow vulnerability to steal sensit
   - Published: 2026-08-20T12:05:55+00:00
   - Link: https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
   - Summary: The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek .
-
-### Cluster 7d481c14a9 — score 9
-
-- Title: Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-20T20:22:35+00:00
-- Link: https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: crates.io
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_products: Apple iOS/macOS, crates.io
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: crates.io, Apple iOS/macOS
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner
-```
-
-#### Full body
-
-```
-Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads  Swati Khandelwal  Aug 20, 2026 Software Security / Supply Chain Attack The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner account on August 20, 2026, and all removed within 86 to 107 minutes. Because the malicious code sat in the build script of the injected dependency, building a project that resolved it was sufficient to run the payload, and nothing from the crates themselves had to be called. Developers are advised to search ~/.cargo/registry/cache for the deleted crate files and to pin arrayref at 0.3.9 or earlier, after the Rust Security Response Team unyanked the maliciously-yanked versions during the response. There is no patched version, no CVE identifier has been assigned, and the RustSec advisories for all three crates record no evidence that any malicious version was used. "A new version of the arrayref crate was published with a direct dependency on proc-macro1 , which would execute a malicious build script. This compromised version was published on 2026-08-20 and removed approximately 86 minutes later, with no evidence of actual usage," RUSTSEC-2026-0260 said. The Hacker News has reached out to the Rust Security Response Team for the basis of that finding and for the download count of the deleted versions, but had not received a response at the time of writing. The Rust Security Response Team said it received the report that the proc-macro1 crate was malicious at 07:15 UTC on August 20 and verified that the crate carried a build script downloading a malicious payload, in an advisory post crediting the Research Team at Nextron Systems GmbH with initially discovering and reporting it. "We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them," the Rust Security Response Team said. The Hacker News confirmed via the crates.io API on August 21 that the sole listed owner of arrayref is user 2402, David Roundy, registered in October 2009. How the account was compromised has not been disclosed. The Rust Security Response Team listed the malicious versions it deleted, with the time each was online - arrayref@0.3.10 : published at 2026-08-20T07:15:00Z, deleted at 08:41:40Z. Online for 86 minutes. internment@0.8.7 : published at 07:34:07Z, deleted at 09:04:11Z. Online for 90 minutes. append-only-vec@0.1.9 : published at 07:37:49Z, deleted at 09:25:24Z. Online for 107 minutes. proc-macro1 , proc-macro-en , aovine , arone , aronenao , and tinymember , any versions. Each compromised release carried a single added line in its manifest, a dependency on proc-macro1 , a typosquat of the ubiquitous proc-macro2 crate. The library source of proc-macro1 is a genuine copy of proc-macro2 , so builds completed normally. The build script reassembles its payload host and command-and-control (C2) address from base64 fragments at build time. It then installs a custom certificate verifier whose three verification methods return success unconditionally, disabling TLS validation. It selects one of four payloads by operating system and CPU architecture. On Unix and macOS it writes the bytes to /tmp/rust-setup , marks the file executable, and spawns it detached with the C2 address as its first argument. On Windows it writes a PowerShell script to %TEMP% and launches it hidden through a VBScript launcher under wscript.exe , then abandons the child process, a step commented in the source as escaping Cargo's job object so the build does not wait on it. Delivery relied on the owner account yanking arrayref 0.3.5 through 0.3.
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads
-  - Published: 2026-08-20T20:22:35+00:00
-  - Link: https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
-  - Summary: The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner
 
 ### Cluster 844772e10d — score 9
 
@@ -3011,7 +3025,7 @@ The flaws could lead to remote code execution, authentication bypasses, and path
 #### Full body
 
 ```
-Cisco on Wednesday announced patches for 15 vulnerabilities across its products, including critical- and high-severity flaws in Crosswork and Secure Workload. Crosswork version 7.2.1-SP was released with fixes for four critical-severity CVEs. Three of them, CVE-2026-20030, CVE-2026-20357, and CVE-2026-20358, have a maximum severity rating (CVSS score of 10/10), while the fourth, CVE-2026-20359, has a near-max severity (CVSS score of 9.9/10). According to Cisco, each CVE groups multiple issues under the same underlying vulnerability class. The first three are SQL injection, missing authentication, and external control of file system issues, while the fourth includes insufficient protection of credentials. Successful exploitation of these security defects could potentially allow attackers to mount remote code execution (RCE), authentication bypass, path traversal, and file overwrite/deletion attacks. On Wednesday, Cisco rolled out Secure Workload versions 4.0.4.16 and 3.10.9.1 with fixes for five CVEs that also group multiple issues, including four with a ‘critical’ severity rating. CVE-2026-20315 and CVE-2026-20317 cover improper access control and authentication bugs potentially leading to bypasses; CVE-2026-20231 groups code/OS command injections; and CVE-2026-20318 covers input validation and path traversal issues. Advertisement. Scroll to continue reading. The fifth CVE covers buffer overflows and out-of-bounds write issues, collectively tracked as CVE-2026-20319. Cisco also resolved a high-severity security defect in the Open Client Interface (OCI) XML parser of BroadWorks that could be exploited remotely without authentication to read sensitive configuration information. Tracked as CVE-2026-20320, it existed because external entity resolution was allowed by default, allowing attackers to send crafted XML messages and view sensitive files with BroadWorks user privileges. The flaw was resolved in version RI.2026.07 of BroadWorks Application Delivery Platform, BroadWorks Application Server, BroadWorks Profile Server, and BroadWorks Xtended Services Platform. Additionally, the company rolled out fixes for medium-severity weaknesses in Unified Intelligence Center, RoomOS, Industrial Ethernet (IE) 1000 series switches, and Packaged Contact Center Enterprise (CCE) and Unified Contact Center Enterprise (CCE). Cisco says it is not aware of any of these vulnerabilities being exploited in the wild. Additional information can be found on the company’s security advisories page. Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Hackers Using AI to Target Siemens PLCs in Critical US Sectors Related: CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Chrome, Firefox Updates Patch Dozens of Vulnerabilities Xpander Raises $7.5 Million for AI Management and Governance Latest News CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability E
+Cisco on Wednesday announced patches for 15 vulnerabilities across its products, including critical- and high-severity flaws in Crosswork and Secure Workload. Crosswork version 7.2.1-SP was released with fixes for four critical-severity CVEs. Three of them, CVE-2026-20030, CVE-2026-20357, and CVE-2026-20358, have a maximum severity rating (CVSS score of 10/10), while the fourth, CVE-2026-20359, has a near-max severity (CVSS score of 9.9/10). According to Cisco, each CVE groups multiple issues under the same underlying vulnerability class. The first three are SQL injection, missing authentication, and external control of file system issues, while the fourth includes insufficient protection of credentials. Successful exploitation of these security defects could potentially allow attackers to mount remote code execution (RCE), authentication bypass, path traversal, and file overwrite/deletion attacks. On Wednesday, Cisco rolled out Secure Workload versions 4.0.4.16 and 3.10.9.1 with fixes for five CVEs that also group multiple issues, including four with a ‘critical’ severity rating. CVE-2026-20315 and CVE-2026-20317 cover improper access control and authentication bugs potentially leading to bypasses; CVE-2026-20231 groups code/OS command injections; and CVE-2026-20318 covers input validation and path traversal issues. Advertisement. Scroll to continue reading. The fifth CVE covers buffer overflows and out-of-bounds write issues, collectively tracked as CVE-2026-20319. Cisco also resolved a high-severity security defect in the Open Client Interface (OCI) XML parser of BroadWorks that could be exploited remotely without authentication to read sensitive configuration information. Tracked as CVE-2026-20320, it existed because external entity resolution was allowed by default, allowing attackers to send crafted XML messages and view sensitive files with BroadWorks user privileges. The flaw was resolved in version RI.2026.07 of BroadWorks Application Delivery Platform, BroadWorks Application Server, BroadWorks Profile Server, and BroadWorks Xtended Services Platform. Additionally, the company rolled out fixes for medium-severity weaknesses in Unified Intelligence Center, RoomOS, Industrial Ethernet (IE) 1000 series switches, and Packaged Contact Center Enterprise (CCE) and Unified Contact Center Enterprise (CCE). Cisco says it is not aware of any of these vulnerabilities being exploited in the wild. Additional information can be found on the company’s security advisories page. Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Hackers Using AI to Target Siemens PLCs in Critical US Sectors Related: CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Chrome, Firefox Updates Patch Dozens of Vulnerabilities Xpander Raises $7.5 Million for AI Management and Governance Latest News Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Rolls Out 22 Fresh Security Patches CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras i
 ```
 
 #### Corroborating sources (1)
@@ -3064,6 +3078,49 @@ Cyberattacks & Data Breaches Cybersecurity Operations Cyber Risk Data Privacy Ne
   - Published: 2026-08-14T15:58:50+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office
   - Summary: One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.
+
+### Cluster 7d481c14a9 — score 8
+
+- Title: Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-20T20:22:35+00:00
+- Link: https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: crates.io
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: Apple iOS/macOS, crates.io
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: crates.io, Apple iOS/macOS
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner
+```
+
+#### Full body
+
+```
+Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads  Swati Khandelwal  Aug 20, 2026 Software Security / Supply Chain Attack The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner account on August 20, 2026, and all removed within 86 to 107 minutes. Because the malicious code sat in the build script of the injected dependency, building a project that resolved it was sufficient to run the payload, and nothing from the crates themselves had to be called. Developers are advised to search ~/.cargo/registry/cache for the deleted crate files and to pin arrayref at 0.3.9 or earlier, after the Rust Security Response Team unyanked the maliciously-yanked versions during the response. There is no patched version, no CVE identifier has been assigned, and the RustSec advisories for all three crates record no evidence that any malicious version was used. "A new version of the arrayref crate was published with a direct dependency on proc-macro1 , which would execute a malicious build script. This compromised version was published on 2026-08-20 and removed approximately 86 minutes later, with no evidence of actual usage," RUSTSEC-2026-0260 said. The Hacker News has reached out to the Rust Security Response Team for the basis of that finding and for the download count of the deleted versions, but had not received a response at the time of writing. The Rust Security Response Team said it received the report that the proc-macro1 crate was malicious at 07:15 UTC on August 20 and verified that the crate carried a build script downloading a malicious payload, in an advisory post crediting the Research Team at Nextron Systems GmbH with initially discovering and reporting it. "We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them," the Rust Security Response Team said. The Hacker News confirmed via the crates.io API on August 21 that the sole listed owner of arrayref is user 2402, David Roundy, registered in October 2009. How the account was compromised has not been disclosed. The Rust Security Response Team listed the malicious versions it deleted, with the time each was online - arrayref@0.3.10 : published at 2026-08-20T07:15:00Z, deleted at 08:41:40Z. Online for 86 minutes. internment@0.8.7 : published at 07:34:07Z, deleted at 09:04:11Z. Online for 90 minutes. append-only-vec@0.1.9 : published at 07:37:49Z, deleted at 09:25:24Z. Online for 107 minutes. proc-macro1 , proc-macro-en , aovine , arone , aronenao , and tinymember , any versions. Each compromised release carried a single added line in its manifest, a dependency on proc-macro1 , a typosquat of the ubiquitous proc-macro2 crate. The library source of proc-macro1 is a genuine copy of proc-macro2 , so builds completed normally. The build script reassembles its payload host and command-and-control (C2) address from base64 fragments at build time. It then installs a custom certificate verifier whose three verification methods return success unconditionally, disabling TLS validation. It selects one of four payloads by operating system and CPU architecture. On Unix and macOS it writes the bytes to /tmp/rust-setup , marks the file executable, and spawns it detached with the C2 address as its first argument. On Windows it writes a PowerShell script to %TEMP% and launches it hidden through a VBScript launcher under wscript.exe , then abandons the child process, a step commented in the source as escaping Cargo's job object so the build does not wait on it. Delivery relied on the owner account yanking arrayref 0.3.5 through 0.3.
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads
+  - Published: 2026-08-20T20:22:35+00:00
+  - Link: https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
+  - Summary: The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script downloaded and executed a remote payload during compilation. The affected releases are arrayref 0.3.10, internment 0.8.7, and append-only-vec 0.1.9, all published from the same owner
 
 ### Cluster 5fa2f66ac2 — score 8
 
@@ -3241,57 +3298,6 @@ The expensive attacks are not always the clever ones. This week had plenty of pr
   - Link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
   - Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a
 
-### Cluster 2d052ce523 — score 8
-
-- Title: JFrog Artifactory Flaws Enable Software Supply Chain Attacks
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-20T14:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion, supply_chain
-- actor_attribution: Medusa
-- affected_industries: critical_infrastructure
-- affected_products: Apple iOS/macOS, GitHub, npm
-- cve_ids: CVE-2026-65922, CVE-2026-69106
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft
-- actor_attribution: Medusa
-- affected_industries: critical_infrastructure
-- affected_products: Apple iOS/macOS, GitHub, npm
-- cve_ids: CVE-2026-69106, CVE-2026-65922
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Two Artifactory flaws allowed attackers to poison package metadata across software repositories
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » JFrog Artifactory Flaws Enable Software Supply Chain Attacks JFrog Artifactory Flaws Enable Software Supply Chain Attacks News 20 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Two vulnerabilities in JFrog Artifactory have been found which allow anonymous or low-privileged users to manipulate package metadata without modifying the underlying artifacts, creating a potential route to software supply chain compromise. Oligo Security reported the flaws to JFrog on June 25 and detailed them in research published on August 20. The findings cover CVE-2026-69106 (CVSS score 8.8), which affects the handling of the X-Orig-Client-Uri header, and CVE-2026-65922 (CVSS score 5.4), which allows writes into trusted .jfrog/ metadata paths. Both flaws are listed on the National Vulnerability Database and JFrog has issued fixes . Header Trust Enables Shared Cache Poisoning CVE-2026-69106 stemmed from Artifactory accepting X-Orig-Client-Uri from external clients without verifying that it originated from trusted routing infrastructure. Oligo found that virtual repositories could turn this into a cross-user cache poisoning issue. In Helm, the full attacker-controlled URL was written into generated metadata while only its 32-bit Java hash was used to determine the cache location. A different URL could therefore be constructed with the same hash and cause a poisoned index to be served to later users. npm had a separate cache guard, but it checked two other override headers and not X-Orig-Client-Uri. The researchers also identified a related issue in JFrog's recommended nginx configuration, where X-Forwarded-Proto could be used to influence generated absolute URLs when a caching reverse proxy was deployed. Read more on software supply chain attacks: GitHub to Update npm to Thwart Software Supply Chain Attacks Trusted Metadata Paths Bypass Normal Controls CVE-2026-65922, on the other hand, affected Artifactory's handling of internal .jfrog/ metadata. The REST COPY and MOVE APIs and WebDAV MKCOL could reach these paths without the normal protection applied to standard uploads. The resulting authorization path treated .jfrog/ as trusted, allowing an authenticated user with suitable repository access to place or create content there. Oligo said these files are consumed by package handlers for functions including npm signing keys, OCI referrers, Docker indexes and Ansible indexes. The researchers recommended upgrading Artifactory to a patched release and disabling anonymous access where it is not required, particularly in shared or internet-accessible environments. They also advised reviewing users and service accounts with repository access and stripping or overwriting client-supplied X-Orig-Client-Uri and X-Forwarded-Proto headers at the routing boundary. You may also like Critical CVEs in Chaos-Mesh Enable In-Cluster Code Execution News 17 September 2025 Hackers Use NuGet Packages to Target .NET Developers News 21 March 2023 Lookalike npm Package Hides a Multi-Stage Windows RAT News 23 June 2026 Flaws Expose Risks in Fluent Bit Logging Agent News 24 November 2025 High-Severity Access Control Vulnerability Found in Spring WebFlux News 9 August 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice JFrog Artifactory Flaws Enable Software Supply Chain Attacks News 20 August 2026 1 US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 2 OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 3 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 4 NCSC Urges Stronger Controls for Agentic AI Systems News 20 August 2026 5 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 6 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 1 NASA Ground Control Software Flaw Enables Unauthenticated Commands Ne
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: JFrog Artifactory Flaws Enable Software Supply Chain Attacks
-  - Published: 2026-08-20T14:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
-  - Summary: Two Artifactory flaws allowed attackers to poison package metadata across software repositories
-
 ### Cluster 1293349fdc — score 8
 
 - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
@@ -3347,7 +3353,7 @@ Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Targe
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
 - actor_attribution: Medusa
 - affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
 - affected_products: Apple iOS/macOS
@@ -3356,7 +3362,7 @@ Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Targe
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft, data_breach
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
 - actor_attribution: Medusa
 - affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
 - affected_products: Apple iOS/macOS
@@ -3373,7 +3379,7 @@ Nearly 40,000 customers of hardware wallet provider SafePal have been impacted b
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice JFrog Artifactory Flaws Enable Software Supply Chain Attacks News 20 August 2026 1 US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 2 OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 3 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 4 NCSC Urges Stronger Controls for Agentic AI Systems News 20 August 2026 5 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 6 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 1 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 18 Augu
+Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 1 OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 2 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 3 NCSC Urges Stronger Controls for Agentic AI Systems News 20 August 2026 4 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 5 Grandoreiro Resurfaces in Mexico With New DLL Sideloading Campaign News 19 August 2026 6 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 1 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 1
 ```
 
 #### Corroborating sources (1)
