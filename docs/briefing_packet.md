@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-21T13:50:34.894036+00:00
+- Generated: 2026-08-21T14:41:38.740033+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 317
-- Total clusters raw: 138
-- Total clusters in packet: 59
+- Total items in window: 314
+- Total clusters raw: 137
+- Total clusters in packet: 58
 - Dropped low score: 79
 - Dropped overflow: 0
 
@@ -70,10 +70,25 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
@@ -90,23 +105,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -119,21 +129,6 @@
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
@@ -150,11 +145,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -175,11 +180,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 16
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -190,8 +190,8 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -200,8 +200,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -210,53 +210,58 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 30
+  - In window count: 2
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 5
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -265,18 +270,18 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 20
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -289,12 +294,7 @@
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 7
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - In window count: 6
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -304,7 +304,7 @@
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -314,11 +314,6 @@
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
   - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
@@ -330,36 +325,36 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 20
+  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 14
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -369,37 +364,42 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 26
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+  - In window count: 25
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 30
+  - In window count: 14
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -410,41 +410,46 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 15
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -455,11 +460,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -478,15 +478,15 @@
 - Theme key: apple-ios-macos
 - Cluster count: 12
 - Article count: 16
-- Cohesion: 0.223
+- Cohesion: 0.222
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: CVE-2026-68820
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: web_shell_backdoor, credential_theft, ransomware_extortion, supply_chain
+  - threat_categories: web_shell_backdoor, credential_theft, phishing_social_eng, ransomware_extortion, supply_chain
   - affected_industries: government, financial_services
   - affected_products: Apple iOS/macOS
-- Cluster IDs: 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 34d43ef8cf, ae98432591, 114ded0230, 3ec665ac60, 7d481c14a9, 388705e7c7, 20c2a82904
+- Cluster IDs: 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 34d43ef8cf, ae98432591, 114ded0230, 3ec665ac60, 20c2a82904, 7d481c14a9, 388705e7c7
 - Links:
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
@@ -500,30 +500,9 @@
   - https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - https://www.sophos.com/en-us/blog/2608-patch-tuesday
+  - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
   - https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-  - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-
-### supply chain targeting Citrix
-- Anchor signal: Citrix
-- Theme key: citrix
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.222
-- Shared strong signals: Citrix
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain, credential_theft, active_exploitation
-  - affected_products: Citrix, GitLab, Microsoft Entra
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 7f1247614d, e12b0b4338, 34d43ef8cf, 0d83fa199c
-- Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
-  - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
-  - https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
-  - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
-  - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
 
 ### Cisco active exploitation
 - Anchor signal: Cisco
@@ -569,27 +548,6 @@
   - https://www.exploit-db.com/exploits/52642
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
 
-### active exploitation targeting GitLab
-- Anchor signal: GitLab
-- Theme key: gitlab
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.21
-- Shared strong signals: GitLab
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, supply_chain, credential_theft
-  - affected_products: GitLab, Citrix
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 7b38f69250, e12b0b4338, 0d83fa199c
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
-  - https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
-  - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
-  - https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
-  - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
-
 ### ransomware extortion targeting Android
 - Anchor signal: Android
 - Theme key: android
@@ -611,30 +569,6 @@
   - https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
-
-### active exploitation targeting Microsoft Entra
-- Anchor signal: Microsoft Entra
-- Theme key: microsoft-entra
-- Cluster count: 3
-- Article count: 8
-- Cohesion: 0.209
-- Shared strong signals: Microsoft Entra
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, supply_chain, credential_theft
-  - affected_products: Microsoft Entra, Citrix
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 3e059b6047, 34d43ef8cf, 0d83fa199c
-- Links:
-  - https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
-  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
-  - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
-  - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
 
 ### ransomware extortion targeting SonicWall
 - Anchor signal: SonicWall
@@ -701,6 +635,23 @@
   - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
   - https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
 
+### Citrix vulnerability activity
+- Anchor signal: Citrix
+- Theme key: citrix
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: Citrix
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Citrix
+- Cluster IDs: 7f1247614d, e12b0b4338
+- Links:
+  - https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
+  - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
+  - https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+
 ### Microsoft 365 active exploitation
 - Anchor signal: Microsoft 365
 - Theme key: microsoft-365
@@ -723,6 +674,45 @@
   - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
   - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
+
+### GitLab vulnerability activity
+- Anchor signal: GitLab
+- Theme key: gitlab
+- Cluster count: 2
+- Article count: 5
+- Cohesion: 0.2
+- Shared strong signals: GitLab
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: GitLab
+- Cluster IDs: 7b38f69250, e12b0b4338
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
+  - https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
+  - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
+  - https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+
+### Microsoft Entra vulnerability activity
+- Anchor signal: Microsoft Entra
+- Theme key: microsoft-entra
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Microsoft Entra
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Microsoft Entra
+- Cluster IDs: 3e059b6047, 34d43ef8cf
+- Links:
+  - https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
+  - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
 
 ### Linux kernel vulnerability activity
 - Anchor signal: Linux kernel
@@ -814,8 +804,8 @@
 - actor_attribution: LockBit (weeks observed: 6, cluster 754c091d02)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 7b38f69250)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster 7b38f69250)
-- actor_attribution: APT29 (weeks observed: 4, cluster d5c3fd8d4d)
 - cve_ids: CVE-2026-59310 (weeks observed: 4, cluster bd5d2abe67)
+- actor_attribution: APT29 (weeks observed: 4, cluster d5c3fd8d4d)
 - actor_attribution: Lazarus (weeks observed: 4, cluster 388705e7c7)
 - cve_ids: CVE-2026-46300 (weeks observed: 3, cluster 73e2ba5a94)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 7b38f69250)
@@ -1142,61 +1132,6 @@ Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution 
   - Link: https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
   - Summary: Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska. The post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek .
 
-### Cluster d5c3fd8d4d — score 21
-
-- Title: Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia
-- Source: Google Cloud Threat Intelligence (threat_research_primary)
-- Published: 2026-08-20T14:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: UNC5976, UNC6293, UNC7005
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng
-- actor_attribution: APT29, UNC5976, UNC6293, UNC7005
-- affected_industries: aviation_defense, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, apt_espionage
-- actor_attribution: APT29, UNC6293, UNC7005
-- affected_industries: government, aviation_defense
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sop
-```
-
-#### Full body
-
-```
-Threat Intelligence Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia August 20, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sophisticated social engineering tactics to compromise personal accounts across multiple platforms. Because these operations abuse legitimate authentication flows which may not immediately seem like phishing attempts to users, GTIG is raising awareness about these social engineering campaigns targeting individuals so that targets can more readily recognize malicious outreach. UNC6293 We assess with moderate confidence that UNC6293 is a sub cluster of ICE RELIC (formerly APT29) responsible for initial access operations . UNC6293 operations were initially reported in June 2025 (also by Citizen Lab ) as an aggressive app password phishing campaign against prominent individuals that are critical of Russia. App passwords are passcodes a user can set which gives a less secure app or device permission to access an account. In cases of app password phishing, attackers attempt to convince targets to set specific app passwords on their accounts, which the attackers then use to gain access to those accounts without needing two-factor authentication (2FA). As part of the previously documented UNC6293 campaign, the attacker impersonated the US State Department and attempted to lure targets into setting an app password named ms.state.gov . The instructions to do this were in a PDF that contained screenshots of the settings UNC6293 wanted the target to use. In the intervening year, UNC6293 has continued to impersonate State Department officials and perform app password phishing. As one example, in October 2025, GTIG observed UNC6293 using a PDF lure document that contained the exact same screenshots as observed in June 2025, including the ms.state.gov reference. While in 2025, the attacker requested that the victims share the app password back to them via email, in these newer operations, the attacker asked for it to be entered into an authentication form on an otherwise legitimate looking website. Figure 1: Changed text in new lure document UNC6293 phishing campaigns tend to be small in scope, usually targeting fewer than five users at a time, and the application names and lures observed by GTIG tend to focus on diplomatic themes and upcoming conferences or meetings, such as those documented in December 2025 by Volexity . Over time, UNC6293 continued impersonating the U.S State Department while incorporating OAuth phishing into their repertoire. In June 2026, GTIG observed OAuth phishing where UNC6293 requested targets share either the full URL or “verification code” after performing a legitimate login to an external provider. By providing the requested verification code the target would grant UNC6293 access to the account. Figure 2: UNC6293 requesting “verification code” on a phishing page, at foreignrelatio
-```
-
-#### Corroborating sources (3)
-
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - Title: Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia
-  - Published: 2026-08-20T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
-  - Summary: Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sop
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia
-  - Published: 2026-08-20T14:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
-  - Summary: Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sop
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts
-  - Published: 2026-08-20T19:59:19+00:00
-  - Link: https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html
-  - Summary: Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include UNC6293, UNC7005, and UNC5976. "These clusters engage in persistent, adaptive
-
 ### Cluster bd5d2abe67 — score 21
 
 - Title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
@@ -1255,6 +1190,61 @@ Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploi
   - Published: 2026-08-17T04:00:00+00:00
   - Link: https://www.huntress.com/blog/fake-claude-macsync
   - Summary: Huntress SOC analysts reverse engineer MacSync Stealer, a macOS infostealer spread through fake Claude Code download pages. Watch the full analysis.
+
+### Cluster d5c3fd8d4d — score 20
+
+- Title: Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-08-20T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: UNC5976, UNC6293, UNC7005
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng
+- actor_attribution: APT29, UNC5976, UNC6293, UNC7005
+- affected_industries: aviation_defense, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, apt_espionage
+- actor_attribution: APT29, UNC6293, UNC7005
+- affected_industries: government, aviation_defense
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sop
+```
+
+#### Full body
+
+```
+Threat Intelligence Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia August 20, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sophisticated social engineering tactics to compromise personal accounts across multiple platforms. Because these operations abuse legitimate authentication flows which may not immediately seem like phishing attempts to users, GTIG is raising awareness about these social engineering campaigns targeting individuals so that targets can more readily recognize malicious outreach. UNC6293 We assess with moderate confidence that UNC6293 is a sub cluster of ICE RELIC (formerly APT29) responsible for initial access operations . UNC6293 operations were initially reported in June 2025 (also by Citizen Lab ) as an aggressive app password phishing campaign against prominent individuals that are critical of Russia. App passwords are passcodes a user can set which gives a less secure app or device permission to access an account. In cases of app password phishing, attackers attempt to convince targets to set specific app passwords on their accounts, which the attackers then use to gain access to those accounts without needing two-factor authentication (2FA). As part of the previously documented UNC6293 campaign, the attacker impersonated the US State Department and attempted to lure targets into setting an app password named ms.state.gov . The instructions to do this were in a PDF that contained screenshots of the settings UNC6293 wanted the target to use. In the intervening year, UNC6293 has continued to impersonate State Department officials and perform app password phishing. As one example, in October 2025, GTIG observed UNC6293 using a PDF lure document that contained the exact same screenshots as observed in June 2025, including the ms.state.gov reference. While in 2025, the attacker requested that the victims share the app password back to them via email, in these newer operations, the attacker asked for it to be entered into an authentication form on an otherwise legitimate looking website. Figure 1: Changed text in new lure document UNC6293 phishing campaigns tend to be small in scope, usually targeting fewer than five users at a time, and the application names and lures observed by GTIG tend to focus on diplomatic themes and upcoming conferences or meetings, such as those documented in December 2025 by Volexity . Over time, UNC6293 continued impersonating the U.S State Department while incorporating OAuth phishing into their repertoire. In June 2026, GTIG observed OAuth phishing where UNC6293 requested targets share either the full URL or “verification code” after performing a legitimate login to an external provider. By providing the requested verification code the target would grant UNC6293 access to the account. Figure 2: UNC6293 requesting “verification code” on a phishing page, at foreignrelatio
+```
+
+#### Corroborating sources (3)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia
+  - Published: 2026-08-20T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
+  - Summary: Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sop
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia
+  - Published: 2026-08-20T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
+  - Summary: Written by: Gabby Roncone, Wesley Shields Overview Google Threat Intelligence Group (GTIG) is tracking three distinct suspected Russian cyber espionage threat clusters abusing legitimate authentication flows to target individuals working in academia, aerospace and defense, governments and think tanks across Europe, as well as academia and think tanks within the United States. Examples of these techniques can be found in our previous blog on UNC6293’s phishing operations. We now track an additional two distinct suspected Russian clusters, UNC7005 and UNC5976, which conduct phishing, abuse OAuth flows, and/or deploy malware to victims. UNC7005 in particular is tied to the hospitality captive portal redirects reported on by Reliaquest and Microsoft . While each group conducts their campaigns differently, they all ultimately demonstrate a focus on abuse of legitimate authentication workflows to compromise accounts. These clusters engage in persistent, adaptive phishing campaigns, using sop
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts
+  - Published: 2026-08-20T19:59:19+00:00
+  - Link: https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html
+  - Summary: Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include UNC6293, UNC7005, and UNC5976. "These clusters engage in persistent, adaptive
 
 ### Cluster e582acf5a9 — score 18
 
@@ -1693,7 +1683,7 @@ The type confusion bug can lead to V8 sandbox escape and control-flow hijacking 
 #### Full body
 
 ```
-A critical-severity type confusion in the isolated-vm Node.js library could allow threat actors to achieve remote code execution (RCE) on the host system. Through isolated-vm, developers can access the V8 JavaScript engine’s Isolate interface to build completely isolated JavaScript environments. Each Isolate is a completely separated V8 instance, with its own heap memory, execution state, and garbage collector. V8’s Isolates enabled the execution of multiple sandboxed JavaScript code instances on the same machine, without the need for a container or a virtual machine. isolated-vm is widely used for executing untrusted JavaScript code within a V8 Isolate. The recently identified type confusion bug, which has yet to be assigned a CVE identifier, impacts ExternalCopy, the function used to copy data across Isolates, EndorLabs explains . The function serializes the data in one Isolate and reconstructs it in the other instance. For performance optimization, it uses a transferList: large ArrayBuffers are listed, and the underlying memory is transferred by detaching the buffer from the source and handing it to the destination. The issue was that, when data was transferred, the reconstructor iterated over the byte array list twice, with the second pass trusting the first walk. Advertisement. Scroll to continue reading. However, because iterating the transfer_list JavaScript array would not return the same value for an element defined as a getter for each pass, an attacker could abuse the time-of-check/time-of-use (TOCTOU) weakness to dereference an attacker-controlled pointer. While the ExternalCopy constructor is only accessible from the host, a guest can target ivm.Reference, the mechanism through which the host exposes anything to the sandbox, to build the malicious transferList and trigger the vulnerability, EndorLabs says. Successful exploitation of the security defect leads to a crash (denial-of-service) or control-flow hijack of the host process, which potentially enables RCE on the host. “Any embedder that runs untrusted code in an isolate and shares even one Reference into it is affected. Host code that passes a caller-influenced array as transferList is affected directly, without any guest,” an isolated-vm advisory reads. Patches for the vulnerability were included in isolated-vm versions 6.2.0 and 7.0.1 to prevent user JavaScript from running during the copy. “The vulnerability lived in the native glue code: the C++ binding that serializes values across the boundary. That layer is written in a memory-unsafe language; it manipulates raw V8 handles and backing-store pointers, and it re-reads attacker-controlled JavaScript objects in the middle of a security-sensitive operation. A single unchecked cast on a re-read value was enough to turn a correct isolation primitive into a full escape,” EndorLabs notes. Related: Rust Supply Chain Attack Linked to North Korean Hackers Related: Microsoft Rolls Out 22 Fresh Security Patches Related: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Related: Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Latest News Rust Supply Chain Attack Linked to North Korean H
+A critical-severity type confusion in the isolated-vm Node.js library could allow threat actors to achieve remote code execution (RCE) on the host system. Through isolated-vm, developers can access the V8 JavaScript engine’s Isolate interface to build completely isolated JavaScript environments. Each Isolate is a completely separated V8 instance, with its own heap memory, execution state, and garbage collector. V8’s Isolates enabled the execution of multiple sandboxed JavaScript code instances on the same machine, without the need for a container or a virtual machine. isolated-vm is widely used for executing untrusted JavaScript code within a V8 Isolate. The recently identified type confusion bug, which has yet to be assigned a CVE identifier, impacts ExternalCopy, the function used to copy data across Isolates, EndorLabs explains . The function serializes the data in one Isolate and reconstructs it in the other instance. For performance optimization, it uses a transferList: large ArrayBuffers are listed, and the underlying memory is transferred by detaching the buffer from the source and handing it to the destination. The issue was that, when data was transferred, the reconstructor iterated over the byte array list twice, with the second pass trusting the first walk. Advertisement. Scroll to continue reading. However, because iterating the transfer_list JavaScript array would not return the same value for an element defined as a getter for each pass, an attacker could abuse the time-of-check/time-of-use (TOCTOU) weakness to dereference an attacker-controlled pointer. While the ExternalCopy constructor is only accessible from the host, a guest can target ivm.Reference, the mechanism through which the host exposes anything to the sandbox, to build the malicious transferList and trigger the vulnerability, EndorLabs says. Successful exploitation of the security defect leads to a crash (denial-of-service) or control-flow hijack of the host process, which potentially enables RCE on the host. “Any embedder that runs untrusted code in an isolate and shares even one Reference into it is affected. Host code that passes a caller-influenced array as transferList is affected directly, without any guest,” an isolated-vm advisory reads. Patches for the vulnerability were included in isolated-vm versions 6.2.0 and 7.0.1 to prevent user JavaScript from running during the copy. “The vulnerability lived in the native glue code: the C++ binding that serializes values across the boundary. That layer is written in a memory-unsafe language; it manipulates raw V8 handles and backing-store pointers, and it re-reads attacker-controlled JavaScript objects in the middle of a security-sensitive operation. A single unchecked cast on a re-read value was enough to turn a correct isolation primitive into a full escape,” EndorLabs notes. Related: Rust Supply Chain Attack Linked to North Korean Hackers Related: Microsoft Rolls Out 22 Fresh Security Patches Related: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Related: Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them Latest News Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini
 ```
 
 #### Corroborating sources (1)
@@ -1951,6 +1941,49 @@ Wiz Pricing Get a demo Get a demo As part of ongoing security research conducted
   - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
   - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
 
+### Cluster 213e3c4494 — score 10
+
+- Title: Identity Abuse Through Trusted Communication Channels
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-08-20T10:00:25+00:00
+- Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, phishing_social_eng
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, credential_theft
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware Identity Abuse Through Trusted Communication Channels 12 min read Related Products Cortex Cortex XDR Cortex XSIAM Idira Unit 42 Incident Response By: Bill Batchelor Published: August 20, 2026 Categories: Malware Threat Research Tags: Authentication Identity theft Malware MFA Remote access software Social engineering Share Executive Summary Identity has become a primary security boundary for most organizations, reducing the ability to solely trust other boundaries once associated with corporate networks. Users authenticate to cloud services using enterprise identities that provide access to collaboration platforms, business applications and sensitive data. With the adoption of software-as-a-service (SaaS) on the rise, people are shifting to platforms for communication and collaboration. Threat actors have adapted to this shift. In addition to typical email-based phishing, attackers increasingly misuse trusted collaboration platforms to conduct identity phishing, impersonation, credential theft, malware delivery and social engineering. Over the last 12 months, our endpoint alerts of malicious activity associated with collaboration tools have more than quadrupled, as Figure 1 shows. This activity could involve compromised accounts, external federated organizations, guest accounts or trusted third-party relationships. In each case, the attackers seek to exploit the trust that people place in enterprise communication platforms. Figure 1. Collaboration tool alerts of severity low or higher per month. This changes the role that collaboration platforms play within enterprise security. They are not just productivity applications, they have become part of the enterprise attack surface. Unit 42 researchers found that 99% of the alerts generated related to chat phishing operations, indicating that attackers often gain access to these environments through targeted phishing operations. After a successful compromise, attackers can then communicate using the identity and privileges of the compromised user. This allows malicious activity to appear as normal collaboration activity. Security controls typically remain focused on email and authentication events, often providing limited visibility into activity occurring within authenticated collaboration sessions. We examine how threat actors leverage trusted communication channels and review identity abuse techniques. We also provide practical recommendations for detecting and defending against identity-focused attacks targeting enterprise collaboration platforms. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex XDR and XSIAM Idira Endpoint Privilege Manager (EPM) Idira Secrets Manager Idira Privileged Access Management (PAM) Idira Secure Infrastructure Access (SIA) Idira Secure Cloud Access (SCA) If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Phishing , Identity , Credential Theft Understanding Trusted Communication Channels Enterprise collaboration platforms have become integral to business operations. Employees use these platforms to exchange messages, share files, coordinate projects and communicate with colleagues, customers and business partners. Organizations typically connect collaboration platform access to their identity provider, and people rely on these platforms for trusted, authenticated communication. Unlike email, collaboration platforms enable real-time conversations and support features such as external federation, guest access, shared workspaces and third-party integrations. These capabilities improve productivity but also create opportunities for misuse. Attackers can exploit compromised accounts, trusted business relationships or authorized external access to interact with victims through legitimate communication channels. Figure 2 shows common pa
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Identity Abuse Through Trusted Communication Channels
+  - Published: 2026-08-20T10:00:25+00:00
+  - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
+  - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
+
 ### Cluster e7f188e340 — score 10
 
 - Title: BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive
@@ -2092,90 +2125,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 17th Augus
   - Link: https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 17th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Colombia’s Ministry of Justice has experienced a ransomware attack that affected part of its technology infrastructure and disrupted public services related to illicit-drug monitoring and legal processes. Officials confirmed that some files were […] The post 17th August – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 213e3c4494 — score 10
-
-- Title: Identity Abuse Through Trusted Communication Channels
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-08-20T10:00:25+00:00
-- Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, credential_theft
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Malware Malware Identity Abuse Through Trusted Communication Channels 12 min read Related Products Cortex Cortex XDR Cortex XSIAM Idira Unit 42 Incident Response By: Bill Batchelor Published: August 20, 2026 Categories: Malware Threat Research Tags: Authentication Identity theft Malware MFA Remote access software Social engineering Share Executive Summary Identity has become a primary security boundary for most organizations, reducing the ability to solely trust other boundaries once associated with corporate networks. Users authenticate to cloud services using enterprise identities that provide access to collaboration platforms, business applications and sensitive data. With the adoption of software-as-a-service (SaaS) on the rise, people are shifting to platforms for communication and collaboration. Threat actors have adapted to this shift. In addition to typical email-based phishing, attackers increasingly misuse trusted collaboration platforms to conduct identity phishing, impersonation, credential theft, malware delivery and social engineering. Over the last 12 months, our endpoint alerts of malicious activity associated with collaboration tools have more than quadrupled, as Figure 1 shows. This activity could involve compromised accounts, external federated organizations, guest accounts or trusted third-party relationships. In each case, the attackers seek to exploit the trust that people place in enterprise communication platforms. Figure 1. Collaboration tool alerts of severity low or higher per month. This changes the role that collaboration platforms play within enterprise security. They are not just productivity applications, they have become part of the enterprise attack surface. Unit 42 researchers found that 99% of the alerts generated related to chat phishing operations, indicating that attackers often gain access to these environments through targeted phishing operations. After a successful compromise, attackers can then communicate using the identity and privileges of the compromised user. This allows malicious activity to appear as normal collaboration activity. Security controls typically remain focused on email and authentication events, often providing limited visibility into activity occurring within authenticated collaboration sessions. We examine how threat actors leverage trusted communication channels and review identity abuse techniques. We also provide practical recommendations for detecting and defending against identity-focused attacks targeting enterprise collaboration platforms. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex XDR and XSIAM Idira Endpoint Privilege Manager (EPM) Idira Secrets Manager Idira Privileged Access Management (PAM) Idira Secure Infrastructure Access (SIA) Idira Secure Cloud Access (SCA) If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Phishing , Identity , Credential Theft Understanding Trusted Communication Channels Enterprise collaboration platforms have become integral to business operations. Employees use these platforms to exchange messages, share files, coordinate projects and communicate with colleagues, customers and business partners. Organizations typically connect collaboration platform access to their identity provider, and people rely on these platforms for trusted, authenticated communication. Unlike email, collaboration platforms enable real-time conversations and support features such as external federation, guest access, shared workspaces and third-party integrations. These capabilities improve productivity but also create opportunities for misuse. Attackers can exploit compromised accounts, trusted business relationships or authorized external access to interact with victims through legitimate communication channels. Figure 2 shows common pa
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Identity Abuse Through Trusted Communication Channels
-  - Published: 2026-08-20T10:00:25+00:00
-  - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
-  - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
-
-### Cluster 8883aedcfe — score 10
-
-- Title: How QR-code phishing can slip past corporate security measures
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-08-17T09:00:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
-```
-
-#### Full body
-
-```
-Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: How QR-code phishing can slip past corporate security measures
-  - Published: 2026-08-17T09:00:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
-  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
-
 ### Cluster a40b955a81 — score 10
 
 - Title: Building Capacity and Resilience for U.S. Partners
@@ -2257,6 +2206,47 @@ CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Info
   - Published: 2026-08-19T16:10:35+00:00
   - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
   - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
+
+### Cluster 8883aedcfe — score 10
+
+- Title: How QR-code phishing can slip past corporate security measures
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-08-17T09:00:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
+```
+
+#### Full body
+
+```
+Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: How QR-code phishing can slip past corporate security measures
+  - Published: 2026-08-17T09:00:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
+  - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
 
 ### Cluster d5a759a910 — score 10
 
@@ -2674,16 +2664,16 @@ Risky Bulletin Podcast August 17, 2026 Risky Bulletin: The EU publishes its upco
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
+- threat_categories: credential_theft, phishing_social_eng, supply_chain
 - affected_industries: critical_infrastructure
-- affected_products: Apple iOS/macOS, Citrix, Microsoft Entra
+- affected_products: Apple iOS/macOS, Google/Gemini, Microsoft Entra
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
+- threat_categories: supply_chain, phishing_social_eng, credential_theft
 - affected_industries: critical_infrastructure
-- affected_products: Microsoft Entra, Apple iOS/macOS, Citrix
+- affected_products: Microsoft Entra, Apple iOS/macOS, Google/Gemini
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -2696,7 +2686,7 @@ Hackers pushed a poisoned arrayref version that added a dependency to fetch a ma
 #### Full body
 
 ```
-North Korean hackers are responsible for a new open source software (OSS) supply chain attack targeting the Rust ecosystem, cybersecurity firm Wiz reports. The attack occurred on August 20 and involved one of the most popular Rust crates, arrayref , an array-conversion utility with over 245 million downloads, found in approximately 75% of environments where Rust is used. The malicious package version, [email protected] , was pushed to crates.io from its legitimate maintainer’s account. Roughly 20 minutes later, poisoned versions of internment and append-only-vec , two crates from the same owner, were also released. These packages, as well as attacker-owned crates ( aovine, arone, aronenao, tinymember ), were referencing the same malicious dependency, [email protected] , which impersonated the legitimate proc-macro2 package. Within the dependency, the threat actor hid a malicious file, build.rs , designed to fetch a platform-specific second-stage binary over TLS, after disabling certificate validation. The Rust Security Response Team removed the malicious packages roughly 86 minutes later, confirming the compromise: “a new version of the arrayref crate was published with a direct dependency on proc-macro1, which would execute a malicious build script.” Advertisement. Scroll to continue reading. Shortly after, the Rust security team said all malicious packages have been removed, and the clean iterations have been restored. The team found no evidence of actual usage of the malicious crates. “We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them,” Rust’s security team said. StepSecurity ’s analysis of the attack shows that the threat actor planned each step with precision, creating typosquatted versions of proc-macro2 and an impersonating account right before the poisoned arrayref release was published. According to Wiz , the North Korean threat actor Sapphire Sleet, which mounted the Axios and Mastra NPM supply chain attacks in April and June, was likely responsible for the arrayref incident, based on substantial infrastructure overlaps. The arrayref payloads beacon to an endpoint used in the Mastra attack, command-and-control (C&C) traffic was recorded to an IP used in the Axios campaign, and the same IP range of Hostwinds LLC infrastructure was used in all three incidents. Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: Trivy, Not LiteLLM Behind the 2,500 Org Compromise Related: Hackers Target Zimbra Servers in Active Exploitation Campaign Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Latest News Critical Isolated-vm Vulnerability Leads to RCE on Host Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severit
+North Korean hackers are responsible for a new open source software (OSS) supply chain attack targeting the Rust ecosystem, cybersecurity firm Wiz reports. The attack occurred on August 20 and involved one of the most popular Rust crates, arrayref , an array-conversion utility with over 245 million downloads, found in approximately 75% of environments where Rust is used. The malicious package version, [email protected] , was pushed to crates.io from its legitimate maintainer’s account. Roughly 20 minutes later, poisoned versions of internment and append-only-vec , two crates from the same owner, were also released. These packages, as well as attacker-owned crates ( aovine, arone, aronenao, tinymember ), were referencing the same malicious dependency, [email protected] , which impersonated the legitimate proc-macro2 package. Within the dependency, the threat actor hid a malicious file, build.rs , designed to fetch a platform-specific second-stage binary over TLS, after disabling certificate validation. The Rust Security Response Team removed the malicious packages roughly 86 minutes later, confirming the compromise: “a new version of the arrayref crate was published with a direct dependency on proc-macro1, which would execute a malicious build script.” Advertisement. Scroll to continue reading. Shortly after, the Rust security team said all malicious packages have been removed, and the clean iterations have been restored. The team found no evidence of actual usage of the malicious crates. “We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them,” Rust’s security team said. StepSecurity ’s analysis of the attack shows that the threat actor planned each step with precision, creating typosquatted versions of proc-macro2 and an impersonating account right before the poisoned arrayref release was published. According to Wiz , the North Korean threat actor Sapphire Sleet, which mounted the Axios and Mastra NPM supply chain attacks in April and June, was likely responsible for the arrayref incident, based on substantial infrastructure overlaps. The arrayref payloads beacon to an endpoint used in the Mastra attack, command-and-control (C&C) traffic was recorded to an IP used in the Axios campaign, and the same IP range of Hostwinds LLC infrastructure was used in all three incidents. Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: Trivy, Not LiteLLM Behind the 2,500 Org Compromise Related: Hackers Target Zimbra Servers in Active Exploitation Campaign Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them Latest News Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets Critical Isolated-vm Vulnerability Leads to RCE on Host Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afra
 ```
 
 #### Corroborating sources (1)
@@ -2706,6 +2696,51 @@ North Korean hackers are responsible for a new open source software (OSS) supply
   - Published: 2026-08-21T09:23:18+00:00
   - Link: https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
   - Summary: Hackers pushed a poisoned arrayref version that added a dependency to fetch a malicious payload from a remote server. The post Rust Supply Chain Attack Linked to North Korean Hackers appeared first on SecurityWeek .
+
+### Cluster ae98432591 — score 9
+
+- Title: North Korean Hackers Tied to Rust Supply Chain Attack
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:40:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, apt_espionage, supply_chain, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, crates.io, npm
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage, ai_security, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, crates.io, npm
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » North Korean Hackers Tied to Rust Supply Chain Attack North Korean Hackers Tied to Rust Supply Chain Attack News 21 August 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Wiz security researchers have linked a recent software supply chain attack which targeted the Rust programming ecosystem to state-sponsored North Korean threat actors. The campaign compromised several widely used open-source libraries hosted on the official Rust package registry, crates.io, embedding a backdoor designed to infiltrate developer workstations and continuous integration (CI) environments before a project even finishes compiling. The incident unfolded on August 20, when an attacker gained access to a trusted open-source maintainer's account, updating three legitimate crates: arrayref, internment and append-only-vec. In the Rust programming language, a crate is the smallest unit of code that the compiler looks at and builds at one time. It acts as a tree of modules that compile into a single binary or library file. 75% of Cloud Environments Running Rust Applications Potentially Affected Rather than injecting malicious code directly into the source code of the main libraries, the attacker subtly modified the package manifests to import an external, typosquatted dependency named proc-macro1. This rogue package took advantage of the automated build process in the Rust package manager, cargo, downloading and executing an unauthorized payload in the background. As Wiz researchers Rami McCarthy and Benjamin Read explained in their report , published a few hours after the beginning of the campaign, because build scripts run during compilation, building an affected project was sufficient to execute the payload. This meant developers and automated build pipelines could become infected simply by pulling down and compiling legitimate dependencies, even if the resulting software was never actually deployed or executed. Once triggered, the malicious binary aimed to harvest sensitive data, targeting stored web browser credentials, cryptocurrency wallet extensions and developer environment secrets. The blast radius of the incident is significant, with Wiz telemetry revealing that arrayref alone was present in roughly 75% of cloud environments running Rust applications. At the time of writing, arreyf had 245,777,808 downloads on crates.io; internment, 14,432,082; and append-only-vec, 4,503,638. Strong North Korean Ties Upon investigating the command-and-control (C2) infrastructure supporting the malware, researchers uncovered ties to known North Korean cyber operations. The network communication patterns, server setups and specific endpoint paths directly mirrored those used in previous supply chain campaigns, including the high-profile compromise of the Mastra framework and poisoned npm packages targeting the Axios library. Microsoft and other threat intelligence teams track the threat actor behind these campaigns as Sapphire Sleet . "The arrayref infrastructure substantially overlaps with operations attributed to recent North Korean actors," noted the Wiz researchers. "This campaign underscores how state-sponsored adversaries are increasingly weaponizing developer ecosystems to gain initial access to downstream enterprise networks." The Wiz researchers contacted the Rust Security Response Team, which quickly revoked the compromised maintainer's credentials and removed the malicious crate versions from crates.io. However, because the payload operated during the build phase rather than at runtime, security teams have been urged to inspect their dependency lockfiles for affected versions, treat any systems that compiled the tainted crates as compromised and immediately rotate credentials, cloud secrets and API keys accessible on those machines. You may also like North Korean Cyber Group Suspected in JumpCloud Breach News 25 July 2023 macOS Backdoor Uses Prompt Injection to E
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: North Korean Hackers Tied to Rust Supply Chain Attack
+  - Published: 2026-08-21T12:40:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
+  - Summary: Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
 
 ### Cluster 1b408a85de — score 9
 
@@ -2756,51 +2791,6 @@ Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0 �
   - Link: https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html
   - Summary: Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below -
 
-### Cluster ae98432591 — score 9
-
-- Title: North Korean Hackers Tied to Rust Supply Chain Attack
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-21T12:40:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, supply_chain, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, crates.io, npm
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage, ai_security, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, crates.io, npm
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » North Korean Hackers Tied to Rust Supply Chain Attack North Korean Hackers Tied to Rust Supply Chain Attack News 21 August 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Wiz security researchers have linked a recent software supply chain attack which targeted the Rust programming ecosystem to state-sponsored North Korean threat actors. The campaign compromised several widely used open-source libraries hosted on the official Rust package registry, crates.io, embedding a backdoor designed to infiltrate developer workstations and continuous integration (CI) environments before a project even finishes compiling. The incident unfolded on August 20, when an attacker gained access to a trusted open-source maintainer's account, updating three legitimate crates: arrayref, internment and append-only-vec. In the Rust programming language, a crate is the smallest unit of code that the compiler looks at and builds at one time. It acts as a tree of modules that compile into a single binary or library file. 75% of Cloud Environments Running Rust Applications Potentially Affected Rather than injecting malicious code directly into the source code of the main libraries, the attacker subtly modified the package manifests to import an external, typosquatted dependency named proc-macro1. This rogue package took advantage of the automated build process in the Rust package manager, cargo, downloading and executing an unauthorized payload in the background. As Wiz researchers Rami McCarthy and Benjamin Read explained in their report , published a few hours after the beginning of the campaign, because build scripts run during compilation, building an affected project was sufficient to execute the payload. This meant developers and automated build pipelines could become infected simply by pulling down and compiling legitimate dependencies, even if the resulting software was never actually deployed or executed. Once triggered, the malicious binary aimed to harvest sensitive data, targeting stored web browser credentials, cryptocurrency wallet extensions and developer environment secrets. The blast radius of the incident is significant, with Wiz telemetry revealing that arrayref alone was present in roughly 75% of cloud environments running Rust applications. At the time of writing, arreyf had 245,777,808 downloads on crates.io; internment, 14,432,082; and append-only-vec, 4,503,638. Strong North Korean Ties Upon investigating the command-and-control (C2) infrastructure supporting the malware, researchers uncovered ties to known North Korean cyber operations. The network communication patterns, server setups and specific endpoint paths directly mirrored those used in previous supply chain campaigns, including the high-profile compromise of the Mastra framework and poisoned npm packages targeting the Axios library. Microsoft and other threat intelligence teams track the threat actor behind these campaigns as Sapphire Sleet . "The arrayref infrastructure substantially overlaps with operations attributed to recent North Korean actors," noted the Wiz researchers. "This campaign underscores how state-sponsored adversaries are increasingly weaponizing developer ecosystems to gain initial access to downstream enterprise networks." The Wiz researchers contacted the Rust Security Response Team, which quickly revoked the compromised maintainer's credentials and removed the malicious crate versions from crates.io. However, because the payload operated during the build phase rather than at runtime, security teams have been urged to inspect their dependency lockfiles for affected versions, treat any systems that compiled the tainted crates as compromised and immediately rotate credentials, cloud secrets and API keys accessible on those machines. You may also like North Korean Cyber Group Suspected in JumpCloud Breach News 25 July 2023 macOS Backdoor Uses Prompt Injection to E
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: North Korean Hackers Tied to Rust Supply Chain Attack
-  - Published: 2026-08-21T12:40:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
-  - Summary: Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
-
 ### Cluster 7029814c59 — score 9
 
 - Title: CVE-2026-33696: From a Schema Name to RCE in n8n
@@ -2843,8 +2833,8 @@ submitted by /u/TradeGold6317 [link] [comments]
 - Published: 2026-08-19T16:00:00+00:00
 - Link: https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
+- Member count: 4
+- Corroborating source count: 3
 - Strong signals: Google Cloud, Google/Gemini
 
 #### Cluster taxonomy (union across members)
@@ -2872,13 +2862,18 @@ In modern enterprise data engineering, Apache Spark remains a cornerstone framew
 Data Analytics Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting August 19, 2026 Lior (Leo) Ginzberg Data & Analytics Customer Engineer, Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Choosing your Apache Spark deployment model When launching Spark workloads on Managed Service for Apache Spark, the first major decision point is evaluating whether to construct traditional managed clusters or transition to a zero-management, serverless infrastructure footprint. Decision #1: Managed clusters vs. serverless *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Choosing between traditional Managed Spark clusters and serverless depends on ecosystem requirements, infrastructure control needs, and financial utilization patterns: Workload frequency, latency sensitive workloads & financial fit: For continuous, highly predictable, 24/7 streaming or batch processing pipelines where cluster nodes maintain constant high utilization baselines (80%+) or when the workflow’s accumulated startup time risk meeting SLA target, a permanently running, finely tuned traditional cluster, with custom YARN autoscaling rules, can sometimes be more cost-predictable. Conversely, for intermittent, bursty, ad-hoc, or orchestrator-triggered pipelines, Managed Spark serverless is highly optimal, eliminating operational management, requiring less planning time and ensuring you don’t pay for idle compute time. Ecosystem & component requirements: Managed Spark serverless is strictly optimized for Apache Spark 3.x+ codebases. If your processing pipeline relies on other ecosystem components such as Apache Flink, Presto/Trino, Hive LLAP, or Apache HBase, or if you are locked into a legacy Spark 2.x codebase, you must use Managed Spark clusters. Infrastructure customization needs: Managed Spark serverless abstracts away the underlying virtual machine (VM) layer. If your workload mandates deep OS-level hardware tuning, custom OS initialization actions, root SSH access to instances, specific local SSD configurations, or custom machine shapes, a traditional cluster is required. Note that serverless does support custom Docker container images for bundling specific application-level libraries. Decision #2: Serverless interactive sessions vs. serverless batches *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Once you select the serverless deployment mode, you must choose the appropriate execution model based on your development stage and operational requirements. Managed Service for Apache Spark provides two options for running serverless workloads: Serverless interactive sessions Interactive sessions are great for iterative and exploratory use cases. You write blocks of code, inspect intermediate DataFrames, modify variables, and generate visualizations with your dataset held warm in-memory. Primary interface : Designed for human-in-the-loop interaction. Developers execute code
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (3)
 
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting
   - Published: 2026-08-19T16:00:00+00:00
   - Link: https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/
   - Summary: In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini
+  - Published: 2026-08-21T14:34:05+00:00
+  - Link: https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/
+  - Summary: Researchers say the new ‘Cryptographic Context Injection’ technique conceals malicious instructions until they are decrypted inside a trusted execution environment. The post Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini appeared first on SecurityWeek .
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Fake Gemini installer delivers Vidar infostealer via Google Colab lure
   - Published: 2026-08-20T10:46:49+00:00
@@ -3109,55 +3104,6 @@ CISA warns of hackers exploiting critical MLflow vulnerability By Sergiu Gatlan 
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]
 
-### Cluster 0d83fa199c — score 8
-
-- Title: MLflow Vulnerability Exploited for Cloud Credential Theft
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-20T12:05:55+00:00
-- Link: https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, supply_chain
-- affected_industries: government
-- affected_products: Citrix, GitLab, Microsoft Entra
-- cve_ids: CVE-2026-64849
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, active_exploitation
-- affected_industries: government
-- affected_products: Microsoft Entra, Citrix, GitLab
-- cve_ids: CVE-2026-64849
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Threat actors have been exploiting a recent MLflow vulnerability to steal sensitive information, including credentials and secrets. An open source AI engineering platform, MLflow allows users to manage the end-to-end machine learning lifecycle and deploy AI agents, LLMs, and ML models in production. It has over 27,000 GitHub stars and more than 60 million monthly downloads. Tracked as CVE-2026-64849 (CVSS score of 9.3), the exploited security defect is described as an unauthenticated server-side request forgery (SSRF) issue that allows attackers to send HTTP requests to internal endpoints. The issue exists because the default MLflow Tracking Server (mlflow server) exposes the model-registry webhooks API without authentication, according to MLflow’s advisory . One of the exposed endpoints would return the upstream response status and body to the caller, and an SSRF protection that was added in version 3.10.0 could be bypassed. “Attackers are exploiting the vulnerability to reach cloud metadata services directly and exfiltrate cloud credentials and secrets,” attack surface management firm WatchTowr warns . Advertisement. Scroll to continue reading. According to the company, in-the-wild exploitation started within hours of CVE assignment, targeting cloud-hosted instances. “All MLflow versions before 3.15.0 are affected. If your organization runs MLflow, prioritize patching any exposed systems, review audit logs for signs of compromise, and check whether sensitive credentials may have been exposed,” WatchTowr says. On Wednesday, the US cybersecurity agency CISA added CVE-2026-64849 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations. Related: Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Chrome, Firefox Updates Patch Dozens of Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Latest News Critical Isolated-vm Vulnerability Leads to RCE on Host Rust Supply Chain Attack Linked to North Korean Hackers Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: MLflow Vulnerability Exploited for Cloud Credential Theft
-  - Published: 2026-08-20T12:05:55+00:00
-  - Link: https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
-  - Summary: The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek .
-
 ### Cluster 2c8acd9c63 — score 8
 
 - Title: Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office
@@ -3200,6 +3146,98 @@ Cyberattacks & Data Breaches Cybersecurity Operations Cyber Risk Data Privacy Ne
   - Published: 2026-08-14T15:58:50+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office
   - Summary: One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.
+
+### Cluster 1293349fdc — score 8
+
+- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-18T10:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+  - Published: 2026-08-18T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+
+### Cluster 20c2a82904 — score 8
+
+- Title: SafePal Data Breach Hits Tens of Thousands of Customers
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-17T09:10:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: Medusa
+- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
+- affected_products: Apple iOS/macOS
+- urgency_signals: preauth_unauth
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
+- actor_attribution: Medusa
+- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
+- affected_products: Apple iOS/macOS
+- urgency_signals: preauth_unauth
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 1 OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 2 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 3 NCSC Urges Stronger Controls for Agentic AI Systems News 20 August 2026 4 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 5 Grandoreiro Resurfaces in Mexico With New DLL Sideloading Campaign News 19 August 2026 6 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 1 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 1
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: SafePal Data Breach Hits Tens of Thousands of Customers
+  - Published: 2026-08-17T09:10:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
+  - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
 
 ### Cluster 7d481c14a9 — score 8
 
@@ -3464,98 +3502,6 @@ The expensive attacks are not always the clever ones. This week had plenty of pr
   - Published: 2026-08-17T13:23:51+00:00
   - Link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
   - Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a
-
-### Cluster 1293349fdc — score 8
-
-- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-18T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-  - Published: 2026-08-18T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-
-### Cluster 20c2a82904 — score 8
-
-- Title: SafePal Data Breach Hits Tens of Thousands of Customers
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-17T09:10:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: Medusa
-- affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- affected_products: Apple iOS/macOS
-- urgency_signals: preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
-- actor_attribution: Medusa
-- affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- affected_products: Apple iOS/macOS
-- urgency_signals: preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 1 OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 2 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 3 NCSC Urges Stronger Controls for Agentic AI Systems News 20 August 2026 4 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 5 Grandoreiro Resurfaces in Mexico With New DLL Sideloading Campaign News 19 August 2026 6 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 1 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 1
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: SafePal Data Breach Hits Tens of Thousands of Customers
-  - Published: 2026-08-17T09:10:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-  - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
 
 ### Cluster 2faaf824a1 — score 8
 
