@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-21T17:35:00.430632+00:00",
+  "generated_at": "2026-08-21T18:45:08.456316+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2090,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 10,
       "in_window_count": 2
     },
     "CrowdStrike": {
@@ -18,18 +18,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -39,18 +39,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 25,
       "in_window_count": 0
     },
     "Sekoia": {
@@ -60,13 +53,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -74,11 +60,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Citizen Lab": {
@@ -88,11 +74,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 1
     },
     "SANS Internet Storm Center": {
@@ -102,12 +88,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -116,11 +116,25 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -130,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 4
+      "in_window_count": 0
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -151,22 +165,22 @@
       "item_count": 50,
       "in_window_count": 16
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -179,20 +193,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
@@ -200,15 +200,8 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -221,6 +214,20 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -228,16 +235,30 @@
       "item_count": 30,
       "in_window_count": 2
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 4
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -249,13 +270,6 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -263,19 +277,12 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -291,19 +298,26 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -319,20 +333,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
@@ -347,6 +347,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -354,12 +361,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -375,18 +382,11 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+      "item_count": 30,
       "in_window_count": 16
     },
     "CyberScoop": {
@@ -401,20 +401,13 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 23
+      "in_window_count": 24
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
       "in_window_count": 16
     },
     "Help Net Security": {
@@ -423,6 +416,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -438,13 +445,6 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -452,29 +452,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -487,26 +466,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -515,12 +480,47 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 26
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -783,46 +783,6 @@
       ]
     },
     {
-      "label": "Microsoft Entra active exploitation",
-      "anchor_signal": "Microsoft Entra",
-      "theme_key": "microsoft-entra",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "Microsoft Entra"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 8,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Microsoft Entra"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "3e059b6047",
-        "e582acf5a9",
-        "34d43ef8cf"
-      ],
-      "links": [
-        "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
-        "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
-        "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
-        "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
-        "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-        "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
-        "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/"
-      ]
-    },
-    {
       "label": "WordPress vulnerability activity",
       "anchor_signal": "WordPress",
       "theme_key": "wordpress",
@@ -896,44 +856,6 @@
       ]
     },
     {
-      "label": "ransomware extortion targeting SonicWall",
-      "anchor_signal": "SonicWall",
-      "theme_key": "sonicwall",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "affected_products": [
-          "SonicWall"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 9,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "SonicWall"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "73e2ba5a94",
-        "114ded0230",
-        "768e8e6582"
-      ],
-      "links": [
-        "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
-        "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
-        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-        "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
-        "https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands",
-        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
-      ]
-    },
-    {
       "label": "Microsoft SharePoint active exploitation",
       "anchor_signal": "Microsoft SharePoint",
       "theme_key": "microsoft-sharepoint",
@@ -979,6 +901,44 @@
         "https://www.huntress.com/blog/fake-claude-macsync",
         "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
         "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/"
+      ]
+    },
+    {
+      "label": "ransomware extortion targeting SonicWall",
+      "anchor_signal": "SonicWall",
+      "theme_key": "sonicwall",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "affected_products": [
+          "SonicWall"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 9,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "SonicWall"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "73e2ba5a94",
+        "114ded0230",
+        "768e8e6582"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
+        "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles",
+        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+        "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
+        "https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands",
+        "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/"
       ]
     },
     {
@@ -1104,6 +1064,37 @@
         "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
         "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
         "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/"
+      ]
+    },
+    {
+      "label": "Microsoft Entra vulnerability activity",
+      "anchor_signal": "Microsoft Entra",
+      "theme_key": "microsoft-entra",
+      "dominant_features": {
+        "affected_products": [
+          "Microsoft Entra"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 7,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Microsoft Entra"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "3e059b6047",
+        "34d43ef8cf"
+      ],
+      "links": [
+        "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
+        "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+        "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
+        "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
+        "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+        "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/"
       ]
     },
     {
@@ -1441,6 +1432,36 @@
     ]
   },
   "items": [
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
+      "published": "2026-08-21T18:01:30+00:00",
+      "summary": "A previously unknown malware family dubbed SynkLoader is being distributed in Microsoft Teams phishing campaigns to steal credentials via a fake lock screen. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
@@ -2498,47 +2519,35 @@
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
       "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
       "published": "2026-08-21T06:06:11+00:00",
-      "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory",
+      "summary": "Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the \"Exploited\" field under the Exploitability Assessment table as \"Yes,\" on August 21, 2026, Microsoft corrected the \"Exploited\" status to \"No\" after The Hacker News contacted the company for comment. It also noted, \"this vulnerability was not",
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
           "Microsoft Entra"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-69836"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "actively_exploited",
           "critical_cvss"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Microsoft Entra": "target",
-          "Azure": "mention"
+          "Microsoft Entra": "target"
         },
         "weak_tags": {
-          "products": [
-            [
-              "Azure",
-              "mention",
-              0.27
-            ]
-          ]
+          "products": []
         }
       },
-      "score": 24
+      "score": 12
     },
     {
       "source": "Help Net Security",
@@ -2831,9 +2840,7 @@
       "author": "Jake Kramber",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [
           "government"
@@ -2842,10 +2849,7 @@
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available"
-        ],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
@@ -2853,9 +2857,7 @@
           "products": []
         }
       },
-      "score": 8,
-      "full_body": "Introduction Three days. That’s how long federal agencies now have to patch their riskiest vulnerabilities, and for the first time, a high CVSS score alone won’t land a vulnerability in that bucket. On June 10, 2026, CISA issued Binding Operational Directive (BOD) 26-04 , “Prioritizing Security Updates Based on Risk.” It replaces two long-standing directives, BOD 19-02 and BOD 22-01, and it throws out the assumption that’s shaped federal vulnerability management for years, that severity alone tells you how urgently to patch something. Why the old approach doesn’t hold up anymore CVSS was built to describe a vulnerability’s technical severity, and for a long time, that severity was assumed to be a close enough stand-in for real world risk. While it’s still a useful leading indicator today, it was never designed to account for the context that actually determines how dangerous a vulnerability is in practice, like whether it’s exposed to the internet or already being exploited in the wild. A critical CVE on an isolated internal system and the same CVE on an internet facing production server can carry the same base CVSS score, even when the actual risk they pose isn’t close. Treating them the same way can mean security teams spread effort evenly across both, and the vulnerability that actually matters ends up competing for attention with others that pose far less real threat. That gap has become harder to ignore as threat actors lean more heavily on AI across the attack lifecycle, from discovering vulnerabilities to automating exploitation, which can shrink the window between a vulnerability’s disclosure and a working exploit from months to days or less. Flat, severity based patching timelines struggle to keep pace with that shift, and many security teams are finding it harder to stay ahead of known exploited vulnerabilities as a result. CISA built BOD 26-04 to push agencies toward prioritizing the vulnerabilities most likely to actually get exploited, rather than working every CVE on the same fixed schedule. What is BOD 26-04? Agentic workflows are automated processes where a model plans the sequence at run time and uses tools to act on each decision. The goal is fixed. The path to it is not. Everything else in this article follows from that trade. The term covers a range. At one end sits a job that calls a model once and branches on the answer. At the other sits a process that runs for twenty iterations and picks its own tools each time. Workflows and Agents Are Not the Same Thing BOD 26-04 requires federal civilian agencies to prioritize remediation based on real-world risk instead of static severity scores. The engine behind that shift is SSVC , Stakeholder-Specific Vulnerability Categorization. Instead of a single 0 to 10 score, SSVC walks every vulnerability through a decision tree built on four points: Exploitation: Is it being actively exploited, does a proof-of-concept exist, or neither? (None / PoC / Active) Automatable: Can an attacker reliably automate the early stages of the kill chain against it? (No / Yes) Technical Impact: If exploited, does the attacker gain partial or total control? (Partial / Total) Mission & Well-being: How critical is the affected asset to the mission and to public safety? (Low / Medium / High) The first three are properties of the vulnerability itself. The fourth isn’t, it depends entirely on what that asset actually does in your environment, which is exactly the “mission context” BOD 26-04 requires agencies to fold into the decision. It’s also the step that trips up most programs, since that context usually lives in someone’s head rather than in the tooling. The decision tree lands each vulnerability in one of four outcomes: Act: drop everything and remediate now. Attend: expedite ahead of standard timelines, with supervisory attention. Track*: stay on the normal cycle, but watch for escalation. Track: no action beyond the standard update cycle. The most urgent outcomes carry remediation win",
-      "fetch_status": "ok"
+      "score": 7
     },
     {
       "source": "Orca Security Research",
@@ -2896,7 +2898,7 @@
           "products": []
         }
       },
-      "score": 26,
+      "score": 25,
       "full_body": "Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms module’s file upload processing logic, where the extension validation check and the file-move step run in two separate loops with different handling of empty file entries. By submitting two file parts for a single File Upload field, an unauthenticated attacker can bypass the extension blocklist entirely. The uploaded PHP file is written to the publicly accessible directory wp-content/uploads/elementor/forms/<uniqid>.php , granting the attacker arbitrary code execution on the server. No authentication is required to exploit this issue. Affected Systems The following component is affected: Elementor Pro Forms module, versions up to and including 4.2.1. Elementor Pro is a widely used commercial WordPress page builder plugin deployed across millions of websites. Any WordPress site running an affected version that has at least one published page containing a Form widget with a File Upload field is vulnerable. The File Upload field’s “Required” toggle is off by default, so no unusual configuration is needed for exploitation. Related: WordPress core CVE-2026-65640 (CVSS 8.8, fixed in 7.0.4) allows an Author-level user or higher to achieve remote code execution via a malicious PostScript upload. It affects WordPress core versions 4.7 through 7.0, but exploitation requires both Imagick and Ghostscript to be in use on the server, as the underlying flaw is in Ghostscript’s handling of embedded files. Site owners should address both issues. Risk Impact Successful exploitation could allow attackers to execute arbitrary PHP code on the web server, install persistent webshells and exfiltrate sensitive data, and potentially pivot laterally across the hosting environment, leading to service disruption, data exposure, or full infrastructure compromise. At the time of writing, no public proof-of-concept exploit has been released, and no active exploitation campaigns have been publicly confirmed. Regardless, the severity and ease of exploitation make this vulnerability high risk, especially in internet-facing deployments. Remediation Users should upgrade Elementor Pro to version 4.2.2 or later, which was released on August 19, 2026. Additionally, administrators should audit the wp-content/uploads/elementor/forms/ directory for unexpected PHP files, review all Elementor forms exposing File Upload fields to assess whether they are necessary, and update WordPress core to version 7.0.4. As an interim mitigation, WAF rules blocking PHP file uploads through form endpoints can reduce exposure. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Elementor Pro, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning can detect WordPress installations and their plugin versions across cloud workloads, allowing security teams to pinpoint cloud-hosted WordPress instances running Elementor Pro 4.2.1 or earlier. Orca’s platform highlights affected assets, helping security teams focus on the most critical remediation paths first. From the News Item in the Orca Platform Related articles Cloud Security Learning Agentic Workflows: A Complete Guide for 2026 Aug 19, 2026 Cloud Security Learning Autonomous SOC: AI-Driven Security Operations Explained Aug 19, 2026 SOC Automation: AI-Driven Tools and Best Practices Aug 14, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree ",
       "fetch_status": "ok"
     },
@@ -2928,7 +2930,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Citizen Lab",
@@ -2958,7 +2960,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
       "fetch_status": "ok"
     },
@@ -2992,7 +2994,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have been autonomous Chatbots, chatting to each other on Artifactory. When they overload the system and it breaks (and is fixed) it takes only 4 days for them to find another way in. Then July 8 – 19, 11 days they are running riot with root access. Couple of points: if these were humans they would (should?) be charged with Conspiracy to commit [something]; Where were the humans who should have been supervising this machine for 8 whole weeks?",
       "fetch_status": "ok"
     },
@@ -3022,7 +3024,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -4068,56 +4070,6 @@
       "score": 4
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
-      "published": "2026-08-20T09:46:54+00:00",
-      "summary": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-      "author": "Sergiu Gatlan",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "actor_attribution": [
-          "APT28",
-          "APT29"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "VMware",
-          "Microsoft Entra"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-73570"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "VMware": "target",
-          "Microsoft Entra": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 18,
-      "full_body": "Critical Zimbra RCE flaw now actively exploited in attacks By Sergiu Gatlan August 20, 2026 05:46 AM 0 CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). ZCS is a popular email and collaboration software suite used by hundreds of millions of people and organizations worldwide, including thousands of businesses and hundreds of government agencies. The Zimbra security team released version 10.1.20 on July 20 to patch the vulnerability (tracked as CVE-2026-73570 ), which allows unauthenticated attackers to gain remote code execution by exploiting a command injection weakness in the SNMP monitoring component when SNMP notifications are enabled. \"Due to improper sanitization of untrusted input during SNMP notification processing, an unauthenticated attacker can send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user,\" it explained. Internet security watchdog Shadowserver now tracks over 12,100 Zimbra servers exposed online, most of them in Europe (4,382) and Asia (4,492). However, there is no information on how many of them are honeypots or have already been patched against the CVE-2026-73570 security flaw. Internet-exposed Zimbra servers (Shadowserver) ​Flagged as actively exploited On Monday, the Polish CERT team reported that threat actors are now exploiting CVE-2026-73570 in attacks. \"The CERT Polska team reports on an actively used OS Command Injection vulnerability in the Zimbra Collaboration Suite,\" it warned . CERT Polska also asked admins to check their logs for suspicious activity, such as the Zimbra service restarting on its own, and for files created in the /opt/zimbra/jetty/webapps/, /opt/zimbra/jetty_base/webapps/, and /tmp/ folders by user zimbra over the last 30 days. Zimbra flaws are frequently targeted in the wild and have been used to breach many vulnerable email servers in recent years. For instance, Russian Winter Vivern cyber spies used a reflected XSS exploit in February 2023 to steal emails belonging to NATO-aligned individuals and organizations from Zimbra webmail portals. In October 2024, US and UK cyber agencies warned that APT29 hackers (tracked as Midnight Blizzard and Cozy Bear and linked to Russia's Foreign Intelligence Service) were targeting vulnerable Zimbra servers by exploiting a security issue previously abused to steal email account credentials . More recently, in March, Seqrite Labs researchers also revealed that APT28 hackers (a state-backed threat group linked to Russia's military intelligence service) were exploiting a stored cross-site scripting (XSS) vulnerability in attacks targeting Ukrainian government ZCS servers . Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Microsoft warns of max severity Entra ID flaw exploited in attacks Max severity SAP Commerce Cloud flaw now targeted in attacks Critical VMware vCenter RCE flaw exploited for reverse SSH access Hackers target US firms in FastJson RCE zero-day attacks CISA orders urgent action on actively exploited Langflow RCE flaw",
-      "fetch_status": "ok"
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -4330,7 +4282,7 @@
         }
       },
       "score": 8,
-      "full_body": "",
+      "full_body": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second  Swati Khandelwal  Aug 19, 2026 Cloud Security / Vulnerability Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers, with the JWT intentionally placed in the victim's memory. The research paper stated that no customer data was accessed. Cloudflare said the attack has already been mitigated in production after it improved Dynamic Process Isolation (DyPrIs), integrated the V8 Sandbox , and deployed Memory Protection Keys (MPK)-based in-process isolation, adding that it found no indicators of active exploitation over the last three years. \"We demonstrate that the production implementation of DyPrIs was insufficient,\" the researchers said in the paper . Cloudflare Workers runs code from multiple tenants in separate V8 isolates within the same operating-system process, relying on language-level isolation instead of strict process isolation to reduce startup latency. A memory read within a shared Worker process can lead to cross-tenant leakage, according to Cloudflare . The attack requires the attacker and victim Workers to be co-located in separate V8 isolates within the same Worker process. The attacker controls valid code in its own isolate. Native code execution is outside the threat model, and the attack does not depend on a V8 software exploit or sandbox escape. Cloudflare said Workers restrict local timing sources by freezing or coarsening timers during CPU execution, and do not expose shared memory or multithreading to Worker scripts. The researchers found that WebSocket communications could provide a remote timing source, while Durable Objects could keep a single Worker isolate alive for five to more than 20 hours. DyPrIs isolates suspicious scripts into a separate process after an invocation finishes, and the researchers found that a long-lived Durable Object invocation could continue running before the isolation took place. The researchers also found that WebSocket-heavy input/output (I/O) activity increased instruction translation lookaside buffer (iTLB) activity, reducing the normalized branch-misprediction signal used by DyPrIs below its detection threshold. Cloudflare described the issue as a limitation in its DyPrIs implementation, while the paper said the two weaknesses reflected fundamental limitations of the detection approach rather than implementation oversights. The researchers said robust detection should take place during execution and use a signal that cannot be suppressed by I/O activity. The paper said the production tests were conducted on Linux servers using AMD EPYC Zen 2 and Zen 3 processors, with the researchers intentionally running measurements at night, when CPU utilization was between 10% and 25%, to observe the best possible results. The researchers said higher system load reduced the leakage rate, although slower attacks remained feasible under high load. The paper reported leakage of up to 12 bits per second at 99.16% accuracy, compared with 2 bits per minute in the earlier attack. The disclosure comes nearly five years after Cloudflare and TU Graz published research demonstrating a remote Spectre attack against Workers at 120 bits per hour and introducing DyPrIs as a defense. The earlier paper reported a 0.61% false-positive rate and concluded that DyPrIs statistically provided the same security guarantees as strict process isolation against the Spectre attacks evaluated at the time. Cloudflare published additional Workers hardening measures in September 2025. The mitigations deployed by Cloudflare are listed below - Improved DyPrIs improves the detection capabilities of the existing",
       "fetch_status": "ok"
     },
     {
@@ -5771,7 +5723,7 @@
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
       "published": "2026-08-18T14:00:00+00:00",
       "summary": "Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v",
-      "author": "Google Threat Intelligence Group",
+      "author": "Mandiant",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
@@ -5795,7 +5747,7 @@
         }
       },
       "score": 10,
-      "full_body": "Threat Intelligence Staying Ahead of Adversarial AI Through Agentic Source Code Review August 18, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and validation of routine vulnerabilities, enabling humans to focus their impact. To help defenders implement similar approaches for their own environments, we are sharing the details of this internal, point-in-time architecture for the first time. AVDH can also be used alongside CodeMender’s ongoing scanning to create a two-layered defense strategy. Real-World Results In the 10 months that we’ve been using AVDH, we’ve seen it have a significant impact. During a recent incident response investigation involving stolen corporate repositories, the harness discovered over 100 true-positive critical vulnerabilities in just two days — achieving results in a fraction of the time required for manual review. This has greatly accelerated how Mandiant discovers vulnerabilities at scale. We have used it to analyze environments spanning tens of millions of lines of code, and execute thousands of pipelines to generate tens of thousands of findings. This rapid analysis has uncovered dozens of assignable flaws in widely used web extensions and open-source projects, resulting in 12 assigned CVEs, including CVE-2026-13242 , CVE-2026-55803 , and an additional dozen currently in active disclosure. While fast, broad, high-precision scanning has been one of the key benefits of AVDH, it has also acted as a force multiplier during our targeted adversary simulation engagements. We recently processed a client’s web application source code through the harness, and quickly found a remote code execution (RCE) vulnerability that enabled initial access. AVDH has repeatedly proven invaluable for navigating mature defenses and accelerating complex exploit chains. Architecting the Pipeline Harnesses have become a vital tool for cybersecurity uses of large language models (LLMs). They help mitigate much of the model’s unpredictability, driven by inherent, non-deterministic behavior, and dramatically improve their effectiveness at code analysis. The programmatic infrastructure of a harness orchestrates agents in a strictly deterministic manner toward objective completion. For AVDH, we used the Google Agent Development Kit (ADK), an LLM framework that implements the most common agent orchestration patterns, and provides flexibility for configuring custom and third-party integrations. This approach aligns with the agentic orchestration capabilities now available in Google Antigravity , which provides a centralized workspace for builders to steer and manage these agentic workflows. Our decades of frontline experience discovering and remediating vulnerabilities across every software domain helped us structure AVDH around the proven methodologies our consultants execute daily. AVDH chains specialized agents together in a sequential pipeline, much like t",
+      "full_body": "Threat Intelligence Staying Ahead of Adversarial AI Through Agentic Source Code Review August 18, 2026 Mandiant Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and validation of routine vulnerabilities, enabling humans to focus their impact. To help defenders implement similar approaches for their own environments, we are sharing the details of this internal, point-in-time architecture for the first time. AVDH can also be used alongside CodeMender’s ongoing scanning to create a two-layered defense strategy. Real-World Results In the 10 months that we’ve been using AVDH, we’ve seen it have a significant impact. During a recent incident response investigation involving stolen corporate repositories, the harness discovered over 100 true-positive critical vulnerabilities in just two days — achieving results in a fraction of the time required for manual review. This has greatly accelerated how Mandiant discovers vulnerabilities at scale. We have used it to analyze environments spanning tens of millions of lines of code, and execute thousands of pipelines to generate tens of thousands of findings. This rapid analysis has uncovered dozens of assignable flaws in widely used web extensions and open-source projects, resulting in 12 assigned CVEs, including CVE-2026-13242 , CVE-2026-55803 , and an additional dozen currently in active disclosure. While fast, broad, high-precision scanning has been one of the key benefits of AVDH, it has also acted as a force multiplier during our targeted adversary simulation engagements. We recently processed a client’s web application source code through the harness, and quickly found a remote code execution (RCE) vulnerability that enabled initial access. AVDH has repeatedly proven invaluable for navigating mature defenses and accelerating complex exploit chains. Architecting the Pipeline Harnesses have become a vital tool for cybersecurity uses of large language models (LLMs). They help mitigate much of the model’s unpredictability, driven by inherent, non-deterministic behavior, and dramatically improve their effectiveness at code analysis. The programmatic infrastructure of a harness orchestrates agents in a strictly deterministic manner toward objective completion. For AVDH, we used the Google Agent Development Kit (ADK), an LLM framework that implements the most common agent orchestration patterns, and provides flexibility for configuring custom and third-party integrations. This approach aligns with the agentic orchestration capabilities now available in Google Antigravity , which provides a centralized workspace for builders to steer and manage these agentic workflows. Our decades of frontline experience discovering and remediating vulnerabilities across every software domain helped us structure AVDH around the proven methodologies our consultants execute daily. AVDH chains specialized agents together in a sequential pipeline, much like the waterfall approach to",
       "fetch_status": "ok"
     },
     {
@@ -5806,7 +5758,7 @@
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review/",
       "published": "2026-08-18T14:00:00+00:00",
       "summary": "Written by: Alex Tselevich, Michael Maturi Introduction Adversarial misuse of AI has increased the risk of data theft and extortion events, because when proprietary source code is exposed, defenders must scramble to identify and patch vulnerabilities while attackers deploy machine-speed AI tools against them. By structuring the analysis process, enforcing skeptical validation steps, and injecting domain-specific human expertise directly into the pipeline, we’ve achieved a leap in efficacy. Combining AI models with a deeply structured, human expert-driven orchestration layer to tip the scales so that defenders can beat adversaries to the punch. Today, we use the Agentic Vulnerability Discovery Harness (AVDH) to rapidly analyze code and find exploit paths during proactive reviews, penetration tests, red team operations, and incident response engagements. By combining multi-agent orchestration with our frontline subject-matter expertise, this framework helps to augment the discovery and v",
-      "author": "Google Threat Intelligence Group",
+      "author": "Mandiant",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
@@ -7587,7 +7539,7 @@
       "published": "2026-08-14T18:11:14+00:00",
       "summary": "Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]",
       "author": "The Orca Security Team",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7603,8 +7555,61 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 7
+      }
+    },
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Agentic AI Security: Risks, Controls & Framework",
+      "link": "https://orca.security/resources/blog/agentic-ai-security/",
+      "published": "2026-08-14T18:01:40+00:00",
+      "summary": "Key Takeaways Agentic AI security is the practice of bounding what an autonomous AI system may do once it starts reasoning toward a goal, calling tools, reading the results, and deciding again on its own, across the APIs, data stores, and services of an enterprise environment. The unit of analysis is the plan rather than […]",
+      "author": "The Orca Security Team",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "AI Agents Security: Risks and Protection Strategies",
+      "link": "https://orca.security/resources/blog/ai-agents-security/",
+      "published": "2026-08-14T17:51:30+00:00",
+      "summary": "Key Takeaways Securing an AI agent means bounding what one identity can reach at the moment it acts. An application’s behavior is fixed when its code ships. An agent holds a credential, chooses its next tool at runtime, and acts between the request and the result. This article treats one agent as a security object. […]",
+      "author": "The Orca Security Team",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Dark Reading",
@@ -9930,33 +9935,6 @@
       }
     },
     {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
-      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
-      "published": "2026-08-12T13:00:00+00:00",
-      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that's going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it's helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there's a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ",
-      "author": "Rapid7",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -9979,6 +9957,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Rapid7",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
+      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
+      "published": "2026-08-12T13:00:00+00:00",
+      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that's going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it's helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there's a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ",
+      "author": "Rapid7",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -10761,6 +10766,35 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
+      "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
+      "link": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
+      "published": "2026-08-11T16:00:00+00:00",
+      "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent",
+      "author": "Tarunima Tripathi",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
       "title": "Accelerate PostgreSQL migrations using Gemini in Database Migration Service",
       "link": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/",
       "published": "2026-08-11T16:00:00+00:00",
@@ -10789,35 +10823,6 @@
               0.35
             ]
           ]
-        }
-      }
-    },
-    {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Looker’s semantic layer governs Gemini Enterprise data for user trust",
-      "link": "https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/",
-      "published": "2026-08-11T16:00:00+00:00",
-      "summary": "For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent",
-      "author": "Tarunima Tripathi",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
         }
       }
     },
@@ -11520,6 +11525,33 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "13 million tool calls: auditing every AI coding agent action with Elastic Agent",
+      "link": "https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks",
+      "published": "2026-08-11T00:00:00+00:00",
+      "summary": "Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -11574,33 +11606,6 @@
         "role_map": {
           "WordPress": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "13 million tool calls: auditing every AI coding agent action with Elastic Agent",
-      "link": "https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks",
-      "published": "2026-08-11T00:00:00+00:00",
-      "summary": "Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -14417,33 +14422,6 @@
       }
     },
     {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
-      "link": "https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking",
-      "published": "2026-08-05T23:30:00+00:00",
-      "summary": "Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
-      "author": "Jai Vijayan",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Graham Cluley",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -15881,6 +15859,33 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
+      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
+      "published": "2026-08-04T00:00:00+00:00",
+      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -15928,33 +15933,6 @@
         "cve_ids": [
           "CVE-2026-18577"
         ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human",
-      "link": "https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone",
-      "published": "2026-08-04T00:00:00+00:00",
-      "summary": "LLMs made it cheap to flood bug bounty programs with submissions. Here's how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
@@ -19791,13 +19769,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "2607-secai",
-      "link": "https://www.sophos.com/en-us/blog/2607-secai",
+      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
+      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
+      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -19818,13 +19796,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: How we cut AI agent LLM calls by 60%",
-      "link": "https://www.elastic.co/security-labs/ai-agent-optimization-production-scale",
+      "title": "2607-secai",
+      "link": "https://www.sophos.com/en-us/blog/2607-secai",
       "published": "2026-07-27T00:00:00+00:00",
-      "summary": "We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here's the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.",
+      "summary": "<p>What that means for Customer Protections </p> Categories: Threat Research, AI Research",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -25899,6 +25877,33 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
+      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
+      "published": "2026-07-02T00:00:00+00:00",
+      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -25916,33 +25921,6 @@
         "actor_attribution": [
           "TeamPCP"
         ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Inside Elastic InfoSec's agentic SOC: cutting alert triage from 30 minutes to under 3",
-      "link": "https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows",
-      "published": "2026-07-02T00:00:00+00:00",
-      "summary": "Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
