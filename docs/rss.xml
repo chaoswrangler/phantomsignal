@@ -6,9 +6,30 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 21 Aug 2026 14:41:38 +0000</lastBuildDate>
+<lastBuildDate>Fri, 21 Aug 2026 15:39:51 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug</title>
+<link>https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/</link>
+<description><![CDATA[Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification. The post In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug appeared first on SecurityWeek .<br/><br/><em>Tags: GitHub · ddos</em>]]></description>
+<pubDate>Fri, 21 Aug 2026 15:11:16 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>ddos</category>
+</item>
+<item>
+<title>Canada’s Hospital for Sick Children attacked by cybercriminals again as employee data stolen</title>
+<link>https://therecord.media/canada-hospital-for-sick-children-attacked-again-employee-data</link>
+<description><![CDATA[The Hospital for Sick Children — which was hit in a ransomware incident in 2022 that disabled some of its systems — released a statement on Thursday warning of a data theft incident they believe is tied to a third-party software application.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Fri, 21 Aug 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/canada-hospital-for-sick-children-attacked-again-employee-data</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini</title>
 <link>https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/</link>
@@ -409,14 +430,12 @@
 <item>
 <title>ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More</title>
 <link>https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html</link>
-<description><![CDATA[A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage. Nothing here needs<br/><br/><em>Tags: Gogs · phishing_social_eng · apt_espionage</em>]]></description>
+<description><![CDATA[A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage. Nothing here needs<br/><br/><em>Tags: Gogs</em>]]></description>
 <pubDate>Thu, 20 Aug 2026 17:23:48 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Gogs</category>
-<category>phishing_social_eng</category>
-<category>apt_espionage</category>
 </item>
 <item>
 <title>AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure</title>
@@ -558,15 +577,6 @@
 <category>Anthropic/Claude</category>
 <category>Azure</category>
 <category>CVE-2026-73570</category>
-</item>
-<item>
-<title>Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia</title>
-<link>https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/</link>
-<description><![CDATA[Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks. The post Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia appeared first on SecurityWeek .]]></description>
-<pubDate>Thu, 20 Aug 2026 13:16:35 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive</title>
@@ -844,15 +854,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology</title>
-<link>https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure</link>
-<description><![CDATA[The National Security Agency (NSA), FBI and other federal agencies said the campaign is targeting Siemens S7 Series PLCs and was being fueled by “AI-assisted development” alongside exploitation of known vulnerabilities.]]></description>
-<pubDate>Wed, 19 Aug 2026 17:58:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>SilkParasite Threatens Central Asian Orgs With Flurry of RATs</title>
 <link>https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats</link>
 <description><![CDATA[A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country&apos;s APTs.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -984,13 +985,11 @@
 <item>
 <title>Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P</title>
 <link>https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html</link>
-<description><![CDATA[Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files<br/><br/><em>Tags: CVE-2021-33044 · CVE-2021-33045</em>]]></description>
+<description><![CDATA[Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files]]></description>
 <pubDate>Wed, 19 Aug 2026 11:34:28 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>CVE-2021-33044</category>
-<category>CVE-2021-33045</category>
 </item>
 <item>
 <title>Phishing 3.0: The Fight Moves to Agent Versus Agent</title>
@@ -3580,17 +3579,6 @@
 <guid isPermaLink="true">https://www.interconnects.ai/p/lessons-from-the-hacks</guid>
 <source url="https://www.interconnects.ai/feed">Interconnects</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Auto mode is now the default in Claude Code for Pro, Max, and Team plans</title>
-<link>https://simonwillison.net/2026/Aug/8/auto-mode/</link>
-<description><![CDATA[Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code&apos;s auto mode , to the point that they are making it the default setting for new sessions in most Claude Code plans starting on August 14th. This was one of the topics discussed in our Fireside Chat with Cat Wu and Thariq Shihipar at the AI Engineer World’s Fair last month. I asked them how they run Claude Code safely within Anthropic (given the threat of prompt injection) and they replied that &quot;Broadly within Anthropic, almost every single person uses auto mode&quot;. Cat Wu then said: We’re going to publish some evals in the coming weeks, but we’ve pretty much mitigated every attack. [...] for the main categories of risks that we’re concerned about, like prompt injection and data exfiltration, the risks are far lower than the average human reviewer. This new article has those evals - in particular a test across 1,053 paid testers where: Partway through each session, a singl<br/><br/><em>Tags: Anthropic/Claude · ai_security</em>]]></description>
-<pubDate>Sat, 08 Aug 2026 22:36:03 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/8/auto-mode/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-<category>Anthropic/Claude</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Living off the coding agent: Two tales of tunnels and LaunchAgents</title>
@@ -18677,7 +18665,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18686,7 +18674,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18695,7 +18683,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18704,7 +18692,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18714,7 +18702,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18723,7 +18711,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18732,7 +18720,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18741,7 +18729,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18750,7 +18738,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18759,7 +18747,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 21 Aug 2026 14:41:38 +0000</pubDate>
+<pubDate>Fri, 21 Aug 2026 15:39:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
