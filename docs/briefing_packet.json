@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T16:41:25.092729+00:00",
+  "generated_at": "2026-08-21T17:35:00.408220+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 74,
   "total_items_in_window": 315,
-  "total_clusters_raw": 137,
-  "total_clusters_in_packet": 58,
+  "total_clusters_raw": 136,
+  "total_clusters_in_packet": 57,
   "dropped_low_score": 79,
   "dropped_overflow": 0,
   "cohort_metadata": {
@@ -67,20 +67,6 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -88,11 +74,11 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -109,12 +95,19 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -123,25 +116,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 3
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
       "in_window_count": 3
     },
     "NCSC UK": {
@@ -151,12 +144,33 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -172,12 +186,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -186,26 +200,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -214,11 +214,11 @@
       "item_count": 50,
       "in_window_count": 16
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 40,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -226,6 +226,13 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -242,13 +249,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
@@ -256,19 +256,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -277,18 +270,18 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Datadog Security Labs": {
@@ -305,6 +298,13 @@
       "item_count": 10,
       "in_window_count": 7
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -319,12 +319,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 6
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -333,12 +333,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 6
+      "in_window_count": 0
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -354,25 +368,18 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 0
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Google DeepMind Blog": {
@@ -389,13 +396,6 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
@@ -409,6 +409,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,22 +431,8 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -459,19 +452,19 @@
       "item_count": 20,
       "in_window_count": 16
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 16
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 24
+      "in_window_count": 23
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -480,12 +473,26 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 16
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -500,13 +507,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -536,22 +536,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 20,
+      "in_window_count": 3
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -564,12 +564,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -592,18 +592,18 @@
       "item_count": 25,
       "in_window_count": 15
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -4537,6 +4537,87 @@
       ]
     },
     {
+      "cluster_id": "8883aedcfe",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "How QR-code phishing can slip past corporate security measures",
+        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+        "published": "2026-08-17T09:00:00+00:00",
+        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "How QR-code phishing can slip past corporate security measures",
+          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+          "published": "2026-08-17T09:00:00+00:00",
+          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "a40b955a81",
       "priority_score": 10,
       "member_count": 1,
@@ -4699,87 +4780,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8883aedcfe",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "How QR-code phishing can slip past corporate security measures",
-        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-        "published": "2026-08-17T09:00:00+00:00",
-        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
-        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "How QR-code phishing can slip past corporate security measures",
-          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-          "published": "2026-08-17T09:00:00+00:00",
-          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -6787,7 +6787,7 @@
           "government"
         ],
         "affected_products": [
-          "Anthropic/Claude",
+          "AWS",
           "OpenAI/ChatGPT",
           "SonicWall"
         ],
@@ -6815,7 +6815,7 @@
         "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
         "published": "2026-08-20T11:06:14+00:00",
         "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
-        "full_body": "CISA warns of hackers exploiting critical MLflow vulnerability By Sergiu Gatlan August 20, 2026 07:06 AM 0 The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical MLflow vulnerability. MLflow is an open-source AI engineering platform for large language models (LLMs) and agents backed by the Linux Foundation, with over 30 million monthly downloads, used by thousands of organizations to debug, evaluate, optimize, and monitor AI applications. Tracked as CVE-2026-64849 , this critical DNS-rebinding server-side request forgery (SSRF) bypass in MLflow's outbound webhook delivery was patched in version 3.15.0 and can be used by attackers without privileges to remotely access internal services or cloud metadata configurations on unpatched instances. \"The default MLflow Tracking Server (mlflow server, no authentication, default SQLite backend) exposes the model-registry webhooks API unauthenticated, including a synchronous POST /api/2.0/mlflow/webhooks/{id}/test endpoint that returns the upstream response status and body to the caller,\" MLflow's security team says in a security advisory issued three weeks ago. \"An unauthenticated attacker who can reach the tracking server makes the server issue HTTP requests to arbitrary internal/loopback/cloud-metadata endpoints and reads the responses via /test: cloud instance-metadata (e.g. AWS IMDS IAM credentials), internal-only admin services behind the network boundary, and internal port/host scanning.\" Successful exploitation can allow threat actors to steal cloud credentials, such as AWS Identity and Access Management (IAM) credentials, in low-complexity attacks. Tagged as exploited in attacks On Wednesday, CISA added the vulnerability to its catalog of flaws exploited in the wild and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their MLflow instances within two weeks as mandated by Binding Operational Directive 26-04. BOD 26-04 was issued in June , and it requires U.S. government agencies to prioritize patching if the vulnerable assets are publicly exposed online, if the security flaw was added to CISA's KEV catalog, if exploitation can be automated for large-scale attacks, and if successful exploitation gives attackers partial or total control of a targeted system. While CISA has yet to share more information about these ongoing attacks, cybersecurity firm watchTowr revealed on Wednesday that attackers began scanning for MLflow systems within hours after the CVE ID was assigned. \"Attackers are exploiting the vulnerability to reach cloud metadata services directly, and exfiltrating cloud credentials and secrets,\" watchTowr said. \"If your organization runs MLflow, prioritize patching any exposed systems, review audit logs for signs of compromise, and check whether sensitive credentials may have been exposed.\" On Tuesday, CISA warned that hackers are now also abusing a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs Critical RCE flaw in Windows IKE Extension now actively exploited OpenAI confirms ChatGPT is down as logins and signups fail CISA: Windows Task Host flaw now exploited by ransomware gangs Anthropic confirms Claude is down in major outage affecting multiple services",
+        "full_body": "CISA warns of hackers exploiting critical MLflow vulnerability By Sergiu Gatlan August 20, 2026 07:06 AM 0 The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical MLflow vulnerability. MLflow is an open-source AI engineering platform for large language models (LLMs) and agents backed by the Linux Foundation, with over 30 million monthly downloads, used by thousands of organizations to debug, evaluate, optimize, and monitor AI applications. Tracked as CVE-2026-64849 , this critical DNS-rebinding server-side request forgery (SSRF) bypass in MLflow's outbound webhook delivery was patched in version 3.15.0 and can be used by attackers without privileges to remotely access internal services or cloud metadata configurations on unpatched instances. \"The default MLflow Tracking Server (mlflow server, no authentication, default SQLite backend) exposes the model-registry webhooks API unauthenticated, including a synchronous POST /api/2.0/mlflow/webhooks/{id}/test endpoint that returns the upstream response status and body to the caller,\" MLflow's security team says in a security advisory issued three weeks ago. \"An unauthenticated attacker who can reach the tracking server makes the server issue HTTP requests to arbitrary internal/loopback/cloud-metadata endpoints and reads the responses via /test: cloud instance-metadata (e.g. AWS IMDS IAM credentials), internal-only admin services behind the network boundary, and internal port/host scanning.\" Successful exploitation can allow threat actors to steal cloud credentials, such as AWS Identity and Access Management (IAM) credentials, in low-complexity attacks. Tagged as exploited in attacks On Wednesday, CISA added the vulnerability to its catalog of flaws exploited in the wild and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their MLflow instances within two weeks as mandated by Binding Operational Directive 26-04. BOD 26-04 was issued in June , and it requires U.S. government agencies to prioritize patching if the vulnerable assets are publicly exposed online, if the security flaw was added to CISA's KEV catalog, if exploitation can be automated for large-scale attacks, and if successful exploitation gives attackers partial or total control of a targeted system. While CISA has yet to share more information about these ongoing attacks, cybersecurity firm watchTowr revealed on Wednesday that attackers began scanning for MLflow systems within hours after the CVE ID was assigned. \"Attackers are exploiting the vulnerability to reach cloud metadata services directly, and exfiltrating cloud credentials and secrets,\" watchTowr said. \"If your organization runs MLflow, prioritize patching any exposed systems, review audit logs for signs of compromise, and check whether sensitive credentials may have been exposed.\" On Tuesday, CISA warned that hackers are now also abusing a critical-severity remote code execution (RCE) flaw in the Windows Internet Key Exchange (IKE) Service Extensions component. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs CISA orders feds to patch actively exploited TrueConf Server flaws Critical RCE flaw in Windows IKE Extension now actively exploited OpenAI confirms ChatGPT is down as logins and signups fail CISA: Windows Task Host flaw now exploited by ransomware gangs",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -6828,8 +6828,8 @@
           ],
           "affected_products": [
             "OpenAI/ChatGPT",
-            "Anthropic/Claude",
-            "SonicWall"
+            "SonicWall",
+            "AWS"
           ],
           "tools_used": [],
           "cve_ids": [
@@ -6845,7 +6845,6 @@
           "confidence_tier": "tier_4_news",
           "role_map": {
             "OpenAI/ChatGPT": "target",
-            "Anthropic/Claude": "target",
             "SonicWall": "target",
             "AWS": "target"
           },
@@ -6873,8 +6872,8 @@
             ],
             "affected_products": [
               "OpenAI/ChatGPT",
-              "Anthropic/Claude",
-              "SonicWall"
+              "SonicWall",
+              "AWS"
             ],
             "tools_used": [],
             "cve_ids": [
@@ -6890,7 +6889,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "OpenAI/ChatGPT": "target",
-              "Anthropic/Claude": "target",
               "SonicWall": "target",
               "AWS": "target"
             },
@@ -6991,114 +6989,6 @@
             "role_map": {
               "crates.io": "target",
               "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "5fa2f66ac2",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Gogs"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Gogs"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-        "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-        "published": "2026-08-20T17:23:48+00:00",
-        "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage. Nothing here needs",
-        "full_body": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More  Ravie Lakshmanan  Aug 20, 2026 Hacking News / Cybersecurity News A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage. Nothing here needs much decoration. The small gaps are doing enough work already. The threats change every week. Subscribe, and we’ll alert you when each new ThreatsDay Bulletin is out. Signed driver abuse Weaponizing Defender's Remediation Driver for EDR Bypass In new research, Check Point has reverse engineered Microsoft Defender's Defender Boot-Time Removal driver (\"BTR.sys\") and demonstrated that it's possible to repurpose the signed remediation driver as a universal kernel operation engine to bypass endpoint security solutions by exploiting a \"golden window\" between system start and user mode initialization without having to rely on the bring your own vulnerable driver (BYOVD) method. \"Because BTR.sys is a legitimate Microsoft-signed component, signature-based blocking is ineffective,\" security researcher Jiří Vinopal said . \"Furthermore, a well-crafted weaponization tool (like BTR_CLI ) intentionally mimics the operational footprint of the legitimate Windows Defender remediation process.\" $10 million reward U.S. DoJ Charges 17 Iranians for Massive Cyber Theft Campaign The U.S. Department of Justice (DoJ) has charged 17 members of the Mabna Institute, an Iran-based company that, since at least 2013, has conducted a coordinated campaign of cyber intrusions into computer systems for 144 U.S.-based universities, 178 foreign universities, at least 42 U.S.-based private sector companies, at least 11 foreign private sector companies, at least five U.S. federal and state government agencies, and at least two non-governmental organizations (NGOs). The Mabna Institute has been accused of stealing more than 31 TB of academic data and intellectual property from these universities, as well as the email accounts of employees at the private sector companies, government agencies, and NGOs. In all, the Mabna Institute targeted more than 100,000 accounts of professors around the world, successfully compromising approximately 8,000 of them. The defendants carried out these intrusions on behalf of Iran's Islamic Revolutionary Guard Corps (IRGC). The Mabna Institute was founded by Gholamreza Rafatnejad and Ehsan Mohammadi around 2013. \"The campaign started in approximately 2013, continued through at least December 2017, and broadly targeted all types of academic data and intellectual property from the systems of compromised universities,\" the DoJ said. \"In addition to stealing academic data and login credentials for the benefit of the Government of Iran, the defendants also sold the stolen data through two websites, Megapaper.ir (Megapaper) and Gigapaper.ir (Gigapaper).\" The U.S. Department of State is offering a $10 million reward for information about five of the defendants, or associated individuals or entities. \"Mabna represents the privatization of state espionage: a contractor selling stolen research to whoever's paying, with the IRGC as an anchor client rather than a sole owner,\" Shmuel Gihon, Security Research Team Lead of Exposure Management at Check Point, told The Hacker News. \"That's the trend to watch: capable, deniable, commercially-run crews doing state-level work at industrial scale, with universities as the perfect target. They offer enormous IP value, thin identity controls, and an open-access culture that phishing exploits directly. We've seen this blurring of cyber-criminal and state-sponsored activity before, but historically it's been more associated with Russian-speaking crews. What this case show",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "manufacturing_industrial",
-            "education"
-          ],
-          "affected_products": [
-            "Gogs"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gogs": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-          "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-          "published": "2026-08-20T17:23:48+00:00",
-          "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage. Nothing here needs",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "manufacturing_industrial",
-              "education"
-            ],
-            "affected_products": [
-              "Gogs"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gogs": "target"
             },
             "weak_tags": {
               "products": []
@@ -7235,7 +7125,7 @@
         "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
         "published": "2026-08-19T19:02:40+00:00",
         "summary": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers,",
-        "full_body": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second  Swati Khandelwal  Aug 19, 2026 Cloud Security / Vulnerability Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers, with the JWT intentionally placed in the victim's memory. The research paper stated that no customer data was accessed. Cloudflare said the attack has already been mitigated in production after it improved Dynamic Process Isolation (DyPrIs), integrated the V8 Sandbox , and deployed Memory Protection Keys (MPK)-based in-process isolation, adding that it found no indicators of active exploitation over the last three years. \"We demonstrate that the production implementation of DyPrIs was insufficient,\" the researchers said in the paper . Cloudflare Workers runs code from multiple tenants in separate V8 isolates within the same operating-system process, relying on language-level isolation instead of strict process isolation to reduce startup latency. A memory read within a shared Worker process can lead to cross-tenant leakage, according to Cloudflare . The attack requires the attacker and victim Workers to be co-located in separate V8 isolates within the same Worker process. The attacker controls valid code in its own isolate. Native code execution is outside the threat model, and the attack does not depend on a V8 software exploit or sandbox escape. Cloudflare said Workers restrict local timing sources by freezing or coarsening timers during CPU execution, and do not expose shared memory or multithreading to Worker scripts. The researchers found that WebSocket communications could provide a remote timing source, while Durable Objects could keep a single Worker isolate alive for five to more than 20 hours. DyPrIs isolates suspicious scripts into a separate process after an invocation finishes, and the researchers found that a long-lived Durable Object invocation could continue running before the isolation took place. The researchers also found that WebSocket-heavy input/output (I/O) activity increased instruction translation lookaside buffer (iTLB) activity, reducing the normalized branch-misprediction signal used by DyPrIs below its detection threshold. Cloudflare described the issue as a limitation in its DyPrIs implementation, while the paper said the two weaknesses reflected fundamental limitations of the detection approach rather than implementation oversights. The researchers said robust detection should take place during execution and use a signal that cannot be suppressed by I/O activity. The paper said the production tests were conducted on Linux servers using AMD EPYC Zen 2 and Zen 3 processors, with the researchers intentionally running measurements at night, when CPU utilization was between 10% and 25%, to observe the best possible results. The researchers said higher system load reduced the leakage rate, although slower attacks remained feasible under high load. The paper reported leakage of up to 12 bits per second at 99.16% accuracy, compared with 2 bits per minute in the earlier attack. The disclosure comes nearly five years after Cloudflare and TU Graz published research demonstrating a remote Spectre attack against Workers at 120 bits per hour and introducing DyPrIs as a defense. The earlier paper reported a 0.61% false-positive rate and concluded that DyPrIs statistically provided the same security guarantees as strict process isolation against the Spectre attacks evaluated at the time. Cloudflare published additional Workers hardening measures in September 2025. The mitigations deployed by Cloudflare are listed below - Improved DyPrIs improves the detection capabilities of the existing",
+        "full_body": "",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
@@ -8156,8 +8046,7 @@
           "ransomware_extortion"
         ],
         "affected_products": [
-          "SonicWall",
-          "Anthropic/Claude"
+          "SonicWall"
         ],
         "urgency_signals": [
           "preauth_unauth"
