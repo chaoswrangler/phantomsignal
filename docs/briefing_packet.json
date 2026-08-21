@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-21T22:31:02.417024+00:00",
+  "generated_at": "2026-08-21T23:29:56.087077+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 74,
-  "total_items_in_window": 311,
-  "total_clusters_raw": 136,
-  "total_clusters_in_packet": 54,
-  "dropped_low_score": 82,
+  "total_items_in_window": 322,
+  "total_clusters_raw": 140,
+  "total_clusters_in_packet": 52,
+  "dropped_low_score": 88,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -79,20 +79,13 @@
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 2
+      "in_window_count": 3
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -102,8 +95,22 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 0
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -116,19 +123,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 50,
+      "in_window_count": 3
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -137,12 +137,26 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -157,13 +171,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -186,12 +193,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 16
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -207,25 +214,25 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 16
+      "item_count": 10,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -235,9 +242,9 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -256,19 +263,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -277,13 +277,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -291,12 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -304,6 +297,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -319,19 +319,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -340,9 +340,9 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -354,15 +354,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
@@ -375,19 +368,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 0
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -403,12 +389,33 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -424,12 +431,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 16
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -438,13 +445,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 16
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -452,12 +452,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 23
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -465,13 +465,6 @@
       "status": "ok",
       "item_count": 30,
       "in_window_count": 17
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -487,6 +480,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 23
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -494,12 +494,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,15 +508,29 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -528,27 +542,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -571,12 +564,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -585,12 +578,19 @@
       "item_count": 100,
       "in_window_count": 26
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 15
+      "in_window_count": 25
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -2006,6 +2006,108 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f7442c938e",
+      "priority_score": 19,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2024-3094"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
+        "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
+        "published": "2026-08-21T23:00:21+00:00",
+        "summary": "Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls The post Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Insights General General Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain 4 min read Related Products Cloud-Delivered Security Services Cortex Cloud Unit 42 Incident Response By: Yaron Avital Published: August 21, 2026 Categories: General Insights Tags: ChainDrop Npm packages Software supply-chain attack Supply chain Share While supply chain threats have been quietly compounding over the past decade, the last 12–18 months have triggered a drastic shift in the scale and velocity of these attacks. Rather than just hunting for bugs in finished software, attackers are targeting the everyday tools and code developers rely on. Unit 42 research shows this happening at every step of the building process. We've observed attackers spending years pretending to be helpful contributors just to hide backdoors in core software, as seen in the XZ Utils vulnerability (CVE-2024-3094) . We've seen attackers hijack accounts to drop malware into popular libraries, like in the Axios supply chain attack . And we've seen them misuse setup scripts to automatically steal credentials using the Shai-Hulud npm worm . Simply put, attackers are more focused on poisoning the digital factory that builds an application as opposed to the application itself. By targeting continuous integration/continuous delivery (CI/CD) pipelines and developer environments, they hijack software at the source before it ever hits production. Threat Analysis: ChainDrop npm Worm Consider the recent ChainDrop npm worm , which infected over 400 packages including massively popular libraries like keyv and cacheable-request using a highly evasive three-step chain: The hook: Attackers modified package manifests with a malicious preinstall script that downloaded the legitimate Bun runtime to silently launch a 727 KB obfuscated payload in the background. The theft: Rather than just scraping disk files, a hidden Python script directly read live process memory from GitHub Actions runners to steal temporary OpenID Connect (OIDC) tokens and secrets, alongside a massive sweep for local developer credentials. The payload: The worm used those stolen npm and GitHub tokens to self-propagate, silently infecting and republishing additional packages while leaving their legitimate functionality perfectly intact so that developers don't notice. ChainDrop secured long-term persistence by establishing cross-linked hooks directly inside developer tools like VS Code and Claude Code, while managing its entire command-and-control (C2) infrastructure dynamically through Ethereum blockchain transactions. The malware triggers silently the second someone runs npm install by misusing npm's setup scripts ( preinstall hooks). From there, it hits three distinct targets: Cloud secret harvesting: It searches build server memory to scrape unencrypted credentials and platform access tokens Local endpoint backdooring: It modifies local developer tool configs (like VS Code's tasks.json ) so the attacker retains access even after the build finishes Automated propagation: It uses stolen tokens to automatically create rogue code repositories, turning compromised accounts into new launchpads to spread the worm Package Visibility Across the SDLC The main takeaway is that open-source and third-party packages touch every single phase of the software development lifecycle (SDLC). Modern applications aren't built from scratch, they are assembled. Because open-source code makes up 80-90% of modern codebases, the attack surface expands to developer laptops, CI/CD pipelines and cloud infrastructure. Ten years ago, a project might have relied on a few dozen external libraries. Today, even a simple application pulls in thousands of indirect dependencies. Generating a software bill of materials (SBOM) at the end of a build is great for compliance, but an SBOM alone simply doesn't cut it anymore. An inventory list created at the finish line won't catch m",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "npm",
+            "Anthropic/Claude"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2024-3094"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "npm": "target",
+            "Anthropic/Claude": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain",
+          "link": "https://unit42.paloaltonetworks.com/sdlc-supply-chain/",
+          "published": "2026-08-21T23:00:21+00:00",
+          "summary": "Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls The post Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "npm",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2024-3094"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "npm": "target",
+              "Anthropic/Claude": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3472,6 +3574,7 @@
         "threat_categories": [
           "active_exploitation",
           "ddos",
+          "phishing_social_eng",
           "vulnerability_disclosure"
         ],
         "actor_attribution": [],
@@ -3489,8 +3592,7 @@
           "preauth_unauth"
         ],
         "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_2_operator",
@@ -3636,14 +3738,16 @@
           }
         },
         {
-          "source": "Reddit r/netsec",
+          "source": "Reddit r/cybersecurity",
           "cohort": "reddit_practitioner_osint",
-          "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html",
-          "link": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
-          "published": "2026-08-18T16:24:33+00:00",
-          "summary": "submitted by /u/Fit_Veterinarian4403 [link] [comments]",
+          "title": "140+ free security awareness and application security exercises. Fully white-labeled, no strings attached",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1vuhwqx/140_free_security_awareness_and_application/",
+          "published": "2026-08-21T14:27:54+00:00",
+          "summary": "Disclosure: I work on the commercial platform these were built with. The exercise preview links point to that domain. The SCORM packages themselves are fully white-labeled — no logos, no backlinks, no sign-up, no paywall. Grab them from GitHub and self-host if you'd rather not touch our site. Also, the post was admin-approved, a huge \"thank you\" to them! ----------------- Hey r/cybersecurity, I'm a cybersec engineer with an L&D background. For the last year been working on a library of ~140 free interactive exercises dedicated to teaching people how to build secure applications, recognize phishing and use AI in a safe way. Exercises are split across two Github repos, all packaged as SCORM .zip files under CC BY-NC 4.0 license. Security awareness (130+ exercises) Each one drops the learner into a first-person 3D office and makes them act: answer the phone, read the email, click the thing, live with it. Every exercise ends with a quiz at a 100% pass threshold. Course packages in the repo",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -3653,7 +3757,7 @@
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
+            "content_type": "news_report",
             "confidence_tier": "tier_5_chatter",
             "role_map": {
               "GitHub": "target"
@@ -3752,87 +3856,6 @@
             "role_map": {
               "Palo Alto Networks": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a7d83e74e6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-        "published": "2026-08-20T17:52:13+00:00",
-        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-          "published": "2026-08-20T17:52:13+00:00",
-          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4199,6 +4222,87 @@
               "Microsoft SharePoint": "target",
               "Azure": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a7d83e74e6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+        "published": "2026-08-20T17:52:13+00:00",
+        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+          "published": "2026-08-20T17:52:13+00:00",
+          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5605,89 +5709,6 @@
       ]
     },
     {
-      "cluster_id": "7029814c59",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-33696"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-33696"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
-        "link": "https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/",
-        "published": "2026-08-16T13:33:02+00:00",
-        "summary": "submitted by /u/TradeGold6317 [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-33696"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
-          "link": "https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/",
-          "published": "2026-08-16T13:33:02+00:00",
-          "summary": "submitted by /u/TradeGold6317 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-33696"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "e50251994f",
       "priority_score": 9,
       "member_count": 4,
@@ -5839,130 +5860,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Google/Gemini": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4405003146",
-      "priority_score": 9,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2026-32193",
-        "Microsoft/Copilot"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft/Copilot"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-32193"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
-        "link": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
-        "published": "2026-08-17T12:17:40+00:00",
-        "summary": "submitted by /u/Master_Access_486 [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft/Copilot"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-32193"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {
-            "Microsoft/Copilot": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
-          "link": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
-          "published": "2026-08-17T12:17:40+00:00",
-          "summary": "submitted by /u/Master_Access_486 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft/Copilot"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-32193"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Microsoft/Copilot": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-          "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-          "published": "2026-08-18T17:47:22+00:00",
-          "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session. The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft/Copilot"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft/Copilot": "target"
             },
             "weak_tags": {
               "products": []
@@ -7221,104 +7118,7 @@
       ]
     },
     {
-      "cluster_id": "2faaf824a1",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2021-33044",
-        "CVE-2024-39943",
-        "CVE-2025-31702"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2021-33044",
-          "CVE-2024-39943",
-          "CVE-2025-31702"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
-        "link": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
-        "published": "2026-08-18T17:34:14+00:00",
-        "summary": "An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2021-33044",
-            "CVE-2024-39943",
-            "CVE-2025-31702"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
-          "link": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
-          "published": "2026-08-18T17:34:14+00:00",
-          "summary": "An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2021-33044",
-              "CVE-2024-39943",
-              "CVE-2025-31702"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a0547d74b2",
+      "cluster_id": "9bc3d07be4",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7331,23 +7131,21 @@
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
           "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Reddit r/netsec",
+        "source": "Reddit r/cybersecurity",
         "cohort": "reddit_practitioner_osint",
-        "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
-        "link": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
-        "published": "2026-08-17T14:14:44+00:00",
-        "summary": "submitted by /u/HyprWave [link] [comments]",
+        "title": "Vulnerability Management",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1vulxlo/vulnerability_management/",
+        "published": "2026-08-21T16:56:40+00:00",
+        "summary": "Currently using CrowdStrike and Tines to help automate vulnerability ticket submissions. I’m struggling with my workflows though and have noticed a large gap. We calculate SLA based on ExPRT ratings currently. So we filter by critical high medium or low and submit based on those segments. I submit tickets by remediation since that decreases ticket volume + resolves multiple CVEs at once if they share the same remediation. The flaw here is that if one CVE changes rating randomly, the SLA technically should change so it needs to be pulled from that static ticket, which just isn’t manageable without creating chaos. Also, the filters would not pick it up on next rerun if it’s in its own segment; the cve would now be a critical and if the ticket is submitted as a high, it would be missed. So obviously my approach here is wrong, but I also cannot just blow up the ticket queue by submitted solely on CVE-ID. Does anyone out there have any advice / opinions / what they have done in their org? T",
         "full_body": "",
         "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
@@ -7358,10 +7156,8 @@
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_5_chatter",
           "role_map": {},
           "weak_tags": {
@@ -7371,12 +7167,12 @@
       },
       "corroborating_sources": [
         {
-          "source": "Reddit r/netsec",
+          "source": "Reddit r/cybersecurity",
           "cohort": "reddit_practitioner_osint",
-          "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
-          "link": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
-          "published": "2026-08-17T14:14:44+00:00",
-          "summary": "submitted by /u/HyprWave [link] [comments]",
+          "title": "Vulnerability Management",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1vulxlo/vulnerability_management/",
+          "published": "2026-08-21T16:56:40+00:00",
+          "summary": "Currently using CrowdStrike and Tines to help automate vulnerability ticket submissions. I’m struggling with my workflows though and have noticed a large gap. We calculate SLA based on ExPRT ratings currently. So we filter by critical high medium or low and submit based on those segments. I submit tickets by remediation since that decreases ticket volume + resolves multiple CVEs at once if they share the same remediation. The flaw here is that if one CVE changes rating randomly, the SLA technically should change so it needs to be pulled from that static ticket, which just isn’t manageable without creating chaos. Also, the filters would not pick it up on next rerun if it’s in its own segment; the cve would now be a critical and if the ticket is submitted as a high, it would be missed. So obviously my approach here is wrong, but I also cannot just blow up the ticket queue by submitted solely on CVE-ID. Does anyone out there have any advice / opinions / what they have done in their org? T",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7385,10 +7181,8 @@
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
@@ -7839,7 +7633,14 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2024-3094",
+          "cluster_id": "f7442c938e",
+          "first_source": "Unit 42",
+          "first_published": "2026-08-21T23:00:21+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -8087,33 +7888,6 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": [
-      {
-        "cluster_id": "7029814c59",
-        "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
-        "primary_source": "Reddit r/netsec",
-        "strong_signals": [
-          "CVE-2026-33696"
-        ]
-      },
-      {
-        "cluster_id": "4405003146",
-        "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
-        "primary_source": "Reddit r/netsec",
-        "strong_signals": [
-          "CVE-2026-32193"
-        ]
-      },
-      {
-        "cluster_id": "2faaf824a1",
-        "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
-        "primary_source": "Reddit r/netsec",
-        "strong_signals": [
-          "CVE-2021-33044",
-          "CVE-2024-39943",
-          "CVE-2025-31702"
-        ]
-      }
-    ]
+    "tier_inversion": []
   }
 }

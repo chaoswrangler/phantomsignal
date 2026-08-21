@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-21T22:31:02.417024+00:00
+- Generated: 2026-08-21T23:29:56.087077+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 311
-- Total clusters raw: 136
-- Total clusters in packet: 54
-- Dropped low score: 82
+- Total items in window: 322
+- Total clusters raw: 140
+- Total clusters in packet: 52
+- Dropped low score: 88
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -79,24 +79,29 @@
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 2
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
+  - In window count: 3
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -105,26 +110,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 50
+  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -135,11 +145,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -155,11 +160,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 50
+  - In window count: 16
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -170,28 +175,28 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 16
+  - Item count: 10
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -205,41 +210,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
-  - Item count: 30
-  - In window count: 2
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,23 +250,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 5
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -275,13 +275,8 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -290,16 +285,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -310,11 +300,26 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -325,41 +330,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 16
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 23
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -370,28 +365,43 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 23
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,21 +410,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -430,21 +425,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 20
+  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 26
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 15
+  - In window count: 25
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -729,7 +729,8 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2024-3094 (first seen via Unit 42 at 2026-08-21T23:00:21+00:00, cluster f7442c938e)
 - Novel actors: 0
 - Novel products: 0
 
@@ -800,19 +801,7 @@
 - cve_ids: CVE-2026-3502 (weeks observed: 3, cluster 9a16830e44)
 - actor_attribution: Kimsuky (weeks observed: 3, cluster 7e142768f0)
 
-### Tier inversion (3)
-- **CVE-2026-33696: From a Schema Name to RCE in n8n**
-  - Cluster: 7029814c59
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-33696
-- **From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)**
-  - Cluster: 4405003146
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-32193
-- **🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia**
-  - Cluster: 2faaf824a1
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
+### Tier inversion (0)
 
 ## Clusters
 
@@ -1226,6 +1215,51 @@ Threat Intelligence Going with the Flow(s): Distinct Clusters Target Individuals
   - Published: 2026-08-20T19:59:19+00:00
   - Link: https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html
   - Summary: Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include UNC6293, UNC7005, and UNC5976. "These clusters engage in persistent, adaptive
+
+### Cluster f7442c938e — score 19
+
+- Title: Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-08-21T23:00:21+00:00
+- Link: https://unit42.paloaltonetworks.com/sdlc-supply-chain/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_products: Anthropic/Claude, npm
+- cve_ids: CVE-2024-3094
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: npm, Anthropic/Claude
+- cve_ids: CVE-2024-3094
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls The post Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Insights General General Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain 4 min read Related Products Cloud-Delivered Security Services Cortex Cloud Unit 42 Incident Response By: Yaron Avital Published: August 21, 2026 Categories: General Insights Tags: ChainDrop Npm packages Software supply-chain attack Supply chain Share While supply chain threats have been quietly compounding over the past decade, the last 12–18 months have triggered a drastic shift in the scale and velocity of these attacks. Rather than just hunting for bugs in finished software, attackers are targeting the everyday tools and code developers rely on. Unit 42 research shows this happening at every step of the building process. We've observed attackers spending years pretending to be helpful contributors just to hide backdoors in core software, as seen in the XZ Utils vulnerability (CVE-2024-3094) . We've seen attackers hijack accounts to drop malware into popular libraries, like in the Axios supply chain attack . And we've seen them misuse setup scripts to automatically steal credentials using the Shai-Hulud npm worm . Simply put, attackers are more focused on poisoning the digital factory that builds an application as opposed to the application itself. By targeting continuous integration/continuous delivery (CI/CD) pipelines and developer environments, they hijack software at the source before it ever hits production. Threat Analysis: ChainDrop npm Worm Consider the recent ChainDrop npm worm , which infected over 400 packages including massively popular libraries like keyv and cacheable-request using a highly evasive three-step chain: The hook: Attackers modified package manifests with a malicious preinstall script that downloaded the legitimate Bun runtime to silently launch a 727 KB obfuscated payload in the background. The theft: Rather than just scraping disk files, a hidden Python script directly read live process memory from GitHub Actions runners to steal temporary OpenID Connect (OIDC) tokens and secrets, alongside a massive sweep for local developer credentials. The payload: The worm used those stolen npm and GitHub tokens to self-propagate, silently infecting and republishing additional packages while leaving their legitimate functionality perfectly intact so that developers don't notice. ChainDrop secured long-term persistence by establishing cross-linked hooks directly inside developer tools like VS Code and Claude Code, while managing its entire command-and-control (C2) infrastructure dynamically through Ethereum blockchain transactions. The malware triggers silently the second someone runs npm install by misusing npm's setup scripts ( preinstall hooks). From there, it hits three distinct targets: Cloud secret harvesting: It searches build server memory to scrape unencrypted credentials and platform access tokens Local endpoint backdooring: It modifies local developer tool configs (like VS Code's tasks.json ) so the attacker retains access even after the build finishes Automated propagation: It uses stolen tokens to automatically create rogue code repositories, turning compromised accounts into new launchpads to spread the worm Package Visibility Across the SDLC The main takeaway is that open-source and third-party packages touch every single phase of the software development lifecycle (SDLC). Modern applications aren't built from scratch, they are assembled. Because open-source code makes up 80-90% of modern codebases, the attack surface expands to developer laptops, CI/CD pipelines and cloud infrastructure. Ten years ago, a project might have relied on a few dozen external libraries. Today, even a simple application pulls in thousands of indirect dependencies. Generating a software bill of materials (SBOM) at the end of a build is great for compliance, but an SBOM alone simply doesn't cut it anymore. An inventory list created at the finish line won't catch m
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain
+  - Published: 2026-08-21T23:00:21+00:00
+  - Link: https://unit42.paloaltonetworks.com/sdlc-supply-chain/
+  - Summary: Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls The post Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain appeared first on Unit 42 .
 
 ### Cluster c23d18e0e8 — score 18
 
@@ -1777,10 +1811,10 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5
 - Strong signals: Atlassian Jira, GitHub, Snowflake
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, vulnerability_disclosure
+- threat_categories: active_exploitation, ddos, phishing_social_eng, vulnerability_disclosure
 - affected_products: Atlassian Jira, GitHub, Snowflake
 - urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
+- content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
@@ -1819,11 +1853,11 @@ Wiz Pricing Get a demo Get a demo As part of ongoing security research conducted
   - Published: 2026-08-21T15:11:16+00:00
   - Link: https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/
   - Summary: Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification. The post In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug appeared first on SecurityWeek .
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html
-  - Published: 2026-08-18T16:24:33+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
-  - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: 140+ free security awareness and application security exercises. Fully white-labeled, no strings attached
+  - Published: 2026-08-21T14:27:54+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vuhwqx/140_free_security_awareness_and_application/
+  - Summary: Disclosure: I work on the commercial platform these were built with. The exercise preview links point to that domain. The SCORM packages themselves are fully white-labeled — no logos, no backlinks, no sign-up, no paywall. Grab them from GitHub and self-host if you'd rather not touch our site. Also, the post was admin-approved, a huge "thank you" to them! ----------------- Hey r/cybersecurity, I'm a cybersec engineer with an L&D background. For the last year been working on a library of ~140 free interactive exercises dedicated to teaching people how to build secure applications, recognize phishing and use AI in a safe way. Exercises are split across two Github repos, all packaged as SCORM .zip files under CC BY-NC 4.0 license. Security awareness (130+ exercises) Each one drops the learner into a first-person 3D office and makes them act: answer the phone, read the email, click the thing, live with it. Every exercise ends with a quiz at a 100% pass threshold. Course packages in the repo
 
 ### Cluster 213e3c4494 — score 10
 
@@ -1867,47 +1901,6 @@ Threat Research Center Threat Research Malware Malware Identity Abuse Through Tr
   - Published: 2026-08-20T10:00:25+00:00
   - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
   - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
-
-### Cluster a7d83e74e6 — score 10
-
-- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-20T17:52:13+00:00
-- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-  - Published: 2026-08-20T17:52:13+00:00
-  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster e7f188e340 — score 10
 
@@ -2049,6 +2042,47 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 17th Augus
   - Published: 2026-08-17T13:37:34+00:00
   - Link: https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 17th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Colombia’s Ministry of Justice has experienced a ransomware attack that affected part of its technology infrastructure and disrupted public services related to illicit-drug monitoring and legal processes. Officials confirmed that some files were […] The post 17th August – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster a7d83e74e6 — score 10
+
+- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-20T17:52:13+00:00
+- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+  - Published: 2026-08-20T17:52:13+00:00
+  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster 8883aedcfe — score 10
 
@@ -2665,41 +2699,6 @@ Infosecurity Magazine Home » News » North Korean Hackers Tied to Rust Supply C
   - Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
   - Summary: Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
 
-### Cluster 7029814c59 — score 9
-
-- Title: CVE-2026-33696: From a Schema Name to RCE in n8n
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-08-16T13:33:02+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-33696
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-33696
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-33696
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/TradeGold6317 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: CVE-2026-33696: From a Schema Name to RCE in n8n
-  - Published: 2026-08-16T13:33:02+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/
-  - Summary: submitted by /u/TradeGold6317 [link] [comments]
-
 ### Cluster e50251994f — score 9
 
 - Title: Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting
@@ -2753,48 +2752,6 @@ Data Analytics Serverless Apache Spark on Google Cloud: Architecture Choices & A
   - Published: 2026-08-20T10:46:49+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/20/fake-google-gemini-installer-vidar-infostealer/
   - Summary: A malicious executable masquerading as a Google Gemini installer was used to deliver the Vidar infostealer on a company network in the EMEA region, according to Darktrace researchers who investigated the incident. “During the initial analysis, it was noted that the top search result for the suspicious filename associated pointed to a file hosted on Google Colab, a cloud-based Jupyter notebook platform, commonly used by developers, researchers, and data scientists to run code and machine … More → The post Fake Gemini installer delivers Vidar infostealer via Google Colab lure appeared first on Help Net Security .
-
-### Cluster 4405003146 — score 9
-
-- Title: From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-08-17T12:17:40+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-32193, Microsoft/Copilot
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft/Copilot
-- cve_ids: CVE-2026-32193
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: Microsoft/Copilot
-- cve_ids: CVE-2026-32193
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/Master_Access_486 [link] [comments]
-```
-
-#### Corroborating sources (2)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)
-  - Published: 2026-08-17T12:17:40+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/
-  - Summary: submitted by /u/Master_Access_486 [link] [comments]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps
-  - Published: 2026-08-18T17:47:22+00:00
-  - Link: https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
-  - Summary: Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session. The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced
 
 ### Cluster 114ded0230 — score 8
 
@@ -3295,74 +3252,35 @@ Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands
   - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
   - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
 
-### Cluster 2faaf824a1 — score 8
+### Cluster 9bc3d07be4 — score 8
 
-- Title: 🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-08-18T17:34:14+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
-- urgency_signals: preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
-- urgency_signals: preauth_unauth
-- content_type: incident_report
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: 🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia
-  - Published: 2026-08-18T17:34:14+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
-  - Summary: An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io
-
-### Cluster a0547d74b2 — score 8
-
-- Title: Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-08-17T14:14:44+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/
+- Title: Vulnerability Management
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-08-21T16:56:40+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1vulxlo/vulnerability_management/
 - Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-submitted by /u/HyprWave [link] [comments]
+Currently using CrowdStrike and Tines to help automate vulnerability ticket submissions. I’m struggling with my workflows though and have noticed a large gap. We calculate SLA based on ExPRT ratings currently. So we filter by critical high medium or low and submit based on those segments. I submit tickets by remediation since that decreases ticket volume + resolves multiple CVEs at once if they share the same remediation. The flaw here is that if one CVE changes rating randomly, the SLA technically should change so it needs to be pulled from that static ticket, which just isn’t manageable without creating chaos. Also, the filters would not pick it up on next rerun if it’s in its own segment; the cve would now be a critical and if the ticket is submitted as a high, it would be missed. So obviously my approach here is wrong, but I also cannot just blow up the ticket queue by submitted solely on CVE-ID. Does anyone out there have any advice / opinions / what they have done in their org? T
 ```
 
 #### Corroborating sources (1)
 
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)
-  - Published: 2026-08-17T14:14:44+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/
-  - Summary: submitted by /u/HyprWave [link] [comments]
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Vulnerability Management
+  - Published: 2026-08-21T16:56:40+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1vulxlo/vulnerability_management/
+  - Summary: Currently using CrowdStrike and Tines to help automate vulnerability ticket submissions. I’m struggling with my workflows though and have noticed a large gap. We calculate SLA based on ExPRT ratings currently. So we filter by critical high medium or low and submit based on those segments. I submit tickets by remediation since that decreases ticket volume + resolves multiple CVEs at once if they share the same remediation. The flaw here is that if one CVE changes rating randomly, the SLA technically should change so it needs to be pulled from that static ticket, which just isn’t manageable without creating chaos. Also, the filters would not pick it up on next rerun if it’s in its own segment; the cve would now be a critical and if the ticket is submitted as a high, it would be missed. So obviously my approach here is wrong, but I also cannot just blow up the ticket queue by submitted solely on CVE-ID. Does anyone out there have any advice / opinions / what they have done in their org? T
