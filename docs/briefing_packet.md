@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-21T11:32:19.060300+00:00
+- Generated: 2026-08-21T12:58:59.356272+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 316
+- Total items in window: 317
 - Total clusters raw: 140
-- Total clusters in packet: 58
-- Dropped low score: 82
+- Total clusters in packet: 59
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,6 +75,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -90,26 +95,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -119,11 +129,6 @@
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
@@ -140,26 +145,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 50
-  - In window count: 3
+  - Item count: 40
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -170,26 +180,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 16
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -199,6 +189,11 @@
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
@@ -210,6 +205,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -220,16 +220,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -240,53 +240,53 @@
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 6
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+  - In window count: 5
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
@@ -295,46 +295,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 100
+  - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,31 +350,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 26
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 14
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 25
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -395,11 +390,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -410,21 +415,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 28
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -435,11 +435,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 26
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -477,22 +477,17 @@
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 12
-- Article count: 19
-- Cohesion: 0.224
+- Article count: 16
+- Cohesion: 0.223
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: CVE-2026-68820
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: web_shell_backdoor, credential_theft, active_exploitation, ransomware_extortion
-  - affected_industries: government
+  - threat_categories: web_shell_backdoor, credential_theft, ransomware_extortion, supply_chain
+  - affected_industries: government, financial_services
   - affected_products: Apple iOS/macOS
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: 496d2b45e6, 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 34d43ef8cf, 114ded0230, 3ec665ac60, 7d481c14a9, 388705e7c7, 20c2a82904
+- Cluster IDs: 6117c1d701, bd5d2abe67, 175a6a518c, a50e916d10, 7e142768f0, 34d43ef8cf, ae98432591, 114ded0230, 3ec665ac60, 7d481c14a9, 388705e7c7, 20c2a82904
 - Links:
-  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
@@ -502,32 +497,33 @@
   - https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html
   - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
+  - https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - https://www.sophos.com/en-us/blog/2608-patch-tuesday
   - https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
   - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
 
-### Citrix active exploitation
+### supply chain targeting Citrix
 - Anchor signal: Citrix
 - Theme key: citrix
 - Cluster count: 4
 - Article count: 5
-- Cohesion: 0.218
+- Cohesion: 0.222
 - Shared strong signals: Citrix
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, supply_chain, credential_theft
-  - affected_products: Citrix, GitLab
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: 7f1247614d, 34d43ef8cf, 0d83fa199c, 94883eb56c
+  - threat_categories: supply_chain, credential_theft, active_exploitation
+  - affected_products: Citrix, GitLab, Microsoft Entra
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 7f1247614d, e12b0b4338, 34d43ef8cf, 0d83fa199c
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
   - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
+  - https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
   - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
   - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
-  - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
 
 ### Cisco active exploitation
 - Anchor signal: Cisco
@@ -550,28 +546,6 @@
   - https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
   - https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
   - https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html
-
-### GitLab active exploitation
-- Anchor signal: GitLab
-- Theme key: gitlab
-- Cluster count: 4
-- Article count: 7
-- Cohesion: 0.217
-- Shared strong signals: GitLab
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, supply_chain, credential_theft
-  - affected_products: GitLab, Citrix
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: 7b38f69250, 34d43ef8cf, 0d83fa199c, 94883eb56c
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
-  - https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
-  - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
-  - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
-  - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
-  - https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
 
 ### WordPress vulnerability activity
 - Anchor signal: WordPress
@@ -617,6 +591,51 @@
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
 
+### active exploitation targeting GitLab
+- Anchor signal: GitLab
+- Theme key: gitlab
+- Cluster count: 3
+- Article count: 6
+- Cohesion: 0.21
+- Shared strong signals: GitLab
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, supply_chain, credential_theft
+  - affected_products: GitLab, Citrix
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 7b38f69250, e12b0b4338, 0d83fa199c
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
+  - https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
+  - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
+  - https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+  - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
+
+### active exploitation targeting Microsoft Entra
+- Anchor signal: Microsoft Entra
+- Theme key: microsoft-entra
+- Cluster count: 3
+- Article count: 8
+- Cohesion: 0.209
+- Shared strong signals: Microsoft Entra
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, supply_chain, credential_theft
+  - affected_products: Microsoft Entra, Citrix
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 3e059b6047, 34d43ef8cf, 0d83fa199c
+- Links:
+  - https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
+  - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
+  - https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
+
 ### ransomware extortion targeting SonicWall
 - Anchor signal: SonicWall
 - Theme key: sonicwall
@@ -640,6 +659,29 @@
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/
 
+### Microsoft SharePoint active exploitation
+- Anchor signal: Microsoft SharePoint
+- Theme key: microsoft-sharepoint
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Microsoft SharePoint
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, active_exploitation, web_shell_backdoor
+  - affected_industries: government, financial_services, critical_infrastructure
+  - affected_products: Microsoft SharePoint, Apple iOS/macOS
+  - cve_ids: CVE-2026-65400
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: bd5d2abe67, 9a16830e44, 7e142768f0
+- Links:
+  - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://isc.sans.edu/diary/rss/33254
+  - https://www.huntress.com/blog/fake-claude-macsync
+  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
+  - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
+
 ### CVE-2026-19490 exploitation activity
 - Anchor signal: CVE-2026-19490
 - Theme key: cve-2026-19490
@@ -658,6 +700,29 @@
   - https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
   - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
   - https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
+
+### Microsoft 365 active exploitation
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Microsoft 365
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_products: Microsoft 365
+  - urgency_signals: actively_exploited
+- Cluster IDs: 3e059b6047, 7e142768f0
+- Links:
+  - https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
+  - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
 
 ### CVE-2026-73570 exploitation activity
 - Anchor signal: CVE-2026-73570
@@ -679,72 +744,21 @@
   - https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
   - https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/
 
-### Linux kernel vulnerability activity
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
-- Cluster count: 2
-- Article count: 8
-- Cohesion: 0.2
-- Shared strong signals: Linux kernel
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Linux kernel
-- Cluster IDs: 73e2ba5a94, d5a759a910
-- Links:
-  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
-  - https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html
-  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-lot-of-summer-shells-and-fit-http-profiles
-  - https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/
-  - https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/
-  - https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
-
-### APT29 campaign activity
-- Anchor signal: APT29
-- Theme key: apt29
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: APT29
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - actor_attribution: APT29
-  - affected_industries: government
-- Cluster IDs: d5c3fd8d4d, e582acf5a9
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/distinct-clusters-target-individuals-of-interest-to-russia/
-  - https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html
-  - https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/
-
-### credential theft targeting Palo Alto Networks
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 2
-- Article count: 6
-- Cohesion: 0.2
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: credential_theft
-  - affected_products: Palo Alto Networks
-- Cluster IDs: bd5d2abe67, 213e3c4494
-- Links:
-  - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
-  - https://isc.sans.edu/diary/rss/33254
-  - https://www.huntress.com/blog/fake-claude-macsync
-  - https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
-
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-20231 (first seen via The Hacker News at 2026-08-21T10:03:11+00:00, cluster 1b408a85de)
+- Novel cves: 2
+  - CVE-2026-72529 (first seen via BleepingComputer at 2026-08-21T12:25:33+00:00, cluster 9a16830e44)
+  - CVE-2026-72530 (first seen via BleepingComputer at 2026-08-21T12:25:33+00:00, cluster 9a16830e44)
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (1)
+### Velocity bursts (2)
+- **Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)**
+  - Cluster: 3e059b6047
+  - Sources in window: 3
+  - Window hours: 5.0
+  - Cohort count: 3
 - **Going with the Flow(s): Distinct Clusters Target Individuals of Interest to Russia**
   - Cluster: d5c3fd8d4d
   - Sources in window: 3
@@ -755,6 +769,9 @@
 
 ### Convergence (15)
 - Pair: CVE-2026-19490 + Citrix (cluster 7f1247614d, first observation: True)
+- Pair: CVE-2026-69836 + Azure (cluster 3e059b6047, first observation: True)
+- Pair: CVE-2026-69836 + Microsoft 365 (cluster 3e059b6047, first observation: True)
+- Pair: CVE-2026-69836 + Microsoft Entra (cluster 3e059b6047, first observation: True)
 - Pair: CVE-2026-15748 + Linux kernel (cluster 73e2ba5a94, first observation: True)
 - Pair: CVE-2026-15748 + SonicWall (cluster 73e2ba5a94, first observation: True)
 - Pair: CVE-2026-15748 + WordPress (cluster 73e2ba5a94, first observation: True)
@@ -766,16 +783,8 @@
 - Pair: CVE-2026-65640 + Linux kernel (cluster 73e2ba5a94, first observation: True)
 - Pair: CVE-2026-65640 + SonicWall (cluster 73e2ba5a94, first observation: True)
 - Pair: CVE-2026-65640 + WordPress (cluster 73e2ba5a94, first observation: True)
-- Pair: CVE-2026-18556 + GitLab (cluster 7b38f69250, first observation: True)
-- Pair: CVE-2026-18577 + GitLab (cluster 7b38f69250, first observation: True)
-- Pair: CVE-2026-19478 + Cisco (cluster 7b38f69250, first observation: True)
 
-### Drift (6)
-- **Lazarus** (cluster 496d2b45e6)
-  - New industries: telecommunications
-  - New products: Apple iOS/macOS, Atlassian Confluence, Microsoft Entra
-  - Prior top industries: aviation_defense, financial_services, government
-  - Prior top products: Android, Microsoft Windows, OpenAI/ChatGPT
+### Drift (5)
 - **UNC5174** (cluster a50e916d10)
   - New industries: (none)
   - New products: Azure
@@ -796,21 +805,20 @@
   - New products: (none)
   - Prior top industries: critical_infrastructure, financial_services, government
   - Prior top products: Apple iOS/macOS, GitHub, OpenAI/ChatGPT
-- **ShinyHunters** (cluster 0adf15e51b)
-  - New industries: healthcare
-  - New products: (none)
-  - Prior top industries: education, financial_services, government
-  - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
+- **Lazarus** (cluster 388705e7c7)
+  - New industries: (none)
+  - New products: Apple iOS/macOS, VMware
+  - Prior top industries: aviation_defense, financial_services, government
+  - Prior top products: Android, Microsoft Windows, OpenAI/ChatGPT
 
-### Persistence (13)
-- actor_attribution: ShinyHunters (weeks observed: 12, cluster 0adf15e51b)
+### Persistence (12)
 - actor_attribution: Cl0p (weeks observed: 7, cluster fb556ca51b)
 - actor_attribution: LockBit (weeks observed: 6, cluster 754c091d02)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 7b38f69250)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster 7b38f69250)
-- actor_attribution: Lazarus (weeks observed: 4, cluster 496d2b45e6)
 - actor_attribution: APT29 (weeks observed: 4, cluster d5c3fd8d4d)
 - cve_ids: CVE-2026-59310 (weeks observed: 4, cluster bd5d2abe67)
+- actor_attribution: Lazarus (weeks observed: 4, cluster 388705e7c7)
 - cve_ids: CVE-2026-46300 (weeks observed: 3, cluster 73e2ba5a94)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 7b38f69250)
 - cve_ids: CVE-2025-66376 (weeks observed: 3, cluster 6117c1d701)
@@ -884,6 +892,78 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-19490: Critical Vulnerability
   - Published: 2026-08-21T07:55:43+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
   - Summary: Citrix has patched two vulnerabilities in NetScaler ADC and NetScaler Gateway, including a critical authentication bypass flaw tracked as CVE-2026-19490, and is urging customers to upgrade affected appliances as soon as possible. “We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin, assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible,” Anil Shetty, senior VP of Engineering with Cloud Software Group … More → The post Citrix urges customers to fix critical NetScaler authentication bypass (CVE-2026-19490) appeared first on Help Net Security .
+
+### Cluster 3e059b6047 — score 33
+
+- Title: Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:20:33+00:00
+- Link: https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
+- Fetch status: ok
+- Member count: 6
+- Corroborating source count: 6
+- Strong signals: Azure, CVE-2026-69836, Microsoft 365, Microsoft Entra
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, vulnerability_disclosure
+- affected_products: Azure, Microsoft 365, Microsoft Entra
+- cve_ids: CVE-2026-69836
+- urgency_signals: actively_exploited, critical_cvss, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure, active_exploitation
+- affected_products: Microsoft Entra, Azure, Microsoft 365
+- cve_ids: CVE-2026-69836
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, reportedly exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to Microsoft 365, Azure, and connected third-party apps. Tracked as CVE-2026-69836, with the maximum CVSS score of 10.0, the vulnerability was discovered by Microsoft Principal Security Engineer Robert Fitzpatrick and could allow an unauthenticated attacker to remotely execute code in … More → The post Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836) appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Sinisa Markovic , Managing Editor, Help Net Security August 21, 2026 Share Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836) Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, reportedly exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to Microsoft 365, Azure, and connected third-party apps. Tracked as CVE-2026-69836, with the maximum CVSS score of 10.0, the vulnerability was discovered by Microsoft Principal Security Engineer Robert Fitzpatrick and could allow an unauthenticated attacker to remotely execute code in Microsoft’s cloud identity service. “Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network,” Microsoft’s advisory says. The good news for administrators is that this CVE requires no customer action. “This vulnerability has already been fully mitigated by Microsoft. There is no action for users of this service to take. The purpose of this CVE is to provide further transparency,” the company noted . Microsoft hasn’t disclosed who was behind the exploitation, when it started, how many organizations were affected, or what attackers did once inside the vulnerable service. More about CVE Microsoft Entra ID vulnerability vulnerability disclosure Share
+```
+
+#### Corroborating sources (6)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)
+  - Published: 2026-08-21T12:20:33+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
+  - Summary: Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, reportedly exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to Microsoft 365, Azure, and connected third-party apps. Tracked as CVE-2026-69836, with the maximum CVSS score of 10.0, the vulnerability was discovered by Microsoft Principal Security Engineer Robert Fitzpatrick and could allow an unauthenticated attacker to remotely execute code in … More → The post Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836) appeared first on Help Net Security .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution
+  - Published: 2026-08-21T06:06:11+00:00
+  - Link: https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - Summary: Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory
+- **Unit 42** (threat_research_primary)
+  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)
+  - Published: 2026-08-18T19:05:33+00:00
+  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - Summary: In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. The post Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18) appeared first on Unit 42 .
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Microsoft Patches Exploited Entra ID Vulnerability
+  - Published: 2026-08-21T08:12:19+00:00
+  - Link: https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/
+  - Summary: A total of 22 patches were releaased, a majority for code execution, privilege escalation, and information disclosure vulnerabilities. The post Microsoft Patches Exploited Entra ID Vulnerability appeared first on SecurityWeek .
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: How to Spot and Stop Rogue Device Joins
+  - Published: 2026-08-18T16:24:13+00:00
+  - Link: https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - Summary: Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Microsoft warns of max severity Entra ID flaw exploited in attacks
+  - Published: 2026-08-21T11:04:10+00:00
+  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
+  - Summary: Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]
 
 ### Cluster 73e2ba5a94 — score 32
 
@@ -1008,72 +1088,6 @@ Me GitLab CE/EE GraphQL Directive Code Injection Vulnerability CVE-2026-19478 is
   - Published: 2026-08-18T21:25:58+00:00
   - Link: https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   - Summary: A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.
-
-### Cluster 496d2b45e6 — score 30
-
-- Title: Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-21T06:06:11+00:00
-- Link: https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
-- Strong signals: CVE-2026-69836, Microsoft Entra
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, ddos, web_shell_backdoor, zero_day
-- actor_attribution: Lazarus
-- affected_industries: telecommunications
-- affected_products: Apple iOS/macOS, Atlassian Confluence, Microsoft Entra
-- cve_ids: CVE-2026-68820, CVE-2026-69836
-- urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: credential_theft, zero_day, ddos, web_shell_backdoor, active_exploitation
-- actor_attribution: Lazarus
-- affected_industries: telecommunications
-- affected_products: Microsoft Entra, Apple iOS/macOS, Atlassian Confluence
-- cve_ids: CVE-2026-69836, CVE-2026-68820
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory
-```
-
-#### Full body
-
-```
-Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution  Ravie Lakshmanan  Aug 21, 2026 Vulnerability / Threat Intelligence Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory or Azure AD. "Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network," Microsoft said in an alert released Thursday. Flaws of this kind occur when an application converts user-controlled data back into an active object or code structure without proper validation. This can lead to code execution, denial-of-service, or access control bypass that can permit an attacker to perform unauthorized actions. The company credited Principal Security Engineer Robert Fitzaptrick for discovering and reporting the issue. As of writing, there are currently no details on how the vulnerability has been exploited, when these efforts began and if they are still ongoing, and how it was discovered. "This vulnerability has already been fully mitigated by Microsoft," it added. "There is no action for users of this service to take." Earlier this month, Redmond also patched a high-severity security privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock (CVE-2026-68820, CVSS score: 7.0) that was exploited as a zero-day by the North Korea-linked Lazarus Group as part of a long-running campaign dubbed Operation Dream Job. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Cyber Attack , enterprise security , Identity Security , Microsoft , remote code execution , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables 18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers ⭐ Featured Resources See How to Stop the Browser-Based Attacks Yo
-```
-
-#### Corroborating sources (4)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution
-  - Published: 2026-08-21T06:06:11+00:00
-  - Link: https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - Summary: Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory
-- **Unit 42** (threat_research_primary)
-  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)
-  - Published: 2026-08-18T19:05:33+00:00
-  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - Summary: In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. The post Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18) appeared first on Unit 42 .
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: How to Spot and Stop Rogue Device Joins
-  - Published: 2026-08-18T16:24:13+00:00
-  - Link: https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - Summary: Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Microsoft warns of max severity Entra ID flaw exploited in attacks
-  - Published: 2026-08-21T11:04:10+00:00
-  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
-  - Summary: Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]
 
 ### Cluster 6117c1d701 — score 22
 
@@ -1444,6 +1458,55 @@ Wiz Pricing Get a demo Get a demo On August 20, 2026, malicious versions of thre
   - Link: https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - Summary: Malicious versions of the arrayref Rust crate (and others) executed a backdoor at compile time. The campaign's infrastructure overlaps with recent DPRK supply chain attacks, including Mastra and axios.
 
+### Cluster 9a16830e44 — score 17
+
+- Title: CISA orders feds to patch actively exploited TrueConf Server flaws
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:25:33+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion, web_shell_backdoor, zero_day
+- affected_industries: critical_infrastructure, government
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-3502, CVE-2026-72529, CVE-2026-72530
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, web_shell_backdoor, active_exploitation
+- affected_industries: government, critical_infrastructure
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-72529, CVE-2026-72530, CVE-2026-3502
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]
+```
+
+#### Full body
+
+```
+CISA orders feds to patch actively exploited TrueConf Server flaws By Sergiu Gatlan August 21, 2026 08:25 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. TrueConf Server is designed for secure corporate messaging and video conferencing and, unlike cloud-based software like Zoom or Microsoft Teams, it operates inside an organization's local network (LAN). The most severe is a critical missing authentication security flaw (tracked as CVE-2026-72529 ) that allows attackers without privileges to remotely execute arbitrary scripts on unpatched servers. "A remote unauthenticated attacker connecting to TrueConf Server over 4307/TCP can invoke an undocumented critical function and execute an arbitrary script on the server," the TrueConf security team explains . The second is another critical severity vulnerability ( CVE-2026-72530 ) that unauthenticated threat actors can exploit through high-complexity code injection attacks to gain remote code execution. "Improper management of code generation can allow an attacker who has achieved code execution in the TrueConf Server isolated environment to escape the sandbox and execute arbitrary commands on the underlying operating system," TrueConf adds . On Thursday, CISA added the two flaws to its KEV catalog and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their servers within two weeks, by September 3. "This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise," the cybersecurity agency warned . While CISA didn't share details on these attacks, cybersecurity company Kaspersky said the Head Mare hacktivist group has been exploiting CVE-2026-72529 and CVE-2026-72530 since at least July 2026 to replace client installers with malicious versions designed to deploy backdoor malware. According to Kaspersky, multiple Head Mare campaigns targeted Russian organizations across various industry sectors, including transportation, energy, IT, electronics, and software development. In April 2026, Check Point Research also reported that hackers were targeting another TrueConf flaw (CVE-2026-3502) in zero-day attacks dubbed "Operation True Chaos" and linked to Chinese threat actors, compromising users via trojanized client updates. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical RCE flaw in Windows IKE Extension now actively exploited CISA warns of hackers exploiting critical MLflow vulnerability CISA: Windows Task Host flaw now exploited by ransomware gangs CISA: Microsoft SharePoint flaw now exploited in ransomware attacks Critical Progress LoadMaster flaw now actively exploited in attacks
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA orders feds to patch actively exploited TrueConf Server flaws
+  - Published: 2026-08-21T12:25:33+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]
+
 ### Cluster fc66ccb428 — score 16
 
 - Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
@@ -1544,8 +1607,8 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
 - Published: 2026-08-20T17:44:36+00:00
 - Link: https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 6
+- Corroborating source count: 5
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -1571,7 +1634,7 @@ OpenAI presented details of its AI’s model’s cyberattack on Hugging Face at 
 lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have been autonomous Chatbots, chatting to each other on Artifactory. When they overload the system and it breaks (and is fixed) it takes only 4 days for them to find another way in. Then July 8 – 19, 11 days they are running riot with root access. Couple of points: if these were humans they would (should?) be charged with Conspiracy to commit [something]; Where were the humans who should have been supervising this machine for 8 whole weeks?
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Schneier on Security** (practitioner_analysis)
   - Title: Detailed Timeline of OpenAI’s Cyberattack on Hugging Face
@@ -1583,6 +1646,11 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
   - Published: 2026-08-20T23:57:32+00:00
   - Link: https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
   - Summary: ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging "GEO" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Attackers impersonate popular AI brands to spread malware
+  - Published: 2026-08-21T11:47:39+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/21/ai-brand-impersonation-malware-malware-research/
+  - Summary: Attackers are impersonating popular AI brands like Perplexity, Claude, ChatGPT, and Copilot to spread information stealers, backdoors, malicious browser extensions, and other malware, according to Sophos. Overview of MDR cases with AI involvement (Source: Sophos) Sophos X-Ops reviewed 12 months of managed detection and response cases, covering July 2, 2025 through June 29, 2026. Of 86 cases initially tagged for AI involvement, 34 were confirmed as malicious activity involving AI. Researchers added four cases uncovered … More → The post Attackers impersonate popular AI brands to spread malware appeared first on Help Net Security .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: New CUSTODY Framework Constrains AI Agents Inside the Network
   - Published: 2026-08-20T20:42:18+00:00
@@ -1593,6 +1661,49 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
   - Published: 2026-08-19T18:06:44+00:00
   - Link: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
   - Summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident. "As models become more capable, the risks associated with developing and testing them internally also grow," the AI company
+
+### Cluster e12b0b4338 — score 13
+
+- Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:26:07+00:00
+- Link: https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ddos, supply_chain
+- affected_products: Citrix, GitLab
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft, ddos
+- affected_products: Citrix, GitLab
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A critical-severity type confusion in the isolated-vm Node.js library could allow threat actors to achieve remote code execution (RCE) on the host system. Through isolated-vm, developers can access the V8 JavaScript engine’s Isolate interface to build completely isolated JavaScript environments. Each Isolate is a completely separated V8 instance, with its own heap memory, execution state, and garbage collector. V8’s Isolates enabled the execution of multiple sandboxed JavaScript code instances on the same machine, without the need for a container or a virtual machine. isolated-vm is widely used for executing untrusted JavaScript code within a V8 Isolate. The recently identified type confusion bug, which has yet to be assigned a CVE identifier, impacts ExternalCopy, the function used to copy data across Isolates, EndorLabs explains . The function serializes the data in one Isolate and reconstructs it in the other instance. For performance optimization, it uses a transferList: large ArrayBuffers are listed, and the underlying memory is transferred by detaching the buffer from the source and handing it to the destination. The issue was that, when data was transferred, the reconstructor iterated over the byte array list twice, with the second pass trusting the first walk. Advertisement. Scroll to continue reading. However, because iterating the transfer_list JavaScript array would not return the same value for an element defined as a getter for each pass, an attacker could abuse the time-of-check/time-of-use (TOCTOU) weakness to dereference an attacker-controlled pointer. While the ExternalCopy constructor is only accessible from the host, a guest can target ivm.Reference, the mechanism through which the host exposes anything to the sandbox, to build the malicious transferList and trigger the vulnerability, EndorLabs says. Successful exploitation of the security defect leads to a crash (denial-of-service) or control-flow hijack of the host process, which potentially enables RCE on the host. “Any embedder that runs untrusted code in an isolate and shares even one Reference into it is affected. Host code that passes a caller-influenced array as transferList is affected directly, without any guest,” an isolated-vm advisory reads. Patches for the vulnerability were included in isolated-vm versions 6.2.0 and 7.0.1 to prevent user JavaScript from running during the copy. “The vulnerability lived in the native glue code: the C++ binding that serializes values across the boundary. That layer is written in a memory-unsafe language; it manipulates raw V8 handles and backing-store pointers, and it re-reads attacker-controlled JavaScript objects in the middle of a security-sensitive operation. A single unchecked cast on a re-read value was enough to turn a correct isolation primitive into a full escape,” EndorLabs notes. Related: Rust Supply Chain Attack Linked to North Korean Hackers Related: Microsoft Rolls Out 22 Fresh Security Patches Related: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Related: Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Latest News Rust Supply Chain Attack Linked to North Korean H
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
+  - Published: 2026-08-21T12:26:07+00:00
+  - Link: https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+  - Summary: The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .
 
 ### Cluster 6c4f057b27 — score 12
 
@@ -2564,16 +2675,16 @@ Risky Bulletin Podcast August 17, 2026 Risky Bulletin: The EU publishes its upco
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
+- threat_categories: credential_theft, supply_chain
 - affected_industries: critical_infrastructure
-- affected_products: Apple iOS/macOS, Citrix, GitLab
+- affected_products: Apple iOS/macOS, Citrix, Microsoft Entra
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
+- threat_categories: supply_chain, credential_theft
 - affected_industries: critical_infrastructure
-- affected_products: Apple iOS/macOS, Citrix, GitLab
+- affected_products: Microsoft Entra, Apple iOS/macOS, Citrix
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -2586,7 +2697,7 @@ Hackers pushed a poisoned arrayref version that added a dependency to fetch a ma
 #### Full body
 
 ```
-North Korean hackers are responsible for a new open source software (OSS) supply chain attack targeting the Rust ecosystem, cybersecurity firm Wiz reports. The attack occurred on August 20 and involved one of the most popular Rust crates, arrayref , an array-conversion utility with over 245 million downloads, found in approximately 75% of environments where Rust is used. The malicious package version, [email protected] , was pushed to crates.io from its legitimate maintainer’s account. Roughly 20 minutes later, poisoned versions of internment and append-only-vec , two crates from the same owner, were also released. These packages, as well as attacker-owned crates ( aovine, arone, aronenao, tinymember ), were referencing the same malicious dependency, [email protected] , which impersonated the legitimate proc-macro2 package. Within the dependency, the threat actor hid a malicious file, build.rs , designed to fetch a platform-specific second-stage binary over TLS, after disabling certificate validation. The Rust Security Response Team removed the malicious packages roughly 86 minutes later, confirming the compromise: “a new version of the arrayref crate was published with a direct dependency on proc-macro1, which would execute a malicious build script.” Advertisement. Scroll to continue reading. Shortly after, the Rust security team said all malicious packages have been removed, and the clean iterations have been restored. The team found no evidence of actual usage of the malicious crates. “We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them,” Rust’s security team said. StepSecurity ’s analysis of the attack shows that the threat actor planned each step with precision, creating typosquatted versions of proc-macro2 and an impersonating account right before the poisoned arrayref release was published. According to Wiz , the North Korean threat actor Sapphire Sleet, which mounted the Axios and Mastra NPM supply chain attacks in April and June, was likely responsible for the arrayref incident, based on substantial infrastructure overlaps. The arrayref payloads beacon to an endpoint used in the Mastra attack, command-and-control (C&C) traffic was recorded to an IP used in the Axios campaign, and the same IP range of Hostwinds LLC infrastructure was used in all three incidents. Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: Trivy, Not LiteLLM Behind the 2,500 Org Compromise Related: Hackers Target Zimbra Servers in Active Exploitation Campaign Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Chrome, Firefox Updates Patch Dozens of Vulnerabilities Latest News Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Rolls Out 22 Fresh Security Patches CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Cred
+North Korean hackers are responsible for a new open source software (OSS) supply chain attack targeting the Rust ecosystem, cybersecurity firm Wiz reports. The attack occurred on August 20 and involved one of the most popular Rust crates, arrayref , an array-conversion utility with over 245 million downloads, found in approximately 75% of environments where Rust is used. The malicious package version, [email protected] , was pushed to crates.io from its legitimate maintainer’s account. Roughly 20 minutes later, poisoned versions of internment and append-only-vec , two crates from the same owner, were also released. These packages, as well as attacker-owned crates ( aovine, arone, aronenao, tinymember ), were referencing the same malicious dependency, [email protected] , which impersonated the legitimate proc-macro2 package. Within the dependency, the threat actor hid a malicious file, build.rs , designed to fetch a platform-specific second-stage binary over TLS, after disabling certificate validation. The Rust Security Response Team removed the malicious packages roughly 86 minutes later, confirming the compromise: “a new version of the arrayref crate was published with a direct dependency on proc-macro1, which would execute a malicious build script.” Advertisement. Scroll to continue reading. Shortly after, the Rust security team said all malicious packages have been removed, and the clean iterations have been restored. The team found no evidence of actual usage of the malicious crates. “We do not believe the author of arrayref to be acting maliciously, but their computer or credentials are likely compromised, and we are attempting to contact them,” Rust’s security team said. StepSecurity ’s analysis of the attack shows that the threat actor planned each step with precision, creating typosquatted versions of proc-macro2 and an impersonating account right before the poisoned arrayref release was published. According to Wiz , the North Korean threat actor Sapphire Sleet, which mounted the Axios and Mastra NPM supply chain attacks in April and June, was likely responsible for the arrayref incident, based on substantial infrastructure overlaps. The arrayref payloads beacon to an endpoint used in the Mastra attack, command-and-control (C&C) traffic was recorded to an IP used in the Axios campaign, and the same IP range of Hostwinds LLC infrastructure was used in all three incidents. Related: Fortune 500 Companies Hit in Azure Data Theft Campaign Related: Trivy, Not LiteLLM Behind the 2,500 Org Compromise Related: Hackers Target Zimbra Servers in Active Exploitation Campaign Related: AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Latest News Critical Isolated-vm Vulnerability Leads to RCE on Host Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severit
 ```
 
 #### Corroborating sources (1)
@@ -2596,55 +2707,6 @@ North Korean hackers are responsible for a new open source software (OSS) supply
   - Published: 2026-08-21T09:23:18+00:00
   - Link: https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
   - Summary: Hackers pushed a poisoned arrayref version that added a dependency to fetch a malicious payload from a remote server. The post Rust Supply Chain Attack Linked to North Korean Hackers appeared first on SecurityWeek .
-
-### Cluster 0d83fa199c — score 9
-
-- Title: MLflow Vulnerability Exploited for Cloud Credential Theft
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-20T12:05:55+00:00
-- Link: https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, credential_theft, supply_chain
-- affected_industries: government
-- affected_products: Citrix, GitHub, GitLab
-- cve_ids: CVE-2026-64849
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, active_exploitation
-- affected_industries: government
-- affected_products: Citrix, GitLab, GitHub
-- cve_ids: CVE-2026-64849
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Threat actors have been exploiting a recent MLflow vulnerability to steal sensitive information, including credentials and secrets. An open source AI engineering platform, MLflow allows users to manage the end-to-end machine learning lifecycle and deploy AI agents, LLMs, and ML models in production. It has over 27,000 GitHub stars and more than 60 million monthly downloads. Tracked as CVE-2026-64849 (CVSS score of 9.3), the exploited security defect is described as an unauthenticated server-side request forgery (SSRF) issue that allows attackers to send HTTP requests to internal endpoints. The issue exists because the default MLflow Tracking Server (mlflow server) exposes the model-registry webhooks API without authentication, according to MLflow’s advisory . One of the exposed endpoints would return the upstream response status and body to the caller, and an SSRF protection that was added in version 3.10.0 could be bypassed. “Attackers are exploiting the vulnerability to reach cloud metadata services directly and exfiltrate cloud credentials and secrets,” attack surface management firm WatchTowr warns . Advertisement. Scroll to continue reading. According to the company, in-the-wild exploitation started within hours of CVE assignment, targeting cloud-hosted instances. “All MLflow versions before 3.15.0 are affected. If your organization runs MLflow, prioritize patching any exposed systems, review audit logs for signs of compromise, and check whether sensitive credentials may have been exposed,” WatchTowr says. On Wednesday, the US cybersecurity agency CISA added CVE-2026-64849 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations. Related: Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Chrome, Firefox Updates Patch Dozens of Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Chrome, Firefox Updates Patch Dozens of Vulnerabilities Latest News Rust Supply Chain Attack Linked to North Korean Hackers Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Rolls Out 22 Fresh Security Patches CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe AI i
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: MLflow Vulnerability Exploited for Cloud Credential Theft
-  - Published: 2026-08-20T12:05:55+00:00
-  - Link: https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
-  - Summary: The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek .
 
 ### Cluster 1b408a85de — score 9
 
@@ -2739,6 +2801,51 @@ Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Ser
   - Published: 2026-08-20T13:35:13+00:00
   - Link: https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
   - Summary: Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess
+
+### Cluster ae98432591 — score 9
+
+- Title: North Korean Hackers Tied to Rust Supply Chain Attack
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:40:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, apt_espionage, supply_chain, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, crates.io, npm
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage, ai_security, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, crates.io, npm
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » North Korean Hackers Tied to Rust Supply Chain Attack North Korean Hackers Tied to Rust Supply Chain Attack News 21 August 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Wiz security researchers have linked a recent software supply chain attack which targeted the Rust programming ecosystem to state-sponsored North Korean threat actors. The campaign compromised several widely used open-source libraries hosted on the official Rust package registry, crates.io, embedding a backdoor designed to infiltrate developer workstations and continuous integration (CI) environments before a project even finishes compiling. The incident unfolded on August 20, when an attacker gained access to a trusted open-source maintainer's account, updating three legitimate crates: arrayref, internment and append-only-vec. In the Rust programming language, a crate is the smallest unit of code that the compiler looks at and builds at one time. It acts as a tree of modules that compile into a single binary or library file. 75% of Cloud Environments Running Rust Applications Potentially Affected Rather than injecting malicious code directly into the source code of the main libraries, the attacker subtly modified the package manifests to import an external, typosquatted dependency named proc-macro1. This rogue package took advantage of the automated build process in the Rust package manager, cargo, downloading and executing an unauthorized payload in the background. As Wiz researchers Rami McCarthy and Benjamin Read explained in their report , published a few hours after the beginning of the campaign, because build scripts run during compilation, building an affected project was sufficient to execute the payload. This meant developers and automated build pipelines could become infected simply by pulling down and compiling legitimate dependencies, even if the resulting software was never actually deployed or executed. Once triggered, the malicious binary aimed to harvest sensitive data, targeting stored web browser credentials, cryptocurrency wallet extensions and developer environment secrets. The blast radius of the incident is significant, with Wiz telemetry revealing that arrayref alone was present in roughly 75% of cloud environments running Rust applications. At the time of writing, arreyf had 245,777,808 downloads on crates.io; internment, 14,432,082; and append-only-vec, 4,503,638. Strong North Korean Ties Upon investigating the command-and-control (C2) infrastructure supporting the malware, researchers uncovered ties to known North Korean cyber operations. The network communication patterns, server setups and specific endpoint paths directly mirrored those used in previous supply chain campaigns, including the high-profile compromise of the Mastra framework and poisoned npm packages targeting the Axios library. Microsoft and other threat intelligence teams track the threat actor behind these campaigns as Sapphire Sleet . "The arrayref infrastructure substantially overlaps with operations attributed to recent North Korean actors," noted the Wiz researchers. "This campaign underscores how state-sponsored adversaries are increasingly weaponizing developer ecosystems to gain initial access to downstream enterprise networks." The Wiz researchers contacted the Rust Security Response Team, which quickly revoked the compromised maintainer's credentials and removed the malicious crate versions from crates.io. However, because the payload operated during the build phase rather than at runtime, security teams have been urged to inspect their dependency lockfiles for affected versions, treat any systems that compiled the tainted crates as compromised and immediately rotate credentials, cloud secrets and API keys accessible on those machines. You may also like North Korean Cyber Group Suspected in JumpCloud Breach News 25 July 2023 macOS Backdoor Uses Prompt Injection to E
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: North Korean Hackers Tied to Rust Supply Chain Attack
+  - Published: 2026-08-21T12:40:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
+  - Summary: Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
 
 ### Cluster 7029814c59 — score 9
 
@@ -3048,57 +3155,12 @@ CISA warns of hackers exploiting critical MLflow vulnerability By Sergiu Gatlan 
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/
   - Summary: The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]
 
-### Cluster 0adf15e51b — score 8
+### Cluster 0d83fa199c — score 8
 
-- Title: Healthtech firm CareCloud data breach impacts 3.7 million patients
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-19T20:07:12+00:00
-- Link: https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]
-```
-
-#### Full body
-
-```
-Healthtech firm CareCloud data breach impacts 3.7 million patients By Bill Toulas August 19, 2026 04:07 PM 0 U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. The healthcare technology organization is publicly traded and provides electronic health records, medical billing, practice management, and revenue-cycle services. The company disclosed the incident in March via a filing with the U.S. Securities and Exchange Commission (SEC), noting that the attack caused an 8-hour network disruption on its platform and cut access to one of its databases. At the time, the firm said the compromised environment contained patient data, indicating the risk of sensitive medical information being stolen. Following the incident, CareCloud launched an investigation to determine its scope and how many people were potentially impacted. In a report to the U.S. Department of Health and Human Services, the company informs that the number of people affected by the breach was 3,756,469. CareCloud started to distribute data breach notifications on July 25, sharing more details uncovered during the investigation. “The investigation determined that, between March 10 and March 16, 2026, an unauthorized third party accessed one of CareCloud’s AWS environments and claimed to have exfiltrated data from databases within that environment,” the notification says . Beyond full names, the sample letter shared with authorities does not specify the type of data exposed. The notification recipients are offered 12/24 months of identity protection service coverage through IDX, redeemable until December 17, 2026. Because CareCloud does not have a direct relationship with patients, impacted individuals will likely hear of the company for the first time. It is recommended to take appropriate action to mitigate the risks arising from the cybersecurity incident and remain on high alert for phishing attempts leveraging the stolen data. At the time of writing, no ransomware groups or data extortion gangs have taken credit for the attack at CareCloud. BleepingComputer has contacted CareCloud with questions about the incident and results of the investigation, and we will update this post with the information when we receive it. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Data breach at medical billing firm MCBS affects 1.26 million people Medtronic notifies customers impacted by ShinyHunters data breach Healthtech firm Xolis suffers data breach impacting 1.4 million people Sakura Internet hack exposes data of up to 1.36 million accounts SafePal data breach impacts 39,798 customers, stolen info for sale
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Healthtech firm CareCloud data breach impacts 3.7 million patients
-  - Published: 2026-08-19T20:07:12+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/
-  - Summary: U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]
-
-### Cluster 94883eb56c — score 8
-
-- Title: Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities
+- Title: MLflow Vulnerability Exploited for Cloud Credential Theft
 - Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-20T11:46:04+00:00
-- Link: https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
+- Published: 2026-08-20T12:05:55+00:00
+- Link: https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
@@ -3106,41 +3168,41 @@ Healthtech firm CareCloud data breach impacts 3.7 million patients By Bill Toula
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, credential_theft, supply_chain
-- affected_industries: manufacturing_industrial
-- affected_products: Citrix, GitLab
-- cve_ids: CVE-2026-20030, CVE-2026-20315, CVE-2026-20357, CVE-2026-20358, CVE-2026-20359
-- urgency_signals: actively_exploited
-- content_type: news_report
+- affected_industries: government
+- affected_products: Citrix, GitLab, Microsoft Entra
+- cve_ids: CVE-2026-64849
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: supply_chain, credential_theft, active_exploitation
-- affected_industries: manufacturing_industrial
-- affected_products: Citrix, GitLab
-- cve_ids: CVE-2026-20030, CVE-2026-20357, CVE-2026-20358, CVE-2026-20359, CVE-2026-20315
-- urgency_signals: actively_exploited
-- content_type: news_report
+- affected_industries: government
+- affected_products: Microsoft Entra, Citrix, GitLab
+- cve_ids: CVE-2026-64849
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek .
+The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Cisco on Wednesday announced patches for 15 vulnerabilities across its products, including critical- and high-severity flaws in Crosswork and Secure Workload. Crosswork version 7.2.1-SP was released with fixes for four critical-severity CVEs. Three of them, CVE-2026-20030, CVE-2026-20357, and CVE-2026-20358, have a maximum severity rating (CVSS score of 10/10), while the fourth, CVE-2026-20359, has a near-max severity (CVSS score of 9.9/10). According to Cisco, each CVE groups multiple issues under the same underlying vulnerability class. The first three are SQL injection, missing authentication, and external control of file system issues, while the fourth includes insufficient protection of credentials. Successful exploitation of these security defects could potentially allow attackers to mount remote code execution (RCE), authentication bypass, path traversal, and file overwrite/deletion attacks. On Wednesday, Cisco rolled out Secure Workload versions 4.0.4.16 and 3.10.9.1 with fixes for five CVEs that also group multiple issues, including four with a ‘critical’ severity rating. CVE-2026-20315 and CVE-2026-20317 cover improper access control and authentication bugs potentially leading to bypasses; CVE-2026-20231 groups code/OS command injections; and CVE-2026-20318 covers input validation and path traversal issues. Advertisement. Scroll to continue reading. The fifth CVE covers buffer overflows and out-of-bounds write issues, collectively tracked as CVE-2026-20319. Cisco also resolved a high-severity security defect in the Open Client Interface (OCI) XML parser of BroadWorks that could be exploited remotely without authentication to read sensitive configuration information. Tracked as CVE-2026-20320, it existed because external entity resolution was allowed by default, allowing attackers to send crafted XML messages and view sensitive files with BroadWorks user privileges. The flaw was resolved in version RI.2026.07 of BroadWorks Application Delivery Platform, BroadWorks Application Server, BroadWorks Profile Server, and BroadWorks Xtended Services Platform. Additionally, the company rolled out fixes for medium-severity weaknesses in Unified Intelligence Center, RoomOS, Industrial Ethernet (IE) 1000 series switches, and Packaged Contact Center Enterprise (CCE) and Unified Contact Center Enterprise (CCE). Cisco says it is not aware of any of these vulnerabilities being exploited in the wild. Additional information can be found on the company’s security advisories page. Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Hackers Using AI to Target Siemens PLCs in Critical US Sectors Related: CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire MLflow Vulnerability Exploited for Cloud Credential Theft Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Chrome, Firefox Updates Patch Dozens of Vulnerabilities Latest News Rust Supply Chain Attack Linked to North Korean Hackers Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Rolls Out 22 Fresh Security Patches CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were
+Threat actors have been exploiting a recent MLflow vulnerability to steal sensitive information, including credentials and secrets. An open source AI engineering platform, MLflow allows users to manage the end-to-end machine learning lifecycle and deploy AI agents, LLMs, and ML models in production. It has over 27,000 GitHub stars and more than 60 million monthly downloads. Tracked as CVE-2026-64849 (CVSS score of 9.3), the exploited security defect is described as an unauthenticated server-side request forgery (SSRF) issue that allows attackers to send HTTP requests to internal endpoints. The issue exists because the default MLflow Tracking Server (mlflow server) exposes the model-registry webhooks API without authentication, according to MLflow’s advisory . One of the exposed endpoints would return the upstream response status and body to the caller, and an SSRF protection that was added in version 3.10.0 could be bypassed. “Attackers are exploiting the vulnerability to reach cloud metadata services directly and exfiltrate cloud credentials and secrets,” attack surface management firm WatchTowr warns . Advertisement. Scroll to continue reading. According to the company, in-the-wild exploitation started within hours of CVE assignment, targeting cloud-hosted instances. “All MLflow versions before 3.15.0 are affected. If your organization runs MLflow, prioritize patching any exposed systems, review audit logs for signs of compromise, and check whether sensitive credentials may have been exposed,” WatchTowr says. On Wednesday, the US cybersecurity agency CISA added CVE-2026-64849 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within two weeks, in line with BOD 26-04’s recommendations. Related: Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Related: Critical GitLab Flaw Exploited Shortly After Disclosure Related: Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Related: Chrome, Firefox Updates Patch Dozens of Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities 943 Patches Rolled Out With Oracle’s August 2026 Security Update Latest News Critical Isolated-vm Vulnerability Leads to RCE on Host Rust Supply Chain Attack Linked to North Korean Hackers Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Hackers Target Zimbra Servers in Active Exploitation Campaign Surveillance – Everything You Wanted to Know, But Were Afraid to Ask Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Rethinking Cyber Defense for AI-Speed Attacks August 18, 2026 Join this live webinar as we explore if detection-first security operations can keep pace with AI, or if it’s time to rethink prevention as the strongest default. Register Virtual Event: CodeSecCon 2026 August 19, 2026 CodeSecCon bridges the gap between dev and security. Discover best practices for secure coding, innovative risk-reduction tools, and safe
 ```
 
 #### Corroborating sources (1)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities
-  - Published: 2026-08-20T11:46:04+00:00
-  - Link: https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/
-  - Summary: The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek .
+  - Title: MLflow Vulnerability Exploited for Cloud Credential Theft
+  - Published: 2026-08-20T12:05:55+00:00
+  - Link: https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/
+  - Summary: The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek .
 
 ### Cluster 2c8acd9c63 — score 8
 
