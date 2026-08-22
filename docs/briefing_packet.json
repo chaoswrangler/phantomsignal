@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T09:32:43.788530+00:00",
+  "generated_at": "2026-08-22T10:29:57.334942+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 73,
-  "total_items_in_window": 307,
-  "total_clusters_raw": 136,
-  "total_clusters_in_packet": 54,
-  "dropped_low_score": 82,
+  "feeds_ok": 74,
+  "total_items_in_window": 311,
+  "total_clusters_raw": 138,
+  "total_clusters_in_packet": 53,
+  "dropped_low_score": 85,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,6 +81,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -88,12 +95,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -109,11 +116,11 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Kaspersky Securelist": {
@@ -123,32 +130,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 1
     },
     "SANS Internet Storm Center": {
@@ -158,26 +144,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 2
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 4
+      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,19 +165,40 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -207,12 +207,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -228,12 +228,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -256,20 +270,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -284,6 +284,13 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -291,44 +298,16 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 4
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
@@ -340,19 +319,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 1
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -361,19 +347,26 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -388,6 +381,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -410,19 +410,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -431,19 +431,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 16
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -452,19 +445,26 @@
       "item_count": 20,
       "in_window_count": 16
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -480,19 +480,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 30,
+      "in_window_count": 16
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -501,11 +501,11 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 100,
       "in_window_count": 1
     },
     "Krebs on Security": {
@@ -522,15 +522,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -542,6 +542,34 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -557,34 +585,6 @@
       "item_count": 100,
       "in_window_count": 26
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -592,18 +592,18 @@
       "item_count": 25,
       "in_window_count": 15
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -1217,6 +1217,213 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "GitLab": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "73e2ba5a94",
+      "priority_score": 27,
+      "member_count": 6,
+      "corroborating_source_count": 4,
+      "strong_signals": [
+        "CVE-2026-32475",
+        "WordPress"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-15748",
+          "CVE-2026-32475",
+          "CVE-2026-65640"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss",
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites",
+        "link": "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
+        "published": "2026-08-20T18:19:47+00:00",
+        "summary": "Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]",
+        "full_body": "Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms module’s file upload processing logic, where the extension validation check and the file-move step run in two separate loops with different handling of empty file entries. By submitting two file parts for a single File Upload field, an unauthenticated attacker can bypass the extension blocklist entirely. The uploaded PHP file is written to the publicly accessible directory wp-content/uploads/elementor/forms/<uniqid>.php , granting the attacker arbitrary code execution on the server. No authentication is required to exploit this issue. Affected Systems The following component is affected: Elementor Pro Forms module, versions up to and including 4.2.1. Elementor Pro is a widely used commercial WordPress page builder plugin deployed across millions of websites. Any WordPress site running an affected version that has at least one published page containing a Form widget with a File Upload field is vulnerable. The File Upload field’s “Required” toggle is off by default, so no unusual configuration is needed for exploitation. Related: WordPress core CVE-2026-65640 (CVSS 8.8, fixed in 7.0.4) allows an Author-level user or higher to achieve remote code execution via a malicious PostScript upload. It affects WordPress core versions 4.7 through 7.0, but exploitation requires both Imagick and Ghostscript to be in use on the server, as the underlying flaw is in Ghostscript’s handling of embedded files. Site owners should address both issues. Risk Impact Successful exploitation could allow attackers to execute arbitrary PHP code on the web server, install persistent webshells and exfiltrate sensitive data, and potentially pivot laterally across the hosting environment, leading to service disruption, data exposure, or full infrastructure compromise. At the time of writing, no public proof-of-concept exploit has been released, and no active exploitation campaigns have been publicly confirmed. Regardless, the severity and ease of exploitation make this vulnerability high risk, especially in internet-facing deployments. Remediation Users should upgrade Elementor Pro to version 4.2.2 or later, which was released on August 19, 2026. Additionally, administrators should audit the wp-content/uploads/elementor/forms/ directory for unexpected PHP files, review all Elementor forms exposing File Upload fields to assess whether they are necessary, and update WordPress core to version 7.0.4. As an interim mitigation, WAF rules blocking PHP file uploads through form endpoints can reduce exposure. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Elementor Pro, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning can detect WordPress installations and their plugin versions across cloud workloads, allowing security teams to pinpoint cloud-hosted WordPress instances running Elementor Pro 4.2.1 or earlier. Orca’s platform highlights affected assets, helping security teams focus on the most critical remediation paths first. From the News Item in the Orca Platform Related articles Cloud Security Learning Agentic Workflows: A Complete Guide for 2026 Aug 19, 2026 Cloud Security Learning Autonomous SOC: AI-Driven Security Operations Explained Aug 19, 2026 SOC Automation: AI-Driven Tools and Best Practices Aug 14, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "WordPress"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-32475",
+            "CVE-2026-65640"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth",
+            "poc_available",
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "WordPress": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites",
+          "link": "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
+          "published": "2026-08-20T18:19:47+00:00",
+          "summary": "Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-32475",
+              "CVE-2026-65640"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth",
+              "poc_available",
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+          "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+          "published": "2026-08-17T18:22:09+00:00",
+          "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias \"",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-15748"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+          "published": "2026-08-20T14:39:48+00:00",
+          "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "WordPress Plugin Flaw Exposes 40,000 Sites to Admin Takeover",
+          "link": "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
+          "published": "2026-08-17T13:30:00+00:00",
+          "summary": "Critical User Profile Builder flaw let unauthenticated attackers access administrator accounts",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
             },
             "weak_tags": {
               "products": []
@@ -2002,168 +2209,6 @@
               "Gogs": "target",
               "Microsoft Entra": "target",
               "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a7b2f82e67",
-      "priority_score": 17,
-      "member_count": 5,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "CVE-2026-15748",
-        "WordPress"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-15748",
-          "CVE-2026-15826",
-          "CVE-2026-32475"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-        "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "published": "2026-08-17T18:22:09+00:00",
-        "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias \"",
-        "full_body": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads  Ravie Lakshmanan  Aug 17, 2026 Vulnerability / Website Security A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748 , is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias \"daroo.\" \"This vulnerability makes it possible for unauthenticated attackers to upload arbitrary files, including executable PHP files, to a vulnerable site, which can lead to remote code execution and complete site compromise,\" Wordfence said in a report published today. That said, a key prerequisite for successful exploitation is that the sites must have a form containing both a File Upload field and a Select field. The vulnerability impacts all versions of the plugin before and including 1.56.1. It has been addressed in version 1.56.2 released on July 31, 2026. Per the WordPress security company, the flaw is a case of arbitrary file upload that resides in the \"handle_file_upload()\" function, stemming from a lack of sufficient file type validation in user-supplied input. As a result, an unauthenticated attacker can exploit the loophole to upload any file, including a specially crafted PHP file, to a vulnerable site by submitting a form and achieving remote code execution. Armed with this capability, the attacker can seize control of the site. \"This is due to insufficient file type validation in handle_file_upload, where the dangerous-extension blocklist performs exact-key matching that is bypassed by pipe-alternative MIME type keys, combined with a public submission handler that trusts attacker-controlled upload field configuration injected via a forged Select field value,\" Wordfence said. Another aspect worth noting here is that, in the default configuration, files are uploaded to a directory protected by an .htaccess file that prevents PHP execution. But if a site administrator has configured a Custom File Upload Storage root, it may not have the same safeguard as the file is created \"only when it is first needed, during a frontend request where the WordPress helper responsible for writing the .htaccess file is not loaded.\" As a result, requesting the uploaded file is enough to cause the web server to execute the attacker-controlled PHP code. Auth Bypass Flaw in User Profile Builder Plugin The disclosure comes days after Wordfence also highlighted another critical authentication bypass bug in User Profile Builder, which has more than 40,000 active WordPress installations, that could allow unauthenticated attackers to log in as the user with ID 1 (typically the site administrator) and take over the site. The vulnerability, tracked as CVE-2026-15826 (CVSS score: 9.8), was patched on July 16, 2026, with the release of version 3.16.5. All prior versions are affected by the issue, but it is only exploitable on sites where the plugin's Automatically Log In setting is enabled. \"This is due to the wppb_log_in_user() function calling absint() on the return value of wp_insert_user() before performing an is_wp_error() check — when a registration is submitted with a 61–70 character username, WordPress core rejects it with a WP_Error object, but absint() coerces that object to the integer 1 before the error check can short-circuit execution, causing the plugin to bind and return a transient-backed autologin nonce tied to user ID 1,\" Wordfence said . \"This makes it possible for unauthenticated attackers to log in as the site's Administrator account (user ID 1), resulting in full administrative takeover of the site.\" Site owners who have either of the two plugins are advised to apply the updates as soon as possible and ensure their installations are up-to-date. Found this article interesting? Follow us",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "WordPress"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-15748",
-            "CVE-2026-15826"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-          "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-          "published": "2026-08-17T18:22:09+00:00",
-          "summary": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias \"",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-15748",
-              "CVE-2026-15826"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-          "published": "2026-08-20T14:39:48+00:00",
-          "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "WordPress Plugin Flaw Exposes 40,000 Sites to Admin Takeover",
-          "link": "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
-          "published": "2026-08-17T13:30:00+00:00",
-          "summary": "Critical User Profile Builder flaw let unauthenticated attackers access administrator accounts",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
             },
             "weak_tags": {
               "products": []
@@ -3785,6 +3830,87 @@
       ]
     },
     {
+      "cluster_id": "a7d83e74e6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+        "published": "2026-08-20T17:52:13+00:00",
+        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+          "published": "2026-08-20T17:52:13+00:00",
+          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "e7f188e340",
       "priority_score": 10,
       "member_count": 1,
@@ -4151,16 +4277,21 @@
       ]
     },
     {
-      "cluster_id": "a7d83e74e6",
+      "cluster_id": "a40b955a81",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "apt_espionage",
+          "supply_chain"
+        ],
         "actor_attribution": [],
         "affected_industries": [
-          "telecommunications"
+          "critical_infrastructure",
+          "government",
+          "manufacturing_industrial"
         ],
         "affected_products": [],
         "tools_used": [],
@@ -4171,23 +4302,28 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-        "published": "2026-08-20T17:52:13+00:00",
-        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Building Capacity and Resilience for U.S. Partners",
+        "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
+        "published": "2026-08-19T16:19:49+00:00",
+        "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
+        "full_body": "Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "supply_chain",
+            "apt_espionage"
+          ],
           "actor_attribution": [],
           "affected_industries": [
-            "telecommunications"
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
           ],
           "affected_products": [],
           "tools_used": [],
@@ -4195,7 +4331,7 @@
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
+          "confidence_tier": "tier_1_offensive_research",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -4204,17 +4340,22 @@
       },
       "corroborating_sources": [
         {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-          "published": "2026-08-20T17:52:13+00:00",
-          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Building Capacity and Resilience for U.S. Partners",
+          "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
+          "published": "2026-08-19T16:19:49+00:00",
+          "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "supply_chain",
+              "apt_espionage"
+            ],
             "actor_attribution": [],
             "affected_industries": [
-              "telecommunications"
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -4222,7 +4363,7 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
+            "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -4232,15 +4373,13 @@
       ]
     },
     {
-      "cluster_id": "8883aedcfe",
+      "cluster_id": "ad04e78fc6",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -4252,22 +4391,20 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "How QR-code phishing can slip past corporate security measures",
-        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-        "published": "2026-08-17T09:00:00+00:00",
-        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
-        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "CTEM: From Visibility to Measurable Risk Reduction",
+        "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
+        "published": "2026-08-19T16:10:35+00:00",
+        "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
+        "full_body": "CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -4276,7 +4413,7 @@
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
+          "confidence_tier": "tier_1_offensive_research",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -4285,16 +4422,14 @@
       },
       "corroborating_sources": [
         {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "How QR-code phishing can slip past corporate security measures",
-          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
-          "published": "2026-08-17T09:00:00+00:00",
-          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "CTEM: From Visibility to Measurable Risk Reduction",
+          "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
+          "published": "2026-08-19T16:10:35+00:00",
+          "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
           "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -4303,7 +4438,7 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
+            "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -4607,109 +4742,15 @@
       ]
     },
     {
-      "cluster_id": "a40b955a81",
+      "cluster_id": "8883aedcfe",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
-          "supply_chain"
+          "phishing_social_eng"
         ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Building Capacity and Resilience for U.S. Partners",
-        "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
-        "published": "2026-08-19T16:19:49+00:00",
-        "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
-        "full_body": "Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Building Capacity and Resilience for U.S. Partners",
-          "link": "https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/",
-          "published": "2026-08-19T16:19:49+00:00",
-          "summary": "Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ad04e78fc6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -4721,20 +4762,22 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research"
+          "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "CTEM: From Visibility to Measurable Risk Reduction",
-        "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
-        "published": "2026-08-19T16:10:35+00:00",
-        "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
-        "full_body": "CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "How QR-code phishing can slip past corporate security measures",
+        "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+        "published": "2026-08-17T09:00:00+00:00",
+        "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
+        "full_body": "Business Security How QR-code phishing can slip past corporate security measures Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap. Phil Muncaster 17 Aug 2026 • , 5 min. read Familiarity might breed contempt. But in the world of cybersecurity, it also breeds complacency, which can be a lot more dangerous. So it is with QR codes, which have become a common sight on menus, lampposts and parking meters – and, increasingly, in emails over recent years. The challenge is that they’re also a great way to disguise malicious links, bypass some traditional corporate security filters, and to move the interaction from a corporate computer to a personal phone with fewer security controls. Attackers will continue to experiment and innovate with new ways to avoid detection. And new “quishing” techniques to snare unwitting employees. Here’s what you need to understand to keep your organization safe. Why is quishing so dangerous? Short for ‘Quick Response’, a QR code is a two-dimensional barcode that can encode URLs, payment details, contact information and other data, helping users get quickly from A to B – the destination in this case usually being a website or app. They appeal to threat actors for several reasons. Their widespread use, accelerated by the demand for contactless interactions during the pandemic, has made scanning them an ordinary part of daily life. That means we’re more likely to get our phones out to scan them today than a few years back. They also slot neatly into phishing workflows – just replace that malicious link or attachment with a QR code. And they can be generated in seconds. In fact, many phishing kits will have a dedicated QR-code generator. Most importantly, they take the victim from a relatively well-protected corporate environment to a potentially unmanaged mobile device, thus bypassing business-grade security. One important advantage for the attacker is concealment. The destination is encoded in a visual pattern, not displayed as readable text, which hides the malicious URLs behind them so that some traditional email filters can’t extract and inspect them. Sometimes they’re further obfuscated by being embedded in PDF or JPEG attachments. That means they’re more likely to end up in your employees’ inboxes. And when they do, your staff may struggle to discern a real message from a malicious one. There’s typically not much text to analyze for typos or grammatical mistakes. And because the link is effectively encoded in a visual pattern, it’s invisible to the human eye. If used in conjunction with a trusted brand – say, a DocuSign email or an update from Microsoft – the quishing attack leverages similar social engineering tactics as classic phishing messages. Trusted branding reassures the victim that they can click through. And a sense of urgency is often created by the pretext. Malicious QR codes are frequently embedded in alerts urging users to secure their account, or authenticate to confirm their details. In fact, according to the ESET Threat Report H1 2026 , malicious QR codes were embedded in no fewer than 11 percent of all phishing email in the first half of 2026. “ESET tracks quishing emails under the detection name QRCode/Phishing. This detection works through a dedicated layer of the ESET email scanner, designed to identify QR codes in the vast majority of file types, and to decode the URLs in them. The extracted URLs are scanned using ESET anti-phishing, anti-malware, and anti-spam engines; any harmful URLs are blocked, and the associated emails flagged or deleted,” says the report. QRCode/Phishing detection trend from September 2025 to May 2026, seven-day moving average (source: ESET Threat Report H1 2026 ) Threat actors continue to innovate As with any threat landscape trend, malicious actors continue to hone their efforts for maximum impact. Quishing attacks are being used not only to install malware and steal credentials but also harvest MFA",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -4743,7 +4786,7 @@
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
+          "confidence_tier": "tier_1_primary_research",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -4752,14 +4795,16 @@
       },
       "corroborating_sources": [
         {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "CTEM: From Visibility to Measurable Risk Reduction",
-          "link": "https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/",
-          "published": "2026-08-19T16:10:35+00:00",
-          "summary": "Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.",
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "How QR-code phishing can slip past corporate security measures",
+          "link": "https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/",
+          "published": "2026-08-17T09:00:00+00:00",
+          "summary": "Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -4768,7 +4813,7 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
+            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5286,123 +5331,6 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "754c091d02",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "LockBit"
-        ],
-        "affected_industries": [
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2023-34362"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "SickKids data breach exposes employee and job applicant info",
-        "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-        "published": "2026-08-21T10:10:42+00:00",
-        "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
-        "full_body": "SickKids data breach exposes employee and job applicant info By Ax Sharma August 21, 2026 06:10 AM 2 The Hospital for Sick Children (SickKids) has disclosed that the personal information of some current and former employees, as well as job applicants, was exposed in a \"cybersecurity incident.\" The hospital says the breach stemmed from a flaw in third-party software. Clinical systems and patient records were untouched, according to the Toronto pediatric hospital, but its public-facing Careers website was temporarily pulled offline. Careers site restored, incident scope under review SickKids disclosed the incident this week, saying it resulted in unauthorized access to employee data. The hospital attributes the breach to a vulnerability in a third-party software application that it says is used by SickKids and other organizations, according to a media statement . The framing appears to suggest that there's a wider campaign against users of the same product, although the hospital has not named the vendor, the application, or the CVE involved. The external Careers website was temporarily affected and has \"since been safely restored,\" per the statement. Clinical systems and patient information were not affected, and patient care continued as usual, SickKids says. After learning of the incident, the hospital launched an investigation with the help of outside cybersecurity experts. The findings indicate that personal information belonging to current and former SickKids, Boomerang (a SickKids-owned pediatric clinic), and SickKids Foundation employees, as well as SickKids job applicants, may have been exposed. The hospital has not said what categories of data were involved, how many people are affected, or when the intrusion took place. Its review of the impacted information is ongoing, with individuals confirmed as affected to be notified directly. In the meantime, SickKids says it has alerted everyone potentially caught up in the incident out of an abundance of caution, and is offering 24 months of complimentary credit monitoring and identity protection. Job application portals are an unusually rich target for data thieves. Applicants routinely hand over full names, home addresses, phone numbers, employment histories, and in some jurisdictions government identifiers. That information is useful both for identity fraud and for building convincing social engineering pretexts against hospital staff. A repeat target This is not the first publicly known security incident to have hit the hospital in recent years. In December 2022, SickKids was hit by a ransomware attack that disrupted internal systems, hospital phone lines, and its website, and caused delays in lab and imaging results. The LockBit ransomware gang subsequently issued a rare public apology, saying the affiliate responsible had broken its rules against encrypting medical institutions, and handed over a free decryptor, though only after the hospital had spent nearly two weeks restoring systems on its own. In September 2023, SickKids was among the Ontario healthcare providers caught up in a breach at a third-party organization it shares perinatal and child health data with. That incident, which stemmed from mass exploitation of the MOVEit Transfer zero-day (CVE-2023-34362), exposed information on 3.4 million people, including names, home addresses, dates of birth, and health card numbers. Healthcare remains one of the most heavily targeted sectors for both ransomware crews and data extortion groups. Pediatric hospitals in particular sit on decades' worth of sensitive records, which continues to make them attractive to attackers regardless of the ethical lines criminal operations claim to observe. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 3",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "zero_day",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "LockBit"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2023-34362"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "SickKids data breach exposes employee and job applicant info",
-          "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-          "published": "2026-08-21T10:10:42+00:00",
-          "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "zero_day",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "LockBit"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2023-34362"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -6095,6 +6023,123 @@
       ]
     },
     {
+      "cluster_id": "754c091d02",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "LockBit"
+        ],
+        "affected_industries": [
+          "government",
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2023-34362"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "SickKids data breach exposes employee and job applicant info",
+        "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+        "published": "2026-08-21T10:10:42+00:00",
+        "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
+        "full_body": "SickKids data breach exposes employee and job applicant info By Ax Sharma August 21, 2026 06:10 AM 2 The Hospital for Sick Children (SickKids) has disclosed that the personal information of some current and former employees, as well as job applicants, was exposed in a \"cybersecurity incident.\" The hospital says the breach stemmed from a flaw in third-party software. Clinical systems and patient records were untouched, according to the Toronto pediatric hospital, but its public-facing Careers website was temporarily pulled offline. Careers site restored, incident scope under review SickKids disclosed the incident this week, saying it resulted in unauthorized access to employee data. The hospital attributes the breach to a vulnerability in a third-party software application that it says is used by SickKids and other organizations, according to a media statement . The framing appears to suggest that there's a wider campaign against users of the same product, although the hospital has not named the vendor, the application, or the CVE involved. The external Careers website was temporarily affected and has \"since been safely restored,\" per the statement. Clinical systems and patient information were not affected, and patient care continued as usual, SickKids says. After learning of the incident, the hospital launched an investigation with the help of outside cybersecurity experts. The findings indicate that personal information belonging to current and former SickKids, Boomerang (a SickKids-owned pediatric clinic), and SickKids Foundation employees, as well as SickKids job applicants, may have been exposed. The hospital has not said what categories of data were involved, how many people are affected, or when the intrusion took place. Its review of the impacted information is ongoing, with individuals confirmed as affected to be notified directly. In the meantime, SickKids says it has alerted everyone potentially caught up in the incident out of an abundance of caution, and is offering 24 months of complimentary credit monitoring and identity protection. Job application portals are an unusually rich target for data thieves. Applicants routinely hand over full names, home addresses, phone numbers, employment histories, and in some jurisdictions government identifiers. That information is useful both for identity fraud and for building convincing social engineering pretexts against hospital staff. A repeat target This is not the first publicly known security incident to have hit the hospital in recent years. In December 2022, SickKids was hit by a ransomware attack that disrupted internal systems, hospital phone lines, and its website, and caused delays in lab and imaging results. The LockBit ransomware gang subsequently issued a rare public apology, saying the affiliate responsible had broken its rules against encrypting medical institutions, and handed over a free decryptor, though only after the hospital had spent nearly two weeks restoring systems on its own. In September 2023, SickKids was among the Ontario healthcare providers caught up in a breach at a third-party organization it shares perinatal and child health data with. That incident, which stemmed from mass exploitation of the MOVEit Transfer zero-day (CVE-2023-34362), exposed information on 3.4 million people, including names, home addresses, dates of birth, and health card numbers. Healthcare remains one of the most heavily targeted sectors for both ransomware crews and data extortion groups. Pediatric hospitals in particular sit on decades' worth of sensitive records, which continues to make them attractive to attackers regardless of the ethical lines criminal operations claim to observe. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 3",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "zero_day",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "LockBit"
+          ],
+          "affected_industries": [
+            "healthcare",
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2023-34362"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "SickKids data breach exposes employee and job applicant info",
+          "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+          "published": "2026-08-21T10:10:42+00:00",
+          "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "zero_day",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "LockBit"
+            ],
+            "affected_industries": [
+              "healthcare",
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2023-34362"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "768e8e6582",
       "priority_score": 8,
       "member_count": 1,
@@ -6214,136 +6259,6 @@
               "OpenAI/ChatGPT": "target",
               "SonicWall": "target",
               "AWS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1b408a85de",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Android",
-          "Gogs",
-          "Microsoft Entra"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20030",
-          "CVE-2026-20231",
-          "CVE-2026-20357",
-          "CVE-2026-20358",
-          "CVE-2026-20359"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "critical_cvss"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-        "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-        "published": "2026-08-21T10:03:11+00:00",
-        "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below -",
-        "full_body": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0  Ravie Lakshmanan  Aug 21, 2026 Vulnerability / Enterprise Security Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below - CVE-2026-20030 (CVSS score: 10.0) - An SQL injection vulnerability CVE-2026-20357 (CVSS score: 10.0) - A missing authentication for critical function vulnerability CVE-2026-20358 (CVSS score: 10.0) - An external control of file system vulnerability CVE-2026-20359 (CVSS score: 9.9) - An insufficiently protected credentials vulnerability The issues affect Cisco Crosswork Release version 7.2.1 and earlier, and have been addressed in version 7.2.1-SP. Cisco has also released fixes to remediate five vulnerabilities affecting Cisco Secure Workload, including Software-as-a-Service (SaaS) and on-premises deployments - CVE-2026-20231 (CVSS score: 9.9) - A set of improper neutralization of special elements vulnerabilities spanning command, operating system, and argument injection CVE-2026-20315 (CVSS score: 10.0) - A set of improper access control vulnerabilities spanning authorization, authentication, privileges, and bypasses CVE-2026-20317 (CVSS score: 10.0) - A set of improper authentication vulnerabilities spanning missing authentication, authentication bypass, and reliance on untrusted inputs CVE-2026-20318 (CVSS score: 9.6) - A set of improper input validation vulnerabilities spanning input validation, path traversal, and external path control CVE-2026-20319 (CVSS score: 7.5) - A set of improper restriction of operations within the bounds of a memory buffer vulnerabilities spanning buffer overflows and out-of-bounds writes The five vulnerabilities have been patched in the versions below - Cisco Secure Workload Release version 3.10 and earlier - Fixed in 3.10.9.1 Cisco Secure Workload Release version 4.0 - Fixed in 4.0.4.16 \"These vulnerabilities were found during internal testing and are not known to be actively exploited,\" the company said, urging customers to apply the necessary updates to avoid future exposure. The development comes about two weeks after Cisco resolved 12 bugs impacting Catalyst SD-WAN and IOS XE Software following the internal security review. The review, the networking equipment major added, has \"resulted in software hardening releases that address multiple internally discovered vulnerabilities.\" The prevalence of Cisco gear within enterprise networks makes it an attractive target for bad actors, who have repeatedly exploited dozens of flaws impacting its products to gain unauthorized access and deploy malware. Earlier this month, Cisco warned that a vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software (CVE-2026-20349, CVSS score: 8.6) has been exploited in the wild. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , cisco , Cloud security , enterprise security , network security , Software Security , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks J",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Android",
-            "Gogs",
-            "Microsoft Entra"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-20030",
-            "CVE-2026-20357",
-            "CVE-2026-20358",
-            "CVE-2026-20359",
-            "CVE-2026-20231"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "critical_cvss"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Android": "target",
-            "Gogs": "target",
-            "Microsoft Entra": "target",
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-          "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-          "published": "2026-08-21T10:03:11+00:00",
-          "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below -",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Android",
-              "Gogs",
-              "Microsoft Entra"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20030",
-              "CVE-2026-20357",
-              "CVE-2026-20358",
-              "CVE-2026-20359",
-              "CVE-2026-20231"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "critical_cvss"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Android": "target",
-              "Gogs": "target",
-              "Microsoft Entra": "target",
-              "Cisco": "target"
             },
             "weak_tags": {
               "products": []
@@ -7262,18 +7177,16 @@
           "government"
         ],
         "affected_products": [
-          "Android",
-          "Gogs",
-          "Microsoft Entra"
+          "Android"
         ],
         "urgency_signals": [
           "actively_exploited",
           "critical_cvss"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 14,
-      "cohesion": 0.27,
+      "cluster_count": 6,
+      "article_count": 13,
+      "cohesion": 0.28,
       "shared_strong_signals": [
         "Android"
       ],
@@ -7285,8 +7198,7 @@
         "c23d18e0e8",
         "9101d8d7ac",
         "e7f188e340",
-        "8a66834bf6",
-        "1b408a85de"
+        "8a66834bf6"
       ],
       "links": [
         "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
@@ -7299,8 +7211,7 @@
         "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
         "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
         "https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/",
-        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/",
-        "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
+        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/"
       ]
     },
     {
@@ -7379,13 +7290,13 @@
         ],
         "urgency_signals": [
           "actively_exploited",
-          "critical_cvss",
-          "preauth_unauth"
+          "preauth_unauth",
+          "critical_cvss"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 9,
-      "cohesion": 0.29,
+      "cluster_count": 3,
+      "article_count": 8,
+      "cohesion": 0.276,
       "shared_strong_signals": [
         "Microsoft Entra"
       ],
@@ -7394,8 +7305,7 @@
       "cluster_ids": [
         "3e059b6047",
         "6117c1d701",
-        "c23d18e0e8",
-        "1b408a85de"
+        "c23d18e0e8"
       ],
       "links": [
         "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
@@ -7405,8 +7315,7 @@
         "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
         "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
         "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-        "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-        "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
+        "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
       ]
     },
     {
@@ -7440,6 +7349,40 @@
         "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
         "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/",
         "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/"
+      ]
+    },
+    {
+      "label": "WordPress vulnerability activity",
+      "anchor_signal": "WordPress",
+      "theme_key": "wordpress",
+      "dominant_features": {
+        "affected_products": [
+          "WordPress"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 8,
+      "cohesion": 0.237,
+      "shared_strong_signals": [
+        "WordPress"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "73e2ba5a94",
+        "ad3b948659",
+        "8a66834bf6"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
+        "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+        "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
+        "https://www.exploit-db.com/exploits/52642",
+        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/"
       ]
     },
     {
@@ -7487,39 +7430,6 @@
         "https://www.huntress.com/blog/fake-claude-macsync",
         "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
         "https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/"
-      ]
-    },
-    {
-      "label": "WordPress vulnerability activity",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
-      "dominant_features": {
-        "affected_products": [
-          "WordPress"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 7,
-      "cohesion": 0.261,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "a7b2f82e67",
-        "ad3b948659",
-        "8a66834bf6"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-        "https://www.infosecurity-magazine.com/news/wordpress-plugin-flaw-40000-sites/",
-        "https://www.exploit-db.com/exploits/52642",
-        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/"
       ]
     },
     {
@@ -7785,23 +7695,23 @@
         "first_observation": true
       },
       {
+        "cluster_id": "73e2ba5a94",
+        "pair": "CVE-2026-15748 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "73e2ba5a94",
+        "pair": "CVE-2026-32475 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "73e2ba5a94",
+        "pair": "CVE-2026-65640 + WordPress",
+        "first_observation": true
+      },
+      {
         "cluster_id": "6117c1d701",
         "pair": "CVE-2025-66376 + Android",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "6117c1d701",
-        "pair": "CVE-2025-66376 + Gogs",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "6117c1d701",
-        "pair": "CVE-2025-66376 + Microsoft Entra",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "6117c1d701",
-        "pair": "CVE-2026-73570 + Android",
         "first_observation": true
       }
     ],
