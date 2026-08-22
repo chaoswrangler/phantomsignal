@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-08-22T18:38:44.896631+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-08-22T19:27:12.461283+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2090,
@@ -10,6 +10,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Microsoft Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
     },
     &quot;Unit 42&quot;: {
       &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
@@ -25,19 +32,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Trend Micro Research&quot;: {
-      &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 25,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Microsoft Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
+    &quot;Microsoft Threat Intelligence&quot;: {
+      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
+      &quot;in_window_count&quot;: 0
     },
     &quot;Google Threat Analysis Group&quot;: {
       &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
@@ -46,19 +46,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Microsoft Threat Intelligence&quot;: {
-      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
+    &quot;Trend Micro Research&quot;: {
+      &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
+      &quot;item_count&quot;: 25,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;Kaspersky Securelist&quot;: {
-      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
     },
     &quot;Sekoia&quot;: {
       &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
@@ -67,11 +60,18 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;NCSC UK&quot;: {
-      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
+    &quot;Citizen Lab&quot;: {
+      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Kaspersky Securelist&quot;: {
+      &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
     &quot;Check Point Research&quot;: {
@@ -81,12 +81,12 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 3
     },
-    &quot;Citizen Lab&quot;: {
-      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+    &quot;NCSC UK&quot;: {
+      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
     },
     &quot;SANS Internet Storm Center&quot;: {
       &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
@@ -94,20 +94,6 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
-    },
-    &quot;Recorded Future&quot;: {
-      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 3
-    },
-    &quot;Volexity&quot;: {
-      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
     },
     &quot;ESET WeLiveSecurity&quot;: {
       &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
@@ -130,18 +116,25 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 4
     },
+    &quot;Volexity&quot;: {
+      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Recorded Future&quot;: {
+      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 3
+    },
     &quot;PortSwigger Research&quot;: {
       &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 40,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;GitHub Security Lab&quot;: {
-      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
     &quot;Red Canary&quot;: {
@@ -151,19 +144,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Assetnote&quot;: {
-      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Exploit-DB&quot;: {
       &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 16
+    },
+    &quot;GitHub Security Lab&quot;: {
+      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;The DFIR Report&quot;: {
       &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
@@ -179,12 +172,12 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 0
     },
-    &quot;TrustedSec&quot;: {
-      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
+    &quot;Assetnote&quot;: {
+      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Black Hills Information Security&quot;: {
       &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
@@ -200,18 +193,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;TrustedSec&quot;: {
+      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
+    },
     &quot;Active Countermeasures&quot;: {
       &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Elastic Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
     &quot;Sophos X-Ops&quot;: {
@@ -228,6 +221,13 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Elastic Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Orca Security Research&quot;: {
       &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -242,13 +242,6 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 2
     },
-    &quot;AWS Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 5
-    },
     &quot;Permiso Security&quot;: {
       &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -256,9 +249,9 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Rapid7&quot;: {
-      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+    &quot;AWS Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 5
@@ -277,12 +270,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Cloudflare Security&quot;: {
-      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;Rapid7&quot;: {
+      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 5
     },
     &quot;Trail of Bits&quot;: {
       &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
@@ -296,6 +289,13 @@
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Cloudflare Security&quot;: {
+      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
     &quot;Sysdig&quot;: {
@@ -340,19 +340,19 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;OpenSSF Blog&quot;: {
-      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;The Record&quot;: {
       &quot;url&quot;: &quot;https://therecord.media/feed&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 5,
       &quot;in_window_count&quot;: 5
+    },
+    &quot;OpenSSF Blog&quot;: {
+      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
     },
     &quot;BleepingComputer&quot;: {
       &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
@@ -361,19 +361,19 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 15
     },
+    &quot;GreyNoise&quot;: {
+      &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
+    },
     &quot;Interconnects&quot;: {
       &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
-    },
-    &quot;SecurityWeek&quot;: {
-      &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
     },
     &quot;Google Cloud Security&quot;: {
       &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
@@ -382,12 +382,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 16
     },
-    &quot;GreyNoise&quot;: {
-      &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;SecurityWeek&quot;: {
+      &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
+    },
+    &quot;Simon Willison&quot;: {
+      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 17
     },
     &quot;CyberScoop&quot;: {
       &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
@@ -403,13 +410,6 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Simon Willison&quot;: {
-      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 17
-    },
     &quot;Dark Reading&quot;: {
       &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -423,6 +423,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
+    },
+    &quot;Team Cymru&quot;: {
+      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Schneier on Security&quot;: {
       &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
@@ -438,26 +445,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Team Cymru&quot;: {
-      &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Reddit r/cybersecurity&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/cybersecurity/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;Troy Hunt&quot;: {
-      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 1
     },
     &quot;Reddit r/blueteamsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/blueteamsec/.rss&quot;,
@@ -473,15 +466,29 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/msp&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
+    &quot;Intel 471&quot;: {
+      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Troy Hunt&quot;: {
+      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Reddit r/netsecstudents&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/netsecstudents&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
+    &quot;Reddit r/msp&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -493,6 +500,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Infosecurity Magazine&quot;: {
+      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 26
     },
     &quot;The Hacker News&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
@@ -508,20 +522,6 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 3
     },
-    &quot;Intel 471&quot;: {
-      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Infosecurity Magazine&quot;: {
-      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 26
-    },
     &quot;Reddit r/netsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
@@ -529,18 +529,18 @@
       &quot;item_count&quot;: 25,
       &quot;in_window_count&quot;: 14
     },
-    &quot;tl;dr sec&quot;: {
-      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Embrace the Red&quot;: {
       &quot;url&quot;: &quot;https://embracethered.com/blog/index.xml&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;tl;dr sec&quot;: {
+      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
     &quot;Risky Business News&quot;: {
@@ -1590,7 +1590,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9,
+      &quot;score&quot;: 8,
       &quot;full_body&quot;: &quot;Advertisement Get our latest cybersecurity news first on Google. Click here! Close Apollo Global Management confirmed it was among several financial institutions impacted by a string of social engineering attacks that hit the sector last month, the company said Friday. Attackers gained unauthorized access to some of the private equity firm’s cloud platforms between July 6 and July 10, the company said in a data breach notification filed in California. Apollo did not say when or how it became aware of the intrusion and did not respond to a request for comment. Apollo is the first victim to formally disclose that sensitive personal data under its care was compromised by a wave of attacks that have hit large private equity firms, law firms, financial rating agencies and medical technology companies. The company did not name the group responsible for the attack. Yet, Google earlier this month attributed the ongoing campaign to BlackFile , a threat group affiliated with The Com , that recently split its extortion operations across four brands with shared infrastructure: Redact, Pink, Helix and Falcon. Advertisement “Upon detecting the incident, we promptly notified law enforcement, engaged leading outside cybersecurity and forensic experts, enhanced our security protocols, and launched an investigation,” Matthew Breitfelder, global head of human capital at Apollo, wrote in the disclosure notice. As part of its ongoing investigation, Apollo said it determined on Aug. 12 that personal data including names, dates of birth, contact information, home addresses and Social Security numbers were compromised. The company did not say how many people were impacted, but noted it’s thus far found no evidence any data was posted online or used for identity theft or fraud. Apollo is one of the world’s largest private equity firms, with $1.05 trillion in assets under its management at the end of June, according to a regulatory filing . Researchers previously told CyberScoop some of Apollo’s largest competitors, including Blackstone and Bain Capital, were also targeted with malicious infrastructure, but it’s unclear if those firms were compromised. BlackFile and its various affiliates have impacted organizations in multiple industries, including healthcare, technology, transportation, logistics, wholesale, and retail and hospitality since the beginning of this year. Advertisement The extortion group shifts from one sector to the next, impersonating IT support in voice-phishing and social-engineering attacks before threatening its alleged victims with extortion demands, which often start around $3 million and are typically negotiated down to less than $1 million. Google researchers also previously said some of the group’s recent victims have been subject to threatening messages and other forms of escalation, including swatting incidents, a tactic adopted by several subsets of The Com. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Silhouette of a man on a phone against window blinds. (Getty Images) (Getty Images) A figure walking with a glowing trail of binary code emanating from a case, symbolizing stolen data. (Getty Images Plus) Latest Podcasts What the Section 702 lapse means for cybersecurity Rethinking how federal cyber hiring actually works The world still treats bug hunters like criminals The SOC wasn’t built for this Government The push to designate AI as the next critical infrastructure sector Exclusive AI-fueled attacks pose ‘active threat’ to water, other sectors, U.S. agencies warn A California county wants to hire Tina Peters to help run its elections Eight years later, federal authorities re-up charges against alleged Iranian hackers at Mabna Institute Technology Irregular says ‘human oversight’ responsible for AI sandbox escape incidents AI’s ‘middle class’ has gotten dramatically better at hacking The FTC wants to regulate AI for ideological bi&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -4309,7 +4309,7 @@
         }
       },
       &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second  Swati Khandelwal  Aug 19, 2026 Cloud Security / Vulnerability Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier attack demonstrated in 2021. The end-to-end experiment used an attacker Worker and a victim Worker controlled by the researchers, with the JWT intentionally placed in the victim&#x27;s memory. The research paper stated that no customer data was accessed. Cloudflare said the attack has already been mitigated in production after it improved Dynamic Process Isolation (DyPrIs), integrated the V8 Sandbox , and deployed Memory Protection Keys (MPK)-based in-process isolation, adding that it found no indicators of active exploitation over the last three years. \&quot;We demonstrate that the production implementation of DyPrIs was insufficient,\&quot; the researchers said in the paper . Cloudflare Workers runs code from multiple tenants in separate V8 isolates within the same operating-system process, relying on language-level isolation instead of strict process isolation to reduce startup latency. A memory read within a shared Worker process can lead to cross-tenant leakage, according to Cloudflare . The attack requires the attacker and victim Workers to be co-located in separate V8 isolates within the same Worker process. The attacker controls valid code in its own isolate. Native code execution is outside the threat model, and the attack does not depend on a V8 software exploit or sandbox escape. Cloudflare said Workers restrict local timing sources by freezing or coarsening timers during CPU execution, and do not expose shared memory or multithreading to Worker scripts. The researchers found that WebSocket communications could provide a remote timing source, while Durable Objects could keep a single Worker isolate alive for five to more than 20 hours. DyPrIs isolates suspicious scripts into a separate process after an invocation finishes, and the researchers found that a long-lived Durable Object invocation could continue running before the isolation took place. The researchers also found that WebSocket-heavy input/output (I/O) activity increased instruction translation lookaside buffer (iTLB) activity, reducing the normalized branch-misprediction signal used by DyPrIs below its detection threshold. Cloudflare described the issue as a limitation in its DyPrIs implementation, while the paper said the two weaknesses reflected fundamental limitations of the detection approach rather than implementation oversights. The researchers said robust detection should take place during execution and use a signal that cannot be suppressed by I/O activity. The paper said the production tests were conducted on Linux servers using AMD EPYC Zen 2 and Zen 3 processors, with the researchers intentionally running measurements at night, when CPU utilization was between 10% and 25%, to observe the best possible results. The researchers said higher system load reduced the leakage rate, although slower attacks remained feasible under high load. The paper reported leakage of up to 12 bits per second at 99.16% accuracy, compared with 2 bits per minute in the earlier attack. The disclosure comes nearly five years after Cloudflare and TU Graz published research demonstrating a remote Spectre attack against Workers at 120 bits per hour and introducing DyPrIs as a defense. The earlier paper reported a 0.61% false-positive rate and concluded that DyPrIs statistically provided the same security guarantees as strict process isolation against the Spectre attacks evaluated at the time. Cloudflare published additional Workers hardening measures in September 2025. The mitigations deployed by Cloudflare are listed below - Improved DyPrIs improves the detection capabilities of the existing&quot;,
+      &quot;full_body&quot;: &quot;&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -9959,33 +9959,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Rapid7&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;title&quot;: &quot;AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?&quot;,
-      &quot;link&quot;: &quot;https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation&quot;,
-      &quot;published&quot;: &quot;2026-08-12T13:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&#x27;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&#x27;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&#x27;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors &quot;,
-      &quot;author&quot;: &quot;Rapid7&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_offensive_research&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Huntress&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -10008,6 +9981,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Rapid7&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;title&quot;: &quot;AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?&quot;,
+      &quot;link&quot;: &quot;https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation&quot;,
+      &quot;published&quot;: &quot;2026-08-12T13:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&#x27;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&#x27;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&#x27;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors &quot;,
+      &quot;author&quot;: &quot;Rapid7&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_offensive_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -10790,35 +10790,6 @@
       &quot;source&quot;: &quot;Google Cloud Security&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;title&quot;: &quot;Looker’s semantic layer governs Gemini Enterprise data for user trust&quot;,
-      &quot;link&quot;: &quot;https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/&quot;,
-      &quot;published&quot;: &quot;2026-08-11T16:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent&quot;,
-      &quot;author&quot;: &quot;Tarunima Tripathi&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;government&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Google Cloud Security&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;title&quot;: &quot;Accelerate PostgreSQL migrations using Gemini in Database Migration Service&quot;,
       &quot;link&quot;: &quot;https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms/&quot;,
       &quot;published&quot;: &quot;2026-08-11T16:00:00+00:00&quot;,
@@ -10847,6 +10818,35 @@
               0.35
             ]
           ]
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Google Cloud Security&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;title&quot;: &quot;Looker’s semantic layer governs Gemini Enterprise data for user trust&quot;,
+      &quot;link&quot;: &quot;https://cloud.google.com/blog/products/business-intelligence/integrating-looker-and-gemini-enterprise/&quot;,
+      &quot;published&quot;: &quot;2026-08-11T16:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;For organizations deploying AI agents at scale, there’s often a critical divide between structured and unstructured data. While large language models (LLMs) excel at parsing text documents, emails, and PDFs, they can struggle when presented with raw enterprise databases. Meanwhile, standard natural-language-to-SQL (NL2SQL) models often guess how database schemas fit together, which can lead to unpredictable queries, inconsistent metrics, and AI hallucinations that erode user trust. Gemini Enterprise brings the best of Google AI to every employee through an intuitive chat interface that acts as a single front door for AI in the workplace. And now, Looker’s governed semantic layer serves as the trusted foundation for structured data within Gemini Enterprise, enabling trusted self-service business intelligence for all Gemini Enterprise users. With this integration, Looker analysts and admins can publish conversational agents natively into their Gemini Enterprise environments via the Agent&quot;,
+      &quot;author&quot;: &quot;Tarunima Tripathi&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
         }
       }
     },
@@ -11549,33 +11549,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;13 million tool calls: auditing every AI coding agent action with Elastic Agent&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks&quot;,
-      &quot;published&quot;: &quot;2026-08-11T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -11630,6 +11603,33 @@
         &quot;role_map&quot;: {
           &quot;WordPress&quot;: &quot;target&quot;
         },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;13 million tool calls: auditing every AI coding agent action with Elastic Agent&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks&quot;,
+      &quot;published&quot;: &quot;2026-08-11T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -15771,33 +15771,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone&quot;,
-      &quot;published&quot;: &quot;2026-08-04T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;LLMs made it cheap to flood bug bounty programs with submissions. Here&#x27;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -15845,6 +15818,33 @@
         &quot;cve_ids&quot;: [
           &quot;CVE-2026-18577&quot;
         ],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone&quot;,
+      &quot;published&quot;: &quot;2026-08-04T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;LLMs made it cheap to flood bug bounty programs with submissions. Here&#x27;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
@@ -19681,13 +19681,13 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Inside Elastic InfoSec&#x27;s agentic SOC: How we cut AI agent LLM calls by 60%&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/ai-agent-optimization-production-scale&quot;,
+      &quot;title&quot;: &quot;2607-secai&quot;,
+      &quot;link&quot;: &quot;https://www.sophos.com/en-us/blog/2607-secai&quot;,
       &quot;published&quot;: &quot;2026-07-27T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&#x27;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.&quot;,
+      &quot;summary&quot;: &quot;&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -19708,13 +19708,13 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Sophos X-Ops&quot;,
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;2607-secai&quot;,
-      &quot;link&quot;: &quot;https://www.sophos.com/en-us/blog/2607-secai&quot;,
+      &quot;title&quot;: &quot;Inside Elastic InfoSec&#x27;s agentic SOC: How we cut AI agent LLM calls by 60%&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/ai-agent-optimization-production-scale&quot;,
       &quot;published&quot;: &quot;2026-07-27T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research&quot;,
+      &quot;summary&quot;: &quot;We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&#x27;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -25731,33 +25731,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Inside Elastic InfoSec&#x27;s agentic SOC: cutting alert triage from 30 minutes to under 3&quot;,
-      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows&quot;,
-      &quot;published&quot;: &quot;2026-07-02T00:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Elastic&#x27;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Sophos X-Ops&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -25775,6 +25748,33 @@
         &quot;actor_attribution&quot;: [
           &quot;TeamPCP&quot;
         ],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Elastic Security Labs&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;Inside Elastic InfoSec&#x27;s agentic SOC: cutting alert triage from 30 minutes to under 3&quot;,
+      &quot;link&quot;: &quot;https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows&quot;,
+      &quot;published&quot;: &quot;2026-07-02T00:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Elastic&#x27;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
