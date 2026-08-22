@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22T16:31:27.396899+00:00",
+  "generated_at": "2026-08-22T17:26:48.513040+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 74,
   "total_items_in_window": 310,
   "total_clusters_raw": 138,
-  "total_clusters_in_packet": 52,
-  "dropped_low_score": 86,
+  "total_clusters_in_packet": 51,
+  "dropped_low_score": 87,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -81,19 +74,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 3
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -109,18 +102,39 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Kaspersky Securelist": {
@@ -137,20 +151,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -165,26 +165,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -193,11 +179,32 @@
       "item_count": 15,
       "in_window_count": 4
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -221,18 +228,11 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -242,11 +242,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -291,19 +291,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 2
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -326,12 +326,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 5
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -340,12 +340,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -354,11 +354,11 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Sysdig": {
@@ -366,13 +366,6 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Wiz Research": {
@@ -389,19 +382,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -417,13 +410,6 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -431,12 +417,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 16
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -444,13 +437,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 16
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -472,6 +458,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 16
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 16
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -515,6 +515,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -529,11 +536,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 0,
       "in_window_count": 0
     },
     "Reddit r/netsecstudents": {
@@ -543,33 +550,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
+      "item_count": 10,
       "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -578,6 +564,13 @@
       "item_count": 50,
       "in_window_count": 50
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -585,19 +578,19 @@
       "item_count": 100,
       "in_window_count": 26
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 14
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -619,6 +612,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -3721,87 +3721,6 @@
       ]
     },
     {
-      "cluster_id": "a7d83e74e6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-        "published": "2026-08-20T17:52:13+00:00",
-        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-          "published": "2026-08-20T17:52:13+00:00",
-          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "e7f188e340",
       "priority_score": 10,
       "member_count": 1,
@@ -4160,6 +4079,87 @@
               "Microsoft SharePoint": "target",
               "Azure": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a7d83e74e6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+        "published": "2026-08-20T17:52:13+00:00",
+        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+          "published": "2026-08-20T17:52:13+00:00",
+          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5062,169 +5062,6 @@
       ]
     },
     {
-      "cluster_id": "c7e8884f67",
-      "priority_score": 10,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "Medusa"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Cl0p",
-          "Medusa"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "CyberScoop",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
-        "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
-        "published": "2026-08-18T17:18:58+00:00",
-        "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .",
-        "full_body": "Advertisement Get our latest cybersecurity news first on Google. Click here! Close The ransomware-as-a-service group Medusa has adopted fresh tactics to gain access and added hundreds of victims in a little more than a year, according to an updated U.S. government advisory published Tuesday. The gang is relying on access brokers,compensating them anywhere from $100 to $1 million, with higher prices going to those who work exclusively with Medusa. However, most of the brokers work simultaneously for “multiple variants at the same time,” the advisory from the Cybersecurity and Infrastructure Security Agency, FBI and Health and Human Services Department states in one of the updated portions of the advisory. Tuesday’s update advisory expands upon aMarch 2025 advisory, drawing on ongoing FBI investigations.nIt includes information on the kinds of software vulnerabilities Medusa has exploited, such as Fortra GoAnywhere and BeyondTrust flaws. “Medusa actors operate opportunistically by targeting victims with unpatched software rather than focusing on specific organizations or sectors; however, the Healthcare and Public Health (HPH) Sector has been a frequent victim of Medusa operations,” according to the advisory. “Medusa actors leverage newly announced exploits within 24 hours and have been observed to use exploits up to a week before public vulnerability disclosure.’ Advertisement “However, there is no indication Medusa actors develop their own zero-day or N-day vulnerabilities, preferring instead to obtain advanced access to exploits from unknown sources or to quickly leverage newly announced exploits before potential victims can mitigate vulnerabilities through patching,” the advisory continues. The approach appears to be netting gains: From March 2025 to April of this year, the victim tally in the advisory jumped from more than 300 to more than 500. The group was first identified in 2021. “Medusa actors often use legitimate tools and living off the land techniques to evade detection. They may also leverage remote monitoring and management software and remote access services, including Remote Desktop Protocol, for lateral movement,” as updated sections of the advisory detail. “Once inside a network, they use common utilities and tools to support credential access, data exfiltration, and ransomware deployment.” Earlier this year, Microsoft detailed how a group it dubbed Storm-1175 was making use of Medusa ransomware in speedy operations. Symantec and Carbon Black also detailed earlier this year how North Korean hackers were leaning on Medusa to target the health care sector. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops The headquarters of the Federal Bureau of Investigation on August 16, 2022, in Washington. (Matt McClain/The Washington Post via Getty Images) (Getty Images) A sign is seen at Microsoft headquarters on July 3, 2024, in Redmond, Washington. (David Ryder/Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Rethinking how federal cyber hiring actually works The world still treats bug hunters like criminals The SOC wasn’t built for this Government AI-fueled attacks pose ‘active threat’ to water, other sectors, U.S. agencies warn A California county wants to hire Tina Peters to help run its elections Eight years later, federal authorities re-up charges against alleged Iranian hackers at Mabna Institute Irregular says ‘human oversight’ responsible for AI sandbox escape incidents Technology AI’s ‘middle class’ has gotten dramatically better at hacking The FTC wants to regulate AI for ideological bias OpenAI says Daybreak will expand to offer specialized cyber services More than half of AI-generated patches are broken Threats The long tail of Clop’s PTC hack is just beginning to emerge Details emerge on BlackFile's recent attacks on financial companies A bold new strategy or a dangerous precedent? Experts ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [
-            "Cl0p",
-            "Medusa"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "government",
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [
-            "OpenAI/ChatGPT"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "no_patch_yet"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "tool"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "CyberScoop",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics",
-          "link": "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
-          "published": "2026-08-18T17:18:58+00:00",
-          "summary": "The updated warning from the FBI, CISA and HHS draws on a year’s worth of investigations to detail how the group gains initial access and what it does afterward. The post Medusa ransomware tallies hundreds of new victims, says updated advisory on group’s tactics appeared first on CyberScoop .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [
-              "Cl0p",
-              "Medusa"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "government",
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [
-              "OpenAI/ChatGPT"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "tool"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware",
-          "link": "https://www.infosecurity-magazine.com/news/critical-infrastructure-medusa/",
-          "published": "2026-08-19T10:50:00+00:00",
-          "summary": "The FBI warned that the RaaS operation has significantly enhanced its tactics, techniques and procedures, making it harder for defenders to counter",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Medusa"
-            ],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c41212d2e8",
       "priority_score": 10,
       "member_count": 1,
@@ -5344,7 +5181,7 @@
         "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
         "published": "2026-08-22T14:14:24+00:00",
         "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-        "full_body": "Hackers infect Android car head units with proxy botnet malware By Bill Toulas August 22, 2026 10:14 AM 1 A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. Kaspersky researchers analyzed the malware and attributed the operation to the MoYu group, a threat actor previously associated with the BadBox malware botnet . The researchers note that this is the first documented case of a malware infection chain specifically created for the targeted car head unit. MoYu's operation targets systems from DoFun, a Chinese automotive software and hardware provider owned by Shenzhen Driving Control Technology Co., Ltd. DoFun is an automotive software, cloud services, and hardware provider that sells generic Android-based head units , which act as the command center for a car's infotainment, navigation, and settings systems. In June, Kaspersky researchers found a rogue APK file being downloaded from a legitimate DoFun system app, TWCore, which receives instructions through an MQTT server hosted at cardoor[.]cn. The unknown app has no interface and is a piece of malware called JarService. When launched, the malware decrypts and executes a second-stage loader that establishes communication with a command-and-control (C2) server and downloads another encrypted payload. The final payload periodically reports device information such as the model, display resolution, Wi-Fi SSID, and MAC address, and retrieves commands from the attackers. The malware supports the following nine commands: return - Retrieves a specified value from Android’s SharedPreferences storage copy - Copies stored or downloaded content to the device clipboard http - Sends HTTP GET or POST requests and can save part of the response web - Opens a URL in a WebView and executes supplied JavaScript loadlib - Not fully implemented when Kaspersky published the report loadlib2 - Downloads and executes arbitrary code or additional modules loadlib3 - Not fully implemented when Kaspersky published the report deeplink - Opens a specified resource in the browser traceroute - Checks whether specified hosts are reachable using ICMP ping Kaspersky says the malware does not interfere with driving or critical vehicle control systems, and appears designed for advertising fraud and turning internet-connected car head units into residential proxy nodes for monetization purposes. The head unit infection scheme Source: Kaspersky Researchers discovered that the operator primarily loaded a reverse-proxy module named ‘zhima,’ which turns the head unit into a proxy botnet node, and also made web requests for click-fraud activity. Kaspersky says it notified DoFun of its findings, and the Chinese firm replied that it resolved the problem. BleepingComputer has contacted both companies with questions about the initial compromise vector, and we will update the article with the information once received. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: NetNut proxy network disrupted, 2 million infected devices cut off New Manic Android malware can exfiltrate data through nearby devices New Evooo1Bot Linux botnet turns routers into traffic relay nodes Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse Inside the Underground Business of the Android BTMOB RAT malware",
+        "full_body": "Hackers infect Android car head units with proxy botnet malware By Bill Toulas August 22, 2026 10:14 AM 2 A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. Kaspersky researchers analyzed the malware and attributed the operation to the MoYu group, a threat actor previously associated with the BadBox malware botnet . The researchers note that this is the first documented case of a malware infection chain specifically created for the targeted car head unit. MoYu's operation targets systems from DoFun, a Chinese automotive software and hardware provider owned by Shenzhen Driving Control Technology Co., Ltd. DoFun is an automotive software, cloud services, and hardware provider that sells generic Android-based head units , which act as the command center for a car's infotainment, navigation, and settings systems. In June, Kaspersky researchers found a rogue APK file being downloaded from a legitimate DoFun system app, TWCore, which receives instructions through an MQTT server hosted at cardoor[.]cn. The unknown app has no interface and is a piece of malware called JarService. When launched, the malware decrypts and executes a second-stage loader that establishes communication with a command-and-control (C2) server and downloads another encrypted payload. The final payload periodically reports device information such as the model, display resolution, Wi-Fi SSID, and MAC address, and retrieves commands from the attackers. The malware supports the following nine commands: return - Retrieves a specified value from Android’s SharedPreferences storage copy - Copies stored or downloaded content to the device clipboard http - Sends HTTP GET or POST requests and can save part of the response web - Opens a URL in a WebView and executes supplied JavaScript loadlib - Not fully implemented when Kaspersky published the report loadlib2 - Downloads and executes arbitrary code or additional modules loadlib3 - Not fully implemented when Kaspersky published the report deeplink - Opens a specified resource in the browser traceroute - Checks whether specified hosts are reachable using ICMP ping Kaspersky says the malware does not interfere with driving or critical vehicle control systems, and appears designed for advertising fraud and turning internet-connected car head units into residential proxy nodes for monetization purposes. The head unit infection scheme Source: Kaspersky Researchers discovered that the operator primarily loaded a reverse-proxy module named ‘zhima,’ which turns the head unit into a proxy botnet node, and also made web requests for click-fraud activity. Kaspersky says it notified DoFun of its findings, and the Chinese firm replied that it resolved the problem. BleepingComputer has contacted both companies with questions about the initial compromise vector, and we will update the article with the information once received. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: NetNut proxy network disrupted, 2 million infected devices cut off New Manic Android malware can exfiltrate data through nearby devices New Evooo1Bot Linux botnet turns routers into traffic relay nodes Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse Inside the Underground Business of the Android BTMOB RAT malware",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -7408,39 +7245,29 @@
       ]
     },
     {
-      "label": "Cl0p: ransomware extortion",
-      "anchor_signal": "Cl0p",
-      "theme_key": "cl0p",
+      "label": "CVE-2021-33044 exploitation activity",
+      "anchor_signal": "CVE-2021-33044",
+      "theme_key": "cve-2021-33044",
       "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Cl0p"
-        ],
-        "urgency_signals": [
-          "zero_day"
+        "cve_ids": [
+          "CVE-2021-33044"
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.325,
+      "article_count": 2,
+      "cohesion": 0.227,
       "shared_strong_signals": [
-        "Cl0p"
+        "CVE-2021-33044"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "fb556ca51b",
-        "c7e8884f67"
+        "bf06d05aec",
+        "2faaf824a1"
       ],
       "links": [
-        "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
-        "https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/",
-        "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-        "https://cyberscoop.com/medusa-ransomware-tactics-cisa-advisory/",
-        "https://www.infosecurity-magazine.com/news/critical-infrastructure-medusa/"
+        "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+        "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/"
       ]
     }
   ],
@@ -7561,24 +7388,6 @@
           "Apple iOS/macOS",
           "Microsoft 365",
           "Microsoft SharePoint"
-        ]
-      },
-      {
-        "actor": "Medusa",
-        "cluster_id": "c7e8884f67",
-        "new_industries": [
-          "healthcare"
-        ],
-        "new_products": [],
-        "prior_top_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government"
-        ],
-        "prior_top_products": [
-          "Apple iOS/macOS",
-          "GitHub",
-          "OpenAI/ChatGPT"
         ]
       },
       {
