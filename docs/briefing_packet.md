@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-21T23:29:56.087077+00:00
+- Generated: 2026-08-22T01:37:17.683164+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 322
-- Total clusters raw: 140
-- Total clusters in packet: 52
-- Dropped low score: 88
+- Total items in window: 312
+- Total clusters raw: 137
+- Total clusters in packet: 55
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,56 +80,46 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 20
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -140,6 +130,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -155,21 +150,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
-  - In window count: 16
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - In window count: 3
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -180,6 +165,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 16
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -190,15 +190,15 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
@@ -215,6 +215,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -225,21 +230,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,16 +250,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -270,13 +275,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -285,36 +285,36 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 100
+  - In window count: 6
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -350,58 +350,53 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 30
+  - In window count: 17
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 23
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,8 +405,8 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,31 +415,36 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 26
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 25
+  - In window count: 15
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -487,7 +487,7 @@
   - affected_industries: government, financial_services
   - affected_products: Apple iOS/macOS
   - urgency_signals: actively_exploited
-- Cluster IDs: 6117c1d701, bd5d2abe67, 175a6a518c, 7e142768f0, ae98432591, 114ded0230, 3ec665ac60, 34d43ef8cf, 388705e7c7, 20c2a82904
+- Cluster IDs: 6117c1d701, bd5d2abe67, 175a6a518c, 7e142768f0, 114ded0230, 3ec665ac60, 34d43ef8cf, 388705e7c7, ae98432591, 20c2a82904
 - Links:
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/
@@ -496,11 +496,11 @@
   - https://www.huntress.com/blog/fake-claude-macsync
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
-  - https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - https://www.sophos.com/en-us/blog/2608-patch-tuesday
   - https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/
   - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
+  - https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
   - https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
 
 ### Cisco active exploitation
@@ -729,8 +729,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2024-3094 (first seen via Unit 42 at 2026-08-21T23:00:21+00:00, cluster f7442c938e)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -801,7 +800,19 @@
 - cve_ids: CVE-2026-3502 (weeks observed: 3, cluster 9a16830e44)
 - actor_attribution: Kimsuky (weeks observed: 3, cluster 7e142768f0)
 
-### Tier inversion (0)
+### Tier inversion (3)
+- **CVE-2026-33696: From a Schema Name to RCE in n8n**
+  - Cluster: 7029814c59
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2026-33696
+- **From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)**
+  - Cluster: 4405003146
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2026-32193
+- **🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia**
+  - Cluster: 2faaf824a1
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
 
 ## Clusters
 
@@ -857,7 +868,7 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-19490: Critical Vulnerability
   - Link: https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
   - Summary: Citrix has patched two vulnerabilities in NetScaler ADC and NetScaler Gateway, including a critical authentication bypass flaw tracked as CVE-2026-19490, and is urging customers to upgrade affected appliances as soon as possible. “We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin, assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible,” Anil Shetty, senior VP of Engineering with Cloud Software Group … More → The post Citrix urges customers to fix critical NetScaler authentication bypass (CVE-2026-19490) appeared first on Help Net Security .
 
-### Cluster 3e059b6047 — score 33
+### Cluster 3e059b6047 — score 32
 
 - Title: Critical Microsoft Entra ID vulnerability exploited in the wild (CVE-2026-69836)
 - Source: Help Net Security (cyber_news_breach_reporting)
@@ -1310,55 +1321,6 @@ CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE  Ra
   - Link: https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than
 
-### Cluster 9a16830e44 — score 17
-
-- Title: CISA orders feds to patch actively exploited TrueConf Server flaws
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-21T12:25:33+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, web_shell_backdoor, zero_day
-- affected_industries: critical_infrastructure, government
-- affected_products: Microsoft SharePoint
-- cve_ids: CVE-2026-3502, CVE-2026-72529, CVE-2026-72530
-- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, web_shell_backdoor, active_exploitation
-- affected_industries: government, critical_infrastructure
-- affected_products: Microsoft SharePoint
-- cve_ids: CVE-2026-72529, CVE-2026-72530, CVE-2026-3502
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]
-```
-
-#### Full body
-
-```
-CISA orders feds to patch actively exploited TrueConf Server flaws By Sergiu Gatlan August 21, 2026 08:25 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. TrueConf Server is designed for secure corporate messaging and video conferencing and, unlike cloud-based software like Zoom or Microsoft Teams, it operates inside an organization's local network (LAN). The most severe is a critical missing authentication security flaw (tracked as CVE-2026-72529 ) that allows attackers without privileges to remotely execute arbitrary scripts on unpatched servers. "A remote unauthenticated attacker connecting to TrueConf Server over 4307/TCP can invoke an undocumented critical function and execute an arbitrary script on the server," the TrueConf security team explains . The second is another critical severity vulnerability ( CVE-2026-72530 ) that unauthenticated threat actors can exploit through high-complexity code injection attacks to gain remote code execution. "Improper management of code generation can allow an attacker who has achieved code execution in the TrueConf Server isolated environment to escape the sandbox and execute arbitrary commands on the underlying operating system," TrueConf adds . On Thursday, CISA added the two flaws to its KEV catalog and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their servers within two weeks, by September 3. "This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise," the cybersecurity agency warned . While CISA didn't share details on these attacks, cybersecurity company Kaspersky said the Head Mare hacktivist group has been exploiting CVE-2026-72529 and CVE-2026-72530 since at least July 2026 to replace client installers with malicious versions designed to deploy backdoor malware. According to Kaspersky, multiple Head Mare campaigns targeted Russian organizations across various industry sectors, including transportation, energy, IT, electronics, and software development. In April 2026, Check Point Research also reported that hackers were targeting another TrueConf flaw (CVE-2026-3502) in zero-day attacks dubbed "Operation True Chaos" and linked to Chinese threat actors, compromising users via trojanized client updates. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical RCE flaw in Windows IKE Extension now actively exploited CISA warns of hackers exploiting critical MLflow vulnerability CISA: Windows Task Host flaw now exploited by ransomware gangs CISA: Microsoft SharePoint flaw now exploited in ransomware attacks Critical Progress LoadMaster flaw now actively exploited in attacks
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: CISA orders feds to patch actively exploited TrueConf Server flaws
-  - Published: 2026-08-21T12:25:33+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]
-
 ### Cluster 9101d8d7ac — score 17
 
 - Title: The invisible passenger in your car
@@ -1460,6 +1422,55 @@ Wiz Pricing Get a demo Get a demo On August 20, 2026, malicious versions of thre
   - Link: https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - Summary: Malicious versions of the arrayref Rust crate (and others) executed a backdoor at compile time. The campaign's infrastructure overlaps with recent DPRK supply chain attacks, including Mastra and axios.
 
+### Cluster 9a16830e44 — score 16
+
+- Title: CISA orders feds to patch actively exploited TrueConf Server flaws
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:25:33+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion, web_shell_backdoor, zero_day
+- affected_industries: critical_infrastructure, government
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-3502, CVE-2026-72529, CVE-2026-72530
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, web_shell_backdoor, active_exploitation
+- affected_industries: government, critical_infrastructure
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-72529, CVE-2026-72530, CVE-2026-3502
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]
+```
+
+#### Full body
+
+```
+CISA orders feds to patch actively exploited TrueConf Server flaws By Sergiu Gatlan August 21, 2026 08:25 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. TrueConf Server is designed for secure corporate messaging and video conferencing and, unlike cloud-based software like Zoom or Microsoft Teams, it operates inside an organization's local network (LAN). The most severe is a critical missing authentication security flaw (tracked as CVE-2026-72529 ) that allows attackers without privileges to remotely execute arbitrary scripts on unpatched servers. "A remote unauthenticated attacker connecting to TrueConf Server over 4307/TCP can invoke an undocumented critical function and execute an arbitrary script on the server," the TrueConf security team explains . The second is another critical severity vulnerability ( CVE-2026-72530 ) that unauthenticated threat actors can exploit through high-complexity code injection attacks to gain remote code execution. "Improper management of code generation can allow an attacker who has achieved code execution in the TrueConf Server isolated environment to escape the sandbox and execute arbitrary commands on the underlying operating system," TrueConf adds . On Thursday, CISA added the two flaws to its KEV catalog and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their servers within two weeks, by September 3. "This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise," the cybersecurity agency warned . While CISA didn't share details on these attacks, cybersecurity company Kaspersky said the Head Mare hacktivist group has been exploiting CVE-2026-72529 and CVE-2026-72530 since at least July 2026 to replace client installers with malicious versions designed to deploy backdoor malware. According to Kaspersky, multiple Head Mare campaigns targeted Russian organizations across various industry sectors, including transportation, energy, IT, electronics, and software development. In April 2026, Check Point Research also reported that hackers were targeting another TrueConf flaw (CVE-2026-3502) in zero-day attacks dubbed "Operation True Chaos" and linked to Chinese threat actors, compromising users via trojanized client updates. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical RCE flaw in Windows IKE Extension now actively exploited CISA warns of hackers exploiting critical MLflow vulnerability CISA: Windows Task Host flaw now exploited by ransomware gangs CISA: Microsoft SharePoint flaw now exploited in ransomware attacks Critical Progress LoadMaster flaw now actively exploited in attacks
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA orders feds to patch actively exploited TrueConf Server flaws
+  - Published: 2026-08-21T12:25:33+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]
+
 ### Cluster fc66ccb428 — score 16
 
 - Title: Staying Ahead of Adversarial AI Through Agentic Source Code Review
@@ -1552,49 +1563,6 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Published: 2026-08-17T00:00:00+00:00
   - Link: https://www.exploit-db.com/exploits/52642
   - Summary: WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload
-
-### Cluster e12b0b4338 — score 13
-
-- Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-21T12:26:07+00:00
-- Link: https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ddos, supply_chain
-- affected_products: Citrix, GitLab
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft, ddos
-- affected_products: Citrix, GitLab
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A critical-severity type confusion in the isolated-vm Node.js library could allow threat actors to achieve remote code execution (RCE) on the host system. Through isolated-vm, developers can access the V8 JavaScript engine’s Isolate interface to build completely isolated JavaScript environments. Each Isolate is a completely separated V8 instance, with its own heap memory, execution state, and garbage collector. V8’s Isolates enabled the execution of multiple sandboxed JavaScript code instances on the same machine, without the need for a container or a virtual machine. isolated-vm is widely used for executing untrusted JavaScript code within a V8 Isolate. The recently identified type confusion bug, which has yet to be assigned a CVE identifier, impacts ExternalCopy, the function used to copy data across Isolates, EndorLabs explains . The function serializes the data in one Isolate and reconstructs it in the other instance. For performance optimization, it uses a transferList: large ArrayBuffers are listed, and the underlying memory is transferred by detaching the buffer from the source and handing it to the destination. The issue was that, when data was transferred, the reconstructor iterated over the byte array list twice, with the second pass trusting the first walk. Advertisement. Scroll to continue reading. However, because iterating the transfer_list JavaScript array would not return the same value for an element defined as a getter for each pass, an attacker could abuse the time-of-check/time-of-use (TOCTOU) weakness to dereference an attacker-controlled pointer. While the ExternalCopy constructor is only accessible from the host, a guest can target ivm.Reference, the mechanism through which the host exposes anything to the sandbox, to build the malicious transferList and trigger the vulnerability, EndorLabs says. Successful exploitation of the security defect leads to a crash (denial-of-service) or control-flow hijack of the host process, which potentially enables RCE on the host. “Any embedder that runs untrusted code in an isolate and shares even one Reference into it is affected. Host code that passes a caller-influenced array as transferList is affected directly, without any guest,” an isolated-vm advisory reads. Patches for the vulnerability were included in isolated-vm versions 6.2.0 and 7.0.1 to prevent user JavaScript from running during the copy. “The vulnerability lived in the native glue code: the C++ binding that serializes values across the boundary. That layer is written in a memory-unsafe language; it manipulates raw V8 handles and backing-store pointers, and it re-reads attacker-controlled JavaScript objects in the middle of a security-sensitive operation. A single unchecked cast on a re-read value was enough to turn a correct isolation primitive into a full escape,” EndorLabs notes. Related: Rust Supply Chain Attack Linked to North Korean Hackers Related: Microsoft Rolls Out 22 Fresh Security Patches Related: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Related: Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them Latest News Former NSA Director Paul Nakasone Launches National Security Advi
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
-  - Published: 2026-08-21T12:26:07+00:00
-  - Link: https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
-  - Summary: The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .
 
 ### Cluster af39cfecb0 — score 13
 
@@ -1742,6 +1710,49 @@ AWS Security Blog Security Hub Extended adds Supply Chain Security as its tenth 
   - Link: https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/
   - Summary: Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]
 
+### Cluster e12b0b4338 — score 12
+
+- Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:26:07+00:00
+- Link: https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ddos, supply_chain
+- affected_products: Citrix, GitLab
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft, ddos
+- affected_products: Citrix, GitLab
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A critical-severity type confusion in the isolated-vm Node.js library could allow threat actors to achieve remote code execution (RCE) on the host system. Through isolated-vm, developers can access the V8 JavaScript engine’s Isolate interface to build completely isolated JavaScript environments. Each Isolate is a completely separated V8 instance, with its own heap memory, execution state, and garbage collector. V8’s Isolates enabled the execution of multiple sandboxed JavaScript code instances on the same machine, without the need for a container or a virtual machine. isolated-vm is widely used for executing untrusted JavaScript code within a V8 Isolate. The recently identified type confusion bug, which has yet to be assigned a CVE identifier, impacts ExternalCopy, the function used to copy data across Isolates, EndorLabs explains . The function serializes the data in one Isolate and reconstructs it in the other instance. For performance optimization, it uses a transferList: large ArrayBuffers are listed, and the underlying memory is transferred by detaching the buffer from the source and handing it to the destination. The issue was that, when data was transferred, the reconstructor iterated over the byte array list twice, with the second pass trusting the first walk. Advertisement. Scroll to continue reading. However, because iterating the transfer_list JavaScript array would not return the same value for an element defined as a getter for each pass, an attacker could abuse the time-of-check/time-of-use (TOCTOU) weakness to dereference an attacker-controlled pointer. While the ExternalCopy constructor is only accessible from the host, a guest can target ivm.Reference, the mechanism through which the host exposes anything to the sandbox, to build the malicious transferList and trigger the vulnerability, EndorLabs says. Successful exploitation of the security defect leads to a crash (denial-of-service) or control-flow hijack of the host process, which potentially enables RCE on the host. “Any embedder that runs untrusted code in an isolate and shares even one Reference into it is affected. Host code that passes a caller-influenced array as transferList is affected directly, without any guest,” an isolated-vm advisory reads. Patches for the vulnerability were included in isolated-vm versions 6.2.0 and 7.0.1 to prevent user JavaScript from running during the copy. “The vulnerability lived in the native glue code: the C++ binding that serializes values across the boundary. That layer is written in a memory-unsafe language; it manipulates raw V8 handles and backing-store pointers, and it re-reads attacker-controlled JavaScript objects in the middle of a security-sensitive operation. A single unchecked cast on a re-read value was enough to turn a correct isolation primitive into a full escape,” EndorLabs notes. Related: Rust Supply Chain Attack Linked to North Korean Hackers Related: Microsoft Rolls Out 22 Fresh Security Patches Related: CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Related: Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler Critical GitLab Flaw Exploited Shortly After Disclosure Prevalent AI Raises $22 Million to Expand Data Fabric Platform US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them Latest News Former NSA Director Paul Nakasone Launches National Security Advi
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Critical Isolated-vm Vulnerability Leads to RCE on Host
+  - Published: 2026-08-21T12:26:07+00:00
+  - Link: https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/
+  - Summary: The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .
+
 ### Cluster fb556ca51b — score 12
 
 - Title: Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days
@@ -1811,10 +1822,10 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5
 - Strong signals: Atlassian Jira, GitHub, Snowflake
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, phishing_social_eng, vulnerability_disclosure
+- threat_categories: active_exploitation, ddos, vulnerability_disclosure
 - affected_products: Atlassian Jira, GitHub, Snowflake
 - urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
+- content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
@@ -1853,11 +1864,11 @@ Wiz Pricing Get a demo Get a demo As part of ongoing security research conducted
   - Published: 2026-08-21T15:11:16+00:00
   - Link: https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/
   - Summary: Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification. The post In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug appeared first on SecurityWeek .
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: 140+ free security awareness and application security exercises. Fully white-labeled, no strings attached
-  - Published: 2026-08-21T14:27:54+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1vuhwqx/140_free_security_awareness_and_application/
-  - Summary: Disclosure: I work on the commercial platform these were built with. The exercise preview links point to that domain. The SCORM packages themselves are fully white-labeled — no logos, no backlinks, no sign-up, no paywall. Grab them from GitHub and self-host if you'd rather not touch our site. Also, the post was admin-approved, a huge "thank you" to them! ----------------- Hey r/cybersecurity, I'm a cybersec engineer with an L&D background. For the last year been working on a library of ~140 free interactive exercises dedicated to teaching people how to build secure applications, recognize phishing and use AI in a safe way. Exercises are split across two Github repos, all packaged as SCORM .zip files under CC BY-NC 4.0 license. Security awareness (130+ exercises) Each one drops the learner into a first-person 3D office and makes them act: answer the phone, read the email, click the thing, live with it. Every exercise ends with a quiz at a 100% pass threshold. Course packages in the repo
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html
+  - Published: 2026-08-18T16:24:33+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+  - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
 
 ### Cluster 213e3c4494 — score 10
 
@@ -1901,6 +1912,47 @@ Threat Research Center Threat Research Malware Malware Identity Abuse Through Tr
   - Published: 2026-08-20T10:00:25+00:00
   - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
   - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
+
+### Cluster a7d83e74e6 — score 10
+
+- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-20T17:52:13+00:00
+- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+  - Published: 2026-08-20T17:52:13+00:00
+  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster e7f188e340 — score 10
 
@@ -2042,47 +2094,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 17th Augus
   - Published: 2026-08-17T13:37:34+00:00
   - Link: https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 17th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Colombia’s Ministry of Justice has experienced a ransomware attack that affected part of its technology infrastructure and disrupted public services related to illicit-drug monitoring and legal processes. Officials confirmed that some files were […] The post 17th August – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster a7d83e74e6 — score 10
-
-- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-20T17:52:13+00:00
-- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-  - Published: 2026-08-20T17:52:13+00:00
-  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster 8883aedcfe — score 10
 
@@ -2654,50 +2665,40 @@ SickKids data breach exposes employee and job applicant info By Ax Sharma August
   - Link: https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/
   - Summary: Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software. Clinical systems and patient records were not affected. (264) [...]
 
-### Cluster ae98432591 — score 9
+### Cluster 7029814c59 — score 9
 
-- Title: North Korean Hackers Tied to Rust Supply Chain Attack
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-21T12:40:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
-- Fetch status: ok
+- Title: CVE-2026-33696: From a Schema Name to RCE in n8n
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-16T13:33:02+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: CVE-2026-33696
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, apt_espionage, supply_chain, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, crates.io, npm
-- content_type: news_report
-- confidence_tier: tier_4_news
+- cve_ids: CVE-2026-33696
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage, ai_security, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, crates.io, npm
-- content_type: news_report
-- confidence_tier: tier_4_news
+- cve_ids: CVE-2026-33696
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » North Korean Hackers Tied to Rust Supply Chain Attack North Korean Hackers Tied to Rust Supply Chain Attack News 21 August 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Wiz security researchers have linked a recent software supply chain attack which targeted the Rust programming ecosystem to state-sponsored North Korean threat actors. The campaign compromised several widely used open-source libraries hosted on the official Rust package registry, crates.io, embedding a backdoor designed to infiltrate developer workstations and continuous integration (CI) environments before a project even finishes compiling. The incident unfolded on August 20, when an attacker gained access to a trusted open-source maintainer's account, updating three legitimate crates: arrayref, internment and append-only-vec. In the Rust programming language, a crate is the smallest unit of code that the compiler looks at and builds at one time. It acts as a tree of modules that compile into a single binary or library file. 75% of Cloud Environments Running Rust Applications Potentially Affected Rather than injecting malicious code directly into the source code of the main libraries, the attacker subtly modified the package manifests to import an external, typosquatted dependency named proc-macro1. This rogue package took advantage of the automated build process in the Rust package manager, cargo, downloading and executing an unauthorized payload in the background. As Wiz researchers Rami McCarthy and Benjamin Read explained in their report , published a few hours after the beginning of the campaign, because build scripts run during compilation, building an affected project was sufficient to execute the payload. This meant developers and automated build pipelines could become infected simply by pulling down and compiling legitimate dependencies, even if the resulting software was never actually deployed or executed. Once triggered, the malicious binary aimed to harvest sensitive data, targeting stored web browser credentials, cryptocurrency wallet extensions and developer environment secrets. The blast radius of the incident is significant, with Wiz telemetry revealing that arrayref alone was present in roughly 75% of cloud environments running Rust applications. At the time of writing, arreyf had 245,777,808 downloads on crates.io; internment, 14,432,082; and append-only-vec, 4,503,638. Strong North Korean Ties Upon investigating the command-and-control (C2) infrastructure supporting the malware, researchers uncovered ties to known North Korean cyber operations. The network communication patterns, server setups and specific endpoint paths directly mirrored those used in previous supply chain campaigns, including the high-profile compromise of the Mastra framework and poisoned npm packages targeting the Axios library. Microsoft and other threat intelligence teams track the threat actor behind these campaigns as Sapphire Sleet . "The arrayref infrastructure substantially overlaps with operations attributed to recent North Korean actors," noted the Wiz researchers. "This campaign underscores how state-sponsored adversaries are increasingly weaponizing developer ecosystems to gain initial access to downstream enterprise networks." The Wiz researchers contacted the Rust Security Response Team, which quickly revoked the compromised maintainer's credentials and removed the malicious crate versions from crates.io. However, because the payload operated during the build phase rather than at runtime, security teams have been urged to inspect their dependency lockfiles for affected versions, treat any systems that compiled the tainted crates as compromised and immediately rotate credentials, cloud secrets and API keys accessible on those machines. You may also like North Korean Cyber Group Suspected in JumpCloud Breach News 25 July 2023 macOS Backdoor Uses Prompt Injection to E
+submitted by /u/TradeGold6317 [link] [comments]
 ```
 
 #### Corroborating sources (1)
 
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: North Korean Hackers Tied to Rust Supply Chain Attack
-  - Published: 2026-08-21T12:40:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
-  - Summary: Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: CVE-2026-33696: From a Schema Name to RCE in n8n
+  - Published: 2026-08-16T13:33:02+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/
+  - Summary: submitted by /u/TradeGold6317 [link] [comments]
 
 ### Cluster e50251994f — score 9
 
@@ -2752,6 +2753,48 @@ Data Analytics Serverless Apache Spark on Google Cloud: Architecture Choices & A
   - Published: 2026-08-20T10:46:49+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/20/fake-google-gemini-installer-vidar-infostealer/
   - Summary: A malicious executable masquerading as a Google Gemini installer was used to deliver the Vidar infostealer on a company network in the EMEA region, according to Darktrace researchers who investigated the incident. “During the initial analysis, it was noted that the top search result for the suspicious filename associated pointed to a file hosted on Google Colab, a cloud-based Jupyter notebook platform, commonly used by developers, researchers, and data scientists to run code and machine … More → The post Fake Gemini installer delivers Vidar infostealer via Google Colab lure appeared first on Help Net Security .
+
+### Cluster 4405003146 — score 9
+
+- Title: From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-17T12:17:40+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-32193, Microsoft/Copilot
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft/Copilot
+- cve_ids: CVE-2026-32193
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- affected_products: Microsoft/Copilot
+- cve_ids: CVE-2026-32193
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/Master_Access_486 [link] [comments]
+```
+
+#### Corroborating sources (2)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)
+  - Published: 2026-08-17T12:17:40+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/
+  - Summary: submitted by /u/Master_Access_486 [link] [comments]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps
+  - Published: 2026-08-18T17:47:22+00:00
+  - Link: https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
+  - Summary: Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session. The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced
 
 ### Cluster 114ded0230 — score 8
 
@@ -3160,6 +3203,51 @@ The expensive attacks are not always the clever ones. This week had plenty of pr
   - Link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
   - Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a
 
+### Cluster ae98432591 — score 8
+
+- Title: North Korean Hackers Tied to Rust Supply Chain Attack
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-21T12:40:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, apt_espionage, supply_chain, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, crates.io, npm
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage, ai_security, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, crates.io, npm
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » North Korean Hackers Tied to Rust Supply Chain Attack North Korean Hackers Tied to Rust Supply Chain Attack News 21 August 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Wiz security researchers have linked a recent software supply chain attack which targeted the Rust programming ecosystem to state-sponsored North Korean threat actors. The campaign compromised several widely used open-source libraries hosted on the official Rust package registry, crates.io, embedding a backdoor designed to infiltrate developer workstations and continuous integration (CI) environments before a project even finishes compiling. The incident unfolded on August 20, when an attacker gained access to a trusted open-source maintainer's account, updating three legitimate crates: arrayref, internment and append-only-vec. In the Rust programming language, a crate is the smallest unit of code that the compiler looks at and builds at one time. It acts as a tree of modules that compile into a single binary or library file. 75% of Cloud Environments Running Rust Applications Potentially Affected Rather than injecting malicious code directly into the source code of the main libraries, the attacker subtly modified the package manifests to import an external, typosquatted dependency named proc-macro1. This rogue package took advantage of the automated build process in the Rust package manager, cargo, downloading and executing an unauthorized payload in the background. As Wiz researchers Rami McCarthy and Benjamin Read explained in their report , published a few hours after the beginning of the campaign, because build scripts run during compilation, building an affected project was sufficient to execute the payload. This meant developers and automated build pipelines could become infected simply by pulling down and compiling legitimate dependencies, even if the resulting software was never actually deployed or executed. Once triggered, the malicious binary aimed to harvest sensitive data, targeting stored web browser credentials, cryptocurrency wallet extensions and developer environment secrets. The blast radius of the incident is significant, with Wiz telemetry revealing that arrayref alone was present in roughly 75% of cloud environments running Rust applications. At the time of writing, arreyf had 245,777,808 downloads on crates.io; internment, 14,432,082; and append-only-vec, 4,503,638. Strong North Korean Ties Upon investigating the command-and-control (C2) infrastructure supporting the malware, researchers uncovered ties to known North Korean cyber operations. The network communication patterns, server setups and specific endpoint paths directly mirrored those used in previous supply chain campaigns, including the high-profile compromise of the Mastra framework and poisoned npm packages targeting the Axios library. Microsoft and other threat intelligence teams track the threat actor behind these campaigns as Sapphire Sleet . "The arrayref infrastructure substantially overlaps with operations attributed to recent North Korean actors," noted the Wiz researchers. "This campaign underscores how state-sponsored adversaries are increasingly weaponizing developer ecosystems to gain initial access to downstream enterprise networks." The Wiz researchers contacted the Rust Security Response Team, which quickly revoked the compromised maintainer's credentials and removed the malicious crate versions from crates.io. However, because the payload operated during the build phase rather than at runtime, security teams have been urged to inspect their dependency lockfiles for affected versions, treat any systems that compiled the tainted crates as compromised and immediately rotate credentials, cloud secrets and API keys accessible on those machines. You may also like North Korean Cyber Group Suspected in JumpCloud Breach News 25 July 2023 macOS Backdoor Uses Prompt Injection to E
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: North Korean Hackers Tied to Rust Supply Chain Attack
+  - Published: 2026-08-21T12:40:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/north-korean-rust-supply-chain/
+  - Summary: Cybersecurity researchers have linked a malicious backdoor in compromised Rust packages to previous North Korean supply chain attacks
+
 ### Cluster 1293349fdc — score 8
 
 - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
@@ -3252,35 +3340,74 @@ Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands
   - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
   - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
 
-### Cluster 9bc3d07be4 — score 8
+### Cluster 2faaf824a1 — score 8
 
-- Title: Vulnerability Management
-- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
-- Published: 2026-08-21T16:56:40+00:00
-- Link: https://www.reddit.com/r/cybersecurity/comments/1vulxlo/vulnerability_management/
+- Title: 🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-18T17:34:14+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
+- urgency_signals: preauth_unauth
+- content_type: incident_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
+- urgency_signals: preauth_unauth
+- content_type: incident_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: 🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia
+  - Published: 2026-08-18T17:34:14+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
+  - Summary: An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io
+
+### Cluster a0547d74b2 — score 8
+
+- Title: Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-17T14:14:44+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/
 - Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
+- urgency_signals: preauth_unauth
+- content_type: news_report
 - confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- content_type: vulnerability_disclosure
+- urgency_signals: preauth_unauth
+- content_type: news_report
 - confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-Currently using CrowdStrike and Tines to help automate vulnerability ticket submissions. I’m struggling with my workflows though and have noticed a large gap. We calculate SLA based on ExPRT ratings currently. So we filter by critical high medium or low and submit based on those segments. I submit tickets by remediation since that decreases ticket volume + resolves multiple CVEs at once if they share the same remediation. The flaw here is that if one CVE changes rating randomly, the SLA technically should change so it needs to be pulled from that static ticket, which just isn’t manageable without creating chaos. Also, the filters would not pick it up on next rerun if it’s in its own segment; the cve would now be a critical and if the ticket is submitted as a high, it would be missed. So obviously my approach here is wrong, but I also cannot just blow up the ticket queue by submitted solely on CVE-ID. Does anyone out there have any advice / opinions / what they have done in their org? T
+submitted by /u/HyprWave [link] [comments]
 ```
 
 #### Corroborating sources (1)
 
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: Vulnerability Management
-  - Published: 2026-08-21T16:56:40+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1vulxlo/vulnerability_management/
-  - Summary: Currently using CrowdStrike and Tines to help automate vulnerability ticket submissions. I’m struggling with my workflows though and have noticed a large gap. We calculate SLA based on ExPRT ratings currently. So we filter by critical high medium or low and submit based on those segments. I submit tickets by remediation since that decreases ticket volume + resolves multiple CVEs at once if they share the same remediation. The flaw here is that if one CVE changes rating randomly, the SLA technically should change so it needs to be pulled from that static ticket, which just isn’t manageable without creating chaos. Also, the filters would not pick it up on next rerun if it’s in its own segment; the cve would now be a critical and if the ticket is submitted as a high, it would be missed. So obviously my approach here is wrong, but I also cannot just blow up the ticket queue by submitted solely on CVE-ID. Does anyone out there have any advice / opinions / what they have done in their org? T
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)
+  - Published: 2026-08-17T14:14:44+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/
+  - Summary: submitted by /u/HyprWave [link] [comments]
