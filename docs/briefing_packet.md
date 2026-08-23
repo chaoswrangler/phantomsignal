@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-23T19:27:08.082263+00:00
+- Generated: 2026-08-23T20:30:38.365180+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 311
-- Total clusters raw: 136
+- Total items in window: 313
+- Total clusters raw: 137
 - Total clusters in packet: 49
-- Dropped low score: 87
+- Dropped low score: 88
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,33 +70,28 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 25
-  - In window count: 0
+  - Item count: 15
+  - In window count: 3
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -105,10 +100,15 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
@@ -135,11 +135,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -155,11 +150,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -170,11 +175,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -185,16 +185,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
@@ -205,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -220,31 +220,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -255,43 +255,43 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 5
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -305,16 +305,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,11 +330,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -340,6 +340,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -350,16 +355,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,31 +365,31 @@
   - Status: ok
   - Item count: 50
   - In window count: 25
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 18
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -415,16 +410,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 26
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -435,11 +435,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 100
+  - In window count: 26
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -459,7 +459,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 5
+  - In window count: 6
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -2785,92 +2785,6 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/
   - Summary: The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .
 
-### Cluster 1293349fdc — score 8
-
-- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-18T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-  - Published: 2026-08-18T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-
-### Cluster 20c2a82904 — score 8
-
-- Title: SafePal Data Breach Hits Tens of Thousands of Customers
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-17T09:10:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: financial_services, government, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: financial_services, government, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice New Agent Tesla Malware Variant Boosts Evasion Capabilities News 21 August 2026 1 US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 2 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 3 MaaS Campaign Combines ClickFix, ErrTraffic and Cruciferra News 19 August 2026 4 UK Fraud Cases Hit Record High in 2026 News 19 August 2026 5 Enterprise Applications Carry 4.31x More Critical and High Vulnerabilities News 18 August 2026 6 Exclusive: Linux Foundation's Akrites to Go Live in September News 19 August 2026 1 Infosecurity Europe: OWASP Forms New Agentic Research Council News 1 June 2026 2 NASA Grou
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: SafePal Data Breach Hits Tens of Thousands of Customers
-  - Published: 2026-08-17T09:10:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
-  - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
-
 ### Cluster 844772e10d — score 8
 
 - Title: Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers
@@ -3046,6 +2960,92 @@ The expensive attacks are not always the clever ones. This week had plenty of pr
   - Published: 2026-08-17T13:23:51+00:00
   - Link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
   - Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a
+
+### Cluster 1293349fdc — score 8
+
+- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-18T10:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+  - Published: 2026-08-18T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+
+### Cluster 20c2a82904 — score 8
+
+- Title: SafePal Data Breach Hits Tens of Thousands of Customers
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-17T09:10:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: financial_services, government, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: financial_services, government, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » SafePal Data Breach Hits Tens of Thousands of Customers SafePal Data Breach Hits Tens of Thousands of Customers News 17 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster The manufacturer of a popular cryptocurrency hardware wallet has told tens of thousands of its customers to be on the lookout for phishing attempts after it suffered a data breach. SafePal published an update on August 16 claiming that order information linked to 39,798 customers had been compromised in a recent incident. Customers who placed order between March 2, 2025 and April 11, 2026 are impacted. The stolen data includes names, email and shipping addresses, phone numbers and purchase details. “This incident did not involve your seed phrase, private keys, wallet password, or other wallet credentials, bank account information, payment card numbers, or government-issued identification numbers,” SafePal clarified. “SafePal never requests, collects, processes or stores such information from customers. No evidence has been found that the incident itself compromised access to SafePal wallets or funds.” Read more on crypto breaches: Coldcard Users Lose $89m After Bitcoin Wallet Is Hacked The breach appears to have stemmed from a vulnerability in the firm’s order-tracking function for a plug-in. “Under certain conditions, the flaw allowed unauthorized access to another customer's order information. We remediated the issue upon discovery and introduced additional security measures,” SafePal explained. The firm warned customers to expect “fraudulent phone calls, emails, text messages, letters, refund offers, firmware-update requests, fake customer-support communications” and other attempts to obtain their wallet credentials or additional personal information. It said it had already taken down over 30 fraudulent websites and phishing links associated with the incident. According to screenshots posted to X , an individual has put the stolen data up for sale, although their claims have not been verified. Advice for SafePal Customers SafePal has published a dedicated page via which to report scams, and a support channel for affected customers. It issued the following advice: Never share your seed phrase, private key, or password with anyone, even if they claim to be a SafePal employee Don’t click links or scan QR codes in unsolicited emails, text messages, or letters claiming to be from SafePal Type the SafePal web address manually into the browser rather than following a redirected link, including any link that appears to come from this notice Be on the lookout for any suspicious communication or impersonation, whether by phone, post or in person Report anything suspicious, including messages, calls, letters or websites You may also like Los Angeles Public Health Department Discloses Large Data Breach News 17 June 2024 BBC Pension Scheme Breached, Exposing Employee Data News 31 May 2024 Cybersecurity Incidents Account for a Third of ICO Reports in 2020 News 4 September 2020 Over 80% of Sports Organizations Targeted by Hackers in the Last Year News 12 June 2026 Qantas Confirms 5.7 Million Customers Hit by Data Breach News 10 July 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice New Agent Tesla Malware Variant Boosts Evasion Capabilities News 21 August 2026 1 US Defense Contractors Admit Their Rising CMMC Scores May Not Be Accurate News 20 August 2026 2 Def Con Attendees Targeted by Persistent Phishing Campaign News 20 August 2026 3 MaaS Campaign Combines ClickFix, ErrTraffic and Cruciferra News 19 August 2026 4 UK Fraud Cases Hit Record High in 2026 News 19 August 2026 5 Enterprise Applications Carry 4.31x More Critical and High Vulnerabilities News 18 August 2026 6 Exclusive: Linux Foundation's Akrites to Go Live in September News 19 August 2026 1 Infosecurity Europe: OWASP Forms New Agentic Research Council News 1 June 2026 2 NASA Grou
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: SafePal Data Breach Hits Tens of Thousands of Customers
+  - Published: 2026-08-17T09:10:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/
+  - Summary: Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach
 
 ### Cluster 2faaf824a1 — score 8
 

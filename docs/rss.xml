@@ -6,9 +6,19 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 23 Aug 2026 19:27:08 +0000</lastBuildDate>
+<lastBuildDate>Sun, 23 Aug 2026 20:30:38 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Sponsored: Passkeys won’t stop authorisation phishing</title>
+<link>https://risky.biz/RBNEWSSI141/</link>
+<description><![CDATA[In this Risky Business sponsored interview, James Wilson chats with Luke Jennings, Push Security’s VP of Research, about how stronger authentication is pushing attackers towards the authorisation layer. Device code phishing is on the rise. Luke explains how these attacks can survive passkeys and phishing-resistant MFA and, importantly, how defenders can check if their controls against these attacks actually work.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Sun, 23 Aug 2026 19:49:18 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWSSI141/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>phishing_social_eng</category>
+</item>
 <item>
 <title>ToxicPanda Android malware uses VPN permissions to block Google Play</title>
 <link>https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/</link>
@@ -2838,15 +2848,6 @@
 <description><![CDATA[There are no lossless transformations of natural-language text Sophie Alpert shares her &quot;internal policy on acceptable use of AI writing by engineers&quot;. It&apos;s a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You must stand behind every idea and every sentence in your docs . It is your responsibility to make sure that the entire document is representative of your own thoughts before you share it. If a reviewer asks, “What did you mean by this line?”, it’s not acceptable to reply with “Oh sorry, AI wrote that, just ignore it.” You will confuse your readers (and waste their time) if you present them things that are not genuinely representative of your thoughts. The &quot;no lossless transformations&quot; idea from the post title is expanded on here: There are no lossless transformations of natural-language text — every rewrite and rephrase changes the meaning of your writing, and if this is d]]></description>
 <pubDate>Tue, 11 Aug 2026 23:48:35 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Stealing Reasoning Traces from Proprietary LLM APIs</title>
-<link>https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</link>
-<description><![CDATA[Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name ( stolen-thoughts.com ) for a neat paper : Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed across sessions, users, and models. We take a trace produced by a frontier model, replay it into a weaker sibling, jailbreak the weaker model, and recover the stronger model’s hidden reasoning in plaintext You can see an example of these encrypted blocks by running: curl https://api.openai.com/v1/responses \ -H &quot; Content-Type: application/json &quot; \ -H &quot; Authorization: Bearer $( llm keys get openai ) &quot; \ -d &apos; { &quot;model&quot;: &quot;gpt-5.6-luna&quot;, &quot;input&quot;: &quot;Solve step by step: What is the smallest positive integer divisible by every integer from 1 through 20?&quot;, &quot;reasoning&quot;: { &quot;effort&quot;: &quot;medium&quot; }, &quot;include&quot;: [&quot;reasoning.encrypted_content&quot;], &quot;store&quot;: false, &quot;stream&quot;: false } &apos; Here&apos;s the full output , which includes chunks that look like this: &quot;output&quot;: [ { &quot;id&quot;: &quot;rs_0a7479de7ebae17001]]></description>
-<pubDate>Tue, 11 Aug 2026 22:40:45 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 </item>
@@ -5794,6 +5795,16 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
+</item>
+<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -5803,16 +5814,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -7869,6 +7870,15 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>Build AI Security Agents with Wiz MCP</title>
+<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
+<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
+<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>GPT-5.5-Cyber built a zlib fuzzing lab in a day</title>
 <link>https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/</link>
 <description><![CDATA[We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run. We’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag. The expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber build in a single day what would have taken weeks for a skilled security researcher : harnesses across a dozen entrypoints, sanitizer and variant builds, seeds, and multiple findings currently undergoing<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -7877,15 +7887,6 @@
 <source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
 <category>offensive_vulnerability_research</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Build AI Security Agents with Wiz MCP</title>
-<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
-<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
-<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>/r/netsec&apos;s Q3 2026 Information Security Hiring Thread</title>
@@ -12148,15 +12149,6 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Between Two Nerds: AI as the mythical 10x hacker</title>
-<link>https://risky.biz/BTN163/</link>
-<description><![CDATA[In this edition of Between Two Nerds Tom Uren and The Grugq take a deep dive into how a single hacker used OpenAI and Anthropic’s tools to help hack nine Mexican government organisations in quick time. This episode is also available on YouTube.]]></description>
-<pubDate>Mon, 20 Apr 2026 20:34:47 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/BTN163/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Context.ai OAuth Token Compromise</title>
@@ -18638,7 +18630,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18647,7 +18639,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18656,7 +18648,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18665,7 +18657,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18675,7 +18667,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18684,7 +18676,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18693,7 +18685,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18702,7 +18694,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18711,7 +18703,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18720,7 +18712,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 19:27:08 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
