@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T13:37:05.444252+00:00",
+  "generated_at": "2026-08-23T14:29:34.810419+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 73,
-  "total_items_in_window": 324,
-  "total_clusters_raw": 140,
-  "total_clusters_in_packet": 47,
-  "dropped_low_score": 93,
+  "feeds_ok": 72,
+  "total_items_in_window": 312,
+  "total_clusters_raw": 138,
+  "total_clusters_in_packet": 49,
+  "dropped_low_score": 89,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -88,22 +95,15 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 25,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -116,18 +116,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Citizen Lab": {
@@ -144,13 +137,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -165,12 +151,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -179,11 +165,32 @@
       "item_count": 50,
       "in_window_count": 3
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 4
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 4
     },
     "PortSwigger Research": {
@@ -193,12 +200,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 0
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -207,13 +214,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -221,19 +221,19 @@
       "item_count": 50,
       "in_window_count": 16
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -249,19 +249,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -305,6 +305,13 @@
       "item_count": 30,
       "in_window_count": 2
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -312,12 +319,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -333,18 +340,11 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
+      "item_count": 20,
       "in_window_count": 0
     },
     "Trail of Bits": {
@@ -354,6 +354,20 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -361,11 +375,11 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Wiz Research": {
@@ -374,13 +388,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,26 +403,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,12 +424,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 5,
+      "in_window_count": 5
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -452,12 +445,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 18
+      "item_count": 100,
+      "in_window_count": 1
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -465,13 +458,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 25
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,6 +473,27 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 18
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 25
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -501,36 +508,15 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -543,33 +529,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 26
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -585,25 +557,53 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "item_count": 20,
+      "in_window_count": 3
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 26
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 13
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -2334,8 +2334,8 @@
     {
       "cluster_id": "9101d8d7ac",
       "priority_score": 16,
-      "member_count": 4,
-      "corroborating_source_count": 3,
+      "member_count": 5,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "Android"
       ],
@@ -2419,6 +2419,34 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+          "link": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+          "published": "2026-08-23T14:23:46+00:00",
+          "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {
               "Android": "target"
             },
@@ -2957,12 +2985,12 @@
           }
         },
         {
-          "source": "Dark Reading",
+          "source": "Help Net Security",
           "cohort": "cyber_news_breach_reporting",
-          "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
-          "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
-          "published": "2026-08-20T20:42:18+00:00",
-          "summary": "Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.",
+          "title": "Attackers impersonate popular AI brands to spread malware",
+          "link": "https://www.helpnetsecurity.com/2026/08/21/ai-brand-impersonation-malware-malware-research/",
+          "published": "2026-08-21T11:47:39+00:00",
+          "summary": "Attackers are impersonating popular AI brands like Perplexity, Claude, ChatGPT, and Copilot to spread information stealers, backdoors, malicious browser extensions, and other malware, according to Sophos. Overview of MDR cases with AI involvement (Source: Sophos) Sophos X-Ops reviewed 12 months of managed detection and response cases, covering July 2, 2025 through June 29, 2026. Of 86 cases initially tagged for AI involvement, 34 were confirmed as malicious activity involving AI. Researchers added four cases uncovered … More → The post Attackers impersonate popular AI brands to spread malware appeared first on Help Net Security .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2985,12 +3013,12 @@
           }
         },
         {
-          "source": "Help Net Security",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Attackers impersonate popular AI brands to spread malware",
-          "link": "https://www.helpnetsecurity.com/2026/08/21/ai-brand-impersonation-malware-malware-research/",
-          "published": "2026-08-21T11:47:39+00:00",
-          "summary": "Attackers are impersonating popular AI brands like Perplexity, Claude, ChatGPT, and Copilot to spread information stealers, backdoors, malicious browser extensions, and other malware, according to Sophos. Overview of MDR cases with AI involvement (Source: Sophos) Sophos X-Ops reviewed 12 months of managed detection and response cases, covering July 2, 2025 through June 29, 2026. Of 86 cases initially tagged for AI involvement, 34 were confirmed as malicious activity involving AI. Researchers added four cases uncovered … More → The post Attackers impersonate popular AI brands to spread malware appeared first on Help Net Security .",
+          "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
+          "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network",
+          "published": "2026-08-20T20:42:18+00:00",
+          "summary": "Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -3439,7 +3467,6 @@
         "threat_categories": [
           "active_exploitation",
           "ddos",
-          "phishing_social_eng",
           "vulnerability_disclosure"
         ],
         "actor_attribution": [],
@@ -3457,7 +3484,8 @@
           "preauth_unauth"
         ],
         "content_type": [
-          "news_report"
+          "news_report",
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
           "tier_2_operator",
@@ -3573,6 +3601,34 @@
           }
         },
         {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html",
+          "link": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
+          "published": "2026-08-18T16:24:33+00:00",
+          "summary": "submitted by /u/Fit_Veterinarian4403 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
           "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
           "title": "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug",
@@ -3594,36 +3650,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "140+ free security awareness and application security exercises. Fully white-labeled, no strings attached",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1vuhwqx/140_free_security_awareness_and_application/",
-          "published": "2026-08-21T14:27:54+00:00",
-          "summary": "Disclosure: I work on the commercial platform these were built with. The exercise preview links point to that domain. The SCORM packages themselves are fully white-labeled — no logos, no backlinks, no sign-up, no paywall. Grab them from GitHub and self-host if you'd rather not touch our site. Also, the post was admin-approved, a huge \"thank you\" to them! ----------------- Hey r/cybersecurity, I'm a cybersec engineer with an L&D background. For the last year been working on a library of ~140 free interactive exercises dedicated to teaching people how to build secure applications, recognize phishing and use AI in a safe way. Exercises are split across two Github repos, all packaged as SCORM .zip files under CC BY-NC 4.0 license. Security awareness (130+ exercises) Each one drops the learner into a first-person 3D office and makes them act: answer the phone, read the email, click the thing, live with it. Every exercise ends with a quiz at a 100% pass threshold. Course packages in the repo",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "GitHub": "target"
             },
@@ -3721,6 +3747,87 @@
             "role_map": {
               "Palo Alto Networks": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a7d83e74e6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+        "published": "2026-08-20T17:52:13+00:00",
+        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+          "published": "2026-08-20T17:52:13+00:00",
+          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4087,87 +4194,6 @@
               "Microsoft SharePoint": "target",
               "Azure": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a7d83e74e6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-        "published": "2026-08-20T17:52:13+00:00",
-        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-          "published": "2026-08-20T17:52:13+00:00",
-          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5285,6 +5311,130 @@
       ]
     },
     {
+      "cluster_id": "4405003146",
+      "priority_score": 9,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-32193",
+        "Microsoft/Copilot"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft/Copilot"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-32193"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
+        "link": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
+        "published": "2026-08-17T12:17:40+00:00",
+        "summary": "submitted by /u/Master_Access_486 [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft/Copilot"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-32193"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {
+            "Microsoft/Copilot": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
+          "link": "https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/",
+          "published": "2026-08-17T12:17:40+00:00",
+          "summary": "submitted by /u/Master_Access_486 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft/Copilot"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-32193"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Microsoft/Copilot": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+          "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+          "published": "2026-08-18T17:47:22+00:00",
+          "summary": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session. The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft/Copilot"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft/Copilot": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "114ded0230",
       "priority_score": 8,
       "member_count": 1,
@@ -5491,97 +5641,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "7365cf22f7",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Android"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Hackers infect Android car head units with proxy botnet malware",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-        "published": "2026-08-22T14:14:24+00:00",
-        "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-        "full_body": "Hackers infect Android car head units with proxy botnet malware By Bill Toulas August 22, 2026 10:14 AM 5 A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. Kaspersky researchers analyzed the malware and attributed the operation to the MoYu group, a threat actor previously associated with the BadBox malware botnet . The researchers note that this is the first documented case of a malware infection chain specifically created for the targeted car head unit. MoYu's operation targets systems from DoFun, a Chinese automotive software and hardware provider owned by Shenzhen Driving Control Technology Co., Ltd. DoFun is an automotive software, cloud services, and hardware provider that sells generic Android-based head units , which act as the command center for a car's infotainment, navigation, and settings systems. In June, Kaspersky researchers found a rogue APK file being downloaded from a legitimate DoFun system app, TWCore, which receives instructions through an MQTT server hosted at cardoor[.]cn. The unknown app has no interface and is a piece of malware called JarService. When launched, the malware decrypts and executes a second-stage loader that establishes communication with a command-and-control (C2) server and downloads another encrypted payload. The final payload periodically reports device information such as the model, display resolution, Wi-Fi SSID, and MAC address, and retrieves commands from the attackers. The malware supports the following nine commands: return - Retrieves a specified value from Android’s SharedPreferences storage copy - Copies stored or downloaded content to the device clipboard http - Sends HTTP GET or POST requests and can save part of the response web - Opens a URL in a WebView and executes supplied JavaScript loadlib - Not fully implemented when Kaspersky published the report loadlib2 - Downloads and executes arbitrary code or additional modules loadlib3 - Not fully implemented when Kaspersky published the report deeplink - Opens a specified resource in the browser traceroute - Checks whether specified hosts are reachable using ICMP ping Kaspersky says the malware does not interfere with driving or critical vehicle control systems, and appears designed for advertising fraud and turning internet-connected car head units into residential proxy nodes for monetization purposes. The head unit infection scheme Source: Kaspersky Researchers discovered that the operator primarily loaded a reverse-proxy module named ‘zhima,’ which turns the head unit into a proxy botnet node, and also made web requests for click-fraud activity. Kaspersky says it notified DoFun of its findings, and the Chinese firm replied that it resolved the problem. BleepingComputer has contacted both companies with questions about the initial compromise vector, and we will update the article with the information once received. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: NetNut proxy network disrupted, 2 million infected devices cut off New Manic Android malware can exfiltrate data through nearby devices New Evooo1Bot Linux botnet turns routers into traffic relay nodes Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse Inside the Underground Business of the Android BTMOB RAT malware",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Android"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Android": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Hackers infect Android car head units with proxy botnet malware",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
-          "published": "2026-08-22T14:14:24+00:00",
-          "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Android": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -6407,6 +6466,184 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "2faaf824a1",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2021-33044",
+        "CVE-2024-39943",
+        "CVE-2025-31702"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2021-33044",
+          "CVE-2024-39943",
+          "CVE-2025-31702"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
+        "link": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
+        "published": "2026-08-18T17:34:14+00:00",
+        "summary": "An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2021-33044",
+            "CVE-2024-39943",
+            "CVE-2025-31702"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
+          "link": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
+          "published": "2026-08-18T17:34:14+00:00",
+          "summary": "An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2021-33044",
+              "CVE-2024-39943",
+              "CVE-2025-31702"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a0547d74b2",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
+        "link": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
+        "published": "2026-08-17T14:14:44+00:00",
+        "summary": "submitted by /u/HyprWave [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Unauthenticated RCE in CircleCI's MCP server: Host/Origin allowlist bypassed by any non-browser client (GHSA-xv5j-cwgj-22r4)",
+          "link": "https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/",
+          "published": "2026-08-17T14:14:44+00:00",
+          "summary": "submitted by /u/HyprWave [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
@@ -6431,9 +6668,9 @@
           "critical_cvss"
         ]
       },
-      "cluster_count": 7,
+      "cluster_count": 6,
       "article_count": 13,
-      "cohesion": 0.283,
+      "cohesion": 0.28,
       "shared_strong_signals": [
         "Android"
       ],
@@ -6445,8 +6682,7 @@
         "c23d18e0e8",
         "9101d8d7ac",
         "e7f188e340",
-        "8a66834bf6",
-        "7365cf22f7"
+        "8a66834bf6"
       ],
       "links": [
         "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
@@ -6455,11 +6691,11 @@
         "https://www.huntress.com/blog/fake-claude-macsync",
         "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
         "https://securelist.com/android-head-unit-malware/121106/",
+        "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
         "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
         "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
         "https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/",
-        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/",
-        "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
+        "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/"
       ]
     },
     {
@@ -6834,6 +7070,32 @@
         "https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/",
         "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html"
       ]
+    },
+    {
+      "label": "CVE-2021-33044 exploitation activity",
+      "anchor_signal": "CVE-2021-33044",
+      "theme_key": "cve-2021-33044",
+      "dominant_features": {
+        "cve_ids": [
+          "CVE-2021-33044"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.227,
+      "shared_strong_signals": [
+        "CVE-2021-33044"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "bf06d05aec",
+        "2faaf824a1"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+        "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/"
+      ]
     }
   ],
   "forward_signals": {
@@ -7001,7 +7263,6 @@
         "cluster_id": "388705e7c7",
         "new_industries": [],
         "new_products": [
-          "Apple iOS/macOS",
           "VMware"
         ],
         "prior_top_industries": [
@@ -7010,7 +7271,7 @@
           "government"
         ],
         "prior_top_products": [
-          "Android",
+          "Apple iOS/macOS",
           "Microsoft Windows",
           "OpenAI/ChatGPT"
         ]
@@ -7090,6 +7351,25 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": []
+    "tier_inversion": [
+      {
+        "cluster_id": "4405003146",
+        "title": "From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)",
+        "primary_source": "Reddit r/netsec",
+        "strong_signals": [
+          "CVE-2026-32193"
+        ]
+      },
+      {
+        "cluster_id": "2faaf824a1",
+        "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
+        "primary_source": "Reddit r/netsec",
+        "strong_signals": [
+          "CVE-2021-33044",
+          "CVE-2024-39943",
+          "CVE-2025-31702"
+        ]
+      }
+    ]
   }
 }
