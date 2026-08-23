@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 73 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 23 Aug 2026 20:30:38 +0000</lastBuildDate>
+<lastBuildDate>Sun, 23 Aug 2026 21:27:49 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -545,28 +545,6 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>BOD 26-04 Just Changed How Federal Agencies Prioritize Vulnerabilities.</title>
-<link>https://orca.security/resources/blog/bod-26-04-just-changed-how-federal-agencies-prioritize-vulnerabilities/</link>
-<description><![CDATA[Introduction Three days. That’s how long federal agencies now have to patch their riskiest vulnerabilities, and for the first time, a high CVSS score alone won’t land a vulnerability in that bucket. On June 10, 2026, CISA issued Binding Operational Directive (BOD) 26-04, “Prioritizing Security Updates Based on Risk.” It replaces two long-standing directives, BOD […]]]></description>
-<pubDate>Thu, 20 Aug 2026 18:44:46 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/bod-26-04-just-changed-how-federal-agencies-prioritize-vulnerabilities/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites</title>
-<link>https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/</link>
-<description><![CDATA[Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]<br/><br/><em>Tags: WordPress · CVE-2026-32475 · CVE-2026-65640 · data_breach</em>]]></description>
-<pubDate>Thu, 20 Aug 2026 18:19:47 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>WordPress</category>
-<category>CVE-2026-32475</category>
-<category>CVE-2026-65640</category>
-<category>data_breach</category>
-</item>
-<item>
 <title>Hackers poison arrayref Rust crate to push infostealer malware</title>
 <link>https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/</link>
 <description><![CDATA[Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers&apos; systems during compilation. [...]<br/><br/><em>Tags: credential_theft</em>]]></description>
@@ -1016,15 +994,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/linux-foundations-akrites-go-live/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Autonomous SOC: AI-Driven Security Operations Explained</title>
-<link>https://orca.security/resources/blog/autonomous-soc/</link>
-<description><![CDATA[Key Takeaways An autonomous SOC is a security operations center where software makes and executes operational decisions an analyst used to make. The label describes how much judgment has moved. Triage, closure, containment, and detection tuning are separate decisions, and a working deployment transfers some of them while leaving others with a person. The category […]]]></description>
-<pubDate>Wed, 19 Aug 2026 15:28:22 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/autonomous-soc/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>MaaS Campaign Combines ClickFix, ErrTraffic and Cruciferra</title>
@@ -1608,13 +1577,14 @@
 <item>
 <title>Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads</title>
 <link>https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</link>
-<description><![CDATA[A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias &quot;<br/><br/><em>Tags: WordPress · CVE-2026-15748</em>]]></description>
+<description><![CDATA[A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on susceptible sites. The vulnerability, tracked as CVE-2026-15748, is rated 9.8 out of 10.0 on the CVSS scoring system. It was discovered and reported by a security researcher who goes by the online alias &quot;<br/><br/><em>Tags: WordPress · CVE-2026-15748 · CVE-2026-15826</em>]]></description>
 <pubDate>Mon, 17 Aug 2026 18:22:09 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
 <category>CVE-2026-15748</category>
+<category>CVE-2026-15826</category>
 </item>
 <item>
 <title>Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic</title>
@@ -1946,33 +1916,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>SOC Automation: AI-Driven Tools and Best Practices</title>
-<link>https://orca.security/resources/blog/soc-automation/</link>
-<description><![CDATA[Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]]]></description>
-<pubDate>Fri, 14 Aug 2026 18:11:14 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/soc-automation/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Agentic AI Security: Risks, Controls &amp; Framework</title>
-<link>https://orca.security/resources/blog/agentic-ai-security/</link>
-<description><![CDATA[Key Takeaways Agentic AI security is the practice of bounding what an autonomous AI system may do once it starts reasoning toward a goal, calling tools, reading the results, and deciding again on its own, across the APIs, data stores, and services of an enterprise environment. The unit of analysis is the plan rather than […]]]></description>
-<pubDate>Fri, 14 Aug 2026 18:01:40 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/agentic-ai-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>AI Agents Security: Risks and Protection Strategies</title>
-<link>https://orca.security/resources/blog/ai-agents-security/</link>
-<description><![CDATA[Key Takeaways Securing an AI agent means bounding what one identity can reach at the moment it acts. An application’s behavior is fixed when its code ships. An agent holds a credential, chooses its next tool at runtime, and acts between the request and the result. This article treats one agent as a security object. […]]]></description>
-<pubDate>Fri, 14 Aug 2026 17:51:30 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/ai-agents-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai</link>
 <description><![CDATA[Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.]]></description>
@@ -2258,15 +2201,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>How to Improve Cloud Security Posture With CSPM: Visualizing the Attack Path</title>
-<link>https://orca.security/resources/blog/how-to-improve-cloud-security-posture-with-cspm/</link>
-<description><![CDATA[One dashboard for misconfigurations. A separate one for identities. Neither tells you what an attacker can actually reach. Most cloud security teams operate with fragmented visibility. Misconfiguration alerts fire from one tool, identity findings from another, and compliance reports from a third. The result is triage by volume, not by actual risk, which means the […]]]></description>
-<pubDate>Thu, 13 Aug 2026 17:24:47 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/how-to-improve-cloud-security-posture-with-cspm/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Introducing Gemini 3.7 Flash</title>
 <link>https://deepmind.google/blog/introducing-gemini-3-7-flash/</link>
 <description><![CDATA[]]></description>
@@ -2371,15 +2305,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>Shadow AI: Risks, Detection, and Security Strategies</title>
-<link>https://orca.security/resources/blog/shadow-ai-security/</link>
-<description><![CDATA[Key Takeaways Shadow AI is any use of artificial intelligence inside an organization that no one approved, registered, or monitored. It covers consumer chat tools, AI features switched on inside approved software, desktop agents installed on laptops, and model endpoints running in unregistered cloud accounts. That definition is settled ground. The subject here is the […]]]></description>
-<pubDate>Thu, 13 Aug 2026 14:23:53 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/shadow-ai-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>vCenter Flaw Exploited Just Five Days After Disclosure</title>
 <link>https://www.infosecurity-magazine.com/news/vcenter-cve-2026-59310-exploited/</link>
 <description><![CDATA[Attackers exploited a critical-severity vCenter flaw five days after Broadcom disclosed it]]></description>
@@ -2465,15 +2390,6 @@
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 <category>Microsoft BitLocker</category>
-</item>
-<item>
-<title>Cloud Infrastructure Security: Risks and Best Practices</title>
-<link>https://orca.security/resources/blog/cloud-infrastructure-security-best-practices-orca-security/</link>
-<description><![CDATA[Key Takeaways Cloud infrastructure security is the practice of protecting the compute, network, identity, storage, and control-plane layer your applications run on. It covers the resources you configure rather than the hardware the provider operates. Where that boundary sits depends on the shared responsibility model and the cloud service you use. Cloud security spans everything […]]]></description>
-<pubDate>Thu, 13 Aug 2026 11:38:53 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/cloud-infrastructure-security-best-practices-orca-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Dissecting the JWR phishing framework</title>
@@ -2841,15 +2757,6 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/defaulting-on-tech-debt-when-the-bill-comes-due-ai-is-the-collector</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>There are no lossless transformations of natural-language text</title>
-<link>https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/</link>
-<description><![CDATA[There are no lossless transformations of natural-language text Sophie Alpert shares her &quot;internal policy on acceptable use of AI writing by engineers&quot;. It&apos;s a short read (supporting its own recommendations) and really good. If you chose to have LLMs help massage your writing the following rule seems crucial to me: You must stand behind every idea and every sentence in your docs . It is your responsibility to make sure that the entire document is representative of your own thoughts before you share it. If a reviewer asks, “What did you mean by this line?”, it’s not acceptable to reply with “Oh sorry, AI wrote that, just ignore it.” You will confuse your readers (and waste their time) if you present them things that are not genuinely representative of your thoughts. The &quot;no lossless transformations&quot; idea from the post title is expanded on here: There are no lossless transformations of natural-language text — every rewrite and rephrase changes the meaning of your writing, and if this is d]]></description>
-<pubDate>Tue, 11 Aug 2026 23:48:35 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Microsoft Patch Tuesday for August 2026 — Snort rules and prominent vulnerabilities</title>
@@ -3423,7 +3330,7 @@
 <description><![CDATA[Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
@@ -3434,7 +3341,7 @@
 <description><![CDATA[Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
 <pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
@@ -4210,7 +4117,7 @@
 <description><![CDATA[A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
 <pubDate>Wed, 05 Aug 2026 15:48:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>Apple iOS/macOS</category>
 <category>credential_theft</category>
@@ -4221,7 +4128,7 @@
 <description><![CDATA[A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
 <pubDate>Wed, 05 Aug 2026 15:48:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>Apple iOS/macOS</category>
 <category>credential_theft</category>
@@ -4365,7 +4272,7 @@
 <description><![CDATA[A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 23:46:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -4376,7 +4283,7 @@
 <description><![CDATA[A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
 <pubDate>Tue, 04 Aug 2026 23:46:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
@@ -4953,7 +4860,7 @@
 <description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>APT29</category>
 <category>credential_theft</category>
@@ -4964,7 +4871,7 @@
 <description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>APT29</category>
 <category>credential_theft</category>
@@ -7870,15 +7777,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Build AI Security Agents with Wiz MCP</title>
-<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
-<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
-<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>GPT-5.5-Cyber built a zlib fuzzing lab in a day</title>
 <link>https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/</link>
 <description><![CDATA[We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run. We’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag. The expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber build in a single day what would have taken weeks for a skilled security researcher : harnesses across a dozen entrypoints, sanitizer and variant builds, seeds, and multiple findings currently undergoing<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -7887,6 +7785,15 @@
 <source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
 <category>offensive_vulnerability_research</category>
 <category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Build AI Security Agents with Wiz MCP</title>
+<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
+<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
+<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>/r/netsec&apos;s Q3 2026 Information Security Hiring Thread</title>
@@ -18630,7 +18537,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18639,7 +18546,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18648,7 +18555,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18657,7 +18564,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18667,7 +18574,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18676,7 +18583,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18685,7 +18592,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18694,7 +18601,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18703,7 +18610,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18712,7 +18619,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 20:30:38 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 21:27:49 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
