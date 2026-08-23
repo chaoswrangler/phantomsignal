@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 72 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 23 Aug 2026 14:29:35 +0000</lastBuildDate>
+<lastBuildDate>Sun, 23 Aug 2026 15:28:39 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -1841,6 +1841,15 @@
 <category>CVE-2026-6837</category>
 </item>
 <item>
+<title>Quoting Dario Amodei</title>
+<link>https://simonwillison.net/2026/Aug/16/dario-amodei/</link>
+<description><![CDATA[I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is actually curing cancer . I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criti]]></description>
+<pubDate>Sun, 16 Aug 2026 15:05:36 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Aug/16/dario-amodei/</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>CVE-2026-33696: From a Schema Name to RCE in n8n</title>
 <link>https://www.reddit.com/r/netsec/comments/1vpx6ku/cve202633696_from_a_schema_name_to_rce_in_n8n/</link>
 <description><![CDATA[submitted by /u/TradeGold6317 [link] [comments]<br/><br/><em>Tags: CVE-2026-33696</em>]]></description>
@@ -3381,6 +3390,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/</link>
+<description><![CDATA[Microsoft is named a Leader in the 2026 IDC MarketScape for MDR services. Discover how Microsoft Defender Experts MDR combines AI, threat intelligence, and human expertise. The post Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Mon, 10 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Sherlock Holmes Was the &apos;OG&apos; Social Engineer</title>
 <link>https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer</link>
 <description><![CDATA[The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today&apos;s ethical- and unethical hackers.]]></description>
@@ -3397,6 +3415,28 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/rovoblast-atlassian-rovo-url/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</link>
+<description><![CDATA[Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
+</item>
+<item>
+<title>DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</link>
+<description><![CDATA[Microsoft Threat Intelligence examines DeadLock ransomware, an emerging financially motivated operation distinguished by its use of decentralized infrastructure to support victim communications, negotiations, and data leak operations alongside double extortion tactics used to pressure victims. The post DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
+<pubDate>Mon, 10 Aug 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>ransomware_extortion</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>WordPress Plugins Compromised Without a Single File Change</title>
@@ -4155,6 +4195,37 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/</link>
+<description><![CDATA[Learn why KuppingerCole named Microsoft a Leader in its Leadership Compass: Cloud Native Application Protection Platforms report. The post ​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP) appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Wed, 05 Aug 2026 16:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</link>
+<description><![CDATA[A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 15:48:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>Apple iOS/macOS</category>
+<category>credential_theft</category>
+</item>
+<item>
+<title>From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</link>
+<description><![CDATA[A macOS ClickFix campaign shifted tactics from openly serving infostealer lures to hiding them behind a browser-fingerprinting gate. The change makes malicious infrastructure harder to detect while giving defenders new hunting opportunities. The post From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Apple iOS/macOS · credential_theft</em>]]></description>
+<pubDate>Wed, 05 Aug 2026 15:48:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Apple iOS/macOS</category>
+<category>credential_theft</category>
+</item>
+<item>
 <title>Fake Open VSX Extensions Harvest Private Repo and CI Data</title>
 <link>https://www.infosecurity-magazine.com/news/open-vsx-evil-twin-extensions-git/</link>
 <description><![CDATA[77 counterfeit Open VSX extensions beaconed to one domain, 19 harvesting git and CI identity]]></description>
@@ -4288,6 +4359,37 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>ChainDrop supply chain compromise: Anatomy of a self-propagating worm</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</link>
+<description><![CDATA[A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 23:46:41 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>npm</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>ChainDrop supply chain compromise: Anatomy of a self-propagating worm</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</link>
+<description><![CDATA[A credential-stealing worm hidden in more than 400 compromised npm packages automatically spread across software ecosystems by republishing malicious updates. This analysis details the attack chain, affected environments, and practical guidance for detection, hunting, and remediation. The post ChainDrop supply chain compromise: Anatomy of a self-propagating worm appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 23:46:41 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>npm</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/</link>
+<description><![CDATA[Microsoft expands its Zero Trust for AI strategy to enhance security for AI and DevSecOps environments with new tools and guidance. The post Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Tue, 04 Aug 2026 18:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>A Roadmap for Confronting the Chilling Effects of Censorship, Surveillance and New Technology</title>
 <link>https://citizenlab.ca/a-roadmap-for-confronting-the-chilling-effects-of-censorship-surveillance-and-new-technology/</link>
 <description><![CDATA[Senior research fellow Jon Penney spoke with Tech Policy Press about how rising surveillance is causing people to self-censor. The post A Roadmap for Confronting the Chilling Effects of Censorship, Surveillance and New Technology appeared first on The Citizen Lab .]]></description>
@@ -4295,6 +4397,17 @@
 <guid isPermaLink="true">https://citizenlab.ca/a-roadmap-for-confronting-the-chilling-effects-of-censorship-surveillance-and-new-technology/</guid>
 <source url="https://citizenlab.ca/feed/">Citizen Lab</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>128 Seconds to disruption: Microsoft Defender stops ransomware at QNET</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/</link>
+<description><![CDATA[Microsoft Defender automatically isolated a compromised QNET endpoint in 128 seconds, stopping a multi-stage attack before the payload could persist or spread. The post 128 Seconds to disruption: Microsoft Defender stops ransomware at QNET appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · ransomware_extortion</em>]]></description>
+<pubDate>Tue, 04 Aug 2026 17:54:04 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Microsoft Defender</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Spring 2026 PCI DSS and PCI 3DS compliance packages for AWS now available</title>
@@ -4832,6 +4945,28 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/elastic-security-black-hat-defcon-2026</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</link>
+<description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>APT29</category>
+<category>credential_theft</category>
+</item>
+<item>
+<title>CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</link>
+<description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
+<pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>APT29</category>
+<category>credential_theft</category>
 </item>
 <item>
 <title>HIPAA Security Rule on AWS – Technical Safeguards Implementation and Readiness Guidance</title>
@@ -5659,16 +5794,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
-<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
-<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Coca-Cola Reveals Subsidiary Fairlife Suffered Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/coca-cola-subsidiary-fairlife-data/</link>
 <description><![CDATA[Coca Cola claims data was stolen from its Fairlife business after a recent ransomware attack<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
@@ -5678,6 +5803,16 @@
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
 <category>data_breach</category>
+</item>
+<item>
+<title>Software Supply Chain Attacks: Weaponizing Trusted Developer Workflows</title>
+<link>https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</link>
+<description><![CDATA[While operational supply chain compromise remains a risk, attackers are increasingly targeting the development pipelines that build and ship software.<br/><br/><em>Tags: supply_chain</em>]]></description>
+<pubDate>Tue, 28 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/software-supply-chain-attacks-weaponizing-trusted-developer-workflows</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>IR Trends Q2 2026: Phishing and weaponized remote management tools drive attack chains</title>
@@ -5968,6 +6103,16 @@
 <guid isPermaLink="true">https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/</guid>
 <source url="https://github.blog/category/security/feed/">GitHub Security Lab</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>Email threat landscape: Q2 2026 trends and insights</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/</link>
+<description><![CDATA[In the second quarter of 2026, the continuing effects of Microsoft’s disruption of the Tycoon2FA phishing platform contributed to sustained declines in several major phishing techniques, while threat actors expanded into Teams-based social engineering and employed increasingly automated and multi-stage attack chains. The post Email threat landscape: Q2 2026 trends and insights appeared first on Microsoft Security Blog .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Thu, 23 Jul 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>[tl;dr sec] #338 - OpenAI and Hugging Face, Accelerating EDR Evasion, Google&apos;s Mantis</title>
@@ -6536,6 +6681,16 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>ACR Stealer: Two observed intrusion chains amid increased threat activity</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/</link>
+<description><![CDATA[From late April 2026 to mid-June 2026, Microsoft Defender Experts observed increased ACR Stealer activity across customer environments. These campaigns are successfully using ClickFix lures to steal browser credentials, authentication tokens, and sensitive documents from enterprise environments. The post ACR Stealer: Two observed intrusion chains amid increased threat activity appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender</em>]]></description>
+<pubDate>Thu, 16 Jul 2026 23:12:02 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>Microsoft Defender</category>
+</item>
+<item>
 <title>Anubis ransomware: what you need to know</title>
 <link>https://www.fortra.com/blog/anubis-ransomware</link>
 <description><![CDATA[The Anubis ransomware-as-a-service (RaaS) operation has hit some healthcare organisations hard - but they are not the only ones at risk. Read more in my article on the Fortra blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -6629,6 +6784,17 @@
 <guid isPermaLink="true">https://trustedsec.com/blog/cmmc-is-not-cancelled</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</link>
+<description><![CDATA[Threat actors compromised AsyncAPI packages and weaponized trusted CI/CD workflows to distribute malware through npm. This analysis breaks down the attack chain, payload delivery, and recommended defenses. The post Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · supply_chain</em>]]></description>
+<pubDate>Thu, 16 Jul 2026 01:36:21 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>npm</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>AI Has Enhanced Iran’s Asymmetric Playbook During the 2026 Conflict</title>
@@ -7054,6 +7220,17 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</link>
+<description><![CDATA[GigaWiper, also tracked as BLUERABBIT, is a destructive backdoor that combines multiple wiping and ransomware-like capabilities into a single operational platform. This blog analyzes how the malware incorporates code from several previously separate malware families and provides guidance to help defenders detect and defend against similar threats. The post GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion · web_shell_backdoor</em>]]></description>
+<pubDate>Thu, 09 Jul 2026 15:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>ransomware_extortion</category>
+<category>web_shell_backdoor</category>
+</item>
+<item>
 <title>[tl;dr sec] #336 - Autonomous Vulnerability Hunting, GuardDog 3.0, Are Bug Bounties Cooked?</title>
 <link>https://tldrsec.com/p/tldr-sec-336</link>
 <description><![CDATA[An MCP powered system that&apos;s continuously finding and reproducing vulns, improvements to Datadog&apos;s OSS malware hunting tool, Hakluke muses on the future of bug bounty]]></description>
@@ -7061,6 +7238,15 @@
 <guid isPermaLink="true">https://tldrsec.com/p/tldr-sec-336</guid>
 <source url="https://tldrsec.com/feed.xml">tl;dr sec</source>
 <category>practitioner_analysis</category>
+</item>
+<item>
+<title>Why we cannot wait for better post-quantum signature algorithms</title>
+<link>https://blog.cloudflare.com/ml-dsa-will-have-to-do/</link>
+<description><![CDATA[NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.]]></description>
+<pubDate>Thu, 09 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/ml-dsa-will-have-to-do/</guid>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Conditional Access Misconfigurations Exposed 55 Orgs with MFA On</title>
@@ -7082,15 +7268,6 @@
 <category>detection_response_operations</category>
 <category>CVE-2025-5777</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Why we cannot wait for better post-quantum signature algorithms</title>
-<link>https://blog.cloudflare.com/ml-dsa-will-have-to-do/</link>
-<description><![CDATA[NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.]]></description>
-<pubDate>Thu, 09 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/ml-dsa-will-have-to-do/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Invited to a “job interview” with Netflix or OpenAI? Beware! Your Google password could be at risk</title>
@@ -8315,6 +8492,15 @@
 <category>credential_theft</category>
 </item>
 <item>
+<title>StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/</link>
+<description><![CDATA[On June 24, 2026, Microsoft’s Digital Crimes Unit (DCU) facilitated the takedown, suspension, and blocking of domains that formed the backbone of the StealC and Amadey infrastructure. This blog is a technical breakdown of StealC and Amadey. The post StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Wed, 24 Jun 2026 12:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>How AI Is Rewriting the SecOps Playbook</title>
 <link>https://www.wiz.io/blog/ai-rewriting-secops-playbook</link>
 <description><![CDATA[The threat landscape has changed. Adversaries operate at machine speed, shrinking attacks from days to minutes. Defenders can no longer investigate and respond before damage occurs. In this new era, Security Operations must prioritize speed, automation, and continuous decision-making.]]></description>
@@ -8659,6 +8845,18 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>Anthropic/Claude</category>
+</item>
+<item>
+<title>From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/</link>
+<description><![CDATA[A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat intelligence. The post From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm · Microsoft Defender · supply_chain</em>]]></description>
+<pubDate>Thu, 18 Jun 2026 03:43:04 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>npm</category>
+<category>Microsoft Defender</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Entra Agent ID: Inside a cross-tenant agent compromise</title>
@@ -14182,15 +14380,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>What we know about Iran’s Internet shutdown</title>
-<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
-<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
-<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
-<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>How threat actors are using self-hosted GitHub Actions runners as backdoors</title>
 <link>https://webflow.sysdig.com/blog/how-threat-actors-are-using-self-hosted-github-actions-runners-as-backdoors</link>
 <description><![CDATA[Using Shai-Hulud as a case study, explore how attackers can abuse GitHub&apos;s self-hosted runner infrastructure to establish persistent remote access.<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -14199,6 +14388,15 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>GitHub</category>
+</item>
+<item>
+<title>What we know about Iran’s Internet shutdown</title>
+<link>https://blog.cloudflare.com/iran-protests-internet-shutdown/</link>
+<description><![CDATA[Cloudflare Radar data shows Internet traffic from Iran has effectively dropped to zero since January 8, signaling a complete shutdown in the country and disconnection from the global Internet.]]></description>
+<pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/iran-protests-internet-shutdown/</guid>
+<source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Filtering Noise in (Cyber)Space</title>
@@ -18440,7 +18638,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18449,7 +18647,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18458,7 +18656,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18467,7 +18665,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18477,7 +18675,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18486,7 +18684,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18495,7 +18693,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18504,7 +18702,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18513,7 +18711,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18522,7 +18720,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 23 Aug 2026 14:29:35 +0000</pubDate>
+<pubDate>Sun, 23 Aug 2026 15:28:39 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

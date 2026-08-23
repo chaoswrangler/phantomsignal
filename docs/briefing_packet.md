@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-23T14:29:34.810419+00:00
+- Generated: 2026-08-23T15:28:39.798706+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 72
-- Total items in window: 312
+- Feeds OK: 74
+- Total items in window: 313
 - Total clusters raw: 138
 - Total clusters in packet: 49
 - Dropped low score: 89
@@ -70,61 +70,61 @@
 
 ## Feed status
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: parse_error
-  - Item count: 0
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 25
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -135,6 +135,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -145,71 +170,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 16
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -230,46 +230,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 5
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 5
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -280,36 +285,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 6
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -335,16 +335,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 16
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -360,45 +360,45 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 18
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
+  - Item count: 30
+  - In window count: 17
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
-  - Item count: 0
+  - Item count: 10
+  - In window count: 8
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
-  - Item count: 10
+  - Item count: 0
   - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
@@ -420,26 +420,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 26
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -2091,6 +2091,129 @@ Business Security How QR-code phishing can slip past corporate security measures
   - Link: https://www.welivesecurity.com/en/business-security/qr-code-phishing-slip-past-corporate-security-measures/
   - Summary: Quishing has become a popular alternative to traditional phishing. Here’s how businesses can close the gap.
 
+### Cluster 3e394c1410 — score 10
+
+- Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-21T15:48:28+00:00
+- Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
+```
+
+#### Full body
+
+```
+How a Manufacturer Turned Password Risk Into Measurable Security Action Horizon3 Customer Stories Weak passwords and legacy accounts can look like isolated security issues. The real risk emerges when attackers can use them to create paths deeper into the environment. A North American manufacturer needed a clearer way to show operational leaders how credential weaknesses and legacy account sprawl translated into real exposure across its sites. This customer story explores how the manufacturer used NodeZero® to connect password risk to real attack paths, prioritize remediation, and build a repeatable process for proving that exposure was being reduced. Key Insight Security teams can identify weaknesses, but awareness alone doesn’t always create the urgency needed to drive remediation across distributed operational environments. NodeZero gave the manufacturer concrete evidence of how credential weaknesses could contribute to larger attack paths. The testing revealed: 115 added findings 75 critical findings 75 attack paths across fewer than 120 hosts 31% of users with crackable passwords Accounts using passwords found on the worst 100 password list Clear connections between credential weaknesses, legacy accounts, and broader compromise paths What You’ll Learn How weak passwords can contribute to broader attack paths Why legacy local and domain accounts can increase organizational exposure How password auditing turns policy concerns into evidence of real risk How attack-path validation helps create urgency around remediation Ways to prioritize critical findings based on their impact on concentrated risk How targeted retesting can verify whether remediation actually reduced exposure How security teams can communicate technical risk more effectively to operational leaders Why It Matters Manufacturing environments often combine established systems, local site autonomy, operational requirements, and distributed account management. In those environments, legacy credentials and routine weaknesses can persist because individual findings don’t always communicate their potential business impact. The manufacturer changed that conversation by showing how those weaknesses connected to real attack paths. NodeZero helped the security team move beyond reporting findings toward prioritizing the risks that mattered most, aligning site leaders around remediation, and building a process to verify that fixes were actually reducing exposure. Download the customer story to see how a North American manufacturer used NodeZero to expose password risk, uncover attack paths, and turn security findings into measurable remediation. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
+  - Published: 2026-08-21T15:48:28+00:00
+  - Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
+  - Summary: See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
+
+### Cluster a40b955a81 — score 10
+
+- Title: Building Capacity and Resilience for U.S. Partners
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-19T16:19:49+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain
+- affected_industries: critical_infrastructure, government, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage
+- affected_industries: government, critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
+```
+
+#### Full body
+
+```
+Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Building Capacity and Resilience for U.S. Partners
+  - Published: 2026-08-19T16:19:49+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
+  - Summary: Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
+
+### Cluster ad04e78fc6 — score 10
+
+- Title: CTEM: From Visibility to Measurable Risk Reduction
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-19T16:10:35+00:00
+- Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
+```
+
+#### Full body
+
+```
+CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CTEM: From Visibility to Measurable Risk Reduction
+  - Published: 2026-08-19T16:10:35+00:00
+  - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
+  - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
+
 ### Cluster d5a759a910 — score 10
 
 - Title: UAT-10147 deploys SPECTRE: A cross-platform implant with Linux rootkit and BYOVD capabilities
@@ -2223,129 +2346,6 @@ Describing attacks with crime script analysis By Martin Lee Wednesday, August 19
   - Published: 2026-08-19T10:00:52+00:00
   - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
   - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
-
-### Cluster 3e394c1410 — score 10
-
-- Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-21T15:48:28+00:00
-- Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
-```
-
-#### Full body
-
-```
-How a Manufacturer Turned Password Risk Into Measurable Security Action Horizon3 Customer Stories Weak passwords and legacy accounts can look like isolated security issues. The real risk emerges when attackers can use them to create paths deeper into the environment. A North American manufacturer needed a clearer way to show operational leaders how credential weaknesses and legacy account sprawl translated into real exposure across its sites. This customer story explores how the manufacturer used NodeZero® to connect password risk to real attack paths, prioritize remediation, and build a repeatable process for proving that exposure was being reduced. Key Insight Security teams can identify weaknesses, but awareness alone doesn’t always create the urgency needed to drive remediation across distributed operational environments. NodeZero gave the manufacturer concrete evidence of how credential weaknesses could contribute to larger attack paths. The testing revealed: 115 added findings 75 critical findings 75 attack paths across fewer than 120 hosts 31% of users with crackable passwords Accounts using passwords found on the worst 100 password list Clear connections between credential weaknesses, legacy accounts, and broader compromise paths What You’ll Learn How weak passwords can contribute to broader attack paths Why legacy local and domain accounts can increase organizational exposure How password auditing turns policy concerns into evidence of real risk How attack-path validation helps create urgency around remediation Ways to prioritize critical findings based on their impact on concentrated risk How targeted retesting can verify whether remediation actually reduced exposure How security teams can communicate technical risk more effectively to operational leaders Why It Matters Manufacturing environments often combine established systems, local site autonomy, operational requirements, and distributed account management. In those environments, legacy credentials and routine weaknesses can persist because individual findings don’t always communicate their potential business impact. The manufacturer changed that conversation by showing how those weaknesses connected to real attack paths. NodeZero helped the security team move beyond reporting findings toward prioritizing the risks that mattered most, aligning site leaders around remediation, and building a process to verify that fixes were actually reducing exposure. Download the customer story to see how a North American manufacturer used NodeZero to expose password risk, uncover attack paths, and turn security findings into measurable remediation. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
-  - Published: 2026-08-21T15:48:28+00:00
-  - Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
-  - Summary: See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
-
-### Cluster a40b955a81 — score 10
-
-- Title: Building Capacity and Resilience for U.S. Partners
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-19T16:19:49+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain
-- affected_industries: critical_infrastructure, government, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage
-- affected_industries: government, critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
-```
-
-#### Full body
-
-```
-Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Building Capacity and Resilience for U.S. Partners
-  - Published: 2026-08-19T16:19:49+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
-  - Summary: Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
-
-### Cluster ad04e78fc6 — score 10
-
-- Title: CTEM: From Visibility to Measurable Risk Reduction
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-19T16:10:35+00:00
-- Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
-```
-
-#### Full body
-
-```
-CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CTEM: From Visibility to Measurable Risk Reduction
-  - Published: 2026-08-19T16:10:35+00:00
-  - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
-  - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
 
 ### Cluster 82fb30db67 — score 10
 
