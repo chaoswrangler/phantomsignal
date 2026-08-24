@@ -6,9 +6,37 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 24 Aug 2026 07:09:43 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 08:55:34 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit</title>
+<link>https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html</link>
+<description><![CDATA[Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that&apos;s targeting Windows and Linux web servers globally across the education, media, technology, and gaming sectors. The vast majority of the targets are located in Brazil, Bolivia, China, Canada, and Vietnam. Details of the threat activity came to light following the discovery of an open]]></description>
+<pubDate>Mon, 24 Aug 2026 08:08:31 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>DOUBLECUP&apos;s PNG Payload, (Mon, Aug 24th)</title>
+<link>https://isc.sans.edu/diary/rss/33274</link>
+<description><![CDATA[New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&amp;#;x26;#;39;t use real steganography:]]></description>
+<pubDate>Mon, 24 Aug 2026 07:23:16 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33274</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund</title>
+<link>https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/</link>
+<description><![CDATA[Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5. The post Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund appeared first on SecurityWeek .<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
+<pubDate>Mon, 24 Aug 2026 07:18:58 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+</item>
 <item>
 <title>Fake bank websites play dead to evade security scanners</title>
 <link>https://www.helpnetsecurity.com/2026/08/24/chameleon-seo-poisoning-fake-banking-websites-phishing/</link>
@@ -304,15 +332,15 @@
 <item>
 <title>Critical Isolated-vm Vulnerability Leads to RCE on Host</title>
 <link>https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/</link>
-<description><![CDATA[The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .<br/><br/><em>Tags: Citrix · GitLab · supply_chain · credential_theft · ddos</em>]]></description>
+<description><![CDATA[The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek .<br/><br/><em>Tags: Microsoft Entra · Citrix · GitLab · supply_chain · credential_theft · ddos</em>]]></description>
 <pubDate>Fri, 21 Aug 2026 12:26:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
+<category>Microsoft Entra</category>
 <category>Citrix</category>
 <category>GitLab</category>
 <category>supply_chain</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>CISA orders feds to patch actively exploited TrueConf Server flaws</title>
@@ -458,15 +486,6 @@
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-19490</category>
-</item>
-<item>
-<title>CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities</title>
-<link>https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/</link>
-<description><![CDATA[The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek .]]></description>
-<pubDate>Fri, 21 Aug 2026 07:25:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure</title>
@@ -1746,16 +1765,6 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies</title>
-<link>https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html</link>
-<description><![CDATA[Cybersecurity researchers have flagged a previously undocumented Linux botnet family dubbed Evooo1Bot that derives its core functionality from the Mirai botnet source code and is equipped to turn internet-facing devices into SOCKS proxies. &quot;While the malware reuses the DDoS engine from the publicly leaked Mirai source code, it extends the original framework with numerous capabilities, including<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Mon, 17 Aug 2026 09:29:55 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>ddos</category>
-</item>
-<item>
 <title>SafePal Data Breach Hits Tens of Thousands of Customers</title>
 <link>https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/</link>
 <description><![CDATA[Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach<br/><br/><em>Tags: phishing_social_eng · data_breach</em>]]></description>
@@ -1775,6 +1784,15 @@
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Africa’s Cybersecurity Challenge Is Bigger Than Access to Technology</title>
+<link>https://www.rapid7.com/blog/post/c-starlink-distribution-partnership-africa</link>
+<description><![CDATA[Gopan Sivasankaran is Rapid7&apos;s Regional Director, Middle East &amp; Africa. Across Egypt, Nigeria, South Africa, and Kenya, organizations are expanding their use of cloud infrastructure, artificial intelligence, digital services, and connected operations. But more technology does not automatically create stronger security operations; many security teams are not short on data, but rather on time, context, and specialist capacity. As environments expand, the challenge is no longer finding another security product. It is turning existing technology and new investments into clearer risk decisions, faster investigations, and more consistent response, which requires more than software. Rapid7 and StarLink: From access to operational capability Africa has been an important region for Rapid7 for many years, and we’re proud of the role we’ve played in protecting organizations across the continent. We see significant opportunity ahead and remain committed to investing in our presence, partner ecosys]]></description>
+<pubDate>Mon, 17 Aug 2026 08:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/c-starlink-distribution-partnership-africa</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Infostealers Harvest 1.7 Billion Credentials in Six Months</title>
@@ -5938,15 +5956,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>NVIDIA’s Open Secure AI Alliance Is Missing Some Big Names</title>
-<link>https://www.infosecurity-magazine.com/news/nvidia-open-security-ai-alliance/</link>
-<description><![CDATA[NVIDIA has launched a new Open Secure AI Alliance to build an “open defense stack for agents”]]></description>
-<pubDate>Tue, 28 Jul 2026 09:40:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/nvidia-open-security-ai-alliance/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>AI Directives and AI Strategy Development</title>
 <link>https://trustedsec.com/blog/ai-directives-and-ai-strategy-development</link>
 <description><![CDATA[&lt;p&gt;The hardest part of AI adoption isn&apos;t the tech, it&apos;s the strategy. In this blog, we outline a practical framework covering governance, risk classification, threat modeling, and monitoring before the tools ever go live.&lt;/p&gt;]]></description>
@@ -8913,20 +8922,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
-<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
-<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
-<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>The &apos;vibe coding spectrum&apos; approach to AI-assisted software development</title>
 <link>https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</link>
 <description><![CDATA[Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.]]></description>
 <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways</title>
+<link>https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</link>
+<description><![CDATA[Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.]]></description>
+<pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -18723,7 +18732,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18732,7 +18741,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18741,7 +18750,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18750,7 +18759,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18760,7 +18769,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18769,7 +18778,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18778,7 +18787,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18787,7 +18796,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18796,7 +18805,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18805,7 +18814,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 07:09:43 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 08:55:34 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
