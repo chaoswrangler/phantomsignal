@@ -6,9 +6,22 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 24 Aug 2026 16:46:06 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 17:36:18 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)</title>
+<link>https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520</link>
+<description><![CDATA[<br/><br/><em>Tags: Microsoft SharePoint · CVE-2026-63520 · CVE-2026-55040 · CVE-2019-1257</em>]]></description>
+<pubDate>Mon, 24 Aug 2026 16:18:05 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+<category>Microsoft SharePoint</category>
+<category>CVE-2026-63520</category>
+<category>CVE-2026-55040</category>
+<category>CVE-2019-1257</category>
+</item>
 <item>
 <title>ReliaQuest confirms failed data-theft attack after ShinyHunters breach</title>
 <link>https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/</link>
@@ -43,7 +56,7 @@
 <category>Apple iOS/macOS</category>
 </item>
 <item>
-<title>ToxicPanda Banking Trojan Matures into Enterprise Threat</title>
+<title>ToxicPanda Banking Trojan Matures Into Enterprise Threat</title>
 <link>https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat</link>
 <description><![CDATA[The latest version of the Android malware has new features that expand its global reach and put more than users&apos; financial applications at risk.<br/><br/><em>Tags: Android</em>]]></description>
 <pubDate>Mon, 24 Aug 2026 14:34:59 +0000</pubDate>
@@ -83,6 +96,16 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>The Vulnerability Gap: Why Discovery Is Outrunning Repair</title>
+<link>https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair</link>
+<description><![CDATA[AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.<br/><br/><em>Tags: data_breach</em>]]></description>
+<pubDate>Mon, 24 Aug 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>Suspected Iran-linked attack knocked UK power plant offline for days</title>
@@ -1243,15 +1266,15 @@
 <item>
 <title>Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation</title>
 <link>https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an<br/><br/><em>Tags: Microsoft SharePoint · Apple iOS/macOS · Android · CVE-2026-65400 · CVE-2026-55040 · CVE-2026-59310 · CVE-2026-33824 · ransomware_extortion</em>]]></description>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an<br/><br/><em>Tags: Microsoft SharePoint · Apple iOS/macOS · CVE-2026-65400 · active_exploitation</em>]]></description>
 <pubDate>Wed, 19 Aug 2026 11:01:48 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft SharePoint</category>
 <category>Apple iOS/macOS</category>
-<category>Android</category>
 <category>CVE-2026-65400</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>Over 500 Critical Infrastructure Organizations Hit by Medusa Ransomware</title>
@@ -1707,6 +1730,15 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>Updates to your AWS Sign-In experience</title>
+<link>https://aws.amazon.com/blogs/security/updates-to-your-aws-sign-in-experience/</link>
+<description><![CDATA[Amazon Web Services (AWS) is gradually introducing updates to the AWS Sign-In and sign-up experience to a limited number of customers. We’re sharing these changes so you will know what to expect as we gradually make the updated experience available to more customers. These updates include new options for creating and accessing AWS accounts. To […]]]></description>
+<pubDate>Mon, 17 Aug 2026 17:22:33 +0000</pubDate>
+<guid isPermaLink="true">https://aws.amazon.com/blogs/security/updates-to-your-aws-sign-in-experience/</guid>
+<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>UNISOC Modem Flaw Enables Remote Code Execution via Video Calls</title>
@@ -2589,15 +2621,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>Shadow AI: Risks, Detection, and Security Strategies</title>
-<link>https://orca.security/resources/blog/shadow-ai-security/</link>
-<description><![CDATA[Key Takeaways Shadow AI is any use of artificial intelligence inside an organization that no one approved, registered, or monitored. It covers consumer chat tools, AI features switched on inside approved software, desktop agents installed on laptops, and model endpoints running in unregistered cloud accounts. That definition is settled ground. The subject here is the […]]]></description>
-<pubDate>Thu, 13 Aug 2026 14:23:53 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/shadow-ai-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>vCenter Flaw Exploited Just Five Days After Disclosure</title>
 <link>https://www.infosecurity-magazine.com/news/vcenter-cve-2026-59310-exploited/</link>
 <description><![CDATA[Attackers exploited a critical-severity vCenter flaw five days after Broadcom disclosed it]]></description>
@@ -2683,15 +2706,6 @@
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 <category>Microsoft BitLocker</category>
-</item>
-<item>
-<title>Cloud Infrastructure Security: Risks and Best Practices</title>
-<link>https://orca.security/resources/blog/cloud-infrastructure-security-best-practices-orca-security/</link>
-<description><![CDATA[Key Takeaways Cloud infrastructure security is the practice of protecting the compute, network, identity, storage, and control-plane layer your applications run on. It covers the resources you configure rather than the hardware the provider operates. Where that boundary sits depends on the shared responsibility model and the cloud service you use. Cloud security spans everything […]]]></description>
-<pubDate>Thu, 13 Aug 2026 11:38:53 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/cloud-infrastructure-security-best-practices-orca-security/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Dissecting the JWR phishing framework</title>
@@ -4010,15 +4024,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>The Coordination Gap: How Attackers Are Outpacing Law Enforcement</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement</link>
-<description><![CDATA[The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.]]></description>
-<pubDate>Thu, 06 Aug 2026 21:42:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>What Is Zero Trust Security? A Guide for Businesses</title>
 <link>https://www.huntress.com/blog/what-is-the-zero-trust-security-model</link>
 <description><![CDATA[Zero trust security assumes no user or device is trusted by default. See how Huntress enforces the model with Managed EDR and ITDR for lean IT teams.]]></description>
@@ -4589,9 +4594,9 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Black Hat 2026におけるWiz：AI脅威への備えを推進</title>
+<title>Wiz at Black Hat 2026: Driving AI Threat Readiness</title>
 <link>https://www.wiz.io/blog/wiz-at-black-hat-2026</link>
-<description><![CDATA[可視性を拡大し、対応を加速させることで、組織が AI 時代に備え、セキュリティ チームがマシン スピードで防御できるように支援する新機能を発表します。]]></description>
+<description><![CDATA[Announcing new capabilities that help organizations prepare for the AI era by expanding visibility and accelerating response, so security teams can defend at machine speed.]]></description>
 <pubDate>Tue, 04 Aug 2026 13:06:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-at-black-hat-2026</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -5504,18 +5509,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Critical VMware vCenter Vulnerabilities Allow Authentication Bypass and Remote Code Execution (CVE-2026-59309, CVE-2026-59310)</title>
-<link>https://www.rapid7.com/blog/post/etr-critical-vmware-vcenter-vulnerabilities-allow-authentication-bypass-and-remote-code-execution-cve-2026-59309-cve-2026-59310</link>
-<description><![CDATA[Overview On July 29, 2026, Broadcom published security advisory VMSA-2026-0006 addressing multiple vulnerabilities in several VMWare products. Included in the advisory are two critical remotely exploitable vulnerabilities affecting VMware vCenter Server: CVE-2026-59309 and CVE-2026-59310 . Both vulnerabilities carry CVSSv3.1 base scores of 9.8 and can be exploited by unauthenticated attackers with network access to a vulnerable vCenter Server. CVE CVSSv3.1 Description Summary CVE-2026-59309 9.8 (Critical) An authentication bypass vulnerability in the VMware Directory Service of vCenter that could allow a remote attacker to bypass authentication and gain unauthorized access to the vCenter management plane. CVE-2026-59310 9.8 (Critical) A directory traversal vulnerability in the vCenter Syslog server that could allow an attacker with network access to execute arbitrary code. VMware vCenter Server provides centralized management for VMware vSphere environments, allowing administrators to <br/><br/><em>Tags: VMware · CVE-2026-59309 · CVE-2026-59310</em>]]></description>
-<pubDate>Thu, 30 Jul 2026 10:35:21 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/etr-critical-vmware-vcenter-vulnerabilities-allow-authentication-bypass-and-remote-code-execution-cve-2026-59309-cve-2026-59310</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
-<category>VMware</category>
-<category>CVE-2026-59309</category>
-<category>CVE-2026-59310</category>
-</item>
-<item>
 <title>Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks</title>
 <link>https://unit42.paloaltonetworks.com/autonomous-ai-cyber-attack-campaign/</link>
 <description><![CDATA[Unit 42 details a Chinese speaking threat actor combining autonomous AI scanning across seven vulnerabilities with manual exploitation. Read more. The post Chinese-Speaking Threat Actor Harnesses AI Models for Autonomous Cyberattacks appeared first on Unit 42 .]]></description>
@@ -5967,9 +5960,9 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Atlasのご紹介：WizのAI脆弱性リサーチャー</title>
+<title>Atlas: Wiz&apos;s autonomous AI Agent for vulnerability research, ranked #1 on CyberGym</title>
 <link>https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</link>
-<description><![CDATA[実証可能なリアルなエクスプロイトを用いてすべての検出結果を検証する、脆弱性調査のための自律型AIシステム「Atlas」をWizがどのように構築したかをご覧ください。]]></description>
+<description><![CDATA[See how Wiz built Atlas, an autonomous AI system for vulnerability research that validates every finding with a real, working exploit.]]></description>
 <pubDate>Mon, 27 Jul 2026 14:00:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -6938,9 +6931,9 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>レッドエージェントの視点：B2Bプラットフォームのクレジットシステムを壊したたった1つのブール値</title>
+<title>The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System</title>
 <link>https://www.wiz.io/blog/red-agent-pov-business-logic</link>
-<description><![CDATA[パート3：クライアント側の単一の値をfalseからtrueに変更することで、レッドエージェントがクレジットおよびペイウォールシステムを回避した方法。]]></description>
+<description><![CDATA[Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.]]></description>
 <pubDate>Wed, 15 Jul 2026 13:33:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-business-logic</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -8266,9 +8259,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>レッドエージェントの視点：航空会社のGraphQL APIにおけるオブジェクトレベルの認可の不備の悪用</title>
+<title>The Red Agent POV: Exploiting Broken Object-Level Authorization in an Airline GraphQL API</title>
 <link>https://www.wiz.io/blog/red-agent-pov-bola</link>
-<description><![CDATA[パート2：Red Agentはいかにしてバックエンドリゾルバーをバイパスし、15分で航空会社全体の予約データベースを露出させたか]]></description>
+<description><![CDATA[Part 2: How the Red Agent bypassed backend resolvers to expose an entire airline booking database in fifteen minutes]]></description>
 <pubDate>Mon, 29 Jun 2026 09:31:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-bola</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -8925,22 +8918,24 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Red Agentの視点：いかにして推論を重ねてSSRFへと至ったか</title>
+<title>The Red Agent POV: How it Reasoned its Way to SSRF</title>
 <link>https://www.wiz.io/blog/red-agent-pov-ssrf</link>
-<description><![CDATA[パート1：Red AgentがGCP Cloud Run APIにおいてSSRFからローカルファイル読み取りを可能にする複数ステップの攻撃チェーンをどのように解明したか]]></description>
+<description><![CDATA[Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on a GCP Cloud Run API<br/><br/><em>Tags: Google Cloud</em>]]></description>
 <pubDate>Wed, 17 Jun 2026 14:33:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-ssrf</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
 </item>
 <item>
-<title>レッドエージェント POVシリーズのご紹介</title>
+<title>Introducing the Red Agent POV Series</title>
 <link>https://www.wiz.io/blog/red-agent-pov-series</link>
-<description><![CDATA[当社のAI搭載アタッカーであるRed Agentが、実際の環境で複雑かつ悪用可能なリスクをどのように特定するのか、その裏側をご紹介します]]></description>
+<description><![CDATA[An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, exploitable risks in the wild<br/><br/><em>Tags: active_exploitation</em>]]></description>
 <pubDate>Wed, 17 Jun 2026 14:33:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-series</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>State of the blog, mid-2026</title>
@@ -18655,7 +18650,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18664,7 +18659,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18673,7 +18668,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18682,7 +18677,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18692,7 +18687,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18701,7 +18696,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18710,7 +18705,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18719,7 +18714,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18728,7 +18723,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18737,7 +18732,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 16:46:06 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 17:36:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
