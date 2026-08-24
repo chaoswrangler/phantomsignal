@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-24T14:49:24.166707+00:00
+- Generated: 2026-08-24T15:45:16.121295+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 291
+- Total items in window: 292
 - Total clusters raw: 132
-- Total clusters in packet: 44
-- Dropped low score: 88
+- Total clusters in packet: 45
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,35 +70,35 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
@@ -115,51 +115,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 4
+  - In window count: 10
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 3
+  - Item count: 10
+  - In window count: 4
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,48 +175,33 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 5
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,63 +210,68 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 5
+  - Item count: 30
+  - In window count: 2
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -285,16 +280,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 4
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,16 +305,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 4
+  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,11 +330,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -340,11 +340,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -355,31 +350,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 25
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 18
+  - In window count: 17
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 50
+  - In window count: 25
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -395,6 +395,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -405,13 +410,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,16 +430,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -439,7 +439,7 @@
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 25
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Android
 - Theme key: android
 - Cluster count: 6
-- Article count: 13
+- Article count: 15
 - Cohesion: 0.261
 - Shared strong signals: Android
 - Member CVEs: (none)
@@ -494,10 +494,11 @@
   - https://securelist.com/android-head-unit-malware/121106/
   - https://risky.biz/RBNEWS604/
   - https://www.helpnetsecurity.com/2026/08/24/android-malware-car-head-unit-badbox/
+  - https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
   - https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
-  - https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems
   - https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://www.infosecurity-magazine.com/news/fake-codex-download-google-sites/
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
 
@@ -505,7 +506,7 @@
 - Anchor signal: Microsoft Entra
 - Theme key: microsoft-entra
 - Cluster count: 4
-- Article count: 11
+- Article count: 10
 - Cohesion: 0.238
 - Shared strong signals: Microsoft Entra
 - Member CVEs: (none)
@@ -521,7 +522,6 @@
   - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
   - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
@@ -570,7 +570,7 @@
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 3
-- Article count: 4
+- Article count: 5
 - Cohesion: 0.242
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -582,6 +582,7 @@
 - Links:
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://www.infosecurity-magazine.com/news/fake-codex-download-google-sites/
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
 
 ### CVE-2026-73570 exploitation activity
@@ -663,7 +664,7 @@
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
 - Cluster count: 2
-- Article count: 3
+- Article count: 4
 - Cohesion: 0.211
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
@@ -677,6 +678,7 @@
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://www.infosecurity-magazine.com/news/fake-codex-download-google-sites/
 
 ### SolarWinds vulnerability activity
 - Anchor signal: SolarWinds
@@ -748,7 +750,7 @@
 - Pair: CVE-2026-19478 + GitLab (cluster 7b38f69250, first observation: True)
 - Pair: CVE-2026-20316 + GitLab (cluster 7b38f69250, first observation: True)
 
-### Drift (3)
+### Drift (4)
 - **Medusa** (cluster 91f1063cec)
   - New industries: education
   - New products: Microsoft 365, Microsoft Entra, Microsoft Windows
@@ -764,14 +766,21 @@
   - New products: Fortinet
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, npm
+- **ShinyHunters** (cluster 9c9e5e2cfe)
+  - New industries: (none)
+  - New products: Okta
+  - Prior top industries: education, financial_services, government
+  - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 
-### Persistence (12)
+### Persistence (14)
+- actor_attribution: ShinyHunters (weeks observed: 12, cluster 9c9e5e2cfe)
 - actor_attribution: Cl0p (weeks observed: 8, cluster fb556ca51b)
 - actor_attribution: APT29 (weeks observed: 5, cluster d5c3fd8d4d)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 7b38f69250)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster 7b38f69250)
 - actor_attribution: Lazarus (weeks observed: 4, cluster 9101d8d7ac)
 - cve_ids: CVE-2026-59310 (weeks observed: 4, cluster bd5d2abe67)
+- cve_ids: CVE-2026-19490 (weeks observed: 3, cluster 7f1247614d)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 7b38f69250)
 - cve_ids: CVE-2025-66376 (weeks observed: 3, cluster 6117c1d701)
 - actor_attribution: APT28 (weeks observed: 3, cluster 5968a0ef70)
@@ -841,8 +850,8 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-19490: Critical Vulnerability
 - Published: 2026-08-21T12:20:33+00:00
 - Link: https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 5
+- Member count: 5
+- Corroborating source count: 4
 - Strong signals: Azure, CVE-2026-69836, Microsoft 365, Microsoft Entra
 
 #### Cluster taxonomy (union across members)
@@ -875,7 +884,7 @@ Microsoft has patched a critical remote code execution vulnerability (CVE-2026-6
 Sinisa Markovic , Managing Editor, Help Net Security August 21, 2026 Share Microsoft patches critical Entra ID vulnerability (CVE-2026-69836) Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, initially reported to have been exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to Microsoft 365, Azure, and connected third-party apps. Tracked as CVE-2026-69836, with the maximum CVSS score of 10.0, the vulnerability was discovered by Microsoft Principal Security Engineer Robert Fitzpatrick and could allow an unauthenticated attacker to remotely execute code in Microsoft’s cloud identity service. “Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network,” Microsoft’s advisory says. The good news for administrators is that this CVE requires no customer action. “This vulnerability has already been fully mitigated by Microsoft. There is no action for users of this service to take. The purpose of this CVE is to provide further transparency,” the company noted . UPDATE (August 24, 2026, 02:15 a.m. ET): When Microsoft published the CVE-2026-69836 advisory, it stated that the bug was exploited. Since then, the company changed the exploitation status to “no” and confirmed to Help Net Security that the vulnerability was not exploited in the wild. This article and its headline have been modified to reflect this update. “We identified and addressed this issue with a fix and released CVE-2026-69836 for greater transparency. There are no additional actions customers need to take,” a company spokesperson stated. More about CVE Microsoft Entra ID vulnerability vulnerability disclosure Share
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Microsoft patches critical Entra ID vulnerability (CVE-2026-69836)
@@ -897,11 +906,6 @@ Sinisa Markovic , Managing Editor, Help Net Security August 21, 2026 Share Micro
   - Published: 2026-08-18T16:24:13+00:00
   - Link: https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - Summary: Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Microsoft patches max severity code execution, privilege escalation flaws
-  - Published: 2026-08-21T11:04:10+00:00
-  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
-  - Summary: Microsoft has patched multiple maximum-severity vulnerabilities in Entra ID, Azure Arc, and Exchange Online that allowed attackers to gain remote code execution and escalate privileges. [...]
 
 ### Cluster 7b38f69250 — score 29
 
@@ -1309,7 +1313,7 @@ Wiz Pricing Get a demo Get a demo On August 20, 2026, malicious versions of thre
 - Published: 2026-08-21T08:00:29+00:00
 - Link: https://securelist.com/android-head-unit-malware/121106/
 - Fetch status: ok
-- Member count: 7
+- Member count: 8
 - Corroborating source count: 6
 - Strong signals: Android
 
@@ -1355,16 +1359,16 @@ Table of Contents Head unit firmware overview The TWCore app Stage 1: the JarSer
   - Published: 2026-08-24T09:51:16+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/24/android-malware-car-head-unit-badbox/
   - Summary: A newly discovered Android malware, distributed through the built-in updaters in affected Android-based car head units, turns infected devices into ad-fraud tools and nodes in a proxy botnet, Kaspersky has found. According to the researchers, it’s the first documented case of malware found on a car head unit with an infection chain specific to that type of device. “It’s worth noting that head units often include SIM card slots and can connect to the internet, … More → The post Android car head units infected with proxy botnet malware through built-in software updaters appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: ToxicPanda Banking Trojan Matures into Enterprise Threat
+  - Published: 2026-08-24T14:34:59+00:00
+  - Link: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
+  - Summary: The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: ToxicPanda Android malware uses VPN permissions to block Google Play
   - Published: 2026-08-23T14:23:46+00:00
   - Link: https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
   - Summary: The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Video Call Exploit Chains Two Flaws in Unisoc Modems
-  - Published: 2026-08-17T21:37:23+00:00
-  - Link: https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems
-  - Summary: Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices
   - Published: 2026-08-20T11:26:08+00:00
@@ -1468,55 +1472,6 @@ CISA orders feds to patch actively exploited TrueConf Server flaws By Sergiu Gat
   - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]
 
-### Cluster bd5d2abe67 — score 15
-
-- Title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-19T11:01:48+00:00
-- Link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: Apple iOS/macOS, CVE-2026-65400, Microsoft SharePoint
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, ransomware_extortion, web_shell_backdoor
-- affected_industries: financial_services, government
-- affected_products: Android, Apple iOS/macOS, Microsoft SharePoint
-- cve_ids: CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, CVE-2026-65400
-- urgency_signals: actively_exploited, critical_cvss, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage, web_shell_backdoor, active_exploitation
-- affected_industries: financial_services, government
-- affected_products: Microsoft SharePoint, Apple iOS/macOS, Android
-- cve_ids: CVE-2026-65400, CVE-2026-55040, CVE-2026-59310, CVE-2026-33824
-- urgency_signals: actively_exploited, poc_available, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an
-```
-
-#### Full body
-
-```
-Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation  Ravie Lakshmanan  Aug 19, 2026 Vulnerability / Ransomware The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials. CVE-2026-55040 (CVSS score: 9.1) - A weak authentication vulnerability impacting Microsoft SharePoint that could allow an unauthorized attacker to bypass a security feature over a network. CVE-2026-59310 (CVSS score: 9.8) - A path traversal vulnerability in Broadcom VMware vCenter that could allow a threat actor with network access to vCenter to execute arbitrary code. CVE-2026-33824 (CVSS score: 9.8) - A double free vulnerability in Microsoft Internet Key Exchange (IKE) Service Extensions that could allow an unauthorized attacker to execute code over a network. Although the vulnerabilities have since been patched by the respective vendors, they have come under active exploitation, according to multiple public reports. While the Apple macOS flaw has been abused to deliver a Monero cryptocurrency miner, the SharePoint vulnerability has been exploited by unknown actors following the release of a proof-of-concept (PoC) code. The vulnerability affecting VMware vCenter is assessed to have been exploited by a suspected China-nexus advanced persistent threat (APT) actor to deploy a backdoor along with reverse_ssh binaries for persistent access to compromised instances. In at least one case, the campaign has led to the deployment of a Babuk-derived ransomware. In all, the activity has compromised 361 unique victim IP addresses across 47 countries, with most of the infections concentrated in Germany (55), the U.S. (41), Turkey (38), Iran (26), and France (25). CVE-2026-33824, per Palo Alto Networks Unit 42, has been observed being exploited by another Chinese-speaking threat actor, who is said to have simultaneously launched an AI-enabled autonomous hacking campaign using DeepSeek and conducted manual operations using known vulnerabilities, including the Microsoft Internet Key Exchange flaw. Federal Civilian Executive Branch (FCEB) agencies have until August 21, 2026, to update vulnerable systems to the latest version and adhere to BOD 26-04 patching guidelines for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Apple , endpoint security , exploitation , Malware , Microsoft , Nation-State , network security , ransomware , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Critical GitLab
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
-  - Published: 2026-08-19T11:01:48+00:00
-  - Link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an
-
 ### Cluster d5c7b7b7bc — score 15
 
 - Title: Gunra ransomware: what you need to know
@@ -1555,6 +1510,60 @@ The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs an
   - Published: 2026-08-24T12:52:37+00:00
   - Link: https://www.fortra.com/blog/gunra-ransomware-what-you-need-know
   - Summary: The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more. Read more in my article on the Fortra blog.
+
+### Cluster bd5d2abe67 — score 15
+
+- Title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-19T11:01:48+00:00
+- Link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: Apple iOS/macOS, CVE-2026-65400, Microsoft SharePoint
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services, government
+- affected_products: Android, Apple iOS/macOS, Microsoft SharePoint
+- cve_ids: CVE-2026-33824, CVE-2026-55040, CVE-2026-59310, CVE-2026-65400
+- urgency_signals: actively_exploited, critical_cvss, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, apt_espionage, web_shell_backdoor, active_exploitation
+- affected_industries: financial_services, government
+- affected_products: Microsoft SharePoint, Apple iOS/macOS, Android
+- cve_ids: CVE-2026-65400, CVE-2026-55040, CVE-2026-59310, CVE-2026-33824
+- urgency_signals: actively_exploited, poc_available, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an
+```
+
+#### Full body
+
+```
+Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation  Ravie Lakshmanan  Aug 19, 2026 Vulnerability / Ransomware The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities ( KEV ) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials. CVE-2026-55040 (CVSS score: 9.1) - A weak authentication vulnerability impacting Microsoft SharePoint that could allow an unauthorized attacker to bypass a security feature over a network. CVE-2026-59310 (CVSS score: 9.8) - A path traversal vulnerability in Broadcom VMware vCenter that could allow a threat actor with network access to vCenter to execute arbitrary code. CVE-2026-33824 (CVSS score: 9.8) - A double free vulnerability in Microsoft Internet Key Exchange (IKE) Service Extensions that could allow an unauthorized attacker to execute code over a network. Although the vulnerabilities have since been patched by the respective vendors, they have come under active exploitation, according to multiple public reports. While the Apple macOS flaw has been abused to deliver a Monero cryptocurrency miner, the SharePoint vulnerability has been exploited by unknown actors following the release of a proof-of-concept (PoC) code. The vulnerability affecting VMware vCenter is assessed to have been exploited by a suspected China-nexus advanced persistent threat (APT) actor to deploy a backdoor along with reverse_ssh binaries for persistent access to compromised instances. In at least one case, the campaign has led to the deployment of a Babuk-derived ransomware. In all, the activity has compromised 361 unique victim IP addresses across 47 countries, with most of the infections concentrated in Germany (55), the U.S. (41), Turkey (38), Iran (26), and France (25). CVE-2026-33824, per Palo Alto Networks Unit 42, has been observed being exploited by another Chinese-speaking threat actor, who is said to have simultaneously launched an AI-enabled autonomous hacking campaign using DeepSeek and conducted manual operations using known vulnerabilities, including the Microsoft Internet Key Exchange flaw. Federal Civilian Executive Branch (FCEB) agencies have until August 21, 2026, to update vulnerable systems to the latest version and adhere to BOD 26-04 patching guidelines for optimal protection. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Apple , endpoint security , exploitation , Malware , Microsoft , Nation-State , network security , ransomware , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Critical GitLab
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
+  - Published: 2026-08-19T11:01:48+00:00
+  - Link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Fake Codex Download Uses Google Sites to Deliver macOS Malware
+  - Published: 2026-08-24T15:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/fake-codex-download-google-sites/
+  - Summary: Fake Codex pages used Google Sites, sponsored search and ClickFix to target Mac users
 
 ### Cluster af39cfecb0 — score 13
 
@@ -2536,6 +2545,51 @@ Fake AI, real malware: Attackers impersonating AI brands A year of MDR casework 
   - Published: 2026-08-19T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - Summary: <p>A year of MDR casework shows attackers repeatedly exploiting demand for AI tools</p> Categories: Threat Research Tags: AI, malvertising, infostealer, Sophos X-Ops
+
+### Cluster 9c9e5e2cfe — score 8
+
+- Title: ReliaQuest confirms failed data-theft attack after ShinyHunters breach
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-24T15:17:16+00:00
+- Link: https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: ShinyHunters
+- affected_products: Okta
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- actor_attribution: ShinyHunters
+- affected_products: Okta
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]
+```
+
+#### Full body
+
+```
+ReliaQuest confirms failed data-theft attack after ShinyHunters breach By Bill Toulas August 24, 2026 11:17 AM 0 Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. In a statement over the weekend, ReliaQuest said that an attacker called multiple employees and tried to trick them into accessing "a fake ReliaQuest single sign-on (SSO) page behind a content delivery network." Last week, ReliaQuest's Threat Research team shared in a now-deleted post , that the ShinyHunters extortion gang was registering .claims domains to impersonate company's help desks and IT teams. "ReliaQuest is tracking a widespread ShinyHunters campaign using domains that follow the company[.]claims pattern. These domains incorporate the targeted organization’s name or abbreviation under the .claims TLD," read the company's post on X. Yesterday, a newly-created X account believed to be linked to the threat actors replied to the post, stating "Who's hunting who ?," sharing screenshots of what appeared to be a compromised Okta SSO account for a ReliaQuest employee. Soon after, ShinyHunters published the same screenshots in a new entry on their data data leak site. Both ReliaQuest's and the alleged threat actor's posts were later taken down from X. According to the company, the threat actor hosted the phising page on a "lookalike domain," which BleepingComputer found to be reliaquest.claims , and used the name of a real security employee during the vishing attempts. One of the targeted employees fell for the attacker's ruse, entered their credentials on the fake SSO page, and approved an MFA push notification, giving the attacker temporary, view-only access to ReliaQuest's identity dashboard. However, device-trust controls successfully blocked subsequent attempts to access applications through the dashboard, according to the company. “The extent of the access was view-only. No ReliaQuest applications or systems were accessed, and no customer data was ever touched,” ReliaQuest says . “The threat actor continued with attempts to access these applications from the dashboard but was consistently denied due to the security controls in place.” The cybersecurity firm says it terminated the attacker’s sessions, revoked the exposed password, and reset all authentication tokens. The ensuing investigation found no evidence of access to other accounts, apps, or data, and no signs that the actor established persistence on ReliaQuest’s systems. The firm audited its control fidelity, device trust, and on-network access since August 21 and identified no suspicious activity. ShinyHunters claims the attack ReliaQuest’s statement comes shortly after the infamous data extortion group ‘ShinyHunters’ claimed an attack on the company. In a new post on its extortion portal, ShinyHunters references ReliaQuest’s previous reporting on the threat group, saying "this time the post is about you , not us." ReliaQuest listed on the ShinyHunters extortion page Source: BleepingComputer The threat actors published evidence of access, showing that they had successfully breached ReliaQuest’s Okta SSO account. We asked ReliaQuest if the disclosed incident is linked to ShinyHunters, but we have not received any additional information yet. However, ShinyHunters told BleepingComputer that their access was view only and did not reach any applications, systems, or customer data. "No additional identities were accessed, no business applications were reached, no customer or ReliaQuest data was accessed beyond the user's login credentials, and no persistence was established," the threat actor told us. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 33
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: ReliaQuest confirms failed data-theft attack after ShinyHunters breach
+  - Published: 2026-08-24T15:17:16+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
+  - Summary: Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]
 
 ### Cluster a9dbfa05a2 — score 8
 
