@@ -4,11 +4,33 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 72 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 24 Aug 2026 03:10:16 +0000</lastBuildDate>
+<lastBuildDate>Mon, 24 Aug 2026 04:52:42 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Risky Bulletin: Expired credit cards can be used for malicious transactions</title>
+<link>https://risky.biz/RBNEWS604/</link>
+<description><![CDATA[Expired credit cards can be used for malicious transactions, Iranian hackers shut down a UK power plant, the Lazarus Group hacks South Korea’s Presidential Office, and an Android malware strain is infecting smart cars.<br/><br/><em>Tags: Android · Lazarus</em>]]></description>
+<pubDate>Mon, 24 Aug 2026 04:31:50 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS604/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+<category>Android</category>
+<category>Lazarus</category>
+</item>
+<item>
+<title>Ransomware attackers are zeroing in on mid-market companies</title>
+<link>https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/</link>
+<description><![CDATA[Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are … More → The post Ransomware attackers are zeroing in on mid-market companies appeared first on Help Net Security .<br/><br/><em>Tags: ransomware_extortion · supply_chain</em>]]></description>
+<pubDate>Mon, 24 Aug 2026 04:30:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+<category>supply_chain</category>
+</item>
 <item>
 <title>Sponsored: Passkeys won’t stop authorisation phishing</title>
 <link>https://risky.biz/RBNEWSSI141/</link>
@@ -785,16 +807,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Android</category>
-</item>
-<item>
-<title>Corero brings cloud-based AI threat analysis to SmartWall ONE</title>
-<link>https://www.helpnetsecurity.com/2026/08/20/corero-ai-cloud-assist/</link>
-<description><![CDATA[Corero Network Security has announced AI-Augmented Cloud-Assist for SmartWall ONE, extending its automated DDoS protection with cloud-delivered AI analysis, threat intelligence, and policy optimization. As cybercriminals increasingly leverage AI to develop and evolve attack campaigns, defenders must respond with equal speed and precision. Cloud-based AI analysis enables Corero’s DoS/DDoS solutions to better identify emerging attack behaviors and rapidly generate the most effective new protection policies. The recommendations can be applied manually or automatically in seconds. … More → The post Corero brings cloud-based AI threat analysis to SmartWall ONE appeared first on Help Net Security .<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Thu, 20 Aug 2026 11:22:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/20/corero-ai-cloud-assist/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>ddos</category>
 </item>
 <item>
 <title>NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands</title>
@@ -1806,6 +1818,105 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>[dos] NanaZip 6.5 - DoS</title>
+<link>https://www.exploit-db.com/exploits/52652</link>
+<description><![CDATA[NanaZip 6.5 - DoS]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52652</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] flyto_core 2.26.7 - Server-Side Request Forgery</title>
+<link>https://www.exploit-db.com/exploits/52651</link>
+<description><![CDATA[flyto_core 2.26.7 - Server-Side Request Forgery]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52651</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Probo 0.222.2 - IDOR</title>
+<link>https://www.exploit-db.com/exploits/52650</link>
+<description><![CDATA[Probo 0.222.2 - IDOR]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52650</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] webpack_devserver 5.2.5 - CSRF</title>
+<link>https://www.exploit-db.com/exploits/52649</link>
+<description><![CDATA[webpack_devserver 5.2.5 - CSRF]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52649</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] phpSysInfo 3.4.5 - IP Allowlist Bypass</title>
+<link>https://www.exploit-db.com/exploits/52648</link>
+<description><![CDATA[phpSysInfo 3.4.5 - IP Allowlist Bypass]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52648</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[dos] Nmap 7.99 - Extension Header Integer Underflow</title>
+<link>https://www.exploit-db.com/exploits/52647</link>
+<description><![CDATA[Nmap 7.99 - Extension Header Integer Underflow]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52647</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Duplicati 2.2.0.3 - JWT Signing Key Leak</title>
+<link>https://www.exploit-db.com/exploits/52646</link>
+<description><![CDATA[Duplicati 2.2.0.3 - JWT Signing Key Leak]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52646</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Joomla JCE_2.9.15 - Remote Code Execution</title>
+<link>https://www.exploit-db.com/exploits/52645</link>
+<description><![CDATA[Joomla JCE_2.9.15 - Remote Code Execution]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52645</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] ipTIME A3004T - Remote Code Execution</title>
+<link>https://www.exploit-db.com/exploits/52644</link>
+<description><![CDATA[ipTIME A3004T - Remote Code Execution]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52644</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] D-Link DNS_340L - OS Command Injection</title>
+<link>https://www.exploit-db.com/exploits/52643</link>
+<description><![CDATA[D-Link DNS_340L - OS Command Injection]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52643</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload</title>
+<link>https://www.exploit-db.com/exploits/52642</link>
+<description><![CDATA[WooCommerce 1.5.0 - Unauthenticated Arbitrary File Upload]]></description>
+<pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52642</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
 <title>2608-patch-tuesday</title>
 <link>https://www.sophos.com/en-us/blog/2608-patch-tuesday</link>
 <description><![CDATA[&lt;p&gt;421 CVEs, a relatively small set of Edge patches, and two spicy stragglers&lt;/p&gt; Categories: Threat Research Tags: Patch Tuesday, MICROSOFT PATCH TUESDAY]]></description>
@@ -2278,6 +2389,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Introducing Gemini 3.7 Flash</title>
+<link>https://deepmind.google/blog/introducing-gemini-3-7-flash/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 13 Aug 2026 17:04:18 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-gemini-3-7-flash/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Using BigQuery Graphs with measures for trusted agentic workloads</title>
 <link>https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/</link>
 <description><![CDATA[When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping. This allows your agents to reason across complex dependencies captured in graphs with precision of measures. Why relationships matter Traditional data structures are blind to multi-hop business context, causing AI agents to make incorrect operational decisions: The concrete problem: If a retailer has an agent who is asked why winter jacket sales dropped 12% in Seattle, it can query flat tables to report the what (the 12% dip). But it fails at the why because it c]]></description>
@@ -2685,6 +2805,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>Putting sign language AI into users’ hands</title>
+<link>https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/</link>
+<description><![CDATA[Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.]]></description>
+<pubDate>Wed, 12 Aug 2026 14:01:59 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition</link>
 <description><![CDATA[Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -2735,15 +2864,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
-<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
-<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
-<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Akira Hits Safe Mode: Ransomware Rebooting Around EDR</title>
 <link>https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr</link>
 <description><![CDATA[An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -2752,6 +2872,15 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
+<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
+<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
+<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Walmart Leaders Transform Security Operations Without Going Bananas</title>
@@ -3164,13 +3293,68 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>13 million tool calls: auditing every AI coding agent action with Elastic Agent</title>
-<link>https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</link>
-<description><![CDATA[Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.]]></description>
+<title>[webapps] Apache Gravitino 1.2.1 - SSRF</title>
+<link>https://www.exploit-db.com/exploits/52641</link>
+<description><![CDATA[Apache Gravitino 1.2.1 - SSRF]]></description>
 <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52641</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Blocksy Companion 2.1.46 - RCE</title>
+<link>https://www.exploit-db.com/exploits/52640</link>
+<description><![CDATA[Blocksy Companion 2.1.46 - RCE]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52640</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] PraisonAI praisonaiagents 1.6.77 - Remote Code Execution</title>
+<link>https://www.exploit-db.com/exploits/52639</link>
+<description><![CDATA[PraisonAI praisonaiagents 1.6.77 - Remote Code Execution]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52639</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] mcp-server-kubernetes 3.8.x - Argument Injection</title>
+<link>https://www.exploit-db.com/exploits/52638</link>
+<description><![CDATA[mcp-server-kubernetes 3.8.x - Argument Injection<br/><br/><em>Tags: Kubernetes</em>]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52638</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>Kubernetes</category>
+</item>
+<item>
+<title>[dos] LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting</title>
+<link>https://www.exploit-db.com/exploits/52637</link>
+<description><![CDATA[LuCI DHCPv6 - Lease Hostname Stored Cross-Site Scripting]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52637</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF</title>
+<link>https://www.exploit-db.com/exploits/52636</link>
+<description><![CDATA[Planyo_Online_Reservation_System 3.0 - Arbitrary File Read via SSRF]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52636</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion</title>
+<link>https://www.exploit-db.com/exploits/52635</link>
+<description><![CDATA[Ray 2.56.0 - Directory Traversal &amp; Local File Inclusion]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52635</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>deno-case-studies</title>
@@ -3191,6 +3375,15 @@
 <category>detection_response_operations</category>
 <category>WordPress</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>13 million tool calls: auditing every AI coding agent action with Elastic Agent</title>
+<link>https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</link>
+<description><![CDATA[Cursor hooks and Elastic Agent capture every tool call, shell command, file read and MCP request as structured events you can hunt with ES|QL.]]></description>
+<pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Vulnerability response in the AI-discovery era</title>
@@ -3484,6 +3677,42 @@
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
 <category>OpenAI/ChatGPT</category>
+</item>
+<item>
+<title>[webapps] OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution</title>
+<link>https://www.exploit-db.com/exploits/52633</link>
+<description><![CDATA[OrkesConductor 3.30.2 - Unauthenticated Remote Code Execution]]></description>
+<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52633</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[local] Microsoft Edge 150.0.4078.48 - RCE</title>
+<link>https://www.exploit-db.com/exploits/52632</link>
+<description><![CDATA[Microsoft Edge 150.0.4078.48 - RCE]]></description>
+<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52632</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] CorgetGpsDget 2_3.2 - OS Command Injection</title>
+<link>https://www.exploit-db.com/exploits/52631</link>
+<description><![CDATA[CorgetGpsDget 2_3.2 - OS Command Injection]]></description>
+<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52631</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Joomla 2.9.99.4 - Unauthenticated Remote Code Execution</title>
+<link>https://www.exploit-db.com/exploits/52630</link>
+<description><![CDATA[Joomla 2.9.99.4 - Unauthenticated Remote Code Execution]]></description>
+<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52630</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Sponsored: Island&apos;s expansion to SASE and enterprise AI</title>
@@ -3838,6 +4067,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>WeatherNext: AI model achieves breakthrough in forecasting cyclones</title>
+<link>https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 06 Aug 2026 15:06:15 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Penlink Plugs Into Trusted Blockchain Data With Chainalysis</title>
 <link>https://www.chainalysis.com/blog/penlink-integration-blockchain-intelligence-august-2026/</link>
 <description><![CDATA[Penlink, a leader in AI-powered digital intelligence, and Chainalysis, the blockchain data platform, this week announced a strategic partnership and… The post Penlink Plugs Into Trusted Blockchain Data With Chainalysis appeared first on Chainalysis .]]></description>
@@ -3866,6 +4104,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam</title>
+<link>https://www.huntress.com/blog/mac-crypto-draining-malware</link>
+<description><![CDATA[A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.]]></description>
+<pubDate>Thu, 06 Aug 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/mac-crypto-draining-malware</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/</link>
 <description><![CDATA[Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multiple extortion fronts including Redact, Pink, Helix, and Falcon. UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT helpdesk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via their personal mobile devices. These calls lure victims to spoofed login portals where Adversary-in-the-Middle (AiTM) infrastructure intercepts credentials and multi-factor authentication (MFA) tokens. Once session persistence is established, the actors deploy automated scripts for data exfiltration from ente<br/><br/><em>Tags: UNC6671 · ransomware_extortion · phishing_social_eng · mfa_bypass</em>]]></description>
@@ -3877,15 +4124,6 @@
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
 <category>mfa_bypass</category>
-</item>
-<item>
-<title>Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam</title>
-<link>https://www.huntress.com/blog/mac-crypto-draining-malware</link>
-<description><![CDATA[A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.]]></description>
-<pubDate>Thu, 06 Aug 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/mac-crypto-draining-malware</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Meta Joins OpenAI and Anthropic in Reporting AI Exploit Incident</title>
@@ -4497,15 +4735,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
-<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
-<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
-<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>2608-volatility-interlock</title>
 <link>https://www.sophos.com/en-us/blog/2608-volatility-interlock</link>
 <description><![CDATA[&lt;p&gt;Multiple legitimate DFIR tools abused by GOLD EMBRACE double-extortion specialists&lt;/p&gt; Categories: Threat Research<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -4524,6 +4753,15 @@
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
 <category>detection_response_operations</category>
 <category>CVE-2026-18577</category>
+</item>
+<item>
+<title>Agents vs. agents: how we triage HackerOne reports for $2 each, 85% as well as a human</title>
+<link>https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</link>
+<description><![CDATA[LLMs made it cheap to flood bug bounty programs with submissions. Here&apos;s how Elastic built an AI triage agent that matches human decisions 85% of the time, including the architecture, threat model and calibration against 3,300 real reports]]></description>
+<pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-vulnerability-triage-bug-bounty-hackerone</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Worm compromises hundreds of popular npm packages</title>
@@ -5103,6 +5341,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration</title>
+<link>https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/</link>
+<description><![CDATA[Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.]]></description>
+<pubDate>Thu, 30 Jul 2026 15:00:59 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Huntress hits an inflection point</title>
 <link>https://www.huntress.com/blog/huntress-inflection-point-future-momentum</link>
 <description><![CDATA[CEO Kyle Hanslovan outlines how Huntress is evolving its research-led strategy, adopting AI with human oversight, and expanding its partner network to protect businesses against rapid, automated cyberattacks.]]></description>
@@ -5148,6 +5395,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.</title>
+<link>https://www.huntress.com/blog/business-reflection-250m-arr</link>
+<description><![CDATA[Hitting $250M ARR is a milestone, but it wasn&apos;t the goal. CEO Kyle Hanslovan reflects on Huntress&apos; mission to protect the 99% and why staying true to it remains his top priority.&quot;]]></description>
+<pubDate>Thu, 30 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/business-reflection-250m-arr</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Batten Down Your Packages: Mitigation Guidance for Supply Chain Compromise</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/mitigation-guidance-for-supply-chain-compromise/</link>
 <description><![CDATA[Written by: Kelli Vanderlee, Stuart Carrera For years, the cybersecurity industry&apos;s understanding of software supply chain compromise has been anchored by a few watershed events, including Russian cyber espionage actor ICE RELIC’s (formerly known as APT29) 2020 compromise of SolarWinds and North Korean cyber espionage actor UNC4736&apos;s 2023 compromise of 3CX . However, Google Threat Intelligence Group (GTIG) has been tracking growth in threat activity targeting open source software repositories to conduct supply chain compromises over the past several years. A series of large scale open source software supply chain compromise campaigns in 2025 and the first half of 2026 underscore how important it is that organizations implement defensive strategies that directly address this threat vector. In this blog post, GTIG and Mandiant discuss trends we have observed in threat actor use of software supply chain compromise, and provide mitigation and hardening recommendations that incorporate insi<br/><br/><em>Tags: SolarWinds · APT29 · UNC4736 · supply_chain · apt_espionage</em>]]></description>
@@ -5159,15 +5415,6 @@
 <category>APT29</category>
 <category>UNC4736</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.</title>
-<link>https://www.huntress.com/blog/business-reflection-250m-arr</link>
-<description><![CDATA[Hitting $250M ARR is a milestone, but it wasn&apos;t the goal. CEO Kyle Hanslovan reflects on Huntress&apos; mission to protect the 99% and why staying true to it remains his top priority.&quot;]]></description>
-<pubDate>Thu, 30 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/business-reflection-250m-arr</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>AiTM Phishing Becomes Top Initial Access Threat to Law Firms</title>
@@ -5368,6 +5615,15 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control</title>
+<link>https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 29 Jul 2026 16:02:10 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Tame Dependabot: Group your updates, slow the cadence, keep security fast</title>
 <link>https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/</link>
 <description><![CDATA[Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here&apos;s how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the cadence, keep security fast appeared first on The GitHub Blog .<br/><br/><em>Tags: GitHub</em>]]></description>
@@ -5564,6 +5820,15 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/ai-linux-kernel-zero-day-net-sched/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Gemini Robotics 2 brings whole body intelligence to robots</title>
+<link>https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 28 Jul 2026 13:21:37 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Credential Stuffing Campaign Hits SonicWall | Huntress SOC Tracking</title>
@@ -5768,21 +6033,21 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
-<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
-<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
-<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>2607-secai</title>
 <link>https://www.sophos.com/en-us/blog/2607-secai</link>
 <description><![CDATA[&lt;p&gt;What that means for Customer Protections &lt;/p&gt; Categories: Threat Research, AI Research]]></description>
 <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.sophos.com/en-us/blog/2607-secai</guid>
 <source url="https://news.sophos.com/en-us/category/threat-research/feed/">Sophos X-Ops</source>
+<category>detection_response_operations</category>
+</item>
+<item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: How we cut AI agent LLM calls by 60%</title>
+<link>https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</link>
+<description><![CDATA[We run fourteen AI agents that triage Elastic InfoSec alerts. They were taking 19 LLM calls to do work that needed 8. Here&apos;s the five-step optimization loop we run across the fleet, plus the prompt template you can use with any AI assistant.]]></description>
+<pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/ai-agent-optimization-production-scale</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 </item>
 <item>
@@ -5841,6 +6106,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements</title>
+<link>https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</link>
+<description><![CDATA[DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn&apos;t move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here&apos;s what changed, what didn&apos;t, and why we&apos;re not slowing down.]]></description>
+<pubDate>Fri, 24 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Updated Cyber Threat Actor Naming System</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/updated-cyber-threat-actor-naming-system/</link>
 <description><![CDATA[Update (July 30): A table listing the new names of select prominent threat actors was appended to this post. Introduction Today, Google Threat Intelligence Group (GTIG) will begin rolling out a unified naming schema for tracking threat actors. This new naming taxonomy represents an effort to standardize tracking across platforms and public reporting. Why are we Adopting a Different Naming System? Historically, Mandiant and Google’s Threat Analysis Group (TAG) maintained distinct tracking systems, relying on parallel naming schemas that grew independently over time. The creation of GTIG has necessitated a new, fused tracking system, and a new naming system. Thinking to the future, GTIG’s new system will rely on cryptonyms. Relying on sequential numbers or disparate identifiers (e.g. APT1) fails to provide defenders the critical context needed to operate quickly. Threat tracking shouldn’t be an exercise in memorization, but rather one of intuition. The new naming convention aligns with i<br/><br/><em>Tags: APT1</em>]]></description>
@@ -5849,15 +6123,6 @@
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>APT1</category>
-</item>
-<item>
-<title>CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements</title>
-<link>https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</link>
-<description><![CDATA[DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn&apos;t move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here&apos;s what changed, what didn&apos;t, and why we&apos;re not slowing down.]]></description>
-<pubDate>Fri, 24 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>CCPA Update: Cybersecurity Requirements (Part 2)</title>
@@ -6150,6 +6415,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission</title>
+<link>https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/</link>
+<description><![CDATA[Google commits $40M in AI tokens and credits for the Genesis Mission]]></description>
+<pubDate>Wed, 22 Jul 2026 13:38:54 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>How the LSHIY Password-Spraying Attack Abuses OAuth’s ROPC Grant</title>
 <link>https://www.huntress.com/blog/twist-the-nozzle-on-password-spraying-a-tradecraft-tuesday-recap</link>
 <description><![CDATA[What we learned from tracking a massive automated password spraying campaign on the Azure CLI that leveraged a depreciated OAuth flow.<br/><br/><em>Tags: Azure</em>]]></description>
@@ -6207,6 +6481,15 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/modern-attack-vectors</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber</title>
+<link>https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/</link>
+<description><![CDATA[We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.]]></description>
+<pubDate>Tue, 21 Jul 2026 15:16:30 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>What Are Initial Access Brokers?</title>
@@ -6474,6 +6757,16 @@
 <category>Scattered Spider</category>
 </item>
 <item>
+<title>Introducing Gemini 3.5 Flash Cyber</title>
+<link>https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/</link>
+<description><![CDATA[Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.<br/><br/><em>Tags: Google/Gemini</em>]]></description>
+<pubDate>Fri, 17 Jul 2026 15:00:11 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+<category>Google/Gemini</category>
+</item>
+<item>
 <title>Microsoft VSS: Still Essential, But Not the Whole Story</title>
 <link>https://www.huntress.com/blog/microsoft-vss-limits-and-best-practices</link>
 <description><![CDATA[Microsoft VSS remains a cornerstone of Windows data protection, but its architectural limits matter. Learn when to rely on it and when to go beyond it.]]></description>
@@ -6531,15 +6824,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</link>
-<description><![CDATA[Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te]]></description>
-<pubDate>Thu, 16 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>Custom HTML for Custom Phishing: Make the Fake Feel Real</title>
 <link>https://www.huntress.com/blog/custom-html-for-custom-phishing</link>
 <description><![CDATA[Build personalized, realistic phishing scenarios with Huntress Custom HTML for Custom Phishing, tailored to your organization&apos;s unique risks and vendors.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -6557,6 +6841,24 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/athena-huntress-agentic-soc-analyst</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</link>
+<description><![CDATA[Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te]]></description>
+<pubDate>Thu, 16 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Our approach to bioresilience</title>
+<link>https://deepmind.google/blog/our-approach-to-bioresilience/</link>
+<description><![CDATA[Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.]]></description>
+<pubDate>Thu, 16 Jul 2026 09:30:42 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/our-approach-to-bioresilience/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>From Indirect Prompt Injection to DNS Exfiltration in macOS Terminal</title>
@@ -6647,15 +6949,6 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>The Risk of Exposed Cloud Functions and How to Harden</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</link>
-<description><![CDATA[Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr]]></description>
-<pubDate>Wed, 15 Jul 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered</title>
 <link>https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered</link>
 <description><![CDATA[Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.]]></description>
@@ -6663,6 +6956,15 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>The Risk of Exposed Cloud Functions and How to Harden</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</link>
+<description><![CDATA[Written by: Corné de Jong Introduction Mandiant security assessments frequently identify publicly exposed serverless applications that lack authentication, often as a result of specific business requirements. Serverless deployments typically run custom-developed code that incorporates third-party packages, making them targets for a wide range of application-level attacks, including: Local and Remote File Inclusion (LFI/RFI) Command Injection Successful exploitation of these vulnerabilities can grant an attacker full control over the underlying container instance. Such access can serve as a foothold that may ultimately lead to a full compromise of the victim’s cloud environment. Based on lessons learned in customer engagements, in this blog post we describe attack scenarios and provide actionable guidance on how to secure serverless environments. While this analysis focuses on hardening strategies for Google Cloud Run services and functions that must remain publicly accessible, these pr]]></description>
+<pubDate>Wed, 15 Jul 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/exposed-cloud-functions-harden/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System</title>
@@ -6893,6 +7195,15 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/sql-injection-attacker-persistence</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Empowering India’s next generation of innovators with ATL Saathi</title>
+<link>https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/</link>
+<description><![CDATA[Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.]]></description>
+<pubDate>Mon, 13 Jul 2026 12:37:28 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Why IaC Coverage Belongs on Your Security Dashboard</title>
@@ -7240,6 +7551,42 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>[webapps] Krayin CRM v2.2.x - Authenticated Remote Code Execution</title>
+<link>https://www.exploit-db.com/exploits/52629</link>
+<description><![CDATA[Krayin CRM v2.2.x - Authenticated Remote Code Execution]]></description>
+<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52629</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure</title>
+<link>https://www.exploit-db.com/exploits/52628</link>
+<description><![CDATA[Atarim WordPress Plugin 4.2.2 - Sensitive Information Exposure]]></description>
+<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52628</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Langflow 1.9.0 - RCE</title>
+<link>https://www.exploit-db.com/exploits/52627</link>
+<description><![CDATA[Langflow 1.9.0 - RCE]]></description>
+<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52627</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Joomla Page Builder CK 3.5.10 - Arbitrary File Upload</title>
+<link>https://www.exploit-db.com/exploits/52626</link>
+<description><![CDATA[Joomla Page Builder CK 3.5.10 - Arbitrary File Upload]]></description>
+<pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52626</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
 <title>ClickFix to Cash-Out: Anatomy of a Mexican Banking-Fraud Toolkit</title>
 <link>https://www.elastic.co/security-labs/mexican-banking-fraud-scmbanker-ref6045</link>
 <description><![CDATA[Elastic Security Labs tracks REF6045, an active operator-assisted banking fraud operation targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges.]]></description>
@@ -7293,6 +7640,79 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/cybersecurity-lessons-taylor-swift-wedding</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>[webapps] MCPJam Inspector - Remote Code Execution</title>
+<link>https://www.exploit-db.com/exploits/52625</link>
+<description><![CDATA[MCPJam Inspector - Remote Code Execution]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52625</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[local] ProtonVPN v4.4.1 - Unquoted Service Path</title>
+<link>https://www.exploit-db.com/exploits/52624</link>
+<description><![CDATA[ProtonVPN v4.4.1 - Unquoted Service Path]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52624</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Flowise 3.1.3 - arbitrary code execution</title>
+<link>https://www.exploit-db.com/exploits/52623</link>
+<description><![CDATA[Flowise 3.1.3 - arbitrary code execution]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52623</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[remote] Hydra - Stack Buffer Overflow</title>
+<link>https://www.exploit-db.com/exploits/52622</link>
+<description><![CDATA[Hydra - Stack Buffer Overflow]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52622</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Discuz! X5.0 - Authentication Bypass</title>
+<link>https://www.exploit-db.com/exploits/52621</link>
+<description><![CDATA[Discuz! X5.0 - Authentication Bypass]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52621</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Tenable Nessus 10.12.1 - SQL Injection</title>
+<link>https://www.exploit-db.com/exploits/52620</link>
+<description><![CDATA[Tenable Nessus 10.12.1 - SQL Injection]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52620</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] WordPress Bricks Builder Theme - RCE</title>
+<link>https://www.exploit-db.com/exploits/52619</link>
+<description><![CDATA[WordPress Bricks Builder Theme - RCE<br/><br/><em>Tags: WordPress</em>]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52619</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>WordPress</category>
+</item>
+<item>
+<title>[remote] iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter</title>
+<link>https://www.exploit-db.com/exploits/52618</link>
+<description><![CDATA[iOS Bluetooth PAN Exploit - Ethernet Gateway without Adapter]]></description>
+<pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52618</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>When AI agents look like attackers: what behavioral telemetry tells us</title>
@@ -7380,6 +7800,69 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>[webapps] Joomla Extension 4.1.4 - PHP Object injection</title>
+<link>https://www.exploit-db.com/exploits/52617</link>
+<description><![CDATA[Joomla Extension 4.1.4 - PHP Object injection]]></description>
+<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52617</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass</title>
+<link>https://www.exploit-db.com/exploits/52616</link>
+<description><![CDATA[Pulpy 0.1.1-Beta - Filesystem Sandbox Bypass]]></description>
+<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52616</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[local] MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation</title>
+<link>https://www.exploit-db.com/exploits/52615</link>
+<description><![CDATA[MEmu Android Emulator 9.2.7.0 - Local Privilege Escalation]]></description>
+<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52615</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] KeepInMind 0.8.4.2 - Stored XSS</title>
+<link>https://www.exploit-db.com/exploits/52614</link>
+<description><![CDATA[KeepInMind 0.8.4.2 - Stored XSS]]></description>
+<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52614</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] KNX visualisering - Broken Access Control</title>
+<link>https://www.exploit-db.com/exploits/52613</link>
+<description><![CDATA[KNX visualisering - Broken Access Control]]></description>
+<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52613</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[local] Windows Defender (MsMpEng.exe) - Race Condition</title>
+<link>https://www.exploit-db.com/exploits/52612</link>
+<description><![CDATA[Windows Defender (MsMpEng.exe) - Race Condition]]></description>
+<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52612</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>[webapps] WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)</title>
+<link>https://www.exploit-db.com/exploits/52611</link>
+<description><![CDATA[WordPress Plugin WPZOOM Portfolio 1.4.21 - Reflected Cross-Site Scripting (XSS)]]></description>
+<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52611</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
 <title>Entra Agent ID: Protect, detect, respond</title>
 <link>https://securitylabs.datadoghq.com/articles/agent-id-protect-detect-respond/</link>
 <description><![CDATA[This post continues and concludes our series on Agent ID, by outlining steps that an administrator or security team can take to secure blueprints and agent identities created in their local Entra ID tenant.]]></description>
@@ -7387,6 +7870,15 @@
 <guid isPermaLink="true">https://securitylabs.datadoghq.com/articles/agent-id-protect-detect-respond/</guid>
 <source url="https://securitylabs.datadoghq.com/rss/feed.xml">Datadog Security Labs</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Google DeepMind and A24 announce first-of-its-kind research partnership</title>
+<link>https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/</link>
+<description><![CDATA[]]></description>
+<pubDate>Fri, 03 Jul 2026 14:25:43 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Cyber readiness for SMBs: Getting the basics right</title>
@@ -7546,15 +8038,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
-<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
-<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
-<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Vect and TeamPCP partner for ransomware campaigns</title>
 <link>https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns</link>
 <description><![CDATA[Credentials harvested through supply chain compromises enable large‑scale ransomware deployment Categories: Threat Research Tags: Vect, TeamPCP, Ransomware<br/><br/><em>Tags: TeamPCP · ransomware_extortion · supply_chain</em>]]></description>
@@ -7565,6 +8048,15 @@
 <category>TeamPCP</category>
 <category>ransomware_extortion</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Inside Elastic InfoSec&apos;s agentic SOC: cutting alert triage from 30 minutes to under 3</title>
+<link>https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</link>
+<description><![CDATA[Elastic&apos;s InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.]]></description>
+<pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Lateral Movement Attack: Techniques, Detection &amp; Prevention</title>
@@ -7701,6 +8193,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Start building with Nano Banana 2 Lite and Gemini Omni Flash</title>
+<link>https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 30 Jun 2026 16:02:40 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Weekly Update 510: Live From Mallorca with Scott Helme</title>
 <link>https://www.troyhunt.com/weekly-update-510/</link>
 <description><![CDATA[How&apos;s the view?! Back to business, it&apos;s now 8 years ago that Scott and I thought it would be a cool idea to build Why no HTTPS? We used the site to shame companies for not implementing their transport later security property, and to make it]]></description>
@@ -7785,15 +8286,6 @@
 <category>GitHub</category>
 </item>
 <item>
-<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
-<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
-<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>The Hacker&apos;s 2026 Playbook: Dark Web Tactics Targeting You</title>
 <link>https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook</link>
 <description><![CDATA[Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
@@ -7802,6 +8294,15 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Microsoft 365</category>
+</item>
+<item>
+<title>The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</link>
+<description><![CDATA[Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai]]></description>
+<pubDate>Mon, 29 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Bridging the Visibility Gap: A Unified Security Operating Model for Hybrid Cloud Teams</title>
@@ -7965,6 +8466,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
+<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
+<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
+<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/</link>
 <description><![CDATA[Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
@@ -7974,15 +8484,6 @@
 <category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>How to Spot a Client in the DoD Industrial Base That Handles CUI</title>
-<link>https://www.huntress.com/blog/how-to-identify-dod-cui-clients</link>
-<description><![CDATA[Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.]]></description>
-<pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/how-to-identify-dod-cui-clients</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Computer-Use and TOCTOU: What You Click Is Not What You Get!</title>
@@ -8084,6 +8585,15 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/build-to-learn-buy-to-scale-when-to-build-your-own-ai-soc-and-when-to-stop</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Introducing computer use in Gemini 3.5 Flash</title>
+<link>https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 24 Jun 2026 16:30:01 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>ESET takes part in Operation Endgame to disrupt Amadey and Stealc</title>
@@ -8584,6 +9094,24 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Unlocking UK house-building with AI-accelerated planning</title>
+<link>https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/</link>
+<description><![CDATA[UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.]]></description>
+<pubDate>Tue, 16 Jun 2026 21:29:50 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Securing the future of AI agents</title>
+<link>https://deepmind.google/blog/securing-the-future-of-ai-agents/</link>
+<description><![CDATA[Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.]]></description>
+<pubDate>Tue, 16 Jun 2026 15:46:31 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/securing-the-future-of-ai-agents/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Potemkin Loader &amp; RMMProject The Anatomy of a ClickFix Attack</title>
 <link>https://www.huntress.com/blog/potemkin-loader-rmmproject-clickfix-attack</link>
 <description><![CDATA[A ClickFix infection drops Potemkin loader and RMMProject RAT, leading to browser theft, hidden remote desktop, and lateral movement across over 11 hosts.]]></description>
@@ -8659,16 +9187,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
-<description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
-<category>UNC6508</category>
-</item>
-<item>
 <title>The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed</title>
 <link>https://www.huntress.com/blog/terminal-server-phishing-stager-exposed</link>
 <description><![CDATA[A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -8677,6 +9195,16 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
+<description><![CDATA[Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our <br/><br/><em>Tags: UNC6508</em>]]></description>
+<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
+<category>UNC6508</category>
 </item>
 <item>
 <title>EvilTokens: A phishing attack that doesn’t steal your password</title>
@@ -8979,6 +9507,15 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>DiffusionGemma: 4x faster text generation</title>
+<link>https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 10 Jun 2026 16:24:11 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Deceptive Installers: How Fake Apps Target macOS</title>
 <link>https://www.huntress.com/blog/deceptive-installers-macos-infostealers</link>
 <description><![CDATA[Deceptive installers disguised as legit macOS software deliver infostealers that grab passwords, cookies, and crypto wallets. Learn how to detect them.<br/><br/><em>Tags: Apple iOS/macOS</em>]]></description>
@@ -8987,6 +9524,15 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>Apple iOS/macOS</category>
+</item>
+<item>
+<title>Investing in multi-agent AI safety research</title>
+<link>https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/</link>
+<description><![CDATA[Google DeepMind and partners announce a $10M funding call for multi-agent safety research.]]></description>
+<pubDate>Wed, 10 Jun 2026 10:21:19 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Unpacking SMB cyber-readiness – and what makes or breaks it</title>
@@ -9073,6 +9619,33 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Fluid, natural voice translation with Gemini 3.5 Live Translate</title>
+<link>https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/</link>
+<description><![CDATA[Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.]]></description>
+<pubDate>Tue, 09 Jun 2026 15:16:25 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Introducing Gemma 4 12B: a unified, encoder-free multimodal model</title>
+<link>https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 09 Jun 2026 14:10:19 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Powering the future of robotics in Europe</title>
+<link>https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 09 Jun 2026 14:02:33 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Cybercriminals: the &apos;auditors&apos; you never hired</title>
 <link>https://www.welivesecurity.com/en/business-security/cybercriminals-auditors-never-hired/</link>
 <description><![CDATA[Every organisation gets audited. The question is who does the auditing.]]></description>
@@ -9127,6 +9700,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Measuring the impact of learning with AI in Sierra Leone and beyond</title>
+<link>https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/</link>
+<description><![CDATA[Results from a randomized controlled trial show the potential of Gemini’s Guided Learning feature to boost engagement and accelerate learning.]]></description>
+<pubDate>Mon, 08 Jun 2026 13:04:59 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Turning Cloudflare’s threat indicators into real-time WAF rules</title>
 <link>https://blog.cloudflare.com/realtime-threat-intel-waf-rules/</link>
 <description><![CDATA[Cloudflare customers can now use Cloudforce One threat intelligence directly within the WAF to block high-risk traffic. By using new cf.intel fields, security teams can automate protection against specific threat actors and targeted industries in real time.]]></description>
@@ -9165,6 +9747,24 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
+<link>https://www.exploit-db.com/exploits/52610</link>
+<description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
+<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>Why Huntress Doesn’t Need FedRAMP</title>
+<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
+<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
+<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
+<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/</link>
 <description><![CDATA[Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as &quot;Luna Moth,&quot; “Chatty Spider,” and &quot;Silent Ransom Group&quot;) targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their <br/><br/><em>Tags: Silent Ransom Group · UNC3753 · ransomware_extortion · phishing_social_eng</em>]]></description>
@@ -9176,15 +9776,6 @@
 <category>UNC3753</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Why Huntress Doesn’t Need FedRAMP</title>
-<link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
-<description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
-<pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</guid>
-<source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
-<category>detection_response_operations</category>
 </item>
 <item>
 <title>Risky Bulletin: EU unveils digital sovereignty plan</title>
@@ -9203,6 +9794,16 @@
 <guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
 <source url="https://www.recordedfuture.com/feed">Recorded Future</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
+<link>https://www.exploit-db.com/exploits/52609</link>
+<description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52609</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>WordPress</category>
 </item>
 <item>
 <title>VerdantBamboo: Just Another BRICKSTORM in the Firewall</title>
@@ -9366,15 +9967,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>Welcoming the Philippine Government to Have I Been Pwned</title>
-<link>https://www.troyhunt.com/welcoming-the-philippine-government-to-have-i-been-pwned/</link>
-<description><![CDATA[Today, we welcome the 46th government onboarded to Have I Been Pwned’s free gov service: the Philippines. The Philippines’ National CERT, working with the Department of Information and Communications Technology, now has access to monitor official government domains against the data in HIBP. This gives their Cyber]]></description>
-<pubDate>Wed, 03 Jun 2026 03:40:17 +0000</pubDate>
-<guid isPermaLink="true">https://www.troyhunt.com/welcoming-the-philippine-government-to-have-i-been-pwned/</guid>
-<source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Cloud security onboarding should move at cloud speed</title>
 <link>https://webflow.sysdig.com/blog/cloud-security-onboarding-should-move-at-cloud-speed</link>
 <description><![CDATA[Sysdig Headless Cloud Security helps teams automate cloud security onboarding at cloud speed by replacing manual, UI-driven setup with API-first, programmable workflows. Using infrastructure as code, Terraform, AI-assisted prompts, and built-in guardrails, organizations can onboard cloud accounts faster, validate permissions and telemetry, reduce configuration drift, and gain immediate operational visibility across modern cloud environments. This headless approach makes cloud security onboarding more scalable, repeatable, transparent, and aligned with DevOps automation pipelines.]]></description>
@@ -9517,6 +10109,26 @@
 <category>practitioner_analysis</category>
 <category>Palo Alto Networks</category>
 <category>active_exploitation</category>
+</item>
+<item>
+<title>[webapps] Drupal Core 10.5.5 - Error-Based SQL Injection</title>
+<link>https://www.exploit-db.com/exploits/52608</link>
+<description><![CDATA[Drupal Core 10.5.5 - Error-Based SQL Injection<br/><br/><em>Tags: Drupal</em>]]></description>
+<pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52608</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>Drupal</category>
+</item>
+<item>
+<title>[webapps] WordPress OrderConvo 14 - Path Traversal</title>
+<link>https://www.exploit-db.com/exploits/52607</link>
+<description><![CDATA[WordPress OrderConvo 14 - Path Traversal<br/><br/><em>Tags: WordPress</em>]]></description>
+<pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.exploit-db.com/exploits/52607</guid>
+<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
+<category>offensive_vulnerability_research</category>
+<category>WordPress</category>
 </item>
 <item>
 <title>Sponsored: Inside CISA&apos;s disastrous secrets leak</title>
@@ -9879,6 +10491,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks</title>
+<link>https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 21 May 2026 19:46:42 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Claude Enterprise Meets the Security Graph: Wiz Integrates with Anthropic&apos;s Compliance API</title>
 <link>https://www.wiz.io/blog/claude-wiz-integration</link>
 <description><![CDATA[Security and compliance teams can now monitor Claude activity directly in Wiz, extending the workflows they already rely on to AI]]></description>
@@ -10115,6 +10736,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Fast-tracking genetic leads to reverse cellular aging</title>
+<link>https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</link>
+<description><![CDATA[Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.]]></description>
+<pubDate>Mon, 18 May 2026 18:21:39 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Threat Actor Defense Evasion: How Attackers Disable AV &amp; EDR</title>
 <link>https://www.huntress.com/blog/how-attackers-disable-av-edr</link>
 <description><![CDATA[Threat actors are actively targeting your security tools. Learn how threat actors disable antivirus and EDR through vulnerable drivers, tampering attacks, and malicious firewall rules, and how Huntress detects.]]></description>
@@ -10178,6 +10808,123 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWSSI128/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
+</item>
+<item>
+<title>Simulate real-world places with Project Genie and Street View</title>
+<link>https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/</link>
+<description><![CDATA[We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.]]></description>
+<pubDate>Sun, 17 May 2026 19:53:18 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Introducing Gemini Omni</title>
+<link>https://deepmind.google/blog/introducing-gemini-omni/</link>
+<description><![CDATA[]]></description>
+<pubDate>Sun, 17 May 2026 19:50:57 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-gemini-omni/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Introducing Google Antigravity 2.0</title>
+<link>https://deepmind.google/blog/introducing-google-antigravity-2-0/</link>
+<description><![CDATA[]]></description>
+<pubDate>Sun, 17 May 2026 19:43:45 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-google-antigravity-2-0/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Gemini for Science: AI experiments and tools for a new era of discovery</title>
+<link>https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/</link>
+<description><![CDATA[A collection of science tools and experiments to expand the scale and precision of scientific exploration.]]></description>
+<pubDate>Sun, 17 May 2026 13:50:34 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Making it easier to understand how content was created and edited</title>
+<link>https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/</link>
+<description><![CDATA[We&apos;re expanding our tools to help you understand how content was created and edited across the web.]]></description>
+<pubDate>Sun, 17 May 2026 13:43:50 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Strengthening Singapore’s AI Future: A New National Partnership</title>
+<link>https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/</link>
+<description><![CDATA[Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.]]></description>
+<pubDate>Sat, 16 May 2026 09:13:34 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Finding the molecular switches behind new infectious diseases</title>
+<link>https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/</link>
+<description><![CDATA[Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.]]></description>
+<pubDate>Sat, 16 May 2026 08:16:06 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Opening new paths in aging research</title>
+<link>https://deepmind.google/blog/opening-new-paths-in-aging-research/</link>
+<description><![CDATA[Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.]]></description>
+<pubDate>Sat, 16 May 2026 08:08:44 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/opening-new-paths-in-aging-research/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Accelerating discovery of liver disease mechanisms</title>
+<link>https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/</link>
+<description><![CDATA[Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.]]></description>
+<pubDate>Sat, 16 May 2026 08:00:15 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Uniting biological toolkits for a new approach to ALS</title>
+<link>https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/</link>
+<description><![CDATA[Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS.]]></description>
+<pubDate>Sat, 16 May 2026 07:53:11 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Uncovering repurposed medicines to fight liver fibrosis</title>
+<link>https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/</link>
+<description><![CDATA[Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.]]></description>
+<pubDate>Sat, 16 May 2026 07:40:27 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica</title>
+<link>https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/</link>
+<description><![CDATA[Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.]]></description>
+<pubDate>Sat, 16 May 2026 03:14:17 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Gemini 3.5: frontier intelligence with action</title>
+<link>https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/</link>
+<description><![CDATA[Gemini 3.5 is built to help you execute complex, agentic workflows.]]></description>
+<pubDate>Fri, 15 May 2026 22:50:12 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>19 Cloud Security Challenges and How to Mitigate Risk | Huntress</title>
@@ -10467,6 +11214,15 @@
 <category>cloud_identity_infrastructure</category>
 <category>TeamPCP</category>
 <category>supply_chain</category>
+</item>
+<item>
+<title>Co-Scientist: A multi-agent AI partner to accelerate research</title>
+<link>https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/</link>
+<description><![CDATA[Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.]]></description>
+<pubDate>Tue, 12 May 2026 14:40:07 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Huntress × Acrisure Cyber Insurance Program</title>
@@ -10811,6 +11567,15 @@
 <category>active_exploitation</category>
 </item>
 <item>
+<title>AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields</title>
+<link>https://deepmind.google/blog/alphaevolve-impact/</link>
+<description><![CDATA[Explore how AlphaEvolve&apos;s Gemini-powered algorithms are driving impact across business, infrastructure, and science.]]></description>
+<pubDate>Wed, 06 May 2026 10:43:49 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/alphaevolve-impact/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Risky Bulletin: Targeted supply chain attack hits DAEMON Tools</title>
 <link>https://risky.biz/RBNEWS560/</link>
 <description><![CDATA[The DAEMON Tools website was hit in a targeted supply chain attack, Australia gets its own CSRB, the US arrests a wanted VOIP server hacker after 17 years, and Oracle switches to monthly security updates.<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -11083,6 +11848,15 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>Enabling a new model for healthcare with AI co-clinician</title>
+<link>https://deepmind.google/blog/ai-co-clinician/</link>
+<description><![CDATA[Researching the path to AI-augmented care and development of an AI co-clinician.]]></description>
+<pubDate>Thu, 30 Apr 2026 12:14:15 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/ai-co-clinician/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>This month in security with Tony Anscombe – April 2026 edition</title>
 <link>https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-april-2026/</link>
 <description><![CDATA[Warnings about helpdesk impersonation scams and Iran-linked hackers targeting critical sectors in the US, plus the most damaging scams of 2025 - here&apos;s some of what made the headlines this month]]></description>
@@ -11254,6 +12028,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Announcing our partnership with the Republic of Korea</title>
+<link>https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/</link>
+<description><![CDATA[Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models]]></description>
+<pubDate>Mon, 27 Apr 2026 07:00:06 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Risky Bulletin: New fingerprinting technique can track Tor users</title>
 <link>https://risky.biz/RBNEWS556/</link>
 <description><![CDATA[A fingerprinting technique can track Tor users, Intellexa had an American exploit provider, the US accuses China of copying its AI, and the US router ban also covers WiFi hotspots.]]></description>
@@ -11388,14 +12171,13 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Risky Bulletin: Former FBI official calls for terrorism designations for ransomware groups that target hospitals</title>
-<link>https://risky.biz/RBNEWS554/</link>
-<description><![CDATA[A Former FBI official wants terrorism designations for some ransomware groups, China threatens the EU over new cybersecurity regulations, Europe commits to €180 million for a sovereign cloud and a novel data wiper was found in Venezuela during US military operations.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Wed, 22 Apr 2026 06:00:14 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS554/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
+<title>Decoupled DiLoCo: A new frontier for resilient, distributed AI training</title>
+<link>https://deepmind.google/blog/decoupled-diloco/</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 22 Apr 2026 10:20:03 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/decoupled-diloco/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>CVE-2026-33626: How attackers exploited LMDeploy LLM Inference Engines in 12 hours</title>
@@ -11406,6 +12188,15 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>CVE-2026-33626</category>
+</item>
+<item>
+<title>Partnering with industry leaders to accelerate AI transformation</title>
+<link>https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/</link>
+<description><![CDATA[Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world.]]></description>
+<pubDate>Tue, 21 Apr 2026 14:54:15 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Closing the Security Gap in the Age of Agentic Coding</title>
@@ -11615,6 +12406,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Gemini 3.1 Flash TTS: the next generation of expressive AI speech</title>
+<link>https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/</link>
+<description><![CDATA[Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.]]></description>
+<pubDate>Wed, 15 Apr 2026 16:03:19 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Sysdig Automations: Streamlining detection to response into a unified workflow</title>
 <link>https://webflow.sysdig.com/blog/sysdig-automations-streamlining-detection-to-response-into-a-unified-workflow</link>
 <description><![CDATA[Sysdig Automations unifies fragmented cloud security workflows by connecting detection, investigation, and response into a single, cohesive system, reducing inefficiencies and manual effort. It enables teams to automate actions based on risks, vulnerabilities, threats, and runtime events, ensuring faster, more consistent responses while integrating seamlessly with existing tools. By consolidating workflows within one platform, organizations can improve operational efficiency, reduce tool sprawl, and accelerate response times in increasingly complex cloud environments.]]></description>
@@ -11714,6 +12514,15 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/cloud-security-and-compliance-nis2-dora</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning</title>
+<link>https://deepmind.google/blog/gemini-robotics-er-1-6/</link>
+<description><![CDATA[Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.]]></description>
+<pubDate>Mon, 13 Apr 2026 15:52:13 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-robotics-er-1-6/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>5 steps to securing AI workloads</title>
@@ -11866,6 +12675,15 @@
 <category>Fortinet</category>
 </item>
 <item>
+<title>Gemma 4: Byte for byte, the most capable open models</title>
+<link>https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/</link>
+<description><![CDATA[Gemma 4: Our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.]]></description>
+<pubDate>Thu, 02 Apr 2026 16:00:49 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Introducing SandyClaw - The First Dynamic Sandbox for AI Agent Skills and Prompts</title>
 <link>https://permiso.io/blog/introducing-sandyclaw-dynamic-sandbox-ai-agent-skills</link>
 <description><![CDATA[TL;DR AI agent skill marketplaces are the new software supply chain, and attackers are already exploiting them. The current generation of skill scanners relies on static code checks or LLM-based evaluation. Neither executes the skill, which means neither detects malicious behavior that only reveals itself at runtime. SandyClaw is the first platform to apply dynamic sandbox detonation to AI agent skills. It runs the skill in a controlled environment, records every action at the LLM and OS level, and delivers a verdict backed by behavioral evidence rather than inference. Available now at sandyclaw.permiso.io . The supply chain nobody is securing AI agents need skills to do useful work. Skills are downloadable capability packages that teach agents how to interact with tools, APIs, and services. They are distributed through open marketplaces, installed with a single command, and executed with whatever permissions the agent&apos;s identity already has.<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -11995,6 +12813,15 @@
 <category>CVE-2026-3055</category>
 </item>
 <item>
+<title>Reimagining the mouse pointer for the AI era</title>
+<link>https://deepmind.google/blog/ai-pointer/</link>
+<description><![CDATA[Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.]]></description>
+<pubDate>Sun, 29 Mar 2026 10:50:49 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/ai-pointer/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>The Sequels Are Never As Good, But We&apos;re Still In Pain (Citrix NetScaler CVE-2026-3055 Memory Overread)</title>
 <link>https://labs.watchtowr.com/the-sequels-are-never-as-good-but-were-still-in-pain-citrix-netscaler-cve-2026-3055-memory-overread/</link>
 <description><![CDATA[Sequels? Pain? We&apos;re obviously talking about Citrix NetScalers, yet again. Welcome back to another watchTowr Labs blog post - pull up a chair, we always welcome new members to our group therapy sessions. If you asked a C programmer what they most dislike doing in life, their answer might<br/><br/><em>Tags: Citrix · CVE-2026-3055</em>]]></description>
@@ -12035,6 +12862,15 @@
 <category>CVE-2020-8561</category>
 </item>
 <item>
+<title>Gemini 3.1 Flash Live: Making audio AI more natural and reliable</title>
+<link>https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/</link>
+<description><![CDATA[Our latest voice model has improved precision and lower latency to make voice interactions more fluid, natural and precise.]]></description>
+<pubDate>Thu, 26 Mar 2026 15:23:35 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>AI infrastructure security: Why it deserves its own category</title>
 <link>https://webflow.sysdig.com/blog/ai-infrastructure-security-why-it-deserves-its-own-category</link>
 <description><![CDATA[Attacks on artificial intelligence infrastructure are rising, but not in the way most people expect. While AI security headlines focus on prompt manipulation, attackers are going after the infrastructure behind these systems. This article takes a broader view of AI security, unpacking this shift and outlining practical strategies to respond.]]></description>
@@ -12062,6 +12898,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Protecting people from harmful manipulation</title>
+<link>https://deepmind.google/blog/protecting-people-from-harmful-manipulation/</link>
+<description><![CDATA[Google DeepMind researches AI&apos;s harmful manipulation risks across areas like finance and health, leading to new safety measures.]]></description>
+<pubDate>Wed, 25 Mar 2026 16:46:20 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/protecting-people-from-harmful-manipulation/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Industrial Cybersecurity Risks from Internet-Exposed ICS Devices</title>
 <link>https://www.team-cymru.com/post/industrial-cybersecurity-for-ics-and-ot-devices</link>
 <description><![CDATA[Industrial cybersecurity analysis of exposed ICS and OT devices. Discover how attackers target critical infrastructure and how defenders can detect exposed systems.]]></description>
@@ -12069,6 +12914,15 @@
 <guid isPermaLink="true">https://www.team-cymru.com/post/industrial-cybersecurity-for-ics-and-ot-devices</guid>
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Lyria 3 Pro: Create longer tracks in more</title>
+<link>https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/</link>
+<description><![CDATA[Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.]]></description>
+<pubDate>Wed, 25 Mar 2026 16:01:39 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>The Beast Returns: Analysis of a Beast Ransomware Server</title>
@@ -12278,6 +13132,15 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>Measuring progress toward AGI: A cognitive framework</title>
+<link>https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/</link>
+<description><![CDATA[We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations.]]></description>
+<pubDate>Tue, 17 Mar 2026 16:03:47 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Agent Commander: Promptware-Powered Command and Control</title>
 <link>https://embracethered.com/blog/posts/2026/agent-commander-your-agent-works-for-me-now/</link>
 <description><![CDATA[This post is about prompt-based command and control (C2), which is becoming more relevant. What is Promptware-Powered C2? Three years ago, when ChatGPT introduced the browsing tool, we already experimented with the idea of prompt-based command and control. And when ChatGPT got memories we showed that this can be combined and abused for a full command and control channel . Recent work uses the term promptware to describe prompt-injection payloads that are more complex in behavior and closer to malware. I’m using that term here as it fits well.<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -12472,6 +13335,15 @@
 <category>UNC6201</category>
 </item>
 <item>
+<title>From games to biology and beyond: 10 years of AlphaGo’s impact</title>
+<link>https://deepmind.google/blog/10-years-of-alphago/</link>
+<description><![CDATA[Ten years since AlphaGo, we explore how it is catalyzing scientific discovery and paving a path to AGI.]]></description>
+<pubDate>Mon, 09 Mar 2026 13:52:36 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/10-years-of-alphago/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Malware detection with Sysdig</title>
 <link>https://webflow.sysdig.com/blog/malware-detection-with-sysdig</link>
 <description><![CDATA[When we talk about cloud security, we spend a lot of time discussing things like configuration and identity risk. But we shouldn&apos;t lose sight of other types of risk, simply because they don&apos;t lead to the lion&apos;s share of incidents. One of those risks is malware. And as attackers increasingly automate exploitation of exposed services and vulnerable workloads, it’s no longer safe to assume you can ignore malware risk in cloud environments.]]></description>
@@ -12552,6 +13424,15 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/greynoise-intelligence-available-across-crowdstrike-falcon-platform</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Gemini 3.1 Flash-Lite: Built for intelligence at scale</title>
+<link>https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/</link>
+<description><![CDATA[Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet.]]></description>
+<pubDate>Tue, 03 Mar 2026 16:35:55 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Sometimes, You Can Just Feel The Security In The Design (Juniper Junos Evolved CVE-2026-21902 Pre-Auth RCE)</title>
@@ -12637,6 +13518,15 @@
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>Nano Banana 2: Combining Pro capabilities with lightning-fast speed</title>
+<link>https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/</link>
+<description><![CDATA[Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed.]]></description>
+<pubDate>Thu, 26 Feb 2026 16:01:50 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>A Deep Dive into the GetProcessHandleFromHwnd API</title>
@@ -12779,6 +13669,15 @@
 <category>Scattered Spider</category>
 </item>
 <item>
+<title>Gemini 3.1 Pro: A smarter model for your most complex tasks</title>
+<link>https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/</link>
+<description><![CDATA[3.1 Pro is designed for tasks where a simple answer isn’t enough.]]></description>
+<pubDate>Thu, 19 Feb 2026 16:06:14 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>PromptSpy ushers in the era of Android threats using GenAI</title>
 <link>https://www.welivesecurity.com/en/eset-research/promptspy-ushers-in-era-android-threats-using-genai/</link>
 <description><![CDATA[ESET researchers discover PromptSpy, the first known Android malware to abuse generative AI in its execution flow<br/><br/><em>Tags: Android</em>]]></description>
@@ -12798,6 +13697,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>A new way to express yourself: Gemini can now create music</title>
+<link>https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/</link>
+<description><![CDATA[The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.]]></description>
+<pubDate>Wed, 18 Feb 2026 16:01:38 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Real risks live at runtime: Why CISOs must care about deep telemetry in 2026</title>
 <link>https://webflow.sysdig.com/blog/real-risks-live-at-runtime-why-cisos-must-care-about-deep-telemetry-in-2026</link>
 <description><![CDATA[At the heart of runtime is visibility on what matters: what&apos;s being executed and what&apos;s running in production. Runtime is where enterprises generate value. Runtime telemetry can help shed light on the risk factors noted above, be they directly related to AI tools and services or the cloud and microservices that power them.]]></description>
@@ -12815,6 +13723,15 @@
 <source url="https://www.team-cymru.com/post/rss.xml">Team Cymru</source>
 <category>ransomware_ecrime_financial_crime</category>
 <category>apt_espionage</category>
+</item>
+<item>
+<title>Accelerating discovery in India through AI-powered science and education</title>
+<link>https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/</link>
+<description><![CDATA[Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education]]></description>
+<pubDate>Tue, 17 Feb 2026 13:42:20 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Is it OK to let your children post selfies online?</title>
@@ -12841,6 +13758,15 @@
 <pubDate>Thu, 12 Feb 2026 19:26:05 +0000</pubDate>
 <guid isPermaLink="true">https://www.normaltech.ai/p/ai-wont-automatically-make-legal</guid>
 <source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Gemini 3 Deep Think: Advancing science, research and engineering</title>
+<link>https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/</link>
+<description><![CDATA[Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges.]]></description>
+<pubDate>Thu, 12 Feb 2026 16:15:09 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
@@ -12953,6 +13879,15 @@
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
 <category>Ivanti</category>
+</item>
+<item>
+<title>Accelerating Mathematical and Scientific Discovery with Gemini Deep Think</title>
+<link>https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/</link>
+<description><![CDATA[Research papers point to the growing impact of Deep Think across fields]]></description>
+<pubDate>Mon, 09 Feb 2026 16:12:06 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Likely fake ransomware operator 0APT causes panic — Our analysis</title>
@@ -13141,6 +14076,15 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/hunting-apts-from-state-policy-to-ttps</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Project Genie: Experimenting with infinite, interactive worlds</title>
+<link>https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/</link>
+<description><![CDATA[Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds.]]></description>
+<pubDate>Thu, 29 Jan 2026 17:01:05 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Bringing OSS runtime security to AWS: Falco integration with AWS Security Hub CSPM</title>
@@ -13409,6 +14353,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>D4RT: Teaching AI to see the world in four dimensions</title>
+<link>https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/</link>
+<description><![CDATA[D4RT: Unified, efficient 4D reconstruction and tracking up to 300x faster than prior methods.]]></description>
+<pubDate>Fri, 16 Jan 2026 10:39:00 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Why LinkedIn is a hunting ground for threat actors – and how to protect yourself</title>
 <link>https://www.welivesecurity.com/en/social-media/linkedin-hunting-ground-threat-actors-how-protect-yourself/</link>
 <description><![CDATA[The business social networking site is a vast, publicly accessible database of corporate information. Don’t believe everyone on the site is who they say they are.]]></description>
@@ -13493,6 +14446,15 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/ai-is-still-a-workload-a-practical-guide-to-securing-ai-workloads</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>Veo 3.1 Ingredients to Video: More consistency, creativity and control</title>
+<link>https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/</link>
+<description><![CDATA[Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation.]]></description>
+<pubDate>Tue, 13 Jan 2026 17:00:18 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Your personal information is on the dark web. What happens next?</title>
@@ -13625,6 +14587,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>Google&apos;s year in review: 8 areas with research breakthroughs in 2025</title>
+<link>https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/</link>
+<description><![CDATA[Google 2025 recap: Research breakthroughs of the year]]></description>
+<pubDate>Tue, 23 Dec 2025 17:01:02 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>A brush with online fraud: What are brushing scams and how do I stay safe?</title>
 <link>https://www.welivesecurity.com/en/scams/brush-online-fraud-what-are-brushing-scams-how-do-i-stay-safe/</link>
 <description><![CDATA[Have you ever received a package you never ordered? It could be a warning sign that your data has been compromised, with more fraud to follow.]]></description>
@@ -13674,6 +14645,15 @@
 <category>credential_theft</category>
 </item>
 <item>
+<title>Gemini 3 Flash: frontier intelligence built for speed</title>
+<link>https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/</link>
+<description><![CDATA[Gemini 3 Flash offers frontier intelligence built for speed at a fraction of the cost.]]></description>
+<pubDate>Wed, 17 Dec 2025 11:58:17 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Coordinated Credential-Based Campaign Targets Cisco and Palo Alto Networks VPN Gateways</title>
 <link>https://www.greynoise.io/blog/credential-based-campaign-cisco-palo-alto-networks-vpn-gateways</link>
 <description><![CDATA[GreyNoise is tracking a coordinated, automated credential-based campaign targeting enterprise VPN authentication infrastructure, with activity observed against Cisco SSL VPN and Palo Alto Networks GlobalProtect services.]]></description>
@@ -13699,6 +14679,15 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/battling-check-fraud-in-the-us</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior</title>
+<link>https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/</link>
+<description><![CDATA[Open interpretability tools for language models are now available across the entire Gemma 3 family with the release of Gemma Scope 2.]]></description>
+<pubDate>Tue, 16 Dec 2025 10:14:24 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Welcome to the new Project Zero Blog</title>
@@ -13736,6 +14725,15 @@
 <source url="https://blog.cloudflare.com/tag/cloudflare-radar/rss/">Cloudflare Radar</source>
 <category>cloud_identity_infrastructure</category>
 <category>ddos</category>
+</item>
+<item>
+<title>Improved Gemini audio models for powerful voice experiences</title>
+<link>https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/</link>
+<description><![CDATA[]]></description>
+<pubDate>Fri, 12 Dec 2025 17:50:50 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Black Hat Europe 2025: Was that device designed to be on the internet at all?</title>
@@ -13784,6 +14782,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>Deepening our partnership with the UK AI Security Institute</title>
+<link>https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/</link>
+<description><![CDATA[Google DeepMind and UK AI Security Institute (AISI) strengthen collaboration on critical AI safety and security research]]></description>
+<pubDate>Thu, 11 Dec 2025 00:06:40 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Shai-Hulud Worm 2.0</title>
 <link>https://www.intel471.com/blog/shai-hulud-worm-20</link>
 <description><![CDATA[The &quot;Shai-Hulud&quot; worm represents a significant escalation in software supply chain attacks, particularly within the Node.js ecosystem<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -13803,6 +14810,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>Strengthening our partnership with the UK government to support prosperity and security in the AI era</title>
+<link>https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/</link>
+<description><![CDATA[Deepening our partnership with the UK government to support prosperity and security in the AI era]]></description>
+<pubDate>Wed, 10 Dec 2025 14:59:21 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>The Fragile Lock: Novel Bypasses For SAML Authentication</title>
 <link>https://portswigger.net/research/the-fragile-lock</link>
 <description><![CDATA[TLDR This post shows how to achieve a full authentication bypass in the Ruby and PHP SAML ecosystem by exploiting several parser-level inconsistencies: including attribute pollution, namespace confusi]]></description>
@@ -13810,6 +14826,15 @@
 <guid isPermaLink="true">https://portswigger.net/research/the-fragile-lock</guid>
 <source url="https://portswigger.net/research/rss">PortSwigger Research</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>FACTS Benchmark Suite: Systematically evaluating the factuality of large language models</title>
+<link>https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/</link>
+<description><![CDATA[Systematically evaluating the factuality of large language models with the FACTS Benchmark Suite.]]></description>
+<pubDate>Tue, 09 Dec 2025 11:29:03 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>The big catch: How whaling attacks target top executives</title>
@@ -13858,6 +14883,15 @@
 <source url="https://www.volexity.com/feed/">Volexity</source>
 <category>threat_research_primary</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Engineering more resilient crops for a warming climate</title>
+<link>https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/</link>
+<description><![CDATA[Scientists are using AlphaFold to strengthen a photosynthesis enzyme for resilient, heat-tolerant crops.]]></description>
+<pubDate>Thu, 04 Dec 2025 16:23:24 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Phishing, privileges and passwords: Why identity is critical to improving cybersecurity posture</title>
@@ -13930,6 +14964,24 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>AlphaFold: Five years of impact</title>
+<link>https://deepmind.google/blog/alphafold-five-years-of-impact/</link>
+<description><![CDATA[Explore how AlphaFold has accelerated science and fueled a global wave of biological discovery.]]></description>
+<pubDate>Tue, 25 Nov 2025 16:00:12 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/alphafold-five-years-of-impact/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Revealing a key protein behind heart disease</title>
+<link>https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/</link>
+<description><![CDATA[AlphaFold has revealed the structure of a key protein behind heart disease]]></description>
+<pubDate>Tue, 25 Nov 2025 15:52:51 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Trend Micro Predicts 2026 as the Year Cybercrime Becomes Fully Industrialized</title>
 <link>https://newsroom.trendmicro.com/2025-11-25-Trend-Micro-Predicts-2026-as-the-Year-Cybercrime-Becomes-Fully-Industrialized</link>
 <description><![CDATA[]]></description>
@@ -13975,6 +15027,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery</title>
+<link>https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/</link>
+<description><![CDATA[Google DeepMind and the DOE partner on Genesis, a new effort to accelerate science with AI.]]></description>
+<pubDate>Mon, 24 Nov 2025 14:12:03 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>MDR is the answer – now, what’s the question?</title>
 <link>https://www.welivesecurity.com/en/business-security/mdr-answer-now-whats-question/</link>
 <description><![CDATA[Why your business needs the best-of-breed combination of technology and human expertise]]></description>
@@ -14000,6 +15061,33 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/using-deception-to-extract-cyber-threat-intelligence</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>How we’re bringing AI image verification to the Gemini app</title>
+<link>https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 20 Nov 2025 15:13:19 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Build with Nano Banana Pro, our Gemini 3 Pro Image model</title>
+<link>https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 20 Nov 2025 15:11:14 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/build-with-nano-banana-pro-our-gemini-3-pro-image-model/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Introducing Nano Banana Pro</title>
+<link>https://deepmind.google/blog/introducing-nano-banana-pro/</link>
+<description><![CDATA[]]></description>
+<pubDate>Thu, 20 Nov 2025 15:05:02 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-nano-banana-pro/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>The OSINT advantage: Find your weak spots before attackers do</title>
@@ -14069,6 +15157,51 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Start building with Gemini 3</title>
+<link>https://deepmind.google/blog/start-building-with-gemini-3/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 18 Nov 2025 17:49:13 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/start-building-with-gemini-3/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>We’re expanding our presence in Singapore to advance AI in the Asia-Pacific region</title>
+<link>https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/</link>
+<description><![CDATA[Google DeepMind opens a new Singapore research lab, accelerating AI progress in the Asia-Pacific region.]]></description>
+<pubDate>Tue, 18 Nov 2025 17:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/were-expanding-our-presence-in-singapore-to-advance-ai-in-the-asia-pacific-region/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>A new era of intelligence with Gemini 3</title>
+<link>https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 18 Nov 2025 16:06:41 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/a-new-era-of-intelligence-with-gemini-3/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Introducing Google Antigravity</title>
+<link>https://deepmind.google/blog/introducing-google-antigravity/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 18 Nov 2025 16:06:32 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-google-antigravity/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>WeatherNext 2: Our most advanced weather forecasting model</title>
+<link>https://deepmind.google/blog/weathernext-2-our-most-advanced-weather-forecasting-model/</link>
+<description><![CDATA[The new AI model delivers more efficient, more accurate and higher-resolution global weather predictions.]]></description>
+<pubDate>Mon, 17 Nov 2025 15:09:23 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/weathernext-2-our-most-advanced-weather-forecasting-model/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>When Bulletproof Hosting Proves Bulletproof: The Stark Industries Shell Game</title>
 <link>https://www.greynoise.io/blog/stark-industries-shell-game</link>
 <description><![CDATA[EU sanctions hit Stark Industries in May 2025. GreyNoise data shows how the group quietly rebranded to THE.Hosting and kept its malicious infrastructure running.]]></description>
@@ -14085,6 +15218,15 @@
 <guid isPermaLink="true">https://www.activecountermeasures.com/hunt-what-hurts-the-pyramid-of-pain/</guid>
 <source url="https://www.activecountermeasures.com/feed/">Active Countermeasures</source>
 <category>detection_response_operations</category>
+</item>
+<item>
+<title>SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds</title>
+<link>https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/</link>
+<description><![CDATA[Introducing SIMA 2, a Gemini-powered AI agent that can think, understand, and take actions in interactive environments.]]></description>
+<pubDate>Thu, 13 Nov 2025 14:52:18 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Qilin Ransomware Group</title>
@@ -14122,6 +15264,34 @@
 <guid isPermaLink="true">https://portswigger.net/research/introducing-http-anomaly-rank</guid>
 <source url="https://portswigger.net/research/rss">PortSwigger Research</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>Teaching AI to see the world more like we do</title>
+<link>https://deepmind.google/blog/teaching-ai-to-see-the-world-more-like-we-do/</link>
+<description><![CDATA[Our new paper analyzes the important ways AI systems organize the visual world differently from humans.]]></description>
+<pubDate>Tue, 11 Nov 2025 11:49:13 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/teaching-ai-to-see-the-world-more-like-we-do/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>How AI is giving Northern Ireland teachers time back</title>
+<link>https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/</link>
+<description><![CDATA[A six-month long pilot program with the Northern Ireland Education Authority’s C2k initiative found that integrating Gemini and other generative AI tools saved participating teachers an average of 10 hours per week.<br/><br/><em>Tags: Google/Gemini</em>]]></description>
+<pubDate>Mon, 10 Nov 2025 16:50:39 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/how-ai-is-giving-northern-ireland-teachers-time-back/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+<category>Google/Gemini</category>
+</item>
+<item>
+<title>Mapping, modeling, and understanding nature with AI</title>
+<link>https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/</link>
+<description><![CDATA[AI models can help map species, protect forests and listen to birds around the world]]></description>
+<pubDate>Wed, 05 Nov 2025 16:59:46 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/mapping-modeling-and-understanding-nature-with-ai/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>How card fraud is powered by underground card checkers</title>
@@ -14206,6 +15376,15 @@
 <category>Google Workspace</category>
 </item>
 <item>
+<title>Accelerating discovery with the AI for Math Initiative</title>
+<link>https://deepmind.google/blog/accelerating-discovery-with-the-ai-for-math-initiative/</link>
+<description><![CDATA[The initiative brings together some of the world&apos;s most prestigious research institutions to pioneer the use of AI in mathematical research.]]></description>
+<pubDate>Wed, 29 Oct 2025 14:31:13 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/accelerating-discovery-with-the-ai-for-math-initiative/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Claude Pirate: Abusing Anthropic&apos;s File API For Data Exfiltration</title>
 <link>https://embracethered.com/blog/posts/2025/claude-abusing-network-access-and-anthropic-api-for-data-exfiltration/</link>
 <description><![CDATA[Recently, Anthropic added the capability for Claude’s Code Interpreter to perform network requests. This is obviously very dangerous as we will see in this post. At a high level, this post is about a data exfiltration attack chain, where an adversary (either the model or third-party attacker via indirect prompt injection) can exfiltrate data the user has access to. The interesting part is that this is not via hyperlink rendering as we often see, but by leveraging the built-in Anthropic Claude APIs!<br/><br/><em>Tags: ai_security</em>]]></description>
@@ -14241,6 +15420,123 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/turning-chaos-into-clarity-the-next-phase-of-intel-471s-geopolitical-intelligence-solution</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>T5Gemma: A new collection of encoder-decoder Gemma models</title>
+<link>https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/</link>
+<description><![CDATA[Introducing T5Gemma, a new collection of encoder-decoder LLMs.]]></description>
+<pubDate>Sat, 25 Oct 2025 18:14:00 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/t5gemma-a-new-collection-of-encoder-decoder-gemma-models/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>MedGemma: Our most capable open models for health AI development</title>
+<link>https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/</link>
+<description><![CDATA[We’re announcing new multimodal models in the MedGemma collection, our most capable open models for health AI development.]]></description>
+<pubDate>Sat, 25 Oct 2025 18:02:50 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Introducing Gemma 3n: The developer guide</title>
+<link>https://deepmind.google/blog/introducing-gemma-3n-the-developer-guide/</link>
+<description><![CDATA[Gemma 3n is designed for the developer community that helped shape Gemma.]]></description>
+<pubDate>Sat, 25 Oct 2025 17:54:47 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/introducing-gemma-3n-the-developer-guide/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Gemini 2.5 Flash-Lite is now ready for scaled production use</title>
+<link>https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/</link>
+<description><![CDATA[Gemini 2.5 Flash-Lite, previously in preview, is now stable and generally available. This cost-efficient model provides high quality in a small size, and includes 2.5 family features like a 1 million-token context window and multimodality.]]></description>
+<pubDate>Sat, 25 Oct 2025 17:34:32 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-25-flash-lite-is-now-ready-for-scaled-production-use/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Behind “ANCESTRA”: combining Veo with live-action filmmaking</title>
+<link>https://deepmind.google/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/</link>
+<description><![CDATA[We partnered with Darren Aronofsky, Eliza McNitt and a team of more than 200 people to make a film using Veo and live-action filmmaking.]]></description>
+<pubDate>Sat, 25 Oct 2025 17:27:10 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/behind-ancestra-combining-veo-with-live-action-filmmaking/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>AlphaEarth Foundations helps map our planet in unprecedented detail</title>
+<link>https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/</link>
+<description><![CDATA[New AI model integrates petabytes of Earth observation data to generate a unified data representation that revolutionizes global mapping and monitoring]]></description>
+<pubDate>Fri, 24 Oct 2025 19:06:32 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Exploring the context of online images with Backstory</title>
+<link>https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/</link>
+<description><![CDATA[New experimental AI tool helps people explore the context and origin of images seen online.]]></description>
+<pubDate>Fri, 24 Oct 2025 03:17:11 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/exploring-the-context-of-online-images-with-backstory/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Advanced version of Gemini with Deep Think officially achieves gold-medal standard at the International Mathematical Olympiad</title>
+<link>https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/</link>
+<description><![CDATA[The International Mathematical Olympiad (“IMO”) is the world’s most prestigious competition for young mathematicians, and has been held annually since 1959. Each country taking part is represented by six elite, pre-university mathematicians who compete to solve six exceptionally difficult problems in algebra, combinatorics, geometry, and number theory.]]></description>
+<pubDate>Fri, 24 Oct 2025 03:12:29 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Aeneas transforms how historians connect the past</title>
+<link>https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/</link>
+<description><![CDATA[Introducing the first model for contextualizing ancient inscriptions, designed to help historians better interpret, attribute and restore fragmentary texts.]]></description>
+<pubDate>Fri, 24 Oct 2025 02:58:37 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/aeneas-transforms-how-historians-connect-the-past/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Genie 3: A new frontier for world models</title>
+<link>https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/</link>
+<description><![CDATA[Genie 3 can generate dynamic worlds that you can navigate in real time at 24 frames per second, retaining consistency for a few minutes at a resolution of 720p.]]></description>
+<pubDate>Fri, 24 Oct 2025 02:54:30 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>How AI is helping advance the science of bioacoustics to save endangered species</title>
+<link>https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/</link>
+<description><![CDATA[Our new Perch model helps conservationists analyze audio faster to protect endangered species, from Hawaiian honeycreepers to coral reefs.]]></description>
+<pubDate>Fri, 24 Oct 2025 02:30:54 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/how-ai-is-helping-advance-the-science-of-bioacoustics-to-save-endangered-species/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Using AI to perceive the universe in greater depth</title>
+<link>https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/</link>
+<description><![CDATA[Using AI to perceive the universe in greater depth]]></description>
+<pubDate>Fri, 24 Oct 2025 02:21:07 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/using-ai-to-perceive-the-universe-in-greater-depth/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Gemini achieves gold-medal level at the International Collegiate Programming Contest World Finals</title>
+<link>https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/</link>
+<description><![CDATA[Gemini 2.5 Deep Think achieves breakthrough performance at the world’s most prestigious computer programming competition, demonstrating a profound leap in abstract problem solving.]]></description>
+<pubDate>Fri, 24 Oct 2025 00:22:10 +0000</pubDate>
+<guid isPermaLink="true">https://deepmind.google/blog/gemini-achieves-gold-medal-level-at-the-international-collegiate-programming-contest-world-finals/</guid>
+<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>We Got Yelled At by Amazon So You Didn’t Have To</title>
@@ -17428,7 +18724,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17437,7 +18733,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17446,7 +18742,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17455,7 +18751,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17465,7 +18761,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17474,7 +18770,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17483,7 +18779,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17492,7 +18788,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17501,7 +18797,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -17510,7 +18806,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 24 Aug 2026 03:10:16 +0000</pubDate>
+<pubDate>Mon, 24 Aug 2026 04:52:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
