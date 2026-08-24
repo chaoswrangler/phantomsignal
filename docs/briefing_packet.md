@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-24T11:35:11.905144+00:00
+- Generated: 2026-08-24T13:02:07.603615+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 292
-- Total clusters raw: 130
-- Total clusters in packet: 46
-- Dropped low score: 84
+- Total items in window: 293
+- Total clusters raw: 132
+- Total clusters in packet: 45
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,16 +75,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -95,41 +95,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 15
+  - In window count: 3
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -139,11 +144,6 @@
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
   - In window count: 4
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
@@ -160,26 +160,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 5
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -190,26 +195,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -225,16 +225,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -265,20 +265,15 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -290,30 +285,40 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 6
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
@@ -325,76 +330,66 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 16
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 16
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 17
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
+  - Item count: 100
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 25
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+  - Item count: 50
+  - In window count: 25
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+  - Item count: 30
+  - In window count: 18
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
+  - Item count: 20
   - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -410,41 +405,46 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
+  - Item count: 10
   - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 49
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 25
+  - In window count: 26
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 11
+  - In window count: 10
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -501,29 +501,6 @@
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
 
-### Apple iOS/macOS active exploitation
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
-- Cluster count: 5
-- Article count: 6
-- Cohesion: 0.227
-- Shared strong signals: Apple iOS/macOS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: web_shell_backdoor, ransomware_extortion, active_exploitation, supply_chain, apt_espionage
-  - affected_industries: financial_services, government
-  - affected_products: Apple iOS/macOS, Microsoft SharePoint
-  - cve_ids: CVE-2026-65400, CVE-2026-59310, CVE-2026-68820
-  - urgency_signals: actively_exploited
-- Cluster IDs: 175a6a518c, bd5d2abe67, 7e142768f0, 114ded0230, 388705e7c7
-- Links:
-  - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
-  - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
-  - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
-  - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
-  - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-
 ### Microsoft Entra active exploitation
 - Anchor signal: Microsoft Entra
 - Theme key: microsoft-entra
@@ -547,6 +524,28 @@
   - https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
+
+### Apple iOS/macOS active exploitation
+- Anchor signal: Apple iOS/macOS
+- Theme key: apple-ios-macos
+- Cluster count: 4
+- Article count: 5
+- Cohesion: 0.222
+- Shared strong signals: Apple iOS/macOS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: web_shell_backdoor, ransomware_extortion, active_exploitation
+  - affected_industries: financial_services, government
+  - affected_products: Apple iOS/macOS, Microsoft SharePoint
+  - cve_ids: CVE-2026-65400
+  - urgency_signals: actively_exploited
+- Cluster IDs: 175a6a518c, bd5d2abe67, 7e142768f0, 114ded0230
+- Links:
+  - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
+  - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://research.checkpoint.com/2026/17th-august-threat-intelligence-report/
+  - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
 
 ### web shell backdoor targeting Cisco
 - Anchor signal: Cisco
@@ -593,7 +592,7 @@
 - Anchor signal: CVE-2026-19490
 - Theme key: cve-2026-19490
 - Cluster count: 2
-- Article count: 3
+- Article count: 2
 - Cohesion: 0.35
 - Shared strong signals: CVE-2026-19490
 - Member CVEs: (none)
@@ -605,7 +604,6 @@
 - Cluster IDs: 7f1247614d, 844772e10d
 - Links:
   - https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
-  - https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
   - https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
 
 ### CVE-2026-73570 exploitation activity
@@ -704,32 +702,31 @@
   - https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/
   - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
 
-### Lazarus campaign activity
-- Anchor signal: Lazarus
-- Theme key: lazarus
+### Cl0p: ransomware extortion
+- Anchor signal: Cl0p
+- Theme key: cl0p
 - Cluster count: 2
-- Article count: 8
-- Cohesion: 0.283
-- Shared strong signals: Lazarus
+- Article count: 4
+- Cohesion: 0.237
+- Shared strong signals: Cl0p
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - actor_attribution: Lazarus
-  - affected_industries: financial_services
-- Cluster IDs: 9101d8d7ac, 388705e7c7
+  - threat_categories: ransomware_extortion
+  - actor_attribution: Cl0p
+- Cluster IDs: fb556ca51b, ec6e40ad77
 - Links:
-  - https://securelist.com/android-head-unit-malware/121106/
-  - https://risky.biz/RBNEWS604/
-  - https://www.helpnetsecurity.com/2026/08/24/android-malware-car-head-unit-badbox/
-  - https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
-  - https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems
-  - https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
-  - https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
+  - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
+  - https://cyberscoop.com/clop-zero-day-attacks-ptc-windchill-flexplm/
+  - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
+  - https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 2
+  - CVE-2026-15571 (first seen via The Hacker News at 2026-08-24T11:56:34+00:00, cluster bf833fa095)
+  - CVE-2026-18963 (first seen via The Hacker News at 2026-08-24T11:56:34+00:00, cluster bf833fa095)
 - Novel actors: 0
 - Novel products: 0
 
@@ -781,26 +778,23 @@
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, npm
 
-### Persistence (13)
+### Persistence (14)
 - actor_attribution: Cl0p (weeks observed: 8, cluster fb556ca51b)
 - actor_attribution: LockBit (weeks observed: 6, cluster 754c091d02)
+- actor_attribution: APT29 (weeks observed: 5, cluster d5c3fd8d4d)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 7b38f69250)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster 7b38f69250)
-- actor_attribution: APT29 (weeks observed: 4, cluster d5c3fd8d4d)
 - actor_attribution: Lazarus (weeks observed: 4, cluster 9101d8d7ac)
 - cve_ids: CVE-2026-59310 (weeks observed: 4, cluster bd5d2abe67)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 7b38f69250)
 - cve_ids: CVE-2025-66376 (weeks observed: 3, cluster 6117c1d701)
+- actor_attribution: APT28 (weeks observed: 3, cluster 5968a0ef70)
 - cve_ids: CVE-2026-3502 (weeks observed: 3, cluster 9a16830e44)
 - cve_ids: CVE-2026-55040 (weeks observed: 3, cluster bd5d2abe67)
 - actor_attribution: Kimsuky (weeks observed: 3, cluster 7e142768f0)
 - actor_attribution: UNC6671 (weeks observed: 3, cluster ec6e40ad77)
 
-### Tier inversion (2)
-- **From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)**
-  - Cluster: 4405003146
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-32193
+### Tier inversion (1)
 - **🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia**
   - Cluster: 2faaf824a1
   - Primary source: Reddit r/netsec
@@ -808,15 +802,15 @@
 
 ## Clusters
 
-### Cluster 7f1247614d — score 37
+### Cluster 7f1247614d — score 31
 
 - Title: CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway
 - Source: Rapid7 (offensive_vulnerability_research)
 - Published: 2026-08-19T16:46:06+00:00
 - Link: https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: CVE-2026-19490, Citrix
 
 #### Cluster taxonomy (union across members)
@@ -825,7 +819,7 @@
 - cve_ids: CVE-2026-19490
 - urgency_signals: actively_exploited, preauth_unauth
 - content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_4_news
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
 - threat_categories: active_exploitation
@@ -847,18 +841,13 @@ Overview On August 19, 2026, a security advisory was published for CVE-2026-1949
 Back to Blog Vulnerabilities and Exploits CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway Rapid7 Aug 19, 2026 | Last updated on Aug 20, 2026 | 3 min read Overview On August 19, 2026, a security advisory was published for CVE-2026-19490 , a critical authentication bypass vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. The vulnerability carries a CVSS v4.0 base score of 9.3 and can be exploited remotely by an unauthenticated attacker over the network without user interaction or elevated privileges. NetScaler ADC and NetScaler Gateway are widely deployed enterprise networking products commonly positioned at or near the network perimeter. NetScaler ADC provides application delivery, traffic management, load balancing, SSL/TLS offloading, and application security capabilities, while NetScaler Gateway provides secure remote access and VPN functionality. Because these systems are frequently deployed in enterprise DMZs and exposed to the public internet, authentication bypass vulnerabilities affecting Citrix products are nearly always exploited by threat actors. CVE-2026-19490 affects the following systems: NetScaler ADC and NetScaler Gateway 14.1: Versions prior to 14.1-73.32 NetScaler ADC and NetScaler Gateway 13.1: Versions prior to 13.1-63.21 NetScaler ADC FIPS: Versions prior to 14.1-73.32 FIPS NetScaler ADC FIPS and NDcPP: Versions prior to 13.1-37.277 As of August 19, 2026, Rapid7 has not observed evidence that CVE-2026-19490 is being exploited in the wild. However, organizations should prioritize patching affected systems on an emergency basis, since Citrix products are high-value targets that tend to quickly see exploitation in the wild. Mitigation guidance Organizations running affected NetScaler ADC or NetScaler Gateway appliances should review the official NetScaler advisory and apply the required updates to affected systems on an emergency basis. Fixed versions for affected products are listed below: NetScaler ADC and NetScaler Gateway 14.1-73.32 and later releases NetScaler ADC and NetScaler Gateway 13.1-63.21 and later releases of 13.1 NetScaler ADC 14.1-FIPS 14.1-73.32 FIPS and later releases of 14.1-FIPS NetScaler ADC 13.1-FIPS and 13.1-NDcPP 13.1-37.277 and later releases of 13.1-FIPS and 13.1-NDcPP According to Citrix, customers can determine whether affected systems are vulnerable to CVE-2026-19490 by inspecting their NetScaler configuration for the following configuration entries. If one or more of the following items are present, and if the systems are running affected versions, the system is likely to be exploitable: SAML action configuration is in place: "add authentication samlAction.*" Auth or VPN vserver is configured: "add authentication vserver .*" "add vpn vserver .*" For the latest guidance, please refer to the official Citrix advisory . Rapid7 customers Exposure Command, InsightVM, and Nexpose Customers can assess exposure to CVE-2026-19490 on Citrix NetScaler ADC and Gateway using a vulnerability check available in the August 20 content release. Updates August 19, 2026: Initial publication. August 20, 2026: Updated Rapid7 customers section to reflect availability of vulnerability check. Article Tags Emergent Threat Response Labs Vulnerability Management Rapid7 Author Posts
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway
   - Published: 2026-08-19T16:46:06+00:00
   - Link: https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
   - Summary: Overview On August 19, 2026, a security advisory was published for CVE-2026-19490 , a critical authentication bypass vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. The vulnerability carries a CVSS v4.0 base score of 9.3 and can be exploited remotely by an unauthenticated attacker over the network without user interaction or elevated privileges. NetScaler ADC and NetScaler Gateway are widely deployed enterprise networking products commonly positioned at or near the network perimeter. NetScaler ADC provides application delivery, traffic management, load balancing, SSL/TLS offloading, and application security capabilities, while NetScaler Gateway provides secure remote access and VPN functionality. Because these systems are frequently deployed in enterprise DMZs and exposed to the public internet, authentication bypass vulnerabilities affecting Citrix products are nearly always exploited by threat actors. CVE-2026-19490 affects the following systems: NetScaler ADC and
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Citrix urges customers to fix critical NetScaler authentication bypass (CVE-2026-19490)
-  - Published: 2026-08-21T07:55:43+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/21/citrix-netscaler-gateway-cve-2026-19490/
-  - Summary: Citrix has patched two vulnerabilities in NetScaler ADC and NetScaler Gateway, including a critical authentication bypass flaw tracked as CVE-2026-19490, and is urging customers to upgrade affected appliances as soon as possible. “We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin, assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible,” Anil Shetty, senior VP of Engineering with Cloud Software Group … More → The post Citrix urges customers to fix critical NetScaler authentication bypass (CVE-2026-19490) appeared first on Help Net Security .
 
 ### Cluster 91f1063cec — score 31
 
@@ -1279,7 +1268,7 @@ The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. gov
 #### Full body
 
 ```
-CISA orders urgent patching of actively exploited Zimbra flaw By Sergiu Gatlan August 24, 2026 06:45 AM 0 The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. The Zimbra security team patched the security flaw (tracked as CVE-2026-73570 ) in version 10.1.20 , released on July 20. Successful exploitation allows unauthenticated attackers to gain remote code execution by exploiting a command injection weakness in the SNMP monitoring component when SNMP notifications are enabled on the targeted system. "Due to improper sanitization of untrusted input during SNMP notification processing, an unauthenticated attacker can send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user," it explained. CISA's warning comes after CERT Polska, the Polish Computer Emergency Response Team (CERT), first flagged the vulnerability as targeted in the wild last Monday. While threat security watchdog Shadowserver tracks more than 12,000 Zimbra servers exposed on the Internet, there is no information on how many are honeypots or have already been secured against attacks exploiting the CVE-2026-73570 flaw. Zimbra Collaboration Suite servers exposed online (Shadowserver) ​On Friday, CISA confirmed CERT Polska's alert, added the flaw to its KEV catalog, and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their systems within three days, by August 24. Although CISA didn't share any information on these ongoing attacks, the Polish CERT team asked security teams to check logs for suspicious activity, such as the Zimbra service restarting unexpectedly, and for files created in the /opt/zimbra/jetty/webapps/, /opt/zimbra/jetty_base/webapps/, and /tmp/ folders by user zimbra over the last 30 days. ZCS is a popular email and collaboration suite used by hundreds of millions of organizations and people worldwide, including hundreds of government agencies and thousands of businesses. Zimbra security issues are commonly targeted in the wild and have been used to steal sensitive data from vulnerable email servers in recent years. Most recently, Seqrite Labs researchers revealed in March that APT28 (a state-sponsored threat group linked to Russia's military intelligence service) was exploiting a stored cross-site scripting (XSS) vulnerability in attacks targeting Ukrainian government ZCS servers . In October 2024, U.S. and UK cyber agencies warned that APT29 hackers (tracked as Midnight Blizzard and Cozy Bear) linked to Russia's Foreign Intelligence Service were targeting Zimbra servers using a flaw previously exploited to steal email account credentials . Russian Winter Vivern cyber spies have also abused a reflected Cross-Site Scripting (XSS) vulnerability to steal emails belonging to NATO-aligned individuals and organizations via Zimbra webmail portals. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical Zimbra RCE flaw now actively exploited in attacks Critical RCE flaw in Windows IKE Extension now actively exploited CISA orders urgent action on actively exploited Langflow RCE flaw Critical Langflow RCE flaw exploited to hack AI app servers CISA sets urgent deadline to fix Cisco flaw exploited in attacks
+CISA orders urgent patching of actively exploited Zimbra flaw By Sergiu Gatlan August 24, 2026 06:45 AM 0 The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. The Zimbra security team patched the security flaw (tracked as CVE-2026-73570 ) in version 10.1.20 , released on July 20. Successful exploitation allows unauthenticated attackers to gain remote code execution by exploiting a command injection weakness in the SNMP monitoring component when SNMP notifications are enabled on the targeted system. "Due to improper sanitization of untrusted input during SNMP notification processing, an unauthenticated attacker can send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user," it explained. CISA's warning comes after CERT Polska, the Polish Computer Emergency Response Team (CERT), first flagged the vulnerability as targeted in the wild last Monday. While threat security watchdog Shadowserver tracks more than 12,000 Zimbra servers exposed on the Internet, there is no information on how many are honeypots or have already been secured against attacks exploiting the CVE-2026-73570 flaw. On Monday, Shadowserver also said it has found over 270 compromised Zimbra Collaboration Suite instances while looking for CVE-2026-73570 exploitation artifacts. Zimbra Collaboration Suite servers exposed online (Shadowserver) ​On Friday, CISA confirmed CERT Polska's alert, added the flaw to its KEV catalog, and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their systems within three days, by August 24. Although CISA didn't share any information on these ongoing attacks, the Polish CERT team asked security teams to check logs for suspicious activity, such as the Zimbra service restarting unexpectedly, and for files created in the /opt/zimbra/jetty/webapps/, /opt/zimbra/jetty_base/webapps/, and /tmp/ folders by user zimbra over the last 30 days. ZCS is a popular email and collaboration suite used by hundreds of millions of organizations and people worldwide, including hundreds of government agencies and thousands of businesses. Zimbra security issues are commonly targeted in the wild and have been used to steal sensitive data from vulnerable email servers in recent years. Most recently, Seqrite Labs researchers revealed in March that APT28 (a state-sponsored threat group linked to Russia's military intelligence service) was exploiting a stored cross-site scripting (XSS) vulnerability in attacks targeting Ukrainian government ZCS servers . In October 2024, U.S. and UK cyber agencies warned that APT29 hackers (tracked as Midnight Blizzard and Cozy Bear) linked to Russia's Foreign Intelligence Service were targeting Zimbra servers using a flaw previously exploited to steal email account credentials . Russian Winter Vivern cyber spies have also abused a reflected Cross-Site Scripting (XSS) vulnerability to steal emails belonging to NATO-aligned individuals and organizations via Zimbra webmail portals. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical Zimbra RCE flaw now actively exploited in attacks Critical RCE flaw in Windows IKE Extension now actively exploited CISA orders urgent action on actively exploited Langflow RCE flaw Critical Langflow RCE flaw exploited to hack AI app servers CISA sets urgent deadline to fix Cisco flaw exploited in attacks
 ```
 
 #### Corroborating sources (1)
@@ -1488,7 +1477,7 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. fe
 #### Full body
 
 ```
-CISA orders feds to patch actively exploited TrueConf Server flaws By Sergiu Gatlan August 21, 2026 08:25 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. TrueConf Server is designed for secure corporate messaging and video conferencing and, unlike cloud-based software like Zoom or Microsoft Teams, it operates inside an organization's local network (LAN). The most severe is a critical missing authentication security flaw (tracked as CVE-2026-72529 ) that allows attackers without privileges to remotely execute arbitrary scripts on unpatched servers. "A remote unauthenticated attacker connecting to TrueConf Server over 4307/TCP can invoke an undocumented critical function and execute an arbitrary script on the server," the TrueConf security team explains . The second is another critical severity vulnerability ( CVE-2026-72530 ) that unauthenticated threat actors can exploit through high-complexity code injection attacks to gain remote code execution. "Improper management of code generation can allow an attacker who has achieved code execution in the TrueConf Server isolated environment to escape the sandbox and execute arbitrary commands on the underlying operating system," TrueConf adds . On Thursday, CISA added the two flaws to its KEV catalog and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their servers within two weeks, by September 3. "This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise," the cybersecurity agency warned . While CISA didn't share details on these attacks, cybersecurity company Kaspersky said the Head Mare hacktivist group has been exploiting CVE-2026-72529 and CVE-2026-72530 since at least July 2026 to replace client installers with malicious versions designed to deploy backdoor malware. According to Kaspersky, multiple Head Mare campaigns targeted Russian organizations across various industry sectors, including transportation, energy, IT, electronics, and software development. In April 2026, Check Point Research also reported that hackers were targeting another TrueConf flaw (CVE-2026-3502) in zero-day attacks dubbed "Operation True Chaos" and linked to Chinese threat actors, compromising users via trojanized client updates. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Critical RCE flaw in Windows IKE Extension now actively exploited CISA warns of hackers exploiting critical MLflow vulnerability CISA: Windows Task Host flaw now exploited by ransomware gangs CISA: Microsoft SharePoint flaw now exploited in ransomware attacks Critical Progress LoadMaster flaw now actively exploited in attacks
+CISA orders feds to patch actively exploited TrueConf Server flaws By Sergiu Gatlan August 21, 2026 08:25 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. TrueConf Server is designed for secure corporate messaging and video conferencing and, unlike cloud-based software like Zoom or Microsoft Teams, it operates inside an organization's local network (LAN). The most severe is a critical missing authentication security flaw (tracked as CVE-2026-72529 ) that allows attackers without privileges to remotely execute arbitrary scripts on unpatched servers. "A remote unauthenticated attacker connecting to TrueConf Server over 4307/TCP can invoke an undocumented critical function and execute an arbitrary script on the server," the TrueConf security team explains . The second is another critical severity vulnerability ( CVE-2026-72530 ) that unauthenticated threat actors can exploit through high-complexity code injection attacks to gain remote code execution. "Improper management of code generation can allow an attacker who has achieved code execution in the TrueConf Server isolated environment to escape the sandbox and execute arbitrary commands on the underlying operating system," TrueConf adds . On Thursday, CISA added the two flaws to its KEV catalog and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to secure their servers within two weeks, by September 3. "This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise," the cybersecurity agency warned . While CISA didn't share details on these attacks, cybersecurity company Kaspersky said the Head Mare hacktivist group has been exploiting CVE-2026-72529 and CVE-2026-72530 since at least July 2026 to replace client installers with malicious versions designed to deploy backdoor malware. According to Kaspersky, multiple Head Mare campaigns targeted Russian organizations across various industry sectors, including transportation, energy, IT, electronics, and software development. In April 2026, Check Point Research also reported that hackers were targeting another TrueConf flaw (CVE-2026-3502) in zero-day attacks dubbed "Operation True Chaos" and linked to Chinese threat actors, compromising users via trojanized client updates. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA orders urgent patching of actively exploited Zimbra flaw Critical RCE flaw in Windows IKE Extension now actively exploited CISA warns of hackers exploiting critical MLflow vulnerability CISA: Windows Task Host flaw now exploited by ransomware gangs CISA: Microsoft SharePoint flaw now exploited in ransomware attacks
 ```
 
 #### Corroborating sources (1)
@@ -1594,16 +1583,16 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
   - Published: 2026-08-20T23:57:32+00:00
   - Link: https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
   - Summary: ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging "GEO" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: New CUSTODY Framework Constrains AI Agents Inside the Network
-  - Published: 2026-08-20T20:42:18+00:00
-  - Link: https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network
-  - Summary: Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Attackers impersonate popular AI brands to spread malware
   - Published: 2026-08-21T11:47:39+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/21/ai-brand-impersonation-malware-malware-research/
   - Summary: Attackers are impersonating popular AI brands like Perplexity, Claude, ChatGPT, and Copilot to spread information stealers, backdoors, malicious browser extensions, and other malware, according to Sophos. Overview of MDR cases with AI involvement (Source: Sophos) Sophos X-Ops reviewed 12 months of managed detection and response cases, covering July 2, 2025 through June 29, 2026. Of 86 cases initially tagged for AI involvement, 34 were confirmed as malicious activity involving AI. Researchers added four cases uncovered … More → The post Attackers impersonate popular AI brands to spread malware appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: New CUSTODY Framework Constrains AI Agents Inside the Network
+  - Published: 2026-08-20T20:42:18+00:00
+  - Link: https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network
+  - Summary: Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior
   - Published: 2026-08-19T18:06:44+00:00
@@ -1750,12 +1739,12 @@ New malware that uses steganography always gets my attention, but I was disappoi
 - Published: 2026-08-17T14:00:00+00:00
 - Link: https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 4
+- Corroborating source count: 3
 - Strong signals: Atlassian Jira, GitHub, Snowflake
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, vulnerability_disclosure
+- threat_categories: active_exploitation, vulnerability_disclosure
 - affected_products: Atlassian Jira, GitHub, Snowflake
 - urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report, vulnerability_disclosure
@@ -1780,7 +1769,7 @@ Wiz Red Agent independently discovered and exploited a GitHub Actions injection 
 Wiz Pricing Get a demo Get a demo As part of ongoing security research conducted through Snowflake’s HackerOne vulnerability disclosure program, Wiz Research’s "Red Agent"—an autonomous, AI-powered security research tool—identified a critical GitHub Actions workflow vulnerability in one of Snowflake’s public repositories. This incident highlights a new reality in software development: Critical vulnerabilities can still be introduced and approved within workflows involving AI coding agents and can still pass established automated security checks, while autonomous AI security agents can rapidly discover and exploit them in the wild. Upon responsible disclosure on June 23, 2026 by Wiz, Snowflake remediated the vulnerability on the same day, rotated the affected credential, and verified via detailed audit logs that Wiz was the sole actor during the exposure window. Wiz confirmed that all data accessed during proof-of-concept testing was securely deleted. August 17, 2026, 1957 UTC update: This blog has been updated to clarify that Copilot was a co-author that checked the merged PR and code change, and identified it as all-clear without noticing the critical vulnerabilities. It's unclear whether the code-change was AI-assisted. Executive Summary Wiz Red Agent identified a script injection vulnerability in snowflakedb/snowflake-connector-net . The issue allowed an unauthenticated user to execute arbitrary commands within a GitHub Actions runner by opening a GitHub issue with a specially crafted title. Crucially, the vulnerability became live on June 18, 2026 - just five days before its discovery - when PR #1218 was merged. GitHub Advanced Security scan analyzed the final PR revision, including the vulnerable workflow, but did not flag the critical injection. Screenshot demonstrating access to Snowflake's Jira portal, via an exfiltrated token Exposure Walk-Through Discovery Wiz Red Agent's CI/CD capability scanned Snowflake's GitHub organization and flagged the jira_issue.yml Workflow in snowflakedb/snowflake-connector-net as vulnerable to script injection via untrusted input in run: blocks. The Code Change - env : - ISSUE_TITLE : ${{ github.event.issue.title }} - run : jq -n --arg title "$ISSUE_TITLE" ... + run : TITLE=$(echo '${{ github.event.issue.title }}' | sed ...) The workflow triggered on issues: opened - meaning any GitHub user could fire it by opening an issue - and interpolated the attacker-controlled issue title directly into a shell script: run : | TITLE=$(echo '${{ github.event.issue.title }}' | sed 's/"/\\"/g' | sed "s/'/\\\'/g") The sed escaping runs after GitHub's template expansion, a single quote in the title breaks out of echo '...' and allows arbitrary command execution. The injectable pattern was added to jira_issue.yml in commit 094038e and became live when PR #1218 was squash-merged as commit 4a1b8ce ( PR #1218: “SNOW-2069227: Update jira workflows” ). Copilot Autofix’s documented contribution was a separate fix to jira_close.yml within the same PR. GitHub Advanced Security’s scan explicitly extracted the vulnerable jira_issue.yml workflow but did not flag the injection. The merged PR removed the repository’s existing safe env: and jq pattern and replaced it with direct ${{ github.event.issue.title }} interpolation, creating the injection vector. The commit introducing the vulnerable pattern The code change introducing the vulnerable pattern The Open “Security Gate” The workflow had an if: condition that appeared protective: if : (github.event_name == 'issues' && github.event.pull_request.user.login != 'whitesource-for-github-com[bot]') However, on issues events, github.event.pull_request is always null . So the condition reduces to ( null != 'whitesource-for-github-com[bot]' ). This is always true, and every GitHub user passes the gate. The Open “Security Gate” Exploitation We crafted an issue title that, after template expansion, breaks out of the echo string and exfiltrates the Jira credentials via an out-of
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **Wiz Research** (cloud_identity_infrastructure)
   - Title: Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR
@@ -1797,11 +1786,6 @@ Wiz Pricing Get a demo Get a demo As part of ongoing security research conducted
   - Published: 2026-08-18T16:24:33+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
   - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug
-  - Published: 2026-08-21T15:11:16+00:00
-  - Link: https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/
-  - Summary: Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification. The post In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug appeared first on SecurityWeek .
 
 ### Cluster 213e3c4494 — score 10
 
@@ -2290,7 +2274,7 @@ Describing attacks with crime script analysis By Martin Lee Wednesday, August 19
 - Source: Rapid7 (offensive_vulnerability_research)
 - Published: 2026-08-19T12:00:00+00:00
 - Link: https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america
-- Fetch status: ok
+- Fetch status: fetch_failed:ReadTimeout
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -2307,12 +2291,6 @@ Describing attacks with crime script analysis By Martin Lee Wednesday, August 19
 
 ```
 Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation
-```
-
-#### Full body
-
-```
-Back to Blog Culture Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America Cássio De Alcântara Aug 19, 2026 | Last updated on Aug 19, 2026 | 3 min read DISCOVER RAPID7 MDR Cássio De Alcântara is Director, LATAM Sales at Rapid7. Across Latin America, organizations are embracing cloud, AI, and digital transformation to drive innovation and business growth. These technologies create new opportunities, but also introduce greater complexity and expanding attack surfaces. In this environment, security leaders are being asked to understand where risk exists across increasingly distributed environments and quickly eliminate blind spots like Shadow IT and Shadow AI – all without adding operational complexity. To help security leaders and practitioners address this complexity, Rapid7 is excited to announce a new strategic distribution partnership with Licencias OnLine (LOL) across Latin America. Helping organizations stay ahead of evolving threats In order to keep day-to-day business operations moving, organizations need security solutions that not only protect critical assets but also support innovation, regulatory compliance, and long-term digital transformation. Rapid7's AI-powered cybersecurity operations platform helps organizations strengthen cyber resilience by unifying continuous exposure management, AI-driven threat detection and response, and security automation. By connecting security data across endpoint, cloud, identity, and infrastructure environments, organizations leverage one platform to gain the visibility to reduce risk and act with confidence. A shared commitment to partner success Success in today’s fragmented cybersecurity environments depends on a strong ecosystem of partners who can help organizations implement, optimize, and maximize the value of unified security operations. This is where Licencias OnLine comes in. With a strong, well-established presence across Latin America, deep cybersecurity expertise, and a highly specialized channel ecosystem, Licencias OnLine brings the local knowledge, technical enablement, and operational agility needed to help partners grow their cybersecurity practices and deliver greater value to customers. Together, Rapid7 and Licencias OnLine will invest in technical training, partner enablement, joint marketing initiatives, and go-to-market programs that help partners expand managed security services , strengthen customer relationships, and accelerate business growth across the region. Building cyber resilience together As organizations across Latin America continue to modernize their IT environments, they should have access to security operations that are integrated, intelligent, and designed for today's AI-powered threat landscape. Rapid7's open platform supports this approach through hundreds of technology integrations that help organizations eliminate security silos, improve visibility across their attack surfaces, and automate response workflows. This enables security teams to reduce operational complexity while improving cybersecurity program maturity. By combining Rapid7's global cybersecurity innovation with Licencias OnLine's regional expertise and trusted partner network, this new alliance will make it easier for organizations across Latin America to strengthen cyber resilience while enabling partners to see greater success through measurable business outcomes. We're excited to begin this next chapter together and look forward to supporting our partners as they help customers build stronger, more resilient security operations across the region. Ready to grow with Rapid7? Discover how Rapid7 and Licencias OnLine are helping partners accelerate cybersecurity maturity across Latin America. Article Tags Cybersecurity Cássio De Alcântara Author Posts
 ```
 
 #### Corroborating sources (1)
@@ -2381,7 +2359,7 @@ Back to Blog Threat Research New Report: AI threats are here. Why Q2 2026 signal
 - threat_categories: data_breach, phishing_social_eng, ransomware_extortion
 - actor_attribution: Cl0p, UNC6671
 - affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, Fortinet, OpenAI/ChatGPT
+- affected_products: Fortinet, OpenAI/ChatGPT
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -2389,7 +2367,7 @@ Back to Blog Threat Research New Report: AI threats are here. Why Q2 2026 signal
 - threat_categories: ransomware_extortion, phishing_social_eng, data_breach
 - actor_attribution: Cl0p, UNC6671
 - affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Fortinet, Anthropic/Claude
+- affected_products: OpenAI/ChatGPT, Fortinet
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -2402,7 +2380,7 @@ The private equity firm appears to have been targeted as part of a campaign focu
 #### Full body
 
 ```
-Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Fortinet Acquires AI Security Company Virtue AI Irregular Details How a Naming Error Let AI Models Attack a Real Company Latest News Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Rethinking Application Security for the AI Era Iran-Linked Hackers Shut Down UK Power Plant for Four Days TikTok Reaches $400 Million Settlement With US Justice Department Over Children’s Privacy Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight F
+Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Fortinet Acquires AI Security Company Virtue AI Irregular Details How a Naming Error Let AI Models Attack a Real Company Latest News Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Rethinking Application Security for the AI Era Iran-Linked Hackers Shut Down UK Power Plant for Four Days TikTok Reaches $400 Million Settlement With US Justice Department Over Children’s Privac
 ```
 
 #### Corroborating sources (1)
@@ -2458,95 +2436,50 @@ Anamarija Pogorelec , Senior Staff Writer, Help Net Security August 24, 2026 Sha
   - Link: https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/
   - Summary: Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are … More → The post Ransomware attackers are zeroing in on mid-market companies appeared first on Help Net Security .
 
-### Cluster e50251994f — score 9
+### Cluster bf833fa095 — score 10
 
-- Title: Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-08-19T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/
+- Title: Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-24T11:56:34+00:00
+- Link: https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Google Cloud, Google/Gemini
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-18963
 
 #### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- affected_products: Google Cloud, Google/Gemini
+- affected_products: GitHub
+- cve_ids: CVE-2026-15571, CVE-2026-18963
+- urgency_signals: preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_industries: financial_services
-- affected_products: Google Cloud, Google/Gemini
+- affected_products: GitHub
+- cve_ids: CVE-2026-18963, CVE-2026-15571
+- urgency_signals: preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch
+Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as
 ```
 
 #### Full body
 
 ```
-Data Analytics Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting August 19, 2026 Lior (Leo) Ginzberg Data & Analytics Customer Engineer, Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Choosing your Apache Spark deployment model When launching Spark workloads on Managed Service for Apache Spark, the first major decision point is evaluating whether to construct traditional managed clusters or transition to a zero-management, serverless infrastructure footprint. Decision #1: Managed clusters vs. serverless *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Choosing between traditional Managed Spark clusters and serverless depends on ecosystem requirements, infrastructure control needs, and financial utilization patterns: Workload frequency, latency sensitive workloads & financial fit: For continuous, highly predictable, 24/7 streaming or batch processing pipelines where cluster nodes maintain constant high utilization baselines (80%+) or when the workflow’s accumulated startup time risk meeting SLA target, a permanently running, finely tuned traditional cluster, with custom YARN autoscaling rules, can sometimes be more cost-predictable. Conversely, for intermittent, bursty, ad-hoc, or orchestrator-triggered pipelines, Managed Spark serverless is highly optimal, eliminating operational management, requiring less planning time and ensuring you don’t pay for idle compute time. Ecosystem & component requirements: Managed Spark serverless is strictly optimized for Apache Spark 3.x+ codebases. If your processing pipeline relies on other ecosystem components such as Apache Flink, Presto/Trino, Hive LLAP, or Apache HBase, or if you are locked into a legacy Spark 2.x codebase, you must use Managed Spark clusters. Infrastructure customization needs: Managed Spark serverless abstracts away the underlying virtual machine (VM) layer. If your workload mandates deep OS-level hardware tuning, custom OS initialization actions, root SSH access to instances, specific local SSD configurations, or custom machine shapes, a traditional cluster is required. Note that serverless does support custom Docker container images for bundling specific application-level libraries. Decision #2: Serverless interactive sessions vs. serverless batches *Created using Nano Banana 2 in Gemini Enterprise Agent Platform Once you select the serverless deployment mode, you must choose the appropriate execution model based on your development stage and operational requirements. Managed Service for Apache Spark provides two options for running serverless workloads: Serverless interactive sessions Interactive sessions are great for iterative and exploratory use cases. You write blocks of code, inspect intermediate DataFrames, modify variables, and generate visualizations with your dataset held warm in-memory. Primary interface : Designed for human-in-the-loop interaction. Developers execute code
+Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account  Swati Khandelwal  Aug 24, 2026 Vulnerability / Identity Security Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963 , is rated 9.1 on the CVSS scoring system by Red Hat, which acts as the CVE Numbering Authority (CNA) for the flaw. It has been classified as a weak password recovery mechanism for a forgotten password (CWE-640). Users of upstream Keycloak are advised to update to version 26.7.2, released August 19, 2026, while customers running Red Hat build of Keycloak (RHBK) should apply the updates shipped for 26.4.15 and 26.6.6. There is no evidence that the flaw has been exploited, and no verified public exploit has been located as of August 24, 2026. Red Hat said in its CVE advisory that the root cause is "improper state validation within the reset-credentials authentication flow," the sequence Keycloak runs when a user requests password recovery. The company assessed the severity as Critical because an unauthenticated remote attacker can exploit the flaw without any user interaction. The defect lies in how the flow's state is managed, according to the Red Hat bug report . An attacker sends a specially crafted request to the reset-credentials endpoint. The authentication session then transitions directly to the password update phase. The action token that Keycloak normally sends via email is never required. Successful exploitation results in a complete account takeover of any user, "including administrative accounts," by resetting their password. Escape researcher Enzo Mongin, writing about a separate Keycloak access-control flaw he disclosed in July, said an attacker who crosses one of the server's boundaries does not stop at Keycloak, and that "they get into everything sitting behind it." Red Hat issued four errata on August 18, 2026 ( RHSA-2026:56519 , RHSA-2026:56520 , RHSA-2026:56523 and RHSA-2026:56524 ), covering the standalone server packages and the container images for two RHBK streams. The fixed versions are as follows - Red Hat build of Keycloak 26.4 is unaffected from operator bundle 26.4.15-1, and from the rhbk/keycloak-rhel9 and rhbk/keycloak-rhel9-operator images 26.4-23 Red Hat build of Keycloak 26.6 is unaffected from operator bundle 26.6.6-1 and from the keycloak-rhel9 and operator containers 26.6-12 Upstream Keycloak is fixed in 26.7.2 The GitHub advisory for the flaw lists both the affected and the patched versions as unknown, and the CVE record carries only Red Hat product references. The initial CVE record listed Red Hat Single Sign-On 7 as unaffected and the Red Hat JBoss Enterprise Application Platform Expansion Pack as affected. A later revision narrowed the product list, and NVD's display truncates it, so the current status of both is not established. For deployments that cannot be updated immediately, Red Hat has published a temporary mitigation -- turn off the "Forgot password" functionality across all realms. In the RHBK administration console, the setting sits under Realm settings, then Login, then Forgot password. Red Hat said the setting must be applied to every realm and that customers should upgrade to a fixed version as soon as possible. CVE-2026-18963 was one of eight CVE identifiers listed as fixed in the Keycloak 26.7.2 release notes . The same release addressed CVE-2026-15571, a predictable account-linking hash that enables account takeover through a malicious OpenID Connect (OIDC) client. Two weeks earlier, on August 5, 2026, Keycloak 26.7.1 shipped fixes for twelve CVEs , including a SAML identity-provider-initiated broker login that bypassed a link-only restriction and a default dynamic client registration policy that
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Serverless Apache Spark on Google Cloud: Architecture Choices & AI Troubleshooting
-  - Published: 2026-08-19T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/data-analytics/serverless-apache-spark-on-google-cloud-architecture-ai-troubleshooting/
-  - Summary: In modern enterprise data engineering, Apache Spark remains a cornerstone framework for processing massive datasets at scale. However, managing infrastructure such as provisioning clusters, tuning YARN configurations, and avoiding costs for idle hardware often detracts from what matters most: building resilient data pipelines. Google Cloud addresses this operational overhead via its Managed Service for Apache Spark , offering flexible deployment modes of serverless and managed clusters tailored to specific operational needs. This technical guide walks through the architectural decision matrix for deploying Spark on Google Cloud, details resource and cost optimization techniques, and demonstrates how to apply built-in Gemini Cloud Assist to rapidly troubleshoot and resolve serverless batch pipeline failures. While there is benefit to reading these three parts in a sequence, each one can be read independently and add value to how you approach Spark development on Google Cloud. Part 1: Ch
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini
-  - Published: 2026-08-21T14:34:05+00:00
-  - Link: https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/
-  - Summary: Researchers say the new ‘Cryptographic Context Injection’ technique conceals malicious instructions until they are decrypted inside a trusted execution environment. The post Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini appeared first on SecurityWeek .
-
-### Cluster 4405003146 — score 9
-
-- Title: From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-08-17T12:17:40+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-32193, Microsoft/Copilot
-
-#### Cluster taxonomy (union across members)
-- affected_products: Microsoft/Copilot
-- cve_ids: CVE-2026-32193
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- affected_products: Microsoft/Copilot
-- cve_ids: CVE-2026-32193
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/Master_Access_486 [link] [comments]
-```
-
-#### Corroborating sources (2)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: From AKS node root vulnerability to Microsoft Copilot hijack (CVE-2026-32193)
-  - Published: 2026-08-17T12:17:40+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vqqpwn/from_aks_node_root_vulnerability_to_microsoft/
-  - Summary: submitted by /u/Master_Access_486 [link] [comments]
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps
-  - Published: 2026-08-18T17:47:22+00:00
-  - Link: https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html
-  - Summary: Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other information available to the victim's Copilot session. The flaws, which the researchers collectively named CoSnitch, turn in part on an undocumented URL parameter that the assistant itself surfaced
+  - Title: Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account
+  - Published: 2026-08-24T11:56:34+00:00
+  - Link: https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html
+  - Summary: Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as
 
 ### Cluster 114ded0230 — score 8
 
@@ -2683,6 +2616,90 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/
   - Summary: The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .
 
+### Cluster 3d65fde880 — score 8
+
+- Title: Your executable is a SQLite database
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-08-24T11:38:15+00:00
+- Link: https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \ > /proc/sys/fs/binfmt_misc/register Via Hacker News Tags: c , linux , sqlite
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Teleport — AI agents don’t sleep and will try anything to achieve their goal. Teleport explains how to deploy AI safely, starting with an isolated ephemeral trusted runtime. 24th August 2026 - Link Blog Your executable is a SQLite database ( via ) Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \ > /proc/sys/fs/binfmt_misc/register Posted 24th August 2026 at 11:38 am Recent articles Conceptual integrity and counting lines of code - 19th August 2026 Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things - 16th August 2026 Now we have a timeline of the OpenAI accidental attack against Hugging Face - 7th August 2026 This is a link post by Simon Willison, posted on 24th August 2026 . c 54 linux 51 sqlite 485 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Your executable is a SQLite database
+  - Published: 2026-08-24T11:38:15+00:00
+  - Link: https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/
+  - Summary: Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \ > /proc/sys/fs/binfmt_misc/register Via Hacker News Tags: c , linux , sqlite
+
+### Cluster 1293349fdc — score 8
+
+- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-18T10:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+  - Published: 2026-08-18T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+
 ### Cluster 844772e10d — score 8
 
 - Title: Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers
@@ -2807,100 +2824,6 @@ Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasse
   - Published: 2026-08-19T11:34:28+00:00
   - Link: https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
   - Summary: Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files
-
-### Cluster 388705e7c7 — score 8
-
-- Title: ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-17T13:23:51+00:00
-- Link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, phishing_social_eng, ransomware_extortion, supply_chain, web_shell_backdoor, zero_day
-- actor_attribution: Lazarus
-- affected_industries: aviation_defense, financial_services, government
-- affected_products: Apple iOS/macOS, VMware
-- cve_ids: CVE-2026-59310, CVE-2026-65400, CVE-2026-68820
-- urgency_signals: actively_exploited, zero_day
-- content_type: intel_roundup
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, apt_espionage, web_shell_backdoor, active_exploitation
-- actor_attribution: Lazarus
-- affected_industries: financial_services, government, aviation_defense
-- affected_products: Apple iOS/macOS, VMware
-- cve_ids: CVE-2026-59310, CVE-2026-65400, CVE-2026-68820
-- urgency_signals: actively_exploited, zero_day
-- content_type: intel_roundup
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a
-```
-
-#### Full body
-
-```
-⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More  Ravie Lakshmanan  Aug 17, 2026 Cybersecurity / Hacking The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a lot of small openings turning into bigger problems. Here’s what stood out. ⚡ Threat of the Week Suspected China APT Behind Exploitation of New VMware Flaw — A suspected China-nexus APT is assessed to be behind the exploitation of a newly patched security flaw in VMware vCenter. The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code. In at least one compromised instance, the attacks led to the deployment of a backdoor and. a reverse SSH binary, with the attack ultimately leading to the deployment of Babuk-derived ransomware. "Based on the case we investigated, however, we do not believe ransomware was necessarily the primary objective," QUIRSO said. "To us, its deployment looks more like a smoke screen intended to distract from the underlying intrusion and, importantly, hinder subsequent forensic analysis by encrypting evidence. We therefore see the ransomware activity in this case as potentially serving the broader intrusion rather than being its ultimate objective." AI Adoption Is Outpacing Governance, New SANS Survey Finds Seventy-eight percent of practitioners now say AI is part of their cybersecurity strategy, up from 50% last year. Governance hasn't kept pace: just 36% have a formal AI risk program. See where 536 security professionals say programs are falling short, and what to do about it. Read the Findings ➝ 🔔 Top News Apple macOS Flaw Exploited to Drop Crypto Miner — A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner. The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to authenticate to the built-in remote desktop feature service without valid credentials. The shortcoming was addressed as part of an emergency update in macOS Tahoe 26.6.1, macOS Sequoia 15.7.9, and macOS Sonoma 14.8.9 earlier this month. The Netherlands National Cyber Security Center (NCSC-NL) said it received a report indicating active abuse of the vulnerability across multiple systems on which port 5900 was accessible from the internet. "In all these cases, root had gained access to the affected system and placed a Monero crypto miner," the agency said. Lazarus Exploits New Windows 0-Day — The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen backdoor targeting defense and aerospace companies across France, Germany, Brazil, and India. The activity is part of Operation Dream Job, a long-running cyber espionage and social engineering campaign orchestrated by Pyongyang-backed hackers to target professionals worldwide with fake-but-compelling job offers to steal sensitive data and install malware. The attacks have been found to exploit CVE-2026-68820 (CVSS score: 7.0), a privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock ("AFD.sys") that was patched by Microsoft as part of its Patch Tuesday updates for August 2026. The attacks have been observed to deliver ForestTiger and a new backdoor called Troy. GeoServer Patches Critical Flaw Under Attack — GeoServer has released patches for a criti
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More
-  - Published: 2026-08-17T13:23:51+00:00
-  - Link: https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html
-  - Summary: The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a
-
-### Cluster 1293349fdc — score 8
-
-- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-18T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-  - Published: 2026-08-18T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
 
 ### Cluster 2faaf824a1 — score 8
 
