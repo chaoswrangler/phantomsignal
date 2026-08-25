@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-25T03:55:43.822157+00:00
+- Generated: 2026-08-25T04:45:40.672198+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 72
-- Total items in window: 290
+- Feeds OK: 74
+- Total items in window: 291
 - Total clusters raw: 132
 - Total clusters in packet: 46
 - Dropped low score: 86
@@ -70,61 +70,36 @@
 
 ## Feed status
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: parse_error
-  - Item count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -135,36 +110,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -185,6 +180,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -195,18 +195,18 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -215,11 +215,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -229,6 +224,11 @@
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
@@ -240,41 +240,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -284,6 +274,16 @@
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
@@ -325,41 +325,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 18
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 17
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 18
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,11 +370,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 26
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -385,20 +380,15 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
-  - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
@@ -415,20 +405,25 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
@@ -440,6 +435,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -476,22 +476,25 @@
 ### Android active exploitation
 - Anchor signal: Android
 - Theme key: android
-- Cluster count: 5
-- Article count: 12
-- Cohesion: 0.283
+- Cluster count: 6
+- Article count: 15
+- Cohesion: 0.274
 - Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: phishing_social_eng, active_exploitation, ransomware_extortion
-  - affected_industries: financial_services, government
-  - affected_products: Android, Gogs, Microsoft Entra, OpenAI/ChatGPT
+  - threat_categories: active_exploitation
+  - affected_industries: financial_services
+  - affected_products: Android, Gogs, Microsoft Entra
   - urgency_signals: actively_exploited, critical_cvss
-- Cluster IDs: 6117c1d701, c23d18e0e8, 9101d8d7ac, e7f188e340, 8a66834bf6
+- Cluster IDs: 6117c1d701, c23d18e0e8, f53fdb391c, 9101d8d7ac, e7f188e340, 8a66834bf6
 - Links:
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://securelist.com/android-head-unit-malware/121106/
   - https://risky.biz/RBNEWS604/
   - https://www.helpnetsecurity.com/2026/08/24/android-malware-car-head-unit-badbox/
@@ -501,29 +504,55 @@
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
 
+### Gogs active exploitation
+- Anchor signal: Gogs
+- Theme key: gogs
+- Cluster count: 4
+- Article count: 8
+- Cohesion: 0.256
+- Shared strong signals: Gogs
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, ddos, phishing_social_eng
+  - affected_industries: government
+  - affected_products: Gogs, Microsoft Entra, Android
+  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
+- Cluster IDs: 6117c1d701, c23d18e0e8, f53fdb391c, 9f44f5f9a4
+- Links:
+  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+  - https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+
 ### Microsoft Entra active exploitation
 - Anchor signal: Microsoft Entra
 - Theme key: microsoft-entra
-- Cluster count: 3
+- Cluster count: 4
 - Article count: 8
-- Cohesion: 0.276
+- Cohesion: 0.256
 - Shared strong signals: Microsoft Entra
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, phishing_social_eng
+  - threat_categories: active_exploitation, ddos, phishing_social_eng
   - affected_industries: government
-  - affected_products: Microsoft Entra, Android, Gogs
-  - urgency_signals: actively_exploited, preauth_unauth, critical_cvss
-- Cluster IDs: 91f1063cec, 6117c1d701, c23d18e0e8
+  - affected_products: Gogs, Microsoft Entra, Android
+  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
+- Cluster IDs: 6117c1d701, c23d18e0e8, f53fdb391c, 9f44f5f9a4
 - Links:
-  - https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
-  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
 
 ### web shell backdoor targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
@@ -699,22 +728,6 @@
   - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
   - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
 
-### CVE-2021-33044 exploitation activity
-- Anchor signal: CVE-2021-33044
-- Theme key: cve-2021-33044
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.227
-- Shared strong signals: CVE-2021-33044
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2021-33044
-- Cluster IDs: bf06d05aec, 2faaf824a1
-- Links:
-  - https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
-  - https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
-
 ## Forward signals
 
 ### Novelty
@@ -740,23 +753,18 @@
 - Pair: CVE-2026-65400 + Apple iOS/macOS (cluster af5d25c59b, first observation: True)
 - Pair: CVE-2026-65400 + Microsoft SharePoint (cluster af5d25c59b, first observation: True)
 - Pair: CVE-2026-19490 + Citrix (cluster 7f1247614d, first observation: True)
-- Pair: CVE-2026-69836 + Medusa (cluster 91f1063cec, first observation: True)
-- Pair: CVE-2026-69836 + Azure (cluster 91f1063cec, first observation: True)
-- Pair: CVE-2026-69836 + Microsoft 365 (cluster 91f1063cec, first observation: True)
-- Pair: CVE-2026-69836 + Microsoft Entra (cluster 91f1063cec, first observation: True)
-- Pair: CVE-2026-69836 + Microsoft Windows (cluster 91f1063cec, first observation: True)
-- Pair: Medusa + Azure (cluster 91f1063cec, first observation: True)
-- Pair: Medusa + Microsoft 365 (cluster 91f1063cec, first observation: True)
+- Pair: CVE-2026-18556 + GitLab (cluster 83a33105c1, first observation: True)
+- Pair: CVE-2026-18577 + GitLab (cluster 83a33105c1, first observation: True)
+- Pair: CVE-2026-19478 + Cisco (cluster 83a33105c1, first observation: True)
+- Pair: CVE-2026-19478 + GitLab (cluster 83a33105c1, first observation: True)
+- Pair: CVE-2026-20316 + GitLab (cluster 83a33105c1, first observation: True)
+- Pair: CVE-2026-72898 + Cisco (cluster 83a33105c1, first observation: True)
+- Pair: CVE-2026-72898 + GitLab (cluster 83a33105c1, first observation: True)
 
-### Drift (4)
-- **Medusa** (cluster 91f1063cec)
-  - New industries: education
-  - New products: Microsoft Entra, Microsoft Windows
-  - Prior top industries: critical_infrastructure, financial_services, government
-  - Prior top products: Apple iOS/macOS, Azure, Microsoft 365
-- **Lazarus** (cluster 9101d8d7ac)
-  - New industries: manufacturing_industrial
-  - New products: (none)
+### Drift (3)
+- **Lazarus** (cluster f53fdb391c)
+  - New industries: (none)
+  - New products: Gogs, Microsoft Entra
   - Prior top industries: aviation_defense, financial_services, government
   - Prior top products: Android, Microsoft Windows, OpenAI/ChatGPT
 - **ShinyHunters** (cluster ec6e40ad77)
@@ -777,7 +785,7 @@
 - cve_ids: CVE-2026-55040 (weeks observed: 4, cluster af5d25c59b)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 83a33105c1)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster 83a33105c1)
-- actor_attribution: Lazarus (weeks observed: 4, cluster 9101d8d7ac)
+- actor_attribution: Lazarus (weeks observed: 4, cluster f53fdb391c)
 - cve_ids: CVE-2026-65400 (weeks observed: 3, cluster af5d25c59b)
 - cve_ids: CVE-2026-19490 (weeks observed: 3, cluster 7f1247614d)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 83a33105c1)
@@ -793,7 +801,7 @@
 
 ## Clusters
 
-### Cluster af5d25c59b — score 34
+### Cluster af5d25c59b — score 33
 
 - Title: Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -883,70 +891,6 @@ Back to Blog Vulnerabilities and Exploits CVE-2026-19490: Critical Vulnerability
   - Published: 2026-08-19T16:46:06+00:00
   - Link: https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway
   - Summary: Overview On August 19, 2026, a security advisory was published for CVE-2026-19490 , a critical authentication bypass vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. The vulnerability carries a CVSS v4.0 base score of 9.3 and can be exploited remotely by an unauthenticated attacker over the network without user interaction or elevated privileges. NetScaler ADC and NetScaler Gateway are widely deployed enterprise networking products commonly positioned at or near the network perimeter. NetScaler ADC provides application delivery, traffic management, load balancing, SSL/TLS offloading, and application security capabilities, while NetScaler Gateway provides secure remote access and VPN functionality. Because these systems are frequently deployed in enterprise DMZs and exposed to the public internet, authentication bypass vulnerabilities affecting Citrix products are nearly always exploited by threat actors. CVE-2026-19490 affects the following systems: NetScaler ADC and
-
-### Cluster 91f1063cec — score 31
-
-- Title: Microsoft patches critical Entra ID vulnerability (CVE-2026-69836)
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-08-21T12:20:33+00:00
-- Link: https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
-- Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
-- Strong signals: Azure, CVE-2026-69836, Microsoft 365, Microsoft Entra
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, vulnerability_disclosure
-- actor_attribution: Medusa
-- affected_industries: education
-- affected_products: Azure, Microsoft 365, Microsoft Entra, Microsoft Windows
-- cve_ids: CVE-2026-69836
-- urgency_signals: actively_exploited, critical_cvss, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: vulnerability_disclosure, active_exploitation
-- affected_products: Microsoft Entra, Azure, Microsoft 365
-- cve_ids: CVE-2026-69836
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, initially reported to have been exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to Microsoft 365, Azure, and connected third-party apps. Tracked as CVE-2026-69836, with the maximum CVSS score of 10.0, the vulnerability was discovered by Microsoft Principal Security Engineer Robert Fitzpatrick and could allow an unauthenticated attacker to … More → The post Microsoft patches critical Entra ID vulnerability (CVE-2026-69836) appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Sinisa Markovic , Managing Editor, Help Net Security August 21, 2026 Share Microsoft patches critical Entra ID vulnerability (CVE-2026-69836) Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, initially reported to have been exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to Microsoft 365, Azure, and connected third-party apps. Tracked as CVE-2026-69836, with the maximum CVSS score of 10.0, the vulnerability was discovered by Microsoft Principal Security Engineer Robert Fitzpatrick and could allow an unauthenticated attacker to remotely execute code in Microsoft’s cloud identity service. “Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network,” Microsoft’s advisory says. The good news for administrators is that this CVE requires no customer action. “This vulnerability has already been fully mitigated by Microsoft. There is no action for users of this service to take. The purpose of this CVE is to provide further transparency,” the company noted . UPDATE (August 24, 2026, 02:15 a.m. ET): When Microsoft published the CVE-2026-69836 advisory, it stated that the bug was exploited. Since then, the company changed the exploitation status to “no” and confirmed to Help Net Security that the vulnerability was not exploited in the wild. This article and its headline have been modified to reflect this update. “We identified and addressed this issue with a fix and released CVE-2026-69836 for greater transparency. There are no additional actions customers need to take,” a company spokesperson stated. More about CVE Microsoft Entra ID vulnerability vulnerability disclosure Share
-```
-
-#### Corroborating sources (4)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Microsoft patches critical Entra ID vulnerability (CVE-2026-69836)
-  - Published: 2026-08-21T12:20:33+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/
-  - Summary: Microsoft has patched a critical remote code execution vulnerability (CVE-2026-69836) in Entra ID, initially reported to have been exploited in the wild. Entra ID is Microsoft’s cloud identity service, formerly Azure Active Directory, that verifies logins and controls access to Microsoft 365, Azure, and connected third-party apps. Tracked as CVE-2026-69836, with the maximum CVSS score of 10.0, the vulnerability was discovered by Microsoft Principal Security Engineer Robert Fitzpatrick and could allow an unauthenticated attacker to … More → The post Microsoft patches critical Entra ID vulnerability (CVE-2026-69836) appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution
-  - Published: 2026-08-21T06:06:11+00:00
-  - Link: https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - Summary: Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the "Exploited" field under the Exploitability Assessment table as "Yes," on August 21, 2026, Microsoft corrected the "Exploited" status to "No" after The Hacker News contacted the company for comment. It also noted, "this vulnerability was not
-- **Unit 42** (threat_research_primary)
-  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)
-  - Published: 2026-08-18T19:05:33+00:00
-  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - Summary: In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. The post Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18) appeared first on Unit 42 .
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: How to Spot and Stop Rogue Device Joins
-  - Published: 2026-08-18T16:24:13+00:00
-  - Link: https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - Summary: Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.
 
 ### Cluster 83a33105c1 — score 29
 
@@ -1265,6 +1209,65 @@ Threat Research Center Insights General General Connecting the Dots: Securing th
   - Published: 2026-08-21T23:00:21+00:00
   - Link: https://unit42.paloaltonetworks.com/sdlc-supply-chain/
   - Summary: Attackers are targeting CI/CD pipelines and developer tools instead of application code, requiring total SDLC visibility and strict security controls The post Connecting the Dots: Securing the Overlooked Corners of the Software Development Lifecycle (SDLC) Supply Chain appeared first on Unit 42 .
+
+### Cluster f53fdb391c — score 17
+
+- Title: Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-21T06:06:11+00:00
+- Link: https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Microsoft Entra
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos, zero_day
+- actor_attribution: Lazarus
+- affected_products: Android, Gogs, Microsoft Entra
+- cve_ids: CVE-2026-68820, CVE-2026-69836
+- urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, ddos, active_exploitation
+- actor_attribution: Lazarus
+- affected_products: Microsoft Entra, Android, Gogs
+- cve_ids: CVE-2026-69836, CVE-2026-68820
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the "Exploited" field under the Exploitability Assessment table as "Yes," on August 21, 2026, Microsoft corrected the "Exploited" status to "No" after The Hacker News contacted the company for comment. It also noted, "this vulnerability was not
+```
+
+#### Full body
+
+```
+Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution  Ravie Lakshmanan  Aug 21, 2026 Vulnerability / Threat Intelligence Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the "Exploited" field under the Exploitability Assessment table as "Yes," on August 21, 2026, Microsoft corrected the "Exploited" status to "No" after The Hacker News contacted the company for comment. It also noted, "this vulnerability was not exploited in the wild." "We identified and addressed this issue with a fix and released CVE-2026-69836 for greater transparency . There are no additional actions customers need to take,” a Microsoft spokesperson told The Hacker News. The headline has been edited to reflect this change. The original story follows below - Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory or Azure AD. "Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network," Microsoft said in an alert released Thursday. Flaws of this kind occur when an application converts user-controlled data back into an active object or code structure without proper validation. This can lead to code execution, denial-of-service, or access control bypass that can permit an attacker to perform unauthorized actions. The company credited principal security engineer Robert Fitzpatrick for discovering and reporting the issue. As of writing, there are currently no details on how the vulnerability has been exploited, when these efforts began and if they are still ongoing, and how it was discovered. "This vulnerability has already been fully mitigated by Microsoft," it added. "There is no action for users of this service to take." Earlier this month, Redmond also patched a high-severity security privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock (CVE-2026-68820, CVSS score: 7.0) that was exploited as a zero-day by the North Korea-linked Lazarus Group as part of a long-running campaign dubbed Operation Dream Job. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Cyber Attack , enterprise security , Identity Security , Microsoft , remote code execution , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More Unisoc VoLTE
+```
+
+#### Corroborating sources (3)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution
+  - Published: 2026-08-21T06:06:11+00:00
+  - Link: https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - Summary: Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the "Exploited" field under the Exploitability Assessment table as "Yes," on August 21, 2026, Microsoft corrected the "Exploited" status to "No" after The Hacker News contacted the company for comment. It also noted, "this vulnerability was not
+- **Unit 42** (threat_research_primary)
+  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18)
+  - Published: 2026-08-18T19:05:33+00:00
+  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - Summary: In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. The post Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18) appeared first on Unit 42 .
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: How to Spot and Stop Rogue Device Joins
+  - Published: 2026-08-18T16:24:13+00:00
+  - Link: https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - Summary: Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.
 
 ### Cluster 175a6a518c — score 16
 
@@ -1843,80 +1846,6 @@ Threat Research Center Threat Research Malware Malware Identity Abuse Through Tr
   - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
   - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
 
-### Cluster a7d83e74e6 — score 10
-
-- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-20T17:52:13+00:00
-- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-  - Published: 2026-08-20T17:52:13+00:00
-  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-
-### Cluster 1fcc0abfde — score 10
-
-- Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-08-24T07:23:16+00:00
-- Link: https://isc.sans.edu/diary/rss/33274
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
-  - Published: 2026-08-24T07:23:16+00:00
-  - Link: https://isc.sans.edu/diary/rss/33274
-  - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
-
 ### Cluster e7f188e340 — score 10
 
 - Title: BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive
@@ -2006,6 +1935,80 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-08-18T13:05:44+00:00
   - Link: https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
   - Summary: Research by: Jaromír Hořejší (@JaromirHorejsi) Key points Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infection chain starts with a ClickFix social-engineering technique, which prompts victims to execute a PowerShell command. This leads to two stages of additional downloaders and […] The post Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect appeared first on Check Point Research .
+
+### Cluster 1fcc0abfde — score 10
+
+- Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-08-24T07:23:16+00:00
+- Link: https://isc.sans.edu/diary/rss/33274
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
+  - Published: 2026-08-24T07:23:16+00:00
+  - Link: https://isc.sans.edu/diary/rss/33274
+  - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
+
+### Cluster a7d83e74e6 — score 10
+
+- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-20T17:52:13+00:00
+- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+  - Published: 2026-08-20T17:52:13+00:00
+  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster 3e394c1410 — score 10
 
@@ -2392,51 +2395,6 @@ Private equity giant Apollo Global Management has disclosed a data breach that e
   - Link: https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
   - Summary: The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .
 
-### Cluster cf66c04eaf — score 9
-
-- Title: Ransomware attackers are zeroing in on mid-market companies
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-08-24T04:30:08+00:00
-- Link: https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: manufacturing_industrial
-- urgency_signals: no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: manufacturing_industrial
-- urgency_signals: no_patch_yet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are … More → The post Ransomware attackers are zeroing in on mid-market companies appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Anamarija Pogorelec , Senior Staff Writer, Help Net Security August 24, 2026 Share Ransomware attackers are zeroing in on mid-market companies Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are a consistent problem. More than half of mid-market victims had annual revenue between $10 million and $50 million. Manufacturing was the most affected industry, accounting for more than a quarter of mid-market victims, followed by professional, scientific and technical services and construction. Mid-market ransomware distribution by revenue segment (Source: Black Kite) Ransomware hits smaller mid-market companies most often Ransomware groups look for weaknesses that can provide a route into company systems. Unpatched software, known vulnerabilities and stolen login details can all give attackers an opening. An assessment of more than 120,000 mid-market organizations found that 54.7% had at least one significant patch-management issue affecting a public-facing system. More than a quarter had a vulnerability already known to be exploited by attackers. Stolen credentials create another route into business systems. Nearly one-third of the monitored organizations had at least one stealer-log finding, indicating credentials collected by information-stealing malware. Attackers can use stolen login details to access accounts, move through networks or prepare for further attacks. For security teams, the challenge is deciding which weaknesses need attention first. New vulnerabilities continue to appear, while mid-sized companies may have fewer people available to investigate and fix them. AI changes how vulnerabilities are found and exploited AI is accelerating how software vulnerabilities are discovered and analyzed, while attackers have access to many of the same capabilities. Security teams can use AI to identify vulnerabilities faster and process large amounts of security data, while attackers can use similar tools to look for weaknesses. This creates more work for mid-sized companies already managing large numbers of vulnerabilities with limited staff and resources. Finding a vulnerability does not automatically show how urgent it is. Teams still need to determine whether the affected system is exposed to the internet, whether attackers are exploiting the weakness and what access it could provide. Treating every vulnerability as equally urgent is difficult when teams have thousands of potential issues to review. Knowing which systems are exposed and which weaknesses are being exploited can help determine what needs to be fixed first. Supply chains extend the risk Mid-sized companies are closely connected to other businesses. They may provide software, products and services to larger organizations while depending on their own suppliers, cloud platforms and technology providers. A security incident at one company can therefore create problems elsewhere in the supply chain . A compromised supplier could expose customer data, interrupt services or give attackers another route to connected organizations. Keeping track of these relationships can be difficult. A typical vendor-risk team described in the analysis consists of two people responsible for more than 300 suppliers. Some software and services may sit outside formal vendor inventories, leaving security teams without a complete view of third-party risk. Regulatory requirements are putting more attention on these connections. Rules such as the EU’s NIS2 Directive and U.S. requirements including NYCRR 500 and HIPAA can require organizations to address risk
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Ransomware attackers are zeroing in on mid-market companies
-  - Published: 2026-08-24T04:30:08+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/
-  - Summary: Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are … More → The post Ransomware attackers are zeroing in on mid-market companies appeared first on Help Net Security .
-
 ### Cluster f0848ac964 — score 9
 
 - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
@@ -2537,12 +2495,16 @@ Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take O
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
-- affected_products: GitHub
+- threat_categories: ddos
+- affected_products: GitHub, Gogs, Microsoft Entra
+- urgency_signals: critical_cvss
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
-- affected_products: GitHub
+- threat_categories: ddos
+- affected_products: Gogs, Microsoft Entra, GitHub
+- urgency_signals: critical_cvss
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -2550,6 +2512,12 @@ Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take O
 
 ```
 Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
+```
+
+#### Full body
+
+```
+Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (" GHSA-864f-rcv7-6rh4 "), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. "A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process," Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. "Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape." Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. "Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability)," project maintainer Marcel Laverdet said in an advisory. "Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host." Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. "The most important takeaway is that what was not broken was the isolation primitive itself," Staicu said. "V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for
 ```
 
 #### Corroborating sources (2)
@@ -2703,6 +2671,94 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/
   - Summary: The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .
 
+### Cluster cf66c04eaf — score 8
+
+- Title: Ransomware attackers are zeroing in on mid-market companies
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-08-24T04:30:08+00:00
+- Link: https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: manufacturing_industrial
+- urgency_signals: no_patch_yet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: manufacturing_industrial
+- urgency_signals: no_patch_yet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are … More → The post Ransomware attackers are zeroing in on mid-market companies appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Anamarija Pogorelec , Senior Staff Writer, Help Net Security August 24, 2026 Share Ransomware attackers are zeroing in on mid-market companies Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are a consistent problem. More than half of mid-market victims had annual revenue between $10 million and $50 million. Manufacturing was the most affected industry, accounting for more than a quarter of mid-market victims, followed by professional, scientific and technical services and construction. Mid-market ransomware distribution by revenue segment (Source: Black Kite) Ransomware hits smaller mid-market companies most often Ransomware groups look for weaknesses that can provide a route into company systems. Unpatched software, known vulnerabilities and stolen login details can all give attackers an opening. An assessment of more than 120,000 mid-market organizations found that 54.7% had at least one significant patch-management issue affecting a public-facing system. More than a quarter had a vulnerability already known to be exploited by attackers. Stolen credentials create another route into business systems. Nearly one-third of the monitored organizations had at least one stealer-log finding, indicating credentials collected by information-stealing malware. Attackers can use stolen login details to access accounts, move through networks or prepare for further attacks. For security teams, the challenge is deciding which weaknesses need attention first. New vulnerabilities continue to appear, while mid-sized companies may have fewer people available to investigate and fix them. AI changes how vulnerabilities are found and exploited AI is accelerating how software vulnerabilities are discovered and analyzed, while attackers have access to many of the same capabilities. Security teams can use AI to identify vulnerabilities faster and process large amounts of security data, while attackers can use similar tools to look for weaknesses. This creates more work for mid-sized companies already managing large numbers of vulnerabilities with limited staff and resources. Finding a vulnerability does not automatically show how urgent it is. Teams still need to determine whether the affected system is exposed to the internet, whether attackers are exploiting the weakness and what access it could provide. Treating every vulnerability as equally urgent is difficult when teams have thousands of potential issues to review. Knowing which systems are exposed and which weaknesses are being exploited can help determine what needs to be fixed first. Supply chains extend the risk Mid-sized companies are closely connected to other businesses. They may provide software, products and services to larger organizations while depending on their own suppliers, cloud platforms and technology providers. A security incident at one company can therefore create problems elsewhere in the supply chain . A compromised supplier could expose customer data, interrupt services or give attackers another route to connected organizations. Keeping track of these relationships can be difficult. A typical vendor-risk team described in the analysis consists of two people responsible for more than 300 suppliers. Some software and services may sit outside formal vendor inventories, leaving security teams without a complete view of third-party risk. Regulatory requirements are putting more attention on these connections. Rules such as the EU’s NIS2 Directive and U.S. requirements including NYCRR 500 and HIPAA can require organizations to address risk
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Ransomware attackers are zeroing in on mid-market companies
+  - Published: 2026-08-24T04:30:08+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/
+  - Summary: Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are … More → The post Ransomware attackers are zeroing in on mid-market companies appeared first on Help Net Security .
+
+### Cluster 1293349fdc — score 8
+
+- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-18T10:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+  - Published: 2026-08-18T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+
 ### Cluster 844772e10d — score 8
 
 - Title: Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers
@@ -2827,49 +2883,6 @@ Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasse
   - Published: 2026-08-19T11:34:28+00:00
   - Link: https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
   - Summary: Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files
-
-### Cluster 1293349fdc — score 8
-
-- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-18T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-  - Published: 2026-08-18T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
 
 ### Cluster 2faaf824a1 — score 8
 
