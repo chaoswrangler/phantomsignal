@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-25T09:41:39.832895+00:00
+- Generated: 2026-08-25T10:39:29.576901+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 74
-- Total items in window: 291
+- Feeds OK: 73
+- Total items in window: 290
 - Total clusters raw: 132
 - Total clusters in packet: 47
 - Dropped low score: 85
@@ -70,38 +70,28 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - In window count: 4
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -110,56 +100,71 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 15
+  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
+  - In window count: 10
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,11 +175,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -195,11 +195,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
@@ -210,56 +205,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 1
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -269,6 +264,16 @@
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
@@ -280,11 +285,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -295,20 +295,20 @@
   - Status: ok
   - Item count: 99
   - In window count: 4
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 20
   - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
@@ -320,31 +320,31 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 30
-  - In window count: 17
+  - Item count: 20
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 18
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,21 +355,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 50
-  - In window count: 26
+  - Item count: 30
+  - In window count: 17
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 18
+  - Item count: 50
+  - In window count: 26
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -380,43 +385,13 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 28
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -424,6 +399,16 @@
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
   - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
@@ -435,21 +420,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
-  - In window count: 0
+  - In window count: 1
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 28
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 11
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -477,8 +477,8 @@
 - Anchor signal: Android
 - Theme key: android
 - Cluster count: 6
-- Article count: 15
-- Cohesion: 0.275
+- Article count: 16
+- Cohesion: 0.27
 - Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
@@ -492,6 +492,7 @@
   - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
   - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
@@ -508,8 +509,8 @@
 - Anchor signal: Gogs
 - Theme key: gogs
 - Cluster count: 4
-- Article count: 9
-- Cohesion: 0.264
+- Article count: 10
+- Cohesion: 0.238
 - Shared strong signals: Gogs
 - Member CVEs: (none)
 - Also targets: (none)
@@ -523,6 +524,7 @@
   - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
   - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
@@ -534,8 +536,8 @@
 - Anchor signal: Microsoft Entra
 - Theme key: microsoft-entra
 - Cluster count: 4
-- Article count: 9
-- Cohesion: 0.264
+- Article count: 10
+- Cohesion: 0.238
 - Shared strong signals: Microsoft Entra
 - Member CVEs: (none)
 - Also targets: (none)
@@ -549,6 +551,7 @@
   - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
   - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
@@ -618,7 +621,7 @@
 - Anchor signal: CVE-2026-73570
 - Theme key: cve-2026-73570
 - Cluster count: 2
-- Article count: 3
+- Article count: 4
 - Cohesion: 0.289
 - Shared strong signals: CVE-2026-73570
 - Member CVEs: (none)
@@ -631,6 +634,7 @@
 - Cluster IDs: 6117c1d701, 5968a0ef70
 - Links:
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/
 
@@ -708,29 +712,26 @@
   - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
   - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
 
-### Cl0p: ransomware extortion
-- Anchor signal: Cl0p
-- Theme key: cl0p
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
 - Cluster count: 2
-- Article count: 3
-- Cohesion: 0.2
-- Shared strong signals: Cl0p
+- Article count: 2
+- Cohesion: 0.25
+- Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion
-  - actor_attribution: Cl0p
-- Cluster IDs: fb556ca51b, ec6e40ad77
+  - affected_products: Palo Alto Networks
+- Cluster IDs: b7ab4cc245, 213e3c4494
 - Links:
-  - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
-  - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
-  - https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
+  - https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+  - https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-61979 (first seen via Orca Security Research at 2026-08-20T18:19:47+00:00, cluster 73e2ba5a94)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -1068,17 +1069,17 @@ Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Cr
 - Published: 2026-08-20T13:24:28+00:00
 - Link: https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: CVE-2026-73570
 
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, phishing_social_eng
 - affected_industries: government
-- affected_products: Android, Gogs, Microsoft Entra
+- affected_products: Android, Gogs, Google Workspace, Microsoft 365, Microsoft Entra
 - cve_ids: CVE-2025-66376, CVE-2026-73570
-- urgency_signals: actively_exploited, critical_cvss, preauth_unauth
-- content_type: news_report
+- urgency_signals: actively_exploited, critical_cvss, no_patch_yet, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
@@ -1102,13 +1103,18 @@ A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under 
 Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Email Security A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution. "A remote code execution vulnerability exists in Zimbra Collaboration (ZCS) before 10.1.20 when the optional zimbra-snmp package is installed, and SNMP notifications are enabled," according to a description of the flaw in the NIST National Vulnerability Database (NVD). "Due to improper sanitization of untrusted input during SNMP notification processing, an unauthenticated attacker can send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user." The security issue was patched by Zimbra last month with the release of version 10.1.20. In a bulletin issued earlier this week, CERT Polska alerted of active exploitation efforts targeting the flaw, urging users to check the "/var/log/zimbra.log" file for suspicious Zimbra service restarts, as well as for files created in the below directories within the last 30 days - /opt/zimbra/jetty/webapps/ /opt/zimbra/jetty_base/webapps/ /tmp/ Vulnerabilities in Zimbra have been frequently targeted by threat actors. Last month, the U.S. government disclosed details of a phishing campaign orchestrated by a Russia-linked adversary called Laundry Bear (aka CL-STA-1114, TA488, UNK_PitStop, and Void Blizzard) that involved targeting Zimbra mail servers belonging to Western government and commercial organizations since at least July 2025. The campaign was found to have weaponized CVE-2025-66376, a stored cross-site scripting vulnerability in Zimbra's Classic UI, to deliver a malicious JavaScript payload dubbed ZimReaper to harvest email communications and other sensitive data. Update On August 21, 2026, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added CVE-2026-73570 to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes for the flaw by August 24, 2026. (The story was updated after publication on August 22, 2026, to include details of the CVE identifiers and their addition to CISA's KEV catalog.) Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Command Injection , email security , enterprise security , remote code execution , server security , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks a
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (3)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution
   - Published: 2026-08-20T13:24:28+00:00
   - Link: https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - Summary: A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution. "A remote code execution vulnerability exists in Zimbra
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Unpatched Zimbra servers are falling to CVE-2026-73570 attacks
+  - Published: 2026-08-25T10:03:28+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
+  - Summary: At least 274 internet-facing Zimbra instances have been compromised by unknown attackers via CVE-2026-73570, the Shadowserver Foundation shared on Monday. About CVE-2026-73570 Zimbra Collaboration Suite (ZCS) is a communication and collaboration platform popular with organizations that need to have control over their data or can’t afford a pricy alternative service like Microsoft 365 or Google Workspace. CVE-2026-73570 is a code injection flaw Synacor patched in ZCS v10.1.20, released on July 20, 2026. The vulnerability was … More → The post Unpatched Zimbra servers are falling to CVE-2026-73570 attacks appeared first on Help Net Security .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Exploited Zimbra Flaw Highlights Shrinking Window to Patch
   - Published: 2026-08-24T21:46:55+00:00
@@ -1620,6 +1626,53 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
   - Link: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
   - Summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident. "As models become more capable, the risks associated with developing and testing them internally also grow," the AI company
 
+### Cluster b7ab4cc245 — score 12
+
+- Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-08-25T10:00:57+00:00
+- Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, Palo Alto Networks
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, Palo Alto Networks
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution 7 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Sara McBroom Published: August 25, 2026 Categories: Malware Threat Research Tags: Backdoor Bitcoin DLL hijacking Ransomware Sandbox VirusTotal Share Executive Summary To assess the impact of AI-enabled malware, we collected and analyzed over 400 malware samples that integrate AI in some capacity, from brand impersonation and large language model (LLM)-generated code to agentic execution loops. Our central finding was that the AI malware space is currently overwhelmingly composed of proof-of-concept code, security validation testing and researcher submissions that have never reached a production environment. Of the 405 samples in our dataset, only 12 appeared in our telemetry on Cortex XDR-protected endpoints, and a small subset was forwarded through Next-Generation Firewalls to WildFire for analysis. Palo Alto Networks products detected and blocked every sample that attempted to reach a customer environment. These numbers tell a story that sits between two poles in the current discourse. AI-enabled malware is real. However, the volume of genuine operational activity remains a fraction of what public sample repositories suggest. Approximately 97% of the samples we examined exist only in sandboxes and on VirusTotal. For defenders, the practical takeaway is straightforward. Existing behavioral detection, cloud-based sandboxing and endpoint analytics catch these threats using the same mechanisms that stop conventional malware. The AI component does not evade detection. It changes how the code is authored, not how it executes. Palo Alto Networks customers are better protected against the threats discussed in this article through the following products and services, which detected these AI-enabled malware threats out of the box: Advanced WildFire Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , Agentic AI , Malware The Dataset Our starting dataset consisted of 405 unique SHA-256 hashes collected from WildFire analysis reports, VirusTotal Intelligence and published open-source intelligence (OSINT) research. The collection criteria were broad. We included any sample where AI integration was either a functional component of the malware, a feature of its delivery mechanism or part of its branding. This intentionally inclusive approach captured everything from LLM-powered ransomware agents to cryptocurrency miners that simply used “ChatGPT” in their filename. We queried this dataset across multiple telemetry sources to measure real-world prevalence: Endpoint presence : Cortex XDR agent telemetry from non-test tenants (December 2024–June 2025) Network visibility : WildFire session data from samples forwarded by Next-Generation Firewalls and Cortex XDR agents (June 2024–June 2025) Alert generation : Cortex XDR alert records for samples that triggered detection logic on endpoints Sandbox verdicts : WildFire analysis results with malware classification Table 1 summarizes the results of this dataset. Telemetry Source Samples Queried Samples Discovered Prevalence in Production Cortex XDR endpoints 405 12 3.0% WildFire sessions 405 ~15–20 unique hashes ~4% Cortex XDR alerts generated 12 12 100% Table 1. Telemetry coverage across the AI malware dataset. The disparity between the 405-sample dataset and the 12 samples observed in production environments is the most important number in this analysis. Approximately 97% of AI-enabled malware samples exist only in research repositories, sandbox environments and security validation platforms. We found no evidence that they reached a customer endpoint or traversed a customer firewall. The following sections examine
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
+  - Published: 2026-08-25T10:00:57+00:00
+  - Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+  - Summary: Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
+
 ### Cluster 6c4f057b27 — score 12
 
 - Title: Security Hub Extended adds Supply Chain Security as its tenth category
@@ -1846,6 +1899,47 @@ Threat Research Center Threat Research Malware Malware Identity Abuse Through Tr
   - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
   - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
 
+### Cluster a7d83e74e6 — score 10
+
+- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-20T17:52:13+00:00
+- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+  - Published: 2026-08-20T17:52:13+00:00
+  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+
 ### Cluster e7f188e340 — score 10
 
 - Title: BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive
@@ -1935,47 +2029,6 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-08-18T13:05:44+00:00
   - Link: https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
   - Summary: Research by: Jaromír Hořejší (@JaromirHorejsi) Key points Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infection chain starts with a ClickFix social-engineering technique, which prompts victims to execute a PowerShell command. This leads to two stages of additional downloaders and […] The post Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect appeared first on Check Point Research .
-
-### Cluster a7d83e74e6 — score 10
-
-- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-20T17:52:13+00:00
-- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-  - Published: 2026-08-20T17:52:13+00:00
-  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster 3e394c1410 — score 10
 
@@ -2348,96 +2401,6 @@ New malware that uses steganography always gets my attention, but I was disappoi
   - Link: https://isc.sans.edu/diary/rss/33274
   - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
 
-### Cluster ec6e40ad77 — score 9
-
-- Title: Personal Information Exposed in Apollo Global Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-24T10:08:42+00:00
-- Link: https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: Cl0p, ShinyHunters, UNC6671
-- affected_industries: financial_services, manufacturing_industrial
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters, Cl0p, UNC6671
-- affected_industries: financial_services, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Latest News Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited Hired for One Job, Judged on Another: The CISO’s Real Problem Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts 91 Vul
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Personal Information Exposed in Apollo Global Data Breach
-  - Published: 2026-08-24T10:08:42+00:00
-  - Link: https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
-  - Summary: The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .
-
-### Cluster f0848ac964 — score 9
-
-- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-24T14:00:00+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
-```
-
-#### Full body
-
-```
-Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Mission-Driven Security: Inside a Global Bank's Defense Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate sec
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-  - Published: 2026-08-24T14:00:00+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
-
 ### Cluster 548cb67a79 — score 9
 
 - Title: AI supply chain risk is showing up in developer workflows first
@@ -2523,6 +2486,49 @@ Help Net Security August 25, 2026 Share The cybercrime supply chain has five sta
   - Published: 2026-08-25T05:00:15+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/25/cybercrime-supply-chain-video/
   - Summary: In this Help Net Security video, Chris Nyhuis, CEO at Vigilant, explains why the picture of a lone ransomware attacker is about 15 years out of date. He walks through the cybercrime supply chain and the five businesses inside it: harvesters who run infostealer malware, brokers who verify and resell access, ransomware-as-a-service operators who build the toolkit, affiliates who run the intrusion, and launderers who move the proceeds. Nyhuis covers what each stage costs, from … More → The post The cybercrime supply chain has five stages, each with a price appeared first on Help Net Security .
+
+### Cluster f0848ac964 — score 9
+
+- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-24T14:00:00+00:00
+- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
+```
+
+#### Full body
+
+```
+Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Mission-Driven Security: Inside a Global Bank's Defense Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate sec
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+  - Published: 2026-08-24T14:00:00+00:00
+  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
 
 ### Cluster bf833fa095 — score 9
 
@@ -2662,6 +2668,53 @@ Fake AI, real malware: Attackers impersonating AI brands A year of MDR casework 
   - Link: https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - Summary: <p>A year of MDR casework shows attackers repeatedly exploiting demand for AI tools</p> Categories: Threat Research Tags: AI, malvertising, infostealer, Sophos X-Ops
 
+### Cluster ec6e40ad77 — score 8
+
+- Title: Personal Information Exposed in Apollo Global Data Breach
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-24T10:08:42+00:00
+- Link: https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: Cl0p, ShinyHunters, UNC6671
+- affected_industries: financial_services, manufacturing_industrial
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- actor_attribution: ShinyHunters, Cl0p, UNC6671
+- affected_industries: financial_services, manufacturing_industrial
+- affected_products: OpenAI/ChatGPT, Anthropic/Claude
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Latest News Silent Patches Don’t Stop Attackers – They Blind Defenders Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited Hired for One Job, Judged on Another: The CISO’s Real Problem Uber Fined Nearly $1 Billion by Dutch Regu
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Personal Information Exposed in Apollo Global Data Breach
+  - Published: 2026-08-24T10:08:42+00:00
+  - Link: https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
+  - Summary: The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .
+
 ### Cluster a9dbfa05a2 — score 8
 
 - Title: Apollo discloses data breach from ongoing wave of attacks hitting financial sector
@@ -2766,49 +2819,6 @@ Sinisa Markovic , Managing Editor, Help Net Security August 25, 2026 Share Shiny
   - Published: 2026-08-24T17:38:21+00:00
   - Link: https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/
   - Summary: A ReliaQuest employee fell victim to a phishing attack and the hackers gained access to a dashboard. The post ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited appeared first on SecurityWeek .
-
-### Cluster 1293349fdc — score 8
-
-- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-18T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-  - Published: 2026-08-18T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
 
 ### Cluster 844772e10d — score 8
 
