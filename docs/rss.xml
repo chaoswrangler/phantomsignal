@@ -4,11 +4,30 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 73 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 25 Aug 2026 16:44:32 +0000</lastBuildDate>
+<lastBuildDate>Tue, 25 Aug 2026 17:37:09 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Water sector passes, government sector fails attempts to spot and halt simulated CISA attack</title>
+<link>https://cyberscoop.com/cisa-red-team-report-government-water-cybersecurity/</link>
+<description><![CDATA[Agency red-teamers got initial access to both organizations they tested, but one quickly isolated and shut down the attempts from going further. The post Water sector passes, government sector fails attempts to spot and halt simulated CISA attack appeared first on CyberScoop .]]></description>
+<pubDate>Tue, 25 Aug 2026 17:11:33 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/cisa-red-team-report-government-water-cybersecurity/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>The patch window is collapsing: Why security needs a new control plane</title>
+<link>https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/</link>
+<description><![CDATA[Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog .<br/><br/><em>Tags: vulnerability_disclosure</em>]]></description>
+<pubDate>Tue, 25 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>vulnerability_disclosure</category>
+</item>
 <item>
 <title>Massive DDoS attack disrupts Norway’s government digital services</title>
 <link>https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/</link>
@@ -80,16 +99,6 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>CVE-2026-8508: Trust-Boundary Bypass in Zyxel social_login.cgi Facebook Identity Handling</title>
-<link>https://www.reddit.com/r/netsec/comments/1vy03c7/cve20268508_trustboundary_bypass_in_zyxel_social/</link>
-<description><![CDATA[Technical analysis of CVE-2026-8508, a pre-auth captive-portal bypass in Zyxel&apos;s social-login flow. The post covers the vulnerable execution path, root cause, affected firmware scope, and the firmware-emulation methodology used during analysis. submitted by /u/TheReedemer69 [link] [comments]<br/><br/><em>Tags: CVE-2026-8508</em>]]></description>
-<pubDate>Tue, 25 Aug 2026 13:37:06 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vy03c7/cve20268508_trustboundary_bypass_in_zyxel_social/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-8508</category>
 </item>
 <item>
 <title>WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities</title>
@@ -628,16 +637,6 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>Gunra ransomware: what you need to know</title>
-<link>https://www.fortra.com/blog/gunra-ransomware-what-you-need-know</link>
-<description><![CDATA[The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more. Read more in my article on the Fortra blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 24 Aug 2026 12:52:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.fortra.com/blog/gunra-ransomware-what-you-need-know</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Microsoft: August updates break printing, PDF export in WPF apps</title>
@@ -1547,16 +1546,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Prison for data analyst who tried to extort $2.5 million from his employer</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/prison-data-analyst-extort-employer</link>
-<description><![CDATA[When Cameron Curry discovered that his contract as a data analyst wasn&apos;t going to be renewed, he could have updated his LinkedIn profile. He could have started sending out his resume. But what the 27-year-old from Charlotte, North Carolina, did instead was turn to extortion. Read more in my article on the Hot for Security blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Wed, 19 Aug 2026 07:26:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/prison-data-analyst-extort-employer</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure</title>
 <link>https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html</link>
 <description><![CDATA[Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration. The tech giant said it required multiple endpoint and network behaviors to align before]]></description>
@@ -1671,16 +1660,32 @@
 <category>CVE-2025-31702</category>
 </item>
 <item>
+<title>What’s in the SOSS? Podcast #69 – S3E21 Watering the Community Garden: Navigating the EU CRA for Open Source with Roman Zhukov</title>
+<link>https://openssf.org/podcast/2026/08/18/whats-in-the-soss-podcast-69-s3e21-watering-the-community-garden-navigating-the-eu-cra-for-open-source-with-roman-zhukov/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 18 Aug 2026 17:12:29 +0000</pubDate>
+<guid isPermaLink="true">https://openssf.org/podcast/2026/08/18/whats-in-the-soss-podcast-69-s3e21-watering-the-community-garden-navigating-the-eu-cra-for-open-source-with-roman-zhukov/</guid>
+<source url="https://openssf.org/feed/">OpenSSF Blog</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Hunting MacSync Stealer infrastructure through behavioral pivots</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/</link>
+<description><![CDATA[MacSync Stealer rapidly rotates domains to evade detection, but its behavior remains consistent. Learn how Microsoft uncovered 30+ related domains using durable hunting pivots. The post Hunting MacSync Stealer infrastructure through behavioral pivots appeared first on Microsoft Security Blog .]]></description>
+<pubDate>Tue, 18 Aug 2026 17:08:28 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Security Hub Extended adds Supply Chain Security as its tenth category</title>
 <link>https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/</link>
-<description><![CDATA[Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]<br/><br/><em>Tags: SolarWinds · supply_chain · web_shell_backdoor</em>]]></description>
+<description><![CDATA[Since February, we’ve grown AWS Security Hub Extended from 14 curated partners across 9 categories to 23 partners across 10. At Black Hat this month, 14 of those partners were at the Amazon Web Services (AWS) booth demoing live. Four of those partners delivered theater talks and ten were featured on SecurityLive streaming. We hosted […]<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Tue, 18 Aug 2026 17:04:28 +0000</pubDate>
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/security-hub-extended-adds-supply-chain-security-as-its-tenth-category/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-<category>SolarWinds</category>
 <category>supply_chain</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html</title>
@@ -2094,15 +2099,6 @@
 <guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vqtjpi/unauthenticated_rce_in_circlecis_mcp_server/</guid>
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>An “invisible” car? Researcher uses machine learning to hide vehicles from Flock cameras</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras</link>
-<description><![CDATA[A cybersecurity expert has demonstrated how computer-generated patterns can successfully prevent surveillance cameras from detecting vehicles - such as the controversial AI-powered Flock licence plate readers that are becoming increasingly common on American streets. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Mon, 17 Aug 2026 14:10:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR</title>
@@ -3094,16 +3090,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Smashing Security podcast #480: This is the AI service you should never sign up to</title>
-<link>https://grahamcluley.com/smashing-security-podcast-480/</link>
-<description><![CDATA[Would you like access to Anthropic&apos;s Claude at 90% off the normal price? All you have to do is redirect your traffic to a mysterious service called &quot;Poison Claude&quot;. Only problem is that it&apos;s run by fraudsters... Meanwhile, a phishing-as-a-service platform called &quot;Greatness&quot; has come up with something rather nasty: a phishing attack that doesn&apos;t need a fake website, a suspicious URL, or your password. Just a real Microsoft login page and a moment of misplaced trust - and the attackers walk off with full access to your emails, your files, and your entire organisation. All this and more in episode 480 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lianne Potter.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 12 Aug 2026 23:12:28 +0000</pubDate>
-<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-480/</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>How AWS IAM role manager rethinks the starting point for IAM roles</title>
 <link>https://aws.amazon.com/blogs/security/how-aws-iam-role-manager-rethinks-the-starting-point-for-iam-roles/</link>
 <description><![CDATA[When you build a new application or capability on Amazon Web Services (AWS), you want to focus on what you’re building. Getting a service running almost always begins with AWS Identity and Access Management (IAM). Many AWS services that act on your behalf need an IAM role, an identity the service assumes to access your […]]]></description>
@@ -3750,15 +3736,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>Meta’s Ray-Bans are being banned from pubs, restaurants, and theatres</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/meta-ray-ban-banned-pubs-restaurants-theatres</link>
-<description><![CDATA[A growing number of UK venues have decided to act against privacy-busting smart glasses. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Mon, 10 Aug 2026 19:31:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/meta-ray-ban-banned-pubs-restaurants-theatres</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists</title>
 <link>https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists</link>
 <description><![CDATA[It&apos;s time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.]]></description>
@@ -4061,15 +4038,6 @@
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/securing-your-amazon-s3-buckets-identifying-and-remediating-over-permissioned-access/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Beware cut-price AI services that read your every word</title>
-<link>https://www.fortra.com/blog/beware-cut-price-ai-services-read-your-every-word</link>
-<description><![CDATA[f someone offered you 90% off the official price to access Claude, the powerful AI model from Anthropic, would you be tempted? It turns out that around 900 people were, and they may be regretting their decision. Read more in my article on the Fortra blog.]]></description>
-<pubDate>Fri, 07 Aug 2026 15:33:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.fortra.com/blog/beware-cut-price-ai-services-read-your-every-word</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Inside the Fake Copyright Racket Silencing News Outlets</title>
@@ -4407,15 +4375,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Apple’s bug bounty program is drowning in so much AI slop, it is in danger of missing serious exploits</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/apple-bug-bounty-ai-missing-exploits</link>
-<description><![CDATA[Apple has imposed strict new submission limits on its bug bounty portal after finding itself overwhelmed by low-quality, AI generated vulnerability reports - many of which were found to be describing security flaws that simply didn&apos;t exist. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Thu, 06 Aug 2026 10:26:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/apple-bug-bounty-ai-missing-exploits</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Canadian Hacker Pleads Guilty Over Snowflake Extortion Campaign</title>
 <link>https://www.infosecurity-magazine.com/news/canadian-hacker-guilty-snowflake/</link>
 <description><![CDATA[A Canadian hacker has admitted involvement in the widespread compromise of 165 Snowflake customer accounts used to steal data and extort victims<br/><br/><em>Tags: Snowflake · ransomware_extortion</em>]]></description>
@@ -4493,15 +4452,6 @@
 <guid isPermaLink="true">https://portswigger.net/research/crlf-powered-desync-attacks</guid>
 <source url="https://portswigger.net/research/rss">PortSwigger Research</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Smashing Security podcast #479: How a fake police officer nearly stole Graham’s cryptocurrency</title>
-<link>https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/</link>
-<description><![CDATA[Graham gets a phone call from the police. Well, someone who sounds convincingly like the police. There&apos;s just one small problem: what they really want is the 24-word seed key to Graham&apos;s cryptocurrency wallet. Meanwhile, if you&apos;ve stayed in a hotel recently, the free Wi-Fi you connected to might have come with an unexpected extra: an all-you-can-eat buffet of &quot;Captive Crunch&quot; for a Russian intelligence-linked hacking group. And a group calling itself the &quot;ExFilSquad&quot; has walked off with 600,000 records of the UK&apos;s teachers and head teachers from the Department for Education — sending an unusually polite ransom demand. All this and more in episode 479 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Danny Palmer.]]></description>
-<pubDate>Wed, 05 Aug 2026 23:10:20 +0000</pubDate>
-<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-479-how-a-fake-police-officer-nearly-stole-grahams-cryptocurrency/</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>AWS partners with Anthropic and OpenAI to bring AWS Continuum into developer workflows</title>
@@ -4930,15 +4880,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Fake IRS letters target cryptocurrency holders</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/fake-irs-letters-cryptocurrency</link>
-<description><![CDATA[Do you hold cryptocurrency? Have you received a letter telling you that you must register with a so-called &quot;Digital Asset Compliance Portal&quot;? If so, it&apos;s time to hit the brakes, because it sounds like someone is trying to scam you. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Tue, 04 Aug 2026 09:02:46 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/fake-irs-letters-cryptocurrency</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>UK’s Police National Legal Database Reveals Data Breach</title>
 <link>https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/</link>
 <description><![CDATA[The UK’s Police National Legal Database and Ask the Police service have been breached<br/><br/><em>Tags: data_breach</em>]]></description>
@@ -5289,17 +5230,6 @@
 <description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
 <pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-<category>APT29</category>
-<category>credential_theft</category>
-</item>
-<item>
-<title>CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</link>
-<description><![CDATA[Storm-2945, a sub-cluster of the Russian threat actor Midnight Blizzard, has been observed compromising the sign-in portals of hospitality-related organizations such as hotels since May 2026 in order to deliver malware to travelers and steal credentials in an operation we call CaptiveCrunch. The post CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft appeared first on Microsoft Security Blog .<br/><br/><em>Tags: APT29 · credential_theft</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 21:01:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>APT29</category>
@@ -5372,16 +5302,6 @@
 <guid isPermaLink="true">https://www.rapid7.com/blog/post/dr-black-hat-usa-2026-preemptive-security-in-action</guid>
 <source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>The $5 million threat: AI Is supercharging phishing attacks</title>
-<link>https://www.fortra.com/blog/5-million-threat-ai-supercharging-phishing-attacks</link>
-<description><![CDATA[According to the newly-published study, phishing and social engineering are becoming more expensive to recover from, trickier to detect, and increasingly augmented by artificial intelligence. Read more in my article on the Fortra blog.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Fri, 31 Jul 2026 11:43:45 +0000</pubDate>
-<guid isPermaLink="true">https://www.fortra.com/blog/5-million-threat-ai-supercharging-phishing-attacks</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Network Anomaly Detection in KATA</title>
@@ -5716,15 +5636,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>North Korea’s elite hackers turned on their own government – and got caught</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/north-korea-hackers-own-government</link>
-<description><![CDATA[For years, North Korea&apos;s state-trained hackers have been one of the world&apos;s most prolific robbers of banks - stealing huge sums of money from foreign financial instituions, draining cryptocurrency exchanges of billions, and funnelling the proceeds into the country&apos;s weapons programme. But now, in a remarkable twist, some of the same elite hackers appear to have decided to rob their own government instead. And, it doesn&apos;t sound as if it has ended that well for them. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Thu, 30 Jul 2026 09:17:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/north-korea-hackers-own-government</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Google Releases Patches for 370 Vulnerabilities in Chrome 151</title>
 <link>https://www.infosecurity-magazine.com/news/google-patches-370-vulnerabilities/</link>
 <description><![CDATA[The new version of Chrome, 151, comes with 370 vulnerability patches, including for seven critical flaws]]></description>
@@ -5796,15 +5707,6 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/enhanced-detection-engineering-at-scale-in-the-agentic-era</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Smashing Security podcast #478: This job interview could destroy your company</title>
-<link>https://grahamcluley.com/smashing-security-podcast-478/</link>
-<description><![CDATA[You&apos;ve been headhunted for a great job in cryptocurrency. All you have to do is complete a short online assessment - with your webcam on, of course, so they can verify who you really are. Which is ironic, because the person recruiting you doesn&apos;t exist. And North Korean hackers using this trick have already made off with $643 million in crypto this year alone. Meanwhile, researchers at UC San Diego have discovered that 2.2 million cars across the United States can be unlocked or immobilised by anyone with a bit of Bluetooth kit - thanks to one aftermarket car alarm that made a truly spectacular cryptographic blunder. The bug has been sitting there since 2017. Nobody noticed. All this and more in episode 478 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.]]></description>
-<pubDate>Wed, 29 Jul 2026 23:09:41 +0000</pubDate>
-<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-478/</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>OpenSSF Community Day Europe 2026: Schedule Highlights &amp; What to Expect</title>
@@ -6316,15 +6218,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>OpenAI’s AI “goes rogue” and hacks Hugging Face: what you need to know</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/openais-hacks-hugging-face</link>
-<description><![CDATA[You can&apos;t have failed to hear the news headlines about &quot;rogue&quot; OpenAI models hacking into another AI organisation, Hugging Face. But what has actually happened, who is to blame, and is it as serious as some of the reports suggest? Find out in my article on the Hot for Security blog.]]></description>
-<pubDate>Thu, 23 Jul 2026 14:18:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/openais-hacks-hugging-face</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Russian Global Webmail Espionage</title>
 <link>https://unit42.paloaltonetworks.com/russian-webmail-espionage/</link>
 <description><![CDATA[Unit 42 details a Russian cyberespionage campaign targeting Zimbra webmail servers using JavaScript injection to steal credentials. The post Russian Global Webmail Espionage appeared first on Unit 42 .<br/><br/><em>Tags: apt_espionage</em>]]></description>
@@ -6398,15 +6291,6 @@
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 <category>WordPress</category>
-</item>
-<item>
-<title>Smashing Security podcast #477: How 14 orders of chicken McNuggets helped nail a suspected Russian hacker</title>
-<link>https://grahamcluley.com/smashing-security-podcast-477/</link>
-<description><![CDATA[A Russian intelligence-linked hacker is arrested in Thailand while enjoying a beach holiday - and the trail of evidence that nailed him to the Russian government includes 14 separate orders of chicken McNuggets. Meanwhile, AI music generator Suno has been hacked - and the stolen data appears to show exactly how much copyrighted music they hoovered up to train their models. All this and more in episode 477 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest James Ball.]]></description>
-<pubDate>Wed, 22 Jul 2026 23:10:22 +0000</pubDate>
-<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-477/</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Inside FakeAgent: How a Claude Desktop Malvertising Campaign Hit 29 Organizations with SectopRAT</title>
@@ -6605,15 +6489,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Ukraine warns fake CAPTCHAs are being used to make you hack yourself</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/ukraine-fake-captchas-hack-yourself</link>
-<description><![CDATA[Ukraine&apos;s computer emergency response team, CERT-UA, has warned that the Kremlin-backed Sandworm hacking group is leveraging fake CAPTCHA checks on compromised websites that persuade users to run malicious code. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Tue, 21 Jul 2026 09:51:58 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/ukraine-fake-captchas-hack-yourself</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Weekly Update 513: Clauding The Home Network</title>
 <link>https://www.troyhunt.com/weekly-update-513/</link>
 <description><![CDATA[I reckon this week&apos;s video on how Claude is tying together info from UniFi, Home Assistant and the Pi-Hole is an absolute ripper. Or at least the concept is - if ever there was an actual value proposition for AI it&apos;s taking lots of noise and]]></description>
@@ -6757,15 +6632,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>Google’s Gemini lets strangers send messages from your locked Android phone</title>
-<link>https://www.bitdefender.com/en-us/blog/hotforsecurity/googles-gemini-strangers-messages-locked-android-phone</link>
-<description><![CDATA[Gemini, Google&apos;s AI assistant, is supposed to make life easier for Android smartphone owners. But right now it may also be making life easier for anyone anyone who happens to pick up your phone. Read more in my article on the Hot for Security blog.]]></description>
-<pubDate>Fri, 17 Jul 2026 22:30:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/googles-gemini-strangers-messages-locked-android-phone</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation</title>
 <link>https://www.volexity.com/blog/2026/07/17/proxying-to-compromise-sonicwall-secure-mobile-access-0-day-exploitation/</link>
 <description><![CDATA[In early July 2026, Volexity was engaged to perform an incident response investigation where it discovered a threat actor had successfully compromised SonicWall Secure Mobile Access (SMA) VPN appliances through […] The post Proxying to Compromise: SonicWall Secure Mobile Access 0-day Exploitation appeared first on Volexity .<br/><br/><em>Tags: SonicWall</em>]]></description>
@@ -6844,16 +6710,6 @@
 <category>Microsoft Defender</category>
 </item>
 <item>
-<title>Anubis ransomware: what you need to know</title>
-<link>https://www.fortra.com/blog/anubis-ransomware</link>
-<description><![CDATA[The Anubis ransomware-as-a-service (RaaS) operation has hit some healthcare organisations hard - but they are not the only ones at risk. Read more in my article on the Fortra blog.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 16 Jul 2026 21:05:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.fortra.com/blog/anubis-ransomware</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>[tl;dr sec] #337 - Harnessing Harnesses, Generate Decoy Environments, Bug Bounty Singularity</title>
 <link>https://tldrsec.com/p/tldr-sec-337</link>
 <description><![CDATA[Survey for AI-powered vulnerability finding harnesses, programmatically build complex decoy cloud environments, building hackbots]]></description>
@@ -6909,15 +6765,6 @@
 <category>ai_security_agentic_risk</category>
 <category>Apple iOS/macOS</category>
 <category>ai_security</category>
-</item>
-<item>
-<title>Smashing Security podcast #476: Remote-control rickshaws and rogue book marketers</title>
-<link>https://grahamcluley.com/smashing-security-podcast-476/</link>
-<description><![CDATA[An app has appeared in India that lets anyone with a smartphone stop a passing e-rickshaw dead in its tracks - no login, no passwords, no permissions needed. Meanwhile, Geoff - swimming in money and Lamborghinis, as all published authors are - has been on the receiving end of a slew of AI-generated scam pitches from fake book marketing experts. Rather than ignore them, he&apos;s been playing them at their own game... All this and more in this episode of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Geoff White.]]></description>
-<pubDate>Thu, 16 Jul 2026 09:02:27 +0000</pubDate>
-<guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-476/</guid>
-<source url="https://grahamcluley.com/feed/">Graham Cluley</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Srsly Risky Biz: Ransomware uses AI to amp up negotiations</title>
@@ -18659,7 +18506,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18668,7 +18515,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18677,7 +18524,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18686,7 +18533,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18696,7 +18543,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18705,7 +18552,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18714,7 +18561,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18723,7 +18570,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18732,7 +18579,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18741,7 +18588,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 25 Aug 2026 16:44:32 +0000</pubDate>
+<pubDate>Tue, 25 Aug 2026 17:37:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
