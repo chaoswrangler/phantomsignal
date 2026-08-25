@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-25T03:04:53.413846+00:00",
+  "generated_at": "2026-08-25T03:55:43.822157+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 73,
-  "total_items_in_window": 283,
+  "feeds_ok": 72,
+  "total_items_in_window": 290,
   "total_clusters_raw": 132,
-  "total_clusters_in_packet": 45,
-  "dropped_low_score": 87,
+  "total_clusters_in_packet": 46,
+  "dropped_low_score": 86,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,18 +67,18 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -88,15 +88,15 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
@@ -116,19 +116,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,6 +130,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
@@ -144,18 +144,25 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "ESET WeLiveSecurity": {
@@ -172,6 +179,13 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
@@ -186,32 +200,11 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -220,6 +213,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -235,6 +235,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -242,12 +249,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -261,13 +268,6 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 1
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 1
     },
     "Active Countermeasures": {
@@ -291,19 +291,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 2
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -319,13 +319,6 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
@@ -333,12 +326,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -347,11 +340,11 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Cloudflare Security": {
@@ -366,6 +359,13 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Cloudflare Radar": {
@@ -389,18 +389,18 @@
       "item_count": 100,
       "in_window_count": 4
     },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "OpenSSF Blog": {
@@ -410,20 +410,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -431,26 +417,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 17
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -459,12 +431,12 @@
       "item_count": 20,
       "in_window_count": 18
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -472,6 +444,34 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 17
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,20 +487,6 @@
       "item_count": 50,
       "in_window_count": 26
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -508,22 +494,22 @@
       "item_count": 10,
       "in_window_count": 8
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -535,6 +521,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -550,29 +550,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
+      "item_count": 50,
+      "in_window_count": 50
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -584,6 +577,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -3588,6 +3588,162 @@
       ]
     },
     {
+      "cluster_id": "a7d83e74e6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+        "published": "2026-08-20T17:52:13+00:00",
+        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
+          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
+          "published": "2026-08-20T17:52:13+00:00",
+          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1fcc0abfde",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
+        "link": "https://isc.sans.edu/diary/rss/33274",
+        "published": "2026-08-24T07:23:16+00:00",
+        "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
+          "link": "https://isc.sans.edu/diary/rss/33274",
+          "published": "2026-08-24T07:23:16+00:00",
+          "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "e7f188e340",
       "priority_score": 10,
       "member_count": 1,
@@ -3792,87 +3948,6 @@
               "WordPress": "target",
               "OpenAI/ChatGPT": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a7d83e74e6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-        "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-        "published": "2026-08-20T17:52:13+00:00",
-        "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-        "full_body": "Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert",
-          "link": "https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/",
-          "published": "2026-08-20T17:52:13+00:00",
-          "summary": "Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5026,22 +5101,16 @@
         "GitHub"
       ],
       "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "GitHub",
-          "Gogs",
-          "Microsoft Entra"
+          "GitHub"
         ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report",
           "vulnerability_disclosure"
@@ -5058,30 +5127,22 @@
         "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
         "published": "2026-08-20T13:48:24+00:00",
         "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
-        "full_body": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\" GHSA-864f-rcv7-6rh4 \"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. \"A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process,\" Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. \"Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape.\" Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. \"Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability),\" project maintainer Marcel Laverdet said in an advisory. \"Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host.\" Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. \"The most important takeaway is that what was not broken was the isolation primitive itself,\" Staicu said. \"V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for ",
+        "full_body": "",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "ddos"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "Gogs",
-            "Microsoft Entra",
             "GitHub"
           ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "critical_cvss"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "Gogs": "target",
-            "Microsoft Entra": "target",
             "GitHub": "target"
           },
           "weak_tags": {
@@ -5098,27 +5159,19 @@
           "published": "2026-08-20T13:48:24+00:00",
           "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
           "taxonomy": {
-            "threat_categories": [
-              "ddos"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Gogs",
-              "Microsoft Entra",
               "GitHub"
             ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "critical_cvss"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "Gogs": "target",
-              "Microsoft Entra": "target",
               "GitHub": "target"
             },
             "weak_tags": {
@@ -5266,7 +5319,7 @@
       ]
     },
     {
-      "cluster_id": "9c9e5e2cfe",
+      "cluster_id": "9febe0324e",
       "priority_score": 8,
       "member_count": 2,
       "corroborating_source_count": 2,
@@ -5280,11 +5333,18 @@
           "ransomware_extortion"
         ],
         "actor_attribution": [
+          "Cl0p",
           "ShinyHunters"
         ],
-        "affected_industries": [],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "legal_professional",
+          "manufacturing_industrial"
+        ],
         "affected_products": [
-          "Okta"
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -5298,13 +5358,13 @@
         ]
       },
       "primary": {
-        "source": "BleepingComputer",
+        "source": "SecurityWeek",
         "cohort": "cyber_news_breach_reporting",
-        "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-        "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-        "published": "2026-08-24T15:17:16+00:00",
-        "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-        "full_body": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach By Bill Toulas August 24, 2026 11:17 AM 0 Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. In a statement over the weekend, ReliaQuest said that an attacker called multiple employees and tried to trick them into accessing \"a fake ReliaQuest single sign-on (SSO) page behind a content delivery network.\" Last week, ReliaQuest's Threat Research team shared in a now-deleted post , that the ShinyHunters extortion gang was registering .claims domains to impersonate company's help desks and IT teams. \"ReliaQuest is tracking a widespread ShinyHunters campaign using domains that follow the company[.]claims pattern. These domains incorporate the targeted organization’s name or abbreviation under the .claims TLD,\" read the company's post on X. Yesterday, a newly-created X account believed to be linked to the threat actors replied to the post, stating \"Who's hunting who ?,\" sharing screenshots of what appeared to be a compromised Okta SSO account for a ReliaQuest employee. Soon after, ShinyHunters published the same screenshots in a new entry on their data data leak site. Both ReliaQuest's and the alleged threat actor's posts were later taken down from X. According to the company, the threat actor hosted the phishing page on a \"lookalike domain,\" which BleepingComputer learned from sources was reliaquest.claims , and used the name of a real security employee during the vishing attempts. One of the targeted employees fell for the attacker's ruse, entered their credentials on the fake SSO page, and approved an MFA push notification, giving the attacker temporary, view-only access to ReliaQuest's identity dashboard. However, device-trust controls successfully blocked subsequent attempts to access applications through the dashboard, according to the company. “The extent of the access was view-only. No ReliaQuest applications or systems were accessed, and no customer data was ever touched,” ReliaQuest says . “The threat actor continued with attempts to access these applications from the dashboard but was consistently denied due to the security controls in place.” The cybersecurity firm says it terminated the attacker’s sessions, revoked the exposed password, and reset all authentication tokens. The ensuing investigation found no evidence of access to other accounts, apps, or data, and no signs that the actor established persistence on ReliaQuest’s systems. The firm audited its control fidelity, device trust, and on-network access since August 21 and identified no suspicious activity. ShinyHunters claims the attack ReliaQuest’s statement comes shortly after the infamous data extortion group ‘ShinyHunters’ claimed an attack on the company. In a new post on its extortion portal, ShinyHunters references ReliaQuest’s previous reporting on the threat group, saying \"this time the post is about you , not us.\" ReliaQuest listed on the ShinyHunters extortion page Source: BleepingComputer The threat actors published evidence of access, showing that they had successfully breached ReliaQuest’s Okta SSO account. We asked ReliaQuest if the disclosed incident is linked to ShinyHunters, but we have not received any additional information yet. However, ShinyHunters told BleepingComputer that their access was view only and did not reach any applications, systems, or customer data. \"No additional identities were accessed, no business applications were reached, no customer or ReliaQuest data was accessed beyond the user's login credentials, and no persistence was established,\" the threat actor told us. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by techn",
+        "title": "ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited",
+        "link": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
+        "published": "2026-08-24T17:38:21+00:00",
+        "summary": "A ReliaQuest employee fell victim to a phishing attack and the hackers gained access to a dashboard. The post ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited appeared first on SecurityWeek .",
+        "full_body": "Cybersecurity firm ReliaQuest has confirmed being targeted by hackers affiliated with the notorious ShinyHunters group, but claims the impact of the attack was limited. ReliaQuest revealed on August 17 in a post on X that it had been tracking a widespread ShinyHunters phishing campaign involving domains with the ‘company.claims’ URL pattern. The company also warned that the hacker gang has been expanding its social engineering tactics to include legal team impersonation alongside IT and help desk impersonation. In response to that now-deleted post, someone shared several screenshots that appeared to show access to a ReliaQuest Okta dashboard. The same screenshots were posted on ShinyHunters’ website, along with a message taunting the security firm. ReliaQuest addressed the incident on Monday, admitting it had been targeted in a social engineering attack over the weekend. According to the company, the hackers registered a fake domain and set it up to host a ReliaQuest SSO phishing page. Advertisement. Scroll to continue reading. “The threat actor then called multiple ReliaQuest teammates, each time posing as a security employee by name in an attempt to steer them towards the fake page,” the security firm explained . “One teammate entered their password and approved the push notification on their phone. That handed the attacker a brief session on our identity dashboard.” ReliaQuest says the attackers obtained view-only access to the dashboard, and pointed out that its applications, systems, and customer data were not compromised. “The threat actor continued with attempts to access these applications from the dashboard but was consistently denied due to the security controls in place,” it noted. ReliaQuest added, “No additional identities were accessed, no business applications were reached, no customer or ReliaQuest data was accessed beyond the user’s login credentials, and no persistence was established. Claims that ReliaQuest was compromised or targeted by ransomware are false.” Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : Personal Information Exposed in Apollo Global Data Breach Related : 1.6 Million Likely Impacted by RingCentral Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Latest News Hired for One Job, Judged on Another: The CISO’s Real Problem Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Rethinking Application Security for the AI Era Iran-Linked Hackers Shut Down UK Power Plant for Four Days TikTok Reaches $400 Million Settlement With US Justice Department Over Children’s Privacy Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns fro",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -5313,11 +5373,18 @@
             "data_breach"
           ],
           "actor_attribution": [
-            "ShinyHunters"
+            "ShinyHunters",
+            "Cl0p"
           ],
-          "affected_industries": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "manufacturing_industrial",
+            "legal_professional"
+          ],
           "affected_products": [
-            "Okta"
+            "OpenAI/ChatGPT",
+            "Anthropic/Claude"
           ],
           "tools_used": [],
           "cve_ids": [],
@@ -5326,21 +5393,29 @@
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "Okta": "target"
+            "OpenAI/ChatGPT": "target",
+            "Anthropic/Claude": "target",
+            "Okta": "mention"
           },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Okta",
+                "mention",
+                0.3
+              ]
+            ]
           }
         }
       },
       "corroborating_sources": [
         {
-          "source": "BleepingComputer",
+          "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-          "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-          "published": "2026-08-24T15:17:16+00:00",
-          "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
+          "title": "ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited",
+          "link": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
+          "published": "2026-08-24T17:38:21+00:00",
+          "summary": "A ReliaQuest employee fell victim to a phishing attack and the hackers gained access to a dashboard. The post ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion",
@@ -5348,11 +5423,18 @@
               "data_breach"
             ],
             "actor_attribution": [
-              "ShinyHunters"
+              "ShinyHunters",
+              "Cl0p"
             ],
-            "affected_industries": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "manufacturing_industrial",
+              "legal_professional"
+            ],
             "affected_products": [
-              "Okta"
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -5361,20 +5443,28 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "Okta": "target"
+              "OpenAI/ChatGPT": "target",
+              "Anthropic/Claude": "target",
+              "Okta": "mention"
             },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Okta",
+                  "mention",
+                  0.3
+                ]
+              ]
             }
           }
         },
         {
-          "source": "SecurityWeek",
+          "source": "BleepingComputer",
           "cohort": "cyber_news_breach_reporting",
-          "title": "ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited",
-          "link": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
-          "published": "2026-08-24T17:38:21+00:00",
-          "summary": "A ReliaQuest employee fell victim to a phishing attack and the hackers gained access to a dashboard. The post ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited appeared first on SecurityWeek .",
+          "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+          "link": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+          "published": "2026-08-24T15:17:16+00:00",
+          "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
           "taxonomy": {
             "threat_categories": [
               "phishing_social_eng"
@@ -6011,26 +6101,25 @@
       "dominant_features": {
         "threat_categories": [
           "active_exploitation",
-          "phishing_social_eng",
-          "ddos"
+          "phishing_social_eng"
         ],
         "affected_industries": [
           "government"
         ],
         "affected_products": [
           "Microsoft Entra",
-          "Gogs",
-          "Android"
+          "Android",
+          "Gogs"
         ],
         "urgency_signals": [
           "actively_exploited",
-          "critical_cvss",
-          "preauth_unauth"
+          "preauth_unauth",
+          "critical_cvss"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 10,
-      "cohesion": 0.238,
+      "cluster_count": 3,
+      "article_count": 8,
+      "cohesion": 0.276,
       "shared_strong_signals": [
         "Microsoft Entra"
       ],
@@ -6039,8 +6128,7 @@
       "cluster_ids": [
         "91f1063cec",
         "6117c1d701",
-        "c23d18e0e8",
-        "9f44f5f9a4"
+        "c23d18e0e8"
       ],
       "links": [
         "https://www.helpnetsecurity.com/2026/08/21/microsoft-entra-id-vulnerability-cve-2026-69836/",
@@ -6049,9 +6137,7 @@
         "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
         "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
         "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
-        "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-        "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-        "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/"
+        "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
       ]
     },
     {
@@ -6154,6 +6240,51 @@
         "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
         "https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/",
         "https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/"
+      ]
+    },
+    {
+      "label": "Cl0p: ransomware extortion",
+      "anchor_signal": "Cl0p",
+      "theme_key": "cl0p",
+      "dominant_features": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng",
+          "data_breach"
+        ],
+        "actor_attribution": [
+          "Cl0p",
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.372,
+      "shared_strong_signals": [
+        "Cl0p"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "fb556ca51b",
+        "ec6e40ad77",
+        "9febe0324e"
+      ],
+      "links": [
+        "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
+        "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+        "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
+        "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
+        "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/"
       ]
     },
     {
@@ -6318,65 +6449,29 @@
       ]
     },
     {
-      "label": "Cl0p: ransomware extortion",
-      "anchor_signal": "Cl0p",
-      "theme_key": "cl0p",
+      "label": "CVE-2021-33044 exploitation activity",
+      "anchor_signal": "CVE-2021-33044",
+      "theme_key": "cve-2021-33044",
       "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "Cl0p"
+        "cve_ids": [
+          "CVE-2021-33044"
         ]
       },
       "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.2,
+      "article_count": 2,
+      "cohesion": 0.227,
       "shared_strong_signals": [
-        "Cl0p"
+        "CVE-2021-33044"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "fb556ca51b",
-        "ec6e40ad77"
+        "bf06d05aec",
+        "2faaf824a1"
       ],
       "links": [
-        "https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence",
-        "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-        "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/"
-      ]
-    },
-    {
-      "label": "ShinyHunters: ransomware extortion",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng",
-          "data_breach"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.298,
-      "shared_strong_signals": [
-        "ShinyHunters"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "ec6e40ad77",
-        "9c9e5e2cfe"
-      ],
-      "links": [
-        "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
-        "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-        "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/"
+        "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+        "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/"
       ]
     }
   ],
