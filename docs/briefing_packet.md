@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-25T12:57:47.711893+00:00
+- Generated: 2026-08-25T13:55:19.617943+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 296
-- Total clusters raw: 136
+- Total items in window: 322
+- Total clusters raw: 135
 - Total clusters in packet: 49
-- Dropped low score: 87
+- Dropped low score: 86
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,41 +70,46 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -115,21 +120,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -140,6 +135,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -149,17 +149,27 @@
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 7
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 5
+  - Item count: 10
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
@@ -170,20 +180,15 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -199,19 +204,14 @@
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+  - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -240,6 +240,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,81 +255,66 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 100
+  - In window count: 0
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 99
   - In window count: 3
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 10
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -335,6 +325,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -350,26 +350,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 26
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 17
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -380,25 +385,20 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
   - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
@@ -415,11 +415,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -430,21 +430,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 28
+  - In window count: 29
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 12
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 24
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -476,18 +476,19 @@
 ### Android active exploitation
 - Anchor signal: Android
 - Theme key: android
-- Cluster count: 6
+- Cluster count: 5
 - Article count: 16
-- Cohesion: 0.27
+- Cohesion: 0.229
 - Shared strong signals: Android
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: active_exploitation
-  - affected_industries: financial_services
+  - actor_attribution: Lazarus
+  - affected_industries: government, financial_services
   - affected_products: Android, Gogs, Microsoft Entra
   - urgency_signals: actively_exploited, preauth_unauth, critical_cvss
-- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9101d8d7ac, e7f188e340, 8a66834bf6
+- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9101d8d7ac, e7f188e340
 - Links:
   - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
   - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
@@ -499,17 +500,74 @@
   - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
   - https://securelist.com/android-head-unit-malware/121106/
   - https://risky.biz/RBNEWS604/
+  - https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
   - https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
   - https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
-  - https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
-  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+
+### Gogs active exploitation
+- Anchor signal: Gogs
+- Theme key: gogs
+- Cluster count: 5
+- Article count: 12
+- Cohesion: 0.243
+- Shared strong signals: Gogs
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, phishing_social_eng, ddos
+  - affected_industries: government
+  - affected_products: Gogs, Microsoft Entra, Android
+  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
+- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4, 83593c505c
+- Links:
+  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
+  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
+  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+  - https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+  - https://www.reddit.com/r/blueteamsec/comments/1vwt1er/prompting_the_payload_how_an_npm_supply_chain/
+
+### Microsoft Entra active exploitation
+- Anchor signal: Microsoft Entra
+- Theme key: microsoft-entra
+- Cluster count: 5
+- Article count: 12
+- Cohesion: 0.243
+- Shared strong signals: Microsoft Entra
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, phishing_social_eng, ddos
+  - affected_industries: government
+  - affected_products: Gogs, Microsoft Entra, Android
+  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
+- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4, 83593c505c
+- Links:
+  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
+  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
+  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+  - https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+  - https://www.reddit.com/r/blueteamsec/comments/1vwt1er/prompting_the_payload_how_an_npm_supply_chain/
 
 ### web shell backdoor targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 4
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.256
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -522,63 +580,10 @@
 - Links:
   - https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
+  - https://www.reddit.com/r/blueteamsec/comments/1vxr4tp/exploiting_sharepoint_cve202655040_and/
   - https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
-
-### Microsoft Entra active exploitation
-- Anchor signal: Microsoft Entra
-- Theme key: microsoft-entra
-- Cluster count: 4
-- Article count: 10
-- Cohesion: 0.238
-- Shared strong signals: Microsoft Entra
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, ddos
-  - affected_industries: government
-  - affected_products: Gogs, Microsoft Entra, Android
-  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
-- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4
-- Links:
-  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
-  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
-  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
-  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
-  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
-  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
-  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
-
-### Gogs active exploitation
-- Anchor signal: Gogs
-- Theme key: gogs
-- Cluster count: 4
-- Article count: 10
-- Cohesion: 0.238
-- Shared strong signals: Gogs
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, ddos
-  - affected_industries: government
-  - affected_products: Gogs, Microsoft Entra, Android
-  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
-- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4
-- Links:
-  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
-  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
-  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
-  - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
-  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
-  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
-  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
-  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
 
 ### CVE-2026-73570 exploitation activity
 - Anchor signal: CVE-2026-73570
@@ -684,23 +689,23 @@
   - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   - https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
 
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
 - Cluster count: 2
-- Article count: 6
+- Article count: 3
 - Cohesion: 0.2
-- Shared strong signals: WordPress
+- Shared strong signals: npm
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: WordPress
-- Cluster IDs: 73e2ba5a94, 8a66834bf6
+  - threat_categories: supply_chain
+  - affected_products: npm
+- Cluster IDs: f7442c938e, 83593c505c
 - Links:
-  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
-  - https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
-  - https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
-  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+  - https://unit42.paloaltonetworks.com/sdlc-supply-chain/
+  - https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+  - https://www.reddit.com/r/blueteamsec/comments/1vwt1er/prompting_the_payload_how_an_npm_supply_chain/
 
 ### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
@@ -718,30 +723,28 @@
   - https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
   - https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
 
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
+### CVE-2021-33044 exploitation activity
+- Anchor signal: CVE-2021-33044
+- Theme key: cve-2021-33044
 - Cluster count: 2
-- Article count: 5
-- Cohesion: 0.246
-- Shared strong signals: ShinyHunters
+- Article count: 2
+- Cohesion: 0.227
+- Shared strong signals: CVE-2021-33044
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng
-  - actor_attribution: ShinyHunters
-- Cluster IDs: ec6e40ad77, 861fefc3f5
+  - cve_ids: CVE-2021-33044
+- Cluster IDs: bf06d05aec, 2faaf824a1
 - Links:
-  - https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
-  - https://www.helpnetsecurity.com/2026/08/25/reliaquest-breach-social-engineering/
-  - https://www.infosecurity-magazine.com/news/reliaquest-not-compromised-by/
-  - https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/
-  - https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/
+  - https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
+  - https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 2
+  - CVE-2026-15981 (first seen via Orca Security Research at 2026-08-20T18:19:47+00:00, cluster 73e2ba5a94)
+  - CVE-2026-8508 (first seen via Reddit r/netsec at 2026-08-25T13:37:06+00:00, cluster c0fa858afc)
 - Novel actors: 0
 - Novel products: 0
 
@@ -771,31 +774,20 @@
 - Pair: CVE-2026-72898 + Cisco (cluster 83a33105c1, first observation: True)
 - Pair: CVE-2026-72898 + GitLab (cluster 83a33105c1, first observation: True)
 
-### Drift (4)
+### Drift (2)
 - **Lazarus** (cluster f53fdb391c)
   - New industries: (none)
   - New products: Gogs, Microsoft Entra
   - Prior top industries: aviation_defense, financial_services, government
   - Prior top products: Android, Microsoft Windows, OpenAI/ChatGPT
-- **Cl0p** (cluster ec6e40ad77)
-  - New industries: (none)
-  - New products: Anthropic/Claude
-  - Prior top industries: financial_services, government, manufacturing_industrial
-  - Prior top products: Microsoft SharePoint, OpenAI/ChatGPT, SolarWinds
-- **ShinyHunters** (cluster ec6e40ad77)
-  - New industries: manufacturing_industrial
-  - New products: OpenAI/ChatGPT
+- **ShinyHunters** (cluster 861fefc3f5)
+  - New industries: legal_professional
+  - New products: Okta
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
-- **UNC6671** (cluster ec6e40ad77)
-  - New industries: manufacturing_industrial
-  - New products: (none)
-  - Prior top industries: financial_services, government, healthcare
-  - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, npm
 
-### Persistence (14)
-- actor_attribution: ShinyHunters (weeks observed: 13, cluster ec6e40ad77)
-- actor_attribution: Cl0p (weeks observed: 8, cluster ec6e40ad77)
+### Persistence (12)
+- actor_attribution: ShinyHunters (weeks observed: 13, cluster 861fefc3f5)
 - actor_attribution: APT29 (weeks observed: 5, cluster d5c3fd8d4d)
 - cve_ids: CVE-2026-55040 (weeks observed: 4, cluster af5d25c59b)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 83a33105c1)
@@ -807,9 +799,12 @@
 - cve_ids: CVE-2026-58231 (weeks observed: 3, cluster b61187f40b)
 - cve_ids: CVE-2025-66376 (weeks observed: 3, cluster 6117c1d701)
 - actor_attribution: APT28 (weeks observed: 3, cluster 5968a0ef70)
-- actor_attribution: UNC6671 (weeks observed: 3, cluster ec6e40ad77)
 
-### Tier inversion (1)
+### Tier inversion (2)
+- **CVE-2026-8508: Trust-Boundary Bypass in Zyxel social_login.cgi Facebook Identity Handling**
+  - Cluster: c0fa858afc
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2026-8508
 - **🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia**
   - Cluster: 2faaf824a1
   - Primary source: Reddit r/netsec
@@ -824,8 +819,8 @@
 - Published: 2026-08-24T16:18:05+00:00
 - Link: https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: CVE-2026-63520, Microsoft SharePoint
 
 #### Cluster taxonomy (union across members)
@@ -834,7 +829,7 @@
 - cve_ids: CVE-2019-1257, CVE-2026-55040, CVE-2026-63520, CVE-2026-65400
 - urgency_signals: actively_exploited, preauth_unauth
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - affected_products: Microsoft SharePoint
@@ -849,7 +844,7 @@
 Back to Blog Vulnerabilities and Exploits Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520) Stephen Fewer Aug 24, 2026 | Last updated on Aug 24, 2026 | 11 min read Overview On August 11, 2026, Rapid7 and Microsoft disclosed CVE-2026-63520, a remote code execution (RCE) vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of CVE-2026-63520. This analysis was originally scheduled for publication 30 days after disclosure; however, as a third party has published details of CVE-2026-63520, our timeline has been expedited. A remote authenticated attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. When combined with the authentication bypass, CVE-2026-55040 , the resulting exploit chain is unauthenticated RCE against a vulnerable SharePoint server. When comparing the two analysis of CVE-2026-63520, we can see how we have exploited the issue by leveraging a Database Line-of-Business (LOB) system and an ObjectDataProvider based gadget chain, whilst the VulnCheck analysis has exploited the issue by leveraging a DotNetAssembly LOB system and a LosFormatter based gadget chain. Defenders should account for this when detecting CVE-2026-63520. It is highly likely other gadget chains may also be used. Analysis The following technical analysis is based upon SharePoint Server Subscription Edition version 16.0.19725.20210 . An RCE vulnerability exists in the Microsoft SharePoint Business Data Connectivity (BDC) subsystem. This is due to an unrestricted .NET type instantiation and property-setting primitive in the DbTypeReflector class, which resolves arbitrary assembly-qualified type names from BDC model XML without any allowlist or safety enforcement. An attacker who can upload a malicious .bdcm model file and trigger entity execution can instantiate any .NET type available in the Global Assembly Cache (GAC), set arbitrary properties on those instances, and leverage property-setter side-effects to achieve OS command execution. Note that there is prior work in this space that was very helpful when conducting this research. The writeup of CVE-2019-1257 by the ZDI research team discusses leveraging BDC models for unsafe .NET type instantiation. The vulnerability exists in the Microsoft.SharePoint.BusinessData.SystemSpecific.Db.DbTypeReflector.ResolveDotNetType() method, which directly calls Type.GetType() on attacker-controlled TypeDescriptor TypeName values without validation. Combined with a recursive instantiation and property-setting mechanism in the parent DotNetTypeReflector.Instantiate() method, this allows constructing a gadget chain that triggers Process.Start() through the System.Windows.Data.ObjectDataProvider class's property-setter side-effect (this gadget chain technique is well-known ). The BDC subsystem uses "type reflectors" to resolve .NET types from the TypeName attribute of TypeDescriptor elements in BDC model XML. For Database-type LobSystem definitions, SharePoint uses DbTypeReflector , which inherits from DotNetTypeReflector , as shown below. // Microsoft.SharePoint.BusinessData.SystemSpecific.Db\DbTypeReflector.cs - Lines 167-186 public override Type ResolveDotNetType(string abstractTypeName, ILobSystemStruct lobSystemStruct) { if (string.IsNullOrEmpty(abstractTypeName)) { throw new ArgumentNullException("abstractTypeName"); } if (abstractTypeName.Length < 15) // <-- [1] { return base.ResolveDotNetType(abstractTypeName, lobSystemStruct); } try { return Type.GetType(abstractTypeName, throwOnError: true); // <-- [2] } catch (ArgumentException) { throw new ArgumentException(...); } } At [1] , if the type name is fewer than 15 characters (e.g. System.Int32 ), it falls through to the base class DotNetTypeReflector.ResolveDotNetType() , which has a limited type lookup path. However, at [2] , for any type name greater than 15 characters (e.g. System.Diagnostics.
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (3)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)
@@ -860,6 +855,11 @@ Back to Blog Vulnerabilities and Exploits Rapid7 Analysis: Microsoft SharePoint 
   - Published: 2026-08-19T11:01:48+00:00
   - Link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - Title: Exploiting SharePoint: CVE-2026-55040 and CVE-2026-63520 RCE Chain
+  - Published: 2026-08-25T05:47:11+00:00
+  - Link: https://www.reddit.com/r/blueteamsec/comments/1vxr4tp/exploiting_sharepoint_cve202655040_and/
+  - Summary: submitted by /u/digicat [link] [comments]
 
 ### Cluster 7f1247614d — score 31
 
@@ -973,14 +973,14 @@ GitLab CE/EE GraphQL Directive Code Injection Vulnerability CVE-2026-19478 is a 
 - Published: 2026-08-20T18:19:47+00:00
 - Link: https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 3
+- Member count: 6
+- Corroborating source count: 4
 - Strong signals: CVE-2026-32475, WordPress
 
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach
 - affected_products: WordPress
-- cve_ids: CVE-2026-32475, CVE-2026-61979, CVE-2026-65640
+- cve_ids: CVE-2026-15981, CVE-2026-32475, CVE-2026-61979, CVE-2026-65640
 - urgency_signals: critical_cvss, poc_available, preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news
@@ -1005,13 +1005,18 @@ Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclo
 Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms module’s file upload processing logic, where the extension validation check and the file-move step run in two separate loops with different handling of empty file entries. By submitting two file parts for a single File Upload field, an unauthenticated attacker can bypass the extension blocklist entirely. The uploaded PHP file is written to the publicly accessible directory wp-content/uploads/elementor/forms/<uniqid>.php , granting the attacker arbitrary code execution on the server. No authentication is required to exploit this issue. Affected Systems The following component is affected: Elementor Pro Forms module, versions up to and including 4.2.1. Elementor Pro is a widely used commercial WordPress page builder plugin deployed across millions of websites. Any WordPress site running an affected version that has at least one published page containing a Form widget with a File Upload field is vulnerable. The File Upload field’s “Required” toggle is off by default, so no unusual configuration is needed for exploitation. Related: WordPress core CVE-2026-65640 (CVSS 8.8, fixed in 7.0.4) allows an Author-level user or higher to achieve remote code execution via a malicious PostScript upload. It affects WordPress core versions 4.7 through 7.0, but exploitation requires both Imagick and Ghostscript to be in use on the server, as the underlying flaw is in Ghostscript’s handling of embedded files. Site owners should address both issues. Risk Impact Successful exploitation could allow attackers to execute arbitrary PHP code on the web server, install persistent webshells and exfiltrate sensitive data, and potentially pivot laterally across the hosting environment, leading to service disruption, data exposure, or full infrastructure compromise. At the time of writing, no public proof-of-concept exploit has been released, and no active exploitation campaigns have been publicly confirmed. Regardless, the severity and ease of exploitation make this vulnerability high risk, especially in internet-facing deployments. Remediation Users should upgrade Elementor Pro to version 4.2.2 or later, which was released on August 19, 2026. Additionally, administrators should audit the wp-content/uploads/elementor/forms/ directory for unexpected PHP files, review all Elementor forms exposing File Upload fields to assess whether they are necessary, and update WordPress core to version 7.0.4. As an interim mitigation, WAF rules blocking PHP file uploads through form endpoints can reduce exposure. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Elementor Pro, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning can detect WordPress installations and their plugin versions across cloud workloads, allowing security teams to pinpoint cloud-hosted WordPress instances running Elementor Pro 4.2.1 or earlier. Orca’s platform highlights affected assets, helping security teams focus on the most critical remediation paths first. From the News Item in the Orca Platform Related articles Cloud Security Learning Agentic Workflows: A Complete Guide for 2026 Aug 19, 2026 Cloud Security Learning Autonomous SOC: AI-Driven Security Operations Explained Aug 19, 2026 SOC Automation: AI-Driven Tools and Best Practices Aug 14, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites
   - Published: 2026-08-20T18:19:47+00:00
   - Link: https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
   - Summary: Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities
+  - Published: 2026-08-25T13:33:12+00:00
+  - Link: https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/
+  - Summary: CVE-2026-61979 and CVE-2026-15981 are authentication bypass vulnerabilities affecting the MiniOrange SAML 2.0 SSO plugin. The post WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
   - Published: 2026-08-20T06:04:34+00:00
@@ -1392,11 +1397,12 @@ Wiz Pricing Get a demo Get a demo On August 20, 2026, malicious versions of thre
 - Published: 2026-08-21T08:00:29+00:00
 - Link: https://securelist.com/android-head-unit-malware/121106/
 - Fetch status: ok
-- Member count: 6
+- Member count: 7
 - Corroborating source count: 5
 - Strong signals: Android
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
 - actor_attribution: Lazarus
 - affected_industries: financial_services, government, manufacturing_industrial
 - affected_products: Android
@@ -1433,6 +1439,11 @@ Table of Contents Head unit firmware overview The TWCore app Stage 1: the JarSer
   - Published: 2026-08-24T04:31:50+00:00
   - Link: https://risky.biz/RBNEWS604/
   - Summary: Expired credit cards can be used for malicious transactions, Iranian hackers shut down a UK power plant, the Lazarus Group hacks South Korea’s Presidential Office, and an Android malware strain is infecting smart cars.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android
+  - Published: 2026-08-25T13:19:41+00:00
+  - Link: https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
+  - Summary: Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accounts using the phishing-resistant method. The tech giant said more than 1 billion people use a passkey to log into WhatsApp. Support for passkeys was first introduced in Android in October 2023,
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: ToxicPanda Banking Trojan Matures Into Enterprise Threat
   - Published: 2026-08-24T14:34:59+00:00
@@ -1443,11 +1454,6 @@ Table of Contents Head unit firmware overview The TWCore app Stage 1: the JarSer
   - Published: 2026-08-23T14:23:46+00:00
   - Link: https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
   - Summary: The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices
-  - Published: 2026-08-20T11:26:08+00:00
-  - Link: https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
-  - Summary: A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications. "Manic sits at the intersection of Android banking malware and mobile spyware, combining financial-fraud
 
 ### Cluster fc66ccb428 — score 16
 
@@ -1958,47 +1964,6 @@ Threat Research Center Threat Research Malware Malware Identity Abuse Through Tr
   - Link: https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
   - Summary: Unit 42 details how attackers exploit enterprise collaboration tools for identity phishing and credential theft. Discover key defense strategies. The post Identity Abuse Through Trusted Communication Channels appeared first on Unit 42 .
 
-### Cluster a7d83e74e6 — score 10
-
-- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-- Source: Citizen Lab (threat_research_primary)
-- Published: 2026-08-20T17:52:13+00:00
-- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-```
-
-#### Full body
-
-```
-Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Citizen Lab** (threat_research_primary)
-  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
-  - Published: 2026-08-20T17:52:13+00:00
-  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
-  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-
 ### Cluster e7f188e340 — score 10
 
 - Title: BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive
@@ -2044,173 +2009,46 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - Summary: Research by: Jiří Vinopal (@vinopaljiri) Abstract What if a trusted security component could be repurposed into an attacker-controlled kernel primitive? What if a signed Microsoft remediation driver could be instructed to execute arbitrary file and registry operations from Ring 0 – without exploits, vulnerabilities, or memory corruption? In this publication, we present the first full […] The post BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive appeared first on Check Point Research .
 
-### Cluster 8a66834bf6 — score 10
+### Cluster a7d83e74e6 — score 10
 
-- Title: Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-18T13:05:44+00:00
-- Link: https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+- Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+- Source: Citizen Lab (threat_research_primary)
+- Published: 2026-08-20T17:52:13+00:00
+- Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: critical_infrastructure, financial_services
-- affected_products: Android, OpenAI/ChatGPT, WordPress
+- affected_industries: telecommunications
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services, critical_infrastructure
-- affected_products: Android, WordPress, OpenAI/ChatGPT
+- affected_industries: telecommunications
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Research by: Jaromír Hořejší (@JaromirHorejsi) Key points Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infection chain starts with a ClickFix social-engineering technique, which prompts victims to execute a PowerShell command. This leads to two stages of additional downloaders and […] The post Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect appeared first on Check Point Research .
+Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 ```
 
 #### Full body
 
 ```
-CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 468 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 422 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect August 18, 2026 https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/ Research by: Jaromír Hořejší ( @JaromirHorejsi ) Key points StopAndProtect is a newly identified operation that combines file encryption with data theft. The criminals abuse thousands of hacked WordPress websites as their infrastructure – using them to spread the malware, control infected machines, and store stolen documents, screenshots, and activity logs (records created by malware to track its actions, progress, or status during execution). Operational security (OPSEC) failures by the developer exposed lots of files, including detailed infection logs from victims’ machines, screenshots from infected computers, and source code of tools the criminals use to mass-manage compromised websites. Internal logs reveal thousands of IP addresses affected by this operation, underscoring that this is not a small, isolated incident but a large-scale campaign that targets victims across many regions and networks, where most IPs belong to the US, Russia, and India. The operation doesn’t rely on a single piece of malware, but on a whole toolkit of criminal software working together – some components encrypt files, others silently steal documents or lock the screen, and another acts as a live chat between the attackers and their victims. Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infection chain starts with a ClickFix social-engineering technique, which prompts victims to execute a PowerShell command. This leads to two stages of additional downloaders and loaders written in .NET, followed by several main functional components, such as ransomware, SMB/USB worm, LockScreen, VBS spreader, chat utility and credential stealer. Although the name StopAndProtect was originally given to the ransomware component, we decided to call the whole operation StopAndProtect, as it does not deploy ransomware on all its victims. In many cases, the attackers silently exfiltrate lists of files and later specific files from the infected machines. All these stages collect telemetry and generate and upload logs, giving malware operators a detailed view of the progress of the infection on the affected machines. Malware operators use hacked WordPress sites as infrastructure to host malware stages, as C&C servers to pass commands, as well as the storage of logs exfiltrated from victims. Due to their carelessness and not following proper operational security measures, we discovered a PHP script exposing a directory listing, which led to the discovery of even more log files and open directories. Parsing those logs can provide us with an overview of the size and magnitude of the overall operation. In one scenario, we suspect that the malware operator infected themselves and accidentally uploaded some of their desktop files to the collection server. This archive contains the source code of an automation tool for managing injected payloads at scale on compromised WordPress sites. It also contains a few text files listing close to 2,000 compromised WordPress domains, giving us a hint about the size of the operation. There are many vulnerable WordPress websites simply because their owners do not keep them updated. This is true not only for WordPress itself but also for installed plugins. Out of curiosity, we scanned one compromised WordPress website and found that it was running a Wo
+Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Mentions John Scott-Railton Share Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices, TechCrunch reports . Senior researcher John Scott-Railton says that the “scale and geographic diversity of public posts about receiving notifications are pretty unprecedented.” “For every public notification like this, you can imagine there’s a huge notification iceberg that the public will never learn about. This is a clear indication that something bigger is going on.” Apple debuted its spyware alerts in 2021, which Scott-Railton notes has been a “big improvement” for encouraging users to seek help. The notifications can also serve as a starting point for investigations that can reveal even more cases, especially as spyware has proliferated in recent years. Apple users that receive a notification should take it seriously, and are advised to switch on Lockdown Mode. Apple has yet to see a case where someone’s device was hacked while Lockdown Mode was enabled. Read here And here More in: Targeted Surveillance LATEST We found that former Member of the European Parliament Stelios Kouloglou was hacked with Pegasus spyware while serving on the PEGA committee, which investigated Pegasus and other spyware abuses in Europe. Through forensic analysis of his device, we found that the attackers could have had access to confidential documents and committee deliberations. July 3, 2026 Targeted Surveillance News + Updates → In the Media Co-Founder of Controversial Spyware Firm Had Israeli Diplomatic Passport JULY 28, 2026 News + Updates → Expert Insights How Iran Uses Cellular Infrastructure to Target US Military Phones JULY 24, 2026 News + Updates → In the Media US Military Smartphones Targeted Through Roaming and Ad Tech JULY 17, 2026
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect
-  - Published: 2026-08-18T13:05:44+00:00
-  - Link: https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
-  - Summary: Research by: Jaromír Hořejší (@JaromirHorejsi) Key points Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infection chain starts with a ClickFix social-engineering technique, which prompts victims to execute a PowerShell command. This leads to two stages of additional downloaders and […] The post Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect appeared first on Check Point Research .
-
-### Cluster 3e394c1410 — score 10
-
-- Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-21T15:48:28+00:00
-- Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
-```
-
-#### Full body
-
-```
-How a Manufacturer Turned Password Risk Into Measurable Security Action Horizon3 Customer Stories Weak passwords and legacy accounts can look like isolated security issues. The real risk emerges when attackers can use them to create paths deeper into the environment. A North American manufacturer needed a clearer way to show operational leaders how credential weaknesses and legacy account sprawl translated into real exposure across its sites. This customer story explores how the manufacturer used NodeZero® to connect password risk to real attack paths, prioritize remediation, and build a repeatable process for proving that exposure was being reduced. Key Insight Security teams can identify weaknesses, but awareness alone doesn’t always create the urgency needed to drive remediation across distributed operational environments. NodeZero gave the manufacturer concrete evidence of how credential weaknesses could contribute to larger attack paths. The testing revealed: 115 added findings 75 critical findings 75 attack paths across fewer than 120 hosts 31% of users with crackable passwords Accounts using passwords found on the worst 100 password list Clear connections between credential weaknesses, legacy accounts, and broader compromise paths What You’ll Learn How weak passwords can contribute to broader attack paths Why legacy local and domain accounts can increase organizational exposure How password auditing turns policy concerns into evidence of real risk How attack-path validation helps create urgency around remediation Ways to prioritize critical findings based on their impact on concentrated risk How targeted retesting can verify whether remediation actually reduced exposure How security teams can communicate technical risk more effectively to operational leaders Why It Matters Manufacturing environments often combine established systems, local site autonomy, operational requirements, and distributed account management. In those environments, legacy credentials and routine weaknesses can persist because individual findings don’t always communicate their potential business impact. The manufacturer changed that conversation by showing how those weaknesses connected to real attack paths. NodeZero helped the security team move beyond reporting findings toward prioritizing the risks that mattered most, aligning site leaders around remediation, and building a process to verify that fixes were actually reducing exposure. Download the customer story to see how a North American manufacturer used NodeZero to expose password risk, uncover attack paths, and turn security findings into measurable remediation. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
-  - Published: 2026-08-21T15:48:28+00:00
-  - Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
-  - Summary: See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
-
-### Cluster a40b955a81 — score 10
-
-- Title: Building Capacity and Resilience for U.S. Partners
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-19T16:19:49+00:00
-- Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain
-- affected_industries: critical_infrastructure, government, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage
-- affected_industries: government, critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
-```
-
-#### Full body
-
-```
-Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Building Capacity and Resilience for U.S. Partners
-  - Published: 2026-08-19T16:19:49+00:00
-  - Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
-  - Summary: Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
-
-### Cluster ad04e78fc6 — score 10
-
-- Title: CTEM: From Visibility to Measurable Risk Reduction
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-19T16:10:35+00:00
-- Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
-```
-
-#### Full body
-
-```
-CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CTEM: From Visibility to Measurable Risk Reduction
-  - Published: 2026-08-19T16:10:35+00:00
-  - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
-  - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
+- **Citizen Lab** (threat_research_primary)
+  - Title: ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert
+  - Published: 2026-08-20T17:52:13+00:00
+  - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
+  - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
 
 ### Cluster d5a759a910 — score 10
 
@@ -2345,6 +2183,129 @@ Describing attacks with crime script analysis By Martin Lee Wednesday, August 19
   - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
   - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
 
+### Cluster 3e394c1410 — score 10
+
+- Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-21T15:48:28+00:00
+- Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
+```
+
+#### Full body
+
+```
+How a Manufacturer Turned Password Risk Into Measurable Security Action Horizon3 Customer Stories Weak passwords and legacy accounts can look like isolated security issues. The real risk emerges when attackers can use them to create paths deeper into the environment. A North American manufacturer needed a clearer way to show operational leaders how credential weaknesses and legacy account sprawl translated into real exposure across its sites. This customer story explores how the manufacturer used NodeZero® to connect password risk to real attack paths, prioritize remediation, and build a repeatable process for proving that exposure was being reduced. Key Insight Security teams can identify weaknesses, but awareness alone doesn’t always create the urgency needed to drive remediation across distributed operational environments. NodeZero gave the manufacturer concrete evidence of how credential weaknesses could contribute to larger attack paths. The testing revealed: 115 added findings 75 critical findings 75 attack paths across fewer than 120 hosts 31% of users with crackable passwords Accounts using passwords found on the worst 100 password list Clear connections between credential weaknesses, legacy accounts, and broader compromise paths What You’ll Learn How weak passwords can contribute to broader attack paths Why legacy local and domain accounts can increase organizational exposure How password auditing turns policy concerns into evidence of real risk How attack-path validation helps create urgency around remediation Ways to prioritize critical findings based on their impact on concentrated risk How targeted retesting can verify whether remediation actually reduced exposure How security teams can communicate technical risk more effectively to operational leaders Why It Matters Manufacturing environments often combine established systems, local site autonomy, operational requirements, and distributed account management. In those environments, legacy credentials and routine weaknesses can persist because individual findings don’t always communicate their potential business impact. The manufacturer changed that conversation by showing how those weaknesses connected to real attack paths. NodeZero helped the security team move beyond reporting findings toward prioritizing the risks that mattered most, aligning site leaders around remediation, and building a process to verify that fixes were actually reducing exposure. Download the customer story to see how a North American manufacturer used NodeZero to expose password risk, uncover attack paths, and turn security findings into measurable remediation. Download the customer story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
+  - Published: 2026-08-21T15:48:28+00:00
+  - Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
+  - Summary: See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
+
+### Cluster a40b955a81 — score 10
+
+- Title: Building Capacity and Resilience for U.S. Partners
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-19T16:19:49+00:00
+- Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain
+- affected_industries: critical_infrastructure, government, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage
+- affected_industries: government, critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
+```
+
+#### Full body
+
+```
+Building Capacity and Resilience for U.S. Partners Horizon3 | August 19, 2026 | Whitepapers Table of Contents Cyber diplomacy has to move at the speed of the threat. Nation-state actors and cybercriminals are using AI to find weaknesses, accelerate attacks, and exploit interconnected environments. Defending against them requires more than securing individual organizations. It means strengthening resilience across the partners, suppliers, critical infrastructure providers, and allies we depend on. Building Capacity and Resilience for U.S. Partners: The Art of Cyber Diplomacy explores how governments and their partners can turn cyber diplomacy into an operational capability that reduces exploitable attack paths before adversaries weaponize them. Move cyber capacity building left of boom Threat intelligence, incident response, shared tradecraft, and international collaboration remain essential. But against adversaries operating at machine speed, information sharing alone is not enough. The next step is proactive: give partners the ability to identify what attackers can actually exploit, fix the weaknesses that matter, verify remediation, and repeat at scale. What You’ll Learn How cyber diplomacy is becoming operational See how CERTs, international coalitions, shared tradecraft, and scalable security platforms can turn one-time assistance into repeatable capacity-building programs. What the DIB model proves Explore how the NSA Cybersecurity Collaboration Center’s Cybersecurity as a Service model is helping protect 700+ Defense Industrial Base companies and 2.9M+ endpoints while giving under-resourced partners access to scalable cybersecurity capabilities. Why offense-informed defense matters Learn how mapping real attack paths across internal, external, cloud, and supply-chain environments helps defenders move beyond theoretical exposure and focus remediation on what attackers can actually exploit. How AI changes the equation Discover how AI-driven security can help defenders operate at machine speed, prioritize exploitable weaknesses, verify remediation, and reduce risk across entire ecosystems. Cyber resilience is a shared mission Adversaries do not respect organizational boundaries, national borders, or the distinction between .gov, .mil, and .com. A weakness in one partner can become an attack path into an entire ecosystem. Modern cyber diplomacy gives partners the capabilities to act. Governments, allies, and critical partners can hack, fix, verify, and repeat on-demand while gaining a clearer view of systemic risk and where coordinated remediation can have the greatest impact. Download the Whitepaper Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Building Capacity and Resilience for U.S. Partners
+  - Published: 2026-08-19T16:19:49+00:00
+  - Link: https://horizon3.ai/downloads/whitepapers/cyber-diplomacy-capacity-resilience/
+  - Summary: Explore how cyber diplomacy can become an operational capability that helps governments and partners reduce exploitable risk and strengthen resilience across shared ecosystems.
+
+### Cluster ad04e78fc6 — score 10
+
+- Title: CTEM: From Visibility to Measurable Risk Reduction
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-19T16:10:35+00:00
+- Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
+```
+
+#### Full body
+
+```
+CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Infographics Close the CTEM Loop Visibility alone does not reduce risk. Security teams have more exposure data than ever, but still struggle to answer the questions that matter: What can an attacker actually exploit? Which exposures create meaningful business risk? And did remediation actually reduce that risk? This infographic shows how to operationalize Continuous Threat Exposure Management (CTEM) as a repeatable cycle to discover exposure, validate what is exploitable, prioritize based on impact, remediate with clarity and ownership, and verify that fixes work. See CTEM in Action See how the CTEM operating cycle connects discovery, validation, prioritization, remediation, and verification across your attack surface to help teams focus on exploitable risk, close attack paths, and measure whether exposure is actually decreasing over time. Download the Infographic How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CTEM: From Visibility to Measurable Risk Reduction
+  - Published: 2026-08-19T16:10:35+00:00
+  - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
+  - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
+
 ### Cluster 82fb30db67 — score 10
 
 - Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
@@ -2428,6 +2389,43 @@ Frontier AI: Vulnerability Management's Systemic Revolution  The Hacker News 
   - Published: 2026-08-25T11:14:07+00:00
   - Link: https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html
   - Summary: Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a
+
+### Cluster c0fa858afc — score 10
+
+- Title: CVE-2026-8508: Trust-Boundary Bypass in Zyxel social_login.cgi Facebook Identity Handling
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-25T13:37:06+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vy03c7/cve20268508_trustboundary_bypass_in_zyxel_social/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-8508
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-8508
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-8508
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+Technical analysis of CVE-2026-8508, a pre-auth captive-portal bypass in Zyxel's social-login flow. The post covers the vulnerable execution path, root cause, affected firmware scope, and the firmware-emulation methodology used during analysis. submitted by /u/TheReedemer69 [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: CVE-2026-8508: Trust-Boundary Bypass in Zyxel social_login.cgi Facebook Identity Handling
+  - Published: 2026-08-25T13:37:06+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vy03c7/cve20268508_trustboundary_bypass_in_zyxel_social/
+  - Summary: Technical analysis of CVE-2026-8508, a pre-auth captive-portal bypass in Zyxel's social-login flow. The post covers the vulnerable execution path, root cause, affected firmware scope, and the firmware-emulation methodology used during analysis. submitted by /u/TheReedemer69 [link] [comments]
 
 ### Cluster 1fcc0abfde — score 9
 
@@ -2734,53 +2732,6 @@ Fake AI, real malware: Attackers impersonating AI brands A year of MDR casework 
   - Published: 2026-08-19T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - Summary: <p>A year of MDR casework shows attackers repeatedly exploiting demand for AI tools</p> Categories: Threat Research Tags: AI, malvertising, infostealer, Sophos X-Ops
-
-### Cluster ec6e40ad77 — score 8
-
-- Title: Personal Information Exposed in Apollo Global Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-24T10:08:42+00:00
-- Link: https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: Cl0p, ShinyHunters, UNC6671
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters, Cl0p, UNC6671
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Latest News First Malware Built Specifically for Car Head Units Fuels Botnet Silent Patches Don’t Stop Attackers – They Blind Defenders Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited Hired for One Job, Judged on Another:
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Personal Information Exposed in Apollo Global Data Breach
-  - Published: 2026-08-24T10:08:42+00:00
-  - Link: https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
-  - Summary: The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .
 
 ### Cluster a9dbfa05a2 — score 8
 
@@ -3093,3 +3044,53 @@ An operator left their full working directory exposed on an open HTTP server. Hu
   - Published: 2026-08-18T17:34:14+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
   - Summary: An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io
+
+### Cluster 83593c505c — score 8
+
+- Title: 24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-25T11:52:43+00:00
+- Link: https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, supply_chain
+- affected_products: Gogs, Microsoft Entra, npm
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng
+- affected_products: npm, Gogs, Microsoft Entra
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. "While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the
+```
+
+#### Full body
+
+```
+24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages  Ravie Lakshmanan  Aug 25, 2026 Phishing / Threat Intelligence Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. "While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the registry and its mirrors as a safe, validated storage for the malware," OX Security researchers Moshe Siman Tov Bustan and Vitalii Chepurko said . The list of npm packages, some of which are still available for download, is below - bgzxcuite2 prezdentkxheiw egair0810 mnteckets airdzticket egypt0811 passport811 vxhjkseuiaqkb ndmushdkeqe ndmxchdjxn2 ndmfguyhoxc3 mjsdqwocvn m2fcsfyjkuxb m3fdfocdoewn @worrisome/reutil testdgdbcsd tesgfvbncsdbcv mndsxcusiwlk1 mn2adskhweox mn3sadkoiewu mn4xcouzvhus mbxcnsuwgs1 skxcmwuncbg2 mobiwaefhxc3 The campaign specifically targets mirrors like unpkg. Once mirrored on these services, the HTML file (e.g., "unpkg[.]com/ndmxchdjxn2@1.0.0/index.html") becomes a live, fully-rendered fake Cloudflare CAPTCHA page that's hosted on a trusted domain but redirects to ClickFix phishing infrastructure. As a result, anyone who opens a link that's hosted on the npm mirror will be tricked into carrying out unintended actions that can lead to the deployment of malware. This involves displaying a fake Cloudflare verification page, which then sends the target to an external website controlled by the attacker. The HTML page embeds the logic to serve the bogus CAPTCHA verification prompt, as well as JavaScript necessary to send a request to a remote server. Initial iterations of the malware were found to send the request to a typosquat domain that impersonates the Microsoft login page ("login[.]microsofte[.]live"). But after the domain was added to Google Chrome's Safe Browsing blocklist, the threat actor behind the campaign is said to have responded by switching to KeyVal ("api.keyval[.]org"), a free, public key-value store that allows developers to set a key-value pair or retrieve a value given a key using a REST API. In doing so, it turns the legitimate service into a dead drop resolver ( DDR ) and uses it to extract and decode the URL to which the victim is redirected to. "Currently the remote logic transfers the user to the legitimate ChatGPT website, but it could be weaponized to deliver ClickFix or any other phishing domains when configured to by the attacker," the researchers said. This is not the first time this approach has been abused by bad actors. In October 2025, Socket detailed a set of 175 npm packages that used unpkg.com's content delivery network (CDN) to host redirect scripts that routed victims to credential harvesting pages as part of a campaign codenamed Beamglea. "Threat actors keep finding and using new and novel techniques not just to deliver malware, but to use legitimate infrastructure to store their payloads and data," OX Security said. "When we think of malware as families of code that steal data directly from the machine they are running on, we can miss other ideas such as infrastructure abuse, using npm and its mirrors as free storage, and persistence – since npm packages can live forever in mirrors even after they are removed from the official stores." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Cyber Attack , Cybercrime , Malware , Open Source Security , Phishing , Social Engineering , Software Supply Chain , Threat Intelligence , Web Security ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GL
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: 24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages
+  - Published: 2026-08-25T11:52:43+00:00
+  - Link: https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html
+  - Summary: Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. "While the malware is simply a single HTML page inside the npm package, and while downloading it wouldn't do harm, the threat actor’s use of npm isn't to infect developers who install it, but to use the
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - Title: Prompting the Payload: How an npm Supply Chain Attack Delivers the RedC2 AI-Powered Linux Implant
+  - Published: 2026-08-24T04:47:36+00:00
+  - Link: https://www.reddit.com/r/blueteamsec/comments/1vwt1er/prompting_the_payload_how_an_npm_supply_chain/
+  - Summary: submitted by /u/digicat [link] [comments]
