@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-25T06:58:07.933648+00:00",
+  "generated_at": "2026-08-25T07:50:19.084092+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 74,
-  "total_items_in_window": 304,
-  "total_clusters_raw": 138,
-  "total_clusters_in_packet": 45,
-  "dropped_low_score": 93,
+  "total_items_in_window": 291,
+  "total_clusters_raw": 132,
+  "total_clusters_in_packet": 46,
+  "dropped_low_score": 86,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,12 +74,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -95,33 +109,12 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -130,8 +123,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -144,11 +137,11 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Check Point Research": {
@@ -165,13 +158,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
@@ -179,18 +165,32 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 5
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 1
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -200,18 +200,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -221,9 +221,23 @@
       "item_count": 50,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
@@ -235,11 +249,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -249,15 +263,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -279,13 +286,6 @@
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -347,13 +347,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -368,13 +361,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -382,11 +368,32 @@
       "item_count": 99,
       "in_window_count": 4
     },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 1
     },
     "Chainalysis": {
@@ -396,18 +403,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "The Record": {
@@ -416,13 +423,6 @@
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -445,13 +445,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -459,19 +452,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 26
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 100,
+      "in_window_count": 0
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -480,12 +466,33 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 26
+    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 17
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -494,13 +501,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -508,8 +508,15 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -528,13 +535,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -557,19 +557,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -585,12 +578,19 @@
       "item_count": 100,
       "in_window_count": 27
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 12
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -1259,8 +1259,8 @@
     {
       "cluster_id": "b61187f40b",
       "priority_score": 22,
-      "member_count": 1,
-      "corroborating_source_count": 1,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "CVE-2026-21962"
       ],
@@ -1292,7 +1292,8 @@
           "preauth_unauth"
         ],
         "content_type": [
-          "news_report"
+          "news_report",
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
           "tier_4_news"
@@ -1396,6 +1397,32 @@
               "GitLab": "target",
               "OpenAI/ChatGPT": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
+          "link": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+          "published": "2026-08-25T07:46:34+00:00",
+          "summary": "The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers. The post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-21962"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -3874,81 +3901,6 @@
       ]
     },
     {
-      "cluster_id": "1fcc0abfde",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
-        "link": "https://isc.sans.edu/diary/rss/33274",
-        "published": "2026-08-24T07:23:16+00:00",
-        "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
-          "link": "https://isc.sans.edu/diary/rss/33274",
-          "published": "2026-08-24T07:23:16+00:00",
-          "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "3e394c1410",
       "priority_score": 10,
       "member_count": 1,
@@ -4675,6 +4627,81 @@
       ]
     },
     {
+      "cluster_id": "1fcc0abfde",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
+        "link": "https://isc.sans.edu/diary/rss/33274",
+        "published": "2026-08-24T07:23:16+00:00",
+        "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
+          "link": "https://isc.sans.edu/diary/rss/33274",
+          "published": "2026-08-24T07:23:16+00:00",
+          "summary": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ec6e40ad77",
       "priority_score": 9,
       "member_count": 1,
@@ -4718,7 +4745,7 @@
         "link": "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
         "published": "2026-08-24T10:08:42+00:00",
         "summary": "The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies. The post Personal Information Exposed in Apollo Global Data Breach appeared first on SecurityWeek .",
-        "full_body": "Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Latest News ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited Hired for One Job, Judged on Another: The CISO’s Real Problem Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Rethinking Application Security for",
+        "full_body": "Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Latest News CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited Hired for One Job, Judged on Another: The CISO’s Real Problem Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term f",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -5179,6 +5206,145 @@
       ]
     },
     {
+      "cluster_id": "9f44f5f9a4",
+      "priority_score": 9,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "GitHub"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "Gogs",
+          "Microsoft Entra"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+        "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+        "published": "2026-08-20T13:48:24+00:00",
+        "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
+        "full_body": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\" GHSA-864f-rcv7-6rh4 \"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. \"A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process,\" Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. \"Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape.\" Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. \"Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability),\" project maintainer Marcel Laverdet said in an advisory. \"Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host.\" Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. \"The most important takeaway is that what was not broken was the isolation primitive itself,\" Staicu said. \"V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Gogs",
+            "Microsoft Entra",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "critical_cvss"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gogs": "target",
+            "Microsoft Entra": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+          "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+          "published": "2026-08-20T13:48:24+00:00",
+          "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
+          "taxonomy": {
+            "threat_categories": [
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Gogs",
+              "Microsoft Entra",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "critical_cvss"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gogs": "target",
+              "Microsoft Entra": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html",
+          "link": "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/",
+          "published": "2026-08-18T16:24:33+00:00",
+          "summary": "submitted by /u/Fit_Veterinarian4403 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "114ded0230",
       "priority_score": 8,
       "member_count": 1,
@@ -5373,6 +5539,99 @@
               "financial_services",
               "government",
               "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1293349fdc",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
+        "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
+        "published": "2026-08-18T10:00:00+00:00",
+        "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
+        "full_body": "Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
+          "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
+          "published": "2026-08-18T10:00:00+00:00",
+          "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "manufacturing_industrial"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -5648,59 +5907,63 @@
       ]
     },
     {
-      "cluster_id": "1293349fdc",
+      "cluster_id": "2faaf824a1",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [],
+      "strong_signals": [
+        "CVE-2021-33044",
+        "CVE-2024-39943",
+        "CVE-2025-31702"
+      ],
       "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "manufacturing_industrial"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2021-33044",
+          "CVE-2024-39943",
+          "CVE-2025-31702"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": [
           "incident_report"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
-        "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
-        "published": "2026-08-18T10:00:00+00:00",
-        "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
-        "full_body": "Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H",
-        "fetch_status": "ok",
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
+        "link": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
+        "published": "2026-08-18T17:34:14+00:00",
+        "summary": "An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "manufacturing_industrial"
-          ],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2021-33044",
+            "CVE-2024-39943",
+            "CVE-2025-31702"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
           "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
+          "confidence_tier": "tier_5_chatter",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -5709,186 +5972,30 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Three-quarters of Ransomware Attacks Target Mid-Market Firms",
-          "link": "https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/",
-          "published": "2026-08-18T10:00:00+00:00",
-          "summary": "Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit",
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
+          "link": "https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/",
+          "published": "2026-08-18T17:34:14+00:00",
+          "summary": "An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "manufacturing_industrial"
-            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2021-33044",
+              "CVE-2024-39943",
+              "CVE-2025-31702"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
             "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "cbaa55cbf5",
-      "priority_score": 8,
-      "member_count": 3,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "Anthropic/Claude"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude",
-          "GitHub"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vendor_announcement"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Help Net Security",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "HOL Guard: Open-source antivirus for AI agents",
-        "link": "https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/",
-        "published": "2026-08-25T05:30:35+00:00",
-        "summary": "HOL Guard is a free, open-source tool that sits between an AI assistant and the computer it runs on. When the assistant tries something risky, the tool pauses it and asks you first. It installs in about a minute, runs on your own machine, and a typical check takes under 50 milliseconds. Your files are never uploaded, and the whole thing works with no internet connection. The people exposed here are anyone using Claude Code, … More → The post HOL Guard: Open-source antivirus for AI agents appeared first on Help Net Security .",
-        "full_body": "Anamarija Pogorelec , Senior Staff Writer, Help Net Security August 25, 2026 Share HOL Guard: Open-source antivirus for AI agents HOL Guard is a free, open-source tool that sits between an AI assistant and the computer it runs on. When the assistant tries something risky, the tool pauses it and asks you first. It installs in about a minute, runs on your own machine, and a typical check takes under 50 milliseconds. Your files are never uploaded, and the whole thing works with no internet connection. The people exposed here are anyone using Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Hermes, or OpenClaw. Balanced is the default, and it decides what you never see HOL Guard ships four settings: Gentle, Balanced, Strict, and Paranoid. Michael Kantor, president of HOL, describes the design goal as “protect me without making the agent unusable.” In practice, he says, Balanced “asks again on things like secret/exfiltration access, destructive or encoded execution, prompt injection , dangerous MCP calls, malicious skills and persistence; warns on network egress/package scripts; and blocks attempts to bypass HOL Guard itself.” Strict adds low-confidence signals on top of that, and Paranoid interrupts on any unfamiliar action from an external tool server. Both mean more interruptions. Neither is on by default. The list of things that trigger a block is public on purpose Anyone writing a malicious plugin can read the source and see what sets HOL Guard off. “I don’t think hiding detector signatures is a real security boundary. Some of HOL Guard’s detections are simple and public on purpose, but that’s not all we’re relying on,” Kantor told Help Net Security. The rest, he says, watches behavior: “We also parse the actual command structure across wrappers, pipelines, redirects and embedded commands, and look at things like executable/env/provenance, sensitive-path access, network destinations, artifact identity/hash changes and explicit attempts to bypass HOL Guard.” He is direct about what has not changed. “I also wouldn’t claim we’ve eliminated pattern matching. We haven’t, and I don’t think that’s necessary. It’s one input among several.” Someone who reads the code can probably reword a command to slip past the simple checks. Fooling the part that watches what the command does is harder. Nobody can tell you whether people keep it turned on HOL Guard only helps while it is running, and a tool that interrupts you too often gets uninstalled. Asked what the first week looks like, and whether users tighten to Strict or quietly fall back to Gentle, Kantor told us: “The honest answer on adoption is that we don’t have a defensible Strict vs Gentle vs churn number yet. Local telemetry and cloud sync are off by default, so claiming one would be made up.” That gap follows directly from the privacy design. Nothing is collected unless you opt in, so HOL cannot see what its own users do with the product. Kantor says the modes can be tested and observed, and that the local history is built so people can tighten or loosen after living with it, but “we can’t honestly give you a first-week conversion split today.” HOL Guard checks commands, secret access, and plugin installs before they run, and the company calls it “not a complete prompt-injection preventer.” Scores from its companion plugin scanner come with no promise of safety. The package has passed 552,000 downloads, though a download count says how many machines fetched it, not how many still have it switched on. The tool keeps a local record of everything it allowed and everything it blocked, and reversing a bad block takes one approval. Read a week of that record before deciding whether the interruptions are catching anything you would not have caught yourself. It is the only evidence about your own setup that exists, because by design nobody else is collecting it. HOL Guard is available for free on GitHub . Must read: 20 open-source cybersecurity tools to keep your team ready for anything G",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub",
-            "Anthropic/Claude"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "GitHub": "target",
-            "Anthropic/Claude": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "HOL Guard: Open-source antivirus for AI agents",
-          "link": "https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/",
-          "published": "2026-08-25T05:30:35+00:00",
-          "summary": "HOL Guard is a free, open-source tool that sits between an AI assistant and the computer it runs on. When the assistant tries something risky, the tool pauses it and asks you first. It installs in about a minute, runs on your own machine, and a typical check takes under 50 milliseconds. Your files are never uploaded, and the whole thing works with no internet connection. The people exposed here are anyone using Claude Code, … More → The post HOL Guard: Open-source antivirus for AI agents appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund",
-          "link": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
-          "published": "2026-08-24T07:18:58+00:00",
-          "summary": "Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5. The post Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vendor_announcement",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "hardware-compliance-handbook - open-source, fact-checked EU CRA/RED/NIS2/CSA compliance reference (also works as a Claude Skill)",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1vwvmpk/hardwarecompliancehandbook_opensource_factchecked/",
-          "published": "2026-08-24T07:14:45+00:00",
-          "summary": "submitted by /u/Pitiful_Signature264 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
             "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5921,7 +6028,7 @@
         ]
       },
       "cluster_count": 6,
-      "article_count": 15,
+      "article_count": 16,
       "cohesion": 0.275,
       "shared_strong_signals": [
         "Android"
@@ -5938,6 +6045,7 @@
       ],
       "links": [
         "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
         "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
         "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
         "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
@@ -5951,6 +6059,104 @@
         "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
         "https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/",
         "https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/"
+      ]
+    },
+    {
+      "label": "Gogs active exploitation",
+      "anchor_signal": "Gogs",
+      "theme_key": "gogs",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation",
+          "ddos"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Gogs",
+          "Microsoft Entra",
+          "Android"
+        ],
+        "urgency_signals": [
+          "critical_cvss",
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 9,
+      "cohesion": 0.264,
+      "shared_strong_signals": [
+        "Gogs"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "b61187f40b",
+        "6117c1d701",
+        "f53fdb391c",
+        "9f44f5f9a4"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+        "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+        "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
+        "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+        "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
+        "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+        "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/"
+      ]
+    },
+    {
+      "label": "Microsoft Entra active exploitation",
+      "anchor_signal": "Microsoft Entra",
+      "theme_key": "microsoft-entra",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation",
+          "ddos"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Gogs",
+          "Microsoft Entra",
+          "Android"
+        ],
+        "urgency_signals": [
+          "critical_cvss",
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 9,
+      "cohesion": 0.264,
+      "shared_strong_signals": [
+        "Microsoft Entra"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "b61187f40b",
+        "6117c1d701",
+        "f53fdb391c",
+        "9f44f5f9a4"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+        "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+        "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
+        "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+        "https://www.wiz.io/blog/detecting-entra-device-registration-abuse",
+        "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+        "https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/"
       ]
     },
     {
@@ -6249,26 +6455,7 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [
-        {
-          "value": "CVE-2017-10271",
-          "cluster_id": "b61187f40b",
-          "first_source": "The Hacker News",
-          "first_published": "2026-08-25T06:12:35+00:00"
-        },
-        {
-          "value": "CVE-2020-14882",
-          "cluster_id": "b61187f40b",
-          "first_source": "The Hacker News",
-          "first_published": "2026-08-25T06:12:35+00:00"
-        },
-        {
-          "value": "CVE-2020-2551",
-          "cluster_id": "b61187f40b",
-          "first_source": "The Hacker News",
-          "first_published": "2026-08-25T06:12:35+00:00"
-        }
-      ],
+      "cves": [],
       "actors": [],
       "products": []
     },
@@ -6481,6 +6668,12 @@
       },
       {
         "axis": "cve_ids",
+        "value": "CVE-2026-58231",
+        "cluster_id": "b61187f40b",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
         "value": "CVE-2025-66376",
         "cluster_id": "6117c1d701",
         "weeks_observed": 3
@@ -6498,6 +6691,17 @@
         "weeks_observed": 3
       }
     ],
-    "tier_inversion": []
+    "tier_inversion": [
+      {
+        "cluster_id": "2faaf824a1",
+        "title": "🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia",
+        "primary_source": "Reddit r/netsec",
+        "strong_signals": [
+          "CVE-2021-33044",
+          "CVE-2024-39943",
+          "CVE-2025-31702"
+        ]
+      }
+    ]
   }
 }

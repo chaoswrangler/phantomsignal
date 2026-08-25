@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-25T06:58:07.933648+00:00
+- Generated: 2026-08-25T07:50:19.084092+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 304
-- Total clusters raw: 138
-- Total clusters in packet: 45
-- Dropped low score: 93
+- Total items in window: 291
+- Total clusters raw: 132
+- Total clusters in packet: 46
+- Dropped low score: 86
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,11 +75,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -90,33 +100,18 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -125,10 +120,10 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 50
+  - Item count: 10
   - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
@@ -140,48 +135,63 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 4
+  - Item count: 10
+  - In window count: 5
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -190,23 +200,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -222,11 +227,6 @@
   - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -270,11 +270,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -285,46 +280,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 99
   - In window count: 4
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -340,53 +340,58 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 26
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 100
+  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 26
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 17
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,11 +405,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -420,16 +420,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 20
+  - In window count: 4
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -440,11 +435,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 25
+  - In window count: 12
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Android
 - Theme key: android
 - Cluster count: 6
-- Article count: 15
+- Article count: 16
 - Cohesion: 0.275
 - Shared strong signals: Android
 - Member CVEs: (none)
@@ -490,6 +490,7 @@
 - Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9101d8d7ac, e7f188e340, 8a66834bf6
 - Links:
   - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
   - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
@@ -503,6 +504,58 @@
   - https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+
+### Gogs active exploitation
+- Anchor signal: Gogs
+- Theme key: gogs
+- Cluster count: 4
+- Article count: 9
+- Cohesion: 0.264
+- Shared strong signals: Gogs
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, ddos
+  - affected_industries: government
+  - affected_products: Gogs, Microsoft Entra, Android
+  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
+- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4
+- Links:
+  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
+  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+
+### Microsoft Entra active exploitation
+- Anchor signal: Microsoft Entra
+- Theme key: microsoft-entra
+- Cluster count: 4
+- Article count: 9
+- Cohesion: 0.264
+- Shared strong signals: Microsoft Entra
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, ddos
+  - affected_industries: government
+  - affected_products: Gogs, Microsoft Entra, Android
+  - urgency_signals: critical_cvss, actively_exploited, preauth_unauth
+- Cluster IDs: b61187f40b, 6117c1d701, f53fdb391c, 9f44f5f9a4
+- Links:
+  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
+  - https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html
+  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+  - https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://www.wiz.io/blog/detecting-entra-device-registration-abuse
+  - https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
 
 ### web shell backdoor targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
@@ -677,10 +730,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 3
-  - CVE-2017-10271 (first seen via The Hacker News at 2026-08-25T06:12:35+00:00, cluster b61187f40b)
-  - CVE-2020-14882 (first seen via The Hacker News at 2026-08-25T06:12:35+00:00, cluster b61187f40b)
-  - CVE-2020-2551 (first seen via The Hacker News at 2026-08-25T06:12:35+00:00, cluster b61187f40b)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -727,7 +777,7 @@
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: Anthropic/Claude, OpenAI/ChatGPT, npm
 
-### Persistence (13)
+### Persistence (14)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster ec6e40ad77)
 - actor_attribution: Cl0p (weeks observed: 8, cluster fb556ca51b)
 - actor_attribution: APT29 (weeks observed: 5, cluster d5c3fd8d4d)
@@ -738,11 +788,16 @@
 - cve_ids: CVE-2026-65400 (weeks observed: 3, cluster af5d25c59b)
 - cve_ids: CVE-2026-19490 (weeks observed: 3, cluster 7f1247614d)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 83a33105c1)
+- cve_ids: CVE-2026-58231 (weeks observed: 3, cluster b61187f40b)
 - cve_ids: CVE-2025-66376 (weeks observed: 3, cluster 6117c1d701)
 - actor_attribution: APT28 (weeks observed: 3, cluster 5968a0ef70)
 - actor_attribution: UNC6671 (weeks observed: 3, cluster ec6e40ad77)
 
-### Tier inversion (0)
+### Tier inversion (1)
+- **🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia**
+  - Cluster: 2faaf824a1
+  - Primary source: Reddit r/netsec
+  - Strong signals: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
 
 ## Clusters
 
@@ -959,8 +1014,8 @@ Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disc
 - Published: 2026-08-25T06:12:35+00:00
 - Link: https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: CVE-2026-21962
 
 #### Cluster taxonomy (union across members)
@@ -969,7 +1024,7 @@ Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disc
 - affected_products: Android, Gogs, Microsoft Entra
 - cve_ids: CVE-2017-10271, CVE-2020-14882, CVE-2020-2551, CVE-2026-21962, CVE-2026-58231
 - urgency_signals: actively_exploited, critical_cvss, preauth_unauth
-- content_type: news_report
+- content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
@@ -993,13 +1048,18 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added
 Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data  Ravie Lakshmanan  Aug 25, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to compromise Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in. Successful exploitation of the flaw can lead to unauthorized access to the instances or modification of critical data. "Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion, or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in accessible data," CISA said . While patches for the flaw were released by Oracle earlier this January, it has since witnessed active exploitation efforts, per multiple reports from GreyNoise and CloudSEK. In February 2026, it emerged that a lone IP address ("193.24.123[.]42") was attempting to exploit multiple known vulnerabilities impacting Oracle WebLogic, Ivanti Endpoint Manager Mobile, GNU InetUtils, and GLPI. A month later, CloudSEK reported seeing exploitation efforts aimed at its honeypot network. "In addition to CVE-2026-21962, the honeypot captured attacks targeting other persistent, critical WebLogic RCE flaws, including CVE-2020-14882/14883 (Console RCE), CVE-2020-2551 (IIOP RCE), and CVE-2017-10271 (WLS-WSAT RCE)," CloudSEK noted at the time. "This confirms that threat actors continue to rely on a small set of highly-effective, simple-to-exploit vulnerabilities to compromise WebLogic environments." Pursuant to Binding Operational Directive (BOD) 26-04, Federal Civilian Executive Branch (FCEB) agencies have been recommended to apply necessary fixes by August 27, 2026, to safeguard their networks. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , enterprise security , network security , server security , Vulnerability , Web Security ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch Hackers Spend Nearly $7 Million on Expired Domains
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data
   - Published: 2026-08-25T06:12:35+00:00
   - Link: https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: CISA Warns of Exploited Oracle WebLogic Vulnerability
+  - Published: 2026-08-25T07:46:34+00:00
+  - Link: https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
+  - Summary: The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers. The post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek .
 
 ### Cluster 6117c1d701 — score 21
 
@@ -1922,39 +1982,6 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
   - Summary: Research by: Jaromír Hořejší (@JaromirHorejsi) Key points Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infection chain starts with a ClickFix social-engineering technique, which prompts victims to execute a PowerShell command. This leads to two stages of additional downloaders and […] The post Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect appeared first on Check Point Research .
 
-### Cluster 1fcc0abfde — score 10
-
-- Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-08-24T07:23:16+00:00
-- Link: https://isc.sans.edu/diary/rss/33274
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
-  - Published: 2026-08-24T07:23:16+00:00
-  - Link: https://isc.sans.edu/diary/rss/33274
-  - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
-
 ### Cluster 3e394c1410 — score 10
 
 - Title: How a Manufacturer Turned Password Risk Into Measurable Security Action
@@ -2293,6 +2320,39 @@ Back to Blog Threat Research New Report: AI threats are here. Why Q2 2026 signal
   - Link: https://www.rapid7.com/blog/post/tr-new-report-ai-threats-q2-2026-ends-traditional-patch-cycles
   - Summary: You can’t patch everything. So what do you fix first? Findings in Q2 2026 have changed traditional answers. The latest Quarterly Threat Landscape Report from Rapid7 Labs shows vulnerability disclosures still surging while attackers use automation and AI-assisted tooling to compress the time between disclosure and exploitation. The gap that patch cycles were built to fill is closing. Speed and volume are overwhelming security teams that have relied on traditional patch cycles and reactive programs. Success going forward can’t be about patching as much as possible - it has to be about understanding what matters most and reducing the exposures attackers can actually reach. Here are the four trends that defined Q2 2026, and what they mean for your security program as you define priorities for Q3 and beyond: The volume of disclosures hit another milestone There were 8,539 new high- and critical-severity CVEs (CVSS 7.0–10.0) this quarter- double the number reported in the same quarter last y
 
+### Cluster 1fcc0abfde — score 9
+
+- Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-08-24T07:23:16+00:00
+- Link: https://isc.sans.edu/diary/rss/33274
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
+  - Published: 2026-08-24T07:23:16+00:00
+  - Link: https://isc.sans.edu/diary/rss/33274
+  - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
+
 ### Cluster ec6e40ad77 — score 9
 
 - Title: Personal Information Exposed in Apollo Global Data Breach
@@ -2329,7 +2389,7 @@ The private equity firm appears to have been targeted as part of a campaign focu
 #### Full body
 
 ```
-Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Latest News ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited Hired for One Job, Judged on Another: The CISO’s Real Problem Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Rethinking Application Security for
+Private equity giant Apollo Global Management has disclosed a data breach that exposed sensitive personal information. According to a data breach notice sent to affected individuals, a social engineering attack enabled threat actors to access some of the company’s cloud platforms between July 6 and 10. An investigation is ongoing, but Apollo determined recently that personal information may have been compromised, including names, contact information, and SSNs. The company has not shared any information about who is behind the attack, but noted that it found no evidence that the compromised personal information was made public or used for fraud. Nevertheless, impacted individuals are being offered identity protection and credit monitoring services. It’s unclear how many individuals are affected by the data breach. The private equity firm, which has roughly $1.05 trillion of assets under management, appears to be one of the victims of a campaign conducted by a cybercrime group tracked as UNC6671 and BlackFile . Advertisement. Scroll to continue reading. The group, which emerged in early 2026, has been using IT helpdesk-themed vishing attacks to target organizations across North America, Australia and the UK. The hackers recently rebranded and diversified operations, with the latest attacks focusing on the private equity, financial services, and professional services sectors. Among the organizations that researchers and reporting indicate were targeted in the BlackFile-linked vishing campaign are private equity and investment firms including Blackstone, Bain Capital, KKR, TPG, Bridgewater Associates, Clearlake Capital, and CME Group, as well as hedge funds such as Point72, Citadel, Two Sigma, and Millennium Management. This is a list of targeted organizations based on observed phishing infrastructure, domain registrations, or reported intrusion attempts; it does not imply they have been breached. Public disclosures confirm a successful data compromise only in the case of Apollo, and several of the named entities have stated that they detected or blocked attempts with no evidence of data theft. The BlackFile group appears to be highly successful. Google Threat Intelligence Group (GTIG) recently reported that it received over $10 million in Bitcoin ransom payments between January and May. Related : Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Hackers Target Zimbra Servers in Active Exploitation Campaign OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses Hackers Using AI to Target Siemens PLCs in Critical US Sectors Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign CareCloud Data Breach Impact Grows to 3.7 Million Individuals Latest News CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited Hired for One Job, Judged on Another: The CISO’s Real Problem Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term f
 ```
 
 #### Corroborating sources (1)
@@ -2514,6 +2574,56 @@ Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take O
   - Link: https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html
   - Summary: Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker to take over any user account by forcing a password reset. The vulnerability, assigned the CVE identifier CVE-2026-18963, is rated 9.1 on the CVSS scoring system by Red Hat, which acts as
 
+### Cluster 9f44f5f9a4 — score 9
+
+- Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-20T13:48:24+00:00
+- Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: GitHub
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ddos
+- affected_products: GitHub, Gogs, Microsoft Entra
+- urgency_signals: critical_cvss
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news, tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: ddos
+- affected_products: Gogs, Microsoft Entra, GitHub
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
+```
+
+#### Full body
+
+```
+Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Application Security Cybersecurity researchers have disclosed a critical security flaw in isolated-vm , a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (" GHSA-864f-rcv7-6rh4 "), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0. It has been patched in versions 6.2.0 and 7.0.1 released earlier this month. Isolated-vm is a Node.js library for running untrusted JavaScript inside a V8 Isolate , an independent instance of the Google V8 JavaScript engine, allowing multiple sandboxed JavaScript environments to run concurrently without sharing data or interfering with each other. The npm package has witnessed nearly 1 million downloads over the past week. Because each V8 Isolate has a separate state and maintains its own heap, it is not possible to directly pass JavaScript objects from the main Node.js thread into a worker isolate. Isolated-vm exposes a class called ExternalCopy to securely serialize JavaScript objects out of the host isolate and deserialize them into the guest isolate. The vulnerability identified by Endor Labs resides in this component, allowing code running inside the sandbox to break out and corrupt memory in the host application. "A type confusion in ExternalCopy's handling of the transferList option lets code running inside the sandbox corrupt memory in the host process," Endor Labs researcher Cristian-Alexandru Staicu, who is credited with discovering and reporting the flaw, said in a technical write-up shared with The Hacker News. "Starting from nothing but a single ivm.Reference, the standard way hosts hand a sandbox any capability at all, we escalated the bug from a controlled-address crash all the way to hijacking the host's control flow, demonstrating a full guest-to-host sandbox escape." Successful exploitation of the flaw allows memory corruption in the host process, causing the host process to crash with a segmentation fault ( SIGSEGV ). It can also lead to a guest-to-host sandbox escape and an erosion of the trust boundary that undermines the very purpose of isolated-vm. "Minimum demonstrated impact is a reliable, controlled-address crash (denial-of-service) triggerable by any guest that has been given an ivm.Reference (the standard way to grant a sandbox any capability)," project maintainer Marcel Laverdet said in an advisory. "Maximum demonstrated impact is control-flow hijack of the host process, i.e., potential remote code execution in the host." Users who have isolated-vm installed in their developer environments are advised to update to the latest version for optimal protection. Additional details of the full exploit have been withheld so as to prevent bad actors from launching their own attacks. "The most important takeaway is that what was not broken was the isolation primitive itself," Staicu said. "V8's Isolate boundary held. What failed was the C++ glue code that marshals values across that boundary. A perfectly sound building block was undermined by the binding layer wrapped around it." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , Developer Security , JavaScript , Open Source , remote code execution , Sandbox Security , Vulnerability ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE
+  - Published: 2026-08-20T13:48:24+00:00
+  - Link: https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html
+  - Summary: Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability ("GHSA-864f-rcv7-6rh4"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: How a popular Android library silently exposed thousands of apps to Arbitrary File Overwrite (AFO). https://itis911.github.io/writeups/cropper-vulnerability.html
+  - Published: 2026-08-18T16:24:33+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vru26k/how_a_popular_android_library_silently_exposed/
+  - Summary: submitted by /u/Fit_Veterinarian4403 [link] [comments]
+
 ### Cluster 114ded0230 — score 8
 
 - Title: Fake AI, real malware: Attackers impersonating AI brands
@@ -2599,6 +2709,49 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Published: 2026-08-21T19:14:28+00:00
   - Link: https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/
   - Summary: The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .
+
+### Cluster 1293349fdc — score 8
+
+- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-08-18T10:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain
+- affected_industries: financial_services, manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
+  - Published: 2026-08-18T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
+  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
 
 ### Cluster 844772e10d — score 8
 
@@ -2725,98 +2878,39 @@ Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasse
   - Link: https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html
   - Summary: Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files
 
-### Cluster 1293349fdc — score 8
+### Cluster 2faaf824a1 — score 8
 
-- Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-08-18T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-- Fetch status: ok
+- Title: 🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-08-18T17:34:14+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
+- cve_ids: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
+- urgency_signals: preauth_unauth
 - content_type: incident_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain
-- affected_industries: financial_services, manufacturing_industrial
+- cve_ids: CVE-2021-33044, CVE-2024-39943, CVE-2025-31702
+- urgency_signals: preauth_unauth
 - content_type: incident_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Three-quarters of Ransomware Attacks Target Mid-Market Firms Three-quarters of Ransomware Attacks Target Mid-Market Firms News 18 August 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Nearly three-quarters of ransomware victims since 2023 were mid-sized organizations with $10m to $1bn in revenue, according to a new Black Kite study. The third-party risk specialist analyzed 13,336 disclosed incidents dating back to January 2023, as well as a separate security scan of 120,128 mid-market companies, to compile its new report, Mid-Market Is the Routing Target . Published on August 18, it follows the Dun & Bradstreet revenue-based definition for market size: lower mid-market at $10m-$50m, core mid-market at $50m-$500m and upper mid-market at $500m-$1bn. The report found that 73% of ransomware attacks in North America and Europe hit companies with $10m-$1bn in annual revenue, with the figure barely moving even as the volume of incidents grew by 44% between 2023 and 2025. Read more on ransomware: Verizon DBIR: Small Businesses Bearing the Brunt of Ransomware Attacks Over the reporting period, the largest share of mid-market victims sat in the lower mid-market category (54%). In absolute terms, victim numbers rose here from 1391 in 2024 to 1821 in 2025. The core mid-market accounted for the second-highest number of victims over the period, ranging from 40-45% across the three-and-a-half years. Victim count here rose from 970 to 1474 between 2024 and 2025, while in the upper mid-market category, the numbers dropped from 126 in 2023 to 45 in 2025, a decline of 65%. North America (72%) accounted for many more incidents than Europe (28%), where UK firms were the most popular target. Gaps in Security Posture Manufacturing firms were by far the most popular target for threat actors, accounting for 26% of mid-market ransomware victims, followed by professional, scientific and technical services, and construction sectors. Manufacturing businesses typically have a low tolerance for outages and hold highly sensitive information, making them an attractive target. Data released by industry body Make UK published in August revealed that almost a third of UK manufacturers (30%) experienced a cyber incident over the past year, either directly or through their supply chain. Separate data from ESET published in April found that, of UK manufacturers that suffered a cyber incident last year, almost all (95%) admit the attack had a direct impact on their business, and most (53%) suffered financial loss as a result. Supply chain disruption (44%) and missed customer or supplier commitments (39%) were also commonplace. Black Kite’s analysis of security posture across over 120,000 mid-market firms revealed some of the deficiencies which could lead to ransomware compromise. Its findings include: Over a quarter (28%) had at least one known exploited vulnerability (KEV) Over half (55%) had at least one significant patch management finding on public-facing software Nearly half (48%) carried at least one disclosed vulnerability with a CVSS score of 8.0 or higher Nearly a third (32%) had at least one stealer log finding Nearly half (47%) had missing or insufficient DMARC protection The challenge for security teams in these organizations is set to increase as AI adoption grows, Black Kite argued. “AI is accelerating how fast new vulnerabilities are discovered, and the volume is climbing toward levels no small team can triage by hand,” the report claimed. “Only a fraction of those vulnerabilities are ever exploited, but finding that fraction across a company’s own systems and its suppliers is exactly the work a mid-market team has little capacity to do.” You may also like 80% of Manufacturing Firms Have Critical Vulnerabilities News 2 October 2024 Manufacturers Struggle to Manage Cyber-Threats from New Tech Deployments News 5 December 2022 Tech Manufacturer Data I/O H
+An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io
 ```
 
 #### Corroborating sources (1)
 
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Three-quarters of Ransomware Attacks Target Mid-Market Firms
-  - Published: 2026-08-18T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/threequarters-ransomware-attacks/
-  - Summary: Black Kite finds mid-market is the sweet spot for ransomware as manufacturers are most likely to be hit
-
-### Cluster cbaa55cbf5 — score 8
-
-- Title: HOL Guard: Open-source antivirus for AI agents
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-08-25T05:30:35+00:00
-- Link: https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_products: Anthropic/Claude, GitHub
-- content_type: news_report, vendor_announcement
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_products: GitHub, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-HOL Guard is a free, open-source tool that sits between an AI assistant and the computer it runs on. When the assistant tries something risky, the tool pauses it and asks you first. It installs in about a minute, runs on your own machine, and a typical check takes under 50 milliseconds. Your files are never uploaded, and the whole thing works with no internet connection. The people exposed here are anyone using Claude Code, … More → The post HOL Guard: Open-source antivirus for AI agents appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Anamarija Pogorelec , Senior Staff Writer, Help Net Security August 25, 2026 Share HOL Guard: Open-source antivirus for AI agents HOL Guard is a free, open-source tool that sits between an AI assistant and the computer it runs on. When the assistant tries something risky, the tool pauses it and asks you first. It installs in about a minute, runs on your own machine, and a typical check takes under 50 milliseconds. Your files are never uploaded, and the whole thing works with no internet connection. The people exposed here are anyone using Claude Code, Cursor, Codex, Gemini CLI, OpenCode, Hermes, or OpenClaw. Balanced is the default, and it decides what you never see HOL Guard ships four settings: Gentle, Balanced, Strict, and Paranoid. Michael Kantor, president of HOL, describes the design goal as “protect me without making the agent unusable.” In practice, he says, Balanced “asks again on things like secret/exfiltration access, destructive or encoded execution, prompt injection , dangerous MCP calls, malicious skills and persistence; warns on network egress/package scripts; and blocks attempts to bypass HOL Guard itself.” Strict adds low-confidence signals on top of that, and Paranoid interrupts on any unfamiliar action from an external tool server. Both mean more interruptions. Neither is on by default. The list of things that trigger a block is public on purpose Anyone writing a malicious plugin can read the source and see what sets HOL Guard off. “I don’t think hiding detector signatures is a real security boundary. Some of HOL Guard’s detections are simple and public on purpose, but that’s not all we’re relying on,” Kantor told Help Net Security. The rest, he says, watches behavior: “We also parse the actual command structure across wrappers, pipelines, redirects and embedded commands, and look at things like executable/env/provenance, sensitive-path access, network destinations, artifact identity/hash changes and explicit attempts to bypass HOL Guard.” He is direct about what has not changed. “I also wouldn’t claim we’ve eliminated pattern matching. We haven’t, and I don’t think that’s necessary. It’s one input among several.” Someone who reads the code can probably reword a command to slip past the simple checks. Fooling the part that watches what the command does is harder. Nobody can tell you whether people keep it turned on HOL Guard only helps while it is running, and a tool that interrupts you too often gets uninstalled. Asked what the first week looks like, and whether users tighten to Strict or quietly fall back to Gentle, Kantor told us: “The honest answer on adoption is that we don’t have a defensible Strict vs Gentle vs churn number yet. Local telemetry and cloud sync are off by default, so claiming one would be made up.” That gap follows directly from the privacy design. Nothing is collected unless you opt in, so HOL cannot see what its own users do with the product. Kantor says the modes can be tested and observed, and that the local history is built so people can tighten or loosen after living with it, but “we can’t honestly give you a first-week conversion split today.” HOL Guard checks commands, secret access, and plugin installs before they run, and the company calls it “not a complete prompt-injection preventer.” Scores from its companion plugin scanner come with no promise of safety. The package has passed 552,000 downloads, though a download count says how many machines fetched it, not how many still have it switched on. The tool keeps a local record of everything it allowed and everything it blocked, and reversing a bad block takes one approval. Read a week of that record before deciding whether the interruptions are catching anything you would not have caught yourself. It is the only evidence about your own setup that exists, because by design nobody else is collecting it. HOL Guard is available for free on GitHub . Must read: 20 open-source cybersecurity tools to keep your team ready for anything G
-```
-
-#### Corroborating sources (3)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: HOL Guard: Open-source antivirus for AI agents
-  - Published: 2026-08-25T05:30:35+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/25/hol-guard-open-source-antivirus-ai-agents/
-  - Summary: HOL Guard is a free, open-source tool that sits between an AI assistant and the computer it runs on. When the assistant tries something risky, the tool pauses it and asks you first. It installs in about a minute, runs on your own machine, and a typical check takes under 50 milliseconds. Your files are never uploaded, and the whole thing works with no internet connection. The people exposed here are anyone using Claude Code, … More → The post HOL Guard: Open-source antivirus for AI agents appeared first on Help Net Security .
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund
-  - Published: 2026-08-24T07:18:58+00:00
-  - Link: https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/
-  - Summary: Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5. The post Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund appeared first on SecurityWeek .
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: hardware-compliance-handbook - open-source, fact-checked EU CRA/RED/NIS2/CSA compliance reference (also works as a Claude Skill)
-  - Published: 2026-08-24T07:14:45+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1vwvmpk/hardwarecompliancehandbook_opensource_factchecked/
-  - Summary: submitted by /u/Pitiful_Signature264 [link] [comments]
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: 🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia
+  - Published: 2026-08-18T17:34:14+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/
+  - Summary: An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don't hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io
