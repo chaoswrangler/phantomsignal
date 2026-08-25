@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-25T01:38:40.014673+00:00
+- Generated: 2026-08-25T03:04:53.413846+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 73
-- Total items in window: 287
-- Total clusters raw: 131
-- Total clusters in packet: 46
-- Dropped low score: 85
+- Total items in window: 283
+- Total clusters raw: 132
+- Total clusters in packet: 45
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,41 +85,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
+  - In window count: 3
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -130,20 +125,20 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 0
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
@@ -155,31 +150,36 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -200,18 +200,8 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,8 +210,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -230,36 +225,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
-  - Status: parse_error
-  - Item count: 0
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -270,141 +265,146 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 100
+  - Item count: 20
+  - In window count: 2
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 4
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 30
-  - In window count: 17
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 18
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 5
+  - In window count: 5
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 18
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 26
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 26
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -412,21 +412,6 @@
   - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -440,6 +425,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -494,8 +494,8 @@
   - https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html
   - https://securelist.com/android-head-unit-malware/121106/
   - https://risky.biz/RBNEWS604/
-  - https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
   - https://www.helpnetsecurity.com/2026/08/24/android-malware-car-head-unit-badbox/
+  - https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
   - https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/
   - https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html
   - https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
@@ -625,6 +625,24 @@
   - https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   - https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
 
+### WordPress vulnerability activity
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 2
+- Article count: 5
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: WordPress
+- Cluster IDs: 73e2ba5a94, 8a66834bf6
+- Links:
+  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
+  - https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
+  - https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
+  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
+
 ### APT29: apt espionage
 - Anchor signal: APT29
 - Theme key: apt29
@@ -678,23 +696,6 @@
   - https://www.team-cymru.com/post/cl0p-ransomware-mft-attack-pattern-threat-intelligence
   - https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
   - https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/
-
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: WordPress
-- Cluster IDs: 52ca083917, 8a66834bf6
-- Links:
-  - https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
-  - https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
-  - https://research.checkpoint.com/2026/thousands-of-hacked-wordpress-sites-one-operation-unmasking-stopandprotect/
 
 ### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
@@ -755,9 +756,9 @@
   - Prior top products: Apple iOS/macOS, Azure, Microsoft 365
 - **Lazarus** (cluster 9101d8d7ac)
   - New industries: manufacturing_industrial
-  - New products: Android
+  - New products: (none)
   - Prior top industries: aviation_defense, financial_services, government
-  - Prior top products: Apple iOS/macOS, Microsoft Windows, OpenAI/ChatGPT
+  - Prior top products: Android, Microsoft Windows, OpenAI/ChatGPT
 - **ShinyHunters** (cluster ec6e40ad77)
   - New industries: manufacturing_industrial
   - New products: OpenAI/ChatGPT
@@ -1004,6 +1005,63 @@ GitLab CE/EE GraphQL Directive Code Injection Vulnerability CVE-2026-19478 is a 
   - Published: 2026-08-18T21:25:58+00:00
   - Link: https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges
   - Summary: A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.
+
+### Cluster 73e2ba5a94 — score 27
+
+- Title: Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-08-20T18:19:47+00:00
+- Link: https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 3
+- Strong signals: CVE-2026-32475, WordPress
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_products: WordPress
+- cve_ids: CVE-2026-32475, CVE-2026-65640
+- urgency_signals: critical_cvss, poc_available, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_products: WordPress
+- cve_ids: CVE-2026-32475, CVE-2026-65640
+- urgency_signals: preauth_unauth, poc_available, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]
+```
+
+#### Full body
+
+```
+Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms module’s file upload processing logic, where the extension validation check and the file-move step run in two separate loops with different handling of empty file entries. By submitting two file parts for a single File Upload field, an unauthenticated attacker can bypass the extension blocklist entirely. The uploaded PHP file is written to the publicly accessible directory wp-content/uploads/elementor/forms/<uniqid>.php , granting the attacker arbitrary code execution on the server. No authentication is required to exploit this issue. Affected Systems The following component is affected: Elementor Pro Forms module, versions up to and including 4.2.1. Elementor Pro is a widely used commercial WordPress page builder plugin deployed across millions of websites. Any WordPress site running an affected version that has at least one published page containing a Form widget with a File Upload field is vulnerable. The File Upload field’s “Required” toggle is off by default, so no unusual configuration is needed for exploitation. Related: WordPress core CVE-2026-65640 (CVSS 8.8, fixed in 7.0.4) allows an Author-level user or higher to achieve remote code execution via a malicious PostScript upload. It affects WordPress core versions 4.7 through 7.0, but exploitation requires both Imagick and Ghostscript to be in use on the server, as the underlying flaw is in Ghostscript’s handling of embedded files. Site owners should address both issues. Risk Impact Successful exploitation could allow attackers to execute arbitrary PHP code on the web server, install persistent webshells and exfiltrate sensitive data, and potentially pivot laterally across the hosting environment, leading to service disruption, data exposure, or full infrastructure compromise. At the time of writing, no public proof-of-concept exploit has been released, and no active exploitation campaigns have been publicly confirmed. Regardless, the severity and ease of exploitation make this vulnerability high risk, especially in internet-facing deployments. Remediation Users should upgrade Elementor Pro to version 4.2.2 or later, which was released on August 19, 2026. Additionally, administrators should audit the wp-content/uploads/elementor/forms/ directory for unexpected PHP files, review all Elementor forms exposing File Upload fields to assess whether they are necessary, and update WordPress core to version 7.0.4. As an interim mitigation, WAF rules blocking PHP file uploads through form endpoints can reduce exposure. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Elementor Pro, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning can detect WordPress installations and their plugin versions across cloud workloads, allowing security teams to pinpoint cloud-hosted WordPress instances running Elementor Pro 4.2.1 or earlier. Orca’s platform highlights affected assets, helping security teams focus on the most critical remediation paths first. From the News Item in the Orca Platform Related articles Cloud Security Learning Agentic Workflows: A Complete Guide for 2026 Aug 19, 2026 Cloud Security Learning Autonomous SOC: AI-Driven Security Operations Explained Aug 19, 2026 SOC Automation: AI-Driven Tools and Best Practices Aug 14, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree
+```
+
+#### Corroborating sources (3)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites
+  - Published: 2026-08-20T18:19:47+00:00
+  - Link: https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
+  - Summary: Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
+  - Published: 2026-08-20T06:04:34+00:00
+  - Link: https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
+  - Summary: Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. "The flaw lives in the Forms module's File
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Hackers target WordPress sites in miniOrange auth bypass attacks
+  - Published: 2026-08-24T19:26:32+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
+  - Summary: Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [...]
 
 ### Cluster 6117c1d701 — score 21
 
@@ -1348,16 +1406,16 @@ Table of Contents Head unit firmware overview The TWCore app Stage 1: the JarSer
   - Published: 2026-08-24T04:31:50+00:00
   - Link: https://risky.biz/RBNEWS604/
   - Summary: Expired credit cards can be used for malicious transactions, Iranian hackers shut down a UK power plant, the Lazarus Group hacks South Korea’s Presidential Office, and an Android malware strain is infecting smart cars.
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: ToxicPanda Banking Trojan Matures Into Enterprise Threat
-  - Published: 2026-08-24T14:34:59+00:00
-  - Link: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
-  - Summary: The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Android car head units infected with proxy botnet malware through built-in software updaters
   - Published: 2026-08-24T09:51:16+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/24/android-malware-car-head-unit-badbox/
   - Summary: A newly discovered Android malware, distributed through the built-in updaters in affected Android-based car head units, turns infected devices into ad-fraud tools and nodes in a proxy botnet, Kaspersky has found. According to the researchers, it’s the first documented case of malware found on a car head unit with an infection chain specific to that type of device. “It’s worth noting that head units often include SIM card slots and can connect to the internet, … More → The post Android car head units infected with proxy botnet malware through built-in software updaters appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: ToxicPanda Banking Trojan Matures Into Enterprise Threat
+  - Published: 2026-08-24T14:34:59+00:00
+  - Link: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
+  - Summary: The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: ToxicPanda Android malware uses VPN permissions to block Google Play
   - Published: 2026-08-23T14:23:46+00:00
@@ -1559,55 +1617,6 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
   - Link: https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html
   - Summary: OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging Face-like incident. "As models become more capable, the risks associated with developing and testing them internally also grow," the AI company
 
-### Cluster 849426520e — score 12
-
-- Title: 24th August – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-24T14:07:53+00:00
-- Link: https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos, phishing_social_eng
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- affected_products: GitHub, GitLab, Snowflake
-- cve_ids: CVE-2026-19478, CVE-2026-19489, CVE-2026-19490
-- urgency_signals: critical_cvss, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, ddos
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- affected_products: GitLab, Snowflake, GitHub
-- cve_ids: CVE-2026-19478, CVE-2026-19489, CVE-2026-19490
-- urgency_signals: preauth_unauth, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The […] The post 24th August – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 24th August – Threat Intelligence Report August 24, 2026 https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The stolen data included identification numbers, license plates, payment amounts, dates and addresses. Attackers reportedly exploited a vulnerability in an internet-facing system. Sakura Internet, a Japanese cloud and hosting provider, has disclosed unauthorized access involving rental server environments and a separate sales management system. Up to 1.36 million customer accounts may have been exposed. Attackers also accessed hundreds of rental server accounts and installed malware on affected environments. The Hospital for Sick Children, Canada’s largest pediatric hospital, has disclosed data theft involving a third-party application. The incident affected its careers website and exposed information belonging to employees, applicants and staff at related organizations. The hospital stated that clinical systems and patient information were not affected. Berlin authorities isolated the city’s urban development and mobility ministries from government IT networks following a security breach. The measure disrupted email and internet access, forcing employees to use alternative communication channels and delaying several public services while the ministries remained disconnected. AI THREATS Researchers have demonstrated an autonomous AI agent exploiting a GitHub Actions flaw in Snowflake’s public repository, gaining read access to the company’s internal Jira system. The agent exfiltrated tokens within seconds. Snowflake patched the workflow and rotated credentials after the demonstration, which required no human steering. US authorities warn of active AI-assisted attacks targeting Siemens S7 industrial controllers across manufacturing, energy, water and other critical sectors. Attackers use AI-generated scripts disguised as monitoring tools and open-source libraries to probe internet-exposed attempting to cause unauthorized configuration changes, operational disruption or damage to industrial equipment. Researchers have analyzed ‘Kriminal’, a publicly accessible AI platform marketed as uncensored and offering social engineering and exploit assistance through cryptocurrency subscriptions. The service combines models including Grok, Claude and Llama, allowing users to generate phishing content, malicious code and other cybercrime material while reducing reliance on a single provider VULNERABILITIES AND PATCHES GitLab has released out-of-band fixes for CVE-2026-19478, a critical unauthenticated code injection vulnerability affecting self-managed Community and Enterprise editions. Rated CVSS 9.4, the flaw can let remote attackers alter or delete public projects and user data. Exploitation attempts were observed after disclosure. Cisco has released fixes for nine critical vulnerabilities affecting Crosswork platforms and Secure Workload software, including six flaws rated CVSS 10.0. The issues include authentication, access-control and file-system weaknesses that could enable unauthorized access or system compromise. Citrix has published patches for CVE-2026-19489 and CVE-2026-19490 affecting NetScaler ADC and NetScaler Gateway. The critical authentication bypass flaw can let unauthenticated attackers access appliances configured with SAML authentication, while the second vulnerability can cause denial of service. NASA/JPL has fixed a critical vulnerability in the open-source AMMOS Instrument Toolkit AIT-GUI that enables unauthenticated command execution through its web console.
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 24th August – Threat Intelligence Report
-  - Published: 2026-08-24T14:07:53+00:00
-  - Link: https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The […] The post 24th August – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster d95ca75496 — score 12
 
 - Title: Operationalize CTEM with NodeZero®
@@ -1742,55 +1751,54 @@ All Blog Internet Weather Threat Research Threat Intelligence 101 Eli Woodward 5
   - Link: https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html
   - Summary: A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest. The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault
 
-### Cluster 52ca083917 — score 11
+### Cluster 849426520e — score 11
 
-- Title: Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-20T06:04:34+00:00
-- Link: https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
+- Title: 24th August – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-08-24T14:07:53+00:00
+- Link: https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: CVE-2026-32475, WordPress
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: WordPress
-- cve_ids: CVE-2026-32475, CVE-2026-65640
-- urgency_signals: preauth_unauth
+- threat_categories: ddos, phishing_social_eng
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- affected_products: GitHub, GitLab, Snowflake
+- cve_ids: CVE-2026-19478, CVE-2026-19489, CVE-2026-19490
+- urgency_signals: critical_cvss, preauth_unauth
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_products: WordPress
-- cve_ids: CVE-2026-32475, CVE-2026-65640
-- urgency_signals: preauth_unauth
+- threat_categories: phishing_social_eng, ddos
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- affected_products: GitLab, Snowflake, GitHub
+- cve_ids: CVE-2026-19478, CVE-2026-19489, CVE-2026-19490
+- urgency_signals: preauth_unauth, critical_cvss
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. "The flaw lives in the Forms module's File
+For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The […] The post 24th August – Threat Intelligence Report appeared first on Check Point Research .
 ```
 
 #### Full body
 
 ```
-Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code  Ravie Lakshmanan  Aug 20, 2026 Vulnerability / Web Security Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475 , carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. "The flaw lives in the Forms module's File Upload field, where the extension check and the file-move step run in two separate loops with different handling of empty file entries," Patchstack said . "By submitting two file parts for the same field, an unauthenticated attacker skips the extension blocklist entirely and writes a PHP file into a public directory." This discrepancy in how it validates the file's extension and moves the uploaded file to a public directory when empty file entries are processed turns a restricted file-upload field into an unauthenticated remote code execution primitive. Successful exploitation of the flaw could allow an attacker to upload arbitrary files, including PHP scripts, that could then be used to achieve remote code execution on affected systems. The security defect impacts all versions of the plugin prior to and including version 4.2.1. The WordPress security company said the only precondition required to pull off an attack is that the target site has at least one published Elementor page containing a Form widget with a File Upload field. The uploaded file is written as "wp-content/uploads/elementor/forms/<uniqid>.php," where "<uniqid>" is the output of PHP's uniqid() function . "This is an extremely common, everyday configuration: job-application forms, 'attach a photo/ID/receipt' forms, and support-ticket attachments all use it," it noted. "The field's 'Required' toggle being off is its default state, so no hardened or unusual setting is needed." Security researcher Tin Pham (aka TF1T) has been credited with discovering and reporting the flaw under the Patchstack Bug Bounty Program. After the issue was reported to Elementor Pro on July 16, 2026, a patch (version 4.2.2) was released on August 19. The release comes a little over a week after WordPress released 7.0.4 to address a high-severity security issue ( CVE-2026-65640 , CVSS score: 8.8) that enables remote code execution via malicious Postscript file upload by an Author-level user or higher. It affects WordPress core versions 4.7 all the way up to 7.0. However, for the attack to be successful, two conditions have to be satisfied - Imagick and Ghostscript in use on the server, given the issue is in Ghostscript's handling of certain embedded files A malicious user with the upload_files capability The update "changes how WordPress hands your uploaded media to ImageMagick, and it closes a path that could let a logged-in author turn an ordinary-looking image upload into code execution on your server," Patchstack said . "If you run a multi-author publication, a membership site, a client site with contributors, or anything with open or loosely managed registration, that bar is a lot lower than it sounds. On those sites, an Author uploading a booby-trapped 'image' is a genuinely realistic threat, not a theoretical one. If it's just you and a tightly held set of trusted editors, your exposure is smaller." The findings also coincide with the discovery of a large-scale operation dubbed StopAndProtect that's turning thousands of compromised WordPress websites into a distributed infrastructure for malware delivery, command-and-control communications, and the storage of stolen data. WordPress users are advised to keep their websites and plugins up-to-date, scan for unauthorized modifications that serve unexpected redirects or pop-ups, and audit them for unknown accounts and plugins. Found this article interesting? Follow us on Google News , Twitter and LinkedIn
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 24th August – Threat Intelligence Report August 24, 2026 https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The stolen data included identification numbers, license plates, payment amounts, dates and addresses. Attackers reportedly exploited a vulnerability in an internet-facing system. Sakura Internet, a Japanese cloud and hosting provider, has disclosed unauthorized access involving rental server environments and a separate sales management system. Up to 1.36 million customer accounts may have been exposed. Attackers also accessed hundreds of rental server accounts and installed malware on affected environments. The Hospital for Sick Children, Canada’s largest pediatric hospital, has disclosed data theft involving a third-party application. The incident affected its careers website and exposed information belonging to employees, applicants and staff at related organizations. The hospital stated that clinical systems and patient information were not affected. Berlin authorities isolated the city’s urban development and mobility ministries from government IT networks following a security breach. The measure disrupted email and internet access, forcing employees to use alternative communication channels and delaying several public services while the ministries remained disconnected. AI THREATS Researchers have demonstrated an autonomous AI agent exploiting a GitHub Actions flaw in Snowflake’s public repository, gaining read access to the company’s internal Jira system. The agent exfiltrated tokens within seconds. Snowflake patched the workflow and rotated credentials after the demonstration, which required no human steering. US authorities warn of active AI-assisted attacks targeting Siemens S7 industrial controllers across manufacturing, energy, water and other critical sectors. Attackers use AI-generated scripts disguised as monitoring tools and open-source libraries to probe internet-exposed attempting to cause unauthorized configuration changes, operational disruption or damage to industrial equipment. Researchers have analyzed ‘Kriminal’, a publicly accessible AI platform marketed as uncensored and offering social engineering and exploit assistance through cryptocurrency subscriptions. The service combines models including Grok, Claude and Llama, allowing users to generate phishing content, malicious code and other cybercrime material while reducing reliance on a single provider VULNERABILITIES AND PATCHES GitLab has released out-of-band fixes for CVE-2026-19478, a critical unauthenticated code injection vulnerability affecting self-managed Community and Enterprise editions. Rated CVSS 9.4, the flaw can let remote attackers alter or delete public projects and user data. Exploitation attempts were observed after disclosure. Cisco has released fixes for nine critical vulnerabilities affecting Crosswork platforms and Secure Workload software, including six flaws rated CVSS 10.0. The issues include authentication, access-control and file-system weaknesses that could enable unauthorized access or system compromise. Citrix has published patches for CVE-2026-19489 and CVE-2026-19490 affecting NetScaler ADC and NetScaler Gateway. The critical authentication bypass flaw can let unauthenticated attackers access appliances configured with SAML authentication, while the second vulnerability can cause denial of service. NASA/JPL has fixed a critical vulnerability in the open-source AMMOS Instrument Toolkit AIT-GUI that enables unauthenticated command execution through its web console.
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code
-  - Published: 2026-08-20T06:04:34+00:00
-  - Link: https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
-  - Summary: Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. "The flaw lives in the Forms module's File
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers target WordPress sites in miniOrange auth bypass attacks
-  - Published: 2026-08-24T19:26:32+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
-  - Summary: Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [...]
+- **Check Point Research** (threat_research_primary)
+  - Title: 24th August – Threat Intelligence Report
+  - Published: 2026-08-24T14:07:53+00:00
+  - Link: https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The […] The post 24th August – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 213e3c4494 — score 10
 
@@ -1965,39 +1973,6 @@ Date Published August 20, 2026 Topics Targeted Surveillance Apple , spyware Ment
   - Published: 2026-08-20T17:52:13+00:00
   - Link: https://citizenlab.ca/unprecedented-number-of-apple-users-received-recent-spyware-alert/
   - Summary: Apple customers in 110 countries received threat notifications recently alerting them to suspected spyware attacks targeting their devices. The post ‘Unprecedented’ Number of Apple Users Received Recent Spyware Alert appeared first on The Citizen Lab .
-
-### Cluster 1fcc0abfde — score 10
-
-- Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-08-24T07:23:16+00:00
-- Link: https://isc.sans.edu/diary/rss/33274
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: DOUBLECUP's PNG Payload, (Mon, Aug 24th)
-  - Published: 2026-08-24T07:23:16+00:00
-  - Link: https://isc.sans.edu/diary/rss/33274
-  - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
 
 ### Cluster 3e394c1410 — score 10
 
@@ -2337,49 +2312,6 @@ Back to Blog Threat Research New Report: AI threats are here. Why Q2 2026 signal
   - Link: https://www.rapid7.com/blog/post/tr-new-report-ai-threats-q2-2026-ends-traditional-patch-cycles
   - Summary: You can’t patch everything. So what do you fix first? Findings in Q2 2026 have changed traditional answers. The latest Quarterly Threat Landscape Report from Rapid7 Labs shows vulnerability disclosures still surging while attackers use automation and AI-assisted tooling to compress the time between disclosure and exploitation. The gap that patch cycles were built to fill is closing. Speed and volume are overwhelming security teams that have relied on traditional patch cycles and reactive programs. Success going forward can’t be about patching as much as possible - it has to be about understanding what matters most and reducing the exposures attackers can actually reach. Here are the four trends that defined Q2 2026, and what they mean for your security program as you define priorities for Q3 and beyond: The volume of disclosures hit another milestone There were 8,539 new high- and critical-severity CVEs (CVSS 7.0–10.0) this quarter- double the number reported in the same quarter last y
 
-### Cluster f0848ac964 — score 10
-
-- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-24T14:00:00+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
-```
-
-#### Full body
-
-```
-Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Mission-Driven Security: Inside a Global Bank's Defense Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate sec
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-  - Published: 2026-08-24T14:00:00+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
-
 ### Cluster ec6e40ad77 — score 9
 
 - Title: Personal Information Exposed in Apollo Global Data Breach
@@ -2471,6 +2403,49 @@ Anamarija Pogorelec , Senior Staff Writer, Help Net Security August 24, 2026 Sha
   - Published: 2026-08-24T04:30:08+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/24/black-kite-mid-market-ransomware-risk-report/
   - Summary: Mid-sized companies accounted for 73% of publicly disclosed ransomware and data-extortion incidents with known revenue in North America and Europe between January 2023 and June 2026, according to Black Kite. The analysis covered 13,336 incidents with known revenue and defined mid-market companies as businesses with annual revenue between $10 million and $1 billion. Their share of incidents remained between 72% and 75% throughout the period, showing that attacks on this part of the market are … More → The post Ransomware attackers are zeroing in on mid-market companies appeared first on Help Net Security .
+
+### Cluster f0848ac964 — score 9
+
+- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-24T14:00:00+00:00
+- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
+```
+
+#### Full body
+
+```
+Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Mission-Driven Security: Inside a Global Bank's Defense Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate sec
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+  - Published: 2026-08-24T14:00:00+00:00
+  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
 
 ### Cluster bf833fa095 — score 9
 
