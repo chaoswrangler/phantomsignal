@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-26T06:58:49.325907+00:00
+- Generated: 2026-08-26T07:52:15.426689+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
 - Total items in window: 290
-- Total clusters raw: 134
+- Total clusters raw: 135
 - Total clusters in packet: 55
-- Dropped low score: 79
+- Dropped low score: 80
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,31 +70,31 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -105,18 +105,18 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 25
+  - Item count: 10
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -135,21 +135,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -160,16 +160,16 @@
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -180,36 +180,36 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,16 +225,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -250,21 +250,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -275,21 +270,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 20
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
-  - Item count: 99
-  - In window count: 2
+  - Item count: 100
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -300,6 +295,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 99
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -310,26 +310,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -340,56 +340,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 22
+  - Item count: 100
+  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 17
+  - Item count: 50
+  - In window count: 22
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 17
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -400,13 +395,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,31 +415,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
+  - Item count: 10
   - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
-  - In window count: 49
+  - In window count: 50
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Android
 - Theme key: android
 - Cluster count: 5
-- Article count: 13
+- Article count: 12
 - Cohesion: 0.229
 - Shared strong signals: Android
 - Member CVEs: (none)
@@ -494,7 +494,6 @@
   - https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
-  - https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
   - https://securelist.com/android-head-unit-malware/121106/
   - https://risky.biz/RBNEWS604/
   - https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
@@ -505,19 +504,16 @@
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.356
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.567
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - affected_products: Apple iOS/macOS
-  - urgency_signals: preauth_unauth
-- Cluster IDs: af5d25c59b, 175a6a518c, a42d9f28e9, 14a9e16bb3
+- Cluster IDs: 175a6a518c, a42d9f28e9, 14a9e16bb3
 - Links:
-  - https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
-  - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
   - https://www.huntress.com/blog/defcon-phishing-google-doc-malware
@@ -560,26 +556,6 @@
   - https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
   - https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
 
-### data breach targeting WordPress
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 7
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: data_breach
-  - affected_products: WordPress
-- Cluster IDs: 73e2ba5a94, b6aa154698
-- Links:
-  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
-  - https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/
-  - https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
-  - https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
-  - https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/
-
 ### GitLab exploitation (CVE-2026-19478)
 - Anchor signal: GitLab
 - Theme key: gitlab
@@ -598,6 +574,44 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/
   - https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
   - https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
+
+### data breach targeting WordPress
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: data_breach
+  - affected_products: WordPress
+- Cluster IDs: 73e2ba5a94, 4e2d4d958a
+- Links:
+  - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
+  - https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/
+  - https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html
+  - https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
+  - https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
+
+### Gitea vulnerability activity
+- Anchor signal: Gitea
+- Theme key: gitea
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: Gitea
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - affected_products: Gitea
+- Cluster IDs: c7b4417ba0, 4e2d4d958a
+- Links:
+  - https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+  - https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/
+  - https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
 
 ### CVE-2026-73570 exploitation activity
 - Anchor signal: CVE-2026-73570
@@ -625,17 +639,17 @@
 - Theme key: shinyhunters
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.317
+- Cohesion: 0.579
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: data_breach
   - actor_attribution: ShinyHunters
-- Cluster IDs: b6aa154698, 62469ecc9b
+- Cluster IDs: 62469ecc9b, 4e2d4d958a
 - Links:
-  - https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/
   - https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
+  - https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
 
 ### APT29: apt espionage
 - Anchor signal: APT29
@@ -689,13 +703,6 @@
 ### Leading edge (0)
 
 ### Convergence (15)
-- Pair: CVE-2019-1257 + Apple iOS/macOS (cluster af5d25c59b, first observation: True)
-- Pair: CVE-2019-1257 + Microsoft SharePoint (cluster af5d25c59b, first observation: True)
-- Pair: CVE-2026-55040 + Apple iOS/macOS (cluster af5d25c59b, first observation: True)
-- Pair: CVE-2026-63520 + Apple iOS/macOS (cluster af5d25c59b, first observation: True)
-- Pair: CVE-2026-63520 + Microsoft SharePoint (cluster af5d25c59b, first observation: True)
-- Pair: CVE-2026-65400 + Apple iOS/macOS (cluster af5d25c59b, first observation: True)
-- Pair: CVE-2026-65400 + Microsoft SharePoint (cluster af5d25c59b, first observation: True)
 - Pair: CVE-2026-19490 + Citrix (cluster 7f1247614d, first observation: True)
 - Pair: CVE-2026-18556 + GitLab (cluster 83a33105c1, first observation: True)
 - Pair: CVE-2026-18577 + GitLab (cluster 83a33105c1, first observation: True)
@@ -704,6 +711,13 @@
 - Pair: CVE-2026-20316 + GitLab (cluster 83a33105c1, first observation: True)
 - Pair: CVE-2026-72898 + Cisco (cluster 83a33105c1, first observation: True)
 - Pair: CVE-2026-72898 + GitLab (cluster 83a33105c1, first observation: True)
+- Pair: CVE-2026-15981 + WordPress (cluster 73e2ba5a94, first observation: True)
+- Pair: CVE-2026-32475 + WordPress (cluster 73e2ba5a94, first observation: True)
+- Pair: CVE-2026-61979 + WordPress (cluster 73e2ba5a94, first observation: True)
+- Pair: CVE-2026-65640 + WordPress (cluster 73e2ba5a94, first observation: True)
+- Pair: CVE-2019-1257 + Microsoft SharePoint (cluster af5d25c59b, first observation: True)
+- Pair: CVE-2026-63520 + Microsoft SharePoint (cluster af5d25c59b, first observation: True)
+- Pair: CVE-2025-66376 + Android (cluster 6117c1d701, first observation: True)
 
 ### Drift (2)
 - **Lazarus** (cluster 9101d8d7ac)
@@ -711,74 +725,28 @@
   - New products: (none)
   - Prior top industries: aviation_defense, financial_services, government
   - Prior top products: Android, Microsoft Windows, OpenAI/ChatGPT
-- **ShinyHunters** (cluster b6aa154698)
-  - New industries: manufacturing_industrial
-  - New products: Gitea, WordPress
+- **ShinyHunters** (cluster 62469ecc9b)
+  - New industries: retail_ecommerce
+  - New products: (none)
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 
-### Persistence (13)
-- actor_attribution: ShinyHunters (weeks observed: 13, cluster b6aa154698)
+### Persistence (11)
+- actor_attribution: ShinyHunters (weeks observed: 13, cluster 62469ecc9b)
 - actor_attribution: APT29 (weeks observed: 5, cluster d5c3fd8d4d)
-- cve_ids: CVE-2026-55040 (weeks observed: 4, cluster af5d25c59b)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 83a33105c1)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster 83a33105c1)
+- cve_ids: CVE-2026-55040 (weeks observed: 4, cluster af5d25c59b)
 - actor_attribution: Lazarus (weeks observed: 4, cluster 9101d8d7ac)
-- cve_ids: CVE-2026-65400 (weeks observed: 3, cluster af5d25c59b)
 - cve_ids: CVE-2026-19490 (weeks observed: 3, cluster 7f1247614d)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 83a33105c1)
+- cve_ids: CVE-2026-60004 (weeks observed: 3, cluster c7b4417ba0)
 - cve_ids: CVE-2025-66376 (weeks observed: 3, cluster 6117c1d701)
-- cve_ids: CVE-2026-20896 (weeks observed: 3, cluster b6aa154698)
-- cve_ids: CVE-2026-60004 (weeks observed: 3, cluster b6aa154698)
 - actor_attribution: APT28 (weeks observed: 3, cluster f99925d57d)
 
 ### Tier inversion (0)
 
 ## Clusters
-
-### Cluster af5d25c59b — score 32
-
-- Title: Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-08-24T16:18:05+00:00
-- Link: https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-63520, Microsoft SharePoint
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Apple iOS/macOS, Microsoft SharePoint
-- cve_ids: CVE-2019-1257, CVE-2026-55040, CVE-2026-63520, CVE-2026-65400
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Microsoft SharePoint
-- cve_ids: CVE-2026-63520, CVE-2026-55040, CVE-2019-1257
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Full body
-
-```
-Back to Blog Vulnerabilities and Exploits Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520) Stephen Fewer Aug 24, 2026 | Last updated on Aug 24, 2026 | 11 min read Overview On August 11, 2026, Rapid7 and Microsoft disclosed CVE-2026-63520, a remote code execution (RCE) vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of CVE-2026-63520. This analysis was originally scheduled for publication 30 days after disclosure; however, as a third party has published details of CVE-2026-63520, our timeline has been expedited. A remote authenticated attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. When combined with the authentication bypass, CVE-2026-55040 , the resulting exploit chain is unauthenticated RCE against a vulnerable SharePoint server. When comparing the two analysis of CVE-2026-63520, we can see how we have exploited the issue by leveraging a Database Line-of-Business (LOB) system and an ObjectDataProvider based gadget chain, whilst the VulnCheck analysis has exploited the issue by leveraging a DotNetAssembly LOB system and a LosFormatter based gadget chain. Defenders should account for this when detecting CVE-2026-63520. It is highly likely other gadget chains may also be used. Analysis The following technical analysis is based upon SharePoint Server Subscription Edition version 16.0.19725.20210 . An RCE vulnerability exists in the Microsoft SharePoint Business Data Connectivity (BDC) subsystem. This is due to an unrestricted .NET type instantiation and property-setting primitive in the DbTypeReflector class, which resolves arbitrary assembly-qualified type names from BDC model XML without any allowlist or safety enforcement. An attacker who can upload a malicious .bdcm model file and trigger entity execution can instantiate any .NET type available in the Global Assembly Cache (GAC), set arbitrary properties on those instances, and leverage property-setter side-effects to achieve OS command execution. Note that there is prior work in this space that was very helpful when conducting this research. The writeup of CVE-2019-1257 by the ZDI research team discusses leveraging BDC models for unsafe .NET type instantiation. The vulnerability exists in the Microsoft.SharePoint.BusinessData.SystemSpecific.Db.DbTypeReflector.ResolveDotNetType() method, which directly calls Type.GetType() on attacker-controlled TypeDescriptor TypeName values without validation. Combined with a recursive instantiation and property-setting mechanism in the parent DotNetTypeReflector.Instantiate() method, this allows constructing a gadget chain that triggers Process.Start() through the System.Windows.Data.ObjectDataProvider class's property-setter side-effect (this gadget chain technique is well-known ). The BDC subsystem uses "type reflectors" to resolve .NET types from the TypeName attribute of TypeDescriptor elements in BDC model XML. For Database-type LobSystem definitions, SharePoint uses DbTypeReflector , which inherits from DotNetTypeReflector , as shown below. // Microsoft.SharePoint.BusinessData.SystemSpecific.Db\DbTypeReflector.cs - Lines 167-186 public override Type ResolveDotNetType(string abstractTypeName, ILobSystemStruct lobSystemStruct) { if (string.IsNullOrEmpty(abstractTypeName)) { throw new ArgumentNullException("abstractTypeName"); } if (abstractTypeName.Length < 15) // <-- [1] { return base.ResolveDotNetType(abstractTypeName, lobSystemStruct); } try { return Type.GetType(abstractTypeName, throwOnError: true); // <-- [2] } catch (ArgumentException) { throw new ArgumentException(...); } } At [1] , if the type name is fewer than 15 characters (e.g. System.Int32 ), it falls through to the base class DotNetTypeReflector.ResolveDotNetType() , which has a limited type lookup path. However, at [2] , for any type name greater than 15 characters (e.g. System.Diagnostics.
-```
-
-#### Corroborating sources (2)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)
-  - Published: 2026-08-24T16:18:05+00:00
-  - Link: https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation
-  - Published: 2026-08-19T11:01:48+00:00
-  - Link: https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an
 
 ### Cluster 7f1247614d — score 31
 
@@ -985,6 +953,98 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Link: https://www.exploit-db.com/exploits/52658
   - Summary: CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
 
+### Cluster af5d25c59b — score 26
+
+- Title: Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-08-24T16:18:05+00:00
+- Link: https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-63520, Microsoft SharePoint
+
+#### Cluster taxonomy (union across members)
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2019-1257, CVE-2026-55040, CVE-2026-63520
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-63520, CVE-2026-55040, CVE-2019-1257
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Full body
+
+```
+Back to Blog Vulnerabilities and Exploits Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520) Stephen Fewer Aug 24, 2026 | Last updated on Aug 24, 2026 | 11 min read Overview On August 11, 2026, Rapid7 and Microsoft disclosed CVE-2026-63520, a remote code execution (RCE) vulnerability affecting Microsoft SharePoint. Today we are publishing a technical analysis of CVE-2026-63520. This analysis was originally scheduled for publication 30 days after disclosure; however, as a third party has published details of CVE-2026-63520, our timeline has been expedited. A remote authenticated attacker can leverage CVE-2026-63520 to execute arbitrary code on a vulnerable SharePoint server with the privileges of the SharePoint Site’s service account. When combined with the authentication bypass, CVE-2026-55040 , the resulting exploit chain is unauthenticated RCE against a vulnerable SharePoint server. When comparing the two analysis of CVE-2026-63520, we can see how we have exploited the issue by leveraging a Database Line-of-Business (LOB) system and an ObjectDataProvider based gadget chain, whilst the VulnCheck analysis has exploited the issue by leveraging a DotNetAssembly LOB system and a LosFormatter based gadget chain. Defenders should account for this when detecting CVE-2026-63520. It is highly likely other gadget chains may also be used. Analysis The following technical analysis is based upon SharePoint Server Subscription Edition version 16.0.19725.20210 . An RCE vulnerability exists in the Microsoft SharePoint Business Data Connectivity (BDC) subsystem. This is due to an unrestricted .NET type instantiation and property-setting primitive in the DbTypeReflector class, which resolves arbitrary assembly-qualified type names from BDC model XML without any allowlist or safety enforcement. An attacker who can upload a malicious .bdcm model file and trigger entity execution can instantiate any .NET type available in the Global Assembly Cache (GAC), set arbitrary properties on those instances, and leverage property-setter side-effects to achieve OS command execution. Note that there is prior work in this space that was very helpful when conducting this research. The writeup of CVE-2019-1257 by the ZDI research team discusses leveraging BDC models for unsafe .NET type instantiation. The vulnerability exists in the Microsoft.SharePoint.BusinessData.SystemSpecific.Db.DbTypeReflector.ResolveDotNetType() method, which directly calls Type.GetType() on attacker-controlled TypeDescriptor TypeName values without validation. Combined with a recursive instantiation and property-setting mechanism in the parent DotNetTypeReflector.Instantiate() method, this allows constructing a gadget chain that triggers Process.Start() through the System.Windows.Data.ObjectDataProvider class's property-setter side-effect (this gadget chain technique is well-known ). The BDC subsystem uses "type reflectors" to resolve .NET types from the TypeName attribute of TypeDescriptor elements in BDC model XML. For Database-type LobSystem definitions, SharePoint uses DbTypeReflector , which inherits from DotNetTypeReflector , as shown below. // Microsoft.SharePoint.BusinessData.SystemSpecific.Db\DbTypeReflector.cs - Lines 167-186 public override Type ResolveDotNetType(string abstractTypeName, ILobSystemStruct lobSystemStruct) { if (string.IsNullOrEmpty(abstractTypeName)) { throw new ArgumentNullException("abstractTypeName"); } if (abstractTypeName.Length < 15) // <-- [1] { return base.ResolveDotNetType(abstractTypeName, lobSystemStruct); } try { return Type.GetType(abstractTypeName, throwOnError: true); // <-- [2] } catch (ArgumentException) { throw new ArgumentException(...); } } At [1] , if the type name is fewer than 15 characters (e.g. System.Int32 ), it falls through to the base class DotNetTypeReflector.ResolveDotNetType() , which has a limited type lookup path. However, at [2] , for any type name greater than 15 characters (e.g. System.Diagnostics.
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Rapid7 Analysis: Microsoft SharePoint Remote Code Execution (CVE-2026-63520)
+  - Published: 2026-08-24T16:18:05+00:00
+  - Link: https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
+
+### Cluster c7b4417ba0 — score 23
+
+- Title: Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-26T06:27:07+00:00
+- Link: https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-60004, Gitea
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, cryptojacking, vulnerability_disclosure
+- affected_industries: financial_services
+- affected_products: Gitea
+- cve_ids: CVE-2026-60004
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: cryptojacking, vulnerability_disclosure, active_exploitation
+- affected_industries: financial_services
+- affected_products: Gitea
+- cve_ids: CVE-2026-60004
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the
+```
+
+#### Full body
+
+```
+Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload  Ravie Lakshmanan  Aug 26, 2026 Vulnerability / Cryptojacking The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the Gitea OS user. "Gitea's diffpatch endpoint can be abused to install and execute a Git hook from repository-controlled content," according to an advisory released by Gitea last month. "With default open registration, an unauthenticated visitor can obtain the required write access by registering an account and creating a repository." Security researcher Shai rod (aka NightRang3r) has been credited with discovering and reporting the issue. The issue affects all versions of Gitea from version 1.17 and has been patched in version 1.27.1. As The Hacker News reported previously, while the vulnerable API call requires authentication and repository write permission, the fact that Gitea allows registration by default makes it possible for an external actor to create an account and a repository and then trigger the exploit without having to rely on pre-existing credentials. "Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account," CISA said. The agency, which added the flaw to its Known Exploited Vulnerabilities (KEV) catalog, did not disclose any details of how the security flaw has been exploited in the wild or who is behind the efforts. However, a full-stack developer named Andrey (aka @Causelof) pointed out in an analysis published last week on the Russian blogging platform Habr that their Gitea instance was targeted by an unknown threat actor using CVE-2026-60004 to deploy a cryptocurrency-miner-like dropper. The incident came to light after receiving an email notification from hosting provider HOSTKEY, stating their virtual server had been using more than 70% of the processor capacity for an extended period of time in violation of the service's terms, causing the provider to temporarily limit the available CPU resources to the VPS. Specifically, the user cited the following configuration as responsible for driving the activity - DISABLE_REGISTRATION = false (If the parameter is enabled, only an admin can create accounts for users) REGISTER_EMAIL_CONFIRM = false (If the parameter is enabled, it asks for registration confirmation via email) ENABLE_OPENID_SIGNUP = true (The parameter allows registering via OpenID) REQUIRE_SIGNIN_VIEW = false (If the parameter is enabled, it forces users to log in to view any page or to use API) "The fact that open registration is enabled here is significant precisely because of its connection to the vulnerability," Andrey noted. "A new user could register, create their own repository, and obtain the necessary write permissions within it. Gitea's SSH was not exposed to the outside world. The attack vector was via HTTPS." Before deploying the miner-like payload, the dropper script is said to have undertaken the following steps - Clear LD_PRELOAD and LD_LIBRARY_PATH Search for processes with high CPU usage Attempt to kill competing processes Fetch the payload based on the system architecture Download, write it to a location on disk, and run it Delete the file after execution The exact nature of the next-stage payload is unknown, as the developer said they did not conduct an analysis of its contents, adding "I do not have confirmed information regarding the mining pool, wallet, miner family, or specific operator." However, the spike in CPU usage lines up with a cryptojacking campaign targeting vul
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload
+  - Published: 2026-08-26T06:27:07+00:00
+  - Link: https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: CISA Warns of Exploited Gitea Vulnerability
+  - Published: 2026-08-26T05:17:28+00:00
+  - Link: https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/
+  - Summary: CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek .
+
 ### Cluster 6117c1d701 — score 21
 
 - Title: Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution
@@ -1051,8 +1111,8 @@ Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution 
 - Published: 2026-08-25T06:12:35+00:00
 - Link: https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 1
+- Corroborating source count: 1
 - Strong signals: CVE-2026-21962
 
 #### Cluster taxonomy (union across members)
@@ -1061,7 +1121,7 @@ Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution 
 - affected_products: Android, Gogs, Microsoft Entra
 - cve_ids: CVE-2017-10271, CVE-2020-14882, CVE-2020-2551, CVE-2026-21962
 - urgency_signals: actively_exploited, critical_cvss, preauth_unauth
-- content_type: news_report, vulnerability_disclosure
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
@@ -1085,18 +1145,13 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added
 Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data  Ravie Lakshmanan  Aug 25, 2026 Vulnerability / Enterprise Security The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to compromise Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in. Successful exploitation of the flaw can lead to unauthorized access to the instances or modification of critical data. "Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion, or modification access to critical data as well as unauthorized access to critical data or complete access to all Oracle HTTP Server and Oracle WebLogic Server Proxy Plug-in accessible data," CISA said . While patches for the flaw were released by Oracle earlier this January, it has since witnessed active exploitation efforts, per multiple private sector reports from GreyNoise, CloudSEK, and SOCRadar. In February 2026, it emerged that a lone IP address ("193.24.123[.]42") was attempting to exploit multiple known vulnerabilities impacting Oracle WebLogic, Ivanti Endpoint Manager Mobile, GNU InetUtils, and GLPI. A month later, CloudSEK reported seeing exploitation efforts aimed at its honeypot network. CVE-2026-21962 is also among several vulnerabilities exploited by a China-linked threat actor in attacks targeting government and commercial infrastructure across more than 100 countries to deliver the SNOWLIGHT downloader. "In addition to CVE-2026-21962, the honeypot captured attacks targeting other persistent, critical WebLogic RCE flaws, including CVE-2020-14882/14883 (Console RCE), CVE-2020-2551 (IIOP RCE), and CVE-2017-10271 (WLS-WSAT RCE)," CloudSEK noted at the time. "This confirms that threat actors continue to rely on a small set of highly-effective, simple-to-exploit vulnerabilities to compromise WebLogic environments." Pursuant to Binding Operational Directive (BOD) 26-04, Federal Civilian Executive Branch (FCEB) agencies have been recommended to apply necessary fixes by August 27, 2026, to safeguard their networks. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Application Security , enterprise security , network security , server security , Vulnerability , Web Security ⚡ Top Stories This Week Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps AI "Mind Viruses" Can Spread Between Agents Through Persistent Prompt Files SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects ⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More Unisoc VoLTE Video Call Exploit Chain Can Give Attacker
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (1)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data
   - Published: 2026-08-25T06:12:35+00:00
   - Link: https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-21962 (CVSS score: 10.0), allows an unauthenticated attacker with network access via HTTP to
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: CISA Warns of Exploited Oracle WebLogic Vulnerability
-  - Published: 2026-08-25T07:46:34+00:00
-  - Link: https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/
-  - Summary: The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers. The post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek .
 
 ### Cluster d5c3fd8d4d — score 20
 
@@ -1347,57 +1402,6 @@ Table of Contents Head unit firmware overview The TWCore app Stage 1: the JarSer
   - Published: 2026-08-24T14:34:59+00:00
   - Link: https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat
   - Summary: The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.
-
-### Cluster b6aa154698 — score 15
-
-- Title: CISA Warns of Exploited Gitea Vulnerability
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-26T05:17:28+00:00
-- Link: https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-60004, Gitea
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, Gitea, WordPress
-- cve_ids: CVE-2026-20896, CVE-2026-60004
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Gitea, Anthropic/Claude, WordPress
-- cve_ids: CVE-2026-60004, CVE-2026-20896
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-CISA is warning organizations that a recently patched Gitea vulnerability allowing remote code execution is being exploited in the wild. Gitea is a widely used open source, self-hosted software development platform that provides Git hosting, code review, team collaboration, and CI/CD capabilities. Tracked as CVE-2026-60004, the exploited vulnerability was patched by Gitea developers in late July with the release of version 1.27.1. CISA added the flaw to its Known Exploited Vulnerabilities (KEV) catalog and instructed federal agencies to patch it by August 28. “Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account,” the cybersecurity agency explained. There do not appear to be any previous reports describing exploitation of CVE-2026-60004. It’s currently unclear who is behind the attacks and what their goal is. Advertisement. Scroll to continue reading. This is not the only Gitea vulnerability exploited in the wild in recent months. In early July, organizations were warned about the exploitation of a different flaw, CVE-2026-20896 . It’s worth noting that CVE-2026-20896 has yet to be added to CISA’s KEV catalog. Related : Gitea Vulnerability Exposed 30,000 Deployments to Attacks Related : WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities Related : CISA Warns of Exploited Oracle WebLogic Vulnerability Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Latest News Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference First Malware Built Specifically for Car Head Units Fuels Botnet Silent Patches Don’t Stop Attackers – They Blind Defenders Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Devi Nair has been appointed Director of Cybersecurity Programs at Aspen Digital. Forcepoint has
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: CISA Warns of Exploited Gitea Vulnerability
-  - Published: 2026-08-26T05:17:28+00:00
-  - Link: https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/
-  - Summary: CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek .
 
 ### Cluster d5c7b7b7bc — score 13
 
@@ -2145,49 +2149,6 @@ CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Info
   - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
   - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
 
-### Cluster 022e3da4a1 — score 10
-
-- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-25T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, ransomware_extortion
-- affected_industries: critical_infrastructure, education, financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, apt_espionage
-- affected_industries: financial_services, government, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
-```
-
-#### Full body
-
-```
-Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-  - Published: 2026-08-25T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
-  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
-
 ### Cluster d5a759a910 — score 10
 
 - Title: UAT-10147 deploys SPECTRE: A cross-platform implant with Linux rootkit and BYOVD capabilities
@@ -2321,6 +2282,49 @@ Describing attacks with crime script analysis By Martin Lee Wednesday, August 19
   - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
   - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
 
+### Cluster 022e3da4a1 — score 10
+
+- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, ransomware_extortion
+- affected_industries: critical_infrastructure, education, financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, apt_espionage
+- affected_industries: financial_services, government, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+```
+
+#### Full body
+
+```
+Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+
 ### Cluster 82fb30db67 — score 10
 
 - Title: Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America
@@ -2402,6 +2406,53 @@ LACMA data breach last year exposed social security and medical data By Bill Tou
   - Published: 2026-08-25T21:58:14+00:00
   - Link: https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
   - Summary: The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]
+
+### Cluster 4e2d4d958a — score 10
+
+- Title: Sensitive Information Exposed in Nutex Health Data Breach
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-26T07:41:50+00:00
+- Link: https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, government, healthcare, manufacturing_industrial
+- affected_products: Anthropic/Claude, Gitea, WordPress
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: healthcare, financial_services, government, manufacturing_industrial
+- affected_products: Anthropic/Claude, Gitea, WordPress
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Houston-based healthcare management and operations company Nutex Health Inc. (NASDAQ: NUTX) has suffered a data breach that could involve sensitive information. Nutex Health is a healthcare services and operations company that operates micro-hospitals, specialty hospitals, and outpatient departments. The company revealed in an SEC filing this week that it recently detected unauthorized access to its network. Hackers accessed and exfiltrated files stored on some servers, including information that may be confidential or private. Nutex is now trying to determine whether information related to patients, employees, providers, business and financial operations, and intellectual property was stolen. “As of the date of this Current Report on Form 8-K, the Company does not believe that the unauthorized access has had, or is reasonably likely to have, a material impact on the Company’s business strategy, operations, financial condition or results of operations,” the company said . No known cybercrime group appears to have taken credit for the attack on Nutex Health, but the company suggested in its disclosure that the attacker may leak the stolen information. Advertisement. Scroll to continue reading. It’s not uncommon for healthcare data breaches to affect hundreds of thousands or even millions of people. Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related : 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Latest News CISA Warns of Exploited Gitea Vulnerability Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference First Malware Built Specifically for Car Head Units Fuels Botnet Silent Patches Don’t Stop Attackers – They Blind Defenders Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Trellix has named David Pieterse as Chief Operating Officer GTM and David Soto as Chief Information Security Officer. Mike Marshall ha
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Sensitive Information Exposed in Nutex Health Data Breach
+  - Published: 2026-08-26T07:41:50+00:00
+  - Link: https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
+  - Summary: Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek .
 
 ### Cluster c4b490fa64 — score 10
 
@@ -2918,47 +2969,6 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Published: 2026-08-21T19:14:28+00:00
   - Link: https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/
   - Summary: The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .
-
-### Cluster bbbe9a2892 — score 8
-
-- Title: Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-25T19:50:16+00:00
-- Link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.
-```
-
-#### Full body
-
-```
-Cyber Risk Cyberattacks & Data Breaches Threat Intelligence Vulnerabilities & Threats News Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption. Elizabeth Montalbano , Contributing Writer August 25, 2026 5 Min Read Source: Koshiro K via Shutterstock A vulnerability in NVIDIA's tool for deploying secure AI agents using OpenClaw could allow a cyberattacker to silently poison a large language model's (LLM's) chat template and corrupt the AI agents that are using it. Researchers from Cyera's Oasis Identity Research discovered the network configuration issue in NVIDIA NemoClaw , and, more specifically, its Ollama API, according to a report published today. The issue can expose the API to browser-based attacks that can allow attackers to persistently poison a model from which an AI agent receives instructions, according to the research. NemoClaw is a tool used to deploy the open source OpenClaw AI agent framework inside NVIDIA OpenShell sandboxes, while Ollama is a popular open source runtime for running LLMs on local hardware. In NemoClaw, the API provides the tool with local model inference through an HTTP API on port 11434. The issue that researchers found is that NemoClaw’s configuration of Ollama introduces a network exposure that can allow an attacker , through a malicious Web page and DNS rebinding , to gain unauthenticated control of the local model server. DNS rebinding is a well-known browser-based technique for reaching local services from remote Web pages. Related: Hidden Prompts Trick AI Into False Email Summaries "In short: a single visit to an attacker-controlled Web page is enough to hand the attacker full, unauthenticated control over the local model server that powers the agent," according to the report. "From there, the attacker can silently plant hidden instructions inside the model itself, which the agent then obeys in every subsequent conversation." Oasis Identity Research responsibly disclosed the flaw to NVIDIA through its Product Security Incident Response Team (PSIRT). NVIDIA did not immediately respond to request for comment from Dark Reading, but a CVE tracking number is currently pending. Oasis confirmed to Dark Reading that the bug is fixed for MacOS and Linux (v0.0.35); but there's no fix for Windows. However, v0.0.34 includes a Windows installation with a warning. Setting Up an NemoClaw Attack & Exploitation The flaw itself and how it's exploited aren't necessarily new — an exposed service, an unauthenticated API, and DNS rebinding are all common networking issues, experts say. However, "pointing it at an unauthenticated local model server is the new part, and it's a good preview of where agentic AI risk actually lives," observes Randolph Barr, chief information security officer (CISO) at API security and bot management provider Cequence Security, via email. Related: Calling on Cyber Pros to Help Defend City Hall The opportunity to exploit begins with how NemoClaw configures Ollama. Because OpenShell runs in a container, NemoClaw starts Ollama on 0.0.0.0:11434 rather than restricting it to 127.0.0.1, making the unauthenticated API reachable beyond the host's loopback interface, according to the researchers. That configuration also disables an Ollama Host-header check designed to prevent browser-based access. An attacker can exploit this issue through DNS rebinding , the researchers demonstrated in their proof of concept. A malicious Web page initially loads from an attacker-controlled domain, which is then made to resolve to the victim's local machine. Because the browser still considers the requests to come from the attacker's domain, the page can interact directly with the local Ollama API without authentication, according to the report. From here, the attacker can then enumerate models, run infer
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw
-  - Published: 2026-08-25T19:50:16+00:00
-  - Link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
-  - Summary: Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.
 
 ### Cluster 89ccf2f4b4 — score 8
 

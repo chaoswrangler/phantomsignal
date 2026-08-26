@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-08-26T06:58:49.359387+00:00",
+  "generated_at": "2026-08-26T07:52:15.457354+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2089,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -18,11 +11,25 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -31,13 +38,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -53,22 +53,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
+      "item_count": 10,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -95,13 +95,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -109,12 +102,19 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -130,19 +130,19 @@
       "item_count": 40,
       "in_window_count": 1
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
-    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 1
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -158,25 +158,18 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -186,11 +179,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -199,6 +192,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -221,19 +221,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -256,13 +256,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
@@ -270,12 +263,12 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 3
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -291,12 +284,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -305,12 +298,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 99,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -326,6 +319,13 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 99,
+      "in_window_count": 2
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -340,20 +340,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -361,12 +347,26 @@
       "item_count": 15,
       "in_window_count": 15
     },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -382,13 +382,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -396,12 +389,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 22
+      "item_count": 100,
+      "in_window_count": 0
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -410,12 +403,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 17
+      "item_count": 50,
+      "in_window_count": 22
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,25 +417,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 17
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Troy Hunt": {
@@ -451,6 +437,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -466,15 +459,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -487,12 +487,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
+      "item_count": 10,
       "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -501,12 +508,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 49
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -514,13 +521,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -707,7 +707,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 13,
+      "article_count": 12,
       "cohesion": 0.229,
       "shared_strong_signals": [
         "Android"
@@ -726,7 +726,6 @@
         "https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/",
         "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
         "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-        "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
         "https://securelist.com/android-head-unit-malware/121106/",
         "https://risky.biz/RBNEWS604/",
         "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
@@ -742,28 +741,22 @@
       "dominant_features": {
         "affected_products": [
           "Apple iOS/macOS"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 5,
-      "cohesion": 0.356,
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.567,
       "shared_strong_signals": [
         "Apple iOS/macOS"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "af5d25c59b",
         "175a6a518c",
         "a42d9f28e9",
         "14a9e16bb3"
       ],
       "links": [
-        "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520",
-        "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
         "https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns",
         "https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/",
         "https://www.huntress.com/blog/defcon-phishing-google-doc-malware"
@@ -839,38 +832,6 @@
       ]
     },
     {
-      "label": "data breach targeting WordPress",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
-      "dominant_features": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "affected_products": [
-          "WordPress"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 7,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "73e2ba5a94",
-        "b6aa154698"
-      ],
-      "links": [
-        "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
-        "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/",
-        "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-        "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
-        "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/"
-      ]
-    },
-    {
       "label": "GitLab exploitation (CVE-2026-19478)",
       "anchor_signal": "GitLab",
       "theme_key": "gitlab",
@@ -903,6 +864,68 @@
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-19478/",
         "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
         "https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/"
+      ]
+    },
+    {
+      "label": "data breach targeting WordPress",
+      "anchor_signal": "WordPress",
+      "theme_key": "wordpress",
+      "dominant_features": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "affected_products": [
+          "WordPress"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 7,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "WordPress"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "73e2ba5a94",
+        "4e2d4d958a"
+      ],
+      "links": [
+        "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
+        "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/",
+        "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+        "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
+        "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/"
+      ]
+    },
+    {
+      "label": "Gitea vulnerability activity",
+      "anchor_signal": "Gitea",
+      "theme_key": "gitea",
+      "dominant_features": {
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Gitea"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Gitea"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "c7b4417ba0",
+        "4e2d4d958a"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+        "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
+        "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/"
       ]
     },
     {
@@ -957,19 +980,19 @@
       },
       "cluster_count": 2,
       "article_count": 2,
-      "cohesion": 0.317,
+      "cohesion": 0.579,
       "shared_strong_signals": [
         "ShinyHunters"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "b6aa154698",
-        "62469ecc9b"
+        "62469ecc9b",
+        "4e2d4d958a"
       ],
       "links": [
-        "https://www.securityweek.com/cisa-warns-of-exploited-gitea-vulnerability/",
-        "https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/"
+        "https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/",
+        "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/"
       ]
     },
     {
@@ -1050,41 +1073,6 @@
     "leading_edge": [],
     "convergence": [
       {
-        "cluster_id": "af5d25c59b",
-        "pair": "CVE-2019-1257 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "af5d25c59b",
-        "pair": "CVE-2019-1257 + Microsoft SharePoint",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "af5d25c59b",
-        "pair": "CVE-2026-55040 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "af5d25c59b",
-        "pair": "CVE-2026-63520 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "af5d25c59b",
-        "pair": "CVE-2026-63520 + Microsoft SharePoint",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "af5d25c59b",
-        "pair": "CVE-2026-65400 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "af5d25c59b",
-        "pair": "CVE-2026-65400 + Microsoft SharePoint",
-        "first_observation": true
-      },
-      {
         "cluster_id": "7f1247614d",
         "pair": "CVE-2026-19490 + Citrix",
         "first_observation": true
@@ -1123,6 +1111,41 @@
         "cluster_id": "83a33105c1",
         "pair": "CVE-2026-72898 + GitLab",
         "first_observation": true
+      },
+      {
+        "cluster_id": "73e2ba5a94",
+        "pair": "CVE-2026-15981 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "73e2ba5a94",
+        "pair": "CVE-2026-32475 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "73e2ba5a94",
+        "pair": "CVE-2026-61979 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "73e2ba5a94",
+        "pair": "CVE-2026-65640 + WordPress",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "af5d25c59b",
+        "pair": "CVE-2019-1257 + Microsoft SharePoint",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "af5d25c59b",
+        "pair": "CVE-2026-63520 + Microsoft SharePoint",
+        "first_observation": true
+      },
+      {
+        "cluster_id": "6117c1d701",
+        "pair": "CVE-2025-66376 + Android",
+        "first_observation": true
       }
     ],
     "drift": [
@@ -1146,14 +1169,11 @@
       },
       {
         "actor": "ShinyHunters",
-        "cluster_id": "b6aa154698",
+        "cluster_id": "62469ecc9b",
         "new_industries": [
-          "manufacturing_industrial"
+          "retail_ecommerce"
         ],
-        "new_products": [
-          "Gitea",
-          "WordPress"
-        ],
+        "new_products": [],
         "prior_top_industries": [
           "education",
           "financial_services",
@@ -1170,7 +1190,7 @@
       {
         "axis": "actor_attribution",
         "value": "ShinyHunters",
-        "cluster_id": "b6aa154698",
+        "cluster_id": "62469ecc9b",
         "weeks_observed": 13
       },
       {
@@ -1178,12 +1198,6 @@
         "value": "APT29",
         "cluster_id": "d5c3fd8d4d",
         "weeks_observed": 5
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-55040",
-        "cluster_id": "af5d25c59b",
-        "weeks_observed": 4
       },
       {
         "axis": "cve_ids",
@@ -1198,16 +1212,16 @@
         "weeks_observed": 4
       },
       {
+        "axis": "cve_ids",
+        "value": "CVE-2026-55040",
+        "cluster_id": "af5d25c59b",
+        "weeks_observed": 4
+      },
+      {
         "axis": "actor_attribution",
         "value": "Lazarus",
         "cluster_id": "9101d8d7ac",
         "weeks_observed": 4
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-65400",
-        "cluster_id": "af5d25c59b",
-        "weeks_observed": 3
       },
       {
         "axis": "cve_ids",
@@ -1223,20 +1237,14 @@
       },
       {
         "axis": "cve_ids",
+        "value": "CVE-2026-60004",
+        "cluster_id": "c7b4417ba0",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
         "value": "CVE-2025-66376",
         "cluster_id": "6117c1d701",
-        "weeks_observed": 3
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-20896",
-        "cluster_id": "b6aa154698",
-        "weeks_observed": 3
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-60004",
-        "cluster_id": "b6aa154698",
         "weeks_observed": 3
       },
       {
@@ -1249,6 +1257,128 @@
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "SecurityWeek",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Sensitive Information Exposed in Nutex Health Data Breach",
+      "link": "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/",
+      "published": "2026-08-26T07:41:50+00:00",
+      "summary": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek .",
+      "author": "Eduard Kovacs",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "healthcare",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "Gitea",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Anthropic/Claude": "target",
+          "Gitea": "target",
+          "WordPress": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10,
+      "full_body": "Houston-based healthcare management and operations company Nutex Health Inc. (NASDAQ: NUTX) has suffered a data breach that could involve sensitive information. Nutex Health is a healthcare services and operations company that operates micro-hospitals, specialty hospitals, and outpatient departments. The company revealed in an SEC filing this week that it recently detected unauthorized access to its network. Hackers accessed and exfiltrated files stored on some servers, including information that may be confidential or private. Nutex is now trying to determine whether information related to patients, employees, providers, business and financial operations, and intellectual property was stolen. “As of the date of this Current Report on Form 8-K, the Company does not believe that the unauthorized access has had, or is reasonably likely to have, a material impact on the Company’s business strategy, operations, financial condition or results of operations,” the company said . No known cybercrime group appears to have taken credit for the attack on Nutex Health, but the company suggested in its disclosure that the attacker may leak the stolen information. Advertisement. Scroll to continue reading. It’s not uncommon for healthcare data breaches to affect hundreds of thousands or even millions of people. Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related : 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Latest News CISA Warns of Exploited Gitea Vulnerability Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference First Malware Built Specifically for Car Head Units Fuels Botnet Silent Patches Don’t Stop Attackers – They Blind Defenders Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Trellix has named David Pieterse as Chief Operating Officer GTM and David Soto as Chief Information Security Officer. Mike Marshall ha",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+      "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+      "published": "2026-08-26T06:27:07+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "cryptojacking",
+          "vulnerability_disclosure",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Gitea"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-60004"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "Gitea": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 23,
+      "full_body": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload  Ravie Lakshmanan  Aug 26, 2026 Vulnerability / Cryptojacking The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the Gitea OS user. \"Gitea's diffpatch endpoint can be abused to install and execute a Git hook from repository-controlled content,\" according to an advisory released by Gitea last month. \"With default open registration, an unauthenticated visitor can obtain the required write access by registering an account and creating a repository.\" Security researcher Shai rod (aka NightRang3r) has been credited with discovering and reporting the issue. The issue affects all versions of Gitea from version 1.17 and has been patched in version 1.27.1. As The Hacker News reported previously, while the vulnerable API call requires authentication and repository write permission, the fact that Gitea allows registration by default makes it possible for an external actor to create an account and a repository and then trigger the exploit without having to rely on pre-existing credentials. \"Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account,\" CISA said. The agency, which added the flaw to its Known Exploited Vulnerabilities (KEV) catalog, did not disclose any details of how the security flaw has been exploited in the wild or who is behind the efforts. However, a full-stack developer named Andrey (aka @Causelof) pointed out in an analysis published last week on the Russian blogging platform Habr that their Gitea instance was targeted by an unknown threat actor using CVE-2026-60004 to deploy a cryptocurrency-miner-like dropper. The incident came to light after receiving an email notification from hosting provider HOSTKEY, stating their virtual server had been using more than 70% of the processor capacity for an extended period of time in violation of the service's terms, causing the provider to temporarily limit the available CPU resources to the VPS. Specifically, the user cited the following configuration as responsible for driving the activity - DISABLE_REGISTRATION = false (If the parameter is enabled, only an admin can create accounts for users) REGISTER_EMAIL_CONFIRM = false (If the parameter is enabled, it asks for registration confirmation via email) ENABLE_OPENID_SIGNUP = true (The parameter allows registering via OpenID) REQUIRE_SIGNIN_VIEW = false (If the parameter is enabled, it forces users to log in to view any page or to use API) \"The fact that open registration is enabled here is significant precisely because of its connection to the vulnerability,\" Andrey noted. \"A new user could register, create their own repository, and obtain the necessary write permissions within it. Gitea's SSH was not exposed to the outside world. The attack vector was via HTTPS.\" Before deploying the miner-like payload, the dropper script is said to have undertaken the following steps - Clear LD_PRELOAD and LD_LIBRARY_PATH Search for processes with high CPU usage Attempt to kill competing processes Fetch the payload based on the system architecture Download, write it to a location on disk, and run it Delete the file after execution The exact nature of the next-stage payload is unknown, as the developer said they did not conduct an analysis of its contents, adding \"I do not have confirmed information regarding the mining pool, wallet, miner family, or specific operator.\" However, the spike in CPU usage lines up with a cryptojacking campaign targeting vul",
+      "fetch_status": "ok"
+    },
+    {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+      "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+      "published": "2026-08-26T05:47:28+00:00",
+      "summary": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode. SOCRadar Threat Research Unit (STRU) said the platform, which it tracks as AnonyMousKIT, is credit-metered and drives lures across",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
     {
       "source": "Help Net Security",
       "cohort": "cyber_news_breach_reporting",
@@ -1290,46 +1420,28 @@
       "author": "Eduard Kovacs",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "active_exploitation"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [
-          "Gitea",
-          "Anthropic/Claude",
-          "WordPress"
+          "Gitea"
         ],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-60004",
-          "CVE-2026-20896"
+          "CVE-2026-60004"
         ],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
+        "urgency_signals": [],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Gitea": "target",
-          "Anthropic/Claude": "target",
-          "WordPress": "target"
+          "Gitea": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 15,
-      "full_body": "CISA is warning organizations that a recently patched Gitea vulnerability allowing remote code execution is being exploited in the wild. Gitea is a widely used open source, self-hosted software development platform that provides Git hosting, code review, team collaboration, and CI/CD capabilities. Tracked as CVE-2026-60004, the exploited vulnerability was patched by Gitea developers in late July with the release of version 1.27.1. CISA added the flaw to its Known Exploited Vulnerabilities (KEV) catalog and instructed federal agencies to patch it by August 28. “Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell commands as the Gitea service account,” the cybersecurity agency explained. There do not appear to be any previous reports describing exploitation of CVE-2026-60004. It’s currently unclear who is behind the attacks and what their goal is. Advertisement. Scroll to continue reading. This is not the only Gitea vulnerability exploited in the wild in recent months. In early July, organizations were warned about the exploitation of a different flaw, CVE-2026-20896 . It’s worth noting that CVE-2026-20896 has yet to be added to CISA’s KEV catalog. Related : Gitea Vulnerability Exposed 30,000 Deployments to Attacks Related : WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities Related : CISA Warns of Exploited Oracle WebLogic Vulnerability Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Latest News Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference First Malware Built Specifically for Car Head Units Fuels Botnet Silent Patches Don’t Stop Attackers – They Blind Defenders Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Devi Nair has been appointed Director of Cybersecurity Programs at Aspen Digital. Forcepoint has ",
-      "fetch_status": "ok"
+      "score": 15
     },
     {
       "source": "Help Net Security",
@@ -1627,22 +1739,12 @@
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Apple iOS/macOS": "mention"
-        },
+        "role_map": {},
         "weak_tags": {
-          "products": [
-            [
-              "Apple iOS/macOS",
-              "mention",
-              0.28
-            ]
-          ]
+          "products": []
         }
       },
-      "score": 8,
-      "full_body": "Cyber Risk Cyberattacks & Data Breaches Threat Intelligence Vulnerabilities & Threats News Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption. Elizabeth Montalbano , Contributing Writer August 25, 2026 5 Min Read Source: Koshiro K via Shutterstock A vulnerability in NVIDIA's tool for deploying secure AI agents using OpenClaw could allow a cyberattacker to silently poison a large language model's (LLM's) chat template and corrupt the AI agents that are using it. Researchers from Cyera's Oasis Identity Research discovered the network configuration issue in NVIDIA NemoClaw , and, more specifically, its Ollama API, according to a report published today. The issue can expose the API to browser-based attacks that can allow attackers to persistently poison a model from which an AI agent receives instructions, according to the research. NemoClaw is a tool used to deploy the open source OpenClaw AI agent framework inside NVIDIA OpenShell sandboxes, while Ollama is a popular open source runtime for running LLMs on local hardware. In NemoClaw, the API provides the tool with local model inference through an HTTP API on port 11434. The issue that researchers found is that NemoClaw’s configuration of Ollama introduces a network exposure that can allow an attacker , through a malicious Web page and DNS rebinding , to gain unauthenticated control of the local model server. DNS rebinding is a well-known browser-based technique for reaching local services from remote Web pages. Related: Hidden Prompts Trick AI Into False Email Summaries \"In short: a single visit to an attacker-controlled Web page is enough to hand the attacker full, unauthenticated control over the local model server that powers the agent,\" according to the report. \"From there, the attacker can silently plant hidden instructions inside the model itself, which the agent then obeys in every subsequent conversation.\" Oasis Identity Research responsibly disclosed the flaw to NVIDIA through its Product Security Incident Response Team (PSIRT). NVIDIA did not immediately respond to request for comment from Dark Reading, but a CVE tracking number is currently pending. Oasis confirmed to Dark Reading that the bug is fixed for MacOS and Linux (v0.0.35); but there's no fix for Windows. However, v0.0.34 includes a Windows installation with a warning. Setting Up an NemoClaw Attack & Exploitation The flaw itself and how it's exploited aren't necessarily new — an exposed service, an unauthenticated API, and DNS rebinding are all common networking issues, experts say. However, \"pointing it at an unauthenticated local model server is the new part, and it's a good preview of where agentic AI risk actually lives,\" observes Randolph Barr, chief information security officer (CISO) at API security and bot management provider Cequence Security, via email. Related: Calling on Cyber Pros to Help Defend City Hall The opportunity to exploit begins with how NemoClaw configures Ollama. Because OpenShell runs in a container, NemoClaw starts Ollama on 0.0.0.0:11434 rather than restricting it to 127.0.0.1, making the unauthenticated API reachable beyond the host's loopback interface, according to the researchers. That configuration also disables an Ollama Host-header check designed to prevent browser-based access. An attacker can exploit this issue through DNS rebinding , the researchers demonstrated in their proof of concept. A malicious Web page initially loads from an attacker-controlled domain, which is then made to resolve to the victim's local machine. Because the browser still considers the requests to come from the attacker's domain, the page can interact directly with the local Ollama API without authentication, according to the report. From here, the attacker can then enumerate models, run infer",
-      "fetch_status": "ok"
+      "score": 7
     },
     {
       "source": "The Record",
@@ -2817,36 +2919,6 @@
         }
       },
       "score": 9
-    },
-    {
-      "source": "SecurityWeek",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
-      "link": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
-      "published": "2026-08-25T07:46:34+00:00",
-      "summary": "The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers. The post CISA Warns of Exploited Oracle WebLogic Vulnerability appeared first on SecurityWeek .",
-      "author": "Eduard Kovacs",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-21962"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 11
     },
     {
       "source": "The Hacker News",
@@ -6549,46 +6621,6 @@
       "score": 4
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
-      "link": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "published": "2026-08-19T11:01:48+00:00",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft SharePoint",
-          "Apple iOS/macOS"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-65400"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Microsoft SharePoint": "target",
-          "Apple iOS/macOS": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 15
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -6665,7 +6697,7 @@
       "published": "2026-08-19T07:26:50+00:00",
       "summary": "When Cameron Curry discovered that his contract as a data analyst wasn't going to be renewed, he could have updated his LinkedIn profile. He could have started sending out his resume. But what the 27-year-old from Charlotte, North Carolina, did instead was turn to extortion. Read more in my article on the Hot for Security blog.",
       "author": "Graham Cluley",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "ransomware_extortion"
@@ -6682,42 +6714,6 @@
         "role_map": {},
         "weak_tags": {
           "products": []
-        }
-      },
-      "score": 5
-    },
-    {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
-      "link": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
-      "published": "2026-08-19T06:01:53+00:00",
-      "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration. The tech giant said it required multiple endpoint and network behaviors to align before",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Apple iOS/macOS": "mention"
-        },
-        "weak_tags": {
-          "products": [
-            [
-              "Apple iOS/macOS",
-              "mention",
-              0.29
-            ]
-          ]
         }
       }
     },
@@ -11816,33 +11812,6 @@
       }
     },
     {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
-      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
-      "published": "2026-08-12T13:00:00+00:00",
-      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that's going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it's helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there's a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ",
-      "author": "Rapid7",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -11865,6 +11834,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Rapid7",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
+      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
+      "published": "2026-08-12T13:00:00+00:00",
+      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that's going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it's helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there's a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ",
+      "author": "Rapid7",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -13567,7 +13563,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
@@ -13597,7 +13593,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
@@ -15766,7 +15762,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
@@ -15799,7 +15795,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
@@ -16244,7 +16240,7 @@
       }
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
@@ -16277,7 +16273,7 @@
       }
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
