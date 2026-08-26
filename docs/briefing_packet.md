@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-26T19:10:01.793598+00:00
+- Generated: 2026-08-26T23:12:48.321373+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 297
-- Total clusters raw: 139
+- Total items in window: 295
+- Total clusters raw: 137
 - Total clusters in packet: 54
-- Dropped low score: 85
+- Dropped low score: 83
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -95,16 +95,6 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -115,41 +105,51 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
   - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -165,11 +165,6 @@
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -180,6 +175,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -187,16 +192,6 @@
   - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -215,6 +210,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -230,36 +230,41 @@
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 4
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 4
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 5
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -270,11 +275,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -285,6 +285,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -295,11 +300,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -310,43 +310,28 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 5
+  - In window count: 5
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 16
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,11 +340,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 18
+  - Item count: 100
+  - In window count: 2
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,16 +370,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -390,18 +380,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,6 +415,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -424,17 +429,7 @@
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 3
-- **Just Security** (policy_strategy_geopolitics)
-  - URL: https://www.justsecurity.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 2
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -465,6 +460,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Just Security** (policy_strategy_geopolitics)
+  - URL: https://www.justsecurity.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Google Project Zero** (offensive_vulnerability_research)
   - URL: https://googleprojectzero.blogspot.com/feeds/posts/default
   - Status: ok
@@ -565,7 +565,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 2
-- Article count: 4
+- Article count: 5
 - Cohesion: 0.2
 - Shared strong signals: WordPress
 - Member CVEs: (none)
@@ -576,6 +576,7 @@
 - Cluster IDs: 73e2ba5a94, 4e2d4d958a
 - Links:
   - https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
+  - https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/
   - https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/
   - https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html
   - https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
@@ -617,29 +618,13 @@
   - https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
   - https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
 
-### Linux kernel vulnerability activity
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Linux kernel
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Linux kernel
-- Cluster IDs: 1b05e6e7b4, d5a759a910
-- Links:
-  - https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/
-  - https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
-
-### CVE-2026-19490 exploitation activity
-- Anchor signal: CVE-2026-19490
-- Theme key: cve-2026-19490
+### CVE-2026-19489 exploitation activity
+- Anchor signal: CVE-2026-19489
+- Theme key: cve-2026-19489
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-19490
+- Shared strong signals: CVE-2026-19489
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -650,13 +635,13 @@
   - https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
   - https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html
 
-### CVE-2026-19489 exploitation activity
-- Anchor signal: CVE-2026-19489
-- Theme key: cve-2026-19489
+### CVE-2026-19490 exploitation activity
+- Anchor signal: CVE-2026-19490
+- Theme key: cve-2026-19490
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.348
-- Shared strong signals: CVE-2026-19489
+- Shared strong signals: CVE-2026-19490
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -683,11 +668,26 @@
   - https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
   - https://unit42.paloaltonetworks.com/communication-channel-identity-risks/
 
+### Linux kernel vulnerability activity
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Linux kernel
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Linux kernel
+- Cluster IDs: 1b05e6e7b4, d5a759a910
+- Links:
+  - https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/
+  - https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 1
-  - CVE-2026-49869 (first seen via Microsoft Security Blog at 2026-08-26T16:43:53+00:00, cluster 16aaa0ee92)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -722,7 +722,7 @@
 - Pair: CVE-2025-66376 + Android (cluster 6117c1d701, first observation: True)
 - Pair: CVE-2025-66376 + Gogs (cluster 6117c1d701, first observation: True)
 
-### Drift (4)
+### Drift (2)
 - **Lazarus** (cluster 9101d8d7ac)
   - New industries: manufacturing_industrial
   - New products: (none)
@@ -733,28 +733,19 @@
   - New products: Gitea, WordPress
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
-- **Nimbus Manticore** (cluster c391165a72)
-  - New industries: critical_infrastructure
-  - New products: Gogs, Microsoft Entra
-  - Prior top industries: aviation_defense, telecommunications
-  - Prior top products: (none)
-- **UNC1549** (cluster c391165a72)
-  - New industries: critical_infrastructure
-  - New products: Gogs, Microsoft Entra
-  - Prior top industries: aviation_defense, telecommunications
-  - Prior top products: (none)
 
-### Persistence (12)
+### Persistence (13)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster 4e2d4d958a)
 - actor_attribution: APT29 (weeks observed: 5, cluster d5c3fd8d4d)
 - actor_attribution: Lazarus (weeks observed: 5, cluster 9101d8d7ac)
 - cve_ids: CVE-2026-55040 (weeks observed: 4, cluster af5d25c59b)
 - cve_ids: CVE-2026-18556 (weeks observed: 4, cluster 83a33105c1)
 - cve_ids: CVE-2026-18577 (weeks observed: 4, cluster 83a33105c1)
+- cve_ids: CVE-2026-42271 (weeks observed: 4, cluster 16aaa0ee92)
 - cve_ids: CVE-2026-20316 (weeks observed: 3, cluster 83a33105c1)
 - cve_ids: CVE-2026-60004 (weeks observed: 3, cluster c7b4417ba0)
 - cve_ids: CVE-2025-66376 (weeks observed: 3, cluster 6117c1d701)
-- cve_ids: CVE-2026-42271 (weeks observed: 3, cluster 16aaa0ee92)
+- cve_ids: CVE-2026-48710 (weeks observed: 3, cluster 16aaa0ee92)
 - cve_ids: CVE-2026-53359 (weeks observed: 3, cluster cc2ee9546e)
 - cve_ids: CVE-2026-19490 (weeks observed: 3, cluster 849426520e)
 
@@ -865,8 +856,8 @@ GitLab CE/EE GraphQL Directive Code Injection Vulnerability CVE-2026-19478 is a 
 - Published: 2026-08-20T18:19:47+00:00
 - Link: https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: CVE-2026-32475, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -897,13 +888,18 @@ Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclo
 Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms module’s file upload processing logic, where the extension validation check and the file-move step run in two separate loops with different handling of empty file entries. By submitting two file parts for a single File Upload field, an unauthenticated attacker can bypass the extension blocklist entirely. The uploaded PHP file is written to the publicly accessible directory wp-content/uploads/elementor/forms/<uniqid>.php , granting the attacker arbitrary code execution on the server. No authentication is required to exploit this issue. Affected Systems The following component is affected: Elementor Pro Forms module, versions up to and including 4.2.1. Elementor Pro is a widely used commercial WordPress page builder plugin deployed across millions of websites. Any WordPress site running an affected version that has at least one published page containing a Form widget with a File Upload field is vulnerable. The File Upload field’s “Required” toggle is off by default, so no unusual configuration is needed for exploitation. Related: WordPress core CVE-2026-65640 (CVSS 8.8, fixed in 7.0.4) allows an Author-level user or higher to achieve remote code execution via a malicious PostScript upload. It affects WordPress core versions 4.7 through 7.0, but exploitation requires both Imagick and Ghostscript to be in use on the server, as the underlying flaw is in Ghostscript’s handling of embedded files. Site owners should address both issues. Risk Impact Successful exploitation could allow attackers to execute arbitrary PHP code on the web server, install persistent webshells and exfiltrate sensitive data, and potentially pivot laterally across the hosting environment, leading to service disruption, data exposure, or full infrastructure compromise. At the time of writing, no public proof-of-concept exploit has been released, and no active exploitation campaigns have been publicly confirmed. Regardless, the severity and ease of exploitation make this vulnerability high risk, especially in internet-facing deployments. Remediation Users should upgrade Elementor Pro to version 4.2.2 or later, which was released on August 19, 2026. Additionally, administrators should audit the wp-content/uploads/elementor/forms/ directory for unexpected PHP files, review all Elementor forms exposing File Upload fields to assess whether they are necessary, and update WordPress core to version 7.0.4. As an interim mitigation, WAF rules blocking PHP file uploads through form endpoints can reduce exposure. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable versions of Elementor Pro, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning can detect WordPress installations and their plugin versions across cloud workloads, allowing security teams to pinpoint cloud-hosted WordPress instances running Elementor Pro 4.2.1 or earlier. Orca’s platform highlights affected assets, helping security teams focus on the most critical remediation paths first. From the News Item in the Orca Platform Related articles Cloud Security Learning Agentic Workflows: A Complete Guide for 2026 Aug 19, 2026 Cloud Security Learning Autonomous SOC: AI-Driven Security Operations Explained Aug 19, 2026 SOC Automation: AI-Driven Tools and Best Practices Aug 14, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites
   - Published: 2026-08-20T18:19:47+00:00
   - Link: https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/
   - Summary: Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Critical Avada WordPress theme flaw enables zero-click RCE
+  - Published: 2026-08-26T21:33:20+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/
+  - Summary: A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities
   - Published: 2026-08-25T13:33:12+00:00
@@ -1495,16 +1491,16 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
   - Published: 2026-08-20T17:44:36+00:00
   - Link: https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html
   - Summary: OpenAI presented details of its AI’s model’s cyberattack on Hugging Face at Black Hat last week. Simon Willison details the timeline. It’s really interesting to read through—and really impressive cyberoffense work.
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: OpenAI: Agent behavior that led to Hugging Face intrusion formed in May
-  - Published: 2026-08-26T19:00:00+00:00
-  - Link: https://cyberscoop.com/openai-hugging-face-agent-breach-report/
-  - Summary: The company says the breach stemmed from a systemic failure of alignment and security, and has taken measures to prevent agents from independently orchestrating complex cyberattacks. The post OpenAI: Agent behavior that led to Hugging Face intrusion formed in May appeared first on CyberScoop .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: ChatGPT search now uses the site:operator at scale
   - Published: 2026-08-20T23:57:32+00:00
   - Link: https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
   - Summary: ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging "GEO" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: OpenAI: Agent behavior that led to Hugging Face intrusion formed in May
+  - Published: 2026-08-26T19:00:00+00:00
+  - Link: https://cyberscoop.com/openai-hugging-face-agent-breach-report/
+  - Summary: The company says the breach stemmed from a systemic failure of alignment and security, and has taken measures to prevent agents from independently orchestrating complex cyberattacks. The post OpenAI: Agent behavior that led to Hugging Face intrusion formed in May appeared first on CyberScoop .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: New CUSTODY Framework Constrains AI Agents Inside the Network
   - Published: 2026-08-20T20:42:18+00:00
@@ -1556,7 +1552,7 @@ Share Link copied to clipboard! Tags Malware Content types Research Products and
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/
   - Summary: Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity. The post When AI infrastructure becomes the target: Securing gateways and control points appeared first on Microsoft Security Blog .
 
-### Cluster 1b05e6e7b4 — score 12
+### Cluster 1b05e6e7b4 — score 11
 
 - Title: Exploits and vulnerabilities in Q2 2026
 - Source: Kaspersky Securelist (threat_research_primary)
@@ -1603,7 +1599,7 @@ Table of Contents Statistics on registered vulnerabilities Exploitation statisti
   - Link: https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/
   - Summary: This report covers statistics on vulnerabilities, exploits, and C2 frameworks in Q2 2026. For the first time ever, we aggregate data on vulnerabilities in open-source AI agents and AI frameworks.
 
-### Cluster c9b0752ae1 — score 12
+### Cluster c9b0752ae1 — score 11
 
 - Title: Choose your fighter: Balancing competing requirements to select models for your AI SOC
 - Source: Cisco Talos (threat_research_primary)
@@ -1642,7 +1638,7 @@ Choose your fighter: Balancing competing requirements to select models for your 
   - Link: https://blog.talosintelligence.com/choose-your-fighter-balancing-competing-requirements-to-select-models-for-your-ai-soc/
   - Summary: Selecting a model for your security operations center (SOC) and digital forensics and incident response (DFIR) tasks is important, but selecting the best one is more involved than you might think. Here's how to choose.
 
-### Cluster cc2ee9546e — score 12
+### Cluster cc2ee9546e — score 11
 
 - Title: VMs won't contain cyber-capable agents
 - Source: Trail of Bits (offensive_vulnerability_research)
@@ -1998,6 +1994,49 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/
   - Summary: Research by: Jiří Vinopal (@vinopaljiri) Abstract What if a trusted security component could be repurposed into an attacker-controlled kernel primitive? What if a signed Microsoft remediation driver could be instructed to execute arbitrary file and registry operations from Ring 0 – without exploits, vulnerabilities, or memory corruption? In this publication, we present the first full […] The post BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive appeared first on Check Point Research .
 
+### Cluster 022e3da4a1 — score 10
+
+- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, ransomware_extortion
+- affected_industries: critical_infrastructure, education, financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, apt_espionage
+- affected_industries: financial_services, government, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+```
+
+#### Full body
+
+```
+Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+
 ### Cluster d95ca75496 — score 10
 
 - Title: Operationalize CTEM with NodeZero®
@@ -2077,49 +2116,6 @@ How a Manufacturer Turned Password Risk Into Measurable Security Action Horizon3
   - Published: 2026-08-21T15:48:28+00:00
   - Link: https://horizon3.ai/customer-story/how-a-manufacturer-turned-password-risk-into-measurable-security-action/
   - Summary: See how a North American manufacturer used NodeZero to connect password weaknesses to real attack paths and turn security findings into measurable remediation.
-
-### Cluster 022e3da4a1 — score 10
-
-- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-25T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, ransomware_extortion
-- affected_industries: critical_infrastructure, education, financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, apt_espionage
-- affected_industries: financial_services, government, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
-```
-
-#### Full body
-
-```
-Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-  - Published: 2026-08-25T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
-  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
 
 ### Cluster 5e50b723ed — score 10
 
@@ -2253,98 +2249,6 @@ UAT-10147: Chinese-speaking adversary integrates agentic AI into post-compromise
   - Published: 2026-08-20T10:00:32+00:00
   - Link: https://blog.talosintelligence.com/uat-10147-chinese-speaking-adversary-integrates-agentic-ai-into-post-compromise-operations/
   - Summary: Cisco Talos discovered a Chinese-speaking cybercrime group, tracked as UAT-10147, that targets a wide range of vulnerable web servers. This is an overview of the campaign, examining the countries affected, potential impact of BadIIS infections, the attack chain, and post-compromise tactics.
-
-### Cluster 4e2d4d958a — score 10
-
-- Title: Sensitive Information Exposed in Nutex Health Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-26T07:41:50+00:00
-- Link: https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, healthcare, manufacturing_industrial
-- affected_products: Gitea, WordPress
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services, government, manufacturing_industrial
-- affected_products: Gitea, WordPress
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Houston-based healthcare management and operations company Nutex Health Inc. (NASDAQ: NUTX) has suffered a data breach that could involve sensitive information. Nutex Health is a healthcare services and operations company that operates micro-hospitals, specialty hospitals, and outpatient departments. The company revealed in an SEC filing this week that it recently detected unauthorized access to its network. Hackers accessed and exfiltrated files stored on some servers, including information that may be confidential or private. Nutex is now trying to determine whether information related to patients, employees, providers, business and financial operations, and intellectual property was stolen. “As of the date of this Current Report on Form 8-K, the Company does not believe that the unauthorized access has had, or is reasonably likely to have, a material impact on the Company’s business strategy, operations, financial condition or results of operations,” the company said . No known cybercrime group appears to have taken credit for the attack on Nutex Health, but the company suggested in its disclosure that the attacker may leak the stolen information. Advertisement. Scroll to continue reading. It’s not uncommon for healthcare data breaches to affect hundreds of thousands or even millions of people. Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related : 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update First Malware Built Specifically for Car Head Units Fuels Botnet CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Latest News AI Speeds Up Malware Development, Not Its Success Rate: Analysis Adobe and Nvidia Patch Dozens of Vulnerabilities CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks The MFA Identity Trap: When Authentication Creates a False Sense of Security Chrome 152 Patches Over 300 Vulnerabilities CISA Warns of Exploited Gitea Vulnerability Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Trellix has named David Pieterse as Chief Operating Officer GTM and David Soto as Chief Information Security Officer. Mike Marshall has been appointed State Chief Information Security O
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Sensitive Information Exposed in Nutex Health Data Breach
-  - Published: 2026-08-26T07:41:50+00:00
-  - Link: https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
-  - Summary: Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek .
-
-### Cluster 62469ecc9b — score 10
-
-- Title: A Cautionary Tale About Data Breach Claims, Verification and Carhartt
-- Source: Troy Hunt (practitioner_analysis)
-- Published: 2026-08-25T21:51:08+00:00
-- Link: https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber
-```
-
-#### Full body
-
-```
-You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber Alert ‼️ 🇺🇸US - 𝗖𝗮𝗿𝗵𝗮𝗿𝘁𝘁 ShinyHunters hacking group claims to have compromised Carhartt and allegedly stolen more than 50 GB of compressed data containing millions of customer records, employee information, customer metadata, loyalty-related information, and… pic.twitter.com/BvzsEQS54l — Hackmanac (@H4ckmanac) August 13, 2026 My usual Have I Been Pwned (HIBP) workflow after a breach emerges is to run our open source Email Address Extractor tool over the corpus of data, get a count of the unique addresses then drop it into the processing pipeline. Having a count helps prioritise: it's roughly the same effort to process a breach with 10M addresses in it as it is 100k addresses, but we obviously reach 100x more people with the larger corpus so that goes first. So, following the release of the Carhartt data above, I ran the tool and got 24,876,077 addresses. That's a biggy, let's dive in. One of the first things I do when analysing a breach is look for news and industry commentary. Once you get through all the results for class actions ( ugh ), you usually find various other services and news sites reporting on the incident. One such example (which I won't name, because they're wrong) cited a very similar number to my initial pass, which at face value, reinforced my thinking. But here's where it all takes a turn because, inevitably, this is where the other analysts stopped... I've been using OpenClaw pretty extensively this year to help with a number of tasks, including breach analysis. Here's how I normally begin (timestamps are AEST and yes, I called it "PwnedClaw"): [24/08/2026 17:30] Troy Hunt: Let's look at the ShinyHunters Carhartt breach. I'm seeing nearly 25M unique email addresses so it's very large, tell me about what they do. [24/08/2026 17:30] PwnedClaw: Carhartt is an American workwear brand founded in 1889, headquartered in Dearborn, Michigan. They make rugged, durable clothing primarily for tradespeople and outdoor workers: heavy-duty jackets, bibs, coveralls, work pants, boots, and accessories. Think construction workers, farmers, hunters. They've also crossed over into streetwear/fashion in recent years (particularly through Carhartt WIP, their Work In Progress line), which massively expanded their demographic beyond blue-collar workers into urban fashion, skateboarding, and hip-hop culture. That crossover likely explains a 25M email count — they're not just selling to contractors anymore, they're a mainstream lifestyle brand. Strong US base but significant global presence, especially in Europe where WIP is huge. For HIBP context: broad demographic mix (blue-collar workers + fashion/streetwear), real names, physical addresses, and purchase history are likely present given it's a retail breach. Want me to pull the tracker entry for current status? Ok, cool, nothing too revolutionary there. Let's start analysing the data, and the first thing I do is begin with the report of our open source Email Address Extractor tool, which lists every file an address was found in, and then how many unique ones are in there: [24/08/2026 17:32] Troy Hunt: Let's start looking at data, and we'll begin with the email extractor report at "\scratch\Carhartt\Carhartt.txt.report.txt" [24/08/2026 17:32] PwnedClaw: Interesting. The data is from Databricks (their analytics/data lakehouse platform) and follows the TPC-DS benchmark schema (tpcds_sf1000) — that's a standard retail analytics benchmark format. The "sf1000" means scale factor 1000, which is massive. Key observations: • All emails are in customer_chunk_XXXX.csv files, numbered 0000-0599+, so ~600 chunks • Each chunk has ~19,300 unique emails, remarkably uniform distribution • ~600 chunks × ~19,300 = ~11.6M from this directory alone — but you said ~25M total, so t
-```
-
-#### Corroborating sources (1)
-
-- **Troy Hunt** (practitioner_analysis)
-  - Title: A Cautionary Tale About Data Breach Claims, Verification and Carhartt
-  - Published: 2026-08-25T21:51:08+00:00
-  - Link: https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
-  - Summary: You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber
 
 ### Cluster c391165a72 — score 10
 
@@ -2588,12 +2492,12 @@ Wiz Pricing Get a demo Get a demo Today, Wiz Research is releasing The State of 
   - Link: https://www.wiz.io/blog/cloud-risk-report-2026
   - Summary: Wiz Research telemetry reveals why the majority of high-severity findings lack a path to compromise
 
-### Cluster 69a513e4b7 — score 9
+### Cluster 4e2d4d958a — score 9
 
-- Title: LACMA data breach last year exposed social security and medical data
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-25T21:58:14+00:00
-- Link: https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
+- Title: Sensitive Information Exposed in Nutex Health Data Breach
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-26T07:41:50+00:00
+- Link: https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
@@ -2601,78 +2505,39 @@ Wiz Pricing Get a demo Get a demo Today, Wiz Research is releasing The State of 
 
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach
-- affected_industries: financial_services, government, healthcare
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, government, healthcare, manufacturing_industrial
+- affected_products: Gitea, WordPress
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: data_breach
-- affected_industries: healthcare, financial_services, government
+- actor_attribution: ShinyHunters
+- affected_industries: healthcare, financial_services, government, manufacturing_industrial
+- affected_products: Gitea, WordPress
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]
+Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-LACMA data breach last year exposed social security and medical data By Bill Toulas August 25, 2026 05:58 PM 0 The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. The museum says that on July 11, 2025, it detected suspicious activity on its systems that had started four days earlier. A month later, the investigation confirmed that the network was compromised. At the time, the type of exposed data could not be determined, and the first results of the investigation became available in late February 2026. More than a year after the discovery of the data breach incident, the museum identified that the following information may have been accessed by the attacker: Full name Date of birth Social Security number Driver’s license or government-issued identification number Partial financial account numbers Partial payment card information Health insurance information Medical information such as provider name, medical treatment, diagnosis, treatment dates, or treatment locations LACMA says it has notified law enforcement authorities about the incident and sent personalized data breach notifications to impacted individuals. Recipients are recommended to monitor their bank accounts for suspicious activity, consider placing a security freeze or fraud alert on their credit file, and report identity theft attempts to their financial institutions and law enforcement. The letters include information on enrolling in a one-year identity theft and fraud protection service through Financial Shield, with an enrollment deadline of November 22. A dedicated phone line has also been set up to provide support and answer questions for impacted individuals. LACMA is one of the largest art museums in the western United States, housing around 155,000 works spanning 6,000 years of art history. The museum has historically attracted over one million visitors annually. BleepingComputer has contacted LACMA with questions about the number of impacted individuals, as well as the nature of the attack, but we have not heard back as of publication. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: OnTrac notifies customers of data breach after network hack Ernst & Young discloses data breach after support system hack Sakura Internet hack exposes data of up to 1.36 million accounts Healthtech firm CareCloud data breach impacts 3.7 million patients SafePal data breach impacts 39,798 customers, stolen info for sale
+Houston-based healthcare management and operations company Nutex Health Inc. (NASDAQ: NUTX) has suffered a data breach that could involve sensitive information. Nutex Health is a healthcare services and operations company that operates micro-hospitals, specialty hospitals, and outpatient departments. The company revealed in an SEC filing this week that it recently detected unauthorized access to its network. Hackers accessed and exfiltrated files stored on some servers, including information that may be confidential or private. Nutex is now trying to determine whether information related to patients, employees, providers, business and financial operations, and intellectual property was stolen. “As of the date of this Current Report on Form 8-K, the Company does not believe that the unauthorized access has had, or is reasonably likely to have, a material impact on the Company’s business strategy, operations, financial condition or results of operations,” the company said . No known cybercrime group appears to have taken credit for the attack on Nutex Health, but the company suggested in its disclosure that the attacker may leak the stolen information. Advertisement. Scroll to continue reading. It’s not uncommon for healthcare data breaches to affect hundreds of thousands or even millions of people. Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related : 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update First Malware Built Specifically for Car Head Units Fuels Botnet CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Latest News AI Speeds Up Malware Development, Not Its Success Rate: Analysis Adobe and Nvidia Patch Dozens of Vulnerabilities CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks The MFA Identity Trap: When Authentication Creates a False Sense of Security Chrome 152 Patches Over 300 Vulnerabilities CISA Warns of Exploited Gitea Vulnerability Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Trellix has named David Pieterse as Chief Operating Officer GTM and David Soto as Chief Information Security Officer. Mike Marshall has been appointed State Chief Information Security O
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: LACMA data breach last year exposed social security and medical data
-  - Published: 2026-08-25T21:58:14+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
-  - Summary: The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]
-
-### Cluster c4b490fa64 — score 9
-
-- Title: The GTA VI leaks are breaking the internet. Security researchers have seen this before.
-- Source: CyberScoop (cyber_news_breach_reporting)
-- Published: 2026-08-25T20:51:39+00:00
-- Link: https://cyberscoop.com/grand-theft-auto-6-data-theft-extortion-leaks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: critical_infrastructure, financial_services, government, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services, government, critical_infrastructure, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A memecoin, a manifesto, and a week of daily leaks — but to researchers, it's a familiar extortion playbook with an unusually large audience. The post The GTA VI leaks are breaking the internet. Security researchers have seen this before. appeared first on CyberScoop .
-```
-
-#### Full body
-
-```
-Advertisement Get our latest cybersecurity news first on Google. Click here! Close Grand Theft Auto VI, widely heralded as the game event of the decade, took a significant hit last week after a cybercriminal sent much of the internet into pandemonium after publishing gameplay footage a week before the game’s publisher planned to reveal core portions of the game to the public. The files posted by the online persona “CyberLeek” indicate either a hacker had direct access to Rockstar Games’ most sensitive systems or was given proprietary data by an insider, eventually becoming one of the highest-profile data extortion attacks of the year — a vexing, almost-daily occurrence hitting industries of all types. While most data extortion attacks rattle companies due to regulatory or privacy concerns, this particular incident has caused an outsized response from Rockstar’s parent company, Take-Two Interactive Software, because it has an audience. While no lives are at risk, as they would be in an attack on critical infrastructure, the financial and reputational stakes are magnified precisely because people are watching every drip of stolen footage become a news story or a trending topic. “IP theft — whether it’s conducted by a cybercriminal, an insider, or even potentially [an artificial intelligence] model — rips away the hard work, passion, and livelihood among employees and companies that created the product in the first place,” Cynthia Kaiser, senior vice president of Halycon’s ransomware research center, told CyberScoop. The game’s prior release, GTA V, along with its online component, has sold over 230 million copies and earned Take-Two over $11 billion since its release in 2013. Industry analysts say GTA VI is on pace to make between $3.3 billion to $5.2 billion in cumulative global sales by the end of its launch week in November. Advertisement “The crown jewels of a company are whatever makes it differentiated and special,” said Kaiser, the former deputy assistant director of the FBI’s cyber division. “For some, that means customer data or source. For a studio in the final stretch before launch, the crown jewel is the surprise.” While Take-Two hasn’t said anything publicly about the leaks, it has responded feverishly via its legal team. The company petitioned a federal court for subpoenas under the Digital Millennium Copyright Act against Discord, Google, Microsoft and X, seeking the identity of CyberLeeks and other user accounts it accuses of copyright infringement. Federal judges granted the subpoenas against Discord, Microsoft and X, but the petition against Google remained unapproved as of Monday. Take-Two’s legal representatives also sent copyright notices to the four companies, informing them of the copyrighted material published on their platforms, but it’s unclear if any of the tech companies have been formally served with the signed subpoenas. Take-Two and Rockstar did not respond to a request for comment. The subpoenas may have been enough to spook those responsible for the leaked footage. As of Monday, the websites where those behind CyberLeek were posting leaked information and links to a memecoin were offline. Zach Edwards, staff threat researcher at Infoblox and a self-proclaimed fan of the series, initially thought the leaks were part of a Rockstar guerrilla marketing campaign. But the company’s response “confirms that this is a real investigation, and the content being shared is likely real to some degree,” he said. Advertisement Take-Two’s actions thus far indicate the company is approaching the breach and leaks like an insider threat investigation, Edwards said. Whoever leaked the footage may have had access to an actual build of the game, he added. That could point to an insider, someone who could have saved a copy to a cloud service, uploaded it to a file-hosting site, or walked out with it on an external drive. CyberLeek’s conflicting motivations The hacker or group behind CyberLeek claim they are releasing th
-```
-
-#### Corroborating sources (1)
-
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: The GTA VI leaks are breaking the internet. Security researchers have seen this before.
-  - Published: 2026-08-25T20:51:39+00:00
-  - Link: https://cyberscoop.com/grand-theft-auto-6-data-theft-extortion-leaks/
-  - Summary: A memecoin, a manifesto, and a week of daily leaks — but to researchers, it's a familiar extortion playbook with an unusually large audience. The post The GTA VI leaks are breaking the internet. Security researchers have seen this before. appeared first on CyberScoop .
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Sensitive Information Exposed in Nutex Health Data Breach
+  - Published: 2026-08-26T07:41:50+00:00
+  - Link: https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/
+  - Summary: Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek .
 
 ### Cluster ae6b5ab273 — score 9
 
@@ -2759,6 +2624,51 @@ Anamarija Pogorelec , Senior Staff Writer, Help Net Security August 26, 2026 Sha
   - Published: 2026-08-26T05:00:52+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/26/ai-vulnerability-discovery-emerging-risks/
   - Summary: Risk managers, auditors and senior executives at 316 companies spent April and May ranking 20 threats they have not yet felt. AI discovery of cyber vulnerabilities came back first, according to Gartner. Three months earlier the same quarterly survey put information integrity risk at the top and left AI vulnerability discovery out of the top five. The exploit step stopped being hard Two things changed underneath that number. AI systems scan for previously unknown flaws … More → The post AI vulnerability discovery scores the highest impact of 20 emerging risks appeared first on Help Net Security .
+
+### Cluster 62469ecc9b — score 9
+
+- Title: A Cautionary Tale About Data Breach Claims, Verification and Carhartt
+- Source: Troy Hunt (practitioner_analysis)
+- Published: 2026-08-25T21:51:08+00:00
+- Link: https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: retail_ecommerce
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: retail_ecommerce
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber
+```
+
+#### Full body
+
+```
+You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber Alert ‼️ 🇺🇸US - 𝗖𝗮𝗿𝗵𝗮𝗿𝘁𝘁 ShinyHunters hacking group claims to have compromised Carhartt and allegedly stolen more than 50 GB of compressed data containing millions of customer records, employee information, customer metadata, loyalty-related information, and… pic.twitter.com/BvzsEQS54l — Hackmanac (@H4ckmanac) August 13, 2026 My usual Have I Been Pwned (HIBP) workflow after a breach emerges is to run our open source Email Address Extractor tool over the corpus of data, get a count of the unique addresses then drop it into the processing pipeline. Having a count helps prioritise: it's roughly the same effort to process a breach with 10M addresses in it as it is 100k addresses, but we obviously reach 100x more people with the larger corpus so that goes first. So, following the release of the Carhartt data above, I ran the tool and got 24,876,077 addresses. That's a biggy, let's dive in. One of the first things I do when analysing a breach is look for news and industry commentary. Once you get through all the results for class actions ( ugh ), you usually find various other services and news sites reporting on the incident. One such example (which I won't name, because they're wrong) cited a very similar number to my initial pass, which at face value, reinforced my thinking. But here's where it all takes a turn because, inevitably, this is where the other analysts stopped... I've been using OpenClaw pretty extensively this year to help with a number of tasks, including breach analysis. Here's how I normally begin (timestamps are AEST and yes, I called it "PwnedClaw"): [24/08/2026 17:30] Troy Hunt: Let's look at the ShinyHunters Carhartt breach. I'm seeing nearly 25M unique email addresses so it's very large, tell me about what they do. [24/08/2026 17:30] PwnedClaw: Carhartt is an American workwear brand founded in 1889, headquartered in Dearborn, Michigan. They make rugged, durable clothing primarily for tradespeople and outdoor workers: heavy-duty jackets, bibs, coveralls, work pants, boots, and accessories. Think construction workers, farmers, hunters. They've also crossed over into streetwear/fashion in recent years (particularly through Carhartt WIP, their Work In Progress line), which massively expanded their demographic beyond blue-collar workers into urban fashion, skateboarding, and hip-hop culture. That crossover likely explains a 25M email count — they're not just selling to contractors anymore, they're a mainstream lifestyle brand. Strong US base but significant global presence, especially in Europe where WIP is huge. For HIBP context: broad demographic mix (blue-collar workers + fashion/streetwear), real names, physical addresses, and purchase history are likely present given it's a retail breach. Want me to pull the tracker entry for current status? Ok, cool, nothing too revolutionary there. Let's start analysing the data, and the first thing I do is begin with the report of our open source Email Address Extractor tool, which lists every file an address was found in, and then how many unique ones are in there: [24/08/2026 17:32] Troy Hunt: Let's start looking at data, and we'll begin with the email extractor report at "\scratch\Carhartt\Carhartt.txt.report.txt" [24/08/2026 17:32] PwnedClaw: Interesting. The data is from Databricks (their analytics/data lakehouse platform) and follows the TPC-DS benchmark schema (tpcds_sf1000) — that's a standard retail analytics benchmark format. The "sf1000" means scale factor 1000, which is massive. Key observations: • All emails are in customer_chunk_XXXX.csv files, numbered 0000-0599+, so ~600 chunks • Each chunk has ~19,300 unique emails, remarkably uniform distribution • ~600 chunks × ~19,300 = ~11.6M from this directory alone — but you said ~25M total, so t
+```
+
+#### Corroborating sources (1)
+
+- **Troy Hunt** (practitioner_analysis)
+  - Title: A Cautionary Tale About Data Breach Claims, Verification and Carhartt
+  - Published: 2026-08-25T21:51:08+00:00
+  - Link: https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
+  - Summary: You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber
 
 ### Cluster 6857c33e30 — score 8
 
@@ -2934,6 +2844,49 @@ Home Blog RMM Abuse Is Up 277%: Why Attackers Love Your Remote Access Tools Publ
   - Link: https://www.huntress.com/blog/rmm-abuse-trusted-tools-untrusted-hands
   - Summary: RMM abuse jumped 277% & now shows up nearly 40% of Huntress investigations. See how attackers exploit trusted remote access tools, and how to stop it.
 
+### Cluster 69a513e4b7 — score 8
+
+- Title: LACMA data breach last year exposed social security and medical data
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-25T21:58:14+00:00
+- Link: https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services, government, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: healthcare, financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]
+```
+
+#### Full body
+
+```
+LACMA data breach last year exposed social security and medical data By Bill Toulas August 25, 2026 05:58 PM 0 The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. The museum says that on July 11, 2025, it detected suspicious activity on its systems that had started four days earlier. A month later, the investigation confirmed that the network was compromised. At the time, the type of exposed data could not be determined, and the first results of the investigation became available in late February 2026. More than a year after the discovery of the data breach incident, the museum identified that the following information may have been accessed by the attacker: Full name Date of birth Social Security number Driver’s license or government-issued identification number Partial financial account numbers Partial payment card information Health insurance information Medical information such as provider name, medical treatment, diagnosis, treatment dates, or treatment locations LACMA says it has notified law enforcement authorities about the incident and sent personalized data breach notifications to impacted individuals. Recipients are recommended to monitor their bank accounts for suspicious activity, consider placing a security freeze or fraud alert on their credit file, and report identity theft attempts to their financial institutions and law enforcement. The letters include information on enrolling in a one-year identity theft and fraud protection service through Financial Shield, with an enrollment deadline of November 22. A dedicated phone line has also been set up to provide support and answer questions for impacted individuals. LACMA is one of the largest art museums in the western United States, housing around 155,000 works spanning 6,000 years of art history. The museum has historically attracted over one million visitors annually. BleepingComputer has contacted LACMA with questions about the number of impacted individuals, as well as the nature of the attack, but we have not heard back as of publication. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: OnTrac notifies customers of data breach after network hack Ernst & Young discloses data breach after support system hack Sakura Internet hack exposes data of up to 1.36 million accounts Healthtech firm CareCloud data breach impacts 3.7 million patients SafePal data breach impacts 39,798 customers, stolen info for sale
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: LACMA data breach last year exposed social security and medical data
+  - Published: 2026-08-25T21:58:14+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/lacma-data-breach-last-year-exposed-social-security-and-medical-data/
+  - Summary: The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. [...]
+
 ### Cluster 6fe333b73a — score 8
 
 - Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
@@ -2972,6 +2925,49 @@ Blog Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% a
   - Published: 2026-08-25T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents
   - Summary: Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
+
+### Cluster c4b490fa64 — score 8
+
+- Title: The GTA VI leaks are breaking the internet. Security researchers have seen this before.
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-08-25T20:51:39+00:00
+- Link: https://cyberscoop.com/grand-theft-auto-6-data-theft-extortion-leaks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: critical_infrastructure, financial_services, government, legal_professional
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services, government, critical_infrastructure, legal_professional
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A memecoin, a manifesto, and a week of daily leaks — but to researchers, it's a familiar extortion playbook with an unusually large audience. The post The GTA VI leaks are breaking the internet. Security researchers have seen this before. appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close Grand Theft Auto VI, widely heralded as the game event of the decade, took a significant hit last week after a cybercriminal sent much of the internet into pandemonium after publishing gameplay footage a week before the game’s publisher planned to reveal core portions of the game to the public. The files posted by the online persona “CyberLeek” indicate either a hacker had direct access to Rockstar Games’ most sensitive systems or was given proprietary data by an insider, eventually becoming one of the highest-profile data extortion attacks of the year — a vexing, almost-daily occurrence hitting industries of all types. While most data extortion attacks rattle companies due to regulatory or privacy concerns, this particular incident has caused an outsized response from Rockstar’s parent company, Take-Two Interactive Software, because it has an audience. While no lives are at risk, as they would be in an attack on critical infrastructure, the financial and reputational stakes are magnified precisely because people are watching every drip of stolen footage become a news story or a trending topic. “IP theft — whether it’s conducted by a cybercriminal, an insider, or even potentially [an artificial intelligence] model — rips away the hard work, passion, and livelihood among employees and companies that created the product in the first place,” Cynthia Kaiser, senior vice president of Halycon’s ransomware research center, told CyberScoop. The game’s prior release, GTA V, along with its online component, has sold over 230 million copies and earned Take-Two over $11 billion since its release in 2013. Industry analysts say GTA VI is on pace to make between $3.3 billion to $5.2 billion in cumulative global sales by the end of its launch week in November. Advertisement “The crown jewels of a company are whatever makes it differentiated and special,” said Kaiser, the former deputy assistant director of the FBI’s cyber division. “For some, that means customer data or source. For a studio in the final stretch before launch, the crown jewel is the surprise.” While Take-Two hasn’t said anything publicly about the leaks, it has responded feverishly via its legal team. The company petitioned a federal court for subpoenas under the Digital Millennium Copyright Act against Discord, Google, Microsoft and X, seeking the identity of CyberLeeks and other user accounts it accuses of copyright infringement. Federal judges granted the subpoenas against Discord, Microsoft and X, but the petition against Google remained unapproved as of Monday. Take-Two’s legal representatives also sent copyright notices to the four companies, informing them of the copyrighted material published on their platforms, but it’s unclear if any of the tech companies have been formally served with the signed subpoenas. Take-Two and Rockstar did not respond to a request for comment. The subpoenas may have been enough to spook those responsible for the leaked footage. As of Monday, the websites where those behind CyberLeek were posting leaked information and links to a memecoin were offline. Zach Edwards, staff threat researcher at Infoblox and a self-proclaimed fan of the series, initially thought the leaks were part of a Rockstar guerrilla marketing campaign. But the company’s response “confirms that this is a real investigation, and the content being shared is likely real to some degree,” he said. Advertisement Take-Two’s actions thus far indicate the company is approaching the breach and leaks like an insider threat investigation, Edwards said. Whoever leaked the footage may have had access to an actual build of the game, he added. That could point to an insider, someone who could have saved a copy to a cloud service, uploaded it to a file-hosting site, or walked out with it on an external drive. CyberLeek’s conflicting motivations The hacker or group behind CyberLeek claim they are releasing th
+```
+
+#### Corroborating sources (1)
+
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: The GTA VI leaks are breaking the internet. Security researchers have seen this before.
+  - Published: 2026-08-25T20:51:39+00:00
+  - Link: https://cyberscoop.com/grand-theft-auto-6-data-theft-extortion-leaks/
+  - Summary: A memecoin, a manifesto, and a week of daily leaks — but to researchers, it's a familiar extortion playbook with an unusually large audience. The post The GTA VI leaks are breaking the internet. Security researchers have seen this before. appeared first on CyberScoop .
 
 ### Cluster f0848ac964 — score 8
 
