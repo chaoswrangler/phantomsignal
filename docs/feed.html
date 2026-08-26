@@ -1,16 +1,9 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-08-26T09:50:10.157675+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-08-26T10:41:09.426065+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2090,
   &quot;feed_status&quot;: {
-    &quot;CrowdStrike&quot;: {
-      &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Unit 42&quot;: {
       &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -18,19 +11,19 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 3
     },
+    &quot;CrowdStrike&quot;: {
+      &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Microsoft Security Blog&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 2
-    },
-    &quot;Google Threat Analysis Group&quot;: {
-      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
     },
     &quot;Trend Micro Research&quot;: {
       &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
@@ -46,6 +39,13 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Sekoia&quot;: {
+      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Microsoft Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -58,13 +58,13 @@
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
+      &quot;in_window_count&quot;: 2
     },
-    &quot;Recorded Future&quot;: {
-      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+    &quot;Citizen Lab&quot;: {
+      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
     &quot;NCSC UK&quot;: {
@@ -74,12 +74,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Citizen Lab&quot;: {
-      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
+    &quot;Check Point Research&quot;: {
+      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 2
     },
     &quot;SANS Internet Storm Center&quot;: {
       &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
@@ -102,26 +102,33 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Recorded Future&quot;: {
+      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Google Threat Analysis Group&quot;: {
+      &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Horizon3 Attack Research&quot;: {
+      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 7
+    },
     &quot;Cisco Talos&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 5
-    },
-    &quot;Check Point Research&quot;: {
-      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;GitHub Security Lab&quot;: {
-      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
     },
     &quot;PortSwigger Research&quot;: {
       &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
@@ -130,12 +137,12 @@
       &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Horizon3 Attack Research&quot;: {
-      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
+    &quot;GitHub Security Lab&quot;: {
+      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 7
+      &quot;in_window_count&quot;: 0
     },
     &quot;Red Canary&quot;: {
       &quot;url&quot;: &quot;https://redcanary.com/feed/&quot;,
@@ -158,13 +165,6 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Assetnote&quot;: {
-      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;The DFIR Report&quot;: {
       &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
@@ -179,12 +179,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;TrustedSec&quot;: {
-      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
+    &quot;Assetnote&quot;: {
+      &quot;url&quot;: &quot;https://www.assetnote.io/resources/research/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Proofpoint Threat Insight&quot;: {
       &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
@@ -199,6 +199,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;TrustedSec&quot;: {
+      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Elastic Security Labs&quot;: {
       &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
@@ -221,12 +228,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Sekoia&quot;: {
-      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
+    &quot;Datadog Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Orca Security Research&quot;: {
       &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
@@ -235,16 +242,23 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 6
     },
-    &quot;Datadog Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
+    &quot;Permiso Security&quot;: {
+      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;AWS Security Blog&quot;: {
       &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;Rapid7&quot;: {
+      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 3
@@ -256,20 +270,6 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 6
     },
-    &quot;Permiso Security&quot;: {
-      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Rapid7&quot;: {
-      &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 3
-    },
     &quot;Google Cloud Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -277,11 +277,11 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Sysdig&quot;: {
-      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
+    &quot;Protect AI&quot;: {
+      &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
     &quot;Trail of Bits&quot;: {
@@ -298,12 +298,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Protect AI&quot;: {
-      &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
+    &quot;Sysdig&quot;: {
+      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Wiz Research&quot;: {
+      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 2
     },
     &quot;Cloudflare Radar&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
@@ -311,6 +318,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Google DeepMind Blog&quot;: {
+      &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Coveware&quot;: {
       &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
@@ -326,19 +340,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Google DeepMind Blog&quot;: {
-      &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
+    &quot;OpenSSF Blog&quot;: {
+      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
-    },
-    &quot;Wiz Research&quot;: {
-      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 2
     },
     &quot;The Record&quot;: {
       &quot;url&quot;: &quot;https://therecord.media/feed&quot;,
@@ -347,12 +354,12 @@
       &quot;item_count&quot;: 5,
       &quot;in_window_count&quot;: 5
     },
-    &quot;OpenSSF Blog&quot;: {
-      &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
+    &quot;Interconnects&quot;: {
+      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
     },
     &quot;BleepingComputer&quot;: {
       &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
@@ -361,12 +368,12 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 15
     },
-    &quot;Interconnects&quot;: {
-      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;Google Cloud Security&quot;: {
+      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 16
     },
     &quot;SecurityWeek&quot;: {
       &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
@@ -375,26 +382,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;Google Cloud Security&quot;: {
-      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 16
-    },
     &quot;GreyNoise&quot;: {
       &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;CyberScoop&quot;: {
-      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
     },
     &quot;Simon Willison&quot;: {
       &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
@@ -403,12 +396,12 @@
       &quot;item_count&quot;: 30,
       &quot;in_window_count&quot;: 18
     },
-    &quot;AI Snake Oil&quot;: {
-      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;CyberScoop&quot;: {
+      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
     },
     &quot;Dark Reading&quot;: {
       &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
@@ -423,6 +416,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
+    },
+    &quot;AI Snake Oil&quot;: {
+      &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Schneier on Security&quot;: {
       &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
@@ -445,18 +445,18 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Krebs on Security&quot;: {
-      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Reddit r/cybersecurity&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/cybersecurity/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Krebs on Security&quot;: {
+      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
     &quot;Reddit r/blueteamsec&quot;: {
@@ -466,15 +466,22 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/msp&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
+    &quot;Intel 471&quot;: {
+      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
+      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Reddit r/sysadmin&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Reddit r/sysadmin&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
+    &quot;Reddit r/msp&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/msp/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -515,26 +522,12 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 27
     },
-    &quot;Intel 471&quot;: {
-      &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
-      &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
     &quot;Reddit r/netsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 25,
-      &quot;in_window_count&quot;: 10
-    },
-    &quot;tl;dr sec&quot;: {
-      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
+      &quot;in_window_count&quot;: 9
     },
     &quot;Embrace the Red&quot;: {
       &quot;url&quot;: &quot;https://embracethered.com/blog/index.xml&quot;,
@@ -542,6 +535,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;tl;dr sec&quot;: {
+      &quot;url&quot;: &quot;https://tldrsec.com/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Risky Business News&quot;: {
       &quot;url&quot;: &quot;https://risky.biz/feeds/risky-business-news/&quot;,
@@ -707,8 +707,8 @@
         ]
       },
       &quot;cluster_count&quot;: 5,
-      &quot;article_count&quot;: 12,
-      &quot;cohesion&quot;: 0.229,
+      &quot;article_count&quot;: 11,
+      &quot;cohesion&quot;: 0.239,
       &quot;shared_strong_signals&quot;: [
         &quot;Android&quot;
       ],
@@ -723,7 +723,6 @@
       ],
       &quot;links&quot;: [
         &quot;https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html&quot;,
-        &quot;https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/&quot;,
         &quot;https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch&quot;,
         &quot;https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html&quot;,
         &quot;https://securelist.com/android-head-unit-malware/121106/&quot;,
@@ -946,7 +945,7 @@
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 4,
+      &quot;article_count&quot;: 3,
       &quot;cohesion&quot;: 0.283,
       &quot;shared_strong_signals&quot;: [
         &quot;CVE-2026-73570&quot;
@@ -959,7 +958,6 @@
       ],
       &quot;links&quot;: [
         &quot;https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html&quot;,
-        &quot;https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/&quot;,
         &quot;https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch&quot;,
         &quot;https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/&quot;
       ]
@@ -985,12 +983,12 @@
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
-        &quot;62469ecc9b&quot;,
-        &quot;4e2d4d958a&quot;
+        &quot;4e2d4d958a&quot;,
+        &quot;62469ecc9b&quot;
       ],
       &quot;links&quot;: [
-        &quot;https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/&quot;,
-        &quot;https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/&quot;
+        &quot;https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/&quot;,
+        &quot;https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/&quot;
       ]
     },
     {
@@ -1027,6 +1025,32 @@
       ]
     },
     {
+      &quot;label&quot;: &quot;Linux kernel vulnerability activity&quot;,
+      &quot;anchor_signal&quot;: &quot;Linux kernel&quot;,
+      &quot;theme_key&quot;: &quot;linux-kernel&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;affected_products&quot;: [
+          &quot;Linux kernel&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 2,
+      &quot;cohesion&quot;: 0.2,
+      &quot;shared_strong_signals&quot;: [
+        &quot;Linux kernel&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;1b05e6e7b4&quot;,
+        &quot;d5a759a910&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/&quot;,
+        &quot;https://blog.talosintelligence.com/uat-10147-deploys-spectre-a-cross-platform-implant-with-linux-rootkit-and-byovd-capabilities/&quot;
+      ]
+    },
+    {
       &quot;label&quot;: &quot;Palo Alto Networks vulnerability activity&quot;,
       &quot;anchor_signal&quot;: &quot;Palo Alto Networks&quot;,
       &quot;theme_key&quot;: &quot;palo-alto-networks&quot;,
@@ -1055,7 +1079,20 @@
   ],
   &quot;forward_signals&quot;: {
     &quot;novelty&quot;: {
-      &quot;cves&quot;: [],
+      &quot;cves&quot;: [
+        {
+          &quot;value&quot;: &quot;CVE-2026-45386&quot;,
+          &quot;cluster_id&quot;: &quot;1b05e6e7b4&quot;,
+          &quot;first_source&quot;: &quot;Kaspersky Securelist&quot;,
+          &quot;first_published&quot;: &quot;2026-08-26T10:00:04+00:00&quot;
+        },
+        {
+          &quot;value&quot;: &quot;CVE-2026-45501&quot;,
+          &quot;cluster_id&quot;: &quot;1b05e6e7b4&quot;,
+          &quot;first_source&quot;: &quot;Kaspersky Securelist&quot;,
+          &quot;first_published&quot;: &quot;2026-08-26T10:00:04+00:00&quot;
+        }
+      ],
       &quot;actors&quot;: [],
       &quot;products&quot;: []
     },
@@ -1167,11 +1204,15 @@
       },
       {
         &quot;actor&quot;: &quot;ShinyHunters&quot;,
-        &quot;cluster_id&quot;: &quot;62469ecc9b&quot;,
+        &quot;cluster_id&quot;: &quot;4e2d4d958a&quot;,
         &quot;new_industries&quot;: [
-          &quot;retail_ecommerce&quot;
+          &quot;healthcare&quot;,
+          &quot;manufacturing_industrial&quot;
         ],
-        &quot;new_products&quot;: [],
+        &quot;new_products&quot;: [
+          &quot;Gitea&quot;,
+          &quot;WordPress&quot;
+        ],
         &quot;prior_top_industries&quot;: [
           &quot;education&quot;,
           &quot;financial_services&quot;,
@@ -1188,7 +1229,7 @@
       {
         &quot;axis&quot;: &quot;actor_attribution&quot;,
         &quot;value&quot;: &quot;ShinyHunters&quot;,
-        &quot;cluster_id&quot;: &quot;62469ecc9b&quot;,
+        &quot;cluster_id&quot;: &quot;4e2d4d958a&quot;,
         &quot;weeks_observed&quot;: 13
       },
       {
@@ -1255,6 +1296,171 @@
     &quot;tier_inversion&quot;: []
   },
   &quot;items&quot;: [
+    {
+      &quot;source&quot;: &quot;The Hacker News&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users&#x27; Reservations in Tests&quot;,
+      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html&quot;,
+      &quot;published&quot;: &quot;2026-08-26T10:27:23+00:00&quot;,
+      &quot;summary&quot;: &quot;Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August 10, based on chat logs and screenshots the user supplied. He had asked an&quot;,
+      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;Anthropic/Claude&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {
+          &quot;Anthropic/Claude&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;Help Net Security&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Bogus recruiters go after high-value corporate credentials on mobile&quot;,
+      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/26/recruitment-scam-corporate-passwords-mobile/&quot;,
+      &quot;published&quot;: &quot;2026-08-26T10:05:55+00:00&quot;,
+      &quot;summary&quot;: &quot;Scammers posing as HR staff at well-known companies are running interview scheduling scams that end with a stolen corporate password, according to Zimperium. Attackers are using a technique called browser-in-the-browser, or BitB, which CTM360 documented in earlier research on recruitment phishing. They scrape public profile data and use it to craft convincing scheduling flows designed to get past a target’s skepticism. Only corporate accounts get through BitB works on a desktop because it can mimic … More → The post Bogus recruiters go after high-value corporate credentials on mobile appeared first on Help Net Security .&quot;,
+      &quot;author&quot;: &quot;Sinisa Markovic&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;phishing_social_eng&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
+    {
+      &quot;source&quot;: &quot;Cisco Talos&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Choose your fighter: Balancing competing requirements to select models for your AI SOC&quot;,
+      &quot;link&quot;: &quot;https://blog.talosintelligence.com/choose-your-fighter-balancing-competing-requirements-to-select-models-for-your-ai-soc/&quot;,
+      &quot;published&quot;: &quot;2026-08-26T10:00:05+00:00&quot;,
+      &quot;summary&quot;: &quot;Selecting a model for your security operations center (SOC) and digital forensics and incident response (DFIR) tasks is important, but selecting the best one is more involved than you might think. Here&#x27;s how to choose.&quot;,
+      &quot;author&quot;: &quot;David J. Bianco&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 12,
+      &quot;full_body&quot;: &quot;Choose your fighter: Balancing competing requirements to select models for your AI SOC By David J. Bianco Wednesday, August 26, 2026 06:00 Tool Talk AI Selecting a model for your security operations center (SOC) and digital forensics and incident response (DFIR) tasks is important, but selecting the best one is more involved than you might think. SOC tasks rely on a combination of model efficacy, analysis time, cost, and consistency of results. Cisco Talos tested 66 model and reasoning combinations across offerings from both Anthropic and OpenAI on a log analysis task to see if we could identify a clear winner. Instead, we found a repeatable methodology that organizations can use in their own evaluations. Reasoning effort was not a universal quality dial. More effort often cost more without improving the result. In some cases, more effort produced lower scores. Consistency should be a major decision factor. A condition with a strong median can still produce an occasional weak run. Choosing the best model for any task involves a complex balancing act: compute/reasoning effort vs. effectiveness vs. time vs. cost vs... well, lots of other things. If you are choosing a large language model (LLM) for a security operations center (SOC) or digital forensics and incident response (DFIR) workflow, “Which model scored highest?” is almost certainly not the right question. In fact, it could even have severe negative consequences. A more useful question might be: Which model and reasoning setting gives me enough investigative quality, at a cost, speed, consistency, and failure rate my workflow can tolerate? The experiment Cisco Talos tested 66 model and reasoning combinations (the conditions) from Anthropic and OpenAI on a tool-assisted log-review task. Using only common Unix command-line tools, the reviewers had to decide whether a given dataset was real or synthetically generated. Each reviewer received an identical dataset. The dataset was synthetic, but the reviewers were told that it might be real. We chose this task because it required many of the same tools and analytic techniques used in typical incident triage and investigation, but unlike those scenarios, could easily create a single numeric score for comparison. The reviewers investigated the logs using their native agent harnesses (i.e., Anthropic models used Claude Code, OpenAI models used Codex), then assigned a synthetic-confidence score from 0 (real) to 100 (synthetic). Higher scores therefore approached the known answer more closely. Each experimental panel contained four independently prompted reviewer personas: Threat Hunter Detection Engineer Network Forensics Analyst Host/Endpoint Detection and Response (EDR) Analyst We ran five rounds per condition. A panel counted only when all four reviewers produced valid reports. We allowed a limited number of retries in the case of guardrail refusals or invalid output formats before discounting a panel. The panel score was the mean of the four persona scores, and the condition score was the median of all its complete panel scores. What we measured In addition to the review score mentioned above, we computed the following for each panel: Cost: Total API-equivalent cost of every attempt for a condition, including failed attempts and retries, divided by the number of complete, usable panels. We calculated cost using a public list-price rate card frozen before testing began, rather than actual incurred spend. Actual costs vary by payment method, subscription plan, credits, and negotiated contract terms, making them unsuitable for consistent cross-provider comparison. The published rates were current when the study began and may differ from today’s prices. Time: The total wall time consumed across all five planned panels for a condition, also including failures and retries, divided by the number of complete, usable four-persona panels. Within each panel, the four persona evaluations ran concurrently. Any provider-directed waits and ta&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
+    },
+    {
+      &quot;source&quot;: &quot;Kaspersky Securelist&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Exploits and vulnerabilities in Q2 2026&quot;,
+      &quot;link&quot;: &quot;https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/&quot;,
+      &quot;published&quot;: &quot;2026-08-26T10:00:04+00:00&quot;,
+      &quot;summary&quot;: &quot;This report covers statistics on vulnerabilities, exploits, and C2 frameworks in Q2 2026. For the first time ever, we aggregate data on vulnerabilities in open-source AI agents and AI frameworks.&quot;,
+      &quot;author&quot;: &quot;Alexander Kolesnikov&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;apt_espionage&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;GitHub&quot;,
+          &quot;Linux kernel&quot;
+        ],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-25253&quot;,
+          &quot;CVE-2026-41948&quot;,
+          &quot;CVE-2026-45386&quot;,
+          &quot;CVE-2026-45501&quot;
+        ],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [
+          &quot;no_patch_yet&quot;
+        ],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {
+          &quot;GitHub&quot;: &quot;target&quot;,
+          &quot;Linux kernel&quot;: &quot;target&quot;
+        },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 12,
+      &quot;full_body&quot;: &quot;Table of Contents Statistics on registered vulnerabilities Exploitation statistics Windows and Linux vulnerability exploitation Most common published exploits Vulnerability exploitation in APT attacks C2 frameworks LLM/AI tool vulnerabilities Notable vulnerabilities CVE-2026-25253: a gatewayUrl vulnerability in OpenClaw CVE-2026-41948: a path traversal vulnerability in the Dify AI platform CVE-2026-45386: an improper access control vulnerability in Open WebUI CVE-2026-45501: a vulnerability in Microsoft Exchange Conclusion and advice Authors Alexander Kolesnikov The vulnerability landscape shifted significantly in Q2 2026. First, the number of registered CVEs reached an unprecedented level. This is driven primarily by the widespread adoption of AI, both for application development and search for security flaws. This resulted in entire new classes of vulnerabilities emerging, particularly in the Linux networking subsystem. Second, security researchers have been publishing exploits for unpatched vulnerabilities more frequently. Publications like these can generate significant fallout, since they potentially open the door for attackers to target unprotected systems. Statistics on registered vulnerabilities This section provides statistical data on registered vulnerabilities. The data comes from Kaspersky’s vulnerability knowledge base, which draws on the CVE database as well as the Russian BDU database and GitHub Advisory (GHSA). As a result, the figures for previous reporting periods may differ from those published in earlier reports. We examine the number of registered vulnerabilities for each month over the last five years. As the chart below shows, this number continues to surge, a trend reflected across all the databases we track. It’s driven primarily by the widespread adoption of AI tools: as we predicted in our previous report , these tools have played a major role in the discovery of vulnerabilities in third-party software. Meanwhile, these tools often contain security issues of their own. For example, OpenClaw, a popular AI project, ranked 12th among those with the highest number of vulnerabilities discovered and published in Q2, with over 200 CVEs registered during the reporting period. Finally, AI development tools are also contributing to the vulnerability landscape, since the quality of the code they produce can vary widely. Therefore, the rate at which new vulnerabilities are discovered will inevitably keep growing. Total published vulnerabilities per month from 2022 through 2026 ( download ) Next, we analyze the number of new critical vulnerabilities (CVSS &gt; 9.0) over the same period. Total critical vulnerabilities published per month from 2022 through 2026 ( download ) As the chart shows, the number of published critical vulnerabilities jumped sharply in Q2. This is because using AI for vulnerability research makes it possible to analyze massive amounts of previously unexamined code, uncover new attack surfaces, and identify entire classes of vulnerabilities that have gone unnoticed for decades. In particular, AI was used to find a series of Dirty Frag vulnerabilities in the Linux kernel. Exploitation statistics This section presents statistics on vulnerability exploitation for Q2 2026. The data draws on open sources and our telemetry. Windows and Linux vulnerability exploitation Q2 2026 saw a new precedent in the publication of vulnerabilities in Windows components and exploits for these: researchers no longer waiting for CVE registration, let alone patches. A case in point: a researcher who goes by Nightmare Eclipse (also known as Chaotic Eclipse) published a list of new “named” vulnerabilities across various Windows subsystems. At the time the technical details were published, none of the vulnerabilities had been assigned a CVE identifier: BlueHammer : a local privilege escalation vulnerability in Windows Defender. During signature database updates, a time-of-check to time-of-use (TOCTOU) race condition occurs&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
+    },
+    {
+      &quot;source&quot;: &quot;SecurityWeek&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;title&quot;: &quot;Chrome 152 Patches Over 300 Vulnerabilities&quot;,
+      &quot;link&quot;: &quot;https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/&quot;,
+      &quot;published&quot;: &quot;2026-08-26T09:50:34+00:00&quot;,
+      &quot;summary&quot;: &quot;Most of the flaws were discovered by Google using AI, but researchers are still discovering high-value Chrome vulnerabilities. The post Chrome 152 Patches Over 300 Vulnerabilities appeared first on SecurityWeek .&quot;,
+      &quot;author&quot;: &quot;Eduard Kovacs&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 6
+    },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -1331,7 +1537,7 @@
         }
       },
       &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Houston-based healthcare management and operations company Nutex Health Inc. (NASDAQ: NUTX) has suffered a data breach that could involve sensitive information. Nutex Health is a healthcare services and operations company that operates micro-hospitals, specialty hospitals, and outpatient departments. The company revealed in an SEC filing this week that it recently detected unauthorized access to its network. Hackers accessed and exfiltrated files stored on some servers, including information that may be confidential or private. Nutex is now trying to determine whether information related to patients, employees, providers, business and financial operations, and intellectual property was stolen. “As of the date of this Current Report on Form 8-K, the Company does not believe that the unauthorized access has had, or is reasonably likely to have, a material impact on the Company’s business strategy, operations, financial condition or results of operations,” the company said . No known cybercrime group appears to have taken credit for the attack on Nutex Health, but the company suggested in its disclosure that the attacker may leak the stolen information. Advertisement. Scroll to continue reading. It’s not uncommon for healthcare data breaches to affect hundreds of thousands or even millions of people. Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related : 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Latest News CISA Warns of Exploited Gitea Vulnerability Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference First Malware Built Specifically for Car Head Units Fuels Botnet Silent Patches Don’t Stop Attackers – They Blind Defenders Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Trellix has named David Pieterse as Chief Operating Officer GTM and David Soto as Chief Information Security Officer. Mike Marshall ha&quot;,
+      &quot;full_body&quot;: &quot;Houston-based healthcare management and operations company Nutex Health Inc. (NASDAQ: NUTX) has suffered a data breach that could involve sensitive information. Nutex Health is a healthcare services and operations company that operates micro-hospitals, specialty hospitals, and outpatient departments. The company revealed in an SEC filing this week that it recently detected unauthorized access to its network. Hackers accessed and exfiltrated files stored on some servers, including information that may be confidential or private. Nutex is now trying to determine whether information related to patients, employees, providers, business and financial operations, and intellectual property was stolen. “As of the date of this Current Report on Form 8-K, the Company does not believe that the unauthorized access has had, or is reasonably likely to have, a material impact on the Company’s business strategy, operations, financial condition or results of operations,” the company said . No known cybercrime group appears to have taken credit for the attack on Nutex Health, but the company suggested in its disclosure that the attacker may leak the stolen information. Advertisement. Scroll to continue reading. It’s not uncommon for healthcare data breaches to affect hundreds of thousands or even millions of people. Related : CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related : 3.8 Million Impacted by Unlimited Technology Systems Data Breach Related : 311,000 Impacted by Brown Health Medical Group-MA Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs CISA Warns of Exploited Oracle WebLogic Vulnerability ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited 91 Vulnerabilities Patched in Spring Application Framework Venezuelan Gets Record Federal Prison Term for ATM Jackpotting Personal Information Exposed in Apollo Global Data Breach Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight Contractors’ CMMC Confidence Rises as Ability to Prove It Falls Behind Latest News Chrome 152 Patches Over 300 Vulnerabilities CISA Warns of Exploited Gitea Vulnerability Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities WhatsApp Adds Multiple Passkeys and Stronger 2SV in Account Security Update Hands-On Cyber-Physical Systems Training Returns to ICS Cybersecurity Conference First Malware Built Specifically for Car Head Units Fuels Botnet Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Scaling AI Security August 26, 2026 Join this live webinar for a practical framework for evolving your AI security program from a single application to an enterprise AI ecosystem and autonomous agents. Register Webinar: Minimum Viable Business: Can You Prove Your Organization Would Recover? September 2, 2026 In this live webinar, learn how to define your minimum viable business, identify the systems it depends on, measure actual recovery time against business requirements, and present the gaps to the board as measurable risk. Register People on the Move Trellix has named David Pieterse as Chief Operating Officer GTM and David Soto as Chief Information Security Officer. Mike Marshall has been appointe&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -1607,7 +1813,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;LACMA data breach last year exposed social security and medical data By Bill Toulas August 25, 2026 05:58 PM 0 The Los Angeles County Museum of Art (LACMA) has announced that a breach last year exposed customer and employee information. The museum says that on July 11, 2025, it detected suspicious activity on its systems that had started four days earlier. A month later, the investigation confirmed that the network was compromised. At the time, the type of exposed data could not be determined, and the first results of the investigation became available in late February 2026. More than a year after the discovery of the data breach incident, the museum identified that the following information may have been accessed by the attacker: Full name Date of birth Social Security number Driver’s license or government-issued identification number Partial financial account numbers Partial payment card information Health insurance information Medical information such as provider name, medical treatment, diagnosis, treatment dates, or treatment locations LACMA says it has notified law enforcement authorities about the incident and sent personalized data breach notifications to impacted individuals. Recipients are recommended to monitor their bank accounts for suspicious activity, consider placing a security freeze or fraud alert on their credit file, and report identity theft attempts to their financial institutions and law enforcement. The letters include information on enrolling in a one-year identity theft and fraud protection service through Financial Shield, with an enrollment deadline of November 22. A dedicated phone line has also been set up to provide support and answer questions for impacted individuals. LACMA is one of the largest art museums in the western United States, housing around 155,000 works spanning 6,000 years of art history. The museum has historically attracted over one million visitors annually. BleepingComputer has contacted LACMA with questions about the number of impacted individuals, as well as the nature of the attack, but we have not heard back as of publication. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: OnTrac notifies customers of data breach after network hack Ernst &amp; Young discloses data breach after support system hack Sakura Internet hack exposes data of up to 1.36 million accounts Healthtech firm CareCloud data breach impacts 3.7 million patients SafePal data breach impacts 39,798 customers, stolen info for sale&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -1643,7 +1849,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 11,
+      &quot;score&quot;: 10,
       &quot;full_body&quot;: &quot;You&#x27;re not going to believe this, but turns out you can&#x27;t always take criminals at their word. Actually, I&#x27;ll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber Alert ‼️ 🇺🇸US - 𝗖𝗮𝗿𝗵𝗮𝗿𝘁𝘁 ShinyHunters hacking group claims to have compromised Carhartt and allegedly stolen more than 50 GB of compressed data containing millions of customer records, employee information, customer metadata, loyalty-related information, and… pic.twitter.com/BvzsEQS54l — Hackmanac (@H4ckmanac) August 13, 2026 My usual Have I Been Pwned (HIBP) workflow after a breach emerges is to run our open source Email Address Extractor tool over the corpus of data, get a count of the unique addresses then drop it into the processing pipeline. Having a count helps prioritise: it&#x27;s roughly the same effort to process a breach with 10M addresses in it as it is 100k addresses, but we obviously reach 100x more people with the larger corpus so that goes first. So, following the release of the Carhartt data above, I ran the tool and got 24,876,077 addresses. That&#x27;s a biggy, let&#x27;s dive in. One of the first things I do when analysing a breach is look for news and industry commentary. Once you get through all the results for class actions ( ugh ), you usually find various other services and news sites reporting on the incident. One such example (which I won&#x27;t name, because they&#x27;re wrong) cited a very similar number to my initial pass, which at face value, reinforced my thinking. But here&#x27;s where it all takes a turn because, inevitably, this is where the other analysts stopped... I&#x27;ve been using OpenClaw pretty extensively this year to help with a number of tasks, including breach analysis. Here&#x27;s how I normally begin (timestamps are AEST and yes, I called it \&quot;PwnedClaw\&quot;): [24/08/2026 17:30] Troy Hunt: Let&#x27;s look at the ShinyHunters Carhartt breach. I&#x27;m seeing nearly 25M unique email addresses so it&#x27;s very large, tell me about what they do. [24/08/2026 17:30] PwnedClaw: Carhartt is an American workwear brand founded in 1889, headquartered in Dearborn, Michigan. They make rugged, durable clothing primarily for tradespeople and outdoor workers: heavy-duty jackets, bibs, coveralls, work pants, boots, and accessories. Think construction workers, farmers, hunters. They&#x27;ve also crossed over into streetwear/fashion in recent years (particularly through Carhartt WIP, their Work In Progress line), which massively expanded their demographic beyond blue-collar workers into urban fashion, skateboarding, and hip-hop culture. That crossover likely explains a 25M email count — they&#x27;re not just selling to contractors anymore, they&#x27;re a mainstream lifestyle brand. Strong US base but significant global presence, especially in Europe where WIP is huge. For HIBP context: broad demographic mix (blue-collar workers + fashion/streetwear), real names, physical addresses, and purchase history are likely present given it&#x27;s a retail breach. Want me to pull the tracker entry for current status? Ok, cool, nothing too revolutionary there. Let&#x27;s start analysing the data, and the first thing I do is begin with the report of our open source Email Address Extractor tool, which lists every file an address was found in, and then how many unique ones are in there: [24/08/2026 17:32] Troy Hunt: Let&#x27;s start looking at data, and we&#x27;ll begin with the email extractor report at \&quot;\\scratch\\Carhartt\\Carhartt.txt.report.txt\&quot; [24/08/2026 17:32] PwnedClaw: Interesting. The data is from Databricks (their analytics/data lakehouse platform) and follows the TPC-DS benchmark schema (tpcds_sf1000) — that&#x27;s a standard retail analytics benchmark format. The \&quot;sf1000\&quot; means scale factor 1000, which is massive. Key observations: • All emails are in customer_chunk_XXXX.csv files, numbered 0000-0599+, so ~600 chunks • Each chunk has ~19,300 unique emails, remarkably uniform distribution • ~600 chunks × ~19,300 = ~11.6M from this directory alone — but you said ~25M total, so t&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2358,42 +2564,6 @@
       &quot;score&quot;: 5
     },
     {
-      &quot;source&quot;: &quot;Help Net Security&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Fake OpenAI Codex download tricks macOS users into installing malware&quot;,
-      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/&quot;,
-      &quot;published&quot;: &quot;2026-08-25T12:40:44+00:00&quot;,
-      &quot;summary&quot;: &quot;A malware campaign using a sponsored search ad and a fake OpenAI Codex download page to trick macOS users into pasting a malicious command into Terminal has been uncovered by Cato Networks. It’s a variation of ClickFix, a popular social engineering technique that persuades victims to execute the infection step themselves rather than opening a malicious file. The attack starts with a sponsored search result for queries such as “codex macos download.” The ad appears … More → The post Fake OpenAI Codex download tricks macOS users into installing malware appeared first on Help Net Security .&quot;,
-      &quot;author&quot;: &quot;Sinisa Markovic&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;OpenAI/ChatGPT&quot;,
-          &quot;Apple iOS/macOS&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;OpenAI/ChatGPT&quot;: &quot;target&quot;,
-          &quot;Apple iOS/macOS&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 5
-    },
-    {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -2606,23 +2776,31 @@
       &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
+        &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;
+        ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;Anthropic/Claude&quot;
+        ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
+        &quot;urgency_signals&quot;: [
+          &quot;zero_day&quot;
+        ],
         &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
+        &quot;role_map&quot;: {
+          &quot;Anthropic/Claude&quot;: &quot;target&quot;
+        },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
       &quot;score&quot;: 9,
-      &quot;full_body&quot;: &quot;&quot;,
+      &quot;full_body&quot;: &quot;Frontier AI: Vulnerability Management&#x27;s Systemic Revolution  The Hacker News  Aug 25, 2026 Attack Surface Management Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a common goal of identifying vulnerabilities and confirming the risk was removed from the environment. In come Frontier AI models such as Anthropic&#x27;s Mythos to radically change the vulnerability management space. These models can identify zero-day flaws, chain complex exploits, and adapt in real time. They have forced vulnerability management programs to take an introspective look at themselves and ask, “Is my vulnerability program ready for this revolution?” For many organizations, the answer is no. Many vulnerability management programs were hanging by a thread already, with very distant plans of migrating to a CTEM-style program yet with a backlog of vulnerabilities that stretched for miles. Do not let Frontier AI’s impact on security go to waste. Vulnerability programs need to be systematically revolutionized to meet the changing threat and risk landscape, and the time is now to mature your program to meet the ever-increasing concerns Frontier AI models introduce to organizations. With so many moving parts of a vulnerability program that need to be managed on the ground, where do you start building up your program&#x27;s maturity? As opposed to how vulnerability and patch management programs operated in a siloed fashion in the past, this is now the opportunity to work together as a team to tackle the new cybersecurity concerns being introduced. Both vulnerability and patch management programs now require a major upgrade. Going Beyond CVSS, EPSS, and KEV From a vulnerability management perspective, just looking at CVSS scores alone is not going to be enough to see through the noise of vulnerabilities and to provide a risk-based view into what your organization should prioritize. Additionally, vulnerabilities prioritized by EPSS (Exploit Prediction Scoring System) and by CISA&#x27;s KEV (Known Exploited Vulnerabilities) list have now become table stakes for vulnerability management programs to prioritize and govern removal from the organization. However, how do we answer the question of how to prioritize vulnerabilities that are rapidly being turned into exploits by Frontier AI models at machine speed? We need to go beyond the CVSS, EPSS and KEV prioritization and understand exactly what vulnerabilities are a priority to your organization. Building up an exposure management function within your vulnerability management program is a key way to tackle this. The function augments traditional vulnerability management by assessing the true risk across an organization&#x27;s attack surface, which results in helping to prioritize remediation based on exploitability and business impact. It assists with drilling down into the vulnerabilities that need action as soon as possible and makes the largest impact to risk reduction in the organization. While this thought process is not new, it has jumped in its necessity as a staple in a VM program as a response to how quickly vulnerabilities are not only discovered but also turned into exploitable vulnerabilities based on Frontier AI models. Your vulnerability program needs to be able to articulate more clearly than ever what vulnerabilities need to be prioritized. Additionally, exposure management broadens the landscape of a traditional vulnerability management program by looking not only at open vulnerabilities, but also other risk factors such as misconfigurations, reachability, and other sources of threat intelligence. This helps build a stronger prioritized risk picture for your organization. Expo&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
@@ -2693,45 +2871,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
-    },
-    {
-      &quot;source&quot;: &quot;Help Net Security&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Unpatched Zimbra servers are falling to CVE-2026-73570 attacks&quot;,
-      &quot;link&quot;: &quot;https://www.helpnetsecurity.com/2026/08/25/zimbra-cve-2026-73570-compromised/&quot;,
-      &quot;published&quot;: &quot;2026-08-25T10:03:28+00:00&quot;,
-      &quot;summary&quot;: &quot;At least 274 internet-facing Zimbra instances have been compromised by unknown attackers via CVE-2026-73570, the Shadowserver Foundation shared on Monday. About CVE-2026-73570 Zimbra Collaboration Suite (ZCS) is a communication and collaboration platform popular with organizations that need to have control over their data or can’t afford a pricy alternative service like Microsoft 365 or Google Workspace. CVE-2026-73570 is a code injection flaw Synacor patched in ZCS v10.1.20, released on July 20, 2026. The vulnerability was … More → The post Unpatched Zimbra servers are falling to CVE-2026-73570 attacks appeared first on Help Net Security .&quot;,
-      &quot;author&quot;: &quot;Zeljka Zorz&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [
-          &quot;Google Workspace&quot;,
-          &quot;Microsoft 365&quot;
-        ],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-73570&quot;
-        ],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;no_patch_yet&quot;
-        ],
-        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;Google Workspace&quot;: &quot;target&quot;,
-          &quot;Microsoft 365&quot;: &quot;target&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 18
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Unit 42&quot;,
@@ -2772,7 +2912,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 11,
+      &quot;score&quot;: 10,
       &quot;full_body&quot;: &quot;Threat Research Center Threat Research Malware Malware The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution 7 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Sara McBroom Published: August 25, 2026 Categories: Malware Threat Research Tags: Backdoor Bitcoin DLL hijacking Ransomware Sandbox VirusTotal Share Executive Summary To assess the impact of AI-enabled malware, we collected and analyzed over 400 malware samples that integrate AI in some capacity, from brand impersonation and large language model (LLM)-generated code to agentic execution loops. Our central finding was that the AI malware space is currently overwhelmingly composed of proof-of-concept code, security validation testing and researcher submissions that have never reached a production environment. Of the 405 samples in our dataset, only 12 appeared in our telemetry on Cortex XDR-protected endpoints, and a small subset was forwarded through Next-Generation Firewalls to WildFire for analysis. Palo Alto Networks products detected and blocked every sample that attempted to reach a customer environment. These numbers tell a story that sits between two poles in the current discourse. AI-enabled malware is real. However, the volume of genuine operational activity remains a fraction of what public sample repositories suggest. Approximately 97% of the samples we examined exist only in sandboxes and on VirusTotal. For defenders, the practical takeaway is straightforward. Existing behavioral detection, cloud-based sandboxing and endpoint analytics catch these threats using the same mechanisms that stop conventional malware. The AI component does not evade detection. It changes how the code is authored, not how it executes. Palo Alto Networks customers are better protected against the threats discussed in this article through the following products and services, which detected these AI-enabled malware threats out of the box: Advanced WildFire Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , Agentic AI , Malware The Dataset Our starting dataset consisted of 405 unique SHA-256 hashes collected from WildFire analysis reports, VirusTotal Intelligence and published open-source intelligence (OSINT) research. The collection criteria were broad. We included any sample where AI integration was either a functional component of the malware, a feature of its delivery mechanism or part of its branding. This intentionally inclusive approach captured everything from LLM-powered ransomware agents to cryptocurrency miners that simply used “ChatGPT” in their filename. We queried this dataset across multiple telemetry sources to measure real-world prevalence: Endpoint presence : Cortex XDR agent telemetry from non-test tenants (December 2024–June 2025) Network visibility : WildFire session data from samples forwarded by Next-Generation Firewalls and Cortex XDR agents (June 2024–June 2025) Alert generation : Cortex XDR alert records for samples that triggered detection logic on endpoints Sandbox verdicts : WildFire analysis results with malware classification Table 1 summarizes the results of this dataset. Telemetry Source Samples Queried Samples Discovered Prevalence in Production Cortex XDR endpoints 405 12 3.0% WildFire sessions 405 ~15–20 unique hashes ~4% Cortex XDR alerts generated 12 12 100% Table 1. Telemetry coverage across the AI malware dataset. The disparity between the 405-sample dataset and the 12 samples observed in production environments is the most important number in this analysis. Approximately 97% of AI-enabled malware samples exist only in research repositories, sandbox environments and security validation platforms. We found no evidence that they reached a customer endpoint or traversed a customer firewall. The following sections examine&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2808,7 +2948,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 11,
+      &quot;score&quot;: 10,
       &quot;full_body&quot;: &quot;The safety penalty: Reclaiming operational sovereignty in the age of AI By David J. Bianco Tuesday, August 25, 2026 06:00 On The Radar As frontier models advance in cyber capability, their guardrails also become more restrictive. Defenders relying on these models to power core SOC processes cannot afford to pay the “safety penalty” of being blocked by these safeguards. Organizations should monitor model refusal rates and use the data to create a strategy to ensure operational sovereignty. The allure of the cloud and the hidden \&quot;safety penalty\&quot; Cybersecurity has made a big bet on cloud-hosted AI. Building and running frontier-class models in-house isn’t realistic for most security teams — the compute, the talent, and the R&amp;D costs are more than any single SOC can carry. So we’ve effectively outsourced the \&quot;brain\&quot; of our security operations to a handful of providers. That trade comes with a hidden cost: the safety penalty. The safety penalty is the friction that shows up when guardrails built to protect the general public get in the way of legitimate security work. If your model refuses to deobfuscate that malware or to explain a working exploit because its filters read the request as harmful, you’re paying the safety penalty. Those guardrails make sense in a normal business context and may even be a welcome feature when it comes to keeping agents in check. But in a SOC, in the hands of defenders aiming to reap the full benefits of powerful AI models, these guardrails are a bug. Every refusal sends the analyst back to doing the work by hand, and in a live incident, that lost time is a luxury we don’t have. Meanwhile, the adversary pays none of this penalty. A warning from the frontier In July 2026, an unreleased OpenAI model escaped its sandbox and compromised Hugging Face’s production infrastructure. It wasn’t an external hack, but an unintended \&quot;breakout\&quot; during testing, with its guardrails deliberately stripped for the exercise. The telling part came during the response. When Hugging Face tried to use its primary cloud LLM to investigate the breach, the model refused the forensic request. The \&quot;safe\&quot; model, in this context, was an obstacle. To get the analysis done, Hugging Face pivoted to an unconstrained open-weight model, GLM-5.2, which delayed their response. Hugging Face could make that pivot because they host open-weight models for a living and have the expertise to bypass a refusal on short notice. Most organizations don’t have that muscle. If your defensive model refuses a task mid-crisis, you’ve handed the adversary the advantage. That asymmetry is already being exploited. After state-sponsored actors were banned from frontier APIs, they simply moved their research to self-hosted, unconstrained models. The rise of AI-driven attacks is old news by now; what’s new is how lopsided this is about to become, with defenders slowed by refusals while adversaries are iterating at machine speed with nothing in their way. Guardrail asymmetry Attackers don’t even need to jailbreak anything. Models like GLM-5.2 and Kimi k3 are readily available with far fewer restrictions than Western frontier APIs, and \&quot;abliteration\&quot; (stripping the safety training out of an existing model) remains an option for anyone who wants to go further. Mostly, they don’t have to. They can just pick a model that doesn’t refuse them. Most defenders don’t have that option. Cloud APIs are tuned toward a kind of cyber do-no-harm designed to keep bad guys from using them to build attacks. This is the same refusal bias that ends up blocking security teams trying to analyze those attacks. In a defensive context, erring on caution often means erring in the attacker’s favor. Every refused request costs the defender the one resource they can’t get back: time. This trade-off used to be worth it. A few months ago, frontier models were far enough ahead on reasoning and code generation that the friction from their guardrails was a fair price. But the newest frontier model&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2838,7 +2978,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -6370,38 +6510,6 @@
       &quot;score&quot;: 4
     },
     {
-      &quot;source&quot;: &quot;The Hacker News&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs&quot;,
-      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html&quot;,
-      &quot;published&quot;: &quot;2026-08-19T13:12:17+00:00&quot;,
-      &quot;summary&quot;: &quot;A previously unreported cyber espionage operation dubbed SilkParasite has been observed targeting government bodies in Central Asia. The intrusion set makes use of seven remote access tool (RAT) families, five of which have never been previously documented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. SilkParasite, first discovered in late 2025, is assessed to be a&quot;,
-      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;apt_espionage&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;government&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 4
-    },
-    {
       &quot;source&quot;: &quot;Huntress&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -6542,39 +6650,6 @@
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
-      &quot;source&quot;: &quot;The Hacker News&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;title&quot;: &quot;Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P&quot;,
-      &quot;link&quot;: &quot;https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html&quot;,
-      &quot;published&quot;: &quot;2026-08-19T11:34:28+00:00&quot;,
-      &quot;summary&quot;: &quot;Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm, was reconstructed from a 407 MB exposed working directory containing 2,616 files&quot;,
-      &quot;author&quot;: &quot;info@thehackernews.com (The Hacker News)&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2021-33044&quot;,
-          &quot;CVE-2021-33045&quot;
-        ],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;incident_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      },
-      &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P  Swati Khandelwal  Aug 19, 2026 IoT Security / Network Security Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two authentication-bypass flaws, and a peer-to-peer (P2P) relay technique. The activity, codenamed Operation CameraSwarm , was reconstructed from a 407 MB exposed working directory containing 2,616 files across 234 subdirectories, including tooling, logs, shell history, and campaign records, with the researchers saying confirmed compromises were concentrated in Ukraine and Russia. The researchers said 1,923 cameras were configured with a persistent account during the operation and 283 were reached through the P2P path. Users of affected Dahua products are advised to install the corresponding fix software or newer firmware, while ITRES Labs recommends disabling P2P where it is not required and checking firmware against the vendor&#x27;s download site. \&quot;The relay establishes the route without prior authentication, leaving login checks to the device&#x27;s web application,\&quot; ITRES Labs said in an analysis published in October 2025. Hunt.io attributed the 14,530-plus total to three attack paths - Credential attacks: 12,324 unique IP addresses across 13,229 campaign records. Authentication bypass: 1,923 cameras reached using CVE-2021-33044 and CVE-2021-33045, which Hunt.io said were also configured with the persistent account. P2P relay: 283 cameras identified by serial number, including devices located behind network address translation (NAT). The two 2021 flaws are authentication-bypass vulnerabilities in Dahua cameras and related products. Dahua&#x27;s advisory rates them 8.1 on the CVSS scoring system and lists fixed firmware, while the U.S. National Vulnerability Database ( NVD ) currently assigns each a CVSS score of 9.8. \&quot;Attackers can bypass device identity authentication by constructing malicious data packets,\&quot; Dahua said in its advisory. A NetKeyboard client type triggers CVE-2021-33044 during authentication, while CVE-2021-33045 involves a loopback login request using the 127.0.0.1 address, according to the original disclosure from security researcher Bashis. As of August 19, 2026, both flaws remain listed in the U.S. Cybersecurity and Infrastructure Security Agency&#x27;s (CISA) Known Exploited Vulnerabilities ( KEV ) catalog, which records them as Dahua IP camera authentication-bypass vulnerabilities and advises applying vendor mitigations or discontinuing use if mitigations are unavailable. As of August 19, 2026, the public p2pwn repository remains accessible and independently confirms that the tool accepts Dahua serial numbers as input, checks CVE-2021-33044 and CVE-2021-33045, and contains a default dummy-account configuration. The repository does not establish Hunt.io&#x27;s count of 1,923 affected cameras or its claim that the account survives a factory reset on most firmware. The P2P path is separate from the two authentication-bypass flaws. ITRES Labs found during an earlier incident response investigation that, on firmware before mid-2024, a valid Dahua serial number could be used to establish an Easy4IP relay path before the connected device performed its own credential check, allowing a device behind NAT to become reachable through the vendor&#x27;s relay infrastructure. The dh-p2p proof-of-concept repository also shows that the Dahua P2P protocol locates a device through Easy4IPCloud using its serial number and can establish a tunnel to the camera or network video recorder. A successful P2P relay can make the device reachable behind NAT, but device-level authentication can still be required for access. Hunt.io said the operator&#x27;s recovered code recorded 89.4% of live serial numbers returning an open channel without authentication. That figure remains a campaign-specific claim from the recovered o&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
-    },
-    {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;category&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -6617,15 +6692,11 @@
       &quot;published&quot;: &quot;2026-08-19T10:00:52+00:00&quot;,
       &quot;summary&quot;: &quot;Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.&quot;,
       &quot;author&quot;: &quot;Martin Lee&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;
-        ],
+        &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
+        &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
@@ -6637,10 +6708,7 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Describing attacks with crime script analysis By Martin Lee Wednesday, August 19, 2026 06:00 On The Radar Crime script analysis is a narrative-driven technique that can be used alongside, or as an alternative to, tactics, techniques, and procedures (TTPs) — creating human-readable stories that describe attacks in a way non-technical audiences can understand. By analyzing the attacker’s workflow, we can identify how AI can be used to industrialize attacks. Through considering a business email compromise (BEC) example, we demonstrate how attackers may scale the attack to target previously unprofitable victims. Deconstructing an attack into discrete steps allows defenders to pinpoint intervention points where defenses can be effectively deployed, or where strategic disruption can break the script and thwart the threat actor&#x27;s operation. Effective defense against cyber attacks requires understanding how attacks are carried out and identifying where the attack can be disrupted or detected. Lockheed Martin’s Cyber Kill Chain was one of the earliest models to describe the steps required to conduct a cyber attack. However, its seven-step linear sequence is too rigid to apply to many attacks. The Attack Flow model of the MITRE ATT&amp;CK framework allows various tactics, techniques, and procedures (TTPs) to be chained together to describe exactly how attacks are conducted, including branches and loops if necessary. The resulting graphs are comprehensive, but can be daunting to a non-technical audience. In a world of evolving threats and shrinking budgets, defenders need techniques to communicate threats to a wider audience. Crime script analysis (CSA) is a technique originally developed in the mid-1990s as a criminology tool to understand how crimes are committed. CSA allows us to decompose an attack into a sequence of actions, decisions, and situational requirements. Describing an attack as a narrative using everyday language not only makes the description accessible to non-technical audiences, but also to identify \&quot;choke points\&quot; where the crime can be disrupted. If MITRE ATT&amp;CK TTPs describe the building blocks that comprise an attack, Attack Flow diagrams are the structural engineering blueprints showing how the blocks fit together, and CSA is the architect’s artistic impression of the finished building. Each component has their place in providing a picture of what is happening at different levels of abstraction for different audiences. Business email compromise as a case study The business email compromise (BEC) is a common scam. Someone with financial authority receives a message purporting to be from a superior in the same organization requesting an urgent payment. If the victim is fooled, payment is released to the scammer, who acts quickly to launder the money to disguise its origin before the scam is uncovered. In April I wrote about such an attack against a small, community sports club of which I am a member. The sum requested in the attack wasn’t large, so the reason was plausible. However, the tone of the email wasn’t quite correct. The treasurer’s suspicions were raised and the attempted fraud uncovered. This incident was particularly interesting because of the small scale of the attack. Historically, the research necessary to conduct the attack — the identification of the target victim, the person spoofed, the nature of the social engineering lure — has limited its scalability. Carrying out these tasks manually takes time and has meant that it has typically been conducted against larger businesses. The advent of AI means that the previously time-consuming preparative work can be automated. Expressing the attack as a crime script helps us understand where AI may assist the attacker and how the attack could be disrupted. Putting BEC in the crime script narrative We can imagine the crime script for the attack as follows: Figure 1. A general BEC crime script. Steps 1 – 4 are time consuming to perform manually, but can be automate&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      }
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -10294,6 +10362,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Reddit r/netsec&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;category&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;title&quot;: &quot;Ruby 4.0 Universal RCE Deserialization Gadget Chain - elttam&quot;,
+      &quot;link&quot;: &quot;https://www.reddit.com/r/netsec/comments/1vnxkvm/ruby_40_universal_rce_deserialization_gadget/&quot;,
+      &quot;published&quot;: &quot;2026-08-14T04:46:39+00:00&quot;,
+      &quot;summary&quot;: &quot;submitted by /u/AnimalStrange [link] [comments]&quot;,
+      &quot;author&quot;: &quot;/u/AnimalStrange&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_5_chatter&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Risky Business News&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;category&quot;: &quot;practitioner_analysis&quot;,
@@ -11795,6 +11890,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Rapid7&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;title&quot;: &quot;AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?&quot;,
+      &quot;link&quot;: &quot;https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation&quot;,
+      &quot;published&quot;: &quot;2026-08-12T13:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&#x27;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&#x27;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&#x27;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors &quot;,
+      &quot;author&quot;: &quot;Rapid7&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_offensive_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Huntress&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -11817,33 +11939,6 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Rapid7&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;title&quot;: &quot;AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?&quot;,
-      &quot;link&quot;: &quot;https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation&quot;,
-      &quot;published&quot;: &quot;2026-08-12T13:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&#x27;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&#x27;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&#x27;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors &quot;,
-      &quot;author&quot;: &quot;Rapid7&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_offensive_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -18177,33 +18272,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Kaspersky Securelist&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;category&quot;: &quot;threat_research_primary&quot;,
-      &quot;title&quot;: &quot;Network Anomaly Detection in KATA&quot;,
-      &quot;link&quot;: &quot;https://securelist.com/tr/network-anomaly-detection-in-kata/120892/&quot;,
-      &quot;published&quot;: &quot;2026-07-31T10:00:25+00:00&quot;,
-      &quot;summary&quot;: &quot;An analysis of how Network Anomaly Detection (NAD) rules work within Kaspersky Anti Targeted Attack, using Kerberoasting and DNS tunneling attacks as examples.&quot;,
-      &quot;author&quot;: &quot;Arseny Vesnovsky, Valery Akulenko, Dmitry Sabadash&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Unit 42&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -20729,33 +20797,6 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Cisco Talos&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;category&quot;: &quot;threat_research_primary&quot;,
-      &quot;title&quot;: &quot;Don’t swing at everything&quot;,
-      &quot;link&quot;: &quot;https://blog.talosintelligence.com/dont-swing-at-everything/&quot;,
-      &quot;published&quot;: &quot;2026-07-23T18:00:46+00:00&quot;,
-      &quot;summary&quot;: &quot;Thorsten explores Q2 2026 stats, the artificial buffer zone of 2026, and why smart, prioritized patching is more critical than ever.&quot;,
-      &quot;author&quot;: &quot;Thorsten Rosendahl&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -28737,10 +28778,10 @@
       &quot;source&quot;: &quot;NCSC UK&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;category&quot;: &quot;government_authoritative&quot;,
-      &quot;title&quot;: &quot;Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways&quot;,
-      &quot;link&quot;: &quot;https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways&quot;,
+      &quot;title&quot;: &quot;The &#x27;vibe coding spectrum&#x27; approach to AI-assisted software development&quot;,
+      &quot;link&quot;: &quot;https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development&quot;,
       &quot;published&quot;: &quot;2026-06-18T12:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.&quot;,
+      &quot;summary&quot;: &quot;Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -28764,10 +28805,10 @@
       &quot;source&quot;: &quot;NCSC UK&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;category&quot;: &quot;government_authoritative&quot;,
-      &quot;title&quot;: &quot;The &#x27;vibe coding spectrum&#x27; approach to AI-assisted software development&quot;,
-      &quot;link&quot;: &quot;https://www.ncsc.gov.uk/blogs/the-vibe-coding-spectrum-approach-to-ai-assisted-software-development&quot;,
+      &quot;title&quot;: &quot;Alert: NCSC issues advice following global targeting of Fortinet firewalls and VPN gateways&quot;,
+      &quot;link&quot;: &quot;https://www.ncsc.gov.uk/news/advice-following-global-targeting-of-fortinet-firewalls-and-vpn-gateways&quot;,
       &quot;published&quot;: &quot;2026-06-18T12:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Different code deserves different levels of oversight, so calibrate your approach to ‘vibe coding’ accordingly.&quot;,
+      &quot;summary&quot;: &quot;Organisations using Fortinet services are being urged to take action following a campaign affecting firewalls and VPN gateways.&quot;,
       &quot;author&quot;: &quot;&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
