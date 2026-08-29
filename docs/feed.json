@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-08-29T14:19:36.312187+00:00",
+  "generated_at": "2026-08-29T18:16:54.020295+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2170,
   "feed_status": {
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -31,6 +24,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -60,11 +60,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 1
     },
     "Kaspersky Securelist": {
@@ -81,20 +81,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -108,6 +94,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -130,11 +123,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 1
     },
     "Red Canary": {
@@ -144,25 +151,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 40,
       "in_window_count": 1
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -172,18 +172,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -192,6 +185,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -207,13 +207,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -221,12 +214,12 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -242,25 +235,32 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 4
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Huntress": {
@@ -270,13 +270,6 @@
       "item_count": 100,
       "in_window_count": 10
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -284,12 +277,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -298,12 +291,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -311,6 +304,20 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -326,33 +333,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 14
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -361,6 +347,20 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -368,19 +368,26 @@
       "item_count": 15,
       "in_window_count": 15
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 12
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -396,11 +403,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 10
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
       "in_window_count": 10
     },
     "Dark Reading": {
@@ -410,19 +424,12 @@
       "item_count": 50,
       "in_window_count": 25
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 10
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 14
+      "in_window_count": 6
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -431,13 +438,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
@@ -445,33 +445,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 26
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -485,6 +464,34 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "Reddit r/msp": {
@@ -508,26 +515,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 26
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -535,6 +528,13 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 11
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -681,55 +681,6 @@
   },
   "affinity_groups": [
     {
-      "label": "CVE-2026-82078 exploitation activity",
-      "anchor_signal": "CVE-2026-82078",
-      "theme_key": "cve-2026-82078",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation",
-          "ransomware_extortion"
-        ],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [
-          "CVE-2026-81578",
-          "CVE-2026-82078"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth",
-          "emergency_patch"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 5,
-      "cohesion": 0.466,
-      "shared_strong_signals": [
-        "CVE-2026-82078"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "69f95d6a80",
-        "220df2cac2",
-        "1f6abea0e7",
-        "be5a1f1b37"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
-        "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/",
-        "https://www.huntress.com/blog/papercut-actively-exploited",
-        "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-        "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/"
-      ]
-    },
-    {
       "label": "CVE-2026-81578 exploitation activity",
       "anchor_signal": "CVE-2026-81578",
       "theme_key": "cve-2026-81578",
@@ -761,6 +712,55 @@
       "cohesion": 0.466,
       "shared_strong_signals": [
         "CVE-2026-81578"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "69f95d6a80",
+        "220df2cac2",
+        "1f6abea0e7",
+        "be5a1f1b37"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
+        "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/",
+        "https://www.huntress.com/blog/papercut-actively-exploited",
+        "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+        "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/"
+      ]
+    },
+    {
+      "label": "CVE-2026-82078 exploitation activity",
+      "anchor_signal": "CVE-2026-82078",
+      "theme_key": "cve-2026-82078",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation",
+          "ransomware_extortion"
+        ],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-81578",
+          "CVE-2026-82078"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day",
+          "preauth_unauth",
+          "emergency_patch"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 5,
+      "cohesion": 0.466,
+      "shared_strong_signals": [
+        "CVE-2026-82078"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -875,7 +875,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 8,
+      "article_count": 7,
       "cohesion": 0.474,
       "shared_strong_signals": [
         "TeamPCP"
@@ -891,7 +891,6 @@
       "links": [
         "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
         "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-        "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
         "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/",
         "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
         "https://risky.biz/RBNEWS606/",
@@ -961,7 +960,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 9,
+      "article_count": 8,
       "cohesion": 0.286,
       "shared_strong_signals": [
         "npm"
@@ -976,7 +975,6 @@
       ],
       "links": [
         "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-        "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
         "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/",
         "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
         "https://risky.biz/RBNEWS606/",
@@ -1047,13 +1045,13 @@
       "also_targets": [],
       "cluster_ids": [
         "7e6f6f1703",
-        "f5aaf423ba",
-        "b7ab4cc245"
+        "b7ab4cc245",
+        "f5aaf423ba"
       ],
       "links": [
         "https://cyberscoop.com/unit-42-palo-alto-networks-warning-agentic-ai-frontier-models/",
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners",
-        "https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/"
+        "https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/",
+        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners"
       ]
     },
     {
@@ -1119,39 +1117,6 @@
       ]
     },
     {
-      "label": "WordPress vulnerability activity",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
-      "dominant_features": {
-        "affected_products": [
-          "WordPress"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 5,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "f5aaf423ba",
-        "77567e0c10",
-        "a5a31a520d"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners",
-        "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-        "https://www.reddit.com/r/netsec/comments/1vyxx41/philippine_nuclear_agency_and_naval_contractor/",
-        "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-        "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/"
-      ]
-    },
-    {
       "label": "Gitea active exploitation",
       "anchor_signal": "Gitea",
       "theme_key": "gitea",
@@ -1184,11 +1149,51 @@
         "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
         "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/"
       ]
+    },
+    {
+      "label": "Apple iOS/macOS vulnerability activity",
+      "anchor_signal": "Apple iOS/macOS",
+      "theme_key": "apple-ios-macos",
+      "dominant_features": {
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Apple iOS/macOS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "1f6abea0e7",
+        "4c8b646623"
+      ],
+      "links": [
+        "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+        "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+        "https://www.wiz.io/blog/vcs-dfir-threat-hunting-github-gitlab-azure-devops"
+      ]
     }
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-76581",
+          "cluster_id": "4052366531",
+          "first_source": "The Hacker News",
+          "first_published": "2026-08-29T16:25:03+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -1197,7 +1202,7 @@
         "cluster_id": "b0c59929e1",
         "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
         "sources_in_window": 3,
-        "window_hours": 2.4,
+        "window_hours": 2.9,
         "cohort_count": 2
       }
     ],
@@ -1342,26 +1347,6 @@
         ]
       },
       {
-        "actor": "LockBit",
-        "cluster_id": "205332731c",
-        "new_industries": [],
-        "new_products": [
-          "Android",
-          "Gogs",
-          "Microsoft SharePoint"
-        ],
-        "prior_top_industries": [
-          "financial_services",
-          "government",
-          "healthcare"
-        ],
-        "prior_top_products": [
-          "Citrix",
-          "Fortinet",
-          "ScreenConnect"
-        ]
-      },
-      {
         "actor": "ShinyHunters",
         "cluster_id": "62469ecc9b",
         "new_industries": [
@@ -1474,6 +1459,42 @@
   },
   "items": [
     {
+      "source": "The Hacker News",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+      "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "published": "2026-08-29T16:25:03+00:00",
+      "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-76581"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "WordPress": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 15,
+      "full_body": "",
+      "fetch_status": "ok"
+    },
+    {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -1564,7 +1585,7 @@
           ]
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "Share Link copied to clipboard! Tags ClickFix Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Threat intelligence Microsoft Threat Intelligence has observed a TerminalFix campaign, a variant of ClickFix, targeting organizations across multiple industries. The campaign uses compromised websites to display a fake Cloudflare CAPTCHA verification overlay that tricks users into copying and executing a malicious PowerShell command. While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully. Unlike earlier ClickFix variants that typically deliver a single infostealer, this TerminalFix campaign deploys a sophisticated multi-stage attack chain that combines DLL sideloading, steganographic payload extraction, extensive Active Directory reconnaissance, and a custom reverse-tunnel implant – giving the attacker persistent, network-level proxy access through the compromised host. Once executed, the PowerShell command masquerades as a Cloudflare verification process while downloading a ZIP archive containing a legitimate binary ( LockScreenContentServer.exe ) and a malicious DLL ( dui70.dll ) used for sideloading. The sideloaded DLL drives an elaborate second stage: downloading payloads concealed inside PNG images using steganography, establishing dual persistence through Registry Run keys and scheduled tasks, conducting thorough domain reconnaissance—including domain trust enumeration, domain admin discovery, Active Directory user description harvesting, and targeted server ping sweeps—and ultimately deploying a Python-based reverse-tunnel C2 implant that tunnels arbitrary TCP traffic back through an encrypted WebSocket channel to attacker infrastructure. This type of intrusion is particularly dangerous because it provides attackers with direct access to an organization’s internal network through the reverse tunnel. The observed reconnaissance and reverse-tunnel capability could enable an attacker to identify and reach additional systems from a compromised host. Microsoft did not observe the downstream actions described below in the analyzed chain. Organizations should treat affected devices as potential network pivot points and investigate for lateral movement and credential exposure. In the hands-on-keyboard phase that typically follows, attackers leverage this access to escalate privileges, disable security controls, exfiltrate sensitive data, and deploy ransomware across the organization. The combination of stealth techniques (DLL sideloading, steganography, hidden folders) and persistent network access make this TerminalFix campaign a serious threat to enterprise environments. In this blog, we share our detailed analysis of the TerminalFix attack chain – from initial compromise through network tunneling—along with indicators of compromise, detection details, and hunting guidance to help defenders identify and respond to this threat. Attack chain overview The TerminalFix campaign follows a multi-stage attack chain that progresses from social engineering through payload delivery, persistence, reconnaissance, and ultimately network tunneling: 1. Initial access via compromised website – A compromised website displays a fake Cloudflare Turnstile CAPTCHA verification overlay. The user is instructed to copy and paste a “verification” command. 2. PowerShell execution – The pasted command runs a disguised PowerShell script that downloads a ZIP archive from attacker infrastructure, extracts it to C:\\ProgramData , and silently launches a batch file. 3. DLL sideloading — The batch file executes LockScreenContentServer.exe , a signed legitimate binary, which automatically loads the co-located malicious dui70.dll . 4. Steganographic payload retrieval – The sidelo",
       "fetch_status": "ok"
     },
@@ -1594,7 +1615,7 @@
           "products": []
         }
       },
-      "score": 12
+      "score": 11
     },
     {
       "source": "BleepingComputer",
@@ -1923,7 +1944,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "The Record",
@@ -1951,7 +1972,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -1981,7 +2002,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Huntress",
@@ -2017,7 +2038,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Home Blog Beyond the Login Field: The Evolved Phishing Tradecraft Your Users Aren't Ready For Last Updated: August 28, 2026 Beyond the Login Field: The Evolved Phishing Tradecraft Your Users Aren't Ready For By: Shannon Grey James O’Leary Summarize with AI Summarize ChatGPT Claude Perplexity Google AI For years, standard Security Awareness Training (SAT) has conditioned users to look for the same old red flags: a misspelled domain name, a sketchy sender address, and a frantic call to action leading to a poorly cloned Microsoft login page. Today’s adversaries have largely moved past simple credential harvesting. Why spend time trying to brute-force or bypass multi-factor authentication (MFA) when you can just trick the user into bypassing it for you? Modern phishing attacks leverage sophisticated browser manipulation, malicious cloud app consent requests, and clever social engineering shortcuts that renders traditional 'check the URL' tactics insufficient as a standalone defense against sophisticated phishing campaigns At Huntress, we believe your simulated defenses should mirror real-world offenses. Our SOC manages millions of endpoints and identities through Managed EDR and ITDR, giving us direct visibility into the tactics and tradecraft attackers are actively using to compromise organizations. These threats have evolved well beyond what most simulated phishing scenarios cover. That’s why we’ve populated our SAT library with 'Featured' scenarios that replicate these highly evolved, complex threat actor tradecraft. Here is a look inside the advanced tactics we’re simulating—and how we help your users spot the setup before a real attacker targets them. 1. ClickFix Attackers have realized that convincing a user to download and run an .exe file is getting harder. Instead, they are manipulating users into executing malicious code via standard system tools under the guise of fake CAPTCHA to prove themselves as human users. See here . Figure 1: In a ClickFix attack, targets are asked to complete a series of steps, leading to them unwittingly executing malicious code The actual threat : ClickFix is a highly deceptive social engineering technique that completely sidesteps traditional browser defenses by weaponizing user muscle memory and routine troubleshooting habits. The attack intercepts the victim with a simulated CAPTCHA prompt. Instead of forcing a suspicious .exe file download that would trigger browser warnings and user anxiety, it manipulates the user into executing a precise sequence of standard keyboard shortcuts (Win + R, Ctrl + V, and Enter) to manually paste and run the malicious command directly within their native terminal. How we replicate it : The scenario begins with a targeted phishing email disguised as a DocuSign document requiring an immediate electronic signature. When the user clicks the embedded link to view the document, they are directed to a simulated landing page where a fraudulent verification overlay intercepts them, displaying these instructions: To better prove you are not a robot, please: Press & hold the Windows Key + R. In the verification window, press Ctrl + V. Press Enter on your keyboard to finish. They are then asked to paste this command into their terminal using a set of key combinations. Cybercriminals weaponize these standard system shortcuts to prompt victims to unknowingly download infostealers, malware, and malicious RATs/RMM tools. See demo here : https://phishingdefense.org/phishing/command-execution-demo?trial=1 Why it works: Exploits Troubleshooting Habits : Users are deeply conditioned to follow step-by-step technical instructions to resolve any roadblocks in access. Bypasses \"Download Anxiety\": Standard security awareness has successfully taught users to fear downloading and opening random .exe files. This attack sidesteps that reflex entirely by providing a keyboard combo done in the terminal instead, which prompts a GUI-less download entirely. Help users question suspicious ins",
       "fetch_status": "ok"
     },
@@ -2055,7 +2076,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Home Blog Teach Yourself to Phish: The Strategy Behind Phishing Simulations Last Updated: August 28, 2026 Teach Yourself to Phish: The Strategy Behind Phishing Simulations By: Chris Henderson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Security awareness training is easy to think about as a passive item. You go buy a training platform or SCORM files for your LMS, assign the annual training, set it to nag your people to watch the video, and you’re done. While that approach certainly will fulfill some of the compliance requirements to perform annual security awareness training, is it actually improving the security posture of your organization? Humans are both our biggest cybersecurity risk and our best detection engine. While humans and their identities are the target for initial access on most modern breaches, they are also far more capable of detecting ‘weird’ stuff than security tools. The proper security awareness training program minimizes the risk posed by your employees while also improving their response times when they detect something is off. Spending the extra time to bolster the human detection capabilities is some of the best ROI you can achieve in the security space. At Huntress, we train our human detection capabilities in two ways: First - Monthly security awareness training. Every month our staff receive new training to watch, using our very own Security Awareness Training product. This is to keep security front of mind and ensure a base level of security acumen across the workforce. We use these to reinforce good cyber hygiene while also educating our staff on the tactics used by adversaries. (Want us to manage those monthly trainings on your behalf? Check out our managed learning option ) Second - Monthly (or more frequent) phishing simulations. We do these frequently and celebrate individual failures. Tracking the organizational failure rates and adjusting the phishing lures you use accordingly builds resilience. Why Phishing Simulations? Social engineering is an attack on the psychological traits we have as humans: an innate desire to be helpful, trusting of strangers, and a fear of getting in trouble. Attackers leverage techniques of fear, intimidation, urgency, empathy, compensation, or authority in order to spike an adrenaline response to their message. Their goal is to spike your ‘fight or flight’ response so you don’t stop and logically think about an email. Attackers take advantage of the psychological traits we have the same way they exploit vulnerabilities on a server. They find a vulnerable asset and exploit that vulnerability in order to gain initial access to a system. Simulated phishing has the same desired outcome as vulnerability scanning your servers. We want to know where there are weaknesses so we can address them. Said differently, we are enumerating our human attack surface. Turn phishing practice into lasting resilience Effective phishing simulations are designed to change behavior, not to punish employees or create a one-time compliance event. See how Huntress Managed SAT makes realistic practice part of a broader security-awareness strategy. Phishing simulations have three goals: 1. Exposure therapy By regularly using the same psychological exploits social engineers use, we lessen their impact and reduce the likelihood of an adrenaline response. In order to increase organizational resilience, you should rotate the tactics used in your monthly simulations each campaign. 2. Identify your most vulnerable Some of your users will be more susceptible to social engineering attacks either due to a heightened sense of trust or a lack of technical knowledge required to inspect an email for legitimacy. A single failure is a learning opportunity in and of itself. Celebrate when someone fails and owns their failure; they are going to be far less likely to click next time. However, a series of failures is an indication the user needs individualized help. Spend your time training ",
       "fetch_status": "ok"
     },
@@ -2093,7 +2114,7 @@
           "products": []
         }
       },
-      "score": 9,
+      "score": 8,
       "full_body": "Home Blog A Beginner’s Guide to Phishing Simulation Training for Employees Last Updated: August 28, 2026 A Beginner’s Guide to Phishing Simulation Training for Employees By: Team Huntress Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Unless you’ve been living under a rock, everyone knows what phishing is and most likely has received or even fallen for a phishing email themselves. So at this point, there should be no excuse, right? Wrong. While it’s apparent we all know what we’re up against, the facts still show that we continue to fall victim to these attacks. Therefore, the only way you’ll be able to build up your defenses and mitigate against phishing attacks is through practice. That’s where phishing training comes in handy for you and your employees. Starting your phishing simulation training program as a part of your security awareness routine is the first step to better protecting your organization. To help you get moving, we’ll walk you through the steps of how to run a phishing simulation and create an action plan based on the results you find with Huntress. What is Phishing Training? The purpose of a phishing simulation training program is to let employees experience a real-world phishing attack in a safe place. It helps regularly gauge where your organization lands in its risk of experiencing an attack. As a result, phishing simulation training should educate and create a lasting impact on your employee’s ability to make better decisions when confronted with phishing emails. These decisions can create outcomes like not clicking links, reporting suspicious emails, taking a moment to pause instead of being manipulated by a sense of urgency, and being more transparent about security threats. A far too common misconception of phishing training is to treat it as a way to scrutinize employees. And even more drastically docking pay or letting someone go because of it. More often than not it’s going to be less about the individual and more about the process that’s been set up to help people learn. A phishing simulation test can be compared to taking a test in school. A test is not the same as an entire year of learning. Phishing tests alone are not the same as a training program, that’s like taking a test your first day of school which will determine your grade — that wouldn’t be very useful. But rather these phishing tests are a good temperature check to see what needs improving and a way to apply what you’ve learned to do better next time. See a phishing simulation from the inside A phishing simulation gives employees a safe way to experience a realistic attack and learn from the outcome. Watch the video before reviewing the setup process to see how Huntress SAT connects scenarios, learner actions, and follow-up training. How phishing simulations work The organization’s admin will have the option to pick from a number of real-life phishing scenarios to send out to their employees. It’s up to each employee to ignore it, report it, or click it. Once completed, the administrator will be able to analyze the results and access the severity of the organization’s risk for the phishing simulation test. This process should be repeated frequently to continue to monitor results and get an accurate depiction of what your organization is up against in the real world. For all organizations, we recommend a minimum of monthly phishing testing with employees. **It’s important to note that the employee phishing training program is not designed to test your technical infrastructure on how well it defends against phishing. That’s a different series of tests. A true phishing simulation test is designed to educate your employees on how well they defend against phishing emails. This is where the term whitelisting comes into play, which we will get to in our step-by-step guide. Why make phishing training fun? Despite the status quo, we don’t want phishing simulations to sound all doom and gloom. Our mission is to flip the scrip",
       "fetch_status": "ok"
     },
@@ -2144,39 +2165,24 @@
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "WordPress",
-          "LiteSpeed",
-          "Microsoft BitLocker"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2023-49105",
-          "CVE-2024-28000"
+          "CVE-2023-49105"
         ],
         "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "WordPress": "target",
-          "LiteSpeed": "target",
-          "Microsoft BitLocker": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 7,
-      "full_body": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body  Ravie Lakshmanan  Aug 28, 2026 Vulnerability / Cyber Espionage The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities ( KEV ) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines. The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of WebDAV API authentication bypass that could allow an attacker to access, modify or delete any file without authentication if the username of the victim is known and the victim has no signing-key configured, which is the default configuration. Disclosed by ownCloud in November 2023, the issue impacts \"core\" versions from 10.6.0 through 10.13.0. It was fixed in version 10.13.1. CISA's addition of the flaw to the KEV catalog comes a couple of days after Hunt.io said it identified an open directory on the host \"31.58.209[.]241,\" which staged custom Python scripts, open-source offensive security tooling such as Sliver, Metasploit, and Mettle, and exfiltrated data from two Philippine organizations, including a nuclear research body and a marine engineering and shipbuilding company that provides services to the Philippine Navy. \"The scripts targeted an ownCloud instance operated by a nuclear research body, using pre-signed URLs generated with an empty signing secret, which allowed for the unauthenticated retrieval of files over WebDAV,\" Hunt.io said. A separate intrusion is said to have exploited a WordPress site managed by the marine engineering and shipbuilding company. The threat intelligence firm attributed the attacks to a Chinese speaker due to the presence of simplified Chinese in source code comments, docstrings, log output, and folders used to sort stolen data. Five custom Python scripts present in the exposed directory have been found to implement an exploit for CVE-2023-49105, allowing an attacker who is in possession of valid usernames on an ownCloud instance to obtain unauthorized access without having to supply the credentials themselves. \"An attacker with knowledge of valid usernames on the instance could construct signed WebDAV requests that would be accepted by the server as an authentication action by that user, without ever supplying credentials,\" Hunt.io said. Of the five scripts, four target a single account each, while the fifth script includes steps to enumerate the WebDAV directory and log every download attempt. In all, the threat actor is estimated to have downloaded 176 files totaling about 372 MB from the nuclear research entity and stored them across five staging directories. This includes nuclear-material account records, draft strategic plans covering 2023 through 2028, research reactor core components, historical fuel inventories, and presentation material, employee personal information, a 192 MB SQL dump of a ZKTeco BioTime attendance and personnel database, and credentials stores, such as BitLocker keys, a KeePass database, and AxCrypt-encrypted files. In tandem, the threat actor has also exploited a critical flaw in the LiteSpeed Cache plugin for WordPress ( CVE-2024-28000 , CVSS score: 9.8) to obtain elevated access to the WordPress site operated by another Philippines company. Separately, a Python script (\"brute_xmlrpc.py\") identified in the open directory targets the same site with an XML-RPC brute-force attack to guess account credentials , thereby giving the attackers a pathway independent of CVE-2024-28000. Further analysis of the WordPress source code has unearthed an active, possibly unrelated compromise that leverages EtherHiding to extract HTML content from an Ethereum smart contract and ultimately serve a Google verification page that's common in ClickFix-style attacks. The lure, for its part, launches \"pcalua.exe\" to invoke \"mshta.exe\" and download a Visua",
-      "fetch_status": "ok"
+      "score": 6
     },
     {
       "source": "SecurityWeek",
@@ -2208,7 +2214,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "Rapid7",
@@ -2254,7 +2260,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Back to Blog Products and Tools Metasploit Wrap Up: Payloads and Exploits, and Scanners, Oh my! The Metasploit Team Aug 28, 2026 | Last updated on Aug 28, 2026 | 8 min read This release has something for everyone: scanner modules, payloads, and exploits. This release’s scanners cover Drupal, PanOS, WordPress, and SCADA; this release’s exploits cover Tenable, Flowise, CheckPoint, Langflow, Ruby, and SPIP. New module content (16) Forgejo Arbitrary File Read via Org-mode Include Authors: NightRang3r and xbow-security Type: Auxiliary Pull request: #21778 contributed by jvoisin Path: gather/forgejo_orgmode_fileread_cve_2026_59774 Description: Adds module targeting CVE-2026-59774, an arbitrary file read in Forgejo 7.0 through 15.0.5 and 16.0.0–16.0.1. Wordpress Planyo Online Reservation System Arbitrary File Read (CVE-2026-3576) Authors: Balachandar Gowrisankar and sinn3r [email protected] Type: Auxiliary Pull request: #21769 contributed by anirbala98 Path: gather/wp_planyo_lfi_cve_2026_3576 Description: This adds a module for, CVE-2026-3576, a local file inclusion vulnerability via server side request forgery in WordPress's Planyo Online Reservation System plugin (versions < 3.1). The plugin's AJAX proxy ulap.php does not validate the scheme of URLs supplied to it. This allows unauthenticated attackers to supply file:// URLs to ulap.php and retrieve any arbitrary local file contents from the target. Concrete CMS Unauthenticated File Usage Disclosure Author: dividesbyzer0 Type: Auxiliary Pull request: #21695 contributed by zoomdbz Path: scanner/http/concrete_cms_file_usage_disclosure Description: Adds an auxiliary scanner module for CVE-2026-6826: Concrete CMS 9.x before 9.5.1 exposes the file usage dialog controller at /ccm/system/dialogs/file/usage/ <fID> without a view permission check. Drupal Core PostgreSQL EntityQuery SQL Injection Author: Lukas Johannes Moeller Type: Auxiliary Pull request: #21765 contributed by JohannesLks Path: scanner/http/drupal_pgsql_entityquery_sqli Description: This adds a new module: drupal_pgsql_entityquery_sqli for CVE-2026-9082, an unauthenticated SQL injection in Drupal core's PostgreSQL EntityQuery condition handler. The module confirms the injection using the framework's PostgreSQL time-based blind SQLi implementation. PAN-OS GlobalProtect CAS CVE-2026-0265 Vulnerability Checker Authors: Bishop Fox Team X and Rapid7 Research / Deral Heiland adaptation Type: Auxiliary Pull request: #21610 contributed by percx Path: scanner/http/panos_cve_2026_0265 Description: Adds a new Metasploit auxiliary scanner module for safely detecting CVE-2026-0265 affecting PAN-OS GlobalProtect portals when Clientless Application Services (CAS) authentication is enabled. WordPress Core wp2shell Unauthenticated SQL Injection via REST Batch Route Confusion Authors: Searchlight Cyber and dividesbyzer0 Type: Auxiliary Pull request: #21694 contributed by zoomdbz Path: scanner/http/wordpress_wp2shell_sqli Description: Adds an auxiliary scanner module for the \"wp2shell\" WordPress core unauthenticated SQL injection: REST batch route confusion (CVE-2026-63030) chained with the WP_Query author__not_in string interpolation (CVE-2026-60137). Affects WordPress core 6.9.0-6.9.4 and 7.0.0-7.0.1 (fixed in 6.9.5 / 7.0.2, 2026-07-17). Inductive Automation Ignition Gateway Fingerprint Author: Ethan Thomason [email protected] Type: Auxiliary Pull request: #21603 contributed by ethan-thomason Path: scanner/scada/ignition_statusping Description: Adds an auxiliary scanner module that fingerprints Inductive Automation Ignition gateways across all major version families by probing unauthenticated info endpoints. OPC-UA Server Detection Author: Ethan Thomason [email protected] Type: Auxiliary Pull request: #21612 contributed by ethan-thomason Path: scanner/scada/opcua_enum Description: Adds auxiliary/scanner/scada/opcua_enum, a scanner module that detects OPC-UA servers speaking the OPC-UA TCP binary transport (opc.tcp://). Tenable Security Cent",
       "fetch_status": "ok"
     },
@@ -3753,9 +3759,7 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [
           "CVE-2026-75604"
@@ -3766,28 +3770,13 @@
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "GitHub": "target",
-          "npm": "mention",
-          "Apple iOS/macOS": "mention"
-        },
+        "role_map": {},
         "weak_tags": {
-          "products": [
-            [
-              "npm",
-              "mention",
-              0.35
-            ],
-            [
-              "Apple iOS/macOS",
-              "mention",
-              0.26
-            ]
-          ]
+          "products": []
         }
       },
       "score": 17,
-      "full_body": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE  Swati Khandelwal  Aug 27, 2026 Vulnerability / Web Security Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem. The Windows path traversal, tracked as CVE-2026-75604 (CVSS score: 9.0), affects Next.js applications that use both the Pages Router and App Router without Cache Components when the server uses a Windows filesystem. Linux and macOS deployments are not affected. \"There is no known workaround for affected windows-hosted applications. You should upgrade immediately if your server is hosted on Windows,\" Vercel said in its advisory . The fixes are available in Next.js 15.5.24 (Maintenance LTS) and 16.3.3 (Active LTS), published on August 25, 2026. Affected users can upgrade by running npm install next@15.5.24 for the 15.5 line or npm install next@16.3.3 for the 16.3 line. Applications hosted on Vercel are protected from both vulnerabilities and require no upgrade, Vercel said in a changelog entry published August 25. The vulnerability affects Next.js versions 13.4 through 15.5.23 and versions 16.0 through 16.3.2. The attack mechanism was not disclosed in the advisory. Vercel's changelog also credited the researchers evolutionstorm and B0RI with the responsible disclosure of the Windows vulnerability. AVIF Image Optimization Flaw Next.js uses the sharp image processing package to optimize images, and sharp relies on the libheif C library to parse AVIF files. A critical heap buffer overflow in libheif can lead to remote code execution when Next.js processes an attacker-controlled AVIF image ( GHSA-2xp9-vwfh-vxw4 , CVSS v4: 9.5). The underlying vulnerability, disclosed by the libheif maintainers as GHSA-g89c-p67h-r497 , involves a heap buffer overflow in the library's image scaling code. All libheif versions through v1.23.1 are affected. The AVIF advisory covers Next.js versions 10.0.0 through 15.5.23 and all 16.x releases through 16.3.2. A crafted AVIF file that contains nested identity-derivation and auxiliary item references causes libheif to build a decoded image with two Alpha plane entries at different bit depths. The scaler allocates a destination buffer sized for the first, 8-bit Alpha entry but then writes 16-bit sample values from the second entry into that same buffer, overwriting approximately 16,384 bytes past the allocation boundary. The researchers credited in the advisory, rootxharsh as Finder and KarimPwnz as Coordinator, released a full Python proof-of-concept alongside the libheif disclosure that reproduces the heap corruption under an address sanitizer build. The libheif advisory credited rootxharsh as Finder and KarimPwnz as Coordinator, but Vercel's changelog attributed the disclosure to the Hacktron team . \"We were able to get RCE using this on multiple applications,\" the researchers said in the libheif advisory . The proof-of-concept demonstrates the out-of-bounds write, and the researchers' claim of remote code execution on multiple applications has not been independently corroborated. Next.js enables AVIF optimization only when a site explicitly adds image/avif to the formats configuration in next.config.js. Deployments without that configuration are not exposed to this flaw. The patched Next.js releases turn off AVIF optimization entirely until the upstream fix propagates from libheif. The Hacker News confirmed on August 27, 2026, via the libheif GitHub releases page that v1.23.2 had not been published. Vercel had scheduled the August patches for August 26 as part of its monthly security cadence, but moved the release forward by one day after discovering an additional critical-severity vulnerability in one of its upstream dependencies. \"Earlier",
+      "full_body": "",
       "fetch_status": "ok"
     },
     {
@@ -4076,38 +4065,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-      "published": "2026-08-27T13:31:13+00:00",
-      "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
-      "author": "Bill Toulas",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 9
     },
     {
       "source": "Huntress",
@@ -7472,37 +7429,6 @@
       "fetch_status": "fetch_failed:HTTPError"
     },
     {
-      "source": "The Hacker News",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-      "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-      "published": "2026-08-24T12:35:36+00:00",
-      "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According to findings from Gen Digital, WordlistLoader is being used to deliver Amatera Stealer (aka ACR Stealer or AcridRain Stealer) via ClearFake campaigns, which employ the ClickFix (aka FakeCaptcha)",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
       "source": "Simon Willison",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -7683,6 +7609,60 @@
         }
       },
       "score": 5
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "llm 0.33",
+      "link": "https://simonwillison.net/2026/Aug/22/llm/",
+      "published": "2026-08-22T17:01:16+00:00",
+      "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key . The Python EmbeddingModel.embed() , EmbeddingModel.embed_multi() , Collection.embed() and Collection.embed_multi() methods accept key= too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read self.key continue to work through a compatibility fallback. Thanks, ChrisJr404 . #757 , #1620 The embedding models now use the same pattern for keys that regular LLM models do. llm prompt -t/--template can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another. This unlocks a neat pattern where you can create templates that package a model",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "More than just code review",
+      "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "published": "2026-08-22T15:56:54+00:00",
+      "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a change to a piece of software. Tags: code-review , coding-agents , generative-ai , agentic-engineering , ai , llms",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Unit 42",
@@ -7965,7 +7945,7 @@
       "title": "Cloud CISO Perspectives: Sticking to security fundamentals in the AI era",
       "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/",
       "published": "2026-08-21T16:00:00+00:00",
-      "summary": "Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f2b104c64d0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> How to stay strong with security fundamentals in the AI era By Chris Betz, CISO, Google Cloud Chris Betz, CISO, Google Cloud As AI accelerates the capabilities of adv",
+      "summary": "Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f0345a4c8d0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> How to stay strong with security fundamentals in the AI era By Chris Betz, CISO, Google Cloud Chris Betz, CISO, Google Cloud As AI accelerates the capabilities of adv",
       "author": "Chris Betz",
       "in_window": false,
       "taxonomy": {
