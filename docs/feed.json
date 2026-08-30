@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T00:01:15.000840+00:00",
+  "generated_at": "2026-08-30T04:54:35.509207+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2170,
@@ -11,13 +11,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -25,18 +18,25 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -53,19 +53,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -81,13 +81,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -95,12 +88,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -109,12 +109,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -130,19 +130,19 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 1
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -151,12 +151,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 40,
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -165,11 +165,18 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -179,15 +186,22 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -200,25 +214,11 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Datadog Security Labs": {
@@ -235,19 +235,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 10
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -256,18 +249,25 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 100,
+      "in_window_count": 10
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Trail of Bits": {
@@ -305,13 +305,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -319,12 +312,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -332,6 +325,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -347,6 +347,13 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 14
+    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -361,19 +368,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 14
-    },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
       "item_count": 100,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -382,12 +382,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -396,25 +396,11 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 9
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 10
     },
     "Dark Reading": {
@@ -424,12 +410,26 @@
       "item_count": 50,
       "in_window_count": 25
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -438,11 +438,32 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Reddit r/cybersecurity": {
@@ -452,12 +473,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -473,13 +494,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -493,20 +507,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -779,59 +779,6 @@
       ]
     },
     {
-      "label": "Gitea active exploitation",
-      "anchor_signal": "Gitea",
-      "theme_key": "gitea",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [
-          "manufacturing_industrial",
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "Gitea",
-          "GitLab",
-          "OpenAI/ChatGPT"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ]
-      },
-      "cluster_count": 6,
-      "article_count": 9,
-      "cohesion": 0.256,
-      "shared_strong_signals": [
-        "Gitea"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "c7b4417ba0",
-        "b61187f40b",
-        "4052366531",
-        "be5a1f1b37",
-        "205332731c",
-        "b1eb2141e2"
-      ],
-      "links": [
-        "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-        "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
-        "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-        "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-        "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
-        "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
-        "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-        "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html"
-      ]
-    },
-    {
       "label": "TeamPCP targeting Gitea",
       "anchor_signal": "TeamPCP",
       "theme_key": "teampcp",
@@ -888,6 +835,59 @@
         "https://risky.biz/RBNEWS606/",
         "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
         "https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps"
+      ]
+    },
+    {
+      "label": "Gitea active exploitation",
+      "anchor_signal": "Gitea",
+      "theme_key": "gitea",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "TeamPCP"
+        ],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "Gitea",
+          "GitLab",
+          "OpenAI/ChatGPT"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 6,
+      "article_count": 9,
+      "cohesion": 0.256,
+      "shared_strong_signals": [
+        "Gitea"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "c7b4417ba0",
+        "b61187f40b",
+        "4052366531",
+        "be5a1f1b37",
+        "205332731c",
+        "b1eb2141e2"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+        "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+        "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+        "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+        "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
+        "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+        "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html"
       ]
     },
     {
@@ -1368,8 +1368,7 @@
         ],
         "new_products": [
           "GitLab",
-          "Gitea",
-          "OpenAI/ChatGPT"
+          "Gitea"
         ],
         "prior_top_industries": [
           "financial_services",
@@ -1379,7 +1378,7 @@
         "prior_top_products": [
           "Android",
           "Gogs",
-          "Microsoft SharePoint"
+          "OpenAI/ChatGPT"
         ]
       },
       {
@@ -1537,7 +1536,7 @@
           "products": []
         }
       },
-      "score": 15,
+      "score": 14,
       "full_body": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE  Ravie Lakshmanan  Aug 29, 2026 Vulnerability / Web Security Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in the WPMU DEV Dashboard plugin that could allow an unauthenticated attacker, on sites connected to WPMU DEV with Hub Single-Sign On (SSO) enabled and mapped to an administrator, to obtain administrator access and achieve site takeover. (Affects all versions up to, and including, 5.0.1) CVE-2026-18431 (CVSS score: 9.8) - An arbitrary file write flaw in the Avada theme for WordPress that makes it possible for an unauthenticated attacker to write attacker-controlled files to the server, which, in turn, can be exploited to create and execute arbitrary PHP files, resulting in remote code execution and complete site compromise. (Affects all versions up to, and including, 7.16, when the Fusion Builder plugin is installed and active in versions up to, and including, 3.16) CVE-2026-19632 (CVSS score: 9.8) - A sensitive information exposure flaw in the \"TranslatePress – Translate Multilingual sites with AI Translation\" plugin that could allow an unauthenticated attacker to extract the raw administrator password-reset URL, including the plaintext reset key and login parameters, and enable full administrator account takeover. (Affects all versions up to, and including, 3.3.1 only when automatic string saving is enabled and the target administrator's profile locale is set to a published secondary language) CVE-2026-19598 (CVSS score: 9.8) - A privilege escalation flaw in the \"Pods – Custom Content Types and Fields\" plugin that allows an unauthenticated attacker to escalate their privileges to Administrator or overwrite the password of any user account, including the site owner's, resulting in complete site takeover. (Affects all versions up to, and including, 3.3.9) CVE-2026-82222 (CVSS score: 10.0) - A vulnerability in the GiveWP plugin that allows an attacker to execute arbitrary commands on the server of a GiveWP site that has one published donation form and one active payment gateway. (Affects all versions up to, and including, 4.16.7.1) \"The flaw chains a broken 'safe unserialize' helper, a donation flow that feeds that helper attacker-controlled data, and a gadget chain in code that GiveWP ships,\" Patchstack said about CVE-2026-82222. \"This case shows how PHP object injection turns into remote code execution when three ingredients line up: a place to store an attacker-controlled serialized object, code that later unserializes it, and a gadget chain in loaded classes.\" \"The root causes are common: trusting a serialization sanitizer that does not actually strip objects, unserializing data read back from the database as if it were trusted, and shipping development-only libraries into production where they provide ready-made gadget chains.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Vulnerability , Web Security , WordPress ⚡ Top Stories This Week Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload Claude Opus 4.6 Bypasses Gym Booking ",
       "fetch_status": "ok"
     },
@@ -1632,7 +1631,7 @@
           ]
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Share Link copied to clipboard! Tags ClickFix Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Threat intelligence Microsoft Threat Intelligence has observed a TerminalFix campaign, a variant of ClickFix, targeting organizations across multiple industries. The campaign uses compromised websites to display a fake Cloudflare CAPTCHA verification overlay that tricks users into copying and executing a malicious PowerShell command. While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully. Unlike earlier ClickFix variants that typically deliver a single infostealer, this TerminalFix campaign deploys a sophisticated multi-stage attack chain that combines DLL sideloading, steganographic payload extraction, extensive Active Directory reconnaissance, and a custom reverse-tunnel implant – giving the attacker persistent, network-level proxy access through the compromised host. Once executed, the PowerShell command masquerades as a Cloudflare verification process while downloading a ZIP archive containing a legitimate binary ( LockScreenContentServer.exe ) and a malicious DLL ( dui70.dll ) used for sideloading. The sideloaded DLL drives an elaborate second stage: downloading payloads concealed inside PNG images using steganography, establishing dual persistence through Registry Run keys and scheduled tasks, conducting thorough domain reconnaissance—including domain trust enumeration, domain admin discovery, Active Directory user description harvesting, and targeted server ping sweeps—and ultimately deploying a Python-based reverse-tunnel C2 implant that tunnels arbitrary TCP traffic back through an encrypted WebSocket channel to attacker infrastructure. This type of intrusion is particularly dangerous because it provides attackers with direct access to an organization’s internal network through the reverse tunnel. The observed reconnaissance and reverse-tunnel capability could enable an attacker to identify and reach additional systems from a compromised host. Microsoft did not observe the downstream actions described below in the analyzed chain. Organizations should treat affected devices as potential network pivot points and investigate for lateral movement and credential exposure. In the hands-on-keyboard phase that typically follows, attackers leverage this access to escalate privileges, disable security controls, exfiltrate sensitive data, and deploy ransomware across the organization. The combination of stealth techniques (DLL sideloading, steganography, hidden folders) and persistent network access make this TerminalFix campaign a serious threat to enterprise environments. In this blog, we share our detailed analysis of the TerminalFix attack chain – from initial compromise through network tunneling—along with indicators of compromise, detection details, and hunting guidance to help defenders identify and respond to this threat. Attack chain overview The TerminalFix campaign follows a multi-stage attack chain that progresses from social engineering through payload delivery, persistence, reconnaissance, and ultimately network tunneling: 1. Initial access via compromised website – A compromised website displays a fake Cloudflare Turnstile CAPTCHA verification overlay. The user is instructed to copy and paste a “verification” command. 2. PowerShell execution – The pasted command runs a disguised PowerShell script that downloads a ZIP archive from attacker infrastructure, extracts it to C:\\ProgramData , and silently launches a batch file. 3. DLL sideloading — The batch file executes LockScreenContentServer.exe , a signed legitimate binary, which automatically loads the co-located malicious dui70.dll . 4. Steganographic payload retrieval – The sidelo",
       "fetch_status": "ok"
     },
@@ -1662,7 +1661,7 @@
           "products": []
         }
       },
-      "score": 11
+      "score": 10
     },
     {
       "source": "BleepingComputer",
@@ -8016,7 +8015,7 @@
       "title": "Cloud CISO Perspectives: Sticking to security fundamentals in the AI era",
       "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/",
       "published": "2026-08-21T16:00:00+00:00",
-      "summary": "Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7ff016a5caf0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> How to stay strong with security fundamentals in the AI era By Chris Betz, CISO, Google Cloud Chris Betz, CISO, Google Cloud As AI accelerates the capabilities of adv",
+      "summary": "Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f6562e452b0>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> How to stay strong with security fundamentals in the AI era By Chris Betz, CISO, Google Cloud Chris Betz, CISO, Google Cloud As AI accelerates the capabilities of adv",
       "author": "Chris Betz",
       "in_window": false,
       "taxonomy": {
@@ -12927,33 +12926,6 @@
       }
     },
     {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Don't classify. Hallucinate!",
-      "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
-      "published": "2026-08-14T21:54:35+00:00",
-      "summary": "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit! His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess: Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query. Product classifications might look like: Furniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables Décor & Pillows / Decorative Pillows & Blankets / Throw Pillows Furniture / Bedroom Furniture / Dressers & Chests Kitchen & Tabletop /",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Rapid7",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -14579,6 +14551,33 @@
       }
     },
     {
+      "source": "Rapid7",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
+      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
+      "published": "2026-08-12T13:00:00+00:00",
+      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that's going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it's helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there's a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ",
+      "author": "Rapid7",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -14601,33 +14600,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Rapid7",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?",
-      "link": "https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation",
-      "published": "2026-08-12T13:00:00+00:00",
-      "summary": "Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that's going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it's helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there's a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ",
-      "author": "Rapid7",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -20437,6 +20409,33 @@
       }
     },
     {
+      "source": "GreyNoise",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Introducing Tactics: See What Adversaries Do After They’re Inside",
+      "link": "https://www.greynoise.io/blog/introducing-tactics-see-what-adversaries-do-after-they-are-inside",
+      "published": "2026-07-31T00:00:00+00:00",
+      "summary": "GreyNoise Tactics gives anyone running a Deception Sensor visibility into what adversaries do after initial compromise, automatically mapping qualifying sessions to the MITRE ATT&CK framework.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -20483,33 +20482,6 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "GreyNoise",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Introducing Tactics: See What Adversaries Do After They’re Inside",
-      "link": "https://www.greynoise.io/blog/introducing-tactics-see-what-adversaries-do-after-they-are-inside",
-      "published": "2026-07-31T00:00:00+00:00",
-      "summary": "GreyNoise Tactics gives anyone running a Deception Sensor visibility into what adversaries do after initial compromise, automatically mapping qualifying sessions to the MITRE ATT&CK framework.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -41182,14 +41154,14 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Prioritizing Alerts Triage with Higher-Order Detection Rules",
-      "link": "https://www.elastic.co/security-labs/blog/higher-order-detection-rules",
+      "source": "GreyNoise",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "The Invisible Army: Why IP Reputation Fails Against the Rotation Economy",
+      "link": "https://www.greynoise.io/blog/invisible-army-why-ip-reputation-fails-against-rotation-economy",
       "published": "2026-04-02T00:00:00+00:00",
-      "summary": "Scaling SOC efficiency through multi-signal correlation and higher-order detection patterns.",
-      "author": "Samir Bousseaden",
+      "summary": "Attackers route malicious traffic through ordinary home internet connections — and to a reputation feed, the source IP is indistinguishable from a legitimate user's connection. GreyNoise analyzed 4 billion sessions over 90 days and found that 39% of unique IPs targeting the edge come from residential address space. 78% vanish after just 1–2 sessions, before any reputation system can flag them. The report documents why detection must shift from where the traffic comes from to what it is doing.",
+      "author": "",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -41209,14 +41181,14 @@
       }
     },
     {
-      "source": "GreyNoise",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "The Invisible Army: Why IP Reputation Fails Against the Rotation Economy",
-      "link": "https://www.greynoise.io/blog/invisible-army-why-ip-reputation-fails-against-rotation-economy",
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Prioritizing Alerts Triage with Higher-Order Detection Rules",
+      "link": "https://www.elastic.co/security-labs/blog/higher-order-detection-rules",
       "published": "2026-04-02T00:00:00+00:00",
-      "summary": "Attackers route malicious traffic through ordinary home internet connections — and to a reputation feed, the source IP is indistinguishable from a legitimate user's connection. GreyNoise analyzed 4 billion sessions over 90 days and found that 39% of unique IPs targeting the edge come from residential address space. 78% vanish after just 1–2 sessions, before any reputation system can flag them. The report documents why detection must shift from where the traffic comes from to what it is doing.",
-      "author": "",
+      "summary": "Scaling SOC efficiency through multi-signal correlation and higher-order detection patterns.",
+      "author": "Samir Bousseaden",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -43850,6 +43822,33 @@
       }
     },
     {
+      "source": "GreyNoise",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Active Reconnaissance Campaign Targets SonicWall Firewalls Through Commercial Proxy Infrastructure",
+      "link": "https://www.greynoise.io/blog/active-reconnaissance-campaign-targets-sonicwall-firewalls-through-commercial-proxy-infrastructure",
+      "published": "2026-02-27T00:00:00+00:00",
+      "summary": "84,000+ scanning sessions targeting SonicWall SonicOS infrastructure in four days. GreyNoise details a coordinated reconnaissance campaign using rotating proxy infrastructure.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -43885,33 +43884,6 @@
       "published": "2026-02-27T00:00:00+00:00",
       "summary": "From detection rules to AI connectors - the latest Terraform provider releases bring security, observability, and ML capabilities to your infrastructure-as-code workflows.",
       "author": "Omer Kushmaro",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "GreyNoise",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Active Reconnaissance Campaign Targets SonicWall Firewalls Through Commercial Proxy Infrastructure",
-      "link": "https://www.greynoise.io/blog/active-reconnaissance-campaign-targets-sonicwall-firewalls-through-commercial-proxy-infrastructure",
-      "published": "2026-02-27T00:00:00+00:00",
-      "summary": "84,000+ scanning sessions targeting SonicWall SonicOS infrastructure in four days. GreyNoise details a coordinated reconnaissance campaign using rotating proxy infrastructure.",
-      "author": "",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -45071,37 +45043,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "SolarWinds Web Help Desk Exploitation - February 2026",
-      "link": "https://www.elastic.co/security-labs/blog/solarwinds-whd-exploitation",
-      "published": "2026-02-10T00:00:00+00:00",
-      "summary": "Elastic Security detection and prevention capabilities for the recently-disclosed SolarWinds Web Help Desk vulnerabilities.",
-      "author": "Elastic Security Labs",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "SolarWinds"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "SolarWinds": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "GreyNoise",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -45126,6 +45067,37 @@
         "confidence_tier": "tier_2_operator",
         "role_map": {
           "Ivanti": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "SolarWinds Web Help Desk Exploitation - February 2026",
+      "link": "https://www.elastic.co/security-labs/blog/solarwinds-whd-exploitation",
+      "published": "2026-02-10T00:00:00+00:00",
+      "summary": "Elastic Security detection and prevention capabilities for the recently-disclosed SolarWinds Web Help Desk vulnerabilities.",
+      "author": "Elastic Security Labs",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "SolarWinds"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "SolarWinds": "target"
         },
         "weak_tags": {
           "products": []
@@ -45479,6 +45451,33 @@
       }
     },
     {
+      "source": "GreyNoise",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "New in Event Feeds: Vendor CVE Spike & Tag Spike",
+      "link": "https://www.greynoise.io/blog/introducing-vendor-cve-and-tag-spike",
+      "published": "2026-02-03T00:00:00+00:00",
+      "summary": "GreyNoise introduces Vendor CVE Spike and Tag Spike. Learn how to detect coordinated vendor targeting and botnet surges before a CVE is assigned.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -45525,33 +45524,6 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "GreyNoise",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "New in Event Feeds: Vendor CVE Spike & Tag Spike",
-      "link": "https://www.greynoise.io/blog/introducing-vendor-cve-and-tag-spike",
-      "published": "2026-02-03T00:00:00+00:00",
-      "summary": "GreyNoise introduces Vendor CVE Spike and Tag Spike. Learn how to detect coordinated vendor targeting and botnet surges before a CVE is assigned.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -47207,33 +47179,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "From Hypothesis to Action: Proactive Threat Hunting with Elastic Security",
-      "link": "https://www.elastic.co/security-labs/blog/proactive-threat-hunting-with-elastic-security",
-      "published": "2026-01-08T00:00:00+00:00",
-      "summary": "Elastic Security is designed to enable hypothesis-driven threat hunting at speed and scale. By unifying security telemetry and enabling analytics across clusters, threat hunters can ask complex questions across all their data, correlate signals, and validate hypotheses quickly without manual data stitching.",
-      "author": "Paul Ewing,Sandiya Ramamoorthy",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "GreyNoise",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -47274,6 +47219,33 @@
         "threat_categories": [
           "ransomware_extortion"
         ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "From Hypothesis to Action: Proactive Threat Hunting with Elastic Security",
+      "link": "https://www.elastic.co/security-labs/blog/proactive-threat-hunting-with-elastic-security",
+      "published": "2026-01-08T00:00:00+00:00",
+      "summary": "Elastic Security is designed to enable hypothesis-driven threat hunting at speed and scale. By unifying security telemetry and enabling analytics across clusters, threat hunters can ask complex questions across all their data, correlate signals, and validate hypotheses quickly without manual data stitching.",
+      "author": "Paul Ewing,Sandiya Ramamoorthy",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -48233,33 +48205,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Automating detection tuning requests with Kibana cases",
-      "link": "https://www.elastic.co/security-labs/blog/automating-detection-tuning-requests-with-kibana-cases",
-      "published": "2025-12-05T00:00:00+00:00",
-      "summary": "Learn how to automate detection rule tuning requests in Elastic Security. This guide shows how to add custom fields to Cases, create a rule to detect tuning needs, and use a webhook to create a frictionless feedback loop between analysts and detection engineers.",
-      "author": "Aaron Jewitt",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "GreyNoise",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -48285,6 +48230,33 @@
           "actively_exploited"
         ],
         "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Automating detection tuning requests with Kibana cases",
+      "link": "https://www.elastic.co/security-labs/blog/automating-detection-tuning-requests-with-kibana-cases",
+      "published": "2025-12-05T00:00:00+00:00",
+      "summary": "Learn how to automate detection rule tuning requests in Elastic Security. This guide shows how to add custom fields to Cases, create a rule to detect tuning needs, and use a webhook to create a frictionless feedback loop between analysts and detection engineers.",
+      "author": "Aaron Jewitt",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -52556,33 +52528,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Agentic Frameworks Summary",
-      "link": "https://www.elastic.co/security-labs/blog/agentic-ai-summary",
-      "published": "2025-08-12T00:00:00+00:00",
-      "summary": "Agentic systems require security teams to balance autonomy with alignment, ensuring that AI agents can act independently while remaining goal-consistent and controllable .",
-      "author": "Mika Ayenson",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "GreyNoise",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -52608,6 +52553,33 @@
         "role_map": {
           "Fortinet": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Agentic Frameworks Summary",
+      "link": "https://www.elastic.co/security-labs/blog/agentic-ai-summary",
+      "published": "2025-08-12T00:00:00+00:00",
+      "summary": "Agentic systems require security teams to balance autonomy with alignment, ensuring that AI agents can act independently while remaining goal-consistent and controllable .",
+      "author": "Mika Ayenson",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -54485,6 +54457,33 @@
       }
     },
     {
+      "source": "GreyNoise",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Surge in MOVEit Transfer Scanning Could Signal Emerging Threat Activity",
+      "link": "https://www.greynoise.io/blog/surge-moveit-transfer-scanning-activity",
+      "published": "2025-06-25T00:00:00+00:00",
+      "summary": "GreyNoise has identified a notable surge in scanning activity targeting MOVEit Transfer systems, beginning on May 27, 2025. Prior to this date, scanning was minimal — typically fewer than 10 IPs observed per day. But on May 27, that number spiked to over 100 unique IPs, followed by 319 IPs on May 29.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -54512,33 +54511,6 @@
         "role_map": {
           "Microsoft Entra": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "GreyNoise",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Surge in MOVEit Transfer Scanning Could Signal Emerging Threat Activity",
-      "link": "https://www.greynoise.io/blog/surge-moveit-transfer-scanning-activity",
-      "published": "2025-06-25T00:00:00+00:00",
-      "summary": "GreyNoise has identified a notable surge in scanning activity targeting MOVEit Transfer systems, beginning on May 27, 2025. Prior to this date, scanning was minimal — typically fewer than 10 IPs observed per day. But on May 27, that number spiked to over 100 unique IPs, followed by 319 IPs on May 29.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -55449,33 +55421,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Elastic changes the SIEM game with AI-driven security analytics",
-      "link": "https://www.elastic.co/security-labs/blog/ai-driven-security-analytics",
-      "published": "2025-05-06T00:00:00+00:00",
-      "summary": "Learn more about Elastic's AI-driven security analytics",
-      "author": "Santosh Krishnan",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "GreyNoise",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -55496,6 +55441,33 @@
         "urgency_signals": [
           "no_patch_yet"
         ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Elastic changes the SIEM game with AI-driven security analytics",
+      "link": "https://www.elastic.co/security-labs/blog/ai-driven-security-analytics",
+      "published": "2025-05-06T00:00:00+00:00",
+      "summary": "Learn more about Elastic's AI-driven security analytics",
+      "author": "Santosh Krishnan",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
@@ -57651,6 +57623,35 @@
       }
     },
     {
+      "source": "GreyNoise",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "From PoC to Attacker Interest in Hours: Real-Time Insights into Mitel MiCollab Vulnerabilities",
+      "link": "https://www.greynoise.io/blog/from-poc-to-attacker-interest-in-hours-real-time-insights-into-mitel-micollab-vulnerabilities",
+      "published": "2024-12-10T00:00:00+00:00",
+      "summary": "Attackers exploit vulnerabilities within hours of PoC releases. Learn how GreyNoise provides real-time intelligence to detect and disrupt threats, helping defenders respond faster and stay ahead of evolving risks.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -57676,35 +57677,6 @@
         "role_map": {
           "AWS": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "GreyNoise",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "From PoC to Attacker Interest in Hours: Real-Time Insights into Mitel MiCollab Vulnerabilities",
-      "link": "https://www.greynoise.io/blog/from-poc-to-attacker-interest-in-hours-real-time-insights-into-mitel-micollab-vulnerabilities",
-      "published": "2024-12-10T00:00:00+00:00",
-      "summary": "Attackers exploit vulnerabilities within hours of PoC releases. Learn how GreyNoise provides real-time intelligence to detect and disrupt threats, helping defenders respond faster and stay ahead of evolving risks.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -58350,33 +58322,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Storm on the Horizon: Inside the AJCloud IoT Ecosystem",
-      "link": "https://www.elastic.co/security-labs/blog/storm-on-the-horizon",
-      "published": "2024-09-20T00:00:00+00:00",
-      "summary": "Wi-Fi cameras are popular due to their affordability and convenience but often have security vulnerabilities that can be exploited.",
-      "author": "Mark Mager,Eric Forte",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "GreyNoise",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -58393,6 +58338,33 @@
           "critical_infrastructure",
           "manufacturing_industrial"
         ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Storm on the Horizon: Inside the AJCloud IoT Ecosystem",
+      "link": "https://www.elastic.co/security-labs/blog/storm-on-the-horizon",
+      "published": "2024-09-20T00:00:00+00:00",
+      "summary": "Wi-Fi cameras are popular due to their affordability and convenience but often have security vulnerabilities that can be exploited.",
+      "author": "Mark Mager,Eric Forte",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],

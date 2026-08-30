@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-30T00:01:14.968753+00:00
+- Generated: 2026-08-30T04:54:35.486037+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 74
-- Total items in window: 299
+- Total items in window: 300
 - Total clusters raw: 151
 - Total clusters in packet: 70
 - Dropped low score: 81
@@ -75,25 +75,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
@@ -105,16 +105,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -125,31 +125,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 3
+  - Item count: 15
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 50
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -160,48 +160,58 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 40
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -210,20 +220,10 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
@@ -235,30 +235,30 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 10
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 10
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
@@ -285,26 +285,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 4
+  - Item count: 100
+  - In window count: 3
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -315,6 +315,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 14
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,76 +330,86 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 14
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 9
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 10
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
-  - Item count: 0
+  - Item count: 10
+  - In window count: 6
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -405,11 +420,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -420,16 +430,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -519,32 +519,6 @@
   - https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
   - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
 
-### Gitea active exploitation
-- Anchor signal: Gitea
-- Theme key: gitea
-- Cluster count: 6
-- Article count: 9
-- Cohesion: 0.256
-- Shared strong signals: Gitea
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, phishing_social_eng
-  - actor_attribution: TeamPCP
-  - affected_industries: manufacturing_industrial, critical_infrastructure
-  - affected_products: Gitea, GitLab, OpenAI/ChatGPT
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: c7b4417ba0, b61187f40b, 4052366531, be5a1f1b37, 205332731c, b1eb2141e2
-- Links:
-  - https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
-  - https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/
-  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
-  - https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
-  - https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/
-  - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
-  - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
-  - https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html
-
 ### TeamPCP targeting Gitea
 - Anchor signal: TeamPCP
 - Theme key: teampcp
@@ -571,6 +545,32 @@
   - https://risky.biz/RBNEWS606/
   - https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
   - https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
+
+### Gitea active exploitation
+- Anchor signal: Gitea
+- Theme key: gitea
+- Cluster count: 6
+- Article count: 9
+- Cohesion: 0.256
+- Shared strong signals: Gitea
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, phishing_social_eng
+  - actor_attribution: TeamPCP
+  - affected_industries: manufacturing_industrial, critical_infrastructure
+  - affected_products: Gitea, GitLab, OpenAI/ChatGPT
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: c7b4417ba0, b61187f40b, 4052366531, be5a1f1b37, 205332731c, b1eb2141e2
+- Links:
+  - https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
+  - https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/
+  - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
+  - https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
+  - https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/
+  - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
+  - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
+  - https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html
 
 ### GitLab active exploitation
 - Anchor signal: GitLab
@@ -787,9 +787,9 @@
   - Prior top products: Microsoft SharePoint, OpenAI/ChatGPT, SolarWinds
 - **LockBit** (cluster 205332731c)
   - New industries: critical_infrastructure, manufacturing_industrial
-  - New products: GitLab, Gitea, OpenAI/ChatGPT
+  - New products: GitLab, Gitea
   - Prior top industries: financial_services, government, healthcare
-  - Prior top products: Android, Gogs, Microsoft SharePoint
+  - Prior top products: Android, Gogs, OpenAI/ChatGPT
 - **ShinyHunters** (cluster 62469ecc9b)
   - New industries: retail_ecommerce
   - New products: (none)
@@ -1301,60 +1301,6 @@ BlueDelta Targets Defense and Diplomacy with HOOKEDGE Executive Summary Insikt G
   - Link: https://www.recordedfuture.com/research/bluedelta-targets-with-hookedge
   - Summary: Discover how the Russian state-sponsored threat group BlueDelta is using the HOOKEDGE backdoor to target defense and diplomatic organizations across Europe
 
-### Cluster 4052366531 — score 15
-
-- Title: Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-29T16:25:03+00:00
-- Link: https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: CVE-2026-76581, WordPress
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: manufacturing_industrial
-- affected_products: GitLab, Gitea, WordPress
-- cve_ids: CVE-2026-18431, CVE-2026-19598, CVE-2026-19632, CVE-2026-61979, CVE-2026-76581, CVE-2026-82222
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: manufacturing_industrial
-- affected_products: WordPress, GitLab, Gitea
-- cve_ids: CVE-2026-76581, CVE-2026-18431, CVE-2026-19632, CVE-2026-19598, CVE-2026-82222
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in
-```
-
-#### Full body
-
-```
-Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE  Ravie Lakshmanan  Aug 29, 2026 Vulnerability / Web Security Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in the WPMU DEV Dashboard plugin that could allow an unauthenticated attacker, on sites connected to WPMU DEV with Hub Single-Sign On (SSO) enabled and mapped to an administrator, to obtain administrator access and achieve site takeover. (Affects all versions up to, and including, 5.0.1) CVE-2026-18431 (CVSS score: 9.8) - An arbitrary file write flaw in the Avada theme for WordPress that makes it possible for an unauthenticated attacker to write attacker-controlled files to the server, which, in turn, can be exploited to create and execute arbitrary PHP files, resulting in remote code execution and complete site compromise. (Affects all versions up to, and including, 7.16, when the Fusion Builder plugin is installed and active in versions up to, and including, 3.16) CVE-2026-19632 (CVSS score: 9.8) - A sensitive information exposure flaw in the "TranslatePress – Translate Multilingual sites with AI Translation" plugin that could allow an unauthenticated attacker to extract the raw administrator password-reset URL, including the plaintext reset key and login parameters, and enable full administrator account takeover. (Affects all versions up to, and including, 3.3.1 only when automatic string saving is enabled and the target administrator's profile locale is set to a published secondary language) CVE-2026-19598 (CVSS score: 9.8) - A privilege escalation flaw in the "Pods – Custom Content Types and Fields" plugin that allows an unauthenticated attacker to escalate their privileges to Administrator or overwrite the password of any user account, including the site owner's, resulting in complete site takeover. (Affects all versions up to, and including, 3.3.9) CVE-2026-82222 (CVSS score: 10.0) - A vulnerability in the GiveWP plugin that allows an attacker to execute arbitrary commands on the server of a GiveWP site that has one published donation form and one active payment gateway. (Affects all versions up to, and including, 4.16.7.1) "The flaw chains a broken 'safe unserialize' helper, a donation flow that feeds that helper attacker-controlled data, and a gadget chain in code that GiveWP ships," Patchstack said about CVE-2026-82222. "This case shows how PHP object injection turns into remote code execution when three ingredients line up: a place to store an attacker-controlled serialized object, code that later unserializes it, and a gadget chain in loaded classes." "The root causes are common: trusting a serialization sanitizer that does not actually strip objects, unserializing data read back from the database as if it were trusted, and shipping development-only libraries into production where they provide ready-made gadget chains." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Vulnerability , Web Security , WordPress ⚡ Top Stories This Week Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload Claude Opus 4.6 Bypasses Gym Booking
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
-  - Published: 2026-08-29T16:25:03+00:00
-  - Link: https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
-  - Summary: Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: GiveWP WordPress donation plugin flaw lets hackers execute server commands
-  - Published: 2026-08-28T18:18:55+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/
-  - Summary: A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]
-
 ### Cluster 568a2d4b14 — score 15
 
 - Title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
@@ -1445,6 +1391,60 @@ Infosecurity Magazine Home » News » Australia Warns of Active Exploitation of 
   - Link: https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
   - Summary: Australian officials are urging TeamCity customers to patch an actively exploited critical flaw, which follows a similar warning from the US government
 
+### Cluster 4052366531 — score 14
+
+- Title: Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-29T16:25:03+00:00
+- Link: https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: CVE-2026-76581, WordPress
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_industries: manufacturing_industrial
+- affected_products: GitLab, Gitea, WordPress
+- cve_ids: CVE-2026-18431, CVE-2026-19598, CVE-2026-19632, CVE-2026-61979, CVE-2026-76581, CVE-2026-82222
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_industries: manufacturing_industrial
+- affected_products: WordPress, GitLab, Gitea
+- cve_ids: CVE-2026-76581, CVE-2026-18431, CVE-2026-19632, CVE-2026-19598, CVE-2026-82222
+- urgency_signals: actively_exploited, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in
+```
+
+#### Full body
+
+```
+Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE  Ravie Lakshmanan  Aug 29, 2026 Vulnerability / Web Security Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in the WPMU DEV Dashboard plugin that could allow an unauthenticated attacker, on sites connected to WPMU DEV with Hub Single-Sign On (SSO) enabled and mapped to an administrator, to obtain administrator access and achieve site takeover. (Affects all versions up to, and including, 5.0.1) CVE-2026-18431 (CVSS score: 9.8) - An arbitrary file write flaw in the Avada theme for WordPress that makes it possible for an unauthenticated attacker to write attacker-controlled files to the server, which, in turn, can be exploited to create and execute arbitrary PHP files, resulting in remote code execution and complete site compromise. (Affects all versions up to, and including, 7.16, when the Fusion Builder plugin is installed and active in versions up to, and including, 3.16) CVE-2026-19632 (CVSS score: 9.8) - A sensitive information exposure flaw in the "TranslatePress – Translate Multilingual sites with AI Translation" plugin that could allow an unauthenticated attacker to extract the raw administrator password-reset URL, including the plaintext reset key and login parameters, and enable full administrator account takeover. (Affects all versions up to, and including, 3.3.1 only when automatic string saving is enabled and the target administrator's profile locale is set to a published secondary language) CVE-2026-19598 (CVSS score: 9.8) - A privilege escalation flaw in the "Pods – Custom Content Types and Fields" plugin that allows an unauthenticated attacker to escalate their privileges to Administrator or overwrite the password of any user account, including the site owner's, resulting in complete site takeover. (Affects all versions up to, and including, 3.3.9) CVE-2026-82222 (CVSS score: 10.0) - A vulnerability in the GiveWP plugin that allows an attacker to execute arbitrary commands on the server of a GiveWP site that has one published donation form and one active payment gateway. (Affects all versions up to, and including, 4.16.7.1) "The flaw chains a broken 'safe unserialize' helper, a donation flow that feeds that helper attacker-controlled data, and a gadget chain in code that GiveWP ships," Patchstack said about CVE-2026-82222. "This case shows how PHP object injection turns into remote code execution when three ingredients line up: a place to store an attacker-controlled serialized object, code that later unserializes it, and a gadget chain in loaded classes." "The root causes are common: trusting a serialization sanitizer that does not actually strip objects, unserializing data read back from the database as if it were trusted, and shipping development-only libraries into production where they provide ready-made gadget chains." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Vulnerability , Web Security , WordPress ⚡ Top Stories This Week Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload Claude Opus 4.6 Bypasses Gym Booking
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE
+  - Published: 2026-08-29T16:25:03+00:00
+  - Link: https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
+  - Summary: Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: GiveWP WordPress donation plugin flaw lets hackers execute server commands
+  - Published: 2026-08-28T18:18:55+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/
+  - Summary: A maximum-severity vulnerability in the GiveWP plugin for WordPress allows an unauthenticated attacker to execute arbitrary commands on the hosting server. [...]
+
 ### Cluster be5a1f1b37 — score 13
 
 - Title: PaperCut Releases Emergency Patch for Exploited Zero-Day
@@ -1496,45 +1496,6 @@ PaperCut Software is warning users of its NG and MF print management solutions t
   - Link: https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
   - Summary: A CVE identifier has not yet been assigned, but PaperCut is urging NG/MF users to install patches and implement mitigations. The post PaperCut Releases Emergency Patch for Exploited Zero-Day appeared first on SecurityWeek .
 
-### Cluster d5c7b7b7bc — score 13
-
-- Title: Gunra ransomware: what you need to know
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-08-24T12:52:37+00:00
-- Link: https://www.fortra.com/blog/gunra-ransomware-what-you-need-know
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services, healthcare, manufacturing_industrial
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: healthcare, financial_services, manufacturing_industrial
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more. Read more in my article on the Fortra blog.
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Gunra ransomware: what you need to know
-  - Published: 2026-08-24T12:52:37+00:00
-  - Link: https://www.fortra.com/blog/gunra-ransomware-what-you-need-know
-  - Summary: The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more. Read more in my article on the Fortra blog.
-
 ### Cluster 205332731c — score 13
 
 - Title: PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions
@@ -1585,6 +1546,45 @@ PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions  Rav
   - Published: 2026-08-28T08:25:36+00:00
   - Link: https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
   - Summary: PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an emergency patch for v25 and v26 to address the issue. It said it's "aware of confirmed customer incidents and is treating this matter with the highest priority." An
+
+### Cluster d5c7b7b7bc — score 13
+
+- Title: Gunra ransomware: what you need to know
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-08-24T12:52:37+00:00
+- Link: https://www.fortra.com/blog/gunra-ransomware-what-you-need-know
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services, healthcare, manufacturing_industrial
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: healthcare, financial_services, manufacturing_industrial
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more. Read more in my article on the Fortra blog.
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Gunra ransomware: what you need to know
+  - Published: 2026-08-24T12:52:37+00:00
+  - Link: https://www.fortra.com/blog/gunra-ransomware-what-you-need-know
+  - Summary: The ransomware gang Gunra has been creating havoc - exploiting unpatched VPNs and firewalls to steal data, encrypt systems, and extort victims across healthcare, finance, manufacturing, and more. Read more in my article on the Fortra blog.
 
 ### Cluster b0c59929e1 — score 13
 
@@ -1836,52 +1836,6 @@ Infosecurity Magazine Home » News » CISA Warns of Six Exploited Flaws in Micro
   - Link: https://www.infosecurity-magazine.com/news/cisa-kev-microsoft-citrix/
   - Summary: CISA added six new bugs to its Known Exploited Vulnerabilities catalog on August 26, showing signs of active exploitation in the wild
 
-### Cluster 7b22ad7709 — score 11
-
-- Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-08-29T03:43:27+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags ClickFix Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Threat intelligence Microsoft Threat Intelligence has observed a TerminalFix campaign, a variant of ClickFix, targeting organizations across multiple industries. The campaign uses compromised websites to display a fake Cloudflare CAPTCHA verification overlay that tricks users into copying and executing a malicious PowerShell command. While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully. Unlike earlier ClickFix variants that typically deliver a single infostealer, this TerminalFix campaign deploys a sophisticated multi-stage attack chain that combines DLL sideloading, steganographic payload extraction, extensive Active Directory reconnaissance, and a custom reverse-tunnel implant – giving the attacker persistent, network-level proxy access through the compromised host. Once executed, the PowerShell command masquerades as a Cloudflare verification process while downloading a ZIP archive containing a legitimate binary ( LockScreenContentServer.exe ) and a malicious DLL ( dui70.dll ) used for sideloading. The sideloaded DLL drives an elaborate second stage: downloading payloads concealed inside PNG images using steganography, establishing dual persistence through Registry Run keys and scheduled tasks, conducting thorough domain reconnaissance—including domain trust enumeration, domain admin discovery, Active Directory user description harvesting, and targeted server ping sweeps—and ultimately deploying a Python-based reverse-tunnel C2 implant that tunnels arbitrary TCP traffic back through an encrypted WebSocket channel to attacker infrastructure. This type of intrusion is particularly dangerous because it provides attackers with direct access to an organization’s internal network through the reverse tunnel. The observed reconnaissance and reverse-tunnel capability could enable an attacker to identify and reach additional systems from a compromised host. Microsoft did not observe the downstream actions described below in the analyzed chain. Organizations should treat affected devices as potential network pivot points and investigate for lateral movement and credential exposure. In the hands-on-keyboard phase that typically follows, attackers leverage this access to escalate privileges, disable security controls, exfiltrate sensitive data, and deploy ransomware across the organization. The combination of stealth techniques (DLL sideloading, steganography, hidden folders) and persistent network access make this TerminalFix campaign a serious threat to enterprise environments. In this blog, we share our detailed analysis of the TerminalFix attack chain – from initial compromise through network tunneling—along with indicators of compromise, detection details, and hunting guidance to help defenders identify and respond to this threat. Attack chain overview The TerminalFix campaign follows a multi-stage attack chain that progresses from social engineering through payload delivery, persistence, reconnaissance, and ultimately network tunneling: 1. Initial access via compromised website – A compromised website displays a fake Cloudflare Turnstile CAPTCHA verification overlay. The user is instructed to copy and paste a “verification” command. 2. PowerShell execution – The pasted command runs a disguised PowerShell script that downloads a ZIP archive from attacker infrastructure, extracts it to C:\ProgramData , and silently launches a batch file. 3. DLL sideloading — The batch file executes LockScreenContentServer.exe , a signed legitimate binary, which automatically loads the co-located malicious dui70.dll . 4. Steganographic payload retrieval – The sidelo
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
-  - Published: 2026-08-29T03:43:27+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
-  - Summary: Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
-  - Published: 2026-08-29T03:43:27+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
-  - Summary: Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
-
 ### Cluster 12ad966885 — score 11
 
 - Title: Threat landscape for industrial automation systems. Q2 2026
@@ -1963,6 +1917,99 @@ Key Takeaways Vulnerability prioritization is a decision procedure, not a score.
   - Published: 2026-08-27T17:56:20+00:00
   - Link: https://orca.security/resources/blog/vulnerability-prioritization/
   - Summary: Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]
+
+### Cluster b7ab4cc245 — score 10
+
+- Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-08-25T10:00:57+00:00
+- Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, Palo Alto Networks
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, Palo Alto Networks
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution 7 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Sara McBroom Published: August 25, 2026 Categories: Malware Threat Research Tags: Backdoor Bitcoin DLL hijacking Ransomware Sandbox VirusTotal Share Executive Summary To assess the impact of AI-enabled malware, we collected and analyzed over 400 malware samples that integrate AI in some capacity, from brand impersonation and large language model (LLM)-generated code to agentic execution loops. Our central finding was that the AI malware space is currently overwhelmingly composed of proof-of-concept code, security validation testing and researcher submissions that have never reached a production environment. Of the 405 samples in our dataset, only 12 appeared in our telemetry on Cortex XDR-protected endpoints, and a small subset was forwarded through Next-Generation Firewalls to WildFire for analysis. Palo Alto Networks products detected and blocked every sample that attempted to reach a customer environment. These numbers tell a story that sits between two poles in the current discourse. AI-enabled malware is real. However, the volume of genuine operational activity remains a fraction of what public sample repositories suggest. Approximately 97% of the samples we examined exist only in sandboxes and on VirusTotal. For defenders, the practical takeaway is straightforward. Existing behavioral detection, cloud-based sandboxing and endpoint analytics catch these threats using the same mechanisms that stop conventional malware. The AI component does not evade detection. It changes how the code is authored, not how it executes. Palo Alto Networks customers are better protected against the threats discussed in this article through the following products and services, which detected these AI-enabled malware threats out of the box: Advanced WildFire Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , Agentic AI , Malware The Dataset Our starting dataset consisted of 405 unique SHA-256 hashes collected from WildFire analysis reports, VirusTotal Intelligence and published open-source intelligence (OSINT) research. The collection criteria were broad. We included any sample where AI integration was either a functional component of the malware, a feature of its delivery mechanism or part of its branding. This intentionally inclusive approach captured everything from LLM-powered ransomware agents to cryptocurrency miners that simply used “ChatGPT” in their filename. We queried this dataset across multiple telemetry sources to measure real-world prevalence: Endpoint presence : Cortex XDR agent telemetry from non-test tenants (December 2024–June 2025) Network visibility : WildFire session data from samples forwarded by Next-Generation Firewalls and Cortex XDR agents (June 2024–June 2025) Alert generation : Cortex XDR alert records for samples that triggered detection logic on endpoints Sandbox verdicts : WildFire analysis results with malware classification Table 1 summarizes the results of this dataset. Telemetry Source Samples Queried Samples Discovered Prevalence in Production Cortex XDR endpoints 405 12 3.0% WildFire sessions 405 ~15–20 unique hashes ~4% Cortex XDR alerts generated 12 12 100% Table 1. Telemetry coverage across the AI malware dataset. The disparity between the 405-sample dataset and the 12 samples observed in production environments is the most important number in this analysis. Approximately 97% of AI-enabled malware samples exist only in research repositories, sandbox environments and security validation platforms. We found no evidence that they reached a customer endpoint or traversed a customer firewall. The following sections examine
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
+  - Published: 2026-08-25T10:00:57+00:00
+  - Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+  - Summary: Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
+
+### Cluster 7b22ad7709 — score 10
+
+- Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-29T03:43:27+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, phishing_social_eng, ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags ClickFix Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Threat intelligence Microsoft Threat Intelligence has observed a TerminalFix campaign, a variant of ClickFix, targeting organizations across multiple industries. The campaign uses compromised websites to display a fake Cloudflare CAPTCHA verification overlay that tricks users into copying and executing a malicious PowerShell command. While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully. Unlike earlier ClickFix variants that typically deliver a single infostealer, this TerminalFix campaign deploys a sophisticated multi-stage attack chain that combines DLL sideloading, steganographic payload extraction, extensive Active Directory reconnaissance, and a custom reverse-tunnel implant – giving the attacker persistent, network-level proxy access through the compromised host. Once executed, the PowerShell command masquerades as a Cloudflare verification process while downloading a ZIP archive containing a legitimate binary ( LockScreenContentServer.exe ) and a malicious DLL ( dui70.dll ) used for sideloading. The sideloaded DLL drives an elaborate second stage: downloading payloads concealed inside PNG images using steganography, establishing dual persistence through Registry Run keys and scheduled tasks, conducting thorough domain reconnaissance—including domain trust enumeration, domain admin discovery, Active Directory user description harvesting, and targeted server ping sweeps—and ultimately deploying a Python-based reverse-tunnel C2 implant that tunnels arbitrary TCP traffic back through an encrypted WebSocket channel to attacker infrastructure. This type of intrusion is particularly dangerous because it provides attackers with direct access to an organization’s internal network through the reverse tunnel. The observed reconnaissance and reverse-tunnel capability could enable an attacker to identify and reach additional systems from a compromised host. Microsoft did not observe the downstream actions described below in the analyzed chain. Organizations should treat affected devices as potential network pivot points and investigate for lateral movement and credential exposure. In the hands-on-keyboard phase that typically follows, attackers leverage this access to escalate privileges, disable security controls, exfiltrate sensitive data, and deploy ransomware across the organization. The combination of stealth techniques (DLL sideloading, steganography, hidden folders) and persistent network access make this TerminalFix campaign a serious threat to enterprise environments. In this blog, we share our detailed analysis of the TerminalFix attack chain – from initial compromise through network tunneling—along with indicators of compromise, detection details, and hunting guidance to help defenders identify and respond to this threat. Attack chain overview The TerminalFix campaign follows a multi-stage attack chain that progresses from social engineering through payload delivery, persistence, reconnaissance, and ultimately network tunneling: 1. Initial access via compromised website – A compromised website displays a fake Cloudflare Turnstile CAPTCHA verification overlay. The user is instructed to copy and paste a “verification” command. 2. PowerShell execution – The pasted command runs a disguised PowerShell script that downloads a ZIP archive from attacker infrastructure, extracts it to C:\ProgramData , and silently launches a batch file. 3. DLL sideloading — The batch file executes LockScreenContentServer.exe , a signed legitimate binary, which automatically loads the co-located malicious dui70.dll . 4. Steganographic payload retrieval – The sidelo
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
+  - Published: 2026-08-29T03:43:27+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
+  - Summary: Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
+  - Published: 2026-08-29T03:43:27+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
+  - Summary: Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
 
 ### Cluster 16aaa0ee92 — score 10
 
@@ -2049,53 +2096,6 @@ August 25 6 min read The patch window is collapsing: Why security needs a new co
   - Published: 2026-08-25T16:00:00+00:00
   - Link: https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/
   - Summary: Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog .
-
-### Cluster b7ab4cc245 — score 10
-
-- Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-08-25T10:00:57+00:00
-- Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: OpenAI/ChatGPT, Palo Alto Networks
-- urgency_signals: poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: OpenAI/ChatGPT, Palo Alto Networks
-- urgency_signals: poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Malware Malware The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution 7 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Sara McBroom Published: August 25, 2026 Categories: Malware Threat Research Tags: Backdoor Bitcoin DLL hijacking Ransomware Sandbox VirusTotal Share Executive Summary To assess the impact of AI-enabled malware, we collected and analyzed over 400 malware samples that integrate AI in some capacity, from brand impersonation and large language model (LLM)-generated code to agentic execution loops. Our central finding was that the AI malware space is currently overwhelmingly composed of proof-of-concept code, security validation testing and researcher submissions that have never reached a production environment. Of the 405 samples in our dataset, only 12 appeared in our telemetry on Cortex XDR-protected endpoints, and a small subset was forwarded through Next-Generation Firewalls to WildFire for analysis. Palo Alto Networks products detected and blocked every sample that attempted to reach a customer environment. These numbers tell a story that sits between two poles in the current discourse. AI-enabled malware is real. However, the volume of genuine operational activity remains a fraction of what public sample repositories suggest. Approximately 97% of the samples we examined exist only in sandboxes and on VirusTotal. For defenders, the practical takeaway is straightforward. Existing behavioral detection, cloud-based sandboxing and endpoint analytics catch these threats using the same mechanisms that stop conventional malware. The AI component does not evade detection. It changes how the code is authored, not how it executes. Palo Alto Networks customers are better protected against the threats discussed in this article through the following products and services, which detected these AI-enabled malware threats out of the box: Advanced WildFire Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , Agentic AI , Malware The Dataset Our starting dataset consisted of 405 unique SHA-256 hashes collected from WildFire analysis reports, VirusTotal Intelligence and published open-source intelligence (OSINT) research. The collection criteria were broad. We included any sample where AI integration was either a functional component of the malware, a feature of its delivery mechanism or part of its branding. This intentionally inclusive approach captured everything from LLM-powered ransomware agents to cryptocurrency miners that simply used “ChatGPT” in their filename. We queried this dataset across multiple telemetry sources to measure real-world prevalence: Endpoint presence : Cortex XDR agent telemetry from non-test tenants (December 2024–June 2025) Network visibility : WildFire session data from samples forwarded by Next-Generation Firewalls and Cortex XDR agents (June 2024–June 2025) Alert generation : Cortex XDR alert records for samples that triggered detection logic on endpoints Sandbox verdicts : WildFire analysis results with malware classification Table 1 summarizes the results of this dataset. Telemetry Source Samples Queried Samples Discovered Prevalence in Production Cortex XDR endpoints 405 12 3.0% WildFire sessions 405 ~15–20 unique hashes ~4% Cortex XDR alerts generated 12 12 100% Table 1. Telemetry coverage across the AI malware dataset. The disparity between the 405-sample dataset and the 12 samples observed in production environments is the most important number in this analysis. Approximately 97% of AI-enabled malware samples exist only in research repositories, sandbox environments and security validation platforms. We found no evidence that they reached a customer endpoint or traversed a customer firewall. The following sections examine
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
-  - Published: 2026-08-25T10:00:57+00:00
-  - Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
-  - Summary: Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
 
 ### Cluster 1b05e6e7b4 — score 10
 
@@ -2886,96 +2886,6 @@ You're not going to believe this, but turns out you can't always take criminals 
   - Link: https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
   - Summary: You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber
 
-### Cluster 7c35bc981f — score 9
-
-- Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-08-28T10:23:57+00:00
-- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_industries: government
-- affected_products: GitHub, OpenAI/ChatGPT, npm
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_industries: government
-- affected_products: GitHub, npm, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
-```
-
-#### Full body
-
-```
-Industry News 2 min read Shai-Hulud hackers: two men charged over TeamPCP's global supply chain crime spree that hit OpenAI, and thousands more Graham CLULEY August 28, 2026 Police have charged two men from Western Australia over their alleged involvement in TeamPCP, a cybercriminal gang that has been blamed for a massive software supply-chain hacking campaign. TeamPCP is best known for Shai-Hulud, a self-propagating worm that spread itself through open source software. The Australian Federal Police (AFP), working with the FBI and Western Australia Police, announced that on 26 August they charged a 21-year-old from Cottesloe and a 23-year-old from Mandurah with multiple offences, including data intrusion and unauthorised modification of data. Both men appeared in court in Perth on Thursday. According to the authorities, the two men were principal members of a "sophisticated cybercrime syndicate" that created malicious open source software designed to steal data and extort ransoms from businesses. More than 1000 organisations around the world are estimated to have been compromised in the attacks, with over 500,000 credentials and at least 300GB of data stolen. Neither of the men has been formally named by the police, but cybercrime investigative journalist Brian Krebs reports that the 21-year-old is Ruben Thomson, who used the handle "Ellis" and allegedly led TeamPCP until March 2026. First emerging in late 2025, TeamPCP built a reputation for poisoning popular open source packages rather than directly attacking businesses. By compromising individual pieces of widely-used software their attack could impact thousands of victims at once. The group's Shai-Hulud worm hijacks GitHub and NPM developer credentials, and publishes boobytrapped versions of legitimate software packages. Anyone who uses the package in their own software risks sharing their own secret API keys and credentials with the hackers, opening the door for a further round of compromises. Hacks linked to TeamPCP include the compromise of vulnerability scanner Trivy , which led to the breaches of open source AI gateway LiteLLM, and AI recruitment firm Mercor . TeamPCP also compromised LiteLLM's own code directly, in an attack CloudSEK found had harvested secrets from more than 2,500 organisations . The attacks even resulted in the theft of data from OpenAI , and a hack of the European Commission's cloud infrastructure. In an audacious twist earlier this year, it was announced on Telegram that TeamPCP was running a competition offering a prize for whoever built the biggest attack with leaked Shai-Hulud code. Supply chain attacks like Shai-Hulud exploit the fact that most developers trust open source software packages too easily, and can all too easily believe a package from a public registry is safe because thousands of others use it. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
-  - Published: 2026-08-28T10:23:57+00:00
-  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
-  - Summary: More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
-
-### Cluster 071b0ea328 — score 9
-
-- Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-08-26T23:10:11+00:00
-- Link: https://grahamcluley.com/smashing-security-podcast-482/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
-```
-
-#### Full body
-
-```
-Graham Cluley @ 12:10 am, August 27, 2026 @grahamcluley.com / grahamcluley A hacker calling themselves “CYBERLEEK” has been leaking gameplay footage from GTA 6 ahead of its official reveal this week – but they’re not asking Rockstar Games for a ransom. Instead, they’ve launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club… Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of “residential proxies” – how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #482 This hacker leaked GTA 6 - and launched their own cryptocurrency ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY He takes his gun and he sort of shoots the word leek, L-E-E-K. I apologise to any English teachers who are listening to this, into a wall as if to prove it really is him. PAUL DUCKLIN Leek is a legitimate word. I mean, it's a type of onion. What's wrong with that? GRAHAM CLULEY Well, I suppose so. PAUL DUCKLIN I mean, Cyber Onion wouldn't sound great, but Cyber Leek— GRAHAM CLULEY It wouldn't be so good. PAUL DUCKLIN It is a pun, Graham, whether you approve of it or not. Unknown Smashing Security, episode 482. PAUL DUCKLIN This hacker leaked GTA 6 and launched their own cryptocurrency with Graham Cluley and special guest Paul Ducklin. Unknown Hello, hello, and welcome to Smashing Security, episode 482. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. Hello, Duck. GRAHAM CLULEY Great to have you back on the show again. PAUL DUCKLIN Thank you, Graham. GRAHAM CLULEY We parachuted you in this week actually, 'cause that person we were intending to come on hasn't managed. Not that you are by any means a pale substitute. PAUL DUCKLIN I'm not pale at all these days. We've had so much sunshine. GRAHAM CLULEY No, that's true. PAUL DUCKLIN As you can see, I've had a bit too much lately, if those of us who can see me on video. GRAHAM CLULEY Well, it's always great to have you here. Before we kick off, let's thank this week's wonderful sponsors, ThreatLocker, BlackKite, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security. We're not going to be talking about how Iranian hackers managed to shut down a UK power plant. PAUL DUCKLIN You'll hear no discussion of— GRAHAM CLULEY How a ransomware crook silently ripped off his own gang by posing as a recovery firm and pocketed the victims' payments for himself. And we won't even mention how the Toxic Panda Trojan is quietly taking over Android phones to steal banking PINs and passwords. Now, Duck, what are you going to be talking about this week? PAUL DUCKLIN Well, Graham, if your smart TV isn't spying on you, what else might it be doing behind your back? GRAHAM CLULEY And the tyres are going to be hitting the tarmac as I enter the world of Grand Theft Auto 6. All this and much more coming up in this episode of Smashing Security. Unknown This episode of Smashing Security is supported by ThreatLocker. Agentic AI is beginning to change the tempo of cyberattacks. GRAHAM CLULEY That's right. We've seen research into autonomous ransomware, adaptive AI worms, and agents chaining tools without waiting for a human operator. Unknown Which is all very interesting, just so long as it isn't your network they're experimenting on. GRAHAM CLULEY When enumeration, exploitation, and lateral movement happen at machine speed, relying on somebody to notice an alert and respond quickly begins to look rather optimistic. Well, ThreatLocker puts default deny and least priv
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
-  - Published: 2026-08-26T23:10:11+00:00
-  - Link: https://grahamcluley.com/smashing-security-podcast-482/
-  - Summary: A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
-
 ### Cluster b1eb2141e2 — score 9
 
 - Title: Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth
@@ -3071,6 +2981,96 @@ Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Cod
   - Published: 2026-08-28T11:20:32+00:00
   - Link: https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html
   - Summary: ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker. The company said it deployed a security update to hosted instances and provided the update to its partners and self-hosted customers, which leaves organizations that run their
+
+### Cluster 7c35bc981f — score 9
+
+- Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-08-28T10:23:57+00:00
+- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- actor_attribution: TeamPCP
+- affected_industries: government
+- affected_products: GitHub, OpenAI/ChatGPT, npm
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- actor_attribution: TeamPCP
+- affected_industries: government
+- affected_products: GitHub, npm, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
+```
+
+#### Full body
+
+```
+Industry News 2 min read Shai-Hulud hackers: two men charged over TeamPCP's global supply chain crime spree that hit OpenAI, and thousands more Graham CLULEY August 28, 2026 Police have charged two men from Western Australia over their alleged involvement in TeamPCP, a cybercriminal gang that has been blamed for a massive software supply-chain hacking campaign. TeamPCP is best known for Shai-Hulud, a self-propagating worm that spread itself through open source software. The Australian Federal Police (AFP), working with the FBI and Western Australia Police, announced that on 26 August they charged a 21-year-old from Cottesloe and a 23-year-old from Mandurah with multiple offences, including data intrusion and unauthorised modification of data. Both men appeared in court in Perth on Thursday. According to the authorities, the two men were principal members of a "sophisticated cybercrime syndicate" that created malicious open source software designed to steal data and extort ransoms from businesses. More than 1000 organisations around the world are estimated to have been compromised in the attacks, with over 500,000 credentials and at least 300GB of data stolen. Neither of the men has been formally named by the police, but cybercrime investigative journalist Brian Krebs reports that the 21-year-old is Ruben Thomson, who used the handle "Ellis" and allegedly led TeamPCP until March 2026. First emerging in late 2025, TeamPCP built a reputation for poisoning popular open source packages rather than directly attacking businesses. By compromising individual pieces of widely-used software their attack could impact thousands of victims at once. The group's Shai-Hulud worm hijacks GitHub and NPM developer credentials, and publishes boobytrapped versions of legitimate software packages. Anyone who uses the package in their own software risks sharing their own secret API keys and credentials with the hackers, opening the door for a further round of compromises. Hacks linked to TeamPCP include the compromise of vulnerability scanner Trivy , which led to the breaches of open source AI gateway LiteLLM, and AI recruitment firm Mercor . TeamPCP also compromised LiteLLM's own code directly, in an attack CloudSEK found had harvested secrets from more than 2,500 organisations . The attacks even resulted in the theft of data from OpenAI , and a hack of the European Commission's cloud infrastructure. In an audacious twist earlier this year, it was announced on Telegram that TeamPCP was running a competition offering a prize for whoever built the biggest attack with leaked Shai-Hulud code. Supply chain attacks like Shai-Hulud exploit the fact that most developers trust open source software packages too easily, and can all too easily believe a package from a public registry is safe because thousands of others use it. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
+  - Published: 2026-08-28T10:23:57+00:00
+  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
+  - Summary: More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
+
+### Cluster 071b0ea328 — score 9
+
+- Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-08-26T23:10:11+00:00
+- Link: https://grahamcluley.com/smashing-security-podcast-482/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
+```
+
+#### Full body
+
+```
+Graham Cluley @ 12:10 am, August 27, 2026 @grahamcluley.com / grahamcluley A hacker calling themselves “CYBERLEEK” has been leaking gameplay footage from GTA 6 ahead of its official reveal this week – but they’re not asking Rockstar Games for a ransom. Instead, they’ve launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club… Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of “residential proxies” – how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #482 This hacker leaked GTA 6 - and launched their own cryptocurrency ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY He takes his gun and he sort of shoots the word leek, L-E-E-K. I apologise to any English teachers who are listening to this, into a wall as if to prove it really is him. PAUL DUCKLIN Leek is a legitimate word. I mean, it's a type of onion. What's wrong with that? GRAHAM CLULEY Well, I suppose so. PAUL DUCKLIN I mean, Cyber Onion wouldn't sound great, but Cyber Leek— GRAHAM CLULEY It wouldn't be so good. PAUL DUCKLIN It is a pun, Graham, whether you approve of it or not. Unknown Smashing Security, episode 482. PAUL DUCKLIN This hacker leaked GTA 6 and launched their own cryptocurrency with Graham Cluley and special guest Paul Ducklin. Unknown Hello, hello, and welcome to Smashing Security, episode 482. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. Hello, Duck. GRAHAM CLULEY Great to have you back on the show again. PAUL DUCKLIN Thank you, Graham. GRAHAM CLULEY We parachuted you in this week actually, 'cause that person we were intending to come on hasn't managed. Not that you are by any means a pale substitute. PAUL DUCKLIN I'm not pale at all these days. We've had so much sunshine. GRAHAM CLULEY No, that's true. PAUL DUCKLIN As you can see, I've had a bit too much lately, if those of us who can see me on video. GRAHAM CLULEY Well, it's always great to have you here. Before we kick off, let's thank this week's wonderful sponsors, ThreatLocker, BlackKite, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security. We're not going to be talking about how Iranian hackers managed to shut down a UK power plant. PAUL DUCKLIN You'll hear no discussion of— GRAHAM CLULEY How a ransomware crook silently ripped off his own gang by posing as a recovery firm and pocketed the victims' payments for himself. And we won't even mention how the Toxic Panda Trojan is quietly taking over Android phones to steal banking PINs and passwords. Now, Duck, what are you going to be talking about this week? PAUL DUCKLIN Well, Graham, if your smart TV isn't spying on you, what else might it be doing behind your back? GRAHAM CLULEY And the tyres are going to be hitting the tarmac as I enter the world of Grand Theft Auto 6. All this and much more coming up in this episode of Smashing Security. Unknown This episode of Smashing Security is supported by ThreatLocker. Agentic AI is beginning to change the tempo of cyberattacks. GRAHAM CLULEY That's right. We've seen research into autonomous ransomware, adaptive AI worms, and agents chaining tools without waiting for a human operator. Unknown Which is all very interesting, just so long as it isn't your network they're experimenting on. GRAHAM CLULEY When enumeration, exploitation, and lateral movement happen at machine speed, relying on somebody to notice an alert and respond quickly begins to look rather optimistic. Well, ThreatLocker puts default deny and least priv
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
+  - Published: 2026-08-26T23:10:11+00:00
+  - Link: https://grahamcluley.com/smashing-security-podcast-482/
+  - Summary: A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
 
 ### Cluster 3430c77226 — score 9
 
@@ -3582,39 +3582,6 @@ PaperCut is warning that hackers are actively exploiting a vulnerability in all 
   - Link: https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
   - Summary: PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]
 
-### Cluster 6fe333b73a — score 8
-
-- Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-08-25T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
-  - Published: 2026-08-25T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents
-  - Summary: Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
-
 ### Cluster f0848ac964 — score 8
 
 - Title: The Vulnerability Gap: Why Discovery Is Outrunning Repair
@@ -3647,6 +3614,39 @@ The combination of AI both discovering more vulnerabilities at a faster pace and
   - Published: 2026-08-24T14:00:00+00:00
   - Link: https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair
   - Summary: The combination of AI both discovering more vulnerabilities at a faster pace and the tightening regulatory environment is making this an all-hands-on-deck moment for the cybersecurity community.
+
+### Cluster 6fe333b73a — score 8
+
+- Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents
+  - Summary: Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
 
 ### Cluster 713e97e0d2 — score 8
 
