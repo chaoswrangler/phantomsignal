@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-30T10:25:56.541063+00:00",
+  "generated_at": "2026-08-30T15:17:51.032981+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 72,
-  "total_items_in_window": 291,
-  "total_clusters_raw": 146,
-  "total_clusters_in_packet": 67,
-  "dropped_low_score": 79,
+  "feeds_ok": 74,
+  "total_items_in_window": 300,
+  "total_clusters_raw": 149,
+  "total_clusters_in_packet": 69,
+  "dropped_low_score": 80,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -88,18 +81,25 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 0
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
@@ -116,13 +116,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -130,12 +123,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 3
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -143,6 +143,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -158,13 +165,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -172,12 +172,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,19 +186,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 1
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -207,6 +200,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -214,11 +214,25 @@
       "item_count": 50,
       "in_window_count": 1
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 1
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -235,15 +249,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -256,8 +263,8 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -277,13 +284,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -291,19 +291,12 @@
       "item_count": 30,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 10
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 5
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -312,12 +305,12 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -325,6 +318,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 10
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -340,13 +340,6 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -354,12 +347,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 6
+      "in_window_count": 1
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -368,12 +361,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -396,19 +389,19 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -417,13 +410,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -431,12 +417,26 @@
       "item_count": 20,
       "in_window_count": 14
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -445,12 +445,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 100,
+      "in_window_count": 2
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -466,13 +466,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 10
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -487,12 +480,12 @@
       "item_count": 50,
       "in_window_count": 25
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 30,
+      "in_window_count": 10
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -507,6 +500,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -536,13 +543,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -557,12 +557,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 5
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -570,13 +577,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -590,20 +590,20 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 11
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 12
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -3726,6 +3726,81 @@
       ]
     },
     {
+      "cluster_id": "3557fe7a19",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Vulnerability Prioritization: Modern Methods & Tools",
+        "link": "https://orca.security/resources/blog/vulnerability-prioritization/",
+        "published": "2026-08-27T17:56:20+00:00",
+        "summary": "Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]",
+        "full_body": "Key Takeaways Vulnerability prioritization is a decision procedure, not a score. It orders remediation work against the capacity a team has to do it. SSVC, from Carnegie Mellon’s Software Engineering Institute, replaces a score with a decision tree whose outcomes name timeliness: Defer, Scheduled, Out-of-cycle, or Immediate. A usable prioritization matrix needs two axes a team can populate from data, exploitation state and system exposure, and every cell names the maintenance plan a finding enters. Automation ranks the vulnerability-side inputs that CISA publishes as data. It cannot rank the exposure and mission inputs nobody publishes for you. Orca connects asset, configuration, identity, network path, and data store context in one model, which sets how much of a ranking a machine can compute at all. Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence plainly in its enterprise patch management planning guidance : “Some patches may be considered a higher priority, so other patches are delayed due to limited resources.” Every method below is a way of making that delay deliberate. This guide covers the methods teams run and the inputs each one needs. It specifies a matrix you can copy, marks where automation stops, and names the mistakes that undo a ranking. Understanding Vulnerability Prioritization Vulnerability prioritization decides which known findings enter remediation work now, which enter later, and which are accepted where they are. It is one phase of the vulnerability management lifecycle . It is also the phase where a finding stops being a record and becomes a commitment. Vulnerability assessment and prioritization sit next to each other, and a vulnerability assessment ends in a ranking step. This article is about the rule that step applies. Prioritization turns an analyzed finding set into an order someone can defend to the team doing the work. Prioritization Is a Capacity Problem Before It Is a Scoring Problem Take a team that ships forty remediations in a two-week sprint. Across a year that clears somewhere near a thousand findings. Against a backlog of nine thousand, the ranking is not ordering nine thousand items. It is choosing the thousand that get touched. That changes the question a method answers. Not which finding is worst, but which findings fit the throughput available. A ranking with no throughput number cannot say where the line falls, so the tier boundaries get set by whoever wrote the severity thresholds. Risk-based vulnerability management treats that throughput as a planning input. Why Traditional CVSS Scoring Falls Short CVSS rates the intrinsic characteristics of a flaw in its base metrics. The same base score arrives whether the affected host answers the public internet or sits on a subnet no outsider can reach. Orca’s guide to risk prioritization works through that argument and its consequences. What replaces it is the rest of this article: a procedure with named inputs, stated outcomes, and a recorded reason for each call. Key Factors in Vulnerability Management Prioritization The factors in vulnerability management prioritization are best sorted by where each one comes from, because availability decides which methods a team can run. Four classes cover the inputs every published method consumes. Published inputs. Exploitation state, technical impact, weakness class, and the CVE record itself. Another organization maintains them and they arrive as data. EPSS belongs here. Derived inputs. Network exposure, code-level reach, identity permissions, and proximity to sensitive data. Nobody publishes these, because they describe one estate. Reachability analysis and attack path analysis are the two computations that produ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Vulnerability Prioritization: Modern Methods & Tools",
+          "link": "https://orca.security/resources/blog/vulnerability-prioritization/",
+          "published": "2026-08-27T17:56:20+00:00",
+          "summary": "Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b7ab4cc245",
       "priority_score": 10,
       "member_count": 1,
@@ -3839,8 +3914,8 @@
     {
       "cluster_id": "7b22ad7709",
       "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
@@ -3863,7 +3938,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
@@ -3902,7 +3977,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
@@ -3936,28 +4011,148 @@
               ]
             }
           }
+        },
+        {
+          "source": "Microsoft Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
+          "published": "2026-08-29T03:43:27+00:00",
+          "summary": "Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
     {
-      "cluster_id": "022e3da4a1",
+      "cluster_id": "16aaa0ee92",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage",
-          "credential_theft",
-          "ransomware_extortion"
+          "credential_theft"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "financial_services",
-          "government"
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Defender"
         ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-42271",
+          "CVE-2026-48710",
+          "CVE-2026-49869"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "When AI infrastructure becomes the target: Securing gateways and control points",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
+        "published": "2026-08-26T16:43:53+00:00",
+        "summary": "Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity. The post When AI infrastructure becomes the target: Securing gateways and control points appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Tags Malware Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories AI is creating a new layer of enterprise infrastructure. Gateways, retrieval platforms, orchestration services, and containerized runtimes now sit between users, applications, data, and models. These systems concentrate credentials, data access, model connectivity, and execution privileges, making them some of the most powerful components in the AI stack. That concentration of trust is also creating new opportunities for attackers. In recent investigations, Microsoft observed activity targeting three distinct AI workloads: a LiteLLM gateway, a RAGFlow deployment, and a Kestra workflow environment. The intrusion paths varied, but the objectives were strikingly similar. Attackers sought to steal credentials, establish persistence, and monetize compromised compute resources. The individual techniques matter, but the broader pattern matters more. Across these cases, attackers treated AI infrastructure as a control plane where credential theft, host compromise, and downstream data access can converge. As organizations continue to deploy AI systems, these platforms are becoming high value targets that deserve the same security scrutiny as other critical enterprise infrastructure. AI workloads are becoming high-value control points The campaign-level signal extends beyond one product. The targeted workloads served different functions, but each exposed assets that could support follow-on abuse, including model-provider keys, proxy-issued virtual keys, database connection strings, tenant configuration, workflow execution, or host compute. Post-compromise behavior varied by workload role. Defenders should inventory exposed AI management surfaces, restrict administrative access, and monitor for gateway-originated execution and secret access. Three observed compromises across AI workloads AI workload Observed activity Attacker objective LiteLLM Observed attacker activity : Python droppers, runtime secret harvesting, PostgreSQL collection, miner deployment, and persistence activity from the LiteLLM gateway context. Microsoft assessment: Initial access likely occurred through exploitation of the exposed LiteLLM gateway surface, consistent with the vulnerability chain involving CVE-2026-42271 and CVE-2026-48710. Credential theft, backend database access, durable host access, and compute monetization. RAGFlow Observed attacker activity : Possible SSRF-style reconnaissance followed several days later by code execution, application-path modification, and placement of a Python hook in the TenantLLM credential-configuration flow. Public research: Describes multiple RAGFlow execution paths; Microsoft does not attribute this intrusion to a specific vulnerability. Intercept newly configured LLM provider credentials and model metadata. Kestra Observed attacker activity : Workflow-origin shell execution, Docker and container-environment discovery, XMRig deployment, and follow-on data collection. Microsoft assessment: Initial access likely involved exploitation of the exposed Kestra orchestration surface, with CVE-2026-49869 providing relevant public vulnerability context. Secret discovery, container-level access, data collection, and rapid compute monetization. Case study 1: LiteLLM gateway compromise Framework role and affected runtime context LiteLLM is commonly deployed as a proxy or gateway between applications and model providers. In that position, the service may hold or retrieve model-provider keys, LiteLLM master keys, virtual-key records, database connection strings, routing configuration, and tenant policy data. Command execution in the gateway runtime therefore exposed a process context close to AI routing and credential material. Figure 1. LiteLLM gateway compromise – attack chain. Initial access Microsoft assesses with high confidence that initial access lik",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-42271",
+            "CVE-2026-48710",
+            "CVE-2026-49869"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "When AI infrastructure becomes the target: Securing gateways and control points",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
+          "published": "2026-08-26T16:43:53+00:00",
+          "summary": "Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity. The post When AI infrastructure becomes the target: Securing gateways and control points appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-42271",
+              "CVE-2026-48710",
+              "CVE-2026-49869"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "156c2d6047",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -3971,27 +4166,20 @@
         ]
       },
       "primary": {
-        "source": "Recorded Future",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
-        "title": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense",
-        "link": "https://www.recordedfuture.com/blog/mexico-cybersecurity-plan",
-        "published": "2026-08-25T00:00:00+00:00",
-        "summary": "Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.",
-        "full_body": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a \"Tier 2\" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin ",
+        "title": "The patch window is collapsing: Why security needs a new control plane",
+        "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
+        "published": "2026-08-25T16:00:00+00:00",
+        "summary": "Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog .",
+        "full_body": "August 25 6 min read The patch window is collapsing: Why security needs a new control plane By Igor Sakhnov , Corporate Vice President and General Manager for Azure Networking Listen to this post / 1x For decades, cybersecurity defenders have relied on a relatively straightforward model: a vulnerability is disclosed, security teams assess exposure, test available fixes, deploy patches into production, and ultimately close the risk before attackers can exploit it at scale. That model increasingly reflects a world that no longer exists. Today’s enterprises operate thousands of interconnected workloads across hybrid and multicloud environments. Mission-critical applications power revenue-generating services, customer experiences, and core business operations that cannot simply be taken offline whenever a security update becomes available. At the same time, vulnerabilities are becoming more visible, more widely distributed, and more rapidly weaponized than ever before. The result is a growing gap between how quickly organizations can safely remediate vulnerabilities and how quickly adversaries can exploit them. It is time to rethink how the industry approaches security during the critical period between disclosure and remediation. The patch window has collapsed Traditional vulnerability management was built on the assumption that defenders could move faster than attackers. In many cases, they could. When a vulnerability was disclosed, organizations had time to understand the issue, assess affected systems, test patches, coordinate change windows, and deploy fixes before widespread exploitation occurred. Today that timeline is rapidly shrinking. Modern attack campaigns operate at internet scale. Security research, public disclosures, proof-of-concept exploits, and threat intelligence circulate globally within hours. A vulnerability announced in the morning can become the focus of active scanning and exploitation efforts by the afternoon. Meanwhile, the operational realities of enterprise environments have not changed. Organizations still must: Understand the vulnerability and its business impact. Identify affected systems across large estates. Evaluate dependencies and compatibility concerns. Validate fixes in test environments. Coordinate deployment schedules. Monitor for regressions and operational risk. These are not signs of inefficiency. They are necessary safeguards for business-critical environments. The challenge is that while defensive processes continue to require days or weeks, offensive timelines are increasingly measured in hours. That creates one of the most dangerous periods in modern cybersecurity: the window between awareness and remediation. AI is expanding the defender’s challenge AI is helping organizations modernize operations, accelerate development, and improve security outcomes. But the same technological advances are also changing the economics of offensive operations. Historically, transforming a newly disclosed vulnerability into an effective attack often required extensive manual research and deep technical expertise. Security researchers and attackers alike needed to analyze documentation, understand exploit conditions, study affected software, and develop attack techniques. Many of those steps can now be accelerated. AI-assisted workflows can help analyze vulnerability disclosures, identify likely attack paths, evaluate technical dependencies, and summarize complex technical information far more quickly than traditional manual processes. As these capabilities become more accessible, the timeline between disclosure and exploitation continues to compress. The result is a structural imbalance. Defenders remain responsible for protecting entire environments that may include thousands of servers, applications, databases, containers, and network assets. Attackers only need to identify a single viable path to exploitation. This asymmetry is driving organizations to ask an increasingly important question: What",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion",
-            "credential_theft",
-            "apt_espionage"
+            "vulnerability_disclosure"
           ],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "education"
-          ],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -3999,33 +4187,34 @@
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
+          "role_map": {
+            "Azure": "mention"
+          },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Azure",
+                "mention",
+                0.29
+              ]
+            ]
           }
         }
       },
       "corroborating_sources": [
         {
-          "source": "Recorded Future",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
-          "title": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense",
-          "link": "https://www.recordedfuture.com/blog/mexico-cybersecurity-plan",
-          "published": "2026-08-25T00:00:00+00:00",
-          "summary": "Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.",
+          "title": "The patch window is collapsing: Why security needs a new control plane",
+          "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
+          "published": "2026-08-25T16:00:00+00:00",
+          "summary": "Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion",
-              "credential_theft",
-              "apt_espionage"
+              "vulnerability_disclosure"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "education"
-            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -4033,9 +4222,17 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
+            "role_map": {
+              "Azure": "mention"
+            },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Azure",
+                  "mention",
+                  0.29
+                ]
+              ]
             }
           }
         }
@@ -4151,6 +4348,108 @@
               "GitHub": "target",
               "Linux kernel": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "022e3da4a1",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "credential_theft",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "financial_services",
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense",
+        "link": "https://www.recordedfuture.com/blog/mexico-cybersecurity-plan",
+        "published": "2026-08-25T00:00:00+00:00",
+        "summary": "Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.",
+        "full_body": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a \"Tier 2\" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "credential_theft",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense",
+          "link": "https://www.recordedfuture.com/blog/mexico-cybersecurity-plan",
+          "published": "2026-08-25T00:00:00+00:00",
+          "summary": "Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "credential_theft",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4295,6 +4594,81 @@
               "Anthropic/Claude": "target",
               "Atlassian Jira": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d95ca75496",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Operationalize CTEM with NodeZero®",
+        "link": "https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/",
+        "published": "2026-08-24T18:19:30+00:00",
+        "summary": "Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.",
+        "full_body": "Operationalize CTEM with NodeZero® Horizon3 August 24, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is ultimately about one outcome: continuously reducing exposure. Gartner® defines CTEM through five stages: Scoping, Discovery, Prioritization, Validation, and Mobilization. But operationalizing CTEM isn’t about filling five technology categories. It requires a repeatable way to connect existing security tools and processes, determine what attackers can actually exploit, focus remediation where it matters, and verify that the work reduced risk. Turn the CTEM Framework into a Repeatable Operating Model The Horizon3 CTEM Operating Loop turns the CTEM framework into repeatable action, with the NodeZero® Proactive Security Platform enabling teams to execute it at scale. Discover → Validate → Prioritize → Remediate → Verify → Repeat With NodeZero, security teams can: Discover exposure across internal systems, internet-facing assets, cloud and identity, web applications, and third-party connections Validate what’s exploitable by safely testing assets in production and proving what an attacker can actually achieve Prioritize based on impact using demonstrated exploitability, attack paths, affected systems, and potential business consequences Remediate with clarity using evidence of successful exploitation, attack-path context, affected assets, and remediation guidance Verify fixes work by retesting to confirm weaknesses are no longer exploitable and attack paths have been broken Repeat continuously as environments, identities, configurations, and vulnerabilities change Move from Visibility to Measurable Risk Reduction Discovery tells you where exposure may exist. Validation tells you what can actually be exploited. NodeZero safely attacks your environment to uncover exploitable vulnerabilities, misconfigurations, credential weaknesses, and attack paths without disrupting production. It then chains weaknesses together to demonstrate how an attacker could move through the environment, what they could reach, and what they could achieve. This evidence allows teams to prioritize based on demonstrated exploitability and impact rather than severity scores, scan data, and assumptions alone. Measure Whether You’re Actually Becoming More Secure By continuously running the CTEM Operating Loop, organizations can measure progress through: Exploitable weaknesses and attack paths over time Mean time to remediate (MTTR) Remediation and verification status Recurring and systemic weaknesses Exposure reduction over time The result is a CTEM program grounded in measurable risk reduction: identify what matters, fix it, prove it’s fixed, and repeat. Operationalize CTEM with NodeZero Download the Operationalize CTEM with NodeZero Factsheet to learn how the Horizon3 CTEM Operating Loop helps security teams turn CTEM into a repeatable operating model and continuously discover, validate, prioritize, remediate, and verify exploitable exposure. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Operationalize CTEM with NodeZero®",
+          "link": "https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/",
+          "published": "2026-08-24T18:19:30+00:00",
+          "summary": "Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4627,81 +5001,6 @@
             "role_map": {
               "OpenAI/ChatGPT": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d95ca75496",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Operationalize CTEM with NodeZero®",
-        "link": "https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/",
-        "published": "2026-08-24T18:19:30+00:00",
-        "summary": "Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.",
-        "full_body": "Operationalize CTEM with NodeZero® Horizon3 August 24, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is ultimately about one outcome: continuously reducing exposure. Gartner® defines CTEM through five stages: Scoping, Discovery, Prioritization, Validation, and Mobilization. But operationalizing CTEM isn’t about filling five technology categories. It requires a repeatable way to connect existing security tools and processes, determine what attackers can actually exploit, focus remediation where it matters, and verify that the work reduced risk. Turn the CTEM Framework into a Repeatable Operating Model The Horizon3 CTEM Operating Loop turns the CTEM framework into repeatable action, with the NodeZero® Proactive Security Platform enabling teams to execute it at scale. Discover → Validate → Prioritize → Remediate → Verify → Repeat With NodeZero, security teams can: Discover exposure across internal systems, internet-facing assets, cloud and identity, web applications, and third-party connections Validate what’s exploitable by safely testing assets in production and proving what an attacker can actually achieve Prioritize based on impact using demonstrated exploitability, attack paths, affected systems, and potential business consequences Remediate with clarity using evidence of successful exploitation, attack-path context, affected assets, and remediation guidance Verify fixes work by retesting to confirm weaknesses are no longer exploitable and attack paths have been broken Repeat continuously as environments, identities, configurations, and vulnerabilities change Move from Visibility to Measurable Risk Reduction Discovery tells you where exposure may exist. Validation tells you what can actually be exploited. NodeZero safely attacks your environment to uncover exploitable vulnerabilities, misconfigurations, credential weaknesses, and attack paths without disrupting production. It then chains weaknesses together to demonstrate how an attacker could move through the environment, what they could reach, and what they could achieve. This evidence allows teams to prioritize based on demonstrated exploitability and impact rather than severity scores, scan data, and assumptions alone. Measure Whether You’re Actually Becoming More Secure By continuously running the CTEM Operating Loop, organizations can measure progress through: Exploitable weaknesses and attack paths over time Mean time to remediate (MTTR) Remediation and verification status Recurring and systemic weaknesses Exposure reduction over time The result is a CTEM program grounded in measurable risk reduction: identify what matters, fix it, prove it’s fixed, and repeat. Operationalize CTEM with NodeZero Download the Operationalize CTEM with NodeZero Factsheet to learn how the Horizon3 CTEM Operating Loop helps security teams turn CTEM into a repeatable operating model and continuously discover, validate, prioritize, remediate, and verify exploitable exposure. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Operationalize CTEM with NodeZero®",
-          "link": "https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/",
-          "published": "2026-08-24T18:19:30+00:00",
-          "summary": "Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5391,146 +5690,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_government",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "9da7d1d5a1",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Citrix",
-          "Linux kernel",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "emergency_patch",
-          "zero_day"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Hasbro Data Breach Exposed Employee Personal Information",
-        "link": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
-        "published": "2026-08-29T11:55:00+00:00",
-        "summary": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .",
-        "full_body": "Toy and game giant Hasbro is notifying employees that their personal information may have been compromised in a data breach. The notifications sent to affected individuals contain little detail, but they indicate that the exposed information, which varies by individual, may include names, email addresses, postal addresses, phone numbers, national ID numbers, and financial information. The information comes from notification letters that Hasbro submitted to the Massachusetts Attorney General’s Office. It’s unclear how many individuals are affected in total, but it’s likely hundreds or a few thousand. The Massachusetts notification says 436 residents are impacted and the company has roughly 4,600 employees worldwide, most in the United States, according to Revelio Labs data. Data breach notifications do not appear to have been published on any other AG website at the time of writing. The data breach may be related to the cyberattack that targeted Hasbro in late March. The company took some systems offline to respond to the attack, resulting in disruptions. Advertisement. Scroll to continue reading. The cyberattack cost Hasbro $11 million in direct cleanup expenses and delayed another $25 million in product sales due to system shutdowns. SecurityWeek asked Hasbro to confirm whether the new breach notification is connected to the March cyberattack. The company did not directly answer that question. A Hasbro spokesperson said the company identified a security incident involving its network earlier this year and “took immediate action to address the incident,” including launching an investigation with outside cybersecurity experts to determine what happened and what information may have been accessed. The investigation determined that some current and former employees’ personal information may have been accessed during the incident. Hasbro said it is “not aware of any misuse of personal data” and has no indication the information will be misused. Out of an abundance of caution, the company said it is offering identity protection services through a third-party provider to those affected. No known cybercrime group has listed Hasbro on its leak website. *added information on financial loss caused by the cyberattack Related : ATF Confirms Cyber Incident After Ransomware Group Claims Attack Related : Sensitive Information Exposed in Nutex Health Data Breach Related : Personal Information Exposed in Apollo Global Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack Cyberattack Causes Global Disruption at Boston Scientific US Disrupts Chinese Hacking Platform Used in Military and Critical Infrastructure Attacks Recent Citrix NetScaler Vulnerability Exploited in the Wild AI Speeds Up Malware Development, Not Its Success Rate: Analysis Adobe and Nvidia Patch Dozens of Vulnerabilities CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks Chrome 152 Patches Over 300 Vulnerabilities Latest News In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions ATF Confirms Cyber Incident After Ransomware Group Claims Attack OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems Tech, Cybersecurity Giants Unite Behind OpenAI-Led Cyber Defense Pledge Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says PaperCut Releases Emergency Patch for Exploited Zero-Day Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear Australia Arrests 2 Alleged TeamPCP Hackers Tre",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "zero_day",
-            "data_breach",
-            "active_exploitation"
-          ],
-          "actor_attribution": [
-            "TeamPCP"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "Linux kernel",
-            "Citrix"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "emergency_patch"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "Linux kernel": "target",
-            "Citrix": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Hasbro Data Breach Exposed Employee Personal Information",
-          "link": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
-          "published": "2026-08-29T11:55:00+00:00",
-          "summary": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "zero_day",
-              "data_breach",
-              "active_exploitation"
-            ],
-            "actor_attribution": [
-              "TeamPCP"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Linux kernel",
-              "Citrix"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "emergency_patch"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Linux kernel": "target",
-              "Citrix": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -7179,74 +7338,50 @@
       ]
     },
     {
-      "cluster_id": "a2fea40726",
+      "cluster_id": "9da7d1d5a1",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "zero_day"
+          "data_breach"
         ],
-        "actor_attribution": [
-          "Cl0p",
-          "LockBit"
-        ],
-        "affected_industries": [
-          "education"
-        ],
+        "actor_attribution": [],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2023-27350"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "emergency_patch",
-          "preauth_unauth",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "incident_report"
         ],
         "confidence_tier": [
           "tier_4_news"
         ]
       },
       "primary": {
-        "source": "BleepingComputer",
+        "source": "SecurityWeek",
         "cohort": "cyber_news_breach_reporting",
-        "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-        "published": "2026-08-27T16:31:53+00:00",
-        "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
-        "full_body": "PaperCut warns of NG, MF flaw exploited in zero-day attacks By Lawrence Abrams August 27, 2026 12:31 PM 0 PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company says it is aware of confirmed attacks on customers and is urging organizations with Internet-exposed PaperCut Application Servers to immediately restrict access to the web interfaces to trusted IP addresses. \"PaperCut Software security response team is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF,\" reads an urgent security advisory published Thursday. \"We are aware of confirmed customer incidents and are treating this matter with the highest priority.\" PaperCut says the vulnerability affects all versions of PaperCut NG and MF, but has not shared details about the flaw or how it is being exploited. The company says its security team reproduced the vulnerability using information provided by a University customer. PaperCut has now released emergency patches for customers with public-facing PaperCut NG/MF servers. \"This is an emergency patch for customers with public-facing PaperCut NG/MF servers who are unable to take other mitigating action,\" reads the advisory. The company continues to warn customers whose Application Servers are exposed to the Internet to use firewall rules or network access controls to restrict their web interfaces to trusted IP addresses. PaperCut also shared indicators of compromise that could indicate whether a server has been compromised. These include suspicious activity from the the legitimate PaperCut pc-app.exe process and server.log files that have been modified, deleted, or are missing. Administrators should also look for the following errors in server.log : ERROR No suitable driver found for jdbc:no:x ERROR DatabaseUtils - Database error looking up cardID: VALUES CAST However, PaperCut warns that a lack of indicators does not mean that a server has not been compromised. At this time, PaperCut has not disclosed who is behind the attacks, what attackers are doing after compromising servers, or whether data is being stolen. PaperCut says it will continue updating its advisory with additional indicators of compromise and remediation guidance as its investigation continues. BleepingComputer contacted PaperCut with questions about this exploitation and will update the story when we receive a response. Previous PaperCut flaws exploited in attacks PaperCut has a history of being targeted by threat actors after security vulnerabilities were disclosed. In April 2023, attackers began exploiting the critical CVE-2023-27350 PaperCut vulnerability, which allowed unauthenticated attackers to bypass authentication and remotely execute code on vulnerable servers. Microsoft later linked some of those attacks to the Clop ransomware operation, which exploited vulnerable PaperCut servers for initial access to company networks. Microsoft also observed intrusions that led to LockBit ransomware attacks. While PaperCut has a Print Archiving feature that can retain documents sent through a server, Clop later told BleepingComputer that it had used the vulnerabilities for initial access to victim networks rather than to steal archived documents directly from PaperCut servers. The exploitation spread to other threat actors, with Microsoft reporting that Iranian state-backed hacking groups were also exploiting CVE-2023-27350 . CISA and the FBI issued a joint advisory in May 2023 warning that the Bl00dy Ransomware Gang was also exploiting vulnerable PaperCut servers in attacks against the education sector. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million ",
-        "fetch_status": "ok",
+        "title": "Hasbro Data Breach Exposed Employee Personal Information",
+        "link": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+        "published": "2026-08-29T11:55:00+00:00",
+        "summary": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion",
-            "zero_day"
+            "data_breach"
           ],
-          "actor_attribution": [
-            "LockBit",
-            "Cl0p"
-          ],
-          "affected_industries": [
-            "education"
-          ],
+          "actor_attribution": [],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2023-27350"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day",
-            "preauth_unauth",
-            "emergency_patch"
-          ],
-          "content_type": "news_report",
+          "urgency_signals": [],
+          "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
           "role_map": {},
           "weak_tags": {
@@ -7256,36 +7391,24 @@
       },
       "corroborating_sources": [
         {
-          "source": "BleepingComputer",
+          "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-          "published": "2026-08-27T16:31:53+00:00",
-          "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+          "title": "Hasbro Data Breach Exposed Employee Personal Information",
+          "link": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+          "published": "2026-08-29T11:55:00+00:00",
+          "summary": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion",
-              "zero_day"
+              "data_breach"
             ],
-            "actor_attribution": [
-              "LockBit",
-              "Cl0p"
-            ],
-            "affected_industries": [
-              "education"
-            ],
+            "actor_attribution": [],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2023-27350"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "preauth_unauth",
-              "emergency_patch"
-            ],
-            "content_type": "news_report",
+            "urgency_signals": [],
+            "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
@@ -7324,8 +7447,8 @@
         "link": "https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents",
         "published": "2026-08-25T00:00:00+00:00",
         "summary": "Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.",
-        "full_body": "Blog Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack. August 25, 2026 Maggie Musquez AI & Automation Jump to Share AI verdict correctness in our security operations center (SOC) is 92%, up from 60%, but we didn't switch models to get there. What we changed is the context the agents get before they decide anything, including the detection rule's investigation guide and user risk data from Workday, along with the closure reasons from 30 days of past cases on that same rule. This post covers how the agentic SOC pipeline is built in Elastic Workflows and Elastic Agent Builder, down to the prompts and the feedback loop that lets an agent see where it got the same rule wrong last time. Customer Zero: Running Agent Builder in our own SOC At Elastic, our internal SOC operates as Customer Zero, meaning that we’re the first and most demanding user of every feature we ship. We run the newest versions of Elastic Security and Agent Builder in our production environment, often before they reach general availability (GA), across a globally distributed fleet of laptops, servers, and cloud workloads. The workflows and agent configurations shown in this post reflect our setup as of version 9.5.1. When your AI SOC analyst is wrong 40% of the time Our team dove in headfirst with AI agents and fully integrated our alerts with AI triage. When our agents were looking at only the current alert context and investigation indexes, they weren’t always correct. Actually, our logs showed accuracy hovering around 60%. It’s great to have this data, but not if the analysts can’t trust it. We were adding long AI summaries to each case, what we would consider AI slop , as it was inaccurate 40% of the time. The feedback we got from the analysts was that they weren’t reading them. The analysts started ignoring the AI summaries completely since they couldn't trust that they were helpful or accurate. It took more time to read a paragraph of incorrect information than to just triage the case manually. The summaries were slowing analysts down without providing any benefit worth the additional token cost. Leading with the data Before getting too in the weeds, here’s the data. Our AI verdict correctness (based on comparing the AI verdict and the analyst close reason) went from 60% to 92% after implementing the changes we discuss in this blog. We’re tracking these metrics using Elastic dashboards by comparing the case custom fields that are discussed more below. This increase in accuracy meant that the analysts could start double-checking the summary and closing the case right away. This changed our AI summaries from being a time sink to allowing our analysts to close the case in one step. Elastic dashboard showing AI verdict accuracy rising from 60% to 92% after the Brainstorm agents launched. What context AI alert triage actually needs We significantly increased agent accuracy by feeding them more context. Here's what we pull in from each source before an agent makes a verdict: Context enrichment sources for AI alert triage: Kibana API and ES|QL lookups with index and endpoint detail. When should you use an AI agent instead of a query? It's important to know when to use AI and when not to. If the answer requires a predictable query with only a variable or two changing each time, don't use an agent. Instead, use an Elastic workflow that runs an Elasticsearch Query Language (ES|QL) query, a Kibana API call, or a GET request. They're faster and cheaper, and we keep them modular and reusable across many different orchestrators, so a UserDetailsLookup or PastCasesByRulenameLookup can be called from any workflow that needs it. Agents are more suited for tasks that require reading and reasoning that cannot be completed with a simple query; fo",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -7789,21 +7912,23 @@
       ]
     },
     {
-      "cluster_id": "bc91ce6f86",
+      "cluster_id": "e7ddd34516",
       "priority_score": 8,
-      "member_count": 5,
-      "corroborating_source_count": 4,
+      "member_count": 7,
+      "corroborating_source_count": 6,
       "strong_signals": [
         "Anthropic/Claude"
       ],
       "taxonomy": {
         "threat_categories": [
-          "ai_security"
+          "ai_security",
+          "credential_theft"
         ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Anthropic/Claude"
+          "Anthropic/Claude",
+          "OpenAI/ChatGPT"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -7818,16 +7943,18 @@
         ]
       },
       "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Just a rumour of a bug is enough to find a security exploit these days",
-        "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-        "published": "2026-08-28T22:12:02+00:00",
-        "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task. Anil points out that this rate of discovery appears incompatible with existing open source embargo ",
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+        "published": "2026-08-30T14:30:25+00:00",
+        "summary": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "credential_theft"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
@@ -7838,7 +7965,7 @@
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
+          "confidence_tier": "tier_4_news",
           "role_map": {
             "Anthropic/Claude": "target"
           },
@@ -7848,6 +7975,36 @@
         }
       },
       "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+          "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+          "published": "2026-08-30T14:30:25+00:00",
+          "summary": "Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
         {
           "source": "Simon Willison",
           "cohort": "ai_security_agentic_risk",
@@ -7962,6 +8119,36 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Window to Tackle Surge in AI-Enabled Cyber Attacks Narrowing, Tech Giants Warn",
+          "link": "https://www.infosecurity-magazine.com/news/window-ai-attacks-narrowing-tech/",
+          "published": "2026-08-28T09:30:00+00:00",
+          "summary": "More than 100 companies, including OpenAI, Anthropic, Google and Microsoft, have urged collective action to unlock the power of AI to protect critical public services",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
               "Anthropic/Claude": "target"
             },
             "weak_tags": {
@@ -8152,55 +8339,6 @@
       ]
     },
     {
-      "label": "CVE-2026-82078 exploitation activity",
-      "anchor_signal": "CVE-2026-82078",
-      "theme_key": "cve-2026-82078",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation",
-          "ransomware_extortion"
-        ],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [
-          "CVE-2026-81578",
-          "CVE-2026-82078"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day",
-          "preauth_unauth",
-          "emergency_patch"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 5,
-      "cohesion": 0.466,
-      "shared_strong_signals": [
-        "CVE-2026-82078"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "69f95d6a80",
-        "220df2cac2",
-        "1f6abea0e7",
-        "be5a1f1b37"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
-        "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/",
-        "https://www.huntress.com/blog/papercut-actively-exploited",
-        "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
-        "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/"
-      ]
-    },
-    {
       "label": "CVE-2026-81578 exploitation activity",
       "anchor_signal": "CVE-2026-81578",
       "theme_key": "cve-2026-81578",
@@ -8250,28 +8388,80 @@
       ]
     },
     {
+      "label": "CVE-2026-82078 exploitation activity",
+      "anchor_signal": "CVE-2026-82078",
+      "theme_key": "cve-2026-82078",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation",
+          "ransomware_extortion"
+        ],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-81578",
+          "CVE-2026-82078"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day",
+          "preauth_unauth",
+          "emergency_patch"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 5,
+      "cohesion": 0.466,
+      "shared_strong_signals": [
+        "CVE-2026-82078"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "69f95d6a80",
+        "220df2cac2",
+        "1f6abea0e7",
+        "be5a1f1b37"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
+        "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/",
+        "https://www.huntress.com/blog/papercut-actively-exploited",
+        "https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/",
+        "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/"
+      ]
+    },
+    {
       "label": "TeamPCP targeting Gitea",
       "anchor_signal": "TeamPCP",
       "theme_key": "teampcp",
       "dominant_features": {
         "threat_categories": [
           "supply_chain",
+          "phishing_social_eng",
           "active_exploitation",
           "ransomware_extortion",
-          "phishing_social_eng",
           "zero_day"
         ],
         "actor_attribution": [
           "TeamPCP"
         ],
         "affected_industries": [
+          "government",
           "critical_infrastructure",
-          "manufacturing_industrial",
-          "government"
+          "manufacturing_industrial"
         ],
         "affected_products": [
           "OpenAI/ChatGPT",
-          "Gitea"
+          "Gitea",
+          "GitLab",
+          "GitHub",
+          "npm"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -8281,19 +8471,21 @@
         ]
       },
       "cluster_count": 6,
-      "article_count": 9,
-      "cohesion": 0.384,
+      "article_count": 8,
+      "cohesion": 0.373,
       "shared_strong_signals": [
         "TeamPCP"
       ],
       "member_cves": [],
-      "also_targets": [],
+      "also_targets": [
+        "npm"
+      ],
       "cluster_ids": [
         "b61187f40b",
         "be5a1f1b37",
         "205332731c",
         "b0c59929e1",
-        "9da7d1d5a1",
+        "cda2c7fd5c",
         "7c35bc981f"
       ],
       "links": [
@@ -8304,7 +8496,7 @@
         "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/",
         "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
         "https://risky.biz/RBNEWS606/",
-        "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+        "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
         "https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps"
       ]
     },
@@ -8371,26 +8563,19 @@
           "zero_day",
           "active_exploitation"
         ],
-        "actor_attribution": [
-          "Cl0p",
-          "LockBit"
-        ],
-        "affected_industries": [
-          "education"
-        ],
         "cve_ids": [
           "CVE-2023-27350"
         ],
         "urgency_signals": [
+          "actively_exploited",
           "zero_day",
           "preauth_unauth",
-          "emergency_patch",
-          "actively_exploited"
+          "emergency_patch"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.331,
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2023-27350"
       ],
@@ -8398,14 +8583,12 @@
       "also_targets": [],
       "cluster_ids": [
         "69f95d6a80",
-        "205332731c",
-        "a2fea40726"
+        "205332731c"
       ],
       "links": [
         "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
         "https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/",
-        "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-        "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/"
+        "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html"
       ]
     },
     {
@@ -8416,30 +8599,23 @@
         "threat_categories": [
           "zero_day",
           "data_breach",
-          "active_exploitation",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
+          "active_exploitation"
         ],
         "affected_industries": [
-          "critical_infrastructure",
-          "manufacturing_industrial"
+          "critical_infrastructure"
         ],
         "affected_products": [
-          "Linux kernel",
-          "OpenAI/ChatGPT"
+          "Linux kernel"
         ],
         "urgency_signals": [
           "actively_exploited",
           "zero_day",
-          "emergency_patch",
           "no_patch_yet"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 4,
-      "cohesion": 0.238,
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.2,
       "shared_strong_signals": [
         "Linux kernel"
       ],
@@ -8448,56 +8624,12 @@
       "cluster_ids": [
         "be5a1f1b37",
         "e7c0548aa4",
-        "1b05e6e7b4",
-        "9da7d1d5a1"
+        "1b05e6e7b4"
       ],
       "links": [
         "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
         "https://www.infosecurity-magazine.com/news/cisa-kev-microsoft-citrix/",
-        "https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/",
-        "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/"
-      ]
-    },
-    {
-      "label": "supply chain targeting npm",
-      "anchor_signal": "npm",
-      "theme_key": "npm",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "npm",
-          "GitHub"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 6,
-      "cohesion": 0.351,
-      "shared_strong_signals": [
-        "npm"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "b0c59929e1",
-        "cda2c7fd5c",
-        "7c35bc981f"
-      ],
-      "links": [
-        "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-        "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/",
-        "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-        "https://risky.biz/RBNEWS606/",
-        "https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/",
-        "https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps"
+        "https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/"
       ]
     },
     {
@@ -8633,6 +8765,36 @@
         "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
         "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
         "https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/"
+      ]
+    },
+    {
+      "label": "Android vulnerability activity",
+      "anchor_signal": "Android",
+      "theme_key": "android",
+      "dominant_features": {
+        "affected_products": [
+          "Android"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 8,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Android"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "8cc36a69d3",
+        "3430c77226"
+      ],
+      "links": [
+        "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+        "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+        "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
+        "https://risky.biz/RBNEWS604/",
+        "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units",
+        "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html"
       ]
     }
   ],
@@ -8771,7 +8933,7 @@
         ],
         "prior_top_products": [
           "GitHub",
-          "Kubernetes",
+          "PyPI",
           "npm"
         ]
       },
@@ -8808,9 +8970,9 @@
           "Gitea"
         ],
         "prior_top_industries": [
+          "education",
           "financial_services",
-          "government",
-          "healthcare"
+          "government"
         ],
         "prior_top_products": [
           "Android",
@@ -8872,6 +9034,12 @@
         "axis": "actor_attribution",
         "value": "APT28",
         "cluster_id": "c2e58e5482",
+        "weeks_observed": 3
+      },
+      {
+        "axis": "cve_ids",
+        "value": "CVE-2026-48710",
+        "cluster_id": "16aaa0ee92",
         "weeks_observed": 3
       },
       {

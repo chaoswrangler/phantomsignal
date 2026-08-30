@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-30T10:25:56.541063+00:00
+- Generated: 2026-08-30T15:17:51.032981+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 72
-- Total items in window: 291
-- Total clusters raw: 146
-- Total clusters in packet: 67
-- Dropped low score: 79
+- Feeds OK: 74
+- Total items in window: 300
+- Total clusters raw: 149
+- Total clusters in packet: 69
+- Dropped low score: 80
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,15 +80,20 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
@@ -105,26 +105,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -135,50 +140,55 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 4
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 40
-  - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 15
+  - In window count: 4
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -190,13 +200,8 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,8 +210,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,41 +225,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
+  - In window count: 0
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 10
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -265,31 +265,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 5
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -305,46 +300,51 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 14
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 2
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 15
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,11 +355,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,11 +365,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 30
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -385,6 +380,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,11 +410,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -420,21 +420,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,16 +444,16 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 11
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 12
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -502,29 +502,6 @@
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
   - https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html
 
-### CVE-2026-82078 exploitation activity
-- Anchor signal: CVE-2026-82078
-- Theme key: cve-2026-82078
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.466
-- Shared strong signals: CVE-2026-82078
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, ransomware_extortion
-  - affected_industries: critical_infrastructure
-  - affected_products: OpenAI/ChatGPT
-  - cve_ids: CVE-2026-81578, CVE-2026-82078
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch
-- Cluster IDs: 69f95d6a80, 220df2cac2, 1f6abea0e7, be5a1f1b37
-- Links:
-  - https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
-  - https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/
-  - https://www.huntress.com/blog/papercut-actively-exploited
-  - https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
-  - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
-
 ### CVE-2026-81578 exploitation activity
 - Anchor signal: CVE-2026-81578
 - Theme key: cve-2026-81578
@@ -548,22 +525,45 @@
   - https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
   - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
 
+### CVE-2026-82078 exploitation activity
+- Anchor signal: CVE-2026-82078
+- Theme key: cve-2026-82078
+- Cluster count: 4
+- Article count: 5
+- Cohesion: 0.466
+- Shared strong signals: CVE-2026-82078
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation, ransomware_extortion
+  - affected_industries: critical_infrastructure
+  - affected_products: OpenAI/ChatGPT
+  - cve_ids: CVE-2026-81578, CVE-2026-82078
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch
+- Cluster IDs: 69f95d6a80, 220df2cac2, 1f6abea0e7, be5a1f1b37
+- Links:
+  - https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
+  - https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/
+  - https://www.huntress.com/blog/papercut-actively-exploited
+  - https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
+  - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
+
 ### TeamPCP targeting Gitea
 - Anchor signal: TeamPCP
 - Theme key: teampcp
 - Cluster count: 6
-- Article count: 9
-- Cohesion: 0.384
+- Article count: 8
+- Cohesion: 0.373
 - Shared strong signals: TeamPCP
 - Member CVEs: (none)
-- Also targets: (none)
+- Also targets: npm
 - Dominant features:
-  - threat_categories: supply_chain, active_exploitation, ransomware_extortion, phishing_social_eng, zero_day
+  - threat_categories: supply_chain, phishing_social_eng, active_exploitation, ransomware_extortion, zero_day
   - actor_attribution: TeamPCP
-  - affected_industries: critical_infrastructure, manufacturing_industrial, government
-  - affected_products: OpenAI/ChatGPT, Gitea
+  - affected_industries: government, critical_infrastructure, manufacturing_industrial
+  - affected_products: OpenAI/ChatGPT, Gitea, GitLab, GitHub, npm
   - urgency_signals: actively_exploited, preauth_unauth, zero_day, emergency_patch
-- Cluster IDs: b61187f40b, be5a1f1b37, 205332731c, b0c59929e1, 9da7d1d5a1, 7c35bc981f
+- Cluster IDs: b61187f40b, be5a1f1b37, 205332731c, b0c59929e1, cda2c7fd5c, 7c35bc981f
 - Links:
   - https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html
   - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
@@ -572,7 +572,7 @@
   - https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/
   - https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
   - https://risky.biz/RBNEWS606/
-  - https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
+  - https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/
   - https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
 
 ### GitLab active exploitation
@@ -602,69 +602,41 @@
 ### CVE-2023-27350 exploitation activity
 - Anchor signal: CVE-2023-27350
 - Theme key: cve-2023-27350
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.331
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
 - Shared strong signals: CVE-2023-27350
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: ransomware_extortion, zero_day, active_exploitation
-  - actor_attribution: Cl0p, LockBit
-  - affected_industries: education
   - cve_ids: CVE-2023-27350
-  - urgency_signals: zero_day, preauth_unauth, emergency_patch, actively_exploited
-- Cluster IDs: 69f95d6a80, 205332731c, a2fea40726
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch
+- Cluster IDs: 69f95d6a80, 205332731c
 - Links:
   - https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
   - https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
-  - https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
 
 ### Linux kernel active exploitation
 - Anchor signal: Linux kernel
 - Theme key: linux-kernel
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.238
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.2
 - Shared strong signals: Linux kernel
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, data_breach, active_exploitation, ransomware_extortion
-  - actor_attribution: TeamPCP
-  - affected_industries: critical_infrastructure, manufacturing_industrial
-  - affected_products: Linux kernel, OpenAI/ChatGPT
-  - urgency_signals: actively_exploited, zero_day, emergency_patch, no_patch_yet
-- Cluster IDs: be5a1f1b37, e7c0548aa4, 1b05e6e7b4, 9da7d1d5a1
+  - threat_categories: zero_day, data_breach, active_exploitation
+  - affected_industries: critical_infrastructure
+  - affected_products: Linux kernel
+  - urgency_signals: actively_exploited, zero_day, no_patch_yet
+- Cluster IDs: be5a1f1b37, e7c0548aa4, 1b05e6e7b4
 - Links:
   - https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/
   - https://www.infosecurity-magazine.com/news/cisa-kev-microsoft-citrix/
   - https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/
-  - https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
-
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.351
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain, phishing_social_eng
-  - actor_attribution: TeamPCP
-  - affected_industries: government
-  - affected_products: npm, GitHub
-- Cluster IDs: b0c59929e1, cda2c7fd5c, 7c35bc981f
-- Links:
-  - https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
-  - https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/
-  - https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
-  - https://risky.biz/RBNEWS606/
-  - https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/
-  - https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
 
 ### ransomware extortion targeting Palo Alto Networks
 - Anchor signal: Palo Alto Networks
@@ -742,6 +714,26 @@
   - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
   - https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
 
+### Android vulnerability activity
+- Anchor signal: Android
+- Theme key: android
+- Cluster count: 2
+- Article count: 8
+- Cohesion: 0.2
+- Shared strong signals: Android
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Android
+- Cluster IDs: 8cc36a69d3, 3430c77226
+- Links:
+  - https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/
+  - https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html
+  - https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch
+  - https://risky.biz/RBNEWS604/
+  - https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units
+  - https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html
+
 ## Forward signals
 
 ### Novelty
@@ -785,7 +777,7 @@
   - New industries: critical_infrastructure, manufacturing_industrial
   - New products: GitLab, Gitea, OpenAI/ChatGPT
   - Prior top industries: financial_services, government, healthcare
-  - Prior top products: GitHub, Kubernetes, npm
+  - Prior top products: GitHub, PyPI, npm
 - **Cl0p** (cluster 205332731c)
   - New industries: critical_infrastructure
   - New products: GitLab, Gitea
@@ -794,10 +786,10 @@
 - **LockBit** (cluster 205332731c)
   - New industries: critical_infrastructure, manufacturing_industrial
   - New products: GitLab, Gitea
-  - Prior top industries: financial_services, government, healthcare
+  - Prior top industries: education, financial_services, government
   - Prior top products: Android, Gogs, OpenAI/ChatGPT
 
-### Persistence (11)
+### Persistence (12)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster 8cc36a69d3)
 - actor_attribution: TeamPCP (weeks observed: 10, cluster b61187f40b)
 - actor_attribution: Cl0p (weeks observed: 8, cluster 205332731c)
@@ -807,6 +799,7 @@
 - cve_ids: CVE-2026-42271 (weeks observed: 4, cluster a6bf88aa80)
 - cve_ids: CVE-2026-60004 (weeks observed: 3, cluster 8cc36a69d3)
 - actor_attribution: APT28 (weeks observed: 3, cluster c2e58e5482)
+- cve_ids: CVE-2026-48710 (weeks observed: 3, cluster 16aaa0ee92)
 - cve_ids: CVE-2026-19490 (weeks observed: 3, cluster 849426520e)
 - cve_ids: CVE-2026-53359 (weeks observed: 3, cluster cc2ee9546e)
 
@@ -1919,6 +1912,45 @@ Table of Contents All threats Selected industries Threat categories Malicious sc
   - Link: https://securelist.com/industrial-threat-report-q2-2026/121159/
   - Summary: The report contains statistics on industrial threats for Q2 2026, including ransomware, miners, spyware and other threats that were detected and blocked on industrial control systems.
 
+### Cluster 3557fe7a19 — score 11
+
+- Title: Vulnerability Prioritization: Modern Methods & Tools
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-08-27T17:56:20+00:00
+- Link: https://orca.security/resources/blog/vulnerability-prioritization/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]
+```
+
+#### Full body
+
+```
+Key Takeaways Vulnerability prioritization is a decision procedure, not a score. It orders remediation work against the capacity a team has to do it. SSVC, from Carnegie Mellon’s Software Engineering Institute, replaces a score with a decision tree whose outcomes name timeliness: Defer, Scheduled, Out-of-cycle, or Immediate. A usable prioritization matrix needs two axes a team can populate from data, exploitation state and system exposure, and every cell names the maintenance plan a finding enters. Automation ranks the vulnerability-side inputs that CISA publishes as data. It cannot rank the exposure and mission inputs nobody publishes for you. Orca connects asset, configuration, identity, network path, and data store context in one model, which sets how much of a ranking a machine can compute at all. Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence plainly in its enterprise patch management planning guidance : “Some patches may be considered a higher priority, so other patches are delayed due to limited resources.” Every method below is a way of making that delay deliberate. This guide covers the methods teams run and the inputs each one needs. It specifies a matrix you can copy, marks where automation stops, and names the mistakes that undo a ranking. Understanding Vulnerability Prioritization Vulnerability prioritization decides which known findings enter remediation work now, which enter later, and which are accepted where they are. It is one phase of the vulnerability management lifecycle . It is also the phase where a finding stops being a record and becomes a commitment. Vulnerability assessment and prioritization sit next to each other, and a vulnerability assessment ends in a ranking step. This article is about the rule that step applies. Prioritization turns an analyzed finding set into an order someone can defend to the team doing the work. Prioritization Is a Capacity Problem Before It Is a Scoring Problem Take a team that ships forty remediations in a two-week sprint. Across a year that clears somewhere near a thousand findings. Against a backlog of nine thousand, the ranking is not ordering nine thousand items. It is choosing the thousand that get touched. That changes the question a method answers. Not which finding is worst, but which findings fit the throughput available. A ranking with no throughput number cannot say where the line falls, so the tier boundaries get set by whoever wrote the severity thresholds. Risk-based vulnerability management treats that throughput as a planning input. Why Traditional CVSS Scoring Falls Short CVSS rates the intrinsic characteristics of a flaw in its base metrics. The same base score arrives whether the affected host answers the public internet or sits on a subnet no outsider can reach. Orca’s guide to risk prioritization works through that argument and its consequences. What replaces it is the rest of this article: a procedure with named inputs, stated outcomes, and a recorded reason for each call. Key Factors in Vulnerability Management Prioritization The factors in vulnerability management prioritization are best sorted by where each one comes from, because availability decides which methods a team can run. Four classes cover the inputs every published method consumes. Published inputs. Exploitation state, technical impact, weakness class, and the CVE record itself. Another organization maintains them and they arrive as data. EPSS belongs here. Derived inputs. Network exposure, code-level reach, identity permissions, and proximity to sensitive data. Nobody publishes these, because they describe one estate. Reachability analysis and attack path analysis are the two computations that produ
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Vulnerability Prioritization: Modern Methods & Tools
+  - Published: 2026-08-27T17:56:20+00:00
+  - Link: https://orca.security/resources/blog/vulnerability-prioritization/
+  - Summary: Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]
+
 ### Cluster b7ab4cc245 — score 10
 
 - Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
@@ -1969,12 +2001,12 @@ Threat Research Center Threat Research Malware Malware The State of AI-Enabled M
 ### Cluster 7b22ad7709 — score 10
 
 - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-08-29T03:43:27+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
@@ -1999,56 +2031,104 @@ Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses
 Share Link copied to clipboard! Tags ClickFix Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Threat intelligence Microsoft Threat Intelligence has observed a TerminalFix campaign, a variant of ClickFix, targeting organizations across multiple industries. The campaign uses compromised websites to display a fake Cloudflare CAPTCHA verification overlay that tricks users into copying and executing a malicious PowerShell command. While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully. Unlike earlier ClickFix variants that typically deliver a single infostealer, this TerminalFix campaign deploys a sophisticated multi-stage attack chain that combines DLL sideloading, steganographic payload extraction, extensive Active Directory reconnaissance, and a custom reverse-tunnel implant – giving the attacker persistent, network-level proxy access through the compromised host. Once executed, the PowerShell command masquerades as a Cloudflare verification process while downloading a ZIP archive containing a legitimate binary ( LockScreenContentServer.exe ) and a malicious DLL ( dui70.dll ) used for sideloading. The sideloaded DLL drives an elaborate second stage: downloading payloads concealed inside PNG images using steganography, establishing dual persistence through Registry Run keys and scheduled tasks, conducting thorough domain reconnaissance—including domain trust enumeration, domain admin discovery, Active Directory user description harvesting, and targeted server ping sweeps—and ultimately deploying a Python-based reverse-tunnel C2 implant that tunnels arbitrary TCP traffic back through an encrypted WebSocket channel to attacker infrastructure. This type of intrusion is particularly dangerous because it provides attackers with direct access to an organization’s internal network through the reverse tunnel. The observed reconnaissance and reverse-tunnel capability could enable an attacker to identify and reach additional systems from a compromised host. Microsoft did not observe the downstream actions described below in the analyzed chain. Organizations should treat affected devices as potential network pivot points and investigate for lateral movement and credential exposure. In the hands-on-keyboard phase that typically follows, attackers leverage this access to escalate privileges, disable security controls, exfiltrate sensitive data, and deploy ransomware across the organization. The combination of stealth techniques (DLL sideloading, steganography, hidden folders) and persistent network access make this TerminalFix campaign a serious threat to enterprise environments. In this blog, we share our detailed analysis of the TerminalFix attack chain – from initial compromise through network tunneling—along with indicators of compromise, detection details, and hunting guidance to help defenders identify and respond to this threat. Attack chain overview The TerminalFix campaign follows a multi-stage attack chain that progresses from social engineering through payload delivery, persistence, reconnaissance, and ultimately network tunneling: 1. Initial access via compromised website – A compromised website displays a fake Cloudflare Turnstile CAPTCHA verification overlay. The user is instructed to copy and paste a “verification” command. 2. PowerShell execution – The pasted command runs a disguised PowerShell script that downloads a ZIP archive from attacker infrastructure, extracts it to C:\ProgramData , and silently launches a batch file. 3. DLL sideloading — The batch file executes LockScreenContentServer.exe , a signed legitimate binary, which automatically loads the co-located malicious dui70.dll . 4. Steganographic payload retrieval – The sidelo
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
+  - Published: 2026-08-29T03:43:27+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
+  - Summary: Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
   - Published: 2026-08-29T03:43:27+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
   - Summary: Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
 
-### Cluster 022e3da4a1 — score 10
+### Cluster 16aaa0ee92 — score 10
 
-- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-08-25T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+- Title: When AI infrastructure becomes the target: Securing gateways and control points
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-26T16:43:53+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, ransomware_extortion
-- affected_industries: critical_infrastructure, education, financial_services, government
+- threat_categories: credential_theft
+- affected_products: Microsoft Defender
+- cve_ids: CVE-2026-42271, CVE-2026-48710, CVE-2026-49869
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, apt_espionage
-- affected_industries: financial_services, government, critical_infrastructure, education
+- threat_categories: credential_theft
+- affected_products: Microsoft Defender
+- cve_ids: CVE-2026-42271, CVE-2026-48710, CVE-2026-49869
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity. The post When AI infrastructure becomes the target: Securing gateways and control points appeared first on Microsoft Security Blog .
 ```
 
 #### Full body
 
 ```
-Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
+Share Link copied to clipboard! Tags Malware Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories AI is creating a new layer of enterprise infrastructure. Gateways, retrieval platforms, orchestration services, and containerized runtimes now sit between users, applications, data, and models. These systems concentrate credentials, data access, model connectivity, and execution privileges, making them some of the most powerful components in the AI stack. That concentration of trust is also creating new opportunities for attackers. In recent investigations, Microsoft observed activity targeting three distinct AI workloads: a LiteLLM gateway, a RAGFlow deployment, and a Kestra workflow environment. The intrusion paths varied, but the objectives were strikingly similar. Attackers sought to steal credentials, establish persistence, and monetize compromised compute resources. The individual techniques matter, but the broader pattern matters more. Across these cases, attackers treated AI infrastructure as a control plane where credential theft, host compromise, and downstream data access can converge. As organizations continue to deploy AI systems, these platforms are becoming high value targets that deserve the same security scrutiny as other critical enterprise infrastructure. AI workloads are becoming high-value control points The campaign-level signal extends beyond one product. The targeted workloads served different functions, but each exposed assets that could support follow-on abuse, including model-provider keys, proxy-issued virtual keys, database connection strings, tenant configuration, workflow execution, or host compute. Post-compromise behavior varied by workload role. Defenders should inventory exposed AI management surfaces, restrict administrative access, and monitor for gateway-originated execution and secret access. Three observed compromises across AI workloads AI workload Observed activity Attacker objective LiteLLM Observed attacker activity : Python droppers, runtime secret harvesting, PostgreSQL collection, miner deployment, and persistence activity from the LiteLLM gateway context. Microsoft assessment: Initial access likely occurred through exploitation of the exposed LiteLLM gateway surface, consistent with the vulnerability chain involving CVE-2026-42271 and CVE-2026-48710. Credential theft, backend database access, durable host access, and compute monetization. RAGFlow Observed attacker activity : Possible SSRF-style reconnaissance followed several days later by code execution, application-path modification, and placement of a Python hook in the TenantLLM credential-configuration flow. Public research: Describes multiple RAGFlow execution paths; Microsoft does not attribute this intrusion to a specific vulnerability. Intercept newly configured LLM provider credentials and model metadata. Kestra Observed attacker activity : Workflow-origin shell execution, Docker and container-environment discovery, XMRig deployment, and follow-on data collection. Microsoft assessment: Initial access likely involved exploitation of the exposed Kestra orchestration surface, with CVE-2026-49869 providing relevant public vulnerability context. Secret discovery, container-level access, data collection, and rapid compute monetization. Case study 1: LiteLLM gateway compromise Framework role and affected runtime context LiteLLM is commonly deployed as a proxy or gateway between applications and model providers. In that position, the service may hold or retrieve model-provider keys, LiteLLM master keys, virtual-key records, database connection strings, routing configuration, and tenant policy data. Command execution in the gateway runtime therefore exposed a process context close to AI routing and credential material. Figure 1. LiteLLM gateway compromise – attack chain. Initial access Microsoft assesses with high confidence that initial access lik
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
-  - Published: 2026-08-25T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
-  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: When AI infrastructure becomes the target: Securing gateways and control points
+  - Published: 2026-08-26T16:43:53+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/
+  - Summary: Microsoft Threat Intelligence examines attacks on exposed AI workloads, including LiteLLM gateway exploitation, credential harvesting, persistence, and cryptomining activity. The post When AI infrastructure becomes the target: Securing gateways and control points appeared first on Microsoft Security Blog .
+
+### Cluster 156c2d6047 — score 10
+
+- Title: The patch window is collapsing: Why security needs a new control plane
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-08-25T16:00:00+00:00
+- Link: https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: vulnerability_disclosure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+August 25 6 min read The patch window is collapsing: Why security needs a new control plane By Igor Sakhnov , Corporate Vice President and General Manager for Azure Networking Listen to this post / 1x For decades, cybersecurity defenders have relied on a relatively straightforward model: a vulnerability is disclosed, security teams assess exposure, test available fixes, deploy patches into production, and ultimately close the risk before attackers can exploit it at scale. That model increasingly reflects a world that no longer exists. Today’s enterprises operate thousands of interconnected workloads across hybrid and multicloud environments. Mission-critical applications power revenue-generating services, customer experiences, and core business operations that cannot simply be taken offline whenever a security update becomes available. At the same time, vulnerabilities are becoming more visible, more widely distributed, and more rapidly weaponized than ever before. The result is a growing gap between how quickly organizations can safely remediate vulnerabilities and how quickly adversaries can exploit them. It is time to rethink how the industry approaches security during the critical period between disclosure and remediation. The patch window has collapsed Traditional vulnerability management was built on the assumption that defenders could move faster than attackers. In many cases, they could. When a vulnerability was disclosed, organizations had time to understand the issue, assess affected systems, test patches, coordinate change windows, and deploy fixes before widespread exploitation occurred. Today that timeline is rapidly shrinking. Modern attack campaigns operate at internet scale. Security research, public disclosures, proof-of-concept exploits, and threat intelligence circulate globally within hours. A vulnerability announced in the morning can become the focus of active scanning and exploitation efforts by the afternoon. Meanwhile, the operational realities of enterprise environments have not changed. Organizations still must: Understand the vulnerability and its business impact. Identify affected systems across large estates. Evaluate dependencies and compatibility concerns. Validate fixes in test environments. Coordinate deployment schedules. Monitor for regressions and operational risk. These are not signs of inefficiency. They are necessary safeguards for business-critical environments. The challenge is that while defensive processes continue to require days or weeks, offensive timelines are increasingly measured in hours. That creates one of the most dangerous periods in modern cybersecurity: the window between awareness and remediation. AI is expanding the defender’s challenge AI is helping organizations modernize operations, accelerate development, and improve security outcomes. But the same technological advances are also changing the economics of offensive operations. Historically, transforming a newly disclosed vulnerability into an effective attack often required extensive manual research and deep technical expertise. Security researchers and attackers alike needed to analyze documentation, understand exploit conditions, study affected software, and develop attack techniques. Many of those steps can now be accelerated. AI-assisted workflows can help analyze vulnerability disclosures, identify likely attack paths, evaluate technical dependencies, and summarize complex technical information far more quickly than traditional manual processes. As these capabilities become more accessible, the timeline between disclosure and exploitation continues to compress. The result is a structural imbalance. Defenders remain responsible for protecting entire environments that may include thousands of servers, applications, databases, containers, and network assets. Attackers only need to identify a single viable path to exploitation. This asymmetry is driving organizations to ask an increasingly important question: What
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: The patch window is collapsing: Why security needs a new control plane
+  - Published: 2026-08-25T16:00:00+00:00
+  - Link: https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/
+  - Summary: Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog .
 
 ### Cluster 1b05e6e7b4 — score 10
 
@@ -2096,6 +2176,49 @@ Table of Contents Statistics on registered vulnerabilities Exploitation statisti
   - Published: 2026-08-26T10:00:04+00:00
   - Link: https://securelist.com/vulnerabilities-and-exploits-in-q2-2026/121091/
   - Summary: This report covers statistics on vulnerabilities, exploits, and C2 frameworks in Q2 2026. For the first time ever, we aggregate data on vulnerabilities in open-source AI agents and AI frameworks.
+
+### Cluster 022e3da4a1 — score 10
+
+- Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-08-25T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, credential_theft, ransomware_extortion
+- affected_industries: critical_infrastructure, education, financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, apt_espionage
+- affected_industries: financial_services, government, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
+```
+
+#### Full body
+
+```
+Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico faces an increasingly complex cyber threat landscape, including ransomware, state-sponsored espionage, financial malware, data breaches, hacktivism, and cyber-enabled organized crime. Its 2025–2030 National Cybersecurity Plan seeks to address these challenges through stronger governance, new legislation, a national operations center, integrated incident-response teams, cyber exercises, AI-enabled defenses, and expanded regional cooperation. Insikt Group assesses ransomware as the leading threat while highlighting growing risks from foreign threat actors and credential theft. We recommend leveraging threat intelligence, applying international security frameworks, and fostering cyber education. Ultimately, Mexico’s progress will depend on turning an ambitious roadmap into durable institutions, effective regulation, and sustained international cooperation. Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense Mexico has no shortage of cyber threats. Ransomware attacks are rising, criminal groups are exploiting stolen credentials and financial malware, and state-linked threat actors increasingly view the country’s government agencies, universities, and critical infrastructure as attractive targets. Mexico’s new National Cybersecurity Plan (hereinafter referred to as “Plan”), introduced in December 2025, recognizes many of these risks. However, it remains uncertain as to whether the government can build the institutions needed to address them proactively. Mexico is ranked as a "Tier 2" nation in the ITU's 2024 Global Cybersecurity Index, placing it alongside Canada, Ecuador, and Uruguay in the upper ranks, trailing the United States (US) and Brazil, which have reached Tier 1 in the Americas. Despite that standing, Mexico is generally perceived by cyber experts as lagging behind international standards in institutional capacity-building, with international cooperation identified as an area requiring growth. The question of whether the government can build the proper institutions has become more urgent in the aftermath of the FIFA World Cup 2026, which provided a high-profile stress test for Mexico’s digital defenses. With the tournament over and implementation of the government’s 2025-2030 cybersecurity plan beginning in earnest, Mexico faces a major opportunity to improve its cyber posture. For this reason, the Plan represents a major opportunity for Mexican authorities to bring the country’s cyber readiness to the next level. Although there have been attempts to advance national cybersecurity policy, they have failed to gain traction. With this new Plan, President Claudia Sheinbaum's administration has committed to full implementation over the course of her term, aided by her party's majority control of Congress. The Plan lays out a six-phase roadmap designed to gradually build Mexico’s cybersecurity capabilities through 2030, with later phases intended to deepen and institutionalize them. The 2025 Foundation Phase established a general framework for governance, risk management, incident reporting, and coordination, as well as initial steps to deepen international cooperation, including Mexico’s formal membership in the Latin America and Caribbean Cyber Competence Centre (LAC4) and a cybersecurity Memorandum of Understanding (MOU) with Brazil. The 2026 Expansion Phase, now underway, focuses on translating that framework into institutions through the passage of a new General Cybersecurity Law in Mexico, creation of a National Cybersecurity Operations Center, and integration of federal computer security incident response teams (CSIRTs). The 2027 Consolidation Phase would establish a National Cyber Range for red team and blue team exercises. The 2028 Maturation Phase would incorporate AI into cyber defense and develop a regional response center. The 2029 Leadership Phase aims to position Mexico as a cybersecurity services exporter across Latin
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
+  - Published: 2026-08-25T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/mexico-cybersecurity-plan
+  - Summary: Explore Mexico’s 2025–2030 Cybersecurity Plan. Learn about key threats, including ransomware, and the roadmap for building durable national cyber defenses.
 
 ### Cluster 849426520e — score 10
 
@@ -2145,6 +2268,45 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 24th Augus
   - Published: 2026-08-24T14:07:53+00:00
   - Link: https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The […] The post 24th August – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster d95ca75496 — score 10
+
+- Title: Operationalize CTEM with NodeZero®
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-24T18:19:30+00:00
+- Link: https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.
+```
+
+#### Full body
+
+```
+Operationalize CTEM with NodeZero® Horizon3 August 24, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is ultimately about one outcome: continuously reducing exposure. Gartner® defines CTEM through five stages: Scoping, Discovery, Prioritization, Validation, and Mobilization. But operationalizing CTEM isn’t about filling five technology categories. It requires a repeatable way to connect existing security tools and processes, determine what attackers can actually exploit, focus remediation where it matters, and verify that the work reduced risk. Turn the CTEM Framework into a Repeatable Operating Model The Horizon3 CTEM Operating Loop turns the CTEM framework into repeatable action, with the NodeZero® Proactive Security Platform enabling teams to execute it at scale. Discover → Validate → Prioritize → Remediate → Verify → Repeat With NodeZero, security teams can: Discover exposure across internal systems, internet-facing assets, cloud and identity, web applications, and third-party connections Validate what’s exploitable by safely testing assets in production and proving what an attacker can actually achieve Prioritize based on impact using demonstrated exploitability, attack paths, affected systems, and potential business consequences Remediate with clarity using evidence of successful exploitation, attack-path context, affected assets, and remediation guidance Verify fixes work by retesting to confirm weaknesses are no longer exploitable and attack paths have been broken Repeat continuously as environments, identities, configurations, and vulnerabilities change Move from Visibility to Measurable Risk Reduction Discovery tells you where exposure may exist. Validation tells you what can actually be exploited. NodeZero safely attacks your environment to uncover exploitable vulnerabilities, misconfigurations, credential weaknesses, and attack paths without disrupting production. It then chains weaknesses together to demonstrate how an attacker could move through the environment, what they could reach, and what they could achieve. This evidence allows teams to prioritize based on demonstrated exploitability and impact rather than severity scores, scan data, and assumptions alone. Measure Whether You’re Actually Becoming More Secure By continuously running the CTEM Operating Loop, organizations can measure progress through: Exploitable weaknesses and attack paths over time Mean time to remediate (MTTR) Remediation and verification status Recurring and systemic weaknesses Exposure reduction over time The result is a CTEM program grounded in measurable risk reduction: identify what matters, fix it, prove it’s fixed, and repeat. Operationalize CTEM with NodeZero Download the Operationalize CTEM with NodeZero Factsheet to learn how the Horizon3 CTEM Operating Loop helps security teams turn CTEM into a repeatable operating model and continuously discover, validate, prioritize, remediate, and verify exploitable exposure. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Operationalize CTEM with NodeZero®
+  - Published: 2026-08-24T18:19:30+00:00
+  - Link: https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/
+  - Summary: Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.
 
 ### Cluster 53ffa01d60 — score 10
 
@@ -2309,45 +2471,6 @@ The safety penalty: Reclaiming operational sovereignty in the age of AI By David
   - Published: 2026-08-25T10:00:22+00:00
   - Link: https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
   - Summary: As frontier AI models become increasingly restrictive, security teams are facing a "safety penalty" that hampers real-time incident response. Discover how organizations can move toward operational sovereignty to ensure their defensive AI keeps pace with unconstrained adversaries.
-
-### Cluster d95ca75496 — score 10
-
-- Title: Operationalize CTEM with NodeZero®
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-24T18:19:30+00:00
-- Link: https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.
-```
-
-#### Full body
-
-```
-Operationalize CTEM with NodeZero® Horizon3 August 24, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is ultimately about one outcome: continuously reducing exposure. Gartner® defines CTEM through five stages: Scoping, Discovery, Prioritization, Validation, and Mobilization. But operationalizing CTEM isn’t about filling five technology categories. It requires a repeatable way to connect existing security tools and processes, determine what attackers can actually exploit, focus remediation where it matters, and verify that the work reduced risk. Turn the CTEM Framework into a Repeatable Operating Model The Horizon3 CTEM Operating Loop turns the CTEM framework into repeatable action, with the NodeZero® Proactive Security Platform enabling teams to execute it at scale. Discover → Validate → Prioritize → Remediate → Verify → Repeat With NodeZero, security teams can: Discover exposure across internal systems, internet-facing assets, cloud and identity, web applications, and third-party connections Validate what’s exploitable by safely testing assets in production and proving what an attacker can actually achieve Prioritize based on impact using demonstrated exploitability, attack paths, affected systems, and potential business consequences Remediate with clarity using evidence of successful exploitation, attack-path context, affected assets, and remediation guidance Verify fixes work by retesting to confirm weaknesses are no longer exploitable and attack paths have been broken Repeat continuously as environments, identities, configurations, and vulnerabilities change Move from Visibility to Measurable Risk Reduction Discovery tells you where exposure may exist. Validation tells you what can actually be exploited. NodeZero safely attacks your environment to uncover exploitable vulnerabilities, misconfigurations, credential weaknesses, and attack paths without disrupting production. It then chains weaknesses together to demonstrate how an attacker could move through the environment, what they could reach, and what they could achieve. This evidence allows teams to prioritize based on demonstrated exploitability and impact rather than severity scores, scan data, and assumptions alone. Measure Whether You’re Actually Becoming More Secure By continuously running the CTEM Operating Loop, organizations can measure progress through: Exploitable weaknesses and attack paths over time Mean time to remediate (MTTR) Remediation and verification status Recurring and systemic weaknesses Exposure reduction over time The result is a CTEM program grounded in measurable risk reduction: identify what matters, fix it, prove it’s fixed, and repeat. Operationalize CTEM with NodeZero Download the Operationalize CTEM with NodeZero Factsheet to learn how the Horizon3 CTEM Operating Loop helps security teams turn CTEM into a repeatable operating model and continuously discover, validate, prioritize, remediate, and verify exploitable exposure. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Operationalize CTEM with NodeZero®
-  - Published: 2026-08-24T18:19:30+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/
-  - Summary: Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.
 
 ### Cluster f5aaf423ba — score 10
 
@@ -2647,55 +2770,6 @@ New malware that uses steganography always gets my attention, but I was disappoi
   - Published: 2026-08-24T07:23:16+00:00
   - Link: https://isc.sans.edu/diary/rss/33274
   - Summary: New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&#;x26;#;39;t use real steganography:
-
-### Cluster 9da7d1d5a1 — score 9
-
-- Title: Hasbro Data Breach Exposed Employee Personal Information
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-29T11:55:00+00:00
-- Link: https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, ransomware_extortion, zero_day
-- actor_attribution: TeamPCP
-- affected_industries: critical_infrastructure, financial_services, manufacturing_industrial
-- affected_products: Citrix, Linux kernel, OpenAI/ChatGPT
-- urgency_signals: actively_exploited, emergency_patch, zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach, active_exploitation
-- actor_attribution: TeamPCP
-- affected_industries: financial_services, critical_infrastructure, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, Linux kernel, Citrix
-- urgency_signals: actively_exploited, zero_day, emergency_patch
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Toy and game giant Hasbro is notifying employees that their personal information may have been compromised in a data breach. The notifications sent to affected individuals contain little detail, but they indicate that the exposed information, which varies by individual, may include names, email addresses, postal addresses, phone numbers, national ID numbers, and financial information. The information comes from notification letters that Hasbro submitted to the Massachusetts Attorney General’s Office. It’s unclear how many individuals are affected in total, but it’s likely hundreds or a few thousand. The Massachusetts notification says 436 residents are impacted and the company has roughly 4,600 employees worldwide, most in the United States, according to Revelio Labs data. Data breach notifications do not appear to have been published on any other AG website at the time of writing. The data breach may be related to the cyberattack that targeted Hasbro in late March. The company took some systems offline to respond to the attack, resulting in disruptions. Advertisement. Scroll to continue reading. The cyberattack cost Hasbro $11 million in direct cleanup expenses and delayed another $25 million in product sales due to system shutdowns. SecurityWeek asked Hasbro to confirm whether the new breach notification is connected to the March cyberattack. The company did not directly answer that question. A Hasbro spokesperson said the company identified a security incident involving its network earlier this year and “took immediate action to address the incident,” including launching an investigation with outside cybersecurity experts to determine what happened and what information may have been accessed. The investigation determined that some current and former employees’ personal information may have been accessed during the incident. Hasbro said it is “not aware of any misuse of personal data” and has no indication the information will be misused. Out of an abundance of caution, the company said it is offering identity protection services through a third-party provider to those affected. No known cybercrime group has listed Hasbro on its leak website. *added information on financial loss caused by the cyberattack Related : ATF Confirms Cyber Incident After Ransomware Group Claims Attack Related : Sensitive Information Exposed in Nutex Health Data Breach Related : Personal Information Exposed in Apollo Global Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs OpenAI Agents Coordinated via Makeshift Message Board Ahead of Hugging Face Hack Cyberattack Causes Global Disruption at Boston Scientific US Disrupts Chinese Hacking Platform Used in Military and Critical Infrastructure Attacks Recent Citrix NetScaler Vulnerability Exploited in the Wild AI Speeds Up Malware Development, Not Its Success Rate: Analysis Adobe and Nvidia Patch Dozens of Vulnerabilities CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks Chrome 152 Patches Over 300 Vulnerabilities Latest News In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions ATF Confirms Cyber Incident After Ransomware Group Claims Attack OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems Tech, Cybersecurity Giants Unite Behind OpenAI-Led Cyber Defense Pledge Think You’ve Eliminated Chinese AI? Check the Model’s Lineage, Cisco Says PaperCut Releases Emergency Patch for Exploited Zero-Day Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear Australia Arrests 2 Alleged TeamPCP Hackers Tre
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Hasbro Data Breach Exposed Employee Personal Information
-  - Published: 2026-08-29T11:55:00+00:00
-  - Link: https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
-  - Summary: A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .
 
 ### Cluster 62469ecc9b — score 9
 
@@ -3407,54 +3481,40 @@ Toy-making giant Hasbro disclose data breach affecting employees By Sergiu Gatla
   - Link: https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/
   - Summary: Hasbro, one of the world's largest toy and game companies, has disclosed that attackers have accessed the personal and financial information of an undisclosed number of employees. [...]
 
-### Cluster a2fea40726 — score 8
+### Cluster 9da7d1d5a1 — score 8
 
-- Title: PaperCut warns of NG, MF flaw exploited in zero-day attacks
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-27T16:31:53+00:00
-- Link: https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
-- Fetch status: ok
+- Title: Hasbro Data Breach Exposed Employee Personal Information
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-29T11:55:00+00:00
+- Link: https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, zero_day
-- actor_attribution: Cl0p, LockBit
-- affected_industries: education
-- cve_ids: CVE-2023-27350
-- urgency_signals: emergency_patch, preauth_unauth, zero_day
-- content_type: news_report
+- threat_categories: data_breach
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day
-- actor_attribution: LockBit, Cl0p
-- affected_industries: education
-- cve_ids: CVE-2023-27350
-- urgency_signals: zero_day, preauth_unauth, emergency_patch
-- content_type: news_report
+- threat_categories: data_breach
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]
-```
-
-#### Full body
-
-```
-PaperCut warns of NG, MF flaw exploited in zero-day attacks By Lawrence Abrams August 27, 2026 12:31 PM 0 PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company says it is aware of confirmed attacks on customers and is urging organizations with Internet-exposed PaperCut Application Servers to immediately restrict access to the web interfaces to trusted IP addresses. "PaperCut Software security response team is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF," reads an urgent security advisory published Thursday. "We are aware of confirmed customer incidents and are treating this matter with the highest priority." PaperCut says the vulnerability affects all versions of PaperCut NG and MF, but has not shared details about the flaw or how it is being exploited. The company says its security team reproduced the vulnerability using information provided by a University customer. PaperCut has now released emergency patches for customers with public-facing PaperCut NG/MF servers. "This is an emergency patch for customers with public-facing PaperCut NG/MF servers who are unable to take other mitigating action," reads the advisory. The company continues to warn customers whose Application Servers are exposed to the Internet to use firewall rules or network access controls to restrict their web interfaces to trusted IP addresses. PaperCut also shared indicators of compromise that could indicate whether a server has been compromised. These include suspicious activity from the the legitimate PaperCut pc-app.exe process and server.log files that have been modified, deleted, or are missing. Administrators should also look for the following errors in server.log : ERROR No suitable driver found for jdbc:no:x ERROR DatabaseUtils - Database error looking up cardID: VALUES CAST However, PaperCut warns that a lack of indicators does not mean that a server has not been compromised. At this time, PaperCut has not disclosed who is behind the attacks, what attackers are doing after compromising servers, or whether data is being stolen. PaperCut says it will continue updating its advisory with additional indicators of compromise and remediation guidance as its investigation continues. BleepingComputer contacted PaperCut with questions about this exploitation and will update the story when we receive a response. Previous PaperCut flaws exploited in attacks PaperCut has a history of being targeted by threat actors after security vulnerabilities were disclosed. In April 2023, attackers began exploiting the critical CVE-2023-27350 PaperCut vulnerability, which allowed unauthenticated attackers to bypass authentication and remotely execute code on vulnerable servers. Microsoft later linked some of those attacks to the Clop ransomware operation, which exploited vulnerable PaperCut servers for initial access to company networks. Microsoft also observed intrusions that led to LockBit ransomware attacks. While PaperCut has a Print Archiving feature that can retain documents sent through a server, Clop later told BleepingComputer that it had used the vulnerabilities for initial access to victim networks rather than to steal archived documents directly from PaperCut servers. The exploitation spread to other threat actors, with Microsoft reporting that Iranian state-backed hacking groups were also exploiting CVE-2023-27350 . CISA and the FBI issued a joint advisory in May 2023 warning that the Bl00dy Ransomware Gang was also exploiting vulnerable PaperCut servers in attacks against the education sector. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million
+A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .
 ```
 
 #### Corroborating sources (1)
 
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: PaperCut warns of NG, MF flaw exploited in zero-day attacks
-  - Published: 2026-08-27T16:31:53+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/
-  - Summary: PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Hasbro Data Breach Exposed Employee Personal Information
+  - Published: 2026-08-29T11:55:00+00:00
+  - Link: https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/
+  - Summary: A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .
 
 ### Cluster 6fe333b73a — score 8
 
@@ -3462,7 +3522,7 @@ PaperCut warns of NG, MF flaw exploited in zero-day attacks By Lawrence Abrams A
 - Source: Elastic Security Labs (detection_response_operations)
 - Published: 2026-08-25T00:00:00+00:00
 - Link: https://www.elastic.co/security-labs/blog/alert-triage-agentic-soc-self-correcting-agents
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3479,12 +3539,6 @@ PaperCut warns of NG, MF flaw exploited in zero-day attacks By Lawrence Abrams A
 
 ```
 Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack.
-```
-
-#### Full body
-
-```
-Blog Inside Elastic's agentic SOC: How we took AI alert triage from 60% to 92% accuracy Elastic's InfoSec team runs three agents that read the detection rule's investigation guide and the closure reasons on 30 days of past cases. Analysts now clear most alerts with a single click in Slack. August 25, 2026 Maggie Musquez AI & Automation Jump to Share AI verdict correctness in our security operations center (SOC) is 92%, up from 60%, but we didn't switch models to get there. What we changed is the context the agents get before they decide anything, including the detection rule's investigation guide and user risk data from Workday, along with the closure reasons from 30 days of past cases on that same rule. This post covers how the agentic SOC pipeline is built in Elastic Workflows and Elastic Agent Builder, down to the prompts and the feedback loop that lets an agent see where it got the same rule wrong last time. Customer Zero: Running Agent Builder in our own SOC At Elastic, our internal SOC operates as Customer Zero, meaning that we’re the first and most demanding user of every feature we ship. We run the newest versions of Elastic Security and Agent Builder in our production environment, often before they reach general availability (GA), across a globally distributed fleet of laptops, servers, and cloud workloads. The workflows and agent configurations shown in this post reflect our setup as of version 9.5.1. When your AI SOC analyst is wrong 40% of the time Our team dove in headfirst with AI agents and fully integrated our alerts with AI triage. When our agents were looking at only the current alert context and investigation indexes, they weren’t always correct. Actually, our logs showed accuracy hovering around 60%. It’s great to have this data, but not if the analysts can’t trust it. We were adding long AI summaries to each case, what we would consider AI slop , as it was inaccurate 40% of the time. The feedback we got from the analysts was that they weren’t reading them. The analysts started ignoring the AI summaries completely since they couldn't trust that they were helpful or accurate. It took more time to read a paragraph of incorrect information than to just triage the case manually. The summaries were slowing analysts down without providing any benefit worth the additional token cost. Leading with the data Before getting too in the weeds, here’s the data. Our AI verdict correctness (based on comparing the AI verdict and the analyst close reason) went from 60% to 92% after implementing the changes we discuss in this blog. We’re tracking these metrics using Elastic dashboards by comparing the case custom fields that are discussed more below. This increase in accuracy meant that the analysts could start double-checking the summary and closing the case right away. This changed our AI summaries from being a time sink to allowing our analysts to close the case in one step. Elastic dashboard showing AI verdict accuracy rising from 60% to 92% after the Brainstorm agents launched. What context AI alert triage actually needs We significantly increased agent accuracy by feeding them more context. Here's what we pull in from each source before an agent makes a verdict: Context enrichment sources for AI alert triage: Kibana API and ES|QL lookups with index and endpoint detail. When should you use an AI agent instead of a query? It's important to know when to use AI and when not to. If the answer requires a predictable query with only a variable or two changing each time, don't use an agent. Instead, use an Elastic workflow that runs an Elasticsearch Query Language (ES|QL) query, a Kibana API call, or a GET request. They're faster and cheaper, and we keep them modular and reusable across many different orchestrators, so a UserDetailsLookup or PastCasesByRulenameLookup can be called from any workflow that needs it. Agents are more suited for tasks that require reading and reasoning that cannot be completed with a simple query; fo
 ```
 
 #### Corroborating sources (1)
@@ -3672,36 +3726,42 @@ Vulnerability management has been a staple of security programs since the dawn o
   - Link: https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html
   - Summary: Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also existed for that time and has gone through waves of contention and thankfulness. While this relationship required thoughtful care and feeding from both sides, both sides were aiming to work toward a
 
-### Cluster bc91ce6f86 — score 8
+### Cluster e7ddd34516 — score 8
 
-- Title: Just a rumour of a bug is enough to find a security exploit these days
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-08-28T22:12:02+00:00
-- Link: https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
+- Title: Anthropic warns infostealer malware is hijacking Claude sessions to drain usage
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-30T14:30:25+00:00
+- Link: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/
 - Fetch status: not_attempted
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 7
+- Corroborating source count: 6
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_products: Anthropic/Claude
+- threat_categories: ai_security, credential_theft
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
+- threat_categories: credential_theft
 - affected_products: Anthropic/Claude
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task. Anil points out that this rate of discovery appears incompatible with existing open source embargo
+Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (6)
 
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Anthropic warns infostealer malware is hijacking Claude sessions to drain usage
+  - Published: 2026-08-30T14:30:25+00:00
+  - Link: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/
+  - Summary: Anthropic is warning some Claude users that infostealer malware on their PCs has stolen active Claude login sessions, allowing attackers to access accounts and consume their usage. [...]
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: Just a rumour of a bug is enough to find a security exploit these days
   - Published: 2026-08-28T22:12:02+00:00
@@ -3722,6 +3782,11 @@ Just a rumour of a bug is enough to find a security exploit these days Anil Madh
   - Published: 2026-08-26T10:27:23+00:00
   - Link: https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html
   - Summary: Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August 10, based on chat logs and screenshots the user supplied. He had asked an
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Window to Tackle Surge in AI-Enabled Cyber Attacks Narrowing, Tech Giants Warn
+  - Published: 2026-08-28T09:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/window-ai-attacks-narrowing-tech/
+  - Summary: More than 100 companies, including OpenAI, Anthropic, Google and Microsoft, have urged collective action to unlock the power of AI to protect critical public services
 
 ### Cluster 77567e0c10 — score 8
 
