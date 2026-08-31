@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-08-31T16:59:08.211489+00:00
+- Generated: 2026-08-31T21:51:39.431963+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 74
-- Total items in window: 296
-- Total clusters raw: 154
-- Total clusters in packet: 71
-- Dropped low score: 83
+- Feeds OK: 73
+- Total items in window: 310
+- Total clusters raw: 158
+- Total clusters in packet: 69
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,61 +70,61 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
-  - Item count: 25
+  - Item count: 10
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -140,25 +140,30 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -170,21 +175,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 9
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -195,16 +190,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -225,11 +225,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -239,12 +234,22 @@
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 5
+  - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 7
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -255,21 +260,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -279,37 +279,42 @@
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 1
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 6
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+  - In window count: 5
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
+  - In window count: 5
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -320,11 +325,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -340,11 +340,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,20 +350,35 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 23
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 22
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
+  - In window count: 7
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
   - In window count: 7
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
@@ -380,13 +390,8 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -395,43 +400,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 20
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -440,21 +420,41 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 25
-  - In window count: 10
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 20
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 20
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 25
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -476,22 +476,22 @@
 ### CVE-2026-81578 exploitation activity
 - Anchor signal: CVE-2026-81578
 - Theme key: cve-2026-81578
-- Cluster count: 6
-- Article count: 6
-- Cohesion: 0.386
+- Cluster count: 5
+- Article count: 5
+- Cohesion: 0.359
 - Shared strong signals: CVE-2026-81578
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, zero_day, ransomware_extortion
-  - affected_industries: critical_infrastructure
-  - cve_ids: CVE-2026-81578, CVE-2026-82078
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch
-- Cluster IDs: 69f95d6a80, 220df2cac2, 1f6abea0e7, dfcccdc3f5, 205332731c, e57f34f6e2
+  - threat_categories: active_exploitation, zero_day, ransomware_extortion, phishing_social_eng
+  - affected_industries: critical_infrastructure, education
+  - affected_products: OpenAI/ChatGPT
+  - cve_ids: CVE-2026-81578, CVE-2026-82078, CVE-2023-27350
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch, no_patch_yet
+- Cluster IDs: 69f95d6a80, 220df2cac2, dfcccdc3f5, 205332731c, e57f34f6e2
 - Links:
   - https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
   - https://www.huntress.com/blog/papercut-actively-exploited
-  - https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
   - https://www.helpnetsecurity.com/2026/08/31/papercut-attack-remote-access-tools/
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
   - https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
@@ -499,22 +499,22 @@
 ### CVE-2026-82078 exploitation activity
 - Anchor signal: CVE-2026-82078
 - Theme key: cve-2026-82078
-- Cluster count: 6
-- Article count: 6
-- Cohesion: 0.386
+- Cluster count: 5
+- Article count: 5
+- Cohesion: 0.359
 - Shared strong signals: CVE-2026-82078
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, zero_day, ransomware_extortion
-  - affected_industries: critical_infrastructure
-  - cve_ids: CVE-2026-81578, CVE-2026-82078
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch
-- Cluster IDs: 69f95d6a80, 220df2cac2, 1f6abea0e7, dfcccdc3f5, 205332731c, e57f34f6e2
+  - threat_categories: active_exploitation, zero_day, ransomware_extortion, phishing_social_eng
+  - affected_industries: critical_infrastructure, education
+  - affected_products: OpenAI/ChatGPT
+  - cve_ids: CVE-2026-81578, CVE-2026-82078, CVE-2023-27350
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch, no_patch_yet
+- Cluster IDs: 69f95d6a80, 220df2cac2, dfcccdc3f5, 205332731c, e57f34f6e2
 - Links:
   - https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
   - https://www.huntress.com/blog/papercut-actively-exploited
-  - https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
   - https://www.helpnetsecurity.com/2026/08/31/papercut-attack-remote-access-tools/
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
   - https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
@@ -556,8 +556,8 @@
 - Links:
   - https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/
   - https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
+  - https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/
   - https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/
-  - https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/
   - https://www.infosecurity-magazine.com/news/reliaquest-not-compromised-by/
   - https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/
   - https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/
@@ -604,29 +604,6 @@
   - https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/
   - https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html
 
-### TeamPCP targeting npm
-- Anchor signal: TeamPCP
-- Theme key: teampcp
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.418
-- Shared strong signals: TeamPCP
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain, ransomware_extortion, phishing_social_eng
-  - actor_attribution: TeamPCP
-  - affected_industries: government
-  - affected_products: OpenAI/ChatGPT, GitHub, npm
-- Cluster IDs: 205332731c, b0c59929e1, cda2c7fd5c, 7c35bc981f
-- Links:
-  - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
-  - https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
-  - https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
-  - https://risky.biz/RBNEWS606/
-  - https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/
-  - https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
-
 ### ShinyHunters: data breach
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
@@ -644,8 +621,8 @@
 - Links:
   - https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
   - https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
+  - https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/
   - https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/
-  - https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/
   - https://www.infosecurity-magazine.com/news/reliaquest-not-compromised-by/
   - https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
 
@@ -684,6 +661,25 @@
   - https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html
   - https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
 
+### TeamPCP: ransomware extortion
+- Anchor signal: TeamPCP
+- Theme key: teampcp
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: TeamPCP
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, supply_chain, phishing_social_eng
+  - actor_attribution: TeamPCP
+- Cluster IDs: 205332731c, b0c59929e1
+- Links:
+  - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
+  - https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+  - https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
+  - https://risky.biz/RBNEWS606/
+
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
@@ -700,30 +696,29 @@
   - https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
   - https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/
 
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
+### phishing social eng targeting npm
+- Anchor signal: npm
+- Theme key: npm
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: WordPress
+- Article count: 4
+- Cohesion: 0.211
+- Shared strong signals: npm
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_industries: manufacturing_industrial
-  - affected_products: WordPress
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 4052366531, f5aaf423ba
+  - threat_categories: phishing_social_eng
+  - affected_products: npm
+- Cluster IDs: b0c59929e1, cda2c7fd5c
 - Links:
-  - https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
-  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners
+  - https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+  - https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
+  - https://risky.biz/RBNEWS606/
+  - https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 2
-  - CVE-2025-60689 (first seen via Exploit-DB at 2026-08-31T00:00:00+00:00, cluster df5dc53845)
-  - CVE-2022-0995 (first seen via The Hacker News at 2026-08-27T07:05:28+00:00, cluster 2ecdfe9230)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -736,8 +731,6 @@
 - Pair: CVE-2026-81578 + OpenAI/ChatGPT (cluster 220df2cac2, first observation: True)
 - Pair: CVE-2026-82078 + Anthropic/Claude (cluster 220df2cac2, first observation: True)
 - Pair: CVE-2026-82078 + OpenAI/ChatGPT (cluster 220df2cac2, first observation: True)
-- Pair: CVE-2026-81578 + Apple iOS/macOS (cluster 1f6abea0e7, first observation: True)
-- Pair: CVE-2026-82078 + Apple iOS/macOS (cluster 1f6abea0e7, first observation: True)
 - Pair: CVE-2026-75604 + GitHub (cluster 20dcdd9f4f, first observation: True)
 - Pair: CVE-2025-60689 + GitHub (cluster df5dc53845, first observation: True)
 - Pair: CVE-2026-18431 + GitLab (cluster 4052366531, first observation: True)
@@ -747,6 +740,8 @@
 - Pair: CVE-2026-19598 + Gitea (cluster 4052366531, first observation: True)
 - Pair: CVE-2026-19598 + WordPress (cluster 4052366531, first observation: True)
 - Pair: CVE-2026-19632 + GitLab (cluster 4052366531, first observation: True)
+- Pair: CVE-2026-19632 + Gitea (cluster 4052366531, first observation: True)
+- Pair: CVE-2026-19632 + WordPress (cluster 4052366531, first observation: True)
 
 ### Drift (6)
 - **Cl0p** (cluster 205332731c)
@@ -766,9 +761,9 @@
   - Prior top products: GitHub, Kubernetes, npm
 - **APT29** (cluster eae1569c42)
   - New industries: (none)
-  - New products: Microsoft Entra, Palo Alto Networks
+  - New products: Palo Alto Networks
   - Prior top industries: aviation_defense, government
-  - Prior top products: PyPI, SolarWinds, npm
+  - Prior top products: Microsoft Entra, PyPI, SolarWinds
 - **ShinyHunters** (cluster e57f34f6e2)
   - New industries: healthcare
   - New products: Okta, Ubiquiti UniFi
@@ -780,23 +775,26 @@
   - Prior top industries: education, financial_services, government
   - Prior top products: Apple iOS/macOS, Microsoft Defender, Ubiquiti UniFi
 
-### Persistence (10)
-- actor_attribution: ShinyHunters (weeks observed: 13, cluster e57f34f6e2)
+### Persistence (13)
+- actor_attribution: ShinyHunters (weeks observed: 14, cluster e57f34f6e2)
 - actor_attribution: TeamPCP (weeks observed: 10, cluster 205332731c)
-- actor_attribution: Cl0p (weeks observed: 8, cluster 205332731c)
+- actor_attribution: Cl0p (weeks observed: 9, cluster 205332731c)
 - actor_attribution: LockBit (weeks observed: 7, cluster 205332731c)
-- actor_attribution: APT29 (weeks observed: 5, cluster eae1569c42)
+- actor_attribution: APT29 (weeks observed: 6, cluster eae1569c42)
+- actor_attribution: Lazarus (weeks observed: 5, cluster eb27e1744f)
 - cve_ids: CVE-2026-42271 (weeks observed: 4, cluster a6bf88aa80)
 - cve_ids: CVE-2026-60004 (weeks observed: 3, cluster c7b4417ba0)
 - actor_attribution: APT28 (weeks observed: 3, cluster c2e58e5482)
+- actor_attribution: Rhysida (weeks observed: 3, cluster 643790e7b5)
 - cve_ids: CVE-2026-48710 (weeks observed: 3, cluster 16aaa0ee92)
 - cve_ids: CVE-2026-53359 (weeks observed: 3, cluster cc2ee9546e)
+- cve_ids: CVE-2026-66066 (weeks observed: 3, cluster 5a1ecc3ada)
 
 ### Tier inversion (1)
-- **ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body**
-  - Cluster: 77567e0c10
-  - Primary source: The Hacker News
-  - Strong signals: CVE-2023-49105, CVE-2024-28000
+- **Lazarus Exploited a Windows Zero-Day: Inside CVE-2026-68820 and AFD.sys**
+  - Cluster: eb27e1744f
+  - Primary source: Reddit r/cybersecurity
+  - Strong signals: CVE-2026-68820, Lazarus
 
 ## Clusters
 
@@ -986,55 +984,6 @@ Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payloa
   - Link: https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the
 
-### Cluster 1f6abea0e7 — score 19
-
-- Title: PaperCut releases second emergency patch for exploited flaws
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-28T19:08:26+00:00
-- Link: https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_industries: critical_infrastructure
-- affected_products: Apple iOS/macOS
-- cve_ids: CVE-2026-81578, CVE-2026-82078
-- urgency_signals: actively_exploited, emergency_patch, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_industries: critical_infrastructure
-- affected_products: Apple iOS/macOS
-- cve_ids: CVE-2026-82078, CVE-2026-81578
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, emergency_patch
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. [...]
-```
-
-#### Full body
-
-```
-PaperCut releases second emergency patch for exploited flaws By Lawrence Abrams August 28, 2026 03:08 PM 0 PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. As BleepingComputer reported yesterday , PaperCut warned that hackers were exploiting a vulnerability in zero-day attacks against customer servers and released an initial emergency patch for PaperCut NG/MF versions 25 and 26. At the time, however, the company had not disclosed CVE identifiers or technical details about the vulnerabilities, saying it was withholding information while it investigated the attacks and gave customers time to apply emergency fixes. PaperCut has now shared technical details and CVE identifiers for the two vulnerabilities, tracked as CVE-2026-82078 and CVE-2026-81578. These vulnerabilities can be chained to bypass authentication and execute code on vulnerable servers. CVE-2026-81578 is a high-severity authentication bypass vulnerability rated 8.8 that impacts the PaperCut NG/MF web management interface. "Under specific conditions, unauthenticated remote requests targeting administrative functions can trigger backend actions prior to the completion of access validation checks," explains PaperCut's updated advisory . The second vulnerability, tracked as CVE-2026-82078, is a critical unsafe dynamic class-loading flaw rated 9.4 that exists in PaperCut's database connection utilities. The application loads database driver classes based on configurable driver names without validating them against an approved allowlist. "If an attacker can manipulate system configuration parameters, this enables the execution of arbitrary Java bytecode residing on the application classpath under the security context of the PaperCut server process," explains PaperCut. Cybersecurity firm watchTowr, which has been working with PaperCut during the incident, said on LinkedIn that the vulnerabilities allow unauthenticated attackers to bypass authentication and gain remote code execution on affected PaperCut NG/MF instances. Second emergency patch released On Friday, PaperCut released Emergency Patch Release 2, an updated security fix that includes additional hardening developed after further analysis with its internal security team and researchers at Huntress and watchTowr. "Following further work with our internal security team and external researchers, including Huntress and watchTowr, we have released an updated Emergency Patch (Release 2) that includes additional hardening beyond the original emergency patch," PaperCut said. The company is urging all customers to install Release 2 even if they already installed the first emergency patch. This second release comes after watchTowr said its researchers fully reproduced the vulnerabilities, discovered multiple patch bypasses, and identified an additional authentication bypass vulnerability. Huntress, which has been working with PaperCut during the incident, says it observed exploitation in two customer environments and reproduced the full pre-authentication RCE chain. The company told BleepingComputer that PaperCut logs captured commands used by the attackers for system reconnaissance, while hex-encoded Java `.class` files found in the logs acted as an RCE bridge between PaperCut and the underlying operating system, allowing commands to be executed and files to be read or written. The commands observed by Huntress appear to have been used for reconnaissance rather than to deploy malware or establish persistence. Huntress also says it discovered multiple bypasses for the original emergency patches and an additional authentication bypass vulnerability, which it shared with PaperCut. Emergency Patch Release 2 is available for PaperCut NG and MF versions 24, 25, and 26 on Windows, Linux, and macOS. Customers running version 23 or earlier are advised to upgrade
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: PaperCut releases second emergency patch for exploited flaws
-  - Published: 2026-08-28T19:08:26+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/papercut-releases-second-emergency-patch-for-exploited-flaws/
-  - Summary: PaperCut has released a second emergency security update for two actively exploited vulnerabilities in its PaperCut NG and MF print management software after researchers discovered multiple ways to bypass the initial fixes. [...]
-
 ### Cluster 20dcdd9f4f — score 17
 
 - Title: Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE
@@ -1211,6 +1160,49 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Link: https://www.exploit-db.com/exploits/52660
   - Summary: Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
 
+### Cluster 568a2d4b14 — score 15
+
+- Title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-26T11:55:00+00:00
+- Link: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-19912, CVE-2026-19913
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-19912, CVE-2026-19913
+- urgency_signals: no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-19913, CVE-2026-19912
+- urgency_signals: preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912, both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player
+```
+
+#### Full body
+
+```
+Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code  Swati Khandelwal  Aug 26, 2026 Vulnerability / Web Security The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912 , both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player library, which Kaltura also distributes as html5lib. Neither requires authentication or a Kaltura session token, and network access to the endpoint is the only precondition CERT/CC states. No patch is available, and CERT/CC said it was "unable to reach Kaltura to coordinate these vulnerabilities." Administrators are advised to restrict or disable external access to the endpoint and to enforce a strict allow-list for the ServiceUrl parameter that permits only legitimate backend API URLs. No exploitation had been reported at the time of writing, and neither CVE appeared in CISA's Known Exploited Vulnerabilities (KEV) catalog as of August 25, 2026. CERT/CC describes Kaltura as a video platform providing tools for video management, publishing, playback, and integration with web applications. The vulnerable loader is exposed on customer installations and on Kaltura's own shared production hosts. "Because the affected endpoint is also exposed on Kaltura's shared, multi-tenant CDN infrastructure, these vulnerabilities affect not only individual customer installations, but also every tenant served by these shared hosts," CERT/CC said in the vulnerability note . The file read issue, CVE-2026-19913 , starts with the ServiceUrl parameter, which mwEmbedLoader.php accepts and uses as the target URL for backend API requests. The KalturaClientBase PHP client fetches whatever that URL returns and passes it to PHP's unserialize() without validating the source, the scheme, or the content. Supplying a file:// path causes the server to fetch a local file rather than an API response. The deserialization attempt then fails. The raw bytes of the fetched file are reflected back to the requester inside the resulting error message. Gerjan Wemekamp, the AndDone researcher credited with reporting both flaws, said in a technical writeup published Tuesday that he escalated the file read by retrieving the Kaltura application configuration at /opt/kaltura/app/configurations/local.ini , which holds plaintext database connection strings, admin and console passwords, and internal host references. The second flaw, CVE-2026-19912 , turns the same deserialization into code execution by way of the uiconf_id request parameter, which is appended to the cache folder path without sanitization when the application writes to disk. An attacker points ServiceUrl at a malicious serialized object carrying executable PHP code. The client fetches and deserializes it. A uiconf_id value containing traversal sequences such as ../ then redirects the write outside the intended cache directory and into a web-accessible one. Requesting that file directly executes it as the web-server user. "The file-drop step depends on the file-based cache backend, which is the Kaltura default. A memcache-only configuration may suppress the write and therefore that specific RCE path. However, that does not make the deployment safe," Wemekamp said. With no fixed version to install, administrators running the player are advised to perform the following steps - Block or remove the endpoint at the WAF, reverse proxy, or CDN where legacy mwEmbed players are not being served. Allow-list ServiceUrl , permitting only the deployment's own API host and rejecting non-HTTP(S) schemes. Reject uiconf_id values containing traversal sequences, absolute paths, or directory separators. Deny PHP execution in cache directories. Restrict outbound network access from the application server, wh
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
+  - Published: 2026-08-26T11:55:00+00:00
+  - Link: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
+  - Summary: The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912, both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player
+
 ### Cluster a42d9f28e9 — score 15
 
 - Title: Australia Warns of Active Exploitation of Critical TeamCity Server Flaw
@@ -1257,49 +1249,6 @@ Infosecurity Magazine Home » News » Australia Warns of Active Exploitation of 
   - Published: 2026-08-25T11:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
   - Summary: Australian officials are urging TeamCity customers to patch an actively exploited critical flaw, which follows a similar warning from the US government
-
-### Cluster 568a2d4b14 — score 15
-
-- Title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-26T11:55:00+00:00
-- Link: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-19912, CVE-2026-19913
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-19912, CVE-2026-19913
-- urgency_signals: no_patch_yet, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-19913, CVE-2026-19912
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912, both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player
-```
-
-#### Full body
-
-```
-Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code  Swati Khandelwal  Aug 26, 2026 Vulnerability / Web Security The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912 , both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player library, which Kaltura also distributes as html5lib. Neither requires authentication or a Kaltura session token, and network access to the endpoint is the only precondition CERT/CC states. No patch is available, and CERT/CC said it was "unable to reach Kaltura to coordinate these vulnerabilities." Administrators are advised to restrict or disable external access to the endpoint and to enforce a strict allow-list for the ServiceUrl parameter that permits only legitimate backend API URLs. No exploitation had been reported at the time of writing, and neither CVE appeared in CISA's Known Exploited Vulnerabilities (KEV) catalog as of August 25, 2026. CERT/CC describes Kaltura as a video platform providing tools for video management, publishing, playback, and integration with web applications. The vulnerable loader is exposed on customer installations and on Kaltura's own shared production hosts. "Because the affected endpoint is also exposed on Kaltura's shared, multi-tenant CDN infrastructure, these vulnerabilities affect not only individual customer installations, but also every tenant served by these shared hosts," CERT/CC said in the vulnerability note . The file read issue, CVE-2026-19913 , starts with the ServiceUrl parameter, which mwEmbedLoader.php accepts and uses as the target URL for backend API requests. The KalturaClientBase PHP client fetches whatever that URL returns and passes it to PHP's unserialize() without validating the source, the scheme, or the content. Supplying a file:// path causes the server to fetch a local file rather than an API response. The deserialization attempt then fails. The raw bytes of the fetched file are reflected back to the requester inside the resulting error message. Gerjan Wemekamp, the AndDone researcher credited with reporting both flaws, said in a technical writeup published Tuesday that he escalated the file read by retrieving the Kaltura application configuration at /opt/kaltura/app/configurations/local.ini , which holds plaintext database connection strings, admin and console passwords, and internal host references. The second flaw, CVE-2026-19912 , turns the same deserialization into code execution by way of the uiconf_id request parameter, which is appended to the cache folder path without sanitization when the application writes to disk. An attacker points ServiceUrl at a malicious serialized object carrying executable PHP code. The client fetches and deserializes it. A uiconf_id value containing traversal sequences such as ../ then redirects the write outside the intended cache directory and into a web-accessible one. Requesting that file directly executes it as the web-server user. "The file-drop step depends on the file-based cache backend, which is the Kaltura default. A memcache-only configuration may suppress the write and therefore that specific RCE path. However, that does not make the deployment safe," Wemekamp said. With no fixed version to install, administrators running the player are advised to perform the following steps - Block or remove the endpoint at the WAF, reverse proxy, or CDN where legacy mwEmbed players are not being served. Allow-list ServiceUrl , permitting only the deployment's own API host and rejecting non-HTTP(S) schemes. Reject uiconf_id values containing traversal sequences, absolute paths, or directory separators. Deny PHP execution in cache directories. Restrict outbound network access from the application server, wh
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code
-  - Published: 2026-08-26T11:55:00+00:00
-  - Link: https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html
-  - Summary: The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912, both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player
 
 ### Cluster dfcccdc3f5 — score 14
 
@@ -1861,16 +1810,16 @@ Healthcare giant McKesson Corporation over the weekend confirmed that hackers ex
   - Published: 2026-08-31T13:14:46+00:00
   - Link: https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
   - Summary: The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems. The post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek .
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: McKesson copes with fallout from data theft extortion attack
+  - Published: 2026-08-31T21:39:01+00:00
+  - Link: https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/
+  - Summary: The major healthcare sector vendor did not identify the attackers, but ShinyHunters, a prolific group increasingly targeting the sector, claimed responsibility. The post McKesson copes with fallout from data theft extortion attack appeared first on CyberScoop .
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: ShinyHunters claims it stole 284 million patient records from McKesson
   - Published: 2026-08-31T11:57:08+00:00
   - Link: https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/
   - Summary: Healthcare company McKesson disclosed a cybersecurity incident in which hackers got into third-party applications and stole data. McKesson is a major U.S. healthcare company that distributes pharmaceuticals, medical supplies and other healthcare products to pharmacies, hospitals and clinics. According to the SEC filing, the intrusion was detected on August 25, 2026. The company said the investigation “is in its early stages,” and that it has not determined the incident is material or likely to affect … More → The post ShinyHunters claims it stole 284 million patient records from McKesson appeared first on Help Net Security .
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: McKesson discloses breach after ShinyHunters claims patient data theft
-  - Published: 2026-08-28T22:40:17+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/
-  - Summary: Healthcare and pharmaceutical distribution giant McKesson has disclosed a cybersecurity incident involving unauthorized access to third-party applications and data theft, with the ShinyHunters extortion group claiming it stole 284 million patient data records. [...]
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: ReliaQuest Rejects Compromise Claims After ShinyHunters Incident
   - Published: 2026-08-25T09:30:00+00:00
@@ -1913,7 +1862,7 @@ Palo Alto Networks’ threat intelligence team said the early waves of threats r
 #### Full body
 
 ```
-Advertisement Get our latest cybersecurity news first on Google. Click here! Close Unit 42’s top brass has seen enough from internal frontier AI model testing and malicious in-the-wild use of commercially available AI tools to be genuinely concerned. “I can tell you without exaggeration that we believe that this is a generational shift in cybersecurity,” Sam Rubin, senior vice president of Palo Alto Networks’ threat intelligence arm, said in a media briefing Wednesday. A period of relative balance between security and exposure has been broken by frontier AI model capabilities that could allow attackers to find and exploit network weaknesses with speed, Rubin said. Unit 42 warned that capabilities demonstrated by readily available agentic AI models, and those unlocked by frontier AI models that remain gated for defense, have shifted the balance of power from defenders to attackers. Advertisement “The defenses that we’ve had built up over years weren’t necessarily built for or prepared for these machine-speed attacks,” Rubin said. “Organizations are ill-equipped to detect and to respond quickly in the face of these attacks. Back in April, when Anthropic brought Palo Alto Networks and other major technology companies together to form Project Glasswing , an initiative to find and address security defects with its Mythos model , Unit 42 estimated the same capabilities would be in the hands of attackers within a year. “Well, here we are five months later, and we’re starting to see the early waves of this threat in the wild,” Rubin said. Unit 42 is actively investigating an attack on one of its customers where an attacker used an agentic framework to exploit 50 applications and other weaknesses across the enterprise in less than 10 hours. Rubin estimates AI allowed the attacker to accomplish in 10 hours what would have taken at least 10 days in a pre-AI era. Attackers are already using AI across the entire attack chain, said Sherrod DeGrippo, vice president of threat intelligence at Unit 42. “We are not far from fully agentic attacks across all at once, but right now it’s piece by piece by piece,” she said. Advertisement “AI has seeped into every part of what threat actors do,” including malware development at scale, delegation, social engineering and ransomware negotiations, DeGrippo added. As such, she sees the threat landscape shifting in four areas. AI is a force multiplier, identity is the primary compromise vector, attackers are burrowing into foundational libraries and software supply chains “baked into the fabric of our digital world,” and nation-sponsored threat groups are learning more about points of weakness in enterprise systems, DeGrippo said. Nobody is fully prepared for what’s coming and it would be naive or a bad defender mindset to think otherwise, she said. “This is a transformative period, and how organizations navigate that transformation is going to be make-or-break for a lot of them.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Programmable Logic Controller PLC System in Industrial Cabinet – stock photo, Ivan Shevchenko, Getty Images (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity Rethinking how federal cyber hiring actually works The world still treats bug hunters like criminals The SOC wasn’t built for this Government Cyber threats nudge Trump to sign executive order on foreign equipment in U.S. energy infrastructure Election official says Tina Peters would be consultant, won’t have access to election systems Arrested man allegedly impersonated NSA elite hacking unit, Supreme Court chief justice Water sector passes, government sector fails attempts to spot and halt simulated CISA attack Technology The GTA VI leaks are breaking the internet. Security researchers have seen this before. Bipartisan Senate bill aims to prepare energy sector for Q-Day The push to designate AI as the next cr
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close Unit 42’s top brass has seen enough from internal frontier AI model testing and malicious in-the-wild use of commercially available AI tools to be genuinely concerned. “I can tell you without exaggeration that we believe that this is a generational shift in cybersecurity,” Sam Rubin, senior vice president of Palo Alto Networks’ threat intelligence arm, said in a media briefing Wednesday. A period of relative balance between security and exposure has been broken by frontier AI model capabilities that could allow attackers to find and exploit network weaknesses with speed, Rubin said. Unit 42 warned that capabilities demonstrated by readily available agentic AI models, and those unlocked by frontier AI models that remain gated for defense, have shifted the balance of power from defenders to attackers. Advertisement “The defenses that we’ve had built up over years weren’t necessarily built for or prepared for these machine-speed attacks,” Rubin said. “Organizations are ill-equipped to detect and to respond quickly in the face of these attacks. Back in April, when Anthropic brought Palo Alto Networks and other major technology companies together to form Project Glasswing , an initiative to find and address security defects with its Mythos model , Unit 42 estimated the same capabilities would be in the hands of attackers within a year. “Well, here we are five months later, and we’re starting to see the early waves of this threat in the wild,” Rubin said. Unit 42 is actively investigating an attack on one of its customers where an attacker used an agentic framework to exploit 50 applications and other weaknesses across the enterprise in less than 10 hours. Rubin estimates AI allowed the attacker to accomplish in 10 hours what would have taken at least 10 days in a pre-AI era. Attackers are already using AI across the entire attack chain, said Sherrod DeGrippo, vice president of threat intelligence at Unit 42. “We are not far from fully agentic attacks across all at once, but right now it’s piece by piece by piece,” she said. Advertisement “AI has seeped into every part of what threat actors do,” including malware development at scale, delegation, social engineering and ransomware negotiations, DeGrippo added. As such, she sees the threat landscape shifting in four areas. AI is a force multiplier, identity is the primary compromise vector, attackers are burrowing into foundational libraries and software supply chains “baked into the fabric of our digital world,” and nation-sponsored threat groups are learning more about points of weakness in enterprise systems, DeGrippo said. Nobody is fully prepared for what’s coming and it would be naive or a bad defender mindset to think otherwise, she said. “This is a transformative period, and how organizations navigate that transformation is going to be make-or-break for a lot of them.” Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Programmable Logic Controller PLC System in Industrial Cabinet – stock photo, Ivan Shevchenko, Getty Images (Getty Images) Latest Podcasts What the Section 702 lapse means for cybersecurity The Vulnpocalypse arrived early Rethinking how federal cyber hiring actually works The world still treats bug hunters like criminals Government Cyber threats nudge Trump to sign executive order on foreign equipment in U.S. energy infrastructure Election official says Tina Peters would be consultant, won’t have access to election systems Arrested man allegedly impersonated NSA elite hacking unit, Supreme Court chief justice Water sector passes, government sector fails attempts to spot and halt simulated CISA attack Technology The GTA VI leaks are breaking the internet. Security researchers have seen this before. Bipartisan Senate bill aims to prepare energy sector for Q-Day The push to designate AI as the next
 ```
 
 #### Corroborating sources (1)
@@ -1923,6 +1872,53 @@ Advertisement Get our latest cybersecurity news first on Google. Click here! Clo
   - Published: 2026-08-27T18:31:23+00:00
   - Link: https://cyberscoop.com/unit-42-palo-alto-networks-warning-agentic-ai-frontier-models/
   - Summary: Palo Alto Networks’ threat intelligence team said the early waves of threats riding on agentic AI models have broken in the wild, and organizations are unprepared for what’s coming next. The post Unit 42 warns AI has shifted balance of power from defenders to attackers appeared first on CyberScoop .
+
+### Cluster e157bf80d0 — score 12
+
+- Title: China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-08-28T10:58:29+00:00
+- Link: https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-74232, CVE-2026-74233
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, zero_day
+- affected_industries: manufacturing_industrial
+- cve_ids: CVE-2026-66747, CVE-2026-74232, CVE-2026-74233
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, zero_day
+- affected_industries: manufacturing_industrial
+- cve_ids: CVE-2026-74232, CVE-2026-74233, CVE-2026-66747
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233.
+```
+
+#### Full body
+
+```
+China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access  Swati Khandelwal  Aug 28, 2026 Vulnerability / Network Security VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics ( ZBT ), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233 . VulnCheck, which assigned both identifiers as a CVE Numbering Authority (CNA), rated each 9.3 on the CVSS 4.0 scoring system and 9.8 on CVSS 3.1. Both vectors record a network attack requiring no privileges and no user interaction. SPEAKINGSTONE, which runs as the service yunmgrd , sends beacons over UDP port 10000 to a hardcoded command-and-control (C2) server. Because the implant dials outward, it functions from behind NAT and ordinary egress filtering. Its protocol supports message types that execute arbitrary commands as root, exfiltrate the WAN PPPoE username and password, write and read a DNS hijack list, and open a reverse SSH tunnel. "This is a surveillance implant with root access to every device it runs on," VulnCheck said in its supply chain research . DARKLANTERN operates as the service infosrvd on UDP port 9992, which the router's stock firewall opens to inbound connections from any internet address. VulnCheck's advisory describes the service's authentication as ineffective, resting on a hardcoded salt and an all-zero wildcard MAC value that bypasses its own address check. Between August 18 and August 21, VulnCheck identified 203 internet-facing DARKLANTERN instances across 22 countries, self-reporting 16 distinct models. The figure counts hosts that answered a probe rather than devices found compromised. Both implants were found on an $88 Deep Orange 3G/4G/LTE Router bought from a U.S. supplier, a white-labeled ZBT-WE826-T2 whose firmware was built in 2019. That unit predates ENDLESSDOORS (CVE-2026-66747), the phone-home implant VulnCheck disclosed on August 5 and found in at least 20 Zbtlink router models . VulnCheck's advisory for the DARKLANTERN command injection and its advisory for the SPEAKINGSTONE C2 implant name the following models and firmware builds - CVE-2026-74233 (DARKLANTERN) - Zbtlink WE1326, WE357, WE5926, WE5926-WD, WE826-Q, WE826-T2, WE826-WD, WG108 and WG3526 on firmware 19.1101, WE2426-C on 19.1112, WE5926-EC_QP on 20.0516 and WF3526-P on 19.051, plus CTN720-W1, LF-1541 and MT7620N on 19.1101 and WRC1 on 20.0622, which the CVE record lists under an unidentified vendor. CVE-2026-74232 (SPEAKINGSTONE) - Zbtlink L3_V2_8 on 3.0.0.4.528, WE826-T2 on 19.1101, ZBT-7628 on 1.0.0.2.007 and ZBT-ZBT7621 on 1.0.0.3.001, MoreQuick MQAC-7620, MQAC-7620A, MQAP-7620, MQAP-7620A and MQAP-7628 on 1.0.0.2.000, and AP522 on 1.0.0.2.014, AP7628 and HC5661A on 3.0.0.4.380, APG721B on 19.0809, HK300 on 1.0.0.2.032 and MAP-N10 on 1.0.0.2.044 under an unidentified vendor. The advisory pages display those builds as upper bounds, while the CVE records name each firmware as a single exact build and set the default status of every other version to unknown. Neither advisory names a fixed firmware release, leaving an owner on a build outside the listed set without a published basis for deciding whether the flaw applies. Model number rather than brand is the reliable check, because ZBT sells the same hardware and firmware to resellers that put their own name on the case. The Hacker News confirmed via the IEEE-registered MAC prefix database on August 28 that the blocks 78:A3:51 and F8:5E:3C are both assigned to Shenzhen Zhibotong Electronics, letting an owner identify the manufacturer from the device's own address. SPEAKINGSTONE carries a hardcoded backup C2 domain that the implant reaches for where a primary server was never configured, and VulnCheck found that domain unregistered
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access
+  - Published: 2026-08-28T10:58:29+00:00
+  - Link: https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html
+  - Summary: VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233.
 
 ### Cluster e7c0548aa4 — score 12
 
@@ -1972,53 +1968,6 @@ Infosecurity Magazine Home » News » CISA Warns of Six Exploited Flaws in Micro
   - Published: 2026-08-27T10:45:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/cisa-kev-microsoft-citrix/
   - Summary: CISA added six new bugs to its Known Exploited Vulnerabilities catalog on August 26, showing signs of active exploitation in the wild
-
-### Cluster e157bf80d0 — score 12
-
-- Title: China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-28T10:58:29+00:00
-- Link: https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-74232, CVE-2026-74233
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, zero_day
-- affected_industries: manufacturing_industrial
-- cve_ids: CVE-2026-66747, CVE-2026-74232, CVE-2026-74233
-- urgency_signals: preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, zero_day
-- affected_industries: manufacturing_industrial
-- cve_ids: CVE-2026-74232, CVE-2026-74233, CVE-2026-66747
-- urgency_signals: zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233.
-```
-
-#### Full body
-
-```
-China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access  Swati Khandelwal  Aug 28, 2026 Vulnerability / Network Security VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics ( ZBT ), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233 . VulnCheck, which assigned both identifiers as a CVE Numbering Authority (CNA), rated each 9.3 on the CVSS 4.0 scoring system and 9.8 on CVSS 3.1. Both vectors record a network attack requiring no privileges and no user interaction. SPEAKINGSTONE, which runs as the service yunmgrd , sends beacons over UDP port 10000 to a hardcoded command-and-control (C2) server. Because the implant dials outward, it functions from behind NAT and ordinary egress filtering. Its protocol supports message types that execute arbitrary commands as root, exfiltrate the WAN PPPoE username and password, write and read a DNS hijack list, and open a reverse SSH tunnel. "This is a surveillance implant with root access to every device it runs on," VulnCheck said in its supply chain research . DARKLANTERN operates as the service infosrvd on UDP port 9992, which the router's stock firewall opens to inbound connections from any internet address. VulnCheck's advisory describes the service's authentication as ineffective, resting on a hardcoded salt and an all-zero wildcard MAC value that bypasses its own address check. Between August 18 and August 21, VulnCheck identified 203 internet-facing DARKLANTERN instances across 22 countries, self-reporting 16 distinct models. The figure counts hosts that answered a probe rather than devices found compromised. Both implants were found on an $88 Deep Orange 3G/4G/LTE Router bought from a U.S. supplier, a white-labeled ZBT-WE826-T2 whose firmware was built in 2019. That unit predates ENDLESSDOORS (CVE-2026-66747), the phone-home implant VulnCheck disclosed on August 5 and found in at least 20 Zbtlink router models . VulnCheck's advisory for the DARKLANTERN command injection and its advisory for the SPEAKINGSTONE C2 implant name the following models and firmware builds - CVE-2026-74233 (DARKLANTERN) - Zbtlink WE1326, WE357, WE5926, WE5926-WD, WE826-Q, WE826-T2, WE826-WD, WG108 and WG3526 on firmware 19.1101, WE2426-C on 19.1112, WE5926-EC_QP on 20.0516 and WF3526-P on 19.051, plus CTN720-W1, LF-1541 and MT7620N on 19.1101 and WRC1 on 20.0622, which the CVE record lists under an unidentified vendor. CVE-2026-74232 (SPEAKINGSTONE) - Zbtlink L3_V2_8 on 3.0.0.4.528, WE826-T2 on 19.1101, ZBT-7628 on 1.0.0.2.007 and ZBT-ZBT7621 on 1.0.0.3.001, MoreQuick MQAC-7620, MQAC-7620A, MQAP-7620, MQAP-7620A and MQAP-7628 on 1.0.0.2.000, and AP522 on 1.0.0.2.014, AP7628 and HC5661A on 3.0.0.4.380, APG721B on 19.0809, HK300 on 1.0.0.2.032 and MAP-N10 on 1.0.0.2.044 under an unidentified vendor. The advisory pages display those builds as upper bounds, while the CVE records name each firmware as a single exact build and set the default status of every other version to unknown. Neither advisory names a fixed firmware release, leaving an owner on a build outside the listed set without a published basis for deciding whether the flaw applies. Model number rather than brand is the reliable check, because ZBT sells the same hardware and firmware to resellers that put their own name on the case. The Hacker News confirmed via the IEEE-registered MAC prefix database on August 28 that the blocks 78:A3:51 and F8:5E:3C are both assigned to Shenzhen Zhibotong Electronics, letting an owner identify the manufacturer from the device's own address. SPEAKINGSTONE carries a hardcoded backup C2 domain that the implant reaches for where a primary server was never configured, and VulnCheck found that domain unregistered
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access
-  - Published: 2026-08-28T10:58:29+00:00
-  - Link: https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html
-  - Summary: VulnCheck has disclosed two previously undocumented factory implants in firmware for routers built by Shenzhen Zhibotong Electronics (ZBT), each of which gives an unauthenticated remote attacker the ability to run commands as root on affected devices. The implants, named SPEAKINGSTONE and DARKLANTERN by the company's zero-day research team, are tracked as CVE-2026-74232 and CVE-2026-74233.
 
 ### Cluster 12ad966885 — score 11
 
@@ -2101,6 +2050,47 @@ Key Takeaways Vulnerability prioritization is a decision procedure, not a score.
   - Published: 2026-08-27T17:56:20+00:00
   - Link: https://orca.security/resources/blog/vulnerability-prioritization/
   - Summary: Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]
+
+### Cluster eb27e1744f — score 11
+
+- Title: Lazarus Exploited a Windows Zero-Day: Inside CVE-2026-68820 and AFD.sys
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-08-30T22:43:55+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1w2vst6/lazarus_exploited_a_windows_zeroday_inside/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-68820, Lazarus
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- actor_attribution: Lazarus
+- cve_ids: CVE-2026-68820
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- actor_attribution: Lazarus
+- cve_ids: CVE-2026-68820
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+Hey everyone, I recently finished a write-up on CVE-2026-68820 , the Windows AFD.sys vulnerability exploited by Lazarus. I tried to explain the attack chain from start to finish — starting with the fake recruiter/job offer, moving through the initial malware execution, the AFD.sys use-after-free vulnerability, and finally how FudModule 3.1 was used after gaining SYSTEM-level access. I also covered some of the things I found interesting while researching it, especially how the rootkit interfered with Windows telemetry and how AFD.sys has been targeted by Lazarus before. The goal was to make it understandable even if you’re still learning Windows internals, while keeping enough technical detail for people working with threat hunting, DFIR, or malware analysis. Write-up: https://medium.com/@R00tPi/inside-cve-2026-68820-how-lazarus-turned-a-core-windows-networking-driver-into-a-system-level-216656703750 Would be interested to hear what you think, especially if you spot anything I could imp
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Lazarus Exploited a Windows Zero-Day: Inside CVE-2026-68820 and AFD.sys
+  - Published: 2026-08-30T22:43:55+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1w2vst6/lazarus_exploited_a_windows_zeroday_inside/
+  - Summary: Hey everyone, I recently finished a write-up on CVE-2026-68820 , the Windows AFD.sys vulnerability exploited by Lazarus. I tried to explain the attack chain from start to finish — starting with the fake recruiter/job offer, moving through the initial malware execution, the AFD.sys use-after-free vulnerability, and finally how FudModule 3.1 was used after gaining SYSTEM-level access. I also covered some of the things I found interesting while researching it, especially how the rootkit interfered with Windows telemetry and how AFD.sys has been targeted by Lazarus before. The goal was to make it understandable even if you’re still learning Windows internals, while keeping enough technical detail for people working with threat hunting, DFIR, or malware analysis. Write-up: https://medium.com/@R00tPi/inside-cve-2026-68820-how-lazarus-turned-a-core-windows-networking-driver-into-a-system-level-216656703750 Would be interested to hear what you think, especially if you spot anything I could imp
 
 ### Cluster b7ab4cc245 — score 10
 
@@ -2492,45 +2482,6 @@ The safety penalty: Reclaiming operational sovereignty in the age of AI By David
   - Link: https://blog.talosintelligence.com/the-safety-penalty-reclaiming-operational-sovereignty-in-the-age-of-ai/
   - Summary: As frontier AI models become increasingly restrictive, security teams are facing a "safety penalty" that hampers real-time incident response. Discover how organizations can move toward operational sovereignty to ensure their defensive AI keeps pace with unconstrained adversaries.
 
-### Cluster d95ca75496 — score 10
-
-- Title: Operationalize CTEM with NodeZero®
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-24T18:19:30+00:00
-- Link: https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.
-```
-
-#### Full body
-
-```
-Operationalize CTEM with NodeZero® Horizon3 August 24, 2026 Factsheets Continuous Threat Exposure Management (CTEM) is ultimately about one outcome: continuously reducing exposure. Gartner® defines CTEM through five stages: Scoping, Discovery, Prioritization, Validation, and Mobilization. But operationalizing CTEM isn’t about filling five technology categories. It requires a repeatable way to connect existing security tools and processes, determine what attackers can actually exploit, focus remediation where it matters, and verify that the work reduced risk. Turn the CTEM Framework into a Repeatable Operating Model The Horizon3 CTEM Operating Loop turns the CTEM framework into repeatable action, with the NodeZero® Proactive Security Platform enabling teams to execute it at scale. Discover → Validate → Prioritize → Remediate → Verify → Repeat With NodeZero, security teams can: Discover exposure across internal systems, internet-facing assets, cloud and identity, web applications, and third-party connections Validate what’s exploitable by safely testing assets in production and proving what an attacker can actually achieve Prioritize based on impact using demonstrated exploitability, attack paths, affected systems, and potential business consequences Remediate with clarity using evidence of successful exploitation, attack-path context, affected assets, and remediation guidance Verify fixes work by retesting to confirm weaknesses are no longer exploitable and attack paths have been broken Repeat continuously as environments, identities, configurations, and vulnerabilities change Move from Visibility to Measurable Risk Reduction Discovery tells you where exposure may exist. Validation tells you what can actually be exploited. NodeZero safely attacks your environment to uncover exploitable vulnerabilities, misconfigurations, credential weaknesses, and attack paths without disrupting production. It then chains weaknesses together to demonstrate how an attacker could move through the environment, what they could reach, and what they could achieve. This evidence allows teams to prioritize based on demonstrated exploitability and impact rather than severity scores, scan data, and assumptions alone. Measure Whether You’re Actually Becoming More Secure By continuously running the CTEM Operating Loop, organizations can measure progress through: Exploitable weaknesses and attack paths over time Mean time to remediate (MTTR) Remediation and verification status Recurring and systemic weaknesses Exposure reduction over time The result is a CTEM program grounded in measurable risk reduction: identify what matters, fix it, prove it’s fixed, and repeat. Operationalize CTEM with NodeZero Download the Operationalize CTEM with NodeZero Factsheet to learn how the Horizon3 CTEM Operating Loop helps security teams turn CTEM into a repeatable operating model and continuously discover, validate, prioritize, remediate, and verify exploitable exposure. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Operationalize CTEM with NodeZero®
-  - Published: 2026-08-24T18:19:30+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/operationalize-ctem-with-nodezero/
-  - Summary: Learn how the Horizon3 CTEM Operating Loop and NodeZero turn Continuous Threat Exposure Management into a repeatable process for discovering, validating, prioritizing, remediating, and verifying exploitable exposure.
-
 ### Cluster 022e3da4a1 — score 10
 
 - Title: Mexico’s Cybersecurity Plan 2025-2030: Turning Ambition Into Defense
@@ -2792,51 +2743,6 @@ The FulcrumSec extortion group has claimed responsibility for the recently discl
   - Link: https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/
   - Summary: FulcrumSec says it stole over 80 GB of data from Manchester Airports Group and plans to leak it online. The post Extortion Group Claims Manchester Airports Group Data Breach appeared first on SecurityWeek .
 
-### Cluster e4d3ed2d51 — score 10
-
-- Title: What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-08-31T06:00:37+00:00
-- Link: https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: government, legal_professional, manufacturing_industrial
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: government, manufacturing_industrial, legal_professional
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity, explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure … More → The post What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Mirko Zorz , Director of Content, Help Net Security August 31, 2026 Share What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity , explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure modes of deception technology, and where a 400-person manufacturer with a $250,000 budget should spend its first $50,000. If a security leader has KEV, EPSS, and CVSS all pointing different directions on the same vulnerability, what is your tiebreaker rule? Give me the decision logic you would write down for an analyst. An actively exploited vulnerability, as indicated by KEV, would be the highest priority, particularly if it affects an internet-exposed or business-critical asset. After that, I would assess exploit likelihood using EPSS, followed by CVSS, to understand the potential technical impact. The decision logic I would give an analyst is: active exploitation first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, compensating controls, and the potential consequences of compromise. A lower-severity vulnerability in an exposed identity system may pose a more immediate risk than a critical vulnerability in an isolated asset. The scores are useful, but they need to be applied in the context of the environment. What is a realistic mean time to remediate for internet-exposed assets at a mid-sized enterprise right now, and what does the org have to give up to get there? For a critical, internet-exposed vulnerability with known exploitation, a target of 24 to 72 hours is reasonable, though many mid-sized organizations will struggle to achieve it consistently. Getting there requires tradeoffs. Security and IT teams need the authority to interrupt normal release schedules, dedicate engineering resources to emergency testing and deployment, and sometimes accept temporary service disruption or reduced functionality. When an immediate patch is not possible , organizations also need to be prepared to use compensating controls, such as restricting access, disabling a vulnerable feature, or isolating a system. The biggest requirement is organizational. Actively exploited internet-facing vulnerabilities have to be treated as an operational priority rather than another item in the normal patch queue. Faster remediation requires ownership, pre-approved emergency procedures, and coordination across security, IT, and application teams. What is the failure mode of deception technology that vendors do not advertise? Have you seen a honeypot become an attacker foothold or a compliance liability? The primary failure mode is that the deception environment becomes overly connected, overly trusted, or poorly maintained. A honeypot intended to observe attackers can become another foothold if it has access to production systems, reusable credentials, excessive privileges, or vulnerabilities of its own. Compliance and governance concerns can also arise. Deception systems may capture attacker activity, credentials, production-like data, or other sensitive information. If retention, privacy, legal, and evidentiary requirements are not considered in advance, those systems can create obligations the organization did not anticipate. Deception technology should therefore be isolated, tightly permissioned, and continuously monitored. Treat it as potentially hostile infrastructure from the outset, and never allow unnecessary trust relationships with production environments. What is one control that is unglamorous, cheap, and still buys defenders
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree
-  - Published: 2026-08-31T06:00:37+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/
-  - Summary: In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity, explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure … More → The post What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree appeared first on Help Net Security .
-
 ### Cluster 2ae06370e5 — score 9
 
 - Title: Disruptive cyber activity highlights risk from internet-exposed systems and edge devices
@@ -2979,6 +2885,49 @@ It is pretty obvious that hostnames can replace IP addresses. Pretty much any so
   - Link: https://isc.sans.edu/diary/rss/33280
   - Summary: It is pretty obvious that hostnames can replace IP addresses. Pretty much any software accepting an IP address will also accept a hostname as an argument. Last week, I wrote about scans for the cloud metadata service listening at 169.254.169.254. These scans attempted to exploit Server Side Request Forgery (SSRF) vulnerability. One way to prevent these types of exploits is to filter requests that contain the string "169.254.169.254" or to add this IP to a blocklist of URLs that should not be accessed.
 
+### Cluster 08f630df48 — score 9
+
+- Title: Automate IAM Identity Center governance with continuous discovery and reporting
+- Source: AWS Security Blog (cloud_identity_infrastructure)
+- Published: 2026-08-31T17:18:31+00:00
+- Link: https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: AWS
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_industries: government
+- affected_products: AWS
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]
+```
+
+#### Full body
+
+```
+AWS Security Blog Automate IAM Identity Center governance with continuous discovery and reporting AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations . AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center . As your AWS organization scales, maintaining visibility into who has access to which applications and enforcing governance policies across accounts and Regions becomes increasingly complex. Identity Center helps address this by centralizing authentication and authorization for AWS resources across your organization, integrating with your external identity provider and a growing number of AWS services. However, as adoption scales, tracking access assignments and enforcing governance policies consistently becomes its own challenge. This blog post focuses on planning your integration between an identity provider and IAM Identity Center for managed applications in your organization. We also walk through deploying and using an automated Identity Center discovery and reporting sample solution to help answer the governance and security questions: Which users or groups have access to which AWS applications? Who last accessed a specific AWS application and when? Which users and groups are assigned to which IAM Identity Center applications across organization and AWS Regions? How can you quickly generate reports to assist with compliance audits or security reviews? The sample solution will identify associated AWS applications and the corresponding user and group assignments for the IAM Identity Center instances within your organization. The output is stored in a queryable format and generates CSV files for downstream analysis or reporting. Plan identity governance for Identity Center application assignments There are four key areas to start on when planning how to manage delegation and provisioning access across IAM Identity Center managed AWS applications. Bring together key stakeholders across security, governance, application, and business teams to make sure the implementation and integration will fit into the overall identity governance strategy. Who can provision managed AWS applications: You can implement the IAM restrictions for creation of new AWS resources within AWS accounts in your organization. For example, if you restrict provisioning into a production AWS account to only infrastructure as code (IaC) IAM roles, you would continue implementing restrictions using AWS identity policies, service control policies (SCP) , resource control policies (RCP) , or IaC policy evaluation tools like Open Policy Agent (OPA) or Checkov . Who manages user and group assignments: The managed application administrator handles authorization to managed applications within an AWS account. It’s recommended to clearly define roles and responsibilities across the workflow. You would have an IaC pipeline manage the integrated AWS resource provisioning with IAM Identity Center, then another workflow to allow requests to manage user and group membership for the managed application. How authentication flows from the IdP to AWS resources: Users will authenticate into Identity Center, then be authorized to access AWS managed applications. From there, they will be authorized to access the associated AWS service and resources tied to the managed application. Depending on the AWS service, the associated downstream resources might have their own IAM principals that the users can access. Mapping IdP identities to AWS resource access: There needs to be a link for workforce users and groups in your IdP, to Identity Center managed applications, and to downstream resources and permissions. Identifying the relationship will help you understand access within your AWS environment. Trusted identity propagation (TIP) is an additional feature
+```
+
+#### Corroborating sources (1)
+
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Automate IAM Identity Center governance with continuous discovery and reporting
+  - Published: 2026-08-31T17:18:31+00:00
+  - Link: https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/
+  - Summary: AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]
+
 ### Cluster eeee9ce723 — score 9
 
 - Title: What’s new in AI infrastructure and orchestration in August
@@ -3021,50 +2970,50 @@ AI infrastructure What’s new in AI infrastructure and orchestration in August 
   - Link: https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/
   - Summary: Welcome back to What’s new in AI infrastructure and orchestration this month , a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August would be a slow month, but nothing could be further from the truth. Read on and you’ll see what we mean. August 2026 Product, technology, and tools updates Product update: Filestore , Google Cloud’s first-party, secure, scalable NFS file service, has emerged as a popular storage platform for AI and agentic workflows, and now, it’s even better suited to the task, with a new backend storage layer built directly on Colossus , Google’s foundational distributed storage system. This new backend lets you provision IOPS independently from storage capacity, and is deeply integrated with GKE. In AI environments, this can help you service so-called agentic swarms — large groups of ag
 
-### Cluster dcbc7543c0 — score 9
+### Cluster e4d3ed2d51 — score 9
 
-- Title: Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-31T09:07:01+00:00
-- Link: https://www.securityweek.com/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/
+- Title: What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-08-31T06:00:37+00:00
+- Link: https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: government, legal_professional
-- affected_products: Anthropic/Claude
-- content_type: news_report
+- threat_categories: active_exploitation
+- affected_industries: government, legal_professional, manufacturing_industrial
+- urgency_signals: actively_exploited
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: government, legal_professional
-- affected_products: Anthropic/Claude
-- content_type: news_report
+- threat_categories: active_exploitation
+- affected_industries: government, manufacturing_industrial, legal_professional
+- urgency_signals: actively_exploited
+- content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The ruling is part of Anthropic's legal battle against the Pentagon after the government labeled the company as a supply chain risk earlier this year. The post Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ appeared first on SecurityWeek .
+In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity, explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure … More → The post What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree appeared first on Help Net Security .
 ```
 
 #### Full body
 
 ```
-A federal judge has ruled in favor of artificial intelligence company Anthropic in its legal battle against the Pentagon after the government labeled the company as a supply chain risk earlier this year. U.S. District Judge Rita Lin issued a written order Thursday night that the Pentagon acted illegally by punishing the AI company for its criticism of the Department of Defense’s views on AI use. The government is expected to fight the ruling. The dispute between the AI company and the government broke out in February when President Donald Trump and Defense Secretary Pete Hegseth accused Anthropic of endangering national security and designated the company a supply chain risk. Anthropic CEO Dario Amodei refused to back down over concerns the company’s products could be used for mass surveillance or autonomous armed drones. Lin wrote that the government’s actions “were based on a desire to make a public example out of Anthropic for its ‘arrogance’ in criticizing the government, not based on any articulable basis to believe that Anthropic would actually sabotage its model.” An Anthropic spokesperson said in a statement that they welcome the judge’s ruling: “We remain focused on working productively with the government to harness AI for our national security so all Americans benefit from this technology.” The White House did not immediately respond to a request for comment. Advertisement. Scroll to continue reading. In the 59-page ruling, Lin, an appointee of former President Joe Biden, wrote that neither the Constitution nor the federal statute the government invoked allows them to “impose sweeping penalties based principally on Anthropic’s critique of the Administration’s views.” Anthropic sued the Pentagon over the supply chain risk designation in March for what it called an “unlawful campaign of retaliation” over its refusal to allow unrestricted military use of its technology. The legal challenge intensified an unusually public dispute over how AI can be used in warfare and mass surveillance. Anthropic’s primary tech industry rival, ChatGPT maker OpenAI, made its own deal to work with the Pentagon just hours after the government punished Anthropic for its stance. Anthropic and OpenAI are each ramping up for buzzy initial public offerings. Anthropic has also filed a separate and narrower case that is still pending in the federal appeals court in Washington, D.C. That case involves a different rule the Pentagon is using to try to declare Anthropic a supply chain risk. Earlier in the legal proceedings, Lin had temporarily blocked the Pentagon from labeling the company as a supply chain risk and blocked enforcement of Trump’s social media directive ordering all federal agencies to stop using Anthropic and its chatbot Claude. In a hearing July 30, Lin had said that the government’s position was “really troubling” to her and that it seemed “at odds to me with the First Amendment.” She also said she believed the record had “gotten worse for the government” over time. In that same hearing, Department of Justice lawyers argued that the nature of AI models is “so staggeringly enormous and opaque” that the Defense Department cannot evaluate it in the same way it would a physical piece of hardware. Anthropic lawyer Michael Mongan said in that hearing that the government’s actions “profoundly harm Anthropic” and that they “threaten more broadly to chill speech and debate on a very important issue.” Related : White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs Related : China’s Top Cybersecurity Firms Hit by Mounting Military Procurement Bans Related : White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative Written By Associated Press Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Associated Press Pro-Russian Hackers Claim Responsibility for Major Cyberattack on Norway’s Public Digi
+Mirko Zorz , Director of Content, Help Net Security August 31, 2026 Share What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity , explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure modes of deception technology, and where a 400-person manufacturer with a $250,000 budget should spend its first $50,000. If a security leader has KEV, EPSS, and CVSS all pointing different directions on the same vulnerability, what is your tiebreaker rule? Give me the decision logic you would write down for an analyst. An actively exploited vulnerability, as indicated by KEV, would be the highest priority, particularly if it affects an internet-exposed or business-critical asset. After that, I would assess exploit likelihood using EPSS, followed by CVSS, to understand the potential technical impact. The decision logic I would give an analyst is: active exploitation first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, compensating controls, and the potential consequences of compromise. A lower-severity vulnerability in an exposed identity system may pose a more immediate risk than a critical vulnerability in an isolated asset. The scores are useful, but they need to be applied in the context of the environment. What is a realistic mean time to remediate for internet-exposed assets at a mid-sized enterprise right now, and what does the org have to give up to get there? For a critical, internet-exposed vulnerability with known exploitation, a target of 24 to 72 hours is reasonable, though many mid-sized organizations will struggle to achieve it consistently. Getting there requires tradeoffs. Security and IT teams need the authority to interrupt normal release schedules, dedicate engineering resources to emergency testing and deployment, and sometimes accept temporary service disruption or reduced functionality. When an immediate patch is not possible , organizations also need to be prepared to use compensating controls, such as restricting access, disabling a vulnerable feature, or isolating a system. The biggest requirement is organizational. Actively exploited internet-facing vulnerabilities have to be treated as an operational priority rather than another item in the normal patch queue. Faster remediation requires ownership, pre-approved emergency procedures, and coordination across security, IT, and application teams. What is the failure mode of deception technology that vendors do not advertise? Have you seen a honeypot become an attacker foothold or a compliance liability? The primary failure mode is that the deception environment becomes overly connected, overly trusted, or poorly maintained. A honeypot intended to observe attackers can become another foothold if it has access to production systems, reusable credentials, excessive privileges, or vulnerabilities of its own. Compliance and governance concerns can also arise. Deception systems may capture attacker activity, credentials, production-like data, or other sensitive information. If retention, privacy, legal, and evidentiary requirements are not considered in advance, those systems can create obligations the organization did not anticipate. Deception technology should therefore be isolated, tightly permissioned, and continuously monitored. Treat it as potentially hostile infrastructure from the outset, and never allow unnecessary trust relationships with production environments. What is one control that is unglamorous, cheap, and still buys defenders
 ```
 
 #### Corroborating sources (1)
 
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’
-  - Published: 2026-08-31T09:07:01+00:00
-  - Link: https://www.securityweek.com/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/
-  - Summary: The ruling is part of Anthropic's legal battle against the Pentagon after the government labeled the company as a supply chain risk earlier this year. The post Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ appeared first on SecurityWeek .
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree
+  - Published: 2026-08-31T06:00:37+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/
+  - Summary: In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity, explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure … More → The post What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree appeared first on Help Net Security .
 
 ### Cluster 62469ecc9b — score 9
 
@@ -3110,96 +3059,6 @@ You're not going to believe this, but turns out you can't always take criminals 
   - Published: 2026-08-25T21:51:08+00:00
   - Link: https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
   - Summary: You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber
-
-### Cluster 7c35bc981f — score 9
-
-- Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-08-28T10:23:57+00:00
-- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_industries: government
-- affected_products: GitHub, OpenAI/ChatGPT, npm
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_industries: government
-- affected_products: GitHub, npm, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
-```
-
-#### Full body
-
-```
-Industry News 2 min read Shai-Hulud hackers: two men charged over TeamPCP's global supply chain crime spree that hit OpenAI, and thousands more Graham CLULEY August 28, 2026 Police have charged two men from Western Australia over their alleged involvement in TeamPCP, a cybercriminal gang that has been blamed for a massive software supply-chain hacking campaign. TeamPCP is best known for Shai-Hulud, a self-propagating worm that spread itself through open source software. The Australian Federal Police (AFP), working with the FBI and Western Australia Police, announced that on 26 August they charged a 21-year-old from Cottesloe and a 23-year-old from Mandurah with multiple offences, including data intrusion and unauthorised modification of data. Both men appeared in court in Perth on Thursday. According to the authorities, the two men were principal members of a "sophisticated cybercrime syndicate" that created malicious open source software designed to steal data and extort ransoms from businesses. More than 1000 organisations around the world are estimated to have been compromised in the attacks, with over 500,000 credentials and at least 300GB of data stolen. Neither of the men has been formally named by the police, but cybercrime investigative journalist Brian Krebs reports that the 21-year-old is Ruben Thomson, who used the handle "Ellis" and allegedly led TeamPCP until March 2026. First emerging in late 2025, TeamPCP built a reputation for poisoning popular open source packages rather than directly attacking businesses. By compromising individual pieces of widely-used software their attack could impact thousands of victims at once. The group's Shai-Hulud worm hijacks GitHub and NPM developer credentials, and publishes boobytrapped versions of legitimate software packages. Anyone who uses the package in their own software risks sharing their own secret API keys and credentials with the hackers, opening the door for a further round of compromises. Hacks linked to TeamPCP include the compromise of vulnerability scanner Trivy , which led to the breaches of open source AI gateway LiteLLM, and AI recruitment firm Mercor . TeamPCP also compromised LiteLLM's own code directly, in an attack CloudSEK found had harvested secrets from more than 2,500 organisations . The attacks even resulted in the theft of data from OpenAI , and a hack of the European Commission's cloud infrastructure. In an audacious twist earlier this year, it was announced on Telegram that TeamPCP was running a competition offering a prize for whoever built the biggest attack with leaked Shai-Hulud code. Supply chain attacks like Shai-Hulud exploit the fact that most developers trust open source software packages too easily, and can all too easily believe a package from a public registry is safe because thousands of others use it. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
-  - Published: 2026-08-28T10:23:57+00:00
-  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
-  - Summary: More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
-
-### Cluster 071b0ea328 — score 9
-
-- Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-08-26T23:10:11+00:00
-- Link: https://grahamcluley.com/smashing-security-podcast-482/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
-```
-
-#### Full body
-
-```
-Graham Cluley @ 12:10 am, August 27, 2026 @grahamcluley.com / grahamcluley A hacker calling themselves “CYBERLEEK” has been leaking gameplay footage from GTA 6 ahead of its official reveal this week – but they’re not asking Rockstar Games for a ransom. Instead, they’ve launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club… Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of “residential proxies” – how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #482 This hacker leaked GTA 6 - and launched their own cryptocurrency ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY He takes his gun and he sort of shoots the word leek, L-E-E-K. I apologise to any English teachers who are listening to this, into a wall as if to prove it really is him. PAUL DUCKLIN Leek is a legitimate word. I mean, it's a type of onion. What's wrong with that? GRAHAM CLULEY Well, I suppose so. PAUL DUCKLIN I mean, Cyber Onion wouldn't sound great, but Cyber Leek— GRAHAM CLULEY It wouldn't be so good. PAUL DUCKLIN It is a pun, Graham, whether you approve of it or not. Unknown Smashing Security, episode 482. PAUL DUCKLIN This hacker leaked GTA 6 and launched their own cryptocurrency with Graham Cluley and special guest Paul Ducklin. Unknown Hello, hello, and welcome to Smashing Security, episode 482. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. Hello, Duck. GRAHAM CLULEY Great to have you back on the show again. PAUL DUCKLIN Thank you, Graham. GRAHAM CLULEY We parachuted you in this week actually, 'cause that person we were intending to come on hasn't managed. Not that you are by any means a pale substitute. PAUL DUCKLIN I'm not pale at all these days. We've had so much sunshine. GRAHAM CLULEY No, that's true. PAUL DUCKLIN As you can see, I've had a bit too much lately, if those of us who can see me on video. GRAHAM CLULEY Well, it's always great to have you here. Before we kick off, let's thank this week's wonderful sponsors, ThreatLocker, BlackKite, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security. We're not going to be talking about how Iranian hackers managed to shut down a UK power plant. PAUL DUCKLIN You'll hear no discussion of— GRAHAM CLULEY How a ransomware crook silently ripped off his own gang by posing as a recovery firm and pocketed the victims' payments for himself. And we won't even mention how the Toxic Panda Trojan is quietly taking over Android phones to steal banking PINs and passwords. Now, Duck, what are you going to be talking about this week? PAUL DUCKLIN Well, Graham, if your smart TV isn't spying on you, what else might it be doing behind your back? GRAHAM CLULEY And the tyres are going to be hitting the tarmac as I enter the world of Grand Theft Auto 6. All this and much more coming up in this episode of Smashing Security. Unknown This episode of Smashing Security is supported by ThreatLocker. Agentic AI is beginning to change the tempo of cyberattacks. GRAHAM CLULEY That's right. We've seen research into autonomous ransomware, adaptive AI worms, and agents chaining tools without waiting for a human operator. Unknown Which is all very interesting, just so long as it isn't your network they're experimenting on. GRAHAM CLULEY When enumeration, exploitation, and lateral movement happen at machine speed, relying on somebody to notice an alert and respond quickly begins to look rather optimistic. Well, ThreatLocker puts default deny and least priv
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
-  - Published: 2026-08-26T23:10:11+00:00
-  - Link: https://grahamcluley.com/smashing-security-podcast-482/
-  - Summary: A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
 
 ### Cluster b1eb2141e2 — score 9
 
@@ -3481,16 +3340,18 @@ Home Blog A Beginner’s Guide to Phishing Simulation Training for Employees Las
 - Source: Huntress (detection_response_operations)
 - Published: 2026-08-27T14:00:00+00:00
 - Link: https://www.huntress.com/blog/managed-itdr-dashboard-redesigned
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3498,6 +3359,12 @@ Home Blog A Beginner’s Guide to Phishing Simulation Training for Employees Las
 
 ```
 Huntress’ redesigned Managed ITDR dashboard adds Rapid Identity Triage, Failed Login Characterization, and Quick SIEM search for faster investigations.
+```
+
+#### Full body
+
+```
+Home Blog The New Huntress Managed ITDR Dashboard: More Context. Faster Answers. Published: August 27, 2026 The New Huntress Managed ITDR Dashboard: More Context. Faster Answers. By: Erin Meyers Summarize with AI Summarize ChatGPT Claude Perplexity Google AI When an employee says, "I clicked a link. Am I compromised?" you probably don't want to spend the next 20 minutes jumping between tools, logs, and screens trying to piece together an answer. You want to know what happened. You want the context to decide whether it matters. And if something is wrong, you want to be able to act. That's the idea behind the new Huntress Managed ITDR dashboard, now generally available to all ITDR customers. The redesigned dashboard brings more identity data, investigation context, and self-service capabilities into one place, giving you a clearer view of what's happening across the identities you protect and faster ways to investigate when something doesn't look right. But this launch is about more than a new dashboard. It represents where we're taking Huntress Managed ITDR next. New Huntress Managed ITDR Dashboard Managed ITDR Should Do More Than Tell You When Something Is Wrong Huntress Managed ITDR was built around a simple reality: attackers increasingly target identities, and stopping them requires more than generating another alert. That's why the Huntress Security Operations Center (SOC) investigates identity threats for you and takes action when malicious activity is detected. But not every security question begins with a Huntress incident. Sometimes it starts with an employee reporting something suspicious. An unusual login. A worried client calling their managed service provider (MSP). Or an IT administrator who simply wants to understand what happened with a particular identity. Those moments require something different: fast access to the evidence needed to investigate and validate identity activity yourself. Historically, that context could be spread across different parts of the product. The redesigned dashboard begins bringing it together. Instead of functioning primarily as a status page, the new dashboard is designed to become a more actionable identity investigation surface: a place to see active risk, understand what Huntress is investigating, dig deeper into identity activity, and take action when necessary. The result is a Managed ITDR experience that gives you more proof, more context, and a clearer place to start. Rapid Identity Triage: Go From "Is This User Compromised?" to Answers Faster One of the biggest additions to the dashboard is Rapid Identity Triage, built specifically for those moments when you need to investigate a user quickly. Rapid Identity Triage enables speedy identity searches Search for an identity by email address to immediately see their activity from the past 24 hours, along with current risk signals and incident context. From a single view, you can examine recent sign-ins, locations, VPN or proxy usage, browsers, failed login activity, and other contexts that can help you understand whether behavior looks expected or suspicious. An AI-assisted Quick Summary also helps surface the important details without requiring you to manually piece together every event. Need to dig further? Expand the activity window to 48 hours or seven days. Need to share what you found? Export the activity timeline. And if the investigation shows that immediate action is warranted, you can revoke active sessions or disable the account directly from the dashboard. Rapid Identity Triage turns a common security question into a workflow: find the identity, understand the activity, and take action without bouncing between screens. Failed Login Characterization: Put Failed Logins in Context A failed login by itself doesn't tell you much. Where it came from (and the infrastructure behind it) can tell you a lot more. Clear view of login activity across locations, VPNs, residential proxies, tunnels, and datacenters Failed Login Chara
 ```
 
 #### Corroborating sources (1)
@@ -3514,20 +3381,22 @@ Huntress’ redesigned Managed ITDR dashboard adds Rapid Identity Triage, Failed
 - Source: Huntress (detection_response_operations)
 - Published: 2026-08-27T13:00:00+00:00
 - Link: https://www.huntress.com/blog/retail-cybersecurity-anz-five-decisions
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
+- threat_categories: phishing_social_eng, ransomware_extortion
 - affected_industries: retail_ecommerce
+- affected_products: Microsoft 365
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
+- threat_categories: ransomware_extortion, phishing_social_eng
 - affected_industries: retail_ecommerce
+- affected_products: Microsoft 365
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3535,6 +3404,12 @@ Huntress’ redesigned Managed ITDR dashboard adds Rapid Identity Triage, Failed
 
 ```
 Protect your Australia- and New Zealand-based retail business from cyber threats. Learn five key decisions to secure identities, manage dependencies and ensure trading continuity against ransomware
+```
+
+#### Full body
+
+```
+Home Blog Retail Cybersecurity in ANZ: Five Decisions That Keep Trading Published: August 27, 2026 Retail Cybersecurity in ANZ: Five Decisions That Keep Trading By: Reece Appleton Justin Allen Summarize with AI Summarize ChatGPT Claude Perplexity Google AI In FY2024-25, the Australian Signals Directorate's Australian Cyber Security Centre (ASD's ACSC) responded to 138 ransomware incidents across Australia. In 39% of them, the organisation found out simply because ASD rang to tell them. That means nearly four in 10 learned about their own incident from a phone call. For a retailer, what if that call lands at 2am, when the person answering didn't design the environment and can't yet tell whether the message is merely noise or the start of a bad day? This question can hit retailers hardest because they run distributed environments. Point-of-sale (POS) systems, ecommerce platforms, Microsoft 365, warehouses, stores, support tools and third-party providers all connect to the business. Plus, seasonal staff, contractors and suppliers keep adding access, often while the internal teams are already stretched thin. When retail environments get hit , that exposure can go downstream. Credentials get traded, combined with information from other leaks, and used to build surprisingly complete pictures of real people. That translates into more convincing phishing attempts, account takeover on any site where the same email and password was reused and, in some cases, targeted fraud. The breach notification is the visible moment. The damage keeps compounding after it. To avoid that, the goal is to understand which systems keep you trading, and how fast someone can act when one of them is in trouble, especially outside office hours. Here's how that breaks down. 1. Map the systems that keep revenue moving Build a simple map of the critical path: payments, POS, online orders, inventory, fulfilment, identity, email and store operations. Record the dependencies between them and the people or suppliers who can access each one. And don't stop at the head office. The map has to cover stores, distribution centres, cloud services, remote-access tools and any devices managed by someone else. For each system, answer three questions: Who can reach it? What would happen if it went offline? How would I know if something was wrong? The ASD's Annual Cyber Threat Report recorded more than 84,700 cybercrime reports in 2024–25. That's roughly one every six minutes! And the average self-reported cost of cybercrime for a small business rose 14% to $56,600. Though neither figure is retail-specific, both are useful when you need to explain to leadership why the map is worth the time it takes to build. After all, cyber risk is now part of keeping stores, fulfilment and digital channels available. 2. Secure identities and support the people who use them Anyone with access to your systems can be targeted. Employees, seasonal staff, contractors and trusted suppliers may receive phishing messages, fake supplier requests, payment-redirection attempts and convincing login prompts. People need clear processes and an easy way to report something that looks wrong. Verify changes to payment details through a second channel, using a number you already have rather than one supplied in the email. Always challenge unusual requests for access. And make sure staff know how to confirm that a login prompt is genuine, and that reports receive a timely response. Back those processes with phishing-resistant MFA where possible, least-privilege access and prompt onboarding and offboarding. Review administrator access, stale accounts, mail forwarding rules, unfamiliar applications and logins that don't fit the person or role. Separate administrator accounts from everyday accounts, and make privileged access temporary wherever possible. One Australian IT leader described what that kind of visibility looked like during a Huntress deployment: 3. Shorten the path from discovery to verified action R
 ```
 
 #### Corroborating sources (1)
@@ -3551,16 +3426,20 @@ Protect your Australia- and New Zealand-based retail business from cyber threats
 - Source: Huntress (detection_response_operations)
 - Published: 2026-08-27T04:00:00+00:00
 - Link: https://www.huntress.com/blog/ai-attack-surface
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3568,6 +3447,12 @@ Protect your Australia- and New Zealand-based retail business from cyber threats
 
 ```
 Threat actors are targeting the AI attack surface to deliver malware and steal data. See how trusted AI tools are being exploited today.
+```
+
+#### Full body
+
+```
+Home Blog The AI Attack Surface: How Threat Actors Abuse Trusted AI Platforms Published: August 27, 2026 The AI Attack Surface: How Threat Actors Abuse Trusted AI Platforms By: Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways As more people use AI models such as Claude, ChatGPT, Grok, and Gemini, threat actors are abusing trusted AI platforms in a variety of ways to trick users into downloading malware. Over the past nine months, Huntress has seen incidents where threat actors have weaponized shareable AI content, public mini-apps, and sponsored search placement to target AI users. Individuals can take a number of measures to shrink their AI attack surface, including the use of ad blockers. Businesses should restrict script execution from the clipboard, enforce application allow-listing, and monitor for new scheduled tasks and antivirus exclusion changes. Background AI is here, and we're hearing about all the high-profile security risks that come with it. AI security discussions often focus on attacks against AI companies and models (such as the recent OpenAI-HuggingFace intrusion ). However, the Huntress Security Operations Center (SOC) is seeing a more prolific, day-to-day threat: threat actors abusing the ways users interact with AI platforms. Over the past nine months, we have seen threat actors abuse legitimate AI features and services, including: Claude Artifacts : content that Claude generates and displays as a separate preview pane within a chat; Claude Artifacts can be "published" and made publicly available via a link. Claude.ai/share links : shareable URLs generated when a user publishes a Claude conversation. These links can appear in search results when they are posted in locations that search engines can crawl, such as forums or social media. ChatGPT and Grok conversations : shared conversations that are hosted on legitimate AI platforms that can be indexed and surfaced in search results, including for troubleshooting queries. There's a common thread here: these are all part of an AI attack surface, which involves a trust boundary around shareable AI content, public mini-apps, and sponsored search placement. Threat actors are using these because they combine multiple layers of trust. AI users recognize the platform, branding, and surrounding content, which can make malicious instructions or downloads appear legitimate. These campaigns may remain active for only hours or days before the provider removes the content, but they can still attract significant attention during that window. Here's what we've seen, and what defenders need to know. FakeAgent: a Claude Artifact malvertising attack In July, we saw a campaign that hit more than 29 organizations that started with a malicious Claude Artifact publicly hosted on the legitimate Claude.ai domain. Because public artifacts can be created and shared by any user and are meant for lightweight things like demos, charts, or one-page sites, Anthropic doesn't vet their content beyond a generic disclaimer shown on every artifact page stating: "Content is user-generated and unverified." Figure 1: Claude Desktop/Cowork phishing page hosted as a Claude Artifact. Users searched for the Claude desktop app on Bing, which took them to this malicious public Claude Artifact on the actual Claude AI domain. The artifact visually impersonated a Claude Desktop / Claude Cowork download page. This appeared to be a legitimate download link for the desktop app ( ClaudeDesktop.exe ) -- but in reality, targets were redirected to an external domain ( downloading-api[.]it[.]com ), which ultimately led to the download of malware (SectopRAT). We reported the malicious Claude Artifact to Anthropic; as of publication on July 22, the public Claude Artifact had been removed. However, we continue to see incidents that come from the malicious redirect domain downloading-api[.]it[.]com , with several incidents continuing to occur through August with th
 ```
 
 #### Corroborating sources (1)
@@ -3643,6 +3528,43 @@ Today we’re announcing an expanded integration between GreyNoise and the Crowd
   - Published: 2026-08-31T00:00:00+00:00
   - Link: https://www.greynoise.io/blog/greynoise-crowdstrike-falcon-ng-siem-charlotte-agentic-soar
   - Summary: Today we’re announcing an expanded integration between GreyNoise and the CrowdStrike Falcon® platform, with new content for CrowdStrike Falcon® Next-Gen SIEM and CrowdStrike Charlotte Agentic SOAR. The expanded integration includes a purpose-built Falcon Next-Gen SIEM dashboard, correlation rules that detect allowed inbound traffic from malicious infrastructure, and SOAR playbooks that bring GreyNoise threat context into automated response workflows.
+
+### Cluster dcbc7543c0 — score 8
+
+- Title: Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-08-31T09:07:01+00:00
+- Link: https://www.securityweek.com/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: government, legal_professional
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: government, legal_professional
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The ruling is part of Anthropic's legal battle against the Pentagon after the government labeled the company as a supply chain risk earlier this year. The post Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ appeared first on SecurityWeek .
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’
+  - Published: 2026-08-31T09:07:01+00:00
+  - Link: https://www.securityweek.com/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/
+  - Summary: The ruling is part of Anthropic's legal battle against the Pentagon after the government labeled the company as a supply chain risk earlier this year. The post Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ appeared first on SecurityWeek .
 
 ### Cluster 6fe333b73a — score 8
 
@@ -3788,6 +3710,39 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published t
   - Link: https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, using what it described as similar tradecraft while recording sharply different defensive outcomes. Both organizations were fully compromised at the domain level, and in both, the red team also
 
+### Cluster 5a205e822a — score 8
+
+- Title: Vulnerability Summary for the Week of August 24, 2026
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-08-31T19:40:03+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1w3oi68/vulnerability_summary_for_the_week_of_august_24/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/antdude [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Vulnerability Summary for the Week of August 24, 2026
+  - Published: 2026-08-31T19:40:03+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1w3oi68/vulnerability_summary_for_the_week_of_august_24/
+  - Summary: submitted by /u/antdude [link] [comments]
+
 ### Cluster 765a6d7720 — score 8
 
 - Title: Anthropic Warns Claude Users of Infostealer Malware Infections
@@ -3795,8 +3750,8 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published t
 - Published: 2026-08-31T12:11:58+00:00
 - Link: https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/
 - Fetch status: not_attempted
-- Member count: 10
-- Corroborating source count: 8
+- Member count: 11
+- Corroborating source count: 9
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
@@ -3817,13 +3772,18 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published t
 The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage. The post Anthropic Warns Claude Users of Infostealer Malware Infections appeared first on SecurityWeek .
 ```
 
-#### Corroborating sources (8)
+#### Corroborating sources (9)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Anthropic Warns Claude Users of Infostealer Malware Infections
   - Published: 2026-08-31T12:11:58+00:00
   - Link: https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/
   - Summary: The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage. The post Anthropic Warns Claude Users of Infostealer Malware Infections appeared first on SecurityWeek .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Anthropic Users Hit by Infostealer Attacks, Session Thefts
+  - Published: 2026-08-31T21:08:46+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
+  - Summary: A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Anthropic locks out Claude users after infostealers hijack login sessions
   - Published: 2026-08-31T11:30:47+00:00
@@ -3849,54 +3809,13 @@ The AI giant is logging customers out of their accounts and removing payment dat
   - Published: 2026-08-27T18:29:55+00:00
   - Link: https://cyberscoop.com/ai-cyber-defense-global-surge/
   - Summary: OpenAI, Anthropic, Google, Microsoft, and others say there’s a narrow “defenders’ window” to strengthen security before AI-powered attacks become more sophisticated. The post 100-plus companies call for ‘global surge’ in AI-powered cyber defense appeared first on CyberScoop .
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Window to Tackle Surge in AI-Enabled Cyber Attacks Narrowing, Tech Giants Warn
-  - Published: 2026-08-28T09:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/window-ai-attacks-narrowing-tech/
-  - Summary: More than 100 companies, including OpenAI, Anthropic, Google and Microsoft, have urged collective action to unlock the power of AI to protect critical public services
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests
   - Published: 2026-08-26T10:27:23+00:00
   - Link: https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html
   - Summary: Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August 10, based on chat logs and screenshots the user supplied. He had asked an
-
-### Cluster 77567e0c10 — score 8
-
-- Title: ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-08-28T15:56:55+00:00
-- Link: https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html
-- Fetch status: not_attempted
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2023-49105
-
-#### Cluster taxonomy (union across members)
-- affected_products: LiteSpeed
-- cve_ids: CVE-2023-49105, CVE-2024-28000
-- content_type: news_report
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2023-49105
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines. The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body
-  - Published: 2026-08-28T15:56:55+00:00
-  - Link: https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines. The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: ☢️ Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator
-  - Published: 2026-08-26T13:59:47+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1vyxx41/philippine_nuclear_agency_and_naval_contractor/
-  - Summary: The Hunt.io research team found an open directory staging the full toolkit behind an intrusion into a Philippine nuclear research agency and a naval contractor. The ownCloud path is the interesting part technically. CVE-2023-49105 lets you forge pre-signed WebDAV URLs when the signing secret is empty, which is the default state on a fresh install. Five custom Python scripts on the server implement this: the signing routine passes an empty bytes literal as the PBKDF2 salt, sets OC-Credential to the account being impersonated, and issues GET requests against /remote.php/dav/files/<account>/<path>, receiving files as that user with no credentials. Four scripts target one account each, the fifth adds PROPFIND enumeration with Depth: 1 to walk folders that were not pre-enumerated. The naval contractor was hit separately via CVE-2024-28000 (LiteSpeed Cache) using a custom Go reimplementation of MT19937 with PHP mt_rand() parity, verified against 11 known seed/output pairs, plus an XML-RPC br
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Window to Tackle Surge in AI-Enabled Cyber Attacks Narrowing, Tech Giants Warn
+  - Published: 2026-08-28T09:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/window-ai-attacks-narrowing-tech/
+  - Summary: More than 100 companies, including OpenAI, Anthropic, Google and Microsoft, have urged collective action to unlock the power of AI to protect critical public services
