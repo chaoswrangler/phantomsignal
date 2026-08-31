@@ -4,11 +4,68 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 73 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 31 Aug 2026 01:18:39 +0000</lastBuildDate>
+<lastBuildDate>Mon, 31 Aug 2026 08:30:53 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Debian developers rejected an LLM ban and left disclosure voluntary</title>
+<link>https://www.helpnetsecurity.com/2026/08/31/debian-linux-llm-policy/</link>
+<description><![CDATA[A maintainer reading a merge request can’t tell whether a person or a model wrote the diff, and nobody has to say. Debian developers voted on that through August 28, and Kurt Roeckx, the project secretary, announced the result: the winning option encourages contributors to disclose AI assistance and stops there. Review stays where it was. A sponsor uploading a package, a security team member reading a patch for a stable release, and a downstream … More → The post Debian developers rejected an LLM ban and left disclosure voluntary appeared first on Help Net Security .]]></description>
+<pubDate>Mon, 31 Aug 2026 08:08:47 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/31/debian-linux-llm-policy/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>The OpenClaw 2.0 release moves your sessions into SQLite</title>
+<link>https://www.helpnetsecurity.com/2026/08/31/openclaw-2-0-released/</link>
+<description><![CDATA[OpenClaw is open source software that hands an AI model small standing jobs across your accounts, the kind of chore where it watches a mailbox for vendor advisories and pings you on Telegram when one names a product you run. OpenClaw 2.0 is the largest update in the project’s history. A user-built dashboard inside a shared multiplayer OpenClaw workspace (Source: OpenClaw) Before you install it, look at what the upgrade does to your data. Sessions … More → The post The OpenClaw 2.0 release moves your sessions into SQLite appeared first on Help Net Security .]]></description>
+<pubDate>Mon, 31 Aug 2026 07:24:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/31/openclaw-2-0-released/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>More Details Emerge on Exploited PaperCut Vulnerabilities</title>
+<link>https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/</link>
+<description><![CDATA[PaperCut has released a second emergency patch for the exploited vulnerabilities, which are now tracked as CVE-2026-82078 and CVE-2026-81578. The post More Details Emerge on Exploited PaperCut Vulnerabilities appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-82078 · CVE-2026-81578</em>]]></description>
+<pubDate>Mon, 31 Aug 2026 06:51:31 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/more-details-emerge-on-exploited-papercut-vulnerabilities/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-82078</category>
+<category>CVE-2026-81578</category>
+</item>
+<item>
+<title>What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree</title>
+<link>https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/</link>
+<description><![CDATA[In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity, explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure … More → The post What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree appeared first on Help Net Security .<br/><br/><em>Tags: active_exploitation</em>]]></description>
+<pubDate>Mon, 31 Aug 2026 06:00:37 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+<category>active_exploitation</category>
+</item>
+<item>
+<title>AI AppSec tools agree on just 5% of security findings</title>
+<link>https://www.helpnetsecurity.com/2026/08/31/contrast-security-ai-appsec-tools-security-findings-report/</link>
+<description><![CDATA[Software vulnerabilities are turning into exploits within hours, and application security teams carry patch backlogs that go back years. Top types of viable application attacks (Source: Contrast Security) Contrast Security’s AppSec Overflow 2026 report draws on telemetry collected from inside hundreds of thousands of production applications and APIs. Attacks land every few minutes Adversaries touch the average application once every four minutes. Most of that traffic is automated reconnaissance, scanners mapping out weaknesses and cataloging … More → The post AI AppSec tools agree on just 5% of security findings appeared first on Help Net Security .]]></description>
+<pubDate>Mon, 31 Aug 2026 05:00:47 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/31/contrast-security-ai-appsec-tools-security-findings-report/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Risky Bulletin: New powers for Dutch intelligence services</title>
+<link>https://risky.biz/RBNEWS607/</link>
+<description><![CDATA[Dutch intelligence services will get new powers, a security expert has been arrested in Israel for hacking, the BTS hacker gets a 20 year sentence in South Korea, and an AfD politician in Germany has been linked to a Russian cybercrime hosting service.]]></description>
+<pubDate>Mon, 31 Aug 2026 03:20:09 +0000</pubDate>
+<guid isPermaLink="true">https://risky.biz/RBNEWS607/</guid>
+<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
+<category>practitioner_analysis</category>
+</item>
 <item>
 <title>Sponsored: Attackers need to be right more than once</title>
 <link>https://risky.biz/RBNEWSSI142/</link>
@@ -104,12 +161,15 @@
 <item>
 <title>Hasbro Data Breach Exposed Employee Personal Information</title>
 <link>https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/</link>
-<description><![CDATA[A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .<br/><br/><em>Tags: data_breach</em>]]></description>
+<description><![CDATA[A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek .<br/><br/><em>Tags: OpenAI/ChatGPT · Linux kernel · Citrix · TeamPCP · ransomware_extortion · zero_day · data_breach · active_exploitation</em>]]></description>
 <pubDate>Sat, 29 Aug 2026 11:55:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
+<category>OpenAI/ChatGPT</category>
+<category>Linux kernel</category>
+<category>Citrix</category>
+<category>TeamPCP</category>
 </item>
 <item>
 <title>TerminalFix campaign deploys a reverse tunnel through multistage intrusion</title>
@@ -522,7 +582,7 @@
 <item>
 <title>PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions</title>
 <link>https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html</link>
-<description><![CDATA[PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an emergency patch for v25 and v26 to address the issue. It said it&apos;s &quot;aware of confirmed customer incidents and is treating this matter with the highest priority.&quot; An<br/><br/><em>Tags: OpenAI/ChatGPT · GitLab · Gitea · LockBit · Cl0p · TeamPCP · CVE-2023-27350 · ransomware_extortion</em>]]></description>
+<description><![CDATA[PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an emergency patch for v25 and v26 to address the issue. It said it&apos;s &quot;aware of confirmed customer incidents and is treating this matter with the highest priority.&quot; An<br/><br/><em>Tags: OpenAI/ChatGPT · GitLab · Gitea · LockBit · Cl0p · TeamPCP · CVE-2023-27350 · CVE-2026-81578</em>]]></description>
 <pubDate>Fri, 28 Aug 2026 08:25:36 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
@@ -573,15 +633,6 @@
 <category>government_authoritative</category>
 </item>
 <item>
-<title>What 90 days and a small budget can buy in AI agent security</title>
-<link>https://www.helpnetsecurity.com/2026/08/28/prasad-tharippala-versa-securing-ai-agents/</link>
-<description><![CDATA[In this interview with Help Net Security, Prasad Tharippala, Field CISO at Versa, explains what organizations miss when they run open-weight models in house. He covers the hidden costs of GPU infrastructure, licensing review and staffing, and why hardening and incident response become the buyer’s job. He walks through red-teaming AI agents, what counts as a failing result, and the five questions buyers should ask agent platforms. For teams with 90 days and little budget, … More → The post What 90 days and a small budget can buy in AI agent security appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 28 Aug 2026 05:30:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/28/prasad-tharippala-versa-securing-ai-agents/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Risky Bulletin: Two TeamPCP members arrested in Australia</title>
 <link>https://risky.biz/RBNEWS606/</link>
 <description><![CDATA[Two members of TeamPCP arrested in Australia, Qilin hits the US firearms agency, America seizes two more Chinese botnets, CISA says most cyber activity is opportunistic.<br/><br/><em>Tags: TeamPCP</em>]]></description>
@@ -590,15 +641,6 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>TeamPCP</category>
-</item>
-<item>
-<title>New infosec products of the month: August 2026</title>
-<link>https://www.helpnetsecurity.com/2026/08/28/new-infosec-products-of-the-month-august-2026/</link>
-<description><![CDATA[Here’s a look at the most interesting products from the past week, featuring releases from A10 Networks, Abnormal AI, F5 Networks, Intezer, Netscout, ScienceLogic, Searchlight Cyber, SelectHub, ServiceNow, Snyk, Tanium, and Tufin. ServiceNow organizes autonomous security around six solution areas ServiceNow has announced an acceleration of its Autonomous Security vision with six unified solutions that help deliver prevention-first, AI-native cyber defense across unified exposure management, continuous vulnerability detection, cyber-physical security, identity and access security, and … More → The post New infosec products of the month: August 2026 appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 28 Aug 2026 04:00:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/28/new-infosec-products-of-the-month-august-2026/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>PaperCut Zero-Day: Active Exploitation and Pre-Auth RCE</title>
@@ -632,16 +674,6 @@
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
 <category>ai_security</category>
-</item>
-<item>
-<title>Nearly 700 rogue AI agents coordinated in the Hugging Face attack</title>
-<link>https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/</link>
-<description><![CDATA[New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI&apos;s internal IM1 model coordinated the compromise through an unauthorized message board. [...]<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
-<pubDate>Thu, 27 Aug 2026 21:38:53 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
 </item>
 <item>
 <title>UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range</title>
@@ -712,6 +744,24 @@
 <guid isPermaLink="true">https://blog.talosintelligence.com/sorry-i-cant-help-with-that-how-your-guardrails-might-become-the-attackers-best-friend/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
+</item>
+<item>
+<title>Zero Breach vs. Zero Impact: Key Takeaways From Cloud Security LIVE 2026</title>
+<link>https://orca.security/resources/webinar-recap/zero-breach-vs-zero-impact-cloud-security-live-2026/</link>
+<description><![CDATA[Most security programs still measure success by counting blocked attacks. At Cloud Security LIVE 2026, Ariel Panas, co-founder at Mediga, and Roee, field CTO at Orca, made the case for a different metric entirely. Prevention will never reach zero probability, and both of them were comfortable saying so out loud. What decides the outcome, once […]]]></description>
+<pubDate>Thu, 27 Aug 2026 17:59:21 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/webinar-recap/zero-breach-vs-zero-impact-cloud-security-live-2026/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Vulnerability Prioritization: Modern Methods &amp; Tools</title>
+<link>https://orca.security/resources/blog/vulnerability-prioritization/</link>
+<description><![CDATA[Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]]]></description>
+<pubDate>Thu, 27 Aug 2026 17:56:20 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/vulnerability-prioritization/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026</title>
@@ -787,17 +837,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>Two alleged TeamPCP hackers arrested over global supply chain attacks</title>
-<link>https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/</link>
-<description><![CDATA[Two men from Western Australia have been charged after police allege they were part of TeamPCP, a cybercrime group that planted malicious code in open-source software, then used it to break into organizations around the world. The Australian Federal Police (AFP), working with the FBI and Western Australia Police Force (WAPF), arrested a 21-year-old from Cottesloe and a 23-year-old from Mandurah on August 26. The 21-year-old Cottesloe man was charged with eight offences, including possessing … More → The post Two alleged TeamPCP hackers arrested over global supply chain attacks appeared first on Help Net Security .<br/><br/><em>Tags: TeamPCP · supply_chain</em>]]></description>
-<pubDate>Thu, 27 Aug 2026 13:59:02 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>TeamPCP</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Identity-as-a-Service: Uncovering Dark Web Marketplaces Trading Executive SSNs</title>
 <link>https://www.rapid7.com/blog/post/tr-identity-as-a-service-dark-web-marketplaces-executive-ssn</link>
 <description><![CDATA[Introduction Despite modern verification controls, identity theft remains one of the most pervasive threats to both individuals and enterprise organizations. U.S. Federal Trade Commission statistics show over 1 million identity theft reports annually, with related fraud and imposter scams accounting for billions in financial losses each year. While stolen credit cards enable rapid, short-term monetization, Social Security numbers (SSNs) represent a far more permanent and dangerous tier within the cybercrime ecosystem, because unlike payment cards, they cannot simply be deactivated. Once exposed, an SSN can support enabling unauthorized lines of credit, synthetic identity fraud, and sophisticated tax scams. When exposed identity data belongs to corporate executives, board members, and other high-profile employees, the risk can extend beyond the individual. Threat actors target these high-profile individuals not just for their premium credit profiles, but to leverage their compromised id<br/><br/><em>Tags: ransomware_extortion · phishing_social_eng · apt_espionage</em>]]></description>
@@ -869,18 +908,6 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/chinese-qtfy-us-infrastructure-fbi/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>PaperCut NG/MF vulnerabilities exploited in zero-day attacks</title>
-<link>https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/</link>
-<description><![CDATA[Two vulnerabilities (CVE-2026-82078, CVE-2026-81578) affecting print management solutions PaperCut NG and PaperCut MF are being exploited by attackers, PaperCut Software has warned. “We are aware of confirmed customer incidents and are treating this matter with the highest priority,” the vendor said. What is PaperCut NG/MF? PaperCut NG is print management software for places like offices, schools, and other organizations. PaperCut MF (“Multi-Function”) is the upgraded version that works directly with the big all-in-one office copier … More → The post PaperCut NG/MF vulnerabilities exploited in zero-day attacks appeared first on Help Net Security .<br/><br/><em>Tags: CVE-2026-82078 · CVE-2026-81578 · zero_day</em>]]></description>
-<pubDate>Thu, 27 Aug 2026 11:59:33 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/27/papercut-ng-mf-vulnerability-attack/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>CVE-2026-82078</category>
-<category>CVE-2026-81578</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>Learn How to Build Security Operations Ready for AI-Powered Attacks</title>
@@ -968,18 +995,6 @@
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Previously patched Citrix NetScaler flaw exploited in the wild (CVE-2026-8452)</title>
-<link>https://www.helpnetsecurity.com/2026/08/27/netscaler-adc-gateway-cve-2026-8452/</link>
-<description><![CDATA[CISA added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including a previously patched Citrix NetScaler ADC and Gateway flaw, tracked as CVE-2026-8452, that is being exploited in the wild. The agency published the alert on August 26 and gave federal agencies until August 29 to remediate it. About CVE-2026-8452 Citrix disclosed the issue on June 30, 2026, describing CVE-2026-8452 as a “memory overflow vulnerability leading to unpredictable or erroneous behavior and denial … More → The post Previously patched Citrix NetScaler flaw exploited in the wild (CVE-2026-8452) appeared first on Help Net Security .<br/><br/><em>Tags: Citrix · CVE-2026-8452 · active_exploitation</em>]]></description>
-<pubDate>Thu, 27 Aug 2026 09:58:24 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/08/27/netscaler-adc-gateway-cve-2026-8452/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Citrix</category>
-<category>CVE-2026-8452</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>A polymorphic phishing page (that occasionally breaks itself), (Thu, Aug 27th)</title>
@@ -1846,13 +1861,13 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>DOUBLECUP&apos;s PNG Payload, (Mon, Aug 24th)</title>
-<link>https://isc.sans.edu/diary/rss/33274</link>
-<description><![CDATA[New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up . It doesn&amp;#;x26;#;39;t use real steganography:]]></description>
-<pubDate>Mon, 24 Aug 2026 07:23:16 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33274</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
+<title>Researchers Uncover Thousands of Leaked AWS Keys</title>
+<link>https://www.infosecurity-magazine.com/news/researchers-thousands-eaked-aws/</link>
+<description><![CDATA[Truffle Security says it found over 9000 publicly accessible and active AWS key pairs]]></description>
+<pubDate>Mon, 24 Aug 2026 08:05:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/researchers-thousands-eaked-aws/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Risky Bulletin: Expired credit cards can be used for malicious transactions</title>
@@ -1864,6 +1879,15 @@
 <category>practitioner_analysis</category>
 <category>Android</category>
 <category>Lazarus</category>
+</item>
+<item>
+<title>Weekly Update 518: IoT Doorlock Nirvana with UniFi</title>
+<link>https://www.troyhunt.com/weekly-update-518/</link>
+<description><![CDATA[I genuinely think I&apos;ve nailed the IoT door lock situation! Well, Ubiquiti has, but I think I&apos;ve worked out how to put it all into a residential house and have it make sense. There are a few basic tenets: Main power (never have to rely on]]></description>
+<pubDate>Mon, 24 Aug 2026 04:19:51 +0000</pubDate>
+<guid isPermaLink="true">https://www.troyhunt.com/weekly-update-518/</guid>
+<source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
+<category>practitioner_analysis</category>
 </item>
 <item>
 <title>How a team of entity maintainers monitors, connects and scores entities in Elastic Security</title>
@@ -2032,7 +2056,7 @@
 <item>
 <title>Cloud CISO Perspectives: Sticking to security fundamentals in the AI era</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f031c4690d0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How to stay strong with security fundamentals in the AI era By Chris Betz, CISO, Google Cloud Chris Betz, CISO, Google Cloud As AI accelerates the capabilities of adv]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for August 2026. Today, Chris Betz explains why the AI era makes it more important than ever to lean into security fundamentals. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f9df5748b50&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How to stay strong with security fundamentals in the AI era By Chris Betz, CISO, Google Cloud Chris Betz, CISO, Google Cloud As AI accelerates the capabilities of adv]]></description>
 <pubDate>Fri, 21 Aug 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-sticking-to-security-fundamentals-in-the-ai-era/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -2209,6 +2233,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>BOD 26-04 Just Changed How Federal Agencies Prioritize Vulnerabilities.</title>
+<link>https://orca.security/resources/blog/bod-26-04-just-changed-how-federal-agencies-prioritize-vulnerabilities/</link>
+<description><![CDATA[Introduction Three days. That’s how long federal agencies now have to patch their riskiest vulnerabilities, and for the first time, a high CVSS score alone won’t land a vulnerability in that bucket. On June 10, 2026, CISA issued Binding Operational Directive (BOD) 26-04, “Prioritizing Security Updates Based on Risk.” It replaces two long-standing directives, BOD […]]]></description>
+<pubDate>Thu, 20 Aug 2026 18:44:46 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/bod-26-04-just-changed-how-federal-agencies-prioritize-vulnerabilities/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>AWS Network Firewall now supports rule hit count</title>
 <link>https://aws.amazon.com/blogs/security/aws-network-firewall-now-supports-rule-hit-count/</link>
 <description><![CDATA[As firewall rule sets grow in complexity, security teams face a common challenge: manual log analysis is used to determine which rules are actively matching traffic and which are consuming capacity without being triggered. This lack of visibility creates operational and compliance gaps. Organizations with governance policies that require removal of dormant rules after a […]]]></description>
@@ -2216,6 +2249,17 @@
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/aws-network-firewall-now-supports-rule-hit-count/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites</title>
+<link>https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/</link>
+<description><![CDATA[Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]<br/><br/><em>Tags: WordPress · CVE-2026-32475</em>]]></description>
+<pubDate>Thu, 20 Aug 2026 18:19:47 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+<category>WordPress</category>
+<category>CVE-2026-32475</category>
 </item>
 <item>
 <title>Is Cyber missing the Marque?</title>
@@ -2538,6 +2582,15 @@
 <category>threat_research_primary</category>
 </item>
 <item>
+<title>Agentic Workflows: A Complete Guide for 2026</title>
+<link>https://orca.security/resources/blog/agentic-workflows/</link>
+<description><![CDATA[Key Takeaways An agentic workflow is an automated process in which a language model chooses the next step while the process runs. A person defines the goal, the tools, and the boundaries. The model decides the order. That one property separates it from the scripted automation already running in your pipelines, where every branch was […]]]></description>
+<pubDate>Wed, 19 Aug 2026 17:29:26 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/agentic-workflows/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Propagate user authorization context in AI agents with Amazon Bedrock AgentCore</title>
 <link>https://aws.amazon.com/blogs/security/propagate-user-authorization-context-in-ai-agents-with-amazon-bedrock-agentcore/</link>
 <description><![CDATA[Many teams now deploy AI agents that pull from Amazon DynamoDB tables, document repositories, software as a service (SaaS) platforms, and internal knowledge bases to answer questions and automate workflows. A key risk in these deployments is that the agent has no awareness of who’s asking, so it might return data the user shouldn’t see. […]]]></description>
@@ -2602,6 +2655,15 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/linux-foundations-akrites-go-live/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Autonomous SOC: AI-Driven Security Operations Explained</title>
+<link>https://orca.security/resources/blog/autonomous-soc/</link>
+<description><![CDATA[Key Takeaways An autonomous SOC is a security operations center where software makes and executes operational decisions an analyst used to make. The label describes how much judgment has moved. Triage, closure, containment, and detection tuning are separate decisions, and a working deployment transfers some of them while leaving others with a person. The category […]]]></description>
+<pubDate>Wed, 19 Aug 2026 15:28:22 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/autonomous-soc/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>A New Era of Bulletproof Hosting Providers Emerge</title>
@@ -3335,15 +3397,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>They patched their SaaS and left the self-hosted OSS version vulnerable - AppFlowy Authenticated SQL Injection</title>
-<link>https://www.reddit.com/r/netsec/comments/1vqojw3/they_patched_their_saas_and_left_the_selfhosted/</link>
-<description><![CDATA[submitted by /u/ezzzzz [link] [comments]]]></description>
-<pubDate>Mon, 17 Aug 2026 10:30:37 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vqojw3/they_patched_their_saas_and_left_the_selfhosted/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>SafePal Data Breach Hits Tens of Thousands of Customers</title>
 <link>https://www.infosecurity-magazine.com/news/safepal-data-breach-tens-thousands/</link>
 <description><![CDATA[Nearly 40,000 customers of hardware wallet provider SafePal have been impacted by a data breach<br/><br/><em>Tags: data_breach</em>]]></description>
@@ -3596,6 +3649,15 @@
 <guid isPermaLink="true">https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride</guid>
 <source url="https://www.interconnects.ai/feed">Interconnects</source>
 <category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>SOC Automation: AI-Driven Tools and Best Practices</title>
+<link>https://orca.security/resources/blog/soc-automation/</link>
+<description><![CDATA[Key Takeaways SOC automation is the practice of handing a defined security operations task to software that runs it on a stated trigger, under a rule a person wrote. It covers enrichment, deduplication, case creation, evidence collection, and a bounded set of containment actions across the alerts a security operations center receives. The pipeline is […]]]></description>
+<pubDate>Fri, 14 Aug 2026 18:11:14 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/soc-automation/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>CRA Monthly Tech Talk: ORBIT Launchpad SIG Updates</title>
@@ -4108,15 +4170,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
-<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
-<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
-<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>Akira Hits Safe Mode: Ransomware Rebooting Around EDR</title>
 <link>https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr</link>
 <description><![CDATA[An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -4125,6 +4178,15 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
+<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
+<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
+<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>NIST Seeks Public Input on AI-Ready NVD Modernization</title>
@@ -5498,9 +5560,9 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Wiz at Black Hat 2026: Driving AI Threat Readiness</title>
+<title>Black Hat 2026におけるWiz：AI脅威への備えを推進</title>
 <link>https://www.wiz.io/blog/wiz-at-black-hat-2026</link>
-<description><![CDATA[Announcing new capabilities that help organizations prepare for the AI era by expanding visibility and accelerating response, so security teams can defend at machine speed.]]></description>
+<description><![CDATA[可視性を拡大し、対応を加速させることで、組織が AI 時代に備え、セキュリティ チームがマシン スピードで防御できるように支援する新機能を発表します。]]></description>
 <pubDate>Tue, 04 Aug 2026 13:06:10 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-at-black-hat-2026</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -6044,6 +6106,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>Introducing Tactics: See What Adversaries Do After They’re Inside</title>
+<link>https://www.greynoise.io/blog/introducing-tactics-see-what-adversaries-do-after-they-are-inside</link>
+<description><![CDATA[GreyNoise Tactics gives anyone running a Deception Sensor visibility into what adversaries do after initial compromise, automatically mapping qualifying sessions to the MITRE ATT&amp;CK framework.]]></description>
+<pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/introducing-tactics-see-what-adversaries-do-after-they-are-inside</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Alert Zero: AI-driven alert triage and attack investigation for the agentic SOC</title>
 <link>https://www.elastic.co/security-labs/blog/agentic-soc-alert-triage-alertzero</link>
 <description><![CDATA[Elastic Security 9.5 gives SOC teams AI that handles first-pass alert triage and investigation, so analysts can get back to threat hunting and detection engineering instead of working through queue noise.]]></description>
@@ -6060,15 +6131,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/blog/vulnerable-driver-detection-elastic-defend-byovd</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Introducing Tactics: See What Adversaries Do After They’re Inside</title>
-<link>https://www.greynoise.io/blog/introducing-tactics-see-what-adversaries-do-after-they-are-inside</link>
-<description><![CDATA[GreyNoise Tactics gives anyone running a Deception Sensor visibility into what adversaries do after initial compromise, automatically mapping qualifying sessions to the MITRE ATT&amp;CK framework.]]></description>
-<pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/introducing-tactics-see-what-adversaries-do-after-they-are-inside</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Max-severity Exchange server flaw under active exploitation by Kremlin hackers</title>
@@ -6533,9 +6595,9 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>Atlas: Wiz&apos;s autonomous AI Agent for vulnerability research, ranked #1 on CyberGym</title>
+<title>Atlasのご紹介：WizのAI脆弱性リサーチャー</title>
 <link>https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</link>
-<description><![CDATA[See how Wiz built Atlas, an autonomous AI system for vulnerability research that validates every finding with a real, working exploit.]]></description>
+<description><![CDATA[実証可能なリアルなエクスプロイトを用いてすべての検出結果を検証する、脆弱性調査のための自律型AIシステム「Atlas」をWizがどのように構築したかをご覧ください。]]></description>
 <pubDate>Mon, 27 Jul 2026 14:00:02 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/atlas-ai-vulnerability-researcher</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -7390,9 +7452,9 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>The Red Agent POV: The One Boolean That Broke a B2B Platform’s Credit System</title>
+<title>レッドエージェントの視点：B2Bプラットフォームのクレジットシステムを壊したたった1つのブール値</title>
 <link>https://www.wiz.io/blog/red-agent-pov-business-logic</link>
-<description><![CDATA[Part 3: How the Red Agent bypassed a credit and paywall system by changing a single client-side value from false to true.]]></description>
+<description><![CDATA[パート3：クライアント側の単一の値をfalseからtrueに変更することで、レッドエージェントがクレジットおよびペイウォールシステムを回避した方法。]]></description>
 <pubDate>Wed, 15 Jul 2026 13:33:42 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-business-logic</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -8708,9 +8770,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>The Red Agent POV: Exploiting Broken Object-Level Authorization in an Airline GraphQL API</title>
+<title>レッドエージェントの視点：航空会社のGraphQL APIにおけるオブジェクトレベルの認可の不備の悪用</title>
 <link>https://www.wiz.io/blog/red-agent-pov-bola</link>
-<description><![CDATA[Part 2: How the Red Agent bypassed backend resolvers to expose an entire airline booking database in fifteen minutes]]></description>
+<description><![CDATA[パート2：Red Agentはいかにしてバックエンドリゾルバーをバイパスし、15分で航空会社全体の予約データベースを露出させたか]]></description>
 <pubDate>Mon, 29 Jun 2026 09:31:40 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-bola</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -9354,24 +9416,22 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>The Red Agent POV: How it Reasoned its Way to SSRF</title>
+<title>Red Agentの視点：いかにして推論を重ねてSSRFへと至ったか</title>
 <link>https://www.wiz.io/blog/red-agent-pov-ssrf</link>
-<description><![CDATA[Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on a GCP Cloud Run API<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[パート1：Red AgentがGCP Cloud Run APIにおいてSSRFからローカルファイル読み取りを可能にする複数ステップの攻撃チェーンをどのように解明したか]]></description>
 <pubDate>Wed, 17 Jun 2026 14:33:51 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-ssrf</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
-<title>Introducing the Red Agent POV Series</title>
+<title>レッドエージェント POVシリーズのご紹介</title>
 <link>https://www.wiz.io/blog/red-agent-pov-series</link>
-<description><![CDATA[An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, exploitable risks in the wild<br/><br/><em>Tags: active_exploitation</em>]]></description>
+<description><![CDATA[当社のAI搭載アタッカーであるRed Agentが、実際の環境で複雑かつ悪用可能なリスクをどのように特定するのか、その裏側をご紹介します]]></description>
 <pubDate>Wed, 17 Jun 2026 14:33:41 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/red-agent-pov-series</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>active_exploitation</category>
 </item>
 <item>
 <title>State of the blog, mid-2026</title>
@@ -12247,15 +12307,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Risky Bulletin: Ukrainians hacked Russian satellite comms platform</title>
-<link>https://risky.biz/RBNEWS557/</link>
-<description><![CDATA[Ukrainians hack Russian satellites, Vimeo is being extorted, Greece wants to ban anonymity on social media, and a Scattered Spider hacker was arrested in Finland.]]></description>
-<pubDate>Wed, 29 Apr 2026 02:04:31 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS557/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>How to secure workloads, containers, and Kubernetes the right way</title>
 <link>https://webflow.sysdig.com/blog/how-to-secure-workloads-containers-and-kubernetes-the-right-way</link>
 <description><![CDATA[To build a security program that will tell you what’s a real threat in your containerized infrastructure right now, start with these 3 key pillars.]]></description>
@@ -12408,15 +12459,6 @@
 <source url="https://thedfirreport.com/feed/">The DFIR Report</source>
 <category>detection_response_operations</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>Wiz at Google Next: Machine-Speed Defense for Any Cloud, Any Platform, Any AI</title>
-<link>https://www.wiz.io/blog/wiz-at-google-cloud-next</link>
-<description><![CDATA[Announcing new capabilities at Google Cloud Next that extend and deepen Wiz AI-APP coverage: From the first line of AI-generated code, across AI and agent studios, to the edge of the cloud]]></description>
-<pubDate>Wed, 22 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/wiz-at-google-cloud-next</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Decoupled DiLoCo: A new frontier for resilient, distributed AI training</title>
@@ -12914,15 +12956,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Prioritizing Alerts Triage with Higher-Order Detection Rules</title>
-<link>https://www.elastic.co/security-labs/blog/higher-order-detection-rules</link>
-<description><![CDATA[Scaling SOC efficiency through multi-signal correlation and higher-order detection patterns.]]></description>
-<pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/higher-order-detection-rules</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>The Invisible Army: Why IP Reputation Fails Against the Rotation Economy</title>
 <link>https://www.greynoise.io/blog/invisible-army-why-ip-reputation-fails-against-rotation-economy</link>
 <description><![CDATA[Attackers route malicious traffic through ordinary home internet connections — and to a reputation feed, the source IP is indistinguishable from a legitimate user&apos;s connection. GreyNoise analyzed 4 billion sessions over 90 days and found that 39% of unique IPs targeting the edge come from residential address space. 78% vanish after just 1–2 sessions, before any reputation system can flag them. The report documents why detection must shift from where the traffic comes from to what it is doing.]]></description>
@@ -12930,6 +12963,15 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/invisible-army-why-ip-reputation-fails-against-rotation-economy</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Prioritizing Alerts Triage with Higher-Order Detection Rules</title>
+<link>https://www.elastic.co/security-labs/blog/higher-order-detection-rules</link>
+<description><![CDATA[Scaling SOC efficiency through multi-signal correlation and higher-order detection patterns.]]></description>
+<pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/higher-order-detection-rules</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Stranger Strings: Yurei Ransomware Operator Toolkit Exposed</title>
@@ -13794,6 +13836,15 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
+<title>Active Reconnaissance Campaign Targets SonicWall Firewalls Through Commercial Proxy Infrastructure</title>
+<link>https://www.greynoise.io/blog/active-reconnaissance-campaign-targets-sonicwall-firewalls-through-commercial-proxy-infrastructure</link>
+<description><![CDATA[84,000+ scanning sessions targeting SonicWall SonicOS infrastructure in four days. GreyNoise details a coordinated reconnaissance campaign using rotating proxy infrastructure.]]></description>
+<pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/active-reconnaissance-campaign-targets-sonicwall-firewalls-through-commercial-proxy-infrastructure</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Why 2026 is the Year to Upgrade to an Agentic AI SOC</title>
 <link>https://www.elastic.co/security-labs/blog/why-2026-is-the-year-to-upgrade-to-an-agentic-ai-soc</link>
 <description><![CDATA[Agentic AI SOCs differ from copilot-only models by autonomously prioritizing attacks over alerts, executing closed-loop containment, and providing traceable reasoning for every decision, allowing analysts to focus on high-value investigations.]]></description>
@@ -13810,15 +13861,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/blog/manage-elastic-with-terraform</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Active Reconnaissance Campaign Targets SonicWall Firewalls Through Commercial Proxy Infrastructure</title>
-<link>https://www.greynoise.io/blog/active-reconnaissance-campaign-targets-sonicwall-firewalls-through-commercial-proxy-infrastructure</link>
-<description><![CDATA[84,000+ scanning sessions targeting SonicWall SonicOS infrastructure in four days. GreyNoise details a coordinated reconnaissance campaign using rotating proxy infrastructure.]]></description>
-<pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/active-reconnaissance-campaign-targets-sonicwall-firewalls-through-commercial-proxy-infrastructure</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>What Cyber Insurance Claims Reveal About Real Cyber Risk</title>
@@ -14201,16 +14243,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>SolarWinds Web Help Desk Exploitation - February 2026</title>
-<link>https://www.elastic.co/security-labs/blog/solarwinds-whd-exploitation</link>
-<description><![CDATA[Elastic Security detection and prevention capabilities for the recently-disclosed SolarWinds Web Help Desk vulnerabilities.<br/><br/><em>Tags: SolarWinds</em>]]></description>
-<pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/solarwinds-whd-exploitation</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-<category>SolarWinds</category>
-</item>
-<item>
 <title>Active Ivanti Exploitation Traced to Single Bulletproof IP—Published IOC Lists Point Elsewhere</title>
 <link>https://www.greynoise.io/blog/active-ivanti-exploitation</link>
 <description><![CDATA[The GreyNoise Global Observation Grid observed active exploitation of two critical Ivanti Endpoint Manager Mobile vulnerabilities, and 83% of that exploitation traces to a single IP address on bulletproof hosting infrastructure that does not appear on widely circulated IOC lists.<br/><br/><em>Tags: Ivanti</em>]]></description>
@@ -14219,6 +14251,16 @@
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
 <category>Ivanti</category>
+</item>
+<item>
+<title>SolarWinds Web Help Desk Exploitation - February 2026</title>
+<link>https://www.elastic.co/security-labs/blog/solarwinds-whd-exploitation</link>
+<description><![CDATA[Elastic Security detection and prevention capabilities for the recently-disclosed SolarWinds Web Help Desk vulnerabilities.<br/><br/><em>Tags: SolarWinds</em>]]></description>
+<pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/solarwinds-whd-exploitation</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
+<category>SolarWinds</category>
 </item>
 <item>
 <title>Accelerating Mathematical and Scientific Discovery with Gemini Deep Think</title>
@@ -14333,6 +14375,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>New in Event Feeds: Vendor CVE Spike &amp; Tag Spike</title>
+<link>https://www.greynoise.io/blog/introducing-vendor-cve-and-tag-spike</link>
+<description><![CDATA[GreyNoise introduces Vendor CVE Spike and Tag Spike. Learn how to detect coordinated vendor targeting and botnet surges before a CVE is assigned.]]></description>
+<pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/introducing-vendor-cve-and-tag-spike</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>From Alert Fatigue to Agentic Response: How Workflows and Agent Builder Close the Loop</title>
 <link>https://www.elastic.co/security-labs/blog/from-alert-fatigue-to-agentic-response</link>
 <description><![CDATA[Attempting to chase individual alerts is a losing strategy. To succeed, we have to move beyond simple automation scripts and into the era of Agentic AI.]]></description>
@@ -14349,15 +14400,6 @@
 <guid isPermaLink="true">https://www.elastic.co/security-labs/blog/from-qradar-to-elastic</guid>
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>New in Event Feeds: Vendor CVE Spike &amp; Tag Spike</title>
-<link>https://www.greynoise.io/blog/introducing-vendor-cve-and-tag-spike</link>
-<description><![CDATA[GreyNoise introduces Vendor CVE Spike and Tag Spike. Learn how to detect coordinated vendor targeting and botnet surges before a CVE is assigned.]]></description>
-<pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/introducing-vendor-cve-and-tag-spike</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>A slippery slope: Beware of Winter Olympics scams and other cyberthreats</title>
@@ -14908,15 +14950,6 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>From Hypothesis to Action: Proactive Threat Hunting with Elastic Security</title>
-<link>https://www.elastic.co/security-labs/blog/proactive-threat-hunting-with-elastic-security</link>
-<description><![CDATA[Elastic Security is designed to enable hypothesis-driven threat hunting at speed and scale. By unifying security telemetry and enabling analytics across clusters, threat hunters can ask complex questions across all their data, correlate signals, and validate hypotheses quickly without manual data stitching.]]></description>
-<pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/proactive-threat-hunting-with-elastic-security</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Threat Actors Actively Targeting LLMs</title>
 <link>https://www.greynoise.io/blog/threat-actors-actively-targeting-llms</link>
 <description><![CDATA[Our Ollama honeypot infrastructure captured 91,403 attack sessions between October 2025 and January 2026. Buried in that data: two distinct campaigns that reveal how threat actors are systematically mapping the expanding surface area of AI deployments.]]></description>
@@ -14934,6 +14967,15 @@
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>From Hypothesis to Action: Proactive Threat Hunting with Elastic Security</title>
+<link>https://www.elastic.co/security-labs/blog/proactive-threat-hunting-with-elastic-security</link>
+<description><![CDATA[Elastic Security is designed to enable hypothesis-driven threat hunting at speed and scale. By unifying security telemetry and enabling analytics across clusters, threat hunters can ask complex questions across all their data, correlate signals, and validate hypotheses quickly without manual data stitching.]]></description>
+<pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/proactive-threat-hunting-with-elastic-security</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Introducing HUNTER Tuning: a New Tool for Driving Behavioral Threat Hunt Detections</title>
@@ -15250,15 +15292,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Automating detection tuning requests with Kibana cases</title>
-<link>https://www.elastic.co/security-labs/blog/automating-detection-tuning-requests-with-kibana-cases</link>
-<description><![CDATA[Learn how to automate detection rule tuning requests in Elastic Security. This guide shows how to add custom fields to Cases, create a rule to detect tuning needs, and use a webhook to create a frictionless feedback loop between analysts and detection engineers.]]></description>
-<pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/automating-detection-tuning-requests-with-kibana-cases</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>CVE-2025-55182 (React2Shell) Opportunistic Exploitation In The Wild: What The GreyNoise Observation Grid Is Seeing So Far</title>
 <link>https://www.greynoise.io/blog/cve-2025-55182-react2shell-opportunistic-exploitation-in-the-wild-what-the-greynoise-observation-grid-is-seeing-so-far</link>
 <description><![CDATA[GreyNoise is already seeing opportunistic, largely automated exploitation attempts consistent with the newly disclosed React Server Components (RSC) “Flight” protocol RCE—often referred to publicly as “React2Shell” and tracked as CVE-2025-55182.<br/><br/><em>Tags: CVE-2025-55182 · active_exploitation</em>]]></description>
@@ -15268,6 +15301,15 @@
 <category>cloud_identity_infrastructure</category>
 <category>CVE-2025-55182</category>
 <category>active_exploitation</category>
+</item>
+<item>
+<title>Automating detection tuning requests with Kibana cases</title>
+<link>https://www.elastic.co/security-labs/blog/automating-detection-tuning-requests-with-kibana-cases</link>
+<description><![CDATA[Learn how to automate detection rule tuning requests in Elastic Security. This guide shows how to add custom fields to Cases, create a rule to detect tuning needs, and use a webhook to create a frictionless feedback loop between analysts and detection engineers.]]></description>
+<pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/automating-detection-tuning-requests-with-kibana-cases</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>New FvncBot Android banking trojan targets Poland</title>
@@ -16682,15 +16724,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>Agentic Frameworks Summary</title>
-<link>https://www.elastic.co/security-labs/blog/agentic-ai-summary</link>
-<description><![CDATA[Agentic systems require security teams to balance autonomy with alignment, ensuring that AI agents can act independently while remaining goal-consistent and controllable .]]></description>
-<pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/agentic-ai-summary</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>A Coordinated Brute Force Campaign Targets Fortinet SSL VPN</title>
 <link>https://www.greynoise.io/blog/vulnerability-fortinet-vpn-bruteforce-spike</link>
 <description><![CDATA[On August 3rd, 2025 GreyNoise observed a significant spike in brute-force traffic targeting Fortinet SSL VPNs. Over 780 unique IPs triggered our Fortinet SSL VPN Bruteforcer tag in a single day — the highest single-day volume seen on this tag in recent months.<br/><br/><em>Tags: Fortinet</em>]]></description>
@@ -16699,6 +16732,15 @@
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
 <category>Fortinet</category>
+</item>
+<item>
+<title>Agentic Frameworks Summary</title>
+<link>https://www.elastic.co/security-labs/blog/agentic-ai-summary</link>
+<description><![CDATA[Agentic systems require security teams to balance autonomy with alignment, ensuring that AI agents can act independently while remaining goal-consistent and controllable .]]></description>
+<pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/agentic-ai-summary</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Go Get ‘Em: Updates to Volexity Golang Tooling</title>
@@ -17327,6 +17369,15 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>Surge in MOVEit Transfer Scanning Could Signal Emerging Threat Activity</title>
+<link>https://www.greynoise.io/blog/surge-moveit-transfer-scanning-activity</link>
+<description><![CDATA[GreyNoise has identified a notable surge in scanning activity targeting MOVEit Transfer systems, beginning on May 27, 2025. Prior to this date, scanning was minimal — typically fewer than 10 IPs observed per day. But on May 27, that number spiked to over 100 unique IPs, followed by 319 IPs on May 29.]]></description>
+<pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/surge-moveit-transfer-scanning-activity</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Microsoft Entra ID OAuth Phishing and Detections</title>
 <link>https://www.elastic.co/security-labs/blog/entra-id-oauth-phishing-detection</link>
 <description><![CDATA[This article explores OAuth phishing and token-based abuse in Microsoft Entra ID. Through emulation and analysis of tokens, scope, and device behavior during sign-in activity, we surface high-fidelity signals defenders can use to detect and hunt for OAuth misuse.<br/><br/><em>Tags: Microsoft Entra · phishing_social_eng</em>]]></description>
@@ -17336,15 +17387,6 @@
 <category>detection_response_operations</category>
 <category>Microsoft Entra</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Surge in MOVEit Transfer Scanning Could Signal Emerging Threat Activity</title>
-<link>https://www.greynoise.io/blog/surge-moveit-transfer-scanning-activity</link>
-<description><![CDATA[GreyNoise has identified a notable surge in scanning activity targeting MOVEit Transfer systems, beginning on May 27, 2025. Prior to this date, scanning was minimal — typically fewer than 10 IPs observed per day. But on May 27, that number spiked to over 100 unique IPs, followed by 319 IPs on May 29.]]></description>
-<pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/surge-moveit-transfer-scanning-activity</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Security Advisory: Anthropic&apos;s Slack MCP Server Vulnerable to Data Exfiltration</title>
@@ -17647,15 +17689,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Elastic changes the SIEM game with AI-driven security analytics</title>
-<link>https://www.elastic.co/security-labs/blog/ai-driven-security-analytics</link>
-<description><![CDATA[Learn more about Elastic&apos;s AI-driven security analytics]]></description>
-<pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/ai-driven-security-analytics</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Verizon DBIR 2025: Edge KEVs Are Increasingly Left Unpatched — and More Often Exploited in Breaches</title>
 <link>https://www.greynoise.io/blog/verizon-dbir-2025-edge-kevs-increasingly-left-unpatched-exploited</link>
 <description><![CDATA[Edge vulnerabilities are a critical and growing threat. The 2025 DBIR reveals an eightfold surge in exploitation, yet many remain unpatched despite immediate risk.]]></description>
@@ -17663,6 +17696,15 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/verizon-dbir-2025-edge-kevs-increasingly-left-unpatched-exploited</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Elastic changes the SIEM game with AI-driven security analytics</title>
+<link>https://www.elastic.co/security-labs/blog/ai-driven-security-analytics</link>
+<description><![CDATA[Learn more about Elastic&apos;s AI-driven security analytics]]></description>
+<pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/ai-driven-security-analytics</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Managing a cyber crisis</title>
@@ -18372,6 +18414,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>From PoC to Attacker Interest in Hours: Real-Time Insights into Mitel MiCollab Vulnerabilities</title>
+<link>https://www.greynoise.io/blog/from-poc-to-attacker-interest-in-hours-real-time-insights-into-mitel-micollab-vulnerabilities</link>
+<description><![CDATA[Attackers exploit vulnerabilities within hours of PoC releases. Learn how GreyNoise provides real-time intelligence to detect and disrupt threats, helping defenders respond faster and stay ahead of evolving risks.]]></description>
+<pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/from-poc-to-attacker-interest-in-hours-real-time-insights-into-mitel-micollab-vulnerabilities</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Exploring AWS STS AssumeRoot</title>
 <link>https://www.elastic.co/security-labs/blog/exploring-aws-sts-assumeroot</link>
 <description><![CDATA[Explore AWS STS AssumeRoot, its risks, detection strategies, and practical scenarios to secure against privilege escalation and account compromise using Elastic&apos;s SIEM and CloudTrail data.<br/><br/><em>Tags: AWS</em>]]></description>
@@ -18380,15 +18431,6 @@
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 <category>AWS</category>
-</item>
-<item>
-<title>From PoC to Attacker Interest in Hours: Real-Time Insights into Mitel MiCollab Vulnerabilities</title>
-<link>https://www.greynoise.io/blog/from-poc-to-attacker-interest-in-hours-real-time-insights-into-mitel-micollab-vulnerabilities</link>
-<description><![CDATA[Attackers exploit vulnerabilities within hours of PoC releases. Learn how GreyNoise provides real-time intelligence to detect and disrupt threats, helping defenders respond faster and stay ahead of evolving risks.]]></description>
-<pubDate>Tue, 10 Dec 2024 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/from-poc-to-attacker-interest-in-hours-real-time-insights-into-mitel-micollab-vulnerabilities</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Terminal DiLLMa: LLM-powered Apps Can Hijack Your Terminal Via Prompt Injection</title>
@@ -18605,15 +18647,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>Storm on the Horizon: Inside the AJCloud IoT Ecosystem</title>
-<link>https://www.elastic.co/security-labs/blog/storm-on-the-horizon</link>
-<description><![CDATA[Wi-Fi cameras are popular due to their affordability and convenience but often have security vulnerabilities that can be exploited.]]></description>
-<pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/storm-on-the-horizon</guid>
-<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
-<category>detection_response_operations</category>
-</item>
-<item>
 <title>Challenging Assumptions: Enhancing the Understanding of Securing Internet-Exposed Industrial Control Systems</title>
 <link>https://www.greynoise.io/blog/challenging-assumptions-enhancing-the-understanding-of-securing-internet-exposed-industrial-control-systems</link>
 <description><![CDATA[Discover the latest findings from Censys and GreyNoise on the real-world threats facing internet-exposed Industrial Control Systems (ICS). At LABSCon 2024, they revealed surprising research on how attackers prioritize common Remote Access Service (RAS) protocols over ICS-specific communication, highlighting key security challenges for critical infrastructure. Learn more about how internet-connected HMIs are rapidly targeted and the implications for ICS security.]]></description>
@@ -18621,6 +18654,15 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/challenging-assumptions-enhancing-the-understanding-of-securing-internet-exposed-industrial-control-systems</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>Storm on the Horizon: Inside the AJCloud IoT Ecosystem</title>
+<link>https://www.elastic.co/security-labs/blog/storm-on-the-horizon</link>
+<description><![CDATA[Wi-Fi cameras are popular due to their affordability and convenience but often have security vulnerabilities that can be exploited.]]></description>
+<pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.elastic.co/security-labs/blog/storm-on-the-horizon</guid>
+<source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
+<category>detection_response_operations</category>
 </item>
 <item>
 <title>Only One Third of Organizations Run Round-the-Clock Cybersecurity</title>
@@ -19472,7 +19514,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19481,7 +19523,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19490,7 +19532,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19499,7 +19541,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19509,7 +19551,7 @@
 <title>CrowdStrike Threat Hunts for Shell Command Obfuscation on VMware ESX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-hunts-for-shell-command-obfuscation-vmware-esx/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19518,7 +19560,7 @@
 <title>Expanding AI Benchmarks in Cybersecurity Beyond Vulnerability Discovery</title>
 <link>https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/expanding-cybersecurity-ai-benchmarks-beyond-vulnerability-discovery/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19527,7 +19569,7 @@
 <title>Secure Agent Harness Execution: Preventing Escape</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-agent-harness-execution-preventing-escape/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19536,7 +19578,7 @@
 <title>CrowdStrike 2026 Threat Hunting Report: Exploitation Window Closes as AI Use Accelerates</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-threat-hunting-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19545,7 +19587,7 @@
 <title>Falcon AIDR Now Protects Copilot Studio Agents and Claude Code</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-aidr-protects-copilot-studio-agents-and-claude-code/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19554,7 +19596,7 @@
 <title>Inside Astaroth&apos;s New Spambot Component</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 31 Aug 2026 01:18:39 +0000</pubDate>
+<pubDate>Mon, 31 Aug 2026 08:30:53 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-astaroths-new-spambot-component/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
