@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-01T01:10:37.015101+00:00
+- Generated: 2026-09-01T07:38:02.126449+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 74
-- Total items in window: 297
-- Total clusters raw: 148
-- Total clusters in packet: 66
-- Dropped low score: 82
+- Feeds OK: 73
+- Total items in window: 301
+- Total clusters raw: 149
+- Total clusters in packet: 69
+- Dropped low score: 80
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,111 +75,111 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 8
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -190,28 +190,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -220,41 +210,46 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 3
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -265,16 +260,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -290,16 +290,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -325,23 +325,8 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 16
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,36 +335,56 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 30
-  - In window count: 9
+  - Item count: 20
+  - In window count: 17
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 9
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 23
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 10
+  - In window count: 10
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -395,21 +400,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -420,13 +410,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -435,6 +425,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,16 +444,16 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 9
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 10
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -477,7 +477,7 @@
 - Anchor signal: CVE-2026-81578
 - Theme key: cve-2026-81578
 - Cluster count: 5
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.359
 - Shared strong signals: CVE-2026-81578
 - Member CVEs: (none)
@@ -491,6 +491,7 @@
 - Cluster IDs: 69f95d6a80, 220df2cac2, dfcccdc3f5, 205332731c, e57f34f6e2
 - Links:
   - https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
+  - https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/
   - https://www.huntress.com/blog/papercut-actively-exploited
   - https://www.helpnetsecurity.com/2026/08/31/papercut-attack-remote-access-tools/
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
@@ -500,7 +501,7 @@
 - Anchor signal: CVE-2026-82078
 - Theme key: cve-2026-82078
 - Cluster count: 5
-- Article count: 5
+- Article count: 6
 - Cohesion: 0.359
 - Shared strong signals: CVE-2026-82078
 - Member CVEs: (none)
@@ -514,6 +515,7 @@
 - Cluster IDs: 69f95d6a80, 220df2cac2, dfcccdc3f5, 205332731c, e57f34f6e2
 - Links:
   - https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
+  - https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/
   - https://www.huntress.com/blog/papercut-actively-exploited
   - https://www.helpnetsecurity.com/2026/08/31/papercut-attack-remote-access-tools/
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
@@ -540,6 +542,29 @@
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
   - https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html
 
+### phishing social eng targeting npm
+- Anchor signal: npm
+- Theme key: npm
+- Cluster count: 4
+- Article count: 6
+- Cohesion: 0.314
+- Shared strong signals: npm
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, supply_chain
+  - actor_attribution: TeamPCP
+  - affected_industries: government
+  - affected_products: npm, GitHub
+- Cluster IDs: b0c59929e1, 0a5e1245be, cda2c7fd5c, 7c35bc981f
+- Links:
+  - https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
+  - https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
+  - https://risky.biz/RBNEWS606/
+  - https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/
+  - https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/
+  - https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
+
 ### ransomware extortion targeting Palo Alto Networks
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
@@ -559,28 +584,6 @@
   - https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/
   - https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners
-
-### ransomware extortion targeting Microsoft Entra
-- Anchor signal: Microsoft Entra
-- Theme key: microsoft-entra
-- Cluster count: 4
-- Article count: 7
-- Cohesion: 0.231
-- Shared strong signals: Microsoft Entra
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, supply_chain, credential_theft, data_breach
-  - affected_products: Microsoft Entra, Anthropic/Claude
-- Cluster IDs: a572350038, eae1569c42, 5a1ecc3ada, 7a964e87d2
-- Links:
-  - https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
-  - https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/
-  - https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/
-  - https://www.infosecurity-magazine.com/news/reliaquest-not-compromised-by/
-  - https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/
-  - https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/
-  - https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/
 
 ### Linux kernel active exploitation
 - Anchor signal: Linux kernel
@@ -607,7 +610,7 @@
 ### TeamPCP targeting npm
 - Anchor signal: TeamPCP
 - Theme key: teampcp
-- Cluster count: 4
+- Cluster count: 3
 - Article count: 5
 - Cohesion: 0.418
 - Shared strong signals: TeamPCP
@@ -618,36 +621,54 @@
   - actor_attribution: TeamPCP
   - affected_industries: government
   - affected_products: OpenAI/ChatGPT, GitHub, npm
-- Cluster IDs: 205332731c, b0c59929e1, cda2c7fd5c, 7c35bc981f
+- Cluster IDs: 205332731c, b0c59929e1, 7c35bc981f
 - Links:
   - https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html
   - https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/
   - https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html
   - https://risky.biz/RBNEWS606/
-  - https://blog.talosintelligence.com/javascript-obfuscation-from-party-trick-to-phishing-kit/
   - https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
 
-### ShinyHunters: data breach
+### ShinyHunters targeting Salesforce
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
 - Cluster count: 3
 - Article count: 6
-- Cohesion: 0.354
+- Cohesion: 0.355
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: data_breach, ransomware_extortion
+  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach
   - actor_attribution: ShinyHunters
   - affected_industries: healthcare
-- Cluster IDs: a572350038, e57f34f6e2, 62469ecc9b
+  - affected_products: Salesforce
+- Cluster IDs: 0a3458104e, e57f34f6e2, 62469ecc9b
 - Links:
-  - https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
   - https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/
+  - https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
   - https://www.helpnetsecurity.com/2026/08/31/healthcare-company-mckesson-data-breach/
   - https://www.infosecurity-magazine.com/news/reliaquest-not-compromised-by/
   - https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
   - https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
+
+### ransomware extortion targeting Microsoft Entra
+- Anchor signal: Microsoft Entra
+- Theme key: microsoft-entra
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: Microsoft Entra
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, supply_chain, credential_theft, data_breach
+  - affected_products: Microsoft Entra
+- Cluster IDs: eae1569c42, 5a1ecc3ada, 7a964e87d2
+- Links:
+  - https://unit42.paloaltonetworks.com/spring-ring-voice-phishing-campaigns/
+  - https://www.securityweek.com/critical-ruby-on-rails-vulnerability-in-attackers-crosshairs/
+  - https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/
 
 ### APT28: web shell backdoor
 - Anchor signal: APT28
@@ -700,29 +721,12 @@
   - https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity/
   - https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/
 
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_industries: manufacturing_industrial
-  - affected_products: WordPress
-  - urgency_signals: preauth_unauth
-- Cluster IDs: 4052366531, f5aaf423ba
-- Links:
-  - https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html
-  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners
-
 ## Forward signals
 
 ### Novelty
 - Novel cves: 0
-- Novel actors: 0
+- Novel actors: 1
+  - UNC5669 (first seen via Google Cloud Threat Intelligence at 2026-09-01T14:00:00+00:00, cluster 25cdc2e4b7)
 - Novel products: 0
 
 ### Velocity bursts (0)
@@ -762,14 +766,9 @@
   - New products: GitLab, Gitea, OpenAI/ChatGPT
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: GitHub, Kubernetes, npm
-- **Rhysida** (cluster 643790e7b5)
-  - New industries: critical_infrastructure, healthcare
-  - New products: (none)
-  - Prior top industries: education, financial_services, government
-  - Prior top products: Apple iOS/macOS, Microsoft Defender, Ubiquiti UniFi
-- **ShinyHunters** (cluster a572350038)
+- **ShinyHunters** (cluster 0a3458104e)
   - New industries: healthcare
-  - New products: (none)
+  - New products: Snowflake
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, Microsoft Entra, Salesforce
 - **APT29** (cluster eae1569c42)
@@ -777,9 +776,14 @@
   - New products: Palo Alto Networks
   - Prior top industries: aviation_defense, government
   - Prior top products: Microsoft Entra, PyPI, SolarWinds
+- **Rhysida** (cluster 643790e7b5)
+  - New industries: critical_infrastructure, healthcare
+  - New products: (none)
+  - Prior top industries: education, financial_services, government
+  - Prior top products: Apple iOS/macOS, Microsoft Defender, Ubiquiti UniFi
 
 ### Persistence (11)
-- actor_attribution: ShinyHunters (weeks observed: 14, cluster a572350038)
+- actor_attribution: ShinyHunters (weeks observed: 14, cluster 0a3458104e)
 - actor_attribution: Cl0p (weeks observed: 9, cluster 205332731c)
 - actor_attribution: TeamPCP (weeks observed: 9, cluster 205332731c)
 - actor_attribution: LockBit (weeks observed: 7, cluster 205332731c)
@@ -799,15 +803,15 @@
 
 ## Clusters
 
-### Cluster 69f95d6a80 — score 50
+### Cluster 69f95d6a80 — score 56
 
 - Title: PaperCut NG/MF Critical Zero-Day Exploited in the Wild
 - Source: Rapid7 (offensive_vulnerability_research)
 - Published: 2026-08-28T10:09:12+00:00
 - Link: https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: CVE-2026-81578, CVE-2026-82078
 
 #### Cluster taxonomy (union across members)
@@ -816,7 +820,7 @@
 - cve_ids: CVE-2023-27350, CVE-2026-81578, CVE-2026-82078
 - urgency_signals: actively_exploited, emergency_patch, zero_day
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, zero_day, active_exploitation
@@ -838,13 +842,18 @@ Overview On August 27, 2026, PaperCut Software published an urgent security advi
 Back to Blog Vulnerabilities and Exploits PaperCut NG/MF Critical Zero-Day Exploited in the Wild Rapid7 Aug 28, 2026 | Last updated on Aug 31, 2026 | 6 min read Overview On August 27, 2026, PaperCut Software published an urgent security advisory stating that it is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF. PaperCut has confirmed customer incidents and is treating the issue as a security emergency. At the initial time of disclosure, the vulnerability had not been assigned a CVE identifier, and PaperCut had not publicly disclosed a CVSS score, vulnerability class, authentication requirements, or the technical details of the exploit path. However on August 28, the vendor assigned CVE-2026-81578 and CVE-2026-82078 for the two vulnerabilities that make up the exploit chain. CVE ID Description CWE CVSSv4 CVE-2026-81578 Authentication Bypass CWE-306 Missing authentication for critical function. 8.8 (High) CVE-2026-82078 Unsafe Dynamic Class Loading in Database Connector CWE-470 Use of Externally-Controlled input to select classes or code ('unsafe reflection'). 9.4 (Critical) PaperCut NG and PaperCut MF are print management platforms commonly deployed within enterprise, education, and other organizational environments. Because the PaperCut Application Server provides web-accessible administrative and application functionality, organizations with servers exposed to the public internet should prioritize remediation and access restriction. PaperCut stated in its advisory that information supplied by a university customer’s security team and digital forensics and incident response team enabled its security response team to reproduce the vulnerability in PaperCut NG and PaperCut MF. On August 28, 2026 at 02:10 AEST, PaperCut released emergency patches for PaperCut NG and PaperCut MF versions 25 and 26, followed later the same day with patches for version 24. PaperCut has been targeted in the past; in 2023, CVE-2023-27350 was broadly exploited in the wild by multiple threat-actor groups, including ransomware operators. This prior history increases the urgency organizations should address this new zero-day with. PaperCut currently considers all versions of PaperCut NG and PaperCut MF potentially impacted. Customers operating internet-accessible PaperCut Application Servers should take immediate action even if no suspicious activity has been observed. On August 31, 2026, both CVE-2026-81578 and CVE-2026-82078 were added to the U.S. Cybersecurity and Infrastructure Security Agency’s (CISA) list of known exploited vulnerabilities (KEV), based on evidence of active exploitation. A Metasploit module is now available to validate exposure to the exploit chain. Technical overview The vulnerability is an authentication bypass that lets attackers invoke privileged PaperCut components. This can be leveraged to reconfigure an external database lookup. When this lookup is triggered, malicious SQL can be executed, resulting in remote code execution. PaperCut uses the Apache Tapestry framework, whose "complex direct" request format can identify one page to display and a different page containing the component to execute. PaperCut validates access only to the displayed page. By selecting either the public Error page or Exception page for display, an attacker can bypass authentication while invoking administrative components belonging to ConfigEditor or UserList . Additionally, the first emergency patch could be bypassed by using the Home page for display, however the newest version of the vendor patch correctly remediates this bypass. The attack uses HTTP POST requests to the following URIs (Note that the path segment with the value 1 shown below can be any value for this path segment, and the Error path segment may also be the Exception or Home path segment): /app?service=direct/1/Error/ConfigEditor/quickFindForm /app?service=direct/1/Error/ConfigEditor/$Form /app?service=direct/1/Error/UserList/$QuickFind.$
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
 - **Rapid7** (offensive_vulnerability_research)
   - Title: PaperCut NG/MF Critical Zero-Day Exploited in the Wild
   - Published: 2026-08-28T10:09:12+00:00
   - Link: https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild
   - Summary: Overview On August 27, 2026, PaperCut Software published an urgent security advisory stating that it is investigating active exploitation of a vulnerability affecting PaperCut NG and PaperCut MF. PaperCut has confirmed customer incidents and is treating the issue as a security emergency. At the initial time of disclosure, the vulnerability had not been assigned a CVE identifier, and PaperCut had not publicly disclosed a CVSS score, vulnerability class, authentication requirements, or the technical details of the exploit path. However on August 28, the vendor assigned CVE-2026-81578 and CVE-2026-82078 for the two vulnerabilities that make up the exploit chain. CVE ID Description CWE CVSSv4 CVE-2026-81578 Authentication Bypass CWE-306 Missing authentication for critical function. 8.8 (High) CVE-2026-82078 Unsafe Dynamic Class Loading in Database Connector CWE-470 Use of Externally-Controlled input to select classes or code ('unsafe reflection'). 9.4 (Critical) PaperCut NG and PaperCut MF
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: PaperCut Exploitation Escalates to Active Intrusions
+  - Published: 2026-09-01T05:27:18+00:00
+  - Link: https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/
+  - Summary: CISA has added the vulnerabilities tracked as CVE-2026-82078 and CVE-2026-81578 to its KEV catalog. The post PaperCut Exploitation Escalates to Active Intrusions appeared first on SecurityWeek .
 
 ### Cluster 220df2cac2 — score 33
 
@@ -894,6 +903,56 @@ Home Blog PaperCut Actively Exploited: A Pre-Auth RCE Chain Published: August 28
   - Published: 2026-08-28T03:00:00+00:00
   - Link: https://www.huntress.com/blog/papercut-actively-exploited
   - Summary: PaperCut NG and PaperCut MF are under active exploitation. Huntress reproduced a pre-auth RCE chain and shares urgent patching and exposure guidance.
+
+### Cluster 25cdc2e4b7 — score 22
+
+- Title: Financially Motivated Threat Actor BREEZE COMET Targets Brazil
+- Source: Google Cloud Threat Intelligence (threat_research_primary)
+- Published: 2026-09-01T14:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: UNC5669
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, web_shell_backdoor
+- actor_attribution: UNC5669
+- affected_industries: financial_services, government, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, web_shell_backdoor
+- actor_attribution: UNC5669
+- affected_industries: financial_services, government, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers. This activity overlaps with operations publicly reported as Plump Spider and SHADOW-AETHER-064 . In this blog, we detail BREEZE COMET’s tactics and toolkit, and provide mitigation recommendations and detections to support organizations in defending against this active and developing threat. BREEZE COMET tactics have evolved over time to leverage a customized malware suite and compromised, trusted websites to facilitate initial access, command and control (C2), and to interact with financial software and payment APIs. BREEZE COMET’s operational infrastructure may also indicate intent to expand the
+```
+
+#### Full body
+
+```
+Threat Intelligence Financially Motivated Threat Actor BREEZE COMET Targets Brazil September 1, 2026 Google Threat Intelligence Group Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers. This activity overlaps with operations publicly reported as Plump Spider and SHADOW-AETHER-064 . In this blog, we detail BREEZE COMET’s tactics and toolkit, and provide mitigation recommendations and detections to support organizations in defending against this active and developing threat. BREEZE COMET tactics have evolved over time to leverage a customized malware suite and compromised, trusted websites to facilitate initial access, command and control (C2), and to interact with financial software and payment APIs. BREEZE COMET’s operational infrastructure may also indicate intent to expand their infrastructure footprint to other countries in Latin America and Africa. Additionally, we have evidence that BREEZE COMET is using generative artificial intelligence (AI) to support malware development, which may further increase the scale, speed, and sophistication of their operations in the future. BREEZE COMET Targets Brazilian Financial Technology BREEZE COMET operations target organizations with permission to conduct transactions through banking software, APIs, and payment systems such as Pix, STR, and Boleto. This typically includes banks, payment processors, retailers, exchanges, as well as fintech and banking software providers. To achieve their objective of conducting fraudulent transfers, BREEZE COMET must maintain: Access to the National Financial System Network (Rede Nacional do Setor Financeiro, RSFN) through an entity with this access. Access to mTLS credentials that allow sending authenticated payloads with transactional orders to Pix, STR (Brazilian Reserves Transfer System), or any transactional listener to be executed with minimal restrictions in the name of an organization with available funds. Persistent access to multiple accounts in targeted organizations’ Active Directory and/or cloud environments. Understanding of an organization’s transfer processing procedures, network controls, fintech integrations and anti-fraud systems. In order to support these requirements, BREEZE COMET evolved to operate in multiple compromised environments at the same time, crafting custom C2 malware to automate activities such as reconnaissance, lateral movement, persistence, and exfiltration. Initial Compromise and Establish Foothold BREEZE COMET has used various methods for initial access. In early compromises, Mandiant observed this threat actor use password spraying as well as voice calls impersonating IT support teams to convince users to install Remote Monitoring and Management (RMM) tools such as AnyDesk. Axur corroborates use of voice phishing, and suggests that the group has also attempted to recruit insiders at targeted organizations. In mid-2025, GTIG observed BREEZE COMET using compromised Brazilian small government websites to stage RMM tools, infostealers disguised as legitimate tax or receipt documents (e.g., ComprovantePDF.exe ) , or backdoors such as XWORM set to persist via automated startup shortcut modifications. XWORM is a backdoor that is widely available for purchase on cyber crime forums, with leaked or “cracked” versions also available. BREEZE COMET then used these compromised government websites to facilitate social engineering operations for initial access, and as C2 endpoints. The use of compromised, trusted infrastructure allowed the threat actors to avoid detection by network domain rep
+```
+
+#### Corroborating sources (2)
+
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: Financially Motivated Threat Actor BREEZE COMET Targets Brazil
+  - Published: 2026-09-01T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/
+  - Summary: Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers. This activity overlaps with operations publicly reported as Plump Spider and SHADOW-AETHER-064 . In this blog, we detail BREEZE COMET’s tactics and toolkit, and provide mitigation recommendations and detections to support organizations in defending against this active and developing threat. BREEZE COMET tactics have evolved over time to leverage a customized malware suite and compromised, trusted websites to facilitate initial access, command and control (C2), and to interact with financial software and payment APIs. BREEZE COMET’s operational infrastructure may also indicate intent to expand the
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Financially Motivated Threat Actor BREEZE COMET Targets Brazil
+  - Published: 2026-09-01T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/
+  - Summary: Introduction Beginning in 2024 Mandiant investigated a string of compromises affecting Brazilian financial services, retail, and eCommerce organizations. Google Threat Intelligence Group (GTIG) tracks this activity as BREEZE COMET (formerly UNC5669), a financially motivated threat actor specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers. This activity overlaps with operations publicly reported as Plump Spider and SHADOW-AETHER-064 . In this blog, we detail BREEZE COMET’s tactics and toolkit, and provide mitigation recommendations and detections to support organizations in defending against this active and developing threat. BREEZE COMET tactics have evolved over time to leverage a customized malware suite and compromised, trusted websites to facilitate initial access, command and control (C2), and to interact with financial software and payment APIs. BREEZE COMET’s operational infrastructure may also indicate intent to expand the
 
 ### Cluster c7b4417ba0 — score 21
 
@@ -989,47 +1048,6 @@ Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE 
   - Link: https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html
   - Summary: Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem. The Windows path traversal, tracked as CVE-2026-75604&
 
-### Cluster ccafabb9aa — score 16
-
-- Title: Frontier AI Changes Vulnerability Discovery. It Doesn’t Change How Breaches Happen.
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-08-31T13:38:40+00:00
-- Link: https://horizon3.ai/intelligence/blogs/frontier-ai-vulnerability-discovery/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Frontier AI is accelerating vulnerability discovery, but breaches still depend on what attackers can do after initial compromise. See how Horizon3 and CrowdStrike connect attacker-derived evidence to defender action.
-```
-
-#### Full body
-
-```
-Frontier AI Changes Vulnerability Discovery. It Doesn’t Change How Breaches Happen. Stephen Gates August 31, 2026 Blogs Frontier AI is changing the economics of vulnerability discovery. Models are increasingly capable of finding, chaining, and exploiting vulnerabilities at machine speed, compressing timelines that once gave defenders more time to understand and remediate newly discovered weaknesses. CrowdStrike’s Project QuiltWorks is bringing together frontier AI, security technology, services, cloud infrastructure, and other capabilities to help organizations respond to this new reality. CrowdStrike is now expanding QuiltWorks across its technology ecosystem, bringing data from Horizon3 and other security providers into Falcon® Next-Gen SIEM to deepen attack-path analysis, enrich prioritization, and accelerate remediation. For Horizon3, there is a simple idea behind our participation: Frontier AI changes how vulnerabilities are discovered. It doesn’t change how breaches happen. Finding a vulnerability is only the beginning. The outcome depends on what an attacker can do after gaining access. The real question starts after initial compromise Security teams have spent decades trying to identify and remediate vulnerabilities before attackers exploit them. That remains essential, but frontier AI makes it increasingly unrealistic to assume organizations will find and fix every vulnerability before an attacker gets there. There will always be another vulnerability, another exposed system, another path to initial access. So the more important question is not simply whether a vulnerability can be exploited. It is: If one of my systems is compromised, what happens next? Can the attacker harvest credentials and use them elsewhere? Can they escalate privileges or move laterally? Can they cross network or identity boundaries? Can they reach Active Directory, Entra ID, cloud environments, or sensitive data? Do endpoint and other security controls detect and stop their activity? How large is the potential blast radius? Those questions determine whether an initial compromise remains contained or becomes a business-impacting breach. Consider two organizations running the same vulnerable technology. An attacker compromises the same type of system in both environments. In the first, harvested credentials and excessive privileges provide a path into critical infrastructure and sensitive data. In the second, segmentation, identity controls, endpoint security, and least privilege stop the attacker from progressing. The vulnerability is the same. The consequences are not. That difference is cyber resilience . Cyber resilience starts with assumed breach The accelerating pace of vulnerability discovery makes an assumed-breach mindset even more important. Assumed breach does not mean abandoning prevention or vulnerability remediation. Organizations should continue identifying and fixing vulnerabilities as quickly as practical. But cyber resilience cannot depend on eliminating every possible path to initial compromise before an attacker finds it. Instead, assume initial compromise is possible and continuously test what happens next. This mindset is already fundamental to how NodeZero® tests environments. Internal pentesting provides a clear example because the test begins from the perspective of an attacker or malicious insider who already has access to the network. From there, NodeZero tests the opportunities available to the attacker and chains weaknesses together to determine what they can ultimately compromise. The same principle extends across the attack surface. Initial access might come through an internet-facing system, a web application, exposed credentials, an identity weakness, a cloud misconfiguration, or another exploitable condition. Once access is established, the question becomes what that access enables. The entry point may change. What matters is what the attacker can do next. Weak credentials, excessive privileges, misconfiguration
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Frontier AI Changes Vulnerability Discovery. It Doesn’t Change How Breaches Happen.
-  - Published: 2026-08-31T13:38:40+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/frontier-ai-vulnerability-discovery/
-  - Summary: Frontier AI is accelerating vulnerability discovery, but breaches still depend on what attackers can do after initial compromise. See how Horizon3 and CrowdStrike connect attacker-derived evidence to defender action.
-
 ### Cluster c2e58e5482 — score 15
 
 - Title: BlueDelta Targets Defense and Diplomacy with HOOKEDGE
@@ -1074,6 +1092,47 @@ BlueDelta Targets Defense and Diplomacy with HOOKEDGE Executive Summary Insikt G
   - Published: 2026-08-27T00:00:00+00:00
   - Link: https://www.recordedfuture.com/research/bluedelta-targets-with-hookedge
   - Summary: Discover how the Russian state-sponsored threat group BlueDelta is using the HOOKEDGE backdoor to target defense and diplomatic organizations across Europe
+
+### Cluster ccafabb9aa — score 15
+
+- Title: Frontier AI Changes Vulnerability Discovery. It Doesn’t Change How Breaches Happen.
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-08-31T13:38:40+00:00
+- Link: https://horizon3.ai/intelligence/blogs/frontier-ai-vulnerability-discovery/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Frontier AI is accelerating vulnerability discovery, but breaches still depend on what attackers can do after initial compromise. See how Horizon3 and CrowdStrike connect attacker-derived evidence to defender action.
+```
+
+#### Full body
+
+```
+Frontier AI Changes Vulnerability Discovery. It Doesn’t Change How Breaches Happen. Stephen Gates August 31, 2026 Blogs Frontier AI is changing the economics of vulnerability discovery. Models are increasingly capable of finding, chaining, and exploiting vulnerabilities at machine speed, compressing timelines that once gave defenders more time to understand and remediate newly discovered weaknesses. CrowdStrike’s Project QuiltWorks is bringing together frontier AI, security technology, services, cloud infrastructure, and other capabilities to help organizations respond to this new reality. CrowdStrike is now expanding QuiltWorks across its technology ecosystem, bringing data from Horizon3 and other security providers into Falcon® Next-Gen SIEM to deepen attack-path analysis, enrich prioritization, and accelerate remediation. For Horizon3, there is a simple idea behind our participation: Frontier AI changes how vulnerabilities are discovered. It doesn’t change how breaches happen. Finding a vulnerability is only the beginning. The outcome depends on what an attacker can do after gaining access. The real question starts after initial compromise Security teams have spent decades trying to identify and remediate vulnerabilities before attackers exploit them. That remains essential, but frontier AI makes it increasingly unrealistic to assume organizations will find and fix every vulnerability before an attacker gets there. There will always be another vulnerability, another exposed system, another path to initial access. So the more important question is not simply whether a vulnerability can be exploited. It is: If one of my systems is compromised, what happens next? Can the attacker harvest credentials and use them elsewhere? Can they escalate privileges or move laterally? Can they cross network or identity boundaries? Can they reach Active Directory, Entra ID, cloud environments, or sensitive data? Do endpoint and other security controls detect and stop their activity? How large is the potential blast radius? Those questions determine whether an initial compromise remains contained or becomes a business-impacting breach. Consider two organizations running the same vulnerable technology. An attacker compromises the same type of system in both environments. In the first, harvested credentials and excessive privileges provide a path into critical infrastructure and sensitive data. In the second, segmentation, identity controls, endpoint security, and least privilege stop the attacker from progressing. The vulnerability is the same. The consequences are not. That difference is cyber resilience . Cyber resilience starts with assumed breach The accelerating pace of vulnerability discovery makes an assumed-breach mindset even more important. Assumed breach does not mean abandoning prevention or vulnerability remediation. Organizations should continue identifying and fixing vulnerabilities as quickly as practical. But cyber resilience cannot depend on eliminating every possible path to initial compromise before an attacker finds it. Instead, assume initial compromise is possible and continuously test what happens next. This mindset is already fundamental to how NodeZero® tests environments. Internal pentesting provides a clear example because the test begins from the perspective of an attacker or malicious insider who already has access to the network. From there, NodeZero tests the opportunities available to the attacker and chains weaknesses together to determine what they can ultimately compromise. The same principle extends across the attack surface. Initial access might come through an internet-facing system, a web application, exposed credentials, an identity weakness, a cloud misconfiguration, or another exploitable condition. Once access is established, the question becomes what that access enables. The entry point may change. What matters is what the attacker can do next. Weak credentials, excessive privileges, misconfiguration
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Frontier AI Changes Vulnerability Discovery. It Doesn’t Change How Breaches Happen.
+  - Published: 2026-08-31T13:38:40+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/frontier-ai-vulnerability-discovery/
+  - Summary: Frontier AI is accelerating vulnerability discovery, but breaches still depend on what attackers can do after initial compromise. See how Horizon3 and CrowdStrike connect attacker-derived evidence to defender action.
 
 ### Cluster 568a2d4b14 — score 15
 
@@ -1210,7 +1269,7 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Link: https://www.exploit-db.com/exploits/52660
   - Summary: Linksys E1200_2.0.04 - Unauthenticated OS Command Injection
 
-### Cluster dfcccdc3f5 — score 14
+### Cluster dfcccdc3f5 — score 13
 
 - Title: Attackers plant remote access tools on compromised PaperCut servers
 - Source: Help Net Security (cyber_news_breach_reporting)
@@ -1414,50 +1473,50 @@ Authorities in Australia have arrested two men believed to be members of TeamPCP
   - Link: https://risky.biz/RBNEWS606/
   - Summary: Two members of TeamPCP arrested in Australia, Qilin hits the US firearms agency, America seizes two more Chinese botnets, CISA says most cyber activity is opportunistic.
 
-### Cluster 96362ad42a — score 12
+### Cluster 0a5e1245be — score 12
 
-- Title: Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-08-31T13:38:28+00:00
-- Link: https://research.checkpoint.com/2026/breaking-the-seal-static-deobfuscation-of-jsceals-compiled-v8-bytecode/
+- Title: Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-09-01T07:00:26+00:00
+- Link: https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion
-- affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT
+- threat_categories: apt_espionage, phishing_social_eng
+- affected_industries: aviation_defense, financial_services
+- affected_products: Apple iOS/macOS, npm
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft
-- affected_industries: financial_services
-- affected_products: Android, OpenAI/ChatGPT
+- threat_categories: phishing_social_eng, apt_espionage
+- affected_industries: financial_services, aviation_defense
+- affected_products: npm, Apple iOS/macOS
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Research by: hasherezade Key Points Introduction JSCeal is a stealer delivered as compiled V8 bytecode (.jsc) and executed by a bundled Node.js runtime, targeting cryptocurrency applications (other vendors also tag it with the names WEEVILPROXY or MeadowLocust). Its campaign activity dates back to March 2024 [1]; Check Point Research has been tracking the malware since early […] The post Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode appeared first on Check Point Research .
+Kaspersky researchers have discovered new Mirage Kitten attacks using previously undocumented malware families: NodeRabbit in Node.js and PollCat in JavaScript.
 ```
 
 #### Full body
 
 ```
-CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 469 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 423 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode August 31, 2026 https://research.checkpoint.com/2026/breaking-the-seal-static-deobfuscation-of-jsceals-compiled-v8-bytecode/ Research by: hasherezade Key Points Since early 2025, Check Point Research has been tracking JSCeal, a sophisticated cryptocurrency-focused stealer with broader credential-theft, surveillance, and traffic-interception capabilities, delivered as compiled V8 bytecode (JSC files). The payloads are protected with javascript-obfuscator , using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers. Our goal was to recover the code to a level that enables detailed analysis, comparison between samples, and tracking of the malware’s evolution. CPR developed a fully static deobfuscation pipeline that transforms View8 pseudocode without executing the malware. An optional LLM-assisted renaming stage can then be used to make large, recovered codebases easier to navigate. The complete toolkit is publicly available at jsc_deobfuscator . The deobfuscated output enabled detailed analysis of JSCeal’s capabilities and their implementation, including keylogging, browser and credential theft, and HTTPS traffic interception through a local MITM proxy. We presented this research at Black Hat USA 2026 . This article complements the talk by documenting the methodology in greater technical depth and providing additional examples and implementation details. We conclude with a brief look at more recent JSCeal developments, including V8 code caches generated for a newer Node.js/V8 version, an additional payload-encryption layer, and macOS targeting. Introduction JSCeal is a stealer delivered as compiled V8 bytecode ( .jsc ) and executed by a bundled Node.js runtime, targeting cryptocurrency applications (other vendors also tag it with the names WEEVILPROXY or MeadowLocust). Its campaign activity dates back to March 2024 [ 1 ]; Check Point Research has been tracking the malware since early 2025. Our previous publication from July 2025 [ 1 ] focused on the campaigns, delivery chain, and targeting. In this article, we focus on the analysis problem hidden inside the final payload. Unlike ordinary JavaScript malware, JSCeal reaches the analyst after two transformations have already removed much of the information that source-oriented tools depend on. First, the JavaScript is heavily obfuscated. Then it is compiled into V8’s internal bytecode representation and shipped as cached data rather than source code. The resulting format is version-specific, poorly served by mature reverse-engineering tooling, and unsuitable for most standard JavaScript deobfuscation workflows. From the attacker’s perspective, this combination is attractive because it is inexpensive to produce. Node.js and its package ecosystem provide ready-made building blocks for complex applications, while public tools such as javascript-obfuscator [ 6 ] can add several layers of source-level obfuscation before compilation. The analyst receives only the compiled artifact. In 2024, our colleague Moshe Marelus published View8 , an open-source decompiler for V8 bytecode [ 2 ]. We used it as the foundation for a static deobfuscation pipeline tailored to the patterns found in JSCeal. During this work, we extended View8 [ 3 ] to make its output reproducible and suitable for automated post-processing, and implemented dedicated passes for value propagation, string reconstruction, control-flow unflattening, proxy and operation-wrapper resolution, and additional cleanup.
+Table of Contents Background Initial access NodeRabbit RAT: the first variant NodeRabbit RAT: the second variant NodeRabbit RAT: the third variant 1. Malicious VS Code extension 2. Git hook injection PollCat RAT Infrastructure Victims Attribution Conclusions Indicators of compromise File hashes Domains and IPs Authors Omar Amin While monitoring Mirage Kitten activity, we uncovered a previously undocumented malware family that we dubbed NodeRabbit. We identified the first sample on a system in Afghanistan. Further threat hunting revealed two additional, more advanced, variants: one on a system in Egypt and another on a system in Ethiopia. NodeRabbit is a cross-platform remote access trojan (RAT) built with Node.js. It targets Windows, Linux, and macOS. Its operators deliver it through spear-phishing messages on LinkedIn and other job search platforms that contain trojanized coding challenge archives. During the same investigation, we discovered another previously undocumented malware family that we dubbed PollCat. Like NodeRabbit, PollCat is a cross-platform RAT, but it is written in obfuscated JavaScript also distributed through trojanized coding challenge archives. Mirage Kitten has historically relied on native malware written in languages such as C, C++, and Go, often deploying it through DLL search-order hijacking. NodeRabbit and PollCat represent the first publicly documented use of Node.js- and JavaScript-based malware by this APT group. Kaspersky’s products detect this threat as Trojan.JS.MirageKitten.* Background During recent threat research, we detected suspicious activity on a system in Afghanistan. We traced it to an archive containing a software development project that the user may have received during a job application process. The archive purported to contain a coding challenge for candidates applying for an engineering role. The archive, Front-Technical-Challenge.zip (MD5: 1EA83E4E4592B01E4ACAB63EB867BEE5 ), was hosted in an Amazon S3 bucket at: https://oracle-challenge.s3[.]us-east-1.amazonaws[.]com/Front-Technical-Challenge.zip It contained TaskFlow, an app for software engineering assessment built with Express, React, and Vite. The accompanying README instructed the candidate to review the application and fix defects in its frontend. It also claimed that server.js was bug-free and should not be modified, conveniently directing attention away from the only application source file the attackers had altered. README file for a trojanized coding challenge app The README also imposed a three-hour time limit and prohibited the use of AI assistants. Notably, an AI code-review assistant tasked with auditing the project would likely have flagged the suspicious first-line import of an unknown npm package and warned the targeted developer that the project was trojanized. Rules and time limit included in the trojanized coding challenge app README file The first line of server.js imported a trojanized npm package named colorized_terminal , version 2.1.0 . The attackers bundled the package directly in the challenge task archive’s node_modules directory rather than publishing it to the npm registry. When imported, the package silently launched an implant from node_modules/.cache/.320697f1/index.js as a detached background process. Retrospective threat hunting across our telemetry revealed the broader scope of the campaign. We identified three NodeRabbit variants with a shared code lineage; each was recovered from a system in a different country. The operators delivered the variants through similarly themed coding challenges and used two trojanized packages, colorized_terminal and pretty-log , both pinned to version 2.1.0 . The campaign also delivered PollCat, a second RAT with a substantially different structure, through a separate coding challenge lure. We’ll analyze PollCat later in this research. Initial access The infection chain begins with fake recruiter accounts contacting prospective targets on a job search platfor
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode
-  - Published: 2026-08-31T13:38:28+00:00
-  - Link: https://research.checkpoint.com/2026/breaking-the-seal-static-deobfuscation-of-jsceals-compiled-v8-bytecode/
-  - Summary: Research by: hasherezade Key Points Introduction JSCeal is a stealer delivered as compiled V8 bytecode (.jsc) and executed by a bundled Node.js runtime, targeting cryptocurrency applications (other vendors also tag it with the names WEEVILPROXY or MeadowLocust). Its campaign activity dates back to March 2024 [1]; Check Point Research has been tracking the malware since early […] The post Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode appeared first on Check Point Research .
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set
+  - Published: 2026-09-01T07:00:26+00:00
+  - Link: https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/
+  - Summary: Kaspersky researchers have discovered new Mirage Kitten attacks using previously undocumented malware families: NodeRabbit in Node.js and PollCat in JavaScript.
 
 ### Cluster 2aa97aefff — score 12
 
@@ -1537,107 +1596,57 @@ Wiz Threat Research operates honeypots across AI and ML services including LiteL
   - Link: https://www.wiz.io/blog/ai-infrastructure-honeypot
   - Summary: Wiz honeypots uncover active campaigns targeting LiteLLM, MCP servers, and AI frameworks through RCE, blind prompt injection, and memory credential theft.
 
-### Cluster 643790e7b5 — score 12
+### Cluster 0a3458104e — score 12
 
-- Title: Berlin confirms data theft after Rhysida ransomware attack claims
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-08-31T13:30:01+00:00
-- Link: https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Rhysida
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: Rhysida
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: Rhysida
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]
-```
-
-#### Full body
-
-```
-Berlin confirms data theft after Rhysida ransomware attack claims By Bill Toulas August 31, 2026 09:30 AM 0 Berlin’s city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. The attack was discovered in mid-August, and the threat actor claimed it publicly last Friday, on August 28. Kai Wergner, the Mayor of Berlin, stated that the city will not pay the attacker, and the State Criminal Police Office, the public prosecutor's office, and federal security agencies are now investigating the incident. Rhysida ransomware has been active since mid-2023, targeting healthcare organizations , state governments , education institutes , and critical infrastructure . The threat actor claims to have exfiltrated 5.79 TB of data, comprising approximately 1.44 million files, from Berlin’s administrative network. According to the attacker, they exfiltrated the following types of information: Government, legal, financial, contractual, HR, infrastructure, health, and mapping records. Thousands of names, email addresses, phone numbers, and 148 IBANs. Plaintext credentials, database accounts, payment-system data, password vaults, and credentials belonging to senior officials. Personnel files, payroll information, administrative-offense records, email archives, SQL database dumps, identity documents, and banking information. Documents related to disciplinary proceedings and other named cases. Allegedly classified or sensitive government material, including Bundesrat committee records and information about handling classified documents. Critical-infrastructure security assessments concerning Berlin’s water supply. More than 3,200 documents marked as nondisclosure agreements. The attackers are using GDPR violations as leverage to increase pressure on the Berlin government, giving the victim four days (at the time of writing) to pay before publishing the stolen files. Rhysida ransomware announcement Source: BleepingComputer According to forensic investigators, the threat actor also exfiltrated data from the Senate Department for Mobility, Transport, Climate Protection and the Environment, likely between August 7 and 12. The affected Senate departments were disconnected from the state network on August 14. The announcement notes that the investigation is ongoing and the extent of the data theft has yet to be determined. Senator Iris Spranger said that the officials found no evidence that election data was compromised and that the technical environment supporting the upcoming Berlin House of Representatives election is considered secure. The method of entry Rhysida used in this attack has not been disclosed. In a previous campaign disrupted by Microsoft, the ransomware operators used malicious Teams installers to breach their targets. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Coca-Cola confirms data theft in Fairlife ransomware attack ATF confirms “major incident” after recent Qilin breach claims Accenture confirms breach after hacker offers stolen data for sale French tax authority data breach affects 678,000 individuals France fines unemployment agency €5 million over data breach
-```
-
-#### Corroborating sources (2)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Berlin confirms data theft after Rhysida ransomware attack claims
-  - Published: 2026-08-31T13:30:01+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/
-  - Summary: Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Berlin Won’t Pay Extortion Group Claiming Data Theft
-  - Published: 2026-08-31T08:49:36+00:00
-  - Link: https://www.securityweek.com/berlin-wont-pay-extortion-group-claiming-data-theft/
-  - Summary: The Rhysida ransomware group has claimed the exfiltration of over 5TB of data, including personal information and credentials. The post Berlin Won’t Pay Extortion Group Claiming Data Theft appeared first on SecurityWeek .
-
-### Cluster a572350038 — score 12
-
-- Title: McKesson Confirms Data Breach as Attacker Deadline Looms
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-08-31T13:14:46+00:00
-- Link: https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
+- Title: McKesson copes with fallout from data theft extortion attack
+- Source: CyberScoop (cyber_news_breach_reporting)
+- Published: 2026-08-31T21:39:01+00:00
+- Link: https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/
 - Fetch status: ok
 - Member count: 4
 - Corroborating source count: 4
 - Strong signals: ShinyHunters
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
 - actor_attribution: ShinyHunters
-- affected_industries: healthcare
-- affected_products: Anthropic/Claude, Microsoft Entra
+- affected_industries: education, healthcare
+- affected_products: Salesforce, Snowflake
 - content_type: incident_report, news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, credential_theft, data_breach
+- threat_categories: ransomware_extortion, phishing_social_eng
 - actor_attribution: ShinyHunters
-- affected_industries: healthcare
-- affected_products: Microsoft Entra, Anthropic/Claude
+- affected_industries: healthcare, education
+- affected_products: Salesforce, Snowflake
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems. The post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek .
+The major healthcare sector vendor did not identify the attackers, but ShinyHunters, a prolific group increasingly targeting the sector, claimed responsibility. The post McKesson copes with fallout from data theft extortion attack appeared first on CyberScoop .
 ```
 
 #### Full body
 
 ```
-Healthcare giant McKesson Corporation over the weekend confirmed that hackers exfiltrated customer data from its systems, as the ShinyHunters extortion group is threatening to release the stolen information. McKesson delivers roughly one-third of prescription medicines to North American hospitals, pharmacies, and healthcare clinics. It also provides medical supplies, supports cancer treatment and specialty care, and operates the Health Mart pharmacy franchise. In a filing with the US Securities and Exchange Commission, the healthcare and pharma giant said it discovered “a cybersecurity incident affecting its information systems” on August 25. In a Friday notice on its website, the company said the incident involved third-party applications and data theft, but noted that it was not disconnecting any systems in response. On Saturday, McKesson confirmed that the hackers had exfiltrated data associated with “a subset of customers within our Oncology & Multispecialty and Medical-Surgical business units”. The company said that the unauthorized access to its systems had been disrupted, and underlined that its services were not affected by the incident, and that complimentary credit monitoring and identity protection services would be provided to the impacted individuals. Advertisement. Scroll to continue reading. However, the healthcare giant did not share details on the type of data that was exfiltrated, the number of affected people, or who was behind the attack. McKesson’s disclosure came around the same time that the notorious extortion group ShinyHunters added the company to its Tor-based leak site. Responsible for multiple high-profile data breaches over the past couple of years, ShinyHunters is known to demand ransom payments in exchange for deleting data exfiltrated from its victims. In McKesson’s case, the hacking group is threatening to make the stolen information public unless the company contacts them to start payment negotiations by September 1. ShinyHunters reportedly boasted about stealing 284 million customer records from McKesson and about demanding approximately $55 million from the company. The compromised information allegedly includes personally identifiable information (PII), protected health information (PHI), medical and treatment information, prescription and billing records, employee records, and information about McKesson’s customer physicians and clinics. SecurityWeek has contacted McKesson for a statement on the hackers’ claims and will update this article if the company responds. Related: Boston Scientific Still Recovering From Cyberattack Related: Extortion Group Claims Manchester Airports Group Data Breach Related: Berlin Won’t Pay Extortion Group Claiming Data Theft Related: Hasbro Data Breach Exposed Employee Personal Information Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Berlin Won’t Pay Extortion Group Claiming Data Theft Critical Isolated-vm Vulnerability Leads to RCE on Host Rust Supply Chain Attack Linked to North Korean Hackers Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Latest News Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit ServiceNow Patches 3 Critical Code Injection Vulnerabilities What the Hugging Face Incident Teaches Security Leaders About AI Agent Access Anthropic Warns Claude Users of Infostealer Malware Infections Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs Boston Scientific Still Recovering From Cyberattack Extortion Group Claims Manchester Airports Group Data Breach Judge Says
+Advertisement Get our latest cybersecurity news first on Google. Click here! Close McKesson said its business and distribution centers remain operational in the wake of a cyberattack it disclosed Friday that resulted in data theft and temporary service interruptions. Attackers gained access to some of the health care vendor’s third-party applications and stole data associated with a subset of customers in the company’s oncology, multispecialty and medical-surgical business units, Francisco Fraga, chief information and technology officer at McKesson, said in a statement Saturday. McKesson is a major player in the healthcare sector, claiming it distributes about one-third of all pharmaceuticals used throughout North America. It reported $403.4 billion in revenue for the one-year period ending in March. The company’s size and critical role it serves also makes it a high-profile target for cybercriminals. McKesson did not identify the group behind the attack, but ShinyHunters, a cybercrime group known for targeting large organizations with extortion demands after stealing massive amounts of sensitive data, claimed responsibility. Advertisement The company declined to answer questions about ShinyHunter’s claims. Yet, on Friday, McKesson disclosed the attack in a regulatory filing while ShinyHunters added the company to its data-leak site. McKesson said it discovered the attack Aug. 25. A period of widespread data theft was over by then, following a four-day intrusion beginning Aug. 21, according to researchers. “Upon discovery, we immediately activated our incident response protocols, launched an investigation, and engaged leading cybersecurity industry experts to support our response,” Fraga said in a statement. “We have reasonable assurance of no ongoing unauthorized activity in our systems. Customers can continue to connect to and use our systems and services as intended,” he added. While McKesson’s investigation continues, it faces a more urgent deadline of Sept. 1 from ShinyHunters, which is reportedly seeking a ransom demand in excess of $55 million. Advertisement The company did not answer questions about any ransom demand or whether it responded to the alleged attackers. The circumstances of the attack against McKesson are similar to other recent victims of ShinyHunters. The threat group typically uses social engineering or abuses weaknesses in identity to gain access to cloud-hosted environments containing troves of sensitive or proprietary data, which it threatens to leak if the victim doesn’t pay a ransom. “Opportunistic data extortionists have been able to identify weaknesses within identity and access management, making these campaigns both cheap and scalable,” said Ian Gray, vice president of cyber threat intelligence at Flashpoint. “These attacks are particularly difficult to detect early because they often occur entirely within vendor-hosted environments using valid, socially-engineered credentials,” he added. “Since this activity mimics normal support or data-warehouse tasks, it typically doesn’t trip traditional malware alerts or show anomalies, meaning organizations often remain unaware of the breach until the extortionists make contact.” Researchers have linked ShinyHunters to multiple attack sprees targeting major cloud platforms, including Oracle , Salesforce and Snowflake. The decentralized crew of cybercriminals was also linked to an expansive compromise last summer impacting hundreds of Salesloft Drift customers that put any platform integrated with the AI chat agent at risk as well. Advertisement In April, ShinyHunters broke into the systems of Canvas — a central hub for K-12 and university coursework, exams, grades and communication — causing widespread outages and data theft. When an early deadline passed without payment, ShinyHunters escalated its pressure on Instructure, the company behind Canvas, by defacing the platform’s login pages with an extortion message that was visible to hundreds of schools.
 ```
 
 #### Corroborating sources (4)
 
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: McKesson Confirms Data Breach as Attacker Deadline Looms
-  - Published: 2026-08-31T13:14:46+00:00
-  - Link: https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
-  - Summary: The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems. The post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek .
 - **CyberScoop** (cyber_news_breach_reporting)
   - Title: McKesson copes with fallout from data theft extortion attack
   - Published: 2026-08-31T21:39:01+00:00
   - Link: https://cyberscoop.com/mckesson-data-theft-extortion-attack-shinyhunters/
   - Summary: The major healthcare sector vendor did not identify the attackers, but ShinyHunters, a prolific group increasingly targeting the sector, claimed responsibility. The post McKesson copes with fallout from data theft extortion attack appeared first on CyberScoop .
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: McKesson Confirms Data Breach as Attacker Deadline Looms
+  - Published: 2026-08-31T13:14:46+00:00
+  - Link: https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/
+  - Summary: The ShinyHunters extortion group has claimed the theft of 284 million records from the company’s systems. The post McKesson Confirms Data Breach as Attacker Deadline Looms appeared first on SecurityWeek .
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: ShinyHunters claims it stole 284 million patient records from McKesson
   - Published: 2026-08-31T11:57:08+00:00
@@ -1921,6 +1930,51 @@ Table of Contents All threats Selected industries Threat categories Malicious sc
   - Link: https://securelist.com/industrial-threat-report-q2-2026/121159/
   - Summary: The report contains statistics on industrial threats for Q2 2026, including ransomware, miners, spyware and other threats that were detected and blocked on industrial control systems.
 
+### Cluster 96362ad42a — score 11
+
+- Title: Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-08-31T13:38:28+00:00
+- Link: https://research.checkpoint.com/2026/breaking-the-seal-static-deobfuscation-of-jsceals-compiled-v8-bytecode/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Research by: hasherezade Key Points Introduction JSCeal is a stealer delivered as compiled V8 bytecode (.jsc) and executed by a bundled Node.js runtime, targeting cryptocurrency applications (other vendors also tag it with the names WEEVILPROXY or MeadowLocust). Its campaign activity dates back to March 2024 [1]; Check Point Research has been tracking the malware since early […] The post Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3 Check Point Research Publications 469 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 423 How To Guides 13 Ransomware 6 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode August 31, 2026 https://research.checkpoint.com/2026/breaking-the-seal-static-deobfuscation-of-jsceals-compiled-v8-bytecode/ Research by: hasherezade Key Points Since early 2025, Check Point Research has been tracking JSCeal, a sophisticated cryptocurrency-focused stealer with broader credential-theft, surveillance, and traffic-interception capabilities, delivered as compiled V8 bytecode (JSC files). The payloads are protected with javascript-obfuscator , using multiple techniques including RC4-protected strings, control-flow flattening, proxy functions, and operation wrappers. Our goal was to recover the code to a level that enables detailed analysis, comparison between samples, and tracking of the malware’s evolution. CPR developed a fully static deobfuscation pipeline that transforms View8 pseudocode without executing the malware. An optional LLM-assisted renaming stage can then be used to make large, recovered codebases easier to navigate. The complete toolkit is publicly available at jsc_deobfuscator . The deobfuscated output enabled detailed analysis of JSCeal’s capabilities and their implementation, including keylogging, browser and credential theft, and HTTPS traffic interception through a local MITM proxy. We presented this research at Black Hat USA 2026 . This article complements the talk by documenting the methodology in greater technical depth and providing additional examples and implementation details. We conclude with a brief look at more recent JSCeal developments, including V8 code caches generated for a newer Node.js/V8 version, an additional payload-encryption layer, and macOS targeting. Introduction JSCeal is a stealer delivered as compiled V8 bytecode ( .jsc ) and executed by a bundled Node.js runtime, targeting cryptocurrency applications (other vendors also tag it with the names WEEVILPROXY or MeadowLocust). Its campaign activity dates back to March 2024 [ 1 ]; Check Point Research has been tracking the malware since early 2025. Our previous publication from July 2025 [ 1 ] focused on the campaigns, delivery chain, and targeting. In this article, we focus on the analysis problem hidden inside the final payload. Unlike ordinary JavaScript malware, JSCeal reaches the analyst after two transformations have already removed much of the information that source-oriented tools depend on. First, the JavaScript is heavily obfuscated. Then it is compiled into V8’s internal bytecode representation and shipped as cached data rather than source code. The resulting format is version-specific, poorly served by mature reverse-engineering tooling, and unsuitable for most standard JavaScript deobfuscation workflows. From the attacker’s perspective, this combination is attractive because it is inexpensive to produce. Node.js and its package ecosystem provide ready-made building blocks for complex applications, while public tools such as javascript-obfuscator [ 6 ] can add several layers of source-level obfuscation before compilation. The analyst receives only the compiled artifact. In 2024, our colleague Moshe Marelus published View8 , an open-source decompiler for V8 bytecode [ 2 ]. We used it as the foundation for a static deobfuscation pipeline tailored to the patterns found in JSCeal. During this work, we extended View8 [ 3 ] to make its output reproducible and suitable for automated post-processing, and implemented dedicated passes for value propagation, string reconstruction, control-flow unflattening, proxy and operation-wrapper resolution, and additional cleanup.
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode
+  - Published: 2026-08-31T13:38:28+00:00
+  - Link: https://research.checkpoint.com/2026/breaking-the-seal-static-deobfuscation-of-jsceals-compiled-v8-bytecode/
+  - Summary: Research by: hasherezade Key Points Introduction JSCeal is a stealer delivered as compiled V8 bytecode (.jsc) and executed by a bundled Node.js runtime, targeting cryptocurrency applications (other vendors also tag it with the names WEEVILPROXY or MeadowLocust). Its campaign activity dates back to March 2024 [1]; Check Point Research has been tracking the malware since early […] The post Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode appeared first on Check Point Research .
+
 ### Cluster e57f34f6e2 — score 11
 
 - Title: 31th August – Threat Intelligence Report
@@ -2005,6 +2059,49 @@ Introduction
   - Link: https://isc.sans.edu/diary/rss/33300
   - Summary: Introduction
 
+### Cluster e3b723fac5 — score 11
+
+- Title: This month in security with Tony Anscombe – August 2026 edition
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-08-31T08:55:00+00:00
+- Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: aviation_defense, critical_infrastructure, financial_services
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services, critical_infrastructure, aviation_defense
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Details about the Hugging Face hack, critical infrastructure under attack, a spoofed in-flight Wi-Fi network, and more of this month's cybersecurity news
+```
+
+#### Full body
+
+```
+Video This month in security with Tony Anscombe – August 2026 edition Details about the Hugging Face hack, critical infrastructure under attack, a spoofed in-flight Wi-Fi network, and more of this month's cybersecurity news Editor 31 Aug 2026 With August coming to a close, it's time for ESET Chief Security Evangelist Tony Anscombe to look back at some of the top cybersecurity stories that have made the news over the past month. Here's some of what caught Tony's attention: OpenAI has disclosed more details about how its agents hacked AI collaboration platform Hugging Face. What exactly went wrong and what are the key lessons from the incident? Iran-linked hackers are believed to have attacked water and wastewater systems in at least 12 US states and even shut down a power plant in the UK for four days in July 2026 in a string of incidents that highlight risks facing critical infrastructure systems. Delta Airlines is investigating an incident where a flight passenger reportedly used an unidentified device to spoof the airline’s in-flight Wi-Fi network. Ukrainian authorities have shut down 94 fraudulent call centers in a large-scale crackdown targeting the operators behind scams that lured people into bogus investment schemes and attempted to steal access details into their bank accounts. What are the lessons that businesses and critical infrastructure services should take away from these news stories? Watch the video to get answers to this and other questions, and be sure to also check out the July 2026 edition of Tony's monthly security news roundup for more insights.. Connect with us on Facebook , X , LinkedIn and Instagram . Let us keep you up to date Sign up for our newsletters Related Articles Video This month in security with Tony Anscombe – July 2026 edition Video This month in security with Tony Anscombe – July 2026 edition Video This month in security with Tony Anscombe – June 2026 edition Video This month in security with Tony Anscombe – June 2026 edition Video This month in security with Tony Anscombe – May 2026 edition Video This month in security with Tony Anscombe – May 2026 edition Similar Articles Business Security Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility Business Security Black Hat USA 2026: AI is racing ahead of cybersecurity controls Share Article Discussion
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: This month in security with Tony Anscombe – August 2026 edition
+  - Published: 2026-08-31T08:55:00+00:00
+  - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/
+  - Summary: Details about the Hugging Face hack, critical infrastructure under attack, a spoofed in-flight Wi-Fi network, and more of this month's cybersecurity news
+
 ### Cluster 3557fe7a19 — score 11
 
 - Title: Vulnerability Prioritization: Modern Methods & Tools
@@ -2044,10 +2141,102 @@ Key Takeaways Vulnerability prioritization is a decision procedure, not a score.
   - Link: https://orca.security/resources/blog/vulnerability-prioritization/
   - Summary: Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]
 
+### Cluster 643790e7b5 — score 11
+
+- Title: Berlin confirms data theft after Rhysida ransomware attack claims
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-08-31T13:30:01+00:00
+- Link: https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Rhysida
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: Rhysida
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: Rhysida
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]
+```
+
+#### Full body
+
+```
+Berlin confirms data theft after Rhysida ransomware attack claims By Bill Toulas August 31, 2026 09:30 AM 0 Berlin’s city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. The attack was discovered in mid-August, and the threat actor claimed it publicly last Friday, on August 28. Kai Wergner, the Mayor of Berlin, stated that the city will not pay the attacker, and the State Criminal Police Office, the public prosecutor's office, and federal security agencies are now investigating the incident. Rhysida ransomware has been active since mid-2023, targeting healthcare organizations , state governments , education institutes , and critical infrastructure . The threat actor claims to have exfiltrated 5.79 TB of data, comprising approximately 1.44 million files, from Berlin’s administrative network. According to the attacker, they exfiltrated the following types of information: Government, legal, financial, contractual, HR, infrastructure, health, and mapping records. Thousands of names, email addresses, phone numbers, and 148 IBANs. Plaintext credentials, database accounts, payment-system data, password vaults, and credentials belonging to senior officials. Personnel files, payroll information, administrative-offense records, email archives, SQL database dumps, identity documents, and banking information. Documents related to disciplinary proceedings and other named cases. Allegedly classified or sensitive government material, including Bundesrat committee records and information about handling classified documents. Critical-infrastructure security assessments concerning Berlin’s water supply. More than 3,200 documents marked as nondisclosure agreements. The attackers are using GDPR violations as leverage to increase pressure on the Berlin government, giving the victim four days (at the time of writing) to pay before publishing the stolen files. Rhysida ransomware announcement Source: BleepingComputer According to forensic investigators, the threat actor also exfiltrated data from the Senate Department for Mobility, Transport, Climate Protection and the Environment, likely between August 7 and 12. The affected Senate departments were disconnected from the state network on August 14. The announcement notes that the investigation is ongoing and the extent of the data theft has yet to be determined. Senator Iris Spranger said that the officials found no evidence that election data was compromised and that the technical environment supporting the upcoming Berlin House of Representatives election is considered secure. The method of entry Rhysida used in this attack has not been disclosed. In a previous campaign disrupted by Microsoft, the ransomware operators used malicious Teams installers to breach their targets. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Coca-Cola confirms data theft in Fairlife ransomware attack ATF confirms “major incident” after recent Qilin breach claims Accenture confirms breach after hacker offers stolen data for sale French tax authority data breach affects 678,000 individuals France fines unemployment agency €5 million over data breach
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Berlin confirms data theft after Rhysida ransomware attack claims
+  - Published: 2026-08-31T13:30:01+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims/
+  - Summary: Berlin's city administration has confirmed that cybercriminals are attempting to extort the city after the Rhysida ransomware gang listed it on their data leak site. [...]
+
+### Cluster b7ab4cc245 — score 10
+
+- Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-08-25T10:00:57+00:00
+- Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, Palo Alto Networks
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: OpenAI/ChatGPT, Palo Alto Networks
+- urgency_signals: poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution 7 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Sara McBroom Published: August 25, 2026 Categories: Malware Threat Research Tags: Backdoor Bitcoin DLL hijacking Ransomware Sandbox VirusTotal Share Executive Summary To assess the impact of AI-enabled malware, we collected and analyzed over 400 malware samples that integrate AI in some capacity, from brand impersonation and large language model (LLM)-generated code to agentic execution loops. Our central finding was that the AI malware space is currently overwhelmingly composed of proof-of-concept code, security validation testing and researcher submissions that have never reached a production environment. Of the 405 samples in our dataset, only 12 appeared in our telemetry on Cortex XDR-protected endpoints, and a small subset was forwarded through Next-Generation Firewalls to WildFire for analysis. Palo Alto Networks products detected and blocked every sample that attempted to reach a customer environment. These numbers tell a story that sits between two poles in the current discourse. AI-enabled malware is real. However, the volume of genuine operational activity remains a fraction of what public sample repositories suggest. Approximately 97% of the samples we examined exist only in sandboxes and on VirusTotal. For defenders, the practical takeaway is straightforward. Existing behavioral detection, cloud-based sandboxing and endpoint analytics catch these threats using the same mechanisms that stop conventional malware. The AI component does not evade detection. It changes how the code is authored, not how it executes. Palo Alto Networks customers are better protected against the threats discussed in this article through the following products and services, which detected these AI-enabled malware threats out of the box: Advanced WildFire Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , Agentic AI , Malware The Dataset Our starting dataset consisted of 405 unique SHA-256 hashes collected from WildFire analysis reports, VirusTotal Intelligence and published open-source intelligence (OSINT) research. The collection criteria were broad. We included any sample where AI integration was either a functional component of the malware, a feature of its delivery mechanism or part of its branding. This intentionally inclusive approach captured everything from LLM-powered ransomware agents to cryptocurrency miners that simply used “ChatGPT” in their filename. We queried this dataset across multiple telemetry sources to measure real-world prevalence: Endpoint presence : Cortex XDR agent telemetry from non-test tenants (December 2024–June 2025) Network visibility : WildFire session data from samples forwarded by Next-Generation Firewalls and Cortex XDR agents (June 2024–June 2025) Alert generation : Cortex XDR alert records for samples that triggered detection logic on endpoints Sandbox verdicts : WildFire analysis results with malware classification Table 1 summarizes the results of this dataset. Telemetry Source Samples Queried Samples Discovered Prevalence in Production Cortex XDR endpoints 405 12 3.0% WildFire sessions 405 ~15–20 unique hashes ~4% Cortex XDR alerts generated 12 12 100% Table 1. Telemetry coverage across the AI malware dataset. The disparity between the 405-sample dataset and the 12 samples observed in production environments is the most important number in this analysis. Approximately 97% of AI-enabled malware samples exist only in research repositories, sandbox environments and security validation platforms. We found no evidence that they reached a customer endpoint or traversed a customer firewall. The following sections examine
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
+  - Published: 2026-08-25T10:00:57+00:00
+  - Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
+  - Summary: Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
+
 ### Cluster 7b22ad7709 — score 10
 
 - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
-- Source: Microsoft Security Blog (threat_research_primary)
+- Source: Microsoft Threat Intelligence (threat_research_primary)
 - Published: 2026-08-29T03:43:27+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
 - Fetch status: ok
@@ -2079,12 +2268,12 @@ Share Link copied to clipboard! Tags ClickFix Content types Research Products an
 
 #### Corroborating sources (2)
 
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
   - Published: 2026-08-29T03:43:27+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
   - Summary: Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: TerminalFix campaign deploys a reverse tunnel through multistage intrusion
   - Published: 2026-08-29T03:43:27+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/
@@ -2175,53 +2364,6 @@ August 25 6 min read The patch window is collapsing: Why security needs a new co
   - Published: 2026-08-25T16:00:00+00:00
   - Link: https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/
   - Summary: Organizations need protection that operates in the gap between discovery and remediation. The post The patch window is collapsing: Why security needs a new control plane appeared first on Microsoft Security Blog .
-
-### Cluster b7ab4cc245 — score 10
-
-- Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-08-25T10:00:57+00:00
-- Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: OpenAI/ChatGPT, Palo Alto Networks
-- urgency_signals: poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: OpenAI/ChatGPT, Palo Alto Networks
-- urgency_signals: poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Malware Malware The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution 7 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Sara McBroom Published: August 25, 2026 Categories: Malware Threat Research Tags: Backdoor Bitcoin DLL hijacking Ransomware Sandbox VirusTotal Share Executive Summary To assess the impact of AI-enabled malware, we collected and analyzed over 400 malware samples that integrate AI in some capacity, from brand impersonation and large language model (LLM)-generated code to agentic execution loops. Our central finding was that the AI malware space is currently overwhelmingly composed of proof-of-concept code, security validation testing and researcher submissions that have never reached a production environment. Of the 405 samples in our dataset, only 12 appeared in our telemetry on Cortex XDR-protected endpoints, and a small subset was forwarded through Next-Generation Firewalls to WildFire for analysis. Palo Alto Networks products detected and blocked every sample that attempted to reach a customer environment. These numbers tell a story that sits between two poles in the current discourse. AI-enabled malware is real. However, the volume of genuine operational activity remains a fraction of what public sample repositories suggest. Approximately 97% of the samples we examined exist only in sandboxes and on VirusTotal. For defenders, the practical takeaway is straightforward. Existing behavioral detection, cloud-based sandboxing and endpoint analytics catch these threats using the same mechanisms that stop conventional malware. The AI component does not evade detection. It changes how the code is authored, not how it executes. Palo Alto Networks customers are better protected against the threats discussed in this article through the following products and services, which detected these AI-enabled malware threats out of the box: Advanced WildFire Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , Agentic AI , Malware The Dataset Our starting dataset consisted of 405 unique SHA-256 hashes collected from WildFire analysis reports, VirusTotal Intelligence and published open-source intelligence (OSINT) research. The collection criteria were broad. We included any sample where AI integration was either a functional component of the malware, a feature of its delivery mechanism or part of its branding. This intentionally inclusive approach captured everything from LLM-powered ransomware agents to cryptocurrency miners that simply used “ChatGPT” in their filename. We queried this dataset across multiple telemetry sources to measure real-world prevalence: Endpoint presence : Cortex XDR agent telemetry from non-test tenants (December 2024–June 2025) Network visibility : WildFire session data from samples forwarded by Next-Generation Firewalls and Cortex XDR agents (June 2024–June 2025) Alert generation : Cortex XDR alert records for samples that triggered detection logic on endpoints Sandbox verdicts : WildFire analysis results with malware classification Table 1 summarizes the results of this dataset. Telemetry Source Samples Queried Samples Discovered Prevalence in Production Cortex XDR endpoints 405 12 3.0% WildFire sessions 405 ~15–20 unique hashes ~4% Cortex XDR alerts generated 12 12 100% Table 1. Telemetry coverage across the AI malware dataset. The disparity between the 405-sample dataset and the 12 samples observed in production environments is the most important number in this analysis. Approximately 97% of AI-enabled malware samples exist only in research repositories, sandbox environments and security validation platforms. We found no evidence that they reached a customer endpoint or traversed a customer firewall. The following sections examine
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution
-  - Published: 2026-08-25T10:00:57+00:00
-  - Link: https://unit42.paloaltonetworks.com/ai-enabled-malware-analysis/
-  - Summary: Explore Unit 42 research on AI-enabled malware. Learn how existing behavioral detection and endpoint analytics stop AI-authored code before execution. The post The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution appeared first on Unit 42 .
 
 ### Cluster 1b05e6e7b4 — score 10
 
@@ -2667,91 +2809,6 @@ As I've mentioned before in some of my diaries, from time to time, I like to go 
   - Link: https://isc.sans.edu/diary/rss/33290
   - Summary: As I've mentioned before in some of my diaries, from time to time, I like to go over phishing messages that get caught in my various spam traps or sent to us here at the Internet Storm Center.
 
-### Cluster 08f630df48 — score 9
-
-- Title: Automate IAM Identity Center governance with continuous discovery and reporting
-- Source: AWS Security Blog (cloud_identity_infrastructure)
-- Published: 2026-08-31T17:18:31+00:00
-- Link: https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: AWS
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: AWS
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]
-```
-
-#### Full body
-
-```
-AWS Security Blog Automate IAM Identity Center governance with continuous discovery and reporting AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations . AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center . As your AWS organization scales, maintaining visibility into who has access to which applications and enforcing governance policies across accounts and Regions becomes increasingly complex. Identity Center helps address this by centralizing authentication and authorization for AWS resources across your organization, integrating with your external identity provider and a growing number of AWS services. However, as adoption scales, tracking access assignments and enforcing governance policies consistently becomes its own challenge. This blog post focuses on planning your integration between an identity provider and IAM Identity Center for managed applications in your organization. We also walk through deploying and using an automated Identity Center discovery and reporting sample solution to help answer the governance and security questions: Which users or groups have access to which AWS applications? Who last accessed a specific AWS application and when? Which users and groups are assigned to which IAM Identity Center applications across organization and AWS Regions? How can you quickly generate reports to assist with compliance audits or security reviews? The sample solution will identify associated AWS applications and the corresponding user and group assignments for the IAM Identity Center instances within your organization. The output is stored in a queryable format and generates CSV files for downstream analysis or reporting. Plan identity governance for Identity Center application assignments There are four key areas to start on when planning how to manage delegation and provisioning access across IAM Identity Center managed AWS applications. Bring together key stakeholders across security, governance, application, and business teams to make sure the implementation and integration will fit into the overall identity governance strategy. Who can provision managed AWS applications: You can implement the IAM restrictions for creation of new AWS resources within AWS accounts in your organization. For example, if you restrict provisioning into a production AWS account to only infrastructure as code (IaC) IAM roles, you would continue implementing restrictions using AWS identity policies, service control policies (SCP) , resource control policies (RCP) , or IaC policy evaluation tools like Open Policy Agent (OPA) or Checkov . Who manages user and group assignments: The managed application administrator handles authorization to managed applications within an AWS account. It’s recommended to clearly define roles and responsibilities across the workflow. You would have an IaC pipeline manage the integrated AWS resource provisioning with IAM Identity Center, then another workflow to allow requests to manage user and group membership for the managed application. How authentication flows from the IdP to AWS resources: Users will authenticate into Identity Center, then be authorized to access AWS managed applications. From there, they will be authorized to access the associated AWS service and resources tied to the managed application. Depending on the AWS service, the associated downstream resources might have their own IAM principals that the users can access. Mapping IdP identities to AWS resource access: There needs to be a link for workforce users and groups in your IdP, to Identity Center managed applications, and to downstream resources and permissions. Identifying the relationship will help you understand access within your AWS environment. Trusted identity propagation (TIP) is an additional feature
-```
-
-#### Corroborating sources (1)
-
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Automate IAM Identity Center governance with continuous discovery and reporting
-  - Published: 2026-08-31T17:18:31+00:00
-  - Link: https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/
-  - Summary: AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]
-
-### Cluster eeee9ce723 — score 9
-
-- Title: What’s new in AI infrastructure and orchestration in August
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-08-31T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Google Cloud, Google/Gemini
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Welcome back to What’s new in AI infrastructure and orchestration this month , a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August would be a slow month, but nothing could be further from the truth. Read on and you’ll see what we mean. August 2026 Product, technology, and tools updates Product update: Filestore , Google Cloud’s first-party, secure, scalable NFS file service, has emerged as a popular storage platform for AI and agentic workflows, and now, it’s even better suited to the task, with a new backend storage layer built directly on Colossus , Google’s foundational distributed storage system. This new backend lets you provision IOPS independently from storage capacity, and is deeply integrated with GKE. In AI environments, this can help you service so-called agentic swarms — large groups of ag
-```
-
-#### Full body
-
-```
-AI infrastructure What’s new in AI infrastructure and orchestration in August August 31, 2026 Alex Barrett Editor, Google Cloud blog Try Gemini Enterprise today The front door to AI in the workplace Try now Welcome back to What’s new in AI infrastructure and orchestration this month , a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August would be a slow month, but nothing could be further from the truth. Read on and you’ll see what we mean. August 2026 Product, technology, and tools updates Product update: Filestore , Google Cloud’s first-party, secure, scalable NFS file service, has emerged as a popular storage platform for AI and agentic workflows, and now, it’s even better suited to the task, with a new backend storage layer built directly on Colossus , Google’s foundational distributed storage system. This new backend lets you provision IOPS independently from storage capacity, and is deeply integrated with GKE. In AI environments, this can help you service so-called agentic swarms — large groups of agents that need to read and write to a common dataset — without a drop off in performance. For more, check out the blog post . New feature: gVisor sandboxes are now available in distributed Ray clusters on GKE . In partnership with Anyscale, we introduced an experimental library for Ray that brings gVisor, Google’s open-source application kernel, directly into distributed Ray clusters. gVisor provides lightweight environments with stronger isolation than ordinary containers, plus fast startup times and low memory overhead. To try out these sandboxing capabilities on GKE, head over to the Ray sandboxing User Guide . Product update: Looking for high-performance, easy-to-use infrastructure on which to run a personal AI agent, but don’t want to spend a lot of money? New Cloud Run instances are dedicated, singleton compute runtimes on Cloud Run that won’t shut down when the agent is idle. Better yet, the cost to run a Cloud Run instance with 1 vCPU and 1 GiB of memory continuously for 30 days is just $5.70. Practitioner guides, documentation and how-tos How-to guide: Big news in Model Context Protocol (MCP) land: As of the 2026-07-28 specification, the protocol core is “completely stateless. The handshake is gone. The initialize / initialized handshake (SEP-2575) and the logical Mcp-Session-Id header (SEP-2567) have been removed entirely. Instead, every request is now self-describing and independent.” Whoa. Learn more about the changes that the latest MCP specification brings, and more importantly, how to implement them, in this Google Developers blog . Guide: Real-time AI systems make a mess of traditional network load balancing techniques. “Instead of handling isolated requests, the backend has to manage a continuous, live bidirectional stream. You’re dealing with a constant stream of audio chunks, transcripts, model outputs, and synthesized speech flowing back and forth simultaneously.” Things only get worse when the user gets involved. “The server has to immediately halt its current speech generation, pivot to update the context, maybe trigger a new tool, and start drafting a different response; this must be done without dropping the connection.” For a new approach to managing load in the AI era, read Scaling real-time AI agents with session-aware load balancing . How-to: Learn how to build an elastic, scalable LLM inference platform on GKE, even with a mix of different GPU accelerators. The proposed architecture combines Capacity Advisor and Compute Advisor, plus high-performance storage like RunAI:model streamer or GCPFuse with parallel downloads. Get all the details here . Documentation: The thing about hosts with GPUs or TPUs is that you can’t use live migration to update them, setting up a maintenance challenge. In this new docs page, learn
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new in AI infrastructure and orchestration in August
-  - Published: 2026-08-31T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/
-  - Summary: Welcome back to What’s new in AI infrastructure and orchestration this month , a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August would be a slow month, but nothing could be further from the truth. Read on and you’ll see what we mean. August 2026 Product, technology, and tools updates Product update: Filestore , Google Cloud’s first-party, secure, scalable NFS file service, has emerged as a popular storage platform for AI and agentic workflows, and now, it’s even better suited to the task, with a new backend storage layer built directly on Colossus , Google’s foundational distributed storage system. This new backend lets you provision IOPS independently from storage capacity, and is deeply integrated with GKE. In AI environments, this can help you service so-called agentic swarms — large groups of ag
-
 ### Cluster 5a1ecc3ada — score 9
 
 - Title: Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs
@@ -2788,7 +2845,7 @@ Named KindaRails2Shell, the arbitrary file read flaw allows attackers to extract
 #### Full body
 
 ```
-Hackers are exploiting a critical-severity Ruby on Rails vulnerability that leads to remote code execution (RCE), VulnCheck warns. Tracked as CVE-2026-66066 (CVSS score of 9.5) and referred to as KindaRails2Shell , the flaw is described as an arbitrary file read leading to secret exposure, RCE, and lateral movement. The security defect was disclosed in late July, when Ruby on Rails rolled out patches for it, urging the immediate patching of all Rails applications that rely on libvips for Active Storage image processing and allow image uploads from untrusted users. Shortly after, security researchers reverse-engineered the bug and released technical information and proof-of-concept (PoC) code targeting it, and Rails published forensic tools to help detect exploitation attempts. Rails explained that KindaRails2Shell was rooted in the different methods used by different libraries and functions to read arbitrary files. While Rails may rely on the client-supplied content type to interpret a blob as an image, libvips looks at the magic bytes to determine the file type. Advertisement. Scroll to continue reading. This allows an attacker to craft a file and declare it as MATLAB Level 5, leading to libvips selecting the MATLAB loader. The file is then routed to libmatio, which identifies MAT 7.3 in a header field and hands it to HDF5. “HDF5’s External File List lets a dataset’s bytes live in another file named by path and offset, so rendering the ‘image’ reads an attacker-chosen file off the server and returns its contents as pixels. The same confusion, twice, at two layers that cannot see each other’s fields,” Rails notes. An unauthenticated attacker could target anything that the Rails process can read, including the credential database and storage keys. Armed with the compromised secrets, the attacker could then forge sessions, access additional systems, and execute arbitrary code remotely. According to VulnCheck, threat actors started exploiting CVE-2026-66066 last week, roughly one month after patches were released. Furthermore, VulnCheck says that its tests on a patched 8.1.3.1 server revealed that, “while the fix blocks the libvips file read, it does not neutralize the variation-key Marshal deserialization: the RCE gadget still executes on a patched server given a valid signature.” In early August, VulnCheck identified around 7,000 exposed Ruby on Rails instances vulnerable to KindaRails2Shell. Related: More Details Emerge on Exploited PaperCut Vulnerabilities Related: OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems Related: Recent Citrix NetScaler Vulnerability Exploited in the Wild Related: Adobe and Nvidia Patch Dozens of Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Berlin Won’t Pay Extortion Group Claiming Data Theft Critical Isolated-vm Vulnerability Leads to RCE on Host Rust Supply Chain Attack Linked to North Korean Hackers Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Latest News Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit ServiceNow Patches 3 Critical Code Injection Vulnerabilities McKesson Confirms Data Breach as Attacker Deadline Looms What the Hugging Face Incident Teaches Security Leaders About AI Agent Access Anthropic Warns Claude Users of Infostealer Malware Infections Boston Scientific Still Recovering From Cyberattack Extortion Group Claims Manchester Airports Group Data Breach Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ Trending Daily Briefing Newsletter Subscr
+Hackers are exploiting a critical-severity Ruby on Rails vulnerability that leads to remote code execution (RCE), VulnCheck warns. Tracked as CVE-2026-66066 (CVSS score of 9.5) and referred to as KindaRails2Shell , the flaw is described as an arbitrary file read leading to secret exposure, RCE, and lateral movement. The security defect was disclosed in late July, when Ruby on Rails rolled out patches for it, urging the immediate patching of all Rails applications that rely on libvips for Active Storage image processing and allow image uploads from untrusted users. Shortly after, security researchers reverse-engineered the bug and released technical information and proof-of-concept (PoC) code targeting it, and Rails published forensic tools to help detect exploitation attempts. Rails explained that KindaRails2Shell was rooted in the different methods used by different libraries and functions to read arbitrary files. While Rails may rely on the client-supplied content type to interpret a blob as an image, libvips looks at the magic bytes to determine the file type. Advertisement. Scroll to continue reading. This allows an attacker to craft a file and declare it as MATLAB Level 5, leading to libvips selecting the MATLAB loader. The file is then routed to libmatio, which identifies MAT 7.3 in a header field and hands it to HDF5. “HDF5’s External File List lets a dataset’s bytes live in another file named by path and offset, so rendering the ‘image’ reads an attacker-chosen file off the server and returns its contents as pixels. The same confusion, twice, at two layers that cannot see each other’s fields,” Rails notes. An unauthenticated attacker could target anything that the Rails process can read, including the credential database and storage keys. Armed with the compromised secrets, the attacker could then forge sessions, access additional systems, and execute arbitrary code remotely. According to VulnCheck, threat actors started exploiting CVE-2026-66066 last week, roughly one month after patches were released. Furthermore, VulnCheck says that its tests on a patched 8.1.3.1 server revealed that, “while the fix blocks the libvips file read, it does not neutralize the variation-key Marshal deserialization: the RCE gadget still executes on a patched server given a valid signature.” In early August, VulnCheck identified around 7,000 exposed Ruby on Rails instances vulnerable to KindaRails2Shell. Related: More Details Emerge on Exploited PaperCut Vulnerabilities Related: OpenAI Agents Exploited Linux Kernel Flaw on Company’s Own Systems Related: Recent Citrix NetScaler Vulnerability Exploited in the Wild Related: Adobe and Nvidia Patch Dozens of Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Berlin Won’t Pay Extortion Group Claiming Data Theft Critical Isolated-vm Vulnerability Leads to RCE on Host Rust Supply Chain Attack Linked to North Korean Hackers Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Latest News PaperCut Exploitation Escalates to Active Intrusions Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit ServiceNow Patches 3 Critical Code Injection Vulnerabilities McKesson Confirms Data Breach as Attacker Deadline Looms What the Hugging Face Incident Teaches Security Leaders About AI Agent Access Anthropic Warns Claude Users of Infostealer Malware Infections Boston Scientific Still Recovering From Cyberattack Extortion Group Claims Manchester Airports Group Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek
 ```
 
 #### Corroborating sources (1)
@@ -2835,7 +2892,7 @@ FulcrumSec says it stole over 80 GB of data from Manchester Airports Group and p
 #### Full body
 
 ```
-The FulcrumSec extortion group has claimed responsibility for the recently disclosed Manchester Airports Group (MAG) data breach. The largest airport group in the UK, MAG owns and operates Manchester, London Stansted, and East Midlands airports. MAG disclosed the incident on August 27, notifying customers that hackers stole data associated with car park, lounge, and Fast Track bookings, as well as in-airport Wi-Fi sign-ups at all three airports. “We immediately contained the risk and have been working with specialist advisors and taking appropriate steps to protect our customers and systems. We have informed and are working with the relevant authorities,” MAG said . The airport operator said email addresses, phone numbers, vehicle registrations, and postcodes were compromised in the incident. No payment information was accessed, and passenger safety and aviation security were not affected, it said. “The incident has not resulted in any operational disruption. Airport operations remain unaffected, and customer parking services continue to operate normally,” MAG added. Advertisement. Scroll to continue reading. While the airport operator has not revealed the number of impacted individuals, initial reports suggested that approximately 8.7 million customers might have had their information compromised. MAG reportedly confirmed the data was stolen from “a database hosted by a third party”, and said it received a ransom demand from the attackers, but refrained from sharing further details on the threat actor and its demands. Over the weekend, the FulcrumSec extortion group reportedly claimed responsibility for the incident and the theft of approximately 86 gigabytes of data from MAG, including detailed booking and travel information. The group apparently plans to leak the stolen information. A financially motivated threat actor, FulcrumSec emerged in 2025 and has claimed several high-profile hacks, including Novo Nordisk and LexisNexis . Related: Berlin Won’t Pay Extortion Group Claiming Data Theft Related: Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related: CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related: Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Berlin Won’t Pay Extortion Group Claiming Data Theft Critical Isolated-vm Vulnerability Leads to RCE on Host Rust Supply Chain Attack Linked to North Korean Hackers Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Latest News Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit ServiceNow Patches 3 Critical Code Injection Vulnerabilities McKesson Confirms Data Breach as Attacker Deadline Looms What the Hugging Face Incident Teaches Security Leaders About AI Agent Access Anthropic Warns Claude Users of Infostealer Malware Infections Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs Boston Scientific Still Recovering From Cyberattack Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Re
+The FulcrumSec extortion group has claimed responsibility for the recently disclosed Manchester Airports Group (MAG) data breach. The largest airport group in the UK, MAG owns and operates Manchester, London Stansted, and East Midlands airports. MAG disclosed the incident on August 27, notifying customers that hackers stole data associated with car park, lounge, and Fast Track bookings, as well as in-airport Wi-Fi sign-ups at all three airports. “We immediately contained the risk and have been working with specialist advisors and taking appropriate steps to protect our customers and systems. We have informed and are working with the relevant authorities,” MAG said . The airport operator said email addresses, phone numbers, vehicle registrations, and postcodes were compromised in the incident. No payment information was accessed, and passenger safety and aviation security were not affected, it said. “The incident has not resulted in any operational disruption. Airport operations remain unaffected, and customer parking services continue to operate normally,” MAG added. Advertisement. Scroll to continue reading. While the airport operator has not revealed the number of impacted individuals, initial reports suggested that approximately 8.7 million customers might have had their information compromised. MAG reportedly confirmed the data was stolen from “a database hosted by a third party”, and said it received a ransom demand from the attackers, but refrained from sharing further details on the threat actor and its demands. Over the weekend, the FulcrumSec extortion group reportedly claimed responsibility for the incident and the theft of approximately 86 gigabytes of data from MAG, including detailed booking and travel information. The group apparently plans to leak the stolen information. A financially motivated threat actor, FulcrumSec emerged in 2025 and has claimed several high-profile hacks, including Novo Nordisk and LexisNexis . Related: Berlin Won’t Pay Extortion Group Claiming Data Theft Related: Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign Related: CareCloud Data Breach Impact Grows to 3.7 Million Individuals Related: Heights Finance Data Breach Impacts at Least 1.2 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Berlin Won’t Pay Extortion Group Claiming Data Theft Critical Isolated-vm Vulnerability Leads to RCE on Host Rust Supply Chain Attack Linked to North Korean Hackers Microsoft Patches Exploited Entra ID Vulnerability CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities MLflow Vulnerability Exploited for Cloud Credential Theft Latest News PaperCut Exploitation Escalates to Active Intrusions Nightmare Eclipse Drops ‘HardBreacher’ Kaspersky Product Exploit ServiceNow Patches 3 Critical Code Injection Vulnerabilities McKesson Confirms Data Breach as Attacker Deadline Looms What the Hugging Face Incident Teaches Security Leaders About AI Agent Access Anthropic Warns Claude Users of Infostealer Malware Infections Critical Ruby on Rails Vulnerability in Attackers’ Crosshairs Boston Scientific Still Recovering From Cyberattack Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Register Webinar: Minimum
 ```
 
 #### Corroborating sources (1)
@@ -2846,50 +2903,46 @@ The FulcrumSec extortion group has claimed responsibility for the recently discl
   - Link: https://www.securityweek.com/extortion-group-claims-manchester-airports-group-data-breach/
   - Summary: FulcrumSec says it stole over 80 GB of data from Manchester Airports Group and plans to leak it online. The post Extortion Group Claims Manchester Airports Group Data Breach appeared first on SecurityWeek .
 
-### Cluster e4d3ed2d51 — score 9
+### Cluster b791f84312 — score 9
 
-- Title: What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree
+- Title: NIS2 compliance: Fixing IAM and access control before the 2026 audit
 - Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-08-31T06:00:37+00:00
-- Link: https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/
+- Published: 2026-09-01T05:00:08+00:00
+- Link: https://www.helpnetsecurity.com/2026/09/01/nis2-credential-compliance-before-audit/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: government, legal_professional, manufacturing_industrial
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
+- threat_categories: data_breach, phishing_social_eng, supply_chain
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: government, manufacturing_industrial, legal_professional
-- urgency_signals: actively_exploited
-- content_type: vulnerability_disclosure
+- threat_categories: supply_chain, phishing_social_eng, data_breach
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity, explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure … More → The post What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree appeared first on Help Net Security .
+The NIS2 Directive places direct obligations on organizations across supply chain risk management, incident reporting, and board-level accountability. October brings a new wave of legally binding deadlines across the EU, as member states move from transposition into enforcement. In Austria, the national implementation law enters into force once adopted; in Poland, mandatory self-registration closes on a fixed date set by the national authority. Broader NIS2 non-compliance exposes essential entities to fines up to €10 million … More → The post NIS2 compliance: Fixing IAM and access control before the 2026 audit appeared first on Help Net Security .
 ```
 
 #### Full body
 
 ```
-Mirko Zorz , Director of Content, Help Net Security August 31, 2026 Share What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity , explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure modes of deception technology, and where a 400-person manufacturer with a $250,000 budget should spend its first $50,000. If a security leader has KEV, EPSS, and CVSS all pointing different directions on the same vulnerability, what is your tiebreaker rule? Give me the decision logic you would write down for an analyst. An actively exploited vulnerability, as indicated by KEV, would be the highest priority, particularly if it affects an internet-exposed or business-critical asset. After that, I would assess exploit likelihood using EPSS, followed by CVSS, to understand the potential technical impact. The decision logic I would give an analyst is: active exploitation first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, compensating controls, and the potential consequences of compromise. A lower-severity vulnerability in an exposed identity system may pose a more immediate risk than a critical vulnerability in an isolated asset. The scores are useful, but they need to be applied in the context of the environment. What is a realistic mean time to remediate for internet-exposed assets at a mid-sized enterprise right now, and what does the org have to give up to get there? For a critical, internet-exposed vulnerability with known exploitation, a target of 24 to 72 hours is reasonable, though many mid-sized organizations will struggle to achieve it consistently. Getting there requires tradeoffs. Security and IT teams need the authority to interrupt normal release schedules, dedicate engineering resources to emergency testing and deployment, and sometimes accept temporary service disruption or reduced functionality. When an immediate patch is not possible , organizations also need to be prepared to use compensating controls, such as restricting access, disabling a vulnerable feature, or isolating a system. The biggest requirement is organizational. Actively exploited internet-facing vulnerabilities have to be treated as an operational priority rather than another item in the normal patch queue. Faster remediation requires ownership, pre-approved emergency procedures, and coordination across security, IT, and application teams. What is the failure mode of deception technology that vendors do not advertise? Have you seen a honeypot become an attacker foothold or a compliance liability? The primary failure mode is that the deception environment becomes overly connected, overly trusted, or poorly maintained. A honeypot intended to observe attackers can become another foothold if it has access to production systems, reusable credentials, excessive privileges, or vulnerabilities of its own. Compliance and governance concerns can also arise. Deception systems may capture attacker activity, credentials, production-like data, or other sensitive information. If retention, privacy, legal, and evidentiary requirements are not considered in advance, those systems can create obligations the organization did not anticipate. Deception technology should therefore be isolated, tightly permissioned, and continuously monitored. Treat it as potentially hostile infrastructure from the outset, and never allow unnecessary trust relationships with production environments. What is one control that is unglamorous, cheap, and still buys defenders
+Eirik Salmi, System Analyst, Passwork Sponsored September 1, 2026 Share NIS2 compliance: Fixing IAM and access control before the 2026 audit The NIS2 Directive places direct obligations on organizations across supply chain risk management, incident reporting, and board-level accountability. October brings a new wave of legally binding deadlines across the EU, as member states move from transposition into enforcement. In Austria, the national implementation law enters into force once adopted; in Poland, mandatory self-registration closes on a fixed date set by the national authority. Broader NIS2 non-compliance exposes essential entities to fines up to €10 million or 2% of global turnover, important entities to up to €7 million or 1.4%, and management bodies to personal liability, including temporary bans from executive roles. Most organizations know they need to comply. The harder question is where to start without burning out the team before the first audit. Companies can’t boil the ocean and tackle everything at once. The practical path is to identify controls that are fast to implement, generate immediate auditable evidence, and close the attack vectors that matter most. Access management and credential hygiene fit all three criteria. They won’t cover every NIS2 requirement, but they’ll get you further, faster, than almost any other single investment. Why credentials are still the chokepoint The 2026 Verizon Data Breach Investigations Report found that vulnerability exploitation overtook stolen credentials as the top single initial access vector, accounting for 31% of breaches. But deprioritizing credential controls on that basis would be the wrong call. The DBIR’s own data tells a different story when the focus shifts past the initial access frame. Credential abuse measured across the full attack chain appears in 39% of all breaches. Verizon explicitly identifies it as a “legitimate mitigation target chokepoint.” Credentials don’t just open the front door; they’re what attackers use to move through the building once they’re inside. Compare the implementation timelines of two NIS2 Article 21 requirements: Supply chain risk management (Art. 21(2)(d)) — 6–12 months Access control enforcement (Art. 21(2)(i)) — 2–4 weeks Enforcing a fine-grained password policy across Active Directory, migrating shared credentials into a managed vault, and enabling phishing-resistant MFA for privileged accounts is a 2–4-week project for a competent team. The ROI on compliance effort is not close. Three access management gaps that fail pre-audits 1. Unmanaged service accounts and API keys Most NIS2 access management discussions focus on human users. Auditors increasingly don’t. Service accounts, API keys, database connection strings, and deployment tokens are non-human identities and they’re routinely unmanaged in ways that would be unacceptable for any human account. A typical mid-size organization has more service accounts than human accounts. Most share passwords have never been rotated, and have no documented owner. These credentials live in .env files, CI/CD pipeline configurations, and shared drives, exactly the places attackers look after initial access. Article 21(2)(i) requires access control policies to cover all accounts with access to network and information systems. “All accounts” includes service accounts. If you can’t enumerate them, you can’t control them, and you can’t prove control to an auditor. The fix starts with inventory: pull every service account from AD, every API key from your secrets store (or from the config files where they’re currently hardcoded) and get them into a managed system with rotation schedules and documented owners. 2. Dormant accounts and broken offboarding A dormant account exists, has valid credentials, and belongs to someone who no longer needs access: a former employee, a contractor whose engagement ended, a vendor whose project closed six months ago. These accounts are a direct audit failure point
 ```
 
 #### Corroborating sources (1)
 
 - **Help Net Security** (cyber_news_breach_reporting)
-  - Title: What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree
-  - Published: 2026-08-31T06:00:37+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/31/joye-purser-cohesity-kev-epss-cvss-conflicts/
-  - Summary: In this Help Net Security interview, Dr. Joye Purser, Global Field CISO at Cohesity, explains how to rank vulnerabilities when KEV, EPSS, and CVSS point in different directions. Active exploitation comes first, then exploit likelihood, then technical severity, with adjustments for asset exposure, business criticality, and compensating controls. The interview sets a 24 to 72 hour remediation target for exploited internet-facing systems and covers what an organization gives up to meet it, the hidden failure … More → The post What vulnerability prioritization looks like when KEV, EPSS, and CVSS disagree appeared first on Help Net Security .
+  - Title: NIS2 compliance: Fixing IAM and access control before the 2026 audit
+  - Published: 2026-09-01T05:00:08+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/01/nis2-credential-compliance-before-audit/
+  - Summary: The NIS2 Directive places direct obligations on organizations across supply chain risk management, incident reporting, and board-level accountability. October brings a new wave of legally binding deadlines across the EU, as member states move from transposition into enforcement. In Austria, the national implementation law enters into force once adopted; in Poland, mandatory self-registration closes on a fixed date set by the national authority. Broader NIS2 non-compliance exposes essential entities to fines up to €10 million … More → The post NIS2 compliance: Fixing IAM and access control before the 2026 audit appeared first on Help Net Security .
 
 ### Cluster 62469ecc9b — score 9
 
@@ -2935,6 +2988,96 @@ You're not going to believe this, but turns out you can't always take criminals 
   - Published: 2026-08-25T21:51:08+00:00
   - Link: https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/
   - Summary: You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: 🚨Cyber
+
+### Cluster 7c35bc981f — score 9
+
+- Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-08-28T10:23:57+00:00
+- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- actor_attribution: TeamPCP
+- affected_industries: government
+- affected_products: GitHub, OpenAI/ChatGPT, npm
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- actor_attribution: TeamPCP
+- affected_industries: government
+- affected_products: GitHub, npm, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
+```
+
+#### Full body
+
+```
+Industry News 2 min read Shai-Hulud hackers: two men charged over TeamPCP's global supply chain crime spree that hit OpenAI, and thousands more Graham CLULEY August 28, 2026 Police have charged two men from Western Australia over their alleged involvement in TeamPCP, a cybercriminal gang that has been blamed for a massive software supply-chain hacking campaign. TeamPCP is best known for Shai-Hulud, a self-propagating worm that spread itself through open source software. The Australian Federal Police (AFP), working with the FBI and Western Australia Police, announced that on 26 August they charged a 21-year-old from Cottesloe and a 23-year-old from Mandurah with multiple offences, including data intrusion and unauthorised modification of data. Both men appeared in court in Perth on Thursday. According to the authorities, the two men were principal members of a "sophisticated cybercrime syndicate" that created malicious open source software designed to steal data and extort ransoms from businesses. More than 1000 organisations around the world are estimated to have been compromised in the attacks, with over 500,000 credentials and at least 300GB of data stolen. Neither of the men has been formally named by the police, but cybercrime investigative journalist Brian Krebs reports that the 21-year-old is Ruben Thomson, who used the handle "Ellis" and allegedly led TeamPCP until March 2026. First emerging in late 2025, TeamPCP built a reputation for poisoning popular open source packages rather than directly attacking businesses. By compromising individual pieces of widely-used software their attack could impact thousands of victims at once. The group's Shai-Hulud worm hijacks GitHub and NPM developer credentials, and publishes boobytrapped versions of legitimate software packages. Anyone who uses the package in their own software risks sharing their own secret API keys and credentials with the hackers, opening the door for a further round of compromises. Hacks linked to TeamPCP include the compromise of vulnerability scanner Trivy , which led to the breaches of open source AI gateway LiteLLM, and AI recruitment firm Mercor . TeamPCP also compromised LiteLLM's own code directly, in an attack CloudSEK found had harvested secrets from more than 2,500 organisations . The attacks even resulted in the theft of data from OpenAI , and a hack of the European Commission's cloud infrastructure. In an audacious twist earlier this year, it was announced on Telegram that TeamPCP was running a competition offering a prize for whoever built the biggest attack with leaked Shai-Hulud code. Supply chain attacks like Shai-Hulud exploit the fact that most developers trust open source software packages too easily, and can all too easily believe a package from a public registry is safe because thousands of others use it. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
+  - Published: 2026-08-28T10:23:57+00:00
+  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
+  - Summary: More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
+
+### Cluster 071b0ea328 — score 9
+
+- Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
+- Source: Graham Cluley (practitioner_analysis)
+- Published: 2026-08-26T23:10:11+00:00
+- Link: https://grahamcluley.com/smashing-security-podcast-482/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
+```
+
+#### Full body
+
+```
+Graham Cluley @ 12:10 am, August 27, 2026 @grahamcluley.com / grahamcluley A hacker calling themselves “CYBERLEEK” has been leaking gameplay footage from GTA 6 ahead of its official reveal this week – but they’re not asking Rockstar Games for a ransom. Instead, they’ve launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club… Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of “residential proxies” – how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #482 This hacker leaked GTA 6 - and launched their own cryptocurrency ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY He takes his gun and he sort of shoots the word leek, L-E-E-K. I apologise to any English teachers who are listening to this, into a wall as if to prove it really is him. PAUL DUCKLIN Leek is a legitimate word. I mean, it's a type of onion. What's wrong with that? GRAHAM CLULEY Well, I suppose so. PAUL DUCKLIN I mean, Cyber Onion wouldn't sound great, but Cyber Leek— GRAHAM CLULEY It wouldn't be so good. PAUL DUCKLIN It is a pun, Graham, whether you approve of it or not. Unknown Smashing Security, episode 482. PAUL DUCKLIN This hacker leaked GTA 6 and launched their own cryptocurrency with Graham Cluley and special guest Paul Ducklin. Unknown Hello, hello, and welcome to Smashing Security, episode 482. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. Hello, Duck. GRAHAM CLULEY Great to have you back on the show again. PAUL DUCKLIN Thank you, Graham. GRAHAM CLULEY We parachuted you in this week actually, 'cause that person we were intending to come on hasn't managed. Not that you are by any means a pale substitute. PAUL DUCKLIN I'm not pale at all these days. We've had so much sunshine. GRAHAM CLULEY No, that's true. PAUL DUCKLIN As you can see, I've had a bit too much lately, if those of us who can see me on video. GRAHAM CLULEY Well, it's always great to have you here. Before we kick off, let's thank this week's wonderful sponsors, ThreatLocker, BlackKite, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security. We're not going to be talking about how Iranian hackers managed to shut down a UK power plant. PAUL DUCKLIN You'll hear no discussion of— GRAHAM CLULEY How a ransomware crook silently ripped off his own gang by posing as a recovery firm and pocketed the victims' payments for himself. And we won't even mention how the Toxic Panda Trojan is quietly taking over Android phones to steal banking PINs and passwords. Now, Duck, what are you going to be talking about this week? PAUL DUCKLIN Well, Graham, if your smart TV isn't spying on you, what else might it be doing behind your back? GRAHAM CLULEY And the tyres are going to be hitting the tarmac as I enter the world of Grand Theft Auto 6. All this and much more coming up in this episode of Smashing Security. Unknown This episode of Smashing Security is supported by ThreatLocker. Agentic AI is beginning to change the tempo of cyberattacks. GRAHAM CLULEY That's right. We've seen research into autonomous ransomware, adaptive AI worms, and agents chaining tools without waiting for a human operator. Unknown Which is all very interesting, just so long as it isn't your network they're experimenting on. GRAHAM CLULEY When enumeration, exploitation, and lateral movement happen at machine speed, relying on somebody to notice an alert and respond quickly begins to look rather optimistic. Well, ThreatLocker puts default deny and least priv
+```
+
+#### Corroborating sources (1)
+
+- **Graham Cluley** (practitioner_analysis)
+  - Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
+  - Published: 2026-08-26T23:10:11+00:00
+  - Link: https://grahamcluley.com/smashing-security-podcast-482/
+  - Summary: A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
 
 ### Cluster b1eb2141e2 — score 9
 
@@ -3081,95 +3224,48 @@ CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server
   - Link: https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added six flaws to its Known Exploited Vulnerabilities (KEV) catalog, including a high-severity security vulnerability impacting Citrix NetScaler ADC and NetScaler Gateway, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2019-1068 - A remote code execution vulnerability in
 
-### Cluster 7c35bc981f — score 9
+### Cluster 08f630df48 — score 8
 
-- Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-08-28T10:23:57+00:00
-- Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
+- Title: Automate IAM Identity Center governance with continuous discovery and reporting
+- Source: AWS Security Blog (cloud_identity_infrastructure)
+- Published: 2026-08-31T17:18:31+00:00
+- Link: https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/
 - Fetch status: ok
-- Member count: 1
+- Member count: 2
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: AWS
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
 - affected_industries: government
-- affected_products: GitHub, OpenAI/ChatGPT, npm
+- affected_products: AWS
 - content_type: news_report
-- confidence_tier: tier_3_analysis
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
 - affected_industries: government
-- affected_products: GitHub, npm, OpenAI/ChatGPT
+- affected_products: AWS
 - content_type: news_report
-- confidence_tier: tier_3_analysis
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
+AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]
 ```
 
 #### Full body
 
 ```
-Industry News 2 min read Shai-Hulud hackers: two men charged over TeamPCP's global supply chain crime spree that hit OpenAI, and thousands more Graham CLULEY August 28, 2026 Police have charged two men from Western Australia over their alleged involvement in TeamPCP, a cybercriminal gang that has been blamed for a massive software supply-chain hacking campaign. TeamPCP is best known for Shai-Hulud, a self-propagating worm that spread itself through open source software. The Australian Federal Police (AFP), working with the FBI and Western Australia Police, announced that on 26 August they charged a 21-year-old from Cottesloe and a 23-year-old from Mandurah with multiple offences, including data intrusion and unauthorised modification of data. Both men appeared in court in Perth on Thursday. According to the authorities, the two men were principal members of a "sophisticated cybercrime syndicate" that created malicious open source software designed to steal data and extort ransoms from businesses. More than 1000 organisations around the world are estimated to have been compromised in the attacks, with over 500,000 credentials and at least 300GB of data stolen. Neither of the men has been formally named by the police, but cybercrime investigative journalist Brian Krebs reports that the 21-year-old is Ruben Thomson, who used the handle "Ellis" and allegedly led TeamPCP until March 2026. First emerging in late 2025, TeamPCP built a reputation for poisoning popular open source packages rather than directly attacking businesses. By compromising individual pieces of widely-used software their attack could impact thousands of victims at once. The group's Shai-Hulud worm hijacks GitHub and NPM developer credentials, and publishes boobytrapped versions of legitimate software packages. Anyone who uses the package in their own software risks sharing their own secret API keys and credentials with the hackers, opening the door for a further round of compromises. Hacks linked to TeamPCP include the compromise of vulnerability scanner Trivy , which led to the breaches of open source AI gateway LiteLLM, and AI recruitment firm Mercor . TeamPCP also compromised LiteLLM's own code directly, in an attack CloudSEK found had harvested secrets from more than 2,500 organisations . The attacks even resulted in the theft of data from OpenAI , and a hack of the European Commission's cloud infrastructure. In an audacious twist earlier this year, it was announced on Telegram that TeamPCP was running a competition offering a prize for whoever built the biggest attack with leaked Shai-Hulud code. Supply chain attacks like Shai-Hulud exploit the fact that most developers trust open source software packages too easily, and can all too easily believe a package from a public registry is safe because thousands of others use it. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks
+AWS Security Blog Automate IAM Identity Center governance with continuous discovery and reporting AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations . AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center . As your AWS organization scales, maintaining visibility into who has access to which applications and enforcing governance policies across accounts and Regions becomes increasingly complex. Identity Center helps address this by centralizing authentication and authorization for AWS resources across your organization, integrating with your external identity provider and a growing number of AWS services. However, as adoption scales, tracking access assignments and enforcing governance policies consistently becomes its own challenge. This blog post focuses on planning your integration between an identity provider and IAM Identity Center for managed applications in your organization. We also walk through deploying and using an automated Identity Center discovery and reporting sample solution to help answer the governance and security questions: Which users or groups have access to which AWS applications? Who last accessed a specific AWS application and when? Which users and groups are assigned to which IAM Identity Center applications across organization and AWS Regions? How can you quickly generate reports to assist with compliance audits or security reviews? The sample solution will identify associated AWS applications and the corresponding user and group assignments for the IAM Identity Center instances within your organization. The output is stored in a queryable format and generates CSV files for downstream analysis or reporting. Plan identity governance for Identity Center application assignments There are four key areas to start on when planning how to manage delegation and provisioning access across IAM Identity Center managed AWS applications. Bring together key stakeholders across security, governance, application, and business teams to make sure the implementation and integration will fit into the overall identity governance strategy. Who can provision managed AWS applications: You can implement the IAM restrictions for creation of new AWS resources within AWS accounts in your organization. For example, if you restrict provisioning into a production AWS account to only infrastructure as code (IaC) IAM roles, you would continue implementing restrictions using AWS identity policies, service control policies (SCP) , resource control policies (RCP) , or IaC policy evaluation tools like Open Policy Agent (OPA) or Checkov . Who manages user and group assignments: The managed application administrator handles authorization to managed applications within an AWS account. It’s recommended to clearly define roles and responsibilities across the workflow. You would have an IaC pipeline manage the integrated AWS resource provisioning with IAM Identity Center, then another workflow to allow requests to manage user and group membership for the managed application. How authentication flows from the IdP to AWS resources: Users will authenticate into Identity Center, then be authorized to access AWS managed applications. From there, they will be authorized to access the associated AWS service and resources tied to the managed application. Depending on the AWS service, the associated downstream resources might have their own IAM principals that the users can access. Mapping IdP identities to AWS resource access: There needs to be a link for workforce users and groups in your IdP, to Identity Center managed applications, and to downstream resources and permissions. Identifying the relationship will help you understand access within your AWS environment. Trusted identity propagation (TIP) is an additional feature
 ```
 
 #### Corroborating sources (1)
 
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more
-  - Published: 2026-08-28T10:23:57+00:00
-  - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps
-  - Summary: More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP's global hacking spree. Read more in my article on the Hot for Security blog.
-
-### Cluster 071b0ea328 — score 9
-
-- Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
-- Source: Graham Cluley (practitioner_analysis)
-- Published: 2026-08-26T23:10:11+00:00
-- Link: https://grahamcluley.com/smashing-security-podcast-482/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
-```
-
-#### Full body
-
-```
-Graham Cluley @ 12:10 am, August 27, 2026 @grahamcluley.com / grahamcluley A hacker calling themselves “CYBERLEEK” has been leaking gameplay footage from GTA 6 ahead of its official reveal this week – but they’re not asking Rockstar Games for a ransom. Instead, they’ve launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club… Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of “residential proxies” – how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the “Smashing Security” podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin. Smashing Security #482 This hacker leaked GTA 6 - and launched their own cryptocurrency ↺ 15 ↻ 30 0:00 Learn more 0:00 0:00 0:00 1× Show full transcript ▼ This transcript was generated automatically, probably contains mistakes, and has not been manually verified. GRAHAM CLULEY He takes his gun and he sort of shoots the word leek, L-E-E-K. I apologise to any English teachers who are listening to this, into a wall as if to prove it really is him. PAUL DUCKLIN Leek is a legitimate word. I mean, it's a type of onion. What's wrong with that? GRAHAM CLULEY Well, I suppose so. PAUL DUCKLIN I mean, Cyber Onion wouldn't sound great, but Cyber Leek— GRAHAM CLULEY It wouldn't be so good. PAUL DUCKLIN It is a pun, Graham, whether you approve of it or not. Unknown Smashing Security, episode 482. PAUL DUCKLIN This hacker leaked GTA 6 and launched their own cryptocurrency with Graham Cluley and special guest Paul Ducklin. Unknown Hello, hello, and welcome to Smashing Security, episode 482. My name's Graham Cluley. PAUL DUCKLIN And I am Paul Ducklin. Hello, Duck. GRAHAM CLULEY Great to have you back on the show again. PAUL DUCKLIN Thank you, Graham. GRAHAM CLULEY We parachuted you in this week actually, 'cause that person we were intending to come on hasn't managed. Not that you are by any means a pale substitute. PAUL DUCKLIN I'm not pale at all these days. We've had so much sunshine. GRAHAM CLULEY No, that's true. PAUL DUCKLIN As you can see, I've had a bit too much lately, if those of us who can see me on video. GRAHAM CLULEY Well, it's always great to have you here. Before we kick off, let's thank this week's wonderful sponsors, ThreatLocker, BlackKite, and Vanta. We'll be hearing more about them later on in the podcast. This week on Smashing Security. We're not going to be talking about how Iranian hackers managed to shut down a UK power plant. PAUL DUCKLIN You'll hear no discussion of— GRAHAM CLULEY How a ransomware crook silently ripped off his own gang by posing as a recovery firm and pocketed the victims' payments for himself. And we won't even mention how the Toxic Panda Trojan is quietly taking over Android phones to steal banking PINs and passwords. Now, Duck, what are you going to be talking about this week? PAUL DUCKLIN Well, Graham, if your smart TV isn't spying on you, what else might it be doing behind your back? GRAHAM CLULEY And the tyres are going to be hitting the tarmac as I enter the world of Grand Theft Auto 6. All this and much more coming up in this episode of Smashing Security. Unknown This episode of Smashing Security is supported by ThreatLocker. Agentic AI is beginning to change the tempo of cyberattacks. GRAHAM CLULEY That's right. We've seen research into autonomous ransomware, adaptive AI worms, and agents chaining tools without waiting for a human operator. Unknown Which is all very interesting, just so long as it isn't your network they're experimenting on. GRAHAM CLULEY When enumeration, exploitation, and lateral movement happen at machine speed, relying on somebody to notice an alert and respond quickly begins to look rather optimistic. Well, ThreatLocker puts default deny and least priv
-```
-
-#### Corroborating sources (1)
-
-- **Graham Cluley** (practitioner_analysis)
-  - Title: Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency
-  - Published: 2026-08-26T23:10:11+00:00
-  - Link: https://grahamcluley.com/smashing-security-podcast-482/
-  - Summary: A hacker calling themselves "CYBERLEEK" has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they're not asking Rockstar Games for a ransom. Instead, they've launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of "residential proxies" - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the "Smashing Security" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Automate IAM Identity Center governance with continuous discovery and reporting
+  - Published: 2026-08-31T17:18:31+00:00
+  - Link: https://aws.amazon.com/blogs/security/automate-iam-identity-center-governance-with-continuous-discovery-and-reporting/
+  - Summary: AWS IAM Identity Center integrates with external identity provider (IdP) to provide customers with a centralized authentication and authorization solution for AWS resources across AWS Organizations. AWS continues to invest into IAM Identity Center with a growing number of AWS services that natively integrate with IAM Identity Center. As your AWS organization scales, maintaining visibility […]
 
 ### Cluster 5d8c6875e0 — score 8
 
@@ -3392,20 +3488,16 @@ Home Blog Retail Cybersecurity in ANZ: Five Decisions That Keep Trading Publishe
 - Source: Huntress (detection_response_operations)
 - Published: 2026-08-27T04:00:00+00:00
 - Link: https://www.huntress.com/blog/ai-attack-surface
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3413,12 +3505,6 @@ Home Blog Retail Cybersecurity in ANZ: Five Decisions That Keep Trading Publishe
 
 ```
 Threat actors are targeting the AI attack surface to deliver malware and steal data. See how trusted AI tools are being exploited today.
-```
-
-#### Full body
-
-```
-Home Blog The AI Attack Surface: How Threat Actors Abuse Trusted AI Platforms Published: August 27, 2026 The AI Attack Surface: How Threat Actors Abuse Trusted AI Platforms By: Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways As more people use AI models such as Claude, ChatGPT, Grok, and Gemini, threat actors are abusing trusted AI platforms in a variety of ways to trick users into downloading malware. Over the past nine months, Huntress has seen incidents where threat actors have weaponized shareable AI content, public mini-apps, and sponsored search placement to target AI users. Individuals can take a number of measures to shrink their AI attack surface, including the use of ad blockers. Businesses should restrict script execution from the clipboard, enforce application allow-listing, and monitor for new scheduled tasks and antivirus exclusion changes. Background AI is here, and we're hearing about all the high-profile security risks that come with it. AI security discussions often focus on attacks against AI companies and models (such as the recent OpenAI-HuggingFace intrusion ). However, the Huntress Security Operations Center (SOC) is seeing a more prolific, day-to-day threat: threat actors abusing the ways users interact with AI platforms. Over the past nine months, we have seen threat actors abuse legitimate AI features and services, including: Claude Artifacts : content that Claude generates and displays as a separate preview pane within a chat; Claude Artifacts can be "published" and made publicly available via a link. Claude.ai/share links : shareable URLs generated when a user publishes a Claude conversation. These links can appear in search results when they are posted in locations that search engines can crawl, such as forums or social media. ChatGPT and Grok conversations : shared conversations that are hosted on legitimate AI platforms that can be indexed and surfaced in search results, including for troubleshooting queries. There's a common thread here: these are all part of an AI attack surface, which involves a trust boundary around shareable AI content, public mini-apps, and sponsored search placement. Threat actors are using these because they combine multiple layers of trust. AI users recognize the platform, branding, and surrounding content, which can make malicious instructions or downloads appear legitimate. These campaigns may remain active for only hours or days before the provider removes the content, but they can still attract significant attention during that window. Here's what we've seen, and what defenders need to know. FakeAgent: a Claude Artifact malvertising attack In July, we saw a campaign that hit more than 29 organizations that started with a malicious Claude Artifact publicly hosted on the legitimate Claude.ai domain. Because public artifacts can be created and shared by any user and are meant for lightweight things like demos, charts, or one-page sites, Anthropic doesn't vet their content beyond a generic disclaimer shown on every artifact page stating: "Content is user-generated and unverified." Figure 1: Claude Desktop/Cowork phishing page hosted as a Claude Artifact. Users searched for the Claude desktop app on Bing, which took them to this malicious public Claude Artifact on the actual Claude AI domain. The artifact visually impersonated a Claude Desktop / Claude Cowork download page. This appeared to be a legitimate download link for the desktop app ( ClaudeDesktop.exe ) -- but in reality, targets were redirected to an external domain ( downloading-api[.]it[.]com ), which ultimately led to the download of malware (SectopRAT). We reported the malicious Claude Artifact to Anthropic; as of publication on July 22, the public Claude Artifact had been removed. However, we continue to see incidents that come from the malicious redirect domain downloading-api[.]it[.]com , with several incidents continuing to occur through August with th
 ```
 
 #### Corroborating sources (1)
@@ -3435,22 +3521,16 @@ Home Blog The AI Attack Surface: How Threat Actors Abuse Trusted AI Platforms Pu
 - Source: Huntress (detection_response_operations)
 - Published: 2026-08-25T13:00:00+00:00
 - Link: https://www.huntress.com/blog/good-identity-hardening
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3458,12 +3538,6 @@ Home Blog The AI Attack Surface: How Threat Actors Abuse Trusted AI Platforms Pu
 
 ```
 MFA is just the starting line. Learn what mature identity hardening actually looks like, from closing MFA exceptions to catching drift before attackers do.
-```
-
-#### Full body
-
-```
-Home Blog What Good Identity Hardening Looks Like Published: August 25, 2026 What Good Identity Hardening Looks Like By: Beth Robinson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways MFA is the starting line. Attackers can steal credentials and session tokens, abuse trusted devices, or slip through forgotten MFA exceptions, so identity security needs layers beyond one login control. One exception can become the way in. Enforce MFA for every account, including executives and administrators, and give every necessary exception a named owner and expiration date. Good identity hardening stays enforced. Use device and location requirements, remove stale accounts and unnecessary admin rights, block legacy authentication, and limit access from places your business doesn't operate. Detection closes the gap prevention can't. Watch for unusual sign-ins, risky app consent, and stolen-session activity so attackers don't get to blend in as a legitimate employee. Treat identity hardening as an ongoing program. Review configuration drift, high-risk changes, privileged access, and exceptions regularly, then track the fixes and evidence of progress over time. Acknowledgments : Special thanks to Aimee Simpson and Scott Riley for their contributions to this write-up. Attackers don't really need to break into your business anymore. They can just log in as you instead. Maybe they bought a valid set of your credentials off the dark web for a few dollars. Maybe they tricked you into pasting a command into a dialog box. Maybe your session token leaked out of a browser cache. Either way, there's no need to break in when they can walk through the front door with a completely legitimate identity. Most teams think they've handled security once multi-factor authentication (MFA) is turned on, but that's just the start. Identity hardening means every control protecting an identity, a device, a session, or an app stays enforced, gets monitored continuously, and keeps pace as attackers change tactics. Here's what that actually looks like in practice, and where to start. Why is identity the easiest way in? Cybercrime is a business in one of the world's largest economies, and like any business, it's always chasing the highest return with the least effort. Identity compromise delivers both. It's cheaper and stealthier than network perimeter compromise, and once inside, it opens far more doors. With so much information shifting to cloud services, a single stolen login can open email, files, finance systems, and HR platforms in one motion. Credentials and session tokens are cheap and easy to buy, and once an attacker has them, they can move as fast as any legitimate employee. This is a result of our own doing, but not out of bad intentions. Most organizations have spent the last several years centralizing logins into a single sign-on system through Google or Microsoft Entra. That consolidation is good for convenience and even good for security in a lot of ways, but it also means a CRM, a finance platform, project management tools, email, and file storage now all sit behind the same front door. When that door gets breached, the blast radius is much bigger than it used to be. Here's how easy it actually is to steal credentials right now. Attackers trick you into running their commands, and within minutes, they've got your sensitive information. ClickFix is one example: a fake CAPTCHA "verification" prompt walks a user through pasting a command into the Windows dialog Run box. Other variants swap the lure, like a fake file or a fake download page instead of a verification check, but the mechanic stays the same. In every version, the user runs the malicious code themselves, so there's nothing unusual for a filter to flag, just an infostealer quietly installing itself and harvesting every credential and session token in the browser cache, straight into the identity behind that single sign-on. MFA is the starting line, not the finish line As
 ```
 
 #### Corroborating sources (1)
@@ -3510,6 +3584,42 @@ The ruling is part of Anthropic's legal battle against the Pentagon after the go
   - Published: 2026-08-31T09:07:01+00:00
   - Link: https://www.securityweek.com/judge-says-pentagons-measures-against-anthropic-were-illegal-and-baseless/
   - Summary: The ruling is part of Anthropic's legal battle against the Pentagon after the government labeled the company as a supply chain risk earlier this year. The post Judge Says Pentagon’s Measures Against Anthropic Were ‘Illegal and Baseless’ appeared first on SecurityWeek .
+
+### Cluster eeee9ce723 — score 8
+
+- Title: What’s new in AI infrastructure and orchestration in August
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-08-31T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/
+- Fetch status: not_attempted
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: Google Cloud
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Google Cloud, Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Welcome back to What’s new in AI infrastructure and orchestration this month , a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August would be a slow month, but nothing could be further from the truth. Read on and you’ll see what we mean. August 2026 Product, technology, and tools updates Product update: Filestore , Google Cloud’s first-party, secure, scalable NFS file service, has emerged as a popular storage platform for AI and agentic workflows, and now, it’s even better suited to the task, with a new backend storage layer built directly on Colossus , Google’s foundational distributed storage system. This new backend lets you provision IOPS independently from storage capacity, and is deeply integrated with GKE. In AI environments, this can help you service so-called agentic swarms — large groups of ag
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: What’s new in AI infrastructure and orchestration in August
+  - Published: 2026-08-31T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/
+  - Summary: Welcome back to What’s new in AI infrastructure and orchestration this month , a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August would be a slow month, but nothing could be further from the truth. Read on and you’ll see what we mean. August 2026 Product, technology, and tools updates Product update: Filestore , Google Cloud’s first-party, secure, scalable NFS file service, has emerged as a popular storage platform for AI and agentic workflows, and now, it’s even better suited to the task, with a new backend storage layer built directly on Colossus , Google’s foundational distributed storage system. This new backend lets you provision IOPS independently from storage capacity, and is deeply integrated with GKE. In AI environments, this can help you service so-called agentic swarms — large groups of ag
 
 ### Cluster 713e97e0d2 — score 8
 
@@ -3629,7 +3739,7 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published t
 - Published: 2026-08-28T22:12:02+00:00
 - Link: https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/
 - Fetch status: not_attempted
-- Member count: 11
+- Member count: 10
 - Corroborating source count: 9
 - Strong signals: Anthropic/Claude
 
@@ -3672,11 +3782,6 @@ Just a rumour of a bug is enough to find a security exploit these days Anil Madh
   - Published: 2026-08-31T12:11:58+00:00
   - Link: https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/
   - Summary: The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage. The post Anthropic Warns Claude Users of Infostealer Malware Infections appeared first on SecurityWeek .
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Anthropic locks out Claude users after infostealers hijack login sessions
-  - Published: 2026-08-31T11:30:47+00:00
-  - Link: https://www.helpnetsecurity.com/2026/08/31/claude-accounts-compromised-through-infostealer/
-  - Summary: Anthropic has started locking users out of their Claude accounts due to their login sessions having been compromised through infostealer malware. “The malware identified in this campaign so far include Vidar, Lumma (LummaC2), StealC, RedLine and Acreed on Windows, and Atomic Stealer (AMOS) on a small number of Macs,” the company said in emails sent out to affected users last week. “It’s general-purpose malware that typically arrives with an unofficial download or a malicious app, … More → The post Anthropic locks out Claude users after infostealers hijack login sessions appeared first on Help Net Security .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Anthropic warns infostealer malware is hijacking Claude sessions to drain usage
   - Published: 2026-08-30T14:30:25+00:00
@@ -3697,6 +3802,11 @@ Just a rumour of a bug is enough to find a security exploit these days Anil Madh
   - Published: 2026-08-28T09:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/window-ai-attacks-narrowing-tech/
   - Summary: More than 100 companies, including OpenAI, Anthropic, Google and Microsoft, have urged collective action to unlock the power of AI to protect critical public services
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Threat actors are posing as AI crawlers to hunt for exposed credentials
+  - Published: 2026-08-31T14:39:22+00:00
+  - Link: https://www.helpnetsecurity.com/2026/08/31/ai-crawlers-scan-exposed-credentials/
+  - Summary: Attackers are disguising automated scanning as traffic from AI crawlers operated by OpenAI, Anthropic, Google, Perplexity and other companies while searching websites for exposed credentials and configuration files, according to GreyNoise. (Source: GreyNoise) “Every program that visits a website announces itself in one line of the request. Chrome says it is Chrome. Googlebot says it is Googlebot. Anthropic’s crawler says it is ClaudeBot. Nothing in the request itself proves any of it is true,” researchers … More → The post Threat actors are posing as AI crawlers to hunt for exposed credentials appeared first on Help Net Security .
 
 ### Cluster 77567e0c10 — score 8
 
