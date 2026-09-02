@@ -6,9 +6,51 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 02 Sep 2026 20:53:56 +0000</lastBuildDate>
+<lastBuildDate>Wed, 02 Sep 2026 23:12:55 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>QR Phishing With No Image: Text-Only QR Codes for Inboxes w/ Images Disabled</title>
+<link>https://www.reddit.com/r/netsec/comments/1w5pgmk/qr_phishing_with_no_image_textonly_qr_codes_for/</link>
+<description><![CDATA[submitted by /u/redwheel82 [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Wed, 02 Sep 2026 22:32:23 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w5pgmk/qr_phishing_with_no_image_textonly_qr_codes_for/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>AI’s Vulnerability Surge May Be More Manageable Than First Feared</title>
+<link>https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared</link>
+<description><![CDATA[New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.<br/><br/><em>Tags: Anthropic/Claude · supply_chain</em>]]></description>
+<pubDate>Wed, 02 Sep 2026 21:14:06 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>Hackers exploit Sangoma Switchvox flaw to deploy reverse shells</title>
+<link>https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/</link>
+<description><![CDATA[Attackers are actively exploiting CVE-2026-9586, an unauthenticated SQL injection vulnerability in the Sangoma Switchvox VoIP platform that can lead to remote code execution. [...]<br/><br/><em>Tags: CVE-2026-9586</em>]]></description>
+<pubDate>Wed, 02 Sep 2026 21:00:13 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/hackers-exploit-sangoma-switchvox-flaw-to-deploy-reverse-shells/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-9586</category>
+</item>
+<item>
+<title>SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce</link>
+<description><![CDATA[The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor&apos;s edge devices.<br/><br/><em>Tags: SonicWall · zero_day</em>]]></description>
+<pubDate>Wed, 02 Sep 2026 20:43:59 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>SonicWall</category>
+<category>zero_day</category>
+</item>
 <item>
 <title>Managing identity source transition for AWS IAM Identity Center</title>
 <link>https://aws.amazon.com/blogs/security/managing-identity-source-transition-for-aws-iam-identity-center/</link>
@@ -18,6 +60,19 @@
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
+</item>
+<item>
+<title>Rooted in Trust: Three privilege-escalation vulnerabilities in HP Easy Start for macOS (CVE-2026-12554, CVE-2026-12555, CVE-2026-12556)</title>
+<link>https://www.reddit.com/r/netsec/comments/1w5l1j8/rooted_in_trust_three_privilegeescalation/</link>
+<description><![CDATA[Three high-severity vulnerabilities in HP Easy Start for macOS, rated CVSS 8.5, 7.7 and 7.7. The research looks at the trust boundaries around privileged components and how they can break down in practice. HP has published an advisory and released an updated version. Disclosure: I’m the researcher who reported these vulnerabilities. submitted by /u/ciphersecuritylabs [link] [comments]<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-12554 · CVE-2026-12555 · CVE-2026-12556</em>]]></description>
+<pubDate>Wed, 02 Sep 2026 19:49:38 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w5l1j8/rooted_in_trust_three_privilegeescalation/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>Apple iOS/macOS</category>
+<category>CVE-2026-12554</category>
+<category>CVE-2026-12555</category>
+<category>CVE-2026-12556</category>
 </item>
 <item>
 <title>AI Gives Cybercriminals a Dangerous Time Advantage</title>
@@ -345,14 +400,11 @@
 <item>
 <title>Nutex Health Says Patient Data Stolen, Hackers Threaten Leak</title>
 <link>https://www.infosecurity-magazine.com/news/nutex-patient-data-stolen/</link>
-<description><![CDATA[The US healthcare provider confirmed that sensitive patient and employee data, alongside financial and business information, were exfiltrated by a third party<br/><br/><em>Tags: ShinyHunters · ransomware_extortion · data_breach</em>]]></description>
+<description><![CDATA[The US healthcare provider confirmed that sensitive patient and employee data, alongside financial and business information, were exfiltrated by a third party]]></description>
 <pubDate>Wed, 02 Sep 2026 10:45:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/nutex-patient-data-stolen/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>ShinyHunters</category>
-<category>ransomware_extortion</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>OpenAI’s Astra Crosses ‘Critical’ Cyber Threshold After Finding Zero-Days</title>
@@ -920,19 +972,6 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>Nearly 22,000 Microsoft Exchange servers vulnerable to hijack attacks</title>
-<link>https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/</link>
-<description><![CDATA[Nearly 22,000 Microsoft Exchange servers exposed online remain unpatched against a high-severity authentication bypass vulnerability that allows attackers to hijack all user mailboxes. [...]<br/><br/><em>Tags: Microsoft Defender · CVE-2026-62911 · CVE-2026-42897 · ransomware_extortion · zero_day · active_exploitation</em>]]></description>
-<pubDate>Tue, 01 Sep 2026 12:38:35 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/nearly-22-000-microsoft-exchange-servers-vulnerable-to-hijack-attacks/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft Defender</category>
-<category>CVE-2026-62911</category>
-<category>CVE-2026-42897</category>
-<category>ransomware_extortion</category>
-</item>
-<item>
 <title>Off the Hook: Discovering and Observing Active Exploitation of Sangoma Switchvox CVE-2026-9586</title>
 <link>https://www.reddit.com/r/netsec/comments/1w4aj8x/off_the_hook_discovering_and_observing_active/</link>
 <description><![CDATA[submitted by /u/scopedsecurity [link] [comments]<br/><br/><em>Tags: CVE-2026-9586</em>]]></description>
@@ -1164,6 +1203,16 @@
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
 <category>AWS</category>
+</item>
+<item>
+<title>Cloud CISO Perspectives: Tips on securing the water sector in the AI era</title>
+<link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-tips-on-securing-water-sector-ai-era/</link>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for August 2026. Today, Chris Sistrunk and Stephanie Kiel detail the critical issues facing the water sector, and actionable steps that OT operators can take to secure their infrastructure. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f3905c2c250&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; Tips on securing the water sector in the AI era By Chris Sistrunk, Practice Leader, OT, Mandiant Consult<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Mon, 31 Aug 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-tips-on-securing-water-sector-ai-era/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
 </item>
 <item>
 <title>What’s new in AI infrastructure and orchestration in August</title>
@@ -1564,11 +1613,15 @@
 <item>
 <title>Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL</title>
 <link>https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html</link>
-<description><![CDATA[ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker. The company said it deployed a security update to hosted instances and provided the update to its partners and self-hosted customers, which leaves organizations that run their]]></description>
+<description><![CDATA[ServiceNow has released patches for four security flaws impacting the ServiceNow AI Platform, three of them rated 10.0 on the CVSS scoring system and exploitable, in certain circumstances, by an unauthenticated attacker. The company said it deployed a security update to hosted instances and provided the update to its partners and self-hosted customers, which leaves organizations that run their<br/><br/><em>Tags: CVE-2026-18885 · CVE-2026-18886 · CVE-2026-74820 · CVE-2026-6876 · CVE-2026-6875 · active_exploitation</em>]]></description>
 <pubDate>Fri, 28 Aug 2026 11:20:32 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>CVE-2026-18885</category>
+<category>CVE-2026-18886</category>
+<category>CVE-2026-74820</category>
+<category>CVE-2026-6876</category>
 </item>
 <item>
 <title>China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access</title>
@@ -1586,15 +1639,12 @@
 <item>
 <title>Shai-Hulud hackers: two men charged over TeamPCP’s global supply chain crime spree that hit OpenAI, and thousands more</title>
 <link>https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps</link>
-<description><![CDATA[More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP&apos;s global hacking spree. Read more in my article on the Hot for Security blog.<br/><br/><em>Tags: GitHub · npm · OpenAI/ChatGPT · TeamPCP · supply_chain</em>]]></description>
+<description><![CDATA[More than 1,000 organisations, 500,000 stolen credentials, and one self-propagating worm named after a Dune sandworm - two men now face charges over TeamPCP&apos;s global hacking spree. Read more in my article on the Hot for Security blog.<br/><br/><em>Tags: supply_chain</em>]]></description>
 <pubDate>Fri, 28 Aug 2026 10:23:57 +0000</pubDate>
 <guid isPermaLink="true">https://www.bitdefender.com/en-us/blog/hotforsecurity/shai-hulud-hackers-charged-teampcps</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
-<category>GitHub</category>
-<category>npm</category>
-<category>OpenAI/ChatGPT</category>
-<category>TeamPCP</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>PaperCut NG/MF Critical Zero-Day Exploited in the Wild</title>
@@ -2049,12 +2099,11 @@
 <item>
 <title>Smashing Security podcast #482: This hacker leaked GTA 6 – and launched their own cryptocurrency</title>
 <link>https://grahamcluley.com/smashing-security-podcast-482/</link>
-<description><![CDATA[A hacker calling themselves &quot;CYBERLEEK&quot; has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they&apos;re not asking Rockstar Games for a ransom. Instead, they&apos;ve launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of &quot;residential proxies&quot; - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[A hacker calling themselves &quot;CYBERLEEK&quot; has been leaking gameplay footage from GTA 6 ahead of its official reveal this week - but they&apos;re not asking Rockstar Games for a ransom. Instead, they&apos;ve launched their own cryptocurrency, promising to release ever more juicy clips from a virtual strip club... Meanwhile, your smart TV might be doing more than binge-watching Netflix while you sleep. We explore the shadowy world of &quot;residential proxies&quot; - how they end up inside home routers, smart TVs, and IoT devices, and why an entire criminal economy is quietly running through your internet connection. All this and more in episode 482 of the &quot;Smashing Security&quot; podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.]]></description>
 <pubDate>Wed, 26 Aug 2026 23:10:11 +0000</pubDate>
 <guid isPermaLink="true">https://grahamcluley.com/smashing-security-podcast-482/</guid>
 <source url="https://grahamcluley.com/feed/">Graham Cluley</source>
 <category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Dark Caracal Adds New Malware to Cyber Espionage Arsenal</title>
@@ -2842,6 +2891,15 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
+<title>BengalSEO Part 1: Anatomy of the Operation</title>
+<link>https://thedfirreport.com/2026/08/24/bengalseo-part-1-anatomy-of-the-operation/</link>
+<description><![CDATA[Key Takeaways The DFIR Report Offerings Check out our Products here and our Services here. Want a demo, more information on our services, pricing or just want to chat? Get in Touch Contact us today for pricing or a demo! Case Summary In March 2026, our team identified an SEO poisoning campaign leading to malware deployment […] The post BengalSEO Part 1: Anatomy of the Operation appeared first on The DFIR Report .]]></description>
+<pubDate>Mon, 24 Aug 2026 14:28:41 +0000</pubDate>
+<guid isPermaLink="true">https://thedfirreport.com/2026/08/24/bengalseo-part-1-anatomy-of-the-operation/</guid>
+<source url="https://thedfirreport.com/feed/">The DFIR Report</source>
+<category>detection_response_operations</category>
+</item>
+<item>
 <title>24th August – Threat Intelligence Report</title>
 <link>https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/</link>
 <description><![CDATA[For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people – roughly two-thirds of the country’s population – as well as 200,000 organizations. The […] The post 24th August – Threat Intelligence Report appeared first on Check Point Research .]]></description>
@@ -3471,25 +3529,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>No-Filter &apos;Kriminal&apos; AI Platform Raises Cybercrime Concerns</title>
-<link>https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns</link>
-<description><![CDATA[The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 19 Aug 2026 20:32:09 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
-<title>Agentic AI Presents New Insider Threat Model for Orgs</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model</link>
-<description><![CDATA[Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.]]></description>
-<pubDate>Wed, 19 Aug 2026 19:54:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026</title>
 <link>https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/</link>
 <description><![CDATA[Microsoft is named a visionary leader in the 2026 Frost Radar for Cloud Workload Protection Platforms, recognized for unified runtime security with Microsoft Defender for Cloud. The post Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026 appeared first on Microsoft Security Blog .]]></description>
@@ -3743,18 +3782,6 @@
 <category>Microsoft Entra</category>
 </item>
 <item>
-<title>🎥 Operation CameraSwarm: over 14,000 Dahua cameras compromised across Ukraine and Russia</title>
-<link>https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/</link>
-<description><![CDATA[An operator left their full working directory exposed on an open HTTP server. Hunt.io crawled it, 2,616 files, and rebuilt the campaign from the corpus. Three exploitation paths in parallel: an asyncio credential brute-forcer, a CVE-2021-33044/33045 auth-bypass chain, and P2P relay abuse reaching cameras by serial number The relay path never authenticates the connecting party, only the session, via a cloud-issued token obtainable with the fixed SDK credentials in every Dahua client Two CVE labels in the tooling don&apos;t hold up: CVE-2024-39943 is an unrelated Rejetto HFS flaw, and CVE-2025-31702 is a narrower post-auth case, not the unauthenticated relay abuse (that path is a separate non-CVE issue documented by ITRES) Full PTCP tunnel breakdown, including the Inverted STUN packet and the bind-to-127.0.0.1 technique Neutral attribution throughout, the corpus shows how the operation was built and run, not who ran it. Check the full breakdown, IOCs and mitigation strategies: https://hunt.io<br/><br/><em>Tags: CVE-2021-33044 · CVE-2024-39943 · CVE-2025-31702</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 17:34:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vrw3fd/operation_cameraswarm_over_14000_dahua_cameras/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2021-33044</category>
-<category>CVE-2024-39943</category>
-<category>CVE-2025-31702</category>
-</item>
-<item>
 <title>What’s in the SOSS? Podcast #69 – S3E21 Watering the Community Garden: Navigating the EU CRA for Open Source with Roman Zhukov</title>
 <link>https://openssf.org/podcast/2026/08/18/whats-in-the-soss-podcast-69-s3e21-watering-the-community-garden-navigating-the-eu-cra-for-open-source-with-roman-zhukov/</link>
 <description><![CDATA[]]></description>
@@ -3828,16 +3855,6 @@
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>Hacking your life with AI can get you hacked: How AI orchestration platforms ship RCE by design</title>
-<link>https://www.reddit.com/r/netsec/comments/1vrpmr2/hacking_your_life_with_ai_can_get_you_hacked_how/</link>
-<description><![CDATA[Author here. I audited NocoBase, Flowise, Langflow, Dify, Activepieces, Kestra, and Airflow and disclosed 14 findings. Every platform inherited the same assumption anyone who can touch a workflow is trusted to run code on the host, which is fine for a dev tool on your laptop but not fine for a multi-tenant HTTP service with an unauthenticated webhook. The chain I&apos;d point people to first is the Flowise one (section 2.2): an unauthenticated request → prompt injection → LLM emits Python → a 38-pattern regex blocklist passes it because the dangerous library was pre-imported before the model was asked anything → RCE. Two vendors closed their reports as working-as-intended, and I tried to represent their position fairly. This research was also presented at DEFCON 34 but now available publicly. Happy to answer questions. Full whitepaper is available here: https://www.endorlabs.com/learn/how-ai-orchestration-platforms-ship-rce-by-design submitted by /u/p80n-sec [link] [comments]<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 18 Aug 2026 13:45:26 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vrpmr2/hacking_your_life_with_ai_can_get_you_hacked_how/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Thousands of Hacked WordPress Sites, One Operation: Unmasking StopAndProtect</title>
@@ -17319,16 +17336,6 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
-<title>Hide Your RDP: Password Spray Leads to RansomHub Deployment</title>
-<link>https://thedfirreport.com/2025/06/30/hide-your-rdp-password-spray-leads-to-ransomhub-deployment/</link>
-<description><![CDATA[Key Takeaways Case Summary This intrusion began in November 2024 with a password spray attack targeting an internet-facing RDP server. Over the course of several hours, the threat actor attempted logins against multiple accounts using known malicious IPs (based on OSINT). Several hours later they then logged in via RDP with one of the previously […] The post Hide Your RDP: Password Spray Leads to RansomHub Deployment appeared first on The DFIR Report .<br/><br/><em>Tags: RansomHub</em>]]></description>
-<pubDate>Mon, 30 Jun 2025 00:20:06 +0000</pubDate>
-<guid isPermaLink="true">https://thedfirreport.com/2025/06/30/hide-your-rdp-password-spray-leads-to-ransomhub-deployment/</guid>
-<source url="https://thedfirreport.com/feed/">The DFIR Report</source>
-<category>detection_response_operations</category>
-<category>RansomHub</category>
-</item>
-<item>
 <title>mommy Access Broker</title>
 <link>https://www.intel471.com/blog/mommy-access-broker</link>
 <description><![CDATA[mommy Access Broker is enabling access-as-a-service operations through detailed intrusion guides and compromised credentials, and Intel 471 has released reporting and Hunt Packages to support threat hunting and detection.]]></description>
@@ -20230,7 +20237,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20240,7 +20247,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20249,7 +20256,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20258,7 +20265,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20267,7 +20274,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20276,7 +20283,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20285,7 +20292,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20294,7 +20301,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20303,7 +20310,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20312,7 +20319,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Wed, 02 Sep 2026 20:53:56 +0000</pubDate>
+<pubDate>Wed, 02 Sep 2026 23:12:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
