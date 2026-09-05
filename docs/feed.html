@@ -1,16 +1,9 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-09-05T00:47:55.852181+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-09-05T05:30:49.401956+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
   &quot;total_items&quot;: 2248,
   &quot;feed_status&quot;: {
-    &quot;Unit 42&quot;: {
-      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 3
-    },
     &quot;CrowdStrike&quot;: {
       &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -25,6 +18,20 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Unit 42&quot;: {
+      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;Microsoft Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 5
+    },
     &quot;Trend Micro Research&quot;: {
       &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -32,12 +39,12 @@
       &quot;item_count&quot;: 25,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Microsoft Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/feed/&quot;,
+    &quot;Microsoft Threat Intelligence&quot;: {
+      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 6
+      &quot;in_window_count&quot;: 3
     },
     &quot;Google Threat Analysis Group&quot;: {
       &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
@@ -45,34 +52,6 @@
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;Sekoia&quot;: {
-      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Microsoft Threat Intelligence&quot;: {
-      &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 4
-    },
-    &quot;NCSC UK&quot;: {
-      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Check Point Research&quot;: {
-      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 3
     },
     &quot;Citizen Lab&quot;: {
       &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
@@ -88,26 +67,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 3
     },
+    &quot;NCSC UK&quot;: {
+      &quot;url&quot;: &quot;https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;SANS Internet Storm Center&quot;: {
       &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
       &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 9
-    },
-    &quot;Cisco Talos&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Horizon3 Attack Research&quot;: {
-      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 7
+      &quot;in_window_count&quot;: 10
     },
     &quot;ESET WeLiveSecurity&quot;: {
       &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
@@ -116,6 +88,34 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 2
     },
+    &quot;Check Point Research&quot;: {
+      &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 3
+    },
+    &quot;Cisco Talos&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/feedburner/Talos&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Volexity&quot;: {
+      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Horizon3 Attack Research&quot;: {
+      &quot;url&quot;: &quot;https://horizon3.ai/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 7
+    },
     &quot;Recorded Future&quot;: {
       &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -123,11 +123,11 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 3
     },
-    &quot;Volexity&quot;: {
-      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+    &quot;PortSwigger Research&quot;: {
+      &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
+      &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 0
     },
     &quot;Red Canary&quot;: {
@@ -142,13 +142,6 @@
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;PortSwigger Research&quot;: {
-      &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 0
     },
     &quot;Exploit-DB&quot;: {
@@ -172,6 +165,13 @@
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 0
     },
+    &quot;The DFIR Report&quot;: {
+      &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Black Hills Information Security&quot;: {
       &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
@@ -179,12 +179,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;The DFIR Report&quot;: {
-      &quot;url&quot;: &quot;https://thedfirreport.com/feed/&quot;,
+    &quot;TrustedSec&quot;: {
+      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 2
     },
     &quot;Proofpoint Threat Insight&quot;: {
       &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
@@ -200,13 +200,6 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;TrustedSec&quot;: {
-      &quot;url&quot;: &quot;https://www.trustedsec.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 2
-    },
     &quot;Sophos X-Ops&quot;: {
       &quot;url&quot;: &quot;https://news.sophos.com/en-us/category/threat-research/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
@@ -221,19 +214,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Datadog Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 1
+    &quot;Sekoia&quot;: {
+      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
-    &quot;Orca Security Research&quot;: {
-      &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+    &quot;Google Cloud Threat Intelligence&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 3
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
     },
     &quot;AWS Security Blog&quot;: {
       &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
@@ -242,12 +235,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 7
     },
-    &quot;Permiso Security&quot;: {
-      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
+    &quot;Datadog Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Huntress&quot;: {
       &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
@@ -263,12 +256,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Google Cloud Threat Intelligence&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+    &quot;Orca Security Research&quot;: {
+      &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 3
     },
     &quot;Trail of Bits&quot;: {
       &quot;url&quot;: &quot;https://blog.trailofbits.com/feed/&quot;,
@@ -277,12 +270,26 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Permiso Security&quot;: {
+      &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Sysdig&quot;: {
       &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 4
+    },
+    &quot;Protect AI&quot;: {
+      &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Cloudflare Security&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
@@ -298,20 +305,6 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 2
     },
-    &quot;Protect AI&quot;: {
-      &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
-    &quot;Cloudflare Radar&quot;: {
-      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Google DeepMind Blog&quot;: {
       &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
@@ -324,6 +317,13 @@
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Cloudflare Radar&quot;: {
+      &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/cloudflare-radar/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
     &quot;Interconnects&quot;: {
@@ -354,13 +354,6 @@
       &quot;item_count&quot;: 5,
       &quot;in_window_count&quot;: 5
     },
-    &quot;Google Cloud Security&quot;: {
-      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 17
-    },
     &quot;BleepingComputer&quot;: {
       &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -374,6 +367,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;Google Cloud Security&quot;: {
+      &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 17
     },
     &quot;SecurityWeek&quot;: {
       &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
@@ -389,19 +389,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 0
     },
-    &quot;CyberScoop&quot;: {
-      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
-    },
     &quot;Elastic Security Labs&quot;: {
       &quot;url&quot;: &quot;https://www.elastic.co/security-labs/rss/feed.xml&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;Simon Willison&quot;: {
+      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 17
     },
     &quot;Dark Reading&quot;: {
       &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
@@ -410,12 +410,12 @@
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 24
     },
-    &quot;Simon Willison&quot;: {
-      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+    &quot;CyberScoop&quot;: {
+      &quot;url&quot;: &quot;https://cyberscoop.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 17
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
     },
     &quot;Help Net Security&quot;: {
       &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
@@ -431,27 +431,6 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;Troy Hunt&quot;: {
-      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Krebs on Security&quot;: {
-      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Reddit r/cybersecurity&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/cybersecurity/.rss&quot;,
-      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Team Cymru&quot;: {
       &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
@@ -459,8 +438,15 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 100
     },
-    &quot;Reddit r/sysadmin&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
+    &quot;Troy Hunt&quot;: {
+      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Reddit r/cybersecurity&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/cybersecurity/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -473,15 +459,15 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;The Hacker News&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+    &quot;Graham Cluley&quot;: {
+      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 47
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 2
     },
-    &quot;Reddit r/netsecstudents&quot;: {
-      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
+    &quot;Reddit r/sysadmin&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
@@ -494,6 +480,13 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
+    &quot;Reddit r/netsecstudents&quot;: {
+      &quot;url&quot;: &quot;https://www.reddit.com/r/netsecstudents/.rss&quot;,
+      &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Reddit r/AskNetsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
@@ -501,12 +494,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Graham Cluley&quot;: {
-      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
+    &quot;Krebs on Security&quot;: {
+      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 2
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Intel 471&quot;: {
       &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
@@ -514,6 +507,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;The Hacker News&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/TheHackersNews&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 47
     },
     &quot;Infosecurity Magazine&quot;: {
       &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
@@ -800,16 +800,16 @@
       &quot;cluster_ids&quot;: [
         &quot;6a5c697136&quot;,
         &quot;71ed2ba3b0&quot;,
-        &quot;d8c893e316&quot;,
-        &quot;7c42269e48&quot;
+        &quot;7c42269e48&quot;,
+        &quot;d8c893e316&quot;
       ],
       &quot;links&quot;: [
         &quot;https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/&quot;,
         &quot;https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/&quot;,
+        &quot;https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window&quot;,
         &quot;https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure&quot;,
         &quot;https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/&quot;,
-        &quot;https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest&quot;,
-        &quot;https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window&quot;
+        &quot;https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest&quot;
       ]
     },
     {
@@ -851,20 +851,24 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;SonicWall vulnerability activity&quot;,
+      &quot;label&quot;: &quot;SonicWall active exploitation&quot;,
       &quot;anchor_signal&quot;: &quot;SonicWall&quot;,
       &quot;theme_key&quot;: &quot;sonicwall&quot;,
       &quot;dominant_features&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;active_exploitation&quot;
+        ],
         &quot;affected_products&quot;: [
           &quot;SonicWall&quot;
         ],
         &quot;urgency_signals&quot;: [
-          &quot;poc_available&quot;
+          &quot;actively_exploited&quot;,
+          &quot;preauth_unauth&quot;
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 8,
-      &quot;cohesion&quot;: 0.2,
+      &quot;article_count&quot;: 9,
+      &quot;cohesion&quot;: 0.4,
       &quot;shared_strong_signals&quot;: [
         &quot;SonicWall&quot;
       ],
@@ -872,7 +876,7 @@
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
         &quot;12b308ba06&quot;,
-        &quot;9c592ec392&quot;
+        &quot;8370077906&quot;
       ],
       &quot;links&quot;: [
         &quot;https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild&quot;,
@@ -881,13 +885,14 @@
         &quot;https://cyberscoop.com/sonicwall-sma1000-zero-days-actively-exploited/&quot;,
         &quot;https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html&quot;,
         &quot;https://www.sophos.com/en-us/blog/sonicwall-83548-83549&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/&quot;
+        &quot;https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise&quot;,
+        &quot;https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html&quot;
       ]
     },
     {
-      &quot;label&quot;: &quot;CVE-2026-2441 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-2441&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-2441&quot;,
+      &quot;label&quot;: &quot;CVE-2026-3909 exploitation activity&quot;,
+      &quot;anchor_signal&quot;: &quot;CVE-2026-3909&quot;,
+      &quot;theme_key&quot;: &quot;cve-2026-3909&quot;,
       &quot;dominant_features&quot;: {
         &quot;threat_categories&quot;: [
           &quot;zero_day&quot;,
@@ -908,7 +913,7 @@
       &quot;article_count&quot;: 4,
       &quot;cohesion&quot;: 0.533,
       &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-2441&quot;
+        &quot;CVE-2026-3909&quot;
       ],
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
@@ -999,9 +1004,9 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;CVE-2026-3909 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-3909&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-3909&quot;,
+      &quot;label&quot;: &quot;CVE-2026-2441 exploitation activity&quot;,
+      &quot;anchor_signal&quot;: &quot;CVE-2026-2441&quot;,
+      &quot;theme_key&quot;: &quot;cve-2026-2441&quot;,
       &quot;dominant_features&quot;: {
         &quot;threat_categories&quot;: [
           &quot;zero_day&quot;,
@@ -1022,7 +1027,7 @@
       &quot;article_count&quot;: 4,
       &quot;cohesion&quot;: 0.533,
       &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-3909&quot;
+        &quot;CVE-2026-2441&quot;
       ],
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
@@ -1037,35 +1042,33 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;phishing social eng targeting Microsoft Defender&quot;,
-      &quot;anchor_signal&quot;: &quot;Microsoft Defender&quot;,
-      &quot;theme_key&quot;: &quot;microsoft-defender&quot;,
+      &quot;label&quot;: &quot;CVE-2026-82078 exploitation activity&quot;,
+      &quot;anchor_signal&quot;: &quot;CVE-2026-82078&quot;,
+      &quot;theme_key&quot;: &quot;cve-2026-82078&quot;,
       &quot;dominant_features&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;
+        &quot;cve_ids&quot;: [
+          &quot;CVE-2026-81578&quot;,
+          &quot;CVE-2026-82078&quot;
         ],
-        &quot;affected_products&quot;: [
-          &quot;Microsoft Defender&quot;
+        &quot;urgency_signals&quot;: [
+          &quot;preauth_unauth&quot;
         ]
       },
-      &quot;cluster_count&quot;: 3,
-      &quot;article_count&quot;: 8,
-      &quot;cohesion&quot;: 0.217,
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 2,
+      &quot;cohesion&quot;: 0.231,
       &quot;shared_strong_signals&quot;: [
-        &quot;Microsoft Defender&quot;
+        &quot;CVE-2026-82078&quot;
       ],
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
-        &quot;1946cdc3c5&quot;,
-        &quot;2e696487bb&quot;,
-        &quot;9c592ec392&quot;
+        &quot;042208bf73&quot;,
+        &quot;e57f34f6e2&quot;
       ],
       &quot;links&quot;: [
-        &quot;https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/&quot;,
-        &quot;https://thehackernews.com/2026/09/fake-software-installers-disable.html&quot;,
-        &quot;https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/&quot;,
-        &quot;https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/&quot;
+        &quot;https://horizon3.ai/attack-research/vulnerabilities/cve-2026-81578-cve-2026-82078/&quot;,
+        &quot;https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/&quot;
       ]
     },
     {
@@ -1099,33 +1102,30 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;CVE-2026-82078 exploitation activity&quot;,
-      &quot;anchor_signal&quot;: &quot;CVE-2026-82078&quot;,
-      &quot;theme_key&quot;: &quot;cve-2026-82078&quot;,
+      &quot;label&quot;: &quot;Apple iOS/macOS vulnerability activity&quot;,
+      &quot;anchor_signal&quot;: &quot;Apple iOS/macOS&quot;,
+      &quot;theme_key&quot;: &quot;apple-ios-macos&quot;,
       &quot;dominant_features&quot;: {
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-81578&quot;,
-          &quot;CVE-2026-82078&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;preauth_unauth&quot;
+        &quot;affected_products&quot;: [
+          &quot;Apple iOS/macOS&quot;
         ]
       },
       &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 2,
-      &quot;cohesion&quot;: 0.231,
+      &quot;article_count&quot;: 4,
+      &quot;cohesion&quot;: 0.2,
       &quot;shared_strong_signals&quot;: [
-        &quot;CVE-2026-82078&quot;
+        &quot;Apple iOS/macOS&quot;
       ],
       &quot;member_cves&quot;: [],
       &quot;also_targets&quot;: [],
       &quot;cluster_ids&quot;: [
-        &quot;042208bf73&quot;,
-        &quot;e57f34f6e2&quot;
+        &quot;5ff343317a&quot;,
+        &quot;0a5e1245be&quot;
       ],
       &quot;links&quot;: [
-        &quot;https://horizon3.ai/attack-research/vulnerabilities/cve-2026-81578-cve-2026-82078/&quot;,
-        &quot;https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/&quot;
+        &quot;https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/&quot;,
+        &quot;https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html&quot;,
+        &quot;https://securelist.com/mirage-kitten-new-backdoors-noderabbit-pollcat/121244/&quot;
       ]
     }
   ],
@@ -1273,24 +1273,6 @@
         ]
       },
       {
-        &quot;actor&quot;: &quot;UNC3886&quot;,
-        &quot;cluster_id&quot;: &quot;c1f52c0381&quot;,
-        &quot;new_industries&quot;: [
-          &quot;telecommunications&quot;
-        ],
-        &quot;new_products&quot;: [],
-        &quot;prior_top_industries&quot;: [
-          &quot;critical_infrastructure&quot;,
-          &quot;financial_services&quot;,
-          &quot;government&quot;
-        ],
-        &quot;prior_top_products&quot;: [
-          &quot;Cisco&quot;,
-          &quot;Fortinet&quot;,
-          &quot;Google Cloud&quot;
-        ]
-      },
-      {
         &quot;actor&quot;: &quot;LockBit&quot;,
         &quot;cluster_id&quot;: &quot;439827e1a6&quot;,
         &quot;new_industries&quot;: [],
@@ -1306,6 +1288,24 @@
           &quot;GitLab&quot;,
           &quot;Gitea&quot;,
           &quot;OpenAI/ChatGPT&quot;
+        ]
+      },
+      {
+        &quot;actor&quot;: &quot;UNC3886&quot;,
+        &quot;cluster_id&quot;: &quot;c1f52c0381&quot;,
+        &quot;new_industries&quot;: [
+          &quot;telecommunications&quot;
+        ],
+        &quot;new_products&quot;: [],
+        &quot;prior_top_industries&quot;: [
+          &quot;critical_infrastructure&quot;,
+          &quot;financial_services&quot;,
+          &quot;government&quot;
+        ],
+        &quot;prior_top_products&quot;: [
+          &quot;Cisco&quot;,
+          &quot;Fortinet&quot;,
+          &quot;Google Cloud&quot;
         ]
       },
       {
@@ -1359,6 +1359,12 @@
       },
       {
         &quot;axis&quot;: &quot;cve_ids&quot;,
+        &quot;value&quot;: &quot;CVE-2025-3248&quot;,
+        &quot;cluster_id&quot;: &quot;8370077906&quot;,
+        &quot;weeks_observed&quot;: 6
+      },
+      {
+        &quot;axis&quot;: &quot;cve_ids&quot;,
         &quot;value&quot;: &quot;CVE-2026-55040&quot;,
         &quot;cluster_id&quot;: &quot;71ed2ba3b0&quot;,
         &quot;weeks_observed&quot;: 5
@@ -1389,14 +1395,14 @@
       },
       {
         &quot;axis&quot;: &quot;actor_attribution&quot;,
-        &quot;value&quot;: &quot;RansomHub&quot;,
-        &quot;cluster_id&quot;: &quot;fc5c9992d3&quot;,
+        &quot;value&quot;: &quot;Kimsuky&quot;,
+        &quot;cluster_id&quot;: &quot;93a2320bbc&quot;,
         &quot;weeks_observed&quot;: 4
       },
       {
         &quot;axis&quot;: &quot;actor_attribution&quot;,
-        &quot;value&quot;: &quot;Kimsuky&quot;,
-        &quot;cluster_id&quot;: &quot;93a2320bbc&quot;,
+        &quot;value&quot;: &quot;RansomHub&quot;,
+        &quot;cluster_id&quot;: &quot;fc5c9992d3&quot;,
         &quot;weeks_observed&quot;: 4
       },
       {
@@ -1409,12 +1415,6 @@
         &quot;axis&quot;: &quot;cve_ids&quot;,
         &quot;value&quot;: &quot;CVE-2026-3055&quot;,
         &quot;cluster_id&quot;: &quot;6a5c697136&quot;,
-        &quot;weeks_observed&quot;: 3
-      },
-      {
-        &quot;axis&quot;: &quot;cve_ids&quot;,
-        &quot;value&quot;: &quot;CVE-2026-63520&quot;,
-        &quot;cluster_id&quot;: &quot;71ed2ba3b0&quot;,
         &quot;weeks_observed&quot;: 3
       }
     ],
@@ -1564,16 +1564,10 @@
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;ransomware_extortion&quot;,
           &quot;data_breach&quot;
         ],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;healthcare&quot;,
-          &quot;financial_services&quot;,
-          &quot;government&quot;,
-          &quot;legal_professional&quot;
-        ],
+        &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
@@ -1586,9 +1580,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;IDScan sued over alleged data breach affecting 153 million drivers By Bill Toulas September 4, 2026 12:56 PM 0 Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver’s licenses. Several law firms, including Markovits, Stock &amp; DeMarco , and Hall Attorneys , have also launched investigations into potential class-action litigation related to the reported security incident at IDScan. Brian Krebs originally reported on September 1 that a dark-web identity-theft service called “Nexus” advertised access to more than 153 million U.S. and Canadian driver’s license scans, 10 million ID cards, 3 million travel documents, and 579,000 medical cards. Krebs verified the samples by searching the database for his own records and those of other individuals who had consented to the checks, and tracked the leak to IDScan. IDScan is an identity verification technology company that provides hardware and software solutions for businesses to scan, authenticate, and extract information from government-issued identity documents. Its systems are used across the U.S. in car rental firms, retailers, gun shops, financial institutions, cannabis dispensaries, and hospitality establishments. The company has not published any statements about these allegations, and it did not respond to BleepingComputer’s requests for comments. Currently, it is unclear if IDScan&#x27;s systems were compromised or the number of impacted individuals. Krebs also reported that the FBI’s New Orleans office has launched an investigation into the incident, which Reuters also confirmed independently. The agency has also confirmed for BleepingComputer that it is looking into the incident. However, the FBI declined any further comment due to the ongoing nature of the investigation. The illegal service Nexus is no longer online. However, cybercriminals still have access to the database. BleepingComputer learned that the service included documents belonging to U.S. Secretary of Defense Pete Hegseth and an assistant director of the FBI, but we could not verify the information. The lawsuits were filed in Louisiana, where IDScan is based, and allege that IDScan failed to protect information from its clients, such as global car rental company Hertz. According to Markovits, Stock &amp; DeMarco, IDScan has started to notify some business customers around September 1st. The law firm says people whose IDs were scanned through businesses using IDScan&#x27;s systems may be affected, and is seeking potential claimants for a possible class-action case. Given the incident’s potential scale, additional lawsuits—including potential class actions—could be filed, and related cases could eventually be consolidated into multidistrict litigation. State attorneys general and federal regulators could launch separate investigations or enforcement actions, as it has happened with similar-scale data exposures in the recent past, including for 23andMe , Marriott , and Equifax . Update [September 4, 14:50 EST]: Article edited to include FBI&#x27;s confirmation that the incident is being investigated. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: French hospital fined €500,000 after breach exposes data of 727,000 FulcrumSec claims Manchester Airports hack, theft of 86 GB of data ExfilSquad hackers leak info of over 100,000 UK police officers, staff Coca-Cola confirms data theft in Fairlife ransomware attack DentaQuest data breach exposed info of 2.6 million accounts&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 9
     },
     {
       &quot;source&quot;: &quot;Schneier on Security&quot;,
@@ -1616,7 +1608,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 7
+      &quot;score&quot;: 6
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -1644,7 +1636,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -1693,7 +1685,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 11,
+      &quot;score&quot;: 10,
       &quot;full_body&quot;: &quot;Hewlett Packard Enterprise (HPE) has released patches for 34 CVEs in the Aruba Networking ArubaOS-CX (AOS-CX) platform, including critical-severity remote code execution (RCE) flaws. Per HPT’s advisory , more than 150 flaws were resolved in AOS-CX versions 10.18.1002, 10.17.1030, 10.16.1060, 10.13.1190, and 10.10.1181. Many of these bugs are tracked together under single CVEs. Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The critical security defects are rooted in the improper processing of malformed input sent to an unnamed service within HPE’s database-centric operating system for enterprise switches. According to the company, an unauthenticated attacker could exploit the security defects by sending crafted packets to the vulnerable service, achieving RCE with elevated privileges. The fresh updates also resolve 22 high-severity CVEs that could lead to denial-of-service (DoS), RCE, arbitrary command execution, arbitrary script code execution in a victim’s browser, authentication bypass, privilege escalation, and information disclosure. Advertisement. Scroll to continue reading. All the remaining 11 CVEs are medium-severity flaws leading to access controls bypass, information disclosure, arbitrary file reads, DoS, and privilege escalation. HPE says the majority of these vulnerabilities were discovered internally by its security team, noting that it is not aware of any of them being exploited in the wild. “To minimize the likelihood of an attacker exploiting these vulnerabilities, HPE Networking recommends that the CLI and web-based management interfaces be restricted to a dedicated layer 2 segment/VLAN and/or controlled by firewall policies at layer 3 and above along with accounting controls for tracking and logging user activities and resource usage,” the company notes. Related: Sangoma Switchvox Vulnerabilities Exploited in the Wild Related: VMware Workstation and Fusion Updates Patch Critical Vulnerability Related: Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents Related: Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal HiddenLayer Raises $100 Million for AI Runtime Security 153 Million Driver License Images Offered on Dark Web Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities Exploit Published for Fresh Cleo Harmony Vulnerability Malicious Virtualizor Update Served via BGP Hijacking Chrome and Firefox Updates Patch Dozens of Vulnerabilities Latest News In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders Sangoma Switchvox Vulnerabilities Exploited in the Wild 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover Catch Raises $5 Million for AI Executive Assistant With Guardrails VMware Workstation and Fusion Updates Patch Critical Vulnerability Google Patches 6th Chrome Zero-Day of 2026 Nvidia Is Buying AI Platform Hugging Face for $13 Billion Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security programs. Regi&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -1729,7 +1721,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -1757,7 +1749,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -1789,7 +1781,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;Reddit r/netsec&quot;,
@@ -1817,7 +1809,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 4
+      &quot;score&quot;: 3
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -1865,7 +1857,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 22,
+      &quot;score&quot;: 21,
       &quot;full_body&quot;: &quot;Critical Citrix NetScaler auth bypass now leveraged in attacks By Sergiu Gatlan September 4, 2026 11:25 AM 0 Attackers have begun targeting a critical-severity Citrix NetScaler flaw in the wild, according to vulnerability intelligence company Previdian. Tracked as CVE-2026-19490 , this security flaw can allow unprivileged threat actors to bypass authentication remotely when the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy), depending on the NetScaler firmware version and whether SAML Action is configured. \&quot;We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin , assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible,\&quot; Citrix warned in mid-August when it addressed the flaw and urged admins to patch it as soon as possible . While the company has yet to flag the vulnerability as actively exploited in its August 19 security advisory , Previdian founder and security researcher Ryan Dewhurst told BleepingComputer on Thursday that attackers have begun targeting CVE-2026-19490 in the wild after a \&quot;credible\&quot; proof-of-concept exploit was published online. \&quot;On 3 September, one of our NetScaler sensors received requests matching the PoC from three distinct source IPs, geolocated to Australia, the United States and Germany,\&quot; Dewhurst told BleepingComputer. \&quot;Our current assessment is that this provides evidence of exploitation attempts, but it does not confirm successful compromise of real-world systems.\&quot; The Centre for Cybersecurity Belgium, the country&#x27;s National Cybersecurity Coordination Centre for Belgium (NCC-BE), also warned on Friday of exploitation attempts targeting the CVE-2026-19490 vulnerability and urged admins to prioritize patching all vulnerable Citrix NetScaler appliances on their organizations&#x27; networks. Although Internet threat watchdog Shadowserver tracks over 22,000 NetScaler ADC appliances and nearly 1,700 Gateway instances exposed online, there is no information on how many are honeypots, have vulnerable configurations, or have already been patched against CVE-2026-19490 attacks. Citrix urged admins to patch two other NetScaler flaws ( CVE-2026-3055 and CVE-2026-4368 ) in March, just days before threat actors began exploiting them in attacks . The Cybersecurity and Infrastructure Security Agency (CISA) added the CVE-2026-3055 flaw to its catalog of actively exploited vulnerabilities one week later and ordered federal agencies to patch vulnerable Citrix appliances within three days. Since November 2021, the U.S. cybersecurity agency has tagged 23 Citrix vulnerabilities as exploited in the wild, six of which have also been abused by ransomware gangs. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday Citrix urges admins to patch new NetScaler flaws as soon as possible Hackers leverage new Microsoft SharePoint exploit in attacks Hackers exploit critical JFrog Artifactory flaw to forge admin tokens Hackers target WordPress sites in miniOrange auth bypass attacks&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -1897,7 +1889,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -1927,7 +1919,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -1955,7 +1947,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Record&quot;,
@@ -1983,7 +1975,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -2018,7 +2010,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 19
+      &quot;score&quot;: 18
     },
     {
       &quot;source&quot;: &quot;BleepingComputer&quot;,
@@ -2032,40 +2024,25 @@
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;,
-          &quot;ddos&quot;
+          &quot;zero_day&quot;
         ],
         &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;legal_professional&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;SonicWall&quot;,
-          &quot;Microsoft BitLocker&quot;,
-          &quot;Microsoft Defender&quot;
-        ],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
         &quot;attack_techniques&quot;: [],
         &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;,
-          &quot;poc_available&quot;
+          &quot;zero_day&quot;
         ],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {
-          &quot;SonicWall&quot;: &quot;target&quot;,
-          &quot;Microsoft BitLocker&quot;: &quot;target&quot;,
-          &quot;Microsoft Defender&quot;: &quot;target&quot;,
-          &quot;Microsoft Windows&quot;: &quot;target&quot;
-        },
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;New CrowdStrike &#x27;FalconFlank&#x27; zero-day grants SYSTEM privileges By Sergiu Gatlan September 4, 2026 09:22 AM 0 An anonymous security researcher who uses the \&quot; Nightmare Eclipse \&quot; handle released a CrowdStrike Falcon zero-day exploit named \&quot; FalconFlank \&quot; that lets attackers escalate privileges on up-to-date Windows systems. Nightmare Eclipse says the new vulnerability (which has yet to be assigned a CVE ID) affects devices running the latest versions of Windows 11 and Windows Server, as well as CrowdStrike&#x27;s endpoint security platform. Successful exploitation allows attackers to spawn a command prompt with SYSTEM privileges by abusing CrowdStrike Falcon&#x27;s Office malicious macros remediation feature. \&quot;FalconFlank is a 0day privilege escalation that abuses the office malicious macros remediation in Crowdstrike Falcon Sensor, obviously by the time I drop this Crowdstrike would already have detections for it so if you want to test you either have to add it to the exclusions or obfuscate the PoC and change the dll load technique,\&quot; Nightmare Eclipse said . \&quot;As of now it works in a fully updated windows 11 25H2 / Windows Server 2025 with Crowdstrike Falcon.\&quot; When BleepingComputer asked for more details about this vulnerability, a CrowdStrike spokesperson said the company is investigating the researcher&#x27;s claims and advised customers to disable the Microsoft Office Windows policy setting that toggles the security software&#x27;s File Suspicious Macro Removal feature. \&quot;We are actively investigating these claims and advise customers to disable the Microsoft Office File Suspicious Macro Removal Windows policy setting,\&quot; the spokesperson told BleepingComputer. \&quot;Customers remain protected through the Cloud Anti-malware for Microsoft Office Files settings. We refer customers to the FalconFlank Tech Alert in the CrowdStrike support portal.\&quot; Although the company also shared this link to the tech alert regarding the FalconFlank zero-day exploit, the advisory is not public, and customers can access it only if they have an account on CrowdStrike&#x27;s support portal. CrowdStrike has yet to reply to a second email asking for a copy of the FalconFlank tech alert and whether a CVE ID has been assigned to the FalconFlank flaw. Kaspersky, Avast, Nvidia, and Microsoft zero-days This week, Nightmare Eclipse has also released privilege escalation zero-day exploits for Kaspersky Antivirus for Endpoint (named HardBreacher ) and GenDigital Avast Antivirus ( PrettyPrague ), as well as a denial-of-service zero-day for Nvidia (named GreenSection ) that will crash the system. Cybersecurity expert Kevin Beaumont confirmed on Thursday that the privilege escalation exploits released by Nightmare Eclipse this week are real and work. Nightmare Eclipse has also disclosed multiple zero-day exploits targeting multiple Microsoft products since April, including Microsoft Defender, BitLocker, and various other Windows components. These Microsoft zero-days are known as LegacyHive , RoguePlanet , BlueHammer , RedSun , YellowKey , GreenPlasma , MiniPlasma , and UnDefend . While the LegacyHive, RoguePlanet, YellowKey, GreenPlasma, and MiniPlasma flaws have since been fixed, the other security flaws remain zero-days and are still awaiting an official patch. After Nightmare Eclipse disclosed the first zero-days, Microsoft responded with warnings of legal action against people engaging in \&quot;malicious activity causing real harm to our customers,\&quot; prompting many to believe that the company was directly threatening the security researcher. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: Sonicwall warns of new SMA1000 zero-day exploited in attacks Nearly 22,000 Mi&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 9
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2093,7 +2070,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2129,7 +2106,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 13,
+      &quot;score&quot;: 12,
       &quot;full_body&quot;: &quot;Will Thomas 5 min read March 2, 2026 Tracking CyberStrikeAI Usage Team Cymru is continuously monitoring our global netflow visibility to uncover patterns of adversary activity, identify malicious operations, and gain actionable intelligence. In this post, we are diving into CyberStrikeAI, an open-source artificial intelligence (AI) offensive security tool (OST) developed by a China-based developer who we assess has some ties to the Chinese government. What is CyberStrikeAI? In its own words from the GitHub repository (see here ), “CyberStrikeAI is an AI-native security testing platform built in Go. It integrates 100+ security tools, an intelligent orchestration engine, role-based testing with predefined security roles, a skills system with specialized testing skills, and comprehensive lifecycle management capabilities.” CyberStrikeAI comes with its own dashboard that helps users quickly understand the platform&#x27;s core features and current state, as shown in Figure 1 below. Figure 1: CyberStrikeAI Dashboard from GitHub CyberStrikeAI was first brought to our attention following the Amazon CTI team’s blog about AI-augmented threat actor infrastructure they had discovered. Amazon shared this related IP 212.11.64[.]250. Analysis of that IP address in Team Cymru Scout’s open port scan data revealed that it had this “CyberStrikeAI” banner running on this service, as shown in Figure 2 below. Figure 2: The CyberStrikeAI port banner in Team Cymru Scout. Identifying Targeting with NetFlow Using Team Cymru Scout, we can find NetFlow communications between the IP shared by Amazon and its targets, such as the Fortinet FortiGate devices it was observed targeting, as shown in Figure 3 below. Figure 3. IP address running CyberStrikeAI targeting a Fortinet FortiGate device. Researching Ed1s0nZ While researching the GitHub profile (see here ) of CyberStrikeAI’s developer, “Ed1s0nZ”, several attributes about the individual caught our attention. Firstly, Ed1s0nZ’s other GitHub repositories suggest interest in exploitation activity: watermark-tool: A secure and efficient invisible document watermarking solution that can add completely invisible digital watermarks to various documents, while supporting watermark extraction and verification. Developed in Go, it supports both web and CLI usage. The watermark uses steganography technology to ensure that the watermark is completely invisible and does not affect the reading experience and visual effects of the original document. PrivHunterAI: This tool uses a passive proxy approach and mainstream AI (such as Kimi, DeepSeek, GPT, etc.) to detect privilege escalation vulnerabilities. Its core detection function is built on the open APIs of the relevant AI engines and supports data transmission and interaction via HTTPS protocol. InfiltrateX: A useful privilege escalation scanning tool. While automated detection of privilege escalation vulnerabilities is difficult, prone to occur, and poses serious risks, it can still strive to automate the detection of some such vulnerabilities. Further, Ed1s0nZ’s GitHub activities indicate they interact with organisations that support potentially Chinese government state-sponsored cyber operations. This includes Chinese private sector firms that have known ties to the Chinese Ministry of State Security (MSS). A number of GitHub activities potentially link Ed1s0nZ to the Chinese state-sponsored cyber operations. On 19 December 2025, Ed1s0nZ posted CyberStrikeAI to Knownsec 404’s Starlink Project, as shown in Figure 4 below. Based on published reporting by DomainTools and others, Knownsec does work for the MSS and the Chinese People’s Liberation Army (PLA). Figure 4. Ed1s0nZ’s post sharing CyberStrikeAI to Knownsec 404’s Starlink Project. Further, on 5 January 2026, Ed1s0nZ added to their GitHub profile “CNNVD（国家信息安全漏洞） 2024 年度漏洞奖励计划 · 二级贡献奖（个人). Translation: CNNVD (Chinese National Vulnerability Database) 2024 Vulnerability Reward Program - Level 2 Contribution Award (Indiv&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2169,7 +2146,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 12,
+      &quot;score&quot;: 11,
       &quot;full_body&quot;: &quot;Will Thomas 5 min read March 5, 2026 GRIMBOLT C2 Infrastructure Recon: Pivoting From One IP to a Mapped Cluster Analysing and pivoting on threat actor infrastructure is a useful technique to uncover additional indicators that could be used to detect an evasive adversary. This process can take multiple approaches. CTI analysts often develop their own methodologies and workflows with preferred datasets to perform this type of analysis. The effectiveness of this practice also depends on what is available to the CTI analysts who do this work and it often involves combining multiple data sources together. This includes WHOIS data, Port Banners, X509 certificates, and passive DNS records, as well as internet NetFlow analysis. This blog is a walkthrough of how it is possible to start with one IP address from a trusted source and uncover a set of potentially related infrastructure. By peering into the adversary’s other activities, it can be possible to find additional victims of the campaign or even the adversary remotely accessing their victim-facing infrastructure using Team Cymru’s external NetFlow data. Overall, this infrastructure pivoting is a practical workflow that CTI analysts can perform to support proactive threat hunting in historical logs as well as generate detection rules to alert a security operations center (SOC) about any future connections and attempts by an adversary. UNC6201 + GRIMBOLT: Starting From a Known-Bad IP Infrastructure pivoting can begin with initial indicators of compromise (IOCs) that are reported by a trusted source. In this blog, the trusted source is Google, which disclosed a recent campaign about a “suspected PRC-nexus threat cluster” dubbed UNC6201 and sharing the IP address 149.248.11[.]71. Google designated this as a GRIMBOLT malware command-and-control (C2) server. The UNC6201 campaign involved the exploitation of a critical zero-day vulnerability in Dell RecoverPoint for Virtual Machines tracked as CVE-2026-22769 , as well as the deployment of a newly identified malware dubbed GRIMBOLT, written in C#. This campaign has reportedly been ongoing for nearly two years, indicating a long-term espionage operation focusing on persistent access. Interestingly, Google observed UNC6201-linked threat actors actively replacing older BRICKSTORM binaries with GRIMBOLT. Google reported that there are notable overlaps between UNC6201 and UNC5221 , which has been used synonymously with the moniker Silk Typhoon (formerly known as HAFNIUM ) by Microsoft. However, Google does not currently consider the two clusters to be the same. Further, the BRICKSTORM malware operators are also tracked as WARP PANDA by CrowdStrike. Building an IP Profile in Scout (WHOIS, PDNS, Ports, X509) Using a Scout summary, we can view the current attributes about the IP address. This includes WHOIS records, generated by Team Cymru’s BGP routing visibility as well as Team Cymru’s proprietary Tagging system, as shown in Figure 1 below. Figure 1: Scout Summary for 149.248.11[.]71. Scout also has current and historical passive DNS records, which shows what domain is hosted on an IP address, the record type, as well as the first seen and last seen dates, as shown in Figure 2 below. Figure 2: IP Passive DNS in Scout for 149.248.11[.]71. Analysts can use the Open Ports tab in Scout to find out what services running on the system as well as which operating system (OS) it uses, as shown in Figure 3 below. Figure 3: IP Port Banners in Scout for 149.248.11[.]71. X509 certificate information in Scout reveals interesting traits, such as the X509 Subject Common Name and X509 Issuer Common Name being a NetBIOS hostname derived from some sort of Windows template used by either a threat actor or VPS provider. This can be used to identify other systems controlled by the adversary. The X509 certificate’s Not Before and Not After dates are also very useful to understand when the system was configured by an adversary. See these details in Figure 4 below. Fig&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2201,7 +2178,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2232,7 +2209,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2271,7 +2248,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 12,
+      &quot;score&quot;: 11,
       &quot;full_body&quot;: &quot;Eli Woodward 5 min read August 12, 2026 Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days PART I Operational Profile and Campaign Analysis 1. The MFT Targeting Pattern Cl0p’s defining operational characteristic is a sustained and systematic focus on managed file transfer infrastructure. Across nine known campaigns, the group has targeted Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere MFT, PaperCut MF/NG, Progress MOVEit Transfer, SysAid ITSM, Cleo MFT (Harmony, VLTrader, LexiCom), Oracle E-Business Suite, and Gladinet Centrestack/TrioFox. With the partial exception of PaperCut (a print management server) and SysAid (an IT service management platform), every target shares a common architectural profile: an internet-facing application that processes, stores, or transfers files. This targeting consistency is significant for two reasons. First, it indicates strategic specialization rather than opportunistic exploitation. The group has invested in developing or acquiring zero-day capabilities specifically for this product category, deploying novel exploits in seven of nine campaigns. Second, it defines a bounded, defensible attack surface. Organizations that operate MFT infrastructure can identify themselves as potential targets and implement category-specific protections — a defensive advantage that is uncommon against most ransomware groups. Figure 1: Complete Cl0p campaign history, 2020–2025 ‍ 2. Exploitation Timeline The chronological record of Cl0p campaigns reveals a distinctive operational tempo characterized by extended dormancy periods punctuated by concentrated bursts of activity. Figure 2: Campaign timeline with inter-campaign intervals ‍ Several patterns merit attention. The group’s longest dormancy period — approximately 14 months between the SolarWinds Serv-U exploitation in late 2021 and the Fortra GoAnywhere campaign in January 2023 — was followed by its most active phase: four distinct campaigns across four separate technologies in ten months (January through October 2023). This burst-and-pause cadence suggests a development cycle in which the group acquires or develops exploits, executes campaigns in rapid succession, and then withdraws to prepare for the next cycle. The inter-campaign intervals since 2023 have been notably consistent, ranging from 10 to 14 months between major operations. This periodicity, while not perfectly predictable, provides a rough forecasting baseline. As of mid-2026, the group’s last confirmed campaign (Centrestack, November 2025) was approximately eight months ago — suggesting the next operational cycle may be approaching. 3. Seasonal Clustering: The Q4 Pattern Figure 3: Cl0p campaigns by quarter — Q4 exceeds all other quarters combined When campaigns are mapped by calendar quarter, Q4 emerges as the dominant operational window. Five of nine confirmed campaigns were initiated during October through December — more than all other quarters combined. This clustering is operationally rational: Q4 coincides with major holidays in the United States and Europe (Thanksgiving, Christmas, New Year), periods when security operations centers are typically operating at reduced capacity and organizational response times are extended. The Centrestack campaign provides the most explicit example. Initial compromises occurred on Thanksgiving Day 2025 (November 27), a date that maximized the gap between initial access and organizational detection. This seasonal preference should be treated as a high-confidence behavioral indicator for defensive planning purposes. 4. Pre-Attack Reconnaissance One of the most strategically significant findings in this analysis is the extent to which Cl0p conducts advance reconnaissance against eventual targets. This behavior has been confirmed in at least two campaigns and is assessed as likely present but undetected in others. 4.1 MOVEit: Two Years of Pre-Attack Scanning Following the MOVEit exploitation in May 2023, Kroll published research documenting reconnais&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2303,7 +2280,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2331,7 +2308,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2361,7 +2338,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2391,7 +2368,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2419,7 +2396,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2463,7 +2440,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 12,
+      &quot;score&quot;: 11,
       &quot;full_body&quot;: &quot;Stephen Campbell 5 min read August 5, 2026 Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry Phishing panels are not just credential collection tools. They are infrastructure ecosystems. Behind every convincing login page is a set of domains, hosting providers, certificates, exposed services, operator tooling, and recurring deployment patterns. Those signals matter. They give defenders a way to move beyond a single phishing domain and start understanding how the activity is built, hosted, rotated, and reused. Push Security recently published an inside look at phishing panels used in campaigns linked to ShinyHunters and BlackFile . Their team gained direct access to active operator panels, observed real victim targeting, analyzed multiple variants of the tooling, and identified four primary infrastructure clusters. They also made an important point: while these panels share common heritage, the operators deploying them appear to be separate groups with different infrastructure preferences and operational patterns. That operator-side view is valuable because it shows how the attack works from inside the panel. Team Cymru’s view is different. Using Pure Signal Scout, we looked at the infrastructure layer to validate and expand part of the picture Push identified. Our analysis focused on Cluster A, the Doko’s Panel infrastructure hosted on Mevspace AS201814. Push noted that Cluster A overlaps with Mandiant reporting on UNC6661 , and that Mandiant attributes related extortion activity following UNC6661 intrusions to UNC6240, also known as ShinyHunters. Using passive DNS, certificate data, open service observations, and hosting patterns, we identified two active Mevspace IPs consistent with Push’s Cluster A criteria. Those IPs were associated with more than 40 victim-themed domains, recurring naming conventions, and one Doko-branded hosting-layer artifact that provides additional pivot context. This is not a reattribution of the activity. Push established the panel and cluster framework. Team Cymru’s contribution is infrastructure validation: confirming that infrastructure consistent with Push’s Cluster A reporting was active on Mevspace and surfacing additional indicators defenders can hunt against. Why Cluster A matters Cluster A matters because the targeting pattern is not random. Push described campaigns that combine voice phishing with adversary-in-the-middle credential capture against enterprise identity providers and cryptocurrency platforms. The victim is typically directed to a domain that looks like an internal identity, support, passkey, or SSO page. Once credentials and MFA are captured, the operator can attempt to access identity providers and pivot into connected SaaS environments such as Salesforce, SharePoint, Slack, DocuSign, or other high-value applications. That makes the infrastructure behind these panels important. The domain is the visible piece, but it is rarely the whole picture. Hosting providers, ASN usage, TLS behavior, passive DNS history, certificates, and exposed services can show how the operation is being staged. In this case, Push identified Mevspace AS201814 as the hosting provider for Cluster A. They also documented the Cluster A naming patterns, including: &lt;target&gt;internal.com &lt;target&gt;sso.com my&lt;target&gt;.com my&lt;target&gt;internal.com my&lt;target&gt;manager.com my&lt;target&gt;sso.com Using those patterns as a starting point, Scout surfaced active infrastructure consistent with the same cluster. Confirming Cluster A on Mevspace Push identified Mevspace AS201814 as the Cluster A hosting provider but did not publish IP-level indicators. Starting from the hosting provider and domain naming criteria, a single Scout query returned three results: asn=\&quot;201814\&quot; pdns.domain=\&quot;*internal.com,*sso.com\&quot; Scout query result for Mevspace AS201814 with the Cluster A domain pattern Figure 1: Scout returns three IPs for the Mevspace AS201814 plus *internal.com,*sso.com query. Two of them, &quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2493,7 +2470,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2530,7 +2507,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 13,
+      &quot;score&quot;: 12,
       &quot;full_body&quot;: &quot;Stephen Campbell 5 min read min read April 29, 2026 Targeting the Defense Industrial Base: What Network Telemetry Reveals About Nation-State Pre-Positioning Intelligence drives operations. It provides commanders with options across time and space and enables them to shape the battlefield on their terms. This concept is not new. What has changed is the domain. Nation states are applying the same intelligence playbook in cyberspace, with the Defense Industrial Base as a primary target. What is being observed is not limited to intrusion activity, it is reconnaissance and pre positioning. Analysis of large-scale network telemetry reinforces this, showing sustained patterns of infrastructure mapping and access development long before disruptive activity occurs. In MITRE ATT&amp;CK terms, this maps directly to reconnaissance and resource development. Adversaries are identifying targets, mapping infrastructure, and preparing access long before anything disruptive happens. Volt Typhoon is a clear example. They maintained access to US critical infrastructure for over five years before it was publicly disclosed. This is not an attack. It is intelligence preparation of the battlefield, carried out in cyberspace. Why the DIB is the Target The Defense Industrial Base is one of the most targeted sectors out there, and it is not just about stealing data. Yes, intellectual property matters. Weapons systems, propulsion, and communications technology are all high value targets. Stealing that information shortens the development and learning curve. It lets adversaries bypass years of research and development and move faster than they should be able to. But the real objective is access. If you can disrupt or degrade a supply chain at the right moment, that creates strategic impact. In a crisis, that is far more valuable than large volumes of stolen data. When most people think about the Defense Industrial Base, they picture large primes like Raytheon or Northrop Grumman. The reality is very different. Around 80 percent of the DIB is made up of small and mid-size contractors. These companies hold sensitive data. Contracts, technical specifications, and personnel information tied to clearances. But many of them are not resourced to defend at the same level as the primes. There is a mismatch between what they hold and what they can protect. That gap is what adversaries exploit. In military terms, you avoid the strongest point and look for the gap. The seam. The place where defenses are thin, and access still gets you where you need to go. In cyber, that seam is often a smaller contractor with real access and limited defenses. Four Actors, Four Approaches Understanding who is targeting the DIB and how they operate is key to building any effective defense. China operates with patience and persistence. Groups like Volt Typhoon and Salt Typhoon are not built for speed. They are built to remain hidden. Volt Typhoon relies heavily on living off the land techniques . That means using tools that already exist inside the environment, like PowerShell and WMI, instead of deploying custom malware. Nothing new gets dropped, nothing obvious gets flagged. Their activity blends into normal system operations, which makes detection extremely difficult. Salt Typhoon showed how far this approach can go . In 2024, they compromised the US Army National Guard network and maintained access for nine months. During that time, they collected network diagrams and administrator credentials. This is not random collection. It is deliberate. They are mapping the environment, understanding how it is built, and identifying where they can move next or come back later. It is about positioning, not immediate impact. Russia takes a more aggressive infrastructure-focused approach. GRU Unit 26165 has been exploiting vulnerable edge routers at scale. Instead of just gaining access to one network, they turn these devices into relay nodes. Traffic is redirected through attacker controlled DNS in&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2562,7 +2539,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2592,7 +2569,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2620,7 +2597,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2648,7 +2625,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2676,7 +2653,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2720,7 +2697,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 12,
+      &quot;score&quot;: 11,
       &quot;full_body&quot;: &quot;Will Thomas 3 min read February 11, 2026 Tracking ORBs on Singapore&#x27;s Telecommunications Networks ORB networks, which stands for Operational Relay Box networks, are obfuscated mesh networks used by threat actors to mask the origin of their cyberattacks. These networks are often composed of a mix of compromised Internet-of-Things (IoT) devices, Small Office/Home Office (SOHO) routers, and Virtual Private Servers (VPS). Team Cymru has blogged previously about ORBS here . ORBs are considered a significant threat for several key reasons: Evasion and Anonymity: ORBs act like private residential proxy networks, allowing attackers to route their traffic through nodes that appear to be legitimate home or commercial broadband users. This masks the attacker&#x27;s true location and makes it difficult for defenders to trace the activity back to the source. Blending with Legitimate Traffic: Because ORB nodes often reside on compromised devices used by real people (such as home routers), malicious traffic is frequently mixed with \&quot;normal\&quot; user traffic. This makes detection challenging and creates a risk for defenders: blocking an ORB IP address could inadvertently block legitimate users or disrupt genuine business services. Resilience and Flexibility: Attackers can easily scale these networks by adding or removing compromised devices and servers. If a node is discovered and blocked, it can be quickly replaced, making the network highly resilient to takedown attempts. Pre-positioning: Experts note that adversaries use ORBs to \&quot;commute\&quot; to a target&#x27;s perimeter, allowing them to pre-position themselves months in advance of an attack. This infrastructure facilitates reconnaissance and exploitation while keeping the adversary&#x27;s \&quot;bridge\&quot; intact even if specific operations are detected. Geographical Evasion: By routing traffic through nodes located near their targets, attackers can circumvent geofencing security controls and make their traffic appear more legitimate. UNC3886 Campaign against M1, SIMBA Telecom, Singtel, and StarHub On February 9, 2026, the Cyber Security Agency of Singapore (CSA) released a press release detailing a multi-agency cybersecurity operation, codenamed Operation CYBER GUARDIAN, intended to defend their communications sector. The CSA first shared that they detected an Advanced Persistent Threat (APT) actor tracked as UNC3886 attacking Singapore’s critical infrastructure on July 18, 2025. The CSA’s investigation has uncovered that UNC3886 had launched a deliberate, targeted, and well-planned campaign against Singapore’s telecommunications sector. All four of Singapore’s major telecommunications operators—M1, SIMBA Telecom, Singtel, and StarHub—were targeted. Notably, the CSA observed the adversary using a zero-day exploit to bypass a perimeter firewall of the victims and gain access into their telecommunications networks. The adversary also managed to reportedly exfiltrate a small amount of technical data; this is believed to be primarily network-related data to advance the threat actors’ operational objective. What made UNC3886 a challenge to find was its use of advanced tools and techniques such as rootkits to evade basic detection systems. UNC3886’s Historical Campaigns According to Mandiant, UNC3886 is a state-sponsored threat group tied to Chinese cyber-espionage operations. The group is well-known for exploiting zero-day vulnerabilities in edge devices and virtualised systems to gain stealthy, long-term access. Its targets span energy, water, telecommunications, finance, and government services, with tactics that include custom malware and advanced persistence techniques. UNC3886 has reportedly used zero-days in Fortinet, VMware, and Juniper devices and has deployed custom malware families to maintain access on them. Interestingly, from Mandiant’s report in March 2025 about UNC3886 targeting Juniper routers, the indicators of compromise (IOCs) they shared were all located in Singapore and some of the targeted victims wer&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2752,7 +2729,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2780,7 +2757,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2810,7 +2787,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2838,7 +2815,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2868,7 +2845,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2896,7 +2873,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2932,7 +2909,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 13,
+      &quot;score&quot;: 12,
       &quot;full_body&quot;: &quot;Jeremy Bender 1 min read December 4, 2025 RADAR Takes the Guess Work Out of Vulnerability Exposure Management Identifying critical vulnerabilities in exposed, internet-facing systems is essential for security—it can also be extremely time intensive. Maintaining an accurate list of organization-wide assets can be difficult enough as is, without even getting into the challenge of shadow IT, cloud sprawl, or third-party assets you may not even know exist. Even once assets are fully inventoried, you still need to identify running processes and potential vulnerabilities for remediation. Is it really any wonder, with all the steps involved, that mistakes happen and vulnerabilities can remain unpatched? RADAR takes all the guesswork out of vulnerability exposure assessments. With a simple search, RADAR discovers all internet-facing infrastructure linked to the provided domains. Within seconds, you can use this to deliver a list of domain-linked IPs containing known exploited vulnerabilities (KEVs). How RADAR Exposes Vulnerabilities In RADAR, enter a top-level domain, or series of linked domains. RADAR will automatically pull in all associated internet-facing IPs, domains, and CIDR ranges. Within RADAR, you can then specifically view associated IPs discovered through the search. RADAR will automatically enrich each listed IP with any CVEs using CISA’s live database. The enriched CVE information will contain the CVE number, description, and when the CVE was first and last seen. For more granular information, you can also apply filters, including filtering KEVs. This automatically reduces the asset list to just those containing verified risks currently being exploited in the wild. You can then further filter out CDNs or shared hosts, leading to a clear prioritized list of assets you directly manage. Within seconds, RADAR can make a clear, actionable list of assets for vulnerability teams to focus on for remediation. How to Access RADAR Through January 31, 2026, all existing Team Cymru Recon or Scout customers have complimentary RADAR access. For those interested in testing RADAR without current access, visit go.team-cymru.com/puresignal-radar to see what makes RADAR and Team Cymru’s PureSignal™ data so unique. ‍ Copy Link The latest articles straight to your inbox Related Posts 3 min read The Transaction Is the Last Step, Not the First Eli Woodward 5 min read Cl0p Til you Drop - 6 Years, 10 Campaigns, 8 Zero-Days Stephen Campbell 5 min read Behind the Panels: Validating ShinyHunters Cluster A Infrastructure Through Network Telemetry Josh Picolet 3 min read From C2 Detection to Possible Victim Identification&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -2962,7 +2939,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -2990,7 +2967,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3018,7 +2995,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3048,7 +3025,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3078,7 +3055,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3110,7 +3087,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3138,7 +3115,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3172,7 +3149,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3228,7 +3205,7 @@
           ]
         }
       },
-      &quot;score&quot;: 12,
+      &quot;score&quot;: 11,
       &quot;full_body&quot;: &quot;Will Thomas 5 min read January 21, 2026 Scattered Spider Attacks | Infrastructure and TTP Analysis Background on Recent Scattered Spider Attacks Throughout 2024 and 2025, Scattered Spider has been a prolific English-speaking cybercriminal threat group, part of a broader community of cybercriminals dubbed TheCom, which is short for The Community. In May 2024, at the cybercrime-focused Sleuthcon conference, the FBI warned about Scattered Spider and members of TheCom for being responsible for multiple high-profile multi-million dollar breaches. In 2023, MGM Resorts disclosed via their US Security Exchange Commission (SEC) filing that the overall cost from the ALPHV/BlackCat ransomware attack that was linked to Scattered Spider was $100 million USD. In mid-2025, Marks &amp; Spencer said it will take an estimated £300 million hit following the DragonForce ransomware attack, linked to Scattered Spider. Google’s security experts also assessed that Scattered Spider was responsible for the Co-op and Harrods attacks in mid-2025 as well. Where did the name “Scattered Spider” come from? The name Scattered Spider was originally used by CrowdStrike and has been adopted by multiple other organizations such as the US Cybersecurity and Infrastructure Security Agency (CISA) and MITRE. Other cybersecurity companies have given them other names, such as UNC3944 by Google Mandiant, 0ktapus by Group-IB, Octo Tempest by Microsoft, Scatter Swine by Okta, and Muddled Libra by Palo Alto Networks. What are Scattered Spider’s capabilities? Scattered Spider are most well-known for being English-speaking affiliates of ransomware-as-a-service (RaaS) platforms developed by Russian-speaking threat actors. This includes ALPHV/BlackCat, Qilin, RansomHub, and DragonForce. Their typical tactics, techniques, and procedures (TTPs) involve using social engineering tactics for initial access. This includes calling IT help desk technicians, posing as employees, and convincing them to reset a password or install a remote monitoring and management (RMM) tool to grant them access. Single sign-on (SSO)-themed SMS phishing campaigns and SIM swapping campaigns targeting enterprise account credentials have also been linked to Scattered Spider intrusions. Once they have gained access, Scattered Spider tends to test access to all available SSO-integrated applications and aims to move laterally to virtualised environments such as VMware ESXi hypersvisors or cloud-hosted virtual machines. Once privileged access has been acquired, Scattered Spider tends to exfiltrate sensitive corporate data and deploy ransomware generated from one of the several RaaS platforms they have access to. Scattered Spider’s Adversary Infrastructure Profile Scattered Spider style attacks remain a large focus for many of Team Cymru’s customers. To support threat detection programs, Team Cymru has analyzed open source intelligence (OSINT) reporting about Scattered Spider’s preferred choice of infrastructure to use for launching intrusions. At a high level, Scattered Spider intrusions have typically leveraged the following types of infrastructure: Common consumer-level virtual private network (VPN) clients Connection tunneling web services Free file-sharing and paste site web services Large-scale residential proxy networks Infostealer malware exfiltration servers RMM tool web services SSO-themed domains for SMS phishing The Challenges with Scattered Spider’s Infrastructure One of the significant challenges from Scattered Spider is the sheer reuse and shared nature of the infrastructure they use. By utilizing legitimate, high-reputation services, they effectively hide in plain sight, making it untenable for defenders to block their indicators without disrupting normal business operations. Unlike known malicious IPs, VPN exit nodes are used by millions of legitimate users. Defenders cannot easily create a block-list of these IPs without risking significant false positives, especially in a world of remote work wher&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -3258,7 +3235,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 9
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Team Cymru&quot;,
@@ -3291,7 +3268,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 13,
+      &quot;score&quot;: 12,
       &quot;full_body&quot;: &quot;4 min read February 17, 2026 Protecting Critical National Infrastructure (CNI) through extended global visibility Team Cymru offers a range of capabilities specifically tailored to protect Industrial Control Systems (ICS) and Operational Technology (OT), which over the years have been increasingly targeted by hostile nation-state threat actors as well as lesser skilled “hacktivist” groups. Unlike standard IT environments, OT systems often utilize legacy protocols and have long equipment lifecycles, making proactive external visibility essential. By focusing on the networking stages of the ICS version of the MITRE ATT&amp;CK framework using Team Cymru’s visibility, specifically Reconnaissance and Command and Control, OT defenders can identify scanning and exploitation attempts against exposed infrastructure and track malicious infrastructure before attackers can establish persistence. Cybersecurity industry experts continue to warn that critical national infrastructure (CNI) sector organizations need to enhance their visibility into their own remote facilities and technical OT system. \&quot;Utilities need to treat external exposure and asset blind spots as intelligence problems, not just configuration issues. Energy-sector OT environments are becoming increasingly exposed as legacy systems connect to modern networks without corresponding gains in visibility or monitoring. What stands out in these findings is how quickly serious risks emerge once traffic is observed, suggesting attackers are likely identifying the same weaknesses just as fast. Closing these gaps requires continuous visibility into OT communications and the context to understand what ‘normal’ behavior actually looks like.” - Will Baxter, Field CISO at Team Cymru. \&quot;The recent Poland attacks confirmed that the adversary doesn&#x27;t just teleport to the perimeter; they &#x27;commute&#x27; via Operational Relay Boxes (ORBs) to pre-position themselves months in advance. Tracking this external infrastructure allows defenders to spot the threat left of boom, burning the adversary&#x27;s bridge before they can cross it to deliver kinetic effects. To survive a sophisticated campaign, we cannot operate with blind spots; we need external telemetry to track the adversary&#x27;s intent and internal deep-packet inspection to catch their specific &#x27;living off the land&#x27; tactics. External visibility tells you who is knocking at the gate, while internal visibility is the only way to see what physical process they are attempting to disrupt once inside and capturing transient data for root cause analysis afterwards.\&quot; - Mark (Magpie) Graham of Dragos Inc. Evolutions of the ICS and OT Threat Landscape in 2025 To help track the evolution of ICS/OT threats, Team Cymru researchers supported the development of the Cyber Incident Tracker for Electric Power Systems (CITEPS), a project created by Prof. Dr. Luiz F. Freitas-Gutierres. The evolution of ICT/OT threats can be marked by two main eras. The first era involves adversaries experimenting with these sophisticated digital weapons. The second era can be marked by an increasing usage and adoption of these capabilities by adversaries, often attributed to nation-state intelligence services. 2010–2019: The Era of Experimentation This period marked the introduction of specialized digital weapons targeting ICS, leading to a mix of espionage and destructive attacks. This includes the deployment of Stuxnet in 2010, which is noted as the world’s first publicly known digital weapon against ICS, physically destroying centrifuges at the Natanz nuclear facility in Iran. Subsequent malware became more specialized, such as Industroyer which was used in the 2016 Ukraine power grid attack to disrupt electricity, a critical event that signaled a shift toward direct grid manipulation. The ceiling was raised further in 2017 with Triton malware, which specifically targeted safety instrumented systems at a Saudi Arabian petrochemical plant, threatening physical safety mechanisms and threatenin&quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -3321,7 +3298,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;The Record&quot;,
@@ -3613,7 +3590,9 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;Security Vulnerability in a Voting System It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I was still able to use it to analyze voter behavior in Georgia (one of the 21 states that uses affected scanners) in the recent May 2026 primary. Notably, I never touched a voting machine, exploited a network, examined source code, or accessed anything non-public. After pointing a coding agent to the original vulnerability paper, I supplied it with two data sources highlighted in the paper: the early-voting list for each county, and the “CVR” (cast-vote record) file, containing every ballot and its selections (but not the voters’ names or other identifying information). The CVR file is available upon request, precisely because a public, ballot-level record is what makes election results independently verifiable. Tags: voting , vulnerabilities Posted on September 4, 2026 at 7:09 AM • 5 Comments&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;Kaspersky Securelist&quot;,
@@ -3931,7 +3910,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Help Net Security&quot;,
@@ -3963,7 +3942,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Help Net Security&quot;,
@@ -3995,7 +3974,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;The Record&quot;,
@@ -4025,7 +4004,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 5
+      &quot;score&quot;: 4
     },
     {
       &quot;source&quot;: &quot;Risky Business News&quot;,
@@ -4053,7 +4032,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;Recorded Future&quot;,
@@ -7413,24 +7392,37 @@
       &quot;author&quot;: &quot;Jai Vijayan&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
+        &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;
+        ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;OpenAI/ChatGPT&quot;
+        ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [
-          &quot;CVE-2026-82329&quot;
+          &quot;CVE-2026-82329&quot;,
+          &quot;CVE-2025-29927&quot;
         ],
         &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
+        &quot;urgency_signals&quot;: [
+          &quot;zero_day&quot;,
+          &quot;preauth_unauth&quot;,
+          &quot;critical_cvss&quot;
+        ],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
+        &quot;role_map&quot;: {
+          &quot;OpenAI/ChatGPT&quot;: &quot;target&quot;
+        },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;Application Security Cyber Risk Threat Intelligence Vulnerabilities &amp; Threats News Attackers Pounce on Critical Artifactory Bug Following Disclosure CVE-2026-82329 is an authentication bypass flaw in JFrog&#x27;s repository manager that enables bad actors to gain admin-level access on affected systems. Jai Vijayan , Contributing Writer September 1, 2026 4 Min Read Source: hapabapa via Getty Images Threat actors are actively exploiting a critical JFrog Artifactory vulnerability just days after its public disclosure, putting a fresh spotlight on the software repository platform after OpenAI&#x27;s AI agents exploited zero-day flaws in the repository manager during their attack on Hugging Face earlier this year. CVE-2026-82329 is a critical (CVSS: 9.8) authentication bypass vulnerability in default configurations of Artifactory that an unauthenticated attacker can exploit to gain administrative access to the platform, with no user interaction required. Flaw Enables Administrative Privileges In a worst case scenario, an attacker with administrative privileges on a vulnerable Artifactory instance would gain broad control over an organization&#x27;s repositories, artifacts, users/tokens, and configuration. They could use the access to potentially steal or tamper with software packages and other build artifacts. JFrog disclosed the vulnerability on Aug. 28 and released patched versions of the software. Related: AI&#x27;s Vulnerability Surge May Be More Manageable Than First Feared Three days later, on Aug. 31, watchTowr reported observing exploit activity targeting CVE-2026-82329. Meanwhile, cybersecurity Pruva and ethical hacker Souhaib Naceri said they were able to readily reproduce the bug. Pruva also published a proof-of-concept, raising the prospect of more widespread exploitation. Yordan Ganchev, principal threat intelligence specialist at watchTowr, tells Dark Reading that the attacks appear to be originating from a small number of IP address from varying geographies and involves multiple threat actors. \&quot;Broad-scale scanning and mass exploitation has not been observed, but that is unlikely to stay the case for long,\&quot; Ganchev says. Attackers Minting Admin Tokens According to Ganchev, telemetry from watchTowr’s global Attacker Eye honeypot network shows attackers are exploiting CVE-2026-82329 to mint administrator tokens and to enumerate users, groups, credential sets, and federated access topologies. \&quot;This moved from disclosure to real-world exploitation with uncomfortable efficiency,\&quot; he says. JFrog Artifactory is a repository and artifact-management platform that many organizations use to store, manage, secure, and distribute software packages, as well as build artifacts such as container images, libraries, and binaries. JFrog has said some 6,600 organizations worldwide, including 83% of Fortune 100 companies use its platform currently. Artifactory was the software component that OpenAI&#x27;s agents recently exploited to break out of a restricted security evaluation environment and gain Internet access, which ultimately led to the Hugging Face attack . During that escape, OpenAI&#x27;s agents exploited one Artifactory vulnerability to make outbound requests and gain a path to the Internet and another privilege escalation vulnerability to obtain admin level access on Artifactory. OpenAI subsequently disclosed these previously unknown vulnerabilities to JFrog, which fixed the issues. Related: &#x27;HTTP Terminator&#x27; Hunts for Novel Desync Attacks Not Related to OpenAI/Hugging Face Incident In a prepared statement, JFrog chief technology officer (CTO) and co-founder Yoav Landman made clear that exploitation of CVE-2026-82329 is not related to the OpenAI/Hugging Face incident. \&quot;It is improper authentication rather than RCE, and it does not affect the JFrog SaaS [software-as-a-service] platform, only self-hosted deployments,\&quot; he said. He pointed to CVE-2025-29927 , a critical authentication bypass vulnerability in Next.js, as another example of a similar bug that a&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -7473,24 +7465,39 @@
       &quot;author&quot;: &quot;Rob Wright&quot;,
       &quot;in_window&quot;: true,
       &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
+        &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;,
+          &quot;active_exploitation&quot;
+        ],
         &quot;actor_attribution&quot;: [],
         &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
+        &quot;affected_products&quot;: [
+          &quot;SonicWall&quot;
+        ],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [
-          &quot;CVE-2026-0768&quot;
+          &quot;CVE-2026-0768&quot;,
+          &quot;CVE-2025-3248&quot;,
+          &quot;CVE-2026-0769&quot;
         ],
         &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
+        &quot;urgency_signals&quot;: [
+          &quot;actively_exploited&quot;,
+          &quot;zero_day&quot;,
+          &quot;preauth_unauth&quot;
+        ],
         &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
         &quot;confidence_tier&quot;: &quot;tier_4_news&quot;,
-        &quot;role_map&quot;: {},
+        &quot;role_map&quot;: {
+          &quot;SonicWall&quot;: &quot;target&quot;
+        },
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10
+      &quot;score&quot;: 10,
+      &quot;full_body&quot;: &quot;Vulnerabilities &amp; Threats Application Security Cyber Risk Cybersecurity Operations News Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year. Rob Wright , Senior News Director , Dark Reading September 1, 2026 3 Min Read Source: Aree Sarak via Getty Images A critical Langflow vulnerability is being heavily exploited, marking the latest threat to a platform that&#x27;s become an increasingly popular target. CVE-2026-0768 is a remote code execution (RCE) flaw in Langflow, a low-code development platform used to design AI agents. The vulnerability, which received a 9.8 CVSS severity score, was initially disclosed in January by Trend Micro&#x27;s Zero Day Initiative (ZDI). In a LinkedIn post on Saturday, Caitlin Condon, vice president of security research at VulnCheck, noted that the vendor observed the RCE flaw being exploited on its \&quot;canaries,\&quot; or honeypot systems. \&quot;We&#x27;ve seen 50+ Canary detections for CVE-2026-0768 so far this morning. Adversaries appear to be conducting a mix of reconnaissance and credential harvesting activities,\&quot; Condon wrote. At the time of Condon&#x27;s post, exploitation activity was limited to canaries in the U.K., with attempts coming primarily from IP addresses in Russia. However, attacks have since expanded to include attempts from other countries and canaries elsewhere, once again illustrating the appeal of Langflow to a variety of threat actors. Related: AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready? CVE-2026-0768 Exploitation Broadens Condon tells Dark Reading that VulnCheck has observed \&quot;sustained exploitation\&quot; of the Langflow vulnerability since exploitation was first observed on Saturday. \&quot;As of Tuesday, our Canary network has seen exploitation activity from roughly 20 different IPs across more than half a dozen different countries,\&quot; she says. \&quot;We&#x27;ve observed a mix of automated scanning, exploitation for initial access, and post-exploitation activity, including ongoing credential and secrets harvesting (e.g., reading Langflow&#x27;s secret_key, grepping environment variables for API keys and cloud credentials, searching for SSH keys and .env files), lateral movement, and Langflow source code exfiltration.\&quot; Additionally, some of the activity hinted at previously hidden threats to Langflow users. One noteworthy campaign that was conducted with Python scripts featuring Chinese-language comments \&quot;appeared to be hunting for already-backdoored Langflow installations in order to establish their own persistence mechanisms,\&quot; Condon says. Langflow Attacks on the Rise Days before the attacks on CVE-2026-0768, VulnCheck researchers published a blog post examining recent threat activity targeting the AI development platform, which IBM acquired in 2025 following its purchase of its parent company, DataStax. The post analyzed the exploitation of two other Langflow vulnerabilities, CVE-2025-3248 and CVE-2026-0769, by two distinct threat actors with differing goals. Related: SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE \&quot;The attacks we observed highlight the use of different vulnerabilities and tactics against the same technology,\&quot; the researchers wrote. \&quot;One attacker appears interested in extracting credentials from the host, likely to gain broader access across the enterprise. The other appears focused on expanding their cryptomining operation.\&quot; The VulnCheck researchers noted that before this year, only one Langflow flaw had been exploited in the wild. \&quot;In 2026, things have changed fast,\&quot; they wrote. \&quot;We&#x27;ve now seen 11 additional vulnerabilities targeted and reported as exploited in the wild, highlighting increasing attacker interest in Langflow.\&quot; VulnCheck said the attention is partially due to the rapid adoption rate of AI technologies in general, many of which are new tools whose designers overlooked security-first&quot;,
+      &quot;fetch_status&quot;: &quot;ok&quot;
     },
     {
       &quot;source&quot;: &quot;Dark Reading&quot;,
@@ -9496,49 +9503,7 @@
       &quot;published&quot;: &quot;2026-08-29T03:43:27+00:00&quot;,
       &quot;summary&quot;: &quot;Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .&quot;,
       &quot;author&quot;: &quot;Microsoft Security Research, Sagar Patil, Suriyaraj Natarajan and Parasharan Raghavan&quot;,
-      &quot;in_window&quot;: true,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;ransomware_extortion&quot;,
-          &quot;phishing_social_eng&quot;,
-          &quot;credential_theft&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
-        &quot;role_map&quot;: {
-          &quot;Microsoft Defender&quot;: &quot;mention&quot;
-        },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: [
-            [
-              &quot;Microsoft Defender&quot;,
-              &quot;mention&quot;,
-              0.29
-            ]
-          ]
-        }
-      },
-      &quot;score&quot;: 10,
-      &quot;full_body&quot;: &quot;Share Link copied to clipboard! Tags ClickFix Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Threat intelligence Microsoft Threat Intelligence has observed a TerminalFix campaign, a variant of ClickFix, targeting organizations across multiple industries. The campaign uses compromised websites to display a fake Cloudflare CAPTCHA verification overlay that tricks users into copying and executing a malicious PowerShell command. While traditional ClickFix campaigns direct victims to the Windows Run dialog, TerminalFix campaigns apply the same technique but direct users to Windows Terminal or PowerShell instead, increasing the likelihood that complex, multi-line scripts execute successfully. Unlike earlier ClickFix variants that typically deliver a single infostealer, this TerminalFix campaign deploys a sophisticated multi-stage attack chain that combines DLL sideloading, steganographic payload extraction, extensive Active Directory reconnaissance, and a custom reverse-tunnel implant – giving the attacker persistent, network-level proxy access through the compromised host. Once executed, the PowerShell command masquerades as a Cloudflare verification process while downloading a ZIP archive containing a legitimate binary ( LockScreenContentServer.exe ) and a malicious DLL ( dui70.dll ) used for sideloading. The sideloaded DLL drives an elaborate second stage: downloading payloads concealed inside PNG images using steganography, establishing dual persistence through Registry Run keys and scheduled tasks, conducting thorough domain reconnaissance—including domain trust enumeration, domain admin discovery, Active Directory user description harvesting, and targeted server ping sweeps—and ultimately deploying a Python-based reverse-tunnel C2 implant that tunnels arbitrary TCP traffic back through an encrypted WebSocket channel to attacker infrastructure. This type of intrusion is particularly dangerous because it provides attackers with direct access to an organization’s internal network through the reverse tunnel. The observed reconnaissance and reverse-tunnel capability could enable an attacker to identify and reach additional systems from a compromised host. Microsoft did not observe the downstream actions described below in the analyzed chain. Organizations should treat affected devices as potential network pivot points and investigate for lateral movement and credential exposure. In the hands-on-keyboard phase that typically follows, attackers leverage this access to escalate privileges, disable security controls, exfiltrate sensitive data, and deploy ransomware across the organization. The combination of stealth techniques (DLL sideloading, steganography, hidden folders) and persistent network access make this TerminalFix campaign a serious threat to enterprise environments. In this blog, we share our detailed analysis of the TerminalFix attack chain – from initial compromise through network tunneling—along with indicators of compromise, detection details, and hunting guidance to help defenders identify and respond to this threat. Attack chain overview The TerminalFix campaign follows a multi-stage attack chain that progresses from social engineering through payload delivery, persistence, reconnaissance, and ultimately network tunneling: 1. Initial access via compromised website – A compromised website displays a fake Cloudflare Turnstile CAPTCHA verification overlay. The user is instructed to copy and paste a “verification” command. 2. PowerShell execution – The pasted command runs a disguised PowerShell script that downloads a ZIP archive from attacker infrastructure, extracts it to C:\\ProgramData , and silently launches a batch file. 3. DLL sideloading — The batch file executes LockScreenContentServer.exe , a signed legitimate binary, which automatically loads the co-located malicious dui70.dll . 4. Steganographic payload retrieval – The sidelo&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
-    },
-    {
-      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;category&quot;: &quot;threat_research_primary&quot;,
-      &quot;title&quot;: &quot;TerminalFix campaign deploys a reverse tunnel through multistage intrusion&quot;,
-      &quot;link&quot;: &quot;https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/&quot;,
-      &quot;published&quot;: &quot;2026-08-29T03:43:27+00:00&quot;,
-      &quot;summary&quot;: &quot;Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .&quot;,
-      &quot;author&quot;: &quot;Microsoft Security Research, Sagar Patil, Suriyaraj Natarajan and Parasharan Raghavan&quot;,
-      &quot;in_window&quot;: true,
+      &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
         &quot;threat_categories&quot;: [],
         &quot;actor_attribution&quot;: [],
@@ -9554,8 +9519,34 @@
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
-      },
-      &quot;score&quot;: 10
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Microsoft Threat Intelligence&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;TerminalFix campaign deploys a reverse tunnel through multistage intrusion&quot;,
+      &quot;link&quot;: &quot;https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/&quot;,
+      &quot;published&quot;: &quot;2026-08-29T03:43:27+00:00&quot;,
+      &quot;summary&quot;: &quot;Microsoft Threat Intelligence provides analysis of a ClickFix campaign that uses fake CAPTCHA prompts, DLL sideloading, and a reverse tunnel, with detections and hunting guidance. The post TerminalFix campaign deploys a reverse tunnel through multistage intrusion appeared first on Microsoft Security Blog .&quot;,
+      &quot;author&quot;: &quot;Microsoft Security Research, Sagar Patil, Suriyaraj Natarajan and Parasharan Raghavan&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Simon Willison&quot;,
@@ -10193,33 +10184,6 @@
         &quot;role_map&quot;: {
           &quot;Cursor&quot;: &quot;target&quot;
         },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;SANS Internet Storm Center&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;category&quot;: &quot;government_authoritative&quot;,
-      &quot;title&quot;: &quot;Some Malicious PE Stats, (Thu, Aug 27th)&quot;,
-      &quot;link&quot;: &quot;https://isc.sans.edu/diary/rss/33292&quot;,
-      &quot;published&quot;: &quot;2026-08-28T07:04:13+00:00&quot;,
-      &quot;summary&quot;: &quot;During my last FOR610 session, a student asked me if I had some statistics in mind about the compilers used to generate malicious PE files? A couple of months ago, I shared some stats about the trend in 64bits VS. 32bits malware[ 1 ]. Can we go a bit further? I (vibe-)coded a Python script based on the pefile library[ 2 ] to extract some info from the PE headers. Indeed, the PE file format contains a lot of metadata! They can be accessed using a lot of tools, like Detect It Easy:&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_government&quot;,
-        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -13778,6 +13742,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_5_chatter&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;The DFIR Report&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;BengalSEO Part 1: Anatomy of the Operation&quot;,
+      &quot;link&quot;: &quot;https://thedfirreport.com/2026/08/24/bengalseo-part-1-anatomy-of-the-operation/&quot;,
+      &quot;published&quot;: &quot;2026-08-24T14:28:41+00:00&quot;,
+      &quot;summary&quot;: &quot;Key Takeaways The DFIR Report Offerings Check out our Products here and our Services here. Want a demo, more information on our services, pricing or just want to chat? Get in Touch Contact us today for pricing or a demo! Case Summary In March 2026, our team identified an SEO poisoning campaign leading to malware deployment […] The post BengalSEO Part 1: Anatomy of the Operation appeared first on The DFIR Report .&quot;,
+      &quot;author&quot;: &quot;editor&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -21642,35 +21633,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/mac-crypto-draining-malware&quot;,
-      &quot;published&quot;: &quot;2026-08-06T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;financial_services&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -21699,6 +21661,35 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;incident_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/mac-crypto-draining-malware&quot;,
+      &quot;published&quot;: &quot;2026-08-06T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;financial_services&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -24006,33 +23997,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/business-reflection-250m-arr&quot;,
-      &quot;published&quot;: &quot;2026-07-30T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Hitting $250M ARR is a milestone, but it wasn&#x27;t the goal. CEO Kyle Hanslovan reflects on Huntress&#x27; mission to protect the 99% and why staying true to it remains his top priority.\&quot;&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -24064,6 +24028,33 @@
         &quot;role_map&quot;: {
           &quot;SolarWinds&quot;: &quot;target&quot;
         },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/business-reflection-250m-arr&quot;,
+      &quot;published&quot;: &quot;2026-07-30T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Hitting $250M ARR is a milestone, but it wasn&#x27;t the goal. CEO Kyle Hanslovan reflects on Huntress&#x27; mission to protect the 99% and why staying true to it remains his top priority.\&quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -25328,33 +25319,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance&quot;,
-      &quot;published&quot;: &quot;2026-07-24T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn&#x27;t move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here&#x27;s what changed, what didn&#x27;t, and why we&#x27;re not slowing down.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -25377,6 +25341,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance&quot;,
+      &quot;published&quot;: &quot;2026-07-24T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn&#x27;t move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here&#x27;s what changed, what didn&#x27;t, and why we&#x27;re not slowing down.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -27122,6 +27113,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management&quot;,
+      &quot;link&quot;: &quot;https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/&quot;,
+      &quot;published&quot;: &quot;2026-07-16T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te&quot;,
+      &quot;author&quot;: &quot;Mandiant&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Huntress&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -27171,33 +27189,6 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;category&quot;: &quot;threat_research_primary&quot;,
-      &quot;title&quot;: &quot;Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management&quot;,
-      &quot;link&quot;: &quot;https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/&quot;,
-      &quot;published&quot;: &quot;2026-07-16T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te&quot;,
-      &quot;author&quot;: &quot;Mandiant&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -27380,33 +27371,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered&quot;,
-      &quot;published&quot;: &quot;2026-07-15T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -27438,6 +27402,33 @@
               0.28
             ]
           ]
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered&quot;,
+      &quot;published&quot;: &quot;2026-07-15T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
         }
       }
     },
@@ -30545,6 +30536,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem&quot;,
+      &quot;link&quot;: &quot;https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/&quot;,
+      &quot;published&quot;: &quot;2026-06-29T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai&quot;,
+      &quot;author&quot;: &quot;Google Threat Intelligence Group&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Huntress&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -30570,33 +30588,6 @@
         &quot;role_map&quot;: {
           &quot;Microsoft 365&quot;: &quot;target&quot;
         },
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;category&quot;: &quot;threat_research_primary&quot;,
-      &quot;title&quot;: &quot;The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem&quot;,
-      &quot;link&quot;: &quot;https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/&quot;,
-      &quot;published&quot;: &quot;2026-06-29T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai&quot;,
-      &quot;author&quot;: &quot;Google Threat Intelligence Group&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
-        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -31086,35 +31077,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;How to Spot a Client in the DoD Industrial Base That Handles CUI&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/how-to-identify-dod-cui-clients&quot;,
-      &quot;published&quot;: &quot;2026-06-25T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;manufacturing_industrial&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -31140,6 +31102,35 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;How to Spot a Client in the DoD Industrial Base That Handles CUI&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/how-to-identify-dod-cui-clients&quot;,
+      &quot;published&quot;: &quot;2026-06-25T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;manufacturing_industrial&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -33198,37 +33189,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/terminal-server-phishing-stager-exposed&quot;,
-      &quot;published&quot;: &quot;2026-06-15T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;phishing_social_eng&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [
-          &quot;government&quot;
-        ],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -33253,6 +33213,37 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;The Devil, Eight Million Emails, and a Whole Lot of Milk | Phishing Stager Exposed&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/terminal-server-phishing-stager-exposed&quot;,
+      &quot;published&quot;: &quot;2026-06-15T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;A compromised terminal server became a phishing stager. A fake Boots survey aimed at 8.9 million inboxes, with the payload on a hacked Bolivian government site.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;phishing_social_eng&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -34807,33 +34798,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Huntress&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Why Huntress Doesn’t Need FedRAMP&quot;,
-      &quot;link&quot;: &quot;https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors&quot;,
-      &quot;published&quot;: &quot;2026-06-05T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.&quot;,
-      &quot;author&quot;: &quot;&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;low_signal&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;Google Cloud Threat Intelligence&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -34864,6 +34828,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Huntress&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;category&quot;: &quot;detection_response_operations&quot;,
+      &quot;title&quot;: &quot;Why Huntress Doesn’t Need FedRAMP&quot;,
+      &quot;link&quot;: &quot;https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors&quot;,
+      &quot;published&quot;: &quot;2026-06-05T14:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -53184,35 +53175,6 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
-      &quot;source&quot;: &quot;The DFIR Report&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;category&quot;: &quot;detection_response_operations&quot;,
-      &quot;title&quot;: &quot;Hide Your RDP: Password Spray Leads to RansomHub Deployment&quot;,
-      &quot;link&quot;: &quot;https://thedfirreport.com/2025/06/30/hide-your-rdp-password-spray-leads-to-ransomhub-deployment/&quot;,
-      &quot;published&quot;: &quot;2025-06-30T00:20:06+00:00&quot;,
-      &quot;summary&quot;: &quot;Key Takeaways Case Summary This intrusion began in November 2024 with a password spray attack targeting an internet-facing RDP server. Over the course of several hours, the threat actor attempted logins against multiple accounts using known malicious IPs (based on OSINT). Several hours later they then logged in via RDP with one of the previously […] The post Hide Your RDP: Password Spray Leads to RansomHub Deployment appeared first on The DFIR Report .&quot;,
-      &quot;author&quot;: &quot;editor&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [],
-        &quot;actor_attribution&quot;: [
-          &quot;RansomHub&quot;
-        ],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [],
-        &quot;content_type&quot;: &quot;news_report&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
