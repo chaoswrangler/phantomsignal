@@ -4,20 +4,40 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 74 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 05 Sep 2026 13:49:08 +0000</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 16:43:52 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
+<title>Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain</title>
+<link>https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/</link>
+<description><![CDATA[A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]]]></description>
+<pubDate>Sat, 05 Sep 2026 14:29:13 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers&apos; Data It Said Was Deleted</title>
+<link>https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html</link>
+<description><![CDATA[Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company&apos;s hardware wallets]]></description>
+<pubDate>Sat, 05 Sep 2026 14:17:02 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites</title>
 <link>https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/</link>
-<description><![CDATA[Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · CVE-2026-32475</em>]]></description>
+<description><![CDATA[Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · VMware · OpenAI/ChatGPT · CVE-2026-32475 · zero_day</em>]]></description>
 <pubDate>Sat, 05 Sep 2026 13:00:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
+<category>VMware</category>
+<category>OpenAI/ChatGPT</category>
 <category>CVE-2026-32475</category>
 </item>
 <item>
@@ -29,16 +49,6 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Million-dollar phishing campaign uses invisible Unicode characters to bypass email filters</title>
-<link>https://www.reddit.com/r/netsec/comments/1w7u80q/milliondollar_phishing_campaign_uses_invisible/</link>
-<description><![CDATA[https://cyberworldops.eu/en/million-dollar-phishing-campaign-uses-invisible-unicode-characters-to submitted by /u/CyberWorldOps [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Sat, 05 Sep 2026 07:44:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1w7u80q/milliondollar_phishing_campaign_uses_invisible/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities</title>
@@ -121,14 +131,11 @@
 <item>
 <title>HPE Patches Critical RCE Vulnerabilities in AOS-CX</title>
 <link>https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/</link>
-<description><![CDATA[Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · VMware · OpenAI/ChatGPT · CVE-2026-73749 · zero_day · ddos · active_exploitation</em>]]></description>
+<description><![CDATA[Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-73749</em>]]></description>
 <pubDate>Fri, 04 Sep 2026 16:11:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>VMware</category>
-<category>OpenAI/ChatGPT</category>
 <category>CVE-2026-73749</category>
 </item>
 <item>
@@ -645,19 +652,6 @@
 <category>vulnerability_disclosure</category>
 </item>
 <item>
-<title>Google patches actively exploited Chrome zero-day (CVE-2026-85046)</title>
-<link>https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/</link>
-<description><![CDATA[Google has patched 12 vulnerabilities affecting its popular Chrome browser, among them CVE-2026-85046, which has been exploited in the wild. “Google is aware that an exploit for CVE-2026-85046 exists in the wild,” the company said in a Thursday security advisory. The fix has been shipped in Chrome 152.0.7977.82/.83 for Windows and macOS and Chrome 152.0.7977.82 for Linux, with the update rolling out to users over the coming days and weeks. About CVE-2026-85046 CVE-2026-85046 (CVSS score: … More → The post Google patches actively exploited Chrome zero-day (CVE-2026-85046) appeared first on Help Net Security .<br/><br/><em>Tags: Apple iOS/macOS · CVE-2026-85046 · CVE-2026-2441 · CVE-2026-3909 · CVE-2026-3910 · CVE-2026-5281 · zero_day · active_exploitation</em>]]></description>
-<pubDate>Fri, 04 Sep 2026 12:09:13 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Apple iOS/macOS</category>
-<category>CVE-2026-85046</category>
-<category>CVE-2026-2441</category>
-<category>CVE-2026-3909</category>
-</item>
-<item>
 <title>12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover</title>
 <link>https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/</link>
 <description><![CDATA[Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor. The post 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover appeared first on SecurityWeek .<br/><br/><em>Tags: CVE-2026-6471 · web_shell_backdoor</em>]]></description>
@@ -748,26 +742,17 @@
 <category>CVE-2026-14894</category>
 </item>
 <item>
-<title>Microsoft Teams is about to make QR code phishing much harder</title>
-<link>https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection/</link>
-<description><![CDATA[Microsoft is preparing a new feature for Teams users that will help them stay safe from QR code phishing. Teams will automatically hide QR codes sent by people outside the organization. Users will need to reveal the image first before they can view or scan it. It’s currently in development, with rollout expected to begin in October 2026 for Android, desktop, iOS, and Mac. “Microsoft Teams will provide additional protection for QR codes shared by … More → The post Microsoft Teams is about to make QR code phishing much harder appeared first on Help Net Security .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Fri, 04 Sep 2026 08:28:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/04/microsoft-teams-qr-code-phishing-protection/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day</title>
 <link>https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html</link>
-<description><![CDATA[Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome&apos;s JavaScript and WebAssembly engine. &quot;Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote<br/><br/><em>Tags: CVE-2026-85046 · zero_day · active_exploitation</em>]]></description>
+<description><![CDATA[Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome&apos;s JavaScript and WebAssembly engine. &quot;Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote<br/><br/><em>Tags: OpenAI/ChatGPT · GitLab · Gitea · TeamPCP · CVE-2026-85046 · CVE-2026-2441 · CVE-2026-3909 · CVE-2026-3910</em>]]></description>
 <pubDate>Fri, 04 Sep 2026 07:18:47 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>CVE-2026-85046</category>
-<category>zero_day</category>
-<category>active_exploitation</category>
+<category>OpenAI/ChatGPT</category>
+<category>GitLab</category>
+<category>Gitea</category>
+<category>TeamPCP</category>
 </item>
 <item>
 <title>What’s new with Google Cloud</title>
@@ -790,19 +775,6 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
-<title>September 2026 Patch Tuesday forecast: All we need is more time</title>
-<link>https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/</link>
-<description><![CDATA[The Patch Apocalypse is continuing unabated. We are seeing record numbers of patches being released and reported CVEs continue to grow as well. August 2026 Patch Tuesday was the second biggest in history with 398 resolved CVEs: 42 rated Critical, 355 rated Important, and 1 rated Moderate. But despite the high number, again only one vulnerability was confirmed actively exploited in the wild, and two more were publicly disclosed ahead of the released patches. AI … More → The post September 2026 Patch Tuesday forecast: All we need is more time appeared first on Help Net Security .<br/><br/><em>Tags: Microsoft SharePoint · Azure · Ivanti · CVE-2026-55040 · CVE-2026-63520 · CVE-2026-62911 · CVE-2026-65816 · CVE-2026-69555</em>]]></description>
-<pubDate>Fri, 04 Sep 2026 06:00:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft SharePoint</category>
-<category>Azure</category>
-<category>Ivanti</category>
-<category>CVE-2026-55040</category>
-</item>
-<item>
 <title>August newsletter is out</title>
 <link>https://simonwillison.net/2026/Sep/4/august-newsletter/</link>
 <description><![CDATA[The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl&apos;s accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I&apos;m using at the moment Here&apos;s a copy of the July newsletter as a preview of what you&apos;ll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter<br/><br/><em>Tags: Anthropic/Claude · OpenAI/ChatGPT</em>]]></description>
@@ -812,35 +784,6 @@
 <category>ai_security_agentic_risk</category>
 <category>Anthropic/Claude</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Scammers have figured out the best time to text you</title>
-<link>https://www.helpnetsecurity.com/2026/09/04/scam-texts-peak-research/</link>
-<description><![CDATA[The suspicious calls, texts, and DMs you got recently aren’t a coincidence, according to Malwarebytes. Scammers have worked out which platform gets them the best results for each type of con, and they stick to that formula. (Source: Malwarebytes) The company looked at its own threat data collected between April 15 and July 14, 2026, and tracked more than 20 scam categories, from tech support cons to sextortion. “Intuitively, the platforms favored often match the … More → The post Scammers have figured out the best time to text you appeared first on Help Net Security .]]></description>
-<pubDate>Fri, 04 Sep 2026 05:00:59 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/04/scam-texts-peak-research/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Most of the bugs Claude Mythos found have never been checked by a human</title>
-<link>https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/</link>
-<description><![CDATA[Anthropic pointed Claude Mythos Preview at 281 open-source projects and collected 23,019 candidate vulnerabilities. External security firms reviewed 1,900 of them. Maintainers received 1,596 reports and acknowledged 1,451; 97 fixes landed upstream, and 88 findings became published security advisories, with counts current as of May 22, 2026. The other 21,119 candidates have not been reviewed by anyone outside Anthropic. Anthropic puts the drop-off down to a shortage of people to check the work, and the … More → The post Most of the bugs Claude Mythos found have never been checked by a human appeared first on Help Net Security .<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
-<pubDate>Fri, 04 Sep 2026 04:30:25 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
-</item>
-<item>
-<title>New infosec products of the week: September 4, 2026</title>
-<link>https://www.helpnetsecurity.com/2026/09/04/new-infosec-products-of-the-week-september-4-2026/</link>
-<description><![CDATA[Here’s a look at the most interesting products from the past week, featuring releases from BugBase, F5 Networks, Ping Identity, and Superna. F5 speeds up virtual patching to counter AI-driven threats With new features such as anomaly detection and agentic threat intelligence, F5’s AI-powered web application firewall (WAF) is capable in delivering real-time protections because of its strategic position in customers’ infrastructure. Enhancements to F5 WAF for Distributed Cloud and virtual patching provide the precision … More → The post New infosec products of the week: September 4, 2026 appeared first on Help Net Security .<br/><br/><em>Tags: F5 BIG-IP</em>]]></description>
-<pubDate>Fri, 04 Sep 2026 04:00:34 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/04/new-infosec-products-of-the-week-september-4-2026/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>F5 BIG-IP</category>
 </item>
 <item>
 <title>US offers $10 million for info on Iranian allegedly behind cyberattacks on critical infrastructure</title>
@@ -1308,18 +1251,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Critical Elementor Pro flaw exploited to take over WordPress sites</title>
-<link>https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/</link>
-<description><![CDATA[A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]<br/><br/><em>Tags: WordPress · CVE-2026-32475 · web_shell_backdoor</em>]]></description>
-<pubDate>Thu, 03 Sep 2026 14:52:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>WordPress</category>
-<category>CVE-2026-32475</category>
-<category>web_shell_backdoor</category>
-</item>
-<item>
 <title>Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data</title>
 <link>https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html</link>
 <description><![CDATA[Thomson Reuters disclosed on Wednesday that an unauthorized party obtained files from C-Track, the court case management platform sold by its West Publishing Corporation unit, in March 2026, affecting courts in 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada. West Publishing said it discovered the activity on June 30, 2026. A subset of court records could contain individuals&apos; names]]></description>
@@ -1346,16 +1277,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Thomson Reuters reveals breach that exposed U.S. and Canadian court records</title>
-<link>https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/</link>
-<description><![CDATA[Thomson Reuters has disclosed a data breach affecting C-Track, a court case management platform operated by its subsidiaries, exposing court records and sensitive personal information across courts in at least 12 US states, the US Virgin Islands, and Canada. The company published the disclosure publicly on Wednesday, along with separate notification pages for affected individuals in the United States and Canada. What happened, and when Thomson Reuters said it discovered unauthorized activity involving certain C-Track … More → The post Thomson Reuters reveals breach that exposed U.S. and Canadian court records appeared first on Help Net Security .<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Thu, 03 Sep 2026 13:50:36 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/09/03/thomson-reuters-reveals-breach-that-exposed-u-s-and-canadian-court-records/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>A Quarter Century After 9/11: Lessons Learned and Lost</title>
@@ -1646,11 +1567,15 @@
 <item>
 <title>Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code</title>
 <link>https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html</link>
-<description><![CDATA[Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository&apos;s own Git configuration names a command that the agent runs on the developer&apos;s machine, four of them still unpatched at publication. The command executes as the user, outside the agent&apos;s sandbox and without an approval prompt, and exploitation requires the repository to arrive]]></description>
+<description><![CDATA[Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository&apos;s own Git configuration names a command that the agent runs on the developer&apos;s machine, four of them still unpatched at publication. The command executes as the user, outside the agent&apos;s sandbox and without an approval prompt, and exploitation requires the repository to arrive<br/><br/><em>Tags: Anthropic/Claude · GitHub · OpenAI/ChatGPT · CVE-2026-19592 · CVE-2026-72718 · CVE-2021-43891 · CVE-2022-24346</em>]]></description>
 <pubDate>Wed, 02 Sep 2026 14:06:59 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>GitHub</category>
+<category>OpenAI/ChatGPT</category>
+<category>CVE-2026-19592</category>
 </item>
 <item>
 <title>Gambling Goblin Turns Brazilian Government Sites Into SEO Weapons</title>
@@ -2058,12 +1983,15 @@
 <item>
 <title>13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds</title>
 <link>https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html</link>
-<description><![CDATA[Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. &quot;The injected code runs two operations against a site&apos;s visitors: a mobile ad-fraud and gambling-redirect<br/><br/><em>Tags: Packagist</em>]]></description>
+<description><![CDATA[Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. &quot;The injected code runs two operations against a site&apos;s visitors: a mobile ad-fraud and gambling-redirect<br/><br/><em>Tags: Packagist · Apple iOS/macOS · CVE-2025-31277 · CVE-2025-43529 · CVE-2025-43398 · CVE-2025-43510 · CVE-2025-43520</em>]]></description>
 <pubDate>Tue, 01 Sep 2026 14:07:20 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>Packagist</category>
+<category>Apple iOS/macOS</category>
+<category>CVE-2025-31277</category>
+<category>CVE-2025-43529</category>
 </item>
 <item>
 <title>Financially Motivated Threat Actor BREEZE COMET Targets Brazil</title>
@@ -2535,14 +2463,12 @@
 <item>
 <title>Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE</title>
 <link>https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html</link>
-<description><![CDATA[Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in<br/><br/><em>Tags: WordPress · GitLab · Gitea · CVE-2026-76581 · CVE-2026-18431 · CVE-2026-19632 · CVE-2026-19598 · CVE-2026-82222</em>]]></description>
+<description><![CDATA[Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in<br/><br/><em>Tags: WordPress · CVE-2026-76581</em>]]></description>
 <pubDate>Sat, 29 Aug 2026 16:25:03 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
-<category>GitLab</category>
-<category>Gitea</category>
 <category>CVE-2026-76581</category>
 </item>
 <item>
@@ -2581,16 +2507,6 @@
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Berlin Refuses to Pay Hackers Who Stole Data From the City&apos;s State Network</title>
-<link>https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html</link>
-<description><![CDATA[Berlin&apos;s state government has confirmed that it is the target of an extortion attempt following the August compromise of the city&apos;s state administrative network, and said it will not meet the extortionists&apos; demands. The same statement disclosed that forensic work had found further data outflows in the portfolio of the Senate Department for Mobility, Transport, Climate Protection and Environment<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Fri, 28 Aug 2026 21:30:52 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Hundreds of OpenAI Agents Invaded Hugging Face Servers</title>
@@ -4149,15 +4065,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>llm 0.32.1</title>
-<link>https://simonwillison.net/2026/Aug/21/llm/</link>
-<description><![CDATA[Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to openai&lt;3 , and a soon-to-drop 0.33 release will switch from httpx to httpx2 . Tags: httpx , openai , llm]]></description>
-<pubDate>Fri, 21 Aug 2026 17:16:13 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Aug/21/llm/</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>RMM Abuse: How Attackers Exploit Remote Access Tools | Huntress</title>
 <link>https://www.huntress.com/blog/rmm-abuse-trusted-tools-untrusted-hands</link>
 <description><![CDATA[RMM abuse jumped 277% &amp; now shows up nearly 40% of Huntress investigations. See how attackers exploit trusted remote access tools, and how to stop it.]]></description>
@@ -4526,6 +4433,16 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>How to break secure boot without touching any cryptography</title>
+<link>https://www.reddit.com/r/netsec/comments/1vskftw/how_to_break_secure_boot_without_touching_any/</link>
+<description><![CDATA[I finally found some time to organize my notes on secure boot, remote attestation, measured boot and in general embedded security. This is not ground breaking zero-day research but I figured some of you might like a good story. Good here is obviously subjective but I felt like it came out quite readable. This blog builds heavily on public research so as already stated at the end of article if you liked some particular section, show the respective person some love :) P.S.: yes I know the image is AI generated please don’t give me shit for that submitted by /u/0x00rick [link] [comments]<br/><br/><em>Tags: zero_day</em>]]></description>
+<pubDate>Wed, 19 Aug 2026 12:01:19 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1vskftw/how_to_break_secure_boot_without_touching_any/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America</title>
@@ -9203,6 +9120,15 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
+<title>Build AI Security Agents with Wiz MCP</title>
+<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
+<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
+<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>GPT-5.5-Cyber built a zlib fuzzing lab in a day</title>
 <link>https://blog.trailofbits.com/2026/07/02/field-reports-from-patch-the-planet/</link>
 <description><![CDATA[We’re running Patch the Planet , an ongoing collaboration with OpenAI that pairs Trail of Bits engineers directly with more than 30 open-source projects. Its goal is to front-run a serious problem facing open-source maintainers: highly capable models like GPT-5.5-Cyber will soon create a firehose of bug reports, and OSS maintainers are already spread thin. Our plan is to point OpenAI’s latest models at real codebases, find the security bugs first, work with maintainers to patch them, and find ways to decrease the burden on maintainers in the long run. We’ll publish field reports like this one as the initiative progresses; follow along via the Patch the Planet tag. The expertise barrier that kept bespoke fuzzing campaigns out of reach for most attackers is gone. We watched GPT-5.5-Cyber build in a single day what would have taken weeks for a skilled security researcher : harnesses across a dozen entrypoints, sanitizer and variant builds, seeds, and multiple findings currently undergoing<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
@@ -9211,15 +9137,6 @@
 <source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
 <category>offensive_vulnerability_research</category>
 <category>OpenAI/ChatGPT</category>
-</item>
-<item>
-<title>Build AI Security Agents with Wiz MCP</title>
-<link>https://www.wiz.io/blog/introducing-wiz-mcp</link>
-<description><![CDATA[Power AI-driven security with trusted security context, Wiz AI Agents, and Wiz AI Skills.]]></description>
-<pubDate>Thu, 02 Jul 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.wiz.io/blog/introducing-wiz-mcp</guid>
-<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>/r/netsec&apos;s Q3 2026 Information Security Hiring Thread</title>
@@ -19825,7 +19742,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19835,7 +19752,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19844,7 +19761,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19853,7 +19770,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19862,7 +19779,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19871,7 +19788,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19880,7 +19797,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19889,7 +19806,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19898,7 +19815,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19907,7 +19824,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 16:43:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

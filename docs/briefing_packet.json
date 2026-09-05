@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-05T13:49:08.363201+00:00",
+  "generated_at": "2026-09-05T16:43:52.472777+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 75,
-  "total_items_in_window": 423,
-  "total_clusters_raw": 202,
-  "total_clusters_in_packet": 77,
-  "dropped_low_score": 125,
+  "feeds_ok": 74,
+  "total_items_in_window": 413,
+  "total_clusters_raw": 199,
+  "total_clusters_in_packet": 76,
+  "dropped_low_score": 123,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -95,18 +95,25 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 25,
+      "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Sekoia": {
@@ -123,13 +130,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -137,33 +137,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -179,11 +165,18 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Horizon3 Attack Research": {
@@ -193,23 +186,23 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
+      "item_count": 40,
       "in_window_count": 0
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -220,6 +213,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -249,13 +249,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
@@ -269,6 +262,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -298,19 +298,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 7
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -347,13 +347,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -368,9 +361,9 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -389,12 +382,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 0
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -403,12 +396,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 2
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -424,19 +417,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 17
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -445,8 +438,8 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -459,19 +452,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 17
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -480,12 +480,12 @@
       "item_count": 50,
       "in_window_count": 24
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 30,
+      "in_window_count": 18
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -494,19 +494,26 @@
       "item_count": 100,
       "in_window_count": 100
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -529,13 +536,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -543,19 +543,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 49
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -564,12 +557,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 18
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -578,19 +571,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 49
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 18
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 13
+      "in_window_count": 12
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -1244,25 +1244,32 @@
       ]
     },
     {
-      "cluster_id": "5ff343317a",
-      "priority_score": 31,
-      "member_count": 3,
-      "corroborating_source_count": 2,
+      "cluster_id": "fe03764b75",
+      "priority_score": 27,
+      "member_count": 1,
+      "corroborating_source_count": 1,
       "strong_signals": [
-        "Apple iOS/macOS",
         "CVE-2026-85046"
       ],
       "taxonomy": {
         "threat_categories": [
           "active_exploitation",
+          "phishing_social_eng",
+          "supply_chain",
           "zero_day"
         ],
         "actor_attribution": [
-          "Nimbus Manticore"
+          "TeamPCP"
         ],
-        "affected_industries": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "government",
+          "manufacturing_industrial"
+        ],
         "affected_products": [
-          "Apple iOS/macOS"
+          "GitLab",
+          "Gitea",
+          "OpenAI/ChatGPT"
         ],
         "tools_used": [],
         "cve_ids": [
@@ -1275,34 +1282,44 @@
         "attack_techniques": [],
         "urgency_signals": [
           "actively_exploited",
+          "preauth_unauth",
           "zero_day"
         ],
         "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Help Net Security",
+        "source": "The Hacker News",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Google patches actively exploited Chrome zero-day (CVE-2026-85046)",
-        "link": "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
-        "published": "2026-09-04T12:09:13+00:00",
-        "summary": "Google has patched 12 vulnerabilities affecting its popular Chrome browser, among them CVE-2026-85046, which has been exploited in the wild. “Google is aware that an exploit for CVE-2026-85046 exists in the wild,” the company said in a Thursday security advisory. The fix has been shipped in Chrome 152.0.7977.82/.83 for Windows and macOS and Chrome 152.0.7977.82 for Linux, with the update rolling out to users over the coming days and weeks. About CVE-2026-85046 CVE-2026-85046 (CVSS score: … More → The post Google patches actively exploited Chrome zero-day (CVE-2026-85046) appeared first on Help Net Security .",
-        "full_body": "Sinisa Markovic , Managing Editor, Help Net Security September 4, 2026 Share Google patches actively exploited Chrome zero-day (CVE-2026-85046) Google has patched 12 vulnerabilities affecting its popular Chrome browser, among them CVE-2026-85046, which has been exploited in the wild. “Google is aware that an exploit for CVE-2026-85046 exists in the wild,” the company said in a Thursday security advisory. The fix has been shipped in Chrome 152.0.7977.82/.83 for Windows and macOS and Chrome 152.0.7977.82 for Linux, with the update rolling out to users over the coming days and weeks. About CVE-2026-85046 CVE-2026-85046 (CVSS score: 8.8) is a type confusion bug in V8, Chrome’s JavaScript and WebAssembly engine, which allows a remote attacker “to execute arbitrary code inside the sandbox via a crafted HTML page.” The vulnerability was reported by researcher Salvatore Gulizia (aka Serotav) on August 4, 2026, who earned a $1,000 bug bounty for the disclosure. In his own write-up, Gulizia described the root cause as “a V8 bug in the compilers that leads to an array containing PACKED_ELEMENTS to receive the map PACKED_SMI_ELEMENTS, this can be turned into arbitrary read/write on the JavaScript heap.” As per usual, Google did not share more details about the fixed zero-day, nor details about its possible in-the-wild exploitation. CVE-2026-85046 is the sixth Chrome zero-day vulnerability Google has fixed in 2026. Previously patched flaws include CVE-2026-2441 , CVE-2026-3909, CVE-2026-3910, CVE-2026-5281 , and CVE-2026-11645 . More about 0-day Chrome exploit vulnerability Share",
+        "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+        "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "published": "2026-09-04T07:18:47+00:00",
+        "summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine. \"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
+        "full_body": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day  Ravie Lakshmanan  Sep 04, 2026 Vulnerability / Browser Security Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine. \"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page,\" reads a description of the flaw in CVE.org. Security researcher Salvatore Gulizia (aka Serotav) has been credited with discovering and reporting the flaw on August 4, 2026. The researcher has been awarded a bug bounty of $1,000 for responsible disclosure. In a separate blog post detailing the issue, Gulizia described it as a \"V8 bug in the compilers that leads to an array containing PACKED_ELEMENTS to receive the map PACKED_SMI_ELEMENTS, this can be turned into arbitrary read/write on the JavaScript heap.\" As is usual in these cases, Google acknowledged that an \"exploit for CVE-2026-85046 exists in the wild,\" but did not reveal any details about the nature of the attacks, or who is behind them. This is done to ensure that a majority of the users are updated with a fix and to prevent other threat actors from exploiting it. With the latest development, Google has addressed a total of six actively exploited Chrome zero-days since the start of the year. This includes CVE-2026-2441 , CVE-2026-3909, CVE-2026-3910 , CVE-2026-5281 , and CVE-2026-11645 . For optimal protection, users are advised to update their Chrome browser to versions 152.0.7977.82/.83 for Windows and Apple macOS, and 152.0.7977.82 for Linux. To make sure the latest updates are installed, users can navigate to More > Help > About Google Chrome and select Relaunch. Users of other Chromium-based browsers, such as Microsoft Edge, Brave, Opera, and Vivaldi, are also advised to apply the fixes as and when they become available. Update The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on September 4, 2026, added CVE-2026-85046 to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the patches by September 18, 2026. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  browser security , Google Chrome , Vulnerability , Web Security ⚡ Top Stories This Week Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Ver",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
+            "supply_chain",
+            "phishing_social_eng",
             "zero_day",
             "active_exploitation"
           ],
-          "actor_attribution": [],
-          "affected_industries": [],
+          "actor_attribution": [
+            "TeamPCP"
+          ],
+          "affected_industries": [
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
           "affected_products": [
-            "Apple iOS/macOS"
+            "OpenAI/ChatGPT",
+            "GitLab",
+            "Gitea"
           ],
           "tools_used": [],
           "cve_ids": [
@@ -1315,35 +1332,58 @@
           "attack_techniques": [],
           "urgency_signals": [
             "actively_exploited",
-            "zero_day"
+            "zero_day",
+            "preauth_unauth"
           ],
-          "content_type": "vulnerability_disclosure",
+          "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "Apple iOS/macOS": "target"
+            "OpenAI/ChatGPT": "target",
+            "GitLab": "target",
+            "Gitea": "target",
+            "Microsoft SharePoint": "target",
+            "cPanel": "target",
+            "Anthropic/Claude": "target",
+            "Apple iOS/macOS": "mention"
           },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Apple iOS/macOS",
+                "mention",
+                0.3
+              ]
+            ]
           }
         }
       },
       "corroborating_sources": [
         {
-          "source": "Help Net Security",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Google patches actively exploited Chrome zero-day (CVE-2026-85046)",
-          "link": "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
-          "published": "2026-09-04T12:09:13+00:00",
-          "summary": "Google has patched 12 vulnerabilities affecting its popular Chrome browser, among them CVE-2026-85046, which has been exploited in the wild. “Google is aware that an exploit for CVE-2026-85046 exists in the wild,” the company said in a Thursday security advisory. The fix has been shipped in Chrome 152.0.7977.82/.83 for Windows and macOS and Chrome 152.0.7977.82 for Linux, with the update rolling out to users over the coming days and weeks. About CVE-2026-85046 CVE-2026-85046 (CVSS score: … More → The post Google patches actively exploited Chrome zero-day (CVE-2026-85046) appeared first on Help Net Security .",
+          "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+          "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+          "published": "2026-09-04T07:18:47+00:00",
+          "summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine. \"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
           "taxonomy": {
             "threat_categories": [
+              "supply_chain",
+              "phishing_social_eng",
               "zero_day",
               "active_exploitation"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
+            "actor_attribution": [
+              "TeamPCP"
+            ],
+            "affected_industries": [
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
             "affected_products": [
-              "Apple iOS/macOS"
+              "OpenAI/ChatGPT",
+              "GitLab",
+              "Gitea"
             ],
             "tools_used": [],
             "cve_ids": [
@@ -1356,47 +1396,28 @@
             "attack_techniques": [],
             "urgency_signals": [
               "actively_exploited",
-              "zero_day"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-          "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-          "published": "2026-09-04T07:18:47+00:00",
-          "summary": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine. \"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
-          "taxonomy": {
-            "threat_categories": [
               "zero_day",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-85046"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
+              "preauth_unauth"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "GitLab": "target",
+              "Gitea": "target",
+              "Microsoft SharePoint": "target",
+              "cPanel": "target",
+              "Anthropic/Claude": "target",
+              "Apple iOS/macOS": "mention"
+            },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Apple iOS/macOS",
+                  "mention",
+                  0.3
+                ]
+              ]
             }
           }
         }
@@ -1605,144 +1626,10 @@
       ]
     },
     {
-      "cluster_id": "6a5c697136",
-      "priority_score": 21,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-19490",
-        "Citrix"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Citrix",
-          "Microsoft SharePoint",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-19490",
-          "CVE-2026-3055",
-          "CVE-2026-4368"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
-        "published": "2026-09-04T15:25:59+00:00",
-        "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
-        "full_body": "Critical Citrix NetScaler auth bypass now leveraged in attacks By Sergiu Gatlan September 4, 2026 11:25 AM 0 Attackers have begun targeting a critical-severity Citrix NetScaler flaw in the wild, according to vulnerability intelligence company Previdian. Tracked as CVE-2026-19490 , this security flaw can allow unprivileged threat actors to bypass authentication remotely when the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy), depending on the NetScaler firmware version and whether SAML Action is configured. \"We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin , assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible,\" Citrix warned in mid-August when it addressed the flaw and urged admins to patch it as soon as possible . While the company has yet to flag the vulnerability as actively exploited in its August 19 security advisory , Previdian founder and security researcher Ryan Dewhurst told BleepingComputer on Thursday that attackers have begun targeting CVE-2026-19490 in the wild after a \"credible\" proof-of-concept exploit was published online. \"On 3 September, one of our NetScaler sensors received requests matching the PoC from three distinct source IPs, geolocated to Australia, the United States and Germany,\" Dewhurst told BleepingComputer. \"Our current assessment is that this provides evidence of exploitation attempts, but it does not confirm successful compromise of real-world systems.\" The Centre for Cybersecurity Belgium, the country's National Cybersecurity Coordination Centre for Belgium (NCC-BE), also warned on Friday of exploitation attempts targeting the CVE-2026-19490 vulnerability and urged admins to prioritize patching all vulnerable Citrix NetScaler appliances on their organizations' networks. Although Internet threat watchdog Shadowserver tracks over 22,000 NetScaler ADC appliances and nearly 1,700 Gateway instances exposed online, there is no information on how many are honeypots, have vulnerable configurations, or have already been patched against CVE-2026-19490 attacks. Citrix urged admins to patch two other NetScaler flaws ( CVE-2026-3055 and CVE-2026-4368 ) in March, just days before threat actors began exploiting them in attacks . The Cybersecurity and Infrastructure Security Agency (CISA) added the CVE-2026-3055 flaw to its catalog of actively exploited vulnerabilities one week later and ordered federal agencies to patch vulnerable Citrix appliances within three days. Since November 2021, the U.S. cybersecurity agency has tagged 23 Citrix vulnerabilities as exploited in the wild, six of which have also been abused by ransomware gangs. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday Citrix urges admins to patch new NetScaler flaws as soon as possible Hackers leverage new Microsoft SharePoint exploit in attacks Hackers exploit critical JFrog Artifactory flaw to forge admin tokens Hackers target WordPress sites in miniOrange auth bypass attacks",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Citrix",
-            "Microsoft SharePoint",
-            "WordPress"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-19490",
-            "CVE-2026-3055",
-            "CVE-2026-4368"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Citrix": "target",
-            "Microsoft SharePoint": "target",
-            "WordPress": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
-          "published": "2026-09-04T15:25:59+00:00",
-          "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Citrix",
-              "Microsoft SharePoint",
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-19490",
-              "CVE-2026-3055",
-              "CVE-2026-4368"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Citrix": "target",
-              "Microsoft SharePoint": "target",
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "3f9d82bc63",
       "priority_score": 21,
-      "member_count": 5,
-      "corroborating_source_count": 5,
+      "member_count": 4,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "Anthropic/Claude",
         "CVE-2021-31886"
@@ -1913,34 +1800,6 @@
           }
         },
         {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Most of the bugs Claude Mythos found have never been checked by a human",
-          "link": "https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/",
-          "published": "2026-09-04T04:30:25+00:00",
-          "summary": "Anthropic pointed Claude Mythos Preview at 281 open-source projects and collected 23,019 candidate vulnerabilities. External security firms reviewed 1,900 of them. Maintainers received 1,596 reports and acknowledged 1,451; 97 fixes landed upstream, and 88 findings became published security advisories, with counts current as of May 22, 2026. The other 21,119 candidates have not been reviewed by anyone outside Anthropic. Anthropic puts the drop-off down to a shortage of people to check the work, and the … More → The post Most of the bugs Claude Mythos found have never been checked by a human appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Reddit r/netsec",
           "cohort": "reddit_practitioner_osint",
           "title": "From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG",
@@ -1962,6 +1821,140 @@
             "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "6a5c697136",
+      "priority_score": 20,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-19490",
+        "Citrix"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Citrix",
+          "Microsoft SharePoint",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-19490",
+          "CVE-2026-3055",
+          "CVE-2026-4368"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+        "published": "2026-09-04T15:25:59+00:00",
+        "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
+        "full_body": "Critical Citrix NetScaler auth bypass now leveraged in attacks By Sergiu Gatlan September 4, 2026 11:25 AM 0 Attackers have begun targeting a critical-severity Citrix NetScaler flaw in the wild, according to vulnerability intelligence company Previdian. Tracked as CVE-2026-19490 , this security flaw can allow unprivileged threat actors to bypass authentication remotely when the NetScaler appliance is configured as an AAA virtual server or as a Gateway (SSL VPN, ICA Proxy, CVPN, RDP Proxy), depending on the NetScaler firmware version and whether SAML Action is configured. \"We strongly recommend that customers review the official NetScaler ADC and NetScaler Gateway security bulletin , assess whether their deployments are affected, and upgrade impacted appliances to the recommended builds as soon as possible,\" Citrix warned in mid-August when it addressed the flaw and urged admins to patch it as soon as possible . While the company has yet to flag the vulnerability as actively exploited in its August 19 security advisory , Previdian founder and security researcher Ryan Dewhurst told BleepingComputer on Thursday that attackers have begun targeting CVE-2026-19490 in the wild after a \"credible\" proof-of-concept exploit was published online. \"On 3 September, one of our NetScaler sensors received requests matching the PoC from three distinct source IPs, geolocated to Australia, the United States and Germany,\" Dewhurst told BleepingComputer. \"Our current assessment is that this provides evidence of exploitation attempts, but it does not confirm successful compromise of real-world systems.\" The Centre for Cybersecurity Belgium, the country's National Cybersecurity Coordination Centre for Belgium (NCC-BE), also warned on Friday of exploitation attempts targeting the CVE-2026-19490 vulnerability and urged admins to prioritize patching all vulnerable Citrix NetScaler appliances on their organizations' networks. Although Internet threat watchdog Shadowserver tracks over 22,000 NetScaler ADC appliances and nearly 1,700 Gateway instances exposed online, there is no information on how many are honeypots, have vulnerable configurations, or have already been patched against CVE-2026-19490 attacks. Citrix urged admins to patch two other NetScaler flaws ( CVE-2026-3055 and CVE-2026-4368 ) in March, just days before threat actors began exploiting them in attacks . The Cybersecurity and Infrastructure Security Agency (CISA) added the CVE-2026-3055 flaw to its catalog of actively exploited vulnerabilities one week later and ordered federal agencies to patch vulnerable Citrix appliances within three days. Since November 2021, the U.S. cybersecurity agency has tagged 23 Citrix vulnerabilities as exploited in the wild, six of which have also been abused by ransomware gangs. Once attackers have valid credentials, only 37% of their actions are blocked Overall prevention scores can hide what happens after initial access. Once attackers are using valid credentials, prevention drops sharply. The Blue Report 2026 measures defenses technique by technique across 338 million simulations run in customer production environments. Get the report Related Articles: CISA orders feds to patch Citrix NetScaler RCE flaw by Saturday Citrix urges admins to patch new NetScaler flaws as soon as possible Hackers leverage new Microsoft SharePoint exploit in attacks Hackers exploit critical JFrog Artifactory flaw to forge admin tokens Hackers target WordPress sites in miniOrange auth bypass attacks",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "Citrix",
+            "Microsoft SharePoint",
+            "WordPress"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-19490",
+            "CVE-2026-3055",
+            "CVE-2026-4368"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Citrix": "target",
+            "Microsoft SharePoint": "target",
+            "WordPress": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+          "published": "2026-09-04T15:25:59+00:00",
+          "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Citrix",
+              "Microsoft SharePoint",
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-19490",
+              "CVE-2026-3055",
+              "CVE-2026-4368"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Citrix": "target",
+              "Microsoft SharePoint": "target",
+              "WordPress": "target"
             },
             "weak_tags": {
               "products": []
@@ -2261,133 +2254,6 @@
               "AWS": "target",
               "SonicWall": "target",
               "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "71ed2ba3b0",
-      "priority_score": 19,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure",
-          "Ivanti",
-          "Microsoft SharePoint"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-55040",
-          "CVE-2026-62911",
-          "CVE-2026-63520",
-          "CVE-2026-65816",
-          "CVE-2026-69555"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Help Net Security",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "September 2026 Patch Tuesday forecast: All we need is more time",
-        "link": "https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/",
-        "published": "2026-09-04T06:00:19+00:00",
-        "summary": "The Patch Apocalypse is continuing unabated. We are seeing record numbers of patches being released and reported CVEs continue to grow as well. August 2026 Patch Tuesday was the second biggest in history with 398 resolved CVEs: 42 rated Critical, 355 rated Important, and 1 rated Moderate. But despite the high number, again only one vulnerability was confirmed actively exploited in the wild, and two more were publicly disclosed ahead of the released patches. AI … More → The post September 2026 Patch Tuesday forecast: All we need is more time appeared first on Help Net Security .",
-        "full_body": "Todd Schell, Senior Product Manager, Ivanti September 4, 2026 Share September 2026 Patch Tuesday forecast: All we need is more time The Patch Apocalypse is continuing unabated. We are seeing record numbers of patches being released and reported CVEs continue to grow as well. August 2026 Patch Tuesday was the second biggest in history with 398 resolved CVEs: 42 rated Critical, 355 rated Important, and 1 rated Moderate. But despite the high number, again only one vulnerability was confirmed actively exploited in the wild, and two more were publicly disclosed ahead of the released patches. AI has been good at discovering vulnerabilities, but so far, the associated overwhelming threat utilizing AI has been slow to surface. Last month I provided a deep dive and step-by-step patch management approach to dealing with the Patch Apocalypse created by AI vulnerability discovery. To summarize, the focus was on a methodology to prioritize an overwhelming number of patches to provide the highest risk reduction during overall deployment. While I didn’t call it out specifically, the greatest challenge we face in testing and deploying patches is time. There was an article posted by Igor Sahknov, Microsoft’s Corporate Vice President for Azure Networking which talks about the collapse of the patch window and how network controls can help mitigate the threat and reduce risk. Per Igor, ‘The objective is not to avoid patching. The objective is to create a meaningful layer of defense during the period when patching has not yet been completed.’ He proposes using the network as a control plane to buy more time while patch operations take place which dovetails nicely with a risk-driven remediation system to drive down exposure during critical times. You never know which CVEs will appeal to threat actors, so it is important to methodically deploy all updates from not only Patch Tuesday but also updates released throughout the month. There were many CVEs called out for exploitation in August, and I would like to bring some to your attention. First off, SharePoint was in the news with respect to CVE-2026-55040 and CVE-2026-63520 . These two vulnerabilities are being chained for authentication bypass and then remote code execution to actively exploit SharePoint servers. Fixes were released in July and August Patch Tuesdays respectively, but if you are behind in your patch cycle you are potentially vulnerable to threat actors using these chained exploits. Second, CVE-2026-62911 , an Exchange Server elevation of privilege vulnerability is ripe for exploitation. Also released on August Patch Tuesday, this vulnerability carries a CVSS of 8.0 and is one of the rare CVEs rated Critical that is not known exploited. Per Microsoft ‘The attacker would be able to take over the mailboxes of all Exchange users, attackers can send emails, read emails, download attachments.’ And finally, there were a handful of CVEs which Microsoft took care of for us in their cloud operations. CVE-2026-65816 and CVE-2026-69555 both in Azure Arc, and CVE-2026-65801 in Exchange Server Online were all rated Critical and carried a CVSS of 10.0. The CISA Known Exploited Vulnerabilities (KEV) list is useful if you want to stay on top of the most targeted vulnerabilities and these have all been added in the last two months. Several products reach end of support next month, so plan accordingly. October Patch Tuesday will see the final updates for Windows 11 Version 24H2 Home and Professional editions, ESU support for Server 2012 and 2012 R2, and finally, ESU support for Exchange Server 2016/2019. Follow Microsoft’s recommendations on upgrades for these products, or implement mitigations which will protect systems until you can remove, replace or upgrade them. Microsoft announced they are working on a fix for CVE-2026-69414 which is an elevation of privilege vulnerability which can grant system privileges. This vulnerability, known as ‘ShieldBreak’, exists in the malicious software engine of Mi",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft SharePoint",
-            "Azure",
-            "Ivanti"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-55040",
-            "CVE-2026-63520",
-            "CVE-2026-62911",
-            "CVE-2026-65816",
-            "CVE-2026-69555"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Microsoft SharePoint": "target",
-            "Azure": "target",
-            "Ivanti": "target",
-            "Microsoft Windows": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "September 2026 Patch Tuesday forecast: All we need is more time",
-          "link": "https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/",
-          "published": "2026-09-04T06:00:19+00:00",
-          "summary": "The Patch Apocalypse is continuing unabated. We are seeing record numbers of patches being released and reported CVEs continue to grow as well. August 2026 Patch Tuesday was the second biggest in history with 398 resolved CVEs: 42 rated Critical, 355 rated Important, and 1 rated Moderate. But despite the high number, again only one vulnerability was confirmed actively exploited in the wild, and two more were publicly disclosed ahead of the released patches. AI … More → The post September 2026 Patch Tuesday forecast: All we need is more time appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft SharePoint",
-              "Azure",
-              "Ivanti"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-55040",
-              "CVE-2026-63520",
-              "CVE-2026-62911",
-              "CVE-2026-65816",
-              "CVE-2026-69555"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft SharePoint": "target",
-              "Azure": "target",
-              "Ivanti": "target",
-              "Microsoft Windows": "target"
             },
             "weak_tags": {
               "products": []
@@ -3339,214 +3205,6 @@
       ]
     },
     {
-      "cluster_id": "4052366531",
-      "priority_score": 13,
-      "member_count": 4,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "CVE-2026-76581",
-        "WordPress"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "GitLab",
-          "Gitea",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-14894",
-          "CVE-2026-18431",
-          "CVE-2026-19598",
-          "CVE-2026-19632",
-          "CVE-2026-32475",
-          "CVE-2026-76581",
-          "CVE-2026-82222"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-        "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-        "published": "2026-08-29T16:25:03+00:00",
-        "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
-        "full_body": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE  Ravie Lakshmanan  Aug 29, 2026 Vulnerability / Web Security Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in the WPMU DEV Dashboard plugin that could allow an unauthenticated attacker, on sites connected to WPMU DEV with Hub Single-Sign On (SSO) enabled and mapped to an administrator, to obtain administrator access and achieve site takeover. (Affects all versions up to, and including, 5.0.1) CVE-2026-18431 (CVSS score: 9.8) - An arbitrary file write flaw in the Avada theme for WordPress that makes it possible for an unauthenticated attacker to write attacker-controlled files to the server, which, in turn, can be exploited to create and execute arbitrary PHP files, resulting in remote code execution and complete site compromise. (Affects all versions up to, and including, 7.16, when the Fusion Builder plugin is installed and active in versions up to, and including, 3.16) CVE-2026-19632 (CVSS score: 9.8) - A sensitive information exposure flaw in the \"TranslatePress – Translate Multilingual sites with AI Translation\" plugin that could allow an unauthenticated attacker to extract the raw administrator password-reset URL, including the plaintext reset key and login parameters, and enable full administrator account takeover. (Affects all versions up to, and including, 3.3.1 only when automatic string saving is enabled and the target administrator's profile locale is set to a published secondary language) CVE-2026-19598 (CVSS score: 9.8) - A privilege escalation flaw in the \"Pods – Custom Content Types and Fields\" plugin that allows an unauthenticated attacker to escalate their privileges to Administrator or overwrite the password of any user account, including the site owner's, resulting in complete site takeover. (Affects all versions up to, and including, 3.3.9) CVE-2026-82222 (CVSS score: 10.0) - A vulnerability in the GiveWP plugin that allows an attacker to execute arbitrary commands on the server of a GiveWP site that has one published donation form and one active payment gateway. (Affects all versions up to, and including, 4.16.7.1) \"The flaw chains a broken 'safe unserialize' helper, a donation flow that feeds that helper attacker-controlled data, and a gadget chain in code that GiveWP ships,\" Patchstack said about CVE-2026-82222. \"This case shows how PHP object injection turns into remote code execution when three ingredients line up: a place to store an attacker-controlled serialized object, code that later unserializes it, and a gadget chain in loaded classes.\" \"The root causes are common: trusting a serialization sanitizer that does not actually strip objects, unserializing data read back from the database as if it were trusted, and shipping development-only libraries into production where they provide ready-made gadget chains.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Vulnerability , Web Security , WordPress ⚡ Top Stories This Week Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account ⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload Claude Opus 4.6 Bypasses Gym Booking ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "WordPress",
-            "GitLab",
-            "Gitea"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-76581",
-            "CVE-2026-18431",
-            "CVE-2026-19632",
-            "CVE-2026-19598",
-            "CVE-2026-82222"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "WordPress": "target",
-            "GitLab": "target",
-            "Gitea": "target",
-            "Anthropic/Claude": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-          "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-          "published": "2026-08-29T16:25:03+00:00",
-          "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "WordPress",
-              "GitLab",
-              "Gitea"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-76581",
-              "CVE-2026-18431",
-              "CVE-2026-19632",
-              "CVE-2026-19598",
-              "CVE-2026-82222"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target",
-              "GitLab": "target",
-              "Gitea": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
-          "link": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
-          "published": "2026-09-05T13:00:28+00:00",
-          "summary": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-32475"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Critical Elementor Pro flaw exploited to take over WordPress sites",
-          "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-          "published": "2026-09-03T14:52:20+00:00",
-          "summary": "A recently patched critical vulnerability (CVE-2026-32475) in the Elementor Pro plugin for WordPress is being exploited in attacks that deliver a webshell payload and execute arbitrary commands on the server. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-32475"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2aa97aefff",
       "priority_score": 12,
       "member_count": 1,
@@ -3614,6 +3272,168 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_government",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "fb5d93339a",
+      "priority_score": 12,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-32475",
+        "WordPress"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT",
+          "VMware",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-14894",
+          "CVE-2026-32475"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "preauth_unauth",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
+        "link": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+        "published": "2026-09-05T13:00:28+00:00",
+        "summary": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .",
+        "full_body": "Hackers have been exploiting a critical-severity vulnerability in the Elementor Pro WordPress plugin to hack websites, WordPress security firm Defiant warns. A highly popular drag-and-drop website builder, Elementor is a free WordPress plugin with over 10 million installations. Elementor Pro is the paid version that offers additional features, including a Form widget with support for File Upload fields. The bug, tracked as CVE-2026-32475 (CVSS score of 9.8), is described as an arbitrary file upload issue in the function that handles form submissions. While submissions are passed through the plugin’s validation and processing mechanisms, when the validation loop encounters an upload slot marked as empty, it triggers an error and returns, aborting the validation of other files in the field. The normal behavior would be to continue, skipping the empty entry, but the vulnerability results in checks never being applied to the remaining files uploaded through the same form field. An attacker can submit an upload field as an array with two parts: an empty slot that triggers the return, followed by a PHP payload that is uploaded without validation. Advertisement. Scroll to continue reading. Because the function that handles field processing correctly skips the empty slot and processes the second, unvalidated part of the field, the attacker-supplied file is written to disk. “As a result, an unauthenticated attacker can request the uploaded file to execute their PHP payload on the server,” Defiant explains , noting that this could lead to full site compromise. CVE-2026-32475 impacts all Elementor Pro plugin versions up to 4.2.1 and was patched in version 4.2.2 on August 19. Site owners should update to the fixed iteration as soon as possible. According to Defiant, threat actors started exploiting the security defect immediately after the fixes landed. The security firm has blocked over 190,000 exploit attempts to date. Successful exploitation of the vulnerability results in a PHP file being written to the /wp-content/uploads/elementor/forms/ directory, which stores uploaded form submissions. Site administrators are advised to check the directory for the presence of any PHP file, which is a strong indicator of compromise (IoC). They should also check logs for requests to /wp-admin/admin-ajax.php and check their sites for backdoors if any evidence of compromise is discovered. Defiant notes that Elementor Pro has over 6 million active installations, but it is unclear how many of them are affected. According to WordPress data , approximately two-thirds of Elementor’s 10 million installations run a vulnerable plugin version as of September 4. Related: 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover Related: VMware Workstation and Fusion Updates Patch Critical Vulnerability Related: Google Patches 6th Chrome Zero-Day of 2026 Related: Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal HiddenLayer Raises $100 Million for AI Runtime Security 153 Million Driver License Images Offered on Dark Web Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities Exploit Published for Fresh Cleo Harmony Vulnerability Malicious Virtualizor Update Served via BGP Hijacking Chrome and Firefox Updates Patch Dozens of Vulnerabilities Latest News In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation HPE Patches Critical RCE Vulnerabilities in AOS-CX OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders Sangoma Switchvox Vuln",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "WordPress",
+            "VMware",
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-32475"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day",
+            "preauth_unauth",
+            "no_patch_yet"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "WordPress": "target",
+            "VMware": "target",
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
+          "link": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+          "published": "2026-09-05T13:00:28+00:00",
+          "summary": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "WordPress",
+              "VMware",
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-32475"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day",
+              "preauth_unauth",
+              "no_patch_yet"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target",
+              "VMware": "target",
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+          "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+          "published": "2026-09-04T08:48:45+00:00",
+          "summary": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-14894"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -5789,87 +5609,6 @@
       ]
     },
     {
-      "cluster_id": "2e68cba663",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "The story behind the intelligence",
-        "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
-        "published": "2026-09-03T18:00:13+00:00",
-        "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
-        "full_body": "The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI \"safety penalty.\" As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "The story behind the intelligence",
-          "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
-          "published": "2026-09-03T18:00:13+00:00",
-          "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bbea7197be",
       "priority_score": 10,
       "member_count": 1,
@@ -6336,6 +6075,87 @@
       ]
     },
     {
+      "cluster_id": "2e68cba663",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "The story behind the intelligence",
+        "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
+        "published": "2026-09-03T18:00:13+00:00",
+        "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
+        "full_body": "The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI \"safety penalty.\" As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "The story behind the intelligence",
+          "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
+          "published": "2026-09-03T18:00:13+00:00",
+          "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "14562e0782",
       "priority_score": 10,
       "member_count": 1,
@@ -6685,142 +6505,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "fd4c9ae2cb",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-73749"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "ddos",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "OpenAI/ChatGPT",
-          "VMware",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-73749"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet",
-          "preauth_unauth",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
-        "link": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
-        "published": "2026-09-04T16:11:06+00:00",
-        "summary": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .",
-        "full_body": "Hewlett Packard Enterprise (HPE) has released patches for 34 CVEs in the Aruba Networking ArubaOS-CX (AOS-CX) platform, including critical-severity remote code execution (RCE) flaws. Per HPT’s advisory , more than 150 flaws were resolved in AOS-CX versions 10.18.1002, 10.17.1030, 10.16.1060, 10.13.1190, and 10.10.1181. Many of these bugs are tracked together under single CVEs. Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The critical security defects are rooted in the improper processing of malformed input sent to an unnamed service within HPE’s database-centric operating system for enterprise switches. According to the company, an unauthenticated attacker could exploit the security defects by sending crafted packets to the vulnerable service, achieving RCE with elevated privileges. The fresh updates also resolve 22 high-severity CVEs that could lead to denial-of-service (DoS), RCE, arbitrary command execution, arbitrary script code execution in a victim’s browser, authentication bypass, privilege escalation, and information disclosure. Advertisement. Scroll to continue reading. All the remaining 11 CVEs are medium-severity flaws leading to access controls bypass, information disclosure, arbitrary file reads, DoS, and privilege escalation. HPE says the majority of these vulnerabilities were discovered internally by its security team, noting that it is not aware of any of them being exploited in the wild. “To minimize the likelihood of an attacker exploiting these vulnerabilities, HPE Networking recommends that the CLI and web-based management interfaces be restricted to a dedicated layer 2 segment/VLAN and/or controlled by firewall policies at layer 3 and above along with accounting controls for tracking and logging user activities and resource usage,” the company notes. Related: Sangoma Switchvox Vulnerabilities Exploited in the Wild Related: VMware Workstation and Fusion Updates Patch Critical Vulnerability Related: Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents Related: Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal HiddenLayer Raises $100 Million for AI Runtime Security 153 Million Driver License Images Offered on Dark Web Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities Exploit Published for Fresh Cleo Harmony Vulnerability Malicious Virtualizor Update Served via BGP Hijacking Chrome and Firefox Updates Patch Dozens of Vulnerabilities Latest News Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders Sangoma Switchvox Vulnerabilities Exploited in the Wild 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover Catch Raises $5 Million for AI Executive Assistant With Guardrails VMware Workstation and Fusion Updates Patch Critical Vulnerability Google Patches 6th Chrome Zero-Day of 2026 Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Attack Surface Management Summit 2026 September 16, 2026 Join as speakers examine the various components of ASM strategy, the push to mandate continuous asset visibility and inventory tools, and the use of red-teaming, bug bounties and pen-tests in modern security pro",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "ddos",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "critical_infrastructure"
-          ],
-          "affected_products": [
-            "WordPress",
-            "VMware",
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-73749"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "preauth_unauth",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "WordPress": "target",
-            "VMware": "target",
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
-          "link": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
-          "published": "2026-09-04T16:11:06+00:00",
-          "summary": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "ddos",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [
-              "WordPress",
-              "VMware",
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-73749"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "preauth_unauth",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "WordPress": "target",
-              "VMware": "target",
-              "OpenAI/ChatGPT": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -7976,9 +7660,18 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Anthropic/Claude",
+          "GitHub",
+          "OpenAI/ChatGPT"
+        ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2021-43891",
+          "CVE-2022-24346",
+          "CVE-2026-19592",
+          "CVE-2026-72718"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
           "no_patch_yet"
@@ -7997,22 +7690,35 @@
         "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
         "published": "2026-09-02T14:06:59+00:00",
         "summary": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code  Swati Khandelwal  Sep 02, 2026 Vulnerability / AI Coding Agent Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive as files with its .git directory intact, which a shared archive, a shared drive, a sync folder, or a USB stick preserves, whereas an ordinary clone does not. Fixes have shipped for goose, Claude Code, and Cursor, while Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code were still executing repository-supplied commands when Manifold retested them on September 1. OpenAI published three CVEs of its own the same day covering the identical class in Codex, credited to three unrelated research groups. \"The helper runs outside Codex's command sandbox and without a user-approval prompt, allowing attacker-controlled code to run with the user's privileges. The code can read, change, or delete the user's files and access other resources available to the user's account,\" OpenAI said in the record for CVE-2026-19592 . On Claude Code and Hermes Agent, the payload fires before the workspace-trust prompt is accepted; on Qwen Code, before the user has authenticated; and on Grok Build, on the first keystroke. core.fsmonitor is a Git performance setting whose value is a command that Git runs to identify changed files, and Git reads it from the repository's own .git/config. Any operation that refreshes the index, including git status and git diff, executes that command. The agents call those commands in the background to determine which branch they are on and which files have changed, leaving the repository's configuration untouched. Manifold, which published the findings as GitSpawn , wrote up five of the eight in detail and said it found the pattern in more agents than it names. \"The vulnerability is not in the model, or in anything new. It is in the ordinary plumbing underneath, the subprocess an agent spawns at session startup to work out where it is,\" Manifold said. The following agents and versions are affected - goose - All versions prior to 1.44.0, fixed in 1.44.0 Codex CLI - 0.102.0 through 0.130.0, fixed in 0.131.0 Codex Desktop for macOS - 260202.0859 through 26.513.31313, fixed in 26.519.22136 Codex Desktop for Windows - 26.304.38 through 26.513.40821, fixed in 26.519.21041, and Microsoft Store package 26.304.38.0 through 26.513.4821.0, fixed in 26.519.2081.0 Claude Code - Confirmed by Manifold on 2.1.193 and fixed by 2.1.196 on the core.fsmonitor path, with the claude ultrareview path confirmed live on 2.1.252 Hermes Agent - 0.18.2 and 0.21.0 confirmed by Manifold, fix pending Qwen Code - 0.19.6 and 0.22.3 confirmed by Manifold, fix pending Grok Build - 0.2.93 and 1.0.13 confirmed by Manifold, fix pending In goose, the goose review command builds its Git invocations with one configuration flag, -c core.quotePath=off, and strips nothing else. GitHub assigned CVE-2026-72718 a CVSS 4.0 base score of 7.0 in an advisory crediting Francisco Rosales , the only score any of these findings carries. \"So running goose review inside a malicious repo runs attacker code - no submitted prompt, no model call, no tool approval, no trust prompt. The command executes before goose ever contacts the model,\" the advisory said. Sonar reported the same sink in April , noted that Anthropic had already moved the startup sequence once to close it, and identified the same trust-dialog bypass in Visual Studio Code before 1.63.1 ( CVE-2021-43891 ) and in JetBrains IDEs before 2021.3.1 ( CVE-2022-24346 ). \"In version 2.0.34, Claude was updated in a way that mitigated the specific vulnerability by no lo",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-19592",
+            "CVE-2026-72718",
+            "CVE-2021-43891",
+            "CVE-2022-24346"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
             "no_patch_yet"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Anthropic/Claude": "target",
+            "GitHub": "target",
+            "OpenAI/ChatGPT": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -8030,16 +7736,29 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Anthropic/Claude",
+              "GitHub",
+              "OpenAI/ChatGPT"
+            ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-19592",
+              "CVE-2026-72718",
+              "CVE-2021-43891",
+              "CVE-2022-24346"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
               "no_patch_yet"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "GitHub": "target",
+              "OpenAI/ChatGPT": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -8062,10 +7781,17 @@
           "financial_services"
         ],
         "affected_products": [
+          "Apple iOS/macOS",
           "Packagist"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2025-31277",
+          "CVE-2025-43398",
+          "CVE-2025-43510",
+          "CVE-2025-43520",
+          "CVE-2025-43529"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
           "no_patch_yet"
@@ -8084,8 +7810,8 @@
         "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
         "published": "2026-09-01T14:07:20+00:00",
         "summary": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. \"The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds  Ravie Lakshmanan  Sep 01, 2026 Malware / Web Security Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. \"The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect chain, and, on iPhones, a WebKit-to-kernel exploit chain that installs spyware,\" Socket security researcher Kush Pandya said . The activity is assessed to be part of a campaign that was first documented by the application security company back in March 2026 that leveraged six malicious Packagist packages posing as OphimCMS themes to redirect visitors, exfiltrate URLs, inject ads, and serve from Funnull -hosted infrastructure a second-stage payload to lead victims to gambling and adult content sites. The complete set of packages, which span five vendor namespaces, is below - vsmov: theme-dy, theme-rrdyw, theme-motchill, theme-vsmov vsphim: theme-heovl, theme-thempho haiau009: kkphim-legend, kkphim-motchill chilltvcms: theme-legend ophimcms: theme-dy, theme-motchill, theme-pcc, theme-rrdyw At a high level, the trojanized Composer theme injects JavaScript that runs a mobile gambling and ad-fraud redirect and, on iPhones, a Funnull-hosted WebKit-to-kernel exploit chain ending in spyware and cryptocurrency-wallet theft. The iOS attack chain is designed to insert a hidden iframe element that determines the iOS version and loads an operating system-specific version of the exploit. Specifically, it weaponizes two WebKit vulnerabilities -- CVE-2025-31277 (Patched in version 18.6) and CVE-2025-43529 (Patched in versions 18.7.3 and 26.2) -- in a manner that's analogous to the DarkSword exploit kit. The payload then pivots out of the WebContent sandbox into the GPU process, followed by a second stage that reaches the kernel through the AppleM2ScalerCSCDriver IOKit user client and ultimately obtains read and write privileges. Apple is said to have addressed the kernel escape flaw in iOS and macOS 26.1 . Pandya told The Hacker News that Apple did not share a CVE identifier for the kernel escape vulnerability, but that the iPhone maker confirmed the issue had already been patched in iOS 26.1 and macOS 26.1 before receiving their report. It's suspected to be CVE-2025-43398 , CVE-2025-43510 , or CVE-2025-43520 , all of which were kernel-related bugs fixed late last year. \"On success, the final payload uses the kernel read to collect keychain databases, Wi-Fi passwords, the SMS database, the address book, Photos, browser cookies, call history, location history, and account databases, encrypts them with AES, and uploads them over HTTPS POST /upload to a rotating pool of command and control domains,\" Pandya explained. \"The worker beacons exploitation progress to cloudfareintcdn[.]com/wd-status.html.\" The threat actors behind the campaign have been found to redeploy the whole iOS chain around August 12, 2026, mainly targeting iOS devices running versions 18.4 through 18.6.x with a new payload that adds an iOS Keychain cryptocurrency wallet seed and mnemonic stealer. The malware queries the password store for wallet material from Bitget, BitKeep, Bitpie, Phantom, Tonkeeper, Trust Wallet, and OKX, extending beyond device data collection to direct financial theft. Socket said the same five vendor namespaces have published additional theme packages that carry no active payload at the time of analysis, although they have been configured such that the malicious code could be activated via \"Custom JS\" fields rendered into every page on the websites. It's not clear who is behind the campaign, although it's believed to be the work of a Vietnamese-operated group based on commit metadata timestamps. It's worth pointing out that the",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -8093,10 +7819,17 @@
             "financial_services"
           ],
           "affected_products": [
-            "Packagist"
+            "Packagist",
+            "Apple iOS/macOS"
           ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2025-31277",
+            "CVE-2025-43529",
+            "CVE-2025-43398",
+            "CVE-2025-43510",
+            "CVE-2025-43520"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
             "no_patch_yet"
@@ -8104,7 +7837,8 @@
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "Packagist": "target"
+            "Packagist": "target",
+            "Apple iOS/macOS": "target"
           },
           "weak_tags": {
             "products": []
@@ -8126,10 +7860,17 @@
               "financial_services"
             ],
             "affected_products": [
-              "Packagist"
+              "Packagist",
+              "Apple iOS/macOS"
             ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2025-31277",
+              "CVE-2025-43529",
+              "CVE-2025-43398",
+              "CVE-2025-43510",
+              "CVE-2025-43520"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
               "no_patch_yet"
@@ -8137,7 +7878,8 @@
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "Packagist": "target"
+              "Packagist": "target",
+              "Apple iOS/macOS": "target"
             },
             "weak_tags": {
               "products": []
@@ -8293,6 +8035,89 @@
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "fd4c9ae2cb",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-73749"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-73749"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+        "link": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+        "published": "2026-09-04T16:11:06+00:00",
+        "summary": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-73749"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+          "link": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+          "published": "2026-09-04T16:11:06+00:00",
+          "summary": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-73749"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
@@ -9383,19 +9208,26 @@
       "theme_key": "wordpress",
       "dominant_features": {
         "threat_categories": [
-          "active_exploitation"
+          "active_exploitation",
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government"
         ],
         "affected_products": [
-          "WordPress"
+          "WordPress",
+          "OpenAI/ChatGPT"
         ],
         "urgency_signals": [
+          "preauth_unauth",
           "actively_exploited",
-          "preauth_unauth"
+          "zero_day",
+          "no_patch_yet"
         ]
       },
-      "cluster_count": 6,
-      "article_count": 9,
-      "cohesion": 0.203,
+      "cluster_count": 5,
+      "article_count": 6,
+      "cohesion": 0.201,
       "shared_strong_signals": [
         "WordPress"
       ],
@@ -9405,18 +9237,15 @@
         "d5d207ddf7",
         "6a5c697136",
         "64d5865aac",
-        "4052366531",
-        "fd4c9ae2cb",
+        "fb5d93339a",
         "d19603372e"
       ],
       "links": [
         "https://www.exploit-db.com/exploits/52668",
         "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
-        "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
         "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
-        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-        "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
+        "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
         "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency"
       ]
     },
@@ -9468,46 +9297,6 @@
         "https://www.team-cymru.com/post/webmin-vulnerability-and-port-scanning-activity",
         "https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january",
         "https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/"
-      ]
-    },
-    {
-      "label": "Microsoft SharePoint active exploitation",
-      "anchor_signal": "Microsoft SharePoint",
-      "theme_key": "microsoft-sharepoint",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "active_exploitation"
-        ],
-        "affected_products": [
-          "Microsoft SharePoint"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 6,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Microsoft SharePoint"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "6a5c697136",
-        "71ed2ba3b0",
-        "7c42269e48",
-        "d8c893e316"
-      ],
-      "links": [
-        "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
-        "https://www.helpnetsecurity.com/2026/09/04/september-2026-patch-tuesday-forecast/",
-        "https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window",
-        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
-        "https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/",
-        "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest"
       ]
     },
     {
@@ -9588,155 +9377,82 @@
       ]
     },
     {
-      "label": "CVE-2026-3909 exploitation activity",
-      "anchor_signal": "CVE-2026-3909",
-      "theme_key": "cve-2026-3909",
+      "label": "GitLab active exploitation",
+      "anchor_signal": "GitLab",
+      "theme_key": "gitlab",
       "dominant_features": {
         "threat_categories": [
-          "zero_day",
+          "phishing_social_eng",
           "active_exploitation"
         ],
-        "cve_ids": [
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-85046"
+        "affected_industries": [
+          "government",
+          "critical_infrastructure",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitLab",
+          "Gitea"
         ],
         "urgency_signals": [
           "actively_exploited",
-          "zero_day"
+          "preauth_unauth"
         ]
       },
-      "cluster_count": 2,
+      "cluster_count": 3,
       "article_count": 4,
-      "cohesion": 0.533,
+      "cohesion": 0.206,
       "shared_strong_signals": [
-        "CVE-2026-3909"
+        "GitLab"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "5ff343317a",
-        "64d5865aac"
+        "fe03764b75",
+        "bfe3e974bb",
+        "9f4e218d51"
       ],
       "links": [
-        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
         "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
+        "https://horizon3.ai/customer-story/virginia-tech-automated-external-pentesting/",
+        "https://www.reddit.com/r/netsec/comments/1w5hjc8/the_validator_can_lie_ssrf_beyond_url_validation/",
+        "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html"
       ]
     },
     {
-      "label": "CVE-2026-2441 exploitation activity",
-      "anchor_signal": "CVE-2026-2441",
-      "theme_key": "cve-2026-2441",
+      "label": "ransomware extortion targeting Microsoft SharePoint",
+      "anchor_signal": "Microsoft SharePoint",
+      "theme_key": "microsoft-sharepoint",
       "dominant_features": {
         "threat_categories": [
-          "zero_day",
-          "active_exploitation"
+          "ransomware_extortion"
         ],
-        "cve_ids": [
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-85046"
+        "affected_products": [
+          "Microsoft SharePoint"
         ],
         "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
+          "poc_available"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.533,
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.2,
       "shared_strong_signals": [
-        "CVE-2026-2441"
+        "Microsoft SharePoint"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "5ff343317a",
-        "64d5865aac"
+        "6a5c697136",
+        "7c42269e48",
+        "d8c893e316"
       ],
       "links": [
-        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
-        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
-      "label": "CVE-2026-3910 exploitation activity",
-      "anchor_signal": "CVE-2026-3910",
-      "theme_key": "cve-2026-3910",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-85046"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.533,
-      "shared_strong_signals": [
-        "CVE-2026-3910"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "5ff343317a",
-        "64d5865aac"
-      ],
-      "links": [
-        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
-        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
-      "label": "CVE-2026-85046 exploitation activity",
-      "anchor_signal": "CVE-2026-85046",
-      "theme_key": "cve-2026-85046",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-85046"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.533,
-      "shared_strong_signals": [
-        "CVE-2026-85046"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "5ff343317a",
-        "64d5865aac"
-      ],
-      "links": [
-        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
-        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
+        "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+        "https://www.team-cymru.com/post/toolshell-sharepoint-and-the-death-of-the-patch-window",
+        "https://www.team-cymru.com/post/validating-shinyhunters-cyber-threat-actors-infrastructure",
+        "https://www.infosecurity-magazine.com/news/healthcare-mckesson-investigates/",
+        "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest"
       ]
     },
     {
@@ -9802,46 +9518,163 @@
       ]
     },
     {
-      "label": "GitLab active exploitation",
-      "anchor_signal": "GitLab",
-      "theme_key": "gitlab",
+      "label": "CVE-2026-3910 exploitation activity",
+      "anchor_signal": "CVE-2026-3910",
+      "theme_key": "cve-2026-3910",
       "dominant_features": {
         "threat_categories": [
-          "phishing_social_eng",
+          "zero_day",
           "active_exploitation"
         ],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
         "affected_products": [
-          "GitLab",
-          "Gitea"
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-2441",
+          "CVE-2026-3909",
+          "CVE-2026-3910",
+          "CVE-2026-85046"
         ],
         "urgency_signals": [
           "actively_exploited",
-          "preauth_unauth"
+          "zero_day"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 7,
-      "cohesion": 0.221,
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.334,
       "shared_strong_signals": [
-        "GitLab"
+        "CVE-2026-3910"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "4052366531",
-        "bfe3e974bb",
-        "9f4e218d51"
+        "fe03764b75",
+        "64d5865aac"
       ],
       "links": [
-        "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
-        "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
-        "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-flaw-exploited-to-take-over-wordpress-sites/",
-        "https://horizon3.ai/customer-story/virginia-tech-automated-external-pentesting/",
-        "https://www.reddit.com/r/netsec/comments/1w5hjc8/the_validator_can_lie_ssrf_beyond_url_validation/",
-        "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html"
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
+      ]
+    },
+    {
+      "label": "CVE-2026-3909 exploitation activity",
+      "anchor_signal": "CVE-2026-3909",
+      "theme_key": "cve-2026-3909",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-2441",
+          "CVE-2026-3909",
+          "CVE-2026-3910",
+          "CVE-2026-85046"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.334,
+      "shared_strong_signals": [
+        "CVE-2026-3909"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "fe03764b75",
+        "64d5865aac"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
+      ]
+    },
+    {
+      "label": "CVE-2026-2441 exploitation activity",
+      "anchor_signal": "CVE-2026-2441",
+      "theme_key": "cve-2026-2441",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-2441",
+          "CVE-2026-3909",
+          "CVE-2026-3910",
+          "CVE-2026-85046"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.334,
+      "shared_strong_signals": [
+        "CVE-2026-2441"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "fe03764b75",
+        "64d5865aac"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
+      ]
+    },
+    {
+      "label": "CVE-2026-85046 exploitation activity",
+      "anchor_signal": "CVE-2026-85046",
+      "theme_key": "cve-2026-85046",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [
+          "CVE-2026-2441",
+          "CVE-2026-3909",
+          "CVE-2026-3910",
+          "CVE-2026-85046"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.334,
+      "shared_strong_signals": [
+        "CVE-2026-85046"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "fe03764b75",
+        "64d5865aac"
+      ],
+      "links": [
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
       ]
     }
   ],
@@ -9884,72 +9717,94 @@
         "first_observation": true
       },
       {
-        "cluster_id": "5ff343317a",
-        "pair": "CVE-2026-2441 + Nimbus Manticore",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-2441 + TeamPCP",
         "first_observation": true
       },
       {
-        "cluster_id": "5ff343317a",
-        "pair": "CVE-2026-3909 + Nimbus Manticore",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-2441 + GitLab",
         "first_observation": true
       },
       {
-        "cluster_id": "5ff343317a",
-        "pair": "CVE-2026-3910 + Nimbus Manticore",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-2441 + Gitea",
         "first_observation": true
       },
       {
-        "cluster_id": "5ff343317a",
-        "pair": "CVE-2026-5281 + Nimbus Manticore",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-3909 + TeamPCP",
         "first_observation": true
       },
       {
-        "cluster_id": "5ff343317a",
-        "pair": "CVE-2026-85046 + Nimbus Manticore",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-3909 + GitLab",
         "first_observation": true
       },
       {
-        "cluster_id": "5ff343317a",
-        "pair": "CVE-2026-85046 + Apple iOS/macOS",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-3909 + Gitea",
         "first_observation": true
       },
       {
-        "cluster_id": "5ff343317a",
-        "pair": "Nimbus Manticore + Apple iOS/macOS",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-3910 + TeamPCP",
         "first_observation": true
       },
       {
-        "cluster_id": "d5d207ddf7",
-        "pair": "CVE-2026-15013 + WordPress",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-3910 + GitLab",
         "first_observation": true
       },
       {
-        "cluster_id": "6a5c697136",
-        "pair": "CVE-2026-19490 + Microsoft SharePoint",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-3910 + Gitea",
         "first_observation": true
       },
       {
-        "cluster_id": "6a5c697136",
-        "pair": "CVE-2026-19490 + WordPress",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-5281 + TeamPCP",
         "first_observation": true
       },
       {
-        "cluster_id": "6a5c697136",
-        "pair": "CVE-2026-3055 + Microsoft SharePoint",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-5281 + GitLab",
         "first_observation": true
       },
       {
-        "cluster_id": "6a5c697136",
-        "pair": "CVE-2026-3055 + WordPress",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-5281 + Gitea",
         "first_observation": true
       },
       {
-        "cluster_id": "6a5c697136",
-        "pair": "CVE-2026-4368 + Citrix",
+        "cluster_id": "fe03764b75",
+        "pair": "CVE-2026-85046 + TeamPCP",
         "first_observation": true
       }
     ],
     "drift": [
+      {
+        "actor": "TeamPCP",
+        "cluster_id": "fe03764b75",
+        "new_industries": [
+          "manufacturing_industrial"
+        ],
+        "new_products": [
+          "GitLab",
+          "Gitea",
+          "OpenAI/ChatGPT"
+        ],
+        "prior_top_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government"
+        ],
+        "prior_top_products": [
+          "GitHub",
+          "Kubernetes",
+          "npm"
+        ]
+      },
       {
         "actor": "ShinyHunters",
         "cluster_id": "d8c893e316",
@@ -10051,6 +9906,12 @@
       },
       {
         "axis": "actor_attribution",
+        "value": "TeamPCP",
+        "cluster_id": "fe03764b75",
+        "weeks_observed": 10
+      },
+      {
+        "axis": "actor_attribution",
         "value": "Scattered Spider",
         "cluster_id": "fc5c9992d3",
         "weeks_observed": 10
@@ -10078,12 +9939,6 @@
         "value": "CVE-2025-3248",
         "cluster_id": "8370077906",
         "weeks_observed": 6
-      },
-      {
-        "axis": "cve_ids",
-        "value": "CVE-2026-55040",
-        "cluster_id": "71ed2ba3b0",
-        "weeks_observed": 5
       },
       {
         "axis": "actor_attribution",
@@ -10122,15 +9977,15 @@
         "weeks_observed": 4
       },
       {
-        "axis": "actor_attribution",
-        "value": "Nimbus Manticore",
-        "cluster_id": "5ff343317a",
+        "axis": "cve_ids",
+        "value": "CVE-2026-3055",
+        "cluster_id": "6a5c697136",
         "weeks_observed": 3
       },
       {
         "axis": "cve_ids",
-        "value": "CVE-2026-3055",
-        "cluster_id": "6a5c697136",
+        "value": "CVE-2024-36401",
+        "cluster_id": "5f380a65c5",
         "weeks_observed": 3
       }
     ],
