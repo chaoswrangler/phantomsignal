@@ -6,9 +6,30 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 05 Sep 2026 10:23:08 +0000</lastBuildDate>
+<lastBuildDate>Sat, 05 Sep 2026 13:49:08 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites</title>
+<link>https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/</link>
+<description><![CDATA[Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · CVE-2026-32475</em>]]></description>
+<pubDate>Sat, 05 Sep 2026 13:00:28 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>WordPress</category>
+<category>CVE-2026-32475</category>
+</item>
+<item>
+<title>OpenAI admits it didn&apos;t disclose rogue AI wiki hijacking incident</title>
+<link>https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/</link>
+<description><![CDATA[OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model &quot;misalignment&quot; rather than a security breach. [...]<br/><br/><em>Tags: OpenAI/ChatGPT</em>]]></description>
+<pubDate>Sat, 05 Sep 2026 11:11:50 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>OpenAI/ChatGPT</category>
+</item>
 <item>
 <title>Million-dollar phishing campaign uses invisible Unicode characters to bypass email filters</title>
 <link>https://www.reddit.com/r/netsec/comments/1w7u80q/milliondollar_phishing_campaign_uses_invisible/</link>
@@ -100,13 +121,13 @@
 <item>
 <title>HPE Patches Critical RCE Vulnerabilities in AOS-CX</title>
 <link>https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/</link>
-<description><![CDATA[Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .<br/><br/><em>Tags: VMware · WordPress · OpenAI/ChatGPT · CVE-2026-73749 · zero_day · ddos · active_exploitation</em>]]></description>
+<description><![CDATA[Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek .<br/><br/><em>Tags: WordPress · VMware · OpenAI/ChatGPT · CVE-2026-73749 · zero_day · ddos · active_exploitation</em>]]></description>
 <pubDate>Fri, 04 Sep 2026 16:11:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>VMware</category>
 <category>WordPress</category>
+<category>VMware</category>
 <category>OpenAI/ChatGPT</category>
 <category>CVE-2026-73749</category>
 </item>
@@ -1268,15 +1289,6 @@
 <category>CVE-2026-20212</category>
 </item>
 <item>
-<title>Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal</title>
-<link>https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/</link>
-<description><![CDATA[Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys. The post Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal appeared first on SecurityWeek .]]></description>
-<pubDate>Thu, 03 Sep 2026 15:35:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/</guid>
-<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory</title>
 <link>https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html</link>
 <description><![CDATA[Cybersecurity researchers have disclosed details of a sophisticated Python-based Windows malware framework called BraZetsu that fuels an underground marketplace commercializing access to compromised hosts. &quot;Unlike the standard infostealer model, BraZetsu is a comprehensive master toolkit that empowers Initial Access Brokers (IABs) by turning compromised systems into highly valuable commercial<br/><br/><em>Tags: credential_theft</em>]]></description>
@@ -1334,16 +1346,6 @@
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Your Employee’s Password Appeared in an Infostealer Log. Now What?</title>
-<link>https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/</link>
-<description><![CDATA[Infostealers can expose far more than passwords, including authenticated sessions that may let attackers bypass MFA. Flare explains how defenders can prioritize compromised identities, determine whether stolen access is still usable, and respond before it leads to account takeover. [...]<br/><br/><em>Tags: credential_theft</em>]]></description>
-<pubDate>Thu, 03 Sep 2026 13:50:59 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/your-employees-password-appeared-in-an-infostealer-log-now-what/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>credential_theft</category>
 </item>
 <item>
 <title>Thomson Reuters reveals breach that exposed U.S. and Canadian court records</title>
@@ -1426,11 +1428,15 @@
 <item>
 <title>Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member&apos;s iPhone</title>
 <link>https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html</link>
-<description><![CDATA[The iPhone belonging to a member of Serbia&apos;s student protest movement was infected with NSO Group&apos;s Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. &quot;Our analysis confirmed that an iMessage zero-click exploit was used to infect the device with NSO Group&apos;s Pegasus spyware,&quot; the Citizen Lab said. &quot;We found high-confidence indicators of]]></description>
+<description><![CDATA[The iPhone belonging to a member of Serbia&apos;s student protest movement was infected with NSO Group&apos;s Pegasus spyware, according to new findings from the Citizen Lab in collaboration with the SHARE Foundation. &quot;Our analysis confirmed that an iMessage zero-click exploit was used to infect the device with NSO Group&apos;s Pegasus spyware,&quot; the Citizen Lab said. &quot;We found high-confidence indicators of<br/><br/><em>Tags: GitLab · Gitea · Anthropic/Claude · phishing_social_eng · apt_espionage · active_exploitation</em>]]></description>
 <pubDate>Thu, 03 Sep 2026 08:43:17 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>GitLab</category>
+<category>Gitea</category>
+<category>Anthropic/Claude</category>
+<category>phishing_social_eng</category>
 </item>
 <item>
 <title>International Operation Disrupts Sality P2P Botnet</title>
@@ -5671,6 +5677,15 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
+<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
+<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
+<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
+<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
+<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
+<category>offensive_vulnerability_research</category>
+</item>
+<item>
 <title>Akira Hits Safe Mode: Ransomware Rebooting Around EDR</title>
 <link>https://www.huntress.com/blog/akira-hits-safe-mode-ransomware-rebooting-around-edr</link>
 <description><![CDATA[An Akira affiliate rebooted into Safe Mode to kill EDR and Defender, then Safe Mode broke their own ransomware. Here’s the full attack chain.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -5679,15 +5694,6 @@
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
 <category>ransomware_extortion</category>
-</item>
-<item>
-<title>AI is Working in the SOC. So Why are Security Executives More Worried Than Ever?</title>
-<link>https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</link>
-<description><![CDATA[Something shifted in security operations over the last two years: AI stopped being a pilot program and became the plan. And if you survey 500 security professionals on whether that&apos;s going well – as Omdia did, commissioned by Rapid7 – you get a remarkable level of consensus: 97% report positive outcomes, 98% say AI reduces alert fatigue, and 95% say it&apos;s helping address staffing shortages. Those numbers are high enough that the story could stop there; AI is working, everyone agrees. Move on. But there&apos;s a more interesting finding sitting underneath that consensus, and it tells you something important about where security operations is actually headed. The confidence gap nobody is talking about While frontline SOC teams report strong confidence in AI, executive security leaders like CISOs, CSOs, and VPs are taking a considerably harder look. The research found that executive leaders are 1.6 times more likely than operational security managers to be highly concerned about how AI vendors ]]></description>
-<pubDate>Wed, 12 Aug 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.rapid7.com/blog/post/ai-report-500-security-leaders-reveal-security-operations-transformation</guid>
-<source url="https://www.rapid7.com/blog/rss/">Rapid7</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>NIST Seeks Public Input on AI-Ready NVD Modernization</title>
@@ -19819,7 +19825,7 @@
 <title>CrowdStrike Extends Endpoint Security to Stop Software Supply Chain Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</link>
 <description><![CDATA[<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-extends-endpoint-security-to-stop-supply-chain-attacks/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19829,7 +19835,7 @@
 <title>CrowdStrike Delivers the Next Evolution of the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-delivers-next-evolution-of-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19838,7 +19844,7 @@
 <title>CrowdStrike Announces Agentic Identity Provider</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-agentic-identity-provider/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19847,7 +19853,7 @@
 <title>CrowdStrike Falcon Guardian Defines the Next Generation of AI Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-guardian-defines-next-generation-of-ai-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19856,7 +19862,7 @@
 <title>Peer Pressure: Inside the Sality Botnet Disruption Operation</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-sality-botnet-disruption-operation/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19865,7 +19871,7 @@
 <title>Agents of Chaos: A New $100K Agentic Security Challenge</title>
 <link>https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/agents-of-chaos-immersive-ai-security-challenge/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19874,7 +19880,7 @@
 <title>CrowdStrike Named Strongest Overall Leader in 2026 Frost Radar™: Cloud Workload Protection Platforms</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-strongest-overall-leader-2026-frost-radar-cwpp/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19883,7 +19889,7 @@
 <title>Benchmaxxing: When the Benchmark Becomes the Target</title>
 <link>https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/benchmaxxing-when-benchmark-becomes-the-target/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19892,7 +19898,7 @@
 <title>Teaching AI to Reason Through Detection Triage</title>
 <link>https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/teaching-ai-to-reason-through-detection-triage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -19901,7 +19907,7 @@
 <title>August 2026 Patch Tuesday: One Exploited Zero-Day and 62 Critical Vulnerabilities Among 415 CVEs</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</link>
 <description><![CDATA[<br/><br/><em>Tags: zero_day</em>]]></description>
-<pubDate>Sat, 05 Sep 2026 10:23:08 +0000</pubDate>
+<pubDate>Sat, 05 Sep 2026 13:49:08 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-august-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
