@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-05T22:49:27.077173+00:00",
+  "generated_at": "2026-09-06T00:46:47.337120+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 75,
   "total_items_in_window": 423,
-  "total_clusters_raw": 202,
+  "total_clusters_raw": 203,
   "total_clusters_in_packet": 80,
   "dropped_low_score": 122,
-  "dropped_overflow": 0,
+  "dropped_overflow": 1,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -81,11 +81,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -95,6 +95,13 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -102,8 +109,8 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -123,12 +130,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -165,12 +172,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 7
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -179,37 +186,23 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 23
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -221,18 +214,18 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 23
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
-      "in_window_count": 0
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -242,18 +235,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 0
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -270,8 +263,8 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -284,12 +277,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -298,12 +291,33 @@
       "item_count": 30,
       "in_window_count": 1
     },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 7
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -319,26 +333,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -354,13 +361,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -375,13 +375,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -389,12 +382,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -403,12 +396,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 17
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,12 +431,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 17
+      "item_count": 100,
+      "in_window_count": 1
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -438,26 +445,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -466,12 +466,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 18
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -480,12 +480,12 @@
       "item_count": 50,
       "in_window_count": 24
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 30,
+      "in_window_count": 18
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -522,19 +522,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 1
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -550,12 +543,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 50,
+      "in_window_count": 50
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 18
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -571,18 +571,18 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 18
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Reddit r/netsec": {
@@ -1749,16 +1749,14 @@
           }
         },
         {
-          "source": "Dark Reading",
+          "source": "Help Net Security",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
-          "published": "2026-08-31T21:08:46+00:00",
-          "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+          "title": "Most of the bugs Claude Mythos found have never been checked by a human",
+          "link": "https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/",
+          "published": "2026-09-04T04:30:25+00:00",
+          "summary": "Anthropic pointed Claude Mythos Preview at 281 open-source projects and collected 23,019 candidate vulnerabilities. External security firms reviewed 1,900 of them. Maintainers received 1,596 reports and acknowledged 1,451; 97 fixes landed upstream, and 88 findings became published security advisories, with counts current as of May 22, 2026. The other 21,119 candidates have not been reviewed by anyone outside Anthropic. Anthropic puts the drop-off down to a shortage of people to check the work, and the … More → The post Most of the bugs Claude Mythos found have never been checked by a human appeared first on Help Net Security .",
           "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -1779,14 +1777,16 @@
           }
         },
         {
-          "source": "Help Net Security",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Most of the bugs Claude Mythos found have never been checked by a human",
-          "link": "https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/",
-          "published": "2026-09-04T04:30:25+00:00",
-          "summary": "Anthropic pointed Claude Mythos Preview at 281 open-source projects and collected 23,019 candidate vulnerabilities. External security firms reviewed 1,900 of them. Maintainers received 1,596 reports and acknowledged 1,451; 97 fixes landed upstream, and 88 findings became published security advisories, with counts current as of May 22, 2026. The other 21,119 candidates have not been reviewed by anyone outside Anthropic. Anthropic puts the drop-off down to a shortage of people to check the work, and the … More → The post Most of the bugs Claude Mythos found have never been checked by a human appeared first on Help Net Security .",
+          "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+          "published": "2026-08-31T21:08:46+00:00",
+          "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "credential_theft"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
@@ -2522,6 +2522,7 @@
         "attack_techniques": [],
         "urgency_signals": [
           "no_patch_yet",
+          "preauth_unauth",
           "zero_day"
         ],
         "content_type": [
@@ -2538,7 +2539,7 @@
         "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
         "published": "2026-09-05T20:14:47+00:00",
         "summary": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5. Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. \"Sansec is",
-        "full_body": "",
+        "full_body": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores  Swati Khandelwal  Sep 05, 2026 Zero Day / Vulnerability Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5 . Sansec, which discovered the flaw and named it StyleSmuggler , said attacks started on September 4. \"Sansec is publishing early because stores are being compromised right now,\" the company said. As of September 6, Adobe has not published an advisory, a CVE identifier, a patch, or a workaround, and its Adobe Commerce security bulletin index lists nothing after the August 11 update. A successful attack gives the attacker code execution on the store's server and installs a persistent backdoor. Sansec said all current versions are affected, including 2.4.9, and that it reproduced the full unauthenticated chain on clean Magento Open Source installations of 2.4.7, 2.4.8, and 2.4.9. Its first victim ran 2.4.6-p15 with Adobe's July and August 2026 security updates applied, which is the latest patch level Adobe offers for that release line and one that Adobe's August bulletin labels 2.4.6-2026-aug. Sansec has not published a reproduction on Adobe Commerce or on Adobe Commerce on Cloud, and Adobe has not confirmed which versions are affected. Sansec has not said how many stores have been compromised. The researchers' interim advice for stores not running its Shield product is to temporarily disable GraphQL until Adobe releases a fix. Disrex Group , a Magento hosting and development company that hosts and responded to two of the compromised stores, notes that headless and progressive web app storefronts require GraphQL, whereas most classic and Hyvä storefronts do not. Adobe's next scheduled security release is on September 8, Sansec said, and it is not yet known whether that release will cover this bug. Disrex's findings are independent evidence of exploitation from outside Sansec. In an incident-response repository published on September 5, the company said it handled two compromised stores and a third that was attacked but not breached, and that its web-server rules are based on attack traffic captured on one of the compromised stores. In answers to questions from The Hacker News, Disrex said both stores ran Magento Open Source rather than Adobe Commerce, and that it hosts them itself through its hosting brand RexHosting. The store Disrex labels Store A ran Magento Open Source 2.4.8 and was a Sansec Shield customer, with the module installed, enabled, and licensed. It was hit at 23:10 UTC on September 4, hours before Sansec's first blocking rules for this flaw went live, and Disrex said Shield was active and blocking other malicious traffic against the store at the time. Store B , which was not a Shield customer, ran Magento 2.4.7-p2, a security patch level that Adobe's version history dates to August 2024, eight levels behind the current 2.4.7-p10. It was first hit at 00:55 UTC on September 5, Disrex said, and it is the store from which the company's web-server rules and its reading of the vulnerable code were taken. Both stores were breached inside the roughly eight-hour window between the first exploitation Sansec observed and the moment any defence for it existed, Disrex said. \"Patch status was irrelevant here, which is the part merchants most need to hear,\" the company told The Hacker News. The repository carries its own warning. \"This repository was written with AI assistance, during a live incident, in a few hours,\" its README says, adding that it has not been reviewed, that its Apache rules were never run against a live Apache server, and that most of its cleanup commands were written rather than executed. Sansec's indicators describe the implant as a background process disguised under [kworker/u:8:0] , a name that belongs to ",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -2555,6 +2556,7 @@
           "attack_techniques": [],
           "urgency_signals": [
             "zero_day",
+            "preauth_unauth",
             "no_patch_yet"
           ],
           "content_type": "news_report",
@@ -2588,6 +2590,7 @@
             "attack_techniques": [],
             "urgency_signals": [
               "zero_day",
+              "preauth_unauth",
               "no_patch_yet"
             ],
             "content_type": "news_report",
@@ -2967,34 +2970,6 @@
           }
         },
         {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-          "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-          "published": "2026-09-05T11:11:50+00:00",
-          "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security breach. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Simon Willison",
           "cohort": "ai_security_agentic_risk",
           "title": "OpenAI's rogue agents were caught communicating via public wikis",
@@ -3014,6 +2989,34 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
+          "link": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+          "published": "2026-09-05T11:11:50+00:00",
+          "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security breach. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {
               "OpenAI/ChatGPT": "target"
             },
@@ -5531,17 +5534,11 @@
       "taxonomy": {
         "threat_categories": [
           "ai_security",
-          "data_breach",
           "phishing_social_eng"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Microsoft 365",
-          "Microsoft Defender"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -5560,32 +5557,23 @@
         "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
         "published": "2026-09-03T16:00:00+00:00",
         "summary": "Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them. The post ASCII smuggling crosses over from AI prompt injection to phishing evasion appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Phishing Social engineering Content types Research Products and services Microsoft Defender Topics Actionable threat insights AI and agents Threat intelligence Microsoft researchers observed a high-volume phishing campaign using invisible Unicode tag characters , a technique popularized in AI prompt injection research as ASCII Smuggling . Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as ‘funding’ to prevent email filters from parsing them. The finding emerged from Microsoft Defender for Office 365 prompt injection protection research, showing how AI-era evasion techniques can surface in traditional phishing campaigns. In Microsoft telemetry, hits on a hunting signature designed to detect ASCII-smuggling increased sharply beginning February 9, 2026, and remained elevated on weekdays for approximately three months. Microsoft Defender for Office 365 telemetry showed that the majority of messages were flagged by layered protections rather than by reliance on a single Unicode-specific signal. What is ASCII smuggling? “ASCII smuggling” refers to the use of invisible or non-rendering Unicode characters to hide content inside text that looks normal. The most abused range is the Unicode Tags block, U+E0000 to U+E007F. This block contains a shadow copy of the printable ASCII characters (for example, U+E0041 mirrors ‘A’, U+E0061 mirrors ‘a’). The block was originally intended for language tagging and is now largely deprecated. The important property for an attacker is this: most of these code points are not rendered by typical fonts and user interfaces. A string can therefore carry a message that is not readable to a human but will be processed by any language model or other software that receives a copy of the email content. Why the AI-security world made it famous Over the past year, ASCII smuggling became a recurring technique in the prompt injection and cross-prompt injection (XPIA) literature. The attack pattern is straightforward: An attacker hides instructions inside invisible tag characters embedded in a web page, document, email, or other content. A human (and many user interfaces) sees nothing unusual. An AI assistant that ingests the raw text does “see” the hidden characters, decodes them as text, and may be induced to follow threat actor-controlled instructions, potentially including data exposure or unauthorized actions depending on the assistant’s permissions and safeguards. Because this technique cleanly demonstrates the gap between what the human sees and what the model reads, it appeared frequently in AI red-teaming write-ups, conference talks, and tooling throughout 2025. That attention put a spotlight on the U+E0000-U+E007F range. Because tag characters are invisible to humans but exist at the text-processing level, the same property that makes them useful for smuggling instructions into a model also makes them useful for obfuscating keywords before a detector evaluates them . The intent is inverted, but the mechanism is similar and a user’s suspicions are not raised. Writing a practical ASCII-smuggling signature As part of work on Microsoft Defender for Office 365 prompt injection protection, we built hunting logic for email-borne XPIA and prompt obfuscation patterns: content that looks harmless to users but may carry hidden instructions for an AI system that ingests the raw message. The same hunt designed to identify prompt injection risk in email became the starting point for this phishing-evasion discovery. One practical way to hunt for ASCII smuggling is to look for messages carrying characters from the Unicode tags block (U+E0000-U+E007F), the hallmark of attempts to hide instructions from, or for, an AI model. That broad signature is a useful starting point, but it needs enough Unicode context to avoid mistaking legitimate tag-character sequences for abuse. The fir",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [
             "phishing_social_eng",
-            "data_breach",
             "ai_security"
           ],
           "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Microsoft 365",
-            "Microsoft Defender"
-          ],
+          "affected_industries": [],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft 365": "target",
-            "Microsoft Defender": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -5602,27 +5590,18 @@
           "taxonomy": {
             "threat_categories": [
               "phishing_social_eng",
-              "data_breach",
               "ai_security"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Microsoft 365",
-              "Microsoft Defender"
-            ],
+            "affected_industries": [],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft 365": "target",
-              "Microsoft Defender": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5931,6 +5910,93 @@
             ],
             "actor_attribution": [],
             "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "8f89f1c57c",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "The Agentic SOC – From AI Theater to Real Defense",
+        "link": "https://www.recordedfuture.com/blog/agentic-soc-real-defense",
+        "published": "2026-09-01T00:00:00+00:00",
+        "summary": "Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.",
+        "full_body": "The Agentic SOC – From AI Theater to Real Defense Moving beyond \"AI theater\" with measurable KPIs: Security teams must distinguish between genuine value and \"productivity theater.\" Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the \"productivity theater\" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls \"AI productivity theater.\" \"We can all agree that there's great production value around a lot of AI capabilities and AI products,\" he said. \"But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted \"indirect prompt injection\"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents, ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "The Agentic SOC – From AI Theater to Real Defense",
+          "link": "https://www.recordedfuture.com/blog/agentic-soc-real-defense",
+          "published": "2026-09-01T00:00:00+00:00",
+          "summary": "Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -6413,87 +6479,6 @@
       ]
     },
     {
-      "cluster_id": "2e68cba663",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "The story behind the intelligence",
-        "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
-        "published": "2026-09-03T18:00:13+00:00",
-        "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
-        "full_body": "The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI \"safety penalty.\" As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "The story behind the intelligence",
-          "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
-          "published": "2026-09-03T18:00:13+00:00",
-          "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "396a583814",
       "priority_score": 10,
       "member_count": 1,
@@ -6644,19 +6629,17 @@
       ]
     },
     {
-      "cluster_id": "8f89f1c57c",
+      "cluster_id": "2e68cba663",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "ai_security"
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -6670,22 +6653,20 @@
         ]
       },
       "primary": {
-        "source": "Recorded Future",
+        "source": "Cisco Talos",
         "cohort": "threat_research_primary",
-        "title": "The Agentic SOC – From AI Theater to Real Defense",
-        "link": "https://www.recordedfuture.com/blog/agentic-soc-real-defense",
-        "published": "2026-09-01T00:00:00+00:00",
-        "summary": "Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.",
-        "full_body": "The Agentic SOC – From AI Theater to Real Defense Moving beyond \"AI theater\" with measurable KPIs: Security teams must distinguish between genuine value and \"productivity theater.\" Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the \"productivity theater\" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls \"AI productivity theater.\" \"We can all agree that there's great production value around a lot of AI capabilities and AI products,\" he said. \"But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted \"indirect prompt injection\"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents, ",
+        "title": "The story behind the intelligence",
+        "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
+        "published": "2026-09-03T18:00:13+00:00",
+        "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
+        "full_body": "The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI \"safety penalty.\" As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ai_security"
+            "ransomware_extortion"
           ],
           "actor_attribution": [],
-          "affected_industries": [
-            "legal_professional"
-          ],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -6701,20 +6682,18 @@
       },
       "corroborating_sources": [
         {
-          "source": "Recorded Future",
+          "source": "Cisco Talos",
           "cohort": "threat_research_primary",
-          "title": "The Agentic SOC – From AI Theater to Real Defense",
-          "link": "https://www.recordedfuture.com/blog/agentic-soc-real-defense",
-          "published": "2026-09-01T00:00:00+00:00",
-          "summary": "Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.",
+          "title": "The story behind the intelligence",
+          "link": "https://blog.talosintelligence.com/the-story-behind-the-intelligence/",
+          "published": "2026-09-03T18:00:13+00:00",
+          "summary": "From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.",
           "taxonomy": {
             "threat_categories": [
-              "ai_security"
+              "ransomware_extortion"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "legal_professional"
-            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -9072,6 +9051,81 @@
       ]
     },
     {
+      "cluster_id": "31b8eaa245",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Simon Willison",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Introducing GPT-6 Astra for developers",
+        "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+        "published": "2026-09-05T23:27:48+00:00",
+        "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Introducing GPT-6 Astra for developers",
+          "link": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+          "published": "2026-09-05T23:27:48+00:00",
+          "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2cf34bee0c",
       "priority_score": 8,
       "member_count": 1,
@@ -9513,93 +9567,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "32f0368f4d",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/netsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
-        "link": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
-        "published": "2026-09-01T09:29:24+00:00",
-        "summary": "submitted by /u/ZealousidealHunter80 [link] [comments]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)",
-          "link": "https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/",
-          "published": "2026-09-01T09:29:24+00:00",
-          "summary": "submitted by /u/ZealousidealHunter80 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -9818,9 +9785,9 @@
       ]
     },
     {
-      "label": "CVE-2026-3910 exploitation activity",
-      "anchor_signal": "CVE-2026-3910",
-      "theme_key": "cve-2026-3910",
+      "label": "CVE-2026-3909 exploitation activity",
+      "anchor_signal": "CVE-2026-3909",
+      "theme_key": "cve-2026-3909",
       "dominant_features": {
         "threat_categories": [
           "zero_day",
@@ -9841,7 +9808,7 @@
       "article_count": 4,
       "cohesion": 0.533,
       "shared_strong_signals": [
-        "CVE-2026-3910"
+        "CVE-2026-3909"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -9894,6 +9861,44 @@
       ]
     },
     {
+      "label": "CVE-2026-3910 exploitation activity",
+      "anchor_signal": "CVE-2026-3910",
+      "theme_key": "cve-2026-3910",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-2441",
+          "CVE-2026-3909",
+          "CVE-2026-3910",
+          "CVE-2026-85046"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.533,
+      "shared_strong_signals": [
+        "CVE-2026-3910"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "5ff343317a",
+        "64d5865aac"
+      ],
+      "links": [
+        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
+      ]
+    },
+    {
       "label": "CVE-2026-85046 exploitation activity",
       "anchor_signal": "CVE-2026-85046",
       "theme_key": "cve-2026-85046",
@@ -9918,44 +9923,6 @@
       "cohesion": 0.533,
       "shared_strong_signals": [
         "CVE-2026-85046"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "5ff343317a",
-        "64d5865aac"
-      ],
-      "links": [
-        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
-        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
-      "label": "CVE-2026-3909 exploitation activity",
-      "anchor_signal": "CVE-2026-3909",
-      "theme_key": "cve-2026-3909",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-85046"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.533,
-      "shared_strong_signals": [
-        "CVE-2026-3909"
       ],
       "member_cves": [],
       "also_targets": [],

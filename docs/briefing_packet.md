@@ -1,15 +1,15 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-05T22:49:27.077173+00:00
+- Generated: 2026-09-06T00:46:47.337120+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 75
 - Total items in window: 423
-- Total clusters raw: 202
+- Total clusters raw: 203
 - Total clusters in packet: 80
 - Dropped low score: 122
-- Dropped overflow: 0
+- Dropped overflow: 1
 
 ## Cohort metadata
 
@@ -80,23 +80,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -110,11 +115,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -140,38 +145,28 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 23
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -180,30 +175,30 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 23
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
@@ -215,8 +210,8 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -225,21 +220,36 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
-  - In window count: 3
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 1
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -250,21 +260,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -275,11 +280,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -290,31 +290,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - Item count: 100
+  - In window count: 4
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 17
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,51 +330,46 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 17
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 18
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 18
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -395,16 +395,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,11 +410,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 50
+  - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 18
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -430,15 +430,15 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
-  - In window count: 18
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
@@ -587,13 +587,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
   - https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html
 
-### CVE-2026-3910 exploitation activity
-- Anchor signal: CVE-2026-3910
-- Theme key: cve-2026-3910
+### CVE-2026-3909 exploitation activity
+- Anchor signal: CVE-2026-3909
+- Theme key: cve-2026-3909
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.533
-- Shared strong signals: CVE-2026-3910
+- Shared strong signals: CVE-2026-3909
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -625,13 +625,13 @@
   - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
   - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
 
-### CVE-2026-85046 exploitation activity
-- Anchor signal: CVE-2026-85046
-- Theme key: cve-2026-85046
+### CVE-2026-3910 exploitation activity
+- Anchor signal: CVE-2026-3910
+- Theme key: cve-2026-3910
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.533
-- Shared strong signals: CVE-2026-85046
+- Shared strong signals: CVE-2026-3910
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -644,13 +644,13 @@
   - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
   - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
 
-### CVE-2026-3909 exploitation activity
-- Anchor signal: CVE-2026-3909
-- Theme key: cve-2026-3909
+### CVE-2026-85046 exploitation activity
+- Anchor signal: CVE-2026-85046
+- Theme key: cve-2026-85046
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.533
-- Shared strong signals: CVE-2026-3909
+- Shared strong signals: CVE-2026-85046
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -1186,16 +1186,16 @@ Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Anothe
   - Published: 2026-09-04T05:54:40+00:00
   - Link: https://simonwillison.net/2026/Sep/4/august-newsletter/
   - Summary: The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Anthropic Users Hit by Infostealer Attacks, Session Thefts
-  - Published: 2026-08-31T21:08:46+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
-  - Summary: A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Most of the bugs Claude Mythos found have never been checked by a human
   - Published: 2026-09-04T04:30:25+00:00
   - Link: https://www.helpnetsecurity.com/2026/09/04/echo-claude-mythos-vulnerability-findings/
   - Summary: Anthropic pointed Claude Mythos Preview at 281 open-source projects and collected 23,019 candidate vulnerabilities. External security firms reviewed 1,900 of them. Maintainers received 1,596 reports and acknowledged 1,451; 97 fixes landed upstream, and 88 findings became published security advisories, with counts current as of May 22, 2026. The other 21,119 candidates have not been reviewed by anyone outside Anthropic. Anthropic puts the drop-off down to a shortage of people to check the work, and the … More → The post Most of the bugs Claude Mythos found have never been checked by a human appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Anthropic Users Hit by Infostealer Attacks, Session Thefts
+  - Published: 2026-08-31T21:08:46+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
+  - Summary: A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG
   - Published: 2026-09-01T14:39:16+00:00
@@ -1459,14 +1459,14 @@ S2 Research Team 8 min read October 29, 2024 An Introduction to Operational Rela
 #### Cluster taxonomy (union across members)
 - threat_categories: web_shell_backdoor, zero_day
 - affected_industries: retail_ecommerce
-- urgency_signals: no_patch_yet, zero_day
+- urgency_signals: no_patch_yet, preauth_unauth, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day, web_shell_backdoor
 - affected_industries: retail_ecommerce
-- urgency_signals: zero_day, no_patch_yet
+- urgency_signals: zero_day, preauth_unauth, no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -1474,6 +1474,12 @@ S2 Research Team 8 min read October 29, 2024 An Introduction to Operational Rela
 
 ```
 Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5. Sansec, which discovered the flaw and named it StyleSmuggler, said attacks started on September 4. "Sansec is
+```
+
+#### Full body
+
+```
+Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores  Swati Khandelwal  Sep 05, 2026 Zero Day / Vulnerability Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce security company Sansec said in an advisory published on September 5 . Sansec, which discovered the flaw and named it StyleSmuggler , said attacks started on September 4. "Sansec is publishing early because stores are being compromised right now," the company said. As of September 6, Adobe has not published an advisory, a CVE identifier, a patch, or a workaround, and its Adobe Commerce security bulletin index lists nothing after the August 11 update. A successful attack gives the attacker code execution on the store's server and installs a persistent backdoor. Sansec said all current versions are affected, including 2.4.9, and that it reproduced the full unauthenticated chain on clean Magento Open Source installations of 2.4.7, 2.4.8, and 2.4.9. Its first victim ran 2.4.6-p15 with Adobe's July and August 2026 security updates applied, which is the latest patch level Adobe offers for that release line and one that Adobe's August bulletin labels 2.4.6-2026-aug. Sansec has not published a reproduction on Adobe Commerce or on Adobe Commerce on Cloud, and Adobe has not confirmed which versions are affected. Sansec has not said how many stores have been compromised. The researchers' interim advice for stores not running its Shield product is to temporarily disable GraphQL until Adobe releases a fix. Disrex Group , a Magento hosting and development company that hosts and responded to two of the compromised stores, notes that headless and progressive web app storefronts require GraphQL, whereas most classic and Hyvä storefronts do not. Adobe's next scheduled security release is on September 8, Sansec said, and it is not yet known whether that release will cover this bug. Disrex's findings are independent evidence of exploitation from outside Sansec. In an incident-response repository published on September 5, the company said it handled two compromised stores and a third that was attacked but not breached, and that its web-server rules are based on attack traffic captured on one of the compromised stores. In answers to questions from The Hacker News, Disrex said both stores ran Magento Open Source rather than Adobe Commerce, and that it hosts them itself through its hosting brand RexHosting. The store Disrex labels Store A ran Magento Open Source 2.4.8 and was a Sansec Shield customer, with the module installed, enabled, and licensed. It was hit at 23:10 UTC on September 4, hours before Sansec's first blocking rules for this flaw went live, and Disrex said Shield was active and blocking other malicious traffic against the store at the time. Store B , which was not a Shield customer, ran Magento 2.4.7-p2, a security patch level that Adobe's version history dates to August 2024, eight levels behind the current 2.4.7-p10. It was first hit at 00:55 UTC on September 5, Disrex said, and it is the store from which the company's web-server rules and its reading of the vulnerable code were taken. Both stores were breached inside the roughly eight-hour window between the first exploitation Sansec observed and the moment any defence for it existed, Disrex said. "Patch status was irrelevant here, which is the part merchants most need to hear," the company told The Hacker News. The repository carries its own warning. "This repository was written with AI assistance, during a live incident, in a few hours," its README says, adding that it has not been reviewed, that its Apache rules were never run against a live Apache server, and that most of its cleanup commands were written rather than executed. Sansec's indicators describe the implant as a background process disguised under [kworker/u:8:0] , a name that belongs to
 ```
 
 #### Corroborating sources (1)
@@ -1628,16 +1634,16 @@ Your scanner just flagged 4,000 new vulnerabilities, 78 of them critical. Which 
   - Published: 2026-09-03T21:03:02+00:00
   - Link: https://blog.cloudflare.com/vulnerability-discovery-remediation/
   - Summary: Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: OpenAI admits it didn't disclose rogue AI wiki hijacking incident
-  - Published: 2026-09-05T11:11:50+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/
-  - Summary: OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model "misalignment" rather than a security breach. [...]
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: OpenAI's rogue agents were caught communicating via public wikis
   - Published: 2026-09-04T17:38:48+00:00
   - Link: https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
   - Summary: Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is "philosophy as it applies to games and gaming".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQL
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: OpenAI admits it didn't disclose rogue AI wiki hijacking incident
+  - Published: 2026-09-05T11:11:50+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/
+  - Summary: OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model "misalignment" rather than a security breach. [...]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders
   - Published: 2026-09-04T16:07:22+00:00
@@ -2665,22 +2671,18 @@ Threat Research Center Threat Research Malware Malware Spring Ring: An Inside Lo
 - Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-09-03T16:00:00+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 2
 - Corroborating source count: 2
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, data_breach, phishing_social_eng
-- affected_industries: financial_services
-- affected_products: Microsoft 365, Microsoft Defender
+- threat_categories: ai_security, phishing_social_eng
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach, ai_security
-- affected_industries: financial_services
-- affected_products: Microsoft 365, Microsoft Defender
+- threat_categories: phishing_social_eng, ai_security
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
@@ -2688,12 +2690,6 @@ Threat Research Center Threat Research Malware Malware Spring Ring: An Inside Lo
 
 ```
 Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them. The post ASCII smuggling crosses over from AI prompt injection to phishing evasion appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Phishing Social engineering Content types Research Products and services Microsoft Defender Topics Actionable threat insights AI and agents Threat intelligence Microsoft researchers observed a high-volume phishing campaign using invisible Unicode tag characters , a technique popularized in AI prompt injection research as ASCII Smuggling . Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as ‘funding’ to prevent email filters from parsing them. The finding emerged from Microsoft Defender for Office 365 prompt injection protection research, showing how AI-era evasion techniques can surface in traditional phishing campaigns. In Microsoft telemetry, hits on a hunting signature designed to detect ASCII-smuggling increased sharply beginning February 9, 2026, and remained elevated on weekdays for approximately three months. Microsoft Defender for Office 365 telemetry showed that the majority of messages were flagged by layered protections rather than by reliance on a single Unicode-specific signal. What is ASCII smuggling? “ASCII smuggling” refers to the use of invisible or non-rendering Unicode characters to hide content inside text that looks normal. The most abused range is the Unicode Tags block, U+E0000 to U+E007F. This block contains a shadow copy of the printable ASCII characters (for example, U+E0041 mirrors ‘A’, U+E0061 mirrors ‘a’). The block was originally intended for language tagging and is now largely deprecated. The important property for an attacker is this: most of these code points are not rendered by typical fonts and user interfaces. A string can therefore carry a message that is not readable to a human but will be processed by any language model or other software that receives a copy of the email content. Why the AI-security world made it famous Over the past year, ASCII smuggling became a recurring technique in the prompt injection and cross-prompt injection (XPIA) literature. The attack pattern is straightforward: An attacker hides instructions inside invisible tag characters embedded in a web page, document, email, or other content. A human (and many user interfaces) sees nothing unusual. An AI assistant that ingests the raw text does “see” the hidden characters, decodes them as text, and may be induced to follow threat actor-controlled instructions, potentially including data exposure or unauthorized actions depending on the assistant’s permissions and safeguards. Because this technique cleanly demonstrates the gap between what the human sees and what the model reads, it appeared frequently in AI red-teaming write-ups, conference talks, and tooling throughout 2025. That attention put a spotlight on the U+E0000-U+E007F range. Because tag characters are invisible to humans but exist at the text-processing level, the same property that makes them useful for smuggling instructions into a model also makes them useful for obfuscating keywords before a detector evaluates them . The intent is inverted, but the mechanism is similar and a user’s suspicions are not raised. Writing a practical ASCII-smuggling signature As part of work on Microsoft Defender for Office 365 prompt injection protection, we built hunting logic for email-borne XPIA and prompt obfuscation patterns: content that looks harmless to users but may carry hidden instructions for an AI system that ingests the raw message. The same hunt designed to identify prompt injection risk in email became the starting point for this phishing-evasion discovery. One practical way to hunt for ASCII smuggling is to look for messages carrying characters from the Unicode tags block (U+E0000-U+E007F), the hallmark of attempts to hide instructions from, or for, an AI model. That broad signature is a useful starting point, but it needs enough Unicode context to avoid mistaking legitimate tag-character sequences for abuse. The fir
 ```
 
 #### Corroborating sources (2)
@@ -2839,6 +2835,49 @@ Table of Contents Malicious installer DLL Sideloading via libcef.dll Running the
   - Published: 2026-08-31T10:00:21+00:00
   - Link: https://securelist.com/valleyrat-backdoor-adware/121175/
   - Summary: Threat actors are distributing the ValleyRAT backdoor disguised as adware. We analyze the infection chain, from the malicious installer to the final payload.
+
+### Cluster 8f89f1c57c — score 10
+
+- Title: The Agentic SOC – From AI Theater to Real Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-01T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
+```
+
+#### Full body
+
+```
+The Agentic SOC – From AI Theater to Real Defense Moving beyond "AI theater" with measurable KPIs: Security teams must distinguish between genuine value and "productivity theater." Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the "productivity theater" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls "AI productivity theater." "We can all agree that there's great production value around a lot of AI capabilities and AI products," he said. "But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted "indirect prompt injection"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents,
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Agentic SOC – From AI Theater to Real Defense
+  - Published: 2026-09-01T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
+  - Summary: Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
 
 ### Cluster bbea7197be — score 10
 
@@ -3024,47 +3063,6 @@ Video This month in security with Tony Anscombe – August 2026 edition Details 
   - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/
   - Summary: Details about the Hugging Face hack, critical infrastructure under attack, a spoofed in-flight Wi-Fi network, and more of this month's cybersecurity news
 
-### Cluster 2e68cba663 — score 10
-
-- Title: The story behind the intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-03T18:00:13+00:00
-- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
-```
-
-#### Full body
-
-```
-The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: The story behind the intelligence
-  - Published: 2026-09-03T18:00:13+00:00
-  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
-
 ### Cluster 396a583814 — score 10
 
 - Title: What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever
@@ -3143,48 +3141,46 @@ CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 
   - Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
   - Summary: CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
 
-### Cluster 8f89f1c57c — score 10
+### Cluster 2e68cba663 — score 10
 
-- Title: The Agentic SOC – From AI Theater to Real Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-01T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
+- Title: The story behind the intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-03T18:00:13+00:00
+- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: legal_professional
+- threat_categories: ransomware_extortion
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: legal_professional
+- threat_categories: ransomware_extortion
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
+From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
 ```
 
 #### Full body
 
 ```
-The Agentic SOC – From AI Theater to Real Defense Moving beyond "AI theater" with measurable KPIs: Security teams must distinguish between genuine value and "productivity theater." Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the "productivity theater" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls "AI productivity theater." "We can all agree that there's great production value around a lot of AI capabilities and AI products," he said. "But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted "indirect prompt injection"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents,
+The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: The Agentic SOC – From AI Theater to Real Defense
-  - Published: 2026-09-01T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
-  - Summary: Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
+- **Cisco Talos** (threat_research_primary)
+  - Title: The story behind the intelligence
+  - Published: 2026-09-03T18:00:13+00:00
+  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
 
 ### Cluster bb1555be83 — score 10
 
@@ -4147,6 +4143,39 @@ New research suggests the coming Vulnpocalypse may not be so overwhelming for en
   - Link: https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared
   - Summary: New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.
 
+### Cluster 31b8eaa245 — score 8
+
+- Title: Introducing GPT-6 Astra for developers
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-09-05T23:27:48+00:00
+- Link: https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Introducing GPT-6 Astra for developers
+  - Published: 2026-09-05T23:27:48+00:00
+  - Link: https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
+  - Summary: Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra
+
 ### Cluster 2cf34bee0c — score 8
 
 - Title: Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code
@@ -4325,40 +4354,3 @@ The US healthcare provider confirmed that sensitive patient and employee data, a
   - Published: 2026-09-02T10:45:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/nutex-patient-data-stolen/
   - Summary: The US healthcare provider confirmed that sensitive patient and employee data, alongside financial and business information, were exfiltrated by a third party
-
-### Cluster 32f0368f4d — score 8
-
-- Title: GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-09-01T09:29:24+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- affected_industries: government
-- urgency_signals: preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/ZealousidealHunter80 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: GeoNetwork - Pre-Auth RCE via Unauthenticated File Upload and Unsafe XSLT Processor (4 CVEs, 121 government deployments, all patched)
-  - Published: 2026-09-01T09:29:24+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1w46vwa/geonetwork_preauth_rce_via_unauthenticated_file/
-  - Summary: submitted by /u/ZealousidealHunter80 [link] [comments]
