@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-09-07T19:47:51.698415+00:00
+- Generated: 2026-09-07T22:42:55.910040+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 74
-- Total items in window: 407
-- Total clusters raw: 200
+- Feeds OK: 75
+- Total items in window: 408
+- Total clusters raw: 197
 - Total clusters in packet: 80
-- Dropped low score: 118
+- Dropped low score: 115
 - Dropped overflow: 2
 
 ## Cohort metadata
@@ -70,6 +70,11 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -80,18 +85,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -100,73 +110,63 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -185,6 +185,11 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: parse_error
@@ -192,16 +197,6 @@
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -215,6 +210,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -232,9 +232,9 @@
   - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -255,21 +255,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -285,6 +280,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -300,16 +300,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 14
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -320,21 +310,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 20
+  - In window count: 14
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 23
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -345,31 +360,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 23
+  - In window count: 20
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 21
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -400,6 +400,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -410,31 +430,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -445,15 +445,15 @@
   - Status: ok
   - Item count: 25
   - In window count: 11
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -749,7 +749,7 @@
 - Pair: CVE-2026-15013 + WordPress (cluster d5d207ddf7, first observation: True)
 - Pair: CVE-2021-31886 + Anthropic/Claude (cluster 3f9d82bc63, first observation: True)
 
-### Drift (6)
+### Drift (5)
 - **Rhysida** (cluster b579a537a6)
   - New industries: healthcare, legal_professional
   - New products: Snowflake
@@ -770,11 +770,6 @@
   - New products: (none)
   - Prior top industries: education, financial_services, telecommunications
   - Prior top products: AWS, Microsoft SharePoint, Salesforce
-- **LockBit** (cluster 439827e1a6)
-  - New industries: (none)
-  - New products: GitHub
-  - Prior top industries: education, government, healthcare
-  - Prior top products: GitLab, Gitea, OpenAI/ChatGPT
 - **UNC3886** (cluster c1f52c0381)
   - New industries: telecommunications
   - New products: (none)
@@ -1138,7 +1133,7 @@ Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit 
   - Link: https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html
   - Summary: A TantoSec proof-of-concept turns an AES-CBC "padding oracle" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default configuration, and Progress patched the chain in July. There are no confirmed reports of exploitation in the wild. Security firm TantoSec has published a working exploit chain targeting vulnerabilities
 
-### Cluster 81949698a6 — score 26
+### Cluster 81949698a6 — score 25
 
 - Title: N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw
 - Source: The Hacker News (cyber_news_breach_reporting)
@@ -1228,39 +1223,6 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
   - Link: https://www.exploit-db.com/exploits/52668
   - Summary: miniOrange 5.4.3 - Unauthenticated Auth Bypass
 
-### Cluster aa7b1774d3 — score 21
-
-- Title: Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-09-06T21:43:17+00:00
-- Link: https://isc.sans.edu/diary/rss/33314
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)
-  - Published: 2026-09-06T21:43:17+00:00
-  - Link: https://isc.sans.edu/diary/rss/33314
-  - Summary: Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.
-
 ### Cluster 506e4ffbdc — score 21
 
 - Title: H1 2026 Malware Vulnerability Trends
@@ -1313,8 +1275,8 @@ H1 2026 Malware and Vulnerability Trends Executive Summary H1 2026 activity show
 - Published: 2026-09-02T07:47:13+00:00
 - Link: https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: Anthropic/Claude, CVE-2021-31886
 
 #### Cluster taxonomy (union across members)
@@ -1346,7 +1308,7 @@ Forescout Research - Vedere Labs said it used Anthropic's Claude to port a worki
 Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another  Swati Khandelwal  Sep 02, 2026 Vulnerability / Artificial Intelligence Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware. The exploit targets CVE-2021-31886 , a stack-based buffer overflow in the Nucleus FTP server's handling of the USER command, which carries a Siemens-assigned CVSS score of 9.8 and is accessible before authentication over TCP port 21. CERT@VDE says no updates are available for the affected WAGO controllers, and advises owners to disable or block FTP on port 21, enforce segmentation controls, and monitor network traffic for anomalies. The port required sustained researcher steering, and the final RCE development stage consumed $535.74 in application programming interface (API) usage over an 8-hour-32-minute session. A later session that attempted to extend the exploit into a command-and-control (C2) implant wrote to a flash-mapped memory region, permanently bricking the PLC. "One could argue that the same researcher could have achieved the initial RCE port without AI in less time and at lower cost while also keeping the PLC alive," Forescout said. Vedere Labs had previously developed a working RCE exploit for the WAGO 750-852, and ported that exploit to a WAGO 750-831 running firmware V01.04.16. The researchers supplied the existing 750-852 exploit, a firmware binary for the 750-831, and a physical 750-831 as the live target. Each stage ran as interactive sessions between a researcher and Claude Code, which had access to a terminal, the reverse-engineering tool Ghidra, and the target PLC. The work began on Claude Sonnet 4.6 and moved to Claude Opus 4.6 after the initial RCE attempts stalled. Normal FTP processing on the 750-831 zeroed 256 bytes at the attacker-controlled buffer, so the injected shellcode was overwritten before it could run. Claude adapted the USER and QUIT sequence used against the 750-852 into a USER and CWD sequence. Omitting the CRLF terminator then "prevented the relevant processing path from completing in the usual way," Forescout said. The buffer survived long enough for the payload to execute. Once code execution was established, the model moved from working no-operation (NOP) shellcode to two functional payloads in 12 minutes, Forescout said. One sent ICMP echo requests to an attacker-controlled system, and the other sent a UDP packet containing the string PWNED. The exploit runs in the Ethernet receive callback context, and the demonstrated capability stops at the point of sending network packets. Vedere Labs has previously shown that RCE on a controller can be chained to enable deep lateral movement in operational technology (OT) networks, exploiting multiple vulnerabilities in Schneider Electric Modicon PLCs. Forescout said the model also flagged a potential bug in the FTP command extraction loop, distinct from CVE-2021-31886, during the first session. Manual review "suggested that this may be a separate, previously unidentified, vulnerability," Forescout said. The team set it aside for separate investigation, and the issue carries no CVE identifier. A GitHub repository search for CVE-2021-31886 , run by The Hacker News on September 1, returned no results, and the flaw is absent from Exploit-DB and Packet Storm. That search indexes repository names and descriptions rather than file contents. "The more immediate risk is not an agent independently deciding to attack a controller, but an authorized agent taking the wrong action on a physical system where failure has real operational consequences," Forescout said. The CERT@VDE advisory for WAGO lists the following devices as vulnerable to all the flaws in that advisory, including CVE-2021-31886 - 750-829 (FW16 and earlier) 750-831/000-00x (FW14 an
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another
@@ -1363,16 +1325,44 @@ Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Anothe
   - Published: 2026-09-04T05:54:40+00:00
   - Link: https://simonwillison.net/2026/Sep/4/august-newsletter/
   - Summary: The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Anthropic Users Hit by Infostealer Attacks, Session Thefts
-  - Published: 2026-08-31T21:08:46+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts
-  - Summary: A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: From Patch to Exploit; Using Claude Code to reverse engineer an n-day in Papercut NG
   - Published: 2026-09-01T14:39:16+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1w4dvux/from_patch_to_exploit_using_claude_code_to/
   - Summary: submitted by /u/kev-thehermit [link] [comments]
+
+### Cluster aa7b1774d3 — score 20
+
+- Title: Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-09-06T21:43:17+00:00
+- Link: https://isc.sans.edu/diary/rss/33314
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)
+  - Published: 2026-09-06T21:43:17+00:00
+  - Link: https://isc.sans.edu/diary/rss/33314
+  - Summary: Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected devices to maintain access after a patch is installed.
 
 ### Cluster 6a5c697136 — score 20
 
@@ -1672,16 +1662,16 @@ Your scanner just flagged 4,000 new vulnerabilities, 78 of them critical. Which 
   - Published: 2026-09-07T12:03:04+00:00
   - Link: https://www.securityweek.com/openai-agents-hijack-another-victim-website/
   - Summary: OpenAI agents made 15,000–18,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach. The post OpenAI Agents Hijack Another Victim Website appeared first on SecurityWeek .
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: OpenAI just hit a milestone on the road to self-improving AI
-  - Published: 2026-09-07T09:05:18+00:00
-  - Link: https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/
-  - Summary: OpenAI has announced that it has reached a goal set last fall of having an automated research intern by September 2026. The milestone means a system can carry out well-defined research tasks under human direction, including work that would take a skilled researcher several days. The company is also working toward creating an automated AI researcher by March 2028. All categories of research activity have increased since the start of the year (Source: OpenAI) “Transparency … More → The post OpenAI just hit a milestone on the road to self-improving AI appeared first on Help Net Security .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: OpenAI's rogue agents were caught communicating via public wikis
   - Published: 2026-09-04T17:38:48+00:00
   - Link: https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/
   - Summary: Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is "philosophy as it applies to games and gaming".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQL
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: OpenAI just hit a milestone on the road to self-improving AI
+  - Published: 2026-09-07T09:05:18+00:00
+  - Link: https://www.helpnetsecurity.com/2026/09/07/openai-research-automation-intern/
+  - Summary: OpenAI has announced that it has reached a goal set last fall of having an automated research intern by September 2026. The milestone means a system can carry out well-defined research tasks under human direction, including work that would take a skilled researcher several days. The company is also working toward creating an automated AI researcher by March 2028. All categories of research activity have increased since the start of the year (Source: OpenAI) “Transparency … More → The post OpenAI just hit a milestone on the road to self-improving AI appeared first on Help Net Security .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: OpenAI admits it didn't disclose rogue AI wiki hijacking incident
   - Published: 2026-09-05T11:11:50+00:00
@@ -2081,8 +2071,8 @@ Stephen Campbell 5 min read August 5, 2026 Behind the Panels: Validating ShinyHu
 - Published: 2026-09-05T16:52:33+00:00
 - Link: https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 2
+- Member count: 5
+- Corroborating source count: 3
 - Strong signals: AWS
 
 #### Cluster taxonomy (union across members)
@@ -2114,13 +2104,18 @@ JetBrains is urging Cadence users to revoke and rotate all credentials following
 Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials  Ravie Lakshmanan  Sep 05, 2026 Data Breach / Identity Security JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. "Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said . "They should also treat all executions, including their inputs and outputs in your Cadence project, as potentially untrusted." "As the threat actors gained access to the Cadence server, any credentials or secrets stored in Cadence, contained in the compromised backup, or made available to executions on the affected server should be considered compromised and must be revoked or rotated." Cadence is a JetBrains-hosted cloud computing service that integrates with PyCharm via an optional plugin to let developers run machine learning and heavy workloads on cloud GPUs directly from their IDE. The attack, per the software development company, involved the exploitation of CVE-2026-63077 (CVSS score: 9.8) to breach the affected Cadence environments. The deserialization of untrusted data vulnerability can permit an unauthenticated attacker with access to a TeamCity server to bypass authentication checks and execute arbitrary operating system commands with the privileges of the TeamCity server process. The security flaw has since come under active exploitation in the wild, with the U.S. Cybersecurity and Infrastructure Security Agency (CISA) adding it to the Known Exploited Vulnerabilities (KEV) catalog on August 5, 2026. The exploitation activity targeting Cadence was discovered by JetBrains on August 23, 2026. In subsequent updates, JetBrains said the threat actor accessed data contained in the Cadence server backup from 2024 and that they obtained unauthorized access that could have allowed them to reach storage containing data associated with current Cadence users, including email addresses, project source code, and credentials. "This affects the same group of users we previously contacted directly," Daniel Gallo, Solutions Engineering Lead at JetBrains, said. "These findings did not identify any additional affected users. As a precaution, we are treating the data stored there as potentially exposed." Some of the information the threat actor has been "confirmed" to have accessed or compromised - Personal data, including usernames, real names, email addresses, last-login timestamps, and last accessed IP addresses A full backup of the Cadence server dating from 2024, which contains credentials, configuration, artifacts, logs, or other data Multiple AWS IAM users and associated credentials/secrets used with Cadence extracted from the 20224 backup, including IAM users belonging to JetBrains employees who used the service Files stored in S3 buckets within JetBrains AWS accounts used by Cadence JetBrains also cautioned that the attackers may have accessed source code synchronized from PyCharm projects to the affected server. This covers scenarios where users have relied on PyCharm to upload or synchronize project files for execution in Cadence, meaning the actions could have inadvertently exposed code, credentials, or configurations. It's not clear who is behind the activity. However, JetBrains said the intrusion took place between August 8 and 24, 2026. The exploited Cadence server ("api.cadence.jetbrains.com") has since been taken offline. The company conceded that the server in question should have been patched as part of its own vulnerability response efforts, but did not share any details as to why this did not happen. JetBrains has also invalidated all access tokens used by the JetBrains Cadence plugin in PyCharm to connect to Cadence. It has shared the following indicators of compromise - A
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (3)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials
   - Published: 2026-09-05T16:52:33+00:00
   - Link: https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html
   - Summary: JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. "Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions," JetBrains said.
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Bring Orca Security Context Into the AWS Console with the Orca Browser Extension
+  - Published: 2026-09-02T14:11:59+00:00
+  - Link: https://orca.security/resources/blog/orca-security-browser-extension-aws-console/
+  - Summary: Key Takeaways The Cost of Switching Tabs Cloud engineers and developers live in the AWS console, not in a security platform. So when a question comes up about a resource’s risk, the only path has been to stop, open a new tab, and go looking for that asset inside their security tooling. That detour costs […]
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - Title: Incident response guide for AWS CloudTrail investigations – Part 2
   - Published: 2026-09-03T21:15:53+00:00
@@ -2853,6 +2848,47 @@ CATEGORIES AI Research 19 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://research.checkpoint.com/2026/gaming-the-system-how-a-chinese-speaking-actor-turned-brazilian-government-sites-into-an-seo-weapon/
   - Summary: Research by: Amit Yardeni Key Points Introduction Since mid-2025, Check Point Research has tracked a sustained campaign against Brazilian organizations. The tradecraft points to a Chinese-speaking cybercrime group connected to Earth Berberoka, an actor first documented targeting gambling sites across Asia. Once inside a victim, the group deploys a broad Linux toolkit: a custom downloader, several backdoors, […] The post Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon appeared first on Check Point Research .
 
+### Cluster 2e68cba663 — score 10
+
+- Title: The story behind the intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-09-03T18:00:13+00:00
+- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+```
+
+#### Full body
+
+```
+The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: The story behind the intelligence
+  - Published: 2026-09-03T18:00:13+00:00
+  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
+  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
+
 ### Cluster 8f89f1c57c — score 10
 
 - Title: The Agentic SOC – From AI Theater to Real Defense
@@ -2974,47 +3010,6 @@ CTEM Is Not About the Stages. It’s About the Outcome. Stephen Gates September 
   - Link: https://horizon3.ai/intelligence/blogs/ctem-outcome-not-stages/
   - Summary: CTEM is not about filling five technology boxes. It is about continuously reducing exploitable exposure, proving remediation worked, and measuring whether the environment is becoming harder to attack.
 
-### Cluster 2e68cba663 — score 10
-
-- Title: The story behind the intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-09-03T18:00:13+00:00
-- Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
-```
-
-#### Full body
-
-```
-The story behind the intelligence By Hazel Burton Thursday, September 3, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Our goal is to get accurate threat intelligence to our audience as quickly as possible, with all the context you need to ask the right questions of your own environment: How at risk are we from this threat? Are we prepared for it? And what can we do about it? What you don’t often see is all the... well, frankly, “mess” involved in producing it. All the dead ends we followed until we could confirm those ends were as dead as a doornail. All the work it took to ultimately produce an assessment, supported by evidence and written so that defenders can act on it. Much of that abstraction is necessary. Defenders need intelligence they can use, not a complete account of every conversation we had, or investigative detour behind it. But it can create an overly tidy picture of both cybercrime and the work required to understand it. If you do fancy a look behind the curtain, though, may I recommend our just-published episode of Beers with Talos ? Our guest is Azim Khodjibaev, whose remit is adversary engagement. His work involves developing personas for deep- and dark-web research, engaging directly with threat actors, and building relationships with people who may become (and have been) openly threatening to him. At one point, he was maintaining eight separate personas, some of which were interacting with one another. Azim’s engagements have helped Talos identify prolific cybercriminals and contributed to wider disruption efforts. They have also resulted in ransomware operators placing “Azim sucks” in their code and accusing him of belonging to the very criminal groups he was investigating. His experiences also expose the problem with treating adversaries as uniformly sophisticated operators. Some are technically capable and highly organised. Others are impulsive, ego-driven, or one-trick ponies. Many have a scary detachment from the consequences of their actions. Increasingly, Azim is seeing less-experienced threat actors working through loosely organised online collectives. Intelligence necessarily turns that disorder into something defenders can understand and use. But occasionally, it is worth looking behind the finished product – the patience it takes to get accurate answers, who we are investigating, and the deeply human behaviour that shapes both sides. This Beers with Talos episode, “Eight People Walk Into a Dark Web Forum. They’re All Azim,” isn’t exactly going to help many people in our industry sleep better at night. But for anyone wanting to understand more about the threat we’re up against, as a co-host of the pod I’m biased, but I believe it’s an essential listen. And if that doesn’t inspire you to download the episode, perhaps my live review of trying Flamin’ Hot Cheetos for the very first time (with a chaser of Nerds) will. The one big thing Cisco Talos is highlighting a growing operational hurdle for security teams that we call the AI "safety penalty." As frontier AI models advance, their built-in guardrails are increasingly blocking legitimate defensive tasks. This was evident in July 2026 when Hugging Face's primary cloud LLM refused to analyze forensic data during a breach, delaying their response. While defenders are slowed by these frustrating refusals, adversaries are freely leveraging unconstrained models to attack at machine speed. Why do I care? This guardrail asymmetry hands the advantage directly to attackers. When a cloud-hosted AI model refuses a forensic request mid-incident, defenders lose precious time. Security teams are paying for vendor-imposed limitations without gaining a capability edge, especially as open-weight alternatives close the reasoning gap. Ultimately, relying on third-party alignment policies means a sudden update in Silicon Valley could quietly break your defensive workflows overnight. So now what? Security leadership
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: The story behind the intelligence
-  - Published: 2026-09-03T18:00:13+00:00
-  - Link: https://blog.talosintelligence.com/the-story-behind-the-intelligence/
-  - Summary: From engaging with cybercriminals to surviving a live Flamin’ Hot Cheetos taste test, Hazel reflects on the latest Beers with Talos with Azim, where they cover the full spectrum of what it takes to gather threat intel.
-
 ### Cluster bb1555be83 — score 10
 
 - Title: [hardware] Fullhan FH8626V100 - Multiple Vulnerabilities
@@ -3100,51 +3095,6 @@ Back to Blog Threat Research DPRK APTs: Ted backdoor and curlRAT target South Ko
   - Published: 2026-09-04T12:00:00+00:00
   - Link: https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors
   - Summary: Overview A new Linux toolkit, identified by Rapid7 Labs, has been targeting organizations across South Korea’s automotive and media industries with minimal detection. The campaign made use of a HAProxy instance named “ted backdoor”, alongside trojanized versions of crond, agetty, atd, sshd, and polkitd. This previously undocumented framework enabled threat actors to execute remote commands on compromised servers, inject malicious scripts into web traffic, perform credential harvesting, and engage in long-term surveillance. The standout feature of this toolkit is its depth of integration with the target environment. The ted backdoor is compiled as part of the victim’s existing HAProxy version 2.8.12. It uses its native filter API, internal memory pools, event scheduler, and process management infrastructure to intercept traffic and hide from monitoring, while genuine load balancing traffic operates as expected. Operating alongside this are an SSH keylogger, a curl-based RAT, and a stage
-
-### Cluster 3e2126d697 — score 10
-
-- Title: Berlin investigates new data leak after hackers publish stolen login credentials
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-09-07T11:50:00+00:00
-- Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: Rhysida
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: Rhysida
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
-```
-
-#### Full body
-
-```
-Berlin. Image: Ro Berto via Pexels Berlin investigates new data leak after hackers publish stolen login credentials German authorities are investigating another trove of data stolen from Berlin’s government network after hackers published login credentials and other information over the weekend. The latest release follows a cyberattack discovered in mid-August that compromised two Berlin ministries responsible for urban development and housing, and for transport, mobility, climate protection and the environment. Berlin’s government said Sunday that the newly released data includes login credentials but did not say what systems they could be used to access or whether they were still valid. The authorities have not attributed the attack to a specific threat actor. The city’s urban development ministry has strengthened security measures introduced after an earlier data leak, which officials said could temporarily limit access to some of its applications. 'A very serious crime' Berlin’s data protection authority said Friday that the attackers stole a large amount of data from the two affected ministries and later published it online. Officials are still reviewing the stolen files because of the volume of data involved. The regulator confirmed that the leak includes personal information about public employees and said data belonging to Berlin residents also may have been exposed. Potentially compromised information includes names, addresses, dates of birth, bank information, email addresses, telephone numbers, correspondence with government agencies and copies of documents submitted to the administration, according to the regulator. Berlin has created an additional task force to review the leaked material and determine who may be affected. “A very serious crime has been committed against the State of Berlin,” Governing Mayor Kai Wegner said Saturday, adding that authorities were working to identify and assist people whose information had been exposed. No payment The Rhysida ransomware group claimed responsibility for the breach in late August, saying it had stolen 5.79 terabytes of data, including tens of thousands of contracts, emails, passwords and classified information. Berlin has confirmed that data was stolen and that it received an extortion demand, but officials have not publicly attributed the attack to Rhysida or verified the hackers’ claims about the amount or contents of the stolen material. Wegner said last month that Berlin would not pay the attackers. “The State of Berlin will not be blackmailed,” Berlin Chief Digital Officer Florian Hauer said separately. The affected systems were disconnected from Berlin’s wider government network on Aug. 14. Both ministries continued operating, but the disruption left some employees without their normal email and internet access and temporarily affected public services that depend on their systems. Rhysida warning Germany’s Federal Office for Information Security, or BSI, separately warned Friday about a cyberattack campaign linked to the same financially motivated hackers behind Rhysida. The agency did not explicitly identify Berlin as one of the victims but said it had been informed in August about the compromise of a government institution. According to the BSI, the campaign resembles the so-called TerminalFix attacks recently documented by Microsoft. Hackers compromise websites and display fake CAPTCHA verification pages that trick visitors into manually running malicious commands on their computers. The BSI said reports it received indicated that attackers attempted both to steal data and install ransomware, allowing them to pressure victims with the threat of publishing stolen information. The agency said the campaign involved malware known as LoremIpsumLoader, or AxolotLoader, which it linked to the same financially motivated cybercriminal group associated with Rhysida. “According to current findings, the campaign is being carried out by cybercriminal actors,” the BSI said.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Berlin investigates new data leak after hackers publish stolen login credentials
-  - Published: 2026-09-07T11:50:00+00:00
-  - Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
-  - Summary: Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
 
 ### Cluster 90c34aa7f8 — score 10
 
@@ -3284,6 +3234,51 @@ Trezor data breach impact now reaches 81,000 customers By Sergiu Gatlan Septembe
   - Published: 2026-09-07T12:16:32+00:00
   - Link: https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/
   - Summary: Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]
+
+### Cluster 3e2126d697 — score 10
+
+- Title: Berlin investigates new data leak after hackers publish stolen login credentials
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-09-07T11:50:00+00:00
+- Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: Rhysida
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: Rhysida
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
+```
+
+#### Full body
+
+```
+Berlin. Image: Ro Berto via Pexels Berlin investigates new data leak after hackers publish stolen login credentials German authorities are investigating another trove of data stolen from Berlin’s government network after hackers published login credentials and other information over the weekend. The latest release follows a cyberattack discovered in mid-August that compromised two Berlin ministries responsible for urban development and housing, and for transport, mobility, climate protection and the environment. Berlin’s government said Sunday that the newly released data includes login credentials but did not say what systems they could be used to access or whether they were still valid. The authorities have not attributed the attack to a specific threat actor. The city’s urban development ministry has strengthened security measures introduced after an earlier data leak, which officials said could temporarily limit access to some of its applications. 'A very serious crime' Berlin’s data protection authority said Friday that the attackers stole a large amount of data from the two affected ministries and later published it online. Officials are still reviewing the stolen files because of the volume of data involved. The regulator confirmed that the leak includes personal information about public employees and said data belonging to Berlin residents also may have been exposed. Potentially compromised information includes names, addresses, dates of birth, bank information, email addresses, telephone numbers, correspondence with government agencies and copies of documents submitted to the administration, according to the regulator. Berlin has created an additional task force to review the leaked material and determine who may be affected. “A very serious crime has been committed against the State of Berlin,” Governing Mayor Kai Wegner said Saturday, adding that authorities were working to identify and assist people whose information had been exposed. No payment The Rhysida ransomware group claimed responsibility for the breach in late August, saying it had stolen 5.79 terabytes of data, including tens of thousands of contracts, emails, passwords and classified information. Berlin has confirmed that data was stolen and that it received an extortion demand, but officials have not publicly attributed the attack to Rhysida or verified the hackers’ claims about the amount or contents of the stolen material. Wegner said last month that Berlin would not pay the attackers. “The State of Berlin will not be blackmailed,” Berlin Chief Digital Officer Florian Hauer said separately. The affected systems were disconnected from Berlin’s wider government network on Aug. 14. Both ministries continued operating, but the disruption left some employees without their normal email and internet access and temporarily affected public services that depend on their systems. Rhysida warning Germany’s Federal Office for Information Security, or BSI, separately warned Friday about a cyberattack campaign linked to the same financially motivated hackers behind Rhysida. The agency did not explicitly identify Berlin as one of the victims but said it had been informed in August about the compromise of a government institution. According to the BSI, the campaign resembles the so-called TerminalFix attacks recently documented by Microsoft. Hackers compromise websites and display fake CAPTCHA verification pages that trick visitors into manually running malicious commands on their computers. The BSI said reports it received indicated that attackers attempted both to steal data and install ransomware, allowing them to pressure victims with the threat of publishing stolen information. The agency said the campaign involved malware known as LoremIpsumLoader, or AxolotLoader, which it linked to the same financially motivated cybercriminal group associated with Rhysida. “According to current findings, the campaign is being carried out by cybercriminal actors,” the BSI said.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Berlin investigates new data leak after hackers publish stolen login credentials
+  - Published: 2026-09-07T11:50:00+00:00
+  - Link: https://therecord.media/germany-berlin-second-data-breach-city-agencies
+  - Summary: Another trove of data from Berlin's government has appeared online, authorities said. Germany's information security agency separately warned about the Rhysida cybercrime group.
 
 ### Cluster 980800493a — score 10
 
@@ -3887,43 +3882,6 @@ Cybersecurity researchers have identified a set of 13 malicious Composer theme p
   - Link: https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html
   - Summary: Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. "The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect
 
-### Cluster 817be3097f — score 10
-
-- Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-09-07T08:28:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
-  - Published: 2026-09-07T08:28:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
-  - Summary: A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
-
 ### Cluster a91efa5346 — score 9
 
 - Title: Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)
@@ -4092,6 +4050,43 @@ This is interesting: The records describe a force-generation mechanism for sever
   - Published: 2026-09-01T16:29:10+00:00
   - Link: https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html
   - Summary: This is interesting: The records describe a force-generation mechanism for several General Staff components, including the GRU, Main Operational Directorate, and 8th Directorate, which is associated with protected communications, cryptography, and information security. […] The reporting also linked a 2024 Department No. 4 graduate, Aleksei Kondrashov, to Military Unit 74455, widely known as Sandworm. That unit has been associated with destructive cyber activity against Ukraine and other targets, including the 2017 NotPetya attack. The reports do not establish that every listed graduate participated in a named operation; assignments should therefore be described as reported unit placements, not proof of individual operational involvement...
+
+### Cluster 817be3097f — score 9
+
+- Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-09-07T08:28:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Researcher Publishes CrowdStrike Privilege Escalation Zero Day
+  - Published: 2026-09-07T08:28:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/crowdstrike-privilege-escalation/
+  - Summary: A security researcher has posted a zero-day exploit in CrowdStrike which could allow hackers to escalate privileges
 
 ### Cluster 4933c82778 — score 9
 
